@@ -1,0 +1,9 @@
+# Python bytecode
+*.pyc
+__pycache__/
+
+# Log files
+*.log
+
+# Runtime state files
+data/state/*.json
