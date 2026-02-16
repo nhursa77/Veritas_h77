@@ -2,8 +2,21 @@
 *.pyc
 __pycache__/
 
+# JavaScript dependencies
+node_modules/
+
+# Python virtual environments
+.venv/
+
+# Environment files
+.env
+.env.*
+
 # Log files
 *.log
+
+# Temporary files
+*.tmp
 
 # Runtime state files
 data/state/*.json
