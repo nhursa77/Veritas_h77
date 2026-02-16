@@ -1,9 +1,11 @@
 # DOKUMENT 02 — Standard JSON “NORMA” (chunk = članak) — kanonski
 
 ## 0) Svrha
+
 Ovaj standard definira jedinstveni JSON format za pohranu normativnih tekstova (ustav, zakoni, pravilnici i međunarodni akti), gdje je osnovna jedinica obrade **članak**.
 
 Cilj:
+
 - deterministička obrada (bez improvizacije),
 - jednoznačno citiranje (čl., st., t.),
 - dokazno sidrenje (Narodne novine i/ili službeni izvor),
@@ -13,6 +15,7 @@ Cilj:
 ---
 
 ## 1) Načela
+
 1) **Jedan članak = jedan JSON objekt.**  
 2) **Struktura teksta se čuva** (stavci, točke, alineje) tako da je moguće precizno citirati.  
 3) **Svaki članak mora imati dokazno sidro** (službena objava/izvor) ili se označava kao nepotpun za vanjsku uporabu.  
@@ -24,12 +27,15 @@ Cilj:
 ---
 
 ## 2) Lokacija u repozitoriju
+
 Preporučena struktura:
+
 - `baza_zakona/<vrsta>/<slug_akta>/<stanje_na_dan>/`
 npr.
 - `baza_zakona/zakon/zakon_o_opcem_upravnom_postupku/16-02-2026/`
 
 Svaki članak je zasebna datoteka:
+
 - `clanak_<broj>.json` (npr. `clanak_12.json`)
 Za složenije oznake:
 - `clanak_12a.json`, `clanak_1045.json`
@@ -37,9 +43,11 @@ Za složenije oznake:
 ---
 
 ## 3) Obavezna polja (minimalni zapis)
+
 Svaki članak mora sadržavati sljedeća polja:
 
 ### 3.1 Identitet akta
+
 - `akt` (objekt)
   - `naziv` (string)
   - `vrsta` (enum: `ustav`, `zakon`, `pravilnik`, `uredba`, `odluka`, `medunarodni_akt`)
@@ -48,6 +56,7 @@ Svaki članak mora sadržavati sljedeća polja:
   - `jezik` (string, npr. `hr`)
 
 ### 3.2 Identitet članka
+
 - `clanak` (objekt)
   - `oznaka` (string, npr. `12`, `12.a`, `1045`)
   - `naslov` (string ili null)
@@ -55,12 +64,14 @@ Svaki članak mora sadržavati sljedeća polja:
   - `struktura` (objekt; vidi poglavlje 4)
 
 ### 3.3 Verzija i provjera (datumi: DD/MM/YYYY)
+
 - `verzija` (objekt)
   - `stanje_na_dan` (datum `DD/MM/YYYY`)
   - `datum_provjere` (datum `DD/MM/YYYY`)
   - `napomena` (string ili null)
 
 ### 3.4 Izvori i sidra (datumi: DD/MM/YYYY)
+
 - `izvori` (objekt)
   - `operativni_izvor` (objekt ili null)
     - `naziv` (string; npr. `zakon.hr`)
@@ -72,6 +83,7 @@ Svaki članak mora sadržavati sljedeća polja:
   - `status_sidra` (enum: `puno`, `djelomicno`, `nema`)
 
 ### 3.5 Integritet
+
 - `integritet` (objekt)
   - `sha256_teksta` (string; hash nad kanoniziranim tekstom članka)
   - `sha256_datoteke` (string ili null; ako se koristi)
@@ -80,9 +92,11 @@ Svaki članak mora sadržavati sljedeća polja:
 ---
 
 ## 4) Struktura članka (stavci/točke)
+
 Polje `struktura` mora omogućiti precizno citiranje.
 
 Minimalno:
+
 - `stavci` (array)
   - svaki stavak:
     - `broj` (integer, 1..n)
@@ -98,6 +112,7 @@ Ako članak nema formalne stavke, cijeli tekst ide u stavak 1.
 ---
 
 ## 5) Sidra (Narodne novine / službeni izvor)
+
 `sidra` je niz objekata, minimalno:
 
 - `sidra[]`:
@@ -111,6 +126,7 @@ Ako akt nije iz NN (npr. UN), koristi se odgovarajući službeni izvor u istom f
 ---
 
 ## 6) Pravila valjanosti zapisa (gating)
+
 Zapis članka je:
 
 - **interno upotrebljiv** ako postoji operativni izvor i struktura teksta.
@@ -121,6 +137,7 @@ Ako nije “vanjski upotrebljiv”, Veritas mora jasno označiti status i predlo
 ---
 
 ## 7) Primjer (minimalni)
+>
 > Primjer je ilustrativan; stvarne vrijednosti se popunjavaju po stvarnom aktu.
 
 ```json
