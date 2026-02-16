@@ -1,0 +1,6 @@
+services:
+  veritas:
+    image: alpine:3.20
+    volumes:
+      - ./:/repo
+    command: ["sh", "-lc", "ls -la /repo; tail -f /dev/null"]
