@@ -1,6 +1,7 @@
 # Veritas H.77
 
-Veritas H.77 je ustavno-pravni digitalni sustav za obranu prava pojedinca kroz strogo strukturiranu obradu činjenica, normi i postupaka.
+Veritas H.77 je ustavno-pravni digitalni sustav za obranu prava pojedinca kroz
+strogo strukturiranu obradu činjenica, normi i postupaka.
 
 Sustav omogućuje:
 - determinističku obradu zakonskih tekstova  
@@ -19,7 +20,8 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 ## Temeljna načela
 
-1. Hijerarhija normi: prirodno pravo → međunarodni akti → ustav → zakoni → podzakonski akti.  
+1. Hijerarhija normi: prirodno pravo → međunarodni akti → ustav → zakoni →
+   podzakonski akti.  
 2. Službeni izvor ima prednost nad agregiranim tekstom.  
 3. Svaka norma mora imati dokazno sidro.  
 4. Svaka obrada mora biti ponovljiva i provjerljiva.  
@@ -31,8 +33,10 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 - Pročišćeni tekst zakona koristi se kao radna osnova.  
 - Službena objava u Narodnim novinama predstavlja dokazni izvor.  
-- U slučaju razlike, prednost ima službeni tekst objavljen u Narodnim novinama.  
-- Svaki citirani članak mora sadržavati oznaku članka, stavka i podatke o objavi.  
+- U slučaju razlike, prednost ima službeni tekst objavljen u Narodnim
+  novinama.  
+- Svaki citirani članak mora sadržavati oznaku članka, stavka i podatke o
+  objavi.  
 
 ---
 

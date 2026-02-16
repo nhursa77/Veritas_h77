@@ -2,7 +2,9 @@
 
 ## 0) Svrha dokumenta
 
-Ovaj dokument propisuje što je Veritas H.77, kako radi, koje izvore koristi, kako provodi hijerarhiju normi i proceduralna pravila, te pod kojim uvjetima izlazni dokumenti postaju pravno važeći.
+Ovaj dokument propisuje što je Veritas H.77, kako radi, koje izvore koristi,
+kako provodi hijerarhiju normi i proceduralna pravila, te pod kojim uvjetima
+izlazni dokumenti postaju pravno važeći.
 
 Ovaj dokument je kanonski temelj za:
 
@@ -19,11 +21,13 @@ Veritas H.77 je **digitalizirana proceduralna metodologija** koja:
 
 1) prikuplja i strukturira činjenice i dokaze,
 2) identificira relevantne norme kroz hijerarhiju pravnih izvora,
-3) osigurava dosljednu primjenu proceduralnih pravila (rokovi, nadležnost, redoslijed, pravni lijekovi),
+3) osigurava dosljednu primjenu proceduralnih pravila (rokovi, nadležnost,
+redoslijed, pravni lijekovi),
 4) generira nacrte pravno urednih dokumenata i proceduralnih planova,
 5) bilježi dokazivi trag (integritet, izvori, stanje na dan).
 
-Veritas ne donosi autonomne pravne zaključke umjesto čovjeka i ne djeluje samostalno u pravnom prometu.
+Veritas ne donosi autonomne pravne zaključke umjesto čovjeka i ne djeluje
+samostalno u pravnom prometu.
 
 ---
 
@@ -75,7 +79,8 @@ Ovo je temelj fer i transparentnog rada:
 Veritas primjenjuje hijerarhiju normi prema načelu nadređenosti i ustavnosti:
 
 1) Prirodna prava i načela pravičnosti (kao interpretativno mjerilo)
-2) Međunarodni akti temeljnih prava (npr. Opća deklaracija o ljudskim pravima i relevantni paktovi)
+2) Međunarodni akti temeljnih prava (npr. Opća deklaracija o ljudskim pravima
+i relevantni paktovi)
 3) Ustav Republike Hrvatske
 4) Zakoni (lex specialis > lex generalis; noviji > stariji kada je primjenjivo)
 5) Podzakonski akti i lokalni propisi
@@ -97,7 +102,8 @@ Veritas razlikuje:
 
 ### 5.1 Operativni izvor: pročišćeni tekst
 
-Za radni (pročišćeni) tekst i strukturu članaka koristi se pročišćeni izvor (npr. zakon.hr) jer je tehnički uredan i pogodan za determinističku obradu.
+Za radni (pročišćeni) tekst i strukturu članaka koristi se pročišćeni izvor
+(npr. zakon.hr) jer je tehnički uredan i pogodan za determinističku obradu.
 
 ### 5.2 Dokazni izvor: Narodne novine
 
@@ -119,7 +125,8 @@ Ako postoji razlika između operativnog pročišćenog teksta i službene objave
 
 ## 6) Dvije baze znanja (temelj funkcionalnosti)
 
-Da Veritas ne bude “pričalica”, nego proceduralni stroj, sustav mora imati dvije povezane baze u JSON formatu:
+Da Veritas ne bude “pričalica”, nego proceduralni stroj, sustav mora imati
+dvije povezane baze u JSON formatu:
 
 ### 6.1 Baza normi (NORMA JSON)
 
@@ -161,7 +168,8 @@ Veritas radi po standardnom ciklusu:
 Veritas smije krenuti s obradom predmeta kada postoje najmanje:
 
 - jedna izjava korisnika (opis događaja),
-- barem jedan prilog ili provjerljiv podatak (dokument, dopis, račun, rješenje, zapisnik, e-mail, fotografija, broj predmeta),
+- barem jedan prilog ili provjerljiv podatak (dokument, dopis, račun,
+  rješenje, zapisnik, e-mail, fotografija, broj predmeta),
 - označen rok ako postoji (ili napomena da rok nije poznat).
 
 Ako nema minimalnih elemenata:
@@ -199,7 +207,8 @@ Svaki izlaz mora imati status:
 3) **SPREMNO ZA POTPIS**
    - dokument je u finalnom formatu, s popisom priloga i izvora
 4) **POTPISANO**
-   - potpis osobe priložen; dokument je pravno važeći kao podnesak (ovisno o načinu predaje)
+    - potpis osobe priložen; dokument je pravno važeći kao podnesak
+       (ovisno o načinu predaje)
 5) **FORENZIČKI ZAKLJUČANO**
    - dodan hash bundle, manifest i evidencija predaje (ako se koristi)
 
@@ -237,4 +246,7 @@ Nijedan agent ne smije:
 
 ## 13) Zaključna norma
 
-Veritas H.77 je sustav koji štiti čovjeka dosljednom primjenom propisane procedure i hijerarhije normi. Njegova snaga nije u autoritetu, nego u provjerljivosti, pravilnosti i potpisnoj kontroli čovjeka nad svakim dokumentom.
+Veritas H.77 je sustav koji štiti čovjeka dosljednom primjenom propisane
+procedure i hijerarhije normi. Njegova snaga nije u autoritetu, nego u
+provjerljivosti, pravilnosti i potpisnoj kontroli čovjeka nad svakim
+dokumentom.
