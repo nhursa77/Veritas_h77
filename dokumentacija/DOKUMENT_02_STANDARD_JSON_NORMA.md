@@ -2,7 +2,9 @@
 
 ## 0) Svrha
 
-Ovaj standard definira jedinstveni JSON format za pohranu normativnih tekstova (ustav, zakoni, pravilnici i međunarodni akti), gdje je osnovna jedinica obrade **članak**.
+Ovaj standard definira jedinstveni JSON format za pohranu normativnih tekstova
+(ustav, zakoni, pravilnici i međunarodni akti), gdje je osnovna jedinica obrade
+**članak**.
 
 Cilj:
 
@@ -17,11 +19,14 @@ Cilj:
 ## 1) Načela
 
 1) **Jedan članak = jedan JSON objekt.**  
-2) **Struktura teksta se čuva** (stavci, točke, alineje) tako da je moguće precizno citirati.  
-3) **Svaki članak mora imati dokazno sidro** (službena objava/izvor) ili se označava kao nepotpun za vanjsku uporabu.  
+2) **Struktura teksta se čuva** (stavci, točke, alineje) tako da je moguće
+precizno citirati.  
+3) **Svaki članak mora imati dokazno sidro** (službena objava/izvor) ili se
+označava kao nepotpun za vanjsku uporabu.  
 4) **Verzija je obavezna**: “stanje na dan” + datum provjere.  
 5) **Jezik je hrvatski**, nazivi polja su hrvatski (bez engleskog).  
-6) **Razdvajanje izvora**: operativni tekst (pročišćeni) ≠ dokazni izvor (službena objava).  
+6) **Razdvajanje izvora**: operativni tekst (pročišćeni) ≠ dokazni izvor
+(službena objava).  
 7) **Format datuma je hrvatski**: `DD/MM/YYYY` (npr. `16/02/2026`).
 
 ---
@@ -50,7 +55,8 @@ Svaki članak mora sadržavati sljedeća polja:
 
 - `akt` (objekt)
   - `naziv` (string)
-  - `vrsta` (enum: `ustav`, `zakon`, `pravilnik`, `uredba`, `odluka`, `medunarodni_akt`)
+  - `vrsta` (enum: `ustav`, `zakon`, `pravilnik`, `uredba`, `odluka`,
+    `medunarodni_akt`)
   - `slug` (string, stabilan identifikator u repou)
   - `jurisdikcija` (string, npr. `RH`, `EU`, `UN`)
   - `jezik` (string, npr. `hr`)
@@ -118,10 +124,12 @@ Ako članak nema formalne stavke, cijeli tekst ide u stavak 1.
 - `sidra[]`:
   - `nn_broj` (string, npr. `47/09`)
   - `datum_objave` (datum `DD/MM/YYYY` ili null ako nije poznat)
-  - `opis` (string; npr. `pročišćeni tekst`, `izmjene i dopune`, `osnovni tekst`)
+  - `opis` (string; npr. `pročišćeni tekst`, `izmjene i dopune`,
+    `osnovni tekst`)
   - `url` (string ili null)
 
-Ako akt nije iz NN (npr. UN), koristi se odgovarajući službeni izvor u istom formatu.
+Ako akt nije iz NN (npr. UN), koristi se odgovarajući službeni izvor u istom
+formatu.
 
 ---
 
@@ -129,10 +137,13 @@ Ako akt nije iz NN (npr. UN), koristi se odgovarajući službeni izvor u istom f
 
 Zapis članka je:
 
-- **interno upotrebljiv** ako postoji operativni izvor i struktura teksta.
-- **vanjski upotrebljiv (za podneske)** samo ako je `status_sidra = puno` i postoji barem jedno dokazno sidro.
+- **interno upotrebljiv** ako postoji operativni izvor i struktura
+  teksta.
+- **vanjski upotrebljiv (za podneske)** samo ako je `status_sidra = puno`
+  i postoji barem jedno dokazno sidro.
 
-Ako nije “vanjski upotrebljiv”, Veritas mora jasno označiti status i predložiti dopunu sidara.
+Ako nije “vanjski upotrebljiv”, Veritas mora jasno označiti status
+i predložiti dopunu sidara.
 
 ---
 
