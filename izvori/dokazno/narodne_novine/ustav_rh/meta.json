@@ -3,9 +3,13 @@
     "vrsta_akta":  "ustav",
     "slug":  "ustav_rh",
     "naziv_izvora":  "Narodne novine",
-    "url":  "https://narodne-novine.nn.hr/",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  167680,
+    "oznaka_akta":  "NN 56/1990",
     "datum_pristupa":  "17.02.2026.",
-    "sha256_datoteke":  "826564F01879102FB8C9E2D96D7A2A35448E57BC5BE2D74E767A6BCBA8FBDEA6",
+    "sha256_datoteke":  "A91CA0D961823B76295622837A041B76749B08BF9321DFE935468BA4BAD7D6A5",
     "format":  "html",
     "napomena":  "Primarni izvor arhiviran za Veritas H.77."
 }
