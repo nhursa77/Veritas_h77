@@ -24,6 +24,21 @@ def sha256_hex_text(content: str) -> str:
     return hashlib.sha256(content.encode("utf-8")).hexdigest().upper()
 
 
+def kanonski_hash_datoteke_iz_payload(payload: dict) -> str | None:
+    integritet = payload.get("integritet")
+    if not isinstance(integritet, dict):
+        return None
+
+    payload_copy = json.loads(json.dumps(payload, ensure_ascii=False))
+    payload_copy_integritet = payload_copy.get("integritet")
+    if not isinstance(payload_copy_integritet, dict):
+        return None
+
+    payload_copy_integritet["sha256_datoteke"] = ""
+    canonical_without_file_hash = json.dumps(payload_copy, ensure_ascii=False, indent=2)
+    return sha256_hex_text(canonical_without_file_hash)
+
+
 def today_hr() -> str:
     return datetime.now().strftime("%d.%m.%Y.")
 
@@ -121,11 +136,16 @@ def provjeri_datoteku(path: Path) -> list[tuple[str, str]]:
             )
 
         sha_datoteke = integritet.get("sha256_datoteke")
-        if sha_datoteke != disk_hash:
+        expected_canonical_hash = kanonski_hash_datoteke_iz_payload(payload)
+        is_match_disk_hash = sha_datoteke == disk_hash
+        is_match_canonical_hash = expected_canonical_hash is not None and sha_datoteke == expected_canonical_hash
+
+        if not is_match_disk_hash and not is_match_canonical_hash:
+            ocekivano = expected_canonical_hash if expected_canonical_hash is not None else disk_hash
             errors.append(
                 (
                     "integritet.sha256_datoteke",
-                    f"ne odgovara hashu datoteke na disku (očekivano {disk_hash}, dobiveno {sha_datoteke})",
+                    f"ne odgovara očekivanom hashu (kanonski {ocekivano}; bytes-na-disku {disk_hash}; dobiveno {sha_datoteke})",
                 )
             )
     else:
