@@ -94,10 +94,17 @@ Odluke o slanju i potpisu ostaju na čovjeku.
 
 ## 6) Ingest i izvori
 
-Operativni izvor je zakon.hr (pročišćeni tekst) za tehničku obradu.
-Dokazno sidro su Narodne novine za službenu valjanost.
-Ako postoji nesklad između izvora, nesklad se mora označiti i evidentirati.
-U slučaju nesklada prednost ima dokazni izvor.
+Primarni izvor je Narodne novine (dokazni i operativni tekst).
+Primarna arhiva izvora je:
+
+- `izvori/dokazno/narodne_novine/<akt_slug>/`
+
+Opcionalni backup/kontrolni izvor je zakon.hr:
+
+- `izvori/operativno/zakon_hr/<akt_slug>/`
+
+Ako postoji nesklad između pomoćnog izvora i NN izvora, nesklad se mora
+označiti i evidentirati. U slučaju nesklada prednost ima NN izvor.
 
 ---
 

@@ -46,8 +46,8 @@ Ulazi (činjenice + dokazi)
 4) Norma je “chunk = članak” i mora biti citabilna na razini čl./st./t.
 5) Postupak je “korak = JSON objekt” i ne izvršava se bez gate uvjeta.
 6) Vanjski izlaz vrijedi tek nakon potpisa nositelja.
-7) Operativni tekst normi: zakon.hr (pročišćeni tekst) —
-   ali dokazno sidro: Narodne novine (ili drugi službeni izvor).
+7) Primarni izvor normi: Narodne novine (dokazni i operativni tekst).
+  zakon.hr je opcionalni backup/kontrolni izvor.
 8) Ne ide se na skaliranje i UI prije nego što MVP end-to-end radi na jednom
    stvarnom predmetu.
 
@@ -85,24 +85,60 @@ PROVJERA:
 GATE:
 - bez ove faze nema novih standarda ni alata
 
-### FAZA 1 — Standard JSON NORMA (članak) + minimalni set normi
-CILJ: Imamo minimalnu bazu normi u JSON formatu, citabilnu i stabilnu.
+### FAZA 1 — Ingest NN izvora + arhiva izvora
+CILJ: Uspostaviti deterministički dohvat i arhivu primarnog izvora iz NN.
 ULAZ:
+- URL službene objave u NN
+- akt slug, naziv akta, vrsta akta
+IZLAZ:
+- `izvori/dokazno/narodne_novine/<akt_slug>/izvor_nn.<ext>`
+- `izvori/dokazno/narodne_novine/<akt_slug>/meta.json`
+- hash (`sha256_datoteke`) i datum pristupa (`DD.MM.YYYY.`)
+PROVJERA:
+- provjera da datoteka postoji i da je hash zapisan u `meta.json`
+GATE:
+- bez arhiviranog i hashiranog NN izvora nema vanjskog izlaza
+
+### FAZA 2 — Parsiranje NN izvora u strukturu
+CILJ: Iz NN izvora dobiti strukturirani zapis članaka/stavaka za daljnju obradu.
+ULAZ:
+- arhivirani NN izvor (`izvor_nn.html` ili `izvor_nn.pdf`)
+- `meta.json`
+IZLAZ:
+- strukturirani JSON članci (bez izmišljanja teksta)
+PROVJERA:
+- broj članaka i osnovna struktura su konzistentni s izvorom
+GATE:
+- bez strukturiranog izlaza iz NN nema normiranja
+
+### FAZA 3 — Normiranje u NORMA JSON
+CILJ: Iz strukturiranog NN izlaza generirati NORMA JSON zapise (chunk=članak).
+ULAZ:
+- strukturirani JSON iz faze 2
 - kanonski `STANDARD_JSON_NORMA.md`
 IZLAZ:
-- `baza_normi/` sa barem:
-  - `ustav_rh` (minimalno ključni članci koji se često citiraju u praksi)
-  - jedan procesni zakon (npr. ZUP ili ZPP) u minimalnom opsegu (pilot)
-- svaka norma ima:
-  - operativni izvor (zakon.hr)
-  - dokazna sidra (NN) ili status `djelomicno` uz napomenu
+- NORMA JSON datoteke po člancima
+- status sidra i integritet po zapisu
 PROVJERA:
 - ručno: uzmi 3 članka i citiraj ih čl./st./t. iz JSON-a
 - provjeri da `stanje_na_dan` postoji i da je format `DD.MM.YYYY.`
 GATE:
-- bez minimalne baze normi ne prelazimo na postupke
+- bez konzistentne NORMA baze ne prelazi se na postupke
 
-### FAZA 2 — Standard JSON POSTUPAK (koraci) + minimalni set postupaka
+### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
+CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
+ULAZ:
+- `baza_zakona/norme/**`
+- `izvori/dokazno/narodne_novine/**`
+IZLAZ:
+- izvještaj kontrole arhive sa statusima `OK`, `NEDOSTAJE`, `HASH_NEDOSTAJE`
+PROVJERA:
+- za svaki akt slug postoji kontrolni status i razlog
+GATE:
+- ako postoji `NEDOSTAJE` ili `HASH_NEDOSTAJE` za akt u predmetu,
+  vanjski izlaz je zabranjen
+
+### FAZA 5 — Standard JSON POSTUPAK (koraci) + minimalni set postupaka
 CILJ: Postupci su opisani kao koraci, s hitnošću, rokovima, dokazima i
 izlazom.
 ULAZ:
@@ -118,7 +154,7 @@ PROVJERA:
 GATE:
 - bez gate pravila nema “izlaza” dokumenta
 
-### FAZA 3 — Standard “PREDMET” (slučaj) + lanac skrbništva
+### FAZA 6 — Standard “PREDMET” (slučaj) + lanac skrbništva
 CILJ: Predmet je formalna jedinica rada: činjenice, dokazi, rokovi, odluke,
 izlazi.
 ULAZ:
@@ -137,7 +173,7 @@ PROVJERA:
 GATE:
 - bez lanca skrbništva nema vanjskog paketa
 
-### FAZA 4 — Testovi i validacije (gating)
+### FAZA 7 — Testovi i validacije (gating)
 CILJ: Sustav odbija pogrešne ulaze i sprječava “gluposti” prije nego izađu van.
 ULAZ:
 - dovršene faze 0–3
@@ -152,7 +188,7 @@ PROVJERA:
 GATE:
 - bez validacije nema ozbiljne uporabe
 
-### FAZA 5 — Predlošci i generator nacrta dokumenata
+### FAZA 8 — Predlošci i generator nacrta dokumenata
 CILJ: Iz činjenica + citata normi + predloška generira se nacrt dokumenta.
 ULAZ:
 - minimalni predmet + norme + postupak
@@ -170,19 +206,7 @@ PROVJERA:
 GATE:
 - nacrt mora sadržavati “vrijedi tek nakon potpisa nositelja”
 
-### FAZA 6 — Verifikacija izvora: zakon.hr (operativno) + NN (sidra)
-CILJ: Sustav razlikuje operativni tekst i dokazno sidro, i zna status sidra.
-ULAZ:
-- norma JSON zapisi
-IZLAZ:
-- pravilo: “operativno = zakon.hr, dokazno = NN”
-- mehanizam (ručno ili skripta) da se za normu unesu NN sidra
-PROVJERA:
-- za 5 normi potvrdi `status_sidra_norme = puno` s konkretnim sidrima
-GATE:
-- bez sidra: dokument može biti samo interna priprema, ne vanjski izlaz
-
-### FAZA 7 — Pilot end-to-end (bez agenata)
+### FAZA 9 — Pilot end-to-end (bez agenata)
 CILJ: Potvrditi puni tijek na jednom predmetu prije automatizacije.
 ULAZ:
 - 1 predmet, 1 prilog, 1 NORMA članak, 1 POSTUPAK i 1 predložak
@@ -193,7 +217,7 @@ PROVJERA:
 GATE:
 - bez ove kontrolne faze nema uvođenja automatizacije
 
-### FAZA 8 — Lokalni runtime: Ollama + agenti (bez cloud-a)
+### FAZA 10 — Lokalni runtime: Ollama + agenti (bez cloud-a)
 CILJ: Lokalni modeli služe kao pomoć, ali strogo unutar gate pravila.
 ULAZ:
 - baze normi i postupaka
@@ -208,7 +232,7 @@ PROVJERA:
 GATE:
 - agenti ne smiju generirati vanjski izlaz bez sidra + potpisa
 
-### FAZA 9 — Docker: reproducibilnost i izolacija
+### FAZA 11 — Docker: reproducibilnost i izolacija
 CILJ: Sve radi jednako na istoj mašini i kasnije na drugoj mašini.
 ULAZ:
 - postojeći docker compose kostur
@@ -221,7 +245,7 @@ PROVJERA:
 GATE:
 - bez reproducibilnosti nema širenja sustava
 
-### FAZA 10 — Prvi živi predmet (dokaz sustava)
+### FAZA 12 — Prvi živi predmet (dokaz sustava)
 CILJ: Jedan stvarni predmet se odradi od početka do kraja.
 ULAZ:
 - stvarni dokazi + činjenice

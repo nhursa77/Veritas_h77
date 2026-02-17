@@ -93,33 +93,45 @@ i relevantni paktovi)
 
 ---
 
-## 5) Pravilo izvora (zakon.hr + Narodne novine)
+## 5) Pravilo izvora (Narodne novine = primarno)
 
 Veritas razlikuje:
 
-- **operativni izvor teksta** (za strukturu i parsiranje),
-- **dokazni izvor** (za službenu valjanost, sidra, izmjene, datume).
+- **primarni izvor teksta** (dokazni i operativni tekst),
+- **backup/kontrolni izvor** (opcionalni pomoćni izvor).
 
-### 5.1 Operativni izvor: pročišćeni tekst
+### 5.1 Primarni izvor: Narodne novine
 
-Za radni (pročišćeni) tekst i strukturu članaka koristi se pročišćeni izvor
-(npr. zakon.hr) jer je tehnički uredan i pogodan za determinističku obradu.
+Narodne novine su obavezni primarni izvor za:
 
-### 5.2 Dokazni izvor: Narodne novine
-
-Narodne novine su dokazni izvor za:
-
+- operativni tekst,
 - službenu objavu propisa,
 - izmjene i dopune,
 - datume i brojeve objave,
 - službenu valjanost.
 
+Svaki NORMA zapis mora imati vezu na NN arhivu:
+
+- putanju do arhivirane izvorne datoteke (`izvor_nn.html` ili `izvor_nn.pdf`),
+- putanju do `meta.json`,
+- evidentiran SHA-256 datoteke.
+
+Ako NN izvor nije arhiviran i hashiran:
+
+- `status_sidra = "nema"`,
+- vanjski izlaz je zabranjen.
+
+### 5.2 Backup i kontrola: zakon.hr (opcijski)
+
+zakon.hr je opcionalan backup/kontrolni izvor za tehničku usporedbu.
+Nije dio obaveznog primarnog toka i ne može zamijeniti NN arhivu.
+
 ### 5.3 Pravilo sukoba
 
-Ako postoji razlika između operativnog pročišćenog teksta i službene objave:
+Ako postoji razlika između pomoćnog izvora i službene objave:
 
 - prednost ima službena objava u Narodnim novinama,
-- zapis se označava kao “nesklad” i mora sadržavati dokazno sidro i napomenu o odstupanju.
+- zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu o odstupanju.
 
 ---
 
