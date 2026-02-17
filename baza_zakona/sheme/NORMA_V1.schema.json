@@ -1,0 +1,221 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "NORMA_V1.schema.json",
+  "title": "NORMA_V1",
+  "type": "object",
+  "required": [
+    "akt",
+    "clanak",
+    "citiranje",
+    "verzija",
+    "izvori",
+    "integritet"
+  ],
+  "properties": {
+    "akt": {
+      "type": "object",
+      "required": [
+        "naziv",
+        "vrsta",
+        "slug",
+        "jurisdikcija",
+        "jezik"
+      ],
+      "properties": {
+        "naziv": { "type": "string" },
+        "vrsta": {
+          "type": "string",
+          "enum": [
+            "ustav",
+            "zakon",
+            "pravilnik",
+            "uredba",
+            "odluka",
+            "medunarodni_akt"
+          ]
+        },
+        "slug": { "type": "string" },
+        "jurisdikcija": { "type": "string" },
+        "jezik": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "clanak": {
+      "type": "object",
+      "required": ["oznaka", "naslov", "tekst", "struktura"],
+      "properties": {
+        "oznaka": { "type": "string" },
+        "naslov": { "type": ["string", "null"] },
+        "tekst": { "type": "string" },
+        "struktura": {
+          "type": "object",
+          "required": ["stavci"],
+          "properties": {
+            "stavci": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["broj", "tekst", "tocke"],
+                "properties": {
+                  "broj": { "type": "integer" },
+                  "tekst": { "type": "string" },
+                  "tocke": {
+                    "type": ["array", "null"],
+                    "items": {
+                      "type": "object",
+                      "required": ["oznaka", "tekst", "alineje"],
+                      "properties": {
+                        "oznaka": { "type": "string" },
+                        "tekst": { "type": "string" },
+                        "alineje": {
+                          "type": ["array", "null"],
+                          "items": { "type": "string" }
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "citiranje": {
+      "type": "object",
+      "required": ["format", "clanak", "stavak", "tocka"],
+      "properties": {
+        "format": { "type": "string" },
+        "clanak": { "type": "string" },
+        "stavak": { "type": ["integer", "null"] },
+        "tocka": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "verzija": {
+      "type": "object",
+      "required": ["stanje_na_dan", "datum_provjere", "napomena"],
+      "properties": {
+        "stanje_na_dan": {
+          "type": "string",
+          "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}\\.$"
+        },
+        "datum_provjere": {
+          "type": "string",
+          "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}\\.$"
+        },
+        "napomena": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    },
+    "izvori": {
+      "type": "object",
+      "required": ["operativni_izvor", "dokazni_izvor", "status_sidra"],
+      "properties": {
+        "operativni_izvor": {
+          "type": ["object", "null"],
+          "properties": {
+            "naziv": { "type": "string" },
+            "url": { "type": ["string", "null"] },
+            "datum_pristupa": {
+              "type": "string",
+              "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}\\.$"
+            }
+          },
+          "additionalProperties": true
+        },
+        "dokazni_izvor": {
+          "type": ["object", "null"],
+          "properties": {
+            "naziv": { "type": "string" },
+            "sidra": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["nn_broj", "datum_objave", "opis", "url"],
+                "properties": {
+                  "nn_broj": { "type": ["string", "null"] },
+                  "datum_objave": {
+                    "type": ["string", "null"],
+                    "pattern": "^\\d{2}\\.\\d{2}\\.\\d{4}\\.$"
+                  },
+                  "opis": { "type": "string" },
+                  "url": { "type": ["string", "null"] }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        "status_sidra": {
+          "type": "string",
+          "enum": ["puno", "djelomicno", "nema", "bez"]
+        }
+      },
+      "additionalProperties": true
+    },
+    "sidro": {
+      "type": "object",
+      "required": ["putanja", "status_sidra_norme"],
+      "properties": {
+        "putanja": { "type": "string" },
+        "status_sidra_norme": {
+          "type": "string",
+          "enum": ["puno", "djelomicno", "bez"]
+        },
+        "napomena": { "type": "string" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status_sidra_norme": {
+                "enum": ["djelomicno", "bez"]
+              }
+            }
+          },
+          "then": {
+            "required": ["napomena"]
+          }
+        }
+      ],
+      "additionalProperties": true
+    },
+    "status_sidra_norme": {
+      "type": "string",
+      "enum": ["puno", "djelomicno", "bez"]
+    },
+    "napomena": { "type": "string" },
+    "integritet": {
+      "type": "object",
+      "required": ["sha256_teksta", "sha256_datoteke", "napomena"],
+      "properties": {
+        "sha256_teksta": { "type": ["string", "null"] },
+        "sha256_datoteke": { "type": ["string", "null"] },
+        "napomena": { "type": ["string", "null"] }
+      },
+      "additionalProperties": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "required": ["status_sidra_norme"],
+        "properties": {
+          "status_sidra_norme": {
+            "enum": ["djelomicno", "bez"]
+          }
+        }
+      },
+      "then": {
+        "required": ["napomena"]
+      }
+    }
+  ],
+  "additionalProperties": true
+}

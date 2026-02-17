@@ -8,3 +8,7 @@ Osnovno pravilo je chunk = članak.
 - Sheme zapisa idu u `sheme/`.
 
 Dokazno sidro za normu veže se na Narodne novine.
+
+## Validacija
+Svi NORMA JSON zapisi moraju se validirati prema
+`sheme/NORMA_V1.schema.json` prije vanjske uporabe.
