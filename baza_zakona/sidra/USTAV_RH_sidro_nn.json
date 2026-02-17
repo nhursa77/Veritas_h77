@@ -1,0 +1,21 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "slug": "ustav_rh",
+    "clanak": "1"
+  },
+  "dokazni_izvor": {
+    "naziv": "Narodne novine",
+    "sidra": [
+      {
+        "nn_broj": null,
+        "datum_objave": null,
+        "opis": "sidro za članak 1 ustava rh",
+        "url": null
+      }
+    ]
+  },
+  "status_sidra_norme": "djelomicno",
+  "datum_provjere": "17.02.2026.",
+  "napomena": "TODO: provjeriti NN broj i datum objave u Narodnim novinama."
+}
