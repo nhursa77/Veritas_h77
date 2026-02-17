@@ -1,4 +1,4 @@
-# DOKUMENT 01 — Metodologija rada Veritas H.77 (kanonski)
+# Metodologija rada Veritas H.77 (kanonski)
 
 ## 0) Svrha dokumenta
 
@@ -250,3 +250,60 @@ Veritas H.77 je sustav koji štiti čovjeka dosljednom primjenom propisane
 procedure i hijerarhije normi. Njegova snaga nije u autoritetu, nego u
 provjerljivosti, pravilnosti i potpisnoj kontroli čovjeka nad svakim
 dokumentom.
+
+---
+
+## 14) Rječnik pojmova (minimalni)
+
+- predmet: formalna jedinica rada s činjenicama, dokazima, rokovima i izlazima.
+- scenario: početni opis situacije i cilja postupanja u konkretnom predmetu.
+- dokaz: provjerljiv podatak koji potvrđuje ili pobija relevantnu činjenicu.
+- prilog: datoteka ili zapis priložen predmetu kao dokazni materijal.
+- norma (NORMA JSON): strukturirani zapis članka propisa s izvorima i sidrima.
+- postupak/procedura (PROCEDURA JSON): strukturirani zapis koraka postupanja.
+- sidro (Narodne novine): službena referenca objave propisa ili izmjene.
+- operativni izvor (pročišćeni tekst, npr. zakon.hr): radni tekst za obradu.
+- stanje na dan: datum važenja sadržaja koji se koristi u obradi.
+- gate (uvjet prelaska): minimalni uvjeti koje treba ispuniti za sljedeći korak.
+- nacrt: izlazni dokument bez pravnog učinka dok nije potpisan.
+- izlaz: rezultat obrade (dokument, plan, zapis ili lista dopuna).
+- manifest: popis datoteka i metapodataka, uključujući hash vrijednosti.
+- lanac skrbništva (chain of custody): evidencija podrijetla i obrade priloga.
+- status izlaza: oznaka stupnja dovršenosti i provjerenosti dokumenta.
+  Vrijednosti su: NACRT, PROVJERENO, SPREMNO ZA POTPIS, POTPISANO,
+  FORENZIČKI ZAKLJUČANO.
+
+---
+
+## 15) Gate pravila za status izlaza
+
+Minimalni uvjeti za dodjelu statusa izlaza:
+
+1) NACRT
+   - postoji osnovna struktura dokumenta i evidentirane ključne činjenice,
+   - izvori, sidra i dokazi još nisu zaključani u punom opsegu.
+
+2) PROVJERENO
+   - potvrđeni su nadležnost i rokovi,
+   - provjereni su izvori i sidra,
+   - provjerena je unutarnja dosljednost činjenica, normi i procedure.
+
+3) SPREMNO ZA POTPIS
+   - dokument je u finalnom formatu,
+   - priložen je popis izvora i priloga,
+   - status sidra je najmanje djelomično potvrđen,
+   - rizici su jasno označeni ako sidro nije puno.
+
+4) POTPISANO
+   - priložen je potpis osobe koja potpisuje za sebe,
+   - verzija potpisanog dokumenta je evidentirana kao važeća za predaju.
+
+5) FORENZIČKI ZAKLJUČANO
+   - izrađeni su manifest i hash bundle,
+   - postoji evidencija predaje (ako postoji predaja),
+   - trag izmjena i podrijetla je zaključan i provjerljiv.
+
+Opća pravila:
+
+- Veritas garantira proceduru; ishod i potpis nisu garantirani.
+- Veritas generira na upit; slanje/potpis je odluka čovjeka.
