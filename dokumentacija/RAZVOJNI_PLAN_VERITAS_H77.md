@@ -87,6 +87,7 @@ GATE:
 
 ### FAZA 1 — Ingest NN izvora + arhiva izvora
 CILJ: Uspostaviti deterministički dohvat i arhivu primarnog izvora iz NN.
+NN je primarni izvor za sve zakone i propise.
 ULAZ:
 - URL službene objave u NN
 - akt slug, naziv akta, vrsta akta
@@ -98,6 +99,7 @@ PROVJERA:
 - provjera da datoteka postoji i da je hash zapisan u `meta.json`
 GATE:
 - bez arhiviranog i hashiranog NN izvora nema vanjskog izlaza
+- kontrola izvora mora vratiti status `OK` prije parsiranja
 
 ### FAZA 2 — Parsiranje NN izvora u strukturu
 CILJ: Iz NN izvora dobiti strukturirani zapis članaka/stavaka za daljnju obradu.
@@ -110,6 +112,10 @@ PROVJERA:
 - broj članaka i osnovna struktura su konzistentni s izvorom
 GATE:
 - bez strukturiranog izlaza iz NN nema normiranja
+- kontrola izvora mora biti `OK` prije pokretanja parsera
+
+Sljedeći korak:
+- normiranje iz NN strukture u NORMA JSON
 
 ### FAZA 3 — Normiranje u NORMA JSON
 CILJ: Iz strukturiranog NN izlaza generirati NORMA JSON zapise (chunk=članak).

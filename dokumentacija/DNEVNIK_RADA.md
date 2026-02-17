@@ -50,3 +50,43 @@ Dodan je zaseban rječnik pojmova, tehnički okvir i mapa dokumentacije.
 
 ### Napomena
 Za datum 17.02.2026. u povijesti repozitorija postoje ova četiri commita.
+
+---
+
+## Datum: 17.02.2026.
+
+### Sažetak
+Uveden je primarni ingest iz Narodnih novina za sve akte.
+Uvedena je kontrola izvora sa statusima OK/NEDOSTAJE/HASH_NEDOSTAJE/
+NEVALJAN_IZVOR.
+Uvedeno je parsiranje NN HTML izvora u strukturu (`struktura_nn.json`) uz
+izvještaj parsiranja.
+
+### Napomena
+zakon.hr je opcionalna kontrola i usporedba, ali nije dokazni temelj.
+
+### Commitovi (najstariji -> najnoviji)
+- 1409d45 -> docs: metodologija (rječnik + gate pravila)
+- 939d29b -> docs: rječnik pojmova Veritas H.77
+- 6d724c2 -> docs: tehnički okvir Veritas H.77
+- 978caee -> docs: mapa dokumentacije Veritas H.77
+- 94f5609 -> docs: dnevnik rada (unos 17.02.2026.)
+- 2f8ecb2 -> docs: razvojni plan (validacija ranije + pilot + gate)
+- f724285 -> chore: baza_zakona struktura (NORMA JSON)
+- c066382 -> feat: pilot NORMA JSON (Ustav RH čl. 1) + NN sidro
+- ca56955 -> feat: NORMA v1 schema + validacija
+- d554f33 -> docs: standard rizik i kolizije
+- b858a54 -> feat: pilot NORMA JSON (Ustav RH čl. 2-3) + dopuna sidra
+- 964063b -> feat: pilot NORMA JSON (Ustav RH čl. 1-3) kanonski
+- 540ade6 -> feat: operativni izvor (zakon.hr) ustav RH
+- bb21e6e -> feat: parsiranje izvora (zakon.hr) ustav RH u strukturu
+- 99beeb6 -> feat: normiranje (NORMA JSON) ustav RH iz strukture
+- 1d1d771 -> feat: validacija NORMA JSON (ustav RH) - gate provjera
+- 7e97759 -> fix: uskladena provjera hash polja u validaciji norme
+- 1ccc527 -> feat: izvještaj rupa teksta (ustav RH) - za dopunu iz NN
+- c3b6d46 -> feat: rupe teksta (ustav RH) - nedostajuci + placeholder +
+	prazno
+- 3a5a0af -> feat: primarni ingest izvor = Narodne novine (opći okvir +
+	kontrola arhive)
+- af79517 -> fix: kontrola NN izvora (nevaljan URL + validacija meta)
+- 38d490b -> feat: parsiranje NN (HTML) u strukturu (generički)
