@@ -16,6 +16,12 @@ cloud-a:
    vanjskog izlaza.
 7) Reproducibilno se pokrenuti lokalno (Docker kostur + lokalni runtime).
 
+Veritas može generirati nacrt i bez punog sidra, ali tada nema vanjske
+uporabe.
+Vanjski izlaz znači dokument predviđen za slanje instituciji.
+Vanjski izlaz je blokiran bez sidra norme (puno ili djelomično uz eksplicitnu
+napomenu o riziku) i bez potpisa čovjeka.
+
 Nositelj uvijek pregledava i potpisuje. Veritas ne šalje ništa “sam od sebe”.
 
 ---
@@ -70,7 +76,8 @@ ULAZ: postojeći repo.
 IZLAZ:
 - `.gitattributes`, `.editorconfig`, `.markdownlint.json` zaključani
 - kanonski dokumenti: `METODOLOGIJA_RADA_VERITAS_H77.md`,
-  `STANDARD_JSON_NORMA.md`
+  `STANDARD_JSON_NORMA.md`, `RJEČNIK_POJMOVA_VERITAS_H77.md`,
+  `TEHNIČKI_OKVIR_VERITAS_H77.md`, `MAPA_DOKUMENTACIJE_VERITAS_H77.md`
 - `DNEVNIK_RADA.md` (uvodi se čim počnemo standardizirane radove)
 PROVJERA:
 - `git status` čist
@@ -130,7 +137,22 @@ PROVJERA:
 GATE:
 - bez lanca skrbništva nema vanjskog paketa
 
-### FAZA 4 — Predlošci i generator nacrta dokumenata
+### FAZA 4 — Testovi i validacije (gating)
+CILJ: Sustav odbija pogrešne ulaze i sprječava “gluposti” prije nego izađu van.
+ULAZ:
+- dovršene faze 0–3
+IZLAZ:
+- validatori:
+  - JSON schema provjera (NORMA/POSTUPAK/PREDMET)
+  - provjera datuma `DD.MM.YYYY.`
+  - provjera “potpis obavezan” za vanjski izlaz
+  - provjera “sidro obavezno” za vanjski izlaz
+PROVJERA:
+- namjerno pokvari jednu normu i vidi da validator pada
+GATE:
+- bez validacije nema ozbiljne uporabe
+
+### FAZA 5 — Predlošci i generator nacrta dokumenata
 CILJ: Iz činjenica + citata normi + predloška generira se nacrt dokumenta.
 ULAZ:
 - minimalni predmet + norme + postupak
@@ -148,7 +170,7 @@ PROVJERA:
 GATE:
 - nacrt mora sadržavati “vrijedi tek nakon potpisa nositelja”
 
-### FAZA 5 — Verifikacija izvora: zakon.hr (operativno) + NN (sidra)
+### FAZA 6 — Verifikacija izvora: zakon.hr (operativno) + NN (sidra)
 CILJ: Sustav razlikuje operativni tekst i dokazno sidro, i zna status sidra.
 ULAZ:
 - norma JSON zapisi
@@ -160,7 +182,18 @@ PROVJERA:
 GATE:
 - bez sidra: dokument može biti samo interna priprema, ne vanjski izlaz
 
-### FAZA 6 — Lokalni runtime: Ollama + agenti (bez cloud-a)
+### FAZA 7 — Pilot end-to-end (bez agenata)
+CILJ: Potvrditi puni tijek na jednom predmetu prije automatizacije.
+ULAZ:
+- 1 predmet, 1 prilog, 1 NORMA članak, 1 POSTUPAK i 1 predložak
+IZLAZ:
+- 1 nacrt dokumenta uz manifest i status izlaza prema gate pravilima
+PROVJERA:
+- predmet prolazi cijeli tijek ručno, bez agenata, uz kontrolu svih gate uvjeta
+GATE:
+- bez ove kontrolne faze nema uvođenja automatizacije
+
+### FAZA 8 — Lokalni runtime: Ollama + agenti (bez cloud-a)
 CILJ: Lokalni modeli služe kao pomoć, ali strogo unutar gate pravila.
 ULAZ:
 - baze normi i postupaka
@@ -175,7 +208,7 @@ PROVJERA:
 GATE:
 - agenti ne smiju generirati vanjski izlaz bez sidra + potpisa
 
-### FAZA 7 — Docker: reproducibilnost i izolacija
+### FAZA 9 — Docker: reproducibilnost i izolacija
 CILJ: Sve radi jednako na istoj mašini i kasnije na drugoj mašini.
 ULAZ:
 - postojeći docker compose kostur
@@ -188,22 +221,7 @@ PROVJERA:
 GATE:
 - bez reproducibilnosti nema širenja sustava
 
-### FAZA 8 — Testovi i validacije (gating)
-CILJ: Sustav odbija pogrešne ulaze i sprječava “gluposti” prije nego izađu van.
-ULAZ:
-- sve prethodne faze
-IZLAZ:
-- validatori:
-  - JSON schema provjera (NORMA/POSTUPAK/PREDMET)
-  - provjera datuma `DD.MM.YYYY.`
-  - provjera “potpis obavezan” za vanjski izlaz
-  - provjera “sidro obavezno” za vanjski izlaz
-PROVJERA:
-- namjerno pokvari jednu normu i vidi da validator pada
-GATE:
-- bez validacije nema ozbiljne uporabe
-
-### FAZA 9 — Prvi živi predmet (dokaz sustava)
+### FAZA 10 — Prvi živi predmet (dokaz sustava)
 CILJ: Jedan stvarni predmet se odradi od početka do kraja.
 ULAZ:
 - stvarni dokazi + činjenice
