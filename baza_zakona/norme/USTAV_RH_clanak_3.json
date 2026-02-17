@@ -1,0 +1,58 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": "TODO: unijeti i potvrditi službeni tekst članka 3.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "TODO: potvrditi službeni tekst st. 1 članka 3.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "citiranje": {
+    "format": "čl. 3. st. 1.",
+    "clanak": "3",
+    "stavak": 1,
+    "tocka": null
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Pilot zapis; službeni tekst treba potvrditi prema NN."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": null,
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": null,
+          "datum_objave": null,
+          "opis": "ustav rh - članak 3",
+          "url": "baza_zakona/sidra/USTAV_RH_sidro_nn.json"
+        }
+      ]
+    },
+    "status_sidra": "djelomicno"
+  },
+  "integritet": {
+    "sha256_teksta": null,
+    "sha256_datoteke": null,
+    "napomena": "TODO: izračunati hash nakon potvrde teksta."
+  }
+}

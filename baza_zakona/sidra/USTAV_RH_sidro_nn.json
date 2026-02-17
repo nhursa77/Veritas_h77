@@ -1,21 +1,32 @@
 {
   "akt": {
     "naziv": "Ustav Republike Hrvatske",
-    "slug": "ustav_rh",
-    "clanak": "1"
+    "slug": "ustav_rh"
   },
-  "dokazni_izvor": {
-    "naziv": "Narodne novine",
-    "sidra": [
-      {
-        "nn_broj": null,
-        "datum_objave": null,
-        "opis": "sidro za članak 1 ustava rh",
-        "url": null
-      }
-    ]
-  },
+  "sidra_po_clanku": [
+    {
+      "clanak": "1",
+      "status_sidra": "djelomicno",
+      "nn_broj": null,
+      "datum_objave": null,
+      "napomena": "TODO: provjeriti NN broj i datum"
+    },
+    {
+      "clanak": "2",
+      "status_sidra": "djelomicno",
+      "nn_broj": null,
+      "datum_objave": null,
+      "napomena": "TODO: provjeriti NN broj i datum"
+    },
+    {
+      "clanak": "3",
+      "status_sidra": "djelomicno",
+      "nn_broj": null,
+      "datum_objave": null,
+      "napomena": "TODO: provjeriti NN broj i datum"
+    }
+  ],
   "status_sidra_norme": "djelomicno",
   "datum_provjere": "17.02.2026.",
-  "napomena": "TODO: provjeriti NN broj i datum objave u Narodnim novinama."
+  "napomena": "Sidra za članke 1-3 su djelomična do potvrde iz NN."
 }
