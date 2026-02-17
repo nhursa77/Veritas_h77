@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "134",
+    "naslov": null,
+    "tekst": "2. UDRUŽIVANJE I RAZDRUŽIVANJE",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "2. UDRUŽIVANJE I RAZDRUŽIVANJE",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "23613398B2B1C605C539C88E20A0DE2C3F06949A6F3039422F8C8C10DE5329B1",
+    "sha256_datoteke": "D085B8E40CBBB48B04D7C988A9923D39B9086ED3A86A1CDE4E59BACB6A043863",
+    "napomena": null
+  }
+}

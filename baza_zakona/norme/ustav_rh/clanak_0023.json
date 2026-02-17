@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": "Zabranjen je prisilni i obvezatni rad. SUDSKA PRAKSA: Odluka USRH , Odluka USRH",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Zabranjen je prisilni i obvezatni rad. SUDSKA PRAKSA: Odluka USRH , Odluka USRH",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "3BAF8EFB588F4D5094DE757C0DED2E6B29F0D81D9BA116DBED7A4A6EE9097653",
+    "sha256_datoteke": "4B20CA4C9D5214F65F3631926F24A2E7735859D227D6F5F292F9FB5B7EE46153",
+    "napomena": null
+  }
+}

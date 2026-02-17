@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "95",
+    "naslov": null,
+    "tekst": "Nitko ne može biti biran više od dva puta za Predsjednika Republike. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor Predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije preuzimanja dužnosti, Predsjednik Republike pred predsjednikom Ustavnog suda Republike Hrvatske polaže svečanu prisegu kojom se obvezuje na vjernost Ustavu. Izbor Predsjednika Republike, prisega i njeno polaganje uređuje se zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Nitko ne može biti biran više od dva puta za Predsjednika Republike. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor Predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije preuzimanja dužnosti, Predsjednik Republike pred predsjednikom Ustavnog suda Republike Hrvatske polaže svečanu prisegu kojom se obvezuje na vjernost Ustavu. Izbor Predsjednika Republike, prisega i njeno polaganje uređuje se zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "225FCB48930BF4F9E6C13561170B51CBBD25B0A32C070D37FDF600872A3F206B",
+    "sha256_datoteke": "0D824CC72278A21AB6E1014A83DC9E73B9369E3187B03ABEDD7558FAB9B5521E",
+    "napomena": null
+  }
+}

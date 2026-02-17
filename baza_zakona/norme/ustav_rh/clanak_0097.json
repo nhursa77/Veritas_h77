@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "97",
+    "naslov": null,
+    "tekst": "U slučaju duže spriječenosti uslijed bolesti ili nesposobnosti, a posebno ako Predsjednik Republike nije u stanju odlučiti o povjeravanju dužnosti privremenom zamjeniku, predsjednik Hrvatskoga sabora preuzima dužnost privremenog predsjednika Republike na temelju odluke Ustavnog suda. Ustavni sud o tome odlučuje na prijedlog Vlade. U slučaju smrti, ostavke koja se podnosi predsjedniku Ustavnog suda Republike Hrvatske i o kojoj se obavještava predsjednik Hrvatskoga sabora, ili kada Ustavni sud utvrdi razloge za prestanak mandata Predsjednika Republike, dužnost privremenog predsjednika Republike po sili Ustava preuzima predsjednik Hrvatskoga sabora. Kada predsjednik Hrvatskoga sabora kao privremeni predsjednik Republike donosi akt o proglašenju zakona, akt supotpisuje predsjednik Vlade Republike Hrvatske. Izbori za novog Predsjednika Republike moraju se održati u roku od 60 dana od dana preuzimanja dužnosti privremenog predsjednika Republike sukladno stavku 3. ovoga članka.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U slučaju duže spriječenosti uslijed bolesti ili nesposobnosti, a posebno ako Predsjednik Republike nije u stanju odlučiti o povjeravanju dužnosti privremenom zamjeniku, predsjednik Hrvatskoga sabora preuzima dužnost privremenog predsjednika Republike na temelju odluke Ustavnog suda. Ustavni sud o tome odlučuje na prijedlog Vlade. U slučaju smrti, ostavke koja se podnosi predsjedniku Ustavnog suda Republike Hrvatske i o kojoj se obavještava predsjednik Hrvatskoga sabora, ili kada Ustavni sud utvrdi razloge za prestanak mandata Predsjednika Republike, dužnost privremenog predsjednika Republike po sili Ustava preuzima predsjednik Hrvatskoga sabora. Kada predsjednik Hrvatskoga sabora kao privremeni predsjednik Republike donosi akt o proglašenju zakona, akt supotpisuje predsjednik Vlade Republike Hrvatske. Izbori za novog Predsjednika Republike moraju se održati u roku od 60 dana od dana preuzimanja dužnosti privremenog predsjednika Republike sukladno stavku 3. ovoga članka.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "55618758D8B44ECA18E426ACCED7CE52092CD822817618FF00A266640B839E5D",
+    "sha256_datoteke": "EB0D230AC5234AC6EA2C84C763BA399068F779A8AC5CBCA4E41161042B3603F5",
+    "napomena": null
+  }
+}

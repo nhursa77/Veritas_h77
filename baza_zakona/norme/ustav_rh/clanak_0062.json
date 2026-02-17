@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "62",
+    "naslov": null,
+    "tekst": "Brak je životna zajednica žene i muškarca. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Brak je životna zajednica žene i muškarca. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B2082900561C669381DD3A732F5C0F224F68707B7D9A6B43F157E01A41F895F5",
+    "sha256_datoteke": "69C64FA63EDAC326CF734D2DD0084F7922D7BC218F889AD7D66AAFF16159EF3A",
+    "napomena": null
+  }
+}

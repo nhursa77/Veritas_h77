@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "94",
+    "naslov": null,
+    "tekst": "Predsjednik Republike brine se za redovito i usklađeno djelovanje te za stabilnost državne vlasti. Predsjednik Republike odgovara za obranu neovisnosti i teritorijalne cjelovitosti Republike Hrvatske.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike brine se za redovito i usklađeno djelovanje te za stabilnost državne vlasti. Predsjednik Republike odgovara za obranu neovisnosti i teritorijalne cjelovitosti Republike Hrvatske.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "28C0264D9B62823516DBA2E223407E6663B66A821DCC977B1EB22B267D43DD73",
+    "sha256_datoteke": "F7ECBD451D1DE0CF48A9DBBCA6132499A28CDC9C3A85F5632589BDA241E0DB14",
+    "napomena": null
+  }
+}

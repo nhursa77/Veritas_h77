@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "133",
+    "naslov": null,
+    "tekst": "Međunarodne ugovore kojima se međunarodnoj organizaciji ili savezu daju ovlasti izvedene iz Ustava Republike Hrvatske Hrvatski sabor potvrđuje dvotrećinskom većinom glasova svih zastupnika. Predsjednik Republike potpisuje isprave o ratifikaciji, pristupu, odobrenju ili prihvatu međunarodnih ugovora koje je Hrvatski sabor potvrdio na temelju stavka 1. i 2. ovoga članka. Međunarodne ugovore koji ne podliježu potvrđivanju Hrvatskoga sabora sklapa Predsjednik Republike na prijedlog Vlade ili Vlada Republike Hrvatske.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Međunarodne ugovore kojima se međunarodnoj organizaciji ili savezu daju ovlasti izvedene iz Ustava Republike Hrvatske Hrvatski sabor potvrđuje dvotrećinskom većinom glasova svih zastupnika. Predsjednik Republike potpisuje isprave o ratifikaciji, pristupu, odobrenju ili prihvatu međunarodnih ugovora koje je Hrvatski sabor potvrdio na temelju stavka 1. i 2. ovoga članka. Međunarodne ugovore koji ne podliježu potvrđivanju Hrvatskoga sabora sklapa Predsjednik Republike na prijedlog Vlade ili Vlada Republike Hrvatske.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B78C9D760449578314581A798A90B48BA3585475EC8B98B7AB4A4A4F3C432985",
+    "sha256_datoteke": "34434F33199BA1A1349A0FB8DD092C8709C4F33BAC6BE3520CFEA341AD4809BC",
+    "napomena": null
+  }
+}

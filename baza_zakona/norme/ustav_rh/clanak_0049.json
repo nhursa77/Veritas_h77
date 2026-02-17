@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "49",
+    "naslov": null,
+    "tekst": "Država osigurava svim poduzetnicima jednak pravni položaj na tržištu. Zabranjena je zlouporaba monopolskog položaja određenog zakonom. Država potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Država osigurava svim poduzetnicima jednak pravni položaj na tržištu. Zabranjena je zlouporaba monopolskog položaja određenog zakonom. Država potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "19A077C6558459EB7FB4C32610E28826C7F59C2C50DC5D7A40CD3252F9FF6CD0",
+    "sha256_datoteke": "534DC67F43BDC8451BD30C8441C1CBB0F77AE8D103988AD165B7F16F8A246B96",
+    "napomena": null
+  }
+}

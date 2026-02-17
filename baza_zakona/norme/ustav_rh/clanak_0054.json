@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "54",
+    "naslov": null,
+    "tekst": "Državnim uredom za reviziju upravlja glavni državni revizor koji o njegovu radu izvješćuje Hrvatski sabor. Osnivanje, ustrojstvo, nadležnost i način rada Državnog ureda za reviziju uređuju se zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Državnim uredom za reviziju upravlja glavni državni revizor koji o njegovu radu izvješćuje Hrvatski sabor. Osnivanje, ustrojstvo, nadležnost i način rada Državnog ureda za reviziju uređuju se zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "5ED52574553F204B53DBA32B43DF57B9A7371F6A6837FA3111FF1EFFB1A76BA4",
+    "sha256_datoteke": "DB006E18FDB86566C8BC812D4D685E3ABC34404914109C970C296E594B356DAB",
+    "napomena": null
+  }
+}

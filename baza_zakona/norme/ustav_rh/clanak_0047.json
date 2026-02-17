@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "47",
+    "naslov": null,
+    "tekst": "Dopušten je prigovor savjesti onima koji poradi svojih vjerskih ili moralnih nazora nisu pripravni sudjelovati u obavljanju vojničkih dužnosti u oružanim snagama. Te su osobe obvezane ispunjavati druge dužnosti određene zakonom. 3. GOSPODARSKA, SOCIJALNA I KULTURNA PRAVA",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Dopušten je prigovor savjesti onima koji poradi svojih vjerskih ili moralnih nazora nisu pripravni sudjelovati u obavljanju vojničkih dužnosti u oružanim snagama. Te su osobe obvezane ispunjavati druge dužnosti određene zakonom. 3. GOSPODARSKA, SOCIJALNA I KULTURNA PRAVA",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "5290396AA7AFDC27EE2EF14A8B9BE19BE8865015B2AA2B9E8DAFF608DB100D27",
+    "sha256_datoteke": "E04FE5834156ED8119F269A0496779A374E392ED0F169E5012722FDDA9360824",
+    "napomena": null
+  }
+}

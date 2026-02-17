@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "68",
+    "naslov": null,
+    "tekst": "Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "6916869B5ABC9219747305E5E72889CC808F2B3F631E504995E4A4EEE2D6CAF7",
+    "sha256_datoteke": "C4D31E5B74814015D4D66A11CCA1BE4EAF7C78634F5CD8341833401F18C785BC",
+    "napomena": null
+  }
+}

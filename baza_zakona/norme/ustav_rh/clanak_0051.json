@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "51",
+    "naslov": null,
+    "tekst": "Porezni se sustav temelji na načelima jednakosti i pravednosti. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Porezni se sustav temelji na načelima jednakosti i pravednosti. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "E65F66912D888760354869C5ED95DA60579DFE67EA93D0AAFD466ACBE5FD38E1",
+    "sha256_datoteke": "3BACB80BBC24C57F49B48BAB8F2DAD6BAB3F0060F6F9F01CEC57C4BD6AB7BA6E",
+    "napomena": null
+  }
+}

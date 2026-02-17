@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "93",
+    "naslov": null,
+    "tekst": "Svatko može podnijeti pritužbu pučkom pravobranitelju ako smatra da su, uslijed nezakonitog ili nepravilnog rada državnih tijela, tijela lokalne i područne (regionalne) samouprave i tijela s javnim ovlastima, ugrožena ili povrijeđena njegova ustavna ili zakonska prava. Pučkog pravobranitelja bira Hrvatski sabor na vrijeme od osam godina. Pučki pravobranitelj samostalan je i neovisan u svom radu. Uvjeti za izbor i razrješenje pučkog pravobranitelja i njegovih zamjenika, djelokrug i način rada uređuju se zakonom. Zakonom se, radi zaštite temeljnih ustavnih prava, pučkom pravobranitelju mogu povjeriti i određene ovlasti u odnosu na pravne i fizičke osobe. Pučki pravobranitelj i ostali opunomoćenici Hrvatskoga sabora za promicanje i zaštitu ljudskih prava i temeljnih sloboda imaju imunitet kao i zastupnici u Hrvatskom saboru. 2. PREDSJEDNIK REPUBLIKE HRVATSKE",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Svatko može podnijeti pritužbu pučkom pravobranitelju ako smatra da su, uslijed nezakonitog ili nepravilnog rada državnih tijela, tijela lokalne i područne (regionalne) samouprave i tijela s javnim ovlastima, ugrožena ili povrijeđena njegova ustavna ili zakonska prava. Pučkog pravobranitelja bira Hrvatski sabor na vrijeme od osam godina. Pučki pravobranitelj samostalan je i neovisan u svom radu. Uvjeti za izbor i razrješenje pučkog pravobranitelja i njegovih zamjenika, djelokrug i način rada uređuju se zakonom. Zakonom se, radi zaštite temeljnih ustavnih prava, pučkom pravobranitelju mogu povjeriti i određene ovlasti u odnosu na pravne i fizičke osobe. Pučki pravobranitelj i ostali opunomoćenici Hrvatskoga sabora za promicanje i zaštitu ljudskih prava i temeljnih sloboda imaju imunitet kao i zastupnici u Hrvatskom saboru. 2. PREDSJEDNIK REPUBLIKE HRVATSKE",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "29AF1D2966BE2F4782AD3734BB72EFA573BB1B2CEA691373B00D29FA3EB18205",
+    "sha256_datoteke": "6A52CD6798F3341BF54B5C2AE463D233DCEF78DD4C30A97E1AE4AD4CA8ADC18D",
+    "napomena": null
+  }
+}

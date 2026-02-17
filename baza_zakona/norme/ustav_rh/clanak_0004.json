@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": "Načelo diobe vlasti uključuje oblike međusobne suradnje i uzajamne provjere nositelja vlasti propisane Ustavom i zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Načelo diobe vlasti uključuje oblike međusobne suradnje i uzajamne provjere nositelja vlasti propisane Ustavom i zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "DE000CE0D9307E62EC3E3E8715A075C16522596BD91866B499025340051B7DB5",
+    "sha256_datoteke": "0F7E0E3F8D7352CA9815F11A919E2FE7B0A39DB483B90F0487D95096C354B5C5",
+    "napomena": null
+  }
+}

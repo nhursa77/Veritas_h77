@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": "Zajamčuje se sudska kontrola zakonitosti pojedinačnih akata upravnih vlasti i tijela koja imaju javne ovlasti. SUDSKA PRAKSA: Rješenje",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Zajamčuje se sudska kontrola zakonitosti pojedinačnih akata upravnih vlasti i tijela koja imaju javne ovlasti. SUDSKA PRAKSA: Rješenje",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "0D3AD009BE225D82C97364068DB0FC4DFF7204FD675D1DC16A6E20117205DBDC",
+    "sha256_datoteke": "C6A081B80070E091434B29981566E3FECD211BA5B5713ABB7F0F503CA66D4E6F",
+    "napomena": null
+  }
+}

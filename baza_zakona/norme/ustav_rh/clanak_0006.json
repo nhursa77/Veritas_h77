@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": "Unutarnje ustrojstvo političkih stranaka mora biti sukladno temeljnim ustavnim demokratskim načelima. Stranke moraju javno polagati račun o porijeklu svojih sredstava i imovine. Protuustavne su političke stranke koje svojim programom ili nasilnim djelovanjem smjeraju podrivanju slobodnoga demokratskog poretka ili ugrožavaju opstojnost Republike Hrvatske. O protuustavnosti odlučuje Ustavni sud Republike Hrvatske. Zakonom se uređuje položaj i financiranje političkih stranaka.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Unutarnje ustrojstvo političkih stranaka mora biti sukladno temeljnim ustavnim demokratskim načelima. Stranke moraju javno polagati račun o porijeklu svojih sredstava i imovine. Protuustavne su političke stranke koje svojim programom ili nasilnim djelovanjem smjeraju podrivanju slobodnoga demokratskog poretka ili ugrožavaju opstojnost Republike Hrvatske. O protuustavnosti odlučuje Ustavni sud Republike Hrvatske. Zakonom se uređuje položaj i financiranje političkih stranaka.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "A2CF3DBF81C7D350C06C3DDD64EB9186515074264541045EFE70F9430CAC1320",
+    "sha256_datoteke": "64D0585852B2D84AFEF08022AB54D74F0AF0618916096272EE9CD3DF54EF67FE",
+    "napomena": null
+  }
+}

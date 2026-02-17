@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": "SUDAKA PRAKSA: Odluka USRH Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, određenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuđen. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku. SUDSKA PRAKSA: Odluka USRH , Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "SUDAKA PRAKSA: Odluka USRH Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, određenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuđen. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku. SUDSKA PRAKSA: Odluka USRH , Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "38E483EE6114BA9006CF37A99A2197F5119C91F2471A4F15C0B9251F9D05344D",
+    "sha256_datoteke": "B12611158FC73DEA17A9AA037A224C53D2AF2B3F93E98770E81588D851FF594F",
+    "napomena": null
+  }
+}

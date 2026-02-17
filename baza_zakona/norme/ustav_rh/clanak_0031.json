@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "31",
+    "naslov": null,
+    "tekst": "googletag.cmd.push(function() { googletag.display('sidebar_v2');}); Copyright © Ante Borić var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-4459592-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); $(document).ready(function(){ if ($(window).width() = 991){ $('.panel-collapse').addClass('in'); } if ($(window).width() = 991){ e.stopPropagation(); } else { $(this).tab('show'); } }); $(document).ready(function() { $(\".boxlista\").mCustomScrollbar({ //scrollButtons:{ // enable:true //}, theme : \"dark\", advanced : { updateOnContentResize : true } }); });",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "googletag.cmd.push(function() { googletag.display('sidebar_v2');}); Copyright © Ante Borić var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-4459592-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); $(document).ready(function(){ if ($(window).width() = 991){ $('.panel-collapse').addClass('in'); } if ($(window).width() = 991){ e.stopPropagation(); } else { $(this).tab('show'); } }); $(document).ready(function() { $(\".boxlista\").mCustomScrollbar({ //scrollButtons:{ // enable:true //}, theme : \"dark\", advanced : { updateOnContentResize : true } }); });",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B552BFC1D09E5B2B06D79405D617DCBA6D1DE3DCA9E2F9F0B355A9765CDCC563",
+    "sha256_datoteke": "2986E870D6B9483D7AD8DC021E744C72F78899BA3367ACF0C126CF96BA1D2365",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "86",
+    "naslov": null,
+    "tekst": "Najmanje jedna desetina zastupnika Hrvatskoga sabora može podnijeti interpelaciju o radu Vlade Republike Hrvatske ili pojedinog njezinog člana. Postavljanje zastupničkih pitanja i podnošenje interpelacije pobliže se uređuju poslovnikom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Najmanje jedna desetina zastupnika Hrvatskoga sabora može podnijeti interpelaciju o radu Vlade Republike Hrvatske ili pojedinog njezinog člana. Postavljanje zastupničkih pitanja i podnošenje interpelacije pobliže se uređuju poslovnikom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "5CD1F1DBC77D1ABEBBA2C6DD5AC25357A5874BE7FCF33779317D24179DBFBDB4",
+    "sha256_datoteke": "463A81570F26EC22EF84A7716DA212BAE9CC7FC4D0D5F1AAEDE071771F754027",
+    "napomena": null
+  }
+}

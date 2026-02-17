@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "91",
+    "naslov": null,
+    "tekst": "Hrvatski sabor donosi državni proračun većinom glasova svih zastupnika. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Hrvatski sabor donosi državni proračun većinom glasova svih zastupnika. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "07249ADD5DD3B0DBD8BDFEB37383566B66ED21566B593A767EECFC5374546416",
+    "sha256_datoteke": "DC803A947FFB9643D7029126331FD388DF9DB1AB7263C217B806796419B2BD28",
+    "napomena": null
+  }
+}

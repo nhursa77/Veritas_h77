@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "92",
+    "naslov": null,
+    "tekst": "Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom. Predsjednika istražnog povjerenstva bira većina zastupnika iz reda oporbenih zastupnika.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom. Predsjednika istražnog povjerenstva bira većina zastupnika iz reda oporbenih zastupnika.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B561674191CC454E2FDB3D25C761C06F2AA914BEA09AB75CD0B2E9727546AB85",
+    "sha256_datoteke": "9DACA381DD50A1BF4BE2C498FE18C7D9FEB0A889A7E0246D044CCE878BF525CB",
+    "napomena": null
+  }
+}

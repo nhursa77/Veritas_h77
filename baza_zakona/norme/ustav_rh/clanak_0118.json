@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "118",
+    "naslov": null,
+    "tekst": "U suđenju sudjeluju suci porotnici i sudski savjetnici, u skladu sa zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U suđenju sudjeluju suci porotnici i sudski savjetnici, u skladu sa zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "0878AAD4ABACF07B427FD03E450B55AB5CD87106E3A0E4124849CA5FBF719690",
+    "sha256_datoteke": "9DD81B3427996D5A41610E7F498F4DE44877D5F9CE0BBEF07C5F9126FAD5FA9F",
+    "napomena": null
+  }
+}

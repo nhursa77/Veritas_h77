@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "101",
+    "naslov": null,
+    "tekst": "U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države, ili kad su tijela državne vlasti onemogućena da redovito obavljaju svoje ustavne dužnosti, Predsjednik Republike može, na prijedlog predsjednika Vlade i uz njegov supotpis, donositi uredbe sa zakonskom snagom. Predsjednik Republike podnijet će uredbe sa zakonskom snagom na potvrdu Hrvatskom saboru čim se bude mogao sastati. Ako Predsjednik Republike ne podnese uredbu Hrvatskom saboru na potvrdu u skladu sa stavkom 3. ovoga članka ili Hrvatski sabor istu ne potvrdi, uredba sa zakonskom snagom prestaje važiti. U slučaju iz stavka 1. i 2. ovoga članka Predsjednik Republike ima pravo sazvati sjednicu Vlade i predsjedavati tako sazvanoj sjednici Vlade.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države, ili kad su tijela državne vlasti onemogućena da redovito obavljaju svoje ustavne dužnosti, Predsjednik Republike može, na prijedlog predsjednika Vlade i uz njegov supotpis, donositi uredbe sa zakonskom snagom. Predsjednik Republike podnijet će uredbe sa zakonskom snagom na potvrdu Hrvatskom saboru čim se bude mogao sastati. Ako Predsjednik Republike ne podnese uredbu Hrvatskom saboru na potvrdu u skladu sa stavkom 3. ovoga članka ili Hrvatski sabor istu ne potvrdi, uredba sa zakonskom snagom prestaje važiti. U slučaju iz stavka 1. i 2. ovoga članka Predsjednik Republike ima pravo sazvati sjednicu Vlade i predsjedavati tako sazvanoj sjednici Vlade.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "A9D606E37FB920E6DBA00D999C4243F7E03FA84C27DEFB29D9CC64B9A0D8D652",
+    "sha256_datoteke": "739F3212DC6B46DCA8531ABBFC6E1E54648542E20DC2681410D2290875CDAF05",
+    "napomena": null
+  }
+}

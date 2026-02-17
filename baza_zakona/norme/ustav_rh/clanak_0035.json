@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": "SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B7B680943AD06CCF6CF26AEA3F470B19CF9EBE49D6188C1C8184FB1FA67537B0",
+    "sha256_datoteke": "F70582B6D1C444EB12D7671FD1D6550522E6AEDAB6E04C88D489A73D28D5DC90",
+    "napomena": null
+  }
+}

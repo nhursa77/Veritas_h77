@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "65",
+    "naslov": null,
+    "tekst": "Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i osobe s invaliditetom imaju pravo na osobitu zaštitu na radu.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i osobe s invaliditetom imaju pravo na osobitu zaštitu na radu.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "7498188878FB56A27F3722775EB9706B5E3AD9F68E9CEB221F2BDAFFAE8FE7AC",
+    "sha256_datoteke": "25B9F76B7EFD9FD002C4A772BDB7FB1CC7DA76FDE6567470E9D8391D8E81275B",
+    "napomena": null
+  }
+}

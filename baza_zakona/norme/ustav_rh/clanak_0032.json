@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "32",
+    "naslov": null,
+    "tekst": "Svaki državljanin Republike Hrvatske ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike Hrvatske, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Svaki državljanin Republike Hrvatske ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike Hrvatske, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "401C8942AE40AB9A2B1F5418D9A08806875ED51EA1C19F909EAD68A68C26B56D",
+    "sha256_datoteke": "6C23D4459C1486BE91DE3CDD837A74EB1ECD79FED1F615827AB9EB96C85CE525",
+    "napomena": null
+  }
+}

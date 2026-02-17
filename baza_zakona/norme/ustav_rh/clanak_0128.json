@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "128",
+    "naslov": null,
+    "tekst": "Pravo na samoupravu ostvaruje se preko lokalnih, odnosno područnih (regionalnih) predstavničkih tijela koja su sastavljena od članova izabranih na slobodnim i tajnim izborima na temelju neposrednog, jednakog i općega biračkog prava. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima, putem zborova, referenduma i drugih oblika neposrednog odlučivanja u skladu sa zakonom i statutom. Prava iz ovoga članka u Republici Hrvatskoj ostvaruju i građani Europske unije, u skladu sa zakonom i pravnom stečevinom Europske unije.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Pravo na samoupravu ostvaruje se preko lokalnih, odnosno područnih (regionalnih) predstavničkih tijela koja su sastavljena od članova izabranih na slobodnim i tajnim izborima na temelju neposrednog, jednakog i općega biračkog prava. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima, putem zborova, referenduma i drugih oblika neposrednog odlučivanja u skladu sa zakonom i statutom. Prava iz ovoga članka u Republici Hrvatskoj ostvaruju i građani Europske unije, u skladu sa zakonom i pravnom stečevinom Europske unije.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "176007F64C2E9275D26F7D1A126717DE7F724876C3C67AC1B563D1E7793C2B82",
+    "sha256_datoteke": "4E7513750C4E117CFCA6D95359925FE709696828A6078549CCDB052424A577E1",
+    "napomena": null
+  }
+}

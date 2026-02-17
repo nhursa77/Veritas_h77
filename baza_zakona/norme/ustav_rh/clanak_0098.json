@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "98",
+    "naslov": null,
+    "tekst": "– raspisuje izbore za Hrvatski sabor i saziva ga na prvo zasjedanje, – raspisuje referendum u skladu s Ustavom, – povjerava mandat za sastavljanje Vlade osobi koja, na temelju raspodjele zastupničkih mjesta u Hrvatskom saboru i obavljenih konzultacija, uživa povjerenje većine svih zastupnika, – daje pomilovanja, – dodjeljuje odlikovanja i priznanja određena zakonom, – obavlja druge dužnosti određene Ustavom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "– raspisuje izbore za Hrvatski sabor i saziva ga na prvo zasjedanje, – raspisuje referendum u skladu s Ustavom, – povjerava mandat za sastavljanje Vlade osobi koja, na temelju raspodjele zastupničkih mjesta u Hrvatskom saboru i obavljenih konzultacija, uživa povjerenje većine svih zastupnika, – daje pomilovanja, – dodjeljuje odlikovanja i priznanja određena zakonom, – obavlja druge dužnosti određene Ustavom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "1710090D60CAF0B7E7508916C1202E9420FB958141A2441099FCBFE779C00F12",
+    "sha256_datoteke": "5B31F912C6B2FB50FA501785383ECDEB292C3D422908A0EE3D3CDAA7C6B8622A",
+    "napomena": null
+  }
+}

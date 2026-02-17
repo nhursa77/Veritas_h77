@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "102",
+    "naslov": null,
+    "tekst": "Predsjednik Republike može biti nazočan sjednici Vlade i sudjelovati u raspravi.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike može biti nazočan sjednici Vlade i sudjelovati u raspravi.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "EED3F46E0012E481B2790DA9DD2178B71929803E5C5EB5E96FAA79685AA7ADA4",
+    "sha256_datoteke": "D50ECFB71E0C78F17698549C2811EC1654F8F51C9EFC9811C628834DE756B826",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": "U slučaju sumnje ili optužbe zbog kažnjivog djela osumnjičenik, okrivljenik ili optuženik ima pravo: – da u najkraćem roku bude obaviješten potanko i na jeziku koji razumije o naravi i razlozima optužbe koja se diže protiv njega i o dokazima koji ga terete, – da ima odgovarajuće vrijeme i mogućnost za pripremu obrane, – na branitelja i nesmetano uspostavljanje veze s braniteljem, i s tim pravom mora biti upoznat, – da se brani sam ili uz branitelja po vlastitom izboru, a ako nema dovoljno sredstava da plati branitelja, ima pravo na besplatnog branitelja pod uvjetom propisanim zakonom, – da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, – da ispituje ili dade ispitati svjedoke optužbe i da zahtijeva da se osigura nazočnost i ispitivanje svjedoka obrane pod istim uvjetima kao i svjedoka optužbe, SUDSKA PRAKSA: Odluka – na besplatnu pomoć tumača ako ne razumije ili ne govori jezik koji se upotrebljava na sudu. Osumnjičenik, okrivljenik i optuženik ne smije se siliti da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku. Kazneni postupak može se pokrenuti samo pred sudom na zahtjev ovlaštenog tužitelja. ZAŠTITA PRAVA NA SUĐENJE U RAZUMNOM ROKU SUDSKA PRAKSA: Odluka , Odluka , Odluka , Odluka USRH , Odluka , Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U slučaju sumnje ili optužbe zbog kažnjivog djela osumnjičenik, okrivljenik ili optuženik ima pravo: – da u najkraćem roku bude obaviješten potanko i na jeziku koji razumije o naravi i razlozima optužbe koja se diže protiv njega i o dokazima koji ga terete, – da ima odgovarajuće vrijeme i mogućnost za pripremu obrane, – na branitelja i nesmetano uspostavljanje veze s braniteljem, i s tim pravom mora biti upoznat, – da se brani sam ili uz branitelja po vlastitom izboru, a ako nema dovoljno sredstava da plati branitelja, ima pravo na besplatnog branitelja pod uvjetom propisanim zakonom, – da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, – da ispituje ili dade ispitati svjedoke optužbe i da zahtijeva da se osigura nazočnost i ispitivanje svjedoka obrane pod istim uvjetima kao i svjedoka optužbe, SUDSKA PRAKSA: Odluka – na besplatnu pomoć tumača ako ne razumije ili ne govori jezik koji se upotrebljava na sudu. Osumnjičenik, okrivljenik i optuženik ne smije se siliti da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku. Kazneni postupak može se pokrenuti samo pred sudom na zahtjev ovlaštenog tužitelja. ZAŠTITA PRAVA NA SUĐENJE U RAZUMNOM ROKU SUDSKA PRAKSA: Odluka , Odluka , Odluka , Odluka USRH , Odluka , Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "67506C77B78FB62B72326ED72FBA471BF6A3B4FB1C2985940830E68016352CCB",
+    "sha256_datoteke": "D1ECFF87D6D5AAAD3F01C4F3D821507C3D6093E0B0046D6080B4AA0D0D022F85",
+    "napomena": null
+  }
+}

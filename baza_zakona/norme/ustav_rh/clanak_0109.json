@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "109",
+    "naslov": null,
+    "tekst": "Odmah po sastavljanju Vlade, a najkasnije u roku od 30 dana od prihvaćanja mandata, mandatar je dužan program Vlade i Vladu predstaviti Hrvatskom saboru i zatražiti glasovanje o povjerenju. Vlada stupa na dužnost kad joj povjerenje iskaže većina svih zastupnika u Hrvatskom saboru. Predsjednik i članovi Vlade polažu svečanu prisegu pred Hrvatskim saborom. Tekst prisege utvrđuje se zakonom. Na temelju odluke Hrvatskoga sabora o iskazivanju povjerenja Vladi Republike Hrvatske, rješenje o imenovanju predsjednika Vlade donosi Predsjednik Republike uz supotpis predsjednika Hrvatskoga sabora, a rješenje o imenovanju članova Vlade donosi predsjednik Vlade uz supotpis predsjednika Hrvatskoga sabora. Članak 109.a Ako mandatar ne sastavi Vladu u roku od 30 dana od dana prihvaćanja mandata, Predsjednik Republike mu može produžiti mandat za najviše još 30 dana. Ako ni u tom roku mandatar ne uspije sastaviti Vladu ili ako predložena Vlada ne dobije povjerenje Hrvatskoga sabora, Predsjednik Republike povjerit će mandat za sastav Vlade drugoj osobi. Članak 109.b Ako Vlada ne bude sastavljena u skladu s člankom 110. i 111. Ustava, Predsjednik Republike će imenovati privremenu nestranačku Vladu i istodobno raspisati prijevremene izbore za Hrvatski sabor.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Odmah po sastavljanju Vlade, a najkasnije u roku od 30 dana od prihvaćanja mandata, mandatar je dužan program Vlade i Vladu predstaviti Hrvatskom saboru i zatražiti glasovanje o povjerenju. Vlada stupa na dužnost kad joj povjerenje iskaže većina svih zastupnika u Hrvatskom saboru. Predsjednik i članovi Vlade polažu svečanu prisegu pred Hrvatskim saborom. Tekst prisege utvrđuje se zakonom. Na temelju odluke Hrvatskoga sabora o iskazivanju povjerenja Vladi Republike Hrvatske, rješenje o imenovanju predsjednika Vlade donosi Predsjednik Republike uz supotpis predsjednika Hrvatskoga sabora, a rješenje o imenovanju članova Vlade donosi predsjednik Vlade uz supotpis predsjednika Hrvatskoga sabora. Članak 109.a Ako mandatar ne sastavi Vladu u roku od 30 dana od dana prihvaćanja mandata, Predsjednik Republike mu može produžiti mandat za najviše još 30 dana. Ako ni u tom roku mandatar ne uspije sastaviti Vladu ili ako predložena Vlada ne dobije povjerenje Hrvatskoga sabora, Predsjednik Republike povjerit će mandat za sastav Vlade drugoj osobi. Članak 109.b Ako Vlada ne bude sastavljena u skladu s člankom 110. i 111. Ustava, Predsjednik Republike će imenovati privremenu nestranačku Vladu i istodobno raspisati prijevremene izbore za Hrvatski sabor.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "C76584E62DDE4FAA6D56B2B6B4FADAFB13A8D8D2A94AADC7FDDA93AB8F4E0BCA",
+    "sha256_datoteke": "E05C99B55F439AC15EBA37863C3092B44A0A45F6815F937228B78859B35AA9AA",
+    "napomena": null
+  }
+}

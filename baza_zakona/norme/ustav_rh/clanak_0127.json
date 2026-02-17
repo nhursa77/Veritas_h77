@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "127",
+    "naslov": null,
+    "tekst": "Ustavni zakon donosi se po postupku određenom za promjenu Ustava. Unutarnje ustrojstvo Ustavnog suda Republike Hrvatske uređuje se njegovim poslovnikom. VI. MJESNA, LOKALNA I PODRUČNA (REGIONALNA) SAMOUPRAVA",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Ustavni zakon donosi se po postupku određenom za promjenu Ustava. Unutarnje ustrojstvo Ustavnog suda Republike Hrvatske uređuje se njegovim poslovnikom. VI. MJESNA, LOKALNA I PODRUČNA (REGIONALNA) SAMOUPRAVA",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "FFCD1293F0586572EA6B7B9F51FDDF5DA4B94415BF530EEBBAB41D638048089F",
+    "sha256_datoteke": "5FA5E7A508FD473D0E276FA58525A289AC04B003EBC2BDEFEC672C50FA00F8B1",
+    "napomena": null
+  }
+}

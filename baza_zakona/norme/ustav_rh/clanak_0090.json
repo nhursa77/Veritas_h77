@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "90",
+    "naslov": null,
+    "tekst": "Propisi tijela koja imaju javne ovlasti prije stupanja na snagu moraju biti objavljeni na dostupan način u skladu sa zakonom. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Zakoni i drugi propisi državnih tijela i tijela koja imaju javne ovlasti ne mogu imati povratno djelovanje. Iz posebno opravdanih razloga samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Propisi tijela koja imaju javne ovlasti prije stupanja na snagu moraju biti objavljeni na dostupan način u skladu sa zakonom. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Zakoni i drugi propisi državnih tijela i tijela koja imaju javne ovlasti ne mogu imati povratno djelovanje. Iz posebno opravdanih razloga samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "810D4661265A4DD77CC7DC5B389B7972CA3464CF1AD73A7B7AEB56C93F08259C",
+    "sha256_datoteke": "546E4C5420FCD8FF22F6A4AE5D026E247F06ED2F6F1D942A636F7A30EE00831D",
+    "napomena": null
+  }
+}

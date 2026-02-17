@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": "Sindikati mogu osnivati svoje saveze i udruživati se u međunarodne sindikalne organizacije. U oružanim snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje. Poslodavci imaju pravo osnivati udruge i slobodno u njih stupati i iz njih istupati.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Sindikati mogu osnivati svoje saveze i udruživati se u međunarodne sindikalne organizacije. U oružanim snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje. Poslodavci imaju pravo osnivati udruge i slobodno u njih stupati i iz njih istupati.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "D2F3567E55F7BE7B783A579412DD437412AD8C59EAC5BB9DB07C1EBF155F0A5E",
+    "sha256_datoteke": "808715234424577780C7E0B1CCCA3E4769E1C137DA932B833B6352E90C3B758E",
+    "napomena": null
+  }
+}

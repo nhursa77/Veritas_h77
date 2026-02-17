@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "69",
+    "naslov": null,
+    "tekst": "Država potiče i pomaže razvitak znanosti, kulture i umjetnosti. Država štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Država potiče i pomaže skrb o tjelesnoj kulturi i športu.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Država potiče i pomaže razvitak znanosti, kulture i umjetnosti. Država štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Država potiče i pomaže skrb o tjelesnoj kulturi i športu.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "E48C7EA49070F4EBFF495581F3578557FF044B7FA4A3F11FAB773BFF67FDBEEB",
+    "sha256_datoteke": "01EB7F5B9ECD63E8A478DDEC63647652314FCE6632896FF552529E851F0AAE7B",
+    "napomena": null
+  }
+}

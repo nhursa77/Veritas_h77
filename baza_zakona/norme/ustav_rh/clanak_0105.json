@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "105",
+    "naslov": null,
+    "tekst": "Postupak za utvrđivanje posebne odgovornosti Predsjednika Republike može pokrenuti Hrvatski sabor dvotrećinskom većinom svih zastupnika. O odgovornosti Predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ustavni sud mora donijeti odluku o odgovornosti Predsjednika Republike Hrvatske za povredu Ustava u roku od 30 dana od dana zaprimanja prijedloga kojim se pokreće odgovornost Predsjednika Republike za povredu Ustava. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, Predsjedniku Republike prestaje dužnost po sili Ustava. Članak 105.a Predsjednik Republike ima imunitet nepovredivosti. Predsjednik Republike ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez prethodnog odobrenja Ustavnog suda. Predsjednik Republike može biti pritvoren bez odobrenja Ustavnog suda samo ako je zatečen da čini kazneno djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. U takvom slučaju državno tijelo koje je Predsjednika Republike pritvorilo, dužno je o tome odmah obavijestiti predsjednika Ustavnog suda.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Postupak za utvrđivanje posebne odgovornosti Predsjednika Republike može pokrenuti Hrvatski sabor dvotrećinskom većinom svih zastupnika. O odgovornosti Predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ustavni sud mora donijeti odluku o odgovornosti Predsjednika Republike Hrvatske za povredu Ustava u roku od 30 dana od dana zaprimanja prijedloga kojim se pokreće odgovornost Predsjednika Republike za povredu Ustava. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, Predsjedniku Republike prestaje dužnost po sili Ustava. Članak 105.a Predsjednik Republike ima imunitet nepovredivosti. Predsjednik Republike ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez prethodnog odobrenja Ustavnog suda. Predsjednik Republike može biti pritvoren bez odobrenja Ustavnog suda samo ako je zatečen da čini kazneno djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. U takvom slučaju državno tijelo koje je Predsjednika Republike pritvorilo, dužno je o tome odmah obavijestiti predsjednika Ustavnog suda.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "CF209FE43680E812E1B0ECDF3811703990292D72EF9EADE271B896C9384AFFEE",
+    "sha256_datoteke": "E58A49B0CF1051C95D061FA4A2FD4BA7E8F6576264B7A609F59E1A17AD5E7BC7",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "115",
+    "naslov": null,
+    "tekst": "Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava, zakona, međunarodnih ugovora i drugih važećih izvora prava.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava, zakona, međunarodnih ugovora i drugih važećih izvora prava.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "3EFE21CAC60678D0F68B561F35DDF587A4443E0F5CEF8EF38CC2A9E304BF5A70",
+    "sha256_datoteke": "8538DFCD2ACA6CCCC3F544842E48882532C2F645CD9701F4F671FA339CDD9346",
+    "napomena": null
+  }
+}

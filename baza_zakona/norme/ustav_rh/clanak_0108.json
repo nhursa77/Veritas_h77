@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "108",
+    "naslov": null,
+    "tekst": "Bez odobrenja Vlade predsjednik i članovi Vlade ne mogu obavljati nijednu drugu javnu ili profesionalnu dužnost.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Bez odobrenja Vlade predsjednik i članovi Vlade ne mogu obavljati nijednu drugu javnu ili profesionalnu dužnost.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "19E236A2FC6B56E7FEF73F7896364FC6CB4E544EE3C8E222BD7EA6B5FFF72074",
+    "sha256_datoteke": "B951CA3FA8A2D3739E6637FAE68779B85184D6DF078B6B8FC8ADE6D6DB8D3C53",
+    "napomena": null
+  }
+}

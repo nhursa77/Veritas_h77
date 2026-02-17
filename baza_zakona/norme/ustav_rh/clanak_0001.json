@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": "U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "6AB6A347F29E842911681201FF0FE4B0B3BD2AB9B60A51868B2F46C0857BAB21",
+    "sha256_datoteke": "15FE50210915D2206B48B16DE7A20F53D3994AB6DFB3E61F515E9BE1124C4C8A",
+    "napomena": null
+  }
+}

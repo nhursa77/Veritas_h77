@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": "Najduže radno vrijeme određuje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Najduže radno vrijeme određuje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "210017072B97D518BEB619BC4CAE1FA6916E61B6C490F6F406B1091AFE320072",
+    "sha256_datoteke": "D146731CA6BD8CAD5ED226714DF1319C409ACA2FDC17629038E0F81974F6B454",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "81",
+    "naslov": null,
+    "tekst": "– odlučuje o donošenju i promjeni Ustava, – donosi zakone, – donosi državni proračun, – odlučuje o ratu i miru, – donosi akte kojima izražava politiku Hrvatskoga sabora, – donosi Strategiju nacionalne sigurnosti i Strategiju obrane Republike Hrvatske, – ostvaruje građanski nadzor nad oružanim snagama i službama sigurnosti Republike Hrvatske, – odlučuje o promjeni granica Republike Hrvatske, – raspisuje referendum, – obavlja izbore, imenovanja i razrješenja, u skladu s Ustavom i zakonom, – nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Hrvatskom saboru, u skladu s Ustavom i zakonom, – daje amnestiju za kaznena djela, – obavlja druge poslove utvrđene Ustavom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "– odlučuje o donošenju i promjeni Ustava, – donosi zakone, – donosi državni proračun, – odlučuje o ratu i miru, – donosi akte kojima izražava politiku Hrvatskoga sabora, – donosi Strategiju nacionalne sigurnosti i Strategiju obrane Republike Hrvatske, – ostvaruje građanski nadzor nad oružanim snagama i službama sigurnosti Republike Hrvatske, – odlučuje o promjeni granica Republike Hrvatske, – raspisuje referendum, – obavlja izbore, imenovanja i razrješenja, u skladu s Ustavom i zakonom, – nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Hrvatskom saboru, u skladu s Ustavom i zakonom, – daje amnestiju za kaznena djela, – obavlja druge poslove utvrđene Ustavom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "2965982B36B501B9BE5CD87215B73584443E26C3D662BF747387D7850F28D4F9",
+    "sha256_datoteke": "0F7EBB0F25D8E0025109CBFBC78B3213E307E1D48D2B793B2E0ED5B39AF0252D",
+    "napomena": null
+  }
+}

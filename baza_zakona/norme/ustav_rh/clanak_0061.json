@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "61",
+    "naslov": null,
+    "tekst": "U oružanim snagama, redarstvu, državnoj upravi i javnim službama određenima zakonom može se ograničiti pravo na štrajk.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U oružanim snagama, redarstvu, državnoj upravi i javnim službama određenima zakonom može se ograničiti pravo na štrajk.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "5E95A36AC5B112ABD2A6AC3DAB58C212D5022AA328C9DFEA6BDEDC9A846ECBF3",
+    "sha256_datoteke": "EFAB6A528E3F110E834173B9BAEDCE411A035B33349F8F9C77DD56C61780D07F",
+    "napomena": null
+  }
+}

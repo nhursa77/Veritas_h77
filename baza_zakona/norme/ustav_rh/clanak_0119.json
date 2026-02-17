@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "119",
+    "naslov": null,
+    "tekst": "Suci i suci porotnici koji sudjeluju u suđenju ne mogu biti pozvani na odgovornost za izraženo mišljenje ili glasovanje pri donošenju sudbene odluke, osim ako se radi o kršenju zakona od strane suca koje je kazneno djelo. Sudac ne može u postupku pokrenutom zbog kaznenog djela učinjenog u obavljanju sudačke dužnosti biti pritvoren niti mu može biti određen istražni zatvor bez odobrenja Državnoga sudbenog vijeća.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Suci i suci porotnici koji sudjeluju u suđenju ne mogu biti pozvani na odgovornost za izraženo mišljenje ili glasovanje pri donošenju sudbene odluke, osim ako se radi o kršenju zakona od strane suca koje je kazneno djelo. Sudac ne može u postupku pokrenutom zbog kaznenog djela učinjenog u obavljanju sudačke dužnosti biti pritvoren niti mu može biti određen istražni zatvor bez odobrenja Državnoga sudbenog vijeća.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "0833EFA87B47145A787A9B26246B8DE39562A8EA35D9D36622A99269BA8A69C6",
+    "sha256_datoteke": "E29D291DDEFDD0AC728513170F1FF85C6FA58E579A1260DA9F1CF86DD6EA0A3F",
+    "napomena": null
+  }
+}

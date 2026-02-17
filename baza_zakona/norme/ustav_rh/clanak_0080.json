@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "80",
+    "naslov": null,
+    "tekst": "Unutarnje ustrojstvo i način rada Hrvatskoga sabora uređuje se poslovnikom. Poslovnik se donosi većinom glasova svih zastupnika. Poslovnik Hrvatskog sabora (NN 81/13 , 113/16 , 69/17 , 29/18 , 53/20 , 119/20 , 123/20 , 86/23 )",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Unutarnje ustrojstvo i način rada Hrvatskoga sabora uređuje se poslovnikom. Poslovnik se donosi većinom glasova svih zastupnika. Poslovnik Hrvatskog sabora (NN 81/13 , 113/16 , 69/17 , 29/18 , 53/20 , 119/20 , 123/20 , 86/23 )",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "4FB1EFE13C75DCA205CB674A968D6A4E1DC39771DD63E7F2E8B3E5C1B0942224",
+    "sha256_datoteke": "49524C0123056F496812774053931346C880C0104FDF8EE46CFE0CF11C9427D4",
+    "napomena": null
+  }
+}

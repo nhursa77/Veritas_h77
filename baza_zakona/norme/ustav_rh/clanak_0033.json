@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "33",
+    "naslov": null,
+    "tekst": "Stranac koji se zakonito nalazi na teritoriju Republike Hrvatske ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom. SUDSKA PRAKSA: Rješenje",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Stranac koji se zakonito nalazi na teritoriju Republike Hrvatske ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom. SUDSKA PRAKSA: Rješenje",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "12B06339E86005F44F4725AA84B5C83D77BDC8FAEFC68779C19A27597A508D82",
+    "sha256_datoteke": "B77B09B1995359AC28254AC693C81823E38C151D89BF428694358B5B1E24FCA0",
+    "napomena": null
+  }
+}

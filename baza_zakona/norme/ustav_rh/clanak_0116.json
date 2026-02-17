@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "116",
+    "naslov": null,
+    "tekst": "Predsjednika Vrhovnog suda Republike Hrvatske, uz prethodno mišljenje Opće sjednice Vrhovnog suda Republike Hrvatske i nadležnog odbora Hrvatskoga sabora, na prijedlog Predsjednika Republike bira i razrješuje Hrvatski sabor. Predsjednik Vrhovnog suda Republike Hrvatske bira se na četiri godine. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova te postupak pred sudovima uređuje se zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednika Vrhovnog suda Republike Hrvatske, uz prethodno mišljenje Opće sjednice Vrhovnog suda Republike Hrvatske i nadležnog odbora Hrvatskoga sabora, na prijedlog Predsjednika Republike bira i razrješuje Hrvatski sabor. Predsjednik Vrhovnog suda Republike Hrvatske bira se na četiri godine. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova te postupak pred sudovima uređuje se zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "610F478B076A7CC5349CA6DEA395EFECA5CBE109B447ECDE8E7BF2DAC941BC60",
+    "sha256_datoteke": "2EA62F18C975D658774B52BC390A6338B34BB125D13CBFE67D748E943B678E53",
+    "napomena": null
+  }
+}

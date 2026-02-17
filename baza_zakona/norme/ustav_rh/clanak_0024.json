@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": "Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrđenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode. SUDSKA PRAKSA: Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrđenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode. SUDSKA PRAKSA: Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "F403B6942B1F41777F7A2B1CC0A9EBAA58F1AAEB0818B6D20FB4909363262550",
+    "sha256_datoteke": "4966642372A71F46BBB8BCA51942E030057A1CED71F56BB7F59585162A4EFE15",
+    "napomena": null
+  }
+}

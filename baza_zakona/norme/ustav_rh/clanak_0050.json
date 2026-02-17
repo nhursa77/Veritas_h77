@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": "Poduzetnička se sloboda i vlasnička prava mogu iznimno ograničiti zakonom radi zaštite interesa i sigurnosti Republike Hrvatske, prirode, ljudskog okoliša i zdravlja ljudi. SUDSKA PRAKSA: Odluka Ustavnog suda",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Poduzetnička se sloboda i vlasnička prava mogu iznimno ograničiti zakonom radi zaštite interesa i sigurnosti Republike Hrvatske, prirode, ljudskog okoliša i zdravlja ljudi. SUDSKA PRAKSA: Odluka Ustavnog suda",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "7A1955E8E5B8BF855779F1A1162DD06B1C25C79A207A2367EA5CE44F21C8D934",
+    "sha256_datoteke": "B8C1B2B96310068DA24AB2A05BC6748558EA1C75E47CF1D68759E998FE18F363",
+    "napomena": null
+  }
+}

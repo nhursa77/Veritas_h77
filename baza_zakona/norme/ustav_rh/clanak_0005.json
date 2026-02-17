@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": "Svatko je dužan držati se Ustava i prava i poštivati pravni poredak Republike Hrvatske. Sudska praksa: Odluka USRH , Odluka USRH",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Svatko je dužan držati se Ustava i prava i poštivati pravni poredak Republike Hrvatske. Sudska praksa: Odluka USRH , Odluka USRH",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "088F37D38673AE59CC8F6FE635F15EC16697DC0B3D02D40419132B8CFB3FA70D",
+    "sha256_datoteke": "F55023A6A8E80E3051837928F6AB248003D7A9A09D89879A25BF6F5D177B0BB9",
+    "napomena": null
+  }
+}

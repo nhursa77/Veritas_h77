@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "53",
+    "naslov": null,
+    "tekst": "Hrvatska narodna banka je samostalna i neovisna i o svom radu izvješćuje Hrvatski sabor. Hrvatskom narodnom bankom upravlja i njezinim poslovanjem rukovodi guverner Hrvatske narodne banke. Ustrojstvo, cilj, zadaci i nadležnost Hrvatske narodne banke uređuju se zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Hrvatska narodna banka je samostalna i neovisna i o svom radu izvješćuje Hrvatski sabor. Hrvatskom narodnom bankom upravlja i njezinim poslovanjem rukovodi guverner Hrvatske narodne banke. Ustrojstvo, cilj, zadaci i nadležnost Hrvatske narodne banke uređuju se zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "3C601053D1FE983B30E946D267EBCCB09807144422091EF120B32A4C99FB5282",
+    "sha256_datoteke": "EC61BEDEAF0834CE8D800F9811E9CDA18D0893AE2D52935F1B85D9A29E4A62AF",
+    "napomena": null
+  }
+}

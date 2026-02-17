@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "64",
+    "naslov": null,
+    "tekst": "Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Država osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Država osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "A95E5BBA86A549D9608D5F0C1F36EA5DC56A96F35335396E84D2226B598CA8F7",
+    "sha256_datoteke": "4593A4D564CD95B425D4CA8B98AF8F9A67166272387D7392144126F635DF0558",
+    "napomena": null
+  }
+}

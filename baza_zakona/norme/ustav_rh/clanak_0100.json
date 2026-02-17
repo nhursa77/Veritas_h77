@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "100",
+    "naslov": null,
+    "tekst": "Predsjednik Republike imenuje i razrješuje vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Hrvatskoga sabora Predsjednik Republike objavljuje rat i zaključuje mir. U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države Predsjednik Republike može, uz supotpis predsjednika Vlade, narediti uporabu oružanih snaga iako nije proglašeno ratno stanje.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike imenuje i razrješuje vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Hrvatskoga sabora Predsjednik Republike objavljuje rat i zaključuje mir. U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države Predsjednik Republike može, uz supotpis predsjednika Vlade, narediti uporabu oružanih snaga iako nije proglašeno ratno stanje.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "7B9B8904A1F7D7375E4683BB454CE0D658B7482A244DD3AAD4FCA12065109316",
+    "sha256_datoteke": "8DDAC1957858337AA0C3C1083A25D12AB5FFFDA11C062AEB62EF44308C4E94D6",
+    "napomena": null
+  }
+}

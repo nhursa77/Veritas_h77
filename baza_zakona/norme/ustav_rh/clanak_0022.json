@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": "Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud. SUDSKA PRAKSA: Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud. SUDSKA PRAKSA: Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "F8DFBB393AB964A9E1FF2C652A8D7D92A17C259254A920DB95DC267DF46D6883",
+    "sha256_datoteke": "71475EC8B83BCC0BD858FD592A8D434F928F3B1CAB4B3EE0140548C46B60D753",
+    "napomena": null
+  }
+}

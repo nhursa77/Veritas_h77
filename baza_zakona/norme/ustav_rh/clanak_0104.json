@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "104",
+    "naslov": null,
+    "tekst": "Predsjednik Republike ne može na prijedlog Vlade raspustiti Hrvatski sabor dok traje postupak za utvrđivanje njegove odgovornosti za povredu Ustava.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike ne može na prijedlog Vlade raspustiti Hrvatski sabor dok traje postupak za utvrđivanje njegove odgovornosti za povredu Ustava.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "35B11A7D3F53069E48F549C70FA4DCE756FC4167101A7A7FD161721076AB0B09",
+    "sha256_datoteke": "DF2423AC11CF12A2890283BE057C08C4B19C47FB9C32CA0E735A8B9361AAF2FB",
+    "napomena": null
+  }
+}

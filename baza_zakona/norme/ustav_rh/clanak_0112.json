@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "112",
+    "naslov": null,
+    "tekst": "Predsjednik i članovi Vlade zajednički su odgovorni za odluke koje donosi Vlada, a osobno su odgovorni za svoje područje rada.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik i članovi Vlade zajednički su odgovorni za odluke koje donosi Vlada, a osobno su odgovorni za svoje područje rada.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "CD2BFDF5A03A4F9610BFCA57F9B11E09F347565269F1BA824F9203F679734BA9",
+    "sha256_datoteke": "C2BD83ABCF0BD4E868B9708AB3DCCB286C111222748D0F636F0A480CF0D70EEC",
+    "napomena": null
+  }
+}

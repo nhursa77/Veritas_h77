@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": "Promjena Ustava Republike Hrvatske (NN 28/01)",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Promjena Ustava Republike Hrvatske (NN 28/01)",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "81885ABC2E4A143646C51DBA1280C257AC24E0DC95472C53F33538BAC8BBD8C5",
+    "sha256_datoteke": "34A12524B04A26E0CBA87FCA2E5A3E3D044831A24048AE9EFBA088536F13CAD9",
+    "napomena": null
+  }
+}

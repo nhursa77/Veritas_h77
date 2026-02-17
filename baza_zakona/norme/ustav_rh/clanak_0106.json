@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "106",
+    "naslov": null,
+    "tekst": "Savjetodavni, stručni i drugi poslovi obavljaju se u Uredu Predsjednika Republike. Ustrojstvo i djelokrug Ureda uređuje Predsjednik Republike svojom odlukom. Ured Predsjednika Republike i stručne službe Vlade Republike Hrvatske surađuju u obavljanju poslova od zajedničkog interesa. Sredstva za rad Ureda Predsjednika Republike osiguravaju se u okviru državnog proračuna Republike Hrvatske. 3. VLADA REPUBLIKE HRVATSKE",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Savjetodavni, stručni i drugi poslovi obavljaju se u Uredu Predsjednika Republike. Ustrojstvo i djelokrug Ureda uređuje Predsjednik Republike svojom odlukom. Ured Predsjednika Republike i stručne službe Vlade Republike Hrvatske surađuju u obavljanju poslova od zajedničkog interesa. Sredstva za rad Ureda Predsjednika Republike osiguravaju se u okviru državnog proračuna Republike Hrvatske. 3. VLADA REPUBLIKE HRVATSKE",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "5BA72D64B8DEB325851FD395B4C2816D8C5821BF20F02CE9A75264E8AB7AEF50",
+    "sha256_datoteke": "41EC8A743497B1DF0FF64EE3F2FA2CA3AA681DC73B1649B59EFB892FEA98CABD",
+    "napomena": null
+  }
+}

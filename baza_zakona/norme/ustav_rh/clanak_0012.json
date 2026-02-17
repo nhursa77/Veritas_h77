@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": "Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Hrvatskom saboru.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Hrvatskom saboru.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "78096E0A958E3DA1A3617060601475DF93A222E39BAD791EDEB122F4E7A02993",
+    "sha256_datoteke": "044677CFF47F66E1769B44905CA6115B6E7A7FC81E65254C8691F4C3C4325494",
+    "napomena": null
+  }
+}

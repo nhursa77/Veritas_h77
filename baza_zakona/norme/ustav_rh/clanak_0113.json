@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "113",
+    "naslov": null,
+    "tekst": "Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se raspravljati i glasovati o povjerenju prije nego protekne sedam dana od dana dostave prijedloga Hrvatskom saboru. Rasprava i glasovanje o povjerenju mora se provesti najkasnije u roku od 30 dana od dana dostave prijedloga Hrvatskom saboru. Odluka o nepovjerenju je donijeta ako je za nju glasovala većina od ukupnog broja zastupnika u Hrvatskom saboru. Ako Hrvatski sabor odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije isteka roka od šest mjeseci. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade i Vlada podnose ostavku. Ako se u roku od 30 dana ne izglasa povjerenje novom mandataru i članovima koje predlaže za sastav Vlade, predsjednik Hrvatskoga sabora obavijestit će o tome Predsjednika Republike Hrvatske. Nakon primljene obavijesti predsjednika Hrvatskoga sabora Predsjednik Republike će odmah donijeti odluku o raspuštanju Hrvatskoga sabora i istovremeno raspisati izbore za Hrvatski sabor. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može umjesto njega predložiti drugoga člana Hrvatskom saboru da mu izglasa povjerenje ili predsjednik Vlade i Vlada mogu podnijeti ostavku. U svim slučajevima kada predsjednik Vlade ili Vlada podnesu ostavku postupit će se u skladu sa stavkom 7. ovoga članka.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se raspravljati i glasovati o povjerenju prije nego protekne sedam dana od dana dostave prijedloga Hrvatskom saboru. Rasprava i glasovanje o povjerenju mora se provesti najkasnije u roku od 30 dana od dana dostave prijedloga Hrvatskom saboru. Odluka o nepovjerenju je donijeta ako je za nju glasovala većina od ukupnog broja zastupnika u Hrvatskom saboru. Ako Hrvatski sabor odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije isteka roka od šest mjeseci. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade i Vlada podnose ostavku. Ako se u roku od 30 dana ne izglasa povjerenje novom mandataru i članovima koje predlaže za sastav Vlade, predsjednik Hrvatskoga sabora obavijestit će o tome Predsjednika Republike Hrvatske. Nakon primljene obavijesti predsjednika Hrvatskoga sabora Predsjednik Republike će odmah donijeti odluku o raspuštanju Hrvatskoga sabora i istovremeno raspisati izbore za Hrvatski sabor. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može umjesto njega predložiti drugoga člana Hrvatskom saboru da mu izglasa povjerenje ili predsjednik Vlade i Vlada mogu podnijeti ostavku. U svim slučajevima kada predsjednik Vlade ili Vlada podnesu ostavku postupit će se u skladu sa stavkom 7. ovoga članka.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "DD0A2419D5984E6D6A2F1C6DBF4B725AE033032D4CCC3C538EC6B53169A2959C",
+    "sha256_datoteke": "64CC455DAFFEBB4167A6600DD54E76B4C51B488A2DD9B6BA4FA84A8389C3BB45",
+    "napomena": null
+  }
+}

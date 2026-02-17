@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": "Vlasništvo obvezuje. Nositelji vlasničkog prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete određene zakonom. Jamči se pravo nasljeđivanja. SUDSKA PRAKSA: Odluka Ustavnog suda , Odluka Ustavnog suda",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Vlasništvo obvezuje. Nositelji vlasničkog prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete određene zakonom. Jamči se pravo nasljeđivanja. SUDSKA PRAKSA: Odluka Ustavnog suda , Odluka Ustavnog suda",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "AAB9965BDE580D886B4A6A7C9AC39FB53FA3ECF477B1AB4B47EF9E27EB50BF29",
+    "sha256_datoteke": "57005FF0B813BD927348E3842EF593A766590A96264BF857B9705BA2EA142AEC",
+    "napomena": null
+  }
+}

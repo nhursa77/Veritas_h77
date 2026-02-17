@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "114",
+    "naslov": null,
+    "tekst": "Određeni poslovi državne uprave mogu se zakonom povjeriti tijelima jedinica lokalne i područne (regionalne) samouprave i pravnim osobama koje imaju javne ovlasti. Zakonom i drugim propisima uređuje se status državnih službenika te radno-pravni status namještenika. 4. SUDBENA VLAST",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Određeni poslovi državne uprave mogu se zakonom povjeriti tijelima jedinica lokalne i područne (regionalne) samouprave i pravnim osobama koje imaju javne ovlasti. Zakonom i drugim propisima uređuje se status državnih službenika te radno-pravni status namještenika. 4. SUDBENA VLAST",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "82CCE17B5CDB7D84AB6EB3BA78B25AE9D0DF0056F886C498E63B7F1E649C5664",
+    "sha256_datoteke": "387EFBA3071162EDA7A293F6B284EAC53E0C05DCC3700BFEE7BAFCA19B7AC182",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "141",
+    "naslov": null,
+    "tekst": "Izbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Izbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "7762B3F2679A080DC03E18D81EE0A5C22948CFD0B1C4D093F4B052B05FC5A6D4",
+    "sha256_datoteke": "6790F0B5D89DCEA14979AC4E5C0D5E2121B39E06CEB58926D1E5DD8A1B9F3535",
+    "napomena": null
+  }
+}

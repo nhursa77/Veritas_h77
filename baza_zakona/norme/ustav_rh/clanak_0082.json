@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "82",
+    "naslov": null,
+    "tekst": "Zastupnici glasuju osobno.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Zastupnici glasuju osobno.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B9EBA471153246F78B933FBB5A4A8C853417C4020082482F4FAFE8DEB6E2FEAC",
+    "sha256_datoteke": "18245D0216212F2A385BF5BAA29A596E645E12976726D891EE0D82D16B59B400",
+    "napomena": null
+  }
+}

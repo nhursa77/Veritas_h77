@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "45",
+    "naslov": null,
+    "tekst": "U izborima za Hrvatski sabor birači koji nemaju prebivalište u Republici Hrvatskoj imaju pravo izabrati tri zastupnika, u skladu sa zakonom. U izborima za Hrvatski sabor, Predsjednika Republike Hrvatske i Europski parlament te u postupku odlučivanja na državnom referendumu biračko se pravo ostvaruje na neposrednim izborima tajnim glasovanjem, pri čemu birači koji nemaju prebivalište u Republici Hrvatskoj ostvaruju biračko pravo na biračkim mjestima u sjedištima diplomatsko-konzularnih predstavništava Republike Hrvatske u stranoj državi u kojoj prebivaju. U izborima za Hrvatski sabor, Predsjednika Republike Hrvatske i Europski parlament te u postupku odlučivanja na državnom referendumu ostvarivanje biračkog prava Republika Hrvatska osigurava i svojim državljanima s prebivalištem u Republici Hrvatskoj koji se u doba izbora zateknu izvan njezinih granica tako da mogu glasovati u sjedištima diplomatsko-konzularnih predstavništava Republike Hrvatske u stranoj državi u kojoj se nalaze ili na koji drugi način određen zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "U izborima za Hrvatski sabor birači koji nemaju prebivalište u Republici Hrvatskoj imaju pravo izabrati tri zastupnika, u skladu sa zakonom. U izborima za Hrvatski sabor, Predsjednika Republike Hrvatske i Europski parlament te u postupku odlučivanja na državnom referendumu biračko se pravo ostvaruje na neposrednim izborima tajnim glasovanjem, pri čemu birači koji nemaju prebivalište u Republici Hrvatskoj ostvaruju biračko pravo na biračkim mjestima u sjedištima diplomatsko-konzularnih predstavništava Republike Hrvatske u stranoj državi u kojoj prebivaju. U izborima za Hrvatski sabor, Predsjednika Republike Hrvatske i Europski parlament te u postupku odlučivanja na državnom referendumu ostvarivanje biračkog prava Republika Hrvatska osigurava i svojim državljanima s prebivalištem u Republici Hrvatskoj koji se u doba izbora zateknu izvan njezinih granica tako da mogu glasovati u sjedištima diplomatsko-konzularnih predstavništava Republike Hrvatske u stranoj državi u kojoj se nalaze ili na koji drugi način određen zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "4151CF3063F58A09C23FC1E051D9AD30D18006DDC5A45423A87313E158F6A12D",
+    "sha256_datoteke": "05E6590BB03F70F234B8110DE4B07823B825BD1F70C5E01E84E723F2940BEBBB",
+    "napomena": null
+  }
+}

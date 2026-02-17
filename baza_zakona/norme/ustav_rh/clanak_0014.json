@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": "Svi su pred zakonom jednaki. SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Svi su pred zakonom jednaki. SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "6D168CBE2692A0DA3BD1853BE07573DFD9A61638839B01F4BA6323303277713F",
+    "sha256_datoteke": "FEF20B66327C6D754394A1F17B36581B974B49F78629B16AD660382E9CC7408A",
+    "napomena": null
+  }
+}

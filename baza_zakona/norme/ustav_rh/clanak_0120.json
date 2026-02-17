@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "120",
+    "naslov": null,
+    "tekst": "Sudac će biti razriješen sudačke dužnosti: – ako to sam zatraži, – ako trajno izgubi sposobnost obavljati svoju dužnost, – ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti, – ako u skladu sa zakonom, zbog počinjenoga teškog stegovnog djela, tako odluči Državno sudbeno vijeće, – kad navrši sedamdeset godina. Protiv odluke o razrješenju sudačke dužnosti sudac ima pravo u roku od 15 dana od dana dostave odluke, podnijeti Ustavnom sudu Republike Hrvatske žalbu o kojoj Ustavni sud odlučuje na način i u sastavu određenom Ustavnim zakonom o Ustavnom sudu Republike Hrvatske. Protiv odluke Državnoga sudbenog vijeća o stegovnoj odgovornosti sudac ima, u roku od 15 dana od dana dostave odluke, pravo žalbe Ustavnom sudu Republike Hrvatske. O žalbi odlučuje Ustavni sud na način i po postupku kako je to određeno Ustavnim zakonom o Ustavnom sudu Republike Hrvatske. U slučajevima iz stavka 3. i 4. ovoga članka Ustavni sud dužan je odlučiti u roku od 30 dana od primitka žalbe. Odluka Ustavnog suda isključuje pravo na ustavnu tužbu. Sudac ne može biti premješten protivno njegovoj volji osim u slučaju ukidanja suda ili preustroja suda u skladu sa zakonom. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Sudac će biti razriješen sudačke dužnosti: – ako to sam zatraži, – ako trajno izgubi sposobnost obavljati svoju dužnost, – ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti, – ako u skladu sa zakonom, zbog počinjenoga teškog stegovnog djela, tako odluči Državno sudbeno vijeće, – kad navrši sedamdeset godina. Protiv odluke o razrješenju sudačke dužnosti sudac ima pravo u roku od 15 dana od dana dostave odluke, podnijeti Ustavnom sudu Republike Hrvatske žalbu o kojoj Ustavni sud odlučuje na način i u sastavu određenom Ustavnim zakonom o Ustavnom sudu Republike Hrvatske. Protiv odluke Državnoga sudbenog vijeća o stegovnoj odgovornosti sudac ima, u roku od 15 dana od dana dostave odluke, pravo žalbe Ustavnom sudu Republike Hrvatske. O žalbi odlučuje Ustavni sud na način i po postupku kako je to određeno Ustavnim zakonom o Ustavnom sudu Republike Hrvatske. U slučajevima iz stavka 3. i 4. ovoga članka Ustavni sud dužan je odlučiti u roku od 30 dana od primitka žalbe. Odluka Ustavnog suda isključuje pravo na ustavnu tužbu. Sudac ne može biti premješten protivno njegovoj volji osim u slučaju ukidanja suda ili preustroja suda u skladu sa zakonom. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "398E788B82349FBB2BE99FD709267781BC9582C37B8503AABAC4D790D6DE899F",
+    "sha256_datoteke": "E35CB5F1F451936470C693D99ADF48D16E432967057E1C9DE01D5E978AC0474D",
+    "napomena": null
+  }
+}

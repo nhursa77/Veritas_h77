@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "139",
+    "naslov": null,
+    "tekst": "X. ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "X. ZAVRŠNE ODREDBE",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "FBF89C79FB7480987DFF6AD02964CE5AC94769063B7093C3A0D7BE2ED2111219",
+    "sha256_datoteke": "4EAA9F1B911DA578789555725C33EA6216E52E2F3917AE0EDF6F1169615E19FD",
+    "napomena": null
+  }
+}

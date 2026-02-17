@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": "Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost osoba s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi. SUDSKA PRAKSA: Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost osoba s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi. SUDSKA PRAKSA: Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "7787D908DC589E7BCC6B5A2E9A69DAF026B3153891D7E3657677D006BF90315E",
+    "sha256_datoteke": "8CC36727C62B314A9F396AC683594BD3EAE81E3166D9E8B59223428364BF070B",
+    "napomena": null
+  }
+}

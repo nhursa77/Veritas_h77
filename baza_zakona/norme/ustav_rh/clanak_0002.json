@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": "Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Hrvatski sabor ili narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: – o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj; – o očuvanju prirodnog i kulturnog bogatstva i korištenju njime; – o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Hrvatski sabor ili narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: – o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj; – o očuvanju prirodnog i kulturnog bogatstva i korištenju njime; – o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "C9129645B7AB0042100655A185EAF7F7807D2C520D1D6C9EB027BF7DD6337D02",
+    "sha256_datoteke": "80EB5951ACE2A6C155E2831D401E66A4389197D30EC269FCDBF29EB1566D39BA",
+    "napomena": null
+  }
+}

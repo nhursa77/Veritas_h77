@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "125",
+    "naslov": null,
+    "tekst": "– odlučuje o suglasnosti zakona s Ustavom, – odlučuje o suglasnosti drugih propisa s Ustavom i zakonom, – može ocjenjivati ustavnost zakona te ustavnost i zakonitost drugih propisa koji su prestali važiti ako od tog prestanka do podnošenja zahtjeva ili prijedloga za pokretanje postupka nije prošlo više od godine dana, – odlučuje povodom ustavnih tužbi protiv pojedinačnih odluka državnih tijela, tijela jedinica lokalne i područne (regionalne) samouprave te pravnih osoba s javnim ovlastima kad su tim odlukama povrijeđena ljudska prava i temeljne slobode, kao i pravo na lokalnu i područnu (regionalnu) samoupravu zajamčeni Ustavom Republike Hrvatske, – prati ostvarivanje ustavnosti i zakonitosti te o uočenim pojavama neustavnosti i nezakonitosti izvješćuje Hrvatski sabor, – rješava sukob nadležnosti između tijela zakonodavne, izvršne i sudbene vlasti, – odlučuje, u skladu s Ustavom, o odgovornosti Predsjednika Republike, – nadzire ustavnost programa i djelovanja političkih stranaka i može, u skladu s Ustavom, zabraniti njihov rad, – nadzire ustavnost i zakonitost izbora i državnog referenduma i rješava izborne sporove koji nisu u djelokrugu sudova, – obavlja druge poslove određene Ustavom. Članak 125.a Ako Ustavni sud utvrdi da nadležno tijelo nije donijelo propis za izvršenje odredaba Ustava, zakona i drugih propisa, a bilo je dužno takav propis donijeti, o tome obavještava Vladu, a o propisima koje je bila dužna donijeti Vlada, obavještava Hrvatski sabor.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "– odlučuje o suglasnosti zakona s Ustavom, – odlučuje o suglasnosti drugih propisa s Ustavom i zakonom, – može ocjenjivati ustavnost zakona te ustavnost i zakonitost drugih propisa koji su prestali važiti ako od tog prestanka do podnošenja zahtjeva ili prijedloga za pokretanje postupka nije prošlo više od godine dana, – odlučuje povodom ustavnih tužbi protiv pojedinačnih odluka državnih tijela, tijela jedinica lokalne i područne (regionalne) samouprave te pravnih osoba s javnim ovlastima kad su tim odlukama povrijeđena ljudska prava i temeljne slobode, kao i pravo na lokalnu i područnu (regionalnu) samoupravu zajamčeni Ustavom Republike Hrvatske, – prati ostvarivanje ustavnosti i zakonitosti te o uočenim pojavama neustavnosti i nezakonitosti izvješćuje Hrvatski sabor, – rješava sukob nadležnosti između tijela zakonodavne, izvršne i sudbene vlasti, – odlučuje, u skladu s Ustavom, o odgovornosti Predsjednika Republike, – nadzire ustavnost programa i djelovanja političkih stranaka i može, u skladu s Ustavom, zabraniti njihov rad, – nadzire ustavnost i zakonitost izbora i državnog referenduma i rješava izborne sporove koji nisu u djelokrugu sudova, – obavlja druge poslove određene Ustavom. Članak 125.a Ako Ustavni sud utvrdi da nadležno tijelo nije donijelo propis za izvršenje odredaba Ustava, zakona i drugih propisa, a bilo je dužno takav propis donijeti, o tome obavještava Vladu, a o propisima koje je bila dužna donijeti Vlada, obavještava Hrvatski sabor.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "38D88A43AFD2FA039D705A9ABFC0A7511585032C6C39F6DDA58D83CC713C47BE",
+    "sha256_datoteke": "C51BF0FB2CB9F3EE18F34E078E15784931A385DA3A10F7776250E6D4E4F41CCA",
+    "napomena": null
+  }
+}

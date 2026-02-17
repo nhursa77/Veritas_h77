@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "88",
+    "naslov": null,
+    "tekst": "Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Hrvatski sabor ne odluči drukčije.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Hrvatski sabor ne odluči drukčije.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B6CAD8070CEB61177C976C442420B80AF1E75A11F49033284CEA9845C1755033",
+    "sha256_datoteke": "F2A758F6E474C25E33C6B078C182A43B26CAD8F11269783774C5637043F53A6C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": "Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita. SUDSKA PRAKSA: Odluka",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita. SUDSKA PRAKSA: Odluka",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "79D67488EFA44B8514A66E7733D9F3DF81B46C32167ABA81B3335343407A6754",
+    "sha256_datoteke": "95A7B91E8CA07C9725E7683FADD404CD12451DBD12AB6BF06C4D80861A4E4DAA",
+    "napomena": null
+  }
+}

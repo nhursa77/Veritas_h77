@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": "Zakonom se uređuje položaj, djelokrug i ustroj glavnog grada Zagreba. III. ZAŠTITA LJUDSKIH PRAVA I TEMELJNIH SLOBODA 1. ZAJEDNIČKE ODREDBE",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Zakonom se uređuje položaj, djelokrug i ustroj glavnog grada Zagreba. III. ZAŠTITA LJUDSKIH PRAVA I TEMELJNIH SLOBODA 1. ZAJEDNIČKE ODREDBE",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "C70028AEE057A74E789876401FCF4AD1023160A503A2A515652C5E6DA2CBF921",
+    "sha256_datoteke": "3BEBC9B509AEB0229B607CB88A46A14594B826FBF029F91B9980D19D9173279B",
+    "napomena": null
+  }
+}

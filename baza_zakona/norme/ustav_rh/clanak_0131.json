@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "131",
+    "naslov": null,
+    "tekst": "Prihodi jedinica lokalne i područne (regionalne) samouprave moraju biti razmjerni njihovim ovlastima predviđenim Ustavom i zakonom. Država je dužna pomagati financijski slabije jedinice lokalne samouprave u skladu sa zakonom. VII. MEĐUNARODNI ODNOSI 1. MEĐUNARODNI UGOVORI",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Prihodi jedinica lokalne i područne (regionalne) samouprave moraju biti razmjerni njihovim ovlastima predviđenim Ustavom i zakonom. Država je dužna pomagati financijski slabije jedinice lokalne samouprave u skladu sa zakonom. VII. MEĐUNARODNI ODNOSI 1. MEĐUNARODNI UGOVORI",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "823BD848C56ECB4D27FA927AEF816564516541D2A348FC4686AB691009FB9A4C",
+    "sha256_datoteke": "DC2E2DA5BFEC652DE20FAC51C56C928720340A8E8EC5F15BFAE374F7E3A84F00",
+    "napomena": null
+  }
+}

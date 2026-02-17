@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": "Posebnu skrb država posvećuje zaštiti osoba s invaliditetom i njihovu uključivanju u društveni život. Posebnu skrb država posvećuje zaštiti hrvatskih branitelja, hrvatskih ratnih vojnih invalida, udovica, roditelja i djece poginulih hrvatskih branitelja. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Posebnu skrb država posvećuje zaštiti osoba s invaliditetom i njihovu uključivanju u društveni život. Posebnu skrb država posvećuje zaštiti hrvatskih branitelja, hrvatskih ratnih vojnih invalida, udovica, roditelja i djece poginulih hrvatskih branitelja. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "B36102C4CBB02859577CD01C3C8AA9F95477B6ED425175BBE2C80238A9A5F202",
+    "sha256_datoteke": "A8B3FF917423279628FE1E6670757C9E91E323C5F1501538F7131AE8C3CDD2E4",
+    "napomena": null
+  }
+}

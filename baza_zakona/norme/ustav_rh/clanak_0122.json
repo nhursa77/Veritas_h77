@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "122",
+    "naslov": null,
+    "tekst": "Postupak kandidiranja sudaca Ustavnog suda i predlaganja za izbor Hrvatskom saboru provodi odbor Hrvatskoga sabora, nadležan za Ustav. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Postupak kandidiranja sudaca Ustavnog suda i predlaganja za izbor Hrvatskom saboru provodi odbor Hrvatskoga sabora, nadležan za Ustav. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "32A70A751BE8DC8AC3747D55D21EE7DBD1C03EC4DFF4A56C4F4C65E22A03630B",
+    "sha256_datoteke": "DAD3EF8210F243AC89DA1BA517563DAD1880B33EF4D259CAA3D58D97BD8ADCE4",
+    "napomena": null
+  }
+}

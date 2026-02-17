@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": "Promjena Ustava Republike Hrvatske (NN 113/00)",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Promjena Ustava Republike Hrvatske (NN 113/00)",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "A47C327875135E6D0234236E448435A3CA772BD944F7453428108E74AC191404",
+    "sha256_datoteke": "29250EC39B1B998E9B3578FAC70F2C8F6E47DC583A7D7A2F4535ACC52A1BEF7E",
+    "napomena": null
+  }
+}

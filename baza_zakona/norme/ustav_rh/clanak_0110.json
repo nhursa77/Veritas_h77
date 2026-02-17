@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "110",
+    "naslov": null,
+    "tekst": "– predlaže zakone i druge akte Hrvatskom saboru, – predlaže državni proračun i završni račun, – provodi zakone i druge odluke Hrvatskoga sabora, – donosi uredbe za izvršenje zakona, – vodi vanjsku i unutarnju politiku, – usmjerava i nadzire rad državne uprave, – brine o gospodarskom razvitku zemlje, – usmjerava djelovanje i razvitak javnih službi, – obavlja druge poslove određene Ustavom i zakonom.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "– predlaže zakone i druge akte Hrvatskom saboru, – predlaže državni proračun i završni račun, – provodi zakone i druge odluke Hrvatskoga sabora, – donosi uredbe za izvršenje zakona, – vodi vanjsku i unutarnju politiku, – usmjerava i nadzire rad državne uprave, – brine o gospodarskom razvitku zemlje, – usmjerava djelovanje i razvitak javnih službi, – obavlja druge poslove određene Ustavom i zakonom.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "8D2B2C54B880E56E152EAD9B03512B5CB150D47BEA40157BB8DFF99C705C73DF",
+    "sha256_datoteke": "35539EEA6BE90C573B776FCA44C3FEE1E121507DF83139859AE0D75063922596",
+    "napomena": null
+  }
+}

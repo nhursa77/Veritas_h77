@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "99",
+    "naslov": null,
+    "tekst": "Predsjednik Republike, na prijedlog Vlade i uz supotpis predsjednika Vlade, odlučuje o osnivanju diplomatskih misija i konzularnih ureda Republike Hrvatske u inozemstvu. Predsjednik Republike, na prijedlog Vlade i uz mišljenje nadležnog odbora Hrvatskoga sabora, donosi odluku o postavljanju i opozivu šefova diplomatskih misija Republike Hrvatske u inozemstvu, uz prethodni supotpis predsjednika Vlade Republike Hrvatske. Predsjednik Republike prima vjerodajnice i opozivna pisma inozemnih šefova diplomatskih misija.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike, na prijedlog Vlade i uz supotpis predsjednika Vlade, odlučuje o osnivanju diplomatskih misija i konzularnih ureda Republike Hrvatske u inozemstvu. Predsjednik Republike, na prijedlog Vlade i uz mišljenje nadležnog odbora Hrvatskoga sabora, donosi odluku o postavljanju i opozivu šefova diplomatskih misija Republike Hrvatske u inozemstvu, uz prethodni supotpis predsjednika Vlade Republike Hrvatske. Predsjednik Republike prima vjerodajnice i opozivna pisma inozemnih šefova diplomatskih misija.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "FABCC2F7281E231C81E63C55E705667ED1210950B89DE47439F9844857F7DE44",
+    "sha256_datoteke": "EBDC26C61A9332A56FC17D7A808CEBEF517E5518948514625F99730861BCC49A",
+    "napomena": null
+  }
+}

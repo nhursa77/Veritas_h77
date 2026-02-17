@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": "Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike Hrvatske. O pitanjima iz stavka 1. i 2. ovoga članka Hrvatski sabor će raspisati referendum u skladu sa zakonom ako to zatraži deset posto od ukupnog broja birača u Republici Hrvatskoj. Na referendumu se odlučuje većinom birača koji su pristupili referendumu. Odluka donosena na referendumu obvezatna je. O referendumu se donosi zakon. Zakonom se mogu propisati i uvjeti za održavanje savjetodavnog referenduma.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike Hrvatske. O pitanjima iz stavka 1. i 2. ovoga članka Hrvatski sabor će raspisati referendum u skladu sa zakonom ako to zatraži deset posto od ukupnog broja birača u Republici Hrvatskoj. Na referendumu se odlučuje većinom birača koji su pristupili referendumu. Odluka donosena na referendumu obvezatna je. O referendumu se donosi zakon. Zakonom se mogu propisati i uvjeti za održavanje savjetodavnog referenduma.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "F2941F969461254FC58B90EF9F250ACB2F9DD816223D5D01B0F46B6B8037904A",
+    "sha256_datoteke": "10582F79008749245B2A12A1AF82CAAE89F919BCA5D20C0CEA4CF4F0A0684C6F",
+    "napomena": null
+  }
+}

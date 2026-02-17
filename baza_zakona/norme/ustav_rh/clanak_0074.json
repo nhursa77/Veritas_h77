@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "74",
+    "naslov": null,
+    "tekst": "Prvo zasjedanje Hrvatskoga sabora održava se najkasnije 20 dana nakon provedenih izbora. Hrvatski sabor konstituira se izborom predsjednika na prvoj sjednici na kojoj je nazočna većina zastupnika.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Prvo zasjedanje Hrvatskoga sabora održava se najkasnije 20 dana nakon provedenih izbora. Hrvatski sabor konstituira se izborom predsjednika na prvoj sjednici na kojoj je nazočna većina zastupnika.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "84E84DBDE3E9FF899C312387FBF42CC76CE64F189B1CB058A6142B100B3F33CE",
+    "sha256_datoteke": "9F04209E5928AEDDF667D7DAFE7782BC8D0BD4DC80C95E35A9115D0B69A85128",
+    "napomena": null
+  }
+}

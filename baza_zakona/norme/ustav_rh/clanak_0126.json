@@ -1,0 +1,45 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "126",
+    "naslov": null,
+    "tekst": "Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit. U slučajevima iz članka 129. stavka 1. podstavka 3. Ustava, ako Ustavni sud Republike Hrvatske utvrdi da zakon nije bio u skladu s Ustavom ili da drugi propis nije bio u skladu s Ustavom i zakonom, donijet će odluku o utvrđenju neustavnosti ili nezakonitosti.",
+    "struktura": {
+      "stavci": [
+        {
+          "broj": 1,
+          "tekst": "Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit. U slučajevima iz članka 129. stavka 1. podstavka 3. Ustava, ako Ustavni sud Republike Hrvatske utvrdi da zakon nije bio u skladu s Ustavom ili da drugi propis nije bio u skladu s Ustavom i zakonom, donijet će odluku o utvrđenju neustavnosti ili nezakonitosti.",
+          "tocke": null
+        }
+      ]
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "17.02.2026.",
+    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "zakon.hr",
+      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": []
+    },
+    "status_sidra": "nema"
+  },
+  "integritet": {
+    "sha256_teksta": "6477BE3152B497A3AD7259452C0F2132E5C2F5E064FE2F1C49F5C36D9D143FA6",
+    "sha256_datoteke": "F0A34C61CBD5FCD9CB0BCEF1D28AE40CBEC00BA143AFEA9E605EFE1A05B04B69",
+    "napomena": null
+  }
+}
