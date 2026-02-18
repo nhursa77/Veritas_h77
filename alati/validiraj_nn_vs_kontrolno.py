@@ -14,6 +14,7 @@ NN_HTML = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "iz
 OUT_REPORT = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh" / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
 ARTICLE_RX = re.compile(r"Članak\s+(\d+)\.", flags=re.IGNORECASE)
+CONTROL_HEADER_RX = re.compile(r"(?m)^\s*Članak\s+(\d{1,3})\b")
 
 
 def sha256_file(path: Path) -> str:
@@ -25,7 +26,11 @@ def sha256_file(path: Path) -> str:
 
 
 def parse_kontrolno_nums(text: str) -> set[int]:
-    return {int(match.group(1)) for match in ARTICLE_RX.finditer(text)}
+    return {int(match.group(1)) for match in CONTROL_HEADER_RX.finditer(text)}
+
+
+def parse_kontrolno_headers(text: str) -> list[int]:
+    return [int(match.group(1)) for match in CONTROL_HEADER_RX.finditer(text)]
 
 
 def parse_nn_numbers_and_texts(payload: dict) -> tuple[set[int], dict[int, str]]:
@@ -117,6 +122,12 @@ def build_report(
     kontrolno_hash: str,
     nn_count: int,
     kontrolno_count: int,
+    kontrolno_headers_count: int,
+    kontrolno_first20_headers: list[int],
+    kontrolno_has_10: bool,
+    kontrolno_has_11: bool,
+    kontrolno_has_12: bool,
+    kontrolno_count_mismatch_warning: str | None,
     missing_in_nn: list[int],
     extra_in_nn: list[int],
     short_text_nn: list[int],
@@ -138,10 +149,21 @@ def build_report(
     lines.append("## SUMMARY")
     lines.append("")
     lines.append(f"- CONTROL_COUNT: {kontrolno_count}")
+    lines.append(f"- CONTROL_HEADERS_COUNT: {kontrolno_headers_count}")
     lines.append(f"- NN_COUNT: {nn_count}")
     lines.append(f"- MISSING_COUNT: {len(missing_in_nn)}")
     lines.append(f"- SHORT_COUNT: {len(short_text_nn)}")
     lines.append(f"- ANOMALY_FLAG: {anomaly_flag}")
+    lines.append("")
+
+    lines.append("## CONTROL_EXTRACTOR_DEBUG")
+    lines.append("")
+    lines.append("- CONTROL_FIRST20_HEADERS: [" + ", ".join(str(x) for x in kontrolno_first20_headers) + "]")
+    lines.append(f"- CONTROL_HAS_10: {kontrolno_has_10}")
+    lines.append(f"- CONTROL_HAS_11: {kontrolno_has_11}")
+    lines.append(f"- CONTROL_HAS_12: {kontrolno_has_12}")
+    if kontrolno_count_mismatch_warning:
+        lines.append(f"- WARNING: {kontrolno_count_mismatch_warning}")
     lines.append("")
 
     lines.append("## Missing in NN (present in zakon.hr, absent in NN)")
@@ -192,7 +214,21 @@ def main() -> int:
     kontrolno_text = KONTROLNO_TXT.read_text(encoding="utf-8")
     nn_html = NN_HTML.read_text(encoding="utf-8", errors="ignore")
 
-    kontrolno_nums = parse_kontrolno_nums(kontrolno_text)
+    kontrolno_headers = parse_kontrolno_headers(kontrolno_text)
+    kontrolno_nums = set(kontrolno_headers)
+    kontrolno_count = len(kontrolno_nums)
+    kontrolno_headers_count = len(kontrolno_headers)
+    kontrolno_first20_headers = kontrolno_headers[:20]
+    kontrolno_has_10 = 10 in kontrolno_nums
+    kontrolno_has_11 = 11 in kontrolno_nums
+    kontrolno_has_12 = 12 in kontrolno_nums
+    kontrolno_count_mismatch_warning: str | None = None
+    if kontrolno_headers_count != len(kontrolno_nums):
+        kontrolno_count_mismatch_warning = (
+            "CONTROL_HEADERS_COUNT != len(control_nums): "
+            f"{kontrolno_headers_count} vs {len(kontrolno_nums)}"
+        )
+
     nn_nums, nn_texts = parse_nn_numbers_and_texts(nn_payload)
 
     missing_in_nn = sorted(kontrolno_nums - nn_nums)
@@ -215,7 +251,13 @@ def main() -> int:
         nn_hash=sha256_file(NN_JSON),
         kontrolno_hash=sha256_file(KONTROLNO_TXT),
         nn_count=len(nn_nums),
-        kontrolno_count=len(kontrolno_nums),
+        kontrolno_count=kontrolno_count,
+        kontrolno_headers_count=kontrolno_headers_count,
+        kontrolno_first20_headers=kontrolno_first20_headers,
+        kontrolno_has_10=kontrolno_has_10,
+        kontrolno_has_11=kontrolno_has_11,
+        kontrolno_has_12=kontrolno_has_12,
+        kontrolno_count_mismatch_warning=kontrolno_count_mismatch_warning,
         missing_in_nn=missing_in_nn,
         extra_in_nn=extra_in_nn,
         short_text_nn=short_text_nn,
@@ -233,7 +275,12 @@ def main() -> int:
     short_first20 = short_text_nn[:20]
     short_first20_csv = ", ".join(str(x) for x in short_first20)
 
-    print(f"CONTROL_COUNT: {len(kontrolno_nums)}")
+    print(f"CONTROL_COUNT: {kontrolno_count}")
+    print(f"CONTROL_HEADERS_COUNT: {kontrolno_headers_count}")
+    print("CONTROL_FIRST20_HEADERS: [" + ", ".join(str(x) for x in kontrolno_first20_headers) + "]")
+    print(f"CONTROL_HAS_10: {kontrolno_has_10}")
+    print(f"CONTROL_HAS_11: {kontrolno_has_11}")
+    print(f"CONTROL_HAS_12: {kontrolno_has_12}")
     print(f"NN_COUNT: {len(nn_nums)}")
     print(f"MISSING_COUNT: {len(missing_in_nn)}")
     print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")

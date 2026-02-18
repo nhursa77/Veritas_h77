@@ -133,3 +133,8 @@ Dodan je alat `alati/validiraj_nn_vs_kontrolno.py` koji uspoređuje
 Validator sada eksplicitno ispisuje `MISSING_LIST`, `EXTRA_LIST`,
 `SHORT_LIST_FIRST20/COUNT` na stdout i u report dodaje sekcije
 "Missing in NN", "Extra in NN", "Short texts in NN" i "Anomaly hints".
+
+### Fix kontrolnog extractor-a (`Članak <N>`)
+Extractor za `ustav_rh_kontrolni.txt` je pooštren da hvata samo stvarne
+headere `Članak <N>` na početku retka; dodan je debug output
+`CONTROL_HEADERS_COUNT`, `CONTROL_FIRST20_HEADERS` i `CONTROL_HAS_10/11/12`.

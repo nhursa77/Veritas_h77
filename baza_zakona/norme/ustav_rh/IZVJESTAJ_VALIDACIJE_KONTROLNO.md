@@ -1,6 +1,6 @@
 # IZVJESTAJ_VALIDACIJE_KONTROLNO
 
-- Timestamp: 2026-02-18T09:56:29+01:00
+- Timestamp: 2026-02-18T10:02:23+01:00
 - NN_JSON: C:/Veritas_H77/izvori/dokazno/narodne_novine/ustav_rh/struktura_nn.json
 - KONTROLNO_TXT: C:/Veritas_H77/izvori/kontrolno/zakon_hr/ustav_rh/ustav_rh_kontrolni.txt
 - NN_JSON_SHA256: 9ca61c0736f184a646014855af4ea263e54df9ffb65f6f1eac4befc9ce2600ab
@@ -9,10 +9,19 @@
 ## SUMMARY
 
 - CONTROL_COUNT: 142
+- CONTROL_HEADERS_COUNT: 163
 - NN_COUNT: 141
 - MISSING_COUNT: 2
 - SHORT_COUNT: 52
 - ANOMALY_FLAG: True
+
+## CONTROL_EXTRACTOR_DEBUG
+
+- CONTROL_FIRST20_HEADERS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+- CONTROL_HAS_10: True
+- CONTROL_HAS_11: True
+- CONTROL_HAS_12: True
+- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 163 vs 142
 
 ## Missing in NN (present in zakon.hr, absent in NN)
 
