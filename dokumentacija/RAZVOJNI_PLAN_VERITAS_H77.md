@@ -193,6 +193,10 @@ Status pilot (18.02.2026.):
   (audit ranking kandidata + odabrani source)
 - validator mora signalizirati `SOURCE_SELECTION_MISMATCH` kada
   `NN_COUNT` odstupa od `ocekivani_broj_clanaka` odabranog izvora
+- pre-flight guardrail je obavezan prije acceptance/prolaza:
+  `exit 2` ako odabrani izvor nije `procisceni`, `exit 3` ako
+  `NN_COUNT` odstupa od `ocekivani_broj_clanaka`
+- standardni one-click run na Windowsu: `alati/acceptance_ustav_rh_preflight.ps1`
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

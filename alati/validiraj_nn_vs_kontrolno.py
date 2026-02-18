@@ -564,7 +564,10 @@ def build_report(
     selected_source_slug: str,
     selected_source_tip_teksta: str,
     selected_source_expected_count: int | None,
+    selected_nn_count: int,
     source_selection_mismatch: bool,
+    guardrail_fail: bool,
+    guardrail_reason: str | None,
 ) -> str:
     lines: list[str] = []
     lines.append("# IZVJESTAJ_VALIDACIJE_KONTROLNO")
@@ -580,6 +583,22 @@ def build_report(
         lines.append(f"- SELECTED_SOURCE_EXPECTED_COUNT: {selected_source_expected_count}")
     lines.append(f"- SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     lines.append("")
+
+    lines.append("## Source selection guardrail")
+    lines.append("")
+    lines.append(f"- Selected slug: {selected_source_slug}")
+    lines.append(f"- Selected tip_teksta: {selected_source_tip_teksta}")
+    if selected_source_expected_count is None:
+        lines.append("- Expected count: NONE")
+    else:
+        lines.append(f"- Expected count: {selected_source_expected_count}")
+    lines.append(f"- NN_COUNT: {selected_nn_count}")
+    lines.append(f"- SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
+    lines.append(f"- GUARDRAIL_FAIL: {guardrail_fail}")
+    if guardrail_fail and guardrail_reason:
+        _append_wrapped_bullet(lines, f"Reason: {guardrail_reason}")
+    lines.append("")
+
     lines.append(f"- Timestamp: {ts}")
     lines.append(f"- NN_JSON_SHA256: {nn_hash}")
     lines.append(f"- KONTROLNO_TXT_SHA256: {kontrolno_hash}")
@@ -820,6 +839,33 @@ def main() -> int:
     else:
         anomaly_meta["SOURCE_SELECTION_MISMATCH"] = False
 
+    guardrail_fail = False
+    guardrail_exit_code = 0
+    guardrail_reason: str | None = None
+    if selected_source_tip_teksta != "procisceni":
+        guardrail_fail = True
+        guardrail_exit_code = 2
+        guardrail_reason = (
+            "Odabrani NN izvor nije pročišćeni tekst: "
+            f"slug={selected_source_slug}, tip_teksta={selected_source_tip_teksta or 'NONE'}"
+        )
+    elif selected_source_expected_count is not None and source_selection_mismatch:
+        guardrail_fail = True
+        guardrail_exit_code = 3
+        guardrail_reason = (
+            "NN_COUNT odstupa od ocekivani_broj_clanaka: "
+            f"slug={selected_source_slug}, expected={selected_source_expected_count}, actual={len(nn_nums)}"
+        )
+
+    if guardrail_fail and guardrail_reason:
+        anomaly_flag = True
+        anomaly_note = f"{anomaly_note} | GUARDRAIL_FAIL: {guardrail_reason}"
+        anomaly_meta["GUARDRAIL_FAIL"] = True
+        anomaly_meta["GUARDRAIL_REASON"] = guardrail_reason
+        anomaly_meta["GUARDRAIL_EXIT_CODE"] = guardrail_exit_code
+    else:
+        anomaly_meta["GUARDRAIL_FAIL"] = False
+
     nn_hash = sha256_file(nn_docs_json_path) if nn_docs_json_path.exists() else sha256_file(nn_json_path)
     kontrolno_hash = sha256_file(KONTROLNO_TXT)
     control_docs_ids = [str(d.get("doc_id")) for d in kontrolno_dokumenti if d.get("doc_id")]
@@ -861,7 +907,10 @@ def main() -> int:
         selected_source_slug=selected_source_slug,
         selected_source_tip_teksta=selected_source_tip_teksta,
         selected_source_expected_count=selected_source_expected_count,
+        selected_nn_count=len(nn_nums),
         source_selection_mismatch=source_selection_mismatch,
+        guardrail_fail=guardrail_fail,
+        guardrail_reason=guardrail_reason,
     )
 
     OUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
@@ -895,13 +944,23 @@ def main() -> int:
     else:
         print("CONTROL_SUSPECTED_TRUNCATED_HEADERS: (none)")
     print(f"NN_COUNT: {len(nn_nums)}")
+    print(f"SELECTED_NN_SLUG: {selected_source_slug}")
+    print(f"SELECTED_NN_TIP_TEKSTA: {selected_source_tip_teksta}")
+    if selected_source_expected_count is None:
+        print("SELECTED_NN_EXPECTED_COUNT: NONE")
+    else:
+        print(f"SELECTED_NN_EXPECTED_COUNT: {selected_source_expected_count}")
+    print(f"SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
+    print(f"GUARDRAIL_FAIL: {guardrail_fail}")
+    if guardrail_fail and guardrail_reason:
+        print(f"GUARDRAIL_REASON: {guardrail_reason}")
+
     print(f"SELECTED_SOURCE_SLUG: {selected_source_slug}")
     print(f"SELECTED_SOURCE_TIP_TEKSTA: {selected_source_tip_teksta}")
     if selected_source_expected_count is None:
         print("SELECTED_SOURCE_EXPECTED_COUNT: (none)")
     else:
         print(f"SELECTED_SOURCE_EXPECTED_COUNT: {selected_source_expected_count}")
-    print(f"SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     print(f"MISSING_COUNT: {len(missing_in_nn)}")
     print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")
     print(f"EXTRA_LIST: [{extra_csv}]" if extra_csv else "EXTRA_LIST: []")
@@ -916,6 +975,11 @@ def main() -> int:
     print(f"SHORT_LIST_FIRST20: [{short_first20_csv}]" if short_first20_csv else "SHORT_LIST_FIRST20: []")
     print(f"ANOMALY_FLAG: {anomaly_flag}")
     print(f"REPORT: {OUT_REPORT.as_posix()}")
+
+    if guardrail_fail:
+        if guardrail_reason:
+            print(f"ERROR: {guardrail_reason}")
+        return guardrail_exit_code
 
     return 0
 

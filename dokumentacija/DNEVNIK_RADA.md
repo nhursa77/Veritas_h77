@@ -197,3 +197,9 @@ Validator `alati/validiraj_nn_vs_kontrolno.py` sada koristi isti odabir
 NN izvora i provodi sanity check: ako `NN_COUNT` odstupa od
 `ocekivani_broj_clanaka` odabranog izvora, postavlja
 `SOURCE_SELECTION_MISMATCH=True` i podiže anomaly signal.
+
+### Ustav RH — pre-flight guardrail (hard fail)
+U validator je uveden obavezni pre-flight check: run pada s `exit 2` ako
+odabrani NN izvor nije `procisceni`, odnosno s `exit 3` ako
+`NN_COUNT != ocekivani_broj_clanaka`. Dodana je skripta
+`alati/acceptance_ustav_rh_preflight.ps1` za one-click acceptance na Windowsu.

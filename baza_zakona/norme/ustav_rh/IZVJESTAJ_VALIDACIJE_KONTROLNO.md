@@ -7,7 +7,16 @@
 - SELECTED_SOURCE_EXPECTED_COUNT: 152
 - SOURCE_SELECTION_MISMATCH: False
 
-- Timestamp: 2026-02-18T15:21:33+01:00
+## Source selection guardrail
+
+- Selected slug: ustav_rh_nn_85_2010
+- Selected tip_teksta: procisceni
+- Expected count: 152
+- NN_COUNT: 152
+- SOURCE_SELECTION_MISMATCH: False
+- GUARDRAIL_FAIL: False
+
+- Timestamp: 2026-02-18T15:32:15+01:00
 - NN_JSON_SHA256: 7b100ed17bb09db55d8b0fa50067918e590445ccdb741ea77fb8dddd59a7282c
 - KONTROLNO_TXT_SHA256: 2a38e78e9722336813597f74fe4d96526d937e9abaa2b356ce284539b77c6171
 
