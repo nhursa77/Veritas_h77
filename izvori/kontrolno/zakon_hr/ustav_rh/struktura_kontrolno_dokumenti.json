@@ -1109,7 +1109,7 @@
           }
         },
         {
-          "broj": 12,
+          "broj": 123,
           "naslov": null,
           "tekst": "Suci Ustavnog suda Republike Hrvatske ne mogu obavljati nijednu drugu javnu ni profesionalnu dužnost. Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Hrvatskom saboru.",
           "struktura": {
@@ -1278,24 +1278,28 @@
             "stavci": null,
             "glava_rimski": null
           }
-        },
+        }
+      ],
+      "meta": {
+        "char_len": 90337,
+        "cutoff_marker": "Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)"
+      }
+    },
+    {
+      "doc_id": "ustav_rh_amandmani",
+      "tip": "amandmani",
+      "nn": null,
+      "naslov": "Amandmani i promjene Ustava Republike Hrvatske",
+      "clanci": [
         {
           "broj": 142,
           "naslov": null,
-          "tekst": "Za provedbu ovog Ustava donijet će se ustavni zakon.",
+          "tekst": "Za provedbu ovog Ustava donijet će se ustavni zakon. Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
           }
-        }
-      ]
-    },
-    {
-      "doc_id": "amandman_nn_135_97",
-      "tip": "amandman",
-      "nn": "135/97",
-      "naslov": "Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)",
-      "clanci": [
+        },
         {
           "broj": 18,
           "naslov": null,
@@ -1317,54 +1321,30 @@
         {
           "broj": 20,
           "naslov": null,
-          "tekst": "Ovaj Ustavni zakon stupa na snagu danom objave u 'Narodnim novinama'.",
+          "tekst": "Ovaj Ustavni zakon stupa na snagu danom objave u 'Narodnim novinama'. Promjena Ustava Republike Hrvatske (NN 113/00)",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
           }
-        }
-      ]
-    },
-    {
-      "doc_id": "promjena_nn_113_00",
-      "tip": "promjena",
-      "nn": "113/00",
-      "naslov": "Promjena Ustava Republike Hrvatske (NN 113/00)",
-      "clanci": [
+        },
         {
           "broj": 76,
           "naslov": null,
-          "tekst": "Promjena Ustava stupa na snagu danom proglašenja.\"",
+          "tekst": "Promjena Ustava stupa na snagu danom proglašenja.\" Promjena Ustava Republike Hrvatske (NN 28/01)",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
           }
-        }
-      ]
-    },
-    {
-      "doc_id": "promjena_nn_28_01",
-      "tip": "promjena",
-      "nn": "28/01",
-      "naslov": "Promjena Ustava Republike Hrvatske (NN 28/01)",
-      "clanci": [
+        },
         {
           "broj": 70,
           "naslov": null,
-          "tekst": "Iza članka 146. dodaje se Glava IX. i članci 146.a, 146.b i 146.c koji glase: 'IX. ZAVRŠNE ODREDBE Članak 146.a Stupanjem na snagu ove Promjene Ustava Republike Hrvatske prestaje s radom Županijski dom Hrvatskoga sabora te prestaje dužnost dosadašnjem predsjedniku i članovima Državnoga sudbenog vijeća i predsjedniku Vrhovnog suda Republike Hrvatske. Članak 146.b Hrvatski sabor donijet će Ustavni zakon za provedbu Ustava Republike Hrvatske. Članak 146.c Promjena Ustava Republike Hrvatske stupa na snagu kad ju proglasi Zastupnički dom Hrvatskoga sabora.",
+          "tekst": "Iza članka 146. dodaje se Glava IX. i članci 146.a, 146.b i 146.c koji glase: 'IX. ZAVRŠNE ODREDBE Članak 146.a Stupanjem na snagu ove Promjene Ustava Republike Hrvatske prestaje s radom Županijski dom Hrvatskoga sabora te prestaje dužnost dosadašnjem predsjedniku i članovima Državnoga sudbenog vijeća i predsjedniku Vrhovnog suda Republike Hrvatske. Članak 146.b Hrvatski sabor donijet će Ustavni zakon za provedbu Ustava Republike Hrvatske. Članak 146.c Promjena Ustava Republike Hrvatske stupa na snagu kad ju proglasi Zastupnički dom Hrvatskoga sabora. Promjena Ustava Republike Hrvatske (NN 76/10)",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
           }
-        }
-      ]
-    },
-    {
-      "doc_id": "promjena_nn_76_10",
-      "tip": "promjena",
-      "nn": "76/10",
-      "naslov": "Promjena Ustava Republike Hrvatske (NN 76/10)",
-      "clanci": [
+        },
         {
           "broj": 30,
           "naslov": null,
@@ -1383,11 +1363,21 @@
             "glava_rimski": null
           }
         }
-      ]
+      ],
+      "meta": {
+        "char_len": 1771,
+        "cutoff_marker": "Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)"
+      }
     }
   ],
   "parsiranje": {
-    "datum_parsiranja": "2026-02-18T14:35:53+01:00",
-    "broj_dokumenata": 5
+    "datum_parsiranja": "2026-02-18T15:10:49+01:00",
+    "broj_dokumenata": 2,
+    "procisceni_cutoff_marker": "Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)",
+    "procisceni_char_len": 90337,
+    "amandmani_char_len": 1771,
+    "suspected_truncated_headers": [
+      "L1684: 'Članak 12.' -> inferred 123 (prev=122, next=124)"
+    ]
   }
 }

@@ -1,8 +1,8 @@
 # Izvještaj kontrole arhive NN
 
-- Datum: 17.02.2026.
-- Ukupno aktova u NORMA bazi: 1
-- OK: 1
+- Datum: 18.02.2026.
+- Ukupno aktova u NORMA bazi: 2
+- OK: 2
 - NEDOSTAJE: 0
 - HASH_NEDOSTAJE: 0
 - NEVALJAN_IZVOR: 0
@@ -12,6 +12,7 @@
 ### OK
 
 - ustav_rh
+- ustav_rh_nn_85_2010
 
 ### NEDOSTAJE
 
