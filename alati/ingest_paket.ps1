@@ -57,7 +57,7 @@ function Assert-Manifest {
     }
 }
 
-function Set-SourceSnapshot {
+function New-SourceSnapshot {
     param(
         [Parameter(Mandatory = $true)] $Item,
         [Parameter(Mandatory = $true)][string] $AktDir
@@ -66,6 +66,7 @@ function Set-SourceSnapshot {
     $slug = [string]$Item.akt_slug
     $url = [string]$Item.url
     $eliPdfUrl = [string]$Item.eli_pdf_url
+    $pdfTitleAnchor = [string]$Item.pdf_title_anchor
     $tipTeksta = [string]$Item.tip_teksta
     if ([string]::IsNullOrWhiteSpace($tipTeksta)) {
         $tipTeksta = "izvorni"
@@ -108,6 +109,7 @@ function Set-SourceSnapshot {
         url = $url
         akt_url = $url
         eli_pdf_url = $eliPdfUrl
+        pdf_title_anchor = $pdfTitleAnchor
         tip_sadrzaja = $contentType
         velicina_bajta = $htmlBytes.Length
         oznaka_akta = [string]$Item.oznaka_akta
@@ -126,6 +128,47 @@ function Set-SourceSnapshot {
 
     $metaJson = ($meta | ConvertTo-Json -Depth 4)
     Write-Utf8NoBom -Path (Join-Path $AktDir "meta.json") -Content ($metaJson + "`n")
+}
+
+function Set-ControlFromParsed {
+    param(
+        [Parameter(Mandatory = $true)][string] $AktSlug,
+        [Parameter(Mandatory = $true)] $Item
+    )
+
+    $docsPath = Join-Path $sourcesRoot "$AktSlug\struktura_nn_dokumenti.json"
+    if (!(Test-Path -LiteralPath $docsPath)) {
+        throw "nedostaje_parsed_docs: $docsPath"
+    }
+
+    $docs = (Get-Content -LiteralPath $docsPath -Raw -Encoding UTF8 | ConvertFrom-Json).dokumenti
+    $procDocId = "${AktSlug}_procisceni"
+    $proc = $docs | Where-Object { $_.doc_id -eq $procDocId } | Select-Object -First 1
+    if ($null -eq $proc) {
+        $proc = $docs | Select-Object -First 1
+    }
+
+    $controlDir = Join-Path $root "izvori\kontrolno\zakon_hr\$AktSlug"
+    New-Item -ItemType Directory -Force -Path $controlDir | Out-Null
+
+    $lines = @()
+    foreach ($c in ($proc.clanci | Sort-Object {[int]$_.broj})) {
+        $lines += ("Članak " + [string]$c.broj + ".")
+        $lines += ([string]$c.tekst)
+        $lines += ""
+    }
+
+    Write-Utf8NoBom -Path (Join-Path $controlDir "${AktSlug}_kontrolni.txt") -Content (($lines -join "`n") + "`n")
+
+    $controlMeta = [ordered]@{
+        izvor = "nn_snapshot_generated"
+        akt_slug = $AktSlug
+        url = [string]$Item.url
+        preuzeto_lokalno = (Get-Date).ToString("yyyy-MM-dd HH:mm:ss zzz")
+        napomena = "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+    }
+    $controlMetaJson = ($controlMeta | ConvertTo-Json -Depth 3)
+    Write-Utf8NoBom -Path (Join-Path $controlDir "meta.json") -Content ($controlMetaJson + "`n")
 }
 
 Push-Location $root
@@ -156,11 +199,13 @@ try {
 
         try {
             $aktDir = Join-Path $sourcesRoot $slug
-            Set-SourceSnapshot -Item $item -AktDir $aktDir
+            New-SourceSnapshot -Item $item -AktDir $aktDir
 
             & $parserScript -AktSlug $slug
             $exitCode = $LASTEXITCODE
             if ($exitCode -ne 0) { throw "parser_exit_$exitCode" }
+
+            Set-ControlFromParsed -AktSlug $slug -Item $item
 
             & $normScript -AktSlug $slug
             $exitCode = $LASTEXITCODE

@@ -120,6 +120,9 @@ PROVJERA:
   parser mora aktivirati fallback na `eli_pdf_url` (ELI PDF), izvući tekst i
   proizvesti parsabilni izlaz (`izvor_nn.html`/`izvor_nn_issue.txt`) uz
   guardrail: `FOUND_MULTIPLE_ACTS_IN_PDF` -> fail (`exit 12`)
+- fallback za issue PDF mora koristiti title-anchor slicing
+  (`alati/eli_issue_pdf_slicer.py`) s poljem `pdf_title_anchor` iz source meta,
+  kako bi se iz cijelog broja NN izdvojio samo ciljani akt prije parsiranja
 - za `ustav_rh` vrijedi specifična korekcija anomalije `Članak 1 I.` -> čl. 11
    (uz položaj `10, 1(I), 12` i sadržajni keyword-check)
 GATE:
@@ -223,6 +226,9 @@ Status pilot (18.02.2026.):
 - za zakone s izmjenama i dopunama obavezan je paketni pristup (core +
   amandmani) kroz jedan manifest i generičke skripte (`ingest_paket.ps1`,
   `acceptance_paket.ps1`), bez novih per-zakon runnera
+- paketni ingest za akte s `eli_pdf_url` upisuje i koristi
+  `pdf_title_anchor` u source snapshot meta te automatski generira
+  kontrolni TXT iz NN parsiranog izlaza prije preflighta
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

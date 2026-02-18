@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 from datetime import datetime
 from html import unescape
 from pathlib import Path
@@ -16,6 +17,7 @@ KONTROLA_IZVJESTAJ = NN_ROOT / "IZVJESTAJ_KONTROLE_ARHIVE.md"
 
 ARTICLE_HEADER_RX = re.compile(r"\b[ČC]lanak\s+(\d{1,4})\b", flags=re.IGNORECASE)
 STOP_HEADING_KEYWORDS = ("ZAKON", "ODLUKA", "PRAVILNIK", "UREDBA", "RJEŠENJE", "RJESENJE")
+SLICER_SCRIPT = ROOT / "alati" / "eli_issue_pdf_slicer.py"
 
 
 class PdfFallbackGuardrailError(RuntimeError):
@@ -109,79 +111,49 @@ def _download_pdf(url: str, out_path: Path) -> None:
     out_path.write_bytes(payload)
 
 
-def _extract_text_from_pdf(pdf_path: Path) -> str:
-    try:
-        from pypdf import PdfReader
-    except Exception as exc:
-        raise RuntimeError("Nedostaje Python paket 'pypdf' za PDF fallback.") from exc
+def _run_pdf_slicer(pdf_path: Path, txt_path: Path, meta: dict, akt_slug: str) -> tuple[str, list[int]]:
+    if not SLICER_SCRIPT.exists():
+        raise RuntimeError(f"Nedostaje slicer skripta: {SLICER_SCRIPT}")
 
-    reader = PdfReader(str(pdf_path))
-    pages: list[str] = []
-    for page in reader.pages:
-        pages.append(page.extract_text() or "")
-    text = "\n\n".join(pages)
-    text = text.replace("\r\n", "\n").replace("\r", "\n")
-    return text
+    title_anchor = str(meta.get("pdf_title_anchor") or "").strip()
+    if not title_anchor:
+        naziv = str(meta.get("naziv_akta") or akt_slug).strip()
+        title_anchor = _normaliziraj_za_match(naziv)
 
+    stop_anchors_raw = meta.get("pdf_stop_anchors")
+    stop_anchors: list[str] = []
+    if isinstance(stop_anchors_raw, list):
+        stop_anchors = [str(x).strip() for x in stop_anchors_raw if str(x).strip()]
+    if not stop_anchors:
+        stop_anchors = list(STOP_HEADING_KEYWORDS)
 
-def _is_probable_act_heading(line: str, current_title_norm: str) -> bool:
-    stripped = re.sub(r"\s+", " ", line.strip())
-    if len(stripped) < 12 or len(stripped) > 180:
-        return False
+    cmd = [
+        sys.executable,
+        str(SLICER_SCRIPT),
+        "--issue_pdf_path",
+        str(pdf_path),
+        "--title_anchor",
+        title_anchor,
+        "--out_txt_path",
+        str(txt_path),
+        "--stop_anchors",
+        *stop_anchors,
+    ]
 
-    letters = [ch for ch in stripped if ch.isalpha()]
-    if not letters:
-        return False
+    result = subprocess.run(cmd, capture_output=True, text=True, encoding="utf-8")
+    if result.returncode == 12:
+        detail = (result.stdout or result.stderr or "").strip()
+        raise PdfFallbackGuardrailError(f"FOUND_MULTIPLE_ACTS_IN_PDF: True | {detail}")
+    if result.returncode != 0:
+        detail = (result.stdout or result.stderr or "").strip()
+        raise RuntimeError(f"Slicer nije uspio (exit {result.returncode}): {detail}")
 
-    uppercase_ratio = sum(1 for ch in letters if ch.isupper()) / len(letters)
-    if uppercase_ratio < 0.9:
-        return False
-
-    norm = _normaliziraj_za_match(stripped)
-    if current_title_norm in norm:
-        return False
-
-    return any(keyword in norm for keyword in STOP_HEADING_KEYWORDS)
-
-
-def _extract_act_segment_from_pdf(text: str, meta: dict) -> tuple[str, bool, list[int]]:
-    naziv = str(meta.get("naziv_akta") or "").strip()
-    if not naziv:
-        raise RuntimeError("meta.json nema naziv_akta za PDF fallback segmentaciju.")
-
-    target_norm = _normaliziraj_za_match(naziv)
-    lines = text.split("\n")
-    start_index = None
-    for idx, line in enumerate(lines):
-        if target_norm in _normaliziraj_za_match(line):
-            start_index = idx
-            break
-
-    if start_index is None:
-        raise RuntimeError(f"Naslov akta nije pronađen u PDF-u: {naziv}")
-
-    selected: list[str] = []
-    found_multiple_acts = False
-    found_any_article = False
-
-    for idx in range(start_index, len(lines)):
-        line = lines[idx]
-        if ARTICLE_HEADER_RX.search(line):
-            found_any_article = True
-
-        if found_any_article and idx > start_index + 3 and _is_probable_act_heading(line, target_norm):
-            found_multiple_acts = True
-            break
-
-        selected.append(line)
-
-    segment = "\n".join(selected)
-    segment = re.sub(r"\n{3,}", "\n\n", segment)
-    segment = "\n".join(re.sub(r"[ \t]+", " ", ln).strip() for ln in segment.split("\n"))
-    segment = re.sub(r"\n{3,}", "\n\n", segment).strip()
-
+    segment = txt_path.read_text(encoding="utf-8")
     brojevi = [int(m.group(1)) for m in ARTICLE_HEADER_RX.finditer(segment)]
-    return segment, found_multiple_acts, brojevi
+    if not brojevi:
+        raise RuntimeError("Slicer nije pronašao nijedan članak u segmentu.")
+
+    return segment, brojevi
 
 
 def _ensure_parsable_html_from_pdf_if_needed(akt_slug: str, meta: dict, html_path: Path, html: str) -> tuple[str, list[str]]:
@@ -198,16 +170,7 @@ def _ensure_parsable_html_from_pdf_if_needed(akt_slug: str, meta: dict, html_pat
     txt_path = akt_dir / "izvor_nn_issue.txt"
 
     _download_pdf(pdf_url, pdf_path)
-    pdf_text = _extract_text_from_pdf(pdf_path)
-    segment, found_multiple_acts, brojevi = _extract_act_segment_from_pdf(pdf_text, meta=meta)
-
-    if found_multiple_acts:
-        raise PdfFallbackGuardrailError("FOUND_MULTIPLE_ACTS_IN_PDF: True")
-
-    if len(brojevi) < 5:
-        raise RuntimeError("PDF fallback nije pronašao dovoljan broj članaka za pouzdano parsiranje.")
-
-    txt_path.write_text(segment + "\n", encoding="utf-8")
+    segment, brojevi = _run_pdf_slicer(pdf_path=pdf_path, txt_path=txt_path, meta=meta, akt_slug=akt_slug)
 
     pseudo_html = (
         "<html><body>\n"
@@ -223,7 +186,7 @@ def _ensure_parsable_html_from_pdf_if_needed(akt_slug: str, meta: dict, html_pat
 
     warnings.append("NN HTML nedostupan/bez članaka: aktiviran ELI PDF fallback.")
     warnings.append(f"ELI PDF URL: {pdf_url}")
-    warnings.append(f"PDF fallback broj detektiranih članaka: {len(brojevi)}")
+    warnings.append(f"PDF slicer broj detektiranih članaka: {len(brojevi)}")
     return pseudo_html, warnings
 
 

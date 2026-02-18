@@ -248,3 +248,21 @@ koja po manifestu radi: dohvat NN izvora, parsiranje, normiranje i preflight.
 Acceptance rezultat za paket je deterministički:
 core (`prekrsajni_zakon`) prolazi, optional amandmani trenutno padaju bez
 kontrolnog TXT izvora pa paket završava s `exit 21` (bez crash-a).
+
+### ELI issue PDF slicer + parser integracija (prekrsajni paket)
+Dodana je skripta `alati/eli_issue_pdf_slicer.py` koja radi title-anchor
+slicing cijelog NN issue PDF-a i izdvaja samo ciljano tijelo akta.
+`alati/parsiraj_nn_html.py` je prebačen da PDF fallback ide preko slicera
+(umjesto internog inline rezanja), uz hard-fail `exit 12` kada je
+`pdf_title_anchor` nejednoznačan.
+`alati/ingest_paket.ps1` je dopunjen da u source meta upisuje
+`pdf_title_anchor` i generira kontrolni TXT iz NN parsiranog izlaza prije
+normiranja/preflighta.
+Manifest `paketi/PAKET_PREKRSAJNI_V1.json` je dopunjen `pdf_title_anchor`
+poljem za svih 6 amandmana.
+
+### Verifikacija nakon slicer integracije
+Pilot za `prekrsajni_zakon_nn_114_2022` potvrđuje prolaz parser+normiranje.
+Full `ingest_paket` prolazi na required core aktu, dok optional amandmani i
+dalje deterministički padaju na preflight guardrailu (`tip_teksta=amandmani`),
+pa paketni status ostaje `optional fail` (`exit 21`).
