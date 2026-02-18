@@ -128,3 +128,8 @@ preuzimanja.
 Dodan je alat `alati/validiraj_nn_vs_kontrolno.py` koji uspoređuje
 `struktura_nn.json` s `ustav_rh_kontrolni.txt` i generira
 `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+
+### Validator report — proširenje lista i anomaly hints
+Validator sada eksplicitno ispisuje `MISSING_LIST`, `EXTRA_LIST`,
+`SHORT_LIST_FIRST20/COUNT` na stdout i u report dodaje sekcije
+"Missing in NN", "Extra in NN", "Short texts in NN" i "Anomaly hints".

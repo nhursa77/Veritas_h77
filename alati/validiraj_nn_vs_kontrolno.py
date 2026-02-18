@@ -59,17 +59,23 @@ def parse_nn_numbers_and_texts(payload: dict) -> tuple[set[int], dict[int, str]]
     return nn_nums, text_by_num
 
 
-def anomaly_check_in_html(html: str) -> tuple[bool, str]:
+def anomaly_check_in_html(html: str) -> tuple[bool, str, dict[str, object]]:
     start_marker = "Članak 10."
     end_marker = "Članak 12."
 
     start_idx = html.find(start_marker)
     if start_idx < 0:
-        return False, "Nije pronađen marker 'Članak 10.' u NN HTML-u."
+        return False, "Nije pronađen marker 'Članak 10.' u NN HTML-u.", {
+            "FOUND_BETWEEN_10_12": None,
+            "KEYWORDS": [],
+        }
 
     end_idx = html.find(end_marker, start_idx + len(start_marker))
     if end_idx < 0:
-        return False, "Nije pronađen marker 'Članak 12.' nakon 'Članak 10.' u NN HTML-u."
+        return False, "Nije pronađen marker 'Članak 12.' nakon 'Članak 10.' u NN HTML-u.", {
+            "FOUND_BETWEEN_10_12": None,
+            "KEYWORDS": [],
+        }
 
     segment = html[start_idx:end_idx]
     has_heading = "Članak 1 I." in segment
@@ -80,6 +86,11 @@ def anomaly_check_in_html(html: str) -> tuple[bool, str]:
     ]
     found_keys = [key for key in keys if key in segment]
 
+    payload = {
+        "FOUND_BETWEEN_10_12": "Članak 1 I." if has_heading else None,
+        "KEYWORDS": found_keys,
+    }
+
     if has_heading and len(found_keys) >= 2:
         details = ", ".join(found_keys)
         return (
@@ -87,12 +98,17 @@ def anomaly_check_in_html(html: str) -> tuple[bool, str]:
             "ANOMALIJA: sadržaj čl. 11 je prisutan u HTML segmentu, "
             "ali heading je 'Članak 1 I.' -> NN parsiranje treba ručno/automatski rule. "
             f"Ključne fraze: {details}",
+            payload,
         )
 
     if not has_heading:
-        return False, "U segmentu između 'Članak 10.' i 'Članak 12.' nije pronađen heading 'Članak 1 I.'."
+        return False, "U segmentu između 'Članak 10.' i 'Članak 12.' nije pronađen heading 'Članak 1 I.'.", payload
 
-    return False, "Heading 'Članak 1 I.' postoji, ali nije potvrđen sadržajni signal čl. 11 (>=2 ključne fraze)."
+    return False, "Heading 'Članak 1 I.' postoji, ali nije potvrđen sadržajni signal čl. 11 (>=2 ključne fraze).", payload
+
+
+def norma_filename_for_number(number: int) -> str:
+    return f"clanak_{number:04d}.json"
 
 
 def build_report(
@@ -104,8 +120,10 @@ def build_report(
     missing_in_nn: list[int],
     extra_in_nn: list[int],
     short_text_nn: list[int],
+    short_text_meta: list[tuple[int, int, str]],
     anomaly_flag: bool,
     anomaly_note: str,
+    anomaly_meta: dict[str, object],
 ) -> str:
     lines: list[str] = []
     lines.append("# IZVJESTAJ_VALIDACIJE_KONTROLNO")
@@ -126,33 +144,39 @@ def build_report(
     lines.append(f"- ANOMALY_FLAG: {anomaly_flag}")
     lines.append("")
 
-    lines.append("## MISSING_IN_NN")
+    lines.append("## Missing in NN (present in zakon.hr, absent in NN)")
     lines.append("")
     if missing_in_nn:
-        lines.append("- " + ", ".join(str(x) for x in missing_in_nn))
+        for number in missing_in_nn:
+            lines.append(f"- {number}")
     else:
-        lines.append("- Nema nedostajućih članaka prema kontrolnom izvoru.")
+        lines.append("- (none)")
     lines.append("")
 
-    lines.append("## SHORT_TEXT_IN_NN")
-    lines.append("")
-    if short_text_nn:
-        lines.append("- " + ", ".join(str(x) for x in short_text_nn))
-    else:
-        lines.append("- Nema sumnjivo kratkih/empty članaka (threshold < 200).")
-    lines.append("")
-
-    lines.append("## EXTRA_IN_NN")
+    lines.append("## Extra in NN (present in NN, absent in zakon.hr)")
     lines.append("")
     if extra_in_nn:
-        lines.append("- " + ", ".join(str(x) for x in extra_in_nn))
+        for number in extra_in_nn:
+            lines.append(f"- {number}")
     else:
-        lines.append("- Nema dodatnih članaka u NN u odnosu na kontrolni izvor.")
+        lines.append("- (none)")
     lines.append("")
 
-    lines.append("## ANOMALY_CHECK")
+    lines.append("## Short texts in NN (len < 200)")
+    lines.append("")
+    if short_text_meta:
+        for number, text_len, filename in short_text_meta:
+            lines.append(f"- Članak {number} (len={text_len}) -> {filename}")
+    else:
+        lines.append("- (none)")
+    lines.append("")
+
+    lines.append("## Anomaly hints")
     lines.append("")
     lines.append(f"- ANOMALY_FLAG: {anomaly_flag}")
+    lines.append(f"- FOUND_BETWEEN_10_12: {anomaly_meta.get('FOUND_BETWEEN_10_12')}")
+    keys = anomaly_meta.get("KEYWORDS") if isinstance(anomaly_meta.get("KEYWORDS"), list) else []
+    lines.append("- KEYWORDS_FOUND: " + (", ".join(str(k) for k in keys) if keys else "(none)"))
     lines.append(f"- NAPOMENA: {anomaly_note}")
     lines.append("")
 
@@ -173,11 +197,17 @@ def main() -> int:
 
     missing_in_nn = sorted(kontrolno_nums - nn_nums)
     extra_in_nn = sorted(nn_nums - kontrolno_nums)
-    short_text_nn = sorted([
-        number for number, text in nn_texts.items() if len(text.strip()) < 200
-    ])
+    short_text_meta = sorted(
+        [
+            (number, len(text.strip()), norma_filename_for_number(number))
+            for number, text in nn_texts.items()
+            if len(text.strip()) < 200
+        ],
+        key=lambda item: item[0],
+    )
+    short_text_nn = [number for number, _, _ in short_text_meta]
 
-    anomaly_flag, anomaly_note = anomaly_check_in_html(nn_html)
+    anomaly_flag, anomaly_note, anomaly_meta = anomaly_check_in_html(nn_html)
 
     ts = datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
     report = build_report(
@@ -189,19 +219,30 @@ def main() -> int:
         missing_in_nn=missing_in_nn,
         extra_in_nn=extra_in_nn,
         short_text_nn=short_text_nn,
+        short_text_meta=short_text_meta,
         anomaly_flag=anomaly_flag,
         anomaly_note=anomaly_note,
+        anomaly_meta=anomaly_meta,
     )
 
     OUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
     OUT_REPORT.write_text(report + "\n", encoding="utf-8")
 
-    print(f"CONTROL_COUNT={len(kontrolno_nums)}")
-    print(f"NN_COUNT={len(nn_nums)}")
-    print(f"MISSING_COUNT={len(missing_in_nn)}")
-    print(f"SHORT_COUNT={len(short_text_nn)}")
-    print(f"ANOMALY_FLAG={anomaly_flag}")
-    print(f"REPORT={OUT_REPORT.as_posix()}")
+    missing_csv = ", ".join(str(x) for x in missing_in_nn)
+    extra_csv = ", ".join(str(x) for x in extra_in_nn)
+    short_first20 = short_text_nn[:20]
+    short_first20_csv = ", ".join(str(x) for x in short_first20)
+
+    print(f"CONTROL_COUNT: {len(kontrolno_nums)}")
+    print(f"NN_COUNT: {len(nn_nums)}")
+    print(f"MISSING_COUNT: {len(missing_in_nn)}")
+    print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")
+    print(f"EXTRA_LIST: [{extra_csv}]" if extra_csv else "EXTRA_LIST: []")
+    print(f"SHORT_COUNT: {len(short_text_nn)}")
+    print(f"SHORT_LIST_COUNT: {len(short_text_nn)}")
+    print(f"SHORT_LIST_FIRST20: [{short_first20_csv}]" if short_first20_csv else "SHORT_LIST_FIRST20: []")
+    print(f"ANOMALY_FLAG: {anomaly_flag}")
+    print(f"REPORT: {OUT_REPORT.as_posix()}")
 
     return 0
 

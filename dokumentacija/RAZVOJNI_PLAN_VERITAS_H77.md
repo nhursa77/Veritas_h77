@@ -135,6 +135,8 @@ IZLAZ:
 PROVJERA:
 - evidentirani `missing_in_nn`, `extra_in_nn`, `short_text_in_nn`
 - heuristika anomalije bloka `Članak 10.`–`Članak 12.` (signal `Članak 1 I.`)
+- validator ispisuje konkretne liste članaka (missing/extra/short) na stdout
+  i u reportu, uz anomaly hints (`FOUND_BETWEEN_10_12` + ključne fraze)
 GATE:
 - rezultat validacije ulazi u odluku o ručnim/automatiziranim parser pravilima
 
