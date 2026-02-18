@@ -266,3 +266,17 @@ Pilot za `prekrsajni_zakon_nn_114_2022` potvrđuje prolaz parser+normiranje.
 Full `ingest_paket` prolazi na required core aktu, dok optional amandmani i
 dalje deterministički padaju na preflight guardrailu (`tip_teksta=amandmani`),
 pa paketni status ostaje `optional fail` (`exit 21`).
+
+### Paket-aware preflight (core strict, amandmani strict-but-different)
+`alati/acceptance_preflight.ps1` je proširen parametrima
+`-ExpectedTipTeksta` i `-PaketMode` tako da guardrail radi po očekivanom tipu
+akta iz manifesta.
+Za core (`procisceni`) ponašanje ostaje kao prije.
+Za amandmane (`amandmani`) preflight ne traži `procisceni`, nego striktno
+traži `TIP_ACTUAL=amandmani` (tip mismatch ostaje `exit 2`),
+zadržava expected-count mismatch `exit 3` kada je expected count zadan,
+i dodaje minimalni content sanity (`NN_COUNT >= 1` i prisutan
+`clanak_0001.json` ili barem jedan `clanak_*.json`).
+`alati/ingest_paket.ps1` i `alati/acceptance_paket.ps1` sada prosljeđuju
+očekivani tip po aktu (`tip_teksta`) i paketni summary prikazuje
+`TIP_EXPECTED` vs `TIP_ACTUAL`.

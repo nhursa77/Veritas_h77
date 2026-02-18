@@ -199,6 +199,11 @@ try {
 
         try {
             $aktDir = Join-Path $sourcesRoot $slug
+            $expectedTipTeksta = [string]$item.tip_teksta
+            if ([string]::IsNullOrWhiteSpace($expectedTipTeksta)) {
+                $expectedTipTeksta = if ($required) { "procisceni" } else { "amandmani" }
+            }
+
             New-SourceSnapshot -Item $item -AktDir $aktDir
 
             & $parserScript -AktSlug $slug
@@ -211,7 +216,7 @@ try {
             $exitCode = $LASTEXITCODE
             if ($exitCode -ne 0) { throw "norm_exit_$exitCode" }
 
-            & $preflightScript -AktSlug $slug
+            & $preflightScript -AktSlug $slug -PaketMode -ExpectedTipTeksta $expectedTipTeksta
             $exitCode = $LASTEXITCODE
             if ($exitCode -ne 0) { throw "preflight_exit_$exitCode" }
         }

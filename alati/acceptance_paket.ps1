@@ -93,6 +93,11 @@ try {
     foreach ($item in $manifest.akti) {
         $aktSlug = [string]$item.akt_slug
         $required = [bool]$item.required
+        $expectedTip = [string]$item.tip_teksta
+        if ([string]::IsNullOrWhiteSpace($expectedTip)) {
+            $expectedTip = if ($required) { "procisceni" } else { "amandmani" }
+        }
+        $expectedTip = $expectedTip.ToLowerInvariant()
 
         if ([string]::IsNullOrWhiteSpace($aktSlug)) {
             continue
@@ -102,7 +107,7 @@ try {
         $outputLines = @()
         $exitCode = 0
         try {
-            $outputLines = & $preflightScript -AktSlug $aktSlug 2>&1
+            $outputLines = & $preflightScript -AktSlug $aktSlug -PaketMode -ExpectedTipTeksta $expectedTip 2>&1
             $exitCode = $LASTEXITCODE
         }
         catch {
@@ -120,7 +125,14 @@ try {
         }
 
         $selectedSlug = Get-OutputValue -Lines $outputLines -Key "SELECTED_NN_SLUG"
-        $tipTeksta = Get-OutputValue -Lines $outputLines -Key "SELECTED_NN_TIP_TEKSTA"
+        $tipTeksta = Get-OutputValue -Lines $outputLines -Key "TIP_ACTUAL"
+        if ([string]::IsNullOrWhiteSpace($tipTeksta)) {
+            $tipTeksta = Get-OutputValue -Lines $outputLines -Key "SELECTED_NN_TIP_TEKSTA"
+        }
+        $tipExpectedOut = Get-OutputValue -Lines $outputLines -Key "TIP_EXPECTED"
+        if ([string]::IsNullOrWhiteSpace($tipExpectedOut)) {
+            $tipExpectedOut = $expectedTip
+        }
         $nnCount = Get-OutputValue -Lines $outputLines -Key "NN_COUNT"
         $expectedCount = Get-OutputValue -Lines $outputLines -Key "SELECTED_NN_EXPECTED_COUNT"
         $guardrailFail = Get-BoolFromOutput -Lines $outputLines -Key "GUARDRAIL_FAIL"
@@ -141,6 +153,7 @@ try {
             required = $required
             exit = $exitCode
             selected_source = $selectedSlug
+            tip_expected = $tipExpectedOut
             tip_teksta = $tipTeksta
             nn_count = $nnCount
             expected = $expectedCount
@@ -170,7 +183,7 @@ try {
     Write-Host "=== PAKET SUMMARY ==="
     Write-Host "PAKET_OK: $paketOk"
     $results |
-        Select-Object akt_slug, exit, selected_source, tip_teksta, nn_count, expected |
+        Select-Object akt_slug, exit, selected_source, tip_expected, tip_teksta, nn_count, expected |
         Format-Table -AutoSize
 
     # Repo hygiene: restore generated artifacts for all acts in manifest.

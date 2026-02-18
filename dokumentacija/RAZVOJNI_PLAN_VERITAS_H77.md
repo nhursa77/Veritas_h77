@@ -229,6 +229,12 @@ Status pilot (18.02.2026.):
 - paketni ingest za akte s `eli_pdf_url` upisuje i koristi
   `pdf_title_anchor` u source snapshot meta te automatski generira
   kontrolni TXT iz NN parsiranog izlaza prije preflighta
+- paketni preflight je tip-aware po aktu (`tip_teksta`) i radi u
+  strict modu po očekivanom tipu:
+  `procisceni` za core operativni set, `amandmani` za amandmanske akte
+- za `amandmani` guardrail ne traži `procisceni`; obavezno je
+  `SELECTED_NN_TIP_TEKSTA=amandmani`, uz optional expected-count check
+  i minimalni content sanity (`NN_COUNT >= 1` + prisutni `clanak_*.json`)
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
