@@ -204,6 +204,12 @@ Status pilot (18.02.2026.):
   (`VERITAS_<AKT_SLUG>_EXPECTED_COUNT_OVERRIDE` pa
   `VERITAS_EXPECTED_COUNT_OVERRIDE`, pa meta expected)
 
+#### Paketi
+- uveden je paketni acceptance runner (`alati/acceptance_paket.ps1`) koji
+  učitava manifest i pokreće generički preflight po `-AktSlug` za svaki akt
+- paketni izlaz koristi status kodove 0/10/11 za required/optional fail
+  semantiku i ostavlja `git status` čist nakon cleanup-a artefakata
+
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
 ULAZ:

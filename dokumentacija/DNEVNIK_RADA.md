@@ -209,3 +209,8 @@ Uvedeni su `alati/run_normiratelj.ps1` i `alati/acceptance_preflight.ps1`
 kao generički entrypointi za sve akte; validator
 `alati/validiraj_nn_vs_kontrolno.py` sada podržava `-AktSlug` i
 standardizirani override expected count-a po aktu/globalno.
+
+### PAKET_PREKRSAJNI_V1 — manifest + paketni acceptance
+Dodan je `paketi/PAKET_PREKRSAJNI_V1.json` (core + vezani akti) i
+`alati/acceptance_paket.ps1` za one-click paketni preflight preko
+generičkog `-AktSlug` pipelinea.

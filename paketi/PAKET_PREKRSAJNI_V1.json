@@ -1,0 +1,21 @@
+{
+  "paket": {
+    "slug": "prekrsajni_v1",
+    "naziv": "Prekršajni paket v1",
+    "napomena": "Core + vezani akti; svi izvori moraju biti pročišćeni tekst iz NN"
+  },
+  "akti": [
+    {
+      "akt_slug": "prekrsajni_zakon",
+      "required": true
+    },
+    {
+      "akt_slug": "zakon_o_kaznenom_postupku",
+      "required": false
+    },
+    {
+      "akt_slug": "kazneni_zakon",
+      "required": false
+    }
+  ]
+}
