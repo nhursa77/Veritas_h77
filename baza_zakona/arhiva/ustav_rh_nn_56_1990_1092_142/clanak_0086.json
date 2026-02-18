@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "86",
+    "naslov": null,
+    "tekst": ". Zastupnici u domovima Sabora Republike Hrvatske imaju, u skladu s poslovnikom pravo, postavljati Vladi Republike Hrvatske i pojedinim ministrima zastupnička pitanja.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FA90A1A956CB7B1EC25E674A938E1F3F67F02E88EB1723803C2A61BEB85B34F6",
+    "sha256_datoteke": "DD4B360B04DC7525B05FA877D6B864D377889192230FA8DC5F7141E89D52754A",
+    "napomena": null
+  }
+}

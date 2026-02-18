@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "151",
+    "naslov": null,
+    "tekst": ". Hrvatski sabor donijet će Ustavni zakon za provedbu Ustava Republike Hrvatske u roku od 6 mjeseci od 16. lipnja 2010., dana proglašenja Promjene Ustava Republike Hrvatske.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "75E4EE2E1750C9FE20224857EEFC567289A1F594BA08E5F53CF4069CA0C91DC1",
+    "sha256_datoteke": "B1FCD2D3834AE178E45260ED7B3B79C2361554C2FA87D6098C3BC36E261DADDC",
+    "napomena": null
+  }
+}

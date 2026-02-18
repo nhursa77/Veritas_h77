@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "144",
+    "naslov": null,
+    "tekst": ". Građani Republike Hrvatske neposredno su zastupljeni u Europskom parlamentu gdje putem svojih izabranih predstavnika odlučuju o stvarima iz njegove nadležnosti. Hrvatski sabor sudjeluje u europskom zakonodavnom postupku u skladu s ugovorima na kojima se temelji Europska unija. Vlada Republike Hrvatske izvješćuje Hrvatski sabor o prijedlozima pravnih propisa i odluka u čijem donošenju sudjeluje u institucijama Europske unije. Hrvatski sabor može o tim prijedlozima donositi zaključke na osnovi kojih Vlada djeluje u institucijama Europske unije. Nadzor Hrvatskoga sabora nad djelovanjem Vlade Republike Hrvatske u institucijama Europske unije uređuje se zakonom. Republiku Hrvatsku u Vijeću i Europskom vijeću zastupaju, sukladno njihovim ustavnim ovlastima, Vlada i Predsjednik Republike Hrvatske. 3. PRAVO EUROPSKE UNIJE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8A3DFDF26AEA7CAC55FF11A290044F5A4FA63455FC230F465985B5BAC1CA9944",
+    "sha256_datoteke": "236074820891B724BBF6BE04BCD1EF54F33996AE4663CDB5248B64D68804364A",
+    "napomena": null
+  }
+}

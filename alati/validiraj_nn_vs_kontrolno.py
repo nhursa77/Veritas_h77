@@ -15,6 +15,7 @@ NN_DOCS_JSON = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" 
 KONTROLNO_TXT = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_rh" / "ustav_rh_kontrolni.txt"
 KONTROLNO_DOCS_JSON = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_rh" / "struktura_kontrolno_dokumenti.json"
 NN_HTML = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "izvor_nn.html"
+OPERATIVNE_NORME_DIR = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh"
 OUT_REPORT = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh" / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
 CONTROL_HEADER_STRICT_RX = re.compile(r"^\s*Članak\s+([0-9]{1,3})(?:\.\s*)?$")
@@ -272,6 +273,51 @@ def parse_nn_dokumenti() -> list[dict]:
     ]
 
 
+def parse_nn_operativne_norme() -> tuple[list[int], set[int], dict[int, str]]:
+    ordered: list[int] = []
+    nums: set[int] = set()
+    text_by_num: dict[int, str] = {}
+
+    if not OPERATIVNE_NORME_DIR.exists():
+        return ordered, nums, text_by_num
+
+    for path in sorted(OPERATIVNE_NORME_DIR.glob("clanak_*.json")):
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        clanak = payload.get("clanak") if isinstance(payload, dict) else None
+        if not isinstance(clanak, dict):
+            continue
+
+        raw_oznaka = clanak.get("oznaka")
+        if raw_oznaka is None:
+            raw_oznaka = clanak.get("broj")
+
+        broj: int | None = None
+        if isinstance(raw_oznaka, int):
+            broj = raw_oznaka
+        elif isinstance(raw_oznaka, str):
+            m = re.match(r"\s*(\d+)", raw_oznaka)
+            if m:
+                broj = int(m.group(1))
+
+        if broj is None:
+            continue
+
+        tekst = str(clanak.get("tekst") or "").strip()
+        ordered.append(broj)
+        nums.add(broj)
+        if broj in text_by_num:
+            if len(tekst) > len(text_by_num[broj]):
+                text_by_num[broj] = tekst
+        else:
+            text_by_num[broj] = tekst
+
+    return ordered, nums, text_by_num
+
+
 def dokument_brojevi_i_tekst(dokument: dict) -> tuple[list[int], set[int], dict[int, str]]:
     clanci = dokument.get("clanci", []) if isinstance(dokument, dict) else []
     ordered: list[int] = []
@@ -460,7 +506,10 @@ def build_report(
         lines,
         f"NN_DOCS_FOUND: {len(nn_docs_ids)} | {', '.join(nn_docs_ids) if nn_docs_ids else '(none)'}",
     )
-    lines.append(f"- PROCISCENI_CUTOFF_MARKER: {procisceni_cutoff_marker if procisceni_cutoff_marker else 'NONE'}")
+    _append_wrapped_bullet(
+        lines,
+        f"PROCISCENI_CUTOFF_MARKER: {procisceni_cutoff_marker if procisceni_cutoff_marker else 'NONE'}",
+    )
     lines.append(f"- PROCISCENI_CHAR_LEN: {procisceni_char_len}")
     lines.append(f"- AMANDMANI_CHAR_LEN: {amandmani_char_len}")
     lines.append("")
@@ -619,7 +668,9 @@ def main() -> int:
 
     kontrolno_headers, kontrolno_nums, _ = dokument_brojevi_i_tekst(control_doc)
     _, kontrolno_nums_amandmani, _ = dokument_brojevi_i_tekst(control_doc_amandmani)
-    nn_headers, nn_nums, nn_texts = dokument_brojevi_i_tekst(nn_doc)
+    nn_headers, nn_nums, nn_texts = parse_nn_operativne_norme()
+    if not nn_nums:
+        nn_headers, nn_nums, nn_texts = dokument_brojevi_i_tekst(nn_doc)
 
     kontrolno_count = len(kontrolno_nums)
     kontrolno_count_amandmani = len(kontrolno_nums_amandmani)

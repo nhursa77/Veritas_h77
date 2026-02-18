@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "121",
+    "naslov": null,
+    "tekst": ". Suce i državne odvjetnike, u skladu s Ustavom i zakonom, imenuje i razrješuje te o njihovoj disciplinskoj odgovornosti odlučuje Republičko sudbeno vijeće. Republičko sudbeno vijeće ima predsjednika i 14 članova. Predsjednika i članove predlaže Županijski dom, a bira ih Zastupnički dom, na vrijeme od osam godina, iz reda istaknutih sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti; u skladu sa zakonom. V. USTAVNI SUD REPUBLIKE HRVATSKE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7BC53F65886E61DDF05B5F8B53F45376F6CB66C7E06D90C469B697F6B4F64909",
+    "sha256_datoteke": "212880FD62E82CD9B0C6B43B2E10226D582196151DE4B4A86863FC28427DC51A",
+    "napomena": null
+  }
+}

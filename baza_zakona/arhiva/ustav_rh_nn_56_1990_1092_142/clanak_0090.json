@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "90",
+    "naslov": null,
+    "tekst": ". Prije nego što stupe na snagu, zakoni se objavljuju u \"Narodnim novinama\", službenome listu Republike. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "421CC96BD64B10E94597372C507FD76F74481372BB482FEF08F807211D885E0F",
+    "sha256_datoteke": "F191F166FB0149733AB5508B2D5AF186AEFE551E6B6DBEC039085182D487BFF5",
+    "napomena": null
+  }
+}

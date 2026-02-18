@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": ". Nitko ne smije biti podvrgnut bilo kakvu obliku zlostavljanja ili, bez svoje privole, liječničkim ili znanstvenim pokusima. Zabranjen je prisilni i obvezatni rad.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "99241B8CD647B91173D8DA7F9E819D0A20A5BEFEA516C9B5C030D17266B292BE",
+    "sha256_datoteke": "8E4C9DEC8375B67A9BA9B48E939654695DD76778BD37B948B5C2C522FE3BB6FC",
+    "napomena": null
+  }
+}

@@ -179,6 +179,9 @@ Status pilot (18.02.2026.):
 - za `ustav_rh` normiranje koristi `struktura_nn_dokumenti.json`
   i normira isključivo dokument `ustav_rh_procisceni`
   (amandmani su evidentirani u izvještaju, ali se ne normiraju)
+- operativni izvor za `ustav_rh` je pročišćeni NN `85/2010`
+  (`ustav_rh_nn_85_2010`), dok stariji `NN 56/1990` snapshot ostaje
+  sačuvan u arhivi radi usporedbe i traga izvora
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

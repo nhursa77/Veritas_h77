@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "41",
+    "naslov": null,
+    "tekst": ". Sve vjerske zajednice jednake su pred zakonom i odvojene od države. Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "87EA028E7CB10FED396651FDE8F1BA4F4A6051938E6D707250553E08F7DDB140",
+    "sha256_datoteke": "CCF68F330D5C093CEF8DF50FC62439DD306172A018E2B42915DAEEC26AA75065",
+    "napomena": null
+  }
+}

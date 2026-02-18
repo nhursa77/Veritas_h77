@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". Slobodno je osnivanje političkih stranaka. Političke se stranke ustrojavaju po teritorijalnom načelu. Nije dopušten rad političke stranke koja svojim programom ili djelovanjem nasilno ugrožava demokratski ustavni poredak, neovisnost, jedinstvenost ili teritorijalnu cjelovitost Republike Hrvatske.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "086D62E2E5DAD865C0F14F64AE0599D956D842207145D32C4E3907097D727ECF",
+    "sha256_datoteke": "45229CC48660352D2B02CA1C8E7BC7E874A9C608622505679ECCBFA372376FCF",
+    "napomena": null
+  }
+}

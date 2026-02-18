@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "131",
+    "naslov": null,
+    "tekst": ". Županija je jedinica lokalne uprave i samouprave. Područja županija određuju se zakonom tako da one budu izražaj povijesnih, prometnih i gospodarskih čimbenika i sposobne da budu prirodne samoupravne cjeline u okviru Republike. Ustrojstvo i djelokrug županijskih tijela odreduju se zakonom. Veliki se gradovi zakonom mogu urediti kao županije. VII. MEĐUNARODNI ODNOSI 1. Međunarodni ugovori",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "50FD7087686BD02367F78CAF37BFF2FBC72871BF80EC592A0FED6616660907B0",
+    "sha256_datoteke": "0A09C3B9FAB5740BA70A4DCFB04E1D78A44515212E3A2511ECBC60B916840B32",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "146",
+    "naslov": null,
+    "tekst": ". Državljani Republike Hrvatske su građani Europske unije i uživaju prava koja im jamči pravna stečevina Europske unije, a osobito: – slobodu kretanja i nastanjivanja na području svih država članica, – aktivno i pasivno biračko pravo na izborima za Europski parlament i na lokalnim izborima u drugoj državi članici, sukladno propisima te države članice, – pravo na diplomatsku i konzularnu zaštitu bilo koje države članice, jednaku zaštiti vlastitih državljana kada se nalaze u trećoj državi u kojoj Republika Hrvatska nema diplomatsko-konzularno predstavništvo, – pravo podnošenja peticija Europskom parlamentu, predstavki Europskom ombudsmanu te pravo obraćanja institucijama i savjetodavnim tijelima Europske unije na hrvatskom jeziku, kao i na svim službenim jezicima Europske unije, te pravo dobiti odgovor na istom jeziku. Sva prava ostvaruju se u skladu s uvjetima i ograničenjima propisanima ugovorima na kojima se temelji Europska unija te mjerama prihvaćenima na temelju tih ugovora. U Republici Hrvatskoj sva prava zajamčena pravnom stečevinom Europske unije uživaju svi građani Europske unije. IX. PROMJENA USTAVA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DB9D3A7F91EF297D1C934DA05554398E841825F68BF6963C64798A2ADBFEA86C",
+    "sha256_datoteke": "3EDA9D8A726CD6E42229B904B85437036119B967FE74E5FA3DE739E58E88CBEE",
+    "napomena": null
+  }
+}

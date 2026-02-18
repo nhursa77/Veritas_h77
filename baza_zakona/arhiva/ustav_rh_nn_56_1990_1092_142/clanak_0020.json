@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": ". Tko se ogriješi o odredbe ovoga Ustava o temeljnim slobodama i pravima čovjeka i građanina, osobno je odgovoran i ne može se opravdati višim nalogom. 2. Osobne i političke slobode i prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B294FCDA116F9D6D148C88F262E4EFD61C34DF3F7F96560F89A5C8745AACDD2A",
+    "sha256_datoteke": "7D3276A7F6526D3D25C647ECBC66F5C7C352004D380B07704E42C9386DE30043",
+    "napomena": null
+  }
+}

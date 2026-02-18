@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "53",
+    "naslov": null,
+    "tekst": ". Narodna banka Hrvatske je centralna banka Republike Hrvatske. Narodna banka Hrvatske odgovorna je, u okviru svojih prava i dužnosti, za stabilnost valute i za opću likvidnost plaćanja u zemlji i prema inozemstvu. Narodna banka Hrvatske u svom radu je samostalna i odgovorna Saboru Republike Hrvatske. Dobit ostvarena poslovanjem Narodne banke Hrvatske pripada državnom proračunu. Položaj Narodne banke Hrvatske uređuje se zakonom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0097945DD1932A3E414F810E15BC1715C8C25D6FDBD5AEE08316F9E71B16D2BE",
+    "sha256_datoteke": "8CDDA5F0AA630482A2EA93C07C17DAFAC89B8233CE039AD084E39929215574BA",
+    "napomena": null
+  }
+}

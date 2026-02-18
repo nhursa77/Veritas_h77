@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". Hrvatsko državljanstvo, njegovo stjecanje i prestanak uređuje se zakonom. Državljanin Republike Hrvatske ne može biti prognan iz Republike niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "506C2D184D0D4088215974771666DB048978E816836E08B4F70EDAD39A1BD12C",
+    "sha256_datoteke": "A70CF80B1098E6116A60A08A8BE5EE01766E5DE1E66F0150344058EE8C5BF455",
+    "napomena": null
+  }
+}

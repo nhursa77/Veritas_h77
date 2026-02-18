@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "112",
+    "naslov": null,
+    "tekst": ". Predsjednik Vlade, najkasnije 15 dana pošto je imenovan, predstavlja Vladu Zastupničkomu domu i traži glasovanje o povjerenju Vladi. Imenovanje predsjednika i članova Vlade prihvaćeno je ako joj je povjerenje iskazala većina svih zastupnika u Zastupničkom domu.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B1A88F9DC0B3E92E95A4519BABA778E43862AC5A1D3A5FD9F0E814F9CC0E867E",
+    "sha256_datoteke": "AB93FFA19767DE5DB3575CD8E24725AC80260C2E2F49F55000385379F21B1A40",
+    "napomena": null
+  }
+}

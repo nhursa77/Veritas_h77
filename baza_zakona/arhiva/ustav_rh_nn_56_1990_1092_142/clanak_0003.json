@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". Sloboda, jednakost, nacionalna ravnopravnost, mirotvorstvo, socijalna pravda, poštivanje prava čovjeka, nepovredivost vlasništva, očuvanje prirode i čovjekova okoliša, vladavina prava i demokratski višestranački sustav najviše su vrednote ustavnog poretka Republike Hrvatske.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7B6921629781E6F0ACE3A8E6D6112DDB1BF262F82950ED2F50A87250C55FF96D",
+    "sha256_datoteke": "78D70F1D9498A1172B1DFF15CAEEAC11B8F09148B44A543533E332299A70253B",
+    "napomena": null
+  }
+}

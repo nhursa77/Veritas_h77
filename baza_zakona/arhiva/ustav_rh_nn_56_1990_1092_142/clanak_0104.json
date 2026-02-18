@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "104",
+    "naslov": null,
+    "tekst": ". Predsjednik Republike na prijedlog Vlade i uz supotpis njezina predsjednika, a nakon savjetovanja s predsjednikom Doma, može raspustiti Zastupnički dom, ako taj Dom izglasa nepovjerenje Vladi ili ako za mjesec dana od dana predlaganja ne prihvati državni proračun. Predsjednik Republike ne može ponovno raspustiti Zastupnički dom prije isteka godine dana od dana raspuštanja.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "40F3A525B29B0352B62FE18C99B9326A5C6970E24E260D1214ED9BA41AD547FD",
+    "sha256_datoteke": "01D7BBED3233BE4B0B0F5E6EF797A1DF1D9FA46280B9954E91539551E20E76F9",
+    "napomena": null
+  }
+}

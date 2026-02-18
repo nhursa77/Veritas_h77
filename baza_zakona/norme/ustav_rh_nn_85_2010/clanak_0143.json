@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "143",
+    "naslov": null,
+    "tekst": ". Republika Hrvatska, na temelju članka 142. Ustava, kao država članica Europske unije, sudjeluje u stvaranju europskog zajedništva, kako bi zajedno s drugim europskim državama osigurala trajni mir, slobodu, sigurnost i blagostanje te ostvarila druge zajedničke ciljeve, u skladu s temeljnim načelima i vrijednostima na kojima se Europska unija zasniva. Republika Hrvatska, na temelju članka 140. i 141. Ustava, institucijama Europske unije povjerava ovlasti koje su potrebne za ostvarivanje prava i ispunjavanje obveza preuzetih na temelju članstva. 2. SUDJELOVANJE U INSTITUCIJAMA EUROPSKE UNIJE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "163F2796435FC6E413BA7A5AE7FB543E7C2D96E49D956DBD708BF8D0F862ECC8",
+    "sha256_datoteke": "8D2B650FA77C799E759306D0831AE0BF17663915DE489398A95E9EE88A9DA95D",
+    "napomena": null
+  }
+}

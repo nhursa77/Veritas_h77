@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "134",
+    "naslov": null,
+    "tekst": ". Međunarodni ugovori koji su sklopljeni i potvrđeni u skladu s Ustavom i objavljeni, čine dio unutarnjeg pravnog poretka Republike, a po pravnoj su snazi iznad zakona. Njihove se odredbe mogu mijenjati ili ukidati samo uz uvjete i na način koji su u njima utvrđeni, ili suglasno općim pravilima međunarodnog prava. 2. Udruživanje i odcjepljenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4666898719202A89B8CBBE3879DEE63C124B16CF5617B2235A604DFF7D4A64BD",
+    "sha256_datoteke": "DADC4E907AFB9ABDF0AD1E13AD92FE3092A394004D66CAAD80AA309E568A55FA",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "34",
+    "naslov": null,
+    "tekst": ". Dom je nepovrediv. Samo sud može obrazloženim pismenim nalogom utemeljenim na zakonu odrediti da se dom ili drugi prostor pretraži. Pravo je stanara da on ili njegov zastupnik i obvezatno dva svjedoka budu nazočni pri pretrazi doma ili drugoga prostora. U skladu s uvjetima što ih predviđa zakon, redarstvene vlasti mogu i bez sudskog naloga ili privole držatelja stana ući u dom ili prostorije te izvršiti pretragu bez nazočnosti svjedoka, ako je to neophodno radi izvršenja naloga o uhićenju ili radi hvatanja počinitelja kaznenog djela odnosno otklanjanja ozbiljne opasnosti po život i zdravlje Ijudi ili imovinu većeg opsega. Pretraga radi pronalaženja ili osiguranja dokaza za koje postoji osnovana vjerojatnost da se nalaze u domu počinitelja kaznenog djela, može se poduzeti samo u nazočnosti svjedoka.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7195DEB9CA6DB32B4A518C8321DAFA916600573E4691455BBAE95837CDBBD66A",
+    "sha256_datoteke": "3D4228887EE8CA8637EB0A255F4EC19A6DA165FA123A9B07A6976CC1C2BBABCA",
+    "napomena": null
+  }
+}

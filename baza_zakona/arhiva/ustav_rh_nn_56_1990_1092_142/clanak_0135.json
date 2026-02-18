@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "135",
+    "naslov": null,
+    "tekst": ". Pravo da pokrenu postupak udruživanja Republike Hrvatske u saveze s drugim državama ima najmanje jedna trećina zastupnika u Saboru Republike Hrvatske, Predsjednik Republike i Vlada Republike Hrvatske. O udruživanju Republike prethodno odlučuje Sabor dvotrećinskom većinom glasova svih zastupnika. Odluka o udruživanju Republike donosi se na referendumu većinom glasova ukupnog broja birača u Republici. Referendum se mora održati u roku 30 dana od dana donošenja odluke Sabora. Odredbe ovog Ustava o udruživanju odnose se i na uvjete i postupak razdruživanja (odcjepljenja) Republike Hrvatske osim kada zbog izvanrednih prilika na prijedlog jedne trećine zastupnika ili predsjednika Republike ili Vlade Republike Hrvatske Sabor može donijeti odluku o razdruživanju (odcjepljenju) radi zaštite suvereniteta Republike Hrvatske dvotrećinskom većinom glasova prisutnih zastupnika. VIII. PROMJENA USTAVA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9543E680C81EBD7A92325AACA42DC23A9A4B6DBC711C61D1C8C68269F06C0CB3",
+    "sha256_datoteke": "60814C4F1DE97265E41268ADD0F0EF72DB4D085E4F616B76A9A2C09144686396",
+    "napomena": null
+  }
+}

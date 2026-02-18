@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": ". Zastupnički dom može raspisati referendum o prijedlogu za promjenu Ustava, o prijedlogu zakona ili o drugom pitanju iz svog djelokruga. Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike. Na referendumu se odlučuje većinom birača koji su glasovali, uz uvjet da je referendumu pristupila većina od ukupnog broja birača u Republici. Odluka donesena na referendumu obvezatna je. O referendumu se donosi zakon.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "10FEA2CA18330B6C031B74CDA65EB9C87CF039954A4AD8472AF86114F6AFDF2F",
+    "sha256_datoteke": "8DCC289E2537515E57B9363BF4D15BBE3F5F69CB9F39815E3C90379E42E28DDF",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". Suverenitet Republike Hrvatske neotuđiv je, nedjeljiv i neprenosiv. Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Sabor Republike Hrvatske i narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: - o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj, - o očuvanju -prirodnog i kulturnog bogatstva i korištenju njime ; - o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4A5C0E4312DC69A74F570CC88F8B54A49D6C5C1C85CE19E9BB9248C80A3CAFE7",
+    "sha256_datoteke": "10974CACC79C87AF9E49E7A5C0A72CCC8A51BA6F3FFE6AAEC6CD0DBC6527FA1F",
+    "napomena": null
+  }
+}

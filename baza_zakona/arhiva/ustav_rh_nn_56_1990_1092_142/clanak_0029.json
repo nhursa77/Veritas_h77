@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". Svatko tko je osumnjičen ili optužen zbog kaznenog djela ima pravo: - na pravično suđenje pred nadležnim sudom ustanovljenime zakonom; - u najkraćem roku biti izviješten o razlozima optužbe što se diže protiv njega i o dokazima koji ga terete; - na branitelja i nesmetano općenje s braniteljem, i s tim pravom mora biti upoznat; - da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, te da se brani sam ili uz pomoć branitelja kojega je sam izabrao. Okrivljenik i optuženik ne smije se siliti da iskazuje protiv sebe ili da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9E7C0046C3000112401AF3C96A59BDED6749DD2D2181B0A0B99F3393A6A80EA6",
+    "sha256_datoteke": "83DB3DA3FE5F411837E79F0917AF56E58BB0A59546147AADB3200CCABADBAD50",
+    "napomena": null
+  }
+}

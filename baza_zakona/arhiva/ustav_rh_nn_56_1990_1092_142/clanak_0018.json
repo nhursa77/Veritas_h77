@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". Jamči se pravo na žalbu protiv pojedinačnih pravnih akata donesenih u postupku prvog stupnja pred sudom ili drugim ovlaštenim tijelom. Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F0EAE5A73CF302A86740D48B29362C153620010229F4DA81EA72CF0B02ABA041",
+    "sha256_datoteke": "A6BE0A2950202C2409AB49392B654A05AF55F8EC934F8847BE4B0FD5A6F88128",
+    "napomena": null
+  }
+}

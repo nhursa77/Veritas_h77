@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". Jamči se pravo vlasništva. Vlasništvo obvezuje. Nositelji vlasničkoga prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete odredene zakonom. Jamči se pravo nasljeđivanja.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B53E1BD7F8E9123837ABF31A5114EAB5055B72811C2B52603E4C9DF6BBD53B6C",
+    "sha256_datoteke": "CADC498FAFBE18E5BB5DBC6D328E2EDC47B354AD5B53110D3FD1C3F0E564DAB8",
+    "napomena": null
+  }
+}

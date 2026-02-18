@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "93",
+    "naslov": null,
+    "tekst": ". Pučki je pravobranitelj opunomoćenik Sabora Republike Hrvatske koji štiti ustavna i zakonska prava građana u postupku pred državnom upravom i tijelima koja imaju javne ovlasti. Pučkog pravobranitelja bira Zastupnički dom na vrijeme od osam godina. Uvjeti za izbor i razrješenje, djelokrug i način rada pučkog pravobranitelja i njegovih zamjenika uređuju se zakonom. 2. Predsjednik Republike Hrvatske",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "41669B916F515C62718265E5C9EC635F1C733FFA515289AA3568E13642D9E572",
+    "sha256_datoteke": "90DBD04B348AE36615E001E2F1395349B78C553316753EF5C5A4332BD12B5D47",
+    "napomena": null
+  }
+}

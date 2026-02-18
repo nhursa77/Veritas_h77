@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "119",
+    "naslov": null,
+    "tekst": ". Suci i suci porotnici koji sudjeluju u sudenju ne mogu biti pozvani na odgovornost za mišljenje dano pri donošenju sudbene odluke. Suci imaju, u skladu sa zakonom, imunitet kao i zastupnici u Saboru Republike Hrvatske.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "33D499F5F85BB705E1CFEB3693DCD8F123EE652883EE533EADC413F57F5F4816",
+    "sha256_datoteke": "B49022C1DDFBD31B7B8A1136C1FE3E4B18DDF147F24CD92E8A95F2FABA60124F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "145",
+    "naslov": null,
+    "tekst": ". Ostvarivanje prava koja proizlaze iz pravne stečevine Europske unije, izjednačeno je s ostvarivanjem prava koja su zajamčena hrvatskim pravnim poretkom. Pravni akti i odluke koje je Republika Hrvatska prihvatila u institucijama Europske unije primjenjuju se u Republici Hrvatskoj u skladu s pravnom stečevinom Europske unije. Hrvatski sudovi štite subjektivna prava utemeljena na pravnoj stečevini Europske unije. Državna tijela, tijela jedinica lokalne i područne (regionalne) samouprave te pravne osobe s javnim ovlastima izravno primjenjuju pravo Europske unije. 4. PRAVO GRAĐANA EUROPSKE UNIJE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "22C38B67EA0D094E118A500A5B12A42FB512698F090AB47187175528D000F08C",
+    "sha256_datoteke": "D246B9EB7B04FEA36D6AF3CAF04F3C4868A59D9DC8E0638AF3C9306EAD516412",
+    "napomena": null
+  }
+}

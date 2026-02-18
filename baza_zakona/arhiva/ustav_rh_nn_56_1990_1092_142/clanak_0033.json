@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "33",
+    "naslov": null,
+    "tekst": ". Strani državljanin i osobe bez državljanstva mogu dobiti utočište u Republici Hrvatskoj, osim ako su progonjeni za nepolitičke zločine i djelatnosti oprečne temeljnim načelima međunarodnog prava. Stranac koji se zakonito nalazi na teritoriju Republike ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "26D7CE15FBC588884930D0F99F46AF26E3399CB51FA7AE3B569B0BB60F75503B",
+    "sha256_datoteke": "F01CF0C1D0DE74DD163F5D2C20792673E121C6BC64D9FD68F84D457743696FE0",
+    "napomena": null
+  }
+}

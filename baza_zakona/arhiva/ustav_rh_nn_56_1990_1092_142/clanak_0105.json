@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "105",
+    "naslov": null,
+    "tekst": ". Predsjednik Republike odgovoran je za povredu Ustava koju počini u obavljanju svojih dužnosti. Postupak za utvrđivanje posebne odgovornosti predsjednika Republike može pokrenuti Zastupnički dom dvotrećinskom većinom svih zastupnika. O odgovornosti predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, predsjedniku Republike prestaje dužnost po sili Ustava.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7917DA80B0FA4DDE1B33A7662546B068BE1BF658ECAC8CFD0E3CF1AE4DEF7155",
+    "sha256_datoteke": "411C4D2C049A073634ECA2A07A3EAFD80D405004282B55B407BCF37409A73682",
+    "napomena": null
+  }
+}

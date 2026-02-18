@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "54",
+    "naslov": null,
+    "tekst": ". Svatko ima pravo na rad i slobodu rada. Svatko slobodno bira poziv i zaposlenje i svakomu je pod jednakim uvjetima dostupno svako radno mjesto i dužnost.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0E25C15ABF188C76317B3D4E13D3D282BDFADFF7C0AF0A6EE38D58440B46DD17",
+    "sha256_datoteke": "73890A2797D1F7871C25A9148893F10BB0DF025EFE75C7E0FE6C678ACBBF35C1",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". Glavni je grad Republike Hrvatske Zagreb. Grad Zagreb je posebna i jedinstvena teritorijalna i upravna cjelina, kojoj se ustrojstvo uređuje zakonom. III. TEMELJNE SLOBODE I PRAVA ČOVJEKA I GRAĐANINA 1. Zajedničke odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F956B7A488C31F1053792CEBB46D7620891AF880862506BA481D6ABD4D3F297F",
+    "sha256_datoteke": "99A1B91B1F1F82A6D1A0C994BFE376428261F3CEB362112D15196327D76E56A3",
+    "napomena": null
+  }
+}

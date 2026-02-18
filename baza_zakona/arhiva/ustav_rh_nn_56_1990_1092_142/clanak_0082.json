@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "82",
+    "naslov": null,
+    "tekst": ". Ako Ustavom nije drugačije određeno, Zastupnički dom i Županijski dom donose odluke većinom glasova ukoliko je na sjednici nazočna većina zastupnika. Zastupnici glasuju osobno.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A341237A3B36F6BD21827F4E7D004DCA7DF60AF826A167345FD1ECCF33851878",
+    "sha256_datoteke": "8080B7F37D2B118C53E89D4E7CE03BA1CE88BF8976281AEA7AB2050E6D8AE231",
+    "napomena": null
+  }
+}

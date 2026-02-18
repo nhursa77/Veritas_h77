@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "81",
+    "naslov": null,
+    "tekst": ". Županijski dom: - predlaže Zastupničkomu domu zakone i raspisivanje referenduma; - raspravlja i može davati mišljenje o pitanjima koja su u djelokrugu Zastupničkog doma; - daje Zastupničkomu domu prethodno mišljenje u postupku donošenja Ustava te zakona kojima se uređuju nacionalna prava, razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave; - može u roku od petnaest dana od dana izglasavanja zakona u Zastupničkom domu, uz obrazloženo mišljenje, vratiti zakon na ponovno odlučivanje Zastupničkomu domu. U tom slučaju Zastupnički dom o donošenju zakona odlučuje natpolovičnom većinom svih zastupnika, osim kada Zastupnički dom zakone donosi dvotrećinskom većinom; - obavlja druge poslove utvrđene Ustavom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "87B3619073DE334E5313E05C4B6B5F059037B67FC7C3D7F65CEB314BB722E6C3",
+    "sha256_datoteke": "AC7BA829102F6E7FA0692160A4700FF03E0F0F0692B08F8FB618755E2994C42F",
+    "napomena": null
+  }
+}

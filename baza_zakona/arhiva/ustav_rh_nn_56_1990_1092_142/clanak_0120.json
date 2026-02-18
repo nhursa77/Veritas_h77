@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "120",
+    "naslov": null,
+    "tekst": ". Sudačka dužnost je stalna. Sudac će biti razriješen sudačke dužnosti: - ako to sam zatraži; - ako trajno izgubi sposobnost obavljati svoju dužnost; - ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti; - ako u skladu sa zakonom; zbog počinjenog teškog disciplinskog djela, tako odluči, Republičko sudbeno vijeće. Protiv odluke o razrješenju od sudačke dužnosti sudac ima pravo podnijeti zahtjev za zaštitu Županijskomu domu Sabora. Sudac ne može biti premješten protivno njegovoj voIji. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DA4941ED4FC4FAEBE91EEA51CC3FA9282C82C94C4D445EE48631682ACF7AD60D",
+    "sha256_datoteke": "83ACB77D91B697FF862247A159FFD8191F201A53A239166EA77DCF395231F0FC",
+    "napomena": null
+  }
+}

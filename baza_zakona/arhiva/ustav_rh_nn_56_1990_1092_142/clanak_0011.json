@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": "Grb Republike Hrvatske povijesni je hrvatski grb čija je osnovica 25 naizmjeničnih crvenih i bijelih (srebrenih) polja. Zastava Republike Hrvatske sastoji se od tri boje: crvene, bijele i plave, s povijesnim hrvatskim grbom u sredini. Himna je Republike Hrvatske \"Lijepa naša domovino\". Opis povijesnoga hrvatskog grba i zastave i tekst himne te uporaba i zaštita tih i drugih državnih znamenja ureduje se zakonom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8800B0549A8F60CDC21F231507E54C06593BD943F0474D8F74F9011AB1F648AE",
+    "sha256_datoteke": "EF077BD4024103B209EFB8D7874AD34D5A1183C21C73E1D31E4DA688CD798A39",
+    "napomena": null
+  }
+}

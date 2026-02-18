@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "43",
+    "naslov": null,
+    "tekst": ". Građanima se jamči pravo na slobodno udruživanje radi zaštite njihovih probitaka ili zauzimanja za socijalna, gospodarska, politička, nacionalna, kulturna ili druga uvjerenja i ciljeve. Radi toga građani mogu slobodno osnivati političke stranke, sindikate i druge udruge, uključivati se u njih ili iz njih istupati. Pravo slobodnog udruživanja ograničeno je zabranom nasilnog ugrožavanja demokratskoga ustavnog poretka, te neovisnosti, jedinstvenosti i teritorijalne cjelovitosti Republike.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A7F2DBDA5796D443325528681DE9DDEA5275B58DFFA373EBE9801C2334751D29",
+    "sha256_datoteke": "75B50B9A29B0D4080AD3242BC8C9974331A024B3C9BF840C111EC41D944B62ED",
+    "napomena": null
+  }
+}

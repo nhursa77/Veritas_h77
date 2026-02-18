@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "113",
+    "naslov": null,
+    "tekst": ". Na prijedlog najmanje jedne desetine zastupnika u Zastupničkomu domu može se pokrenuti pitanje povjerenja predsjedniku Vlade, pojedinomu njezinom članu ili Vladi u cjelini. Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se glasovati o povjerenju prije nego proteknu tri dana od dana dostave prijedloga Zastupničkom domu. Odluka o nepovjerenju prihvaćena je ako je za nju glasovala većina od ukupnog broja zastupnika. Ako Zastupnički dnm odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije proteka roka od tri mjeseca. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade podnijet će ostavku predsjedniku Republike, a on će raspustiti Vladu. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može podnijeti ostavku ili može predložiti predsjedniku Republikc da razriješi dužnosti člana Vlade kojemu je izglasano nepovjerenje.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "258F0FBA8C3893A0C2460364061A4DD7F68821FF2EA0D347D3CAC6F78F12BABB",
+    "sha256_datoteke": "E506F627EF2C979D9055D8DB0DD6E7983D5C4F9A55F9CFAE84EA3FA3C38E0B83",
+    "napomena": null
+  }
+}

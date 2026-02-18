@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "75",
+    "naslov": null,
+    "tekst": ". Zastupnici u Saboru Republike Hrvatske imaju imunktet. Zastupnik ne može biti pozvan na kaznenu odgovornost, pritvoren ili kažnjen za izraženo mišljenje ili glasovanje u Saboru. Zastupnik ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez odobrenja doma Sabora. Zastupnik može biti pritvoren bez odobrenja doma Sabora samo ako je zatečen da vrši kažnjivo djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. O takvom se slučaju izvješćuje predsjednika doma Sabora. Ako dom Sabora nije na okupu, odobrenje da se zastupnik liši slobode ili da se protiv njega nastavi kazneni postupak daje i o njegovu pravu na imunitet odlučuje mandatno-imunitetna komisija doma, s time što njezinu odluku mora naknadno potvrditi dom Sabora.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4C900B6E5209143BA36A4D2414169793D587B4850A7333C3ADA1B9F24EF5997E",
+    "sha256_datoteke": "E0310EEED495D4AB95C6B02D5087237EC3A5605B22A32CA71B8F5428411263F5",
+    "napomena": null
+  }
+}

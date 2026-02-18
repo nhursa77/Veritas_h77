@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "59",
+    "naslov": null,
+    "tekst": ". Radi zaštite svojih gospodarskih i socijalnih interesa, svi zaposleni i poslodavci imaju pravo osnivati sindikate i slobodno u njih stupati i iz njih istupati. Sindikati mogu osnivati svoje saveze i udruživati se u medunarodne sindikalne organizacije. U oružanlm snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "98C7E76C7C96D6BB9F9553119F668EA3A0372572C0CE5927A5DC3409D58AC082",
+    "sha256_datoteke": "4D6EB8AA1C819F186F78B9B60400C9210940A53F50B1DA8B968ED127E4650721",
+    "napomena": null
+  }
+}

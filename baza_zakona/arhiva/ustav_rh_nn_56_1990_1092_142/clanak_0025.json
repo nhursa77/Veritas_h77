@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". Sa svakim se uhićenikom i osuđenikom mora postupati čovječno i poštivati njegovo dostojanstvo. Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, odredenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuden. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4BA8269C40BB07B8E41CCE8B6CC10A422D3357597C5185BB9E3DB14BEEF8CD40",
+    "sha256_datoteke": "695FD8E77B7E95464959305F686AB0507983F9CFDD28DBDA9C9D277D44DE0ACD",
+    "napomena": null
+  }
+}

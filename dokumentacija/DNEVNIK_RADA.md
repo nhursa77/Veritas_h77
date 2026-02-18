@@ -171,3 +171,9 @@ Normiratelj za `ustav_rh` prebačen je na ulaz
 `struktura_nn_dokumenti.json` i generira norme samo iz
 `ustav_rh_procisceni`; amandmani su ignorirani u normama i evidentirani
 u `IZVJESTAJ_NORMIRANJA.md` kroz sekciju "Document split (NN)".
+
+### Ustav RH — NN 85/2010 kao operativni izvor (152 čl.)
+Dodan je novi dokazni snapshot `ustav_rh_nn_85_2010` (NN 85/2010,
+pročišćeni tekst) i iz njega je generiran operativni set od 152 normi.
+Stari operativni set (142) je arhiviran u
+`baza_zakona/arhiva/ustav_rh_nn_56_1990_1092_142/`.

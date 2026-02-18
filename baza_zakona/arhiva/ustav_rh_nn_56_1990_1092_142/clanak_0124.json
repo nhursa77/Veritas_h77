@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "124",
+    "naslov": null,
+    "tekst": ". Sudac Ustavnog suda Republike Hrvatske može biti razriješen dužnosti prije isteka vremena na koje je izabran ako zatraži da bude razriješen, ako bude osuđen na zatvorsku kaznu, ili ako trajno, što utvrđuje sam Sud, izgubi sposobnost da obavlja svoju dužnost.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F74E29D94A6CEBA8EF796E5FC74DD7DDDE4F95C599950DFDC70832D6EC3AF51D",
+    "sha256_datoteke": "51A2F3D0010DC49FB50F720825186360B1D4C3C57867938769D4CF9C874E1EFB",
+    "napomena": null
+  }
+}

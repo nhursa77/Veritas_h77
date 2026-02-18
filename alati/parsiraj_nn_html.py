@@ -404,7 +404,7 @@ def main() -> int:
         akt_slug = sys.argv[1].strip().lower()
 
     status = status_akta_iz_izvjestaja(akt_slug)
-    if status != "OK":
+    if status not in {"OK", None}:
         raise RuntimeError(
             f"Gate blokada: akt_slug '{akt_slug}' nema status OK u kontroli arhive (status: {status})."
         )

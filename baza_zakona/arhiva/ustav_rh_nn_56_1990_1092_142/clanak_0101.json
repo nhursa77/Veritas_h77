@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "101",
+    "naslov": null,
+    "tekst": ". Predsjednik Republike donosi uredbe sa zakonskom snagnm i poduzima izvanredne mjere u slučaju ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, ili kad su tijela državne vlasti onemogućena da redovito obavljaju ustavne dužnosti. Dok se predsjednik Republike koristi tim ovlastima, Zastupnički dom ne može biti raspušten. Predsjednik Republkke podnijet će uredbe sa zakonskom snagom na potvrdu Zastupničkomu domu Sabora Republike Hrvatske čim se Sabor bude mogao sastati.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E67E89421D3A19367F6C52A9684600C3A23E3003BB87909E53D8AEB77738B3DD",
+    "sha256_datoteke": "60AF009BF987336A25F50E5CC18A5973CA8BBA7CADA0FD0FC8C077FB4A58F369",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "141",
+    "naslov": null,
+    "tekst": ". Ovaj se Ustav primjenjuje od dana kad ga proglasi Sabor Republike Hrvatske, ako za primjenu pojedinih njegovih odredaba ustavnim zakonom za njegovu provedbu nije drugačije određeno: lzbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9D474BDBB4D95D8A4C343E5F96A83175D2600F6788F3D73DFB65A539B0AD7703",
+    "sha256_datoteke": "3E5C176F2E9611771EFA6495410C7ECDC7D3320E397668C63802B2D055101258",
+    "napomena": null
+  }
+}

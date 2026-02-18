@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "73",
+    "naslov": null,
+    "tekst": ". Izbori se za zastupnike u domove Sabora Republike Hrvatske održavaju najkasnije 60 dana nakon isteka mandata ili raspuštanja domova Sabora. Prvo zasjedanje domova Sabora Republike Hrvatske održava se najkasnije 20 dana nakon provedenih izbora.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "951CCBABBEB150139141DBE5BA19C7C6B1633455F1488FBE79F95670F194FBA4",
+    "sha256_datoteke": "ED8B1CCE0BF4C9B43757191BF3E93A1AC0DE6B66960D98C84EEFB7404A3945BE",
+    "napomena": null
+  }
+}

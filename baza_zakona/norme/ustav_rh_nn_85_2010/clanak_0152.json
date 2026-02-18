@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "152",
+    "naslov": null,
+    "tekst": ". Promjena Ustava stupa na snagu danom proglašenja, 16. lipnja 2010. godine, osim članka 9. stavka 2. u dijelu koji se odnosi na izvršenje odluka o predaji donesenih sukladno pravnoj stečevini Europske unije, članka 133. stavka 4. i članaka 144., 145. i 146. Ustava Republike Hrvatske koji stupaju na snagu danom pristupanja Republike Hrvatske Europskoj uniji. Pročišćeni tekst, NN 85/2010-2422 Više Dio NN: Službeni Vrsta dokumenta: Pročišćeni tekst Izdanje: NN 85/2010 Broj dokumenta u izdanju: 2422 Donositelj: Odbor za Ustav, Poslovnik i politički sustav Hrvatskoga sabora Datum tiskanog izdanja: 9.7.2010. ELI: /eli/sluzbeni/2010/85/2422 Ustav Republike Hrvatske NN 85/10, 5/14 Uredništvo knjiga i časopisa Narodnih novina d.d. svibanj 2019. USTAVNO UREĐENJE EUROPSKE HRVATSKE, II. izmijenjeno i dopunjeno izdanje Branko Smerdel srpanj 2020. Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 85/2010",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2EE2EF9162ABBF3EFEB659BB1EB4DC9EDA9D6C6AFDB3F461EBF7010AD1E26589",
+    "sha256_datoteke": "C18582ABC45DC5861A93C6450CB74A1393C78F0DBB1584392AB14930D7831382",
+    "napomena": null
+  }
+}
