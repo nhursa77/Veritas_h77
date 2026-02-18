@@ -47,7 +47,8 @@ Ulazi (činjenice + dokazi)
 5) Postupak je “korak = JSON objekt” i ne izvršava se bez gate uvjeta.
 6) Vanjski izlaz vrijedi tek nakon potpisa nositelja.
 7) Primarni izvor normi: Narodne novine (dokazni i operativni tekst).
-  zakon.hr je opcionalni backup/kontrolni izvor.
+  zakon.hr je kontrolni izvor za validaciju i detekciju rupa/anomalija;
+  nikad ne zamjenjuje dokazni izvor NN.
 8) Ne ide se na skaliranje i UI prije nego što MVP end-to-end radi na jednom
    stvarnom predmetu.
 
@@ -94,6 +95,7 @@ ULAZ:
 IZLAZ:
 - `izvori/dokazno/narodne_novine/<akt_slug>/izvor_nn.<ext>`
 - `izvori/dokazno/narodne_novine/<akt_slug>/meta.json`
+- opcionalno kontrolno: `izvori/kontrolno/zakon_hr/<akt_slug>/` (txt + meta)
 - hash (`sha256_datoteke`) i datum pristupa (`DD.MM.YYYY.`)
 PROVJERA:
 - provjera da datoteka postoji i da je hash zapisan u `meta.json`
@@ -110,6 +112,10 @@ IZLAZ:
 - strukturirani JSON članci (bez izmišljanja teksta)
 PROVJERA:
 - broj članaka i osnovna struktura su konzistentni s izvorom
+- parser odvaja `Članak <broj> <RIMSKI>.` na broj članka + oznaku glave
+- rimska oznaka glave se ne smije interpretirati kao dio broja članka
+- za `ustav_rh` vrijedi specifična korekcija anomalije `Članak 1 I.` -> čl. 11
+   (uz položaj `10, 1(I), 12` i sadržajni keyword-check)
 GATE:
 - bez strukturiranog izlaza iz NN nema normiranja
 - kontrola izvora mora biti `OK` prije pokretanja parsera
@@ -128,8 +134,11 @@ IZLAZ:
 PROVJERA:
 - ručno: uzmi 3 članka i citiraj ih čl./st./t. iz JSON-a
 - provjeri da `stanje_na_dan` postoji i da je format `DD.MM.YYYY.`
+- sanity-check OUT vs IN:
+  `len(out) < 50` i `len(in) > 200` mora imati `BAD_COUNT = 0`
 GATE:
 - bez konzistentne NORMA baze ne prelazi se na postupke
+- sanity-check OUT vs IN je obavezan prije prelaska na sljedeću fazu
 
 Status pilot (18.02.2026.):
 - pilot za `ustav_rh` je pokrenut iz `struktura_nn.json`

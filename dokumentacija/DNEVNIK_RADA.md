@@ -36,36 +36,36 @@ Repozitorij čist: da (`git status --short` bez izlaza).
 
 ---
 
-## Datum: 17.02.2026
+## Datum: 17.02.2026 (rječnik i tehnički okvir)
 
-### Sažetak
+### Sažetak (rječnik i tehnički okvir)
 Dopunjena je metodologija s rječnikom i gate pravilima statusa izlaza.
 Dodan je zaseban rječnik pojmova, tehnički okvir i mapa dokumentacije.
 
-### Commitovi (najstariji -> najnoviji)
+### Commitovi (najstariji -> najnoviji) (rječnik i tehnički okvir)
 - 1409d45 -> docs: metodologija (rječnik + gate pravila)
 - 939d29b -> docs: rječnik pojmova Veritas H.77
 - 6d724c2 -> docs: tehnički okvir Veritas H.77
 - 978caee -> docs: mapa dokumentacije Veritas H.77
 
-### Napomena
+### Napomena (rječnik i tehnički okvir)
 Za datum 17.02.2026. u povijesti repozitorija postoje ova četiri commita.
 
 ---
 
-## Datum: 17.02.2026.
+## Datum: 17.02.2026 (NN ingest i parsiranje)
 
-### Sažetak
+### Sažetak (NN ingest i parsiranje)
 Uveden je primarni ingest iz Narodnih novina za sve akte.
 Uvedena je kontrola izvora sa statusima OK/NEDOSTAJE/HASH_NEDOSTAJE/
 NEVALJAN_IZVOR.
 Uvedeno je parsiranje NN HTML izvora u strukturu (`struktura_nn.json`) uz
 izvještaj parsiranja.
 
-### Napomena
+### Napomena (NN ingest i parsiranje)
 zakon.hr je opcionalna kontrola i usporedba, ali nije dokazni temelj.
 
-### Commitovi (najstariji -> najnoviji)
+### Commitovi (najstariji -> najnoviji) (NN ingest i parsiranje)
 - 1409d45 -> docs: metodologija (rječnik + gate pravila)
 - 939d29b -> docs: rječnik pojmova Veritas H.77
 - 6d724c2 -> docs: tehnički okvir Veritas H.77
@@ -85,15 +85,15 @@ zakon.hr je opcionalna kontrola i usporedba, ali nije dokazni temelj.
 - 7e97759 -> fix: uskladena provjera hash polja u validaciji norme
 - 1ccc527 -> feat: izvještaj rupa teksta (ustav RH) - za dopunu iz NN
 - c3b6d46 -> feat: rupe teksta (ustav RH) - nedostajuci + placeholder +
-	prazno
+ prazno
 - 3a5a0af -> feat: primarni ingest izvor = Narodne novine (opći okvir +
-	kontrola arhive)
+ kontrola arhive)
 - af79517 -> fix: kontrola NN izvora (nevaljan URL + validacija meta)
 - 38d490b -> feat: parsiranje NN (HTML) u strukturu (generički)
 
 ---
 
-## Datum: 18.02.2026.
+## Datum: 18.02.2026
 
 ### Sažetak
 Implementiran je Normiratelj iz NN strukture u NORMA JSON.
@@ -102,3 +102,24 @@ Generirani su članci `clanak_XXXX.json` i `IZVJESTAJ_NORMIRANJA.md`.
 
 ### Napomena
 Ulaz je `struktura_nn.json` uz `meta.json` iz NN arhive kao dokazni izvor.
+
+### Sanity-check normi (OUT vs IN)
+Pokrenut je deterministički sanity-check nakon normiranja za `ustav_rh`.
+Kriterij je bio: `len(out) < 50` i `len(in) > 200`.
+Rezultat: `BAD_COUNT = 0`.
+
+### Parser — rimska oznaka glave
+Parser odvaja rimsku oznaku glave iz retka `Članak <broj> <RIMSKI>.`.
+Rimska oznaka se sprema odvojeno (`glava_rimski`) i ne ulazi u broj članka.
+Time se sprječava lažni missing članak 11.
+
+### Parser — korekcija anomalije `Članak 1 I.` (ustav_rh)
+Dodana je specifična korekcija samo za `ustav_rh`:
+ako je redoslijed `10, 1(I), 12` i tekst sadrži ključne oznake
+grba/zastave/himne,
+`1(I)` se mapira na članak `11` uz oznaku `ANOMALIJA_C1I_TO_C11`.
+
+### Kontrolni izvor `zakon.hr` (ustav_rh)
+Dodan je kontrolni izvor u `izvori/kontrolno/zakon_hr/ustav_rh/`:
+`ustav_rh_kontrolni.txt` (UTF-8, plain text) i `meta.json` s URL-om i vremenom
+preuzimanja.
