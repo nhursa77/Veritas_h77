@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
 import textwrap
 import unicodedata
@@ -564,6 +565,9 @@ def build_report(
     selected_source_slug: str,
     selected_source_tip_teksta: str,
     selected_source_expected_count: int | None,
+    selected_source_expected_count_source: str,
+    expected_count_override_raw: str | None,
+    expected_count_source_hint: str | None,
     selected_nn_count: int,
     source_selection_mismatch: bool,
     guardrail_fail: bool,
@@ -592,6 +596,13 @@ def build_report(
         lines.append("- Expected count: NONE")
     else:
         lines.append(f"- Expected count: {selected_source_expected_count}")
+    if expected_count_override_raw is None:
+        lines.append("- EXPECTED_COUNT_OVERRIDE: NONE")
+    else:
+        lines.append(f"- EXPECTED_COUNT_OVERRIDE: {expected_count_override_raw}")
+    lines.append(f"- EXPECTED_COUNT_SOURCE: {selected_source_expected_count_source}")
+    if expected_count_source_hint:
+        lines.append(f"- EXPECTED_COUNT_SOURCE_HINT: {expected_count_source_hint}")
     lines.append(f"- NN_COUNT: {selected_nn_count}")
     lines.append(f"- SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     lines.append(f"- GUARDRAIL_FAIL: {guardrail_fail}")
@@ -740,7 +751,23 @@ def main() -> int:
     selected_source_slug = str(selected_source["slug"])
     selected_source_tip_teksta = str(selected_source["tip_teksta"])
     selected_source_expected_count_raw = int(cast(int, selected_source["ocekivani_broj_clanaka"]))
-    selected_source_expected_count = selected_source_expected_count_raw if selected_source_expected_count_raw > 0 else None
+    selected_source_expected_count_meta = selected_source_expected_count_raw if selected_source_expected_count_raw > 0 else None
+    selected_source_expected_count = selected_source_expected_count_meta
+    selected_source_expected_count_source = "meta"
+    expected_count_source_hint: str | None = None
+    expected_count_override_raw_for_report: str | None = None
+
+    expected_override_raw = os.environ.get("VERITAS_USTAV_RH_EXPECTED_COUNT_OVERRIDE")
+    if expected_override_raw is not None and expected_override_raw.strip():
+        expected_count_override_raw_for_report = expected_override_raw.strip()
+        override_value = _safe_int(expected_count_override_raw_for_report, default=0)
+        if override_value > 0:
+            selected_source_expected_count = override_value
+            selected_source_expected_count_source = "override"
+        else:
+            selected_source_expected_count = selected_source_expected_count_meta
+            selected_source_expected_count_source = "meta"
+            expected_count_source_hint = f"override_invalid({expected_count_override_raw_for_report})"
 
     for required in (nn_json_path, KONTROLNO_TXT, nn_html_path):
         if not required.exists():
@@ -907,6 +934,9 @@ def main() -> int:
         selected_source_slug=selected_source_slug,
         selected_source_tip_teksta=selected_source_tip_teksta,
         selected_source_expected_count=selected_source_expected_count,
+        selected_source_expected_count_source=selected_source_expected_count_source,
+        expected_count_override_raw=expected_count_override_raw_for_report,
+        expected_count_source_hint=expected_count_source_hint,
         selected_nn_count=len(nn_nums),
         source_selection_mismatch=source_selection_mismatch,
         guardrail_fail=guardrail_fail,
@@ -950,6 +980,10 @@ def main() -> int:
         print("SELECTED_NN_EXPECTED_COUNT: NONE")
     else:
         print(f"SELECTED_NN_EXPECTED_COUNT: {selected_source_expected_count}")
+    if expected_count_source_hint:
+        print(f"SELECTED_NN_EXPECTED_COUNT_SOURCE: {selected_source_expected_count_source} ({expected_count_source_hint})")
+    else:
+        print(f"SELECTED_NN_EXPECTED_COUNT_SOURCE: {selected_source_expected_count_source}")
     print(f"SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     print(f"GUARDRAIL_FAIL: {guardrail_fail}")
     if guardrail_fail and guardrail_reason:
