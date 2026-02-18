@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "130",
+    "naslov": null,
+    "tekst": "U obavljanju lokalnih poslova tijela jedinica lokalne samouprave samostalna su u skladu sa zakonom, i statutom i podliježu samo nadzoru zakonitosti ovlaštenih republičkih tijela. Za obavljanje poslova državne uprave mogu se u općini i kotaru ili gradu zakonom osnivati tijela lokalne uprave. Ustrojstvo i djelokrug tih tijela uređuje se zakonom. Određeni se poslovi državne uprave mogu zakonom prenijeti u djelokrug tijela jedinica lokalne samouprave. U obavljanju tih poslova tijela jedinica lokalne samouprave podređena su, u skladu sa zakonom, tijelima državne uprave.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B5F098986C9A470848DD26F6A6B935F4311C68C58932A2895BAE7454421C5C21",
+    "sha256_datoteke": "4678420DC88A97CBC42C23DB338701D749746E7E79AA3190D779F3FCA86D98E8",
+    "napomena": null
+  }
+}

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "49",
     "naslov": null,
-    "tekst": "Država osigurava svim poduzetnicima jednak pravni položaj na tržištu. Zabranjena je zlouporaba monopolskog položaja određenog zakonom. Država potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+    "tekst": "Poduzetnička i tržišna sloboda temelj su gospodarskog ustroja Republike. Država osigurava svim poduzetnicima jednak pravni položa,j na tržištu. Zabranjeni su monopoli. Republika potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Država osigurava svim poduzetnicima jednak pravni položaj na tržištu. Zabranjena je zlouporaba monopolskog položaja određenog zakonom. Država potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "19A077C6558459EB7FB4C32610E28826C7F59C2C50DC5D7A40CD3252F9FF6CD0",
-    "sha256_datoteke": "534DC67F43BDC8451BD30C8441C1CBB0F77AE8D103988AD165B7F16F8A246B96",
+    "sha256_teksta": "6C787BFA9E69133ADA55AB39D31939E9E20E263DDFF0855F2C3811D226F57184",
+    "sha256_datoteke": "2D7EA73D1BE863EF725B084E84379964C054ED3732D6257F24E679AF510888A3",
     "napomena": null
   }
 }

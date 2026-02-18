@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "10",
     "naslov": null,
-    "tekst": "Dijelovima hrvatskog naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
+    "tekst": "Republika Hrvatska štiti prava i interese svojih državljana koji žive ili borave u inozemstvu i promiče njihove veze s domovinom. Dijelovima hrvatskoga naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Dijelovima hrvatskog naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "EE80875092284BF6B4BB45FD70587519C294471F15C71FF7BA9AC1B81AC67CBB",
-    "sha256_datoteke": "2633E00002B7C8317913E8D784D6865AED5CC0980E2C16F9C41799D4E71EF034",
+    "sha256_teksta": "1F8EB80C2B3A7C268140E892448FE73F1F0C114C7BA4A29700553C21F4B79CAB",
+    "sha256_datoteke": "AA6A998CAD8A728240A7D64A811893A43AC5A088F33810FD5D50E32450652AE4",
     "napomena": null
   }
 }

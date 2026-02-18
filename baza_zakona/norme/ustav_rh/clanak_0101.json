@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "101",
     "naslov": null,
-    "tekst": "U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države, ili kad su tijela državne vlasti onemogućena da redovito obavljaju svoje ustavne dužnosti, Predsjednik Republike može, na prijedlog predsjednika Vlade i uz njegov supotpis, donositi uredbe sa zakonskom snagom. Predsjednik Republike podnijet će uredbe sa zakonskom snagom na potvrdu Hrvatskom saboru čim se bude mogao sastati. Ako Predsjednik Republike ne podnese uredbu Hrvatskom saboru na potvrdu u skladu sa stavkom 3. ovoga članka ili Hrvatski sabor istu ne potvrdi, uredba sa zakonskom snagom prestaje važiti. U slučaju iz stavka 1. i 2. ovoga članka Predsjednik Republike ima pravo sazvati sjednicu Vlade i predsjedavati tako sazvanoj sjednici Vlade.",
+    "tekst": "Predsjednik Republike donosi uredbe sa zakonskom snagnm i poduzima izvanredne mjere u slučaju ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, ili kad su tijela državne vlasti onemogućena da redovito obavljaju ustavne dužnosti. Dok se predsjednik Republike koristi tim ovlastima, Zastupnički dom ne može biti raspušten. Predsjednik Republkke podnijet će uredbe sa zakonskom snagom na potvrdu Zastupničkomu domu Sabora Republike Hrvatske čim se Sabor bude mogao sastati.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države, ili kad su tijela državne vlasti onemogućena da redovito obavljaju svoje ustavne dužnosti, Predsjednik Republike može, na prijedlog predsjednika Vlade i uz njegov supotpis, donositi uredbe sa zakonskom snagom. Predsjednik Republike podnijet će uredbe sa zakonskom snagom na potvrdu Hrvatskom saboru čim se bude mogao sastati. Ako Predsjednik Republike ne podnese uredbu Hrvatskom saboru na potvrdu u skladu sa stavkom 3. ovoga članka ili Hrvatski sabor istu ne potvrdi, uredba sa zakonskom snagom prestaje važiti. U slučaju iz stavka 1. i 2. ovoga članka Predsjednik Republike ima pravo sazvati sjednicu Vlade i predsjedavati tako sazvanoj sjednici Vlade.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A9D606E37FB920E6DBA00D999C4243F7E03FA84C27DEFB29D9CC64B9A0D8D652",
-    "sha256_datoteke": "739F3212DC6B46DCA8531ABBFC6E1E54648542E20DC2681410D2290875CDAF05",
+    "sha256_teksta": "05F0B4248657479B1A85E51457C65E8FD1E4BCC694F065F19CFAA368A67B6100",
+    "sha256_datoteke": "94893C9DA448DE7C39E10B6666270029484A97DA08F43F808F309863F0EA9539",
     "napomena": null
   }
 }

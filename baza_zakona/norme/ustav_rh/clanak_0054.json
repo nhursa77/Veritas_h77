@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "54",
     "naslov": null,
-    "tekst": "Državnim uredom za reviziju upravlja glavni državni revizor koji o njegovu radu izvješćuje Hrvatski sabor. Osnivanje, ustrojstvo, nadležnost i način rada Državnog ureda za reviziju uređuju se zakonom.",
+    "tekst": "Svatko ima pravo na rad i slobodu rada. Svatko slobodno bira poziv i zaposlenje i svakomu je pod jednakim uvjetima dostupno svako radno mjesto i dužnost.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Državnim uredom za reviziju upravlja glavni državni revizor koji o njegovu radu izvješćuje Hrvatski sabor. Osnivanje, ustrojstvo, nadležnost i način rada Državnog ureda za reviziju uređuju se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5ED52574553F204B53DBA32B43DF57B9A7371F6A6837FA3111FF1EFFB1A76BA4",
-    "sha256_datoteke": "DB006E18FDB86566C8BC812D4D685E3ABC34404914109C970C296E594B356DAB",
+    "sha256_teksta": "75789FEF46E630F71651AAA516606348236D02D34575879338259938ECE96E03",
+    "sha256_datoteke": "31722FE5A92D3C1935D32FBEAB7130F8DC5B3954FC14C15E530F6A4360988A35",
     "napomena": null
   }
 }

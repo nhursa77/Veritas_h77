@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "97",
     "naslov": null,
-    "tekst": "U slučaju duže spriječenosti uslijed bolesti ili nesposobnosti, a posebno ako Predsjednik Republike nije u stanju odlučiti o povjeravanju dužnosti privremenom zamjeniku, predsjednik Hrvatskoga sabora preuzima dužnost privremenog predsjednika Republike na temelju odluke Ustavnog suda. Ustavni sud o tome odlučuje na prijedlog Vlade. U slučaju smrti, ostavke koja se podnosi predsjedniku Ustavnog suda Republike Hrvatske i o kojoj se obavještava predsjednik Hrvatskoga sabora, ili kada Ustavni sud utvrdi razloge za prestanak mandata Predsjednika Republike, dužnost privremenog predsjednika Republike po sili Ustava preuzima predsjednik Hrvatskoga sabora. Kada predsjednik Hrvatskoga sabora kao privremeni predsjednik Republike donosi akt o proglašenju zakona, akt supotpisuje predsjednik Vlade Republike Hrvatske. Izbori za novog Predsjednika Republike moraju se održati u roku od 60 dana od dana preuzimanja dužnosti privremenog predsjednika Republike sukladno stavku 3. ovoga članka.",
+    "tekst": "U slučaju smrti, ostavke ili trajne spriječenosti predsjednika Republike da obavlja svoju dužnost, nastup koje utvrđuje Ustavni sud Republike Hrvatske na prijedlog Vlade Republike Hrvatske, dužnost predsjednika Republike privremeno preuzima predsjednik Sabora Republike H rvatske. Izbor novog predsjednika Republike mora se obaviti u roku 60 dana od dana kada je bivši predsjednik prestao obavljati dužnost.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "U slučaju duže spriječenosti uslijed bolesti ili nesposobnosti, a posebno ako Predsjednik Republike nije u stanju odlučiti o povjeravanju dužnosti privremenom zamjeniku, predsjednik Hrvatskoga sabora preuzima dužnost privremenog predsjednika Republike na temelju odluke Ustavnog suda. Ustavni sud o tome odlučuje na prijedlog Vlade. U slučaju smrti, ostavke koja se podnosi predsjedniku Ustavnog suda Republike Hrvatske i o kojoj se obavještava predsjednik Hrvatskoga sabora, ili kada Ustavni sud utvrdi razloge za prestanak mandata Predsjednika Republike, dužnost privremenog predsjednika Republike po sili Ustava preuzima predsjednik Hrvatskoga sabora. Kada predsjednik Hrvatskoga sabora kao privremeni predsjednik Republike donosi akt o proglašenju zakona, akt supotpisuje predsjednik Vlade Republike Hrvatske. Izbori za novog Predsjednika Republike moraju se održati u roku od 60 dana od dana preuzimanja dužnosti privremenog predsjednika Republike sukladno stavku 3. ovoga članka.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "55618758D8B44ECA18E426ACCED7CE52092CD822817618FF00A266640B839E5D",
-    "sha256_datoteke": "EB0D230AC5234AC6EA2C84C763BA399068F779A8AC5CBCA4E41161042B3603F5",
+    "sha256_teksta": "F802139D8BEDE0DEF67C3F63868E85C872EEC84D11F236D932A159A9422E41CE",
+    "sha256_datoteke": "691AE9493E4B3238CA15EF605E3FB59A121FAAD8CBB61EA8B42A9522463ED5E8",
     "napomena": null
   }
 }

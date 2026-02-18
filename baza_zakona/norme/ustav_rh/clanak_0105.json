@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "105",
     "naslov": null,
-    "tekst": "Postupak za utvrđivanje posebne odgovornosti Predsjednika Republike može pokrenuti Hrvatski sabor dvotrećinskom većinom svih zastupnika. O odgovornosti Predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ustavni sud mora donijeti odluku o odgovornosti Predsjednika Republike Hrvatske za povredu Ustava u roku od 30 dana od dana zaprimanja prijedloga kojim se pokreće odgovornost Predsjednika Republike za povredu Ustava. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, Predsjedniku Republike prestaje dužnost po sili Ustava. Članak 105.a Predsjednik Republike ima imunitet nepovredivosti. Predsjednik Republike ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez prethodnog odobrenja Ustavnog suda. Predsjednik Republike može biti pritvoren bez odobrenja Ustavnog suda samo ako je zatečen da čini kazneno djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. U takvom slučaju državno tijelo koje je Predsjednika Republike pritvorilo, dužno je o tome odmah obavijestiti predsjednika Ustavnog suda.",
+    "tekst": "Predsjednik Republike odgovoran je za povredu Ustava koju počini u obavljanju svojih dužnosti. Postupak za utvrđivanje posebne odgovornosti predsjednika Republike može pokrenuti Zastupnički dom dvotrećinskom većinom svih zastupnika. O odgovornosti predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, predsjedniku Republike prestaje dužnost po sili Ustava.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Postupak za utvrđivanje posebne odgovornosti Predsjednika Republike može pokrenuti Hrvatski sabor dvotrećinskom većinom svih zastupnika. O odgovornosti Predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ustavni sud mora donijeti odluku o odgovornosti Predsjednika Republike Hrvatske za povredu Ustava u roku od 30 dana od dana zaprimanja prijedloga kojim se pokreće odgovornost Predsjednika Republike za povredu Ustava. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, Predsjedniku Republike prestaje dužnost po sili Ustava. Članak 105.a Predsjednik Republike ima imunitet nepovredivosti. Predsjednik Republike ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez prethodnog odobrenja Ustavnog suda. Predsjednik Republike može biti pritvoren bez odobrenja Ustavnog suda samo ako je zatečen da čini kazneno djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. U takvom slučaju državno tijelo koje je Predsjednika Republike pritvorilo, dužno je o tome odmah obavijestiti predsjednika Ustavnog suda.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CF209FE43680E812E1B0ECDF3811703990292D72EF9EADE271B896C9384AFFEE",
-    "sha256_datoteke": "E58A49B0CF1051C95D061FA4A2FD4BA7E8F6576264B7A609F59E1A17AD5E7BC7",
+    "sha256_teksta": "B8BF06A83E0B8AA2E5A92B552DF8E1EECA843A6F298A04AC74152AAA507A7C28",
+    "sha256_datoteke": "2CBEE3DBB623C18F9F8CB2DDC521E076B942E3F5A8C8183A51B9A782E7061084",
     "napomena": null
   }
 }

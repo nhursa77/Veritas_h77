@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "13",
     "naslov": null,
-    "tekst": "Zakonom se uređuje položaj, djelokrug i ustroj glavnog grada Zagreba. III. ZAŠTITA LJUDSKIH PRAVA I TEMELJNIH SLOBODA 1. ZAJEDNIČKE ODREDBE",
+    "tekst": "Glavni je grad Republike Hrvatske Zagreb. Grad Zagreb je posebna i jedinstvena teritorijalna i upravna cjelina, kojoj se ustrojstvo uređuje zakonom. III. TEMELJNE SLOBODE I PRAVA ČOVJEKA I GRAĐANINA 1. Zajedničke odredbe",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zakonom se uređuje položaj, djelokrug i ustroj glavnog grada Zagreba. III. ZAŠTITA LJUDSKIH PRAVA I TEMELJNIH SLOBODA 1. ZAJEDNIČKE ODREDBE",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C70028AEE057A74E789876401FCF4AD1023160A503A2A515652C5E6DA2CBF921",
-    "sha256_datoteke": "3BEBC9B509AEB0229B607CB88A46A14594B826FBF029F91B9980D19D9173279B",
+    "sha256_teksta": "077E8897C45C2B8EABC53D00987EDF8062ED808C0B1E8F0830C1D83F4E95DFFA",
+    "sha256_datoteke": "764270C172BC943841A8D2931C0C3AB0C6737EE5FE979924C6EA75DE417129A4",
     "napomena": null
   }
 }

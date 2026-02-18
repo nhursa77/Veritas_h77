@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "110",
     "naslov": null,
-    "tekst": "– predlaže zakone i druge akte Hrvatskom saboru, – predlaže državni proračun i završni račun, – provodi zakone i druge odluke Hrvatskoga sabora, – donosi uredbe za izvršenje zakona, – vodi vanjsku i unutarnju politiku, – usmjerava i nadzire rad državne uprave, – brine o gospodarskom razvitku zemlje, – usmjerava djelovanje i razvitak javnih službi, – obavlja druge poslove određene Ustavom i zakonom.",
+    "tekst": "Vlada donosi uredbe u skladu s Ustavom i zakonom, predlaže zakone i državni proračun te provodi zakone i druge propise koje donosi Sabor Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "– predlaže zakone i druge akte Hrvatskom saboru, – predlaže državni proračun i završni račun, – provodi zakone i druge odluke Hrvatskoga sabora, – donosi uredbe za izvršenje zakona, – vodi vanjsku i unutarnju politiku, – usmjerava i nadzire rad državne uprave, – brine o gospodarskom razvitku zemlje, – usmjerava djelovanje i razvitak javnih službi, – obavlja druge poslove određene Ustavom i zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8D2B2C54B880E56E152EAD9B03512B5CB150D47BEA40157BB8DFF99C705C73DF",
-    "sha256_datoteke": "35539EEA6BE90C573B776FCA44C3FEE1E121507DF83139859AE0D75063922596",
+    "sha256_teksta": "5EBD52015D5D070FEDB777B3277EDE1814998DCAB4B3849B6E8C65AA178C0D7B",
+    "sha256_datoteke": "36AE1DFFF9E0095C0A92A031D6C81734D426716F87D6799328434A8A4577C887",
     "napomena": null
   }
 }

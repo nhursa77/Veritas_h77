@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "22",
     "naslov": null,
-    "tekst": "Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud. SUDSKA PRAKSA: Odluka",
+    "tekst": "Čovjekova je sloboda i osobnost nepovrediva. Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud. SUDSKA PRAKSA: Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F8DFBB393AB964A9E1FF2C652A8D7D92A17C259254A920DB95DC267DF46D6883",
-    "sha256_datoteke": "71475EC8B83BCC0BD858FD592A8D434F928F3B1CAB4B3EE0140548C46B60D753",
+    "sha256_teksta": "5090DE004BCDBEE0C097925B5217005F76E33EF9D2A95535C5196D8308B2E7FA",
+    "sha256_datoteke": "28C787A9249EC006E4D91CB95C2ACE599860BED80CBC0516B035CF7D3D512B15",
     "napomena": null
   }
 }

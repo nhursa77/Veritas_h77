@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "90",
     "naslov": null,
-    "tekst": "Propisi tijela koja imaju javne ovlasti prije stupanja na snagu moraju biti objavljeni na dostupan način u skladu sa zakonom. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Zakoni i drugi propisi državnih tijela i tijela koja imaju javne ovlasti ne mogu imati povratno djelovanje. Iz posebno opravdanih razloga samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+    "tekst": "Prije nego što stupe na snagu, zakoni se objavljuju u \"Narodnim novinama\", službenome listu Republike. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Samo pojedine odredbe zakona mogu imati povratno djelovanje.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Propisi tijela koja imaju javne ovlasti prije stupanja na snagu moraju biti objavljeni na dostupan način u skladu sa zakonom. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Zakoni i drugi propisi državnih tijela i tijela koja imaju javne ovlasti ne mogu imati povratno djelovanje. Iz posebno opravdanih razloga samo pojedine odredbe zakona mogu imati povratno djelovanje.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "810D4661265A4DD77CC7DC5B389B7972CA3464CF1AD73A7B7AEB56C93F08259C",
-    "sha256_datoteke": "546E4C5420FCD8FF22F6A4AE5D026E247F06ED2F6F1D942A636F7A30EE00831D",
+    "sha256_teksta": "DAB484DC3D056D0666EC284856F5300320E3DDD84D4213B5172850697DE587B6",
+    "sha256_datoteke": "3F5805D6A30B923FABDFFC4CCD5FA54C21F4A26DD501E5D6479595199ECF15E1",
     "napomena": null
   }
 }

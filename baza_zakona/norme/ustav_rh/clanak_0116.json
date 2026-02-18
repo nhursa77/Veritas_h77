@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "116",
     "naslov": null,
-    "tekst": "Predsjednika Vrhovnog suda Republike Hrvatske, uz prethodno mišljenje Opće sjednice Vrhovnog suda Republike Hrvatske i nadležnog odbora Hrvatskoga sabora, na prijedlog Predsjednika Republike bira i razrješuje Hrvatski sabor. Predsjednik Vrhovnog suda Republike Hrvatske bira se na četiri godine. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova te postupak pred sudovima uređuje se zakonom.",
+    "tekst": "Vrhovni sud Republike Hrvatske, kao najviši sud, osigurava jedinstvenu primjenu zakona i ravnopravnost gradana. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova i postupak pred sudovima uređuju se zakonom. Ustanovljavanje, djelokrug i ustrojstvo državnog odvjetništva uređuju se zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednika Vrhovnog suda Republike Hrvatske, uz prethodno mišljenje Opće sjednice Vrhovnog suda Republike Hrvatske i nadležnog odbora Hrvatskoga sabora, na prijedlog Predsjednika Republike bira i razrješuje Hrvatski sabor. Predsjednik Vrhovnog suda Republike Hrvatske bira se na četiri godine. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova te postupak pred sudovima uređuje se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "610F478B076A7CC5349CA6DEA395EFECA5CBE109B447ECDE8E7BF2DAC941BC60",
-    "sha256_datoteke": "2EA62F18C975D658774B52BC390A6338B34BB125D13CBFE67D748E943B678E53",
+    "sha256_teksta": "D6D3CE8666A4D70FEA69C652A8372F356DE40794BE29971E68307CB3F14EB473",
+    "sha256_datoteke": "42A17F1843CAC028868D868C45900A7C3AD7FFA4F9316D1C850E8222F9F75687",
     "napomena": null
   }
 }

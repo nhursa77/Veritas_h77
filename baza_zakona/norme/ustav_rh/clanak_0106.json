@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "106",
     "naslov": null,
-    "tekst": "Savjetodavni, stručni i drugi poslovi obavljaju se u Uredu Predsjednika Republike. Ustrojstvo i djelokrug Ureda uređuje Predsjednik Republike svojom odlukom. Ured Predsjednika Republike i stručne službe Vlade Republike Hrvatske surađuju u obavljanju poslova od zajedničkog interesa. Sredstva za rad Ureda Predsjednika Republike osiguravaju se u okviru državnog proračuna Republike Hrvatske. 3. VLADA REPUBLIKE HRVATSKE",
+    "tekst": "Predsjedniku Republike u obavljanju njegovih ovlasti pomažu Predsjedničko vijeće i druga savjetodavna i pomoćna tijela kojima članove imenuje i razrješuje predsjednik Republike. 3. Vlada Republike Hrvatske",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Savjetodavni, stručni i drugi poslovi obavljaju se u Uredu Predsjednika Republike. Ustrojstvo i djelokrug Ureda uređuje Predsjednik Republike svojom odlukom. Ured Predsjednika Republike i stručne službe Vlade Republike Hrvatske surađuju u obavljanju poslova od zajedničkog interesa. Sredstva za rad Ureda Predsjednika Republike osiguravaju se u okviru državnog proračuna Republike Hrvatske. 3. VLADA REPUBLIKE HRVATSKE",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5BA72D64B8DEB325851FD395B4C2816D8C5821BF20F02CE9A75264E8AB7AEF50",
-    "sha256_datoteke": "41EC8A743497B1DF0FF64EE3F2FA2CA3AA681DC73B1649B59EFB892FEA98CABD",
+    "sha256_teksta": "4137BCF1F4697455F84E2F6593E8D980AAABD4F82C75899F1BFB9B7204494A02",
+    "sha256_datoteke": "468D1E1E504DBB6CE14070583B828102C6C348E0D2F61187D3D7114E77BB3EB0",
     "napomena": null
   }
 }

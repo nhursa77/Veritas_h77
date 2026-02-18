@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "63",
+    "naslov": null,
+    "tekst": "Roditelji su dužni odgajati, uzdržavati i školovati djecu te imaju pravo i slobodu da samostalno odlučuju o odgoju djece. Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Republika osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "65159530C361B1A41A54F60C746689D90DC463F357D6D519A05F994BEA21A85C",
+    "sha256_datoteke": "5E203073C29F9F3C32AF018DD49A789EF822A3DA91BAC3F3FE43D7614EFF4DA9",
+    "napomena": null
+  }
+}

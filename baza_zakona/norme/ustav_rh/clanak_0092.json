@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "92",
     "naslov": null,
-    "tekst": "Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom. Predsjednika istražnog povjerenstva bira većina zastupnika iz reda oporbenih zastupnika.",
+    "tekst": "Domovi Sabora Republike Hrvatske mogu osnivati istražna povjerenstva za svako pitanje od javnog interesa. Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom. Predsjednika istražnog povjerenstva bira većina zastupnika iz reda oporbenih zastupnika.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B561674191CC454E2FDB3D25C761C06F2AA914BEA09AB75CD0B2E9727546AB85",
-    "sha256_datoteke": "9DACA381DD50A1BF4BE2C498FE18C7D9FEB0A889A7E0246D044CCE878BF525CB",
+    "sha256_teksta": "73E7BBB722B098E4F230AAFB5B2F27CD4161D3F80D4B49DF4B4E774C5BD70180",
+    "sha256_datoteke": "9E64EBC48A958ABEB3F44F7E1FAC0AD42180C938D84AE2EAEB22D9CCD1E9F7A7",
     "napomena": null
   }
 }

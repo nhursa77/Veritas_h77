@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "137",
     "naslov": null,
-    "tekst": "Nacrt promjene Ustava Hrvatski sabor utvrđuje većinom glasova svih zastupnika.",
+    "tekst": "Zastupnički dom uz prethodno mišljenje Županijskog doma odlučuje da li će pristupiti promjeni Ustava većinom glasova svih zastupnika. Nacrt promjene Ustava Zastupnički dom utvrđuje većinom glasova svih zastupnika.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Nacrt promjene Ustava Hrvatski sabor utvrđuje većinom glasova svih zastupnika.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C2EE447FB98A0408AFCBF86D0204F88E07A4579B11EBD24F54832A0A3EDA942F",
-    "sha256_datoteke": "C475CE0E73CE94786EB322EA185DF9162CD2EECB49F9275E03EC0F7627B72C46",
+    "sha256_teksta": "C9472A6B2728B584A029FCD0E833BEFA33A8ED3DC858317B32CB92E96262765B",
+    "sha256_datoteke": "2BA7A91E6B4D812A5C1A6636CF4FA5DB56E55E66A48A13A73CD42F983B330D3C",
     "napomena": null
   }
 }

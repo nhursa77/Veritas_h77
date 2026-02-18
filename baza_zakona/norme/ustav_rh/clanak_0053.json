@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "53",
     "naslov": null,
-    "tekst": "Hrvatska narodna banka je samostalna i neovisna i o svom radu izvješćuje Hrvatski sabor. Hrvatskom narodnom bankom upravlja i njezinim poslovanjem rukovodi guverner Hrvatske narodne banke. Ustrojstvo, cilj, zadaci i nadležnost Hrvatske narodne banke uređuju se zakonom.",
+    "tekst": "Narodna banka Hrvatske je centralna banka Republike Hrvatske. Narodna banka Hrvatske odgovorna je, u okviru svojih prava i dužnosti, za stabilnost valute i za opću likvidnost plaćanja u zemlji i prema inozemstvu. Narodna banka Hrvatske u svom radu je samostalna i odgovorna Saboru Republike Hrvatske. Dobit ostvarena poslovanjem Narodne banke Hrvatske pripada državnom proračunu. Položaj Narodne banke Hrvatske uređuje se zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Hrvatska narodna banka je samostalna i neovisna i o svom radu izvješćuje Hrvatski sabor. Hrvatskom narodnom bankom upravlja i njezinim poslovanjem rukovodi guverner Hrvatske narodne banke. Ustrojstvo, cilj, zadaci i nadležnost Hrvatske narodne banke uređuju se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3C601053D1FE983B30E946D267EBCCB09807144422091EF120B32A4C99FB5282",
-    "sha256_datoteke": "EC61BEDEAF0834CE8D800F9811E9CDA18D0893AE2D52935F1B85D9A29E4A62AF",
+    "sha256_teksta": "1CF30DE5D0216BBA88F62BD48C3613344017C32D28B6BC8CD2B49E976A05D6B7",
+    "sha256_datoteke": "5B1B9D1F1D23417AAA9FF55191D3F0ECD02B9015BF4DDD7F68AD3CA18236D8EC",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "91",
     "naslov": null,
-    "tekst": "Hrvatski sabor donosi državni proračun većinom glasova svih zastupnika. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
+    "tekst": "Državni se prihodi i rashodi utvrđuju u državnom proračunu. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Hrvatski sabor donosi državni proračun većinom glasova svih zastupnika. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "07249ADD5DD3B0DBD8BDFEB37383566B66ED21566B593A767EECFC5374546416",
-    "sha256_datoteke": "DC803A947FFB9643D7029126331FD388DF9DB1AB7263C217B806796419B2BD28",
+    "sha256_teksta": "D8C11FC7277F6BB11C507538A3ACE3E7B11136324EFB69380BF22C7559946120",
+    "sha256_datoteke": "6F31FEDCCC93A06C17798A9F0A2ADB609F243B5C87D901CDF56182898DFFBC80",
     "napomena": null
   }
 }

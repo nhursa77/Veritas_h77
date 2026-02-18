@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "14",
     "naslov": null,
-    "tekst": "Svi su pred zakonom jednaki. SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+    "tekst": "Građani Republike Hrvatske imaju sva prava i slobode, neovisno o njihovoj rasi, boji kože, spolu, jeziku, vjeri, političkom ili drugom uvjerenju, nacionalnom ili socijalnom podrijetlu, imovini, rođenju, naobrazbi, društvenom položaju ili drugim osobinama. Svi su pred zakonom jednaki.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Svi su pred zakonom jednaki. SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6D168CBE2692A0DA3BD1853BE07573DFD9A61638839B01F4BA6323303277713F",
-    "sha256_datoteke": "FEF20B66327C6D754394A1F17B36581B974B49F78629B16AD660382E9CC7408A",
+    "sha256_teksta": "546B5D5A9BD12555FC784D65E183BE515AC97A244820B18711DC8D101971AAB6",
+    "sha256_datoteke": "8D7EFF20D9FDEBAAB24014F370DDF37C806C0F1DE44BB400A620FE1D4D948EF7",
     "napomena": null
   }
 }

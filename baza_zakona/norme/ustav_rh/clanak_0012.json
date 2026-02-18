@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "12",
     "naslov": null,
-    "tekst": "Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Hrvatskom saboru.",
+    "tekst": "U Repulici Hrvatskoj u službenoj je uporabi hrvatski jezik i latinično pismo. U pojedinim lokalnim jedinicama uz hrvatski jezik i latinično pismo u službenu se uporabu može uvesti i drugi jezik te čirilično ili koje drugo pismo pod uvjetima propisanima zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Hrvatskom saboru.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "78096E0A958E3DA1A3617060601475DF93A222E39BAD791EDEB122F4E7A02993",
-    "sha256_datoteke": "044677CFF47F66E1769B44905CA6115B6E7A7FC81E65254C8691F4C3C4325494",
+    "sha256_teksta": "4B5047AB8BA1B8EDBDD7E5265C84D283F9EC9CCEA4B8B958D263C2762FF86960",
+    "sha256_datoteke": "B5B244F739D19D0C3A7EE202549FA6D3642F853912189427BCBB5D2D2C16A996",
     "napomena": null
   }
 }

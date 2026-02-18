@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "95",
     "naslov": null,
-    "tekst": "Nitko ne može biti biran više od dva puta za Predsjednika Republike. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor Predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije preuzimanja dužnosti, Predsjednik Republike pred predsjednikom Ustavnog suda Republike Hrvatske polaže svečanu prisegu kojom se obvezuje na vjernost Ustavu. Izbor Predsjednika Republike, prisega i njeno polaganje uređuje se zakonom.",
+    "tekst": "Predsjednik Republike bira se na temelju općeg i jednakog biračkog prava na neposrednim izborima tajnim glasovanjem na vrijeme od pet godina. Predsjednikom Republike nitko ne može biti više od dva puta. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije nego preuzme dužnost, predsjednik Republike polaže svečanu zakletvu kojom se obvezuje na vjernost Ustavu. Izbor predsjednika Republike uređuje se zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Nitko ne može biti biran više od dva puta za Predsjednika Republike. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor Predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije preuzimanja dužnosti, Predsjednik Republike pred predsjednikom Ustavnog suda Republike Hrvatske polaže svečanu prisegu kojom se obvezuje na vjernost Ustavu. Izbor Predsjednika Republike, prisega i njeno polaganje uređuje se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "225FCB48930BF4F9E6C13561170B51CBBD25B0A32C070D37FDF600872A3F206B",
-    "sha256_datoteke": "0D824CC72278A21AB6E1014A83DC9E73B9369E3187B03ABEDD7558FAB9B5521E",
+    "sha256_teksta": "401C362F25908E2BD90F1D12B1DF9D61658F666E0B5DB499A430319BADF8DDF4",
+    "sha256_datoteke": "5501F0D443CBAA9697FA86712D437C680A444371A86258B7692F736A2F8B6416",
     "napomena": null
   }
 }

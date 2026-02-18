@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "112",
     "naslov": null,
-    "tekst": "Predsjednik i članovi Vlade zajednički su odgovorni za odluke koje donosi Vlada, a osobno su odgovorni za svoje područje rada.",
+    "tekst": "Predsjednik Vlade, najkasnije 15 dana pošto je imenovan, predstavlja Vladu Zastupničkomu domu i traži glasovanje o povjerenju Vladi. Imenovanje predsjednika i članova Vlade prihvaćeno je ako joj je povjerenje iskazala većina svih zastupnika u Zastupničkom domu.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednik i članovi Vlade zajednički su odgovorni za odluke koje donosi Vlada, a osobno su odgovorni za svoje područje rada.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CD2BFDF5A03A4F9610BFCA57F9B11E09F347565269F1BA824F9203F679734BA9",
-    "sha256_datoteke": "C2BD83ABCF0BD4E868B9708AB3DCCB286C111222748D0F636F0A480CF0D70EEC",
+    "sha256_teksta": "98E1166C3EBFF9ED7F6D0C37711CEEDB7B776E1F2FDA374C712E96A0C3772176",
+    "sha256_datoteke": "B730103240910B72C58C7CD474992A9F89082B8ABC837B4D7BCD79FDB23789ED",
     "napomena": null
   }
 }

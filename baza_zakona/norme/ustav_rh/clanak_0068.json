@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "68",
     "naslov": null,
-    "tekst": "Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
+    "tekst": "Jamči se sloboda znanstvenoga, kulturnog i umjetničkog stvaralaštva. Republika potiče i pomaže razvitak znanosti, kulture i umjetnosti. Republika štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Republika potiče i pomaže skrb o tjelesnoj kulturi i športu.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6916869B5ABC9219747305E5E72889CC808F2B3F631E504995E4A4EEE2D6CAF7",
-    "sha256_datoteke": "C4D31E5B74814015D4D66A11CCA1BE4EAF7C78634F5CD8341833401F18C785BC",
+    "sha256_teksta": "8997E99DDF636E5889162F4CE4D1552C96AB2245B7FC9D7B144C298B939439DE",
+    "sha256_datoteke": "D1905E1B4F70A38CB7D53F1BCDB482FC316B66B391C0A61A6201326F10D3AE8C",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "99",
     "naslov": null,
-    "tekst": "Predsjednik Republike, na prijedlog Vlade i uz supotpis predsjednika Vlade, odlučuje o osnivanju diplomatskih misija i konzularnih ureda Republike Hrvatske u inozemstvu. Predsjednik Republike, na prijedlog Vlade i uz mišljenje nadležnog odbora Hrvatskoga sabora, donosi odluku o postavljanju i opozivu šefova diplomatskih misija Republike Hrvatske u inozemstvu, uz prethodni supotpis predsjednika Vlade Republike Hrvatske. Predsjednik Republike prima vjerodajnice i opozivna pisma inozemnih šefova diplomatskih misija.",
+    "tekst": "Predsjednik Republike, na prijedlog Vlade, odlučuje o osnivanju diplomatskih i drugih predstavništava Republike Hrvatske u inozemstvu. Predsjednik Republike postavlja i opoziva diplomatske predstavnike Republike Hrvatske te prima vjerodajnice i opozivna pisma inozemnih diplomatskih predstavnika.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednik Republike, na prijedlog Vlade i uz supotpis predsjednika Vlade, odlučuje o osnivanju diplomatskih misija i konzularnih ureda Republike Hrvatske u inozemstvu. Predsjednik Republike, na prijedlog Vlade i uz mišljenje nadležnog odbora Hrvatskoga sabora, donosi odluku o postavljanju i opozivu šefova diplomatskih misija Republike Hrvatske u inozemstvu, uz prethodni supotpis predsjednika Vlade Republike Hrvatske. Predsjednik Republike prima vjerodajnice i opozivna pisma inozemnih šefova diplomatskih misija.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "FABCC2F7281E231C81E63C55E705667ED1210950B89DE47439F9844857F7DE44",
-    "sha256_datoteke": "EBDC26C61A9332A56FC17D7A808CEBEF517E5518948514625F99730861BCC49A",
+    "sha256_teksta": "75CA4A5ACB37DA80E4FCA02614A25559B0D885EFAE9F1B32D05FE897A5A9F79F",
+    "sha256_datoteke": "6BEDFD9B295D554B1F6DDA9D9D577BAEB3D1334FD0673EFC80121CBF6A9F8E71",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "88",
     "naslov": null,
-    "tekst": "Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Hrvatski sabor ne odluči drukčije.",
+    "tekst": "Zastupnički dom može, najviše na vrijeme od godinu dana, ovlastiti Vladu Republike Hrvatske da uredbama uređuje pojedina pitanja iz njegova djelokruga, osim onih koja se odnose na razradu Ustavom utvrđenih sloboda i prava čovjeka i građanina, nacionalna prava, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i lokalne samouprave. Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Zastupnički dom ne odluči drukčije.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Hrvatski sabor ne odluči drukčije.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B6CAD8070CEB61177C976C442420B80AF1E75A11F49033284CEA9845C1755033",
-    "sha256_datoteke": "F2A758F6E474C25E33C6B078C182A43B26CAD8F11269783774C5637043F53A6C",
+    "sha256_teksta": "3F122E27541A01956AF3724FFC07B2241CF60D398BC05095249C3C428F5A601B",
+    "sha256_datoteke": "89636430E8D2AEA2209DB22D8615F45F6FE0EBBE342BA1A9DBB8474F1B1CE0CF",
     "napomena": null
   }
 }

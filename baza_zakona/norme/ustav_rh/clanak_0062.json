@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "62",
     "naslov": null,
-    "tekst": "Brak je životna zajednica žene i muškarca. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
+    "tekst": "Republika štiti materinstvo, djecu i mladež te stvara socijalne, kulturne, odgojne, materijalne i druge uvjete kojima se promiče ostvarivanje prava na dostojan život.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Brak je životna zajednica žene i muškarca. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B2082900561C669381DD3A732F5C0F224F68707B7D9A6B43F157E01A41F895F5",
-    "sha256_datoteke": "69C64FA63EDAC326CF734D2DD0084F7922D7BC218F889AD7D66AAFF16159EF3A",
+    "sha256_teksta": "F0292131E5FE759639B4CFC197A652C1AB1B41B6F2FFAEA071EBED9326B55AA3",
+    "sha256_datoteke": "483DC2265BE0314D189EA3EF232A2F007AD5E88907856EAFB259BEF07864D9D5",
     "napomena": null
   }
 }

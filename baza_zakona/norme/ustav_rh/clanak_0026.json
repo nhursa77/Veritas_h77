@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": "Svi su građani i stranci jednaki pred sudovima i drugim državnim i inim tijelima koja imaju javne ovlasti.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC78565005A7088FF51795FBE734926D5153E9D5B4ED076CDC75F478D6E71FC6",
+    "sha256_datoteke": "3906EC5165D4AD66AD5832FC48E6B929A695E951050BD8F4FF4E43324C37221D",
+    "napomena": null
+  }
+}

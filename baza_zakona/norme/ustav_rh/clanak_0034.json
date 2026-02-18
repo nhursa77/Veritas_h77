@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "34",
     "naslov": null,
-    "tekst": "Samo sud može obrazloženim pisanim nalogom utemeljenim na zakonu odrediti da se dom ili drugi prostor pretraži. Pravo je stanara da on ili njegov zastupnik i obvezatno dva svjedoka budu nazočni pri pretrazi doma ili drugoga prostora. U skladu s uvjetima što ih predviđa zakon, redarstvene vlasti mogu i bez sudskog naloga ili privole držatelja stana ući u dom ili prostorije te izvršiti pretragu bez nazočnosti svjedoka, ako je to neophodno radi izvršenja naloga o uhićenju ili radi hvatanja počinitelja kaznenog djela odnosno otklanjanja ozbiljne opasnosti po život i zdravlje ljudi ili imovinu većeg opsega. Pretraga radi pronalaženja ili osiguranja dokaza za koje postoji osnovana vjerojatnost da se nalaze u domu počinitelja kaznenog djela, može se poduzeti samo u nazočnosti svjedoka.",
+    "tekst": "Dom je nepovrediv. Samo sud može obrazloženim pismenim nalogom utemeljenim na zakonu odrediti da se dom ili drugi prostor pretraži. Pravo je stanara da on ili njegov zastupnik i obvezatno dva svjedoka budu nazočni pri pretrazi doma ili drugoga prostora. U skladu s uvjetima što ih predviđa zakon, redarstvene vlasti mogu i bez sudskog naloga ili privole držatelja stana ući u dom ili prostorije te izvršiti pretragu bez nazočnosti svjedoka, ako je to neophodno radi izvršenja naloga o uhićenju ili radi hvatanja počinitelja kaznenog djela odnosno otklanjanja ozbiljne opasnosti po život i zdravlje Ijudi ili imovinu većeg opsega. Pretraga radi pronalaženja ili osiguranja dokaza za koje postoji osnovana vjerojatnost da se nalaze u domu počinitelja kaznenog djela, može se poduzeti samo u nazočnosti svjedoka.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Samo sud može obrazloženim pisanim nalogom utemeljenim na zakonu odrediti da se dom ili drugi prostor pretraži. Pravo je stanara da on ili njegov zastupnik i obvezatno dva svjedoka budu nazočni pri pretrazi doma ili drugoga prostora. U skladu s uvjetima što ih predviđa zakon, redarstvene vlasti mogu i bez sudskog naloga ili privole držatelja stana ući u dom ili prostorije te izvršiti pretragu bez nazočnosti svjedoka, ako je to neophodno radi izvršenja naloga o uhićenju ili radi hvatanja počinitelja kaznenog djela odnosno otklanjanja ozbiljne opasnosti po život i zdravlje ljudi ili imovinu većeg opsega. Pretraga radi pronalaženja ili osiguranja dokaza za koje postoji osnovana vjerojatnost da se nalaze u domu počinitelja kaznenog djela, može se poduzeti samo u nazočnosti svjedoka.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "90F0B1B6953F1F1640A4DF1EB11C011CF8E398F2C90BEB2A448124721E210AB5",
-    "sha256_datoteke": "1810DD5D5F7E5F322C934D52B312D194FFD187C96A56CB822DF0B3A28FEEA7A7",
+    "sha256_teksta": "2A36081F8B236FB01907C3636B3E189B3B3B774CCB9C9A59600740684871095A",
+    "sha256_datoteke": "3F2571DE18A58509E3F9F8490959B2BA6218C009E078E48A97C60B7E10BF2D0B",
     "napomena": null
   }
 }

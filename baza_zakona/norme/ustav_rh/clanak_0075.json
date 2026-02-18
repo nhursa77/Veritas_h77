@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "75",
     "naslov": null,
-    "tekst": "Zastupnici u Hrvatskom saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
+    "tekst": "Zastupnici u Saboru Republike Hrvatske imaju imunktet. Zastupnik ne može biti pozvan na kaznenu odgovornost, pritvoren ili kažnjen za izraženo mišljenje ili glasovanje u Saboru. Zastupnik ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez odobrenja doma Sabora. Zastupnik može biti pritvoren bez odobrenja doma Sabora samo ako je zatečen da vrši kažnjivo djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. O takvom se slučaju izvješćuje predsjednika doma Sabora. Ako dom Sabora nije na okupu, odobrenje da se zastupnik liši slobode ili da se protiv njega nastavi kazneni postupak daje i o njegovu pravu na imunitet odlučuje mandatno-imunitetna komisija doma, s time što njezinu odluku mora naknadno potvrditi dom Sabora.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zastupnici u Hrvatskom saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1AEE11CECBD4D4222BAF9FD27A065B8D0D43DD3E51AD9CD3800242907E1FA47F",
-    "sha256_datoteke": "7F329578793B0CA3539E6AD5738E0C74F84F548EDD26A0746FF76D234BB0611A",
+    "sha256_teksta": "3C9C05AE929F033E3DDC598931F8CDF5966A4DF9CF27C439842FC06D1F139C27",
+    "sha256_datoteke": "273B88B79AC75C58B22D43C5267947B2566DFDC6657768D3C536A18F262BE1C8",
     "napomena": null
   }
 }

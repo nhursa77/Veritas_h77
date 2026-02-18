@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "6",
     "naslov": null,
-    "tekst": "Unutarnje ustrojstvo političkih stranaka mora biti sukladno temeljnim ustavnim demokratskim načelima. Stranke moraju javno polagati račun o porijeklu svojih sredstava i imovine. Protuustavne su političke stranke koje svojim programom ili nasilnim djelovanjem smjeraju podrivanju slobodnoga demokratskog poretka ili ugrožavaju opstojnost Republike Hrvatske. O protuustavnosti odlučuje Ustavni sud Republike Hrvatske. Zakonom se uređuje položaj i financiranje političkih stranaka.",
+    "tekst": "Slobodno je osnivanje političkih stranaka. Političke se stranke ustrojavaju po teritorijalnom načelu. Nije dopušten rad političke stranke koja svojim programom ili djelovanjem nasilno ugrožava demokratski ustavni poredak, neovisnost, jedinstvenost ili teritorijalnu cjelovitost Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Unutarnje ustrojstvo političkih stranaka mora biti sukladno temeljnim ustavnim demokratskim načelima. Stranke moraju javno polagati račun o porijeklu svojih sredstava i imovine. Protuustavne su političke stranke koje svojim programom ili nasilnim djelovanjem smjeraju podrivanju slobodnoga demokratskog poretka ili ugrožavaju opstojnost Republike Hrvatske. O protuustavnosti odlučuje Ustavni sud Republike Hrvatske. Zakonom se uređuje položaj i financiranje političkih stranaka.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A2CF3DBF81C7D350C06C3DDD64EB9186515074264541045EFE70F9430CAC1320",
-    "sha256_datoteke": "64D0585852B2D84AFEF08022AB54D74F0AF0618916096272EE9CD3DF54EF67FE",
+    "sha256_teksta": "B0D6FBC49C969B12A9784AA7203992E186240A26009A1C53D86BC06DC225E280",
+    "sha256_datoteke": "7CE71316D0F7DFB3CB2826A23C4ACE074A945E23C9DFE0D42100F2B6CCE79C46",
     "napomena": null
   }
 }

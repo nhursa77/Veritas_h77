@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "9",
     "naslov": null,
-    "tekst": "Državljanin Republike Hrvatske ne može biti prognan iz Republike Hrvatske niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi, osim kad se mora izvršiti odluka o izručenju ili predaji donesena u skladu s međunarodnim ugovorom ili pravnom stečevinom Europske unije.",
+    "tekst": "Hrvatsko državljanstvo, njegovo stjecanje i prestanak uređuje se zakonom. Državljanin Republike Hrvatske ne može biti prognan iz Republike niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Državljanin Republike Hrvatske ne može biti prognan iz Republike Hrvatske niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi, osim kad se mora izvršiti odluka o izručenju ili predaji donesena u skladu s međunarodnim ugovorom ili pravnom stečevinom Europske unije.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "504E11CAB0D3701178CD89AEB7BB63EE83F07AC6698F0FD4318FAB95E5595BCA",
-    "sha256_datoteke": "65FEE78B3CAFAA1F53BCCB6F4270A628E107326438A62F23D04D51739FCECD33",
+    "sha256_teksta": "EE8ED9A42BAD902FF61611C4752C72FA4618438792F541EF32221F392CA2C07C",
+    "sha256_datoteke": "268D52DF3F47BBDD062B0AEFC515D086A951E47C1294C1C766274EFC5F2E0C4B",
     "napomena": null
   }
 }

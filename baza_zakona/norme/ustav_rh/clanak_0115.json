@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "115",
     "naslov": null,
-    "tekst": "Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava, zakona, međunarodnih ugovora i drugih važećih izvora prava.",
+    "tekst": "Sudbenu vlast obavljaju sudovi. Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava i zakona.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava, zakona, međunarodnih ugovora i drugih važećih izvora prava.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3EFE21CAC60678D0F68B561F35DDF587A4443E0F5CEF8EF38CC2A9E304BF5A70",
-    "sha256_datoteke": "8538DFCD2ACA6CCCC3F544842E48882532C2F645CD9701F4F671FA339CDD9346",
+    "sha256_teksta": "D7BED2EF8FBD7FAE9169EA9BCF1EAE0D9F71647BD7EF8AA00DB80436B7F10C80",
+    "sha256_datoteke": "CF02B867FF210CD4F5E006C76159E0A7D035B66F282ACEBA98C86BFD69709115",
     "napomena": null
   }
 }

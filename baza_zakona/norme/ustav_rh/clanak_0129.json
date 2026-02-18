@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "129",
     "naslov": null,
-    "tekst": "Jedinice područne (regionalne) samouprave su županije. Područje županije određuje se na način propisan zakonom. Zakonom se može glavnom gradu Zagrebu utvrditi položaj županije. Većim gradovima u Republici Hrvatskoj zakonom se mogu dati ovlasti županije. U naselju ili dijelu naselja mogu se, u skladu sa zakonom, osnivati oblici mjesne samouprave. Članak 129.a Jedinice lokalne samouprave obavljaju poslove iz lokalnog djelokruga kojima se neposredno ostvaruju potrebe građana, a osobito poslove koji se odnose na uređenje naselja i stanovanja, prostorno i urbanističko planiranje, komunalne djelatnosti, brigu o djeci, socijalnu skrb, primarnu zdravstvenu zaštitu, odgoj i osnovno obrazovanje, kulturu, tjelesnu kulturu i sport, tehničku kulturu, zaštitu potrošača, zaštitu i unapređenje prirodnog okoliša, protupožarnu i civilnu zaštitu. Jedinice područne (regionalne) samouprave obavljaju poslove od područnog (regionalnog) značenja, a osobito poslove koji se odnose na školstvo, zdravstvo, prostorno i urbanističko planiranje, gospodarski razvoj, promet i prometnu infrastrukturu te planiranje i razvoj mreže obrazovnih, zdravstvenih, socijalnih i kulturnih ustanova. Poslovi lokalnog i područnog (regionalnog) djelokruga uređuju se zakonom. Prilikom dodjeljivanja tih poslova prednost će imati ona tijela koja su najbliža građanima. Prilikom određivanja djelokruga jedinica lokalne i područne (regionalne) samouprave mora se voditi računa o širini i prirodi poslova i o zahtjevima učinkovitosti i ekonomičnosti. Članak 129.b Jedinice lokalne i područne (regionalne) samouprave imaju pravo u okviru zakona, svojim statutima samostalno urediti unutarnje ustrojstvo i djelokrug svojih tijela te ih prilagoditi lokalnim potrebama i mogućnostima. Sudska praksa: Odluka USRH , Odluka",
+    "tekst": "Jedinice lokalne samouprave mogu, u skladu sa zakonom, biti općina i kotar ili grad. Njihovo područje određuje se zakonom pošto se prethodno pribavi mišljenje stanovnika tog područja. Ustrojstvo i djelokrug tijela jedinica lokalne samouprave ureduju se njihovim statutom a u skladu sa zakonom. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima u skladu sa zakonom i statutom jedinice mjesne samouprave. U naselju ili dijelu naselja građani imaju pravo u skladu sa zakonom, osnivati i druge oblike mjesne samouprave,",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Jedinice područne (regionalne) samouprave su županije. Područje županije određuje se na način propisan zakonom. Zakonom se može glavnom gradu Zagrebu utvrditi položaj županije. Većim gradovima u Republici Hrvatskoj zakonom se mogu dati ovlasti županije. U naselju ili dijelu naselja mogu se, u skladu sa zakonom, osnivati oblici mjesne samouprave. Članak 129.a Jedinice lokalne samouprave obavljaju poslove iz lokalnog djelokruga kojima se neposredno ostvaruju potrebe građana, a osobito poslove koji se odnose na uređenje naselja i stanovanja, prostorno i urbanističko planiranje, komunalne djelatnosti, brigu o djeci, socijalnu skrb, primarnu zdravstvenu zaštitu, odgoj i osnovno obrazovanje, kulturu, tjelesnu kulturu i sport, tehničku kulturu, zaštitu potrošača, zaštitu i unapređenje prirodnog okoliša, protupožarnu i civilnu zaštitu. Jedinice područne (regionalne) samouprave obavljaju poslove od područnog (regionalnog) značenja, a osobito poslove koji se odnose na školstvo, zdravstvo, prostorno i urbanističko planiranje, gospodarski razvoj, promet i prometnu infrastrukturu te planiranje i razvoj mreže obrazovnih, zdravstvenih, socijalnih i kulturnih ustanova. Poslovi lokalnog i područnog (regionalnog) djelokruga uređuju se zakonom. Prilikom dodjeljivanja tih poslova prednost će imati ona tijela koja su najbliža građanima. Prilikom određivanja djelokruga jedinica lokalne i područne (regionalne) samouprave mora se voditi računa o širini i prirodi poslova i o zahtjevima učinkovitosti i ekonomičnosti. Članak 129.b Jedinice lokalne i područne (regionalne) samouprave imaju pravo u okviru zakona, svojim statutima samostalno urediti unutarnje ustrojstvo i djelokrug svojih tijela te ih prilagoditi lokalnim potrebama i mogućnostima. Sudska praksa: Odluka USRH , Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6F03B1A2522736500B246544D6F155ABA098F9760D8BA46AD667050B7852CADE",
-    "sha256_datoteke": "0A99BCAD6450923D8306571CE5931C253AE5E3D83C9CFFE77E6B16EBFB171871",
+    "sha256_teksta": "A8477E028ACE1BE5971A8A50627B871DEEC3A3A4C7138A07C9F97BA9C6B3C3B7",
+    "sha256_datoteke": "D790A4590B937D8333B39F0A496CBB6F74CDDFF3BFB00D2C1423B2B795E2619D",
     "napomena": null
   }
 }

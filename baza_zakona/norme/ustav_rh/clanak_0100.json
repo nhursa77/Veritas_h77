@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "100",
     "naslov": null,
-    "tekst": "Predsjednik Republike imenuje i razrješuje vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Hrvatskoga sabora Predsjednik Republike objavljuje rat i zaključuje mir. U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države Predsjednik Republike može, uz supotpis predsjednika Vlade, narediti uporabu oružanih snaga iako nije proglašeno ratno stanje.",
+    "tekst": "Predsjednik Republike vrhovni je zapovjednik oružanih snaga Republike Hrvatske. Predsjednik Republike imenuje članove Vijeća narodne obrane Republike Hrvatske i predsjedava mu, imenuje i razrješuje dužnosti vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Sabora Republike Hrvatske predsjednik Republike objavljuje rat i zaključuje mir.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednik Republike imenuje i razrješuje vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Hrvatskoga sabora Predsjednik Republike objavljuje rat i zaključuje mir. U slučaju neposredne ugroženosti neovisnosti, jedinstvenosti i opstojnosti države Predsjednik Republike može, uz supotpis predsjednika Vlade, narediti uporabu oružanih snaga iako nije proglašeno ratno stanje.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7B9B8904A1F7D7375E4683BB454CE0D658B7482A244DD3AAD4FCA12065109316",
-    "sha256_datoteke": "8DDAC1957858337AA0C3C1083A25D12AB5FFFDA11C062AEB62EF44308C4E94D6",
+    "sha256_teksta": "45B1904F37A87315A10DC2B7BF9C286477ED5D3156FDFBBA7F69360C691D991D",
+    "sha256_datoteke": "462B63F9036A0FB27D1959A626FC7957D1B2BB00716E8254F97AAC7A0C17D2BC",
     "napomena": null
   }
 }

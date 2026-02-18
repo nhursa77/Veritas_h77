@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "41",
     "naslov": null,
-    "tekst": "Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
+    "tekst": "Sve vjerske zajednice jednake su pred zakonom i odvojene od države. Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "03562FAFF21010F00DC82428941547A72A33DBDBB88BF7B4807DFB29274D900A",
-    "sha256_datoteke": "6975347F5F1783439A7DC3407726DD4CDDC6A976618F0D1703E3C1439E2ED077",
+    "sha256_teksta": "786DEBABCB1831317B85D131B261E88DFE9A1C5C9C75708B69305A4B7AAF9256",
+    "sha256_datoteke": "D506DC7364782A1985836C0D9E61A0A2F31D0499C9EA221790D99C352FE5190D",
     "napomena": null
   }
 }

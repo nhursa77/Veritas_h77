@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "35",
     "naslov": null,
-    "tekst": "SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
+    "tekst": "Svakomu se građaninu janmči štovanje i pravna zaštita njegova osobnog i obiteljskog života, dostojanstva, ugleda i časti.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "SUDSKA PRAKSA: Odluka , Odluka , Rješenje",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B7B680943AD06CCF6CF26AEA3F470B19CF9EBE49D6188C1C8184FB1FA67537B0",
-    "sha256_datoteke": "F70582B6D1C444EB12D7671FD1D6550522E6AEDAB6E04C88D489A73D28D5DC90",
+    "sha256_teksta": "DAF9427D79065D43B0000B1C8CE1E53FEFB43621BD9ED2861E782F52B850E260",
+    "sha256_datoteke": "76B8FB839CAEE283E3C0981A06C793CA72079168C2CA04ACE6430EE168043C92",
     "napomena": null
   }
 }

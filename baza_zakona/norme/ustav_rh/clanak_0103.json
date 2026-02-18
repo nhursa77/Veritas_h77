@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "103",
     "naslov": null,
-    "tekst": "Imenovanje čelnika sigurnosnih službi, uz prethodno pribavljeno mišljenje nadležnog odbora Hrvatskoga sabora, supotpisuje Predsjednik Republike i predsjednik Vlade Republike Hrvatske.",
+    "tekst": "Predsjednik Republike može Saboru Republike Hrvatske upućivati poslanice, a jednom godišnje podnosi mu izvještaj o stanju u Republici.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Imenovanje čelnika sigurnosnih službi, uz prethodno pribavljeno mišljenje nadležnog odbora Hrvatskoga sabora, supotpisuje Predsjednik Republike i predsjednik Vlade Republike Hrvatske.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "123EF4BCC6039A9B73F6893099FD9FDB07CF79BF9620D42281EDB669909E10FB",
-    "sha256_datoteke": "5742FCBAB2DEE92D0885B5F15FBF45ED0C1E3078B79C474B666BF51A4FDC00FF",
+    "sha256_teksta": "6D122F2DC408336679E840BB8068629AFF64E94FFC9A8AA8F14401AC13128767",
+    "sha256_datoteke": "C2A77C11E839DD7D5677BAB94654ECCFE6515FE18090ECA96C213D79C0C96BE1",
     "napomena": null
   }
 }

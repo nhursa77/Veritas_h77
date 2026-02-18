@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "3",
     "naslov": null,
-    "tekst": "Sudska praksa: Odluka USRH , Odluka USRH",
+    "tekst": "Sloboda, jednakost, nacionalna ravnopravnost, mirotvorstvo, socijalna pravda, poštivanje prava čovjeka, nepovredivost vlasništva, očuvanje prirode i čovjekova okoliša, vladavina prava i demokratski višestranački sustav najviše su vrednote ustavnog poretka Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Sudska praksa: Odluka USRH , Odluka USRH",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A4AD40983717B836EEA2CB95F3FB5866774D9481EE0C105CBE8815B548656220",
-    "sha256_datoteke": "F4218DCF9163EB4CC16266CCDF2A90B9B608F1F952C5BBD3525652AFDB11EDBC",
+    "sha256_teksta": "1CADCC585A5BE7E03C296FE5A60EE832E23AA669B024A6D6D27C7882156ED825",
+    "sha256_datoteke": "2EBD1891A528347C8604E91207F193B5EE376E04848A33BDA8709EE40EA3A13C",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "118",
     "naslov": null,
-    "tekst": "U suđenju sudjeluju suci porotnici i sudski savjetnici, u skladu sa zakonom.",
+    "tekst": "U suđenju sudjeluju i suci porotnici, u skladu sa zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "U suđenju sudjeluju suci porotnici i sudski savjetnici, u skladu sa zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0878AAD4ABACF07B427FD03E450B55AB5CD87106E3A0E4124849CA5FBF719690",
-    "sha256_datoteke": "9DD81B3427996D5A41610E7F498F4DE44877D5F9CE0BBEF07C5F9126FAD5FA9F",
+    "sha256_teksta": "A7DD764155B3B0BE9131A57F8E01583755A96EA2A8D1E9453A837532BA863E0E",
+    "sha256_datoteke": "9305C9DDB0F5FA5396F4EDBC6B31545D1CE2499C7C50A385C315C12D41548228",
     "napomena": null
   }
 }

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "30",
+    "naslov": null,
+    "tekst": "Kaznena osuda za teška i osobito nečasna kaznena djela može, u skladu sa zakonom, imati za posljedicu gubitak stečenih ili zabranu stjecanja na određeno vrijeme nekih prava na obavljanje određenih poslova, ako to zahtijeva zaštita pravnog poretka.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "68ACC72995CB96EDA9E0E1A7FDF50B82EC7046A20C7AC4F431B757C4E05343C9",
+    "sha256_datoteke": "48A142BD4864E6966EEE83AD9076F9724F4B81CFFFA1BEDBDB2B1790F22F3FFE",
+    "napomena": null
+  }
+}

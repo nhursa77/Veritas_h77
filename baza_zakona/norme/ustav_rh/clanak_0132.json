@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "132",
+    "naslov": null,
+    "tekst": "Međunarodne ugovore u ime Republike Hrvatske sklapa predsjednik Republike, a može ih u skladu sa zakonom, sklapati i Vlada Republike Hrvatske.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0E06170298A676E4CAF21DC5F4C074392A370ACD498CD18CDC4DB5E1CB9C87AA",
+    "sha256_datoteke": "9B20F7950D8F9C4D207A5646914A22BBD6835FEEC9E532C1D84B3C2925B52E98",
+    "napomena": null
+  }
+}

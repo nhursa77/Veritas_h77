@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "31",
     "naslov": null,
-    "tekst": "googletag.cmd.push(function() { googletag.display('sidebar_v2');}); Copyright © Ante Borić var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-4459592-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); $(document).ready(function(){ if ($(window).width() = 991){ $('.panel-collapse').addClass('in'); } if ($(window).width() = 991){ e.stopPropagation(); } else { $(this).tab('show'); } }); $(document).ready(function() { $(\".boxlista\").mCustomScrollbar({ //scrollButtons:{ // enable:true //}, theme : \"dark\", advanced : { updateOnContentResize : true } }); });",
+    "tekst": "Nitko ne može biti kažnjen za djelo koje prije nego je počinjeno nije bilo utvrđeno zakonom ili međunarodnim pravom kao kazneno djelo, niti mu se može izreći kazna koja nije bila određena zakonom. Ako zakon nakon počinjenog djela odredi blažu kaznu, odredit će se takva kazna. Nitko ne može ponovno biti suđen za djelo za koje je već bio suđen i za koje je donesena pravomoćna sudska odluka. Ne može se ponoviti kazneni postupak protiv osobe koja je oslobođena pravomoćnom presudom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "googletag.cmd.push(function() { googletag.display('sidebar_v2');}); Copyright © Ante Borić var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-4459592-1']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); $(document).ready(function(){ if ($(window).width() = 991){ $('.panel-collapse').addClass('in'); } if ($(window).width() = 991){ e.stopPropagation(); } else { $(this).tab('show'); } }); $(document).ready(function() { $(\".boxlista\").mCustomScrollbar({ //scrollButtons:{ // enable:true //}, theme : \"dark\", advanced : { updateOnContentResize : true } }); });",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B552BFC1D09E5B2B06D79405D617DCBA6D1DE3DCA9E2F9F0B355A9765CDCC563",
-    "sha256_datoteke": "2986E870D6B9483D7AD8DC021E744C72F78899BA3367ACF0C126CF96BA1D2365",
+    "sha256_teksta": "0A49667F31BF4F3F8AE62870DDD40A2F1D5E0FC0C0C8F2D18A65D38EF9F47095",
+    "sha256_datoteke": "8A6B52656695E62EDEF793CC3E712AAB6767DDD38DBB14BD1A7E6ACAF3BC49C8",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "38",
     "naslov": null,
-    "tekst": "Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na pristup informacijama koje posjeduju tijela javne vlasti. Ograničenja prava na pristup informacijama moraju biti razmjerna naravi potrebe za ograničenjem u svakom pojedinom slučaju te nužna u slobodnom i demokratskom društvu, a propisuju se zakonom. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom i zakonom utvrđeno pravo.",
+    "tekst": "Jamči se sloboda mišljenja i izražavanja misli. Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom utvrdeno pravo.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na pristup informacijama koje posjeduju tijela javne vlasti. Ograničenja prava na pristup informacijama moraju biti razmjerna naravi potrebe za ograničenjem u svakom pojedinom slučaju te nužna u slobodnom i demokratskom društvu, a propisuju se zakonom. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom i zakonom utvrđeno pravo.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "AEDBC44552462105D0A3907A16898E4547214407752BABA2D00CD7C9482FF0F1",
-    "sha256_datoteke": "816821459F681AA91B14E5EBB9C549A866875DA7603C54D6B8F5408351CAC5EC",
+    "sha256_teksta": "8CA452F09D081ACA333134903A30D69F053486A7AB75B511EB82F556581AD58C",
+    "sha256_datoteke": "841C6111CD3FBABA9D59037BAE4770BC2D6B3880C34A9BD47D1B6E57E84EF551",
     "napomena": null
   }
 }

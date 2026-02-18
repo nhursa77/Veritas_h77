@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "65",
     "naslov": null,
-    "tekst": "Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i osobe s invaliditetom imaju pravo na osobitu zaštitu na radu.",
+    "tekst": "Osnovno je školovanje obvezatno i besplatno. Svakomu je dostupno, pod jednakim uvjetima, srednjoškolsko i visokoškolsko obrazovanje u skladu s njegovim sposobnostima.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i osobe s invaliditetom imaju pravo na osobitu zaštitu na radu.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7498188878FB56A27F3722775EB9706B5E3AD9F68E9CEB221F2BDAFFAE8FE7AC",
-    "sha256_datoteke": "25B9F76B7EFD9FD002C4A772BDB7FB1CC7DA76FDE6567470E9D8391D8E81275B",
+    "sha256_teksta": "773A598C6F8E5BDD30E20302F8F9B9AEBF87620C59BE60D3690FC184F6107F53",
+    "sha256_datoteke": "4068F1293380016E77E5F1ADA69666FC5FB5B2A8A220EAAE286D831841566B10",
     "napomena": null
   }
 }

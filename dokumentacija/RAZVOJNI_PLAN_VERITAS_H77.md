@@ -131,6 +131,12 @@ PROVJERA:
 GATE:
 - bez konzistentne NORMA baze ne prelazi se na postupke
 
+Status pilot (18.02.2026.):
+- pilot za `ustav_rh` je pokrenut iz `struktura_nn.json`
+- ulazi: `struktura_nn.json` + `meta.json` iz NN arhive
+- izlazi: `baza_zakona/norme/ustav_rh/clanak_XXXX.json`
+- artefakti: `IZVJESTAJ_NORMIRANJA.md` i integritet po članku
+
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
 ULAZ:

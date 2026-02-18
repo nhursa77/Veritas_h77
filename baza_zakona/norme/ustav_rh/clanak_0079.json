@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "79",
     "naslov": null,
-    "tekst": "Hrvatski sabor zasjeda izvanredno na zahtjev Predsjednika Republike, Vlade ili većine zastupnika. Predsjednik Hrvatskoga sabora može uz prethodno pribavljeno mišljenje klubova zastupnika parlamentarnih stranaka sazvati Hrvatski sabor na izvanredno zasjedanje.",
+    "tekst": "Unutarnje ustrojstvo i način rada Zastupničkog doma i Županijskog doma uređuje se poslovnikom, u skladu s Ustavom. Poslovnik doma donosi se većinom glasova svih zastupnika. Zastupnički dom i Županijski dom imaju predsjednika i jednog ili više potpredsjednika. Prava i dužnosti predsjednika i potpredsjednika doma utvrđuju se poslovnikom. Predsjednik Zastupničkog doma predsjednik je i Sabora Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Hrvatski sabor zasjeda izvanredno na zahtjev Predsjednika Republike, Vlade ili većine zastupnika. Predsjednik Hrvatskoga sabora može uz prethodno pribavljeno mišljenje klubova zastupnika parlamentarnih stranaka sazvati Hrvatski sabor na izvanredno zasjedanje.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "828558EDE51F75C5A3BB4ED14C954153BB13C86EF1652AD46F04E696E5862E41",
-    "sha256_datoteke": "ECE4F486C127B57E542430EE4E754C0D2F69AA0F967B7132318B3562C227D61F",
+    "sha256_teksta": "787901DAFFFAE5AE53B59DAF4BA137F9C3AB4398B9636203EA652F5C8D8CBB5E",
+    "sha256_datoteke": "7C90AA9DB2C967FE13BEBC3DB811FC0404EA2DF746E725C7BEC1691CAF99723B",
     "napomena": null
   }
 }

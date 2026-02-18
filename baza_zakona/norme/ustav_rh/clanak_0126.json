@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "126",
     "naslov": null,
-    "tekst": "Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit. U slučajevima iz članka 129. stavka 1. podstavka 3. Ustava, ako Ustavni sud Republike Hrvatske utvrdi da zakon nije bio u skladu s Ustavom ili da drugi propis nije bio u skladu s Ustavom i zakonom, donijet će odluku o utvrđenju neustavnosti ili nezakonitosti.",
+    "tekst": "Ustavni sud Republike Hrvatske ukinut će zakon ako utvrdi da je neustavan. Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit. U slučajevima iz članka 129. stavka 1. podstavka 3. Ustava, ako Ustavni sud Republike Hrvatske utvrdi da zakon nije bio u skladu s Ustavom ili da drugi propis nije bio u skladu s Ustavom i zakonom, donijet će odluku o utvrđenju neustavnosti ili nezakonitosti.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6477BE3152B497A3AD7259452C0F2132E5C2F5E064FE2F1C49F5C36D9D143FA6",
-    "sha256_datoteke": "F0A34C61CBD5FCD9CB0BCEF1D28AE40CBEC00BA143AFEA9E605EFE1A05B04B69",
+    "sha256_teksta": "7F521D3DD6DE144DFC2863308AD8887925537CAC84EBDBC8AA4291A9735131EB",
+    "sha256_datoteke": "B7170F01562E2FCB5C22889BBD527A7492FEA604D3B7540FDB32219444E0C2FD",
     "napomena": null
   }
 }

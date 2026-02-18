@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "58",
     "naslov": null,
-    "tekst": "Posebnu skrb država posvećuje zaštiti osoba s invaliditetom i njihovu uključivanju u društveni život. Posebnu skrb država posvećuje zaštiti hrvatskih branitelja, hrvatskih ratnih vojnih invalida, udovica, roditelja i djece poginulih hrvatskih branitelja. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
+    "tekst": "Svakomu se građaninu jamči pravo na zdravstvenu zaštitu.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Posebnu skrb država posvećuje zaštiti osoba s invaliditetom i njihovu uključivanju u društveni život. Posebnu skrb država posvećuje zaštiti hrvatskih branitelja, hrvatskih ratnih vojnih invalida, udovica, roditelja i djece poginulih hrvatskih branitelja. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B36102C4CBB02859577CD01C3C8AA9F95477B6ED425175BBE2C80238A9A5F202",
-    "sha256_datoteke": "A8B3FF917423279628FE1E6670757C9E91E323C5F1501538F7131AE8C3CDD2E4",
+    "sha256_teksta": "3CD013587229DF2F7B14B49FE8E14074C59100CA1FF776C0ADF2ADF7B622E183",
+    "sha256_datoteke": "D1C3EDBE1C44F2BB5CEA3D89D3C9E70030B1B2204C2C3BB624060F24FA807F72",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "36",
     "naslov": null,
-    "tekst": "Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti države ili provedbu kaznenog postupka.",
+    "tekst": "Sloboda i tajnost dopisivanja i svih drugih oblika općenja zajamčena je i nepovrediva. Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti Republike ili provedbu kaznenog postupka.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti države ili provedbu kaznenog postupka.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C4140EB0C7067C247131DD8D5F571F37D44C13EB3D515D14BC650C491AF10946",
-    "sha256_datoteke": "2B077D3E0E1DAEB19EE50071E8B0B43D5722716C7DC7022196AA377799464F89",
+    "sha256_teksta": "6BA54CDA81E73A7ED464A0F3ECD3DA29EECB70ABA0A73BA19B4D21C92A2B1EBA",
+    "sha256_datoteke": "8CFAEE474A03F520974B49AF4CA8CA69E6BF1ECF202ABF9064EA887087D7BCAD",
     "napomena": null
   }
 }

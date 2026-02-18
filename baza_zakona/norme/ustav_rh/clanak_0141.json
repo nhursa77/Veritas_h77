@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "141",
     "naslov": null,
-    "tekst": "Izbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+    "tekst": "Ovaj se Ustav primjenjuje od dana kad ga proglasi Sabor Republike Hrvatske, ako za primjenu pojedinih njegovih odredaba ustavnim zakonom za njegovu provedbu nije drugačije određeno: lzbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Izbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7762B3F2679A080DC03E18D81EE0A5C22948CFD0B1C4D093F4B052B05FC5A6D4",
-    "sha256_datoteke": "6790F0B5D89DCEA14979AC4E5C0D5E2121B39E06CEB58926D1E5DD8A1B9F3535",
+    "sha256_teksta": "CCDFF9C501F9179464CAA4D1449DAFF2AD2B583910FFB60FA73EEC16AE3820C7",
+    "sha256_datoteke": "B6E3D2A27B5B311D1EE50955C61DDB9C220043418FBBB3CF557EC46352B5D1A8",
     "napomena": null
   }
 }

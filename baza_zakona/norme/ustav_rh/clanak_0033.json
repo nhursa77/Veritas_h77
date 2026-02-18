@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "33",
     "naslov": null,
-    "tekst": "Stranac koji se zakonito nalazi na teritoriju Republike Hrvatske ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom. SUDSKA PRAKSA: Rješenje",
+    "tekst": "Strani državljanin i osobe bez državljanstva mogu dobiti utočište u Republici Hrvatskoj, osim ako su progonjeni za nepolitičke zločine i djelatnosti oprečne temeljnim načelima međunarodnog prava. Stranac koji se zakonito nalazi na teritoriju Republike ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Stranac koji se zakonito nalazi na teritoriju Republike Hrvatske ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom. SUDSKA PRAKSA: Rješenje",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "12B06339E86005F44F4725AA84B5C83D77BDC8FAEFC68779C19A27597A508D82",
-    "sha256_datoteke": "B77B09B1995359AC28254AC693C81823E38C151D89BF428694358B5B1E24FCA0",
+    "sha256_teksta": "904820F856F0739232CCAAD6F07A93F1687155CA4C9A8EB37E8B3BADB0FBDC81",
+    "sha256_datoteke": "78AAEAD5568DA330C519CCD2E0075662A010E1867F9A2332799BB76DD13275A4",
     "napomena": null
   }
 }

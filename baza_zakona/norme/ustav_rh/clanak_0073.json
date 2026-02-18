@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "73",
     "naslov": null,
-    "tekst": "Zakonom se određuje broj, uvjeti i postupak izbora zastupnika u Hrvatski sabor.",
+    "tekst": "Izbori se za zastupnike u domove Sabora Republike Hrvatske održavaju najkasnije 60 dana nakon isteka mandata ili raspuštanja domova Sabora. Prvo zasjedanje domova Sabora Republike Hrvatske održava se najkasnije 20 dana nakon provedenih izbora.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zakonom se određuje broj, uvjeti i postupak izbora zastupnika u Hrvatski sabor.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "E02C08885469A833424ECFA4DE4922AA28E3390D6F55D6C9C1C5C7A94B291BCD",
-    "sha256_datoteke": "466CCDEF5B239096B5AEF6074B757148DB33E0E6354A78BA24C6515E03C325F6",
+    "sha256_teksta": "D6CFA6D618A5744DFE6092C1CD90083995BD29C1CB1212C30F9CBB46202B284A",
+    "sha256_datoteke": "84AB119E583CA6F63515B46D8502F78385726EBB3AF42B825666D01B52A51229",
     "napomena": null
   }
 }

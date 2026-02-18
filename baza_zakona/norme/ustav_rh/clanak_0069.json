@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "69",
     "naslov": null,
-    "tekst": "Država potiče i pomaže razvitak znanosti, kulture i umjetnosti. Država štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Država potiče i pomaže skrb o tjelesnoj kulturi i športu.",
+    "tekst": "Svatko ima pravo na zdrav život. Republika osigurava pravo građana na zdrav okoliš. Građani, državna, javna i gospodarska tijela i udruge dužni su, u sklopu svojih ovlasti i djelatnosti, osobitu skrb posvećivati zaštiti zdravlja ljudi, prirode i ljudskog okoliša. IV. USTROJSTVO DRŽAVNE VLASTI 1. Sabor Republike Hrvatske",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Država potiče i pomaže razvitak znanosti, kulture i umjetnosti. Država štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Država potiče i pomaže skrb o tjelesnoj kulturi i športu.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "E48C7EA49070F4EBFF495581F3578557FF044B7FA4A3F11FAB773BFF67FDBEEB",
-    "sha256_datoteke": "01EB7F5B9ECD63E8A478DDEC63647652314FCE6632896FF552529E851F0AAE7B",
+    "sha256_teksta": "1A1AB7BE5B31B11099D90819E4F1AD18B56A1A681114BFD7392D6C31CBB69E64",
+    "sha256_datoteke": "C3352474E95C52E53ED19786A9480C73937BA8CA6DB364ADE52804DCD5692DB4",
     "napomena": null
   }
 }

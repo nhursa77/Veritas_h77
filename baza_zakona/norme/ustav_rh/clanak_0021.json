@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "21",
     "naslov": null,
-    "tekst": "U Republici Hrvatskoj nema smrtne kazne.",
+    "tekst": "Svako ljudsko biće ima pravo na život. U Republici Hrvatskoj nema smrtne kazne",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "U Republici Hrvatskoj nema smrtne kazne.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "433F32CDEABB6C099934F5AF63B49BEE5A9EC4A2866BBFFAD48F42C981585038",
-    "sha256_datoteke": "2322F31370D1B5747A9E23FB7BDF5E586C54135F0DCC70120BADA751BEB54DA9",
+    "sha256_teksta": "0CB845888B873EA02CCAE382DA4F678F411591811F739D1565DB52C38E6734A8",
+    "sha256_datoteke": "9724675B8FE7AA90B35F259B39847493F04E66FD2CFD77D4A358D0802FCBAECF",
     "napomena": null
   }
 }

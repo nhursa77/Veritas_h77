@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "98",
     "naslov": null,
-    "tekst": "– raspisuje izbore za Hrvatski sabor i saziva ga na prvo zasjedanje, – raspisuje referendum u skladu s Ustavom, – povjerava mandat za sastavljanje Vlade osobi koja, na temelju raspodjele zastupničkih mjesta u Hrvatskom saboru i obavljenih konzultacija, uživa povjerenje većine svih zastupnika, – daje pomilovanja, – dodjeljuje odlikovanja i priznanja određena zakonom, – obavlja druge dužnosti određene Ustavom.",
+    "tekst": "Predsjednik Republike: - raspisuje izbore za domove Sabora Republike Hrvatske i saziva ih na prvo zasjedanje ; - raspisuje referendum, u skladu s Ustavom; - imenuje i razrješuje dužnosti predsjednika Vladc Republike Hrvatske; - na prijedlog predsjednika Vlade Republike Hrvatske imenuje i razrješuje dužnosti njezine potpredsjednike i članove; - daje pomilovanja; - dodjeljuje odlikovanja i priznanja odredena zakonom; - obavlja druge dužnosti odredene Ustavom",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "– raspisuje izbore za Hrvatski sabor i saziva ga na prvo zasjedanje, – raspisuje referendum u skladu s Ustavom, – povjerava mandat za sastavljanje Vlade osobi koja, na temelju raspodjele zastupničkih mjesta u Hrvatskom saboru i obavljenih konzultacija, uživa povjerenje većine svih zastupnika, – daje pomilovanja, – dodjeljuje odlikovanja i priznanja određena zakonom, – obavlja druge dužnosti određene Ustavom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1710090D60CAF0B7E7508916C1202E9420FB958141A2441099FCBFE779C00F12",
-    "sha256_datoteke": "5B31F912C6B2FB50FA501785383ECDEB292C3D422908A0EE3D3CDAA7C6B8622A",
+    "sha256_teksta": "859E61D6A70344CB079FEF7E176075D8ABD75880B1BAFEBCE6A4CB4E21B9B1EE",
+    "sha256_datoteke": "E26FA03DA71729D43CDA9C67BFED950E2887BAE9075846AE5B6D721AA5601B2D",
     "napomena": null
   }
 }

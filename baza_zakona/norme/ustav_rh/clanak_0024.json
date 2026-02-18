@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "24",
     "naslov": null,
-    "tekst": "Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrđenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode. SUDSKA PRAKSA: Odluka",
+    "tekst": "Nitko ne može biti uhićen ili pritvoren bez pismenoga, sudbenog i na zakonu utemeljenog naloga. Takav nalog mora biti pročitan i uručen uhićeniku prilikom oduzimanja slobode. Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrdenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrđenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode. SUDSKA PRAKSA: Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F403B6942B1F41777F7A2B1CC0A9EBAA58F1AAEB0818B6D20FB4909363262550",
-    "sha256_datoteke": "4966642372A71F46BBB8BCA51942E030057A1CED71F56BB7F59585162A4EFE15",
+    "sha256_teksta": "77BC32A5894BD4D0FB8A392BA4B0A6905840AAC2873BC2C453A37C2D8060FF59",
+    "sha256_datoteke": "757C06606821EA84B83AA549021A8E76AE4C0A50AB8FDA10ABA0D888B1CD4EF9",
     "napomena": null
   }
 }

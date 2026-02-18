@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "32",
     "naslov": null,
-    "tekst": "Svaki državljanin Republike Hrvatske ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike Hrvatske, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
+    "tekst": "Svatko tko se zakonito nalazi na teritoriju Republike ima pravo slobodno se kretati i birati boravište. Svaki građanin Republike ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Svaki državljanin Republike Hrvatske ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike Hrvatske, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "401C8942AE40AB9A2B1F5418D9A08806875ED51EA1C19F909EAD68A68C26B56D",
-    "sha256_datoteke": "6C23D4459C1486BE91DE3CDD837A74EB1ECD79FED1F615827AB9EB96C85CE525",
+    "sha256_teksta": "81A3F4AF54D508456F00073DDD4AF1387B350A84C27E3B1E810BEEC2E68A1D84",
+    "sha256_datoteke": "89022459BAE8BF9F5B41E3C6254E3E805EA5FFF0122092E7D6D984F94D670164",
     "napomena": null
   }
 }

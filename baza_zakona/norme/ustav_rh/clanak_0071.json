@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": "Ustav Republike Hrvatske",
+    "vrsta": "ustav",
+    "slug": "ustav_rh",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "71",
+    "naslov": null,
+    "tekst": "Zastupnički dom ima najmanje 100, a najviše 160 zastupnika koji se, na temelju općeg i jednakoga biračkog prava, biraju neposredno tajnim glasovanjem. U Županijski dom građani svake županije, na temelju općega biračkog prava, biraju neposredno tajnim glasovanjem tri zastupnika. Predsjednik Republike po isteku mandata postaje, ako se izričito ne odrekne te dužnosti, doživotni član Županijskog doma. Predsjednik Republike može imenovati iz reda za Republiku osobito zaslužnih građana do pet zastupnika u Županijski dom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "17.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+      "datum_pristupa": "17.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B868E5ECF9FDC97EF2370B1BCB9D51371E0E1B342DA689715EC0FA2143D35279",
+    "sha256_datoteke": "C109A64B4E15D0FC54CCB6E8871F1AB285B5ECC62BB09C485CC3974DE47A89BD",
+    "napomena": null
+  }
+}

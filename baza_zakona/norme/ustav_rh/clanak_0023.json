@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "23",
     "naslov": null,
-    "tekst": "Zabranjen je prisilni i obvezatni rad. SUDSKA PRAKSA: Odluka USRH , Odluka USRH",
+    "tekst": "Nitko ne smije biti podvrgnut bilo kakvu obliku zlostavljanja ili, bez svoje privole, liječničkim ili znanstvenim pokusima. Zabranjen je prisilni i obvezatni rad.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zabranjen je prisilni i obvezatni rad. SUDSKA PRAKSA: Odluka USRH , Odluka USRH",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3BAF8EFB588F4D5094DE757C0DED2E6B29F0D81D9BA116DBED7A4A6EE9097653",
-    "sha256_datoteke": "4B20CA4C9D5214F65F3631926F24A2E7735859D227D6F5F292F9FB5B7EE46153",
+    "sha256_teksta": "C00DD1910F0B4F15C8202CE8D1983903E8540B107FAC2DAD1C9E3879DEFCE212",
+    "sha256_datoteke": "5104B204B339DB013077415E7FCD1215855AB893D0F043ED1B27CC3C886F9738",
     "napomena": null
   }
 }

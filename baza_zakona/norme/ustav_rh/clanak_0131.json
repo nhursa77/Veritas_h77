@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "131",
     "naslov": null,
-    "tekst": "Prihodi jedinica lokalne i područne (regionalne) samouprave moraju biti razmjerni njihovim ovlastima predviđenim Ustavom i zakonom. Država je dužna pomagati financijski slabije jedinice lokalne samouprave u skladu sa zakonom. VII. MEĐUNARODNI ODNOSI 1. MEĐUNARODNI UGOVORI",
+    "tekst": "Županija je jedinica lokalne uprave i samouprave. Područja županija određuju se zakonom tako da one budu izražaj povijesnih, prometnih i gospodarskih čimbenika i sposobne da budu prirodne samoupravne cjeline u okviru Republike. Ustrojstvo i djelokrug županijskih tijela odreduju se zakonom. Veliki se gradovi zakonom mogu urediti kao županije. VII. MEĐUNARODNI ODNOSI 1. Međunarodni ugovori",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Prihodi jedinica lokalne i područne (regionalne) samouprave moraju biti razmjerni njihovim ovlastima predviđenim Ustavom i zakonom. Država je dužna pomagati financijski slabije jedinice lokalne samouprave u skladu sa zakonom. VII. MEĐUNARODNI ODNOSI 1. MEĐUNARODNI UGOVORI",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "823BD848C56ECB4D27FA927AEF816564516541D2A348FC4686AB691009FB9A4C",
-    "sha256_datoteke": "DC2E2DA5BFEC652DE20FAC51C56C928720340A8E8EC5F15BFAE374F7E3A84F00",
+    "sha256_teksta": "3264759033B9F1B3612A7BE2E0155E987C89AB0BFB0F31D71B6DDAE9AB8C39B8",
+    "sha256_datoteke": "183612B535DF2EC82ED05B375B0A6C8EF0F16FACFDCA580CFBF3EC928875BE0D",
     "napomena": null
   }
 }

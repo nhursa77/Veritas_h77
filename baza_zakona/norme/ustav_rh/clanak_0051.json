@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "51",
     "naslov": null,
-    "tekst": "Porezni se sustav temelji na načelima jednakosti i pravednosti. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
+    "tekst": "Svatko je dužan sudjelovati u podmirenju javnih troškova, u skladu sa svojim gospodarskim mogućnostima. Porezni se sustav temelji na načelima jednakosti i pravednosti.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Porezni se sustav temelji na načelima jednakosti i pravednosti. SUDSKA PRAKSA: Presuda Visokog upravnog suda",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "E65F66912D888760354869C5ED95DA60579DFE67EA93D0AAFD466ACBE5FD38E1",
-    "sha256_datoteke": "3BACB80BBC24C57F49B48BAB8F2DAD6BAB3F0060F6F9F01CEC57C4BD6AB7BA6E",
+    "sha256_teksta": "BAE1D9826C15A232276C2A42435E9C5203E7158FE6864CBD70BED9EA72439A50",
+    "sha256_datoteke": "8E557BC3CCD7B6F77CDC71E6F13DAF2DC774BB72D50A2561E39406D56331F72A",
     "napomena": null
   }
 }

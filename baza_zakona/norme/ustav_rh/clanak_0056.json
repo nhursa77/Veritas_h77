@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "56",
     "naslov": null,
-    "tekst": "Najduže radno vrijeme određuje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
+    "tekst": "Pravo zaposlenih i članova njihovih obitelji na socijalnu sigurnost i socijalno osiguranje ureduje se zakonom i kolektivnim ugovorom. Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Najduže radno vrijeme određuje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "210017072B97D518BEB619BC4CAE1FA6916E61B6C490F6F406B1091AFE320072",
-    "sha256_datoteke": "D146731CA6BD8CAD5ED226714DF1319C409ACA2FDC17629038E0F81974F6B454",
+    "sha256_teksta": "9E8A337A38C8D39740C27327D34637D4CA3D003069179CC0B4719E5FF629A75C",
+    "sha256_datoteke": "C415A657014476F0A42972650A17724E43D07F42ED5989D804117396ABC128BB",
     "napomena": null
   }
 }

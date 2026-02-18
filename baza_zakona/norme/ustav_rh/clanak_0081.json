@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "81",
     "naslov": null,
-    "tekst": "– odlučuje o donošenju i promjeni Ustava, – donosi zakone, – donosi državni proračun, – odlučuje o ratu i miru, – donosi akte kojima izražava politiku Hrvatskoga sabora, – donosi Strategiju nacionalne sigurnosti i Strategiju obrane Republike Hrvatske, – ostvaruje građanski nadzor nad oružanim snagama i službama sigurnosti Republike Hrvatske, – odlučuje o promjeni granica Republike Hrvatske, – raspisuje referendum, – obavlja izbore, imenovanja i razrješenja, u skladu s Ustavom i zakonom, – nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Hrvatskom saboru, u skladu s Ustavom i zakonom, – daje amnestiju za kaznena djela, – obavlja druge poslove utvrđene Ustavom.",
+    "tekst": "Županijski dom: - predlaže Zastupničkomu domu zakone i raspisivanje referenduma; - raspravlja i može davati mišljenje o pitanjima koja su u djelokrugu Zastupničkog doma; - daje Zastupničkomu domu prethodno mišljenje u postupku donošenja Ustava te zakona kojima se uređuju nacionalna prava, razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave; - može u roku od petnaest dana od dana izglasavanja zakona u Zastupničkom domu, uz obrazloženo mišljenje, vratiti zakon na ponovno odlučivanje Zastupničkomu domu. U tom slučaju Zastupnički dom o donošenju zakona odlučuje natpolovičnom većinom svih zastupnika, osim kada Zastupnički dom zakone donosi dvotrećinskom većinom; - obavlja druge poslove utvrđene Ustavom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "– odlučuje o donošenju i promjeni Ustava, – donosi zakone, – donosi državni proračun, – odlučuje o ratu i miru, – donosi akte kojima izražava politiku Hrvatskoga sabora, – donosi Strategiju nacionalne sigurnosti i Strategiju obrane Republike Hrvatske, – ostvaruje građanski nadzor nad oružanim snagama i službama sigurnosti Republike Hrvatske, – odlučuje o promjeni granica Republike Hrvatske, – raspisuje referendum, – obavlja izbore, imenovanja i razrješenja, u skladu s Ustavom i zakonom, – nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Hrvatskom saboru, u skladu s Ustavom i zakonom, – daje amnestiju za kaznena djela, – obavlja druge poslove utvrđene Ustavom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "2965982B36B501B9BE5CD87215B73584443E26C3D662BF747387D7850F28D4F9",
-    "sha256_datoteke": "0F7EBB0F25D8E0025109CBFBC78B3213E307E1D48D2B793B2E0ED5B39AF0252D",
+    "sha256_teksta": "9DCD90828BCC0775CF61C882511B319CE6FC0E0C8D231FC0A7B8C1CBB42F6E58",
+    "sha256_datoteke": "1FEBD684322FFDD38246445235D7D2A8E317C14F55C9DD64FAF731DF9DAB9443",
     "napomena": null
   }
 }

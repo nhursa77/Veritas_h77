@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "74",
     "naslov": null,
-    "tekst": "Prvo zasjedanje Hrvatskoga sabora održava se najkasnije 20 dana nakon provedenih izbora. Hrvatski sabor konstituira se izborom predsjednika na prvoj sjednici na kojoj je nazočna većina zastupnika.",
+    "tekst": "Zastupnici u Saboru Republike Hrvatske nemaju obvezujući mandat. Zastupnici u Saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Prvo zasjedanje Hrvatskoga sabora održava se najkasnije 20 dana nakon provedenih izbora. Hrvatski sabor konstituira se izborom predsjednika na prvoj sjednici na kojoj je nazočna većina zastupnika.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "84E84DBDE3E9FF899C312387FBF42CC76CE64F189B1CB058A6142B100B3F33CE",
-    "sha256_datoteke": "9F04209E5928AEDDF667D7DAFE7782BC8D0BD4DC80C95E35A9115D0B69A85128",
+    "sha256_teksta": "24F46E528D8F63A6C6D073A3F1D159FA3CBC3BE000160FF7185609E1B5485860",
+    "sha256_datoteke": "DB0C82C99814C0726CC6C60A88E5C2E50490C64AD8DC4520F922AF392B16E375",
     "napomena": null
   }
 }

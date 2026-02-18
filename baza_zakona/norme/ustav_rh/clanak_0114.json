@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "114",
     "naslov": null,
-    "tekst": "Određeni poslovi državne uprave mogu se zakonom povjeriti tijelima jedinica lokalne i područne (regionalne) samouprave i pravnim osobama koje imaju javne ovlasti. Zakonom i drugim propisima uređuje se status državnih službenika te radno-pravni status namještenika. 4. SUDBENA VLAST",
+    "tekst": "Ustrojstvo državne uprave uređuje se zakonom. Službenici u državnoj upravi imenuju se na temelju natječaja ako zakonom nije drukčije određeno. 4. Sudbena vlast",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Određeni poslovi državne uprave mogu se zakonom povjeriti tijelima jedinica lokalne i područne (regionalne) samouprave i pravnim osobama koje imaju javne ovlasti. Zakonom i drugim propisima uređuje se status državnih službenika te radno-pravni status namještenika. 4. SUDBENA VLAST",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "82CCE17B5CDB7D84AB6EB3BA78B25AE9D0DF0056F886C498E63B7F1E649C5664",
-    "sha256_datoteke": "387EFBA3071162EDA7A293F6B284EAC53E0C05DCC3700BFEE7BAFCA19B7AC182",
+    "sha256_teksta": "88B8488820E48F00855D4706DBA75EC45E3F66FF70A68BAEEA779A8527E1D7DE",
+    "sha256_datoteke": "720ED1F9364A495A5315F7AD7525563FB71D93AA2ED734780DB72CF393893DDB",
     "napomena": null
   }
 }

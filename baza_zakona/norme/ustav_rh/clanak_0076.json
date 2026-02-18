@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "76",
     "naslov": null,
-    "tekst": "Promjena Ustava Republike Hrvatske (NN 28/01)",
+    "tekst": "Trajanje mandata zastupnicima u Saboru Republike Hrvatske može se zakonom produžiti samo u slučaju rata.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Promjena Ustava Republike Hrvatske (NN 28/01)",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "81885ABC2E4A143646C51DBA1280C257AC24E0DC95472C53F33538BAC8BBD8C5",
-    "sha256_datoteke": "34A12524B04A26E0CBA87FCA2E5A3E3D044831A24048AE9EFBA088536F13CAD9",
+    "sha256_teksta": "52F775301AFB1B73D559E1ECAFCE284A4E2437067F81F5600A7E0CD440BF49BA",
+    "sha256_datoteke": "80A26D1D20D64A2341197462611A402EA81E9903EB4AF44C45880B291A7F2E41",
     "napomena": null
   }
 }

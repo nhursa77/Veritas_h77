@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "5",
     "naslov": null,
-    "tekst": "Svatko je dužan držati se Ustava i prava i poštivati pravni poredak Republike Hrvatske. Sudska praksa: Odluka USRH , Odluka USRH",
+    "tekst": "U Republici Hrvatskoj zakoni moraju biti u suglasnosti s Ustavom, a ostali propisi i s Ustavom i sa zakonom. Svatko je dužan držati se Ustava i zakona i poštivati pravni poredak Republike.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Svatko je dužan držati se Ustava i prava i poštivati pravni poredak Republike Hrvatske. Sudska praksa: Odluka USRH , Odluka USRH",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "088F37D38673AE59CC8F6FE635F15EC16697DC0B3D02D40419132B8CFB3FA70D",
-    "sha256_datoteke": "F55023A6A8E80E3051837928F6AB248003D7A9A09D89879A25BF6F5D177B0BB9",
+    "sha256_teksta": "3D0DFC9ABA9CD5EA945F9F62DE99037083084A9ECB7BEE1426A92CEB769F3872",
+    "sha256_datoteke": "CD0A341FFA552FCA68A7A6FD424C91DF126D557F5472F38803834B2D358E3273",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "57",
     "naslov": null,
-    "tekst": "Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
+    "tekst": "Slabim, nemoćnima i drugim, zbog nezaposlenosti ili nesposobnosti za rad, nezbrinutim gradanima Republika osigurava pravo na pomoć za podmirenje osnovnih životnih potreba. Posebnu skrb Republika posvećuje zaštiti invalidnih osoba i njihovu uključivanju u društveni život. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CD234E5B4BE7EACD8D12641E848522492BC44A9A5990A780200C11F1161DB6A3",
-    "sha256_datoteke": "2D4323E2C1B291826DBBC26BFF4114115F38F5F43E9BB787A340203EC2638FDA",
+    "sha256_teksta": "006C695097FA2AB209318FC0290193DA78C08F8336EAC9D3F70668EEDD109C9F",
+    "sha256_datoteke": "3DE950FA2175A8CB12ABD4B250624239D05C7AFA01BAD066F2C5BC8DCDA544B0",
     "napomena": null
   }
 }

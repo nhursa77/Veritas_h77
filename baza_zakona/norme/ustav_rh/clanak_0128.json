@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "128",
     "naslov": null,
-    "tekst": "Pravo na samoupravu ostvaruje se preko lokalnih, odnosno područnih (regionalnih) predstavničkih tijela koja su sastavljena od članova izabranih na slobodnim i tajnim izborima na temelju neposrednog, jednakog i općega biračkog prava. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima, putem zborova, referenduma i drugih oblika neposrednog odlučivanja u skladu sa zakonom i statutom. Prava iz ovoga članka u Republici Hrvatskoj ostvaruju i građani Europske unije, u skladu sa zakonom i pravnom stečevinom Europske unije.",
+    "tekst": "Građanima se jamči pravo na lokalnu samoupravu. Pravo na lokalnu samoupravu obuhvaća pravo odlučivanja o potrebama i interesima građana lokalnog značenja, a osobito o uređivanju prostora i urbanističkom planiranju, o uređivanju naselja i stanovanja, o komunalnim djelatnostima, o brizi za djecu, socijalnoj skrbi, kulturi, tjelesnoj kulturi, športu i tehničkoj kulturi te zaštiti i unapređenju prirodnog okoliša. O lokalnoj samoupravi donosi se zakon.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Pravo na samoupravu ostvaruje se preko lokalnih, odnosno područnih (regionalnih) predstavničkih tijela koja su sastavljena od članova izabranih na slobodnim i tajnim izborima na temelju neposrednog, jednakog i općega biračkog prava. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima, putem zborova, referenduma i drugih oblika neposrednog odlučivanja u skladu sa zakonom i statutom. Prava iz ovoga članka u Republici Hrvatskoj ostvaruju i građani Europske unije, u skladu sa zakonom i pravnom stečevinom Europske unije.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "176007F64C2E9275D26F7D1A126717DE7F724876C3C67AC1B563D1E7793C2B82",
-    "sha256_datoteke": "4E7513750C4E117CFCA6D95359925FE709696828A6078549CCDB052424A577E1",
+    "sha256_teksta": "C2586CEFE9CCFF528117989C0CE4D20C5225E10A724F428CD742E5B1C89FC811",
+    "sha256_datoteke": "1D31AEBE52FF3922FBE793819842A4F4FE0D184611D1DE7F308F4612980AA797",
     "napomena": null
   }
 }

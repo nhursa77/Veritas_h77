@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "52",
     "naslov": null,
-    "tekst": "Zakonom se određuje način na koji dobra od interesa za Republiku Hrvatsku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
+    "tekst": "More, morska obala i otoci, vode, zračni prostor, rudno blago i druga prirodna bogatstva, ali i zemljište, šume, biljni i životinjski svijet, drugi dijelovi prirode, nekretnine i stvari od osobito kulturnog, povijesnog, gospodarskog i ekološkog značenja, za koje je zakonom određeno da su od interesa za Republiku, imaju njezinu osobitu zaštitu. Zakonom se određuje način na koji dobra od interesa za Republiku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zakonom se određuje način na koji dobra od interesa za Republiku Hrvatsku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "941318FE77D10816A14DB3BCF13BA6B0A02FA49E999891C61119AED6206B38BC",
-    "sha256_datoteke": "953029CE8831EF9D246DE99F9835A2BCFF9514E6DC1AC16E65C18F2AF3B0FB65",
+    "sha256_teksta": "1C9F6714F65E0F0699F9CAF67C0D83C20FDC1CACD933EEEF188582A8DA11087D",
+    "sha256_datoteke": "410BFBCC7BA4860A8603AC205951B1B4BEF7014459251796499280D94B9FF19F",
     "napomena": null
   }
 }

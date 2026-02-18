@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "96",
     "naslov": null,
-    "tekst": "Nakon izbora Predsjednik Republike podnosi ostavku na članstvo u političkoj stranci, o čemu obavještava Hrvatski sabor.",
+    "tekst": "Predsjednik Republike ne može, osim stranačke, obavljati nikakvu drugu javnu ili profesionalnu dužnost.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Nakon izbora Predsjednik Republike podnosi ostavku na članstvo u političkoj stranci, o čemu obavještava Hrvatski sabor.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "FB1C666277CEDCCAB6E0261C45E069FA7952FB0C351749D1064DF57A4243CF7F",
-    "sha256_datoteke": "4F295F93082C914E8018823EFC60694D210DE1572E31E79204B19A9C087C68A7",
+    "sha256_teksta": "17F9A039DEFF2A798CE9A19B3C992C7027ACCD9D7A5D5DC67231C5638C54E985",
+    "sha256_datoteke": "F6A1FC413E972844D523A7275A0E7D96B2CDEA9AE216C830EC3234CA7924DB4D",
     "napomena": null
   }
 }

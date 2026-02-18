@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "25",
     "naslov": null,
-    "tekst": "SUDAKA PRAKSA: Odluka USRH Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, određenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuđen. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku. SUDSKA PRAKSA: Odluka USRH , Odluka",
+    "tekst": "Sa svakim se uhićenikom i osuđenikom mora postupati čovječno i poštivati njegovo dostojanstvo. Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, odredenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuden. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "SUDAKA PRAKSA: Odluka USRH Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, određenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuđen. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku. SUDSKA PRAKSA: Odluka USRH , Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "38E483EE6114BA9006CF37A99A2197F5119C91F2471A4F15C0B9251F9D05344D",
-    "sha256_datoteke": "B12611158FC73DEA17A9AA037A224C53D2AF2B3F93E98770E81588D851FF594F",
+    "sha256_teksta": "09532F8D76795F9DDCD639301CBEBB7E4935A149C599A9B64A3B8FBB967BD805",
+    "sha256_datoteke": "571E41258CC08872142AA1E3D6744FEC3861FC143532075637E4C12D60A61462",
     "napomena": null
   }
 }

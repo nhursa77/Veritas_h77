@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "87",
     "naslov": null,
-    "tekst": "Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike Hrvatske. O pitanjima iz stavka 1. i 2. ovoga članka Hrvatski sabor će raspisati referendum u skladu sa zakonom ako to zatraži deset posto od ukupnog broja birača u Republici Hrvatskoj. Na referendumu se odlučuje većinom birača koji su pristupili referendumu. Odluka donosena na referendumu obvezatna je. O referendumu se donosi zakon. Zakonom se mogu propisati i uvjeti za održavanje savjetodavnog referenduma.",
+    "tekst": "Zastupnički dom može raspisati referendum o prijedlogu za promjenu Ustava, o prijedlogu zakona ili o drugom pitanju iz svog djelokruga. Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike. Na referendumu se odlučuje većinom birača koji su glasovali, uz uvjet da je referendumu pristupila većina od ukupnog broja birača u Republici. Odluka donesena na referendumu obvezatna je. O referendumu se donosi zakon.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike Hrvatske. O pitanjima iz stavka 1. i 2. ovoga članka Hrvatski sabor će raspisati referendum u skladu sa zakonom ako to zatraži deset posto od ukupnog broja birača u Republici Hrvatskoj. Na referendumu se odlučuje većinom birača koji su pristupili referendumu. Odluka donosena na referendumu obvezatna je. O referendumu se donosi zakon. Zakonom se mogu propisati i uvjeti za održavanje savjetodavnog referenduma.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F2941F969461254FC58B90EF9F250ACB2F9DD816223D5D01B0F46B6B8037904A",
-    "sha256_datoteke": "10582F79008749245B2A12A1AF82CAAE89F919BCA5D20C0CEA4CF4F0A0684C6F",
+    "sha256_teksta": "8D2C7BE0C53A82E241FF1642FE87F2720BB01D9FADFD14CE29385D75C4D010E5",
+    "sha256_datoteke": "6C2D647513B184272CD63891F55BB39290181DC25A82E8994CD8B9EBCFBEC464",
     "napomena": null
   }
 }

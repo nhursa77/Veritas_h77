@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "15",
     "naslov": null,
-    "tekst": "Ravnopravnost i zaštita prava nacionalnih manjina uređuje se ustavnim zakonom koji se donosi po postupku za donošenje organskih zakona. Zakonom se može, pored općega biračkog prava, pripadnicima nacionalnih manjina osigurati posebno pravo da biraju svoje zastupnike u Hrvatski sabor. Pripadnicima svih nacionalnih manjina jamči se sloboda izražavanja nacionalne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
+    "tekst": "U Republici Hrvatskoj ravnopravni su pripadnici svih naroda i manjina. Pripadnicima svih naroda i manjina jamči se sloboda izražavanja narodnosne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Ravnopravnost i zaštita prava nacionalnih manjina uređuje se ustavnim zakonom koji se donosi po postupku za donošenje organskih zakona. Zakonom se može, pored općega biračkog prava, pripadnicima nacionalnih manjina osigurati posebno pravo da biraju svoje zastupnike u Hrvatski sabor. Pripadnicima svih nacionalnih manjina jamči se sloboda izražavanja nacionalne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "ED37CEB2900F9AEA4C909B7B919183E029C0B25FA2A8FCADCB7421EA6CE1BF56",
-    "sha256_datoteke": "670656A67B9A193C399E6440C3CCDFDE147A90C27333A10057809CBEA0AF647E",
+    "sha256_teksta": "DF88CA5E6F06505C71B617A187E3285BC20C86CABB888BB749B78274AD94F465",
+    "sha256_datoteke": "4D0B3FC631F232C55B7E15590F54ED11E4FA060C81A0F291410B0AFF4337DA33",
     "napomena": null
   }
 }

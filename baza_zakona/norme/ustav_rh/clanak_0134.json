@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "134",
     "naslov": null,
-    "tekst": "2. UDRUŽIVANJE I RAZDRUŽIVANJE",
+    "tekst": "Međunarodni ugovori koji su sklopljeni i potvrđeni u skladu s Ustavom i objavljeni, čine dio unutarnjeg pravnog poretka Republike, a po pravnoj su snazi iznad zakona. Njihove se odredbe mogu mijenjati ili ukidati samo uz uvjete i na način koji su u njima utvrđeni, ili suglasno općim pravilima međunarodnog prava. 2. Udruživanje i odcjepljenje Članak I35. Pravo da pokrenu postupak udruživanja Republike Hrvatske u saveze s drugim državama ima najmanje jedna trećina zastupnika u Saboru Republike Hrvatske, Predsjednik Republike i Vlada Republike Hrvatske. O udruživanju Republike prethodno odlučuje Sabor dvotrećinskom većinom glasova svih zastupnika. Odluka o udruživanju Republike donosi se na referendumu većinom glasova ukupnog broja birača u Republici. Referendum se mora održati u roku 30 dana od dana donošenja odluke Sabora. Odredbe ovog Ustava o udruživanju odnose se i na uvjete i postupak razdruživanja (odcjepljenja) Republike Hrvatske osim kada zbog izvanrednih prilika na prijedlog jedne trećine zastupnika ili predsjednika Republike ili Vlade Republike Hrvatske Sabor može donijeti odluku o razdruživanju (odcjepljenju) radi zaštite suvereniteta Republike Hrvatske dvotrećinskom većinom glasova prisutnih zastupnika. VIII. PROMJENA USTAVA",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "2. UDRUŽIVANJE I RAZDRUŽIVANJE",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "23613398B2B1C605C539C88E20A0DE2C3F06949A6F3039422F8C8C10DE5329B1",
-    "sha256_datoteke": "D085B8E40CBBB48B04D7C988A9923D39B9086ED3A86A1CDE4E59BACB6A043863",
+    "sha256_teksta": "D15AF8B9F3CD536B0FB10091FF0F5C6217F583BE2F6744DF9ECB2A7813FD3EF0",
+    "sha256_datoteke": "1DBE348FECB722F7802C03781C370020CDC86817A0B0DDD8DBE315282624158D",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "113",
     "naslov": null,
-    "tekst": "Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se raspravljati i glasovati o povjerenju prije nego protekne sedam dana od dana dostave prijedloga Hrvatskom saboru. Rasprava i glasovanje o povjerenju mora se provesti najkasnije u roku od 30 dana od dana dostave prijedloga Hrvatskom saboru. Odluka o nepovjerenju je donijeta ako je za nju glasovala većina od ukupnog broja zastupnika u Hrvatskom saboru. Ako Hrvatski sabor odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije isteka roka od šest mjeseci. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade i Vlada podnose ostavku. Ako se u roku od 30 dana ne izglasa povjerenje novom mandataru i članovima koje predlaže za sastav Vlade, predsjednik Hrvatskoga sabora obavijestit će o tome Predsjednika Republike Hrvatske. Nakon primljene obavijesti predsjednika Hrvatskoga sabora Predsjednik Republike će odmah donijeti odluku o raspuštanju Hrvatskoga sabora i istovremeno raspisati izbore za Hrvatski sabor. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može umjesto njega predložiti drugoga člana Hrvatskom saboru da mu izglasa povjerenje ili predsjednik Vlade i Vlada mogu podnijeti ostavku. U svim slučajevima kada predsjednik Vlade ili Vlada podnesu ostavku postupit će se u skladu sa stavkom 7. ovoga članka.",
+    "tekst": "Na prijedlog najmanje jedne desetine zastupnika u Zastupničkomu domu može se pokrenuti pitanje povjerenja predsjedniku Vlade, pojedinomu njezinom članu ili Vladi u cjelini. Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se glasovati o povjerenju prije nego proteknu tri dana od dana dostave prijedloga Zastupničkom domu. Odluka o nepovjerenju prihvaćena je ako je za nju glasovala većina od ukupnog broja zastupnika. Ako Zastupnički dnm odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije proteka roka od tri mjeseca. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade podnijet će ostavku predsjedniku Republike, a on će raspustiti Vladu. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može podnijeti ostavku ili može predložiti predsjedniku Republikc da razriješi dužnosti člana Vlade kojemu je izglasano nepovjerenje.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se raspravljati i glasovati o povjerenju prije nego protekne sedam dana od dana dostave prijedloga Hrvatskom saboru. Rasprava i glasovanje o povjerenju mora se provesti najkasnije u roku od 30 dana od dana dostave prijedloga Hrvatskom saboru. Odluka o nepovjerenju je donijeta ako je za nju glasovala većina od ukupnog broja zastupnika u Hrvatskom saboru. Ako Hrvatski sabor odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije isteka roka od šest mjeseci. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade i Vlada podnose ostavku. Ako se u roku od 30 dana ne izglasa povjerenje novom mandataru i članovima koje predlaže za sastav Vlade, predsjednik Hrvatskoga sabora obavijestit će o tome Predsjednika Republike Hrvatske. Nakon primljene obavijesti predsjednika Hrvatskoga sabora Predsjednik Republike će odmah donijeti odluku o raspuštanju Hrvatskoga sabora i istovremeno raspisati izbore za Hrvatski sabor. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može umjesto njega predložiti drugoga člana Hrvatskom saboru da mu izglasa povjerenje ili predsjednik Vlade i Vlada mogu podnijeti ostavku. U svim slučajevima kada predsjednik Vlade ili Vlada podnesu ostavku postupit će se u skladu sa stavkom 7. ovoga članka.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DD0A2419D5984E6D6A2F1C6DBF4B725AE033032D4CCC3C538EC6B53169A2959C",
-    "sha256_datoteke": "64CC455DAFFEBB4167A6600DD54E76B4C51B488A2DD9B6BA4FA84A8389C3BB45",
+    "sha256_teksta": "B856148042F80D625DCDC209D56BA184EF2B52B5AEBB8BF2D1A4C00EF5A23E53",
+    "sha256_datoteke": "7F907309695E07C3A19FEBFC1BC99CD4A9CB3D321EA7E8B964852E4E04F883DD",
     "napomena": null
   }
 }

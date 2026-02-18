@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "83",
     "naslov": null,
-    "tekst": "Zakone (organski zakoni) kojima se razrađuju Ustavom utvrđena ljudska prava i temeljne slobode, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela te ustrojstvo i djelokrug lokalne i područne (regionalne) samouprave Hrvatski sabor donosi većinom glasova svih zastupnika. Odluku iz članka 8. Ustava Hrvatski sabor donosi dvotrećinskom većinom glasova svih zastupnika.",
+    "tekst": "Zakone kojima se uređuju nacionalna prava Zastupnički dom donosi dvotrećinskom većinom glasova svih zastupnika. Zakone kojima se razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave Zastupnički dom donosi većinom glasova svih zastupnika.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Zakone (organski zakoni) kojima se razrađuju Ustavom utvrđena ljudska prava i temeljne slobode, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela te ustrojstvo i djelokrug lokalne i područne (regionalne) samouprave Hrvatski sabor donosi većinom glasova svih zastupnika. Odluku iz članka 8. Ustava Hrvatski sabor donosi dvotrećinskom većinom glasova svih zastupnika.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "2A789B32FF34C0935ED071C57491F39F12BE104C0157DA48E002A08D88420AF0",
-    "sha256_datoteke": "A3CDD774082CF29C324F171963817B82CC4FEF910ADECC89AB0FC1C0B66E4600",
+    "sha256_teksta": "0926D217A2033DFBF8F044CC2AD1B815B1FCC25B945DA9D562C49B815C681EB1",
+    "sha256_datoteke": "CB777C7227B86A6782CAA39655B97A42A80454B190D49D1B977495506CF2FC6A",
     "napomena": null
   }
 }

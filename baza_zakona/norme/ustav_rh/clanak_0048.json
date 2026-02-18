@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "48",
     "naslov": null,
-    "tekst": "Vlasništvo obvezuje. Nositelji vlasničkog prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete određene zakonom. Jamči se pravo nasljeđivanja. SUDSKA PRAKSA: Odluka Ustavnog suda , Odluka Ustavnog suda",
+    "tekst": "Jamči se pravo vlasništva. Vlasništvo obvezuje. Nositelji vlasničkoga prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete odredene zakonom. Jamči se pravo nasljeđivanja.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Vlasništvo obvezuje. Nositelji vlasničkog prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete određene zakonom. Jamči se pravo nasljeđivanja. SUDSKA PRAKSA: Odluka Ustavnog suda , Odluka Ustavnog suda",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "AAB9965BDE580D886B4A6A7C9AC39FB53FA3ECF477B1AB4B47EF9E27EB50BF29",
-    "sha256_datoteke": "57005FF0B813BD927348E3842EF593A766590A96264BF857B9705BA2EA142AEC",
+    "sha256_teksta": "4D007E12BD50390BA9C17F4B77B99FDF2DCEC8795BC4C289834FF8FD3881EFF1",
+    "sha256_datoteke": "BFFE49B664CAA5FCEFC239AF1E904063D909AADB8E5D5348D10A9B0666932139",
     "napomena": null
   }
 }

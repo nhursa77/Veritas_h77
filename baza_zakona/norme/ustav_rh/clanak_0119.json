@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "119",
     "naslov": null,
-    "tekst": "Suci i suci porotnici koji sudjeluju u suđenju ne mogu biti pozvani na odgovornost za izraženo mišljenje ili glasovanje pri donošenju sudbene odluke, osim ako se radi o kršenju zakona od strane suca koje je kazneno djelo. Sudac ne može u postupku pokrenutom zbog kaznenog djela učinjenog u obavljanju sudačke dužnosti biti pritvoren niti mu može biti određen istražni zatvor bez odobrenja Državnoga sudbenog vijeća.",
+    "tekst": "Suci i suci porotnici koji sudjeluju u sudenju ne mogu biti pozvani na odgovornost za mišljenje dano pri donošenju sudbene odluke. Suci imaju, u skladu sa zakonom, imunitet kao i zastupnici u Saboru Republike Hrvatske.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Suci i suci porotnici koji sudjeluju u suđenju ne mogu biti pozvani na odgovornost za izraženo mišljenje ili glasovanje pri donošenju sudbene odluke, osim ako se radi o kršenju zakona od strane suca koje je kazneno djelo. Sudac ne može u postupku pokrenutom zbog kaznenog djela učinjenog u obavljanju sudačke dužnosti biti pritvoren niti mu može biti određen istražni zatvor bez odobrenja Državnoga sudbenog vijeća.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0833EFA87B47145A787A9B26246B8DE39562A8EA35D9D36622A99269BA8A69C6",
-    "sha256_datoteke": "E29D291DDEFDD0AC728513170F1FF85C6FA58E579A1260DA9F1CF86DD6EA0A3F",
+    "sha256_teksta": "747A9AB2A11A5072FB01FACC9A7BEEA0B62E989B55F6EAF3135FBED16B25F70D",
+    "sha256_datoteke": "07C2CA64B4F3F4BC6AA50EFE04E78A2308B8FC2EFA6F106A79F626DD2648BA1C",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "17",
     "naslov": null,
-    "tekst": "Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost osoba s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi. SUDSKA PRAKSA: Odluka",
+    "tekst": "U doba ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, te velikih prirodnih nepogoda pojedine slobode i prava zajamčena Ustavom mogu se ograničiti. O tome odlučuje Sabor Republike Hrvatske dvotrećinskom većinom svih zastupnika, a ako se Sabor ne može sastati, predsjednik Republike. Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost građana s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi ovoga Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost osoba s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi. SUDSKA PRAKSA: Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7787D908DC589E7BCC6B5A2E9A69DAF026B3153891D7E3657677D006BF90315E",
-    "sha256_datoteke": "8CC36727C62B314A9F396AC683594BD3EAE81E3166D9E8B59223428364BF070B",
+    "sha256_teksta": "072166546FAFBC62F02657CFF49F71038101A5F08BF0AE6FB29B14BECB91D306",
+    "sha256_datoteke": "ED16EFE7CF3A8208B3E22427B79001A43E53745785F7BFE220B49DCB5C59C9B5",
     "napomena": null
   }
 }

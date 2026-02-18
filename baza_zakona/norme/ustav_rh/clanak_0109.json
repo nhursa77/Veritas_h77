@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "109",
     "naslov": null,
-    "tekst": "Odmah po sastavljanju Vlade, a najkasnije u roku od 30 dana od prihvaćanja mandata, mandatar je dužan program Vlade i Vladu predstaviti Hrvatskom saboru i zatražiti glasovanje o povjerenju. Vlada stupa na dužnost kad joj povjerenje iskaže većina svih zastupnika u Hrvatskom saboru. Predsjednik i članovi Vlade polažu svečanu prisegu pred Hrvatskim saborom. Tekst prisege utvrđuje se zakonom. Na temelju odluke Hrvatskoga sabora o iskazivanju povjerenja Vladi Republike Hrvatske, rješenje o imenovanju predsjednika Vlade donosi Predsjednik Republike uz supotpis predsjednika Hrvatskoga sabora, a rješenje o imenovanju članova Vlade donosi predsjednik Vlade uz supotpis predsjednika Hrvatskoga sabora. Članak 109.a Ako mandatar ne sastavi Vladu u roku od 30 dana od dana prihvaćanja mandata, Predsjednik Republike mu može produžiti mandat za najviše još 30 dana. Ako ni u tom roku mandatar ne uspije sastaviti Vladu ili ako predložena Vlada ne dobije povjerenje Hrvatskoga sabora, Predsjednik Republike povjerit će mandat za sastav Vlade drugoj osobi. Članak 109.b Ako Vlada ne bude sastavljena u skladu s člankom 110. i 111. Ustava, Predsjednik Republike će imenovati privremenu nestranačku Vladu i istodobno raspisati prijevremene izbore za Hrvatski sabor.",
+    "tekst": "Ustrojstvo i način rada i odlučivanja Vlade propisuje se zakonom i njenim poslovnikom. Unutarnje ustrojstvo ministarstva, Vlada uređuje uredbama, a za obavljanje svojih poslova osniva službe.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Odmah po sastavljanju Vlade, a najkasnije u roku od 30 dana od prihvaćanja mandata, mandatar je dužan program Vlade i Vladu predstaviti Hrvatskom saboru i zatražiti glasovanje o povjerenju. Vlada stupa na dužnost kad joj povjerenje iskaže većina svih zastupnika u Hrvatskom saboru. Predsjednik i članovi Vlade polažu svečanu prisegu pred Hrvatskim saborom. Tekst prisege utvrđuje se zakonom. Na temelju odluke Hrvatskoga sabora o iskazivanju povjerenja Vladi Republike Hrvatske, rješenje o imenovanju predsjednika Vlade donosi Predsjednik Republike uz supotpis predsjednika Hrvatskoga sabora, a rješenje o imenovanju članova Vlade donosi predsjednik Vlade uz supotpis predsjednika Hrvatskoga sabora. Članak 109.a Ako mandatar ne sastavi Vladu u roku od 30 dana od dana prihvaćanja mandata, Predsjednik Republike mu može produžiti mandat za najviše još 30 dana. Ako ni u tom roku mandatar ne uspije sastaviti Vladu ili ako predložena Vlada ne dobije povjerenje Hrvatskoga sabora, Predsjednik Republike povjerit će mandat za sastav Vlade drugoj osobi. Članak 109.b Ako Vlada ne bude sastavljena u skladu s člankom 110. i 111. Ustava, Predsjednik Republike će imenovati privremenu nestranačku Vladu i istodobno raspisati prijevremene izbore za Hrvatski sabor.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C76584E62DDE4FAA6D56B2B6B4FADAFB13A8D8D2A94AADC7FDDA93AB8F4E0BCA",
-    "sha256_datoteke": "E05C99B55F439AC15EBA37863C3092B44A0A45F6815F937228B78859B35AA9AA",
+    "sha256_teksta": "7D9672B152CA84222ED9391F540EC92328EE3A203E916E72C2D9A3FA773E129D",
+    "sha256_datoteke": "F67D13AE4E8BEDC8BACFB7D72A8CE68941DC8C6B23C84833DB05AA687E022A3B",
     "napomena": null
   }
 }

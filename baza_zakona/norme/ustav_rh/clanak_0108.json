@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "108",
     "naslov": null,
-    "tekst": "Bez odobrenja Vlade predsjednik i članovi Vlade ne mogu obavljati nijednu drugu javnu ili profesionalnu dužnost.",
+    "tekst": "Vladu Republike Hrvatske čine predsjednik, potpredsjednici, ministri i drugi njezini članovi.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Bez odobrenja Vlade predsjednik i članovi Vlade ne mogu obavljati nijednu drugu javnu ili profesionalnu dužnost.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "19E236A2FC6B56E7FEF73F7896364FC6CB4E544EE3C8E222BD7EA6B5FFF72074",
-    "sha256_datoteke": "B951CA3FA8A2D3739E6637FAE68779B85184D6DF078B6B8FC8ADE6D6DB8D3C53",
+    "sha256_teksta": "ED851F9527CA44C1B61AE99392D767F4B66405A3A62EB6F770D6699292373DF0",
+    "sha256_datoteke": "F7ACA83421B7FB4789789475950F776482237148CD9530E9B0D0F2362842BC74",
     "napomena": null
   }
 }

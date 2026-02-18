@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "70",
     "naslov": null,
-    "tekst": "'IX. ZAVRŠNE ODREDBE Članak 146.a Stupanjem na snagu ove Promjene Ustava Republike Hrvatske prestaje s radom Županijski dom Hrvatskoga sabora te prestaje dužnost dosadašnjem predsjedniku i članovima Državnoga sudbenog vijeća i predsjedniku Vrhovnog suda Republike Hrvatske. Članak 146.b Hrvatski sabor donijet će Ustavni zakon za provedbu Ustava Republike Hrvatske. Članak 146.c Promjena Ustava Republike Hrvatske stupa na snagu kad ju proglasi Zastupnički dom Hrvatskoga sabora. Promjena Ustava Republike Hrvatske (NN 76/10)",
+    "tekst": "Sabor Republike Hrvatske je predstavničko tijelo građana i nositelj zakonodavne vlasti u Republici Hrvatskoj. Sabor Republike Hrvatske se sastoji od Zastupničkog doma i Županijskog doma.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "'IX. ZAVRŠNE ODREDBE Članak 146.a Stupanjem na snagu ove Promjene Ustava Republike Hrvatske prestaje s radom Županijski dom Hrvatskoga sabora te prestaje dužnost dosadašnjem predsjedniku i članovima Državnoga sudbenog vijeća i predsjedniku Vrhovnog suda Republike Hrvatske. Članak 146.b Hrvatski sabor donijet će Ustavni zakon za provedbu Ustava Republike Hrvatske. Članak 146.c Promjena Ustava Republike Hrvatske stupa na snagu kad ju proglasi Zastupnički dom Hrvatskoga sabora. Promjena Ustava Republike Hrvatske (NN 76/10)",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4017A44C0BDD96C47C61DC409FBA6DA8B36D412E0C5B9AD4704E3AA960E742E7",
-    "sha256_datoteke": "8262933DDA015689A8E3DC97C5ACA66E57FC7ADCD715B2C8FB01F5160B006594",
+    "sha256_teksta": "07678AD6E34402A8A42C6376CD7F9F14C57AC85830C639B66F91202FF3C7C36D",
+    "sha256_datoteke": "419212B19060B0434FF45A31B8A47CD94E804E15DE8950A49DB9B2C21A518DCB",
     "napomena": null
   }
 }

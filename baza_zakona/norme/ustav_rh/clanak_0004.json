@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "4",
     "naslov": null,
-    "tekst": "Načelo diobe vlasti uključuje oblike međusobne suradnje i uzajamne provjere nositelja vlasti propisane Ustavom i zakonom.",
+    "tekst": "U Republici Hrvatskoj državna je vlast ustrojena na načelu diobe vlasti na zakonodavnu, izvršnu i sudbenu.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Načelo diobe vlasti uključuje oblike međusobne suradnje i uzajamne provjere nositelja vlasti propisane Ustavom i zakonom.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DE000CE0D9307E62EC3E3E8715A075C16522596BD91866B499025340051B7DB5",
-    "sha256_datoteke": "0F7E0E3F8D7352CA9815F11A919E2FE7B0A39DB483B90F0487D95096C354B5C5",
+    "sha256_teksta": "5140C3F8AEAAF838FDA773C128AE2C1DCAC00A93188487FBC387ABEE05D1FFD5",
+    "sha256_datoteke": "B09F31192A745CCADBB24DFB757C257724016DB665929EF9E590CA53FEC7E8AD",
     "napomena": null
   }
 }

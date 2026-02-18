@@ -90,3 +90,15 @@ zakon.hr je opcionalna kontrola i usporedba, ali nije dokazni temelj.
 	kontrola arhive)
 - af79517 -> fix: kontrola NN izvora (nevaljan URL + validacija meta)
 - 38d490b -> feat: parsiranje NN (HTML) u strukturu (generički)
+
+---
+
+## Datum: 18.02.2026.
+
+### Sažetak
+Implementiran je Normiratelj iz NN strukture u NORMA JSON.
+Pokrenut je pilot za `ustav_rh` preko PS runnera iz repo roota.
+Generirani su članci `clanak_XXXX.json` i `IZVJESTAJ_NORMIRANJA.md`.
+
+### Napomena
+Ulaz je `struktura_nn.json` uz `meta.json` iz NN arhive kao dokazni izvor.

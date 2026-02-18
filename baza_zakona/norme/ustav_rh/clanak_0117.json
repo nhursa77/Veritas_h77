@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "117",
     "naslov": null,
-    "tekst": "Javnost se može isključiti iz cijele rasprave ili njezina dijela zbog razloga koji su nužni u demokratskom društvu radi interesa morala, javnog reda ili državne sigurnosti, posebno ako se sudi maloljetnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i posvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike Hrvatske, ali samo u opsegu koji je po mišljenju suda bezuvjetno potreban u posebnim okolnostima u kojima bi javnost mogla biti štetna za interese pravde.",
+    "tekst": "Sudske su rasprave javne i presude se izriču javno, u ime Republike Hrvatske. Javnost se može isključiti iz cijele rasprave ili njezina dijela ako se sudi malodobnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i usvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Javnost se može isključiti iz cijele rasprave ili njezina dijela zbog razloga koji su nužni u demokratskom društvu radi interesa morala, javnog reda ili državne sigurnosti, posebno ako se sudi maloljetnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i posvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike Hrvatske, ali samo u opsegu koji je po mišljenju suda bezuvjetno potreban u posebnim okolnostima u kojima bi javnost mogla biti štetna za interese pravde.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "650CBA481F5F4BF1FED249F5C0CDFA1CB06A4C639235F94C83A5BC656B01EC38",
-    "sha256_datoteke": "1A7C1B918498A97E232F1576DF349D65E5A87AEADE4513B965E39EF009939665",
+    "sha256_teksta": "4224180C27AD5925A929757108EA86006BF406ADA1A52365CDB13726A92AF498",
+    "sha256_datoteke": "946D60A9587573F909F178F591640F69048F74BA5B21781C26B7B1DF5A716422",
     "napomena": null
   }
 }

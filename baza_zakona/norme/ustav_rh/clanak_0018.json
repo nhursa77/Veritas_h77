@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "18",
     "naslov": null,
-    "tekst": "Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita. SUDSKA PRAKSA: Odluka",
+    "tekst": "Jamči se pravo na žalbu protiv pojedinačnih pravnih akata donesenih u postupku prvog stupnja pred sudom ili drugim ovlaštenim tijelom. Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita. SUDSKA PRAKSA: Odluka",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "79D67488EFA44B8514A66E7733D9F3DF81B46C32167ABA81B3335343407A6754",
-    "sha256_datoteke": "95A7B91E8CA07C9725E7683FADD404CD12451DBD12AB6BF06C4D80861A4E4DAA",
+    "sha256_teksta": "A27D26D70C9EDD413F6658295349444D5C0619A1D251BF3C213C8302CADD58CC",
+    "sha256_datoteke": "098113FEC0A84A76E1FC7107FE85C7544F9284C2EB1C43414995D6EC87C15E7F",
     "napomena": null
   }
 }

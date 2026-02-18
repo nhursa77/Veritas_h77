@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "122",
     "naslov": null,
-    "tekst": "Postupak kandidiranja sudaca Ustavnog suda i predlaganja za izbor Hrvatskom saboru provodi odbor Hrvatskoga sabora, nadležan za Ustav. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
+    "tekst": "Ustavni sud Republike Hrvatske čini jedanaest sudaca koje bira Zastupnički dom na prijedlog Županijskog doma, na vrijeme od osam godina iz reda istaknutih pravnika, osobito sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Postupak kandidiranja sudaca Ustavnog suda i predlaganja za izbor Hrvatskom saboru provodi odbor Hrvatskoga sabora, nadležan za Ustav. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "32A70A751BE8DC8AC3747D55D21EE7DBD1C03EC4DFF4A56C4F4C65E22A03630B",
-    "sha256_datoteke": "DAD3EF8210F243AC89DA1BA517563DAD1880B33EF4D259CAA3D58D97BD8ADCE4",
+    "sha256_teksta": "D2C2B11DE4FD223FF92BAAD8075EDF3D831AB7594E2FDBF707906D4B8709DD36",
+    "sha256_datoteke": "3B8DE9BC7F1A7C480AFC06B55B7B3EB7D7397C806D06C750DC4626379109A002",
     "napomena": null
   }
 }

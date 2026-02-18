@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "139",
     "naslov": null,
-    "tekst": "X. ZAVRŠNE ODREDBE",
+    "tekst": "Promjenu Ustava proglašava Zastupnički dom Sabora Republike Hrvatske. IX. PRIJELAZNE I ZAVRŠNE ODREDBE",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "X. ZAVRŠNE ODREDBE",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "FBF89C79FB7480987DFF6AD02964CE5AC94769063B7093C3A0D7BE2ED2111219",
-    "sha256_datoteke": "4EAA9F1B911DA578789555725C33EA6216E52E2F3917AE0EDF6F1169615E19FD",
+    "sha256_teksta": "1855BD3836E4E40EE4A949984B4571F775633EB8541CD32209118A955E215A54",
+    "sha256_datoteke": "22157C58766783FA198A19E2E5BA3F41AC5A2AA53052F60FF4F76AC6CAB656F6",
     "napomena": null
   }
 }

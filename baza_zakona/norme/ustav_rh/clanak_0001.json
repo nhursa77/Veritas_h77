@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "1",
     "naslov": null,
-    "tekst": "U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
+    "tekst": "I. Grb Republike Hrvatske povijesni je hrvatski grb čija je osnovica 25 naizmjeničnih crvenih i bijelih (srebrenih) polja. Zastava Republike Hrvatske sastoji se od tri boje: crvene, bijele i plave, s povijesnim hrvatskim grbom u sredini. Himna je Republike Hrvatske \"Lijepa naša domovino\". Opis povijesnoga hrvatskog grba i zastave i tekst himne te uporaba i zaštita tih i drugih državnih znamenja ureduje se zakonom.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6AB6A347F29E842911681201FF0FE4B0B3BD2AB9B60A51868B2F46C0857BAB21",
-    "sha256_datoteke": "15FE50210915D2206B48B16DE7A20F53D3994AB6DFB3E61F515E9BE1124C4C8A",
+    "sha256_teksta": "DA92FDA48C1AEC7DEE056F13A3DCF9779C9CAC95C932BAEAACEECA258BF517B3",
+    "sha256_datoteke": "0BBCFA8A42E9A65E187E51133B0C1A82237259B24E82A95264F9DAF9D43BF943",
     "napomena": null
   }
 }

@@ -9,37 +9,38 @@
   "clanak": {
     "oznaka": "102",
     "naslov": null,
-    "tekst": "Predsjednik Republike može biti nazočan sjednici Vlade i sudjelovati u raspravi.",
+    "tekst": "Predsjednik Republike može sazvati sjednicu Vlade Republike Hrvatske i stavljati na njezin dnevni red pitanja za koja smatra da ih treba razmotriti. Predsjednik Republike predsjedava sjednici Vlade na kojoj je nazočan.",
     "struktura": {
-      "stavci": [
-        {
-          "broj": 1,
-          "tekst": "Predsjednik Republike može biti nazočan sjednici Vlade i sudjelovati u raspravi.",
-          "tocke": null
-        }
-      ]
+      "stavci": null
     }
   },
   "verzija": {
     "stanje_na_dan": "17.02.2026.",
-    "datum_provjere": "17.02.2026.",
-    "napomena": "Operativni tekst: zakon.hr (pročišćeni)."
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
   },
   "izvori": {
     "operativni_izvor": {
-      "naziv": "zakon.hr",
-      "url": "https://www.zakon.hr/z/94/Ustav-Republike-Hrvatske",
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
       "datum_pristupa": "17.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
-      "sidra": []
+      "sidra": [
+        {
+          "nn_broj": "NN 56/1990",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html"
+        }
+      ]
     },
-    "status_sidra": "nema"
+    "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "EED3F46E0012E481B2790DA9DD2178B71929803E5C5EB5E96FAA79685AA7ADA4",
-    "sha256_datoteke": "D50ECFB71E0C78F17698549C2811EC1654F8F51C9EFC9811C628834DE756B826",
+    "sha256_teksta": "9AF4DA63F96E321D82B4818214D98EA9A00DDB863F8264693E640FE5194814B9",
+    "sha256_datoteke": "47C82C2DAE98A062FAFD2BBE0B09FF002014E65FF68C4C2A4E343A3AAEA43FC1",
     "napomena": null
   }
 }
