@@ -143,3 +143,8 @@ headere `Članak <N>` na početku retka; dodan je debug output
 Kontrolni parser sada parsira isključivo linije `Članak N.` te sanitizira
 tipfelere `I/l` kao `1`; uklonjeni su fantomski brojevi i u anomaly hints je
 dodan `FOUND_TYPO_HEADERS` (npr. `Članak I35 -> 135`).
+
+### NN parser typo fix `I35 -> 135` (ustav_rh)
+NN parser sada normalizira tipfelere broja članka `I/l -> 1` u headeru,
+regenerirana je `struktura_nn.json` i NORMA izlaz, te je kreiran
+`baza_zakona/norme/ustav_rh/clanak_0135.json`.

@@ -114,6 +114,8 @@ PROVJERA:
 - broj članaka i osnovna struktura su konzistentni s izvorom
 - parser odvaja `Članak <broj> <RIMSKI>.` na broj članka + oznaku glave
 - rimska oznaka glave se ne smije interpretirati kao dio broja članka
+- parser normalizira tipfelere broja članka `I/l -> 1`
+  (npr. `Članak I35.` -> `Članak 135.`)
 - za `ustav_rh` vrijedi specifična korekcija anomalije `Članak 1 I.` -> čl. 11
    (uz položaj `10, 1(I), 12` i sadržajni keyword-check)
 GATE:
