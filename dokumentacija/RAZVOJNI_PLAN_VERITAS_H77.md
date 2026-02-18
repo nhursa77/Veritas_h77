@@ -176,6 +176,9 @@ Status pilot (18.02.2026.):
 - ulazi: `struktura_nn.json` + `meta.json` iz NN arhive
 - izlazi: `baza_zakona/norme/ustav_rh/clanak_XXXX.json`
 - artefakti: `IZVJESTAJ_NORMIRANJA.md` i integritet po članku
+- za `ustav_rh` normiranje koristi `struktura_nn_dokumenti.json`
+  i normira isključivo dokument `ustav_rh_procisceni`
+  (amandmani su evidentirani u izvještaju, ali se ne normiraju)
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

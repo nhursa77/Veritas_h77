@@ -6,7 +6,7 @@ $root = Split-Path -Path $PSScriptRoot -Parent
 $scriptPath = Join-Path $PSScriptRoot "normiratelj_iz_strukture_nn.py"
 $venvPython = Join-Path $root ".venv\Scripts\python.exe"
 
-$inputPath = Join-Path $root "izvori\dokazno\narodne_novine\ustav_rh\struktura_nn.json"
+$inputPath = Join-Path $root "izvori\dokazno\narodne_novine\ustav_rh\struktura_nn_dokumenti.json"
 $metaPath = Join-Path $root "izvori\dokazno\narodne_novine\ustav_rh\meta.json"
 $outDir = Join-Path $root "baza_zakona\norme\ustav_rh"
 

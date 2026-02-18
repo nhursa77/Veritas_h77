@@ -165,3 +165,9 @@ Uveden je cutoff marker za odvajanje pročišćenog teksta od amandmana u
 `ustav_rh_kontrolni.txt`, a amandmanski dio je izbačen iz usporedbe.
 Parser zaglavlja je stabiliziran (anchored `Članak <N>` + heuristika za
 sumnjive truncirane headere), čime je uklonjen ghost efekt `12` umjesto `123`.
+
+### Normiratelj — doc split ulaz i procisceni-only norme
+Normiratelj za `ustav_rh` prebačen je na ulaz
+`struktura_nn_dokumenti.json` i generira norme samo iz
+`ustav_rh_procisceni`; amandmani su ignorirani u normama i evidentirani
+u `IZVJESTAJ_NORMIRANJA.md` kroz sekciju "Document split (NN)".

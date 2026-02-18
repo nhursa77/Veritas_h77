@@ -1,8 +1,8 @@
 {
   "akt": {
-    "naziv": "Ustav Republike Hrvatske",
-    "vrsta": "ustav",
-    "slug": "ustav_rh",
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
     "jurisdikcija": "RH",
     "jezik": "hr"
   },
@@ -40,7 +40,7 @@
   },
   "integritet": {
     "sha256_teksta": "9E7C0046C3000112401AF3C96A59BDED6749DD2D2181B0A0B99F3393A6A80EA6",
-    "sha256_datoteke": "03FD264821900D4B58CEB3E9BBAD35C8FB854760F80C49922B9531EF914F525A",
+    "sha256_datoteke": "83DB3DA3FE5F411837E79F0917AF56E58BB0A59546147AADB3200CCABADBAD50",
     "napomena": null
   }
 }
