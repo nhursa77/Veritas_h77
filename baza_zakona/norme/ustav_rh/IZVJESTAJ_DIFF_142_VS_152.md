@@ -1,0 +1,160 @@
+# IZVJESTAJ_DIFF_142_VS_152
+
+## Summary
+
+- OLD_COUNT: 142
+- NEW_COUNT: 152
+- ADDED_COUNT: 10
+- REMOVED_COUNT: 0
+- CHANGED_COUNT: 131
+
+## Added in 152 (not in 142)
+
+- Članak 143
+- Članak 144
+- Članak 145
+- Članak 146
+- Članak 147
+- Članak 148
+- Članak 149
+- Članak 150
+- Članak 151
+- Članak 152
+
+## Removed in 152 (present in 142, missing in 152)
+
+- (none)
+
+## Changed (present in both, hash/len differs)
+
+- Članak 2: old_len=902, new_len=892, old_hash=4A5C0E43, new_hash=09D552C3
+- Članak 3: old_len=277, new_len=330, old_hash=7B692162, new_hash=36534DCB
+- Članak 4: old_len=108, new_len=318, old_hash=761C4D93, new_hash=85538254
+- Članak 5: old_len=190, new_len=198, old_hash=54A0096C, new_hash=3E561E41
+- Članak 6: old_len=299, new_len=523, old_hash=086D62E2, new_hash=FD52658C
+- Članak 7: old_len=164, new_len=2542, old_hash=A30ACF22, new_hash=06979CE2
+- Članak 8: old_len=86, new_len=78, old_hash=9ABF00D0, new_hash=DD432501
+- Članak 9: old_len=220, new_len=367, old_hash=506C2D18, new_hash=52EFE3B8
+- Članak 10: old_len=230, new_len=229, old_hash=51AD960A, new_hash=D9322C7F
+- Članak 11: old_len=414, new_len=416, old_hash=8800B054, new_hash=B0FF9225
+- Članak 12: old_len=263, new_len=264, old_hash=966E183A, new_hash=EA5516BA
+- Članak 13: old_len=222, new_len=183, old_hash=F956B7A4, new_hash=C1799559
+- Članak 14: old_len=286, new_len=282, old_hash=0125A3DB, new_hash=66879683
+- Članak 15: old_len=225, new_len=525, old_hash=8EED71C2, new_hash=3D68E04D
+- Članak 16: old_len=140, new_len=255, old_hash=7A9D5894, new_hash=78985743
+- Članak 17: old_len=801, new_len=842, old_hash=A4D99FE6, new_hash=426BC119
+- Članak 20: old_len=189, new_len=172, old_hash=B294FCDA, new_hash=FE2C5F96
+- Članak 21: old_len=80, new_len=81, old_hash=1EBDA7B7, new_hash=E22D7FC7
+- Članak 24: old_len=605, new_len=604, old_hash=2396D0DD, new_hash=3BF2A2F3
+- Članak 25: old_len=446, new_len=446, old_hash=4BA8269C, new_hash=FEB3C66B
+- Članak 26: old_len=108, new_len=130, old_hash=BF7C2F72, new_hash=04DC008A
+- Članak 27: old_len=102, new_len=100, old_hash=60C42CDA, new_hash=6262CB76
+- Članak 29: old_len=630, new_len=1332, old_hash=9E7C0046, new_hash=E214DBCA
+- Članak 31: old_len=484, new_len=992, old_hash=FBFE2571, new_hash=3D0E969A
+- Članak 32: old_len=464, new_len=494, old_hash=7F236D3D, new_hash=0116A8D8
+- Članak 33: old_len=388, new_len=397, old_hash=26D7CE15, new_hash=6CD8F195
+- Članak 34: old_len=811, new_len=810, old_hash=7195DEB9, new_hash=B42516C2
+- Članak 35: old_len=123, new_len=111, old_hash=948DD9A3, new_hash=57B707A1
+- Članak 36: old_len=201, new_len=198, old_hash=EDB11240, new_hash=4507EC61
+- Članak 37: old_len=355, new_len=352, old_hash=8205A6CB, new_hash=91FA3178
+- Članak 38: old_len=414, new_len=692, old_hash=CE63104D, new_hash=82B9699D
+- Članak 42: old_len=72, new_len=84, old_hash=E5F5E97F, new_hash=6EA237BF
+- Članak 43: old_len=492, new_len=498, old_hash=A7F2DBDA, new_hash=A8A9B9AE
+- Članak 44: old_len=132, new_len=144, old_hash=0D620279, new_hash=A1C8E94D
+- Članak 45: old_len=421, new_len=1277, old_hash=E142ECCD, new_hash=141E9CB5
+- Članak 46: old_len=133, new_len=125, old_hash=5514653F, new_hash=03DC9C77
+- Članak 47: old_len=346, new_len=358, old_hash=F24FB5A6, new_hash=E0B269F8
+- Članak 48: old_len=233, new_len=232, old_hash=B53E1BD7, new_hash=9F61C91D
+- Članak 49: old_len=457, new_len=503, old_hash=A72F55D3, new_hash=B010C5E1
+- Članak 50: old_len=271, new_len=289, old_hash=C0A6CB5F, new_hash=6ABD805B
+- Članak 52: old_len=535, new_len=556, old_hash=0794AEE1, new_hash=B3CCC5DA
+- Članak 53: old_len=432, new_len=333, old_hash=0097945D, new_hash=67D9006E
+- Članak 54: old_len=155, new_len=324, old_hash=0E25C15A, new_hash=A7CF6921
+- Članak 55: old_len=321, new_len=155, old_hash=8B4C5C01, new_hash=0E25C15A
+- Članak 56: old_len=210, new_len=321, old_hash=7B15105A, new_hash=22F497C2
+- Članak 57: old_len=337, new_len=210, old_hash=4CD05F41, new_hash=1EEA0081
+- Članak 58: old_len=58, new_len=487, old_hash=E08BF8DD, new_hash=6672FAE5
+- Članak 59: old_len=337, new_len=67, old_hash=98C7E76C, new_hash=2EB5F855
+- Članak 60: old_len=147, new_len=409, old_hash=11AE093F, new_hash=D4C1CFB4
+- Članak 61: old_len=129, new_len=147, old_hash=4E724359, new_hash=11AE093F
+- Članak 62: old_len=168, new_len=126, old_hash=FC4BDC24, new_hash=7AD0171E
+- Članak 63: old_len=478, new_len=165, old_hash=491F31A3, new_hash=D27A75F0
+- Članak 64: old_len=312, new_len=475, old_hash=CD079E81, new_hash=8ED15D03
+- Članak 65: old_len=168, new_len=318, old_hash=8BC101B9, new_hash=0A03B7AF
+- Članak 66: old_len=78, new_len=168, old_hash=DC706090, new_hash=078446D8
+- Članak 67: old_len=119, new_len=73, old_hash=79E611F7, new_hash=4040930E
+- Članak 68: old_len=426, new_len=119, old_hash=F50D7792, new_hash=79E611F7
+- Članak 69: old_len=323, new_len=417, old_hash=17FAFD4F, new_hash=28FDCB44
+- Članak 70: old_len=188, new_len=256, old_hash=236E35FC, new_hash=5E9B32D1
+- Članak 71: old_len=522, new_len=101, old_hash=AB06B20A, new_hash=0AF2FA9F
+- Članak 72: old_len=246, new_len=151, old_hash=A9E6AC1F, new_hash=B8669E4C
+- Članak 73: old_len=245, new_len=148, old_hash=951CCBAB, new_hash=541B68B2
+- Članak 74: old_len=155, new_len=324, old_hash=013D2AFB, new_hash=B4DE5357
+- Članak 75: old_len=773, new_len=156, old_hash=4C900B6E, new_hash=A19A2A1B
+- Članak 76: old_len=106, new_len=799, old_hash=C96BE200, new_hash=D74044D9
+- Članak 77: old_len=176, new_len=143, old_hash=8FF8A1FD, new_hash=FEE4ADC8
+- Članak 78: old_len=286, new_len=206, old_hash=9504334C, new_hash=2A72C092
+- Članak 79: old_len=413, new_len=401, old_hash=3EA1E8F1, new_hash=DC669A05
+- Članak 80: old_len=468, new_len=197, old_hash=F7AFE038, new_hash=C72F48F5
+- Članak 81: old_len=829, new_len=719, old_hash=87B36190, new_hash=8B65165C
+- Članak 82: old_len=178, new_len=160, old_hash=A341237A, new_hash=D9FFB625
+- Članak 83: old_len=358, new_len=522, old_hash=816468F8, new_hash=EAA15614
+- Članak 84: old_len=53, new_len=38, old_hash=A7103660, new_hash=48D690EF
+- Članak 85: old_len=142, new_len=127, old_hash=B32EC74B, new_hash=2DA958D5
+- Članak 86: old_len=167, new_len=360, old_hash=FA90A1A9, new_hash=C4AD73A7
+- Članak 87: old_len=584, new_len=775, old_hash=10FEA2CA, new_hash=38DF39DD
+- Članak 88: old_len=570, new_len=567, old_hash=CD28D282, new_hash=E5DD6022
+- Članak 89: old_len=119, new_len=274, old_hash=BEDBCD16, new_hash=5031D2B4
+- Članak 90: old_len=302, new_len=605, old_hash=421CC96B, new_hash=622D26E3
+- Članak 91: old_len=150, new_len=222, old_hash=BFB7AD45, new_hash=B7557C0B
+- Članak 92: old_len=184, new_len=255, old_hash=767C7F9A, new_hash=B487A70B
+- Članak 93: old_len=401, new_len=1101, old_hash=41669B91, new_hash=ADADAF1D
+- Članak 94: old_len=231, new_len=297, old_hash=9FF7D108, new_hash=0F40EDD7
+- Članak 95: old_len=849, new_len=936, old_hash=08B2F9A9, new_hash=B784CBEB
+- Članak 96: old_len=105, new_len=208, old_hash=0C379982, new_hash=756A6C5F
+- Članak 97: old_len=409, new_len=1218, old_hash=D2A6CFBF, new_hash=DD57E35A
+- Članak 98: old_len=462, new_len=436, old_hash=875198D3, new_hash=FD658C5B
+- Članak 99: old_len=298, new_len=623, old_hash=F4C9158F, new_hash=60C42057
+- Članak 100: old_len=348, new_len=465, old_hash=C94196D7, new_hash=CA07095E
+- Članak 101: old_len=503, new_len=1055, old_hash=E67E8942, new_hash=0B100F4B
+- Članak 102: old_len=220, new_len=173, old_hash=67675630, new_hash=61839D31
+- Članak 103: old_len=136, new_len=314, old_hash=B9824FBA, new_hash=B2D66ADF
+- Članak 104: old_len=377, new_len=498, old_hash=40F3A525, new_hash=48C1994E
+- Članak 105: old_len=466, new_len=682, old_hash=7917DA80, new_hash=E71F9ABD
+- Članak 106: old_len=207, new_len=507, old_hash=489A604E, new_hash=A20F7D3E
+- Članak 107: old_len=78, new_len=637, old_hash=B5F20421, new_hash=51D6B7D7
+- Članak 108: old_len=95, new_len=78, old_hash=7D30B1A4, new_hash=B5F20421
+- Članak 109: old_len=193, new_len=200, old_hash=5BBB2C59, new_hash=15872EFF
+- Članak 110: old_len=158, new_len=794, old_hash=4E7D2136, new_hash=3E931B4E
+- Članak 111: old_len=235, new_len=338, old_hash=7C1ED4DB, new_hash=CF90C928
+- Članak 112: old_len=263, new_len=195, old_hash=B1A88F9D, new_hash=33C8C655
+- Članak 113: old_len=982, new_len=429, old_hash=258F0FBA, new_hash=C7F41F22
+- Članak 114: old_len=161, new_len=105, old_hash=EDD46019, new_hash=95378410
+- Članak 115: old_len=113, new_len=165, old_hash=B835C438, new_hash=B9E0D6B2
+- Članak 116: old_len=295, new_len=1595, old_hash=BBF19789, new_hash=5A82B3C2
+- Članak 117: old_len=382, new_len=367, old_hash=95E08FB7, new_hash=38FD7122
+- Članak 118: old_len=60, new_len=164, old_hash=2D211B08, new_hash=44F11ED6
+- Članak 119: old_len=220, new_len=526, old_hash=33D499F5, new_hash=4B779760
+- Članak 120: old_len=622, new_len=654, old_hash=DA4941ED, new_hash=47D785C1
+- Članak 121: old_len=472, new_len=122, old_hash=7BC53F65, new_hash=1198BF04
+- Članak 122: old_len=340, new_len=458, old_hash=0D8F2A9D, new_hash=4B30C11B
+- Članak 123: old_len=202, new_len=1319, old_hash=648BBA43, new_hash=D804CC58
+- Članak 124: old_len=260, new_len=1198, old_hash=F74E29D9, new_hash=E7FBC70D
+- Članak 125: old_len=620, new_len=1567, old_hash=CD655AAC, new_hash=F57EBD55
+- Članak 126: old_len=186, new_len=735, old_hash=9AE5B6FD, new_hash=0825E55D
+- Članak 127: old_len=578, new_len=193, old_hash=16545507, new_hash=58770E66
+- Članak 128: old_len=453, new_len=260, old_hash=85B20539, new_hash=F74E29D9
+- Članak 129: old_len=536, new_len=1238, old_hash=4959D3A9, new_hash=9454B391
+- Članak 130: old_len=573, new_len=261, old_hash=CAD7B2AA, new_hash=099332A5
+- Članak 131: old_len=392, new_len=446, old_hash=50FD7087, new_hash=5EE3AD8D
+- Članak 132: old_len=144, new_len=600, old_hash=3471C448, new_hash=AF67B962
+- Članak 133: old_len=382, new_len=612, old_hash=43CC93FA, new_hash=E3CD51D9
+- Članak 134: old_len=345, new_len=519, old_hash=46668987, new_hash=36E38A58
+- Članak 135: old_len=900, new_len=1157, old_hash=9543E680, new_hash=A910095B
+- Članak 136: old_len=188, new_len=218, old_hash=404A0AF9, new_hash=9F979BF2
+- Članak 137: old_len=215, new_len=194, old_hash=EEFD2F25, new_hash=A3B3FA21
+- Članak 138: old_len=133, new_len=427, old_hash=BB46EF48, new_hash=ABF4E236
+- Članak 139: old_len=104, new_len=229, old_hash=E50F7C19, new_hash=E0819990
+- Članak 140: old_len=583, new_len=719, old_hash=14135508, new_hash=5070173A
+- Članak 141: old_len=342, new_len=376, old_hash=9D474BDB, new_hash=E3522AAB
+- Članak 142: old_len=2636, new_len=945, old_hash=FC5CCDF4, new_hash=E9539DEE

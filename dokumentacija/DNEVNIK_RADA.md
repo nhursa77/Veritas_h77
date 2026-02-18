@@ -177,3 +177,8 @@ Dodan je novi dokazni snapshot `ustav_rh_nn_85_2010` (NN 85/2010,
 pročišćeni tekst) i iz njega je generiran operativni set od 152 normi.
 Stari operativni set (142) je arhiviran u
 `baza_zakona/arhiva/ustav_rh_nn_56_1990_1092_142/`.
+
+### Diff 142 vs 152 — automatizirani izvještaj
+Dodan je alat `alati/diff_ustav_rh_sets.py` koji uspoređuje arhivski set
+142 s operativnim setom 152 i generira
+`baza_zakona/norme/ustav_rh/IZVJESTAJ_DIFF_142_VS_152.md`.

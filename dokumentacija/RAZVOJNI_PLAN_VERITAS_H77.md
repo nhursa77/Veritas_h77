@@ -182,6 +182,9 @@ Status pilot (18.02.2026.):
 - operativni izvor za `ustav_rh` je pročišćeni NN `85/2010`
   (`ustav_rh_nn_85_2010`), dok stariji `NN 56/1990` snapshot ostaje
   sačuvan u arhivi radi usporedbe i traga izvora
+- nakon promjene operativnog izvora obavezno se generira diff izvještaj
+  142 vs 152 (`IZVJESTAJ_DIFF_142_VS_152.md`) kao strojna kontrola
+  dodanih/uklonjenih/promijenjenih članaka
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
