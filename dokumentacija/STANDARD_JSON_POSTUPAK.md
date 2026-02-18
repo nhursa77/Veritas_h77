@@ -1,4 +1,3 @@
-````markdown
 # Standard JSON “POSTUPAK” (procedura) — kanonski
 
 ## 0) Svrha
@@ -322,5 +321,3 @@ Ako uvjeti nisu zadovoljeni, izlaz mora biti `popis_za_dopunu` ili
 
 Svi postupci i koraci Veritasa H.77 moraju biti opisani ovim standardom.
 Svako odstupanje je nekanonsko i mora biti ispravljeno prije vanjske uporabe.
-
-````
