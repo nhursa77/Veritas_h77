@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "86",
     "naslov": null,
-    "tekst": "Zastupnici u domovima Sabora Republike Hrvatske imaju, u skladu s poslovnikom pravo, postavljati Vladi Republike Hrvatske i pojedinim ministrima zastupnička pitanja.",
+    "tekst": ". Zastupnici u domovima Sabora Republike Hrvatske imaju, u skladu s poslovnikom pravo, postavljati Vladi Republike Hrvatske i pojedinim ministrima zastupnička pitanja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DACE1351765D7515752E6F16165B38D79E77770CA4D4E12A58911A1925B29FD4",
-    "sha256_datoteke": "C9C4F69B3B77DE2B89AEF2679C33C86DCBC8C3124C28EB7045F73A9419B57D76",
+    "sha256_teksta": "FA90A1A956CB7B1EC25E674A938E1F3F67F02E88EB1723803C2A61BEB85B34F6",
+    "sha256_datoteke": "197CBCE66A05FAA79DD71B6EDAD86F5E80DC355DC80287313279368A930348BB",
     "napomena": null
   }
 }

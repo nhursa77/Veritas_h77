@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "45",
     "naslov": null,
-    "tekst": "Biračko pravo, opće i jednako, imaju svi državljani Republike s navršenih 18 godina. Biračko se pravo ostvaruje na neposrednim izborima tajnim glasovanjem. U izborima za Sabor i predsjednika Republike ostvarivanje biračkog prava Republika osigurava i svojim državljanima koji se u doba izbora zateknu izvan njezinih granica tako da mogu glasovati i u državama u kojima se nalaze ili na koji drugi način određen zakonom.",
+    "tekst": ". Biračko pravo, opće i jednako, imaju svi državljani Republike s navršenih 18 godina. Biračko se pravo ostvaruje na neposrednim izborima tajnim glasovanjem. U izborima za Sabor i predsjednika Republike ostvarivanje biračkog prava Republika osigurava i svojim državljanima koji se u doba izbora zateknu izvan njezinih granica tako da mogu glasovati i u državama u kojima se nalaze ili na koji drugi način određen zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A1888CA242ADBD494FA68E0B2A9162170BFCB17585AAA1A5A670DDCB47A0F244",
-    "sha256_datoteke": "85BD479439F6E4A0797FA440BA4AB97590D22E8454416D56ABD25DB5066313D9",
+    "sha256_teksta": "E142ECCDB3276DB28EBE7C85F3CDF31B236F4EEB08107ADAE47459C522E77925",
+    "sha256_datoteke": "2E42350446B8B967E1B545619D834902F21A5BB54CC5AE7FBB2B56A08AFC5E44",
     "napomena": null
   }
 }

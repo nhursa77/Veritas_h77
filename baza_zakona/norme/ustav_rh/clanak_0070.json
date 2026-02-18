@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "70",
     "naslov": null,
-    "tekst": "Sabor Republike Hrvatske je predstavničko tijelo građana i nositelj zakonodavne vlasti u Republici Hrvatskoj. Sabor Republike Hrvatske se sastoji od Zastupničkog doma i Županijskog doma.",
+    "tekst": ". Sabor Republike Hrvatske je predstavničko tijelo građana i nositelj zakonodavne vlasti u Republici Hrvatskoj. Sabor Republike Hrvatske se sastoji od Zastupničkog doma i Županijskog doma.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "07678AD6E34402A8A42C6376CD7F9F14C57AC85830C639B66F91202FF3C7C36D",
-    "sha256_datoteke": "419212B19060B0434FF45A31B8A47CD94E804E15DE8950A49DB9B2C21A518DCB",
+    "sha256_teksta": "236E35FC0056CB726B62F230A658C0A3E4923F96C5765E6EDF3E2A13670038B2",
+    "sha256_datoteke": "E24447263E1EC63586B2EAB3DF9034E78FFB4BE797957B2B80219104F05602E6",
     "napomena": null
   }
 }

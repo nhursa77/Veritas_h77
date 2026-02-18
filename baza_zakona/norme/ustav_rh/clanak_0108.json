@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "108",
     "naslov": null,
-    "tekst": "Vladu Republike Hrvatske čine predsjednik, potpredsjednici, ministri i drugi njezini članovi.",
+    "tekst": ". Vladu Republike Hrvatske čine predsjednik, potpredsjednici, ministri i drugi njezini članovi.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "ED851F9527CA44C1B61AE99392D767F4B66405A3A62EB6F770D6699292373DF0",
-    "sha256_datoteke": "F7ACA83421B7FB4789789475950F776482237148CD9530E9B0D0F2362842BC74",
+    "sha256_teksta": "7D30B1A46C0FD145D41217955814632B00C09EF4B9C7D568B39CC23465B8D484",
+    "sha256_datoteke": "2E29F1B80D8BBBA27A605130987BAE7986F3050B849719B6E258B827F5C6B3B0",
     "napomena": null
   }
 }

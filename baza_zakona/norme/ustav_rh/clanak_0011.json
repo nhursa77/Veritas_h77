@@ -7,9 +7,9 @@
     "jezik": "hr"
   },
   "clanak": {
-    "oznaka": "46",
+    "oznaka": "11",
     "naslov": null,
-    "tekst": ". Svaki građanin ima pravo slati predstavke i pritužbe, davati prijedloge državnim i drugim javnim tijelima i dobiti na njih odgovor.",
+    "tekst": "Grb Republike Hrvatske povijesni je hrvatski grb čija je osnovica 25 naizmjeničnih crvenih i bijelih (srebrenih) polja. Zastava Republike Hrvatske sastoji se od tri boje: crvene, bijele i plave, s povijesnim hrvatskim grbom u sredini. Himna je Republike Hrvatske \"Lijepa naša domovino\". Opis povijesnoga hrvatskog grba i zastave i tekst himne te uporaba i zaštita tih i drugih državnih znamenja ureduje se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5514653F6E0413869E4C70836B5BCFEE3E83E53ABF09F2A94F6AD62F3BB3FF3C",
-    "sha256_datoteke": "D936219214BDE944CFCFEE46C346B05D98BDC9940AFADB128ED776A5030A88B8",
+    "sha256_teksta": "8800B0549A8F60CDC21F231507E54C06593BD943F0474D8F74F9011AB1F648AE",
+    "sha256_datoteke": "5C0C5070C709B7FB4C317D1201CE24499034B42373A8E8E390D7AA3C20671622",
     "napomena": null
   }
 }

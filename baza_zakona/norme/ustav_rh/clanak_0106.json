@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "106",
     "naslov": null,
-    "tekst": "Predsjedniku Republike u obavljanju njegovih ovlasti pomažu Predsjedničko vijeće i druga savjetodavna i pomoćna tijela kojima članove imenuje i razrješuje predsjednik Republike. 3. Vlada Republike Hrvatske",
+    "tekst": ". Predsjedniku Republike u obavljanju njegovih ovlasti pomažu Predsjedničko vijeće i druga savjetodavna i pomoćna tijela kojima članove imenuje i razrješuje predsjednik Republike. 3. Vlada Republike Hrvatske",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4137BCF1F4697455F84E2F6593E8D980AAABD4F82C75899F1BFB9B7204494A02",
-    "sha256_datoteke": "468D1E1E504DBB6CE14070583B828102C6C348E0D2F61187D3D7114E77BB3EB0",
+    "sha256_teksta": "489A604E1FF140D1F3D908CF531360059756C715E09B64FC2D70D16CCC03C976",
+    "sha256_datoteke": "CC6517D89E1976782207C35ABB95E28F7741278D994BE09AF80B3AE1B8506A16",
     "napomena": null
   }
 }

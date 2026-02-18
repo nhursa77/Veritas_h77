@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "97",
     "naslov": null,
-    "tekst": "U slučaju smrti, ostavke ili trajne spriječenosti predsjednika Republike da obavlja svoju dužnost, nastup koje utvrđuje Ustavni sud Republike Hrvatske na prijedlog Vlade Republike Hrvatske, dužnost predsjednika Republike privremeno preuzima predsjednik Sabora Republike H rvatske. Izbor novog predsjednika Republike mora se obaviti u roku 60 dana od dana kada je bivši predsjednik prestao obavljati dužnost.",
+    "tekst": ". U slučaju smrti, ostavke ili trajne spriječenosti predsjednika Republike da obavlja svoju dužnost, nastup koje utvrđuje Ustavni sud Republike Hrvatske na prijedlog Vlade Republike Hrvatske, dužnost predsjednika Republike privremeno preuzima predsjednik Sabora Republike H rvatske. Izbor novog predsjednika Republike mora se obaviti u roku 60 dana od dana kada je bivši predsjednik prestao obavljati dužnost.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F802139D8BEDE0DEF67C3F63868E85C872EEC84D11F236D932A159A9422E41CE",
-    "sha256_datoteke": "691AE9493E4B3238CA15EF605E3FB59A121FAAD8CBB61EA8B42A9522463ED5E8",
+    "sha256_teksta": "D2A6CFBF5DC512D466D39EC36ED94D2E1E378DE022D49565EE35DE1E64E36A66",
+    "sha256_datoteke": "EB6F9E171043983BE43169E3C56BA116F105CCE26CB6EED76D8D150279CF0172",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "119",
     "naslov": null,
-    "tekst": "Suci i suci porotnici koji sudjeluju u sudenju ne mogu biti pozvani na odgovornost za mišljenje dano pri donošenju sudbene odluke. Suci imaju, u skladu sa zakonom, imunitet kao i zastupnici u Saboru Republike Hrvatske.",
+    "tekst": ". Suci i suci porotnici koji sudjeluju u sudenju ne mogu biti pozvani na odgovornost za mišljenje dano pri donošenju sudbene odluke. Suci imaju, u skladu sa zakonom, imunitet kao i zastupnici u Saboru Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "747A9AB2A11A5072FB01FACC9A7BEEA0B62E989B55F6EAF3135FBED16B25F70D",
-    "sha256_datoteke": "07C2CA64B4F3F4BC6AA50EFE04E78A2308B8FC2EFA6F106A79F626DD2648BA1C",
+    "sha256_teksta": "33D499F5F85BB705E1CFEB3693DCD8F123EE652883EE533EADC413F57F5F4816",
+    "sha256_datoteke": "04D1B71A4F1E2116136DAAB2C0DEBF73B1E54D162B5E33EB9ADE4437C34CF211",
     "napomena": null
   }
 }

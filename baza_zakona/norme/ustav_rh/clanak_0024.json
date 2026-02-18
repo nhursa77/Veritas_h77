@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "24",
     "naslov": null,
-    "tekst": "Nitko ne može biti uhićen ili pritvoren bez pismenoga, sudbenog i na zakonu utemeljenog naloga. Takav nalog mora biti pročitan i uručen uhićeniku prilikom oduzimanja slobode. Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrdenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode.",
+    "tekst": ". Nitko ne može biti uhićen ili pritvoren bez pismenoga, sudbenog i na zakonu utemeljenog naloga. Takav nalog mora biti pročitan i uručen uhićeniku prilikom oduzimanja slobode. Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrdenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "77BC32A5894BD4D0FB8A392BA4B0A6905840AAC2873BC2C453A37C2D8060FF59",
-    "sha256_datoteke": "757C06606821EA84B83AA549021A8E76AE4C0A50AB8FDA10ABA0D888B1CD4EF9",
+    "sha256_teksta": "2396D0DD24663269F7766AFE81E108CA68A5B1BEA2848934D1AB73DBF5C663A1",
+    "sha256_datoteke": "A7E0C0BF1AE68E2C24C3D49A666358431050BB0BBF9F2B195D0A3757EFC50DC2",
     "napomena": null
   }
 }

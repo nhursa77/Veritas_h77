@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "57",
     "naslov": null,
-    "tekst": "Slabim, nemoćnima i drugim, zbog nezaposlenosti ili nesposobnosti za rad, nezbrinutim gradanima Republika osigurava pravo na pomoć za podmirenje osnovnih životnih potreba. Posebnu skrb Republika posvećuje zaštiti invalidnih osoba i njihovu uključivanju u društveni život. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
+    "tekst": ". Slabim, nemoćnima i drugim, zbog nezaposlenosti ili nesposobnosti za rad, nezbrinutim gradanima Republika osigurava pravo na pomoć za podmirenje osnovnih životnih potreba. Posebnu skrb Republika posvećuje zaštiti invalidnih osoba i njihovu uključivanju u društveni život. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "006C695097FA2AB209318FC0290193DA78C08F8336EAC9D3F70668EEDD109C9F",
-    "sha256_datoteke": "3DE950FA2175A8CB12ABD4B250624239D05C7AFA01BAD066F2C5BC8DCDA544B0",
+    "sha256_teksta": "4CD05F41BD80AE2DFD34A21D751B3B6750135C7A99F6E03812775226CBCE05FA",
+    "sha256_datoteke": "56BE3802D48C6B9205EBBDC4E9EC34903235FD7DA74B7B09813E6B33C43242E5",
     "napomena": null
   }
 }

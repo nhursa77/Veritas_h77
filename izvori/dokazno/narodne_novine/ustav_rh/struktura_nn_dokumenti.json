@@ -1,0 +1,1308 @@
+{
+  "glavni_akt": {
+    "slug": "ustav_rh",
+    "naziv": "Ustav Republike Hrvatske"
+  },
+  "dokumenti": [
+    {
+      "doc_id": "ustav_rh_procisceni",
+      "tip": "ustav_procisceni",
+      "nn": "NN 56/1990",
+      "naslov": "Ustav Republike Hrvatske",
+      "clanci": [
+        {
+          "broj": 1,
+          "naslov": null,
+          "tekst": ". Republika Hrvatska jedinstvena je i nedjeljiva demokratska i socijalna država. U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 2,
+          "naslov": null,
+          "tekst": ". Suverenitet Republike Hrvatske neotuđiv je, nedjeljiv i neprenosiv. Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Sabor Republike Hrvatske i narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: - o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj, - o očuvanju -prirodnog i kulturnog bogatstva i korištenju njime ; - o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 3,
+          "naslov": null,
+          "tekst": ". Sloboda, jednakost, nacionalna ravnopravnost, mirotvorstvo, socijalna pravda, poštivanje prava čovjeka, nepovredivost vlasništva, očuvanje prirode i čovjekova okoliša, vladavina prava i demokratski višestranački sustav najviše su vrednote ustavnog poretka Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 4,
+          "naslov": null,
+          "tekst": ". U Republici Hrvatskoj državna je vlast ustrojena na načelu diobe vlasti na zakonodavnu, izvršnu i sudbenu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 5,
+          "naslov": null,
+          "tekst": ". U Republici Hrvatskoj zakoni moraju biti u suglasnosti s Ustavom, a ostali propisi i s Ustavom i sa zakonom. Svatko je dužan držati se Ustava i zakona i poštivati pravni poredak Republike.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 6,
+          "naslov": null,
+          "tekst": ". Slobodno je osnivanje političkih stranaka. Političke se stranke ustrojavaju po teritorijalnom načelu. Nije dopušten rad političke stranke koja svojim programom ili djelovanjem nasilno ugrožava demokratski ustavni poredak, neovisnost, jedinstvenost ili teritorijalnu cjelovitost Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 7,
+          "naslov": null,
+          "tekst": ". Oružane snage Republike Hrvatske štite njezin suverenitet i neovisnost i brane njenu teritorijalnu cjelovitost. Obrambeno se ustrojstvo Republike uređuje zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 8,
+          "naslov": null,
+          "tekst": ". Granice se Republike Hrvatske mogu mijenjati samo odlukom Sabora Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 9,
+          "naslov": null,
+          "tekst": ". Hrvatsko državljanstvo, njegovo stjecanje i prestanak uređuje se zakonom. Državljanin Republike Hrvatske ne može biti prognan iz Republike niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 10,
+          "naslov": null,
+          "tekst": ". Republika Hrvatska štiti prava i interese svojih državljana koji žive ili borave u inozemstvu i promiče njihove veze s domovinom. Dijelovima hrvatskoga naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 11,
+          "naslov": null,
+          "tekst": "Grb Republike Hrvatske povijesni je hrvatski grb čija je osnovica 25 naizmjeničnih crvenih i bijelih (srebrenih) polja. Zastava Republike Hrvatske sastoji se od tri boje: crvene, bijele i plave, s povijesnim hrvatskim grbom u sredini. Himna je Republike Hrvatske \"Lijepa naša domovino\". Opis povijesnoga hrvatskog grba i zastave i tekst himne te uporaba i zaštita tih i drugih državnih znamenja ureduje se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null,
+            "nn_korekcija": "ANOMALIJA_C1I_TO_C11",
+            "izvorna_glava_rimski": "I"
+          }
+        },
+        {
+          "broj": 12,
+          "naslov": null,
+          "tekst": ". U Repulici Hrvatskoj u službenoj je uporabi hrvatski jezik i latinično pismo. U pojedinim lokalnim jedinicama uz hrvatski jezik i latinično pismo u službenu se uporabu može uvesti i drugi jezik te čirilično ili koje drugo pismo pod uvjetima propisanima zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 13,
+          "naslov": null,
+          "tekst": ". Glavni je grad Republike Hrvatske Zagreb. Grad Zagreb je posebna i jedinstvena teritorijalna i upravna cjelina, kojoj se ustrojstvo uređuje zakonom. III. TEMELJNE SLOBODE I PRAVA ČOVJEKA I GRAĐANINA 1. Zajedničke odredbe",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 14,
+          "naslov": null,
+          "tekst": ". Građani Republike Hrvatske imaju sva prava i slobode, neovisno o njihovoj rasi, boji kože, spolu, jeziku, vjeri, političkom ili drugom uvjerenju, nacionalnom ili socijalnom podrijetlu, imovini, rođenju, naobrazbi, društvenom položaju ili drugim osobinama. Svi su pred zakonom jednaki.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 15,
+          "naslov": null,
+          "tekst": ". U Republici Hrvatskoj ravnopravni su pripadnici svih naroda i manjina. Pripadnicima svih naroda i manjina jamči se sloboda izražavanja narodnosne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 16,
+          "naslov": null,
+          "tekst": ". Slobode i prava mogu se ograničiti samo zakonom da bi se zaštitila sloboda i prava drugih ljudi te pravni poredak, javni moral i zdravlje.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 17,
+          "naslov": null,
+          "tekst": ". U doba ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, te velikih prirodnih nepogoda pojedine slobode i prava zajamčena Ustavom mogu se ograničiti. O tome odlučuje Sabor Republike Hrvatske dvotrećinskom većinom svih zastupnika, a ako se Sabor ne može sastati, predsjednik Republike. Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost građana s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi ovoga Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 18,
+          "naslov": null,
+          "tekst": ". Jamči se pravo na žalbu protiv pojedinačnih pravnih akata donesenih u postupku prvog stupnja pred sudom ili drugim ovlaštenim tijelom. Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 19,
+          "naslov": null,
+          "tekst": ". Pojedinačni akti državne uprave i tijela koja imaju javne ovlasti moraju biti utemeljeni na zakonu. Zajamčuje se sudska kontrola zakonitosti pojedinačnih akata upravnih vlasti i tijela koja imaju javne ovlasti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 20,
+          "naslov": null,
+          "tekst": ". Tko se ogriješi o odredbe ovoga Ustava o temeljnim slobodama i pravima čovjeka i građanina, osobno je odgovoran i ne može se opravdati višim nalogom. 2. Osobne i političke slobode i prava",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 21,
+          "naslov": null,
+          "tekst": ". Svako ljudsko biće ima pravo na život. U Republici Hrvatskoj nema smrtne kazne",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 22,
+          "naslov": null,
+          "tekst": ". Čovjekova je sloboda i osobnost nepovrediva. Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 23,
+          "naslov": null,
+          "tekst": ". Nitko ne smije biti podvrgnut bilo kakvu obliku zlostavljanja ili, bez svoje privole, liječničkim ili znanstvenim pokusima. Zabranjen je prisilni i obvezatni rad.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 24,
+          "naslov": null,
+          "tekst": ". Nitko ne može biti uhićen ili pritvoren bez pismenoga, sudbenog i na zakonu utemeljenog naloga. Takav nalog mora biti pročitan i uručen uhićeniku prilikom oduzimanja slobode. Bez sudbenoga naloga redarstvo može uz obvezu da je odmah preda sudu uhititi osobu protiv koje postoji osnovana sumnja da je počinila teško kazneno djelo određeno zakonom. Uhićena osoba mora odmah na način njoj razumljiv biti obaviještena o razlozima uhićenja, te o svojim pravima utvrdenima zakonom. Svaka se osoba koja je uhićena ili pritvorena ima pravo žaliti sudu, koji će bez odgode odlučiti o zakonitosti lišenja slobode.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 25,
+          "naslov": null,
+          "tekst": ". Sa svakim se uhićenikom i osuđenikom mora postupati čovječno i poštivati njegovo dostojanstvo. Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, odredenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuden. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 26,
+          "naslov": null,
+          "tekst": ". Svi su građani i stranci jednaki pred sudovima i drugim državnim i inim tijelima koja imaju javne ovlasti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 27,
+          "naslov": null,
+          "tekst": ". Odvjetništvo kao samostalna i neovisna služba osigurava građanima pravnu pomoć, u skladu sa zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 28,
+          "naslov": null,
+          "tekst": ". Svatko je nedužan i nitko ga ne može smatrati krivim za kazneno djelo dok mu se pravomoćnom sudskom presudom ne utvrdi krivnja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 29,
+          "naslov": null,
+          "tekst": ". Svatko tko je osumnjičen ili optužen zbog kaznenog djela ima pravo: - na pravično suđenje pred nadležnim sudom ustanovljenime zakonom; - u najkraćem roku biti izviješten o razlozima optužbe što se diže protiv njega i o dokazima koji ga terete; - na branitelja i nesmetano općenje s braniteljem, i s tim pravom mora biti upoznat; - da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, te da se brani sam ili uz pomoć branitelja kojega je sam izabrao. Okrivljenik i optuženik ne smije se siliti da iskazuje protiv sebe ili da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 30,
+          "naslov": null,
+          "tekst": ". Kaznena osuda za teška i osobito nečasna kaznena djela može, u skladu sa zakonom, imati za posljedicu gubitak stečenih ili zabranu stjecanja na određeno vrijeme nekih prava na obavljanje određenih poslova, ako to zahtijeva zaštita pravnog poretka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 31,
+          "naslov": null,
+          "tekst": ". Nitko ne može biti kažnjen za djelo koje prije nego je počinjeno nije bilo utvrđeno zakonom ili međunarodnim pravom kao kazneno djelo, niti mu se može izreći kazna koja nije bila određena zakonom. Ako zakon nakon počinjenog djela odredi blažu kaznu, odredit će se takva kazna. Nitko ne može ponovno biti suđen za djelo za koje je već bio suđen i za koje je donesena pravomoćna sudska odluka. Ne može se ponoviti kazneni postupak protiv osobe koja je oslobođena pravomoćnom presudom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 32,
+          "naslov": null,
+          "tekst": ". Svatko tko se zakonito nalazi na teritoriju Republike ima pravo slobodno se kretati i birati boravište. Svaki građanin Republike ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 33,
+          "naslov": null,
+          "tekst": ". Strani državljanin i osobe bez državljanstva mogu dobiti utočište u Republici Hrvatskoj, osim ako su progonjeni za nepolitičke zločine i djelatnosti oprečne temeljnim načelima međunarodnog prava. Stranac koji se zakonito nalazi na teritoriju Republike ne može biti protjeran ni izručen drugoj državi, osim kad se mora izvršiti odluka donesena u skladu s međunarodnim ugovorom i zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 34,
+          "naslov": null,
+          "tekst": ". Dom je nepovrediv. Samo sud može obrazloženim pismenim nalogom utemeljenim na zakonu odrediti da se dom ili drugi prostor pretraži. Pravo je stanara da on ili njegov zastupnik i obvezatno dva svjedoka budu nazočni pri pretrazi doma ili drugoga prostora. U skladu s uvjetima što ih predviđa zakon, redarstvene vlasti mogu i bez sudskog naloga ili privole držatelja stana ući u dom ili prostorije te izvršiti pretragu bez nazočnosti svjedoka, ako je to neophodno radi izvršenja naloga o uhićenju ili radi hvatanja počinitelja kaznenog djela odnosno otklanjanja ozbiljne opasnosti po život i zdravlje Ijudi ili imovinu većeg opsega. Pretraga radi pronalaženja ili osiguranja dokaza za koje postoji osnovana vjerojatnost da se nalaze u domu počinitelja kaznenog djela, može se poduzeti samo u nazočnosti svjedoka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 35,
+          "naslov": null,
+          "tekst": ". Svakomu se građaninu janmči štovanje i pravna zaštita njegova osobnog i obiteljskog života, dostojanstva, ugleda i časti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 36,
+          "naslov": null,
+          "tekst": ". Sloboda i tajnost dopisivanja i svih drugih oblika općenja zajamčena je i nepovrediva. Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti Republike ili provedbu kaznenog postupka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 37,
+          "naslov": null,
+          "tekst": ". Svakom se jamči sigurnost i tajnost osobnih podataka. Bez privole ispitanika, osobni se podaci mogu prikupljati, obrađivati i koristiti samo uz uvjete određene zakonom. Zakonom se uređuje zaštita podataka te nadzor nad djelovanjem informatičkih sustava u Republici. Zabranjena je uporaba osobnih podataka suprotna utvrđenoj svrsi njihovoga prikupljanja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 38,
+          "naslov": null,
+          "tekst": ". Jamči se sloboda mišljenja i izražavanja misli. Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom utvrdeno pravo.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 39,
+          "naslov": null,
+          "tekst": ". Zabranjeno je i kažnjivo svako pozivanje ili poticanje na rat ili uporabu nasilja, na nacionalnu, rasnu ili vjersku mržnju ili bilo koji oblik nesnošljivosti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 40,
+          "naslov": null,
+          "tekst": ". Jamči se sloboda savjesti i vjeroispovijedi i slobodno javno očitovanje vjere ili drugog uvjerenja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 41,
+          "naslov": null,
+          "tekst": ". Sve vjerske zajednice jednake su pred zakonom i odvojene od države. Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 42,
+          "naslov": null,
+          "tekst": ". Svim se građanima priznaje pravo na mirno okupljanje i javni prosvjed.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 43,
+          "naslov": null,
+          "tekst": ". Građanima se jamči pravo na slobodno udruživanje radi zaštite njihovih probitaka ili zauzimanja za socijalna, gospodarska, politička, nacionalna, kulturna ili druga uvjerenja i ciljeve. Radi toga građani mogu slobodno osnivati političke stranke, sindikate i druge udruge, uključivati se u njih ili iz njih istupati. Pravo slobodnog udruživanja ograničeno je zabranom nasilnog ugrožavanja demokratskoga ustavnog poretka, te neovisnosti, jedinstvenosti i teritorijalne cjelovitosti Republike.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 44,
+          "naslov": null,
+          "tekst": ". Svaki građanin Republike ima pravo, pod jednakim uvjetima, sudjelovati u obavljanju javnih poslova i biti primljen u javne službe.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 45,
+          "naslov": null,
+          "tekst": ". Biračko pravo, opće i jednako, imaju svi državljani Republike s navršenih 18 godina. Biračko se pravo ostvaruje na neposrednim izborima tajnim glasovanjem. U izborima za Sabor i predsjednika Republike ostvarivanje biračkog prava Republika osigurava i svojim državljanima koji se u doba izbora zateknu izvan njezinih granica tako da mogu glasovati i u državama u kojima se nalaze ili na koji drugi način određen zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 46,
+          "naslov": null,
+          "tekst": ". Svaki građanin ima pravo slati predstavke i pritužbe, davati prijedloge državnim i drugim javnim tijelima i dobiti na njih odgovor.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 47,
+          "naslov": null,
+          "tekst": ". Vojna obveza i obrana Republike dužnost je svih za to sposobnih građana. Dopušten je prigovor savjesti onima koji poradi svojih vjerskih ili moralnih nazora nisu pripravni sudjelovati u obavljanju vojničkih dužnosti u oružanim snagama. Te su osobe obvezane ispunjavati druge dužnosti odredene zakonom. 3. Gospodarska, socijalna i kulturna prava",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 48,
+          "naslov": null,
+          "tekst": ". Jamči se pravo vlasništva. Vlasništvo obvezuje. Nositelji vlasničkoga prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete odredene zakonom. Jamči se pravo nasljeđivanja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 49,
+          "naslov": null,
+          "tekst": ". Poduzetnička i tržišna sloboda temelj su gospodarskog ustroja Republike. Država osigurava svim poduzetnicima jednak pravni položa,j na tržištu. Zabranjeni su monopoli. Republika potiče gospodarski napredak i socijalno blagostanje građana i brine se za gospodarski razvitak svih svojih krajeva. Prava stečena ulaganjem kapitala ne mogu se umanjiti zakonom niti drugim pravnim aktom. Inozemnom ulagaču jamči se slobodno iznošenje dobiti i uloženog kapitala.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 50,
+          "naslov": null,
+          "tekst": ". Zakonom je moguće u interesu Republike ograničiti ili oduzeti vlasništvo, uz naknadu tržišne vrijednosti. Poduzetnička se sloboda i vlasnička prava mogu iznimno ogcaničiti zakonom radi zaštite interesa i sigurnosti Republike, prirode, ljudskog okoliša i zdravlja Ijudi.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 51,
+          "naslov": null,
+          "tekst": ". Svatko je dužan sudjelovati u podmirenju javnih troškova, u skladu sa svojim gospodarskim mogućnostima. Porezni se sustav temelji na načelima jednakosti i pravednosti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 52,
+          "naslov": null,
+          "tekst": ". More, morska obala i otoci, vode, zračni prostor, rudno blago i druga prirodna bogatstva, ali i zemljište, šume, biljni i životinjski svijet, drugi dijelovi prirode, nekretnine i stvari od osobito kulturnog, povijesnog, gospodarskog i ekološkog značenja, za koje je zakonom određeno da su od interesa za Republiku, imaju njezinu osobitu zaštitu. Zakonom se određuje način na koji dobra od interesa za Republiku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 53,
+          "naslov": null,
+          "tekst": ". Narodna banka Hrvatske je centralna banka Republike Hrvatske. Narodna banka Hrvatske odgovorna je, u okviru svojih prava i dužnosti, za stabilnost valute i za opću likvidnost plaćanja u zemlji i prema inozemstvu. Narodna banka Hrvatske u svom radu je samostalna i odgovorna Saboru Republike Hrvatske. Dobit ostvarena poslovanjem Narodne banke Hrvatske pripada državnom proračunu. Položaj Narodne banke Hrvatske uređuje se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 54,
+          "naslov": null,
+          "tekst": ". Svatko ima pravo na rad i slobodu rada. Svatko slobodno bira poziv i zaposlenje i svakomu je pod jednakim uvjetima dostupno svako radno mjesto i dužnost.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 55,
+          "naslov": null,
+          "tekst": ". Svaki zaposleni ima prava na zaradu kojom može osigurati sebi i obitelji slobodan i dostojan život. Najduže radno vrijeme odreduje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 56,
+          "naslov": null,
+          "tekst": ". Pravo zaposlenih i članova njihovih obitelji na socijalnu sigurnost i socijalno osiguranje ureduje se zakonom i kolektivnim ugovorom. Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 57,
+          "naslov": null,
+          "tekst": ". Slabim, nemoćnima i drugim, zbog nezaposlenosti ili nesposobnosti za rad, nezbrinutim gradanima Republika osigurava pravo na pomoć za podmirenje osnovnih životnih potreba. Posebnu skrb Republika posvećuje zaštiti invalidnih osoba i njihovu uključivanju u društveni život. Ne može se zabraniti primanje humanitarne pomoći iz inozemstva.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 58,
+          "naslov": null,
+          "tekst": ". Svakomu se građaninu jamči pravo na zdravstvenu zaštitu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 59,
+          "naslov": null,
+          "tekst": ". Radi zaštite svojih gospodarskih i socijalnih interesa, svi zaposleni i poslodavci imaju pravo osnivati sindikate i slobodno u njih stupati i iz njih istupati. Sindikati mogu osnivati svoje saveze i udruživati se u medunarodne sindikalne organizacije. U oružanlm snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 60,
+          "naslov": null,
+          "tekst": ". Jamči se pravo na štrajk. U oružanim snagama, redarstvu, državnoj upravi i javnim službama određenima zakonom može se ograničiti pravo na štrajk.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 61,
+          "naslov": null,
+          "tekst": ". Obitelj je pod osobitom zaštitom Republike. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 62,
+          "naslov": null,
+          "tekst": ". Republika štiti materinstvo, djecu i mladež te stvara socijalne, kulturne, odgojne, materijalne i druge uvjete kojima se promiče ostvarivanje prava na dostojan život.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 63,
+          "naslov": null,
+          "tekst": ". Roditelji su dužni odgajati, uzdržavati i školovati djecu te imaju pravo i slobodu da samostalno odlučuju o odgoju djece. Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Republika osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 64,
+          "naslov": null,
+          "tekst": ". Dužnost je svih da štite djecu i nemoćne osobe. Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i invalidne osobe imaju pravo na osobitu zaštitu na radu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 65,
+          "naslov": null,
+          "tekst": ". Osnovno je školovanje obvezatno i besplatno. Svakomu je dostupno, pod jednakim uvjetima, srednjoškolsko i visokoškolsko obrazovanje u skladu s njegovim sposobnostima.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 66,
+          "naslov": null,
+          "tekst": ". Uz uvjete određene zakonom, građani mogu osnivati privatne škole i učilišta.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 67,
+          "naslov": null,
+          "tekst": ". Jamči se autonomija sveučilišta. Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 68,
+          "naslov": null,
+          "tekst": ". Jamči se sloboda znanstvenoga, kulturnog i umjetničkog stvaralaštva. Republika potiče i pomaže razvitak znanosti, kulture i umjetnosti. Republika štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Republika potiče i pomaže skrb o tjelesnoj kulturi i športu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 69,
+          "naslov": null,
+          "tekst": ". Svatko ima pravo na zdrav život. Republika osigurava pravo građana na zdrav okoliš. Građani, državna, javna i gospodarska tijela i udruge dužni su, u sklopu svojih ovlasti i djelatnosti, osobitu skrb posvećivati zaštiti zdravlja ljudi, prirode i ljudskog okoliša. IV. USTROJSTVO DRŽAVNE VLASTI 1. Sabor Republike Hrvatske",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 70,
+          "naslov": null,
+          "tekst": ". Sabor Republike Hrvatske je predstavničko tijelo građana i nositelj zakonodavne vlasti u Republici Hrvatskoj. Sabor Republike Hrvatske se sastoji od Zastupničkog doma i Županijskog doma.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 71,
+          "naslov": null,
+          "tekst": ". Zastupnički dom ima najmanje 100, a najviše 160 zastupnika koji se, na temelju općeg i jednakoga biračkog prava, biraju neposredno tajnim glasovanjem. U Županijski dom građani svake županije, na temelju općega biračkog prava, biraju neposredno tajnim glasovanjem tri zastupnika. Predsjednik Republike po isteku mandata postaje, ako se izričito ne odrekne te dužnosti, doživotni član Županijskog doma. Predsjednik Republike može imenovati iz reda za Republiku osobito zaslužnih građana do pet zastupnika u Županijski dom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 72,
+          "naslov": null,
+          "tekst": ". Zastupnici se u domove Sabora Republike Hrvatske biraju na vrijeme od četiri godine. Nitko ne može istodobno biti zastupnikom u Zastupničkom domu i Županijskom domu. Zakonom se odreduje broj, uvjeti i postupak izbora zastupnika u domove Sabora.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 73,
+          "naslov": null,
+          "tekst": ". Izbori se za zastupnike u domove Sabora Republike Hrvatske održavaju najkasnije 60 dana nakon isteka mandata ili raspuštanja domova Sabora. Prvo zasjedanje domova Sabora Republike Hrvatske održava se najkasnije 20 dana nakon provedenih izbora.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 74,
+          "naslov": null,
+          "tekst": ". Zastupnici u Saboru Republike Hrvatske nemaju obvezujući mandat. Zastupnici u Saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 75,
+          "naslov": null,
+          "tekst": ". Zastupnici u Saboru Republike Hrvatske imaju imunktet. Zastupnik ne može biti pozvan na kaznenu odgovornost, pritvoren ili kažnjen za izraženo mišljenje ili glasovanje u Saboru. Zastupnik ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez odobrenja doma Sabora. Zastupnik može biti pritvoren bez odobrenja doma Sabora samo ako je zatečen da vrši kažnjivo djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. O takvom se slučaju izvješćuje predsjednika doma Sabora. Ako dom Sabora nije na okupu, odobrenje da se zastupnik liši slobode ili da se protiv njega nastavi kazneni postupak daje i o njegovu pravu na imunitet odlučuje mandatno-imunitetna komisija doma, s time što njezinu odluku mora naknadno potvrditi dom Sabora.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 76,
+          "naslov": null,
+          "tekst": ". Trajanje mandata zastupnicima u Saboru Republike Hrvatske može se zakonom produžiti samo u slučaju rata.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 77,
+          "naslov": null,
+          "tekst": ". Zastupnički dom i Županijski dom mogu se raspustiti ako to odluči većina svih njihovih zastupnika. Predsjednik Republike može, u skladu s Ustavom, raspustiti Zastupnički dom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 78,
+          "naslov": null,
+          "tekst": ". Domovi Sabora Republike Hrvatske redovito zasjedaju dva puta godišnje: prvi put, izmedu 15. siječnja i 30. lipnja i drugi put, izmedu 15. rujna i 15. prosinca. Domovi Sabora Republike Hrvatske zasjedaju izvanredno na zahtjev predsjednika Republike, Vlade ili većine zastupnika u domu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 79,
+          "naslov": null,
+          "tekst": ". Unutarnje ustrojstvo i način rada Zastupničkog doma i Županijskog doma uređuje se poslovnikom, u skladu s Ustavom. Poslovnik doma donosi se većinom glasova svih zastupnika. Zastupnički dom i Županijski dom imaju predsjednika i jednog ili više potpredsjednika. Prava i dužnosti predsjednika i potpredsjednika doma utvrđuju se poslovnikom. Predsjednik Zastupničkog doma predsjednik je i Sabora Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 80,
+          "naslov": null,
+          "tekst": ". Zastupnički dom: - odlučuje o donošenju i promjeni Ustava; - donosi zakone; - donosi državni proračun; - odlučuje o ratu i miru; - odlučuje o promjeni granica Republike; - raspisuje referendum; - obavlja izbore, imenovanja i razrješenja, u skladu s ustavom i zakonom - nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Saboru, u skladu s Ustavom i zakonom; - daje amnestiju za kaznena djela; - obavlja druge poslove utvrđene Ustavom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 81,
+          "naslov": null,
+          "tekst": ". Županijski dom: - predlaže Zastupničkomu domu zakone i raspisivanje referenduma; - raspravlja i može davati mišljenje o pitanjima koja su u djelokrugu Zastupničkog doma; - daje Zastupničkomu domu prethodno mišljenje u postupku donošenja Ustava te zakona kojima se uređuju nacionalna prava, razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave; - može u roku od petnaest dana od dana izglasavanja zakona u Zastupničkom domu, uz obrazloženo mišljenje, vratiti zakon na ponovno odlučivanje Zastupničkomu domu. U tom slučaju Zastupnički dom o donošenju zakona odlučuje natpolovičnom većinom svih zastupnika, osim kada Zastupnički dom zakone donosi dvotrećinskom većinom; - obavlja druge poslove utvrđene Ustavom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 82,
+          "naslov": null,
+          "tekst": ". Ako Ustavom nije drugačije određeno, Zastupnički dom i Županijski dom donose odluke većinom glasova ukoliko je na sjednici nazočna većina zastupnika. Zastupnici glasuju osobno.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 83,
+          "naslov": null,
+          "tekst": ". Zakone kojima se uređuju nacionalna prava Zastupnički dom donosi dvotrećinskom većinom glasova svih zastupnika. Zakone kojima se razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave Zastupnički dom donosi većinom glasova svih zastupnika.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 84,
+          "naslov": null,
+          "tekst": ". Sjednice su domova Sabora Republike Hrvatske javne.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 85,
+          "naslov": null,
+          "tekst": ". Pravo da predlaže zakone ima svaki zastupnik u Zastupničkom domu, radna tijela Zastupničkog doma, Županijski dom i Vlada Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 86,
+          "naslov": null,
+          "tekst": ". Zastupnici u domovima Sabora Republike Hrvatske imaju, u skladu s poslovnikom pravo, postavljati Vladi Republike Hrvatske i pojedinim ministrima zastupnička pitanja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 87,
+          "naslov": null,
+          "tekst": ". Zastupnički dom može raspisati referendum o prijedlogu za promjenu Ustava, o prijedlogu zakona ili o drugom pitanju iz svog djelokruga. Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike. Na referendumu se odlučuje većinom birača koji su glasovali, uz uvjet da je referendumu pristupila većina od ukupnog broja birača u Republici. Odluka donesena na referendumu obvezatna je. O referendumu se donosi zakon.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 88,
+          "naslov": null,
+          "tekst": ". Zastupnički dom može, najviše na vrijeme od godinu dana, ovlastiti Vladu Republike Hrvatske da uredbama uređuje pojedina pitanja iz njegova djelokruga, osim onih koja se odnose na razradu Ustavom utvrđenih sloboda i prava čovjeka i građanina, nacionalna prava, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i lokalne samouprave. Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Zastupnički dom ne odluči drukčije.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 89,
+          "naslov": null,
+          "tekst": ". Zakone proglašava predsjednik Republike u roku osam dana od kad su, u skladu s Ustavom, doneseni u Zastupničkom domu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 90,
+          "naslov": null,
+          "tekst": ". Prije nego što stupe na snagu, zakoni se objavljuju u \"Narodnim novinama\", službenome listu Republike. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 91,
+          "naslov": null,
+          "tekst": ". Državni se prihodi i rashodi utvrđuju u državnom proračunu. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 92,
+          "naslov": null,
+          "tekst": ". Domovi Sabora Republike Hrvatske mogu osnivati istražna povjerenstva za svako pitanje od javnog interesa. Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 93,
+          "naslov": null,
+          "tekst": ". Pučki je pravobranitelj opunomoćenik Sabora Republike Hrvatske koji štiti ustavna i zakonska prava građana u postupku pred državnom upravom i tijelima koja imaju javne ovlasti. Pučkog pravobranitelja bira Zastupnički dom na vrijeme od osam godina. Uvjeti za izbor i razrješenje, djelokrug i način rada pučkog pravobranitelja i njegovih zamjenika uređuju se zakonom. 2. Predsjednik Republike Hrvatske",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 94,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike Hrvatske državni je poglavar. Predsjednik Republike zastupa Republiku u zemlji i inozemstvu, brine se za poštivanje Ustava, osigurava opstojnost i jedinstvenost Republike i redovno djelovanje državne vlasti.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 95,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike bira se na temelju općeg i jednakog biračkog prava na neposrednim izborima tajnim glasovanjem na vrijeme od pet godina. Predsjednikom Republike nitko ne može biti više od dva puta. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije nego preuzme dužnost, predsjednik Republike polaže svečanu zakletvu kojom se obvezuje na vjernost Ustavu. Izbor predsjednika Republike uređuje se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 96,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike ne može, osim stranačke, obavljati nikakvu drugu javnu ili profesionalnu dužnost.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 97,
+          "naslov": null,
+          "tekst": ". U slučaju smrti, ostavke ili trajne spriječenosti predsjednika Republike da obavlja svoju dužnost, nastup koje utvrđuje Ustavni sud Republike Hrvatske na prijedlog Vlade Republike Hrvatske, dužnost predsjednika Republike privremeno preuzima predsjednik Sabora Republike H rvatske. Izbor novog predsjednika Republike mora se obaviti u roku 60 dana od dana kada je bivši predsjednik prestao obavljati dužnost.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 98,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike: - raspisuje izbore za domove Sabora Republike Hrvatske i saziva ih na prvo zasjedanje ; - raspisuje referendum, u skladu s Ustavom; - imenuje i razrješuje dužnosti predsjednika Vladc Republike Hrvatske; - na prijedlog predsjednika Vlade Republike Hrvatske imenuje i razrješuje dužnosti njezine potpredsjednike i članove; - daje pomilovanja; - dodjeljuje odlikovanja i priznanja odredena zakonom; - obavlja druge dužnosti odredene Ustavom",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 99,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike, na prijedlog Vlade, odlučuje o osnivanju diplomatskih i drugih predstavništava Republike Hrvatske u inozemstvu. Predsjednik Republike postavlja i opoziva diplomatske predstavnike Republike Hrvatske te prima vjerodajnice i opozivna pisma inozemnih diplomatskih predstavnika.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 100,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike vrhovni je zapovjednik oružanih snaga Republike Hrvatske. Predsjednik Republike imenuje članove Vijeća narodne obrane Republike Hrvatske i predsjedava mu, imenuje i razrješuje dužnosti vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Sabora Republike Hrvatske predsjednik Republike objavljuje rat i zaključuje mir.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 101,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike donosi uredbe sa zakonskom snagnm i poduzima izvanredne mjere u slučaju ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, ili kad su tijela državne vlasti onemogućena da redovito obavljaju ustavne dužnosti. Dok se predsjednik Republike koristi tim ovlastima, Zastupnički dom ne može biti raspušten. Predsjednik Republkke podnijet će uredbe sa zakonskom snagom na potvrdu Zastupničkomu domu Sabora Republike Hrvatske čim se Sabor bude mogao sastati.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 102,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike može sazvati sjednicu Vlade Republike Hrvatske i stavljati na njezin dnevni red pitanja za koja smatra da ih treba razmotriti. Predsjednik Republike predsjedava sjednici Vlade na kojoj je nazočan.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 103,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike može Saboru Republike Hrvatske upućivati poslanice, a jednom godišnje podnosi mu izvještaj o stanju u Republici.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 104,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike na prijedlog Vlade i uz supotpis njezina predsjednika, a nakon savjetovanja s predsjednikom Doma, može raspustiti Zastupnički dom, ako taj Dom izglasa nepovjerenje Vladi ili ako za mjesec dana od dana predlaganja ne prihvati državni proračun. Predsjednik Republike ne može ponovno raspustiti Zastupnički dom prije isteka godine dana od dana raspuštanja.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 105,
+          "naslov": null,
+          "tekst": ". Predsjednik Republike odgovoran je za povredu Ustava koju počini u obavljanju svojih dužnosti. Postupak za utvrđivanje posebne odgovornosti predsjednika Republike može pokrenuti Zastupnički dom dvotrećinskom većinom svih zastupnika. O odgovornosti predsjednika Republike odlučuje Ustavni sud Republike Hrvatske dvotrećinskom većinom svih sudaca. Ako Ustavni sud Republike Hrvatske utvrdi njegovu odgovornost, predsjedniku Republike prestaje dužnost po sili Ustava.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 106,
+          "naslov": null,
+          "tekst": ". Predsjedniku Republike u obavljanju njegovih ovlasti pomažu Predsjedničko vijeće i druga savjetodavna i pomoćna tijela kojima članove imenuje i razrješuje predsjednik Republike. 3. Vlada Republike Hrvatske",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 107,
+          "naslov": null,
+          "tekst": ". Vlada Republike Hrvatske obavlja izvršnu vlast u skladu s Ustavom i zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 108,
+          "naslov": null,
+          "tekst": ". Vladu Republike Hrvatske čine predsjednik, potpredsjednici, ministri i drugi njezini članovi.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 109,
+          "naslov": null,
+          "tekst": ". Ustrojstvo i način rada i odlučivanja Vlade propisuje se zakonom i njenim poslovnikom. Unutarnje ustrojstvo ministarstva, Vlada uređuje uredbama, a za obavljanje svojih poslova osniva službe.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 110,
+          "naslov": null,
+          "tekst": ". Vlada donosi uredbe u skladu s Ustavom i zakonom, predlaže zakone i državni proračun te provodi zakone i druge propise koje donosi Sabor Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 111,
+          "naslov": null,
+          "tekst": ". Vlada je odgovorna predsjedniku Republike i Zastupničkomu domu Sabora Republike Hrvatske. Predsjednik, potpredsjednici i članovi Vlade zajednički su odgovorni za odluke koje Vlada donosi, a osobno su odgovorni za svoje područje rada.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 112,
+          "naslov": null,
+          "tekst": ". Predsjednik Vlade, najkasnije 15 dana pošto je imenovan, predstavlja Vladu Zastupničkomu domu i traži glasovanje o povjerenju Vladi. Imenovanje predsjednika i članova Vlade prihvaćeno je ako joj je povjerenje iskazala većina svih zastupnika u Zastupničkom domu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 113,
+          "naslov": null,
+          "tekst": ". Na prijedlog najmanje jedne desetine zastupnika u Zastupničkomu domu može se pokrenuti pitanje povjerenja predsjedniku Vlade, pojedinomu njezinom članu ili Vladi u cjelini. Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se glasovati o povjerenju prije nego proteknu tri dana od dana dostave prijedloga Zastupničkom domu. Odluka o nepovjerenju prihvaćena je ako je za nju glasovala većina od ukupnog broja zastupnika. Ako Zastupnički dnm odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije proteka roka od tri mjeseca. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade podnijet će ostavku predsjedniku Republike, a on će raspustiti Vladu. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može podnijeti ostavku ili može predložiti predsjedniku Republikc da razriješi dužnosti člana Vlade kojemu je izglasano nepovjerenje.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 114,
+          "naslov": null,
+          "tekst": ". Ustrojstvo državne uprave uređuje se zakonom. Službenici u državnoj upravi imenuju se na temelju natječaja ako zakonom nije drukčije određeno. 4. Sudbena vlast",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 115,
+          "naslov": null,
+          "tekst": ". Sudbenu vlast obavljaju sudovi. Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava i zakona.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 116,
+          "naslov": null,
+          "tekst": ". Vrhovni sud Republike Hrvatske, kao najviši sud, osigurava jedinstvenu primjenu zakona i ravnopravnost gradana. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova i postupak pred sudovima uređuju se zakonom. Ustanovljavanje, djelokrug i ustrojstvo državnog odvjetništva uređuju se zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 117,
+          "naslov": null,
+          "tekst": ". Sudske su rasprave javne i presude se izriču javno, u ime Republike Hrvatske. Javnost se može isključiti iz cijele rasprave ili njezina dijela ako se sudi malodobnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i usvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 118,
+          "naslov": null,
+          "tekst": ". U suđenju sudjeluju i suci porotnici, u skladu sa zakonom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 119,
+          "naslov": null,
+          "tekst": ". Suci i suci porotnici koji sudjeluju u sudenju ne mogu biti pozvani na odgovornost za mišljenje dano pri donošenju sudbene odluke. Suci imaju, u skladu sa zakonom, imunitet kao i zastupnici u Saboru Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 120,
+          "naslov": null,
+          "tekst": ". Sudačka dužnost je stalna. Sudac će biti razriješen sudačke dužnosti: - ako to sam zatraži; - ako trajno izgubi sposobnost obavljati svoju dužnost; - ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti; - ako u skladu sa zakonom; zbog počinjenog teškog disciplinskog djela, tako odluči, Republičko sudbeno vijeće. Protiv odluke o razrješenju od sudačke dužnosti sudac ima pravo podnijeti zahtjev za zaštitu Županijskomu domu Sabora. Sudac ne može biti premješten protivno njegovoj voIji. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 121,
+          "naslov": null,
+          "tekst": ". Suce i državne odvjetnike, u skladu s Ustavom i zakonom, imenuje i razrješuje te o njihovoj disciplinskoj odgovornosti odlučuje Republičko sudbeno vijeće. Republičko sudbeno vijeće ima predsjednika i 14 članova. Predsjednika i članove predlaže Županijski dom, a bira ih Zastupnički dom, na vrijeme od osam godina, iz reda istaknutih sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti; u skladu sa zakonom. V. USTAVNI SUD REPUBLIKE HRVATSKE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 122,
+          "naslov": null,
+          "tekst": ". Ustavni sud Republike Hrvatske čini jedanaest sudaca koje bira Zastupnički dom na prijedlog Županijskog doma, na vrijeme od osam godina iz reda istaknutih pravnika, osobito sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 123,
+          "naslov": null,
+          "tekst": ". Suci Ustavnog suda Republike Hrvatske ne mogu obavljati nikakvu drugu javnu ni profesionalnu dužnost. Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Saboru Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 124,
+          "naslov": null,
+          "tekst": ". Sudac Ustavnog suda Republike Hrvatske može biti razriješen dužnosti prije isteka vremena na koje je izabran ako zatraži da bude razriješen, ako bude osuđen na zatvorsku kaznu, ili ako trajno, što utvrđuje sam Sud, izgubi sposobnost da obavlja svoju dužnost.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 125,
+          "naslov": null,
+          "tekst": ". Ustavni sud Republike Hrvatske: - odlučuje o suglasnosti zakona s Ustavom; - odlučuje o suglasnosti drugih propisa s Ustavom i zakonom; - štiti ustavne slobode i prava čovjeka i građanina; - rješava sukob nadležnosti izmedu tijela zakonodavne, izvršne i sudbene vlasti; - odlučuje, u skladu s Ustavom, o odgovornosti predsjednika Republike; - nadzire ustavnost programa i djelovanja političkih stranaka i može, u skladu s Ustavom, zabraniti njihov rad ; - nadzire ustavnost i zakonitost izbora i republičkog referenduma i rješava izborne sporove koji nisu u djelokrugu sudova; - obavlja druge poslove odredene Ustavom.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 126,
+          "naslov": null,
+          "tekst": ". Ustavni sud Republike Hrvatske ukinut će zakon ako utvrdi da je neustavan. Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 127,
+          "naslov": null,
+          "tekst": ". Uvjeti za izbor sudaca Ustavnog suda Republike Hrvatske i prestanak njihove dužnosti, uvjeti i rokovi za pokretanje postupka ocjene ustavnosti i zakonitosti, postupak i pravno djelovanje njegovih odluka, zaštita ustavnih sloboda i prava čovjeka i građanina i druga pitanja važna za izvršavanje dužnosti i rad Ustavnog suda Republike Hrvatske uređuju se ustavnim zakonom. Ustavni zakon donosi se po postupku određenome za promjenu Ustava. Unutarnje ustrojstvo Ustavnog suda Republike Hrvatske uređuje se njegovim poslovnikom. VI. USTROJSTVO LOKALNE (MJESNE) SAMOUPRAVE I UPRAVE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 128,
+          "naslov": null,
+          "tekst": ". Građanima se jamči pravo na lokalnu samoupravu. Pravo na lokalnu samoupravu obuhvaća pravo odlučivanja o potrebama i interesima građana lokalnog značenja, a osobito o uređivanju prostora i urbanističkom planiranju, o uređivanju naselja i stanovanja, o komunalnim djelatnostima, o brizi za djecu, socijalnoj skrbi, kulturi, tjelesnoj kulturi, športu i tehničkoj kulturi te zaštiti i unapređenju prirodnog okoliša. O lokalnoj samoupravi donosi se zakon.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 129,
+          "naslov": null,
+          "tekst": ". Jedinice lokalne samouprave mogu, u skladu sa zakonom, biti općina i kotar ili grad. Njihovo područje određuje se zakonom pošto se prethodno pribavi mišljenje stanovnika tog područja. Ustrojstvo i djelokrug tijela jedinica lokalne samouprave ureduju se njihovim statutom a u skladu sa zakonom. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima u skladu sa zakonom i statutom jedinice mjesne samouprave. U naselju ili dijelu naselja građani imaju pravo u skladu sa zakonom, osnivati i druge oblike mjesne samouprave,",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 130,
+          "naslov": null,
+          "tekst": ". U obavljanju lokalnih poslova tijela jedinica lokalne samouprave samostalna su u skladu sa zakonom, i statutom i podliježu samo nadzoru zakonitosti ovlaštenih republičkih tijela. Za obavljanje poslova državne uprave mogu se u općini i kotaru ili gradu zakonom osnivati tijela lokalne uprave. Ustrojstvo i djelokrug tih tijela uređuje se zakonom. Određeni se poslovi državne uprave mogu zakonom prenijeti u djelokrug tijela jedinica lokalne samouprave. U obavljanju tih poslova tijela jedinica lokalne samouprave podređena su, u skladu sa zakonom, tijelima državne uprave.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 131,
+          "naslov": null,
+          "tekst": ". Županija je jedinica lokalne uprave i samouprave. Područja županija određuju se zakonom tako da one budu izražaj povijesnih, prometnih i gospodarskih čimbenika i sposobne da budu prirodne samoupravne cjeline u okviru Republike. Ustrojstvo i djelokrug županijskih tijela odreduju se zakonom. Veliki se gradovi zakonom mogu urediti kao županije. VII. MEĐUNARODNI ODNOSI 1. Međunarodni ugovori",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 132,
+          "naslov": null,
+          "tekst": ". Međunarodne ugovore u ime Republike Hrvatske sklapa predsjednik Republike, a može ih u skladu sa zakonom, sklapati i Vlada Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 133,
+          "naslov": null,
+          "tekst": ". Sabor Reublike Hrvatske potvrđuje međunarodne ugovore koji traže donošenje ili izmjenu zakona, međunarodne ugovore vojne i političke naravi i međunarodne ugovore koji financijski obvezuju Republiku. Međunarodne ugovore kojima se međunarodnoj organizaciji ili savezu daju ovlasti izvedene iz Ustava Republike Hrvatske, Sabor potvrđuje dvotrećinskom većinom glasova svih zastupnika.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 134,
+          "naslov": null,
+          "tekst": ". Međunarodni ugovori koji su sklopljeni i potvrđeni u skladu s Ustavom i objavljeni, čine dio unutarnjeg pravnog poretka Republike, a po pravnoj su snazi iznad zakona. Njihove se odredbe mogu mijenjati ili ukidati samo uz uvjete i na način koji su u njima utvrđeni, ili suglasno općim pravilima međunarodnog prava. 2. Udruživanje i odcjepljenje",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 135,
+          "naslov": null,
+          "tekst": ". Pravo da pokrenu postupak udruživanja Republike Hrvatske u saveze s drugim državama ima najmanje jedna trećina zastupnika u Saboru Republike Hrvatske, Predsjednik Republike i Vlada Republike Hrvatske. O udruživanju Republike prethodno odlučuje Sabor dvotrećinskom većinom glasova svih zastupnika. Odluka o udruživanju Republike donosi se na referendumu većinom glasova ukupnog broja birača u Republici. Referendum se mora održati u roku 30 dana od dana donošenja odluke Sabora. Odredbe ovog Ustava o udruživanju odnose se i na uvjete i postupak razdruživanja (odcjepljenja) Republike Hrvatske osim kada zbog izvanrednih prilika na prijedlog jedne trećine zastupnika ili predsjednika Republike ili Vlade Republike Hrvatske Sabor može donijeti odluku o razdruživanju (odcjepljenju) radi zaštite suvereniteta Republike Hrvatske dvotrećinskom većinom glasova prisutnih zastupnika. VIII. PROMJENA USTAVA",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 136,
+          "naslov": null,
+          "tekst": ". Pravo da predloži promjenu Ustava Republike Hrvatske ima najmanje jedna petina zastupnika u Zastupničkom domu Sabora Republike Hrvatske, predsjednik Republike i Vlada Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 137,
+          "naslov": null,
+          "tekst": ". Zastupnički dom uz prethodno mišljenje Županijskog doma odlučuje da li će pristupiti promjeni Ustava većinom glasova svih zastupnika. Nacrt promjene Ustava Zastupnički dom utvrđuje većinom glasova svih zastupnika.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 138,
+          "naslov": null,
+          "tekst": ". O promjeni Ustava odlučuje, uz prethodno mišljenje Županijskog doma, Zastupnički dom dvotrećinskom većinom glasova svih zastupnika.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 139,
+          "naslov": null,
+          "tekst": ". Promjenu Ustava proglašava Zastupnički dom Sabora Republike Hrvatske. IX. PRIJELAZNE I ZAVRŠNE ODREDBE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 140,
+          "naslov": null,
+          "tekst": ". Republika Hrvatska ostaje u sastavu SFRJ do novog sporazuma jugoslavenskih republika ili dok Sabor Republike Hrvatske ne odluči drugačije. Ako se aktom ili postupkom tijela federacije ili tijela druge republike ili pokrajine članice federacije naruši teritorijalna cjelovitost Republike Hrvatske, ili ako bude dovedena u neravnopravan položaj u federaciji ili joj budu ugroženi interesi, republički organi će na temelju prava na samoodređenje i ovim Ustavom utvrđenog suvereniteta Republike Hrvatske donijeti potrebne odluke radi zaštite suvereniteta i interesa Republike Hrvatske.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 141,
+          "naslov": null,
+          "tekst": ". Ovaj se Ustav primjenjuje od dana kad ga proglasi Sabor Republike Hrvatske, ako za primjenu pojedinih njegovih odredaba ustavnim zakonom za njegovu provedbu nije drugačije određeno: lzbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 142,
+          "naslov": null,
+          "tekst": ". Za provedbu ovog Ustava donijet će se ustavni zakon. Ustav, NN 56/1990-1092 Više Dio NN: Službeni Vrsta dokumenta: Ustav Izdanje: NN 56/1990 Broj dokumenta u izdanju: 1092 Donositelj: Sabor Republike Hrvatske Datum tiskanog izdanja: 22.12.1990. ELI: /eli/sluzbeni/1990/56/1092 Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        }
+      ]
+    }
+  ],
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/1990_12_56_1092.html",
+    "datum_pristupa": "17.02.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "A91CA0D961823B76295622837A041B76749B08BF9321DFE935468BA4BAD7D6A5",
+    "oznaka_akta": "NN 56/1990"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "18.02.2026.",
+    "broj_dokumenata": 1,
+    "broj_clanaka_ukupno": 142
+  }
+}

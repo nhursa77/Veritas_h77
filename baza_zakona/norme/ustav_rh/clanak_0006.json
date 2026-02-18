@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "6",
     "naslov": null,
-    "tekst": "Slobodno je osnivanje političkih stranaka. Političke se stranke ustrojavaju po teritorijalnom načelu. Nije dopušten rad političke stranke koja svojim programom ili djelovanjem nasilno ugrožava demokratski ustavni poredak, neovisnost, jedinstvenost ili teritorijalnu cjelovitost Republike Hrvatske.",
+    "tekst": ". Slobodno je osnivanje političkih stranaka. Političke se stranke ustrojavaju po teritorijalnom načelu. Nije dopušten rad političke stranke koja svojim programom ili djelovanjem nasilno ugrožava demokratski ustavni poredak, neovisnost, jedinstvenost ili teritorijalnu cjelovitost Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B0D6FBC49C969B12A9784AA7203992E186240A26009A1C53D86BC06DC225E280",
-    "sha256_datoteke": "7CE71316D0F7DFB3CB2826A23C4ACE074A945E23C9DFE0D42100F2B6CCE79C46",
+    "sha256_teksta": "086D62E2E5DAD865C0F14F64AE0599D956D842207145D32C4E3907097D727ECF",
+    "sha256_datoteke": "34EDCE8F25BEA07519942CE70FB5DB53677EC4661C37B9F57938455DFF831876",
     "napomena": null
   }
 }

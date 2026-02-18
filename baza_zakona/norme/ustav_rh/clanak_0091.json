@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "91",
     "naslov": null,
-    "tekst": "Državni se prihodi i rashodi utvrđuju u državnom proračunu. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
+    "tekst": ". Državni se prihodi i rashodi utvrđuju u državnom proračunu. U zakonu čija primjena traži financijska sredstva, moraju se predvidjeti njihovi izvori.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D8C11FC7277F6BB11C507538A3ACE3E7B11136324EFB69380BF22C7559946120",
-    "sha256_datoteke": "6F31FEDCCC93A06C17798A9F0A2ADB609F243B5C87D901CDF56182898DFFBC80",
+    "sha256_teksta": "BFB7AD457FA8BA0714CAE7C9A40E7D960CDD11F2EE95D8A7F20316540FA733F9",
+    "sha256_datoteke": "D56BF28658A5467E7CD85E3072CA2A0C8CC1CC8F4E725B53AE6F043A63BEA6FC",
     "napomena": null
   }
 }

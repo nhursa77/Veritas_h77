@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "124",
     "naslov": null,
-    "tekst": "Sudac Ustavnog suda Republike Hrvatske može biti razriješen dužnosti prije isteka vremena na koje je izabran ako zatraži da bude razriješen, ako bude osuđen na zatvorsku kaznu, ili ako trajno, što utvrđuje sam Sud, izgubi sposobnost da obavlja svoju dužnost.",
+    "tekst": ". Sudac Ustavnog suda Republike Hrvatske može biti razriješen dužnosti prije isteka vremena na koje je izabran ako zatraži da bude razriješen, ako bude osuđen na zatvorsku kaznu, ili ako trajno, što utvrđuje sam Sud, izgubi sposobnost da obavlja svoju dužnost.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "72F3A9C1B7DC9C22E4339AE5F2DD1DEAED5C3305123FD5E4666FD89DF6F5E8FA",
-    "sha256_datoteke": "B49A95B1BE9D50DD7C72222B4C555E402B3B7512EA211FA3022B2866DAC218A5",
+    "sha256_teksta": "F74E29D94A6CEBA8EF796E5FC74DD7DDDE4F95C599950DFDC70832D6EC3AF51D",
+    "sha256_datoteke": "0ECE315FE2F32DE00AB6C131BBDAD75804DCB3E307E8012E2EC599D7D139E1E7",
     "napomena": null
   }
 }

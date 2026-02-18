@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "31",
     "naslov": null,
-    "tekst": "Nitko ne može biti kažnjen za djelo koje prije nego je počinjeno nije bilo utvrđeno zakonom ili međunarodnim pravom kao kazneno djelo, niti mu se može izreći kazna koja nije bila određena zakonom. Ako zakon nakon počinjenog djela odredi blažu kaznu, odredit će se takva kazna. Nitko ne može ponovno biti suđen za djelo za koje je već bio suđen i za koje je donesena pravomoćna sudska odluka. Ne može se ponoviti kazneni postupak protiv osobe koja je oslobođena pravomoćnom presudom.",
+    "tekst": ". Nitko ne može biti kažnjen za djelo koje prije nego je počinjeno nije bilo utvrđeno zakonom ili međunarodnim pravom kao kazneno djelo, niti mu se može izreći kazna koja nije bila određena zakonom. Ako zakon nakon počinjenog djela odredi blažu kaznu, odredit će se takva kazna. Nitko ne može ponovno biti suđen za djelo za koje je već bio suđen i za koje je donesena pravomoćna sudska odluka. Ne može se ponoviti kazneni postupak protiv osobe koja je oslobođena pravomoćnom presudom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0A49667F31BF4F3F8AE62870DDD40A2F1D5E0FC0C0C8F2D18A65D38EF9F47095",
-    "sha256_datoteke": "8A6B52656695E62EDEF793CC3E712AAB6767DDD38DBB14BD1A7E6ACAF3BC49C8",
+    "sha256_teksta": "FBFE2571A112D0F100BFE2D50D06BD08F46A3E2A5750EC4914F54F4EA19D6192",
+    "sha256_datoteke": "A9DA6A1F14C32F132547C23850D3BCA6DD942497BFF1F1A13FDE77B18A3FF366",
     "napomena": null
   }
 }

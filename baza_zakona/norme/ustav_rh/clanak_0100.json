@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "100",
     "naslov": null,
-    "tekst": "Predsjednik Republike vrhovni je zapovjednik oružanih snaga Republike Hrvatske. Predsjednik Republike imenuje članove Vijeća narodne obrane Republike Hrvatske i predsjedava mu, imenuje i razrješuje dužnosti vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Sabora Republike Hrvatske predsjednik Republike objavljuje rat i zaključuje mir.",
+    "tekst": ". Predsjednik Republike vrhovni je zapovjednik oružanih snaga Republike Hrvatske. Predsjednik Republike imenuje članove Vijeća narodne obrane Republike Hrvatske i predsjedava mu, imenuje i razrješuje dužnosti vojne zapovjednike, u skladu sa zakonom. Na temelju odluke Sabora Republike Hrvatske predsjednik Republike objavljuje rat i zaključuje mir.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "45B1904F37A87315A10DC2B7BF9C286477ED5D3156FDFBBA7F69360C691D991D",
-    "sha256_datoteke": "462B63F9036A0FB27D1959A626FC7957D1B2BB00716E8254F97AAC7A0C17D2BC",
+    "sha256_teksta": "C94196D77B145A4147D31E61FF5E94204842AA7F71530834C0A114DD21821130",
+    "sha256_datoteke": "ADFE633D07682BD5A8F18D5A502659A49F2B763A5D8C06618EEEBCE87B7BF7FE",
     "napomena": null
   }
 }

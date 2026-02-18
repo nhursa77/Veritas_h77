@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "39",
     "naslov": null,
-    "tekst": "Zabranjeno je i kažnjivo svako pozivanje ili poticanje na rat ili uporabu nasilja, na nacionalnu, rasnu ili vjersku mržnju ili bilo koji oblik nesnošljivosti.",
+    "tekst": ". Zabranjeno je i kažnjivo svako pozivanje ili poticanje na rat ili uporabu nasilja, na nacionalnu, rasnu ili vjersku mržnju ili bilo koji oblik nesnošljivosti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DB1DED97E27DEC0290A559D8ACD8D9EC8510445FF3F09847C791039648219482",
-    "sha256_datoteke": "DB80AF34E4B5614F320935CD33045BD2BF85132CC5F600509B2CA6F51588571B",
+    "sha256_teksta": "012BF201EDF8C6C5B396BAB4EC69A44EB400EA1CC60EF8072459E5307892AFD6",
+    "sha256_datoteke": "31975501F39A9E3A788753A224355CDDB3F52ABEB51FB757863C1C6E810BD8EB",
     "napomena": null
   }
 }

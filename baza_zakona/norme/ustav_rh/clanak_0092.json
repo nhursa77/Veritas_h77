@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "92",
     "naslov": null,
-    "tekst": "Domovi Sabora Republike Hrvatske mogu osnivati istražna povjerenstva za svako pitanje od javnog interesa. Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom.",
+    "tekst": ". Domovi Sabora Republike Hrvatske mogu osnivati istražna povjerenstva za svako pitanje od javnog interesa. Istražna povjerenstva imaju sastav, djelokrug i ovlasti u skladu sa zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "73E7BBB722B098E4F230AAFB5B2F27CD4161D3F80D4B49DF4B4E774C5BD70180",
-    "sha256_datoteke": "9E64EBC48A958ABEB3F44F7E1FAC0AD42180C938D84AE2EAEB22D9CCD1E9F7A7",
+    "sha256_teksta": "767C7F9A32928401AE07820D4A935B786F9217289D48F28ECFC739A0A6085755",
+    "sha256_datoteke": "6B2B03EA6A8937939AFC44ECFDE0A9B8A6CD1B2451F2F11A60281454E02BB5CA",
     "napomena": null
   }
 }

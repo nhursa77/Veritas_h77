@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "36",
     "naslov": null,
-    "tekst": "Sloboda i tajnost dopisivanja i svih drugih oblika općenja zajamčena je i nepovrediva. Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti Republike ili provedbu kaznenog postupka.",
+    "tekst": ". Sloboda i tajnost dopisivanja i svih drugih oblika općenja zajamčena je i nepovrediva. Samo se zakonom mogu propisati ograničenja nužna za zaštitu sigurnosti Republike ili provedbu kaznenog postupka.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6BA54CDA81E73A7ED464A0F3ECD3DA29EECB70ABA0A73BA19B4D21C92A2B1EBA",
-    "sha256_datoteke": "8CFAEE474A03F520974B49AF4CA8CA69E6BF1ECF202ABF9064EA887087D7BCAD",
+    "sha256_teksta": "EDB1124022EE143F287BCBDED7436706AA94F39F182B07D21F8536341AB630D6",
+    "sha256_datoteke": "22BB8CDAE8E651313F788F2E9C8B4639C0B24105AF7A535B21E1582B73E0FC44",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "28",
     "naslov": null,
-    "tekst": "Svatko je nedužan i nitko ga ne može smatrati krivim za kazneno djelo dok mu se pravomoćnom sudskom presudom ne utvrdi krivnja.",
+    "tekst": ". Svatko je nedužan i nitko ga ne može smatrati krivim za kazneno djelo dok mu se pravomoćnom sudskom presudom ne utvrdi krivnja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "58B7A3D687441AD8FF20A296DDBEC3B53BF62D8DC4102B937A048D8588F04469",
-    "sha256_datoteke": "620F82175092F24D64A6BB7F767E2C0E13584F0DF550FBD2DC8FE46A35F6369E",
+    "sha256_teksta": "37795A66BD37E6A7BF0347E34A1E148EED0E3233FED54018D55FAED76D5D0233",
+    "sha256_datoteke": "9BF583BFA15D308E617CC62086088F7265F9011D0634FB231DC19BECF90D04EC",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "125",
     "naslov": null,
-    "tekst": "Ustavni sud Republike Hrvatske: - odlučuje o suglasnosti zakona s Ustavom; - odlučuje o suglasnosti drugih propisa s Ustavom i zakonom; - štiti ustavne slobode i prava čovjeka i građanina; - rješava sukob nadležnosti izmedu tijela zakonodavne, izvršne i sudbene vlasti; - odlučuje, u skladu s Ustavom, o odgovornosti predsjednika Republike; - nadzire ustavnost programa i djelovanja političkih stranaka i može, u skladu s Ustavom, zabraniti njihov rad ; - nadzire ustavnost i zakonitost izbora i republičkog referenduma i rješava izborne sporove koji nisu u djelokrugu sudova; - obavlja druge poslove odredene Ustavom.",
+    "tekst": ". Ustavni sud Republike Hrvatske: - odlučuje o suglasnosti zakona s Ustavom; - odlučuje o suglasnosti drugih propisa s Ustavom i zakonom; - štiti ustavne slobode i prava čovjeka i građanina; - rješava sukob nadležnosti izmedu tijela zakonodavne, izvršne i sudbene vlasti; - odlučuje, u skladu s Ustavom, o odgovornosti predsjednika Republike; - nadzire ustavnost programa i djelovanja političkih stranaka i može, u skladu s Ustavom, zabraniti njihov rad ; - nadzire ustavnost i zakonitost izbora i republičkog referenduma i rješava izborne sporove koji nisu u djelokrugu sudova; - obavlja druge poslove odredene Ustavom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8E5196C1A93651A1EE480772121EB4330F62E6298E2662C9A146D29E9AFBF4AB",
-    "sha256_datoteke": "414CC2F91F1C04C386C1F9E469916E52F4A4AA89DF92C6FD5C90B94E46893F3C",
+    "sha256_teksta": "CD655AACB7CCD35A9E26AB5BDDE8F75FAAACA026D4A704D4452313A32FBA375A",
+    "sha256_datoteke": "E6A0502797C07F0C48F345DA3B5697D0121BD47BCC0D97E2E2DFEE6D11E5C12D",
     "napomena": null
   }
 }

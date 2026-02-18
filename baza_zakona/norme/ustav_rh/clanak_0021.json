@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "21",
     "naslov": null,
-    "tekst": "Svako ljudsko biće ima pravo na život. U Republici Hrvatskoj nema smrtne kazne",
+    "tekst": ". Svako ljudsko biće ima pravo na život. U Republici Hrvatskoj nema smrtne kazne",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0CB845888B873EA02CCAE382DA4F678F411591811F739D1565DB52C38E6734A8",
-    "sha256_datoteke": "9724675B8FE7AA90B35F259B39847493F04E66FD2CFD77D4A358D0802FCBAECF",
+    "sha256_teksta": "1EBDA7B7ABCEB513A3348ED389FE5E6F091BECA32802925773436F077E64A800",
+    "sha256_datoteke": "1BB816A05AAE43DF8AFEAB00E4D66E2C639769402C49A18A7C97065B8CE21C0B",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "80",
     "naslov": null,
-    "tekst": "Zastupnički dom: - odlučuje o donošenju i promjeni Ustava; - donosi zakone; - donosi državni proračun; - odlučuje o ratu i miru; - odlučuje o promjeni granica Republike; - raspisuje referendum; - obavlja izbore, imenovanja i razrješenja, u skladu s ustavom i zakonom - nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Saboru, u skladu s Ustavom i zakonom; - daje amnestiju za kaznena djela; - obavlja druge poslove utvrđene Ustavom.",
+    "tekst": ". Zastupnički dom: - odlučuje o donošenju i promjeni Ustava; - donosi zakone; - donosi državni proračun; - odlučuje o ratu i miru; - odlučuje o promjeni granica Republike; - raspisuje referendum; - obavlja izbore, imenovanja i razrješenja, u skladu s ustavom i zakonom - nadzire rad Vlade Republike Hrvatske i drugih nositelja javnih dužnosti odgovornih Saboru, u skladu s Ustavom i zakonom; - daje amnestiju za kaznena djela; - obavlja druge poslove utvrđene Ustavom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "EA5A61A887BAED19D5BB72DA4F71DBB1BA16807036658A73AE86958B768DD2E7",
-    "sha256_datoteke": "1C435BA543DE34DAAEFDB156D06CA22621E3FAEE30C839ED86055F252C9FA3AF",
+    "sha256_teksta": "F7AFE038DEFDFF95452C318AC3791E1B4578123D8F2A7681C9BCAEA14FEF7DA2",
+    "sha256_datoteke": "D2A104036ACDF11C41B36565FFD37FAC7D1E1C37023D841601189AA55D76D0DE",
     "napomena": null
   }
 }

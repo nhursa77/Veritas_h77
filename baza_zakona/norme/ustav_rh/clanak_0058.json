@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "58",
     "naslov": null,
-    "tekst": "Svakomu se građaninu jamči pravo na zdravstvenu zaštitu.",
+    "tekst": ". Svakomu se građaninu jamči pravo na zdravstvenu zaštitu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3CD013587229DF2F7B14B49FE8E14074C59100CA1FF776C0ADF2ADF7B622E183",
-    "sha256_datoteke": "D1C3EDBE1C44F2BB5CEA3D89D3C9E70030B1B2204C2C3BB624060F24FA807F72",
+    "sha256_teksta": "E08BF8DDD3FF75C528769F5AB3A4A19B1AD9921BA81F5E32362FA412A59E370A",
+    "sha256_datoteke": "CC8A04AD5A9FF6AA3F2A8A81449BFC1122682ADCABD43BE865806CB3C532F809",
     "napomena": null
   }
 }

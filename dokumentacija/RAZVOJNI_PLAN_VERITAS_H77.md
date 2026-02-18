@@ -143,6 +143,11 @@ PROVJERA:
   početku retka (bez fallback hvatanja brojeva iz tijela teksta)
 - kontrolni parser radi header-only nad linijama oblika `Članak N.` te ima
   sanitizaciju tipfelera `I/l -> 1` (npr. `Članak I35.` -> `135`)
+- za `ustav_rh` parser i validator rade document split:
+  `ustav_rh_procisceni` je odvojen od amandmana/promjena
+  (`Ustavni zakon...`, `Promjena Ustava...`)
+- normiranje i usporedba brojeva članaka rade se isključivo nad
+  `ustav_rh_procisceni`; amandmani ostaju izdvojeni za evidenciju
 GATE:
 - rezultat validacije ulazi u odluku o ručnim/automatiziranim parser pravilima
 

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "82",
     "naslov": null,
-    "tekst": "Ako Ustavom nije drugačije određeno, Zastupnički dom i Županijski dom donose odluke većinom glasova ukoliko je na sjednici nazočna većina zastupnika. Zastupnici glasuju osobno.",
+    "tekst": ". Ako Ustavom nije drugačije određeno, Zastupnički dom i Županijski dom donose odluke većinom glasova ukoliko je na sjednici nazočna većina zastupnika. Zastupnici glasuju osobno.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0C1C9B6EF7AA0E688DBAF847FFBD2B1F29C7A4A7DBD6E005DF0A44969EE0D95E",
-    "sha256_datoteke": "8AF458107AE19D3CA29455A9A210CE865B4AE5BE571D7A4801A5337715B7B057",
+    "sha256_teksta": "A341237A3B36F6BD21827F4E7D004DCA7DF60AF826A167345FD1ECCF33851878",
+    "sha256_datoteke": "CA5D7520AE499F8C7752727C9E9317D8EEFC6129156A4A747F31EEE2ACA0CA96",
     "napomena": null
   }
 }

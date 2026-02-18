@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "115",
     "naslov": null,
-    "tekst": "Sudbenu vlast obavljaju sudovi. Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava i zakona.",
+    "tekst": ". Sudbenu vlast obavljaju sudovi. Sudbena vlast je samostalna i neovisna. Sudovi sude na temelju Ustava i zakona.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D7BED2EF8FBD7FAE9169EA9BCF1EAE0D9F71647BD7EF8AA00DB80436B7F10C80",
-    "sha256_datoteke": "CF02B867FF210CD4F5E006C76159E0A7D035B66F282ACEBA98C86BFD69709115",
+    "sha256_teksta": "B835C438BD6F01B82659AE573327FD663EACDF0945CD918BB4C68A71D4CB5EE0",
+    "sha256_datoteke": "CB349CB6711086F0BAE68444D25740FB8D8598AB283B196B6CB10A3A5B277567",
     "napomena": null
   }
 }

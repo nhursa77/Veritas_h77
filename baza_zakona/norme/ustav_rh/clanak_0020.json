@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "20",
     "naslov": null,
-    "tekst": "Tko se ogriješi o odredbe ovoga Ustava o temeljnim slobodama i pravima čovjeka i građanina, osobno je odgovoran i ne može se opravdati višim nalogom. 2. Osobne i političke slobode i prava",
+    "tekst": ". Tko se ogriješi o odredbe ovoga Ustava o temeljnim slobodama i pravima čovjeka i građanina, osobno je odgovoran i ne može se opravdati višim nalogom. 2. Osobne i političke slobode i prava",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D46194C7CB14980D256EB92E10A96A3F3122DFCFAA7FC1ACF46B2FE4F24C2614",
-    "sha256_datoteke": "DD74F706E5E87A698319949319E078D1E564E6591729F7D36DE8E7BE04405306",
+    "sha256_teksta": "B294FCDA116F9D6D148C88F262E4EFD61C34DF3F7F96560F89A5C8745AACDD2A",
+    "sha256_datoteke": "E582797DB554D6885C1C043D1F8273CB9E97D5F1B01D7028082C7B819D185647",
     "napomena": null
   }
 }

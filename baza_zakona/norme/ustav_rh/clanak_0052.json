@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "52",
     "naslov": null,
-    "tekst": "More, morska obala i otoci, vode, zračni prostor, rudno blago i druga prirodna bogatstva, ali i zemljište, šume, biljni i životinjski svijet, drugi dijelovi prirode, nekretnine i stvari od osobito kulturnog, povijesnog, gospodarskog i ekološkog značenja, za koje je zakonom određeno da su od interesa za Republiku, imaju njezinu osobitu zaštitu. Zakonom se određuje način na koji dobra od interesa za Republiku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
+    "tekst": ". More, morska obala i otoci, vode, zračni prostor, rudno blago i druga prirodna bogatstva, ali i zemljište, šume, biljni i životinjski svijet, drugi dijelovi prirode, nekretnine i stvari od osobito kulturnog, povijesnog, gospodarskog i ekološkog značenja, za koje je zakonom određeno da su od interesa za Republiku, imaju njezinu osobitu zaštitu. Zakonom se određuje način na koji dobra od interesa za Republiku mogu upotrebljavati i iskorištavati ovlaštenici prava na njima i vlasnici, te naknada za ograničenja kojima su podvrgnuti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1C9F6714F65E0F0699F9CAF67C0D83C20FDC1CACD933EEEF188582A8DA11087D",
-    "sha256_datoteke": "410BFBCC7BA4860A8603AC205951B1B4BEF7014459251796499280D94B9FF19F",
+    "sha256_teksta": "0794AEE14162BC7D660E3B41A5D3E9AF734331235D8A7E36543099EC1834220A",
+    "sha256_datoteke": "B2B8F5675EAE95D2B2A5E7B7A7133F5E9960728F594B2AEDE6C331CF5459F766",
     "napomena": null
   }
 }

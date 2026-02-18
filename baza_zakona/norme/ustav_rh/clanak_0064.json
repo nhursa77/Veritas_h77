@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "64",
     "naslov": null,
-    "tekst": "Dužnost je svih da štite djecu i nemoćne osobe. Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i invalidne osobe imaju pravo na osobitu zaštitu na radu.",
+    "tekst": ". Dužnost je svih da štite djecu i nemoćne osobe. Djeca ne mogu biti primljena na rad prije zakonom određene dobi niti smiju biti prisiljavana na rad koji štetno utječe na njihovo zdravlje ili ćudoređe, niti im se takav rad smije dopustiti. Mladež, majke i invalidne osobe imaju pravo na osobitu zaštitu na radu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7A3F9890C2E6CE6D7C612F25F0B83E6457B1B1BB486F832F3C0013B1BAAC81C8",
-    "sha256_datoteke": "58CB649C5476CCE3CB8A7C826813A59CE1F02A99A7292481D792B8C180588B72",
+    "sha256_teksta": "CD079E812AE4847845B6DD333162AF62CE69E3871F24BEE11A11CE8ABA40A472",
+    "sha256_datoteke": "9BB6CBD7D6A990E8730227D62C00DCD5BC06CA977E50AF889D72438DC834C689",
     "napomena": null
   }
 }

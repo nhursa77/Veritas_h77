@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "76",
     "naslov": null,
-    "tekst": "Trajanje mandata zastupnicima u Saboru Republike Hrvatske može se zakonom produžiti samo u slučaju rata.",
+    "tekst": ". Trajanje mandata zastupnicima u Saboru Republike Hrvatske može se zakonom produžiti samo u slučaju rata.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "52F775301AFB1B73D559E1ECAFCE284A4E2437067F81F5600A7E0CD440BF49BA",
-    "sha256_datoteke": "80A26D1D20D64A2341197462611A402EA81E9903EB4AF44C45880B291A7F2E41",
+    "sha256_teksta": "C96BE2006C66CFE59B3BC51145D7C421A1C0F7401C9BBE34B03A6AF10615E152",
+    "sha256_datoteke": "4F62F077CCABE77585A48D0BC6F267826849F9A1FC28EB5F0A9B89B6E5C1F1DB",
     "napomena": null
   }
 }

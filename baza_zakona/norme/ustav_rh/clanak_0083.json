@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "83",
     "naslov": null,
-    "tekst": "Zakone kojima se uređuju nacionalna prava Zastupnički dom donosi dvotrećinskom većinom glasova svih zastupnika. Zakone kojima se razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave Zastupnički dom donosi većinom glasova svih zastupnika.",
+    "tekst": ". Zakone kojima se uređuju nacionalna prava Zastupnički dom donosi dvotrećinskom većinom glasova svih zastupnika. Zakone kojima se razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave Zastupnički dom donosi većinom glasova svih zastupnika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0926D217A2033DFBF8F044CC2AD1B815B1FCC25B945DA9D562C49B815C681EB1",
-    "sha256_datoteke": "CB777C7227B86A6782CAA39655B97A42A80454B190D49D1B977495506CF2FC6A",
+    "sha256_teksta": "816468F82CB2DBDB085881E8C07E5DA7C9CB78F0B824B12DC6E2CF6C15844467",
+    "sha256_datoteke": "77B2C52D21F9B6A96D30C06163B4467950ED2EA3F5ACE1A6314135BB0C411352",
     "napomena": null
   }
 }

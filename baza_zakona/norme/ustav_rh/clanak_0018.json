@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "18",
     "naslov": null,
-    "tekst": "Jamči se pravo na žalbu protiv pojedinačnih pravnih akata donesenih u postupku prvog stupnja pred sudom ili drugim ovlaštenim tijelom. Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita.",
+    "tekst": ". Jamči se pravo na žalbu protiv pojedinačnih pravnih akata donesenih u postupku prvog stupnja pred sudom ili drugim ovlaštenim tijelom. Pravo na žalbu može biti iznimno isključeno u slučajevima određenima zakonom ako je osigurana druga pravna zaštita.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A27D26D70C9EDD413F6658295349444D5C0619A1D251BF3C213C8302CADD58CC",
-    "sha256_datoteke": "098113FEC0A84A76E1FC7107FE85C7544F9284C2EB1C43414995D6EC87C15E7F",
+    "sha256_teksta": "F0EAE5A73CF302A86740D48B29362C153620010229F4DA81EA72CF0B02ABA041",
+    "sha256_datoteke": "969EF1F2B370501E601A46959DCA7F57A4F807B3D082E741EDC2A23A9B7450B0",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "107",
     "naslov": null,
-    "tekst": "Vlada Republike Hrvatske obavlja izvršnu vlast u skladu s Ustavom i zakonom.",
+    "tekst": ". Vlada Republike Hrvatske obavlja izvršnu vlast u skladu s Ustavom i zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F4CF6ABEF9D262C087140F3000555E7E76D4EDC23EB08B2A1536E27ADD82E377",
-    "sha256_datoteke": "1B6ED6AA36E30C802D9E807B69599D1FF7EFE430EB1404790E56E025721D6102",
+    "sha256_teksta": "B5F204219C5A63634A74ECDF2172568B8E2B33420414D1019F5B3457C8163CDA",
+    "sha256_datoteke": "4DC37B024DD29B6BBE7D08BAC6B07DDDF113831951C31A18391AC3F1A8DE53DC",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "19",
     "naslov": null,
-    "tekst": "Pojedinačni akti državne uprave i tijela koja imaju javne ovlasti moraju biti utemeljeni na zakonu. Zajamčuje se sudska kontrola zakonitosti pojedinačnih akata upravnih vlasti i tijela koja imaju javne ovlasti.",
+    "tekst": ". Pojedinačni akti državne uprave i tijela koja imaju javne ovlasti moraju biti utemeljeni na zakonu. Zajamčuje se sudska kontrola zakonitosti pojedinačnih akata upravnih vlasti i tijela koja imaju javne ovlasti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "9AEDF17203722DCBAC6B231679655F7ED59B3851E44039090E89EFE91BBD4CBA",
-    "sha256_datoteke": "0356250DDD396AD762406FAE47C1956A72CC313722B4458CA1DFD1E38741B4D2",
+    "sha256_teksta": "192D9B182744904AF7C168DBBE4CF2B36655ECA2D48C46C6A494A74D764C5EB5",
+    "sha256_datoteke": "E46FB60C31D3E776C72CE82EB5D5E9667C84F72DD86DE715E2D9C8E682EA14AA",
     "napomena": null
   }
 }

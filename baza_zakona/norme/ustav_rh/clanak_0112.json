@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "112",
     "naslov": null,
-    "tekst": "Predsjednik Vlade, najkasnije 15 dana pošto je imenovan, predstavlja Vladu Zastupničkomu domu i traži glasovanje o povjerenju Vladi. Imenovanje predsjednika i članova Vlade prihvaćeno je ako joj je povjerenje iskazala većina svih zastupnika u Zastupničkom domu.",
+    "tekst": ". Predsjednik Vlade, najkasnije 15 dana pošto je imenovan, predstavlja Vladu Zastupničkomu domu i traži glasovanje o povjerenju Vladi. Imenovanje predsjednika i članova Vlade prihvaćeno je ako joj je povjerenje iskazala većina svih zastupnika u Zastupničkom domu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "98E1166C3EBFF9ED7F6D0C37711CEEDB7B776E1F2FDA374C712E96A0C3772176",
-    "sha256_datoteke": "B730103240910B72C58C7CD474992A9F89082B8ABC837B4D7BCD79FDB23789ED",
+    "sha256_teksta": "B1A88F9DC0B3E92E95A4519BABA778E43862AC5A1D3A5FD9F0E814F9CC0E867E",
+    "sha256_datoteke": "CC16A767BD7C393D50656BFF68E297681A419976CE63AA70B39144AFDD791E06",
     "napomena": null
   }
 }

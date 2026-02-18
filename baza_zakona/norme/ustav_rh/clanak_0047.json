@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "47",
     "naslov": null,
-    "tekst": "Vojna obveza i obrana Republike dužnost je svih za to sposobnih građana. Dopušten je prigovor savjesti onima koji poradi svojih vjerskih ili moralnih nazora nisu pripravni sudjelovati u obavljanju vojničkih dužnosti u oružanim snagama. Te su osobe obvezane ispunjavati druge dužnosti odredene zakonom. 3. Gospodarska, socijalna i kulturna prava",
+    "tekst": ". Vojna obveza i obrana Republike dužnost je svih za to sposobnih građana. Dopušten je prigovor savjesti onima koji poradi svojih vjerskih ili moralnih nazora nisu pripravni sudjelovati u obavljanju vojničkih dužnosti u oružanim snagama. Te su osobe obvezane ispunjavati druge dužnosti odredene zakonom. 3. Gospodarska, socijalna i kulturna prava",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DCBA8C45E067AFC60CDFDFCD829266A0ADA0878F6E0EC56B087C7C09985E9E6E",
-    "sha256_datoteke": "2E7DC16F6AC4CFD1FB7F2C950C86D9014EAC47276C5D9B9437384CE1CE2B9C14",
+    "sha256_teksta": "F24FB5A63068E5C1DC1E8DF38E9E00F4A836CF62B0EE7FF0CBA3E8E398ECFA2F",
+    "sha256_datoteke": "3C62B36A6770794657EB87F828331E7170BE144D6D99E24F593D8EB1BAA8D246",
     "napomena": null
   }
 }

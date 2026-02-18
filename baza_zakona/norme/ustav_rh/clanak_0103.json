@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "103",
     "naslov": null,
-    "tekst": "Predsjednik Republike može Saboru Republike Hrvatske upućivati poslanice, a jednom godišnje podnosi mu izvještaj o stanju u Republici.",
+    "tekst": ". Predsjednik Republike može Saboru Republike Hrvatske upućivati poslanice, a jednom godišnje podnosi mu izvještaj o stanju u Republici.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6D122F2DC408336679E840BB8068629AFF64E94FFC9A8AA8F14401AC13128767",
-    "sha256_datoteke": "C2A77C11E839DD7D5677BAB94654ECCFE6515FE18090ECA96C213D79C0C96BE1",
+    "sha256_teksta": "B9824FBAEAA8D8FE101EA21E4919F7C206D5E8BF1FA1CC4BA75893BED2302481",
+    "sha256_datoteke": "6192000E600874F13BC6924F5F8B5E195B939560EC2D153AE13B64D4E845A563",
     "napomena": null
   }
 }

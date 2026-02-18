@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "23",
     "naslov": null,
-    "tekst": "Nitko ne smije biti podvrgnut bilo kakvu obliku zlostavljanja ili, bez svoje privole, liječničkim ili znanstvenim pokusima. Zabranjen je prisilni i obvezatni rad.",
+    "tekst": ". Nitko ne smije biti podvrgnut bilo kakvu obliku zlostavljanja ili, bez svoje privole, liječničkim ili znanstvenim pokusima. Zabranjen je prisilni i obvezatni rad.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C00DD1910F0B4F15C8202CE8D1983903E8540B107FAC2DAD1C9E3879DEFCE212",
-    "sha256_datoteke": "5104B204B339DB013077415E7FCD1215855AB893D0F043ED1B27CC3C886F9738",
+    "sha256_teksta": "99241B8CD647B91173D8DA7F9E819D0A20A5BEFEA516C9B5C030D17266B292BE",
+    "sha256_datoteke": "1071AAD3068ECC33BAB957455FC994351E87B5E24C76FEDA243AD5B99410C667",
     "napomena": null
   }
 }

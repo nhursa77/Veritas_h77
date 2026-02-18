@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "12",
     "naslov": null,
-    "tekst": "U Repulici Hrvatskoj u službenoj je uporabi hrvatski jezik i latinično pismo. U pojedinim lokalnim jedinicama uz hrvatski jezik i latinično pismo u službenu se uporabu može uvesti i drugi jezik te čirilično ili koje drugo pismo pod uvjetima propisanima zakonom.",
+    "tekst": ". U Repulici Hrvatskoj u službenoj je uporabi hrvatski jezik i latinično pismo. U pojedinim lokalnim jedinicama uz hrvatski jezik i latinično pismo u službenu se uporabu može uvesti i drugi jezik te čirilično ili koje drugo pismo pod uvjetima propisanima zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4B5047AB8BA1B8EDBDD7E5265C84D283F9EC9CCEA4B8B958D263C2762FF86960",
-    "sha256_datoteke": "B5B244F739D19D0C3A7EE202549FA6D3642F853912189427BCBB5D2D2C16A996",
+    "sha256_teksta": "966E183AD5BBDB86B582A76686A5DC7C9065DA061379817F9135AF36C02E4337",
+    "sha256_datoteke": "CC6ABB7B7F9178B42669DE18D5B75099753E7589A38CA3FD9EC89495B03BC28B",
     "napomena": null
   }
 }

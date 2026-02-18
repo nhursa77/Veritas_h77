@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "129",
     "naslov": null,
-    "tekst": "Jedinice lokalne samouprave mogu, u skladu sa zakonom, biti općina i kotar ili grad. Njihovo područje određuje se zakonom pošto se prethodno pribavi mišljenje stanovnika tog područja. Ustrojstvo i djelokrug tijela jedinica lokalne samouprave ureduju se njihovim statutom a u skladu sa zakonom. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima u skladu sa zakonom i statutom jedinice mjesne samouprave. U naselju ili dijelu naselja građani imaju pravo u skladu sa zakonom, osnivati i druge oblike mjesne samouprave,",
+    "tekst": ". Jedinice lokalne samouprave mogu, u skladu sa zakonom, biti općina i kotar ili grad. Njihovo područje određuje se zakonom pošto se prethodno pribavi mišljenje stanovnika tog područja. Ustrojstvo i djelokrug tijela jedinica lokalne samouprave ureduju se njihovim statutom a u skladu sa zakonom. Građani mogu neposredno sudjelovati u upravljanju lokalnim poslovima u skladu sa zakonom i statutom jedinice mjesne samouprave. U naselju ili dijelu naselja građani imaju pravo u skladu sa zakonom, osnivati i druge oblike mjesne samouprave,",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A8477E028ACE1BE5971A8A50627B871DEEC3A3A4C7138A07C9F97BA9C6B3C3B7",
-    "sha256_datoteke": "D790A4590B937D8333B39F0A496CBB6F74CDDFF3BFB00D2C1423B2B795E2619D",
+    "sha256_teksta": "4959D3A98EFFBEA9AEBEB280C66076DEA9909FF98C7FFC3A7D3141D8F5ABC178",
+    "sha256_datoteke": "51D58C03F4C05AA328EEE1F3AD9C82046E4F1A357E0CD325D05BB27B1C08E220",
     "napomena": null
   }
 }

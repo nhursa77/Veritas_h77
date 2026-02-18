@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "44",
     "naslov": null,
-    "tekst": "Svaki građanin Republike ima pravo, pod jednakim uvjetima, sudjelovati u obavljanju javnih poslova i biti primljen u javne službe.",
+    "tekst": ". Svaki građanin Republike ima pravo, pod jednakim uvjetima, sudjelovati u obavljanju javnih poslova i biti primljen u javne službe.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6283F41FA8803A339F6612853D27CC5523E7B701D7603FAF151F49B01428A159",
-    "sha256_datoteke": "BFA23C1AE960421DC2E7BE95F104D4BBA1B015D5BFB66E52C15EA8F20D4E4F6C",
+    "sha256_teksta": "0D620279F7A539A6CBB5CA3DD9DC05179AC6739372EA648981C3B4A04D52629B",
+    "sha256_datoteke": "781CBB18200BA2339A5B442E6C5B469D1C6761F83755D57A3F469A13BE6D6A38",
     "napomena": null
   }
 }

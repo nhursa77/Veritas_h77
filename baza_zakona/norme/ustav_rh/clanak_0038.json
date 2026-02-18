@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "38",
     "naslov": null,
-    "tekst": "Jamči se sloboda mišljenja i izražavanja misli. Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom utvrdeno pravo.",
+    "tekst": ". Jamči se sloboda mišljenja i izražavanja misli. Sloboda izražavanja misli obuhvaća osobito slobodu tiska i drugih sredstava priopćavanja, slobodu govora i javnog nastupa i slobodno osnivanje svih ustanova javnog priopćavanja. Zabranjuje se cenzura. Novinari imaju pravo na slobodu izvještavanja i pristupa informaciji. Jamči se pravo na ispravak svakomu komu je javnom viješću povrijeđeno Ustavom utvrdeno pravo.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8CA452F09D081ACA333134903A30D69F053486A7AB75B511EB82F556581AD58C",
-    "sha256_datoteke": "841C6111CD3FBABA9D59037BAE4770BC2D6B3880C34A9BD47D1B6E57E84EF551",
+    "sha256_teksta": "CE63104D80497FE59C00885D3F01A16E2CBE67DBDBB9771408C4796A043020CA",
+    "sha256_datoteke": "98F915889EE25E415189DE3349ACC63D4C075F1A57D3D4C93A9BC5AE3BE55862",
     "napomena": null
   }
 }

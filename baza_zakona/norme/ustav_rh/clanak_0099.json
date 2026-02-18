@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "99",
     "naslov": null,
-    "tekst": "Predsjednik Republike, na prijedlog Vlade, odlučuje o osnivanju diplomatskih i drugih predstavništava Republike Hrvatske u inozemstvu. Predsjednik Republike postavlja i opoziva diplomatske predstavnike Republike Hrvatske te prima vjerodajnice i opozivna pisma inozemnih diplomatskih predstavnika.",
+    "tekst": ". Predsjednik Republike, na prijedlog Vlade, odlučuje o osnivanju diplomatskih i drugih predstavništava Republike Hrvatske u inozemstvu. Predsjednik Republike postavlja i opoziva diplomatske predstavnike Republike Hrvatske te prima vjerodajnice i opozivna pisma inozemnih diplomatskih predstavnika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "75CA4A5ACB37DA80E4FCA02614A25559B0D885EFAE9F1B32D05FE897A5A9F79F",
-    "sha256_datoteke": "6BEDFD9B295D554B1F6DDA9D9D577BAEB3D1334FD0673EFC80121CBF6A9F8E71",
+    "sha256_teksta": "F4C9158FD4D882233ED6C397DB273B00C7DCB87D65BADBEEB0812AA893055FCE",
+    "sha256_datoteke": "11F9FB07D1F44432BB94FE69EDDBB0DA1A377C5A6E9E3B3B4D9655A03216A543",
     "napomena": null
   }
 }

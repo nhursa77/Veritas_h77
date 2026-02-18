@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "41",
     "naslov": null,
-    "tekst": "Sve vjerske zajednice jednake su pred zakonom i odvojene od države. Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
+    "tekst": ". Sve vjerske zajednice jednake su pred zakonom i odvojene od države. Vjerske zajednice slobodne su, u skladu sa zakonom, javno obavljati vjerske obrede, osnivati škole, učilišta, druge zavode, socijalne i dobrotvorne ustanove te upravljati njima, a u svojoj djelatnosti uživaju zaštitu i pomoć države.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "786DEBABCB1831317B85D131B261E88DFE9A1C5C9C75708B69305A4B7AAF9256",
-    "sha256_datoteke": "D506DC7364782A1985836C0D9E61A0A2F31D0499C9EA221790D99C352FE5190D",
+    "sha256_teksta": "87EA028E7CB10FED396651FDE8F1BA4F4A6051938E6D707250553E08F7DDB140",
+    "sha256_datoteke": "A462E099E7D8C384B460F1A3E99B77F556B85E2C82D00135696DCDEC4769EF38",
     "napomena": null
   }
 }

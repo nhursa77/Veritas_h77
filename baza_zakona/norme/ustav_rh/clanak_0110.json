@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "110",
     "naslov": null,
-    "tekst": "Vlada donosi uredbe u skladu s Ustavom i zakonom, predlaže zakone i državni proračun te provodi zakone i druge propise koje donosi Sabor Republike Hrvatske.",
+    "tekst": ". Vlada donosi uredbe u skladu s Ustavom i zakonom, predlaže zakone i državni proračun te provodi zakone i druge propise koje donosi Sabor Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5EBD52015D5D070FEDB777B3277EDE1814998DCAB4B3849B6E8C65AA178C0D7B",
-    "sha256_datoteke": "36AE1DFFF9E0095C0A92A031D6C81734D426716F87D6799328434A8A4577C887",
+    "sha256_teksta": "4E7D213614ABE858108AAB8A7B82C8D5D635C0B9E3C8FBD441BD46949A9A4FF1",
+    "sha256_datoteke": "40EBCC1C3C9F27D7E469BB1CCA0D5A968ECFE074299253F2C5D35B96A1FC9B94",
     "napomena": null
   }
 }

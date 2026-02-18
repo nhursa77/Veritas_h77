@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "140",
     "naslov": null,
-    "tekst": "Republika Hrvatska ostaje u sastavu SFRJ do novog sporazuma jugoslavenskih republika ili dok Sabor Republike Hrvatske ne odluči drugačije. Ako se aktom ili postupkom tijela federacije ili tijela druge republike ili pokrajine članice federacije naruši teritorijalna cjelovitost Republike Hrvatske, ili ako bude dovedena u neravnopravan položaj u federaciji ili joj budu ugroženi interesi, republički organi će na temelju prava na samoodređenje i ovim Ustavom utvrđenog suvereniteta Republike Hrvatske donijeti potrebne odluke radi zaštite suvereniteta i interesa Republike Hrvatske.",
+    "tekst": ". Republika Hrvatska ostaje u sastavu SFRJ do novog sporazuma jugoslavenskih republika ili dok Sabor Republike Hrvatske ne odluči drugačije. Ako se aktom ili postupkom tijela federacije ili tijela druge republike ili pokrajine članice federacije naruši teritorijalna cjelovitost Republike Hrvatske, ili ako bude dovedena u neravnopravan položaj u federaciji ili joj budu ugroženi interesi, republički organi će na temelju prava na samoodređenje i ovim Ustavom utvrđenog suvereniteta Republike Hrvatske donijeti potrebne odluke radi zaštite suvereniteta i interesa Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "2D3166DDCF68AD3CB6729AEC456950B2D1FC4310EDA7F2ABC067D6FBCAF18AB1",
-    "sha256_datoteke": "9AA56082099EDA50482816EF3896B6940180E7300CE7AF18E7BB93DFE111E0B3",
+    "sha256_teksta": "14135508D704D76718265371CEDA7C7A65E6FAF513FFC43A19EF67F3A1406595",
+    "sha256_datoteke": "0DC9C64500038D3CF89007AD2CC1E0C044CEDCE3ED36CD5073E3B4053515F1BC",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "51",
     "naslov": null,
-    "tekst": "Svatko je dužan sudjelovati u podmirenju javnih troškova, u skladu sa svojim gospodarskim mogućnostima. Porezni se sustav temelji na načelima jednakosti i pravednosti.",
+    "tekst": ". Svatko je dužan sudjelovati u podmirenju javnih troškova, u skladu sa svojim gospodarskim mogućnostima. Porezni se sustav temelji na načelima jednakosti i pravednosti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "BAE1D9826C15A232276C2A42435E9C5203E7158FE6864CBD70BED9EA72439A50",
-    "sha256_datoteke": "8E557BC3CCD7B6F77CDC71E6F13DAF2DC774BB72D50A2561E39406D56331F72A",
+    "sha256_teksta": "D0B6D3674EA35378CE8860016C604B5D45C8991CD2FC3BDD3929B27BA2CA05EB",
+    "sha256_datoteke": "D0BD330E6F3D5AF1F6883F64D89311FBBA77AAAAF4613DD5DEA0C75A2CD9EEC6",
     "napomena": null
   }
 }

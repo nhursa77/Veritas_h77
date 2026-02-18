@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "71",
     "naslov": null,
-    "tekst": "Zastupnički dom ima najmanje 100, a najviše 160 zastupnika koji se, na temelju općeg i jednakoga biračkog prava, biraju neposredno tajnim glasovanjem. U Županijski dom građani svake županije, na temelju općega biračkog prava, biraju neposredno tajnim glasovanjem tri zastupnika. Predsjednik Republike po isteku mandata postaje, ako se izričito ne odrekne te dužnosti, doživotni član Županijskog doma. Predsjednik Republike može imenovati iz reda za Republiku osobito zaslužnih građana do pet zastupnika u Županijski dom.",
+    "tekst": ". Zastupnički dom ima najmanje 100, a najviše 160 zastupnika koji se, na temelju općeg i jednakoga biračkog prava, biraju neposredno tajnim glasovanjem. U Županijski dom građani svake županije, na temelju općega biračkog prava, biraju neposredno tajnim glasovanjem tri zastupnika. Predsjednik Republike po isteku mandata postaje, ako se izričito ne odrekne te dužnosti, doživotni član Županijskog doma. Predsjednik Republike može imenovati iz reda za Republiku osobito zaslužnih građana do pet zastupnika u Županijski dom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B868E5ECF9FDC97EF2370B1BCB9D51371E0E1B342DA689715EC0FA2143D35279",
-    "sha256_datoteke": "C109A64B4E15D0FC54CCB6E8871F1AB285B5ECC62BB09C485CC3974DE47A89BD",
+    "sha256_teksta": "AB06B20A40BF15109E617092B211501CC1F7AD01EC1384B4C3521959BFA7D8D5",
+    "sha256_datoteke": "74AD4CD85487D52A9C137B560CF5D41240485269EB78D76D785CB2B502992A9E",
     "napomena": null
   }
 }

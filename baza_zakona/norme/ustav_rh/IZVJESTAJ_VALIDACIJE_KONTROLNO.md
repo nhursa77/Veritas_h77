@@ -1,17 +1,20 @@
 # IZVJESTAJ_VALIDACIJE_KONTROLNO
 
-- Timestamp: 2026-02-18T10:19:35+01:00
-- NN_JSON: C:/Veritas_H77/izvori/dokazno/narodne_novine/ustav_rh/struktura_nn.json
-- KONTROLNO_TXT: C:/Veritas_H77/izvori/kontrolno/zakon_hr/ustav_rh/ustav_rh_kontrolni.txt
-- NN_JSON_SHA256: 9ca61c0736f184a646014855af4ea263e54df9ffb65f6f1eac4befc9ce2600ab
+- Timestamp: 2026-02-18T14:35:53+01:00
+- NN_JSON_SHA256: 51012a4dc8fab0ead8c2297bda172c861efd60d22b35ab391de99ee49fb6f4a3
 - KONTROLNO_TXT_SHA256: 2a38e78e9722336813597f74fe4d96526d937e9abaa2b356ce284539b77c6171
+
+## Document split summary
+
+- CONTROL_DOCS_FOUND: 5 | ustav_rh_procisceni, amandman_nn_135_97, promjena_nn_113_00, promjena_nn_28_01, promjena_nn_76_10
+- NN_DOCS_FOUND: 1 | ustav_rh_procisceni
 
 ## SUMMARY
 
 - CONTROL_COUNT: 141
-- CONTROL_HEADERS_COUNT: 149
-- NN_COUNT: 141
-- MISSING_COUNT: 1
+- CONTROL_HEADERS_COUNT: 142
+- NN_COUNT: 142
+- MISSING_COUNT: 0
 - SHORT_COUNT: 52
 - ANOMALY_FLAG: True
 
@@ -21,16 +24,25 @@
 - CONTROL_HAS_10: True
 - CONTROL_HAS_11: True
 - CONTROL_HAS_12: True
+- CONTROL_TRUNCATION_SUSPECTED: True
+- CONTROL_MIN: 1
+- CONTROL_MAX: 142
 - CONTROL_TYPO_HEADERS: (none)
-- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 149 vs 141
+- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 142 vs 141
+
+## Control source anomaly (zakon.hr truncation suspected)
+
+- CONTROL_TRUNCATION_SUSPECTED: True
+- found 12 near high-range context (prev=122, next=124)
 
 ## Missing in NN (present in zakon.hr, absent in NN)
 
-- 135
+- (none)
 
 ## Extra in NN (present in NN, absent in zakon.hr)
 
-- 123
+- UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan (truncation suspected).
+- Kandidati (nepouzdano): 123
 
 ## Short texts in NN (len < 200)
 

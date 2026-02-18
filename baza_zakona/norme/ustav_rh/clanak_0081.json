@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "81",
     "naslov": null,
-    "tekst": "Županijski dom: - predlaže Zastupničkomu domu zakone i raspisivanje referenduma; - raspravlja i može davati mišljenje o pitanjima koja su u djelokrugu Zastupničkog doma; - daje Zastupničkomu domu prethodno mišljenje u postupku donošenja Ustava te zakona kojima se uređuju nacionalna prava, razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave; - može u roku od petnaest dana od dana izglasavanja zakona u Zastupničkom domu, uz obrazloženo mišljenje, vratiti zakon na ponovno odlučivanje Zastupničkomu domu. U tom slučaju Zastupnički dom o donošenju zakona odlučuje natpolovičnom većinom svih zastupnika, osim kada Zastupnički dom zakone donosi dvotrećinskom većinom; - obavlja druge poslove utvrđene Ustavom.",
+    "tekst": ". Županijski dom: - predlaže Zastupničkomu domu zakone i raspisivanje referenduma; - raspravlja i može davati mišljenje o pitanjima koja su u djelokrugu Zastupničkog doma; - daje Zastupničkomu domu prethodno mišljenje u postupku donošenja Ustava te zakona kojima se uređuju nacionalna prava, razrađuju Ustavom utvrđene slobode i prava čovjeka i građanina, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i ustrojstvo lokalne samouprave i uprave; - može u roku od petnaest dana od dana izglasavanja zakona u Zastupničkom domu, uz obrazloženo mišljenje, vratiti zakon na ponovno odlučivanje Zastupničkomu domu. U tom slučaju Zastupnički dom o donošenju zakona odlučuje natpolovičnom većinom svih zastupnika, osim kada Zastupnički dom zakone donosi dvotrećinskom većinom; - obavlja druge poslove utvrđene Ustavom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "9DCD90828BCC0775CF61C882511B319CE6FC0E0C8D231FC0A7B8C1CBB42F6E58",
-    "sha256_datoteke": "1FEBD684322FFDD38246445235D7D2A8E317C14F55C9DD64FAF731DF9DAB9443",
+    "sha256_teksta": "87B3619073DE334E5313E05C4B6B5F059037B67FC7C3D7F65CEB314BB722E6C3",
+    "sha256_datoteke": "5E88B47893DC54594BA2537DC864D5B354AA9AC5F04A0B73D912B1A0DE698ABC",
     "napomena": null
   }
 }

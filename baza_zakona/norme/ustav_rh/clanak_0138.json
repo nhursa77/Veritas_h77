@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "138",
     "naslov": null,
-    "tekst": "O promjeni Ustava odlučuje, uz prethodno mišljenje Županijskog doma, Zastupnički dom dvotrećinskom većinom glasova svih zastupnika.",
+    "tekst": ". O promjeni Ustava odlučuje, uz prethodno mišljenje Županijskog doma, Zastupnički dom dvotrećinskom većinom glasova svih zastupnika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5115135C9C76D787F94359408FCD176B7C77AFA89A234317973F63061EDE013F",
-    "sha256_datoteke": "16D587F08B83771F64F82E0A697BEFE17037D936A5F0357217DEF20FAA457F8C",
+    "sha256_teksta": "BB46EF4875241024EF00DD77600345D9B08CB9A2F4368326B4B4936A78299FC5",
+    "sha256_datoteke": "60807C3FD01867A99D9C3024B7C0AB3B22727BF5979E0B049DCA8AF874359E83",
     "napomena": null
   }
 }

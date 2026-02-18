@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "69",
     "naslov": null,
-    "tekst": "Svatko ima pravo na zdrav život. Republika osigurava pravo građana na zdrav okoliš. Građani, državna, javna i gospodarska tijela i udruge dužni su, u sklopu svojih ovlasti i djelatnosti, osobitu skrb posvećivati zaštiti zdravlja ljudi, prirode i ljudskog okoliša. IV. USTROJSTVO DRŽAVNE VLASTI 1. Sabor Republike Hrvatske",
+    "tekst": ". Svatko ima pravo na zdrav život. Republika osigurava pravo građana na zdrav okoliš. Građani, državna, javna i gospodarska tijela i udruge dužni su, u sklopu svojih ovlasti i djelatnosti, osobitu skrb posvećivati zaštiti zdravlja ljudi, prirode i ljudskog okoliša. IV. USTROJSTVO DRŽAVNE VLASTI 1. Sabor Republike Hrvatske",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1A1AB7BE5B31B11099D90819E4F1AD18B56A1A681114BFD7392D6C31CBB69E64",
-    "sha256_datoteke": "C3352474E95C52E53ED19786A9480C73937BA8CA6DB364ADE52804DCD5692DB4",
+    "sha256_teksta": "17FAFD4F898A4F35C0F0DE920A89F7BC559BE24F76034683093FEFECCADAE75D",
+    "sha256_datoteke": "DFE54686097A35CA0F41B3CF9B4B37460B5A47913F0EFDAA780C2178DF168357",
     "napomena": null
   }
 }

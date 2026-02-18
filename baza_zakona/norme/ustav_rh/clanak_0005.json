@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "5",
     "naslov": null,
-    "tekst": "U Republici Hrvatskoj zakoni moraju biti u suglasnosti s Ustavom, a ostali propisi i s Ustavom i sa zakonom. Svatko je dužan držati se Ustava i zakona i poštivati pravni poredak Republike.",
+    "tekst": ". U Republici Hrvatskoj zakoni moraju biti u suglasnosti s Ustavom, a ostali propisi i s Ustavom i sa zakonom. Svatko je dužan držati se Ustava i zakona i poštivati pravni poredak Republike.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3D0DFC9ABA9CD5EA945F9F62DE99037083084A9ECB7BEE1426A92CEB769F3872",
-    "sha256_datoteke": "CD0A341FFA552FCA68A7A6FD424C91DF126D557F5472F38803834B2D358E3273",
+    "sha256_teksta": "54A0096C64106E4CC8070EC75BB934FDFB292283449A3E12F930D1201FAEE61F",
+    "sha256_datoteke": "474A23DDC8E0692DDE04E4CEF9D9B37739FAD26A706C7038095A77FDC8E2FC14",
     "napomena": null
   }
 }

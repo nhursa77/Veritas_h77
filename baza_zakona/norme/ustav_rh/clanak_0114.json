@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "114",
     "naslov": null,
-    "tekst": "Ustrojstvo državne uprave uređuje se zakonom. Službenici u državnoj upravi imenuju se na temelju natječaja ako zakonom nije drukčije određeno. 4. Sudbena vlast",
+    "tekst": ". Ustrojstvo državne uprave uređuje se zakonom. Službenici u državnoj upravi imenuju se na temelju natječaja ako zakonom nije drukčije određeno. 4. Sudbena vlast",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "88B8488820E48F00855D4706DBA75EC45E3F66FF70A68BAEEA779A8527E1D7DE",
-    "sha256_datoteke": "720ED1F9364A495A5315F7AD7525563FB71D93AA2ED734780DB72CF393893DDB",
+    "sha256_teksta": "EDD460192B34FEEDD2D737720A93672A20186AF9E42263A6AE1B1BABB10324B3",
+    "sha256_datoteke": "A2A04F498DEFD81B11A1C69ED76777C95344DBAAFDF932DC97280EA985FEEA7F",
     "napomena": null
   }
 }

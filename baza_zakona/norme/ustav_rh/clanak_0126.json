@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "126",
     "naslov": null,
-    "tekst": "Ustavni sud Republike Hrvatske ukinut će zakon ako utvrdi da je neustavan. Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit.",
+    "tekst": ". Ustavni sud Republike Hrvatske ukinut će zakon ako utvrdi da je neustavan. Ustavni sud Republike Hrvatske ukinut će ili poništiti drugi propis ako utvrdi da je neustavan ili nezakonit.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7F521D3DD6DE144DFC2863308AD8887925537CAC84EBDBC8AA4291A9735131EB",
-    "sha256_datoteke": "B7170F01562E2FCB5C22889BBD527A7492FEA604D3B7540FDB32219444E0C2FD",
+    "sha256_teksta": "9AE5B6FDD1271736DCF1089FE303DDE2A14916550349CE8A3788B33C975C52F8",
+    "sha256_datoteke": "7198B824718C8E8E05581418DBD056C14074F0F24FABF0CCEC4FA4C1CB57394C",
     "napomena": null
   }
 }

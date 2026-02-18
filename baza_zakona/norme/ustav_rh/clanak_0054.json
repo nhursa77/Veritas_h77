@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "54",
     "naslov": null,
-    "tekst": "Svatko ima pravo na rad i slobodu rada. Svatko slobodno bira poziv i zaposlenje i svakomu je pod jednakim uvjetima dostupno svako radno mjesto i dužnost.",
+    "tekst": ". Svatko ima pravo na rad i slobodu rada. Svatko slobodno bira poziv i zaposlenje i svakomu je pod jednakim uvjetima dostupno svako radno mjesto i dužnost.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "75789FEF46E630F71651AAA516606348236D02D34575879338259938ECE96E03",
-    "sha256_datoteke": "31722FE5A92D3C1935D32FBEAB7130F8DC5B3954FC14C15E530F6A4360988A35",
+    "sha256_teksta": "0E25C15ABF188C76317B3D4E13D3D282BDFADFF7C0AF0A6EE38D58440B46DD17",
+    "sha256_datoteke": "BED03FF662B28A8EBF035745142C4AFC5C50FB1A9CBCF2651B684D137B9045AC",
     "napomena": null
   }
 }

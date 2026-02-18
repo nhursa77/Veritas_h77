@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "123",
     "naslov": null,
-    "tekst": "Suci Ustavnog suda Republike Hrvatske ne mogu obavljati nikakvu drugu javnu ni profesionalnu dužnost. Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Saboru Republike Hrvatske.",
+    "tekst": ". Suci Ustavnog suda Republike Hrvatske ne mogu obavljati nikakvu drugu javnu ni profesionalnu dužnost. Suci Ustavnog suda Republike Hrvatske imaju imunitet kao i zastupnici u Saboru Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6C785FF2BC336BEC6649DCA9C8222CF5EC1B629FB2FC42EA562AFCB5252D4DB0",
-    "sha256_datoteke": "C02C290EA178AF10C3327E34E4F23F489B2BDE5EE9CA665F69337207B6D9D3E9",
+    "sha256_teksta": "648BBA43B48904613FCDA129CA036D6BE23812F8C85C3B372C29E7997C4521BC",
+    "sha256_datoteke": "594E8B05D9D2553351DCB971222667B006575ED1F222C37F8000990C85219F5C",
     "napomena": null
   }
 }

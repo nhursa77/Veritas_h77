@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "131",
     "naslov": null,
-    "tekst": "Županija je jedinica lokalne uprave i samouprave. Područja županija određuju se zakonom tako da one budu izražaj povijesnih, prometnih i gospodarskih čimbenika i sposobne da budu prirodne samoupravne cjeline u okviru Republike. Ustrojstvo i djelokrug županijskih tijela odreduju se zakonom. Veliki se gradovi zakonom mogu urediti kao županije. VII. MEĐUNARODNI ODNOSI 1. Međunarodni ugovori",
+    "tekst": ". Županija je jedinica lokalne uprave i samouprave. Područja županija određuju se zakonom tako da one budu izražaj povijesnih, prometnih i gospodarskih čimbenika i sposobne da budu prirodne samoupravne cjeline u okviru Republike. Ustrojstvo i djelokrug županijskih tijela odreduju se zakonom. Veliki se gradovi zakonom mogu urediti kao županije. VII. MEĐUNARODNI ODNOSI 1. Međunarodni ugovori",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3264759033B9F1B3612A7BE2E0155E987C89AB0BFB0F31D71B6DDAE9AB8C39B8",
-    "sha256_datoteke": "183612B535DF2EC82ED05B375B0A6C8EF0F16FACFDCA580CFBF3EC928875BE0D",
+    "sha256_teksta": "50FD7087686BD02367F78CAF37BFF2FBC72871BF80EC592A0FED6616660907B0",
+    "sha256_datoteke": "5594C3F9A2C6932EC4B6D9BF91061FD20E059780962C5388338399DD48011A34",
     "napomena": null
   }
 }

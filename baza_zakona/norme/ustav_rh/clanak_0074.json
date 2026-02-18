@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "74",
     "naslov": null,
-    "tekst": "Zastupnici u Saboru Republike Hrvatske nemaju obvezujući mandat. Zastupnici u Saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
+    "tekst": ". Zastupnici u Saboru Republike Hrvatske nemaju obvezujući mandat. Zastupnici u Saboru primaju stalnu novčanu naknadu i imaju druga prava određena zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "24F46E528D8F63A6C6D073A3F1D159FA3CBC3BE000160FF7185609E1B5485860",
-    "sha256_datoteke": "DB0C82C99814C0726CC6C60A88E5C2E50490C64AD8DC4520F922AF392B16E375",
+    "sha256_teksta": "013D2AFB869F78194E3A3A070E58186916C14C962898074D8094FBE7C1919D33",
+    "sha256_datoteke": "CFCBD68C0B5420A6552FB402BB0DC2AF1983BD1BA98E76D3B88FB65070C5253D",
     "napomena": null
   }
 }

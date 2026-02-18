@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "79",
     "naslov": null,
-    "tekst": "Unutarnje ustrojstvo i način rada Zastupničkog doma i Županijskog doma uređuje se poslovnikom, u skladu s Ustavom. Poslovnik doma donosi se većinom glasova svih zastupnika. Zastupnički dom i Županijski dom imaju predsjednika i jednog ili više potpredsjednika. Prava i dužnosti predsjednika i potpredsjednika doma utvrđuju se poslovnikom. Predsjednik Zastupničkog doma predsjednik je i Sabora Republike Hrvatske.",
+    "tekst": ". Unutarnje ustrojstvo i način rada Zastupničkog doma i Županijskog doma uređuje se poslovnikom, u skladu s Ustavom. Poslovnik doma donosi se većinom glasova svih zastupnika. Zastupnički dom i Županijski dom imaju predsjednika i jednog ili više potpredsjednika. Prava i dužnosti predsjednika i potpredsjednika doma utvrđuju se poslovnikom. Predsjednik Zastupničkog doma predsjednik je i Sabora Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "787901DAFFFAE5AE53B59DAF4BA137F9C3AB4398B9636203EA652F5C8D8CBB5E",
-    "sha256_datoteke": "7C90AA9DB2C967FE13BEBC3DB811FC0404EA2DF746E725C7BEC1691CAF99723B",
+    "sha256_teksta": "3EA1E8F1F1AA8D46336874CF6266E781296BC3E8EE35F0C48DC81A88101CC485",
+    "sha256_datoteke": "D1880C91940B69190C68445ADD64EEAB737D1C5311FB4D338A6689CD9F8A0A86",
     "napomena": null
   }
 }

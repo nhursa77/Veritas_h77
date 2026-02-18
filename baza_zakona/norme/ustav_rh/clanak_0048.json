@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "48",
     "naslov": null,
-    "tekst": "Jamči se pravo vlasništva. Vlasništvo obvezuje. Nositelji vlasničkoga prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete odredene zakonom. Jamči se pravo nasljeđivanja.",
+    "tekst": ". Jamči se pravo vlasništva. Vlasništvo obvezuje. Nositelji vlasničkoga prava i njihovi korisnici dužni su pridonositi općem dobru. Strana osoba može stjecati pravo vlasništva uz uvjete odredene zakonom. Jamči se pravo nasljeđivanja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4D007E12BD50390BA9C17F4B77B99FDF2DCEC8795BC4C289834FF8FD3881EFF1",
-    "sha256_datoteke": "BFFE49B664CAA5FCEFC239AF1E904063D909AADB8E5D5348D10A9B0666932139",
+    "sha256_teksta": "B53E1BD7F8E9123837ABF31A5114EAB5055B72811C2B52603E4C9DF6BBD53B6C",
+    "sha256_datoteke": "02018157416CC1CC08DB7DEFA3F8EDEF2A452602F81E1D2C1745D19415337256",
     "napomena": null
   }
 }

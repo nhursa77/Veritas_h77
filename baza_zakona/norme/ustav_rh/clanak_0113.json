@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "113",
     "naslov": null,
-    "tekst": "Na prijedlog najmanje jedne desetine zastupnika u Zastupničkomu domu može se pokrenuti pitanje povjerenja predsjedniku Vlade, pojedinomu njezinom članu ili Vladi u cjelini. Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se glasovati o povjerenju prije nego proteknu tri dana od dana dostave prijedloga Zastupničkom domu. Odluka o nepovjerenju prihvaćena je ako je za nju glasovala većina od ukupnog broja zastupnika. Ako Zastupnički dnm odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije proteka roka od tri mjeseca. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade podnijet će ostavku predsjedniku Republike, a on će raspustiti Vladu. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može podnijeti ostavku ili može predložiti predsjedniku Republikc da razriješi dužnosti člana Vlade kojemu je izglasano nepovjerenje.",
+    "tekst": ". Na prijedlog najmanje jedne desetine zastupnika u Zastupničkomu domu može se pokrenuti pitanje povjerenja predsjedniku Vlade, pojedinomu njezinom članu ili Vladi u cjelini. Glasovanje o povjerenju Vladi može zahtijevati i njezin predsjednik. Ne može se glasovati o povjerenju prije nego proteknu tri dana od dana dostave prijedloga Zastupničkom domu. Odluka o nepovjerenju prihvaćena je ako je za nju glasovala većina od ukupnog broja zastupnika. Ako Zastupnički dnm odbije prijedlog za izglasavanje nepovjerenja, zastupnici koji su ga postavili ne mogu ponovno podnijeti isti prijedlog prije proteka roka od tri mjeseca. Ako se izglasa nepovjerenje predsjedniku Vlade ili Vladi u cjelini, predsjednik Vlade podnijet će ostavku predsjedniku Republike, a on će raspustiti Vladu. Ako se izglasa nepovjerenje pojedinom članu Vlade, predsjednik Vlade može podnijeti ostavku ili može predložiti predsjedniku Republikc da razriješi dužnosti člana Vlade kojemu je izglasano nepovjerenje.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B856148042F80D625DCDC209D56BA184EF2B52B5AEBB8BF2D1A4C00EF5A23E53",
-    "sha256_datoteke": "7F907309695E07C3A19FEBFC1BC99CD4A9CB3D321EA7E8B964852E4E04F883DD",
+    "sha256_teksta": "258F0FBA8C3893A0C2460364061A4DD7F68821FF2EA0D347D3CAC6F78F12BABB",
+    "sha256_datoteke": "4D205B0147975C30E3DC9BB6AB4876745EB502BA9AB323715CF6A866341960BB",
     "napomena": null
   }
 }

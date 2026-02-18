@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "122",
     "naslov": null,
-    "tekst": "Ustavni sud Republike Hrvatske čini jedanaest sudaca koje bira Zastupnički dom na prijedlog Županijskog doma, na vrijeme od osam godina iz reda istaknutih pravnika, osobito sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
+    "tekst": ". Ustavni sud Republike Hrvatske čini jedanaest sudaca koje bira Zastupnički dom na prijedlog Županijskog doma, na vrijeme od osam godina iz reda istaknutih pravnika, osobito sudaca, državnih odvjetnika, odvjetnika i sveučilišnih profesora pravnih znanosti. Ustavni sud Republike Hrvatske bira predsjednika suda na vrijeme od četiri godine.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D2C2B11DE4FD223FF92BAAD8075EDF3D831AB7594E2FDBF707906D4B8709DD36",
-    "sha256_datoteke": "3B8DE9BC7F1A7C480AFC06B55B7B3EB7D7397C806D06C750DC4626379109A002",
+    "sha256_teksta": "0D8F2A9DB2CF10BECF8B93E4DF1D66963AD67D1386153A659E14EB1B02B0BABE",
+    "sha256_datoteke": "5CA602836066B24A5A41BD671B7FC4D4DFB8FEA209A12500254A951DB6EA6C14",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "62",
     "naslov": null,
-    "tekst": "Republika štiti materinstvo, djecu i mladež te stvara socijalne, kulturne, odgojne, materijalne i druge uvjete kojima se promiče ostvarivanje prava na dostojan život.",
+    "tekst": ". Republika štiti materinstvo, djecu i mladež te stvara socijalne, kulturne, odgojne, materijalne i druge uvjete kojima se promiče ostvarivanje prava na dostojan život.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F0292131E5FE759639B4CFC197A652C1AB1B41B6F2FFAEA071EBED9326B55AA3",
-    "sha256_datoteke": "483DC2265BE0314D189EA3EF232A2F007AD5E88907856EAFB259BEF07864D9D5",
+    "sha256_teksta": "FC4BDC2426209CD17E8628634595574ADE40DBE3D7052A3824C33F8675EEE307",
+    "sha256_datoteke": "CAB8155FEA098BC39D07F20893F1B13BA7D55CF34D0827D8C92E6DBB0B284658",
     "napomena": null
   }
 }

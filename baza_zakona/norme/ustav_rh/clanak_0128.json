@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "128",
     "naslov": null,
-    "tekst": "Građanima se jamči pravo na lokalnu samoupravu. Pravo na lokalnu samoupravu obuhvaća pravo odlučivanja o potrebama i interesima građana lokalnog značenja, a osobito o uređivanju prostora i urbanističkom planiranju, o uređivanju naselja i stanovanja, o komunalnim djelatnostima, o brizi za djecu, socijalnoj skrbi, kulturi, tjelesnoj kulturi, športu i tehničkoj kulturi te zaštiti i unapređenju prirodnog okoliša. O lokalnoj samoupravi donosi se zakon.",
+    "tekst": ". Građanima se jamči pravo na lokalnu samoupravu. Pravo na lokalnu samoupravu obuhvaća pravo odlučivanja o potrebama i interesima građana lokalnog značenja, a osobito o uređivanju prostora i urbanističkom planiranju, o uređivanju naselja i stanovanja, o komunalnim djelatnostima, o brizi za djecu, socijalnoj skrbi, kulturi, tjelesnoj kulturi, športu i tehničkoj kulturi te zaštiti i unapređenju prirodnog okoliša. O lokalnoj samoupravi donosi se zakon.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C2586CEFE9CCFF528117989C0CE4D20C5225E10A724F428CD742E5B1C89FC811",
-    "sha256_datoteke": "1D31AEBE52FF3922FBE793819842A4F4FE0D184611D1DE7F308F4612980AA797",
+    "sha256_teksta": "85B205399B0EEFDC61BECBD3D891A30CB435D2243098EED4D12A4C6442F85D02",
+    "sha256_datoteke": "BF34E8B9549E000C85096A9C0C2653E5EEBA16C2741D0069DECF45C93DE3E883",
     "napomena": null
   }
 }

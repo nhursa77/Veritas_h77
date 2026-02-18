@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "60",
     "naslov": null,
-    "tekst": "Jamči se pravo na štrajk. U oružanim snagama, redarstvu, državnoj upravi i javnim službama određenima zakonom može se ograničiti pravo na štrajk.",
+    "tekst": ". Jamči se pravo na štrajk. U oružanim snagama, redarstvu, državnoj upravi i javnim službama određenima zakonom može se ograničiti pravo na štrajk.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C41136055588315892488320C3B7D1430D2B9BDB90FE58B313A04820D1379404",
-    "sha256_datoteke": "BDC77E2516FC7E1DD7010F2038C903F159D5C230CDCDDE5C94984EA99EB11245",
+    "sha256_teksta": "11AE093F0975082262757638D58A95CBC0613EE2851070D5F549504C7634893A",
+    "sha256_datoteke": "639C4F475BC52ADFF861F3FDB621CD03EDB6D763D0F4BE476CCDCC5F86F1497E",
     "napomena": null
   }
 }

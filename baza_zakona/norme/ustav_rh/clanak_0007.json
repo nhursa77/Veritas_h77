@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "7",
     "naslov": null,
-    "tekst": "Oružane snage Republike Hrvatske štite njezin suverenitet i neovisnost i brane njenu teritorijalnu cjelovitost. Obrambeno se ustrojstvo Republike uređuje zakonom.",
+    "tekst": ". Oružane snage Republike Hrvatske štite njezin suverenitet i neovisnost i brane njenu teritorijalnu cjelovitost. Obrambeno se ustrojstvo Republike uređuje zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0373FE9815C26076617BCC1BE89B17D8AC881332EBC4AB1138F4A11E2D81589A",
-    "sha256_datoteke": "CD93B04BEB3FB07DD195C1E40EFD7E0587DA46F1BCA6973C56F27EAC8B99CAB2",
+    "sha256_teksta": "A30ACF22734C43FEB193DF0540D820AEB763F3DD21B605250D681E078CF9DB58",
+    "sha256_datoteke": "349C718E576AECFB4F2480C3FE65E34D9B81FE0181D3D8400A1F6C9B346915EF",
     "napomena": null
   }
 }

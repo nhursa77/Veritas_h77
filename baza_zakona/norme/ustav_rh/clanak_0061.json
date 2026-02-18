@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "61",
     "naslov": null,
-    "tekst": "Obitelj je pod osobitom zaštitom Republike. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
+    "tekst": ". Obitelj je pod osobitom zaštitom Republike. Brak i pravni odnosi u braku, izvanbračnoj zajednici i obitelji uređuju se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B7A4B1C65A1C9C8AE4AEC224CEA76FB03FB1A7F00E65B3224B839FF1C602605F",
-    "sha256_datoteke": "24F00ADF8871A378CB73D8FD79EB3AA01924AE3738178C49DA6ABF9F3A619C8D",
+    "sha256_teksta": "4E7243598D403A327645F247B08A6940BE232C0B886C051ED2799993F9EA6AB5",
+    "sha256_datoteke": "83F78D0E44987780D41EA56F041DB95808E582D8A405308C4D7878BA8CAFB0E3",
     "napomena": null
   }
 }

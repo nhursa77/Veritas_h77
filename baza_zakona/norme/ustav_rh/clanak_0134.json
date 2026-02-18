@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "134",
     "naslov": null,
-    "tekst": "Međunarodni ugovori koji su sklopljeni i potvrđeni u skladu s Ustavom i objavljeni, čine dio unutarnjeg pravnog poretka Republike, a po pravnoj su snazi iznad zakona. Njihove se odredbe mogu mijenjati ili ukidati samo uz uvjete i na način koji su u njima utvrđeni, ili suglasno općim pravilima međunarodnog prava. 2. Udruživanje i odcjepljenje Članak I35. Pravo da pokrenu postupak udruživanja Republike Hrvatske u saveze s drugim državama ima najmanje jedna trećina zastupnika u Saboru Republike Hrvatske, Predsjednik Republike i Vlada Republike Hrvatske. O udruživanju Republike prethodno odlučuje Sabor dvotrećinskom većinom glasova svih zastupnika. Odluka o udruživanju Republike donosi se na referendumu većinom glasova ukupnog broja birača u Republici. Referendum se mora održati u roku 30 dana od dana donošenja odluke Sabora. Odredbe ovog Ustava o udruživanju odnose se i na uvjete i postupak razdruživanja (odcjepljenja) Republike Hrvatske osim kada zbog izvanrednih prilika na prijedlog jedne trećine zastupnika ili predsjednika Republike ili Vlade Republike Hrvatske Sabor može donijeti odluku o razdruživanju (odcjepljenju) radi zaštite suvereniteta Republike Hrvatske dvotrećinskom većinom glasova prisutnih zastupnika. VIII. PROMJENA USTAVA",
+    "tekst": ". Međunarodni ugovori koji su sklopljeni i potvrđeni u skladu s Ustavom i objavljeni, čine dio unutarnjeg pravnog poretka Republike, a po pravnoj su snazi iznad zakona. Njihove se odredbe mogu mijenjati ili ukidati samo uz uvjete i na način koji su u njima utvrđeni, ili suglasno općim pravilima međunarodnog prava. 2. Udruživanje i odcjepljenje",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D15AF8B9F3CD536B0FB10091FF0F5C6217F583BE2F6744DF9ECB2A7813FD3EF0",
-    "sha256_datoteke": "1DBE348FECB722F7802C03781C370020CDC86817A0B0DDD8DBE315282624158D",
+    "sha256_teksta": "4666898719202A89B8CBBE3879DEE63C124B16CF5617B2235A604DFF7D4A64BD",
+    "sha256_datoteke": "25763D73BEEFB562808866D681BF9E5DFB5550B17D22D87FE91C0B871357C734",
     "napomena": null
   }
 }

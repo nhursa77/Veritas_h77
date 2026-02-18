@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "40",
     "naslov": null,
-    "tekst": "Jamči se sloboda savjesti i vjeroispovijedi i slobodno javno očitovanje vjere ili drugog uvjerenja.",
+    "tekst": ". Jamči se sloboda savjesti i vjeroispovijedi i slobodno javno očitovanje vjere ili drugog uvjerenja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "07BD578B1D172C42133951F6CAD4100D993267015BBFA5C66E6796939B2E5076",
-    "sha256_datoteke": "3160A00D946DFE12B0DCBEA4AF34B4F37AF5AFD1E2EBDEB79A5E48FC78838E2C",
+    "sha256_teksta": "DF38FED4BBA8576EBF50BA7761086F4365370C7143B9EE7823788F7BE4882F5F",
+    "sha256_datoteke": "F3879F270E695E6DB95B94C59954FD17E7F3A8D19B04D96F640A306A6E9B5587",
     "napomena": null
   }
 }

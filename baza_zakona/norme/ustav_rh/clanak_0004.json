@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "4",
     "naslov": null,
-    "tekst": "U Republici Hrvatskoj državna je vlast ustrojena na načelu diobe vlasti na zakonodavnu, izvršnu i sudbenu.",
+    "tekst": ". U Republici Hrvatskoj državna je vlast ustrojena na načelu diobe vlasti na zakonodavnu, izvršnu i sudbenu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5140C3F8AEAAF838FDA773C128AE2C1DCAC00A93188487FBC387ABEE05D1FFD5",
-    "sha256_datoteke": "B09F31192A745CCADBB24DFB757C257724016DB665929EF9E590CA53FEC7E8AD",
+    "sha256_teksta": "761C4D935A472B46A80A93D38B4367CAAB322D4E09567C0E838DB501A6B59C5F",
+    "sha256_datoteke": "0ABB45B842D12EDCE90C1E7AAFDC15A6D585AF293BEA106AF1BAB07DB1B0FD3A",
     "napomena": null
   }
 }

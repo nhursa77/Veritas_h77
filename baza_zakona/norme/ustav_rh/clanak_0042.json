@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "42",
     "naslov": null,
-    "tekst": "Svim se građanima priznaje pravo na mirno okupljanje i javni prosvjed.",
+    "tekst": ". Svim se građanima priznaje pravo na mirno okupljanje i javni prosvjed.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F254627498D2462C01C62BD5D5A3CEA604C23A02B9604FD2FFA24556A9128330",
-    "sha256_datoteke": "5A71CC111CCA96FA66469CFFCC4B5A9ADA6229BCAC03E621230F85C21974705A",
+    "sha256_teksta": "E5F5E97F169E931A393D46566D31EB65252CD773CC3F3B4919B387B65D076059",
+    "sha256_datoteke": "CF6C64ABFFFB1B9286F87DD5E26F333AF91FA44608D0FDA400BAF7C84BF9C06A",
     "napomena": null
   }
 }

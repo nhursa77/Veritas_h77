@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "35",
     "naslov": null,
-    "tekst": "Svakomu se građaninu janmči štovanje i pravna zaštita njegova osobnog i obiteljskog života, dostojanstva, ugleda i časti.",
+    "tekst": ". Svakomu se građaninu janmči štovanje i pravna zaštita njegova osobnog i obiteljskog života, dostojanstva, ugleda i časti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DAF9427D79065D43B0000B1C8CE1E53FEFB43621BD9ED2861E782F52B850E260",
-    "sha256_datoteke": "76B8FB839CAEE283E3C0981A06C793CA72079168C2CA04ACE6430EE168043C92",
+    "sha256_teksta": "948DD9A397B72DEBE7E3EB5A69AFCD9CC6A92321B65E0EF8AF88627E7BA7898D",
+    "sha256_datoteke": "C96FD13716E47DBAA354041617C8A200CD5CDAF584DAB260E09AE48F6254BBC7",
     "napomena": null
   }
 }

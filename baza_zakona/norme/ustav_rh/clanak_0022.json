@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "22",
     "naslov": null,
-    "tekst": "Čovjekova je sloboda i osobnost nepovrediva. Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud.",
+    "tekst": ". Čovjekova je sloboda i osobnost nepovrediva. Nikomu se ne smije oduzeti ili ograničiti sloboda, osim kada je to određeno zakonom, o čemu odlučuje sud.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5090DE004BCDBEE0C097925B5217005F76E33EF9D2A95535C5196D8308B2E7FA",
-    "sha256_datoteke": "28C787A9249EC006E4D91CB95C2ACE599860BED80CBC0516B035CF7D3D512B15",
+    "sha256_teksta": "6CBCAEDC69677ABC441DCB2FB21CF054A883652E96CA757E9652AFC6610E3BC3",
+    "sha256_datoteke": "7E36BB68050CCC4DB549F2E4B4C48118366665A70258965997158BB75DA0D722",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "50",
     "naslov": null,
-    "tekst": "Zakonom je moguće u interesu Republike ograničiti ili oduzeti vlasništvo, uz naknadu tržišne vrijednosti. Poduzetnička se sloboda i vlasnička prava mogu iznimno ogcaničiti zakonom radi zaštite interesa i sigurnosti Republike, prirode, ljudskog okoliša i zdravlja Ijudi.",
+    "tekst": ". Zakonom je moguće u interesu Republike ograničiti ili oduzeti vlasništvo, uz naknadu tržišne vrijednosti. Poduzetnička se sloboda i vlasnička prava mogu iznimno ogcaničiti zakonom radi zaštite interesa i sigurnosti Republike, prirode, ljudskog okoliša i zdravlja Ijudi.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0D46B1EC9105A1FAFF2C8479CA87AE615BC7E18D8C2D6DD9BAB96C4A47FDF78F",
-    "sha256_datoteke": "546A6BB1BD7F75C880BF7FB7567B66925C5A95C16E584A1A1BED3B560117F958",
+    "sha256_teksta": "C0A6CB5F9B931DA091C89A611FB9B814A91740E5B4B8298D713B4C8EF7B673CA",
+    "sha256_datoteke": "EFE823C6A8844B1649776C3052B9DCDD554CAC298DB5C68483526AFD91937882",
     "napomena": null
   }
 }

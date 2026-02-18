@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "94",
     "naslov": null,
-    "tekst": "Predsjednik Republike Hrvatske državni je poglavar. Predsjednik Republike zastupa Republiku u zemlji i inozemstvu, brine se za poštivanje Ustava, osigurava opstojnost i jedinstvenost Republike i redovno djelovanje državne vlasti.",
+    "tekst": ". Predsjednik Republike Hrvatske državni je poglavar. Predsjednik Republike zastupa Republiku u zemlji i inozemstvu, brine se za poštivanje Ustava, osigurava opstojnost i jedinstvenost Republike i redovno djelovanje državne vlasti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "001C73632D536354BD1F29348A079F8FF39710D81C978BEB7034C4395F81CF7A",
-    "sha256_datoteke": "AC71FCFA8ED9EFEF31B53CDEF9961D28FB1EEA41E42DE934E0AA2330A9FF7205",
+    "sha256_teksta": "9FF7D108B0A19085ED6418DA77338D727A83E08E2D92FED1BCE5AE7D61650596",
+    "sha256_datoteke": "904C0FA122EDFECE73FCE44887C6EA4FD27DD7E7D2A2A7AD2B09260CFEC704ED",
     "napomena": null
   }
 }

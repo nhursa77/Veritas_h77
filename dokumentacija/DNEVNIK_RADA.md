@@ -148,3 +148,14 @@ dodan `FOUND_TYPO_HEADERS` (npr. `Članak I35 -> 135`).
 NN parser sada normalizira tipfelere broja članka `I/l -> 1` u headeru,
 regenerirana je `struktura_nn.json` i NORMA izlaz, te je kreiran
 `baza_zakona/norme/ustav_rh/clanak_0135.json`.
+
+### Ustav RH — document split (pročišćeni vs amandmani)
+U parseru i validatoru uvedeno je razdvajanje dokumenata:
+`ustav_rh_procisceni` je odvojen od amandmanskih/promjenskih dokumenata.
+Generiraju se novi izlazi:
+`izvori/dokazno/narodne_novine/ustav_rh/struktura_nn_dokumenti.json`
+te
+`izvori/kontrolno/zakon_hr/ustav_rh/struktura_kontrolno_dokumenti.json`.
+Validacija NN vs kontrolno sada uspoređuje samo `ustav_rh_procisceni`,
+a report sadrži sekciju `Document split summary` i ispis
+`CONTROL_DOCS_FOUND` / `NN_DOCS_FOUND`.

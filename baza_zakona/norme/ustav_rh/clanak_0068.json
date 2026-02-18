@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "68",
     "naslov": null,
-    "tekst": "Jamči se sloboda znanstvenoga, kulturnog i umjetničkog stvaralaštva. Republika potiče i pomaže razvitak znanosti, kulture i umjetnosti. Republika štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Republika potiče i pomaže skrb o tjelesnoj kulturi i športu.",
+    "tekst": ". Jamči se sloboda znanstvenoga, kulturnog i umjetničkog stvaralaštva. Republika potiče i pomaže razvitak znanosti, kulture i umjetnosti. Republika štiti znanstvena, kulturna i umjetnička dobra kao duhovne narodne vrednote. Jamči se zaštita moralnih i materijalnih prava koja proistječu iz znanstvenoga, kulturnog, umjetničkog, intelektualnog i drugog stvaralaštva. Republika potiče i pomaže skrb o tjelesnoj kulturi i športu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8997E99DDF636E5889162F4CE4D1552C96AB2245B7FC9D7B144C298B939439DE",
-    "sha256_datoteke": "D1905E1B4F70A38CB7D53F1BCDB482FC316B66B391C0A61A6201326F10D3AE8C",
+    "sha256_teksta": "F50D7792F84A639FE3FE70F0CE840A68A820E8E152363C8BFF20345B11D4A83B",
+    "sha256_datoteke": "15CFD59FA3E4C79D6EB6738741BE09CB3EF640432F8F95E6FFA3EC05B21392AE",
     "napomena": null
   }
 }

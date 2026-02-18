@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "1",
     "naslov": null,
-    "tekst": "I. Grb Republike Hrvatske povijesni je hrvatski grb čija je osnovica 25 naizmjeničnih crvenih i bijelih (srebrenih) polja. Zastava Republike Hrvatske sastoji se od tri boje: crvene, bijele i plave, s povijesnim hrvatskim grbom u sredini. Himna je Republike Hrvatske \"Lijepa naša domovino\". Opis povijesnoga hrvatskog grba i zastave i tekst himne te uporaba i zaštita tih i drugih državnih znamenja ureduje se zakonom.",
+    "tekst": ". Republika Hrvatska jedinstvena je i nedjeljiva demokratska i socijalna država. U Republici Hrvatskoj vlast proizlazi iz naroda i pripada narodu kao zajednici slobodnih i ravnopravnih državljana. Narod ostvaruje vlast izborom svojih predstavnika i neposrednim odlučivanjem.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DA92FDA48C1AEC7DEE056F13A3DCF9779C9CAC95C932BAEAACEECA258BF517B3",
-    "sha256_datoteke": "0BBCFA8A42E9A65E187E51133B0C1A82237259B24E82A95264F9DAF9D43BF943",
+    "sha256_teksta": "6B1C615E0513FD70C9D6874069446BB826D604C74C574FF361C6B9C59799F22F",
+    "sha256_datoteke": "28BBBB17D2EBF4BAEF0AE658028B46C5AA8D1A4B09519B0F53F64968F39064E5",
     "napomena": null
   }
 }

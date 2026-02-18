@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "109",
     "naslov": null,
-    "tekst": "Ustrojstvo i način rada i odlučivanja Vlade propisuje se zakonom i njenim poslovnikom. Unutarnje ustrojstvo ministarstva, Vlada uređuje uredbama, a za obavljanje svojih poslova osniva službe.",
+    "tekst": ". Ustrojstvo i način rada i odlučivanja Vlade propisuje se zakonom i njenim poslovnikom. Unutarnje ustrojstvo ministarstva, Vlada uređuje uredbama, a za obavljanje svojih poslova osniva službe.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "7D9672B152CA84222ED9391F540EC92328EE3A203E916E72C2D9A3FA773E129D",
-    "sha256_datoteke": "F67D13AE4E8BEDC8BACFB7D72A8CE68941DC8C6B23C84833DB05AA687E022A3B",
+    "sha256_teksta": "5BBB2C59A4B528BF698D9AD39854F487A796A286119A99BA57826AB168EE5D72",
+    "sha256_datoteke": "9A6232E752B696CAFBC98170B82F902785EED3455983DDB01019DD80280B0847",
     "napomena": null
   }
 }

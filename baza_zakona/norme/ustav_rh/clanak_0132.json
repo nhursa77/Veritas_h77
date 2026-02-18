@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "132",
     "naslov": null,
-    "tekst": "Međunarodne ugovore u ime Republike Hrvatske sklapa predsjednik Republike, a može ih u skladu sa zakonom, sklapati i Vlada Republike Hrvatske.",
+    "tekst": ". Međunarodne ugovore u ime Republike Hrvatske sklapa predsjednik Republike, a može ih u skladu sa zakonom, sklapati i Vlada Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0E06170298A676E4CAF21DC5F4C074392A370ACD498CD18CDC4DB5E1CB9C87AA",
-    "sha256_datoteke": "9B20F7950D8F9C4D207A5646914A22BBD6835FEEC9E532C1D84B3C2925B52E98",
+    "sha256_teksta": "3471C448B1C2BAA3A7EAF482EE0F5AA780FD9911898A9C3E626C00E72C6C791F",
+    "sha256_datoteke": "1CD7FCB5D5D60641E5947F2FC07D3BDB46DB03E73B169FBC1F840D91D94FC648",
     "napomena": null
   }
 }

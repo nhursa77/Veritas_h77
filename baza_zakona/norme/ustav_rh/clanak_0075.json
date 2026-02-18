@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "75",
     "naslov": null,
-    "tekst": "Zastupnici u Saboru Republike Hrvatske imaju imunktet. Zastupnik ne može biti pozvan na kaznenu odgovornost, pritvoren ili kažnjen za izraženo mišljenje ili glasovanje u Saboru. Zastupnik ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez odobrenja doma Sabora. Zastupnik može biti pritvoren bez odobrenja doma Sabora samo ako je zatečen da vrši kažnjivo djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. O takvom se slučaju izvješćuje predsjednika doma Sabora. Ako dom Sabora nije na okupu, odobrenje da se zastupnik liši slobode ili da se protiv njega nastavi kazneni postupak daje i o njegovu pravu na imunitet odlučuje mandatno-imunitetna komisija doma, s time što njezinu odluku mora naknadno potvrditi dom Sabora.",
+    "tekst": ". Zastupnici u Saboru Republike Hrvatske imaju imunktet. Zastupnik ne može biti pozvan na kaznenu odgovornost, pritvoren ili kažnjen za izraženo mišljenje ili glasovanje u Saboru. Zastupnik ne može biti pritvoren niti se protiv njega može pokrenuti kazneni postupak bez odobrenja doma Sabora. Zastupnik može biti pritvoren bez odobrenja doma Sabora samo ako je zatečen da vrši kažnjivo djelo za koje je propisana kazna zatvora u trajanju dužem od pet godina. O takvom se slučaju izvješćuje predsjednika doma Sabora. Ako dom Sabora nije na okupu, odobrenje da se zastupnik liši slobode ili da se protiv njega nastavi kazneni postupak daje i o njegovu pravu na imunitet odlučuje mandatno-imunitetna komisija doma, s time što njezinu odluku mora naknadno potvrditi dom Sabora.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3C9C05AE929F033E3DDC598931F8CDF5966A4DF9CF27C439842FC06D1F139C27",
-    "sha256_datoteke": "273B88B79AC75C58B22D43C5267947B2566DFDC6657768D3C536A18F262BE1C8",
+    "sha256_teksta": "4C900B6E5209143BA36A4D2414169793D587B4850A7333C3ADA1B9F24EF5997E",
+    "sha256_datoteke": "6BA6C1C8250B4D160EF7EC84355F82263B255E8C23EB4DEE3147CCBB4D858C7C",
     "napomena": null
   }
 }

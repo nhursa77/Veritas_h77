@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "72",
     "naslov": null,
-    "tekst": "Zastupnici se u domove Sabora Republike Hrvatske biraju na vrijeme od četiri godine. Nitko ne može istodobno biti zastupnikom u Zastupničkom domu i Županijskom domu. Zakonom se odreduje broj, uvjeti i postupak izbora zastupnika u domove Sabora.",
+    "tekst": ". Zastupnici se u domove Sabora Republike Hrvatske biraju na vrijeme od četiri godine. Nitko ne može istodobno biti zastupnikom u Zastupničkom domu i Županijskom domu. Zakonom se odreduje broj, uvjeti i postupak izbora zastupnika u domove Sabora.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "942616173FA74BD16DF5242E4D95DDD6DD4FC4D48B02C76F1D4FFB7EBD700EE7",
-    "sha256_datoteke": "4DB14EFB9011C4D3EECA79B925622569F6AEAE12DA85676EAD47FAC1190FF899",
+    "sha256_teksta": "A9E6AC1F741A05B11C89487C0B2BCACFF05BFA6768846CC93A3669B99FB14610",
+    "sha256_datoteke": "B88CF4AC81B9413E034C71F9845BB1F1E21D5E5295F5DDE90576FECE3A4553DF",
     "napomena": null
   }
 }

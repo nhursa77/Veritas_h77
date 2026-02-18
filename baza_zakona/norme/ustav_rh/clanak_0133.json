@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "133",
     "naslov": null,
-    "tekst": "Sabor Reublike Hrvatske potvrđuje međunarodne ugovore koji traže donošenje ili izmjenu zakona, međunarodne ugovore vojne i političke naravi i međunarodne ugovore koji financijski obvezuju Republiku. Međunarodne ugovore kojima se međunarodnoj organizaciji ili savezu daju ovlasti izvedene iz Ustava Republike Hrvatske, Sabor potvrđuje dvotrećinskom većinom glasova svih zastupnika.",
+    "tekst": ". Sabor Reublike Hrvatske potvrđuje međunarodne ugovore koji traže donošenje ili izmjenu zakona, međunarodne ugovore vojne i političke naravi i međunarodne ugovore koji financijski obvezuju Republiku. Međunarodne ugovore kojima se međunarodnoj organizaciji ili savezu daju ovlasti izvedene iz Ustava Republike Hrvatske, Sabor potvrđuje dvotrećinskom većinom glasova svih zastupnika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CA464796762FF2356E80935C19EE1C4356B40DE6178325EFEB7C0467E9B46888",
-    "sha256_datoteke": "17ECB0E9A11E83B8FAD918C26CCBEA15D3E249EB014BC4489C70486B5EE06991",
+    "sha256_teksta": "43CC93FAD5AEEE64620ED287E4DAEC494C7ED836BBAA9FF83538050A255D6786",
+    "sha256_datoteke": "284CF25194E1468F9ED56DD89CF20D5AD59268F89D366D70810E7D2290447FF2",
     "napomena": null
   }
 }

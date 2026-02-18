@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "111",
     "naslov": null,
-    "tekst": "Vlada je odgovorna predsjedniku Republike i Zastupničkomu domu Sabora Republike Hrvatske. Predsjednik, potpredsjednici i članovi Vlade zajednički su odgovorni za odluke koje Vlada donosi, a osobno su odgovorni za svoje područje rada.",
+    "tekst": ". Vlada je odgovorna predsjedniku Republike i Zastupničkomu domu Sabora Republike Hrvatske. Predsjednik, potpredsjednici i članovi Vlade zajednički su odgovorni za odluke koje Vlada donosi, a osobno su odgovorni za svoje područje rada.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4E260757D5E181165BC44D8A45D050C0CD93031C161EABDC5B4332BD1504D53D",
-    "sha256_datoteke": "E747427D330AB006906AD3E10FA229B863EF794084AEE3F7D7927CF7EB551A49",
+    "sha256_teksta": "7C1ED4DB40608F61ED132A1B55DC08982E9906DFE75415A155B79AD2F222C4D0",
+    "sha256_datoteke": "2188AC0BF337096AFF842E8B2E4D597669C52EB02E75176288D4E5CCE632C415",
     "napomena": null
   }
 }

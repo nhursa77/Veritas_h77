@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "30",
     "naslov": null,
-    "tekst": "Kaznena osuda za teška i osobito nečasna kaznena djela može, u skladu sa zakonom, imati za posljedicu gubitak stečenih ili zabranu stjecanja na određeno vrijeme nekih prava na obavljanje određenih poslova, ako to zahtijeva zaštita pravnog poretka.",
+    "tekst": ". Kaznena osuda za teška i osobito nečasna kaznena djela može, u skladu sa zakonom, imati za posljedicu gubitak stečenih ili zabranu stjecanja na određeno vrijeme nekih prava na obavljanje određenih poslova, ako to zahtijeva zaštita pravnog poretka.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "68ACC72995CB96EDA9E0E1A7FDF50B82EC7046A20C7AC4F431B757C4E05343C9",
-    "sha256_datoteke": "48A142BD4864E6966EEE83AD9076F9724F4B81CFFFA1BEDBDB2B1790F22F3FFE",
+    "sha256_teksta": "0B74387F9EB14BFE690393840B7FF070CE6306E1FCE1C137A63B52D94AC2B584",
+    "sha256_datoteke": "9F7E59D7BE1C27A8FBBBC44F2BDA1D96340158AFE30FA83E68A38157F4D765C9",
     "napomena": null
   }
 }

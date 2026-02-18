@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "84",
     "naslov": null,
-    "tekst": "Sjednice su domova Sabora Republike Hrvatske javne.",
+    "tekst": ". Sjednice su domova Sabora Republike Hrvatske javne.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B23B59D32F11F4AC9FF2697BDD16C966C53D67BE7005BD61244219FD93C4079C",
-    "sha256_datoteke": "E5E6F7A6DEF98DBC341585EDD1AC5EDEB622A77DBE2254228A8AE53EDDCD51B8",
+    "sha256_teksta": "A7103660B2E8D1EE2204C48B42BBBA3D276468B79FE577E96AE601ED78BC16E1",
+    "sha256_datoteke": "60244DFA697C7EE46489E7E29BF82AF26A59F4198D9B7A745E0B2C73A935830D",
     "napomena": null
   }
 }

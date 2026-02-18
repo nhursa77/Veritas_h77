@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "3",
     "naslov": null,
-    "tekst": "Sloboda, jednakost, nacionalna ravnopravnost, mirotvorstvo, socijalna pravda, poštivanje prava čovjeka, nepovredivost vlasništva, očuvanje prirode i čovjekova okoliša, vladavina prava i demokratski višestranački sustav najviše su vrednote ustavnog poretka Republike Hrvatske.",
+    "tekst": ". Sloboda, jednakost, nacionalna ravnopravnost, mirotvorstvo, socijalna pravda, poštivanje prava čovjeka, nepovredivost vlasništva, očuvanje prirode i čovjekova okoliša, vladavina prava i demokratski višestranački sustav najviše su vrednote ustavnog poretka Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1CADCC585A5BE7E03C296FE5A60EE832E23AA669B024A6D6D27C7882156ED825",
-    "sha256_datoteke": "2EBD1891A528347C8604E91207F193B5EE376E04848A33BDA8709EE40EA3A13C",
+    "sha256_teksta": "7B6921629781E6F0ACE3A8E6D6112DDB1BF262F82950ED2F50A87250C55FF96D",
+    "sha256_datoteke": "1994C7FDDBA46172216E8A3BB5F87282EC6BC4973B21E8FE9D18DA955157C8B5",
     "napomena": null
   }
 }

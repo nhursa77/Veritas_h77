@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "141",
     "naslov": null,
-    "tekst": "Ovaj se Ustav primjenjuje od dana kad ga proglasi Sabor Republike Hrvatske, ako za primjenu pojedinih njegovih odredaba ustavnim zakonom za njegovu provedbu nije drugačije određeno: lzbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
+    "tekst": ". Ovaj se Ustav primjenjuje od dana kad ga proglasi Sabor Republike Hrvatske, ako za primjenu pojedinih njegovih odredaba ustavnim zakonom za njegovu provedbu nije drugačije određeno: lzbori za Sabor i predsjednika Republike raspisat će se prema izbornim zakonima koji će se donijeti najkasnije za godinu dana od dana proglašenja ovog Ustava.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CCDFF9C501F9179464CAA4D1449DAFF2AD2B583910FFB60FA73EEC16AE3820C7",
-    "sha256_datoteke": "B6E3D2A27B5B311D1EE50955C61DDB9C220043418FBBB3CF557EC46352B5D1A8",
+    "sha256_teksta": "9D474BDBB4D95D8A4C343E5F96A83175D2600F6788F3D73DFB65A539B0AD7703",
+    "sha256_datoteke": "9B19B54278FD1491276EEC50BEC7F4472CEAE97652D15F9883A0868BF2A4C17C",
     "napomena": null
   }
 }

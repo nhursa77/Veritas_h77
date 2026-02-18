@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "15",
     "naslov": null,
-    "tekst": "U Republici Hrvatskoj ravnopravni su pripadnici svih naroda i manjina. Pripadnicima svih naroda i manjina jamči se sloboda izražavanja narodnosne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
+    "tekst": ". U Republici Hrvatskoj ravnopravni su pripadnici svih naroda i manjina. Pripadnicima svih naroda i manjina jamči se sloboda izražavanja narodnosne pripadnosti, slobodno služenje svojim jezikom i pismom i kulturna autonomija.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DF88CA5E6F06505C71B617A187E3285BC20C86CABB888BB749B78274AD94F465",
-    "sha256_datoteke": "4D0B3FC631F232C55B7E15590F54ED11E4FA060C81A0F291410B0AFF4337DA33",
+    "sha256_teksta": "8EED71C2758CE32BD4054FAE37D1CA922D5FC56F2453FB2A778EDCEA83684FFF",
+    "sha256_datoteke": "CA89525CBE09A01B403541E55E102CD98E4CFD59CD5A6B501F6D17C2F82F2909",
     "napomena": null
   }
 }

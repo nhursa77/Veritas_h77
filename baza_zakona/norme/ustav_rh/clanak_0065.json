@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "65",
     "naslov": null,
-    "tekst": "Osnovno je školovanje obvezatno i besplatno. Svakomu je dostupno, pod jednakim uvjetima, srednjoškolsko i visokoškolsko obrazovanje u skladu s njegovim sposobnostima.",
+    "tekst": ". Osnovno je školovanje obvezatno i besplatno. Svakomu je dostupno, pod jednakim uvjetima, srednjoškolsko i visokoškolsko obrazovanje u skladu s njegovim sposobnostima.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "773A598C6F8E5BDD30E20302F8F9B9AEBF87620C59BE60D3690FC184F6107F53",
-    "sha256_datoteke": "4068F1293380016E77E5F1ADA69666FC5FB5B2A8A220EAAE286D831841566B10",
+    "sha256_teksta": "8BC101B9690AA391B68E0BBDC4EF776D0E7250382740695F37FB249A4BD5C131",
+    "sha256_datoteke": "DBACB5FCFEB6961CD2446F262AE628EB9175C2E59C97EEECBE95AD36929DABAC",
     "napomena": null
   }
 }

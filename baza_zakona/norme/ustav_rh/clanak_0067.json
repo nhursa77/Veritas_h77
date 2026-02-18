@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "67",
     "naslov": null,
-    "tekst": "Jamči se autonomija sveučilišta. Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
+    "tekst": ". Jamči se autonomija sveučilišta. Sveučilište samostalno odlučuje o svom ustrojstvu i djelovanju, u skladu sa zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "49F5916A65C7F31CB6A6238DA29933CC81B6C6A85B233DE1596DF1FCC883D5E5",
-    "sha256_datoteke": "96AE87E5A96590C532E728191FC84127658D781A50E75991DCDD7DE0CA5A1E94",
+    "sha256_teksta": "79E611F7FEC88C6C643CA6339C2A7D0F7C46DBD3AE095B0A616EE397943CB26D",
+    "sha256_datoteke": "F27B75DADA46D18B48061E5B0910727A9BE9D576529473749D51C35FFB910DC8",
     "napomena": null
   }
 }

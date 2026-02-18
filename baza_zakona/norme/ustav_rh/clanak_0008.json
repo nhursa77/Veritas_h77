@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "8",
     "naslov": null,
-    "tekst": "Granice se Republike Hrvatske mogu mijenjati samo odlukom Sabora Republike Hrvatske.",
+    "tekst": ". Granice se Republike Hrvatske mogu mijenjati samo odlukom Sabora Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "56EB86A93405A20775EF89597FF1E4E680672B116C04CBB7742DB771EB58E2D1",
-    "sha256_datoteke": "AFC200AF8FD6E78284600F6F7A303C0DDB0786A3EF990B5161AE1612D69BBF8F",
+    "sha256_teksta": "9ABF00D0288402BA6D9FF6F3BD27B79641DF207FE6D6CEC6D4A5ADC9B1D729CC",
+    "sha256_datoteke": "5A1AE1866D629842980937E1ED6758B715CAB49FD73F7B8B95582E66E273B536",
     "napomena": null
   }
 }

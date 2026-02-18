@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "104",
     "naslov": null,
-    "tekst": "Predsjednik Republike na prijedlog Vlade i uz supotpis njezina predsjednika, a nakon savjetovanja s predsjednikom Doma, može raspustiti Zastupnički dom, ako taj Dom izglasa nepovjerenje Vladi ili ako za mjesec dana od dana predlaganja ne prihvati državni proračun. Predsjednik Republike ne može ponovno raspustiti Zastupnički dom prije isteka godine dana od dana raspuštanja.",
+    "tekst": ". Predsjednik Republike na prijedlog Vlade i uz supotpis njezina predsjednika, a nakon savjetovanja s predsjednikom Doma, može raspustiti Zastupnički dom, ako taj Dom izglasa nepovjerenje Vladi ili ako za mjesec dana od dana predlaganja ne prihvati državni proračun. Predsjednik Republike ne može ponovno raspustiti Zastupnički dom prije isteka godine dana od dana raspuštanja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "2F6F65727D33DFACBFFA3D25F6987C67196A669C2EE051814DED82C80398162F",
-    "sha256_datoteke": "6C53CF74811957AE8937727A0C35FB5C8E4563A9C294044479AD98866345DCE1",
+    "sha256_teksta": "40F3A525B29B0352B62FE18C99B9326A5C6970E24E260D1214ED9BA41AD547FD",
+    "sha256_datoteke": "6F04B182C16F3308486E4454B5120F642446C3E7C11790656B61AB65B60705A2",
     "napomena": null
   }
 }

@@ -79,40 +79,86 @@ def html_u_linije(html: str) -> list[str]:
     return lines
 
 
-def parsiraj_clanke(lines: list[str]) -> tuple[list[dict], list[str]]:
+def _normaliziraj_broj_token(token: str) -> tuple[int | None, str | None]:
+    izvorno = token.strip()
+    if not izvorno:
+        return None, None
+    norm = izvorno.replace("I", "1").replace("l", "1")
+    if not norm.isdigit():
+        return None, None
+    korekcija = None
+    if norm != izvorno:
+        korekcija = f"Članak {izvorno} -> {norm}"
+    return int(norm), korekcija
+
+
+def _detektiraj_switch_dokumenta(line: str) -> dict | None:
+    clean = line.strip()
+    if not clean:
+        return None
+
+    nn_match = re.search(r"NN\s*([0-9]{1,3}/[0-9]{2,4})", clean, flags=re.IGNORECASE)
+    if not nn_match:
+        return None
+
+    nn_raw = nn_match.group(1)
+    nn_key = nn_raw.replace("/", "_")
+
+    if re.search(r"^Ustavni zakon", clean, flags=re.IGNORECASE):
+        return {
+            "doc_id": f"amandman_nn_{nn_key}",
+            "tip": "amandman",
+            "nn": nn_raw,
+            "naslov": clean,
+            "clanci": [],
+        }
+
+    if re.search(r"^Promjena Ustava", clean, flags=re.IGNORECASE):
+        return {
+            "doc_id": f"promjena_nn_{nn_key}",
+            "tip": "promjena",
+            "nn": nn_raw,
+            "naslov": clean,
+            "clanci": [],
+        }
+
+    return None
+
+
+def parsiraj_dokumente_nn(lines: list[str], meta: dict) -> tuple[list[dict], list[str], list[str]]:
     pattern = re.compile(r"^\s*[ČC]lanak\s+([\dIl]+)\s*(.*)$", flags=re.IGNORECASE)
     rimski_pattern = re.compile(r"^([IVXLCDM]{1,10})\.?\s*(.*)$", flags=re.IGNORECASE)
-    clanci: list[dict] = []
+
     upozorenja: list[str] = []
-    rimske_oznake: list[tuple[int, str]] = []
     typo_headers: list[str] = []
+    rimske_oznake: list[tuple[int, str]] = []
+
+    dokumenti: list[dict] = [
+        {
+            "doc_id": "ustav_rh_procisceni",
+            "tip": "ustav_procisceni",
+            "nn": str(meta.get("oznaka_akta") or ""),
+            "naslov": str(meta.get("naziv_akta") or "Ustav Republike Hrvatske"),
+            "clanci": [],
+        }
+    ]
+    current_doc = dokumenti[0]
 
     current_num: int | None = None
     current_parts: list[str] = []
     current_glava_rimski: str | None = None
 
-    def normaliziraj_broj_token(token: str) -> tuple[int | None, str | None]:
-        izvorno = token.strip()
-        if not izvorno:
-            return None, None
-        norm = izvorno.replace("I", "1").replace("l", "1")
-        if not norm.isdigit():
-            return None, None
-        korekcija = None
-        if norm != izvorno:
-            korekcija = f"Članak {izvorno} -> {norm}"
-        return int(norm), korekcija
-
     def zavrsi_trenutni() -> None:
         nonlocal current_num, current_parts, current_glava_rimski
         if current_num is None:
             return
+
         tekst = re.sub(r"\s+", " ", " ".join(current_parts)).strip()
         if not tekst:
             tekst = f"Članak {current_num}."
             upozorenja.append(f"Članak {current_num} nema izdvojen tekst; upisan je samo marker članka.")
 
-        clanci.append(
+        current_doc["clanci"].append(
             {
                 "broj": current_num,
                 "naslov": None,
@@ -123,23 +169,37 @@ def parsiraj_clanke(lines: list[str]) -> tuple[list[dict], list[str]]:
                 },
             }
         )
+
         if current_glava_rimski:
             rimske_oznake.append((current_num, current_glava_rimski))
+
         current_num = None
         current_parts = []
         current_glava_rimski = None
 
     for line in lines:
+        switch_doc = _detektiraj_switch_dokumenta(line)
+        if switch_doc is not None:
+            zavrsi_trenutni()
+            postojeci = next((d for d in dokumenti if d.get("doc_id") == switch_doc["doc_id"]), None)
+            if postojeci is None:
+                dokumenti.append(switch_doc)
+                current_doc = switch_doc
+            else:
+                current_doc = postojeci
+            continue
+
         m = pattern.match(line)
         if m:
             zavrsi_trenutni()
             broj_token = m.group(1)
-            broj, korekcija = normaliziraj_broj_token(broj_token)
+            broj, korekcija = _normaliziraj_broj_token(broj_token)
             if broj is None:
                 continue
             current_num = broj
             if korekcija and korekcija not in typo_headers:
                 typo_headers.append(korekcija)
+
             ostatak = m.group(2).strip()
             rimski_match = rimski_pattern.match(ostatak) if ostatak else None
             if rimski_match:
@@ -156,18 +216,17 @@ def parsiraj_clanke(lines: list[str]) -> tuple[list[dict], list[str]]:
 
     zavrsi_trenutni()
 
-    if not clanci:
+    ukupno = sum(len(d.get("clanci", [])) for d in dokumenti)
+    if ukupno == 0:
         upozorenja.append("Nije pronađen nijedan članak po markeru 'Članak <broj>'.")
 
     if rimske_oznake:
-        upozorenja.append(
-            f"Detektirano rimskih oznaka glava/dijelova: {len(rimske_oznake)}"
-        )
+        upozorenja.append(f"Detektirano rimskih oznaka glava/dijelova: {len(rimske_oznake)}")
 
     if typo_headers:
         upozorenja.append(f"Detektirano tipfelera u headerima članaka: {len(typo_headers)}")
 
-    return clanci, upozorenja, typo_headers
+    return dokumenti, upozorenja, typo_headers
 
 
 def primijeni_ustav_anomaliju_c1i_u_11(akt_slug: str, clanci: list[dict], upozorenja: list[str]) -> None:
@@ -238,9 +297,32 @@ def izradi_strukturu(meta: dict, akt_slug: str, clanci: list[dict]) -> dict:
     }
 
 
+def izradi_strukturu_dokumenti(meta: dict, akt_slug: str, dokumenti: list[dict]) -> dict:
+    return {
+        "glavni_akt": {
+            "slug": akt_slug,
+            "naziv": meta.get("naziv_akta"),
+        },
+        "dokumenti": dokumenti,
+        "izvor": {
+            "url": meta.get("url"),
+            "datum_pristupa": meta.get("datum_pristupa"),
+            "tip_sadrzaja": meta.get("tip_sadrzaja"),
+            "sha256_datoteke": meta.get("sha256_datoteke"),
+            "oznaka_akta": meta.get("oznaka_akta"),
+        },
+        "parsiranje": {
+            "datum_parsiranja": datum_hr(),
+            "broj_dokumenata": len(dokumenti),
+            "broj_clanaka_ukupno": sum(len(d.get("clanci", [])) for d in dokumenti),
+        },
+    }
+
+
 def zapisi_izvjestaj(
     akt_slug: str,
     clanci: list[dict],
+    dokumenti: list[dict],
     upozorenja: list[str],
     typo_headers: list[str],
     report_path: Path,
@@ -306,6 +388,13 @@ def zapisi_izvjestaj(
     else:
         lines.append("- Nema detektiranih tipfelera headera članka.")
 
+    lines.extend(["", "### Document split summary", ""])
+    doc_ids = [str(d.get("doc_id")) for d in dokumenti if d.get("doc_id")]
+    if doc_ids:
+        lines.append(f"- DOC_IDS: {', '.join(doc_ids)}")
+    else:
+        lines.append("- DOC_IDS: ustav_rh_procisceni")
+
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -324,7 +413,13 @@ def main() -> int:
     _, html = ucitaj_html_izvor(akt_slug)
 
     lines = html_u_linije(html)
-    clanci, upozorenja, typo_headers = parsiraj_clanke(lines)
+    dokumenti, upozorenja, typo_headers = parsiraj_dokumente_nn(lines, meta=meta)
+
+    doc_procisceni = next(
+        (d for d in dokumenti if d.get("doc_id") == "ustav_rh_procisceni"),
+        {"clanci": []},
+    )
+    clanci = doc_procisceni.get("clanci", [])
     primijeni_ustav_anomaliju_c1i_u_11(akt_slug=akt_slug, clanci=clanci, upozorenja=upozorenja)
 
     brojevi = [c.get("broj") for c in clanci if isinstance(c.get("broj"), int)]
@@ -337,20 +432,25 @@ def main() -> int:
 
     akt_dir = NN_ROOT / akt_slug
     struktura_path = akt_dir / "struktura_nn.json"
+    struktura_docs_path = akt_dir / "struktura_nn_dokumenti.json"
     report_path = akt_dir / "IZVJESTAJ_PARSIRANJA_NN.md"
 
     struktura = izradi_strukturu(meta=meta, akt_slug=akt_slug, clanci=clanci)
+    struktura_docs = izradi_strukturu_dokumenti(meta=meta, akt_slug=akt_slug, dokumenti=dokumenti)
     struktura_path.write_text(json.dumps(struktura, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    struktura_docs_path.write_text(json.dumps(struktura_docs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     zapisi_izvjestaj(
         akt_slug=akt_slug,
         clanci=clanci,
+        dokumenti=dokumenti,
         upozorenja=upozorenja,
         typo_headers=typo_headers,
         report_path=report_path,
     )
 
-    print(f"OK: parsirano {len(clanci)} članaka")
+    print(f"OK: parsirano {len(clanci)} članaka (procisceni), dokumenata: {len(dokumenti)}")
     print(f"Izlaz: {struktura_path}")
+    print(f"Izlaz (dokumenti): {struktura_docs_path}")
     return 0
 
 

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "73",
     "naslov": null,
-    "tekst": "Izbori se za zastupnike u domove Sabora Republike Hrvatske održavaju najkasnije 60 dana nakon isteka mandata ili raspuštanja domova Sabora. Prvo zasjedanje domova Sabora Republike Hrvatske održava se najkasnije 20 dana nakon provedenih izbora.",
+    "tekst": ". Izbori se za zastupnike u domove Sabora Republike Hrvatske održavaju najkasnije 60 dana nakon isteka mandata ili raspuštanja domova Sabora. Prvo zasjedanje domova Sabora Republike Hrvatske održava se najkasnije 20 dana nakon provedenih izbora.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D6CFA6D618A5744DFE6092C1CD90083995BD29C1CB1212C30F9CBB46202B284A",
-    "sha256_datoteke": "84AB119E583CA6F63515B46D8502F78385726EBB3AF42B825666D01B52A51229",
+    "sha256_teksta": "951CCBABBEB150139141DBE5BA19C7C6B1633455F1488FBE79F95670F194FBA4",
+    "sha256_datoteke": "BA9208576F81A26C69409EA0D452508C5DDD38C74F9C3DB2891EC57AA675D4E5",
     "napomena": null
   }
 }

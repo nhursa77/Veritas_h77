@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "89",
     "naslov": null,
-    "tekst": "Zakone proglašava predsjednik Republike u roku osam dana od kad su, u skladu s Ustavom, doneseni u Zastupničkom domu.",
+    "tekst": ". Zakone proglašava predsjednik Republike u roku osam dana od kad su, u skladu s Ustavom, doneseni u Zastupničkom domu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "5FC5DA98377DEE8C04BD65742A8F0B58116E9810B71DB0EDD040B02C897DDCBE",
-    "sha256_datoteke": "EC95DD62A9AEF1871A819F364ED2296BA763B1C4E027513AA14C69A2C038CB49",
+    "sha256_teksta": "BEDBCD16A0483B5086C5EDFFC38037859231787532BDA80098CD91668B934516",
+    "sha256_datoteke": "444726A6F399627B9BD35DEB494FCBF1EBE8B473A258DE2C73A5ECC732CC6C8E",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "10",
     "naslov": null,
-    "tekst": "Republika Hrvatska štiti prava i interese svojih državljana koji žive ili borave u inozemstvu i promiče njihove veze s domovinom. Dijelovima hrvatskoga naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
+    "tekst": ". Republika Hrvatska štiti prava i interese svojih državljana koji žive ili borave u inozemstvu i promiče njihove veze s domovinom. Dijelovima hrvatskoga naroda u drugim državama jamči se osobita skrb i zaštita Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1F8EB80C2B3A7C268140E892448FE73F1F0C114C7BA4A29700553C21F4B79CAB",
-    "sha256_datoteke": "AA6A998CAD8A728240A7D64A811893A43AC5A088F33810FD5D50E32450652AE4",
+    "sha256_teksta": "51AD960A68C89120E0FB57A22A0C75E2C8294CABB4DE203134D88261F49E1C1F",
+    "sha256_datoteke": "5E57A3802377CFF5B51E81C8485946EA6B1B9F2AAEA0C73C61F580C94C9266CB",
     "napomena": null
   }
 }

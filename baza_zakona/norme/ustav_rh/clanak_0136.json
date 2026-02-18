@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "136",
     "naslov": null,
-    "tekst": "Pravo da predloži promjenu Ustava Republike Hrvatske ima najmanje jedna petina zastupnika u Zastupničkom domu Sabora Republike Hrvatske, predsjednik Republike i Vlada Republike Hrvatske.",
+    "tekst": ". Pravo da predloži promjenu Ustava Republike Hrvatske ima najmanje jedna petina zastupnika u Zastupničkom domu Sabora Republike Hrvatske, predsjednik Republike i Vlada Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "E447F016219EC4A49B59835AEEC4C158C7186D4F187EB44BD43134FFD827901D",
-    "sha256_datoteke": "E9189A4F4029AC11B009919CE588FAE4A597BC6804E6041D4FF938211631868E",
+    "sha256_teksta": "404A0AF91FA5DF13B08F071F557FC6AEB7E50053DE88A990B31CA38A22935CE4",
+    "sha256_datoteke": "CD1F5E2CD3C003854ADE22E7F6F5857BBE37E3D8E2F799BBB27AB0B7B2BA3EA3",
     "napomena": null
   }
 }

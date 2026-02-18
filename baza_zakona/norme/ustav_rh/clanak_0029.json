@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "29",
     "naslov": null,
-    "tekst": "Svatko tko je osumnjičen ili optužen zbog kaznenog djela ima pravo: - na pravično suđenje pred nadležnim sudom ustanovljenime zakonom; - u najkraćem roku biti izviješten o razlozima optužbe što se diže protiv njega i o dokazima koji ga terete; - na branitelja i nesmetano općenje s braniteljem, i s tim pravom mora biti upoznat; - da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, te da se brani sam ili uz pomoć branitelja kojega je sam izabrao. Okrivljenik i optuženik ne smije se siliti da iskazuje protiv sebe ili da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku.",
+    "tekst": ". Svatko tko je osumnjičen ili optužen zbog kaznenog djela ima pravo: - na pravično suđenje pred nadležnim sudom ustanovljenime zakonom; - u najkraćem roku biti izviješten o razlozima optužbe što se diže protiv njega i o dokazima koji ga terete; - na branitelja i nesmetano općenje s braniteljem, i s tim pravom mora biti upoznat; - da mu se sudi u njegovoj nazočnosti, ukoliko je dostupan sudu, te da se brani sam ili uz pomoć branitelja kojega je sam izabrao. Okrivljenik i optuženik ne smije se siliti da iskazuje protiv sebe ili da prizna krivnju. Dokazi pribavljeni na nezakonit način ne mogu se uporabiti u sudskom postupku.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "38DBD42EF4278FB76BF8E2AB36A24AECF9D87BC5A8139FBFDE184BD8C9CEFA42",
-    "sha256_datoteke": "78C33416691BBD9E53A4B85C4B731004944872421546A6A7D7C04925B210F7BA",
+    "sha256_teksta": "9E7C0046C3000112401AF3C96A59BDED6749DD2D2181B0A0B99F3393A6A80EA6",
+    "sha256_datoteke": "03FD264821900D4B58CEB3E9BBAD35C8FB854760F80C49922B9531EF914F525A",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "53",
     "naslov": null,
-    "tekst": "Narodna banka Hrvatske je centralna banka Republike Hrvatske. Narodna banka Hrvatske odgovorna je, u okviru svojih prava i dužnosti, za stabilnost valute i za opću likvidnost plaćanja u zemlji i prema inozemstvu. Narodna banka Hrvatske u svom radu je samostalna i odgovorna Saboru Republike Hrvatske. Dobit ostvarena poslovanjem Narodne banke Hrvatske pripada državnom proračunu. Položaj Narodne banke Hrvatske uređuje se zakonom.",
+    "tekst": ". Narodna banka Hrvatske je centralna banka Republike Hrvatske. Narodna banka Hrvatske odgovorna je, u okviru svojih prava i dužnosti, za stabilnost valute i za opću likvidnost plaćanja u zemlji i prema inozemstvu. Narodna banka Hrvatske u svom radu je samostalna i odgovorna Saboru Republike Hrvatske. Dobit ostvarena poslovanjem Narodne banke Hrvatske pripada državnom proračunu. Položaj Narodne banke Hrvatske uređuje se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1CF30DE5D0216BBA88F62BD48C3613344017C32D28B6BC8CD2B49E976A05D6B7",
-    "sha256_datoteke": "5B1B9D1F1D23417AAA9FF55191D3F0ECD02B9015BF4DDD7F68AD3CA18236D8EC",
+    "sha256_teksta": "0097945DD1932A3E414F810E15BC1715C8C25D6FDBD5AEE08316F9E71B16D2BE",
+    "sha256_datoteke": "453EA267C804B50F34E06CB424951A6346A3A80123F047A608ED522994650317",
     "napomena": null
   }
 }

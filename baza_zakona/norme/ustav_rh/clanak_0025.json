@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "25",
     "naslov": null,
-    "tekst": "Sa svakim se uhićenikom i osuđenikom mora postupati čovječno i poštivati njegovo dostojanstvo. Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, odredenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuden. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku.",
+    "tekst": ". Sa svakim se uhićenikom i osuđenikom mora postupati čovječno i poštivati njegovo dostojanstvo. Tko je god pritvoren i optužen zbog kaznenog djela, ima pravo u najkraćem roku, odredenom zakonom, biti izveden pred sud i u zakonskom roku oslobođen ili osuden. Pritvorenik se, uz zakonsko jamstvo, može pustiti da se brani sa slobode. Svatko tko je bio nezakonito lišen slobode ili osuđen ima, u skladu sa zakonom, pravo na odštetu i javnu ispriku.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "09532F8D76795F9DDCD639301CBEBB7E4935A149C599A9B64A3B8FBB967BD805",
-    "sha256_datoteke": "571E41258CC08872142AA1E3D6744FEC3861FC143532075637E4C12D60A61462",
+    "sha256_teksta": "4BA8269C40BB07B8E41CCE8B6CC10A422D3357597C5185BB9E3DB14BEEF8CD40",
+    "sha256_datoteke": "19FACF31C076FB1C9D8095AC833769A643570C7B2ABD642DC9875333A7D9A2AC",
     "napomena": null
   }
 }

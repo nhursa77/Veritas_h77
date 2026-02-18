@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "66",
     "naslov": null,
-    "tekst": "Uz uvjete određene zakonom, građani mogu osnivati privatne škole i učilišta.",
+    "tekst": ". Uz uvjete određene zakonom, građani mogu osnivati privatne škole i učilišta.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8D072E8184DA1E1542342D894E332092169EABA8548A845AED2A849311C3E672",
-    "sha256_datoteke": "E4403A3F96AEF4FB82F9D97ACEFC3C8A8CDEBA28B2480C8318A5808C958CADE5",
+    "sha256_teksta": "DC706090B815CE24B1157FEBE239CAACA6F992DABF18EBB09104A7601F907995",
+    "sha256_datoteke": "DA6196387782C09721D4BAA60146F0DBEB121FED9DF6737F7F994C5D39DAB3AA",
     "napomena": null
   }
 }

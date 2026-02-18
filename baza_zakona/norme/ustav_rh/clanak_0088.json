@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "88",
     "naslov": null,
-    "tekst": "Zastupnički dom može, najviše na vrijeme od godinu dana, ovlastiti Vladu Republike Hrvatske da uredbama uređuje pojedina pitanja iz njegova djelokruga, osim onih koja se odnose na razradu Ustavom utvrđenih sloboda i prava čovjeka i građanina, nacionalna prava, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i lokalne samouprave. Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Zastupnički dom ne odluči drukčije.",
+    "tekst": ". Zastupnički dom može, najviše na vrijeme od godinu dana, ovlastiti Vladu Republike Hrvatske da uredbama uređuje pojedina pitanja iz njegova djelokruga, osim onih koja se odnose na razradu Ustavom utvrđenih sloboda i prava čovjeka i građanina, nacionalna prava, izborni sustav, ustrojstvo, djelokrug i način rada državnih tijela i lokalne samouprave. Uredbe na temelju zakonske ovlasti ne mogu djelovati unatrag. Uredbe donesene na temelju zakonske ovlasti prestaju vrijediti istekom roka od godinu dana od dana dobivene ovlasti, ako Zastupnički dom ne odluči drukčije.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "3F122E27541A01956AF3724FFC07B2241CF60D398BC05095249C3C428F5A601B",
-    "sha256_datoteke": "89636430E8D2AEA2209DB22D8615F45F6FE0EBBE342BA1A9DBB8474F1B1CE0CF",
+    "sha256_teksta": "CD28D282050AC67E4655815B0F1030BA355ECF2864CC3484C6BF8ED681A9D5B4",
+    "sha256_datoteke": "19A30F1FFB38A2A0A215114A1040AE428FA538C92B8183FE8C2C074E92708FA3",
     "napomena": null
   }
 }

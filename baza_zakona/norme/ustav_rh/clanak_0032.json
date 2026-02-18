@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "32",
     "naslov": null,
-    "tekst": "Svatko tko se zakonito nalazi na teritoriju Republike ima pravo slobodno se kretati i birati boravište. Svaki građanin Republike ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
+    "tekst": ". Svatko tko se zakonito nalazi na teritoriju Republike ima pravo slobodno se kretati i birati boravište. Svaki građanin Republike ima pravo u bilo koje doba napustiti teritorij države i naseliti se trajno ili privremeno u inozemstvu i bilo kada se vratiti u domovinu. Pravo kretanja na teritoriju Republike, pravo ulaska u nju i izlaska iz nje može se iznimno ograničiti zakonom, ako je to nužno radi zaštite pravnog poretka, ili zdravlja, prava i sloboda drugih.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "81A3F4AF54D508456F00073DDD4AF1387B350A84C27E3B1E810BEEC2E68A1D84",
-    "sha256_datoteke": "89022459BAE8BF9F5B41E3C6254E3E805EA5FFF0122092E7D6D984F94D670164",
+    "sha256_teksta": "7F236D3D1400F1A11EA06F76ED025C5E12CDBB9047C8CA506BFAF5389915E2F8",
+    "sha256_datoteke": "9A0391798B02AD42F62522F0B2A5FC5DD55F9222729051B78A11EFD83B8793EF",
     "napomena": null
   }
 }

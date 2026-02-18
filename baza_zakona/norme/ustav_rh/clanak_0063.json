@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "63",
     "naslov": null,
-    "tekst": "Roditelji su dužni odgajati, uzdržavati i školovati djecu te imaju pravo i slobodu da samostalno odlučuju o odgoju djece. Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Republika osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
+    "tekst": ". Roditelji su dužni odgajati, uzdržavati i školovati djecu te imaju pravo i slobodu da samostalno odlučuju o odgoju djece. Roditelji su odgovorni osigurati pravo djetetu na potpun i skladan razvoj njegove osobnosti. Tjelesno i duševno oštećeno i socijalno zapušteno dijete ima pravo na osobitu njegu, obrazovanje i skrb. Djeca su dužna brinuti se za stare i nemoćne roditelje. Republika osobitu skrb posvećuje maloljetnicima bez roditelja i onima za koje se ne brinu roditelji.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "65159530C361B1A41A54F60C746689D90DC463F357D6D519A05F994BEA21A85C",
-    "sha256_datoteke": "5E203073C29F9F3C32AF018DD49A789EF822A3DA91BAC3F3FE43D7614EFF4DA9",
+    "sha256_teksta": "491F31A300C4C6D12DD4C83755DDB20F2108699E705BEA354BD23A10C9C0EF1D",
+    "sha256_datoteke": "CC13AD13AC92E472B73A22195B9F19CA78200081D4E4775FF295559AF9AB1F57",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "17",
     "naslov": null,
-    "tekst": "U doba ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, te velikih prirodnih nepogoda pojedine slobode i prava zajamčena Ustavom mogu se ograničiti. O tome odlučuje Sabor Republike Hrvatske dvotrećinskom većinom svih zastupnika, a ako se Sabor ne može sastati, predsjednik Republike. Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost građana s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi ovoga Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi.",
+    "tekst": ". U doba ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, te velikih prirodnih nepogoda pojedine slobode i prava zajamčena Ustavom mogu se ograničiti. O tome odlučuje Sabor Republike Hrvatske dvotrećinskom većinom svih zastupnika, a ako se Sabor ne može sastati, predsjednik Republike. Opseg ograničenja mora biti primjeren naravi pogibelji, a za posljedicu ne može imati nejednakost građana s obzirom na rasu, boju kože, spol, jezik, vjeru, nacionalno ili socijalno podrijetlo. Niti u slučaju neposredne opasnosti za opstanak države ne može se ograničiti primjena odredbi ovoga Ustava o pravu na život, zabrani mučenja, surovog ili ponižavajućeg postupanja ili kažnjavanja, o pravnoj određenosti kažnjivih djela i kazni, te o slobodi misli, savjesti i vjeroispovijedi.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "072166546FAFBC62F02657CFF49F71038101A5F08BF0AE6FB29B14BECB91D306",
-    "sha256_datoteke": "ED16EFE7CF3A8208B3E22427B79001A43E53745785F7BFE220B49DCB5C59C9B5",
+    "sha256_teksta": "A4D99FE626FB29A21916E7522A6ED860EE9AA3A2F60B2734BBF87F5F9C98A728",
+    "sha256_datoteke": "E5C80CA4CDF3A78BBC046B826B211B36655F1EC478481A53C669A5D71F496B7F",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "9",
     "naslov": null,
-    "tekst": "Hrvatsko državljanstvo, njegovo stjecanje i prestanak uređuje se zakonom. Državljanin Republike Hrvatske ne može biti prognan iz Republike niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi.",
+    "tekst": ". Hrvatsko državljanstvo, njegovo stjecanje i prestanak uređuje se zakonom. Državljanin Republike Hrvatske ne može biti prognan iz Republike niti mu se može oduzeti državljanstvo, a ne može biti ni izručen drugoj državi.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "EE8ED9A42BAD902FF61611C4752C72FA4618438792F541EF32221F392CA2C07C",
-    "sha256_datoteke": "268D52DF3F47BBDD062B0AEFC515D086A951E47C1294C1C766274EFC5F2E0C4B",
+    "sha256_teksta": "506C2D184D0D4088215974771666DB048978E816836E08B4F70EDAD39A1BD12C",
+    "sha256_datoteke": "1AE17496C1935A71355A57ECFAC8C13E4CF18789987F2CD8B53F2097195831B7",
     "napomena": null
   }
 }

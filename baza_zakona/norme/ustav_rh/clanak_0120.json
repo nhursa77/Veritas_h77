@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "120",
     "naslov": null,
-    "tekst": "Sudačka dužnost je stalna. Sudac će biti razriješen sudačke dužnosti: - ako to sam zatraži; - ako trajno izgubi sposobnost obavljati svoju dužnost; - ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti; - ako u skladu sa zakonom; zbog počinjenog teškog disciplinskog djela, tako odluči, Republičko sudbeno vijeće. Protiv odluke o razrješenju od sudačke dužnosti sudac ima pravo podnijeti zahtjev za zaštitu Županijskomu domu Sabora. Sudac ne može biti premješten protivno njegovoj voIji. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
+    "tekst": ". Sudačka dužnost je stalna. Sudac će biti razriješen sudačke dužnosti: - ako to sam zatraži; - ako trajno izgubi sposobnost obavljati svoju dužnost; - ako bude osuđen za kazneno djelo koje ga čini nedostojnim obavljanja sudačke dužnosti; - ako u skladu sa zakonom; zbog počinjenog teškog disciplinskog djela, tako odluči, Republičko sudbeno vijeće. Protiv odluke o razrješenju od sudačke dužnosti sudac ima pravo podnijeti zahtjev za zaštitu Županijskomu domu Sabora. Sudac ne može biti premješten protivno njegovoj voIji. Sudac ne može obavljati službu ili posao koje je zakon odredio kao nespojive sa sudačkom dužnošću.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "02D5BC542D42BA69114A700D2846622E56C2CCEF062056621D119B9D8E967076",
-    "sha256_datoteke": "FA95D7A8F9898D3EB2033EE8AA157510EDF3C11B2D0C98EB01EEAAC9D9743D32",
+    "sha256_teksta": "DA4941ED4FC4FAEBE91EEA51CC3FA9282C82C94C4D445EE48631682ACF7AD60D",
+    "sha256_datoteke": "90F4C12DCEE98FD525CEB34196FD8F88795BD29A7728B112AB22B576FF8BE1A2",
     "napomena": null
   }
 }

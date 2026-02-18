@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "78",
     "naslov": null,
-    "tekst": "Domovi Sabora Republike Hrvatske redovito zasjedaju dva puta godišnje: prvi put, izmedu 15. siječnja i 30. lipnja i drugi put, izmedu 15. rujna i 15. prosinca. Domovi Sabora Republike Hrvatske zasjedaju izvanredno na zahtjev predsjednika Republike, Vlade ili većine zastupnika u domu.",
+    "tekst": ". Domovi Sabora Republike Hrvatske redovito zasjedaju dva puta godišnje: prvi put, izmedu 15. siječnja i 30. lipnja i drugi put, izmedu 15. rujna i 15. prosinca. Domovi Sabora Republike Hrvatske zasjedaju izvanredno na zahtjev predsjednika Republike, Vlade ili većine zastupnika u domu.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "30D57E4FDC566BD1F468DF43576D3628C00557FF6D14FC519CC7A4B79C726CA9",
-    "sha256_datoteke": "685A80686057E204FC5DE27BF60F0FC64C6CB8B73EE0B6AD7E8D6C48DDC46E01",
+    "sha256_teksta": "9504334C817CC1C6463FA015E9622B635BA36B459B61D474A9139C601237D697",
+    "sha256_datoteke": "410C60805BD909589C0AFEB545547DCA22B0C7B80006AB53EF2982CB6FF3D907",
     "napomena": null
   }
 }

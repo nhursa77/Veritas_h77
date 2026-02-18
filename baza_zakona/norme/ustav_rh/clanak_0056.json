@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "56",
     "naslov": null,
-    "tekst": "Pravo zaposlenih i članova njihovih obitelji na socijalnu sigurnost i socijalno osiguranje ureduje se zakonom i kolektivnim ugovorom. Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
+    "tekst": ". Pravo zaposlenih i članova njihovih obitelji na socijalnu sigurnost i socijalno osiguranje ureduje se zakonom i kolektivnim ugovorom. Prava u svezi s porođajem, materinstvom i njegom djece uređuju se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "9E8A337A38C8D39740C27327D34637D4CA3D003069179CC0B4719E5FF629A75C",
-    "sha256_datoteke": "C415A657014476F0A42972650A17724E43D07F42ED5989D804117396ABC128BB",
+    "sha256_teksta": "7B15105A8AB50C774DF64ECC16DC86CBD52336ACB1DBE86A9D68D6AA01A450B5",
+    "sha256_datoteke": "F192B7F63FF9174CEEC1A0E848248A891A5156E1A0E14BF19660C10E429DAE14",
     "napomena": null
   }
 }

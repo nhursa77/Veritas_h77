@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "14",
     "naslov": null,
-    "tekst": "Građani Republike Hrvatske imaju sva prava i slobode, neovisno o njihovoj rasi, boji kože, spolu, jeziku, vjeri, političkom ili drugom uvjerenju, nacionalnom ili socijalnom podrijetlu, imovini, rođenju, naobrazbi, društvenom položaju ili drugim osobinama. Svi su pred zakonom jednaki.",
+    "tekst": ". Građani Republike Hrvatske imaju sva prava i slobode, neovisno o njihovoj rasi, boji kože, spolu, jeziku, vjeri, političkom ili drugom uvjerenju, nacionalnom ili socijalnom podrijetlu, imovini, rođenju, naobrazbi, društvenom položaju ili drugim osobinama. Svi su pred zakonom jednaki.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "546B5D5A9BD12555FC784D65E183BE515AC97A244820B18711DC8D101971AAB6",
-    "sha256_datoteke": "8D7EFF20D9FDEBAAB24014F370DDF37C806C0F1DE44BB400A620FE1D4D948EF7",
+    "sha256_teksta": "0125A3DB01006422F444C74F9B13744807AD4C00760E01D31C23BAB4D10F8257",
+    "sha256_datoteke": "BC4DB093D4CCE89F4F84195F1B0A9CA38EDCFA7899424FF19A06BB164CB1BE96",
     "napomena": null
   }
 }

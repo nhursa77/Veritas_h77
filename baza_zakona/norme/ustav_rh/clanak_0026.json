@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "26",
     "naslov": null,
-    "tekst": "Svi su građani i stranci jednaki pred sudovima i drugim državnim i inim tijelima koja imaju javne ovlasti.",
+    "tekst": ". Svi su građani i stranci jednaki pred sudovima i drugim državnim i inim tijelima koja imaju javne ovlasti.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CC78565005A7088FF51795FBE734926D5153E9D5B4ED076CDC75F478D6E71FC6",
-    "sha256_datoteke": "3906EC5165D4AD66AD5832FC48E6B929A695E951050BD8F4FF4E43324C37221D",
+    "sha256_teksta": "BF7C2F72F4F0A5B625C488D51EB6134B95471421F1416A522D660354D54996A5",
+    "sha256_datoteke": "279B90A2E6E4769404145E99A78FEE5B4E36AEDFE8FB3A68895052F5C9E6AFEA",
     "napomena": null
   }
 }

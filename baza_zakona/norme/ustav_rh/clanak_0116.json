@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "116",
     "naslov": null,
-    "tekst": "Vrhovni sud Republike Hrvatske, kao najviši sud, osigurava jedinstvenu primjenu zakona i ravnopravnost gradana. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova i postupak pred sudovima uređuju se zakonom. Ustanovljavanje, djelokrug i ustrojstvo državnog odvjetništva uređuju se zakonom.",
+    "tekst": ". Vrhovni sud Republike Hrvatske, kao najviši sud, osigurava jedinstvenu primjenu zakona i ravnopravnost gradana. Ustanovljavanje, djelokrug, sastav i ustrojstvo sudova i postupak pred sudovima uređuju se zakonom. Ustanovljavanje, djelokrug i ustrojstvo državnog odvjetništva uređuju se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D6D3CE8666A4D70FEA69C652A8372F356DE40794BE29971E68307CB3F14EB473",
-    "sha256_datoteke": "42A17F1843CAC028868D868C45900A7C3AD7FFA4F9316D1C850E8222F9F75687",
+    "sha256_teksta": "BBF197890783AFAAFCD9F518721940F14B225ABDB52C10985BB5D07C941876E5",
+    "sha256_datoteke": "7F459F798BAA38F7FF25041F1B452529D205F9529FA5A06B78EEA1D528404743",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "55",
     "naslov": null,
-    "tekst": "Svaki zaposleni ima prava na zaradu kojom može osigurati sebi i obitelji slobodan i dostojan život. Najduže radno vrijeme odreduje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
+    "tekst": ". Svaki zaposleni ima prava na zaradu kojom može osigurati sebi i obitelji slobodan i dostojan život. Najduže radno vrijeme odreduje se zakonom. Svaki zaposleni ima pravo na tjedni odmor i plaćeni godišnji odmor i ovih se prava ne može odreći. Zaposleni mogu imati, u skladu sa zakonom, udjela pri odlučivanju u poduzeću.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B456B347FF6B70BE832BAA1E12FA01B0819AAD48820BD26D8557B67CE3592952",
-    "sha256_datoteke": "C6F3F07EDA2526659DC23014C990D57D0E130ABA967E1891899700C8879D36F8",
+    "sha256_teksta": "8B4C5C017D9A63C8A4861F5F808C1249199174969B248DCE29AD450A60D9031C",
+    "sha256_datoteke": "F99D8C12448018C6E597F9C1103C007D158F4502C72531D99CDE1DA0C2E273E9",
     "napomena": null
   }
 }

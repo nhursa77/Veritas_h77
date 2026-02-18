@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "137",
     "naslov": null,
-    "tekst": "Zastupnički dom uz prethodno mišljenje Županijskog doma odlučuje da li će pristupiti promjeni Ustava većinom glasova svih zastupnika. Nacrt promjene Ustava Zastupnički dom utvrđuje većinom glasova svih zastupnika.",
+    "tekst": ". Zastupnički dom uz prethodno mišljenje Županijskog doma odlučuje da li će pristupiti promjeni Ustava većinom glasova svih zastupnika. Nacrt promjene Ustava Zastupnički dom utvrđuje većinom glasova svih zastupnika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C9472A6B2728B584A029FCD0E833BEFA33A8ED3DC858317B32CB92E96262765B",
-    "sha256_datoteke": "2BA7A91E6B4D812A5C1A6636CF4FA5DB56E55E66A48A13A73CD42F983B330D3C",
+    "sha256_teksta": "EEFD2F25373A05FE16CC0253B21D0EF102C481A6A19D52107FC59CA4CBC4A447",
+    "sha256_datoteke": "4FCE11A90C1ADE877322EC21F1EF4B773EF463F2CFA5BFED9C0F2B5BB8BF7AEA",
     "napomena": null
   }
 }

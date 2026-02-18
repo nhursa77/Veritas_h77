@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "101",
     "naslov": null,
-    "tekst": "Predsjednik Republike donosi uredbe sa zakonskom snagnm i poduzima izvanredne mjere u slučaju ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, ili kad su tijela državne vlasti onemogućena da redovito obavljaju ustavne dužnosti. Dok se predsjednik Republike koristi tim ovlastima, Zastupnički dom ne može biti raspušten. Predsjednik Republkke podnijet će uredbe sa zakonskom snagom na potvrdu Zastupničkomu domu Sabora Republike Hrvatske čim se Sabor bude mogao sastati.",
+    "tekst": ". Predsjednik Republike donosi uredbe sa zakonskom snagnm i poduzima izvanredne mjere u slučaju ratnog stanja ili neposredne ugroženosti neovisnosti i jedinstvenosti Republike, ili kad su tijela državne vlasti onemogućena da redovito obavljaju ustavne dužnosti. Dok se predsjednik Republike koristi tim ovlastima, Zastupnički dom ne može biti raspušten. Predsjednik Republkke podnijet će uredbe sa zakonskom snagom na potvrdu Zastupničkomu domu Sabora Republike Hrvatske čim se Sabor bude mogao sastati.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "05F0B4248657479B1A85E51457C65E8FD1E4BCC694F065F19CFAA368A67B6100",
-    "sha256_datoteke": "94893C9DA448DE7C39E10B6666270029484A97DA08F43F808F309863F0EA9539",
+    "sha256_teksta": "E67E89421D3A19367F6C52A9684600C3A23E3003BB87909E53D8AEB77738B3DD",
+    "sha256_datoteke": "9586546A02E30506F0D19E6C6FE1948B90FA6D37A7F63C5355516D374C096A2C",
     "napomena": null
   }
 }

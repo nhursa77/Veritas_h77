@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "118",
     "naslov": null,
-    "tekst": "U suđenju sudjeluju i suci porotnici, u skladu sa zakonom.",
+    "tekst": ". U suđenju sudjeluju i suci porotnici, u skladu sa zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "A7DD764155B3B0BE9131A57F8E01583755A96EA2A8D1E9453A837532BA863E0E",
-    "sha256_datoteke": "9305C9DDB0F5FA5396F4EDBC6B31545D1CE2499C7C50A385C315C12D41548228",
+    "sha256_teksta": "2D211B08DBEEAB92631A668EA925D66D6F350A8A7B59916664E4647BA1F432A1",
+    "sha256_datoteke": "8B0DF00C118F8A28A34EDDB595587FBF680141409CC77E4ACBE2C5369B2B8F4F",
     "napomena": null
   }
 }

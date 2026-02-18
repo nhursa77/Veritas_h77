@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "16",
     "naslov": null,
-    "tekst": "Slobode i prava mogu se ograničiti samo zakonom da bi se zaštitila sloboda i prava drugih ljudi te pravni poredak, javni moral i zdravlje.",
+    "tekst": ". Slobode i prava mogu se ograničiti samo zakonom da bi se zaštitila sloboda i prava drugih ljudi te pravni poredak, javni moral i zdravlje.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "44C08AEDEC3FE0DB189E0874F9436C9ED1C68627F4D382D6DCD297CB067B00F8",
-    "sha256_datoteke": "CCA0F400F7EEB2BA3049E6D4F8DF2B3C89670F3E3122FB1F648E3C37CF6AF510",
+    "sha256_teksta": "7A9D58941D48B7B4476F81D0197EC0133F2D9C5F6F8C75A24AEF4BBCFCE256D0",
+    "sha256_datoteke": "86E10773216E459BA74801A6129F1FB9246E0B50AE28C6070704D3E2340B28FC",
     "napomena": null
   }
 }

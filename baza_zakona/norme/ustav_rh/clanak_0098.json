@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "98",
     "naslov": null,
-    "tekst": "Predsjednik Republike: - raspisuje izbore za domove Sabora Republike Hrvatske i saziva ih na prvo zasjedanje ; - raspisuje referendum, u skladu s Ustavom; - imenuje i razrješuje dužnosti predsjednika Vladc Republike Hrvatske; - na prijedlog predsjednika Vlade Republike Hrvatske imenuje i razrješuje dužnosti njezine potpredsjednike i članove; - daje pomilovanja; - dodjeljuje odlikovanja i priznanja odredena zakonom; - obavlja druge dužnosti odredene Ustavom",
+    "tekst": ". Predsjednik Republike: - raspisuje izbore za domove Sabora Republike Hrvatske i saziva ih na prvo zasjedanje ; - raspisuje referendum, u skladu s Ustavom; - imenuje i razrješuje dužnosti predsjednika Vladc Republike Hrvatske; - na prijedlog predsjednika Vlade Republike Hrvatske imenuje i razrješuje dužnosti njezine potpredsjednike i članove; - daje pomilovanja; - dodjeljuje odlikovanja i priznanja odredena zakonom; - obavlja druge dužnosti odredene Ustavom",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "859E61D6A70344CB079FEF7E176075D8ABD75880B1BAFEBCE6A4CB4E21B9B1EE",
-    "sha256_datoteke": "E26FA03DA71729D43CDA9C67BFED950E2887BAE9075846AE5B6D721AA5601B2D",
+    "sha256_teksta": "875198D3A3E64F6F8B685F6262D57915C5537E4B19003B47D43A6ACAEC77B2E3",
+    "sha256_datoteke": "885946A3E153A5782638224627CF037F04F4D91D6097B95E877132606FFD9725",
     "napomena": null
   }
 }

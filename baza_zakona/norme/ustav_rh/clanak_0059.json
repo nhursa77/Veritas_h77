@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "59",
     "naslov": null,
-    "tekst": "Radi zaštite svojih gospodarskih i socijalnih interesa, svi zaposleni i poslodavci imaju pravo osnivati sindikate i slobodno u njih stupati i iz njih istupati. Sindikati mogu osnivati svoje saveze i udruživati se u medunarodne sindikalne organizacije. U oružanlm snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje.",
+    "tekst": ". Radi zaštite svojih gospodarskih i socijalnih interesa, svi zaposleni i poslodavci imaju pravo osnivati sindikate i slobodno u njih stupati i iz njih istupati. Sindikati mogu osnivati svoje saveze i udruživati se u medunarodne sindikalne organizacije. U oružanlm snagama i redarstvu zakonom se može ograničiti sindikalno organiziranje.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6A5CA63F6DF06C279C09D29E84D52EDFE2A697932E56B03B342DF4CAA64709D5",
-    "sha256_datoteke": "F883CE32E9D3640D017ADEE68F694AB84DED7EF52AF82792EA1654EEEF4D4D61",
+    "sha256_teksta": "98C7E76C7C96D6BB9F9553119F668EA3A0372572C0CE5927A5DC3409D58AC082",
+    "sha256_datoteke": "E09D032590AD21B3469AA028BE6269B1AC76383C8229FF078FF1BDB3463FD217",
     "napomena": null
   }
 }

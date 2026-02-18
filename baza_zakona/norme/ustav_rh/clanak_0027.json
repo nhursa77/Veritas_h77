@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "27",
     "naslov": null,
-    "tekst": "Odvjetništvo kao samostalna i neovisna služba osigurava građanima pravnu pomoć, u skladu sa zakonom.",
+    "tekst": ". Odvjetništvo kao samostalna i neovisna služba osigurava građanima pravnu pomoć, u skladu sa zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "2F0EE302AF0B3FEFFDFBF871369326FDA15BFF5A98214B673DEE346C96A54896",
-    "sha256_datoteke": "CCBBF63FDB1BACBC34A1033C11BF61224D25D69831B8281366925658F4BF9318",
+    "sha256_teksta": "60C42CDA2210B0792FA8CEFA21334FCE7D8BEB56165D9B8BC8FDE9117CE887E9",
+    "sha256_datoteke": "3548F585A08F41F55A048FDB688726FDC5CBC8A858B0D4BB3DDB4B7010699ED8",
     "napomena": null
   }
 }

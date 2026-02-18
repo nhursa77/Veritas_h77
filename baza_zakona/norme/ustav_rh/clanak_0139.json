@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "139",
     "naslov": null,
-    "tekst": "Promjenu Ustava proglašava Zastupnički dom Sabora Republike Hrvatske. IX. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "tekst": ". Promjenu Ustava proglašava Zastupnički dom Sabora Republike Hrvatske. IX. PRIJELAZNE I ZAVRŠNE ODREDBE",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "1855BD3836E4E40EE4A949984B4571F775633EB8541CD32209118A955E215A54",
-    "sha256_datoteke": "22157C58766783FA198A19E2E5BA3F41AC5A2AA53052F60FF4F76AC6CAB656F6",
+    "sha256_teksta": "E50F7C1902AC679C3D4CC560BB89DDEACB2C2D927D890F2838ECAAF9266FA59E",
+    "sha256_datoteke": "02E6D2B23929FEAD01E1E8CC4B34D5DAE9DAB8102AB5F5F456A14684B32575C3",
     "napomena": null
   }
 }

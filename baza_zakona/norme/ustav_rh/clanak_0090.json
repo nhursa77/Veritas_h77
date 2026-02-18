@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "90",
     "naslov": null,
-    "tekst": "Prije nego što stupe na snagu, zakoni se objavljuju u \"Narodnim novinama\", službenome listu Republike. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Samo pojedine odredbe zakona mogu imati povratno djelovanje.",
+    "tekst": ". Prije nego što stupe na snagu, zakoni se objavljuju u \"Narodnim novinama\", službenome listu Republike. Zakon stupa na snagu najranije osmi dan od dana njegove objave, osim ako nije zbog osobito opravdanih razloga zakonom drukčije određeno. Samo pojedine odredbe zakona mogu imati povratno djelovanje.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "DAB484DC3D056D0666EC284856F5300320E3DDD84D4213B5172850697DE587B6",
-    "sha256_datoteke": "3F5805D6A30B923FABDFFC4CCD5FA54C21F4A26DD501E5D6479595199ECF15E1",
+    "sha256_teksta": "421CC96BD64B10E94597372C507FD76F74481372BB482FEF08F807211D885E0F",
+    "sha256_datoteke": "56DF49ACF7022DBD16AAD10AB7E4762C4352E1FDC9A0955AE2D8EA9FC620D382",
     "napomena": null
   }
 }

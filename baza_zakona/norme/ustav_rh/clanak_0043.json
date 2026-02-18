@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "43",
     "naslov": null,
-    "tekst": "Građanima se jamči pravo na slobodno udruživanje radi zaštite njihovih probitaka ili zauzimanja za socijalna, gospodarska, politička, nacionalna, kulturna ili druga uvjerenja i ciljeve. Radi toga građani mogu slobodno osnivati političke stranke, sindikate i druge udruge, uključivati se u njih ili iz njih istupati. Pravo slobodnog udruživanja ograničeno je zabranom nasilnog ugrožavanja demokratskoga ustavnog poretka, te neovisnosti, jedinstvenosti i teritorijalne cjelovitosti Republike.",
+    "tekst": ". Građanima se jamči pravo na slobodno udruživanje radi zaštite njihovih probitaka ili zauzimanja za socijalna, gospodarska, politička, nacionalna, kulturna ili druga uvjerenja i ciljeve. Radi toga građani mogu slobodno osnivati političke stranke, sindikate i druge udruge, uključivati se u njih ili iz njih istupati. Pravo slobodnog udruživanja ograničeno je zabranom nasilnog ugrožavanja demokratskoga ustavnog poretka, te neovisnosti, jedinstvenosti i teritorijalne cjelovitosti Republike.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "E9CF9963A06B8AB77E66EBB83D1CB0CF2C39A790BD96D9C8C760E0D77D93870C",
-    "sha256_datoteke": "5FC0A2FDC22E7476C3118CB207B466619B8E4097BD3717D32E479D0B3DE7D15D",
+    "sha256_teksta": "A7F2DBDA5796D443325528681DE9DDEA5275B58DFFA373EBE9801C2334751D29",
+    "sha256_datoteke": "423C6B1372CB7D8CEBEC7DA1DB99847A8AC4FBD7BBACF30D07327BD88C752B28",
     "napomena": null
   }
 }

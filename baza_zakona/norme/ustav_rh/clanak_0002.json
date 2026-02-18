@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "2",
     "naslov": null,
-    "tekst": "Suverenitet Republike Hrvatske neotuđiv je, nedjeljiv i neprenosiv. Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Sabor Republike Hrvatske i narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: - o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj, - o očuvanju -prirodnog i kulturnog bogatstva i korištenju njime ; - o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
+    "tekst": ". Suverenitet Republike Hrvatske neotuđiv je, nedjeljiv i neprenosiv. Suverenitet Republike Hrvatske prostire se nad njezinim kopnenim područjem, rijekama, jezerima, prokopima, unutrašnjim morskim vodama, teritorijalnim morem te zračnim prostorom iznad tih područja. Republika Hrvatska ostvaruje, u skladu s međunarodnim pravom, suverena prava i jurisdikciju u morskim područjima i u podmorju Jadranskoga mora izvan državnoga područja do granica sa susjedima. Sabor Republike Hrvatske i narod neposredno, samostalno, u skladu s Ustavom i zakonom, odlučuje: - o uređivanju gospodarskih, pravnih i političkih odnosa u Republici Hrvatskoj, - o očuvanju -prirodnog i kulturnog bogatstva i korištenju njime ; - o udruživanju u saveze s drugim državama. Saveze s drugim državama Republika Hrvatska sklapa zadržavajući suvereno pravo da sama odlučuje o prenesenim ovlastima i pravo da slobodno iz njih istupa.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8B6B47B1EE0BBD420B2AF912887D4E94AE4943BD85B6E183D4A38B38C4500A3A",
-    "sha256_datoteke": "9A838F024BE9C2DA4DDD529F86052557C9DECAF8DA504F0E310CAD8299AB8498",
+    "sha256_teksta": "4A5C0E4312DC69A74F570CC88F8B54A49D6C5C1C85CE19E9BB9248C80A3CAFE7",
+    "sha256_datoteke": "D7B5A0715854C88FC9CF6EB3B57EBC221B56930D572231077BF12517164E3205",
     "napomena": null
   }
 }

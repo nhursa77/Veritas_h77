@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "130",
     "naslov": null,
-    "tekst": "U obavljanju lokalnih poslova tijela jedinica lokalne samouprave samostalna su u skladu sa zakonom, i statutom i podliježu samo nadzoru zakonitosti ovlaštenih republičkih tijela. Za obavljanje poslova državne uprave mogu se u općini i kotaru ili gradu zakonom osnivati tijela lokalne uprave. Ustrojstvo i djelokrug tih tijela uređuje se zakonom. Određeni se poslovi državne uprave mogu zakonom prenijeti u djelokrug tijela jedinica lokalne samouprave. U obavljanju tih poslova tijela jedinica lokalne samouprave podređena su, u skladu sa zakonom, tijelima državne uprave.",
+    "tekst": ". U obavljanju lokalnih poslova tijela jedinica lokalne samouprave samostalna su u skladu sa zakonom, i statutom i podliježu samo nadzoru zakonitosti ovlaštenih republičkih tijela. Za obavljanje poslova državne uprave mogu se u općini i kotaru ili gradu zakonom osnivati tijela lokalne uprave. Ustrojstvo i djelokrug tih tijela uređuje se zakonom. Određeni se poslovi državne uprave mogu zakonom prenijeti u djelokrug tijela jedinica lokalne samouprave. U obavljanju tih poslova tijela jedinica lokalne samouprave podređena su, u skladu sa zakonom, tijelima državne uprave.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "B5F098986C9A470848DD26F6A6B935F4311C68C58932A2895BAE7454421C5C21",
-    "sha256_datoteke": "4678420DC88A97CBC42C23DB338701D749746E7E79AA3190D779F3FCA86D98E8",
+    "sha256_teksta": "CAD7B2AAFF8EA14095C169052BEF29D3CD544F326D8C34F5F6890494001B01B0",
+    "sha256_datoteke": "70B9BDD161F93A03DE982B3C2618F583249CF2941DCB7DA7037553417FD067ED",
     "napomena": null
   }
 }

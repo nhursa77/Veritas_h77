@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "85",
     "naslov": null,
-    "tekst": "Pravo da predlaže zakone ima svaki zastupnik u Zastupničkom domu, radna tijela Zastupničkog doma, Županijski dom i Vlada Republike Hrvatske.",
+    "tekst": ". Pravo da predlaže zakone ima svaki zastupnik u Zastupničkom domu, radna tijela Zastupničkog doma, Županijski dom i Vlada Republike Hrvatske.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "C99AB326BA99E90E49978B9EEA323A44657777A57F7B07299D9C1F665F6003C5",
-    "sha256_datoteke": "9891B3D1F6DAAAF55E204994D557B5E0DD2414B52C0658BCE9D4336AA1B0BCC9",
+    "sha256_teksta": "B32EC74BE0876626E031B149D92D290FA17C95E22CF798C26575C7A5E00B5D40",
+    "sha256_datoteke": "B4B2D46AAFC7CF7A62E3DEB3997FE81001FDDF3BCA5A752818E52B5192220132",
     "napomena": null
   }
 }

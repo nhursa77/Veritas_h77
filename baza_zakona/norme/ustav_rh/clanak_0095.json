@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "95",
     "naslov": null,
-    "tekst": "Predsjednik Republike bira se na temelju općeg i jednakog biračkog prava na neposrednim izborima tajnim glasovanjem na vrijeme od pet godina. Predsjednikom Republike nitko ne može biti više od dva puta. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije nego preuzme dužnost, predsjednik Republike polaže svečanu zakletvu kojom se obvezuje na vjernost Ustavu. Izbor predsjednika Republike uređuje se zakonom.",
+    "tekst": ". Predsjednik Republike bira se na temelju općeg i jednakog biračkog prava na neposrednim izborima tajnim glasovanjem na vrijeme od pet godina. Predsjednikom Republike nitko ne može biti više od dva puta. Predsjednik Republike bira se većinom svih birača koji su glasovali. Ako ni jedan od kandidata ne dobije takvu većinu, izbor se ponavlja nakon 14 dana. Na ponovljenom izboru pravo da budu birani imaju dva kandidata koja su u prvom glasovanju dobili najviše glasova. Ako koji od tih kandidata odustane, pravo da bude ponovno biran stječe kandidat koji je sljedeći po broju dobivenih glasova. Izbor predsjednika Republike obavlja se najmanje 30, a najviše 60 dana prije isteka mandata. Prije nego preuzme dužnost, predsjednik Republike polaže svečanu zakletvu kojom se obvezuje na vjernost Ustavu. Izbor predsjednika Republike uređuje se zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "401C362F25908E2BD90F1D12B1DF9D61658F666E0B5DB499A430319BADF8DDF4",
-    "sha256_datoteke": "5501F0D443CBAA9697FA86712D437C680A444371A86258B7692F736A2F8B6416",
+    "sha256_teksta": "08B2F9A9445702E3CF294B16A02E98E1BEDFE064D4CAA27BF8843BEFB64285CC",
+    "sha256_datoteke": "AD8E994A9E0F5A16F211088C4C77E0E81E925AC7F4A299DDEDBE0539C9482121",
     "napomena": null
   }
 }

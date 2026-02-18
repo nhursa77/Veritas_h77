@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "87",
     "naslov": null,
-    "tekst": "Zastupnički dom može raspisati referendum o prijedlogu za promjenu Ustava, o prijedlogu zakona ili o drugom pitanju iz svog djelokruga. Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike. Na referendumu se odlučuje većinom birača koji su glasovali, uz uvjet da je referendumu pristupila većina od ukupnog broja birača u Republici. Odluka donesena na referendumu obvezatna je. O referendumu se donosi zakon.",
+    "tekst": ". Zastupnički dom može raspisati referendum o prijedlogu za promjenu Ustava, o prijedlogu zakona ili o drugom pitanju iz svog djelokruga. Predsjednik Republike može na prijedlog Vlade i uz supotpis predsjednika Vlade raspisati referendum o prijedlogu promjene Ustava ili o drugom pitanju za koje drži da je važno za neovisnost, jedinstvenost i opstojnost Republike. Na referendumu se odlučuje većinom birača koji su glasovali, uz uvjet da je referendumu pristupila većina od ukupnog broja birača u Republici. Odluka donesena na referendumu obvezatna je. O referendumu se donosi zakon.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "8D2C7BE0C53A82E241FF1642FE87F2720BB01D9FADFD14CE29385D75C4D010E5",
-    "sha256_datoteke": "6C2D647513B184272CD63891F55BB39290181DC25A82E8994CD8B9EBCFBEC464",
+    "sha256_teksta": "10FEA2CA18330B6C031B74CDA65EB9C87CF039954A4AD8472AF86114F6AFDF2F",
+    "sha256_datoteke": "BA838895D447C0BA79D6B37CE0007F59E7927BF962E634F17E46C62E6342CF53",
     "napomena": null
   }
 }

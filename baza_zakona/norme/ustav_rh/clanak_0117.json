@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "117",
     "naslov": null,
-    "tekst": "Sudske su rasprave javne i presude se izriču javno, u ime Republike Hrvatske. Javnost se može isključiti iz cijele rasprave ili njezina dijela ako se sudi malodobnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i usvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike.",
+    "tekst": ". Sudske su rasprave javne i presude se izriču javno, u ime Republike Hrvatske. Javnost se može isključiti iz cijele rasprave ili njezina dijela ako se sudi malodobnicima, ili radi zaštite privatnog života stranaka, ili u bračnim sporovima i postupcima u svezi sa skrbništvom i usvojenjem, ili radi čuvanja vojne, službene ili poslovne tajne i zaštite sigurnosti i obrane Republike.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "4224180C27AD5925A929757108EA86006BF406ADA1A52365CDB13726A92AF498",
-    "sha256_datoteke": "946D60A9587573F909F178F591640F69048F74BA5B21781C26B7B1DF5A716422",
+    "sha256_teksta": "95E08FB74F276373F55D9547E3EE63E5D91300ECE210EFF416AA6E2FE9ACB006",
+    "sha256_datoteke": "256BE80333CEBADB6AA02AA1D46AE8DE8B4CFFA736A7EE4C4B7B7F803BF48277",
     "napomena": null
   }
 }
