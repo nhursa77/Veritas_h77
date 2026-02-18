@@ -123,6 +123,21 @@ GATE:
 Sljedeći korak:
 - normiranje iz NN strukture u NORMA JSON
 
+### FAZA 2.1 — Validacija NN vs kontrolni izvor (zakon.hr)
+CILJ: Usporediti strukturu članaka iz NN s kontrolnim tekstom zakon.hr radi
+detekcije rupa i anomalija prije/uz normiranje.
+ULAZ:
+- `izvori/dokazno/narodne_novine/<akt_slug>/struktura_nn.json`
+- `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_kontrolni.txt`
+- `izvori/dokazno/narodne_novine/<akt_slug>/izvor_nn.html`
+IZLAZ:
+- `baza_zakona/norme/<akt_slug>/IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+PROVJERA:
+- evidentirani `missing_in_nn`, `extra_in_nn`, `short_text_in_nn`
+- heuristika anomalije bloka `Članak 10.`–`Članak 12.` (signal `Članak 1 I.`)
+GATE:
+- rezultat validacije ulazi u odluku o ručnim/automatiziranim parser pravilima
+
 ### FAZA 3 — Normiranje u NORMA JSON
 CILJ: Iz strukturiranog NN izlaza generirati NORMA JSON zapise (chunk=članak).
 ULAZ:

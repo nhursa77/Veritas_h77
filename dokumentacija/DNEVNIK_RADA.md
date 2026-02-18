@@ -123,3 +123,8 @@ grba/zastave/himne,
 Dodan je kontrolni izvor u `izvori/kontrolno/zakon_hr/ustav_rh/`:
 `ustav_rh_kontrolni.txt` (UTF-8, plain text) i `meta.json` s URL-om i vremenom
 preuzimanja.
+
+### Validator NN vs kontrolni izvor (ustav_rh)
+Dodan je alat `alati/validiraj_nn_vs_kontrolno.py` koji uspoređuje
+`struktura_nn.json` s `ustav_rh_kontrolni.txt` i generira
+`IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
