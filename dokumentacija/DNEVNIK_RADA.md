@@ -203,3 +203,9 @@ U validator je uveden obavezni pre-flight check: run pada s `exit 2` ako
 odabrani NN izvor nije `procisceni`, odnosno s `exit 3` ako
 `NN_COUNT != ocekivani_broj_clanaka`. Dodana je skripta
 `alati/acceptance_ustav_rh_preflight.ps1` za one-click acceptance na Windowsu.
+
+### Generički runner/preflight po `-AktSlug`
+Uvedeni su `alati/run_normiratelj.ps1` i `alati/acceptance_preflight.ps1`
+kao generički entrypointi za sve akte; validator
+`alati/validiraj_nn_vs_kontrolno.py` sada podržava `-AktSlug` i
+standardizirani override expected count-a po aktu/globalno.

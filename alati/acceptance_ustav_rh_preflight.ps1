@@ -1,31 +1,16 @@
-param()
+param(
+    [Parameter(Mandatory = $false)]
+    [int] $ExpectedCountOverride
+)
 
 $ErrorActionPreference = "Stop"
-[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 
-$root = Split-Path -Path $PSScriptRoot -Parent
-$validator = Join-Path $PSScriptRoot "validiraj_nn_vs_kontrolno.py"
-$venvPython = Join-Path $root ".venv\Scripts\python.exe"
-
-Push-Location $root
-try {
-    if (Test-Path -LiteralPath $venvPython) {
-        & $venvPython $validator
-    }
-    else {
-        python $validator
-    }
-
-    $exitCode = $LASTEXITCODE
-    if ($exitCode -eq 0) {
-        Write-Host "OK"
-    }
-    else {
-        Write-Host "FAIL (exit code $exitCode)"
-    }
-
-    exit $exitCode
+$genericPreflight = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
+if ($PSBoundParameters.ContainsKey('ExpectedCountOverride')) {
+    & $genericPreflight -AktSlug "ustav_rh" -ExpectedCountOverride $ExpectedCountOverride
 }
-finally {
-    Pop-Location
+else {
+    & $genericPreflight -AktSlug "ustav_rh"
 }
+
+exit $LASTEXITCODE

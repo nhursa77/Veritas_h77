@@ -197,6 +197,12 @@ Status pilot (18.02.2026.):
   `exit 2` ako odabrani izvor nije `procisceni`, `exit 3` ako
   `NN_COUNT` odstupa od `ocekivani_broj_clanaka`
 - standardni one-click run na Windowsu: `alati/acceptance_ustav_rh_preflight.ps1`
+- uvedeni su generički entrypointi po `-AktSlug`:
+  `alati/run_normiratelj.ps1` i `alati/acceptance_preflight.ps1`
+  kako bi selection + guardrail bili primjenjivi na sve akte, ne samo `ustav_rh`
+- validator podržava `-AktSlug` i standardizirani override prioritet
+  (`VERITAS_<AKT_SLUG>_EXPECTED_COUNT_OVERRIDE` pa
+  `VERITAS_EXPECTED_COUNT_OVERRIDE`, pa meta expected)
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
