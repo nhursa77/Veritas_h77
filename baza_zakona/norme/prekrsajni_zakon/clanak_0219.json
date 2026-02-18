@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "219",
+    "naslov": null,
+    "tekst": ". (1) O zahtjevu za izvanredno ublažavanje kazne odlučuje Visoki prekršajni sud Republike Hrvatske. (2) Visoki prekršajni sud Republike Hrvatske će zahtjev odbaciti ako je nedopušten, odnosno odbiti ako ustanovi da nije udovoljeno zakonskim uvjetima za izvanredno ublažavanje kazne. Ako zahtjev prihvati, sud će rješenjem preinačiti pravomoćnu odluku o prekršaju glede odluke o kazni. (3) Rješenje kojim je prihvatio zahtjev za izvanredno ublažavanje kazne, sud će opozvati ako se dokaže da se rješenje temelji na lažnoj ispravi ili na lažnom iskazu svjedoka ili vještaka 3. ZAHTJEV ZA ZAŠTITU ZAKONITOSTI Zahtjev za zaštitu zakonitosti i primjena Zakona o kaznenom postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "31D32460649D023F238FD7592D71FCDE6BF91A6CBD99B7976F379442021ED23E",
+    "sha256_datoteke": "856CEB79C87C352F69BE594DA20E37EE788BCF039BE833263262BBC60786A4F7",
+    "napomena": null
+  }
+}

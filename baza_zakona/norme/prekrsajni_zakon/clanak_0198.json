@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "198",
+    "naslov": null,
+    "tekst": ". (1) Presuda se može pobijati zbog odluke o kazni, uvjetnoj osudi i opomeni kad tom odlukom nije prekoračena zakonska ovlast (članak 196. točka 5.), ali sud nije pravilno odmjerio kaznu s obzirom na okolnosti koje utječu na to da kazna bude veća ili manja, i zbog toga što je sud primijenio ili nije primijenio odredbe o ublažavanju kazne, o oslobađanju od kazne, o uvjetnoj osudi ili opomeni iako su za to postojali zakonski uvjeti. (2) Odluka o zaštitnoj mjeri ili o oduzimanju imovinske koristi može se pobijati ako ne postoji povreda zakona iz članka 196. točke 5. ovoga Zakona, ali je sud nepravilno donio tu odluku ili nije izrekao zaštitnu mjeru, odnosno oduzimanje imovinske koristi iako su za to postojali zakonski uvjeti. Zbog istih razloga može se pobijati odluka o troškovima prekršajnog postupka. (3) Odluka o imovinskopravnom zahtjevu može se pobijati kad je sud o tom pitanju donio odluku protivno zakonu ili ako je ta odluka neosnovana. Postupak o žalbi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F3C978A8077BBB0E69BB6676384E65BE01D3A0AB65C5EE065050B89279643252",
+    "sha256_datoteke": "25F4E17E93C1445308F8B1ECBC008EA62C3A0B171C7199F27C3A09D41C5F4CB9",
+    "napomena": null
+  }
+}

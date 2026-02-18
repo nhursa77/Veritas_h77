@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "253",
+    "naslov": null,
+    "tekst": ". (1) Negativni bodovi propisani posebnim zakonom smatraju se danom stupanja na snagu ovoga Zakona negativnim prekršajnim bodovima i pravnom posljedicom osude prema ovome Zakonu. (2) Negativni bodovi koje je okrivljenik prikupio prema Zakonu o prekršajima (»Narodne novine«, br. 88/02., 122/02., 187/03. 105/04. i 127/04.) uzet će se u obzir za primjenu pravne posljedice osude, sukladno ovome Zakonu. Globa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "84082ABD641FAFE5929E3D1BC01DC2505666836ACC4B0AE9653F6E10D206B206",
+    "sha256_datoteke": "4C9EE0F9BC23627BC4D6A9AE812ED292A55B7696A2168E2BA69DF91F78BEA986",
+    "napomena": null
+  }
+}

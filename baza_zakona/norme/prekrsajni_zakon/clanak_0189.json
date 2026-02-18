@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "189",
+    "naslov": null,
+    "tekst": ". (1) U tijelu državne uprave prekršajni postupak provodi, odluku o prekršaju i druge odluke donosi voditelj postupka pojedinac, osim ako zakonom nije određeno da postupak provodi vijeće. (2) Vijeće iz stavka 1. ovoga članka može ovlastiti člana vijeća za vođenje postupka i donošenje odluka tijekom postupka, osim donošenja odluke o prekršaju. (3) Za voditelja postupka i predsjednika vijeća može se imenovati osoba koja je diplomirani pravnik s položenim pravosudnim ispitom. (4) Imenovanje iz stavka 3. ovoga članka obavlja se prema ustrojstvenom zakonu za nadležno tijelo državne uprave koje vodi prekršajni postupak. (5) Odredbe stavka 1. do 4. ovoga članka ne odnose se na tijela državne uprave koja prilikom provođenja nadzora izdaju prekršajni nalog (ne vode prekršajni postupak). (6) Kada je u ovom Zakonu određeno da odluku u tijeku postupka donosi predsjednik nadležnog prekršajnog suda, odnosno Visokog prekršajnog suda Republike Hrvatske ili Visoki prekršajni sud Republike Hrvatske, u tijelu državne uprave koje vodi prekršajni postupak istu odluku donosi čelnik nadležnog tijela državne uprave, odnosno ministar nadležan za to tijelo državne uprave. (7) Ako se u prekršajnom postupku pred tijelom državne uprave steknu uvjeti za određivanje, odnosno produljenje zadržavanja okrivljenika prema uvjetima članka 135. i 136. ovoga Zakona, tijelo državne uprave će o tome zatražiti donošenje odluke od nadležnog prekršajnog suda. Tijelo državne uprave može radi donošenja odluke o tome narediti dovođenje okrivljenika tome sudu. Odluka o prekršaju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7BC683C8A48215885FD79241E139221BED789DFEA144A972D0228999E44E342B",
+    "sha256_datoteke": "CB5392D18C66F6254B4259C099C115C4A7F8CF498FBA7FA76F40D7BBBA1A2992",
+    "napomena": null
+  }
+}

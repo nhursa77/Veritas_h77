@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "243",
+    "naslov": null,
+    "tekst": ". (1) Kada tijelo koje je izdalo prekršajni nalog primi prigovor protiv prekršajnog naloga bez odgode će ga zajedno sa spisom predmeta dostaviti prekršajnom sudu nadležnom prema mjestu počinjenja prekršaja. (2) Sud će rješenjem odbaciti nepravodoban i nedopušten prigovor te prigovor kojemu se ne može ustanoviti podnositelj ili prekršajni nalog protiv kojeg se prigovor podnosi. (3) Ako prigovor ne sadrži potpis podnositelja, sud će pozvati podnositelja da ga potpiše u roku od 8 dana, a ako to ne učini, prigovor će se odbaciti. (4) Protiv rješenja o odbacivanju prigovora nije dopuštena žalba. (5) Prigovor koji ne sadrži druge podatke iz članka 236. ovoga Zakona uzet će se u razmatranje. Ako prigovor ne sadrži osnovu iz članka 237. stavka 1. ovoga Zakona, ili ona nije jasna, smatrat će se da je prigovor podnesen zbog poricanja prekršaja (članak 237. stavak 1. točka 1.). (6) U postupku izdavanja obaveznog prekršajnog naloga nije moguće podnositi molbu za povrat u prijašnje stanje. Odlučivanje o prigovoru",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E78BB439D9501100C94DA55368F0CD56F6149C0055FC499D9930249EFAD48589",
+    "sha256_datoteke": "8F3B8AB65719C47EFB7CA825D7EE9031595D3C415F2F2828F61FFC9E4310BE4D",
+    "napomena": null
+  }
+}

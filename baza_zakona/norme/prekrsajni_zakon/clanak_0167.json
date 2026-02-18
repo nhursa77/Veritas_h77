@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "167",
+    "naslov": null,
+    "tekst": ". (1) Ako sudac prije otvaranja glavne rasprave ustanovi da je tužitelj odustao od optužnog prijedloga, presudom će odbiti optužbu. (2) Prije otvaranja rasprave sudac provjerava jesu li došle sve pozvane osobe i jesu li se ostvarili drugi uvjeti za održavanje rasprave. (3) Ako na glavnu raspravu nisu došle uredno pozvane stranke i drugi uredno pozvani sudionici u postupku, glavna se rasprava može održati i donijeti presuda. Glavna se rasprava može održati bez nazočnosti okrivljenika ako njegovo ispitivanje nije potrebno i ako to nije od utjecaja na zakonito i pravilno donošenje presude. (4) Ako druge pozvane osobe nisu došle na glavnu raspravu, ona će se održati i bez njihove nazočnost, a ako je njihova nazočnost nužna, rasprava će se odložiti i sud će ih nanovo pozvati ili, kada za to postoje uvjeti, narediti njihovo dovođenje. (5) Ako tužitelj nije uredno pozvan, glavna rasprava se može iznimno održati i bez njegove nazočnosti samo ako to nije na štetu njegova pravnog interesa i ne ugrožava pravilno utvrđivanje činjenica u postupku. (6) Ako postoje uvjeti za održavanje glavne rasprave bez nazočnosti pojedinih osoba, pročitat će se ranije iznesena ili pisano podnesena obrana okrivljenika, iskazi svjedoka i pribavljeni nalaz i mišljenje vještaka. (7) Ako se nisu ostvarili uvjeti za održavanje glavne rasprave, sudac može izvan rasprave ispitati svjedoke i vještake koji su se odazvali pozivu za raspravu. Zapisnik o njihovu ispitivanju pročitat će se na raspravi u kasnijem dokaznom postupku. (8) Ako bi se prema stanju dokaza u spisu predmeta trebala donijeti presuda kojom se optužba odbija, glavna će se rasprava održati bez obzira na nazočnost stranaka i drugih pozvanih osoba i jesu li se stekli zakonski uvjeti za održavanje rasprave. Odgoda i prekid glavne rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "518E30F0F9A847DE66032BD24AAFDCDC99E0F1B05F7B3E63407FC79E289F6E32",
+    "sha256_datoteke": "30986BF6C961ED19300C504940F7528D835D7A3E3898A5D602DB31E99120EFD7",
+    "napomena": null
+  }
+}

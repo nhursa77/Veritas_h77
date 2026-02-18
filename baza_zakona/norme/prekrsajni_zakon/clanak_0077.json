@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "77",
+    "naslov": null,
+    "tekst": ". (1) Nakon izdržane, oproštene ili zastarjele kazne zatvora odnosno maloljetničkog zatvora, osuđenik ima sva prava utvrđena Ustavom, zakonom ili drugim propisom i može stjecati sva prava osim onih koja su mu ograničena zaštitnom mjerom, a jednako se to odnosi i na počinitelja prekršaja kojem je primijenjena mjera upozorenja ili je odlukom o prekršaju oslobođen kazne. (2) Protekom tri godine od pravomoćnosti odluke o prekršaju počinitelj prekršaja smatra se neosuđivanim po toj odluci o prekršaju i svaka uporaba tih podataka o njemu kao počinitelju prekršaja zabranjena je i nema nikakav pravni učinak. Rehabilitirani osuđenik ima pravo nijekati prijašnju osuđivanost i zbog toga ne može biti pozvan na odgovornost niti može imati bilo kakve pravne posljedice. (3) Rehabilitacija iz stavka 1. i 2. ovoga članka nastupa po sili zakona. Podaci iz prekršajne evidencije",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8FA08F4D081F4C72F6B9B3AE496BDD3364C4B93759E6F62782833E927491F633",
+    "sha256_datoteke": "1E116A96795D72609D83355180F7A22762D5D5651D4257730D5C1F8E4F8762E9",
+    "napomena": null
+  }
+}

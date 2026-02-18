@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "245",
+    "naslov": null,
+    "tekst": ". (1) Ako zakonom nije određeno drukčije, novčana se kazna može naplatiti na mjestu počinjenja prekršaja ako je riječ o prekršaju za koji je propisana novčana kazna do 1.000,00 za fizičku i odgovornu osobu u pravnoj osobi te do 10.000,00 kuna za pravnu osobu i s njom izjednačene subjekte, a službena je osoba ovlaštenog tužitelja, osim oštećenika, prekršaj utvrdila: a) obavljanjem nadzora u okviru svoje nadležnosti, b) neposrednim opažanjem, c) uporabom tehničkih uređaja, d) pregledom vjerodostojne dokumentacije. (2) Ako se radi o prekršaju pravne osobe i njezine odgovorne osobe, za postupanje prema stavku 1. ovoga članka dovoljno je da postoji uvjet iz stavka 1. ovoga članka glede propisane novčane kazne samo za pravnu ili samo za odgovornu osobu. (3) Usmeno izrečena novčana kazna prema uvjetima stavka 1. ovoga članka naplaćuje se od počinitelja prekršaja uz izdavanje potvrde o tome. Na isti se način može odmah naplatiti i trošak utvrđenja prekršaja putem tehničkih uređaja. (4) Ako počinitelj prekršaja, sukladno stavku 1. i 2. ovoga članka, plati izrečenu novčanu kaznu i trošak utvrđenja prekršaja, neće se voditi prekršajni postupak, izrečena kazna se ne unosi u prekršajnu evidenciju, a počinitelj prekršaja se ne smatra osobom osuđenom za prekršaj. (5) Ako policijski službenik postupajući sukladno stavku 1. ovoga članka počinitelju prekršaja koji nema prebivalište ili stalno boravište u Republici Hrvatskoj izrekne novčanu kaznu i odredi troškove postupka a on odbije platiti kaznu i troškove, policijski službenik može počinitelja dovesti prekršajnom sucu uz podnošenje optužnog prijedloga. Prekršajni će sudac odmah ispitati privedenog počinitelja prekršaja. Ako pri tom nisu se stekli uvjeti za zadržavanje okrivljenika sukladno odredbi članka 135. stavka 3. ovoga Zakona, sudac može postupiti sukladno članku 136. ovoga Zakona. (6) Kada policija tijekom obavljanja poslova nadzora utvrdi da je počinjen prekršaj, za koji je propisana samo novčana kazna do 1.000,00 kuna, osobito lake naravi i da počinitelj nije prije činio slične prekršaje, može umjesto postupanja sukladno stavku 1. i 2. ovoga članka izdati pisano ili izreći usmeno upozorenje počinitelju prekršaja. (7) Postupanje policije prema stavku 6. ovoga članka potanko će se urediti pravilnikom ministra nadležnog za unutarnje poslove. Glava tridesetdruga (XXXII.) OSTALI POSEBNI POSTUPCI I RADNJE Postupak za opoziv uvjetne osude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "439014D150BBA701FC0F37E1157439637665DCCF52EAA5723426757C2465434F",
+    "sha256_datoteke": "056846690596DA93C06F985B2E8993392C65DFD5CB34D95A9C1C501D7996BEA9",
+    "napomena": null
+  }
+}

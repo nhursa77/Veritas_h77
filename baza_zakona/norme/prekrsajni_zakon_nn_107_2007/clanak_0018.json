@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". (1) Nema prekršaja kad je počinitelj postupao u nužnoj obrani. (2) Nužna obrana je ona obrana koja je prijeko potrebna da počinitelj od sebe ili drugoga odbije istodobni ili izravno predstojeći protupravni napad. (3) Počinitelj koji je prekoračio granice nužne obrane može se blaže kazniti. Krajnja nužda",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C76531A67B533419CB3F801901506338DB4759ACA17D12552A4D67BEA88A8025",
+    "sha256_datoteke": "43FDC055E5E427D572B047C92226D3F2C0FCA4CF333A28CC1BD66C4C30B1A79F",
+    "napomena": null
+  }
+}

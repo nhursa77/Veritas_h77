@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". (1) Nema prekršaja kad je počinitelj ostvario njegova propisana obilježja radi toga da od sebe ili drugoga otkloni istodobnu ili izravno predstojeću neskrivljenu opasnost koja se na drugi način nije mogla otkloniti, a pri tom je učinjeno zlo manje od onoga koje je prijetilo. (2) Počinitelj će se osloboditi od kazne za počinjeni prekršaj kad je postupao radi toga da od sebe ili drugoga otkloni istodobnu ili izravno predstojeću neskrivljenu opasnost koja se na drugi način nije mogla otkloniti, a pri tom je učinjeno zlo jednako onom koje je prijetilo. Sila ili prijetnja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "41D2BA9BC0CAFDFDA16D61CDAA15F7E910057E954977B8DDF4D278FA85406929",
+    "sha256_datoteke": "C59932EECFB97B7F925CBDFB5E5004B0ACC2873C215D1187E5C17E60B30EA5C1",
+    "napomena": null
+  }
+}

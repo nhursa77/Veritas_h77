@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "228",
+    "naslov": null,
+    "tekst": ". (1) Prekršajni nalog kao posebna odluka o prekršaju može se izdati: 1. prije pokretanja prekršajnog postupka, 2. nakon pokretanja prekršajnog postupka, bez provođenja glavne rasprave odnosno postupka. (2) Prekršajni se nalog može izdati samo protiv punoljetnog počinitelja prekršaja. (3) Ako ovim Zakonom nije određeno drukčije, prekršajnim se nalogom može, prema uvjetima ovoga Zakona, izreći odnosno primijeniti svaka od propisanih prekršajnopravnih sankcija za punoljetne počinitelje prekršaja, oduzimanje imovinske koristi, odrediti naknada paušalne svote troškova za izdavanje prekršajnog naloga i troškovi nastali utvrđivanjem prekršaja upotrebom tehničkih sredstava ili provođenjem potrebnih analiza i vještačenja. (4) Prekršajnim se nalogom ne može izreći kazna zatvora ni zaštitne mjere, osim oduzimanje predmeta i zabrana upravljanja motornim vozilom. (5) U postupku za izdavanje prekršajnog naloga na odgovarajući se način primjenjuju ostale odredbe ovoga Zakona ako odredbama o postupku za izdavanje prekršajnog naloga nije nešto drukčije određeno. Ovlaštenici za izdavanje prekršajnog naloga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "82326E2D4B5195EA232C9A39A30EBF6026951314F8664A8F4740B5B286DD9DC1",
+    "sha256_datoteke": "998C19D38A650B376B22E6D5395F465A1474F3B1B4C131B1D7F5FE7B7A462C4D",
+    "napomena": null
+  }
+}

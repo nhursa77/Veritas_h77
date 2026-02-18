@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "113",
+    "naslov": null,
+    "tekst": ". (1) Oštećenik, kojem je prekršajem povrijeđeno ili ugroženo kakvo imovinsko ili osobno pravo, ovlašten je sudu za taj prekršaj podnijeti optužni prijedlog. (2) Oštećenik se u postupku može ispitati kao svjedok. (3) Oštećenik tužitelj poduzima sve radnje u postupku na koje je po zakonu ovlašten sam ili putem ovlaštenog opunomoćenika odnosno predstavnika. (4) Za oštećenika maloljetnika ili osobu lišenu poslovne sposobnosti optužni prijedlog podnosi njihov zakonski zastupnik i poduzima sve radnje u postupku a može za to imati i ovlaštenog opunomoćenika. (5) Oštećenik stariji maloljetnik (osoba s navršenih šesnaest godina života) može i sama podnijeti optužni prijedlog i u vezi s tim obavljati radnje u postupku. (6) Ako oštećenik tužitelj umre u tijeku roka za podnošenje optužnog prijedloga ili u tijeku postupka koji se vodi po njegovu optužnom prijedlogu, njegov bračni drug, izvanbračni drug, djeca, roditelji, braća i sestre, posvojitelj i posvojenik mogu u roku od mjesec dana poslije njegove smrti podnijeti optužni prijedlog ili dati izjavu da postupak nastavljaju. Okrivljenik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EF70B834F7E7F6D69C7C5D946C1B8F39FD2A6EB6D3D468F5D438926AF6146D62",
+    "sha256_datoteke": "F46D76D3768E0F7569542818826A8AD4F9A0AC863CEBC0493F378EAC4148183C",
+    "napomena": null
+  }
+}

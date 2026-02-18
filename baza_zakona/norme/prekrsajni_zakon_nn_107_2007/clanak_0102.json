@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "102",
+    "naslov": null,
+    "tekst": ". (1) Sud je dužan paziti na svoju stvarnu i mjesnu nadležnost te će se, čim primijeti da nije nadležan, rješenjem proglasit nenadležnim. Nakon pravomoćnosti rješenja sud će ustupiti predmet nadležnom sudu, odnosno drugom nadležnom prekršajnom tijelu. (2) Nakon započinjanja postupka, sud se ne može proglasiti mjesno nenadležnim niti stranke mogu isticati prigovor mjesne nenadležnosti. (3) Nenadležni sud dužan je poduzeti one radnje u postupku za koje postoji opasnost od odgode. Sukob nadležnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0CF472ACCFB4A42DC28E5A38ADFFF8A3AADBD6ECF82CFAE16D9BF5A0E675CDE8",
+    "sha256_datoteke": "AB56F48721B01E7B6B8454B4DEA71273516EDF0B9E1CDBFBE918CEC492584AF8",
+    "napomena": null
+  }
+}

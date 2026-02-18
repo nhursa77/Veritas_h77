@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "195",
+    "naslov": null,
+    "tekst": ". (1) Bitna povreda odredaba prekršajnog postupka postoji: 1. ako je sud bio nepropisno sastavljen ili ako je u izricanju presude sudjelovao sudac koji nije sudjelovao u vođenju postupka odnosno na glavnoj raspravi, osim ako je raspravu ili postupak sukladno zakonu vodio sudački savjetnik, ili koji je pravomoćnom odlukom izuzet od suđenja, 2. ako je na glavnoj raspravi odnosno u vođenju postupka sudjelovao sudac koji se morao izuzeti (članak 104. stavak 1.), 3. ako je održana glavna rasprava ili postupak proveden bez sudjelovanja stranaka i sudionika u postupku protivno odredbama ovoga Zakona, 4. ako je okrivljeniku, branitelju, oštećeniku tužitelju protivno njegovu zahtjevu uskraćeno da se na glavnoj raspravi služi svojim jezikom i da na svojem jeziku prati tijek rasprave, 5. ako je protivno Zakonu donesena odluka o isključenju javnosti s glavne rasprave, 6. ako je sud povrijedio propise prekršajnog postupka o pitanju postoji li optužni prijedlog ovlaštenog tužitelja ili je optužni prijedlog prekoračen, 7. ako je odluku donio sud koji zbog stvarne nenadležnosti nije mogao suditi u toj stvari ili ako je sud nepravilno presudom obustavio prekršajni postupak zbog stvarne nenadležnosti, 8. ako sud svojom presudom nije potpuno riješio predmet optužbe, 9. ako je presudom povrijeđena odredba članka 202. stavka 4. ovoga Zakona, 10. ako se presuda temelji na dokazu iz članka 90. ovoga Zakona, 11. ako je izreka presude nerazumljiva, proturječna sama sebi ili razlozima presude, ili ako presuda nema uopće razloga ili u njoj nisu navedeni razlozi o odlučnim činjenicama ili su ti razlozi potpuno nejasni ili u znatnoj mjeri proturječni, ili ako o odlučnim činjenicama postoji znatna proturječnost između onoga što se navodi u razlozima presude o sadržaju tih isprava ili zapisnika o iskazima danim u postupku i samih tih isprava ili zapisnika. (2) Bitna povreda odredaba prekršajnog postupka postoji i ako sud pri pripremanju glavne rasprave ili postupka ili u tijeku glavne rasprave odnosno tijekom postupka ili pri donošenju presude nije primijenio ili je nepravilno primijenio koju odredbu ovoga Zakona ili je povrijedio na glavnoj raspravi odnosno u postupku pravo obrane, a to je utjecalo ili moglo utjecati na presudu. Povrede odredaba materijalnog prekršajnog prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A61A22004C3545816A795F63DF6B91D1920CA9913BC83F5E044BEC033DEC6F67",
+    "sha256_datoteke": "E10143A5151B5A40400A372F997176E0AC641127866FB5BD6FE47CD5F5768ADA",
+    "napomena": null
+  }
+}

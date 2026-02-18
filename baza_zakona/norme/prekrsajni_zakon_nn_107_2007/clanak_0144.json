@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "144",
+    "naslov": null,
+    "tekst": ". (1) Odluke u prekršajnom postupku, sukladno ovome Zakonu, donose vijeće, sudac, predsjednik vijeća i voditelj prekršajnog postupka. Prekršajni nalog, rješenje i naredbu prije pokretanja odnosno započinjanja prekršajnog postupka a u vezi s njim donose zakonom ovlaštena tijela. (2) Odluke vijeća donose se nakon usmenog vijećanja i glasovanja. Odluka je donesena kad je za nju glasovala većina članova vijeća. (3) Predsjednik vijeća upravlja vijećanjem i glasovanjem te glasuje posljednji. On je dužan brinuti se da se sva pitanja svestrano i potpuno razmotre. Članovi vijeća ne mogu odbiti glasovati o pitanjima koja postavi predsjednik vijeća. (4) Vijećanje i glasovanje obavlja se u nejavnom zasjedanju u nazočnosti članova vijeća i zapisničara o čemu se vodi poseban zapisnik koji potpisuju predsjednik vijeća, članovi vijeća i zapisničar i ostaje u spisu predmeta. Glava dvadesetprva (XXI.) DOSTAVA ODLUKA, PODNESAKA I DOPISA TE RAZGLEDANJE SPISA Opće odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F277680694841958ACBCE1C6C295BA0905A1049403955BAE3B50090BC50C478D",
+    "sha256_datoteke": "94CC95F4704FF988EB3DD06064010C33A537AF88CE448DAB7FEAAC23CF4F1DCE",
+    "napomena": null
+  }
+}

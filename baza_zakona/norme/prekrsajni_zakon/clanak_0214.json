@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "214",
+    "naslov": null,
+    "tekst": ". (1) Prekršajni se postupak završen pravomoćnom presudom ili drugom odlukom o prekršaju može obnoviti u korist osuđenika: 1. ako se dokaže da je presuda ili druga odluka utemeljena na lažnoj ispravi ili na lažnom iskazu svjedoka, vještaka ili tumača, 2. ako se dokaže da je do presude ili druge odluke došlo zbog kaznenog djela odgovorne osobe tužitelja ili suca, 3. ako se iznesu nove činjenice ili se podnesu novi dokazi koji su sami za sebe ili u svezi s prijašnjim dokazima prikladni da prouzroče oslobođenje osuđenika koji je bio osuđen ili njegovu osudu po blažem propisu, 4. ako je osuđenik za isto djelo više puta osuđen ili ako je više osuđenika osuđeno zbog istog djela koje je mogao počiniti samo jedan osuđenik ili neki od njih. (2) U slučajevima iz stavka 1. točke 1. i 2. ovoga članka mora se pravomoćnom presudom dokazati da su navedene osobe proglašene krivim za dotična kaznena djela. Ako se postupak protiv tih osoba ne može provesti zbog toga što su umrle ili što postoje okolnosti koje isključuju kazneni progon, činjenice iz stavka 1. točke 1. i 2. ovoga članka mogu se utvrditi i drugim dokazima. Ovlaštenici za podnošenje zahtjeva, podnošenje i odlučivanje o zahtjevu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BB237C2471D7BECB0F517EE62D18B1F14416EC4CF9FA4BE1AD048DDA5B012388",
+    "sha256_datoteke": "F677090A9A49B482C24F94216D0AB641D086CDFD564693148C0B016E3AFA0FF6",
+    "napomena": null
+  }
+}

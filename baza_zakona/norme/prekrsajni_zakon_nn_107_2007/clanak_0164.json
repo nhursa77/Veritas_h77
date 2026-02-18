@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "164",
+    "naslov": null,
+    "tekst": ". (1) Poziv okrivljeniku za glavnu raspravu odnosno ispitivanje ima sadržaj sukladno odredbi članka 128. ovoga Zakona. Ako nazočnost okrivljenika nije nužna, sud će okrivljeniku u pozivu naznačiti da svoju obranu može iznijeti pisanim podneskom. (2) Između dostave poziva okrivljeniku i dana zakazane glavne rasprave odnosno ispitivanja mora se okrivljeniku ostaviti vrijeme od najmanje tri dana radi pripreme obrane, a na njegov zahtjev se može i skratiti to vrijeme. (3) Tužitelj se poziva pisanim pozivom tako što će se navesti naziv suda, ime i prezime, odnosno naziv tužitelja, vrijeme i mjesto dolaska, prekršajni predmet u svezi kojeg se poziva, te službeni pečat suda i potpis suca. (4) Sudionici u postupku (članak 108. stavak 2. točke 1. do 4.), svjedoci, vještaci i tumači pozivaju se pisanim pozivom tako što će se navesti njihovo ime i prezime, naziv suda, vrijeme i mjesto dolaska, u kojem svojstvu se poziva, prekršajni predmet u svezi kojeg se poziva te službeni pečat suda i potpis suca, a svjedoka, vještaka i tumača upozorit će se ako se ne odazove pozivu i ne opravda svoj nedolazak može se naložiti njegovo dovođenje. 3. GLAVNA RASPRAVA Opće odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "252DAEE2F643BC999C22962EE7BA1EEE511496DED9E05F4E0D74516F92806114",
+    "sha256_datoteke": "41F20566B41ACCC3AA80650FCC2567FBD7CE10E2218545C7E1C119CEC6218AE4",
+    "napomena": null
+  }
+}

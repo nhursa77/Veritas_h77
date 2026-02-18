@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "146",
+    "naslov": null,
+    "tekst": ". (1) Dostava se obavlja: 1. osobno, 2. posredno. (2) Okrivljeniku, osim pravnoj osobi, se osobno dostavlja: 1. poziv za prvo ispitivanje skupa s optužnim prijedlogom, 2. presuda i druge odluke od čije dostave teče rok za pravni lijek ako nema branitelja u postupku. (3) Na zahtjev okrivljenika poziv, presuda i druge odluke te druga pismena dostavit će se samo branitelju ili drugoj osobi koju on odredi (opunomoćenik za primanje pismena). Dostava toj osobi smatra se dostavom okrivljeniku. Presuda kojom je okrivljeniku izrečena kazna zatvora uvijek se dostavlja i okrivljeniku. (4) Poziv i odluke iz stavka 2. točke 1. i 2. ovoga članka osobno se dostavljaju okrivljeniku tako što mu se predaju neposredno. Ako se ne zatekne tamo gdje se ima obaviti dostava, dostavljač će se izvijestiti kad i na kojem mjestu može ga zateći i ostaviti mu kod jedne od osoba navedenih u stavku 7. ovoga članka pisanu obavijest da radi primanja dopisa bude u određen dan i sat u svom stanu ili na svome radnom mjestu. Ako i nakon toga dostavljač ga ne zatekne, postupit će prema odredbi stavka 7. ovoga članka. Time se smatra da su poziv ili odluka dostavljeni. (5) Ako okrivljeniku koji nema branitelja treba dostaviti presudu kojom mu je izrečena kazna zatvora, a presuda se ne može dostaviti, sud može okrivljeniku postaviti branitelja po službenoj dužnosti koji će razmotriti spis i po potrebi podnijeti žalbu. (6) Ako okrivljenik ima branitelja, sve odluke od čije dostave teče rok za podnošenje pravnog lijeka, dostavit će se okrivljeniku prema odredbama stavka 7. ovoga članka. Ako se dostava obavlja i okrivljeniku i branitelju, rok za podnošenje pravnog lijeka teče od kasnije dostave. (7) Dopisi za koje u ovom Zakonu nije propisano da se moraju osobno dostaviti dostavljaju se također osobno, no oni se, ako se primatelj ne zatekne u stanu ili na poslu, mogu predati kojem od njegovih punoljetnih članova domaćinstva, koji su dužni primiti dopis. Ako se oni ne zateknu u stanu, dopis će se predati nadstojniku ili susjedu, ako oni na to pristanu. Ako se dopis dostavlja osobi na poslu, a ona se tamo ne zatekne, dopis se može ostaviti osobi ovlaštenoj za primanje pošte koja ga je dužna primiti, ili osobi koja je zaposlena na istome mjestu, ako ona pristane da primi podnesak. (8) Ako se utvrdi da je osoba kojoj se dopis ima dostaviti odsutna i da joj ga osobe iz stavka 7. ovoga članka zbog toga ne mogu predati na vrijeme, dopis će se vratiti uz naznaku gdje se odsutni nalazi. (9) Dostava pravnim osobama obavlja se predajom pismena osobi ovlaštenoj za primanje pismena ili drugoj osobi koja radi za pravnu osobu. Dostava tužiteljima i drugim osobama",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4BE25593EF84DB7A184439EE1E74BA88030F4CEC65172EC00B17E4FB3B5D2050",
+    "sha256_datoteke": "EED04E6D43CD9BC2BD5EDDF132EEB40A638B82E24DE8B52D13978E9E3F6842B4",
+    "napomena": null
+  }
+}

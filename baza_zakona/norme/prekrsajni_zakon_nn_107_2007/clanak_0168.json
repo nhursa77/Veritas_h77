@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "168",
+    "naslov": null,
+    "tekst": ". (1) Rješenjem se glavna rasprava koja nije započela može odgoditi, a ako je započela prekinut će se i zakazati njezin nastavak: 1. ako se okrivljenik nije odazvao na raspravu a sud ocjenjuje nužnim njegovo ispitivanje prije presuđenja, a nije ga bilo moguće odmah dovesti, 2. ako nije nazočna koja druga osoba bez koje se po zakonu ne može održati glavna rasprava ili ako bez nazočnosti neke od pozvanih osoba ne bi bilo svrsishodno održati raspravu pa ih je zato potrebno ponovo pozvati, 3. ako okrivljenik ili njegov branitelj nisu uredno pozvani na raspravu, 4. ako treba izvesti nove dokaze ili postoje druge smetnje za završetak rasprave. (2) U slučaju iz stavka 1. točke 1. i 2. ovoga članka, sud će narediti da se okrivljenik, svjedok i vještak koji su bili uredno pozvani dovedu na sljedeću raspravu. Ako te osobe u međuvremenu opravdaju svoj nedolazak na raspravu i obećaju da će doći na sljedeću, sud će povući nalog o dovođenju, osim ako iz okolnosti ne proizlazi da te osobe izbjegavaju dolazak na glavnu raspravu. (3) Sudac može prekinuti glavnu raspravu radi odmora, proteka radnog vremena, radi pribavljanja određenih dokaza ili iz drugih opravdanih razloga. Sud će voditi brigu o tome da prekid traje što kraće. (4) Protiv rješenja o odgodi i prekidu glavne rasprave nije dopuštena žalba. Zapisnik o glavnoj raspravi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8C21BA25335B02FC977C4C886BD056E1179A9AAC641E806EEE4CACBDB92389CC",
+    "sha256_datoteke": "083449F011909ABD7A0AE3C5E63DD60FF7111DC302AA6F64C20C6E74A3ED8E09",
+    "napomena": null
+  }
+}

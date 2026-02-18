@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". (1) Nije kriv počinitelj koji iz opravdanih razloga nije znao i nije mogao znati da je djelo zabranjeno. (2) Ako je zabluda bila otklonjiva, počinitelj se za počinjeni prekršaj može blaže kazniti. (3) Zabluda će biti smatrana otklonjivom ako bi svatko pa i počinitelj mogao lako spoznati protupravnost djela ili ako se radi o počinitelju koji je s obzirom na svoje zvanje, zanimanje ili službu bio dužan upoznati se s odgovarajućim propisom. Zabluda o biću prekršaja i zabluda o okolnostima koje isključuju protupravnost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3CE6EE3B45CC6218EB1C3CB51621A2DFFAA98B1D058220DFB04F64CAB702D02C",
+    "sha256_datoteke": "9E8F084BC7D2A9135663A93E3CB9D1CC91CCF0FE7EBFEAFEFB53D29596A8CA84",
+    "napomena": null
+  }
+}

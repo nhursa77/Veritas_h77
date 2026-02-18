@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "250",
+    "naslov": null,
+    "tekst": ". (1) Sud po službenoj dužnosti oduzima imovinsku korist ostvarenu prekršajem. Ako ovim Zakonom nije nešto drukčije određeno, u postupku za oduzimanje imovinske koristi i postupku za naknadu štete i ostvarivanje drugih prava neopravdano osuđenih ili neutemeljeno uhićenih osoba odgovarajuće se primjenjuju o tome odredbe Zakona o kaznenom postupku. (2) Rehabilitacija osuđenih osoba prema uvjetima ovoga Zakona nastupa po sili zakona i o tome se ne donosi posebna odluka. O nastupu rehabilitacije sva državna tijela vode računa po službenoj dužnosti. Glava tridesettreća (XXXIII.) PRIJELAZNE I ZAVRŠNE ODREDBE Materijalno pravo i dovršenje postupaka u tijeku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9D18AEE4E3D9F47174B9E2FF5E837153901CCD38DA4948D0B89E4D34A471D798",
+    "sha256_datoteke": "0B97DE44107BB781411DB4F87A56514A0311C86339D6C8A07B9A708FC99A2CC1",
+    "napomena": null
+  }
+}

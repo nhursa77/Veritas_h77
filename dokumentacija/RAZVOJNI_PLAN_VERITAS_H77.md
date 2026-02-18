@@ -116,6 +116,10 @@ PROVJERA:
 - rimska oznaka glave se ne smije interpretirati kao dio broja članka
 - parser normalizira tipfelere broja članka `I/l -> 1`
   (npr. `Članak I35.` -> `Članak 135.`)
+- kada NN HTML vrati `Sadržaj je nedostupan` ili ne sadrži markere članka,
+  parser mora aktivirati fallback na `eli_pdf_url` (ELI PDF), izvući tekst i
+  proizvesti parsabilni izlaz (`izvor_nn.html`/`izvor_nn_issue.txt`) uz
+  guardrail: `FOUND_MULTIPLE_ACTS_IN_PDF` -> fail (`exit 12`)
 - za `ustav_rh` vrijedi specifična korekcija anomalije `Članak 1 I.` -> čl. 11
    (uz položaj `10, 1(I), 12` i sadržajni keyword-check)
 GATE:
@@ -209,6 +213,12 @@ Status pilot (18.02.2026.):
   učitava manifest i pokreće generički preflight po `-AktSlug` za svaki akt
 - paketni izlaz koristi status kodove 0/10/11 za required/optional fail
   semantiku i ostavlja `git status` čist nakon cleanup-a artefakata
+- ingestiran je core akt `prekrsajni_zakon` kroz
+  `INGEST_PREKRSAJNI_ZAKON_V1` (snapshot + parsiranje + normiranje +
+  preflight pass)
+- paket `PAKET_PREKRSAJNI_V1` više ne pada na missing-source za required core
+  akt; trenutni paketni status ostaje `11` dok optional akti
+  (`zakon_o_kaznenom_postupku`, `kazneni_zakon`) nisu ingestani
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

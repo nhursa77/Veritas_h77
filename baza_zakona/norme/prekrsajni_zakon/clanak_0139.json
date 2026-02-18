@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "139",
+    "naslov": null,
+    "tekst": ". (1) Okrivljenik, oštećenik, oštećenik tužitelj, branitelj, zakonski zastupnik, opunomoćenik, predstavnik okrivljenika pravne osobe, svjedok, vještak, tumač i stručna osoba, bez obzira na ishod postupka, podmiruju troškove svog dovođenja, odgode ročišta ili glavne rasprave i druge troškove postupka koje su prouzročili svojom krivnjom. (2) O troškovima iz stavka 1. ovoga članka donosi se posebno rješenje, osim ako se radi o obvezniku o čijoj se obvezi podmirivanja troškova postupka odlučuje presudom. (3) Ako je sud okrivljenika proglasio krivim, izreći će u presudi da je obvezan naknaditi troškove postupka, osim ako ovim Zakonom nije određeno drukčije. (4) Ako je okrivljenik istom presudom za neke prekršaje proglašen krivim a za neke je postupak obustavljen, neće se obvezati na naknadu troškova postupka u vezi s prekršajima za koje je postupak obustavljen ako se ti troškovi mogu izdvojiti iz ukupnih troškova. (5) U presudi kojom je više okrivljenika proglašeno krivima, sud će odrediti koliki će dio troškova podmiriti svaki od njih, a ako to nije moguće, odlučit će da svi okrivljenici solidarno podmire troškove. Plaćanje paušalne svote odredit će se za svakog okrivljenika pojedinačno. (6) U odluci kojom rješava o troškovima postupka, sud može okrivljenika djelomično ili u cijelosti osloboditi obveze da naknadi troškove postupka iz članka 138. stavka 2. točke 1. do 4. ovoga Zakona ako bi njihovim plaćanjem bilo dovedeno u pitanje njegovo uzdržavanje ili uzdržavanje osoba koje je dužan uzdržavati. Odlučivanje o troškovima postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EEF55E0ABF03C6363A68642CDACC582CD8391C0E00A3ACB384C925A4F39CFEFE",
+    "sha256_datoteke": "E9E86DE32C0F197FE8C24109C702B47233353C7E33C387ADB9FD681FC8FF78B3",
+    "napomena": null
+  }
+}

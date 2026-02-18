@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "106",
+    "naslov": null,
+    "tekst": ". (1) O zahtjevu za izuzeće iz članka 105. ovoga Zakona odlučuje predsjednik prekršajnog suda. Ako se traži izuzeće i predsjednika suda, o tom zahtjevu odlučuje zamjenik predsjednika suda. (2) Ako se traži izuzeće predsjednika suda koji nema zamjenika, odluku o izuzeću donosi predsjednik Visokoga prekršajnog suda Republike Hrvatske, a ako se traži izuzeće predsjednika Visokog prekršajnog suda Republike Hrvatske, odluka o izuzeću donosi se na sjednici svih sudaca toga suda na kojoj pri donošenju odluke o izuzeću ne može sudjelovati predsjednik suda. (3) Prije donošenja rješenja o izuzeću pribavit će se izjava suca odnosno predsjednika suda, a prema potrebi provest će se i drugi izvidi. (4) Ako je zahtjev za otklon iz članka 104. stavka 2. ovoga Zakona podnesen nakon započinjanja postupka ili je zahtjev za izuzeće podnesen protivno odredbi članka 105. stavka 4. i 5. ovoga Zakona, zahtjev će se rješenjem odbaciti u cijelosti ili djelomično. Rješenje može donijeti i sudac odnosno predsjednik suda čije se izuzeće zahtjeva. (5) Ako sudac ili predsjednik prekršajnog suda smatra da je zahtjev za njegovim izuzećem očito neosnovan, može takav zahtjev sam odbiti i nastaviti postupak. U tom slučaju ne primjenjuje se odredba stavka 3. ovoga članka. (6) Protiv rješenja o zahtjevu za izuzeće nije dopuštena posebna žalba, ali se razlozi za izuzeće mogu isticati u žalbi na presudu. Izuzeće ostalih sudionika u postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3DF5B07D20FF8F9E18CDB62054B84E84D13EBCDE5F412E7DD5D9D5ECB0238230",
+    "sha256_datoteke": "4A16F6663D395E6B7C53F3AEB3CC0FBF85BA6924B39ABEC5E4BB180B26729939",
+    "napomena": null
+  }
+}

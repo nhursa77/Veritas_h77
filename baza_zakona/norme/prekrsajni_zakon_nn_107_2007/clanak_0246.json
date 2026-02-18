@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "246",
+    "naslov": null,
+    "tekst": ". (1) Kad je u uvjetnoj osudi određeno da će se kazna izvršiti ako osuđenik ne vrati imovinsku korist, ne naknadi štetu ili ne udovolji drugim obvezama, a osuđenik u određenom roku nije udovoljio tim obvezama, prvostupanjski sud provest će postupak za opoziv uvjetne osude na prijedlog ovlaštenog tužitelja ili oštećenika. (2) U postupku za opoziv uvjetne osude iz stavka 1. ovoga članka, sud će ispitat osuđenika, ako je dostupan, i provesti potrebne izvide radi utvrđivanja činjenica i prikupljanja dokaza važnih za odluku o opozivu uvjetne osude. (3) Ako sud utvrdi da osuđenik nije udovoljio obvezi koja mu je bila određena presudom, donijet će presudu kojom će opozvati uvjetnu osudu i odrediti izvršenje izrečene kazne, ili odrediti novi rok za udovoljenje obvezi, ili tu obvezu zamijeniti drugom ili osuđenika osloboditi obveze. Ako sud ustanovi da nema osnove za donošenje koje od tih odluka, rješenjem će obustaviti postupak za opoziv uvjetne osude. Potraga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "46BA7B8EA59A836416BBE89637220242202880F3A9D9A950D204F820991DA203",
+    "sha256_datoteke": "E28BFAA28E4DE6F9AF771CFB602154DEF2FDFE1F5D39D82C44B2FC5D9BC96FAB",
+    "napomena": null
+  }
+}

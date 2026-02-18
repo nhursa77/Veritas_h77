@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "118",
+    "naslov": null,
+    "tekst": ". (1) Sud može rješenjem kazniti novčanom kaznom do 5.000,00 kuna svakoga tko u podnesku vrijeđa sud ili osobu koja sudjeluje u postupku. (2) Rješenje o kažnjavanju donosi sud kojem se podnesak podnosi ili kojemu je podnesak dostavljen. (3) O kažnjavanju odvjetnika, odnosno odvjetničkog vježbenika izvijestit će se Hrvatska odvjetnička komora a o kažnjavanju službenika državne uprave nadležni ministar. (4) Državni odvjetnik se neće kazniti za podnesak iz stavka 1. ovoga članka ali će se o podnesku izvijestiti Glavni državni odvjetnik Republike Hrvatske. (5) Protiv rješenja iz stavka 1. ovoga članka ima pravo žalbe onaj prema kojem je izrečena kazna. (6) Kažnjavanje prema stavku 1. ovoga članka ne utječe na progon i izricanje prekršajnopravne sankcije za prekršaj počinjen vrijeđanjem. Zapisnik o radnjama u postupku i njegov sadržaj",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A962D2C3AE7A5E5ADC3F3775814ED4FAC05F424A198A19249ED6DF5C212C99A7",
+    "sha256_datoteke": "16EF8331603A2CB0E9D6CE51B45734348DF8411C0A10DEE3EF166BD6C2FAEBF3",
+    "napomena": null
+  }
+}

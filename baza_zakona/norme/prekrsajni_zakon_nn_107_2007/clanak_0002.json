@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". (1) Prekršaji i prekršajnopravne sankcije mogu se propisivati zakonom i odlukama jedinica lokalne i područne (regionalne) samouprave. (2) Jedinice lokalne i područne (regionalne) samouprave mogu propisivati prekršaje i prekršajnopravne sankcije samo za povrede propisa koje ona donose na temelju svoje nadležnosti utvrđene Ustavom i zakonom i tu ovlast ne mogu prenijeti na drugoga. (3) Nitko ne može biti kažnjen niti se prema njemu može primijeniti druga prekršajnopravna sankcija za djelo koje prije nego je bilo počinjeno nije bilo zakonom ili međunarodnim pravom ili odlukom jedinice lokalne i područne (regionalne) samouprave određeno kao prekršaj i za koji zakonom ili odlukom jedinice lokalne i područne (regionalne) samouprave nije bilo propisano koja se vrsta i mjera prekršajnopravne sankcije počinitelju može izreći, odnosno primijeniti. Obvezna primjena blažeg propisa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BE463417530F6FFF46271F92AD8689E37F7F32624769CBDA7A68A31CCD6AA402",
+    "sha256_datoteke": "819E27ADDF53AF95B7D890BD9CCA9A68DCA151A164402D04F5F2C22D51568F60",
+    "napomena": null
+  }
+}

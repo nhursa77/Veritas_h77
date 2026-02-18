@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "151",
+    "naslov": null,
+    "tekst": ". (1) Odluke izvršavaju za to nadležna tijela na zahtjev suda ili drugog nadležnog tijela koje je donijelo odluku, osim ako sud sam ne izvršava svoju odluku. (2) Presude i rješenja izvršavaju se nakon što su postala pravomoćna i izvršna, ako ovim Zakonom nije određeno drukčije. (3) Presuda postaje pravomoćna: 1. danom proteka žalbenog roka ako žalba nije podnesena ili je žalba podnesena nakon isteka tog roka, ili kad žalba nije dopuštena, 2. danom odricanja od prava na žalbu, odustanka od podnesene žalbe ili odbijanja podnesene žalbe. (4) Presuda je izvršna nakon što je: 1. postala pravomoćna, 2. uručena osuđeniku, 3. protekao rok za njezino dragovoljno izvršenje, ako je to određeno presudom, te 4. utvrđeno da nema zakonskih smetnji za njezino izvršenje. (5) Rješenje postaje pravomoćno kad se više ne može pobijati žalbom ili kada žalba nije dopuštena. (6) Ako ovim Zakonom nije drukčije propisano, rješenja se izvršavaju kad postanu pravomoćna. (7) Naredbe se izvršavaju odmah ako tijelo koje je izdalo ne odredi drukčije. (8) Ako se pojavi sumnja u dopuštenost izvršenja sudske odluke ili odluke drugog tijela prekršajnog postupka (odluka je proglašena pravomoćnom a za to se nisu ostvarili zakonski uvjeti i dr.) ili u računanje kazne, ili u pravomoćnoj odluci nije odlučeno o uračunavanju uhićenja, zadržavanja ili pritvora, ili prije izdržane kazne, ili ta uračunavanja nisu pravilno obavljena, odlučit će o tome posebnim rješenjem prvostupanjski sudac odnosno voditelj postupka. Žalba protiv tog rješenja ne odgađa njegovo izvršenje, osim ako sudac odnosno voditelj postupka nije drukčije odredio. (9) Ako se pojavi sumnja u tumačenje sudske odluke ili odluke drugog tijela prekršajnog postupka, o tome na način iz stavka 8. ovoga članka odlučuje sud odnosno drugo tijelo prekršajnog postupka koje je donijelo pravomoćnu odluku. Postupak za izvršenje odluka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F7AAF52E5E4E86C88B103F8FDD2C3B42F7885A71DA3B8CB8720E31EEE7C2E18F",
+    "sha256_datoteke": "72C5138E502E037BFB607C53DAB921EFCADED52A5824435419A868B80AE0EB8E",
+    "napomena": null
+  }
+}

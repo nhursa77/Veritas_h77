@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "147",
+    "naslov": null,
+    "tekst": ". (1) Prvi poziv za glavnu raspravu ili ispitivanje i pismena kojima sud traži od osobe da poduzme neku radnju ili izvrši kakvu obvezu dostavljaju se osobno (članak 146. stavak 4.), oštećeniku tužitelju, oštećeniku i osobama iz članka 108. stavka 2. točke 4. ovoga Zakona, odnosno njihovim zakonskim zastupnicima i opunomoćenicima koji nisu odvjetnici. Na isti način dostavljaju im se i odluke za koje od dana dostave teče rok za pravni lijek. Ako navedene osobe imaju opunomoćenika, dostava se obavlja samo njihovu opunomoćeniku. (2) Državnom odvjetniku odluke i drugi dopisi mogu se dostavljati i predajom njegovoj pisarnici. (3) Pozivi za glavnu raspravu i drugi pozivi kao i odluke za koje od dana dostave teče rok za pravni lijek svim tužiteljima dostavljaju se na adresu koju su naznačili u optužnom prijedlogu. Ako se pozivi i odluke ne mogu dostaviti na adresu koja je naznačena u optužnom prijedlogu ili na adresu koju su prijavili sudu, istaknut će se na oglasnu ploču suda i protekom roka od osam dana od isticanja na oglasnoj ploči smatra se da je dostava postala pravovaljanom. Potvrda o dostavi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "25B7BBB77B5C05915F2590E9A6ECE40C022DC59C42295C3818CA07069834F264",
+    "sha256_datoteke": "3BE29837DEBE011A064D1A155FA47713AC0FABDBECE2FF265E41806A15461FAE",
+    "napomena": null
+  }
+}

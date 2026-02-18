@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "116",
+    "naslov": null,
+    "tekst": ". (1) Osoba koja je oštećena prekršajem, a postupak se ne vodi po njezinom optužnom prijedlogu, sudionik je prekršajnog postupka u kojem svoja prava ostvaruje na način i pod uvjetima prema ovom Zakonu. (2) Oštećenik ima pravo do završetka postupka staviti sudu zahtjev da okrivljenika presudom obveže da mu nadoknadi štetu koja mu je prouzročena prekršajem i s tim u vezi predlagati sudu izvođenje potrebnih dokaza, predlagati dokaze radi utvrđivanja krivnje okrivljenika za prekršaj, prigodom ispitivanja postavljati pitanja okrivljeniku, svjedocima i vještacima te stavljati primjedbe na njihove izjave, te davati druge izjave i prijedloge. (3) Oštećenik može svoja prava u postupku ostvarivati sam ili putem ovlaštenog opunomoćenika. Za oštećenika koji nije navršio šesnaest godina života ili mu je oduzeta poslovna sposobnost radnje u postupku poduzima zakonski zastupnik koji može imati opunomoćenika. (4) Oštećenika se može tijekom postupka ispitati kao svjedoka o prekršaju i šteti koju je pretrpio te o drugi činjenicama koje se utvrđuju u postupku. (5) Kada je oštećenik pravna osoba, za nju će se na okolnosti iz stavka 4. ovoga članka ispitati njezin ovlašteni predstavnik. (6) Sudac će, kada to oštećenik traži ili ako je očito neuk, upoznati oštećenika s njegovim pravima u smislu ovoga članka i drugim pravima koje ima prema ovom Zakonu. (7) Sudionik u postupku je i osoba koja nije oštećena prekršajem ali je od nje privremeno oduzet kakav predmet ili se predlaže oduzimanje njezinog predmeta kao predmeta kojim je počinjen prekršaj ili je nastao prekršajem ili se predlaže da se od nje oduzme imovinska korist pribavljena prekršajem, ili je već donesena takva odluka. Svoja prava u postupku ostvaruje na način i pod uvjetima propisanim ovim Zakonom. Glava petnaesta (XV.) PODNESCI I ZAPISNICI Podnesci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ADABC89F20AFFD77C6A024B5917745F5DD6D0EAEBBAA5779E326E72B0308AD67",
+    "sha256_datoteke": "A26360108C1DD134B75B75480331ABEE9862A2DCDA8E74199EB1395F0C3920D7",
+    "napomena": null
+  }
+}

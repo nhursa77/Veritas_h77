@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "174",
+    "naslov": null,
+    "tekst": ". Pri obavljanju pretrage stana i drugih prostora, prijevoznih sredstava, prtljage i osoba, privremenom oduzimanju predmeta, obustavi izvršenja financijske transakcije, prepoznavanju, očevidu i određivanju vještačenja u prekršajnom postupku pa i prije njegova pokretanja (članak 159.) primijenjivat će se, primjereno prekršajnom postupku, smisleno odredbe koje o tome važe u Zakonu o kaznenom postupku. Isprave i tehničke snimke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B5D424218CC5C76AF226802AE6F92A37F51470FF6793884614D65B99DBB674D2",
+    "sha256_datoteke": "983798EF5F2CBD187144CC8C3CA7C8B1E1A70364FC9ADA2D70763B6F6067B4A3",
+    "napomena": null
+  }
+}

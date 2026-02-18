@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "98",
+    "naslov": null,
+    "tekst": ". (1) Mjesno je nadležan sud na čijem je području prekršaj počinjen ili pokušan. (2) Zakonom se može odrediti jedan prekršajni sud koji će odlučivati u određenoj vrsti prekršaja iz nadležnosti prekršajnih sudova s područja više prekršajnih sudova ili na području Republike Hrvatske. (3) Ako je prekršaj počinjen ili pokušan na područjima raznih sudova ili granici tih područja, ili se ne zna na kojem je području počinjen ili pokušan, nadležan je onaj od tih sudova koji je prvi započeo postupak, a ako postupak još nije započet – sud kojem je prije podnesen optužni prijedlog. (4) Ako je prekršaj počinjen na brodu ili zrakoplovu, dok se nalazi u domaćoj luci ili pristaništu, nadležan je sud na čijem se području nalazi ta luka ili pristanište. U ostalim slučajevima kad je prekršaj počinjen na brodu ili zrakoplovu, nadležan je sud na čijem se području nalazi matična luka domaćeg broda odnosno zrakoplova ili domaće pristanište u kojem se brod odnosno zrakoplov (domaći ili strani) prvi put zaustavi, ako posebnim zakonom nije određeno drukčije. (5) Ako je prekršaj počinjen tiskom, nadležan je sud na čijem je području spis tiskan. Ako to mjesto nije poznato ili je spis tiskan izvan područja Republike Hrvatske, nadležan je sud na čijem se području tiskani spis raspačava. (6) Ako prema propisu za prekršaj odgovara sastavljač spisa, nadležan je i sud mjesta u kojem sastavljač ima prebivalište ili boravište, odnosno sjedište ili sud mjesta gdje se dogodio događaj na koji se spis odnosi. (7) Odredbe stavka 4. ovoga članka primijenit će se odgovarajuće ako je spis ili izjava objavljena preko radija, televizije ili drugog elektroničkog medija. (8) Ako nije poznato mjesto počinjenja prekršaja, nadležan je sud na čijem području okrivljenik ima prebivalište ili boravište, odnosno sjedište. Nakon započinjanja postupka, ostaje nadležnim taj sud i ako se nakon toga saznalo za mjesto počinjenja prekršaja. (9) Ako se prema odredbama ovoga Zakona ne može utvrditi koji je sud mjesno nadležan, Visoki prekršajni sud Republike Hrvatske odredit će jedan od prekršajnih sudova pred kojim će se provesti postupak. Spajanje postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E4373D3024C6E23C8384ACB8A60A12BC8E3E2BF0788D466DEC097B971A33CDCC",
+    "sha256_datoteke": "A4D7A103293A1691274934BBA96466F11F90D74332F6F5C8322CF749DE824D1F",
+    "napomena": null
+  }
+}

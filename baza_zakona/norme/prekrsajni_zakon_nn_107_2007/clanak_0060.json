@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": ". (1) Pravna osoba i njezina odgovorna osoba prekršajno su odgovorni za skrivljene povrede propisa o prekršaju. (2) Propisom o prekršaju može se za prekršaj propisati prekršajna odgovornost samo pravne osobe. (3) Sud će utvrditi prekršajno odgovornom pravnu osobu i u slučaju kada se utvrdi postojanje pravnih ili stvarnih zapreka za utvrđivanje odgovornosti odgovorne osobe, ili se ne može utvrditi tko je odgovorna osoba. Odgovorna osoba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1494B8291255C4F129EEDF5E14938C38A33442A36AD3F342D5B5F7794CBDD864",
+    "sha256_datoteke": "AE026BEAEDD6C7BE380F3A8DD262F28426B41E6A105ECD23E43AD6F3C6B54A77",
+    "napomena": null
+  }
+}

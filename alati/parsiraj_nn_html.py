@@ -6,11 +6,20 @@ from datetime import datetime
 from html import unescape
 from pathlib import Path
 import sys
+import unicodedata
+from urllib.request import urlopen
 
 
 ROOT = Path(__file__).resolve().parents[1]
 NN_ROOT = ROOT / "izvori" / "dokazno" / "narodne_novine"
 KONTROLA_IZVJESTAJ = NN_ROOT / "IZVJESTAJ_KONTROLE_ARHIVE.md"
+
+ARTICLE_HEADER_RX = re.compile(r"\b[ČC]lanak\s+(\d{1,4})\b", flags=re.IGNORECASE)
+STOP_HEADING_KEYWORDS = ("ZAKON", "ODLUKA", "PRAVILNIK", "UREDBA", "RJEŠENJE", "RJESENJE")
+
+
+class PdfFallbackGuardrailError(RuntimeError):
+    pass
 
 
 def datum_hr() -> str:
@@ -59,6 +68,163 @@ def ucitaj_html_izvor(akt_slug: str) -> tuple[Path, str]:
         raise RuntimeError(f"Nedostaje HTML izvor: {html_path}")
     html = html_path.read_text(encoding="utf-8", errors="ignore")
     return html_path, html
+
+
+def _normaliziraj_za_match(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text)
+    without_diacritics = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    return without_diacritics.upper()
+
+
+def _html_je_nedostupan_ili_bez_clanaka(html: str) -> bool:
+    normalized = _normaliziraj_za_match(html)
+    if "SADRZAJ JE NEDOSTUPAN" in normalized:
+        return True
+    if ARTICLE_HEADER_RX.search(html) is None:
+        return True
+    return False
+
+
+def _derive_eli_pdf_url(meta: dict) -> str | None:
+    explicit = str(meta.get("eli_pdf_url") or "").strip()
+    if explicit:
+        return explicit
+
+    oznaka = str(meta.get("oznaka_akta") or "")
+    m = re.search(r"NN\s*([0-9]{1,3})/([0-9]{2,4})", oznaka, flags=re.IGNORECASE)
+    if m is None:
+        return None
+
+    broj = int(m.group(1))
+    godina_raw = m.group(2)
+    godina = int(godina_raw) if len(godina_raw) == 4 else int(f"20{godina_raw}")
+    return f"https://narodne-novine.nn.hr/eli/sluzbeni/{godina}/{broj}/pdf"
+
+
+def _download_pdf(url: str, out_path: Path) -> None:
+    with urlopen(url, timeout=90) as response:
+        payload = response.read()
+    if not payload.startswith(b"%PDF"):
+        raise RuntimeError(f"ELI URL nije vratio PDF: {url}")
+    out_path.write_bytes(payload)
+
+
+def _extract_text_from_pdf(pdf_path: Path) -> str:
+    try:
+        from pypdf import PdfReader
+    except Exception as exc:
+        raise RuntimeError("Nedostaje Python paket 'pypdf' za PDF fallback.") from exc
+
+    reader = PdfReader(str(pdf_path))
+    pages: list[str] = []
+    for page in reader.pages:
+        pages.append(page.extract_text() or "")
+    text = "\n\n".join(pages)
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
+    return text
+
+
+def _is_probable_act_heading(line: str, current_title_norm: str) -> bool:
+    stripped = re.sub(r"\s+", " ", line.strip())
+    if len(stripped) < 12 or len(stripped) > 180:
+        return False
+
+    letters = [ch for ch in stripped if ch.isalpha()]
+    if not letters:
+        return False
+
+    uppercase_ratio = sum(1 for ch in letters if ch.isupper()) / len(letters)
+    if uppercase_ratio < 0.9:
+        return False
+
+    norm = _normaliziraj_za_match(stripped)
+    if current_title_norm in norm:
+        return False
+
+    return any(keyword in norm for keyword in STOP_HEADING_KEYWORDS)
+
+
+def _extract_act_segment_from_pdf(text: str, meta: dict) -> tuple[str, bool, list[int]]:
+    naziv = str(meta.get("naziv_akta") or "").strip()
+    if not naziv:
+        raise RuntimeError("meta.json nema naziv_akta za PDF fallback segmentaciju.")
+
+    target_norm = _normaliziraj_za_match(naziv)
+    lines = text.split("\n")
+    start_index = None
+    for idx, line in enumerate(lines):
+        if target_norm in _normaliziraj_za_match(line):
+            start_index = idx
+            break
+
+    if start_index is None:
+        raise RuntimeError(f"Naslov akta nije pronađen u PDF-u: {naziv}")
+
+    selected: list[str] = []
+    found_multiple_acts = False
+    found_any_article = False
+
+    for idx in range(start_index, len(lines)):
+        line = lines[idx]
+        if ARTICLE_HEADER_RX.search(line):
+            found_any_article = True
+
+        if found_any_article and idx > start_index + 3 and _is_probable_act_heading(line, target_norm):
+            found_multiple_acts = True
+            break
+
+        selected.append(line)
+
+    segment = "\n".join(selected)
+    segment = re.sub(r"\n{3,}", "\n\n", segment)
+    segment = "\n".join(re.sub(r"[ \t]+", " ", ln).strip() for ln in segment.split("\n"))
+    segment = re.sub(r"\n{3,}", "\n\n", segment).strip()
+
+    brojevi = [int(m.group(1)) for m in ARTICLE_HEADER_RX.finditer(segment)]
+    return segment, found_multiple_acts, brojevi
+
+
+def _ensure_parsable_html_from_pdf_if_needed(akt_slug: str, meta: dict, html_path: Path, html: str) -> tuple[str, list[str]]:
+    warnings: list[str] = []
+    if not _html_je_nedostupan_ili_bez_clanaka(html):
+        return html, warnings
+
+    pdf_url = _derive_eli_pdf_url(meta)
+    if not pdf_url:
+        raise RuntimeError("NN HTML je nedostupan, a eli_pdf_url nije definiran niti je moguće derivirati URL iz oznake_akta.")
+
+    akt_dir = NN_ROOT / akt_slug
+    pdf_path = akt_dir / "izvor_nn_issue.pdf"
+    txt_path = akt_dir / "izvor_nn_issue.txt"
+
+    _download_pdf(pdf_url, pdf_path)
+    pdf_text = _extract_text_from_pdf(pdf_path)
+    segment, found_multiple_acts, brojevi = _extract_act_segment_from_pdf(pdf_text, meta=meta)
+
+    if found_multiple_acts:
+        raise PdfFallbackGuardrailError("FOUND_MULTIPLE_ACTS_IN_PDF: True")
+
+    if len(brojevi) < 5:
+        raise RuntimeError("PDF fallback nije pronašao dovoljan broj članaka za pouzdano parsiranje.")
+
+    txt_path.write_text(segment + "\n", encoding="utf-8")
+
+    pseudo_html = (
+        "<html><body>\n"
+        "<h1>Narodne novine — ELI PDF fallback</h1>\n"
+        f"<p>Akt: {meta.get('naziv_akta') or akt_slug}</p>\n"
+        f"<p>ELI PDF: {pdf_url}</p>\n"
+        "<pre>\n"
+        f"{segment}\n"
+        "</pre>\n"
+        "</body></html>\n"
+    )
+    html_path.write_text(pseudo_html, encoding="utf-8")
+
+    warnings.append("NN HTML nedostupan/bez članaka: aktiviran ELI PDF fallback.")
+    warnings.append(f"ELI PDF URL: {pdf_url}")
+    warnings.append(f"PDF fallback broj detektiranih članaka: {len(brojevi)}")
+    return pseudo_html, warnings
 
 
 def html_u_linije(html: str) -> list[str]:
@@ -133,12 +299,15 @@ def parsiraj_dokumente_nn(lines: list[str], meta: dict) -> tuple[list[dict], lis
     typo_headers: list[str] = []
     rimske_oznake: list[tuple[int, str]] = []
 
+    akt_slug = str(meta.get("slug") or "akt").strip().lower() or "akt"
+    akt_vrsta = str(meta.get("vrsta_akta") or "akt").strip().lower() or "akt"
+
     dokumenti: list[dict] = [
         {
-            "doc_id": "ustav_rh_procisceni",
-            "tip": "ustav_procisceni",
+            "doc_id": f"{akt_slug}_procisceni",
+            "tip": f"{akt_vrsta}_procisceni",
             "nn": str(meta.get("oznaka_akta") or ""),
-            "naslov": str(meta.get("naziv_akta") or "Ustav Republike Hrvatske"),
+            "naslov": str(meta.get("naziv_akta") or akt_slug),
             "clanci": [],
         }
     ]
@@ -410,13 +579,24 @@ def main() -> int:
         )
 
     meta = ucitaj_meta(akt_slug)
-    _, html = ucitaj_html_izvor(akt_slug)
+    html_path, html = ucitaj_html_izvor(akt_slug)
+    try:
+        html, fallback_warnings = _ensure_parsable_html_from_pdf_if_needed(
+            akt_slug=akt_slug,
+            meta=meta,
+            html_path=html_path,
+            html=html,
+        )
+    except PdfFallbackGuardrailError as exc:
+        print(f"ERROR: {exc}")
+        return 12
 
     lines = html_u_linije(html)
     dokumenti, upozorenja, typo_headers = parsiraj_dokumente_nn(lines, meta=meta)
+    upozorenja.extend(fallback_warnings)
 
     doc_procisceni = next(
-        (d for d in dokumenti if d.get("doc_id") == "ustav_rh_procisceni"),
+        (d for d in dokumenti if d.get("doc_id") == f"{akt_slug}_procisceni"),
         {"clanci": []},
     )
     clanci = doc_procisceni.get("clanci", [])

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "66",
+    "naslov": null,
+    "tekst": ". Uz opću svrhu prekršajnopravnih sankcija, svrha je posebnih maloljetničkih sankcija pružanjem zaštite, brige, pomoći i nadzora te osiguranjem opće izobrazbe maloljetnog počinitelja prekršaja utjecati na njegov odgoj, razvijanje njegove cjelokupne ličnosti i jačanje njegove osobne odgovornosti. Vrste odgojnih mjera",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3D9D901E286EF78C64730AE99DBC9F6B25501C23A15997ED68AAC597B404CA18",
+    "sha256_datoteke": "2A0B57DBF3268F270588E5D84A171B7C2AABD4213F8687CE13E52B7FFB5D82A8",
+    "napomena": null
+  }
+}

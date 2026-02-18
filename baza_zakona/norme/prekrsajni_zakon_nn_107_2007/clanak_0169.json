@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "169",
+    "naslov": null,
+    "tekst": ". (1) O radu na glavnoj raspravi mora se voditi zapisnik u koji se unosi u bitnom cijeli tijek glavne rasprave. (2) Zapisnik se završava zaključenjem zasjedanja i potpisuju ga sudac i zapisničar i okrivljenik ako je nazočan. Ako okrivljenik odbije potpisati zapisnik, to će se u zapisniku naznačiti. (3) Stranke i sudionici u postupku imaju pravo pregledati završeni zapisnik i njegove priloge, dati primjedbe u svezi sa sadržajem i tražiti ispravak zapisnika. (4) Ispravak pogrešno upisanih imena, brojeva i drugih očitih pogrešaka u pisanju može narediti sudac na prijedlog stranaka ili ispitane osobe ili po službenoj dužnosti. (5) Primjedbe i prijedlozi stranaka u svezi sa zapisnikom te ispravci i dopune obavljeni u zapisniku moraju se zabilježiti u nastavku završenog zapisnika. U nastavku zapisnika zabilježit će se i razlozi zbog kojih pojedini prijedlozi i primjedbe nisu prihvaćeni. Sudac i zapisničar potpisuju i nastavak zapisnika. (6) U uvodu zapisnika naznačiti će se sud pred kojim se održava glavna rasprava, mjesto i vrijeme održavanja rasprave, ime i prezime suca i zapisničara, tužitelja odnosno njegova zastupnika, okrivljenika i branitelja, oštećenika i njegova zakonskog zastupnika ili opunomoćenika, tumača, prekršaj koji je predmet raspravljanja te je li glavna rasprava javna ili je javnost isključena. (7) Zapisnik mora osobito sadržavati podatke o tome koji je optužni prijedlog na glavnoj raspravi pročitan ili usmeno izložen, je li tijekom rasprave optužni prijedlog izmijenjen ili proširen, kakve su prijedloge podnijele stranke i kakve je odluke donosio sudac, koji su dokazi izvedeni, jesu li pročitani kakvi zapisnici i drugi podnesci, jesu li reproducirane zvučne ili druge snimke i kakve su primjedbe dale stranke u svezi s pročitanim zapisnicima, podnescima ili reproduciranim snimkama. Ako je s glavne rasprave isključena javnost, u zapisniku će se naznačiti da je sudac upozorio nazočne na posljedice ako neovlašteno otkriju ono što su na toj glavnoj raspravi saznali kao tajnu. (8) Ako je na glavnoj raspravi doneseno rješenje o zadržavanju, mjeri opreza ili jamstvu, to će se rješenje unijeti u zapisnik. Ako je na kakvo rješenje doneseno tijekom glavne rasprave dopuštena posebna žalba, takvo će se rješenje izraditi i zasebno, osim ako su se stranke odrekle prava na žalbu. (9) U zapisnik o glavnoj raspravi unosi se potpuna izreka presude, uz naznaku je li javno objavljena. Izreka presude u zapisniku o glavnoj raspravi je izvornik presude. Početak glavne rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A666CC53C4B25CFC89F844DF214742EFD0BDE40886FDF16A58234557B2586C26",
+    "sha256_datoteke": "389C4B9C206B1D6CDE6B1E081C152E79827A430ADB82455F414B32580B12B4A2",
+    "napomena": null
+  }
+}

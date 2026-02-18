@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "200",
+    "naslov": null,
+    "tekst": ". (1) Kad spisi povodom žalbe stignu drugostupanjskom sudu, ako se radi o prekršajnom postupku koji se vodi na zahtjev državnog odvjetnika, dostavit će se spis nadležnomu državnom odvjetniku, koji ih je dužan razgledati i bez odgode vratiti sudu. (2) Nakon što spis stigne u drugostupanjski sud, dodijelit će se sucu izvjestitelju. On može od prvostupanjskog suda pribaviti izvješće o povredama odredbi prekršajnog postupka i materijalnog prekršajnog prava, te na odgovarajući način provjeriti navode žalbe, pribaviti potrebna izvješća i spise. (3) Ako sudac izvjestitelj utvrdi da se u spisima nalaze zapisnici ili dijelovi zapisnika predviđeni u članku 121. stavku 1. ovoga Zakona, donijet će rješenje o njihovu izdvajanju u poseban zatvoreni omot i ostavit u spisu. Sjednica vijeća",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CEBAF465AD75B2ACC3F24333FD355C96399AEB4C8506EFD998084B3D1D735089",
+    "sha256_datoteke": "2B28A1F469300F791429D468CB7FFD31FD03CB2C743B3000876143260E45E035",
+    "napomena": null
+  }
+}

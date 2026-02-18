@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "215",
+    "naslov": null,
+    "tekst": ". (1) Zahtjev za obnovu prekršajnog postupka mogu podnijeti stranke, a nakon smrti osuđenika i osobe iz članka 192. stavka 2. ovoga Zakona. (2) Zahtjev se može podnijeti i nakon što je prekršajnopravna sankcija izvršena i bez obzira na zastaru. (3) Zahtjev se podnosi prekršajnom sudu koji je sudio u prijašnjem postupku, koji i odlučuje o zahtjevu. (4) U zahtjevu se mora navesti po kojoj zakonskoj osnovi se traži obnova i kojim se dokazima potkrepljuju činjenice na kojima se zahtjev temelji. Ako zahtjev ne sadrži te podatke, sud će postupiti sukladno članku 117. stavku 4. ovoga Zakona. (5) U rješavanju o zahtjevu ne može sudjelovati sudac koji je sudjelovao u donošenju prijašnje odluke. (6) Sud će rješenjem zahtjev odbaciti ako utvrdi: 1. da zahtjev ne sadrži podatke iz stavka 4. ovoga članka, 2. na temelju samog zahtjeva i spisa prijašnjeg postupka da je zahtjev podnijela neovlaštena osoba, 3. da nema zakonskih uvjeta za obnovu postupka, 4. da su činjenice i dokazi na kojima se zahtjev temelji već bili izneseni u prijašnjem zahtjevu za obnovu postupka koji je odbijen pravomoćnim rješenjem suda, 5. da činjenice i dokazi očito nisu prikladni da se na temelju njih dopusti obnova. (7) Ako sud ne odbaci zahtjev prema stavku 6. ovoga članka, dostavit će prijepis zahtjeva protivnoj stranci, koja ima pravo u roku od osam dana odgovoriti na zahtjev. Kad sudu stigne odgovor na zahtjev ili kad protekne rok za davanje odgovora, sudac će izvidjeti činjenice i pribaviti dokaze na koje se poziva u zahtjevu i u odgovoru na zahtjev. (8) Nakon provedenih izvida sud će rješenjem odmah odlučiti o zahtjevu za obnovu postupka tako što će zahtjev prihvatiti i dopustiti obnovu prekršajnog postupka ili će zahtjev odbiti ako novi dokazi nisu prikladni da dovedu do obnove prekršajnog postupka. (9) Ako sud ustanovi da razlozi iz kojih je dopustio obnovu postoje i za kojeg suokrivljenika koji nije podnio zahtjev, postupit će po službenoj dužnosti kao da takav zahtjev postoji. Novi postupak",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "38E0F6162D8136EABD6E1F782324692C19C6F7A409299413FE2CC27CE6627C42",
+    "sha256_datoteke": "91DDC0DBA4AEB58A8A4775510462A6DB631C2762E5B94768ECBC635B8DD7B8D9",
+    "napomena": null
+  }
+}

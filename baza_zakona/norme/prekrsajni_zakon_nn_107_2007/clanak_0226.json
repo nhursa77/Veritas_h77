@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "226",
+    "naslov": null,
+    "tekst": ". (1) Ako sud ustanovi da započinjanje i vođenje postupka ne bi bilo opravdano s obzirom na osobne okolnosti maloljetnika i počinjeni prekršaj, odlučit će, bez obzira na dokaze koji stoje protiv maloljetnika, da postupak ne započne ili da se započeti postupak obustavi. (2) Ako ovlašteni tužitelj iz članka 109. stavka 1. točke 1. do 3. ovoga Zakona ustanovi da postoje okolnosti iz stavka 1. ovoga članka, ovlašten je odlučiti da ne pokrene prekršajni postupak, time da će upozoriti maloljetnika na njegovo djelo i o tome upoznati maloljetnikova roditelja, posvojitelja, skrbnika i druge osobe koje skrbe za njega. Odluke u postupku protiv maloljetnih počinitelja prekršaja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B918A5FC4E659B831874A9915A46620AB5CC88C500D35B91FE215C8CCAE9A328",
+    "sha256_datoteke": "C18B755F1A78459E1360B90B70A4EC91207F189A3C9E906C323F4883BFC11ADF",
+    "napomena": null
+  }
+}

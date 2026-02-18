@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "140",
+    "naslov": null,
+    "tekst": ". (1) U svakoj presudi i rješenju kojim se obustavlja prekršajni postupak odlučit će se tko snosi troškove postupka, koliki su, kome i u kojem roku se imaju platiti. (2) Ako se obustavlja prekršajni postupak, izreći će se u odluci o tome da troškovi postupka iz članka 138. stavka 2. točke 2. do 4. ovoga Zakona padaju na teret proračunskih sredstava suda, osim ako ovim Zakonom nije drukčije određeno, a troškovi iz članka 138. stavka 2. točke 5. i 7.ovoga Zakona samo ako se postupak obustavlja iz razloga što djelo okrivljenika nije prekršaj ili nema dokaza da je počinio prekršaj. (3) Ako se postupak vodi i dovrši na zahtjev oštećenika tužitelja, obvezat će ga se da podmiri troškove postupka iz članka 138. stavka 2. točke 2. do 5. ovoga Zakona te nužne izdatke i nagradu branitelja okrivljenika, ako je svjesno podnio lažan optužni prijedlog. (4) Odredbe ovoga Zakona o troškovima postupka na jednak se način primjenjuju na sve ovlaštene tužitelje. (5) Osobe koje imaju pravo na trošak u postupku, dužne su postaviti zahtjev za ostvarenje troškova odmah. Sud će te osobe upozoriti da imaju pravo na trošak. Iznimno, ako te osobe nemaju sve podatke potrebne za izračun troška, sud može odobriti da zahtjev postave u roku koji odredi sud a najdulje u roku od 3 mjeseca. (6) Osobe koje ne postave u roku iz stavka 5. ovoga članka zahtjev za isplatu troškova gube pravo na ostvarenje tih troškova. (7) Okrivljenik koji je pravo na troškove stekao nakon donošenja odluke o prekršaju može to pravo ostvariti ako zahtjev za naknadu troškova podnese u roku tri mjeseca od dana kada mu je uručena pravomoćna odluka o prekršaju. (8) Ako sud nije dijelom ili u cijelosti odlučio o troškovima postupka u odluci o prekršaju, učinit će to posebnim rješenjem. Glava devetnaesta (XIX.) IMOVINSKOPRAVNI ZAHTJEVI Podnošenje zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "73DF254AFDBBA687B9C2600CC54AD5A46C33DB8BAC89A2AC6225F2DB368326E3",
+    "sha256_datoteke": "4E5C008FA2DED264CB2DCC32F0064382B4A1697A259448A8F1D5D54ECE4E3B3B",
+    "napomena": null
+  }
+}

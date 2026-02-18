@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "199",
+    "naslov": null,
+    "tekst": ". (1) Žalba se podnosi sudu koji je izrekao prvostupanjsku presudu u dovoljnom broju primjeraka za prvostupanjski i drugostupanjski sud. (2) Nepravodobnu i nedopuštenu žalbu odbacit će rješenjem sudac prvostupanjskog suda. (3) Pravo žalbe protiv rješenja iz stavka 2. ovoga članka ima onaj kome je žalba odbačena. Dostava žalbe sa spisima drugostupanjskom sudu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "57DD30321C805A08E98155DD91E5843CF72FE7CE35923167D5C72478E3A9C26A",
+    "sha256_datoteke": "AF47E1C7C47248A521A946FDF826090C21B548C1DFEAC87BE658D4E482A99FCC",
+    "napomena": null
+  }
+}

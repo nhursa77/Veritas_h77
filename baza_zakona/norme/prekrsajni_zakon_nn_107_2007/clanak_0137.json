@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "137",
+    "naslov": null,
+    "tekst": ". (1) Prema osobi pod utjecajem opojnih sredstava koja je zatečena u počinjenju prekršaja, ako osobite okolnosti upućuju da će nastaviti s radnjom prekršaja, policija može naredbom radi neposrednog sprječavanja nastavka činjenja prekršaja odrediti mjeru: 1. smještanja u posebnu prostoriju do prestanka djelovanja opojnog sredstva ali ne u trajanju duljem od 12 sati, 2. premještanja motornog vozila na određeno mjesto do prestanka djelovanja opojnog sredstva ali ne dulje od 12 sati. O mjestu premještanja vozila, policija obavještava osobu prema kojoj je naređena ta mjera i vlasnika vozila, ako je riječ o osobi različitoj od vozača, čim je to moguće, a najkasnije do prestanka mjere. Nakon prestanka poduzete mjere vozač ili vlasnik mogu preuzeti vozilo. Ako policija smatra da to ne ugrožava ostvarivanje svrhe mjere, može vozilo i prije isteka roka na koji je mjera određena predati vlasniku ili od njega opunomoćenoj osobi. Troškove premještaja i čuvanja vozila snosi vozač. (2) Ministar nadležan za unutarnje poslove potanko će pravilnikom propisati način provedbe mjere iz stavka 1. točke 2. ovoga članka. (3) Za neosnovanu ili nezakonitu primjenu mjere iz stavka 1. ovoga članka, osoba prema kojoj je mjera poduzeta ima pravo na naknadu štete. Glava osamnaesta (XVIII.) TROŠKOVI PREKRŠAJNOG POSTUPKA Struktura troškova postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BF0C74A20FC88ED38EC8EEF6A1417AEEB8D54D7B6ED70F51E7C77BB17F124F53",
+    "sha256_datoteke": "ACA892292D4422F70EF3E2DF85BDD6CC67CB36F54EFBE81FA2BCACBBE0564110",
+    "napomena": null
+  }
+}

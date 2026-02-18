@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "138",
+    "naslov": null,
+    "tekst": ". (1) Troškovi prekršajnog postupka su izdaci učinjeni u povodu prekršajnog postupka od njegova pokretanja, pa i prije, pa sve do njegova završetka. (2) Troškovi prekršajnog postupka obuhvaćaju: 1. troškove tužitelja iz članka 109. stavka 1. točke 2. i 3. ovoga Zakona nastali utvrđivanjem prekršaja upotrebom tehničkih sredstava ili provođenjem potrebnih analiza i vještačenja, 2. sve troškove suda koje je unaprijed iz svojih proračunskih sredstava isplatio tijekom vođenja postupka (troškovi svjedoka, vještaka, tumača, drugih stručnih osoba, očevida, dovođenja okrivljenika i drugih osoba, putni troškovi i naknade službenih osoba i dr.) 3. paušalnu svotu suda, 4. troškove liječenja okrivljenika koji nema pravo na zdravstvenu zaštitu dok se nalazi u zadržavanju ili zdravstvenoj ustanovi na temelju odluke suda, 5. putne troškove okrivljenika, 6. nužne izdatke oštećenika i oštećenika tužitelja te njihovih zakonskih zastupnika i njihovih opunomoćenika, 7. nužne izdatke i nagradu branitelja okrivljenika. (3) Paušalna se svota određuje u okvirima određenim posebnim propisom s obzirom na složenost i trajanje postupka te imovno stanje okrivljenika. (4) Troškove postupka koje unaprijed isplati iz svojih proračunskih sredstava, sud naplaćuje kasnije od okrivljenika ili drugih osoba koje su dužne naknaditi ih prema odredbama ovoga Zakona. (5) Sud vodi poseban popis troškova učinjenih prema stavku 2. točki 1., 2. i 4. ovoga Zakona. Osoba koja traži da joj se naknadi kakav trošak, sudu podnosi troškovnik s potrebnim podacima i dokazima o nastalom trošku. (6) Troškovi za prevođenja na jezike manjina u Republici Hrvatskoj koji nastanu primjenom odredaba Ustava i zakona o pravu pripadnika manjina u Republici Hrvatskoj na uporabu svog jezika neće se naplaćivati od osoba koje su prema ovom Zakonu dužne nadoknaditi troškove postupka. (7) Ministar nadležan za poslove pravosuđa potanje pravilnikom propisuje naknadu troškova u prekršajnom postupku. Obveznik plaćanja troškova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BBE11A69B170901300D164B7EDD0E3836328A434A86590A1350F5E6357E4C871",
+    "sha256_datoteke": "CB4A497CD8A2D15F4D34AE0E5E26B22FFDE566F61C5B669C648EDB5C7939B524",
+    "napomena": null
+  }
+}

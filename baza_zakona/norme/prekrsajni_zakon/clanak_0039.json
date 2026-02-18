@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "39",
+    "naslov": null,
+    "tekst": ". (1) Ako počinitelj prekršaja s jednom ili više radnji počini više prekršaja za koje mu se istodobno sudi i sud se odlučio kazniti ga, sud će za svaki počinjeni prekršaj utvrditi kaznu prema zakonu a zatim će za sve te prekršaje izreći ukupnu kaznu, pri tome sud je dužan držati se ovih pravila: 1. ako je za svaki prekršaj utvrdio kaznu zatvora, izreći će ukupnu kaznu zatvora koja je jednaka zbroju pojedinačno utvrđenih kazni zatvora, time da ona ne može premašiti sto dvadeset dana, 2. ako je za svaki prekršaj utvrdio novčanu kaznu, izreći će ukupnu novčanu kaznu koja je jednaka zbroju pojedinačno utvrđenih novčanih kazni, time da ona ne može premašiti dvostruke opće maksimume novčane kazne propisane odredbom članka 33. stavcima 1. do 8. ovoga Zakona (osim u slučaju iz članka 33. stavka 9.), 3. ako je za neke prekršaje utvrdio pojedinačne kazne zatvora a za neke novčane kazne, izreći će ukupnu kaznu zatvora i ukupnu novčanu kaznu, sukladno pravilima iz točke 1. i 2. ovoga stavka, 4. u slučaju iz točke 3. ovoga stavka, ako se ukupna novčana kazna zamjenjuje kaznom zatvora, ta kazna zatvora i izrečena ukupna kazna zatvora skupa ne mogu premašiti stodvadeset dana. (2) Odredbe o stjecaju prekršaja neće se primijeniti kod produljenog prekršaja. (3) Produljeni prekršaj je počinjen kad je počinitelj počinio više istih ili istovrsnih prekršaja koja s obzirom na način počinjenja, njihovu vremensku povezanost i druge stvarne okolnosti što ih povezuju čine jedinstvenu cjelinu. Uračunavanje zadržavanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "423CB3C298F712E3DC7536EDF2C831570317AAAC61A27DB85B6D63FAB50B0BFD",
+    "sha256_datoteke": "392D89B8466F6791A5BC5703CF1AA6FE253CBA4830FF24D8EE26BF5D733E4EDF",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". (1) Kriv je za prekršaj počinitelj koji je u vrijeme počinjenja prekršaja bio ubrojiv, koji je postupao iz nehaja, a bio je svjestan ili je bio dužan i mogao biti svjestan da je djelo zabranjeno ili s namjerom, kad je propisom o prekršaju propisana prekršajna odgovornost za taj oblik krivnje. (2) Iznimno, propisom o prekršaju može se propisati odgovornost samo za namjeru. Neubrojivost i u znatnoj mjeri smanjena ubrojivost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "21A57DC8ACA837B39ED6D8A421CFCACB9625049B87E436317B22C9BD54DE84C7",
+    "sha256_datoteke": "A16003E127221A915945372853E3B2E874ED4373AEC31CD7A5AF2555BD9C9BA4",
+    "napomena": null
+  }
+}

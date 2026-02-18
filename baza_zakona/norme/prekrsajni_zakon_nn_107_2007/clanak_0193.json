@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "193",
+    "naslov": null,
+    "tekst": ". (1) Žalba treba sadržavati: 1. oznaku presude protiv koje se podnosi, 2. osnove za pobijanje presude, 3. obrazloženje žalbe, 4. prijedlog da se pobijana presuda potpuno ili djelomično ukine ili preinači, 5. Ime i prezime podnositelja žalbe i njegov potpis (2) Sud će odbaciti žalbu za koju ne može utvrditi na koju se presudu odnosi ili tko je podnositelj. (3) Ako žalba ne sadrži potpis podnositelja, pozvat će se podnositelj da je potpiše u roku od 8 dana, a ako to ne učini, žalba će se odbaciti. (4) Žalbu koja ne sadrži druge podatke iz stavka 1. ovoga članka sud će uzeti u razmatranje. (5) U žalbi se mogu iznositi nove činjenice i novi dokazi samo ako te činjenice i dokazi nisu postojali u vrijeme prvostupanjskog postupka ili ako podnositelj žalbe za njih nije znao. Osnove zbog kojih se presuda može pobijati",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7CF4E3B906369DFAB115CC9D7B7FE69BA5185FAB236BEFC4FC51F8298515E87B",
+    "sha256_datoteke": "E4F06D1528BF202201FD2BCE8451F523352C4F339BD4E3E679A3E24E66435AA7",
+    "napomena": null
+  }
+}

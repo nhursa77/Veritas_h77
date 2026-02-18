@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "249",
+    "naslov": null,
+    "tekst": ". (1) Ako je osuđenik prikupio broj negativnih prekršajnih bodova za koje zakon predviđa nastup određene pravne posljedice, tijelo nadležno za evidenciju o negativnim prekršajnim bodovima rješenjem će utvrditi da je osuđenik prikupio taj broj negativnih prekršajnih bodova i rješenjem primijeniti pravnu posljedicu predviđenu posebnim zakonom. (2) Osuđenik protiv rješenja iz stavka 1. ovoga članka ima pravo žalbe u roku od 8 dana. Žalba zadržava izvršenje rješenja. O žalbi odlučuje Visoki prekršajni sud Republike Hrvatske. Odredbe o drugim posebnim postupcima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "895AA518491F12B82415D8C7EE20088F012A235A83010ECD22D8AA8F2D9DF478",
+    "sha256_datoteke": "907C9F7919317E664D3333B3E360A9013C59C5087FC1A97F3B1E830F76EBDA67",
+    "napomena": null
+  }
+}

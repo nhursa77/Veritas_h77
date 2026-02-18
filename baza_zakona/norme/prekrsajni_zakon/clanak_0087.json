@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": ". (1) U prekršajnom postupku u uporabi je hrvatski jezik i latinično pismo, ako za uporabu u pojedinim područjima sudova nije zakonom uveden i drugi jezik ili pismo. (2) Stranke, sudionici u postupku, svjedoci i ostale osobe koje sudjeluju u postupku imaju se pravo služiti svojim jezikom. Ako se postupak ili pojedina radnja u postupku ne vodi na jeziku te osobe, osigurat će se na zahtjev tih osoba usmeno prevođenje onoga što ona odnosno drugi iznose te isprava i drugoga pisanoga dokaznog materijala. Ako osoba ne razumije jezik na kojem se vodi postupak, u svakom će se slučaju osigurati prevođenje. Prevođenje obavlja tumač. (3) Pozive i odluke upućuje sud na hrvatskom jeziku i latiničnom pismu. Na hrvatskom jeziku i latiničnom pismu dostavljaju se sudu optužni prijedlog, žalba i drugi podnesci. Ako je na pojedinom sudskom području u službenu uporabu zakonom uveden i drugi jezik ili pismo, podnesci se mogu sudu dostavljati i na tom jeziku ili pismu. (4) Okrivljeniku koji je u zadržavanju kao i osobi na izdržavanju kazne dostavit će se prijevod poziva, odluka i podnesaka na jeziku kojim se služi u postupku. (5) Stranac koji je zadržan zbog sumnje da je počinio prekršaj, ili se nalazi u pritvoru ili u zatvoru zbog kaznenog djela ili je iz drugih razloga lišen slobode, može od započinjanja postupka do njegova dovršetka dostavljati sudu podneske na svom jeziku, a prije i nakon toga samo pod uvjetom uzajamnosti. Dužnost utvrđivanja svih važnih činjenica",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3F86570C1A445FBE52576DF25658D587BEE677D3B53E6B4F241681AFF7ED9AE5",
+    "sha256_datoteke": "E5C8D0DC7B4EBE46E9216769751A131D1C1EF2C10F039E6AB03E37B0A95A6F71",
+    "napomena": null
+  }
+}

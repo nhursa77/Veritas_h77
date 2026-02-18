@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "186",
+    "naslov": null,
+    "tekst": ". (1) Pogreške u imenima i brojevima te druge očite pogreške u pisanju i računanju, nedostatke u obliku i nesuglasnosti napisane presude i druge odluke s izvornikom ispravit će, posebnim rješenjem, sudac na zahtjev stranaka ili po službenoj dužnosti. (2) Ako postoji nesuglasje između napisane presude i druge odluke i njezina izvornika glede podataka iz članka 183. stavka 1. točke 1.do 4. i točke 6. ovoga Zakona, rješenje o ispravku dostavit će se onima kojima je prije toga dostavljena presuda ili druga odluka. (3) Drugostupanjska presuda može se ispraviti samo zbog očitih pogrešaka u imenima i brojevima te drugih očitih pogrešaka u pisanju i računanju, a otpravljena presuda i njezin ispravak proizvodi pravni učinak prema strankama i trećim osobama. (4) Ako se ispravkom mijenja pravni položaj okrivljenika, rješenje o ispravku presude ili druge odluke dostavit će se svim kojima je presuda ili druga odluka dostavljena i koji imaju pravo žalbe ili drugog pravnog sredstva. U tom slučaju ovlaštenicima prava na žalbu ili drugo pravno sredstvo teče novi rok za podnošenje žalbe ili drugog pravnog sredstva. Glava dvadesetpeta (XXV.) PREKRŠAJNI POSTUPAK PRED TIJELIMA DRŽAVNE UPRAVE Primjena propisa o vođenju postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C830FDCAACE7AB6B6864C4790D70050F2DFF5EFAB67C77D0146309F0E748F0C1",
+    "sha256_datoteke": "ACFE48EEBE35E7B8D6D32984B5F8F62040B2CB9C6EB998BA70223D5C7E0BE412",
+    "napomena": null
+  }
+}

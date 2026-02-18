@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "75",
+    "naslov": null,
+    "tekst": ". (1) Za prekršaje u stjecaju sud će izreći ukupnu novčanu kaznu prema pravilu iz članka 39. stavka 1. točke 1. ovoga Zakona a bez prethodnog utvrđivanja kazne za svaki pojedini prekršaj. Ako smatra da za neki prekršaj maloljetniku treba izreći novčanu kaznu, a za drugi primijeniti odgojnu mjeru, sud će izreći samo novčanu kaznu. (2) Ako smatra da za neki prekršaj maloljetniku treba izreći novčanu kaznu, a za drugi kaznu maloljetničkog zatvora, sud će izreći samo kaznu maloljetničkog zatvora. (3) Kad sud nakon izricanja novčane kazne utvrdi da je maloljetnik prije ili poslije izricanja te kazne počinio neki prekršaj postupit će po odredbi stavka 1. i 2. ovoga članka. Glava deseta (X.) ODUZIMANJE IMOVINSKE KORISTI, REHABILITACIJA, PODACI IZ PREKRŠAJNE EVIDENCIJE I PRAVNA POSLJEDICA OSUDE Oduzimanje imovinske koristi ostvarene prekršajem",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C6679E3F73E7C14F32A8FA9E31C42EC061B0A4D6AF210EB8EB9C4E33BFCD6717",
+    "sha256_datoteke": "4EFAE449A77EA54C590051FA00B88D5DF3A222B1E16DC5C6288C13F06E65F1F1",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "135",
+    "naslov": null,
+    "tekst": ". (1) Ako je protiv određene osobe podnesen optužni prijedlog za prekršaj propisan zakonom, a radi se o prekršaju protiv javnog reda i mira, prekršaju vezanom za nasilje u obitelji ili prekršaju za koji se može izreći kazna zatvora ili novčana kazna veća od 10.000 kuna, sud može sam ili na prijedlog tužitelja, nakon što je ispitao okrivljenika i utvrdio da ne postoje razlozi za odbacivanje optužnog prijedloga iz članka 161. ovoga Zakona, odrediti zadržavanje te osobe ako: 1. postoje okolnosti koje upućuju na opasnost da će pobjeći (krije se i dr.), 2. postoji opasnost da će uništiti, sakriti, izmijeniti ili krivotvoriti dokaze ili tragove važne za prekršajni postupak ili da će ometati prekršajni postupak utjecajem na svjedoke ili sudionike, 3. osobite okolnosti opravdavaju bojazan da će ponoviti istovrsni prekršaj. (2) Zadržavanje određeno prema stavku 1. ovoga članka može trajati dok za to postoje razlozi zbog kojih je određeno ali ne dulje od petnaest dana računajući u to i vrijeme uhićenja, a protiv maloljetnika zadržavanje može trajati dvadesetčetiri sata računajući od časa kada je zadržavanje odredio sud. (3) Nakon donesene nepravomoćne presude, protiv okrivljenika se može produljiti ili odrediti zadržavanje ako je izrečena kazna zatvora ili maloljetnički zatvor a osobite okolnosti opravdavaju bojazan da će počiniti istovrsni prekršaj. (4) Zadržavanje prema stavku 3. ovoga članka može trajati petnaest dana ali ne dulje od izrečene kazne, a okrivljenika se na njegov zahtjev može uputiti na izdržavanje izrečene kazne i prije pravomoćnosti presude. (5) Ako se okrivljenik u času pravomoćnosti presude nalazi u zadržavanju, ostat će u zadržavanju do upućivanja na izdržavanje kazne, a najdulje do isteka trajanja izrečene kazne. (6) Zadržavanje prema stavku 1. i 3. ovoga članka se određuje ili produljuje pisanim i obrazloženim rješenjem koje se predaje odmah zadržanom okrivljeniku. U spisu se naznačuje vrijeme predaje rješenja a okrivljenik to potvrđuje svojim potpisom. (7) Protiv rješenja kojim se određuje ili produljuje zadržavanje okrivljenik ima pravo žalbe u roku od 48 sati. Žalba ne odgađa izvršenje rješenja. (8) Sud u predmetu u kojem je određeno zadržavanje postupa naročito žurno te pazi po službenoj dužnosti jesu li prestali razlozi i zakonski uvjeti za daljnje trajanje zadržavanja i u tom slučaju odmah ukida zadržavanje. (9) Kada odredi protiv okrivljenika zadržavanje, sud će postupiti na način propisan u članku 134. stavku 2. točki 2. i 3. ovoga Zakona. (10) Protiv rješenja kojim se odbija prijedlog za određivanje ili produljenje zadržavanja i rješenja kojim se ukida zadržavanje nije dopuštena žalba. (11) Ukupno trajanje zadržavanja u prekršajnom postupku ne može biti dulje od 15 dana prije donošenja nepravomoćne presude te još najviše 15 dana nakon donošenja nepravomoćne presude prema stavku 3. ovoga članka, osim u slučaju iz stavka 12. ovoga članka i članka 136. ovoga Zakona. (12) Ako Visoki prekršajni sud ukine nepravomoćnu presudu i predmet vrati na ponovno suđenje, ispitat će postoji li i dalje osnova za zadržavanje okrivljenika iz stavka 3. ovoga članka i može produljiti zadržavanje najviše do petnaest dana. Takvo zadržavanje može se, osim ako nije riječ o osobi iz članka 136. stavka 1. ovoga Zakona, odrediti samo jedanput u tijeku trajanja postupka, a njegovo trajanje nije ograničeno prema stavku 11. ovoga članka. U odnosu na osobu iz članka 136. stavka 1. ovoga Zakona takvo zadržavanje može trajati ukupno najdulje 30 dana preko roka iz stavka 11. ovoga članka. 5. MJERE U POSEBNIM SLUČAJEVIMA Zadržavanje ili jamstvo u posebnim slučajevima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8A014299DF6B00F629D7C5B4DA6775C24ED1A032930BFC6E00E127E32318ADFC",
+    "sha256_datoteke": "34DC2759BBBB400F199747AE0CB1FB7D22AE2E2A0676B7B48E69F1F82D01011E",
+    "napomena": null
+  }
+}

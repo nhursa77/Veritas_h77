@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "40",
+    "naslov": null,
+    "tekst": ". (1) Vrijeme provedeno u zadržavanju i svako oduzimanje slobode u svezi s prekršajem uračunava se u izrečenu kaznu zatvora, maloljetničkog zatvora i novčanu kaznu. (2) Ako je okrivljenik u tijeku kaznenog postupka bio zadržan ili u pritvoru, a kazneni je postupak potom obustavljen, ili je donesena odbijajuća ili oslobađajuća presuda, vrijeme koje je bio lišen slobode uračunat će se u kaznu izrečenu za istu radnju u prekršajnom postupku. (3) Uračunavanjem po odredbama ovoga članka izjednačavaju se: 1. svako vrijeme uhićenja po policiji s jednim danom kazne zatvora, kazne maloljetničkog zatvora i 300,00 kuna novčane kazne, 2. svaki započeti dan zadržavanja ili pritvora s jednim danom kazne zatvora, kazne maloljetničkog zatvora i 300,00 kuna novčane kazne. Glava šesta (VI.) MJERE UPOZORENJA Vrste mjera upozorenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "356758D896322C97F69A7B5774B4B346C148C6CDE3F78EC8B8C2D9135F6B6B54",
+    "sha256_datoteke": "ACF972CA90F6AACC35AE017D0D99F378D80A6ED00A32300C8C5447B71E4DF9CD",
+    "napomena": null
+  }
+}

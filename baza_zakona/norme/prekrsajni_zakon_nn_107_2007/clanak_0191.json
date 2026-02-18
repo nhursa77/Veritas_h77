@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "191",
+    "naslov": null,
+    "tekst": ". (1) Ako ovim Zakonom nije određeno drukčije, protiv presude prvostupanjskog suda ovlaštene osobe mogu podnijeti žalbu u roku od osam dana od dana dostave prijepisa presude. (2) Ako je presuda dostavljena i okrivljeniku i njegovu branitelju ali u različite dane, žalbeni rok računat će se od kasnijeg dana. (3) Pravodobno podnesena žalba ovlaštene osobe odgađa izvršenje presude. (4) Odredbe o žalbi protiv presude prvostupanjskog suda smisleno će se primijeniti na žalbu protiv rješenja o prekršaju prvostupanjskog tijela državne uprave (članak 190.). Ovlaštenici prava na žalbu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E99D27D444117037C3B7B91DC9C7CABE474FFF2A73EBD82473EA73F365C818AB",
+    "sha256_datoteke": "371809AB2667AEDD5214E680398B8BBBC5E89D3DEEA5124FED092EAEE114D29D",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "217",
+    "naslov": null,
+    "tekst": ". (1) Ublažavanje pravomoćno izrečene kazne dopušteno je kad se nakon pravomoćnosti odluke o prekršaju kojom je osuđeniku izrečena kazna zatvora ili novčana kazna u iznosu većem od deset tisuća kuna za fizičku osobu, iznosu većem od trideset tisuća kuna za okrivljenika fizičku osobu obrtnika i osobu koja se bavi drugom samostalnom djelatnošću i iznosu većem od pedeset tisuća kuna za pravnu osobu pojave okolnosti kojih nije bilo kad se izricala odluka o prekršaju ili sud za njih nije znao, i ako su postojale, a one bi očito dovele do blaže osude. (2) Ne može se podnijeti zahtjev za izvanredno ublažavanje kazne nakon što je kazna izvršena. Podnošenje i ovlaštenici za podnošenje zahtjeva za izvanredno ublažavanje kazne",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BBAB7279F772A7648F6263431D9EE42584F23DB0481FF395F018694694CD0F41",
+    "sha256_datoteke": "961612C7846E6B0A23F3B7CFF3D31E8C8593F990AC1BFE93F6E8B3F6030F8369",
+    "napomena": null
+  }
+}

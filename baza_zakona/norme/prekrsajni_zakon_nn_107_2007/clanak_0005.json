@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". (1) Prekršajnopravne sankcije koje se mogu propisati zakonom kojim se propisuje prekršaj i koje se mogu izreći odnosno primijeniti prema počinitelju prekršaja su: 1. kazna (novčana i zatvor), 2. zaštitne mjere, sukladno članku 50. stavku 2. ovoga Zakona. (2) Prekršajnopravne sankcije koje se propisuju ovim Zakonom su: 1. mjere upozorenja (opomena i uvjetna osuda), 2. zaštitne mjere (članak 50. stavak 1.), 3. odgojne mjere. (3) Prekršajnopravna sankcija koja se može propisati odlukom jedinice lokalne i područne (regionalne) samouprave kojom se propisuje prekršaj i izreći počinitelju prekršaja jest novčana kazna. (4) Za svaku vrstu prekršajnopravnih sankcija propisom se određuje njihova visina, odnosno trajanje i nijedna se prekršajnopravna sankcija ne može propisati ni izreći, odnosno primijeniti u neodređenoj visini ili na neodređeno vrijeme, osim ako ovim Zakonom nije određeno drukčije. Opća svrha prekršajnopravnih sankcija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "67D53EB53ACBF87AE5CE2A13110884037C09D0871C416D29F8B5A705AD260842",
+    "sha256_datoteke": "D12288E44E4B9884D8423292ED4D416C72C5C3F4B7C8C7799632BB3861F05435",
+    "napomena": null
+  }
+}

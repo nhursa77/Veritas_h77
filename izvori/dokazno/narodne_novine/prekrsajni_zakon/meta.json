@@ -1,0 +1,20 @@
+{
+    "naziv_akta": "Prekršajni zakon",
+    "vrsta_akta": "zakon",
+    "slug": "prekrsajni_zakon",
+    "naziv_izvora": "Narodne novine",
+    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+    "akt_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "velicina_bajta": 297020,
+    "oznaka_akta": "NN 107/2007",
+    "datum_pristupa": "18.02.2026.",
+    "sha256_datoteke": "9BC24449438558103B76524362625ADF35A654632261DC428EAA028FA439FF8D",
+    "format": "html",
+    "napomena": "Primarni izvor arhiviran iz Narodnih novina; ELI PDF fallback definiran za slučaj nedostupnog HTML sadržaja.",
+    "tip_teksta": "procisceni",
+    "ocekivani_broj_clanaka": 258,
+    "preferenca": 40,
+    "izvor": "Narodne novine",
+    "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2007/107/pdf"
+}

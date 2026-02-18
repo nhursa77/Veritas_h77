@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "238",
+    "naslov": null,
+    "tekst": ". (1) Nepravodoban i nedopušten prigovor rješenjem će odbaciti izdavatelj prekršajnog naloga. (2) Prigovor će se kao nepravodoban odbaciti ako je od ovlaštene osobe podnesen nakon isteka ovim Zakonom propisanog roka za podnošenje prigovora. (3) Prigovor će se kao nedopušten odbaciti ako je podnesen od podnositelja koji nije na to ovlašten, sukladno članku 235. stavku 1. ovoga Zakona. (4) Prigovor za koji se ne može utvrditi na koji se prekršajni nalog odnosi ili tko je podnositelj, rješenjem će se odbaciti. (5) Ako prigovor ne sadrži potpis podnositelja, pozvat će se podnositelj da ga potpiše u roku od 8 dana, a ako to ne učini, prigovor će se odbaciti. (6) Protiv rješenja o odbacivanju prigovora pravo na žalbu ima podnositelj prigovora. (7) Prigovor koji ne sadrži druge podatke iz članka 236. uzet će se u razmatranje. Ako prigovor ne sadrži osnovu iz članka 237. stavak 1. ovoga Zakona, ili ona nije jasna, smatrat će se da je prigovor podnesen zbog poricanja prekršaja (članak 237. stavak 1. točka 1.). (8) Rješavajući o žalbi protiv rješenja o odbačaju prigovora, Visoki prekršajni sud Republike Hrvatske rješenjem može: 1. obaciti kao nepravodobnu ili nedopuštenu žalbu, 2. odbiti žalbu kao neosnovanu, 3. prihvatiti žalbu, ukinuti prvostupanjsko rješenje i predmet dostaviti izdavatelju prekršajnog naloga na ponovno odlučivanje, 4. prihvatiti žalbu, preinačiti prvostupanjsko rješenje i prigovor prihvatiti pravodobnim, dopuštenim odnosno potpunim, te ako se radi o prigovoru iz članka 237. stavka 1. točke 1. ovoga Zakona podnesenom protiv prekršajnog naloga suda ili tijela državne uprave koje vodi prekršajni postupak dostaviti im spis radi provođenja prekršajnog postupka, a ako se radi o prigovoru podnesenom protiv prekršajnog naloga izdanom od drugog ovlaštenog izdavatelja dostaviti mu spis radi dostave spisa sudu ili tijelu državne uprave koje vodi prekršajni postupak radi provođenja prekršajnog postupka. Sud ili tijelo državne uprave će, u ovom slučaju, izdani prekršajni nalog prihvatiti kao optužni prijedlog tužitelja. Pri tom se neće primijeniti odredba članka 117. stavka 4. ovoga Zakona ako prekršajni nalog sadrži podatke o prekršaju i njegovu počinitelju. Ako se, u ovom slučaju, radi o prigovoru iz članka 237. stavka 1. točke 2. ovoga Zakona, Visoki će prekršajni sud Republike Hrvatske postupiti prema stavku 11. ovoga članka. (9) Ako je podnesen prigovor iz članka 237. stavka 1. točke 1. ovoga Zakona protiv prekršajnog naloga suda ili tijela državne uprave koje vodi prekršajni postupak koji nisu donijeli rješenje sukladno stavcima 1., 4. i 5. ovoga članka, kao i u slučaju iz stavka 7. ovoga članka, provest će se prekršajni postupak Nakon otvaranja glavne rasprave odnosno prije ispitivanja okrivljenika izdani će se prekršajni nalog rješenjem staviti izvan snage. Protiv rješenja o stavljanju prekršajnog naloga izvan snage nije dopuštena žalba. (10) Ako je podnesen prigovor iz članka 237. stavka 1. točke 1. ovoga Zakona protiv prekršajnog naloga ovlaštenih tužitelja koji nisu donijeli rješenje sukladno stavcima 1., 4. i 5. ovoga članka, prekršajni će nalog skupa s prigovorom dostaviti nadležnom sudu radi postupanja sukladno stavku 9. ovoga članka. (11) Ako je podnesen prigovor iz članka 237. stavka 1. točke 2. ovoga Zakona a izdavatelj prekršajnog naloga ne donese rješenje sukladno stavcima 1., 4. i 5. ovoga članka, dostavit će prekršajni nalog skupa s prigovorom Visokom prekršajnom sudu Republike Hrvatske koji će prigovor prihvatiti žalbom protiv prekršajnog naloga i odlučiti odgovarajućom primjenom odredbi ovoga Zakona o žalbenom postupku. (12) U prekršajnom postupku koji se vodi sukladno stavku 8. točki 4. i stavku 9. i 10. ovoga članka sud nije vezan zabranom iz članka 202. stavka 4. ovoga Zakona. Glava tridesetprva (XXXI.) OBAVEZNI PREKRŠAJNI NALOG I NAPLATA NOVČANE KAZNE NA MJESTU POČINJENJA PREKRŠAJA 1. OBAVEZNI PREKRŠAJNI NALOG Opći uvjeti za izdavanje obaveznog prekršajnog naloga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7DB2CB9A3C27BE8F89A1BDB51316B697AF5FF922A4A0DE1352BFCF1421609010",
+    "sha256_datoteke": "E86A4EC35B2EE343B173F46DC205EDC8501846E548E36E5C7AA830FC6C89BB33",
+    "napomena": null
+  }
+}

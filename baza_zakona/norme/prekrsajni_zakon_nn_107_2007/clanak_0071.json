@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "71",
+    "naslov": null,
+    "tekst": ". (1) Novčanu kaznu sud može izreći počinitelju prekršaja starijem maloljetniku koji ostvaruje osobne prihode vlastitim radom ili imovinom ako utvrdi da s obzirom na narav i težinu počinjenog prekršaja treba izreći tu kaznu. (2) Neplaćena novčana kazna ne može se zamijeniti mjerom zatvora ni radom za opće dobro na slobodi, ali će se prisilno naplatiti na imovini maloljetnika, njegova roditelja ili druge osobe koja za njega skrbi. Maloljetnički zatvor",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A8F98CC22C7A3F5AD53E4082F17FBAA5545B933059A865644954638D04C2C3C6",
+    "sha256_datoteke": "14F553765B6B8FB419AA72A6138E4677D9EC04B3B3D40D543EB1100EDE9C857A",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". (1) Zaštitna mjera zabrane obavljanja određenih djelatnosti ili poslova pravnoj osobi može se primijeniti prema pravnoj osobi koja je počinila prekršaj u obavljanju određenih djelatnosti ili poslova, ako postoji opasnost da bi takvo obavljanje moglo poticajno djelovati za počinjenje novog prekršaja. (2) Zabrana obavljanja određenih djelatnosti ili poslova može se primijeniti u odnosu na sve ili pojedine djelatnosti ili poslova u čijem obavljanju je prekršaj počinjen. (3) Zaštitna mjera zabrane obavljanja određenih djelatnosti ili poslova ne može se primijeniti u trajanju kraćem od tri mjeseca niti duljem od jedne godine. (4) Zabrana obavljanja određenih djelatnosti ili poslova ne može se primijeniti prema jedinicama lokalne i područne (regionalne) samouprave i političkim strankama. Protjerivanje stranca iz zemlje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B8562F58ECD11F85879B6948642CA3C21E41977F9C0B3ACDA2BB2EDF5F986E7A",
+    "sha256_datoteke": "0DD6CFA9821E6E96AE2CA2580FD28C30BA74CC74B947056BABE47FFFBFE44701",
+    "napomena": null
+  }
+}

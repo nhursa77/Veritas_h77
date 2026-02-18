@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "64",
+    "naslov": null,
+    "tekst": ". (1) Maloljetnik je osoba koja je navršila četrnaest a nije navršila osamnaest godina života. (2) Mlađi maloljetnik je osoba koja je navršila četrnaest a nije navršila šesnaest godina života. (3) Stariji maloljetnik je osoba koja je navršila šesnaest a nije navršila osamnaest godina života. Vrste sankcija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "49BE3707B8A4B5E24FB6A507B4DE0BB8ABE7A5C2FA5FC3B8DAC9A941F3A8D019",
+    "sha256_datoteke": "AE405A160A9B157B08BF0D75F780F7602A077E2027031D02B623F4ECC662D19D",
+    "napomena": null
+  }
+}

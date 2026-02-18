@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "127",
+    "naslov": null,
+    "tekst": ". (1) Mjere osiguranja nazočnosti okrivljenika u postupku i mjere za uspješno provođenje postupka koje se mogu odrediti tijekom trajanja prekršajnog postupka pa i prije njegova pokretanja jesu: 1. poziv okrivljeniku, 2. dovođenje okrivljenika, 3. mjere opreza, 4. jamstvo, 5. uhićenje, 6. zadržavanje. (2) Sud će pri odlučivanju o mjerama osiguranja nazočnosti okrivljenika u postupku paziti da se ne primjenjuje teža mjera ako se ista svrha može postići blažom mjerom. (3) Sud će po službenoj dužnosti ukinuti mjere iz stavka 1. ovoga članka ili ih zamijeniti blažim mjerama ako su prestali zakonski uvjeti za njihovu primjenu, ili ako su nastupili uvjeti da se ista svrha može postići blažom mjerom. 2. POZIV I DOVOĐENJE Poziv okrivljeniku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B94095AEDBA64B8737F56AD97DC40E2984806515ACA416D95B18C672E907AF52",
+    "sha256_datoteke": "08E61DE35D0527CEEA742B516E418CE97421D6399101DBDEB5F5A607C8048140",
+    "napomena": null
+  }
+}

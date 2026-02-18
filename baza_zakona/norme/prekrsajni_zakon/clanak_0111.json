@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "111",
+    "naslov": null,
+    "tekst": ". (1) Tijelo državne uprave koje je ovlašteno neposredno provoditi ili nadzirati provođenje propisa kojim je predviđen prekršaj ovlašteno je za prekršaj iz tog propisa podnijeti optužni prijedlog. Ako to tijelo ne podnese optužni prijedlog, može to učiniti tijelo državne uprave višeg stupnja koje nadzire provođenje istog propisa o prekršaju. (2) Tijelo državne uprave kao podnositelj optužnog prijedloga poduzima sve radnje u postupku na koje je po zakonu ovlašteno putem ovlaštene osobe. Pravna osoba s javnim ovlastima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CD33D85DA4B428CE78F9500412BECAC9F3240AD642EC13DB6A5C88A855797811",
+    "sha256_datoteke": "8B1FF33F8224D4B0835941328C0DE8A273B181240BB647BEC2E0A99CAA4C80F4",
+    "napomena": null
+  }
+}

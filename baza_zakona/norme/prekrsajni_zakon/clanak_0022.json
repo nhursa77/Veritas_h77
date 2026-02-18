@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". (1) Počinitelj prekršaja je osoba koja vlastitim činjenjem ili nečinjenjem ili posredstvom druge osobe počini prekršaj. (2) Sudionici u počinjenju prekršaja su poticatelj i pomagatelj. (3) Supočinitelji prekršaja su dvije ili više osoba (počinitelji) koje na temelju zajedničke odluke počine prekršaj tako da svaka od njih sudjeluje u počinjenju ili na drugi način bitno pridonosi počinjenju prekršaja. (4) Poticatelj i pomagatelj su sudionici koji ne vladajući počinjenjem prekršaja, poticanjem ili pomaganjem pridonose njegovom počinjenju. Odgovornost i kažnjavanje sudionika",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DD887ED8351ED6A231FCAB328A7EB0E6D62DED28EBCC2C865FF67ADB0723CC1A",
+    "sha256_datoteke": "4C35464E53AB31BA8DDD6CF8472948CF3FA10F83B92E168D20AF5921E6F89DFB",
+    "napomena": null
+  }
+}

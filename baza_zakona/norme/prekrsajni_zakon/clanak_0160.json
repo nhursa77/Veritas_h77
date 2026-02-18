@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "160",
+    "naslov": null,
+    "tekst": ". (1) Ako ovim Zakonom nije drukčije određeno, prekršajni se postupak može voditi samo na temelju podnesenog optužnog prijedloga ovlaštenog tužitelja. (2) Optužni prijedlog sadrži: 1. Podatke o tužitelju i to: naziv državnog tijela ili pravne osobe, odnosno ime i prezime tužitelja fizičke osobe te adresu tužitelja, 2. za počinitelja prekršaja fizičku osobu ime i prezime s osobnim podacima (članak 171. stavak 1.), je li u zadržavanju i točno od kada a ako je pušten na slobodu u kojem vremenu je bio lišen slobode, primjenjuje li se koja od mjera opreza i od kada, 3. za počinitelja prekršaja fizičku osobu obrtnika i osobu koja se bavi drugom samostalnom djelatnošću osim podataka iz stavka 2. točke 2. ovoga članka još točan naziv obrta ili djelatnosti, sjedište i mjesto upisa obrta ili druge samostalne djelatnosti, 4. za počinitelja prekršaja pravnu osobu i druge subjekte izjednačene s pravnim osobama njezin točan naziv, sjedište i matični broj, ime i prezime njezina predstavnika, vrijeme rođenja i adresu stanovanja, državljanstvo, državu izdavanja putovnice i broj putovnice ukoliko je stranac te primjenjuje li se koja od mjera opreza i od kada, 5. činjenični opis radnje prekršaja iz koje proistječe zakonsko obilježje prekršaja, 6. vrijeme i mjesto počinjenja prekršaja, sredstvo kojim je počinjen prekršaj te i ostale bitne okolnosti za točno određenje prekršaja, 7. zakonski naziv prekršaja i propis kojim je određen, 8. prijedlog o dokazima koje treba provesti na glavnoj raspravi, naznaku imena svjedoka i drugih čije se ispitivanje predlaže, spisa koje treba pročitati i predmeta koji služe za utvrđivanje činjenica, s kratkim obrazloženjem optužnog prijedloga. Tužitelj u optužnom prijedlogu može predložiti vrstu, visinu i trajanje sankcije. Takav prijedlog ne obvezuje sud. (3) Jednim optužnim prijedlogom može se obuhvatiti više prekršaja ili više okrivljenika samo ako se prema odredbama članka 99. ovoga Zakona može provesti jedinstven postupak i donijeti jedna odluka o prekršaju. (4) Optužni se prijedlog dostavlja nadležnom sudu u onoliko primjeraka koliko ima okrivljenika i jedan primjerak za sud. Ispitivanje optužnog prijedloga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D5797F2BBB03B475E65A52248ED4858FC868A194CA6059CE00B912766E15A39F",
+    "sha256_datoteke": "8EC1DAB208C4A02E175D920D759CC997D910A9033B7D48A103F3ADB7863905FD",
+    "napomena": null
+  }
+}

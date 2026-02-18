@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "107",
+    "naslov": null,
+    "tekst": ". (1) Odredbe o izuzeću suca primjenjivat će se i na državne odvjetnike i osobe koje su na temelju Zakona o državnom odvjetništvu ovlaštene da državnog odvjetnika zastupaju u postupku, osobe koje u postupku zastupaju druge tužitelje, zapisničare, tumače, branitelje, druge stručne osobe i na vještake ako za njih nije što drugo određeno. Razlog za izuzeće ne postoji u slučaju kada okrivljenika, oštećenika i druge tužitelje zastupaju osobe koje su njima u srodstvu. (2) O izuzeću zapisničara, tumača, stručne osobe, vještaka i branitelja te osobe koja zastupa tužitelja odlučuje sud pred kojim se vodi postupak. (3) O zahtjevu za izuzeće državnog odvjetnika i osobe koja ga zamjenjuje obavijestit će se nadležni državni odvjetnik te će mu se dati rok da, ako to smatra potrebnim, odredi drugu osobu koja će ga u postupku zamjenjivati. U obavijesti, dat će se i upozorenje o posljedicama koje Zakon predviđa za sudjelovanje u postupku osoba koje su trebale biti izuzete. Glava četrnaesta (XIV.) SUBJEKTI PREKRŠAJNOG POSTUPKA Stranke i sudionici u postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4B11948E0CC1985B0E398AA5C8FD92FE9068293FBC0743CB4041C9E277A29F2D",
+    "sha256_datoteke": "6533762A9AD799BD4918E79F67CFF983E9920DA8F13739A2E8224D2C2A3413CF",
+    "napomena": null
+  }
+}

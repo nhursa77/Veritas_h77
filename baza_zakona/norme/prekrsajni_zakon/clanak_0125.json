@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "125",
+    "naslov": null,
+    "tekst": ". (1) Molba za povrat u prijašnje stanje, zajedno sa žalbom, podnosi se sudu prvog stupnja. Sud prvog stupnja molbu skupa sa žalbom dostavlja Visokom prekršajnom sudu koji donosi odluku. (2) Odlučujući o molbi za povrat u prijašnje stanje, Visoki prekršajni sud Republike Hrvatske rješenjem će: 1. molbu odbaciti kao nedopuštenu ne odlučujući o njezinoj osnovanosti i ne upuštajući se u razmatranje žalbe, ako je podnesena zajedno s molbom, ako je: a) molbu podnijela osoba koja nije za to ovlaštena, b) molba podnesena a da istodobno nije podnesena i žalba, c) molba podnesena nakon odbacivanja žalbe, d) molba podnesena nakon proteka rokova iz članka 124. stavka 1. i 2 ovoga Zakona. 2. prihvatiti osnovanom molbu za povrat u prijašnje stanje i žalbu prihvatiti pravodobnom, ako utvrdi da je razlog propuštanja roka opravdan, a potom nastaviti postupak po žalbi, 3. odbiti kao neosnovanom molbu za povrat u prijašnje stanje ako utvrdi da razlog propuštanja roka za podnošenje žalbe nije osnovan a samu će žalbu odbaciti kao nepravodobnu. Molba za povrat u prijašnje stanje i odgoda izvršenja odluke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4DBAE3510D7BD30AB5F14638FE452673C87325FC5DDAB729B4DB1BD6513DE2E2",
+    "sha256_datoteke": "317BC94129126CA7F0EC08272B8416FA6AD28902A592FCA57E2AC293710AB128",
+    "napomena": null
+  }
+}

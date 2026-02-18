@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "129",
+    "naslov": null,
+    "tekst": ". (1) Sud će izdati dovedbeni nalog ako uredno pozvani okrivljenik ne dođe a svoj izostanak ne opravda, ili ako se nije mogla obaviti uredna dostava poziva a iz okolnosti očito proizlazi da okrivljenik izbjegava primiti poziv ili odazvati se na uredno primljeni poziv. Ako sud ocijeni da postoje uvjeti za vođenje postupka i donošenje presude i bez ispitivanja okrivljenika, dovedbeni nalog se ne mora izdati. (2) Dovedbeni nalog izvršava policija. (3) Dovedbeni nalog izdaje se u pisanom obliku i sadrži: ime i prezime okrivljenika kojeg treba dovesti te druge potrebne podatke koji su poznati, prekršaj koji mu se stavlja na teret uz navođenje odredaba propisa o prekršaju, razlog zbog kojeg se nalaže dovođenje, službeni pečat i potpis suca koji izdaje nalog. (4) Osoba kojoj je povjereno izvršenje naloga predaje nalog okrivljeniku i poziva ga da pođe s njom. Ako okrivljenik to odbije, dovest će se prisilno. (5) Protiv vojnih osoba, pripadnika policije i pripadnika pravosudne policije u pravilu se neće izdavati dovedbeni nalog, već će se zatražiti od njihova zapovjedništva, odnosno ustanove da ih dovede. Ako je to nužno s obzirom na okolnosti slučaja, te će se osobe dovesti prema općim propisima o dovođenju (stavci 1. do 4. ovoga članka). (6) Odredbe stavka 1. do 5. ovoga članka smisleno se primjenjuju i protiv predstavnika okrivljene pravne osobe. 3. MJERE OPREZA I JAMSTVO Svrha, vrste i načela primjene mjera opreza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "647108F278D900916BA7F9C5D28AA1627D279EA2D1F93AC3FBDB73DC0D6557C5",
+    "sha256_datoteke": "F1E9AEA02F276E36B504B7D826ED12A43D2C4316898A68DFC12BB8654E8034F2",
+    "napomena": null
+  }
+}

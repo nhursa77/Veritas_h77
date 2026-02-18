@@ -214,3 +214,26 @@ standardizirani override expected count-a po aktu/globalno.
 Dodan je `paketi/PAKET_PREKRSAJNI_V1.json` (core + vezani akti) i
 `alati/acceptance_paket.ps1` za one-click paketni preflight preko
 generičkog `-AktSlug` pipelinea.
+
+### INGEST_PREKRSAJNI_ZAKON_V1 — snapshot + norme + preflight
+Uveden je novi akt `prekrsajni_zakon` kao core član paketa
+`PAKET_PREKRSAJNI_V1`.
+Kreirani su dokazni snapshoti izvora (`prekrsajni_zakon` i
+`prekrsajni_zakon_nn_107_2007`), parsirana NN struktura i generiran
+operativni NORMA set za `prekrsajni_zakon`.
+Dodani su kontrolni artefakti u `izvori/kontrolno/zakon_hr/prekrsajni_zakon/`
+te je potvrđen prolaz `acceptance_preflight -AktSlug prekrsajni_zakon`.
+Paketni run više ne faila na missing-source za core akt `prekrsajni_zakon`
+(status paketa ostaje `11` zbog optional akta koji još nisu ingestani).
+
+### NN_FALLBACK_PDF_INGEST — prekrsajni_zakon (bez zakon.hr bootstrapa)
+Za `prekrsajni_zakon` uklonjen je bootstrap sadržaj i izvor je vraćen na
+kanonski NN članak (`2007_10_107_3125.html`).
+U parseru je uveden fallback: kada NN HTML vrati `Sadržaj je nedostupan`
+ili nema markere članka, parser pokušava dohvatiti ELI PDF (`eli_pdf_url`),
+izvući tekst i zapisati parsabilni pseudo-HTML/TXT u isti snapshot folder.
+Dodan je guardrail `FOUND_MULTIPLE_ACTS_IN_PDF` koji završava parser s
+`exit 12` ako segmentacija PDF-a nije sigurna.
+`run_normiratelj.ps1 -AktSlug prekrsajni_zakon` i
+`acceptance_preflight.ps1 -AktSlug prekrsajni_zakon` prolaze na NN izvoru,
+bez operativnog oslanjanja na `zakon.hr`.

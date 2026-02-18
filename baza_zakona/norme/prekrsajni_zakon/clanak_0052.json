@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "52",
+    "naslov": null,
+    "tekst": ". (1) Zaštitna mjera obveznog psihijatrijskog liječenja može se primijeniti samo prema počinitelju koji je prekršaj počinio u stanju znatno smanjene ubrojivosti ako postoji opasnost da razlozi za takvo stanje mogu i u budućnosti poticajno djelovati za počinjenje novog prekršaja. (2) Zaštitna mjera obveznog psihijatrijskog liječenja može se pod uvjetima iz stavka 1. ovoga članka primijeniti za vrijeme izvršenja kazne zatvora, kazne maloljetničkog zatvora ili uz zamjenu za kaznu zatvora odnosno maloljetničkog zatvora ili uz uvjetnu osudu. (3) Obvezno psihijatrijsko liječenje traje do prestanka razloga zbog kojih je primijenjeno, ali u svakom slučaju do prestanka izvršenja kazne zatvora odnosno kazne maloljetničkog zatvora, proteka roka provjeravanja primjenom uvjetne osude, ali u svim ovim slučajevima ne može trajati dulje od godine dana. (4) Prema počinitelju prekršaja koji se ne podvrgne psihijatrijskom liječenju na slobodi uz uvjetnu osudu, uz zamjenu za kaznu zatvora odnosno maloljetničkog zatvora može se postupiti prema odredbi članka 46. stavka 4. ovoga Zakona. Obvezno liječenje od ovisnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "04199D51D023931C2B830287E99A2C182EB232E97B1E9F1EC3831FFB05F12FBC",
+    "sha256_datoteke": "0DE5FED4B0B1A300FAA0D5ACE02E73C1409BD4169B02668910DB88298B6DE1C0",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "121",
+    "naslov": null,
+    "tekst": ". (1) Kad je u ovom Zakonu određeno da se na nekom dokazu ne može utemeljiti sudska odluka, sudac će na prijedlog stranaka ili po službenoj dužnosti rješenjem odmah odlučiti o njegovu izdvajanju iz spisa predmeta. Izdvojit će se i zapisnik ili njegov dio koji sadrži takav dokaz. (2) Materijali izdvojeni prema stavku 1. ovoga članka zatvaraju se u poseban omot, čuvaju odvojeno u spisu i ne može ih se razgledati ili koristiti u postupku. Visoki prekršajni sud Republike Hrvatske može čitati i koristiti izdvojene materijale kada rješava o žalbi protiv presude u povodu žalbenog prigovora u vezi odluke o izdvajanju. (3) Protiv rješenja kojim je odlučeno o izdvajanju nije dopuštena posebna žalba. (4) U postupku u kojem se izdaje prekršajni nalog, izdvajanje zapisnika se ne provodi. Glava šesnaesta (XVI.) ROKOVI I POVRAT U PRIJAŠNJE STANJE 1. ROKOVI Opće odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "73BE796E1217304C1DBEFA35140BF552632A893A0F9E8BF926A4F2EF3045EC72",
+    "sha256_datoteke": "8553573EC49B5A37C2BFF7CDC1C07610BA0868A2B9656B57AD1793A84FCD5112",
+    "napomena": null
+  }
+}

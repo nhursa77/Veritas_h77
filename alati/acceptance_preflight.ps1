@@ -47,7 +47,12 @@ try {
     }
 
     # Repo hygiene: rollback generated artifacts for this akt.
-    git restore -- $reportPathRel $controlJsonRel 2>$null | Out-Null
+    try {
+        git restore -- $reportPathRel $controlJsonRel 2>$null | Out-Null
+    }
+    catch {
+        # Ignore when paths are not yet tracked in git for new akt ingests.
+    }
     git status --short
 
     exit $exitCode

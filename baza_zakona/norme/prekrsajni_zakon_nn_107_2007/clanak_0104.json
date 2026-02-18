@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "104",
+    "naslov": null,
+    "tekst": ". (1) Sudac je isključen od obavljanja sudske dužnosti: 1. ako je oštećen prekršajem, 2. ako mu je okrivljenik, njegov branitelj, tužitelj, oštećenik, njihov zakonski zastupnik ili opunomoćenik ili predstavnik pravne osobe bračni drug ili srodnik u uspravnoj liniji do bilo kojeg stupnja, u pobočnoj liniji do četvrtog stupnja, odnosno u tazbinskom srodstvu do drugog stupnja, 3. ako je s okrivljenikom ili njegovim braniteljem ili okrivljenikovim bračnim drugom, tužiteljem, oštećenikom ili predstavnikom pravne osobe u odnosu skrbnika, štićenika, posvojitelja, posvojenika, udomitelja ili udomljenika, 4. ako je u istome predmetu vodio prvostupanjski postupak ili u prvostupanjskom postupku sudjelovao kao: donositelj neke odluke u postupku, tužitelj, branitelj, zakonski zastupnik ili opunomoćenik oštećenika odnosno tužitelja ili je ispitan kao svjedok ili vještak, ili je sudjelovao u inspekcijskom ili drugom nadzoru na temelju kojega je pokrenut prekršajni postupak. (2) Sudac može biti otklonjen od obavljanja sudske dužnosti ako se izvan slučajeva navedenih u stavku 1. ovoga članka navedu i dokažu okolnosti koje izazivaju sumnju u njegovu nepristranost. (3) Sudac čim sazna da postoji koji od razloga za izuzeće iz stavka 1. ovoga članka ili okolnosti koje opravdavaju njegov otklon (stavak 2. ovoga članka), dužan je odmah o tome izvijestiti predsjednika suda koji će mu odrediti zamjenu. Ako je riječ o izuzeću ili otklonu predsjednika suda, on će odrediti sebi zamjenika između sudaca toga suda, a ako to nije moguće, postupit će prema članku 101. stavku 1. ovoga Zakona. (4) Kad sudac sazna da je stavljen zahtjev za njegovo izuzeće, dužan je odmah obustaviti svaki rad na predmetu, a ako je riječ o otklonu iz stavka 2. ovoga članka može do donošenja rješenja o zahtjevu poduzimati samo one radnje za koje postoji opasnost od odgode. Zahtjev stranaka za izuzećem",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "58672B070929620A1A3AB8AE8203BC6564D30D77FE7457B95408F58F3D8447B5",
+    "sha256_datoteke": "8143D98CA9F6752ED6076F84D2D663BBAD2AB4FB4D33EA25789C254E30675F5A",
+    "napomena": null
+  }
+}

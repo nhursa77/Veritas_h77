@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "223",
+    "naslov": null,
+    "tekst": ". (1) U postupku protiv maloljetnog počinitelja prekršaja primjenjuju se odredbe ovoga Zakona, osim ako odredbama ove glave nije što drukčije određeno. (2) Ako ovim Zakonom nije drukčije određeno, maloljetnog počinitelja prekršaja mora se prije donošenja odluke o prekršaju ispitati. (3) Pri ispitivanju maloljetnika i poduzimanju drugih radnji kojima je maloljetnik nazočan, postupat će se obazrivo, tako da, s obzirom na duševnu razvijenost i osobna svojstva maloljetnika, vođenje prekršajnog postupka ne šteti razvoju njegove ličnosti. (4) Maloljetnika se poziva a i dostavljaju mu se druga pismena preko roditelja, odnosno zakonskog zastupnika, osim ako to nije moguće zbog potrebe hitnog postupanja ili drugih opravdanih okolnosti. (5) Sud izvješćuje centar za socijalnu skrb kad su u prekršajnom postupku utvrđene činjenice i okolnosti koje upućuju na potrebu poduzimanja mjera radi zaštite prava i dobrobiti maloljetnika. (6) U postupku prema maloljetnom počinitelju prekršaja, uz ovlasti predviđene ovim Zakonom, predstavnik centra za socijalnu skrb ima pravo upoznati se s tijekom postupka, u tijeku tog postupka stavljati prijedloge i upozoravati na činjenice i dokaze koji su važni za donošenje ispravne odluke. (7) O svakom pokretanju postupka prema maloljetniku ovlašteni tužitelj obavijestit će nadležni centar za socijalnu skrb. Ako je tužitelj oštećenik, obvezan je to učiniti sud koji vodi postupak protiv maloljetnika. (8) Nitko ne može biti oslobođen dužnosti svjedočenja o okolnostima potrebnim za ocjenjivanje duševne razvijenosti maloljetnika, upoznavanje njegove ličnosti i prilika u kojima živi. (9) Tijela koja sudjeluju u postupku prema maloljetniku i druga tijela i ustanove od kojih se traže obavijesti, izvješća ili mišljenja dužna su najhitnije postupiti kako bi se postupak što prije završio. (10) Bez odobrenja suda ne smije se objaviti tijek prekršajnog postupka prema maloljetniku niti odluka donesena u tom postupku. Objaviti se može samo onaj dio postupka, odnosno samo onaj dio odluke za koji postoji odobrenje, ali se tada ne smije navesti ime maloljetnika i ostali podaci na temelju kojih bi se moglo zaključiti o kojem je maloljetniku riječ. (11) U postupku protiv maloljetnika uvijek je isključena javnost, a sud može dopustiti nazočnost osoba koje se bave zaštitom i odgojem maloljetnika te znanstvenicima. (12) U postupku protiv maloljetnog počinitelja prekršaja koji nema stalno prebivalište ili boravište u Republici Hrvatskoj neće se primijeniti odredbe stavaka 5. – 7. ovoga članka. Nadležni sud",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5A61563529C6DF294D85A91555AE0A4ABEBAECFAE8997F2227A51310378C194F",
+    "sha256_datoteke": "464AF0B4ADBFAE4B6DDA666AA788E7717BFDA4485D3F2A1BD99E507A56134322",
+    "napomena": null
+  }
+}

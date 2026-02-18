@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". (1) Izvršenje izrečene ili primjenjene prekršajnopravne sankcija ne može započeti zbog zastare kad protekne dvije godine od dana pravomoćnosti odluke o prekršaju kojom je sankcija izrečena ili primijenjena. (2) Zastara izvršenja kazne i primjena drugih prekršajnopravnih sankcija počinje teći od dana pravomoćnosti odluke kojom je kazna izrečena ili određena primjena drugih prekršajnopravnih sankcija. Ako se radi o kazni iz opozvane uvjetne osude, zastara počinje teći od dana pravomoćnosti odluke o opozivu. (3) Zastara izvršenja ne teče za vrijeme za koje se prema zakonu izvršenje kazne ili primjena druge prekršajnopravne sankcije ne može započeti ili nastaviti. (4) Zastara izvršenja se prekida svakom radnjom nadležnog tijela poduzetoj radi izvršenja kazne ili primjene druge prekršajnopravne sankcije. (5) Nakon svakog prekida zastara počinje ponovno teći. (6) Zastara izvršenja kazne i primjena druge prekršajnopravne sankcije nastupa u svakom slučaju kada proteknu tri godine od dana pravomoćnosti odluke kojom je izrečena kazna ili primijenjena druga prekršajnopravna sankcija. (7) Odredbe o zastari izvršenja prekršajnopravne sankcije primjenjuju se i na zastaru izvršenja stegovnih kazni koje sud izrekne tijekom postupka. Glava treća (III.) PREKRŠAJ Način počinjenja prekršaja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "86ECBCDC4C69D48D2149890169B22F325D315B6EB5A6C84F3EC0ACADB8DBC628",
+    "sha256_datoteke": "8BAB9EA88D8B8FE0C3D2EE2E479FB1D52441C412A6DA5FC17D82FE5782CCB50D",
+    "napomena": null
+  }
+}

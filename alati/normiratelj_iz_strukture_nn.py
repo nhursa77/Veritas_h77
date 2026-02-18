@@ -80,7 +80,7 @@ def normalize_clanak_oznaka(raw_value: Any) -> tuple[str, str] | None:
     return None
 
 
-def extract_doc_split(struktura: dict[str, Any]) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], bool]:
+def extract_doc_split(struktura: dict[str, Any], akt_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]], list[dict[str, Any]], bool]:
     akt = struktura.get("akt") if isinstance(struktura.get("akt"), dict) else {}
     dokumenti = struktura.get("dokumenti") if isinstance(struktura.get("dokumenti"), list) else None
 
@@ -88,17 +88,22 @@ def extract_doc_split(struktura: dict[str, Any]) -> tuple[dict[str, Any], list[d
         clanci_flat = struktura.get("clanci") if isinstance(struktura.get("clanci"), list) else []
         return akt, clanci_flat, [], False
 
+    procisceni_doc_id = f"{akt_slug}_procisceni"
+    amandmani_doc_id = f"{akt_slug}_amandmani"
+
     procisceni = next(
         (
             d for d in dokumenti
-            if isinstance(d, dict) and str(d.get("doc_id") or "").strip() == "ustav_rh_procisceni"
+            if isinstance(d, dict)
+            and str(d.get("doc_id") or "").strip() in {procisceni_doc_id, "ustav_rh_procisceni"}
         ),
         None,
     )
     amandmani = next(
         (
             d for d in dokumenti
-            if isinstance(d, dict) and str(d.get("doc_id") or "").strip() == "ustav_rh_amandmani"
+            if isinstance(d, dict)
+            and str(d.get("doc_id") or "").strip() in {amandmani_doc_id, "ustav_rh_amandmani"}
         ),
         None,
     )
@@ -181,7 +186,7 @@ def main() -> int:
     struktura = load_json(input_path)
     meta = load_json(meta_path)
 
-    akt, clanci, amandmani_clanci, input_is_doc_split = extract_doc_split(struktura)
+    akt, clanci, amandmani_clanci, input_is_doc_split = extract_doc_split(struktura, akt_slug=akt_slug)
 
     stanje_na_dan = normaliziraj_datum(str(meta.get("datum_pristupa", "")))
     datum_provjere = danas_hr()

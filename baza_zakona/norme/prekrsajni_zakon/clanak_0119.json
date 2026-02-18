@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "119",
+    "naslov": null,
+    "tekst": ". (1) O svakoj radnji poduzetoj tijekom prekršajnog postupka sastavit će se zapisnik istodobno kad se radnja obavlja, a ako to nije moguće, onda neposredno nakon toga. (2) Zapisnik piše zapisničar. Samo kad se obavlja pretraga stana ili osoba ili se radnja poduzima izvan službenih prostorija tijela, a zapisničar se ne može osigurati, zapisnik može pisati osoba koja poduzima radnju. (3) Kad zapisnik piše zapisničar, zapisnik se sastavlja tako da osoba koja poduzima radnju govori glasno zapisničaru što će unijeti u zapisnik, osim u slučajevima kada po ovom Zakonu zapisnik može sastaviti sudski savjetnik ili sudački vježbenik. (4) Osobi koja se ispituje može se dopustiti da sama kazuje odgovore u zapisnik. U slučaju zlouporabe to joj se pravo može uskratiti. (5) U zapisnik se unosi naziv državnog tijela pred kojim se obavlja radnja, mjesto gdje se obavlja radnja, dan i sat kad je radnja započeta i završena, imena i prezimena nazočnih osoba i u kojem su svojstvu nazočne te naznaka prekršajnog predmeta u kojem se poduzima radnja. (6) Zapisnik treba sadržavati bitne podatke o tijeku i sadržaju poduzete radnje. U zapisnik se ubilježava u obliku pripovijedanja samo bitni sadržaj danih iskaza i izjava. Pitanja se unose u zapisnik samo ako je potrebno da se razumije odgovor. Ako je potrebno, u zapisnik će se doslovce unijeti pitanje koje je postavljeno i odgovor koji je dan. Ako su pri poduzimanju radnje oduzeti predmeti ili spisi, to će se naznačiti u zapisniku, a oduzete stvari priključit će se zapisniku ili će se navesti gdje se nalaze na čuvanju. (7) Pri poduzimanju radnji kao što je očevid, pretraga stana ili osoba, ili prepoznavanje, u zapisnik će se unijeti i podaci koji su važni s obzirom na značenje takve radnje ili za utvrđivanje istovjetnosti pojedinih predmeta (opis, mjere i veličina predmeta ili tragova, stavljanje oznake na predmete i dr.), a ako su napravljene skice, crteži, planovi, fotografije, filmske ili druge tehničke snimke, to će se navesti u zapisniku i priključiti zapisniku. (8) Zapisnik se mora voditi uredno, u njemu se ne smije ništa dodati ili mijenjati. Prekrižena mjesta moraju ostati čitljiva. Zapisnik se vodi uporabom pisaće mašine ili računala, osim ako i zbog posebnih okolnosti to nije moguće. Takve će se okolnosti naznačiti u zapisniku. Ako zapisnik ima više listova, oni će se označiti rednim brojevima. Sve preinake, ispravci i dodaci unose se na kraju zapisnika i moraju ih ovjeroviti osobe koje potpisuju zapisnik. Potpis zapisnika",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F2B4C9F4A9CB0A5E2F307F5332F3CEBAE96DE4C2951B8D30E8075BAB0D5A0132",
+    "sha256_datoteke": "A072A9DF38B305F0438ACCF355F54C2C720896BF2CD6B4984A1502CD2A2B73BC",
+    "napomena": null
+  }
+}

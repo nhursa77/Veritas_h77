@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "171",
+    "naslov": null,
+    "tekst": ". (1) Kad se okrivljenik prvi put ispituje, pitat će se za ime i prezime, nadimak ako ga ima, ime i prezime roditelja, djevojačko obiteljsko ime majke, gdje je rođen, gdje stanuje, dan, mjesec i godinu rođenja, čiji je državljanin, koji mu je matični broj građana Republike Hrvatske, čime se zanima, kakve su mu obiteljske prilike, zna li pisati, kakve je škole završio, je li odlikovan, kakva je imovna stanja, je li kad i zašto prekršajno ili kazneno osuđivan, je li i kad izrečenu kaznu izdržao, vodi li se protiv njega postupak za koji drugi prekršaj ili kazneno djelo, a ako je maloljetan i tko mu je zakonski zastupnik. Okrivljenik će se pitati i za druge osobne podatke ako je to od važnosti za postupak. Okrivljenik će se poučiti da je dužan odazvati se pozivu i odmah priopćiti svaku promjenu adrese ili namjeru da promijeni boravište, a upozorit će se i na posljedice ako prema tome ne postupi. (2) Kad se prvi put ispituje okrivljenik će se upozoriti da nije dužan iznijeti svoju obranu niti odgovarati na pitanja, što će se unijeti u zapisnik. (3) Okrivljenik se ispituje usmeno. Pri ispitivanju okrivljeniku se može dopustiti da se služi svojim bilješkama. (4) Pri ispitivanju treba okrivljeniku omogućiti da se u neometanom izlaganju očituje o svim okolnostima koje ga terete i da iznese sve činjenice koje mu služe za obranu. (5) Kad okrivljenik završi iskaz, postavit će mu se pitanja ako je potrebno da se popune praznine ili otklone proturječnosti i nejasnoće u njegovu izlaganju. (6) Ispitivanje treba obavljati tako da se u potpunosti poštuje osoba okrivljenika. (7) Prema okrivljeniku se ne smije upotrijebiti sila, prijetnja ili druga slična sredstva da bi se došlo do njegove izjave ili priznanja. (8) Ako je postupljeno suprotno odredbama stavka 2. i 7. ovoga članka, iskaz okrivljenika ne može se upotrijebiti kao dokaz u prekršajnom postupku. (9) Ako okrivljenik ne boravi i nema prebivalište na području suda koji vodi prekršajni postupak, može ga se ispitati zamolbenim putem pred sudom gdje boravi ili ima prebivalište. Okrivljenikovo pravo na branitelja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4744B8ECB425A4147F0113C3C617830A9DC4F6F6DC098BEFDD2E9AC8FF7E1B19",
+    "sha256_datoteke": "246108FEE5627A997F563F34F1A5531B19EACFBBB0C43FAE421BBAE43CC9098D",
+    "napomena": null
+  }
+}

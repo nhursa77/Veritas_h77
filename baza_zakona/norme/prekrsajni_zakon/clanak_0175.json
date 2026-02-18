@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "175",
+    "naslov": null,
+    "tekst": ". Zapisnici o pretrazi, privremenom oduzimanju predmeta, prepoznavanju, očevidu, vještačenju, isprave, knjige, spisi i druga pismena kao i tehničke snimke koje služe za utvrđivanje činjenica pročitat će se ili pregledati na glavnoj raspravi. Izmjena, proširenje i podnošenje novog optužnog prijedloga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "537FCA8046E83F346C12C5E7C8E2B5E7A42CA7840378069D3FB5E15DDE376039",
+    "sha256_datoteke": "375D9A09A1808480EC7B9BC5D9309F08842D656D5C9F8793308C4453D42EAA7B",
+    "napomena": null
+  }
+}

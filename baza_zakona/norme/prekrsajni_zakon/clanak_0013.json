@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". (1) Prekršajni se progon ne može pokrenuti kad protekne dvije godine od počinjenja prekršaja. (2) Posebnim se zakonom može propisati dulji rok za pokretanje prekršajnog postupka za prekršaje propisane tim zakonom ali ne dulji od tri godine. (3) Zastara ne teče za vrijeme za koje se prema zakonu prekršajni progon ne može poduzeti ili se ne može nastaviti. (4) Zastara se prekida svakom postupovnom radnjom nadležnog tijela koja se poduzima radi prekršajnog progona počinitelja zbog počinjenog prekršaja. (5) Nakon svakog prekida zastara počinje ponovno teći. (6) Zastara prekršajnog progona nastupa u svakom slučaju kad protekne dvaput onoliko vremena koliko je prema zakonu određena zastara prekršajnog progona. (7) Propisi o zastari, njezinom tijeku i prekidu odnose se i na stegovne kazne koje sud izriče tijekom postupka. Zastara izvršenja prekršajnopravnih sankcija, tijek i prekid zastare",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C2A0A7129A0EE3AF5C13A637167943A28E5FC9F37DA27AAC23AE9DFAC7E07358",
+    "sha256_datoteke": "55DFB22C733C76DE257B3534870FBB80DE6A59F81045C7A453D8F0F901D90442",
+    "napomena": null
+  }
+}

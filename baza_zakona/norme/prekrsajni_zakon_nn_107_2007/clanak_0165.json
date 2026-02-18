@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "165",
+    "naslov": null,
+    "tekst": ". (1) Glavna rasprava počinje njezinim otvaranjem u vrijeme i na mjestu gdje je zakazana. Prije otvaranja glavne rasprave sud provjerava jesu li se stekli uvjeti za njezino održavanje. Sud nakon otvaranja rasprave objavljuje predmet postupka. (2) Glavna je rasprava javna, ako ovim Zakonom nije određeno drukčije. (3) Dužnost je suca da se brine o svestranom raspravljanju o predmetu, da sprječava svako odugovlačenje postupka i brine o održavanju reda u sudnici i dostojanstvu suda. (4) Sudac upravlja glavnom raspravom, ispituje okrivljenika, svjedoke, vještake, daje riječ strankama i sudionicima u postupku. (5) Na glavnoj raspravi se prvo ispituje okrivljenik a potom izvode dokazi redom koji određuje sudac. Ako ima više okrivljenika ispituju se odvojeno, jedan po jedan. (6) U sudnici se ne smiju obavljati fotografska, filmska, televizijska i druga snimanja tehničkim uređajima. Iznimno, predsjednik suda rješenjem može dopustiti fotografsko, a predsjednik Visokog prekršajnog suda Republike Hrvatske, televizijsko i drugo snimanje na pojedinoj glavnoj raspravi. Stranke i oštećenik mogu za svoje potrebe zvučno snimati tijek rasprave, osim ako je s rasprave isključena javnost ili ako time ometaju tijek postupka. (7) Ako je snimanje dopušteno sukladno stavku 6. ovoga članka, sudac na glavnoj raspravi može iz opravdanih razloga odlučiti rješenjem da se pojedini dijelovi glavne rasprave ne snimaju. (8) Protiv rješenja iz stavka 6. i 7. ovoga članka kojim se odbija ili dopušta snimanje nije dopuštena žalba. (9) Stranke i sudionici u postupku (članak 108. stavak 1. i 2.) imaju pravo na glavnoj raspravi predlagati izvođenje dokaza, davati druge prijedloge i izjave i očitovanja o izvedenim dokazima, te uz dopuštenje suca postavljati pitanja drugima u postupku. Sudac rješenjem na zapisniku s kratkim obrazloženjem odlučuje o dokaznim prijedlozima stranaka i sudionika u postupku. Protiv rješenja nije dopuštena posebna žalba. Stegovno kažnjavanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "133780BC5325FF7154024F38E631217E7AED29F823DF63BF88F7D83573760634",
+    "sha256_datoteke": "5D36E47BBF0C2BAA163443FE13C7D2566A5362689215F095864B3648B3885B9D",
+    "napomena": null
+  }
+}

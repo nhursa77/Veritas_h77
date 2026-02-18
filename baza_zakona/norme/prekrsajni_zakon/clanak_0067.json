@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "67",
+    "naslov": null,
+    "tekst": ". (1) Odgojne mjere su: 1. sudski ukor, 2. posebne obveze, 3. upućivanje u centar za odgoj. (2) Odgojne mjere iz stavka 1. ovoga članka primjenjuju se kada je potrebno utjecati na maloljetnikovu ličnost i ponašanje mjerama upozorenja, usmjeravanjem ili drugim primjerenim mjerama. Sudski ukor",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0A9911ADED94BFCD3801B110BDCB864FB03E71FB98E03BD2E3C5F62DDA920BBE",
+    "sha256_datoteke": "E4C31D3F26C84AA86EDF610876AC299A471763538CD2AA73D55E37D975A7B0B2",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "88",
+    "naslov": null,
+    "tekst": ". (1) Sud je dužan na temelju izvedenih dokaza potpuno i točno utvrditi činjenice koje su od važnosti za donošenje zakonite odluke i s jednakom pažnjom utvrđuje činjenice koje terete okrivljenika i koje mu idu u korist. (2) Sud slobodno cijeni dokaze i postojanje ili nepostojanje činjenica i pri tome nije ograničen ili vezan nikakvim dokaznim pravilima. Ekonomičnost postupka i sprječavanje zlouporabe prava iz ovoga Zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0781BB820C80F6D32FE458995ED26F0B5638E5F27DB784946A5CFE72D0699103",
+    "sha256_datoteke": "1A4D7E641F935D7312F99998B95B6543DF1AEAF2F3CB243823072B1FF89BD92A",
+    "napomena": null
+  }
+}

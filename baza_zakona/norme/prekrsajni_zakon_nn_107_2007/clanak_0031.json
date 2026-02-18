@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "31",
+    "naslov": null,
+    "tekst": ". (1) Za prekršaj propisan zakonom može se počinitelj kazniti: novčanom kaznom ili kaznom zatvora. (2) Za prekršaj propisan odlukom jedinice lokalne i područne (regionalne) samouprave može se počinitelj kazniti novčanom kaznom. (3) Kazna zatvora zakonom se može propisati samo kao stroža kazna uz propisanu novčanu kaznu. Svrha kažnjavanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D3010DD4786C3976503BFF0E50D42E5857C98BAEA6D2112A87D18BD3EA009712",
+    "sha256_datoteke": "45C7FC39DFF927F716827D685F3F5EB2C5DD6F8FC7EA4D1288F6C200440EBF0B",
+    "napomena": null
+  }
+}

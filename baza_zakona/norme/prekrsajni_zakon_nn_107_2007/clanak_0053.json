@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "53",
+    "naslov": null,
+    "tekst": ". (1) Zaštitna mjera obveznog liječenja od ovisnosti može se primijeniti prema počinitelju prekršaja koji je prekršaj počinio pod odlučujućim djelovanjem ovisnosti od alkohola ili opojnih droga kad postoji opasnost da će zbog te ovisnosti ponovno počiniti neki prekršaj. (2) Zaštitna mjera obveznog liječenja od ovisnosti može se pod uvjetima iz stavka 1. ovoga članka primijeniti uz iste prekršajnopravne sankcije, u jednakom trajanju i na isti način kako je ovim Zakonom određeno za zaštitnu mjeru obveznoga psihijatrijskog liječenja. (3) Prema počinitelju prekršaja koji se ne podvrgne obveznom liječenju od ovisnosti uz uvjetnu osudu, uz zamjenu za kaznu zatvora odnosno maloljetničkog zatvora može se postupiti prema članku 46. stavku 4. ovoga Zakona. Zabrana obavljanja zvanja, određenih djelatnosti, poslova ili dužnosti fizičkoj osobi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "14435832FC6DEE111DC0C0B313461A3FF8E7BF649E6F63EDCF718CD794473136",
+    "sha256_datoteke": "028E582E83B82B9638766335F0BE29AAC8EB9715C513F34A9FBF09D917B8FD4F",
+    "napomena": null
+  }
+}

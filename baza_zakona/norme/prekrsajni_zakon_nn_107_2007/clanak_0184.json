@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "184",
+    "naslov": null,
+    "tekst": ". (1) Objavljena presuda mora se napisati i otpremiti u roku mjesec dana nakon objave. (2) Presudu potpisuju sudac i zapisničar. (3) Ovjerovljeni prijepis presude dostavlja se strankama i sudionicima u postupku, osim ako ovim Zakonom nije određeno drukčije (članak 146. stavak 3. i 179. stavak 9.), a okrivljeniku, oštećeniku tužitelju i oštećeniku ako ima pravo žalbe, dostavit će se i uputa o pravu na žalbu. (4) Pravomoćna presuda oštećeniku će se dostaviti na njegov zahtjev. U postupku za prekršaj nasilja u obitelji, presuda će se uvijek dostaviti i oštećeniku. Sadržaj presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "97FEC9D7B4B3D664070290E3FCC01918C930988FA9E228B2C9B22B8B2EC46ECE",
+    "sha256_datoteke": "10B3D60D38AD820FB41CE1CE677E72A75B386E539FAEF2D1A04416E570502EEF",
+    "napomena": null
+  }
+}

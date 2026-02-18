@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": ". (1) Zaštitne mjere koje ovaj Zakon propisuje i sud može jednu ili više njih počinitelju prekršaja primijeniti su: 1. obvezno psihijatrijsko liječenje, 2. obvezno liječenje od ovisnosti, 3. zabrana obavljanja zvanja, određenih djelatnosti, poslova ili dužnosti fizičkoj osobi, 4. zabrana obavljanja određenih djelatnosti ili poslova pravnoj osobi, 5. protjerivanje stranca iz zemlje, 6. oduzimanje predmeta, 7. zabrana upravljanja motornim vozilom. (2) Osim zaštitnih mjera propisanih ovim Zakonom (stavak 1. ovoga članka), zakonom se mogu propisati i druge vrste zaštitnih mjera, koje prema trajanju i svrsi moraju biti usklađene s odredbama ovoga Zakona. Te se zaštitne mjere primjenjuju pod jednakim uvjetima propisanim za primjenu zaštitnih mjera iz stavka 1. ovoga članka. (3) Zaštitne mjere propisane ovim Zakonom i posebnim zakonima mogu se, ako ovim Zakonom nije propisano drukčije, propisati i primijeniti u trajanju koje ne može biti kraće od jednog mjeseca niti dulje od dvije godine. Zaštitna mjera oduzimanja predmeta primjenjuje se trajno. (4) Zaštitne mjere predviđene za fizičku osobu primjenjuju se i na odgovornu osobu u pravnoj osobi, obrtnika ili drugu osobu koja obavlja samostalnu djelatnost. Svrha zaštitnih mjera",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B25161168F80417E4471E156990D101A2DC036C27CC31AA1587BFFA35D3DC7DB",
+    "sha256_datoteke": "EAC02928E466FD764A378065C9310F44C8799B8764EBD2CD377457E0F4D2DC79",
+    "napomena": null
+  }
+}

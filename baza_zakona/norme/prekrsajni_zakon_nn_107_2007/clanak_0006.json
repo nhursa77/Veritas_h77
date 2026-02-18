@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". Opća svrha propisivanja i izricanja ili primjene svih prekršajnopravnih sankcija jest da svi građani poštuju pravni sustav i da nitko ne počini prekršaj, te da se počinitelji prekršaja ubuduće tako ponašaju. Ograničenja u propisivanju i primjeni prekršajnopravnih sankcija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "452F7978747BE92061EA4FC2F34D5806B9FF114DDBB5EE5C396241F2FEA06435",
+    "sha256_datoteke": "09E33F4B6F63728D3270B6359CA829F5808F502A26AF872D8702042E91CDDEE3",
+    "napomena": null
+  }
+}

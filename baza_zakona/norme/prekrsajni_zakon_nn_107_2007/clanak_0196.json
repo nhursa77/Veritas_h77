@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "196",
+    "naslov": null,
+    "tekst": ". Povreda materijalnog prekršajnog prava postoji ako je zakon ili na njemu utemeljen propis povrijeđen u pitanju: 1. je li djelo za koje se protiv okrivljenika vodi postupak prekršaj, 2. ima li okolnosti koje isključuju krivnju, 3. ima li okolnosti koje isključuju prekršajni progon a osobito je li nastupila zastara prekršajnog progona ili je stvar već pravomoćno presuđena, 4. je li glede prekršaja koji je predmet optužbe primijenjen propis koji se ne može primijeniti, 5. je li odlukom o kazni, uvjetnoj osudi ili opomeni odnosno odlukom o zaštitnoj mjeri ili o oduzimanju imovinske koristi prekoračena ovlast koju sud ima po zakonu, 6. jesu li povrijeđene odredbe o uračunavanju uhićenja, zadržavanja i izdržane kazne. Pogrešno ili nepotpuno utvrđeno činjenično stanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A31E3405B6B5B719445C81957FE5184B58E247FF48F640A060504929C94896DE",
+    "sha256_datoteke": "4D831AEBE1B12D56D8BC82D07B7DDEC048A328BE9605A85D52496F743016F90A",
+    "napomena": null
+  }
+}

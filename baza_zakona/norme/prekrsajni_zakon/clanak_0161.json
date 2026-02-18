@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "161",
+    "naslov": null,
+    "tekst": ". (1) Sudac kojemu je predmet dodijeljen u rad, po najprije će ispitati je li nadležan i ako ustanovi da nije, rješenjem će se oglasiti nenadležnim i po pravomoćnosti rješenja predmet ustupti nadležnom sudu. (2) Ako se nije oglasio nenadležnim, sud će ispitati je li optužni prijedlog sastavljen sukladno članku 160. ovoga Zakona i postoje li okolnosti zbog kojih nije moguće voditi prekršajni postupak. (3) Ako u optužnom prijedlogu nedostaje koji od podataka iz članka 160. stavka 2. ovoga Zakona jer ih tužitelj nije mogao pribaviti a podaci koji nedostaju nisu takvi da bez njih ne može započeti postupak, postupak će se nastaviti, a tužitelj ili sud po službenoj dužnosti pribaviti će nedostajuće podatke tijekom postupka. (4) Ako u optužnom prijedlogu nedostaju podaci iz članka 160. stavka 2. ovoga Zakona bez kojih nije moguće voditi postupak ili su podaci pogrešni, sud će pozvati tužitelja da nadopuni ili ispravi optužni prijedlog u roku od 8 dana. Ako tužitelj to ne učini, sud će rješenjem odbaciti optužni prijedlog. (5) Ispitujući optužni prijedlog, sud će donijeti presudu kojom se optužba odbija ako: 1. podnositelj optužnog prijedloga nije ovlašteni tužitelj, 2. postoje okolnosti koje isključuju prekršajni progon, 3. je tužitelj odustao od optužnog prijedloga. (6) Ako sud, ispitujući optužni prijedlog nađe da djelo koje se okrivljeniku stavlja na teret nije prekršaj, odmah će donijeti presudu kojom se okrivljenik oslobađa optužbe. (7) Ako sud smatra da za to postoje uvjeti predviđeni ovim zakonom, odmah će izdati prekršajni nalog. Pripreme za glavnu raspravu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F4D065D259D8F2FFAC3C266F629522B74C570835BC327603D6B2B8B6DC7D0E16",
+    "sha256_datoteke": "E03F9F34F30628C6A71A20D91B2830BF75C78D8B63B23526ABD38FC5B9B2AEA5",
+    "napomena": null
+  }
+}
