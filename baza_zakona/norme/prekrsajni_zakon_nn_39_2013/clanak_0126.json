@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "126",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »Molba za povrat u prijašnje stanje ne zadržava izvršenje odluke iz članka 124. stavka 1. ovoga Zakona, osim ako sud nadležan za odlučivanje o molbi na prijedlog podnositelja molbe u posebno opravdanim slučajevima odluči da se s izvršenjem zastane do donošenja odluke o molbi.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "092B44B4147CBF9F3D9AAD9223CC4B14D8578CB856EA6184467180E83C7D0B3B",
+    "sha256_datoteke": "531838F9787EF4149FA1AC7D33CF4EDE85382BBFCE40E4AC544427897CF017EB",
+    "napomena": null
+  }
+}

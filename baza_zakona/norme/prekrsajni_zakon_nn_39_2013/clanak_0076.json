@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ".a (1) Predmeti i sredstva koji su bili namijenjeni ili uporabljeni za počinjenje prekršaja ili su nastali njegovim počinjenjem oduzet će se ako postoji opasnost da će se ponovno uporabiti za počinjenje prekršaja. Sud može oduzeti predmete i sredstva i kada je njihovo oduzimanje potrebno radi zaštite opće sigurnosti, javnog poretka, zaštite zdravlja ljudi ili iz moralnih razloga. (2) Ako su ispunjene pretpostavke iz stavka 1. ovoga članka, sud će oduzeti predmete i sredstva i kada postupak nije završen osuđujućom presudom. (3) Predmeti koje prema zakonu okrivljenik ili druga osoba ne može posjedovati ili predmeti čije je posjedovanje ili promet zabranjen ili ograničen ili predmeti namijenjeni prometu, ali se u promet mogu pustiti samo pod posebnim uvjetima (s nadzornim markicama i slično), oduzet će se i kad postupak nije završen osuđujućom presudom. Sud može na prijedlog ovlaštenog tužitelja narediti njihovo uništenje i prije završetka postupka. (4) Oduzeti predmeti i sredstva postaju vlasništvo Republike Hrvatske. To ne utječe na pravo trećih osoba za naknadu štete prema počinitelju zbog oduzetog predmeta ili sredstva. Vlasnik oduzetog predmeta ili sredstva koji nije počinitelj djela ima pravo na povrat predmeta i sredstva ili naknadu njihove tržišne vrijednosti iz državnog proračuna, osim ako je najmanje krajnjom nepažnjom pridonio da predmet ili sredstvo bude namijenjeno ili uporabljeno za počinjenje prekršaja ili da nastane njegovim počinjenjem ili ako je pribavio predmet ili sredstvo znajući za okolnosti koje omogućuju njegovo oduzimanje. (5) Zakonom se može propisati obvezno oduzimanje predmeta ili sredstva, u kojem slučaju vlasnik nema pravo na naknadu iz državnog proračuna, ako posebnim zakonom nije drukčije određeno. (6) Sud može na prijedlog ovlaštenog tužitelja narediti uništenje predmeta ili sredstava i prije završetka postupka ako utvrdi da predstavljaju izravnu opasnost za život i zdravlje.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "44E4E96EE3C3B4B8D25F18BC48D7EE3A54F40223A6E2BAEA469D059E124ECF12",
+    "sha256_datoteke": "4599B0E73EE0097B244E174BA771426C4414364FC602DCA9B7D7389CBB70D5CA",
+    "napomena": null
+  }
+}

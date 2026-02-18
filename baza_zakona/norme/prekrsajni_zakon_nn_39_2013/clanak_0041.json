@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "41",
+    "naslov": null,
+    "tekst": ". U članku 138. stavku 2. točka 3. mijenja se i glasi: \"3. paušalni iznos troškova prekršajnog postupka: a) tijela postupka kada vode postupak, b) prekršajnog suda kada odlučuje o prigovoru (članak 238. stavak 11. i članak 244. stavak 2.) i kada odlučuje o žalbi tužitelja i okrivljenika ili samo o žalbi okrivljenika (članak 94. stavak 1. točka 3.), kada je donio odluku kojom je pravomoćno utvrđena prekršajna odgovornost okrivljenika, c) Visokog prekršajnog suda Republike Hrvatske kada je donio odluku kojom je pravomoćno utvrđena prekršajna odgovornost okrivljenika, ako je odlučivao o žalbi tužitelja i okrivljenika ili samo o žalbi okrivljenika.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "13D9FE9E3960B3598455239E6455DCE8F74CA4AEB01F956C35A565E19B42FF71",
+    "sha256_datoteke": "63BB22134812529FC73B96394E13EA662ECC5F412E06C60C21218E96DA074C5E",
+    "napomena": null
+  }
+}

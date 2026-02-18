@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 16. iza stavka 1. dodaje se stavak 2. koji glasi: »(2) Sastoji li se počiniteljeva djelatnost iz više vremenski odvojenih radnji, prekršaj je počinjen danom posljednje radnje, a kod prekršaja kod kojih radnja traje, danom prestanka radnje.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BF07C331DCEF54EBEBD9EB098A1532D5ACD1B90A7A8CE5C8674FA7D0C0AE751A",
+    "sha256_datoteke": "DFCA1E877254C35C68762DDA0FC73CE8DC7AE8265BAAC50B6E655F32EFF36AE9",
+    "napomena": null
+  }
+}

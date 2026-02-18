@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". U članku 245. stavku 1. riječi: »2.000,00 kuna« zamjenjuju se riječima: »265,45 eura«, riječi: »5.000,00 kuna« zamjenjuju se riječima: »663,61 eura«, a riječi: »15.000,00 kuna« zamjenjuju se riječima: »1990,84 eura«. U stavku 8. riječi: »1.000,00 kuna« zamjenjuju se riječima: »132,72 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4D715DF31A0F74DC8CB4DC2603F508EE0DD79CFB2A8908963073FBE3D31CF948",
+    "sha256_datoteke": "2C034414B94B8850667EE69222287A1653BAD2116CB049A794C1E2B21748028B",
+    "napomena": null
+  }
+}

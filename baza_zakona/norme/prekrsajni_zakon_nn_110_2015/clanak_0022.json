@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". U članku 172. stavku 2. prva rečenica mijenja se i glasi: »Kada se okrivljenik prvi put ispituje zbog prekršaja za koji je alternativno propisana kazna zatvora ili kada je u smislu članka 134. ovoga Zakona uhićen i doveden pred sud, sudac ga je dužan upozoriti o pravu na branitelja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1014DA354B78A1857C11557410798D4A4AFC550192F3F55D4BF5A25D6C6712C8",
+    "sha256_datoteke": "1035D092CD925D544C06645F4114689EC56CEB6063F3D51CD4C1D9ED144878CA",
+    "napomena": null
+  }
+}

@@ -2,19 +2,63 @@
   "paket": {
     "slug": "prekrsajni_v1",
     "naziv": "Prekršajni paket v1",
-    "napomena": "Core + vezani akti; svi izvori moraju biti pročišćeni tekst iz NN"
+    "napomena": "Core + amandmani; dokazni izvor je NN (HTML ili ELI PDF fallback)"
   },
   "akti": [
     {
       "akt_slug": "prekrsajni_zakon",
+      "oznaka_akta": "NN 107/2007",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2007/107/pdf",
+      "tip_teksta": "procisceni",
       "required": true
     },
     {
-      "akt_slug": "zakon_o_kaznenom_postupku",
+      "akt_slug": "prekrsajni_zakon_nn_39_2013",
+      "oznaka_akta": "NN 39/2013",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2013/39/pdf",
+      "tip_teksta": "amandmani",
       "required": false
     },
     {
-      "akt_slug": "kazneni_zakon",
+      "akt_slug": "prekrsajni_zakon_nn_157_2013",
+      "oznaka_akta": "NN 157/2013",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_12_157_3294.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2013/157/pdf",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "prekrsajni_zakon_nn_110_2015",
+      "oznaka_akta": "NN 110/2015",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2015/110/pdf",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "prekrsajni_zakon_nn_70_2017",
+      "oznaka_akta": "NN 70/2017",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2017/70/pdf",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "prekrsajni_zakon_nn_118_2018",
+      "oznaka_akta": "NN 118/2018",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/118/pdf",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "prekrsajni_zakon_nn_114_2022",
+      "oznaka_akta": "NN 114/2022",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/pdf",
+      "tip_teksta": "amandmani",
       "required": false
     }
   ]

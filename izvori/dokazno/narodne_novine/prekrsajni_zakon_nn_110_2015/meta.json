@@ -1,0 +1,20 @@
+{
+    "naziv_akta":  "prekrsajni_zakon_nn_110_2015",
+    "vrsta_akta":  "zakon",
+    "slug":  "prekrsajni_zakon_nn_110_2015",
+    "izvor":  "Narodne novine",
+    "naziv_izvora":  "Narodne novine",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+    "eli_pdf_url":  "https://narodne-novine.nn.hr/eli/sluzbeni/2015/110/pdf",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  51214,
+    "oznaka_akta":  "NN 110/2015",
+    "datum_pristupa":  "18.02.2026.",
+    "sha256_datoteke":  "2632C75F4B9E93D56342ACEC08E02FA09DB5E40F23A1897374DBA63924ED64EC",
+    "format":  "html",
+    "napomena":  "Dokazni NN izvor (HTML; ELI PDF fallback ako sadrÅ¾aj nedostupan).",
+    "tip_teksta":  "amandmani",
+    "ocekivani_broj_clanaka":  0,
+    "preferenca":  40
+}

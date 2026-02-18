@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "57",
+    "naslov": null,
+    "tekst": ". U članku 245. stavci 1. i 2. mijenjaju se i glase: »(1) Ako zakonom nije određeno drukčije, novčana se kazna može naplatiti na mjestu počinjenja prekršaja u visini polovice propisanog minimuma ili polovice točno određenog iznosa novčane kazne propisane propisom o prekršaju za prekršaj za koji je kao kazna propisana samo novčana kazna do 2.000,00 kuna za fizičku i odgovornu osobu u pravnoj osobi, do 5.000,00 kuna za okrivljenika fizičku osobu obrtnika i fizičku osobu koja se bavi drugom samostalnom djelatnošću i do 15.000,00 kuna za pravnu osobu i s njom izjednačene subjekte, ako je službena osoba ovlaštenog tužitelja, osim oštećenika, prekršaj utvrdila: 1. obavljanjem nadzora u okviru svoje nadležnosti, 2. neposrednim opažanjem, 3. uporabom tehničkih uređaja, 4. pregledom vjerodostojne dokumentacije. (2) Kada se radi o prekršaju pravne osobe i u njoj odgovorne osobe, novčana se kazna može naplatiti, prema pravilima iz stavka 1. ovoga članka, pravnoj osobi i odgovornoj osobi i kada su za to ostvareni uvjeti iz stavka 1. ovoga članka samo u odnosu na pravnu osobu.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "59494E082D49649183A2A53F178478FC14E86648033C336BCE80BB97888694EF",
+    "sha256_datoteke": "074739C03E3AEEFA7EA2C607D9FA15811F1958DB6DD187F46F541ABD7581E24F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": ". U članku 184. iza stavka 4. dodaju se stavci 5. i 6. koji glase: »(5) Posebnim se zakonom može propisati da ovlašteni tužitelj pravna osoba s javnim ovlastima kojoj je posebnim zakonom utvrđen status neovisnog regulatora, kada primi nepravomoćnu odluku o prekršaju može je objaviti na svojoj mrežnoj stranici, uz naznaku da je odluka nepravomoćna. U tom slučaju dužan je objaviti i podnesene redovite pravne lijekove protiv odluke i ishod postupka po pravnim lijekovima. Posebnim se zakonom može propisati kada se iznimno identitet počinitelja prekršaja neće objaviti. (6) Kada u postupku dostave nepravomoćne odluke o prekršaju ili u roku za podnošenje pravnog lijeka protiv odluke o prekršaju istekne zakonom propisani rok za zastaru prekršajnog progona, rješenjem će se utvrditi da je nastupila zastara prekršajnog progona i prekršajni postupak obustaviti.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8167845981ABEC1607F71609A10479AA0369AE22A124B31BAF0FE657FEB674EC",
+    "sha256_datoteke": "8421B1AB07E1F310C022849D60EB0D11370340FFE90214378F9BE2CB335CE29F",
+    "napomena": null
+  }
+}

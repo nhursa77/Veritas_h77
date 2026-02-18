@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Prekršajnom zakonu (»Narodne novine«, br. 107/07., 39/13. i 157/13.) članak 14.b mijenja se i glasi: »(1) Izvršenje odluke o oduzimanju predmeta i troškovima prekršajnog postupka zastarijeva po proteku pet godina od pravomoćnosti odluke kojom je isto izrečeno. (2) Izvršenje odluke o oduzimanju imovinske koristi ne zastarijeva.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4D4AB3E2DEBFA940B3EC3A72D87A07F170370A1F29A01867C1CDC4A03B50DEE4",
+    "sha256_datoteke": "22DF84AF3DFFAE5614F26F7B911BB93EC87DB1B67D68C458768F6E3B4CC57A1D",
+    "napomena": null
+  }
+}

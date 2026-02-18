@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 184. stavku 5. iza riječi: »tužitelj« dodaju se riječi: »za prekršaj iz članka 33. stavka 10. ovoga Zakona i ovlašteni tužitelj«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 70/2017",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9173966D2BA679B1C597B3E995E48F6F3A40A771A24B4E05E08E44F44B4D27A1",
+    "sha256_datoteke": "BC41CB40F7DA40001CBF7E27A14647875D39F81F3F24EECB9857F90489DAE852",
+    "napomena": null
+  }
+}

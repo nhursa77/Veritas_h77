@@ -1,0 +1,20 @@
+{
+    "naziv_akta":  "prekrsajni_zakon_nn_39_2013",
+    "vrsta_akta":  "zakon",
+    "slug":  "prekrsajni_zakon_nn_39_2013",
+    "izvor":  "Narodne novine",
+    "naziv_izvora":  "Narodne novine",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+    "eli_pdf_url":  "https://narodne-novine.nn.hr/eli/sluzbeni/2013/39/pdf",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  105259,
+    "oznaka_akta":  "NN 39/2013",
+    "datum_pristupa":  "18.02.2026.",
+    "sha256_datoteke":  "FDC6ECDE30AF1B19E954F8E69F81D733857CD31BABBBE9CD5EA848F96BB2DB7F",
+    "format":  "html",
+    "napomena":  "Dokazni NN izvor (HTML; ELI PDF fallback ako sadrÅ¾aj nedostupan).",
+    "tip_teksta":  "amandmani",
+    "ocekivani_broj_clanaka":  0,
+    "preferenca":  40
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". Iza članka 1. dodaje se članak 1.a koji glasi: »Članak 1.a Ovaj Zakon sadrži odredbe usklađene sa sljedećim aktima Europske unije: – Direktivom 2010/64 od 20. listopada 2010. o pravu na tumačenje i prijevod u kaznenom postupku, – Direktivom 2012/13/EU od 22. svibnja 2012. o pravu na informaciju u kaznenom postupku.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "48BE6899993E8385D42F9640803CAF847B52328469811B20DBF11B34AB7CBD9E",
+    "sha256_datoteke": "91A63EBD3BB93131CC5D5B9205D11B9C88BCA6F5C8EFDCB5C74D85449798CBB4",
+    "napomena": null
+  }
+}

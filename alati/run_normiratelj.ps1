@@ -179,14 +179,20 @@ try {
         exit $LASTEXITCODE
     }
 
-    New-Item -ItemType Directory -Force -Path $operativniOutDir | Out-Null
-    Get-ChildItem -LiteralPath $operativniOutDir -Filter "clanak_*.json" -File -ErrorAction SilentlyContinue | Remove-Item -Force
-    Remove-Item -LiteralPath (Join-Path $operativniOutDir "IZVJESTAJ_NORMIRANJA.md") -ErrorAction SilentlyContinue
+    if ($sourceSlug -eq $AktSlug) {
+        Write-Host "Operativni set ažuriran: $operativniOutDir (izvor=isti akt slug)"
+    }
+    else {
+        New-Item -ItemType Directory -Force -Path $operativniOutDir | Out-Null
+        Get-ChildItem -LiteralPath $operativniOutDir -Filter "clanak_*.json" -File -ErrorAction SilentlyContinue | Remove-Item -Force
+        Remove-Item -LiteralPath (Join-Path $operativniOutDir "IZVJESTAJ_NORMIRANJA.md") -ErrorAction SilentlyContinue
 
-    Copy-Item -Path (Join-Path $sourceOutDir "clanak_*.json") -Destination $operativniOutDir -Force
-    Copy-Item -LiteralPath (Join-Path $sourceOutDir "IZVJESTAJ_NORMIRANJA.md") -Destination (Join-Path $operativniOutDir "IZVJESTAJ_NORMIRANJA.md") -Force
+        Copy-Item -Path (Join-Path $sourceOutDir "clanak_*.json") -Destination $operativniOutDir -Force
+        Copy-Item -LiteralPath (Join-Path $sourceOutDir "IZVJESTAJ_NORMIRANJA.md") -Destination (Join-Path $operativniOutDir "IZVJESTAJ_NORMIRANJA.md") -Force
 
-    Write-Host "Operativni set ažuriran: $operativniOutDir (izvor: $sourceOutDir)"
+        Write-Host "Operativni set ažuriran: $operativniOutDir (izvor: $sourceOutDir)"
+    }
+
     Write-Host "Selection report: $selectionReportPath"
 }
 finally {

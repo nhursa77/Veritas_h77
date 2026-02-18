@@ -1,0 +1,20 @@
+{
+    "naziv_akta":  "prekrsajni_zakon_nn_70_2017",
+    "vrsta_akta":  "zakon",
+    "slug":  "prekrsajni_zakon_nn_70_2017",
+    "izvor":  "Narodne novine",
+    "naziv_izvora":  "Narodne novine",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+    "eli_pdf_url":  "https://narodne-novine.nn.hr/eli/sluzbeni/2017/70/pdf",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  60880,
+    "oznaka_akta":  "NN 70/2017",
+    "datum_pristupa":  "18.02.2026.",
+    "sha256_datoteke":  "D8A4CCF746DD62D317CD7411C21BE31479B20F4C208699BF6FE08D89B5FC39A5",
+    "format":  "html",
+    "napomena":  "Dokazni NN izvor (HTML; ELI PDF fallback ako sadrÅ¾aj nedostupan).",
+    "tip_teksta":  "amandmani",
+    "ocekivani_broj_clanaka":  0,
+    "preferenca":  40
+}

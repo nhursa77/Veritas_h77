@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "109",
+    "naslov": null,
+    "tekst": ".e (1) Nakon uručenja počinitelju obavijesti iz članka 109.a stavka 1. ovoga Zakona, ovlašteni tužitelj iz članka 109. stavka 1. točaka 1. do 3. ovog Zakona i počinitelj mogu pregovarati o uvjetima priznavanja krivnje i sporazumijevanju o sankciji i mjerama. (2) Ovlašteni tužitelj i okrivljenik mogu i tijekom postupka, prije donošenja odluke o prekršaju, na prijedlog okrivljenika ili tijela postupka pregovarati o uvjetima priznavanja krivnje i sporazumijevanju o sankciji i mjerama. (3) Ako ovlašteni tužitelj i počinitelj postignu sporazum iz stavka 1. ili stavka 2. ovog članka, sastavljaju o tome pisanu izjavu za donošenje odluke o prekršaju na temelju sporazuma stranaka koja sadrži: 1) opis prekršaja, 2) izjavu okrivljenika o priznavanju krivnje za taj prekršaj, 3) sporazum o vrsti i mjeri kazne ili druge sankcije odnosno mjere, 4) sporazum o troškovima ovlaštenog tužitelja u vezi s utvrđenjem prekršaja, 5) potpis stranaka. (4) Sastavljena izjava iz stavka 3. ovog članka, a ako se radi o sporazumu iz stavka 1. ovog članka i pisana obavijest iz članka 109.a stavka 1. ovog Zakona, predaju se tijelu postupka koje će odlučiti o njezinu prihvaćanju. (5) Tijelo postupka neće prihvatiti sporazum stranaka koji je s obzirom na pravila o izboru vrste i visine sankcije na štetu okrivljenika ili se neće postići svrha kažnjavanja ili koji nije zakonit. (6) Ako ne prihvati sporazum stranaka iz stavka 1. ovog članka, postignuti sporazum će se smatrati optužnim prijedlogom i tijelo postupka će provesti postupak u kojem će raspraviti okolnosti zbog kojih nije prihvatio sporazum i donijeti odgovarajuću odluku o prekršaju. (7) Ako ne prihvati sporazum stranaka iz stavka 2. ovog članka, tijelo postupka će rješenjem odbaciti sporazum i nastaviti s postupkom. Protiv ovog rješenja nije dopuštena žalba. (8) Ako prihvati sporazum stranaka, tijelo postupka će donijeti odluku o prekršaju koja mora u cijelosti odgovarati postignutom sporazumu stranaka. (9) Protiv odluke o prekršaju iz stavka 8. ovog članka žalba nije dopuštena.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B6F9DA96D7276FA8FB7D8DD3BC369F4C6D411C5E436B1E058E89F75FF8B8147B",
+    "sha256_datoteke": "A91DDECFFAC32EB9787BC0333EB0FAFE7E941CC4087C130960F62BEE4D0299C4",
+    "napomena": null
+  }
+}

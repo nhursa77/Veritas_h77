@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "186",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Pogreške u imenima i brojevima te druge očite pogreške ili propusti u pisanju i računanju, nedostatke u obliku i nesuglasnosti napisane odluke o prekršaju i druge odluke s izvornikom ispravit će, posebnim rješenjem, sudac odnosno predsjednik vijeća na zahtjev stranaka ili po službenoj dužnosti. (2) Nakon pravomoćnosti rješenja iz stavka 1. ovoga članka sudac odnosno predsjednik vijeća će izraditi novi prijepis odluke o prekršaju odnosno druge odluke s ispravcima, koji će osobama iz članka 184. ovoga Zakona dostaviti zajedno s rješenjem o ispravku. Ispod naziva odluke s ispravcima naznačit će se: (ispravak). (3) Protiv rješenja o ispravku nepravomoćne odluke o prekršaju ili druge odluke nije dopuštena posebna žalba, dok je protiv rješenja o ispravku pravomoćne odluke o prekršaju ili druge odluke žalba dopuštena, osim u slučaju iz članka 211. stavka 4. ovoga Zakona. (4) U slučajevima iz prethodnih stavaka, rok za žalbu protiv nepravomoćne odluke o prekršaju i druge odluke teče od dana dostave novog prijepisa odluke o prekršaju ili druge odluke s ispravcima.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "79FC624AD87CD568953A26576221BEA08ED253550AB8D8D976473F6800805E8B",
+    "sha256_datoteke": "F40CD5C4EFB88F6B1969A9D3901B103E5921DAFC222B7758903A689FE0021C50",
+    "napomena": null
+  }
+}

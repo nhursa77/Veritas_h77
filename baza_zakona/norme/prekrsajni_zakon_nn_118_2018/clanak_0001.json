@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Prekršajnom zakonu (»Narodne novine«, br. 107/07., 39/13., 157/13. 110/15. i 70/17.) u članku 33. stavku 7. iza riječi: »a za prekršaj u području« dodaju se riječi: »poreza, carine i financija te«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "86752A6A27F1E66B8708469A242A83F6B516C793367258A6EB762ACE38E0DF2B",
+    "sha256_datoteke": "A070130C83887A29D9D2719256331C0C30766EAF4BA4126DF33EB5437FEB0C6B",
+    "napomena": null
+  }
+}

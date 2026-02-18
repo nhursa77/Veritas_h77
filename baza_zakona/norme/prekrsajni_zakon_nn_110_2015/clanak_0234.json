@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "234",
+    "naslov": null,
+    "tekst": ".a (1) Ovlašteni izdavatelj prekršajnog naloga može na mjestu počinjenja prekršaja sastaviti obavijest na elektroničkom uređaju u elektronskom obliku i takvu obavijest ispisati i uručiti počinitelju prekršaja na mjestu počinjenja prekršaja. (2) Obavijest iz stavka 1. ovoga članka sadrži: osobne podatke o počinitelju prekršaja, pravnu oznaku prekršaja, iznos novčane kazne, vrstu mjere koja se izriče, iznos troškova postupka, oznaku prekršajnog naloga i popis svih pripadajućih pismena sastavljenih u elektronskom obliku na elektroničkom uređaju tijekom utvrđivanja prekršaja u čiji sadržaj je počinitelju prekršaja omogućen uvid ili mu je sadržaj pročitan, uputu o mogućnosti uručenja prekršajnog naloga i svih pripadajućih pismena u pisanom obliku kod tijela koje je odluku donijelo, mjesto za unos primjedbi koje počinitelj prekršaja izjavljuje, prostor za potpis primatelja odnosno naznaku o dostavi i naznaku počinitelju prekršaja o tome što može poduzeti nakon primitka obavijesti. (3) Obavijest se sastavlja pod elektronski generiranim brojem (kodom) koji sadržavaju i prekršajni nalog i sva pismena sačinjena prilikom utvrđivanja prekršaja koji se ispisom obavijesti elektronski zaključavaju i onemogućava se naknadna izmjena. (4) Potpisom obavijesti iz stavka 1. ovoga članka počinitelj prekršaja potvrđuje da je upoznat sa sadržajem prekršajnog naloga i pismena koja su tijekom utvrđivanja prekršaja u njegovoj prisutnosti sačinjena na elektroničkom uređaju.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "835FAE170062DFE2B93C0B193ABC7555B6B4E04232EDA286962AD5D84F0B9712",
+    "sha256_datoteke": "8137E365A72E72F6032A643402A403942BCB00787D50B4E09792AD846A115B0A",
+    "napomena": null
+  }
+}

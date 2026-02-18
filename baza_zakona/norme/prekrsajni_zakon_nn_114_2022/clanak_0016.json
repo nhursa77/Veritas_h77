@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". U članku 248. stavku 1. riječi: »dvije tisuće kuna« zamjenjuju se riječima: »265,45 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8549F939F0C2BB2276C76E7819289A0BB6462835EF4AE2B98C36340A129040DC",
+    "sha256_datoteke": "3A236B2F7AF4ED4B88C13D21A9F577A4914A70EA9AF3E2929C8A7881DD92B906",
+    "napomena": null
+  }
+}

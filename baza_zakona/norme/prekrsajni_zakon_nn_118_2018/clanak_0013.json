@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". U članku 125. stavak 2. mijenja se i glasi: »(2) O molbi za povrat u prijašnje stanje odlučuje Visoki prekršajni sud Republike Hrvatske.«. U stavku 3. riječi: »nadležni će sud« zamjenjuju se riječima: »Visoki prekršajni sud Republike Hrvatske će«. Stavak 4. mijenja se i glasi: »(4) Nakon donošenja rješenja iz stavka 3. ovoga članka Visoki prekršajni sud Republike Hrvatske će, osim u slučaju iz stavka 3. točke 4. ovoga članka, rješenjem odlučiti o pravodobnosti žalbe.«. U stavku 6. riječi: »nadležni će sud« zamjenjuju se riječima: »Visoki prekršajni sud Republike Hrvatske će«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F972D44D9FD609658529DC19EA9D6F9D23BD0170C21BD0A62266D23384061457",
+    "sha256_datoteke": "5B8790A61ECD795A5C816C01C0662F29DCE0B884A7AD836E6D26294516E18BCD",
+    "napomena": null
+  }
+}

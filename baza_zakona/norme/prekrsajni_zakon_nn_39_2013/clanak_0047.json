@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "47",
+    "naslov": null,
+    "tekst": ". Iza članka 171. dodaje se članak 171.a koji glasi: »Članak 171.a (1) Kada se okrivljenik prvi puta ispituje, prije uzimanja njegove obrane, tražit će se od njega da se očituje o optužnom prijedlogu i krivnji za prekršaj za koji se tereti. (2) Ako se okrivljenik očitovao krivim u odnosu na sve točke optužnog prijedloga, okolnosno će se ispitati na sve točke optužnog prijedloga. (3) Ako sud okrivljenikovo priznanje ocijeni sukladnim dokazima u spisu, u nastavku dokaznog postupka izvest će samo dokaze koji se odnose na odluku o prekršajnopravnim sankcijama i drugim mjerama.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A8E4097F13DC2469E2E99F81500D19AA202C4778DFFA35F1E682F9F5710BD40C",
+    "sha256_datoteke": "15446F4A02A24DFD87FD69E8944826B2794F571176EA0C143955A41592A76FBC",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 55. stavak 5. mijenja se i glasi: »(5) Iznimno, okrivljenoj pravnoj osobi za prekršaj iz članka 33. stavka 10. ovoga Zakona sud može izreći trajno zaštitnu mjeru iz stavka 1. ovoga članka.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 70/2017",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CE81CC7819A8E8C684CA5169AACEE18713AB972E2E4E33B0DACC36F85E0A7250",
+    "sha256_datoteke": "3654FDFE4FA86E7BD904CD64F037BD075A761EEC5DE8B38BCDC7946AC32309CA",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". U članku 221. stavku 1. točka 1. mijenja se i glasi: »1. za prekršaje za koje je kao jedina kazna propisana novčana kazna do 1327,23 eura za fizičku osobu, novčana kazna do 3981,68 eura za pravnu osobu i do 1327,23 eura za odgovornu osobu u pravnoj osobi.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EEA693BCEAC2AEB7CAFDA745CEDB804EF77A44CCB7E40849A978E37B36E3051A",
+    "sha256_datoteke": "EF114BE9A09D22D75A94BC986C40D7D6FC4C526CAF4AE9DC4574C31191FA5031",
+    "napomena": null
+  }
+}

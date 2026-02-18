@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "46",
+    "naslov": null,
+    "tekst": ". U članku 161. stavku 4. iza druge rečenice dodaju se rečenice koje glase: »Ako uz optužni prijedlog nije priložena pisana obavijest iz članka 109.a ovoga Zakona, pozvat će se tužitelj da je u određenom roku pribavi, i sastavljenu prema članku 109. a stavku 1. i 2. ovoga Zakona, dostavi. Ako tako ne postupi u ostavljenom roku, odbacit će se rješenjem optužni prijedlog.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AEBDA167F6FCE3FBCDF8122EFAED30B2A50E13209E73BF73A0F0E4D48C9C168B",
+    "sha256_datoteke": "BC65F63753C49C1D3EC95A52C0995E9E8CD6CAB2839D89813C91DC58EEED6C98",
+    "napomena": null
+  }
+}

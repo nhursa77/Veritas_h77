@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 37. stavku 3. iza točke 2. dodaje se nova točka 3. koja glasi: »3. kada je novčana kazna propisana u skladu s člankom 33. stavkom 9. i člankom 33.a ovoga Zakona, ista se može ublažiti do polovice utvrđenog iznosa novčane kazne prema propisanom posebnom minimumu novčane kazne,«. Dosadašnja točka 3. postaje točka 4. Iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Blažu kaznu od propisane za određeni prekršaj sud može izreći i kada su se ovlašteni tužitelj i okrivljenik o tome sporazumjeli, ako je takva kazna u granicama odredbi ovoga Zakona o ublažavanju kazne.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "43830E43424A39BC38C8047820927A29F9A07D41160A16225600F7AEC3202B67",
+    "sha256_datoteke": "B202C2D369642200F20DDB28FD4DF3D4AB4D759A11D34AE3207BC44722A60E42",
+    "napomena": null
+  }
+}

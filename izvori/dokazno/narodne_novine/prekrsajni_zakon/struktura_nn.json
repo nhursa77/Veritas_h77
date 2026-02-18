@@ -1,7 +1,7 @@
 {
   "akt": {
     "slug": "prekrsajni_zakon",
-    "naziv": "Prekršajni zakon",
+    "naziv": "prekrsajni_zakon",
     "vrsta": "zakon",
     "jurisdikcija": "RH",
     "jezik": "hr"
@@ -10,7 +10,7 @@
     "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
     "datum_pristupa": "18.02.2026.",
     "tip_sadrzaja": "text/html; charset=utf-8",
-    "sha256_datoteke": "9BC24449438558103B76524362625ADF35A654632261DC428EAA028FA439FF8D",
+    "sha256_datoteke": "25C1C250499E4D73D80D8AC76CD759EE4902107A746581A24996694314C31E3A",
     "oznaka_akta": "NN 107/2007"
   },
   "parsiranje": {

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": ". Stupanjem na snagu ovog Zakona prestaje važiti Zakon o izvršavanju rada za opće dobro na slobodi i uvjetne osude sa zaštitnim nadzorom u prekršajnom postupku (»Narodne novine«, br. 75/09.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DE4B97A31221CEEFC2015E4995BE001414A4C2DEB0A195A79644F25822331BFB",
+    "sha256_datoteke": "277854E1A9B0FFF8565A20E69B2DC65BCF739F1EC0317A5E5D38848BF6C8E300",
+    "napomena": null
+  }
+}

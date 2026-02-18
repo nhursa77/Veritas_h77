@@ -1,0 +1,20 @@
+{
+    "naziv_akta":  "prekrsajni_zakon_nn_114_2022",
+    "vrsta_akta":  "zakon",
+    "slug":  "prekrsajni_zakon_nn_114_2022",
+    "izvor":  "Narodne novine",
+    "naziv_izvora":  "Narodne novine",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+    "eli_pdf_url":  "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/pdf",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  50613,
+    "oznaka_akta":  "NN 114/2022",
+    "datum_pristupa":  "18.02.2026.",
+    "sha256_datoteke":  "B6ACFFC7CD39458086179FB06E39BAA27EEBBC213AB5D7E99845BBAACE2D6957",
+    "format":  "html",
+    "napomena":  "Dokazni NN izvor (HTML; ELI PDF fallback ako sadrÅ¾aj nedostupan).",
+    "tip_teksta":  "amandmani",
+    "ocekivani_broj_clanaka":  0,
+    "preferenca":  40
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". U članku 54. stavak 7. mijenja se i glasi: »(7) Iznimno, okrivljeniku odgovornoj osobi u pravnoj osobi za prekršaj iz članka 33. stavka 10. ovoga Zakona sud može izreći trajno zaštitnu mjeru iz stavka 1. ovoga članka.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 70/2017",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2017_07_70_1663.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "332DE31D3C8E39112EDFC1C13FCD38060D93DC4BA87876EAC8064618EDF8640E",
+    "sha256_datoteke": "88E60D24ADAC5A0118B045BF1ACFA3D7850DB1539A0A02E29308932D505E27BB",
+    "napomena": null
+  }
+}

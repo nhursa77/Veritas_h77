@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "33",
+    "naslov": null,
+    "tekst": ". Predmete za koje je, na temelju ovoga Zakona, stvarno nadležan Visoki prekršajni sud Republike Hrvatske općinski sudovi dostavit će tom sudu najkasnije u roku od 15 dana od dana stupanja na snagu ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2032CBD9684B9F5C4A48B524F2D3CF2B25883C60733E363EA15ADC5D98F90461",
+    "sha256_datoteke": "5C22797B78634F1F2469A2C79B50F4C239A7C55ED40534828F7136C2B71DFE22",
+    "napomena": null
+  }
+}

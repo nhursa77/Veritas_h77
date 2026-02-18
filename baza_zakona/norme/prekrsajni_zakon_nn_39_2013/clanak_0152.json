@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "152",
+    "naslov": null,
+    "tekst": ".k (1) Radi mogućeg postupanja tijela državne uprave prema članku 152.j ovoga Zakona, ministarstvo nadležno za pravosuđe ustrojit će Registar izrečenih, a u ostavljenom roku neuplaćenih novčanih kazni (u nastavku: Registar). (2) Kada odluka o prekršaju postane pravomoćna, a osuđena osoba kojoj je kazna izrečena ne uplati istu u roku određenom odlukom o prekršaju, sud i drugo tijelo koje je donijelo odluku obavijestit će o tome Registar. (3) Uz obavijest iz stavka 2. ovoga članka dostavit će se pravomoćna odluka o prekršaju, uz naznaku kada nastupa zastara prava na izvršenje novčane kazne. (4) Kada primi obavijesti iz stavaka 2. i 3. ovoga članka, Registar unosi te podatke u jedinstvenu elektroničku bazu izrečenih, a neuplaćenih novčanih kazni. (5) Ako osuđena osoba u međuvremenu uplati novčanu kaznu ili je tijelo nadležno za ovrhu naplati, bez odgode će se o tome obavijestiti Registar. (6) Ministar nadležan za poslove pravosuđa donijet će provedbeni propis o načinu dostave podataka u Registar, unosa podataka u Registar brisanja podataka iz Registra te pravu pristupa u Registar i uvjete i način korištenja podataka iz Registra. (7) Uskrata može trajati do plaćanja novčane kazne, njezine prisilne naplate, a najdulje do nastupanja zastare izvršenja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C281F78630FB5AC265E7921A11E363EE8BA098D4FC7D13719444AC05C590DB4B",
+    "sha256_datoteke": "1054098D460366E353B52041C642654B6C20B1C3339E8B790938A59B42782BE7",
+    "napomena": null
+  }
+}

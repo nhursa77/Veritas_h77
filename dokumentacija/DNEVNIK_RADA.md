@@ -237,3 +237,14 @@ Dodan je guardrail `FOUND_MULTIPLE_ACTS_IN_PDF` koji završava parser s
 `run_normiratelj.ps1 -AktSlug prekrsajni_zakon` i
 `acceptance_preflight.ps1 -AktSlug prekrsajni_zakon` prolaze na NN izvoru,
 bez operativnog oslanjanja na `zakon.hr`.
+
+### PAKET_PREKRSAJNI_V1 — ingest core + amandmani (generički)
+`PAKET_PREKRSAJNI_V1` je proširen na core + 6 amandmana:
+`NN 39/2013`, `157/2013`, `110/2015`, `70/2017`, `118/2018`, `114/2022`.
+Dodana je generička skripta `alati/ingest_paket.ps1` (bez per-zakon skripti)
+koja po manifestu radi: dohvat NN izvora, parsiranje, normiranje i preflight.
+`alati/acceptance_paket.ps1` usklađen je s kodovima izlaza:
+`0` (sve OK), `20` (required fail), `21` (optional fail), `22` (manifest invalid).
+Acceptance rezultat za paket je deterministički:
+core (`prekrsajni_zakon`) prolazi, optional amandmani trenutno padaju bez
+kontrolnog TXT izvora pa paket završava s `exit 21` (bez crash-a).

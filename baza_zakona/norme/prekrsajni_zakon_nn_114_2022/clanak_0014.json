@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 239. stavku 1. točka 2. mijenja se i glasi: »2. prekršaj propisan zakonom za koji je kao kazna propisana samo novčana kazna do 663,61 eura za fizičku osobu, do 1327,23 eura za počinitelja prekršaja fizičku osobu obrtnika i osobu koja obavlja drugu samostalnu djelatnost, do 1990,84 eura za pravnu osobu i do 663,61 eura za odgovornu osobu u pravnoj osobi. Kod prekršaja pravne osobe i u njoj odgovorne osobe obvezni prekršajni nalog izdat će se kada je uvjet iz ove točke ostvaren u odnosu na počinitelja pravnu osobu.«. U stavku 4. riječi: »200,00 kuna« zamjenjuju se riječima: »26,54 eura«, a riječi: »2.000,00 do 5.000,00 kuna« zamjenjuju se riječima: »265,45 do 663,61 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C9E00FA9CC58CE44BFE0AC18FE58046E9425FAD5C0C1C3307702D82ED2255876",
+    "sha256_datoteke": "358B6018AE55D181E781E3DA0D4B662401518FE671B90B4C4172814D0266B428",
+    "napomena": null
+  }
+}

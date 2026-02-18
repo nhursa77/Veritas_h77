@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 109.e stavku 3. točki 4. iza riječi: »prekršaja«, dodaju se riječi: »kao i o troškovima tijela postupka kada je sporazum postignut tijekom vođenja postupka«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6A30E263CDFF0C6AE5ECC7A5D72ED5A9C2547AD7A1580589D7ACF9643222C191",
+    "sha256_datoteke": "FD94E85379C697792FF98C1EC7E55764EF7055794B4246D26BED4BA2BBBCB4F2",
+    "napomena": null
+  }
+}

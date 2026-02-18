@@ -1,0 +1,370 @@
+{
+  "glavni_akt": {
+    "slug": "prekrsajni_zakon_nn_118_2018",
+    "naziv": "prekrsajni_zakon_nn_118_2018"
+  },
+  "dokumenti": [
+    {
+      "doc_id": "prekrsajni_zakon_nn_118_2018_procisceni",
+      "tip": "zakon_procisceni",
+      "nn": "NN 118/2018",
+      "naslov": "prekrsajni_zakon_nn_118_2018",
+      "clanci": [
+        {
+          "broj": 1,
+          "naslov": null,
+          "tekst": ". U Prekršajnom zakonu (»Narodne novine«, br. 107/07., 39/13., 157/13. 110/15. i 70/17.) u članku 33. stavku 7. iza riječi: »a za prekršaj u području« dodaju se riječi: »poreza, carine i financija te«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 2,
+          "naslov": null,
+          "tekst": ". U članku 58. stavak 2. mijenja se i glasi: »(2) Mjera iz stavka 1. ovoga članka počinje teći od izvršnosti presude.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 3,
+          "naslov": null,
+          "tekst": ". U članku 82. stavku 1. riječ: »prekršajnim« zamjenjuje se riječju: »općinskim«. U stavku 3. iza riječi: »Zakona o kaznenom postupku« dodaju se riječi: »i Zakona o sudovima za mladež«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 4,
+          "naslov": null,
+          "tekst": ". U članku 92. riječi: »prekršajni sud« zamjenjuju se riječima: »općinski sud«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 5,
+          "naslov": null,
+          "tekst": ". U članku 93. stavku 1. riječi: »prekršajni sudovi« zamjenjuju se riječima: »općinski sudovi«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 6,
+          "naslov": null,
+          "tekst": ". Naslov iznad članka 94. mijenja se i glasi: »Nadležnost općinskih sudova u prekršajnim predmetima«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 94,
+          "naslov": null,
+          "tekst": ". mijenja se i glasi: »(1) Općinski sudovi kada rješavaju prekršajne predmete nadležni su: 1. suditi u prvom stupnju za sve prekršaje, osim za one za koje je zakonom propisana nadležnost tijela državne uprave, 2. odlučivati o prigovorima protiv obaveznih prekršajnih naloga svih ovlaštenih izdavatelja, 3. odlučivati o zahtjevu za obnovu prekršajnog postupka: a) u predmetima u kojima su sudili, b) protiv pravomoćnih prekršajnih naloga ovlaštenih tužitelja ako je riječ o prekršajima iz stvarne nadležnosti suda te c) protiv svih pravomoćnih obaveznih prekršajnih naloga, 4. pružati pravnu pomoć prema odredbama međunarodnih ugovora i ovoga Zakona, 5. obavljati i druge poslove propisane zakonom. (2) Općinski prekršajni sud u Zagrebu je isključivo mjesno nadležan za suđenje u postupcima koje kod suda pokreće ovlašteni tužitelj pravna osoba s javnim ovlastima kojoj je posebnim zakonom utvrđen status neovisnog regulatora.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 7,
+          "naslov": null,
+          "tekst": ".",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 95,
+          "naslov": null,
+          "tekst": ". mijenja se i glasi: »Visoki prekršajni sud Republike Hrvatske nadležan je: 1. odlučivati u drugom stupnju o redovnim pravnim lijekovima protiv odluka općinskih sudova u prekršajnim predmetima, odluka tijela državne uprave koja vode prekršajni postupak, odluka ovlaštenih tužitelja i drugih odluka kada je to propisano zakonom, 2. odlučivati o prigovorima protiv prekršajnih naloga svih ovlaštenih izdavatelja kada je prigovor podnesen zbog odluke o prekršajnopravnoj sankciji, troškovima postupka, oduzimanja imovinske koristi ili oduzimanja predmeta, 3. odlučivati o izvanrednim pravnim lijekovima u slučajevima propisanim ovim Zakonom, 4. odlučivati o sukobu nadležnosti između općinskih sudova u prekršajnim predmetima, 5. odlučivati o žalbama u predmetima međunarodne pravosudne suradnje s državama članicama Europske unije iz prekršajne nadležnosti, 6. obavljati druge poslove propisane zakonom.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 8,
+          "naslov": null,
+          "tekst": ".",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 97,
+          "naslov": null,
+          "tekst": ". mijenja se i glasi: »(1) U općinskom sudu, kada rješava prekršajne predmete, odluke donosi sudac pojedinac, ako drukčije nije propisano ovim Zakonom. (2) Visoki prekršajni sud Republike Hrvatske odluke donosi u vijeću od tri suca, ako drukčije nije propisano zakonom.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 9,
+          "naslov": null,
+          "tekst": ". U članku 98. stavak 2. mijenja se i glasi: »(2) Zakonom se može odrediti općinski sud koji će odlučivati u određenoj vrsti prekršaja iz nadležnosti općinskih sudova s područja više općinskih sudova ili na području Republike Hrvatske.«. U stavku 9. riječ: »prekršajnih« zamjenjuje se riječju: »općinskih«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 10,
+          "naslov": null,
+          "tekst": ". U članku 101. stavku 3. riječi: »prekršajnog suda« zamjenjuju se riječima: »općinskog suda koji rješava prekršajne predmete«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 11,
+          "naslov": null,
+          "tekst": ". U članku 103. stavku 3. riječi: »prekršajnih sudova« zamjenjuju se riječima: »općinskih sudova, kada rješavaju prekršajne predmete,«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 12,
+          "naslov": null,
+          "tekst": ". U članku 106. stavci 1. i 2. mijenjaju se i glase: »(1) O zahtjevu za izuzeće iz članka 105. ovoga Zakona odlučuje predsjednik općinskog suda. Ako se istim zahtjevom traži izuzeće suca i predsjednika suda, o izuzeću suca odlučuje zamjenik predsjednika suda, a o izuzeću predsjednika suda, ako se zahtjev odnosi na prekršajni predmet, odlučuje predsjednik Visokog prekršajnog suda Republike Hrvatske. (2) Ako se traži izuzeće predsjednika Visokog prekršajnog suda Republike Hrvatske, odluka o izuzeću donosi se na sjednici svih sudaca toga suda na kojoj pri donošenju odluke o izuzeću ne može sudjelovati predsjednik suda.«. U stavku 5. riječ: »prekršajnog« zamjenjuje se riječju: »općinskog«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 13,
+          "naslov": null,
+          "tekst": ". U članku 125. stavak 2. mijenja se i glasi: »(2) O molbi za povrat u prijašnje stanje odlučuje Visoki prekršajni sud Republike Hrvatske.«. U stavku 3. riječi: »nadležni će sud« zamjenjuju se riječima: »Visoki prekršajni sud Republike Hrvatske će«. Stavak 4. mijenja se i glasi: »(4) Nakon donošenja rješenja iz stavka 3. ovoga članka Visoki prekršajni sud Republike Hrvatske će, osim u slučaju iz stavka 3. točke 4. ovoga članka, rješenjem odlučiti o pravodobnosti žalbe.«. U stavku 6. riječi: »nadležni će sud« zamjenjuju se riječima: »Visoki prekršajni sud Republike Hrvatske će«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 14,
+          "naslov": null,
+          "tekst": ". U članku 138. stavku 2. točka 3. mijenja se i glasi: »3. paušalni iznos troškova prekršajnog postupka: a) tijela postupka kada vode postupak, b) općinskog suda kada odlučuje o prigovoru na obavezni prekršajni nalog (članak 244. stavak 2. ovoga Zakona), c) Visokog prekršajnog suda Republike Hrvatske kada je donio odluku kojom je pravomoćno utvrđena prekršajna odgovornost okrivljenika, ako je odlučivao o redovnom pravnom lijeku tužitelja i okrivljenika ili samo okrivljenika«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 15,
+          "naslov": null,
+          "tekst": ".",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 140,
+          "naslov": null,
+          "tekst": ". mijenja se i glasi: »(1) U odluci kojom se okrivljenik oslobađa od optužbe ili kojom se optužba odbija ili kojom se postupak obustavlja odlučit će se i o troškovima postupka. (2) U slučaju iz stavka 1. ovoga članka izreći će se u presudi da troškovi prekršajnog postupka iz članka 138. stavka 2. točaka 2. do 5. i točke 7. ovoga Zakona padaju na teret proračunskih sredstava suda, osim ako ovim Zakonom nije drukčije određeno. (3) Odredbe ovoga Zakona o troškovima postupka na jednak se način primjenjuju na sve ovlaštene tužitelje. (4) Ako se postupak vodi i dovrši na zahtjev oštećenika tužitelja, obvezat će ga se da podmiri troškove postupka iz članka 138. stavka 2. točaka 2. do 5. ovoga Zakona te nužne izdatke i nagradu branitelja okrivljenika, ako je svjesno podnio lažan optužni prijedlog. (5) Osobe koje imaju pravo na trošak u postupku dužne su postaviti zahtjev za ostvarenje troškova odmah. Sud će te osobe upozoriti da imaju pravo na trošak. Iznimno, ako te osobe nemaju sve podatke potrebne za izračun troška, sud može odobriti da zahtjev postave u roku koji odredi sud, a najdulje u roku od tri mjeseca. (6) Osobe koje zahtjev za isplatu troškova ne postave u roku iz stavka 5. ovoga članka gube pravo na ostvarenje tih troškova. (7) Okrivljenik koji je pravo na troškove stekao nakon donošenja odluke o prekršaju može to pravo ostvariti ako zahtjev za naknadu troškova podnese u roku od tri mjeseca od dana kada mu je uručena pravomoćna odluka o prekršaju. (8) Ako sud nije dijelom ili u cijelosti odlučio o troškovima postupka u odluci o prekršaju, učinit će to posebnim rješenjem. (9) Ako ovim Zakonom nisu obuhvaćena sva pitanja troškova prekršajnog postupka, na odgovarajući će se način, kad to bude primjereno svrsi prekršajnog postupka, primijeniti odredbe Zakona o kaznenom postupku.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 16,
+          "naslov": null,
+          "tekst": ". U članku 152. stavku 7. riječi: »obavijest tijela nadležnog za ovrhu« zamjenjuju se riječima: »odgovarajućim podatkom u smislu stavka 5. ovoga članka«. U stavku 11. na kraju rečenice umjesto točke stavlja se zarez i dodaju riječi: »osim kada je to tijelo postupka Carinska uprava.«. U stavku 12. riječ: »prekršajni« zamjenjuje se riječju: »općinski«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 17,
+          "naslov": null,
+          "tekst": ". U članku 152.a stavku 1. riječ: »prekršajnog« zamjenjuje se riječju: »općinskog«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 18,
+          "naslov": null,
+          "tekst": ". U članku 152.e stavak 5. mijenja se i glasi: »(5) Protiv rješenja kojim se odbija molba za odgodu ili prekid izvršavanja rada za opće dobro osuđenik može u roku od tri dana od primitka rješenja podnijeti žalbu Visokom prekršajnom sudu Republike Hrvatske.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 19,
+          "naslov": null,
+          "tekst": ". U članku 153. iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Podaci iz prekršajne evidencije su neklasificirani podaci u smislu posebnog zakona i smiju se koristiti samo u službene svrhe, a u odnosu na te podatke ne može se ostvariti pravo na pristup informaciji prema zakonu kojim se određuje to pravo.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 20,
+          "naslov": null,
+          "tekst": ". U članku 160. stavku 2. točki 9. iza riječi: »Zakona« dodaju se riječi: »potpisanu od strane počinitelja ili kopiju te obavijesti uz dokaz o dostavi ili potvrdu o obavljenoj dostavi kad je ta obavijest dostavljena sukladno članku 145. ili 148. ovoga Zakona«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 21,
+          "naslov": null,
+          "tekst": ". U članku 161. stavku 4. iza riječi: »članka 109.a ovoga Zakona« dodaju se riječi: »potpisana od strane počinitelja ili kopija te obavijesti uz dokaz o dostavi ili potvrdu o obavljenoj dostavi ako je ta obavijest dostavljena sukladno članku 145. ili 148. ovoga Zakona«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 22,
+          "naslov": null,
+          "tekst": ". U članku 189. stavku 6. riječi: »prekršajnog suda« zamjenjuju se riječima: »općinskog suda«. U stavku 7. riječ: »prekršajnog« zamjenjuje se riječju: »općinskog«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 23,
+          "naslov": null,
+          "tekst": ". U članku 191. stavak 4. briše se. Dosadašnji stavak 5. postaje stavak 4.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 24,
+          "naslov": null,
+          "tekst": ". U članku 202. stavak 1. mijenja se i glasi: »(1) Drugostupanjski sud ispituje presudu u onom dijelu u kojem se pobija žalbom, i to iz osnova i razloga koje žalitelj navodi u žalbi. Po službenoj dužnosti drugostupanjski sud mora uvijek ispitati jesu li počinjene bitne povrede odredaba prekršajnog postupka iz članka 195. stavka 1. točaka 6., 7., 9. i 10. ovoga Zakona, jesu li presudom na štetu okrivljenika povrijeđene odredbe prekršajnog materijalnog prava i je li u postupku nastupila zastara prekršajnog progona.«. U stavku 5. iza riječi: »imovinske koristi« dodaju se riječi: »i oduzimanju predmeta«. U stavku 6. iza riječi: »takva žalba postoji« zarez i riječi: »osim ako se protiv žalitelja presudom odbija optužba zbog nastupanja zastare prekršajnog progona« brišu se.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 25,
+          "naslov": null,
+          "tekst": ". U članku 206. stavku 1. riječi: »stavka 1.« brišu se.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 26,
+          "naslov": null,
+          "tekst": ". U članku 215. stavku 3. riječ: »prekršajnom« zamjenjuje se riječju: »općinskom«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 27,
+          "naslov": null,
+          "tekst": ". U članku 218. stavak 1. mijenja se i glasi: »(1) Zahtjev za izvanredno ublažavanje kazne podnosi se tijelu koje je donijelo u prvom stupnju odluku o prekršaju.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 28,
+          "naslov": null,
+          "tekst": ". U članku 221. stavku 2. riječ: »prekršajni« zamjenjuje se riječju: »općinski«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 29,
+          "naslov": null,
+          "tekst": ". U članku 238. stavku 8. riječi: »nadležni sud« zamjenjuju se riječima: »Visoki prekršajni sud Republike Hrvatske«. U točki 4. zadnja rečenica mijenja se i glasi: »Ako se, u ovom slučaju, radi o prigovoru iz članka 237. stavka 1. točke 2. ovoga Zakona, postupit će se prema stavku 11. ovoga članka.«. U stavku 11. riječi: »nadležnom prekršajnom sudu iz članka 94. stavka 2. ovoga Zakona« zamjenjuju se riječima: »Visokom prekršajnom sudu Republike Hrvatske«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 30,
+          "naslov": null,
+          "tekst": ". U članku 243. stavku 1. riječ: »prekršajnom« zamjenjuje se riječju: »općinskom«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 31,
+          "naslov": null,
+          "tekst": ". U članku 245. stavku 7. riječ: »prekršajnom« briše se, a iza riječi: »sucu« dodaju se riječi: »općinskog suda«. U drugoj rečenici riječi: »Prekršajni će sudac« zamjenjuju se riječima: »Sudac općinskog suda će«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 32,
+          "naslov": null,
+          "tekst": ". U članku 249. briše se oznaka stavka koja glasi: »(1)«. Stavak 2. briše se. PRIJELAZNE I ZAVRŠNE ODREDBE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 33,
+          "naslov": null,
+          "tekst": ". Predmete za koje je, na temelju ovoga Zakona, stvarno nadležan Visoki prekršajni sud Republike Hrvatske općinski sudovi dostavit će tom sudu najkasnije u roku od 15 dana od dana stupanja na snagu ovoga Zakona.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 34,
+          "naslov": null,
+          "tekst": ". Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu 1. siječnja 2019. Klasa: 022-03/18-01/109 Zagreb, 14. prosinca 2018. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 118/2018-2354 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 118/2018 Broj dokumenta u izdanju: 2354 Stranica tiskanog izdanja: 132 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 27.12.2018. ELI: /eli/sluzbeni/2018/118/2354 Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        }
+      ]
+    }
+  ],
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+    "datum_pristupa": "18.02.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "3D255C3F225CE80A5F29772A282350095A35E841F51B9A953BB337CD2B833174",
+    "oznaka_akta": "NN 118/2018"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "18.02.2026.",
+    "broj_dokumenata": 1,
+    "broj_clanaka_ukupno": 38
+  }
+}

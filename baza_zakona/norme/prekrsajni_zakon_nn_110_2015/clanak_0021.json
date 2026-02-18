@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "21",
+    "naslov": null,
+    "tekst": ". U članku 140. stavci 1. i 2. mijenjaju se i glase: »(1) U oslobađajućoj presudi i presudi kojom se optužba odbija odlučit će se i o troškovima postupka. (2) U slučaju iz stavka 1. ovoga članka, izreći će se u presudi da troškovi prekršajnog postupka iz članka 138. stavka 2. točaka 2. do 4. ovoga Zakona padaju na teret proračunskih sredstava suda, osim ako ovim Zakonom nije drukčije određeno, a troškovi iz članka 138. stavka 2. točaka 5. i 7. ovoga Zakona samo ako se presudom okrivljenik oslobađa od optužbe jer djelo nije prekršaj odnosno nema dokaza da je počinio prekršaj.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1D8A20F4F36A03DCA14B7E9ACEE0FB62453E7DA4E9B87541BA6922B7AC3CB6CB",
+    "sha256_datoteke": "3D7CF8D9D71B65D2671FE6B7017C0A3F33DE172832F5B9E10660C8736A42FA58",
+    "napomena": null
+  }
+}

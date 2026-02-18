@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "125",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Molba za povrat u prijašnje stanje, zajedno sa žalbom, podnosi se tijelu postupka koje je donijelo odluku o prekršaju u vezi s kojom se podnosi molba. (2) O molbi za povrat u prijašnje stanje odlučuje onaj sud koji je nadležan za odlučivanje o žalbi protiv odluke o prekršaju u vezi s kojom je podnesena molba. (3) Odlučujući o molbi za povrat u prijašnje stanje, nadležni će sud rješenjem molbu odbaciti kao nedopuštenu ako je: 1. molbu podnijela osoba koja nije za to ovlaštena, 2. molba podnesena, a uz nju nije podnesena i žalba, 3. molba podnesena nakon proteka rokova iz članka 124. stavaka 1. i 2. ovoga Zakona, 4. molba podnesena nakon odbacivanja žalbe. (4) Nakon donošenja rješenja iz stavka 3. ovoga članka, nadležni će sud, osim u slučaju iz točke 4. stavka 3. ovog članka, rješenjem odlučiti o pravodobnosti žalbe. (5) Protiv rješenja iz stavka 3. i 4. ovoga članka žalba nije dopuštena. (6) Ako ne donese rješenje prema stavku 3. ovoga članka, nadležni će sud rješenjem: 1. odbiti kao neosnovanu molbu i žalbu odbaciti kao nepravodobnu, 2. prihvatiti osnovanom molbu i uzeti u razmatranje žalbu kao pravodobno podnesenom. (7) Protiv rješenja iz stavka 6. ovoga članka žalba nije dopuštena.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3406456B3DC36BA09317752B2ED522FD568EF79A09B65EE174B83EBD12172D12",
+    "sha256_datoteke": "99413491D066C2FA019AE638B989F9DBE5A2392F3974E7BE5114FE433F3829F8",
+    "napomena": null
+  }
+}

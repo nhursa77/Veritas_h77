@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "94",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Općinski sudovi kada rješavaju prekršajne predmete nadležni su: 1. suditi u prvom stupnju za sve prekršaje, osim za one za koje je zakonom propisana nadležnost tijela državne uprave, 2. odlučivati o prigovorima protiv obaveznih prekršajnih naloga svih ovlaštenih izdavatelja, 3. odlučivati o zahtjevu za obnovu prekršajnog postupka: a) u predmetima u kojima su sudili, b) protiv pravomoćnih prekršajnih naloga ovlaštenih tužitelja ako je riječ o prekršajima iz stvarne nadležnosti suda te c) protiv svih pravomoćnih obaveznih prekršajnih naloga, 4. pružati pravnu pomoć prema odredbama međunarodnih ugovora i ovoga Zakona, 5. obavljati i druge poslove propisane zakonom. (2) Općinski prekršajni sud u Zagrebu je isključivo mjesno nadležan za suđenje u postupcima koje kod suda pokreće ovlašteni tužitelj pravna osoba s javnim ovlastima kojoj je posebnim zakonom utvrđen status neovisnog regulatora.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6DEDFB0CBCC18736E6A1C24FD54B3ADE7A12C1E965BA6C1B83BF9970E999332E",
+    "sha256_datoteke": "125CCDCBA36F6CCD0D493036BE7DD0AC94767F34F095506DE1A8739701856931",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 171. stavku 1. riječi: »matični broj građana Republike Hrvatske« zamjenjuju se riječima: »osobni identifikacijski broj«, a riječi: »čime se zanima« zamjenjuju se s riječju: »zanimanje«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_12_157_3294.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 157/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_12_157_3294.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D7D09B764817D02675C5D74716384A26E09ABA2F15A26527BD699AFD831D7967",
+    "sha256_datoteke": "64B21AB06D1268B295B62F2A6935318F0FE584D97A3ABEDFF60BE197E8FF7046",
+    "napomena": null
+  }
+}

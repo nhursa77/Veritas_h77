@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "30",
+    "naslov": null,
+    "tekst": ". U članku 241. iza stavka 3. dodaju se stavci 4. i 5. koji glase: »(4) Plaćanje novčane kazne prije podnošenja prigovora ili nakon što je prigovor podnesen, smatra se okrivljenikovim odricanjem od prava na podnošenje prigovora odnosno odustajanjem od već podnesenog prigovora protiv obaveznog prekršajnog naloga, pod uvjetom da je u uputi o pravu na prigovor na to upozoren. (5) Stavak 4. ovoga članka ne odnosi se na okrivljenika iz članka 136. ovoga Zakona.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B75CAD878D750EF7266D1073B06CF51F6272CE7873886E59F79B7DC585FFEB4D",
+    "sha256_datoteke": "BE24EB6D4A8556AB5EB11959228824101389DE6172BAF91CD9FCC91BE4056455",
+    "napomena": null
+  }
+}

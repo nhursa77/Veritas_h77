@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "52",
+    "naslov": null,
+    "tekst": ". U članku 228. stavku 3. iza riječi: »oduzimanje imovinske koristi,« dodaju se riječi: »oduzimanje predmeta,«. U stavku 4. riječi: »oduzimanje predmeta i« brišu se.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2F9A4CB9219DE80B9EDE3E114E0C369D75455378CE886019BF7558385CDD2ED3",
+    "sha256_datoteke": "B9C55DD07804936910B7C0A2E99EB981E70950431A71F388548CAE4513E01025",
+    "napomena": null
+  }
+}

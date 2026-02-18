@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": ".a (1) Zaštitna mjera zabrane posjećivanja određenog mjesta ili područja može se izreći počinitelju prekršaja kada postoji opasnost da će u određenom razdoblju posjećivanjem tog mjesta ili područja ponovno počiniti isti prekršaj. (2) Zaštitna mjera iz stavka 1. ovoga članka ne može se izreći u trajanju kraćem od jednog mjeseca ni duljem od dvije godine. (3) Ako okrivljenik postupi protivno zabrani iz stavka 1. ovoga članka, a zabrana je izrečena uz uvjetnu osudu, sud će postupiti prema članku 46. stavku 4. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FB371D7AF05D1C951E39E25B6419C13AD2B818A0702852A70C296716BD545EA7",
+    "sha256_datoteke": "D401E76117E8EDFF1D8AE314AA44CACDD6D623346B6AA46B2801AB1FBBCA76B1",
+    "napomena": null
+  }
+}

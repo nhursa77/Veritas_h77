@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". U članku 37. stavku 3. točka 1. mijenja se i glasi: »1. ako je za prekršaj propisana novčana kazna do 5308,91 eura ili u točno određenom iznosu do 5308,91 eura ili u minimumu do 1327,23 eura, kazna se može ublažiti do općeg zakonskog minimuma kazne propisanog ovim Zakonom, za odgovarajuću vrstu okrivljenika (članak 33. ovoga Zakona),«. U točki 2. riječi: »10.000,00 kuna« zamjenjuju se riječima: »1327,23 eura«, a riječi: »40.000,00 kuna« zamjenjuju se riječima: »5308,91 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_10_114_1715.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BB43F10A3D34A92BB9BB96509C6C2776326B8236219734BE9DD416160286E448",
+    "sha256_datoteke": "B71CAECB710330E42D0A5184694A83FC15A35068ECF74EB3182A17DB260B4BB5",
+    "napomena": null
+  }
+}

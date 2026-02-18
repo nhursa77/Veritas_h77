@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". U članku 95. točka 1. mijenja se i glasi: »1. odlučivati u drugom stupnju o žalbama protiv presuda i rješenja prekršajnih sudova, tijela državne uprave koja vode prekršajni postupak, ovlaštenih tužitelja i drugih odluka kada je to propisano zakonom, osim ako nije propisano drukčije ovim Zakonom.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CBF1B7DADE7651F8480A238B5FFFC0E86E9E0F8963F2ECC34E0269904773B6CF",
+    "sha256_datoteke": "9998941D0E27376EAE543447827317A7E6D1C0FA89A396DFAC35C1D5F25126A4",
+    "napomena": null
+  }
+}

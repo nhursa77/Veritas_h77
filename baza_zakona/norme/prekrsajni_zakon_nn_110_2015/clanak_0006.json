@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 50. stavku 1. iza točke 6. dodaje se točka 7. koja glasi: »7. zabrana posjećivanja određenog mjesta ili područja.«. U stavku 3. na kraju rečenice umjesto točke stavlja se zarez i dodaju riječi: »ako ovim Zakonom nije propisano drukčije.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4D7062DD03ED82CF0ED14C49C3A2C0BA09CDB878396CF9DD09CD2D36F0E1995E",
+    "sha256_datoteke": "93A356B9329D85DFD81C6476439579739CEB56CAFECA5CEB08F3847A6279DBBE",
+    "napomena": null
+  }
+}

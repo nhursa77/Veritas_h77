@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Prema počinitelju se primjenjuje propis koji je bio na snazi u vrijeme kad je prekršaj počinjen. (2) Ako se propis nakon počinjenja prekršaja, a prije donošenja pravomoćne odluke o prekršaju, izmijeni jedanput ili više puta, primijenit će se propis koji je najblaži za počinitelja. (3) Ako se u slučajevima iz stavka 2. ovog članka izmijeni naziv ili opis prekršaja ili izmijeni naziv propisa, sud će ispitati postoji li pravni kontinuitet tako da činjenično stanje podvede pod biće odgovarajućeg prekršaja iz novog propisa pa ako utvrdi da postoji, primijenit će propis koji je blaži za počinitelja. Nema prekršaja ako pravni kontinuitet ne postoji. (4) Izmijeni li se propis za vrijeme trajanja počinjenja prekršaja, primijenit će se propis koji je bio na snazi u vrijeme dovršenja radnje. (5) Propis koji je na snazi samo za unaprijed određeno vrijeme ili unaprijed odredivo vrijeme, primijenit će se na prekršaj počinjen u tom vremenu i nakon njegova prestanka važenja ako tim propisom nije drukčije propisano.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4F8AB9712D6DBBAEA4208F54618E40E5CFB86D465E5A8169B6E14A1E7FA9CDD7",
+    "sha256_datoteke": "AAD734C7CE99A77678D12764381D478486BC82A86DB97E573962A97B8253B838",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "44",
+    "naslov": null,
+    "tekst": ". Iza članka 152. dodaje se poglavlje 1.a te naslovi iznad članaka i članci 152.a, 152.b, 152.c, 152.d., 152.e, 152.f, 152.g, 152.h, 152.i, 152.j, 152.k koji glase: »1.a POSTUPAK IZVRŠAVANJA RADA ZA OPĆE DOBRO U PREKRŠAJNOM POSTUPKU Nadležnost za izvršavanje rada za opće dobro",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C697B15BADDBB7D5A67A9F68CC06199A7089435A1316DD47A80B71770F1F1CC5",
+    "sha256_datoteke": "E34648202864323AC8597FD6FA0CCF630708DA50F1FB8B17C5F24DF37D9C34E7",
+    "napomena": null
+  }
+}

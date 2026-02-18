@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "95",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »Visoki prekršajni sud Republike Hrvatske nadležan je: 1. odlučivati u drugom stupnju o redovnim pravnim lijekovima protiv odluka općinskih sudova u prekršajnim predmetima, odluka tijela državne uprave koja vode prekršajni postupak, odluka ovlaštenih tužitelja i drugih odluka kada je to propisano zakonom, 2. odlučivati o prigovorima protiv prekršajnih naloga svih ovlaštenih izdavatelja kada je prigovor podnesen zbog odluke o prekršajnopravnoj sankciji, troškovima postupka, oduzimanja imovinske koristi ili oduzimanja predmeta, 3. odlučivati o izvanrednim pravnim lijekovima u slučajevima propisanim ovim Zakonom, 4. odlučivati o sukobu nadležnosti između općinskih sudova u prekršajnim predmetima, 5. odlučivati o žalbama u predmetima međunarodne pravosudne suradnje s državama članicama Europske unije iz prekršajne nadležnosti, 6. obavljati druge poslove propisane zakonom.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "45184F0D3EDAED29116038D5D6021E4402041E55B8EE0760745430ABD39CA397",
+    "sha256_datoteke": "0CBDF3FB02E48537E3A72A524A4CDAE5F147424DC5D79C4F921AA64DED43CC5A",
+    "napomena": null
+  }
+}

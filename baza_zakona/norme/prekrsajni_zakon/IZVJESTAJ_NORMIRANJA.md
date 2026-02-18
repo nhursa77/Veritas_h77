@@ -1,7 +1,7 @@
 # Izvještaj normiranja (NN struktura)
 
 - Datum: 18.02.2026.
-- Akt slug: prekrsajni_zakon_nn_107_2007
+- Akt slug: prekrsajni_zakon
 - Broj ulaznih članaka: 258
 - Broj generiranih JSON datoteka: 258
 - Broj upozorenja: 0

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "45",
+    "naslov": null,
+    "tekst": ". U članku 160. stavku 2. iza točke 8. dodaju se točke 9. i 10. koje glase: »9. pisanu obavijest iz članka 109.a stavka 1. i 2. ovoga Zakona, 10. podatak ovlaštenog tužitelja je li protiv počinitelja podnesena i kaznena prijava u vezi s istim događajem.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "756D1F28DE0854D602BC6DBA271D99625AAB38F6E1893742DE4F0A51AFB0AB7E",
+    "sha256_datoteke": "AFE33982DBFF1E8C93FAD7FC1E9F44EBE9ABFE378D7F14B541C8C20B30287B53",
+    "napomena": null
+  }
+}

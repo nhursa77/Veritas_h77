@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". U članku 119. iza stavka 8. dodaje se stavak 9. koji glasi: »(9) Kada ovlaštena službena osoba ovlaštenog tužitelja na mjestu počinjenja prekršaja sačinjava zapisnik o poduzetim radnjama u vezi s počinjenim prekršajem, može zapisnik sastaviti u elektroničkom obliku, na način da se nakon potpisa počinitelja prekršaja zapisnik elektronski zaključava i onemogućava naknadna izmjena. Zapisnik se može potpisati na elektroničkom uređaju u skladu s tehničkim mogućnostima uređaja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "41A2BB6289A7FA7721265CAA60F5F29B8F9DE161EEA0BC78077605EADB960007",
+    "sha256_datoteke": "19A2249EA684E083F15FADB37317D896312068974A472148DB0BD041971BF039",
+    "napomena": null
+  }
+}

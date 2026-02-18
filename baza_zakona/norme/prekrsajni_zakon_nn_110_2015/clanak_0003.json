@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". U članku 33. stavak 9. mijenja se i glasi: »(9) Posebnim zakonom može se poduzetniku za najteže prekršaje iz stavka 7. ovoga članka propisati i izreći novčana kazna u postotku od 1% do 10% njegovog ukupnog prihoda, ostvarenog u godini počinjenja prekršaja, a koji je utvrđen službenim financijskim izvješćima za tu godinu. Ako izvješća za tu godinu nema, za osnovicu izricanja kazne uzet će se posljednja dostupna službena godišnja financijska izvješća. Posebnim zakonom može se propisati što čini ukupan prihod poduzetnika.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7FF983F57759C1454EBF841605E4F966D16D54F880D438B7F0E8F699D851832E",
+    "sha256_datoteke": "591CBEC7C531CBE75C3969150C1CC33EECE5D78090C19745CFAEE5809443BF25",
+    "napomena": null
+  }
+}

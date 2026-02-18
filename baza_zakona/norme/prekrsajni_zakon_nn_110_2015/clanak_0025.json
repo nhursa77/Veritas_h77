@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". U članku 211. stavci 2. i 3. mijenjaju se i glase: »(2) Rješavajući o žalbi, drugostupanjski sud može rješenjem: 1. odbaciti žalbu kao nepravovremenu, nedopuštenu ili kao nepotpunu, 2. odbiti žalbu kao neosnovanu ili 3. prihvatiti žalbu ili povodom žalbe po službenoj dužnosti rješenje preinačiti ili ukinuti i prema potrebi predmet dostaviti na ponovno odlučivanje. (3) Na postupak o žalbi protiv rješenja odgovarajuće se primjenjuju odredbe o žalbi protiv odluke o prekršaju, a žalbeni sud po službenoj dužnosti uvijek ispituje jesu li postojale zakonske osnove za donošenje rješenja i je li rješenje donijelo ovlašteno tijelo.«. Iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Protiv rješenja Visokog prekršajnog suda Republike Hrvatske žalba nije dopuštena.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5316178DC82AD66B58ACB3B5C1BD839552A0C717C5CD209B2147F91D85F3D8A3",
+    "sha256_datoteke": "FE4142FD141BB4EEF748054BB9F655EE9C330098CE8633806EB8CAE511090F01",
+    "napomena": null
+  }
+}

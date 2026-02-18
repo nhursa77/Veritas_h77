@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". U članku 183. stavku 2., na kraju dodaje se rečenica koja glasi: »Okrivljenika će se također upozoriti da ako u roku koji mu je određen za plaćanje novčane kazne uplati dvije trećine izrečene novčane kazne smatrat će se da je novčana kazna u cjelini uplaćena (članak 152. stavak 3.).«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BC5E33A3EF0107D9A754432573FA419ED3BE65D3DE72B9A77CEA3DA42138DEBF",
+    "sha256_datoteke": "23524FFEA5CC53FF3D82863BEE624498165EA83CB524FAC0947D4902652C896A",
+    "napomena": null
+  }
+}

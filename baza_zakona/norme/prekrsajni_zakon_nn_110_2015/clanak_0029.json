@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". U članku 239. iza stavka 5. dodaje se novi stavak 6. koji glasi: »(6) Ovlašteni tužitelj može na mjestu počinjenja prekršaja izdati počinitelju prekršaja obavijest iz članka 234.a ovoga Zakona kad se obavezni prekršajni nalog i pripadajući zapisnici, potvrde i druga pripadajuća pismena sačinjavaju na elektroničkom uređaju u elektroničkom obliku.«. Dosadašnji stavci 6. i 7. postaju stavci 7. i 8.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D81674B69E0DB1B01ED3E8D4B1F91663856ECC1408CCC1DB097C84E53C614762",
+    "sha256_datoteke": "D6DA7D2DB23E5F4D04ECC12DE4B61B769AA5770D447EDDCE584FE9C5F7209DE0",
+    "napomena": null
+  }
+}

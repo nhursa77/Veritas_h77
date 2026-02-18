@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". U članku 238. stavku 8. riječi: »Visoki prekršajni sud Republike Hrvatske« zamjenjuju se riječima: »nadležni prekršajni sud iz članka 94. stavka 2. ovog Zakona«, a riječi: »Visoki će prekršajni sud Republike Hrvatske« zamjenjuju se riječima: »nadležni prekršajni sud iz članka 94. stavka 2. ovog Zakona će«. Stavak 11. mijenja se i glasi: »(11) Kada je podnesen prigovor iz članka 237. stavka 1. točke 2. ovoga Zakona a izdavatelj prekršajnog naloga ne donese rješenje sukladno stavcima 1., 4. i 5. ovoga članka, dostavit će prekršajni nalog zajedno s prigovorom nadležnom prekršajnom sudu iz članka 94. stavka 2. ovoga Zakona, koji će o prigovoru odlučiti odgovarajućom primjenom odredbi ovoga Zakona o žalbenom postupku.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "17D804DA32967470DD871342CE84681FE7FD618C1BA4F5A951A918FFBEFABA69",
+    "sha256_datoteke": "AB51ABF8E223328BED666826A8DD6CFA56539E039AC4EBDBCFCCBE054CBE3D7A",
+    "napomena": null
+  }
+}

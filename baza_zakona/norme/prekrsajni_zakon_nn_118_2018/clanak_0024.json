@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": ". U članku 202. stavak 1. mijenja se i glasi: »(1) Drugostupanjski sud ispituje presudu u onom dijelu u kojem se pobija žalbom, i to iz osnova i razloga koje žalitelj navodi u žalbi. Po službenoj dužnosti drugostupanjski sud mora uvijek ispitati jesu li počinjene bitne povrede odredaba prekršajnog postupka iz članka 195. stavka 1. točaka 6., 7., 9. i 10. ovoga Zakona, jesu li presudom na štetu okrivljenika povrijeđene odredbe prekršajnog materijalnog prava i je li u postupku nastupila zastara prekršajnog progona.«. U stavku 5. iza riječi: »imovinske koristi« dodaju se riječi: »i oduzimanju predmeta«. U stavku 6. iza riječi: »takva žalba postoji« zarez i riječi: »osim ako se protiv žalitelja presudom odbija optužba zbog nastupanja zastare prekršajnog progona« brišu se.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 118/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "684BD20AF399F407BA15406CA4033436DB6550C8B398477DB52FDC69C67993D5",
+    "sha256_datoteke": "1E483098DC9F48830E9F89C4F4C8C3C7D213A07AEC2673F367CB4EE7A95A39F7",
+    "napomena": null
+  }
+}

@@ -41,17 +41,46 @@ function Get-BoolFromOutput {
     return $false
 }
 
+function Assert-Manifest {
+    param([Parameter(Mandatory = $true)] $Manifest)
+
+    if ($null -eq $Manifest -or $null -eq $Manifest.akti) {
+        throw "manifest_invalid: nedostaje 'akti'"
+    }
+
+    $items = @($Manifest.akti)
+    if ($items.Count -eq 0) {
+        throw "manifest_invalid: 'akti' je prazno"
+    }
+
+    $slugSet = New-Object 'System.Collections.Generic.HashSet[string]'
+    foreach ($item in $items) {
+        $slug = [string]$item.akt_slug
+        if ([string]::IsNullOrWhiteSpace($slug)) {
+            throw "manifest_invalid: akt bez akt_slug"
+        }
+
+        if (-not $slugSet.Add($slug.ToLowerInvariant())) {
+            throw "manifest_invalid: dupli akt_slug '$slug'"
+        }
+    }
+}
+
 Push-Location $root
 try {
     if (!(Test-Path -LiteralPath $PaketPath)) {
-        throw "Nedostaje paket manifest: $PaketPath"
+        Write-Host "ERROR: Nedostaje paket manifest: $PaketPath"
+        exit 22
     }
 
-    $manifestRaw = Get-Content -LiteralPath $PaketPath -Raw -Encoding UTF8
-    $manifest = $manifestRaw | ConvertFrom-Json
-
-    if ($null -eq $manifest -or $null -eq $manifest.akti) {
-        throw "Neispravan paket manifest (nedostaje 'akti'): $PaketPath"
+    try {
+        $manifestRaw = Get-Content -LiteralPath $PaketPath -Raw -Encoding UTF8
+        $manifest = $manifestRaw | ConvertFrom-Json
+        Assert-Manifest -Manifest $manifest
+    }
+    catch {
+        Write-Host "ERROR: $($_.Exception.Message)"
+        exit 22
     }
 
     $stopOnFail = $true
@@ -129,10 +158,10 @@ try {
 
     $packageExit = 0
     if ($requiredFails -gt 0) {
-        $packageExit = 10
+        $packageExit = 20
     }
     elseif ($optionalFails -gt 0) {
-        $packageExit = 11
+        $packageExit = 21
     }
 
     $paketOk = ($packageExit -eq 0)

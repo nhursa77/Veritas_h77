@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". U članku 87. iza stavka 6. dodaje se stavak 7. koji glasi: »(7) Trošak prevođenja i tumača nastao primjenom odredbi ovoga članka pada na teret proračunskih sredstava suda.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4046A1FFD0DD88A23D34FC9590F6FC1E69CB6C08C0A2B40B1948D8F6E3C0DFB8",
+    "sha256_datoteke": "BA7F4359C40B01B0EE024A083CC67291B483832BC5222EDCF777A745617E9B1D",
+    "napomena": null
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "naziv_akta":  "prekrsajni_zakon_nn_118_2018",
+    "vrsta_akta":  "zakon",
+    "slug":  "prekrsajni_zakon_nn_118_2018",
+    "izvor":  "Narodne novine",
+    "naziv_izvora":  "Narodne novine",
+    "url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+    "akt_url":  "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_12_118_2354.html",
+    "eli_pdf_url":  "https://narodne-novine.nn.hr/eli/sluzbeni/2018/118/pdf",
+    "tip_sadrzaja":  "text/html; charset=utf-8",
+    "velicina_bajta":  75058,
+    "oznaka_akta":  "NN 118/2018",
+    "datum_pristupa":  "18.02.2026.",
+    "sha256_datoteke":  "3D255C3F225CE80A5F29772A282350095A35E841F51B9A953BB337CD2B833174",
+    "format":  "html",
+    "napomena":  "Dokazni NN izvor (HTML; ELI PDF fallback ako sadrÅ¾aj nedostupan).",
+    "tip_teksta":  "amandmani",
+    "ocekivani_broj_clanaka":  0,
+    "preferenca":  40
+}

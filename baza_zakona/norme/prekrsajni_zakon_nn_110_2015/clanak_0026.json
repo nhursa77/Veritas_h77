@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": ". U članku 234. iza stavka 4. dodaje se stavak 5. koji glasi: »(5) Ovlašteni izdavatelj prekršajnog naloga može na mjestu počinjenja prekršaja izdati počinitelju prekršaja obavijest iz članka 234.a ovoga Zakona kad se prekršajni nalog i pripadajući zapisnici, potvrde i druga pripadajuća pismena sačinjavaju na elektroničkom uređaju u elektroničkom obliku.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A79BDAC68B19EE37F459F9F7A91B0761CC4E2808441F58667B0B91D9F5E8351A",
+    "sha256_datoteke": "F92378A2FF5670A761ACDF8083A1443B55787A491A24E072CBFC899C6F18879A",
+    "napomena": null
+  }
+}

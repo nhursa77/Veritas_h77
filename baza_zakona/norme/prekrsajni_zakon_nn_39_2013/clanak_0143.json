@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "143",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Odluke u prekršajnom postupku su: 1. presuda, 2. rješenje o prekršaju, 3. prekršajni nalog, 4. obavezni prekršajni nalog, 5. rješenje, 6. naredba. (2) Presudu donosi samo sud. (3) Rješenje o prekršaju donosi sud i tijelo državne uprave koje vodi prekršajni postupak. (4) Prekršajni nalog, rješenje i naredbu donosi sud i druga tijela koja sudjeluju u prekršajnom postupku. (5) Obavezni prekršajni nalog donose ovlašteni tužitelji iz članka 109. stavka 1. točke 1. i 2. ovog Zakona i jedinice lokalne i područne (regionalne) samouprave (6) Odluke o prekršaju iz stavka 1. točke 1. do 5. ovog članka su ovršne isprave.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7F64B3545E559FBF48F048A4E5D17F461D13289C98AAD2507C276144E2BA4F67",
+    "sha256_datoteke": "EC4F64C137E76C4F4B9A07308D6580E00BFB9151DC205CFD1E23BF3A5156EDDD",
+    "napomena": null
+  }
+}

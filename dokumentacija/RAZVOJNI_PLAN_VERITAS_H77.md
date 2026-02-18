@@ -211,14 +211,18 @@ Status pilot (18.02.2026.):
 #### Paketi
 - uveden je paketni acceptance runner (`alati/acceptance_paket.ps1`) koji
   učitava manifest i pokreće generički preflight po `-AktSlug` za svaki akt
-- paketni izlaz koristi status kodove 0/10/11 za required/optional fail
-  semantiku i ostavlja `git status` čist nakon cleanup-a artefakata
+- paketni izlaz koristi status kodove 0/20/21/22
+  (`required fail`, `optional fail`, `manifest invalid`) i ostavlja
+  `git status` čist nakon cleanup-a artefakata
 - ingestiran je core akt `prekrsajni_zakon` kroz
   `INGEST_PREKRSAJNI_ZAKON_V1` (snapshot + parsiranje + normiranje +
   preflight pass)
 - paket `PAKET_PREKRSAJNI_V1` više ne pada na missing-source za required core
   akt; trenutni paketni status ostaje `11` dok optional akti
   (`zakon_o_kaznenom_postupku`, `kazneni_zakon`) nisu ingestani
+- za zakone s izmjenama i dopunama obavezan je paketni pristup (core +
+  amandmani) kroz jedan manifest i generičke skripte (`ingest_paket.ps1`,
+  `acceptance_paket.ps1`), bez novih per-zakon runnera
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

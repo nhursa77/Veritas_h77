@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "37",
+    "naslov": null,
+    "tekst": ". Iza članka 109. dodaju se članci 109.a, 109.b, 109.c, 109.d i 109.e koji glase: »Članak 109.a (1) Prije podnošenja optužnog prijedloga nadležnom sudu ili drugom tijelu postupka protiv počinitelja prekršaja, osim u slučaju iz članka 134. stavaka 1. do 3. i članka 136. ovoga Zakona, ovlašteni tužitelj iz članka 109. stavka 1. točke 1. do 3. ovoga Zakona dužan je utvrditi točnu adresu prebivališta i boravišta počinitelja odnosno sjedišta počinitelja i uručiti mu pisanu obavijest na jeziku koji razumije: 1. o prekršaju za koji namjerava protiv njega podnijeti optužni prijedlog, s činjeničnim i pravnim opisom prekršaja, 2. da u tijeku postupka može slobodno iznijeti obranu ili dostaviti pisanu obranu, uskratiti iznošenje obrane ili odgovor na pojedino pitanje, 3. da kod tijela postupka ima pravo razgledati spis i upoznati se s dokazima protiv njega, 4. da se u postupku može braniti sam ili uz pomoć branitelja po vlastitom izboru, ali da zbog nedolaska branitelja na raspravu odnosno ročište ili uzimanja branitelja tek na raspravi odnosno ročištu, rasprava odnosno ročište se neće odgoditi, 5. da tijekom postupka može podnositi prijedloge za provođenje dokaza u svoju obranu, 6. da se rasprava pred tijelom postupka može održati i u njegovoj odsutnosti i donijeti odluka o prekršaju, 7. da je do pravomoćnog završetka postupka i završetka postupka izvršenja dužan obavijestiti tijelo postupka o svakoj promjeni adrese prebivališta i boravišta odnosno sjedišta, jer će mu se, ako tako ne postupi, ili ako izbjegava dostavu, sva pismena dostaviti putem oglasne ploče tijela postupka, 8. da u postupku ima pravo upotrebljavati svoj jezik, odnosno pravo da mu se osigura tumač ako se postupak ili pojedina radnja u postupku ne vodi na njegovom jeziku te da se tog prava može odreći ako zna jezik na kojem se vodi postupak ili provodi pojedina radnja, 9. da ima pravo na sporazumijevanje u smislu članka 109.e ovog Zakona. (2) Pisana obavijest iz stavka 1. ovog članka sastavlja se u dva primjerka koju će vlastoručno potpisati počinitelj, čime potvrđuje njezin primitak, i ovlaštena službena osoba ovlaštenog tužitelja. Jedan primjerak obavijesti prilaže se uz optužni prijedlog, a drugi se uručuje počinitelju. (3) Ako počinitelj prilikom uručenja pisane obavijesti iz stavka 1. ovog članka odbije njezin primitak ili svojim potpisom potvrditi njezin primitak, ovlašteni tužitelj će postupiti na način propisan u zadnjoj rečenici članka 148. stavka 4. ovog Zakona čime se dostava smatra uredno obavljenom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "08EE730AB90B7627D46BA6073E08FDF75E06BBE1EBFF33C25D19CAEDC29501E5",
+    "sha256_datoteke": "D6E6006476B90F2861D2B4EE39F9732B38FCDC5955ECAB53B57D25DB27D0A72B",
+    "napomena": null
+  }
+}

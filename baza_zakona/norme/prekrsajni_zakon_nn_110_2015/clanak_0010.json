@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". U članku 60. iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Kada je propisom o prekršaju propisana prekršajna odgovornost pravne osobe i u njoj odgovorne osobe, a ovlašteni tužitelj pokrene postupak samo protiv pravne ili odgovorne osobe, ili sud u postupku utvrdi da optužena odgovorna osoba nije odgovorna osoba za taj prekršaj, sud može utvrditi prekršajnu odgovornost samo pravne osobe odnosno samo odgovorne osobe.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2015",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2015_10_110_2131.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0C9A892BCC72BDCFF2428A6AE08AE51FB6598DB6538D7327D05D1A023A94768D",
+    "sha256_datoteke": "D8A4FAE50C9C91E12DEB2488805D9677680D3DBB8D6DB793D0A16679ACB0AD15",
+    "napomena": null
+  }
+}

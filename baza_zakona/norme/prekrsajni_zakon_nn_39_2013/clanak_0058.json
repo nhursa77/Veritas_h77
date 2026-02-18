@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": ". Predmete za koje su, na temelju ovoga Zakona, stvarno nadležni rješavati prekršajni sudovi, Visoki prekršajni sud Republike Hrvatske dostavit će tim sudovima s danom stupanja na snagu ovoga Zakona. Odredbe ovog Zakona o zastari izvršenja oduzete imovinske koristi, oduzetih predmeta prekršaja i naplate troškova prekršajnog postupka, primjenjuju se i na postupke njihova izvršavanja koji su u tijeku na dan stupanja na snagu ovog Zakona. Izvršenje prekršajnopravnih sankcija pravomoćno izrečenih sukladno odredbama Prekršajnog zakona (»Narodne novine«, br. 107/07.), čije izvršenje nije započelo ili je u tijeku, provodit će se sukladno odredbama ovoga Zakona od dana njegova stupanja na snagu. Odredbe ovoga Zakona o obaveznom prekršajnom nalogu primjenjuju se i na prekršaje počinjene prije stupanja na snagu ovoga Zakona, ako za iste ovlašteni tužitelj nije već pokrenuo prekršajni postupak podnošenjem optužnog prijedloga nadležnom tijelu postupka odnosno izdao prekršajni nalog. Odredbe ovoga Zakona o primjeni oportuniteta od strane ovlaštenog tužitelja i pregovaranja i sporazumijevanja ovlaštenog tužitelja i počinitelja prekršaja prije pokretanja prekršajnog progona primjenjuju se i na prekršaje počinjene prije stupanja na snagu ovoga Zakona, ako ovlašteni tužitelj nije već pokrenuo prekršajni postupak za te prekršaje podnošenjem optužnog prijedloga nadležnom tijelu postupka odnosno ako nije već izdao prekršajni nalog. Odredbe ovoga Zakona o primjeni oportuniteta od strane ovlaštenog tužitelja i suda tijekom postupka i odredbe o pregovaranju i sporazumijevanju ovlaštenog tužitelja i počinitelja prekršaja tijekom postupka primjenjuju se i na prekršaje počinjene prije stupanja na snagu ovoga Zakona, u postupcima koji su u tijeku. Odredba članka 41. ovoga Zakona primjenjuje se i u postupcima koji su u tijeku na dan stupanja na snagu ovoga Zakona, ako su prigovor ili žalba okrivljenika podneseni nakon stupanja na snagu ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 39/2013",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2013_04_39_728.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9423F28408A124C009DB2B476198A76F6C19F2DA3A32751D60CD50BF985AA51C",
+    "sha256_datoteke": "6986EA400ACB5AA36A6222D4AF55D36B6A49BB285DCCE76EC1A65B24B6B1503F",
+    "napomena": null
+  }
+}
