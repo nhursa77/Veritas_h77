@@ -1,6 +1,6 @@
 # IZVJESTAJ_VALIDACIJE_KONTROLNO
 
-- Timestamp: 2026-02-18T10:02:23+01:00
+- Timestamp: 2026-02-18T10:19:35+01:00
 - NN_JSON: C:/Veritas_H77/izvori/dokazno/narodne_novine/ustav_rh/struktura_nn.json
 - KONTROLNO_TXT: C:/Veritas_H77/izvori/kontrolno/zakon_hr/ustav_rh/ustav_rh_kontrolni.txt
 - NN_JSON_SHA256: 9ca61c0736f184a646014855af4ea263e54df9ffb65f6f1eac4befc9ce2600ab
@@ -8,10 +8,10 @@
 
 ## SUMMARY
 
-- CONTROL_COUNT: 142
-- CONTROL_HEADERS_COUNT: 163
+- CONTROL_COUNT: 141
+- CONTROL_HEADERS_COUNT: 149
 - NN_COUNT: 141
-- MISSING_COUNT: 2
+- MISSING_COUNT: 1
 - SHORT_COUNT: 52
 - ANOMALY_FLAG: True
 
@@ -21,12 +21,12 @@
 - CONTROL_HAS_10: True
 - CONTROL_HAS_11: True
 - CONTROL_HAS_12: True
-- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 163 vs 142
+- CONTROL_TYPO_HEADERS: (none)
+- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 149 vs 141
 
 ## Missing in NN (present in zakon.hr, absent in NN)
 
 - 135
-- 146
 
 ## Extra in NN (present in NN, absent in zakon.hr)
 
@@ -92,5 +92,6 @@
 - ANOMALY_FLAG: True
 - FOUND_BETWEEN_10_12: Članak 1 I.
 - KEYWORDS_FOUND: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike Hrvatske
+- FOUND_TYPO_HEADERS: Članak I35 -> 135
 - NAPOMENA: ANOMALIJA: sadržaj čl. 11 je prisutan u HTML segmentu, ali heading je 'Članak 1 I.' -> NN parsiranje treba ručno/automatski rule. Ključne fraze: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike Hrvatske
 

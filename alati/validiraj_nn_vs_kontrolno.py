@@ -13,8 +13,9 @@ KONTROLNO_TXT = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_rh" / "
 NN_HTML = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "izvor_nn.html"
 OUT_REPORT = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh" / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
-ARTICLE_RX = re.compile(r"Članak\s+(\d+)\.", flags=re.IGNORECASE)
-CONTROL_HEADER_RX = re.compile(r"(?m)^\s*Članak\s+(\d{1,3})\b")
+CONTROL_HEADER_STRICT_RX = re.compile(r"^\s*Članak\s+([0-9]{1,3})\.\s*$")
+CONTROL_HEADER_TYPO_I_RX = re.compile(r"^\s*Članak\s+I([0-9]{2,3})\.\s*$")
+CONTROL_HEADER_TYPO_L_RX = re.compile(r"^\s*Članak\s+l([0-9]{2,3})\.\s*$")
 
 
 def sha256_file(path: Path) -> str:
@@ -25,12 +26,41 @@ def sha256_file(path: Path) -> str:
     return digest.hexdigest()
 
 
+def parse_kontrolno_headers(text: str) -> tuple[list[int], list[str]]:
+    headers: list[int] = []
+    typo_mappings: list[str] = []
+
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+
+        match_clean = CONTROL_HEADER_STRICT_RX.match(line)
+        if match_clean:
+            headers.append(int(match_clean.group(1)))
+            continue
+
+        match_i = CONTROL_HEADER_TYPO_I_RX.match(line)
+        if match_i:
+            suffix = match_i.group(1)
+            mapped = int(f"1{suffix}")
+            headers.append(mapped)
+            typo_mappings.append(f"Članak I{suffix} -> {mapped}")
+            continue
+
+        match_l = CONTROL_HEADER_TYPO_L_RX.match(line)
+        if match_l:
+            suffix = match_l.group(1)
+            mapped = int(f"1{suffix}")
+            headers.append(mapped)
+            typo_mappings.append(f"Članak l{suffix} -> {mapped}")
+
+    return headers, typo_mappings
+
+
 def parse_kontrolno_nums(text: str) -> set[int]:
-    return {int(match.group(1)) for match in CONTROL_HEADER_RX.finditer(text)}
-
-
-def parse_kontrolno_headers(text: str) -> list[int]:
-    return [int(match.group(1)) for match in CONTROL_HEADER_RX.finditer(text)]
+    headers, _ = parse_kontrolno_headers(text)
+    return set(headers)
 
 
 def parse_nn_numbers_and_texts(payload: dict) -> tuple[set[int], dict[int, str]]:
@@ -70,16 +100,32 @@ def anomaly_check_in_html(html: str) -> tuple[bool, str, dict[str, object]]:
 
     start_idx = html.find(start_marker)
     if start_idx < 0:
+        typo_matches = sorted({
+            f"Članak I{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+I([0-9]{2,3})", html)
+        } | {
+            f"Članak l{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+l([0-9]{2,3})", html)
+        })
         return False, "Nije pronađen marker 'Članak 10.' u NN HTML-u.", {
             "FOUND_BETWEEN_10_12": None,
             "KEYWORDS": [],
+            "FOUND_TYPO_HEADERS": typo_matches,
         }
 
     end_idx = html.find(end_marker, start_idx + len(start_marker))
     if end_idx < 0:
+        typo_matches = sorted({
+            f"Članak I{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+I([0-9]{2,3})", html)
+        } | {
+            f"Članak l{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+l([0-9]{2,3})", html)
+        })
         return False, "Nije pronađen marker 'Članak 12.' nakon 'Članak 10.' u NN HTML-u.", {
             "FOUND_BETWEEN_10_12": None,
             "KEYWORDS": [],
+            "FOUND_TYPO_HEADERS": typo_matches,
         }
 
     segment = html[start_idx:end_idx]
@@ -94,6 +140,13 @@ def anomaly_check_in_html(html: str) -> tuple[bool, str, dict[str, object]]:
     payload = {
         "FOUND_BETWEEN_10_12": "Članak 1 I." if has_heading else None,
         "KEYWORDS": found_keys,
+        "FOUND_TYPO_HEADERS": sorted({
+            f"Članak I{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+I([0-9]{2,3})", html)
+        } | {
+            f"Članak l{m.group(1)} -> 1{m.group(1)}"
+            for m in re.finditer(r"Članak\s+l([0-9]{2,3})", html)
+        }),
     }
 
     if has_heading and len(found_keys) >= 2:
@@ -127,6 +180,7 @@ def build_report(
     kontrolno_has_10: bool,
     kontrolno_has_11: bool,
     kontrolno_has_12: bool,
+    kontrolno_typo_headers: list[str],
     kontrolno_count_mismatch_warning: str | None,
     missing_in_nn: list[int],
     extra_in_nn: list[int],
@@ -162,6 +216,7 @@ def build_report(
     lines.append(f"- CONTROL_HAS_10: {kontrolno_has_10}")
     lines.append(f"- CONTROL_HAS_11: {kontrolno_has_11}")
     lines.append(f"- CONTROL_HAS_12: {kontrolno_has_12}")
+    lines.append("- CONTROL_TYPO_HEADERS: " + (", ".join(kontrolno_typo_headers) if kontrolno_typo_headers else "(none)"))
     if kontrolno_count_mismatch_warning:
         lines.append(f"- WARNING: {kontrolno_count_mismatch_warning}")
     lines.append("")
@@ -199,6 +254,8 @@ def build_report(
     lines.append(f"- FOUND_BETWEEN_10_12: {anomaly_meta.get('FOUND_BETWEEN_10_12')}")
     keys = anomaly_meta.get("KEYWORDS") if isinstance(anomaly_meta.get("KEYWORDS"), list) else []
     lines.append("- KEYWORDS_FOUND: " + (", ".join(str(k) for k in keys) if keys else "(none)"))
+    typo_headers = anomaly_meta.get("FOUND_TYPO_HEADERS") if isinstance(anomaly_meta.get("FOUND_TYPO_HEADERS"), list) else []
+    lines.append("- FOUND_TYPO_HEADERS: " + (", ".join(str(item) for item in typo_headers) if typo_headers else "(none)"))
     lines.append(f"- NAPOMENA: {anomaly_note}")
     lines.append("")
 
@@ -214,7 +271,7 @@ def main() -> int:
     kontrolno_text = KONTROLNO_TXT.read_text(encoding="utf-8")
     nn_html = NN_HTML.read_text(encoding="utf-8", errors="ignore")
 
-    kontrolno_headers = parse_kontrolno_headers(kontrolno_text)
+    kontrolno_headers, kontrolno_typo_headers = parse_kontrolno_headers(kontrolno_text)
     kontrolno_nums = set(kontrolno_headers)
     kontrolno_count = len(kontrolno_nums)
     kontrolno_headers_count = len(kontrolno_headers)
@@ -257,6 +314,7 @@ def main() -> int:
         kontrolno_has_10=kontrolno_has_10,
         kontrolno_has_11=kontrolno_has_11,
         kontrolno_has_12=kontrolno_has_12,
+        kontrolno_typo_headers=kontrolno_typo_headers,
         kontrolno_count_mismatch_warning=kontrolno_count_mismatch_warning,
         missing_in_nn=missing_in_nn,
         extra_in_nn=extra_in_nn,
@@ -281,6 +339,7 @@ def main() -> int:
     print(f"CONTROL_HAS_10: {kontrolno_has_10}")
     print(f"CONTROL_HAS_11: {kontrolno_has_11}")
     print(f"CONTROL_HAS_12: {kontrolno_has_12}")
+    print("CONTROL_TYPO_HEADERS: " + (", ".join(kontrolno_typo_headers) if kontrolno_typo_headers else "(none)"))
     print(f"NN_COUNT: {len(nn_nums)}")
     print(f"MISSING_COUNT: {len(missing_in_nn)}")
     print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")

@@ -139,6 +139,8 @@ PROVJERA:
   i u reportu, uz anomaly hints (`FOUND_BETWEEN_10_12` + ključne fraze)
 - parser kontrolnog izvora je striktan: broji samo headere `Članak <N>` na
   početku retka (bez fallback hvatanja brojeva iz tijela teksta)
+- kontrolni parser radi header-only nad linijama oblika `Članak N.` te ima
+  sanitizaciju tipfelera `I/l -> 1` (npr. `Članak I35.` -> `135`)
 GATE:
 - rezultat validacije ulazi u odluku o ručnim/automatiziranim parser pravilima
 

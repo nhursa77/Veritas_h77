@@ -138,3 +138,8 @@ Validator sada eksplicitno ispisuje `MISSING_LIST`, `EXTRA_LIST`,
 Extractor za `ustav_rh_kontrolni.txt` je pooštren da hvata samo stvarne
 headere `Članak <N>` na početku retka; dodan je debug output
 `CONTROL_HEADERS_COUNT`, `CONTROL_FIRST20_HEADERS` i `CONTROL_HAS_10/11/12`.
+
+### Fix: header-only + sanitizacija `I35 -> 135`
+Kontrolni parser sada parsira isključivo linije `Članak N.` te sanitizira
+tipfelere `I/l` kao `1`; uklonjeni su fantomski brojevi i u anomaly hints je
+dodan `FOUND_TYPO_HEADERS` (npr. `Članak I35 -> 135`).
