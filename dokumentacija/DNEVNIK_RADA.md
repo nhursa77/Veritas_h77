@@ -182,3 +182,18 @@ Stari operativni set (142) je arhiviran u
 Dodan je alat `alati/diff_ustav_rh_sets.py` koji uspoređuje arhivski set
 142 s operativnim setom 152 i generira
 `baza_zakona/norme/ustav_rh/IZVJESTAJ_DIFF_142_VS_152.md`.
+
+### Ustav RH — source selection (procisceni-first) + selection report
+`run_normiratelj_ustav_rh.ps1` sada deterministički bira izvor iz NN
+kandidata prema pravilu: `input_exists`, `tip_teksta=procisceni`,
+`preferenca`, `ocekivani_broj_clanaka`, `slug`.
+Obavezno se generira
+`izvori/dokazno/narodne_novine/USTAV_RH_SELECTION_REPORT.md` s rankingom.
+Meta standard za `ustav_rh` izvore je dopunjen poljima:
+`tip_teksta`, `ocekivani_broj_clanaka`, `preferenca`.
+
+### Validator — sanity hook `SOURCE_SELECTION_MISMATCH`
+Validator `alati/validiraj_nn_vs_kontrolno.py` sada koristi isti odabir
+NN izvora i provodi sanity check: ako `NN_COUNT` odstupa od
+`ocekivani_broj_clanaka` odabranog izvora, postavlja
+`SOURCE_SELECTION_MISMATCH=True` i podiže anomaly signal.

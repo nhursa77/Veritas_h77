@@ -11,5 +11,8 @@
     "datum_pristupa":  "17.02.2026.",
     "sha256_datoteke":  "A91CA0D961823B76295622837A041B76749B08BF9321DFE935468BA4BAD7D6A5",
     "format":  "html",
-    "napomena":  "Primarni izvor arhiviran za Veritas H.77."
+    "napomena":  "Primarni izvor arhiviran za Veritas H.77.",
+    "tip_teksta":  "izvorni",
+    "ocekivani_broj_clanaka":  142,
+    "preferenca":  10
 }

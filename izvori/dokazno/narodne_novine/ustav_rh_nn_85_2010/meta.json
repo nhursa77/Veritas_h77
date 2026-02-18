@@ -14,5 +14,8 @@
     "preuzeto_lokalno": "18.02.2026.",
     "sha256_datoteke": "82749FA1A375C3DC7B83B8792154FBEBD252EB1CB65A36E26C836786AC088400",
     "format": "html",
-    "napomena": "pročišćeni tekst; očekivano 152 čl."
+    "napomena": "pročišćeni tekst; očekivano 152 čl.",
+    "tip_teksta": "procisceni",
+    "ocekivani_broj_clanaka": 152,
+    "preferenca": 100
 }

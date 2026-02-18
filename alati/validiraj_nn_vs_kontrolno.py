@@ -8,13 +8,12 @@ import textwrap
 import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Any, cast
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-NN_JSON = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "struktura_nn.json"
-NN_DOCS_JSON = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "struktura_nn_dokumenti.json"
+SOURCES_ROOT = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine"
 KONTROLNO_TXT = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_rh" / "ustav_rh_kontrolni.txt"
 KONTROLNO_DOCS_JSON = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_rh" / "struktura_kontrolno_dokumenti.json"
-NN_HTML = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "izvor_nn.html"
 OPERATIVNE_NORME_DIR = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh"
 OUT_REPORT = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh" / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
@@ -28,6 +27,81 @@ CUTOFF_MARKERS_NORMALIZED = [
     "promjena ustava republike hrvatske",
     "ustavni zakon (nn",
 ]
+
+
+def _safe_int(value: object, default: int = 0) -> int:
+    if isinstance(value, bool):
+        return default
+    if isinstance(value, int):
+        return value
+    if isinstance(value, str):
+        raw = value.strip()
+        if raw and re.fullmatch(r"-?\d+", raw):
+            return int(raw)
+    return default
+
+
+def resolve_selected_source() -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    candidates: list[dict[str, Any]] = []
+
+    for meta_path in sorted(SOURCES_ROOT.glob("*/meta.json")):
+        try:
+            meta = json.loads(meta_path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        if not isinstance(meta, dict):
+            continue
+
+        slug = str(meta.get("slug") or meta_path.parent.name).strip()
+        vrsta_akta = str(meta.get("vrsta_akta") or "").strip().lower()
+        naziv_akta = str(meta.get("naziv_akta") or "").strip().lower()
+        slug_lower = slug.lower()
+
+        is_ustav_rh = (
+            vrsta_akta == "ustav"
+            or "ustav republike hrvatske" in naziv_akta
+            or slug_lower.startswith("ustav_rh")
+        )
+        if not is_ustav_rh:
+            continue
+
+        tip_teksta = str(meta.get("tip_teksta") or "").strip().lower()
+        preferenca = _safe_int(meta.get("preferenca"), default=0)
+        ocekivani_broj_clanaka = _safe_int(meta.get("ocekivani_broj_clanaka"), default=0)
+        nn_docs_json = meta_path.parent / "struktura_nn_dokumenti.json"
+
+        candidates.append(
+            {
+                "slug": slug,
+                "meta_path": meta_path,
+                "meta": meta,
+                "tip_teksta": tip_teksta,
+                "preferenca": preferenca,
+                "ocekivani_broj_clanaka": ocekivani_broj_clanaka,
+                "nn_docs_json": nn_docs_json,
+                "nn_json": meta_path.parent / "struktura_nn.json",
+                "nn_html": meta_path.parent / "izvor_nn.html",
+                "input_exists": nn_docs_json.exists(),
+                "kategorija_score": 1 if tip_teksta == "procisceni" else 0,
+            }
+        )
+
+    if not candidates:
+        raise FileNotFoundError(f"Nema kandidata izvora za ustav_rh u: {SOURCES_ROOT}")
+
+    ordered = sorted(
+        candidates,
+        key=lambda item: (
+            0 if bool(item["input_exists"]) else 1,
+            -int(item["kategorija_score"]),
+            -int(item["preferenca"]),
+            -int(item["ocekivani_broj_clanaka"]),
+            str(item["slug"]),
+        ),
+    )
+    selected = ordered[0]
+    return selected, ordered
 
 
 def sha256_file(path: Path) -> str:
@@ -256,12 +330,12 @@ def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str], str | N
     return dokumenti, typo_mappings, cutoff_marker, len(procisceni_text), len(amandmani_text), suspected_truncated_headers
 
 
-def parse_nn_dokumenti() -> list[dict]:
-    if NN_DOCS_JSON.exists():
-        payload = json.loads(NN_DOCS_JSON.read_text(encoding="utf-8"))
+def parse_nn_dokumenti(nn_docs_json_path: Path, nn_json_path: Path) -> list[dict]:
+    if nn_docs_json_path.exists():
+        payload = json.loads(nn_docs_json_path.read_text(encoding="utf-8"))
         return payload.get("dokumenti", [])
 
-    payload = json.loads(NN_JSON.read_text(encoding="utf-8"))
+    payload = json.loads(nn_json_path.read_text(encoding="utf-8"))
     return [
         {
             "doc_id": "ustav_rh_procisceni",
@@ -273,15 +347,15 @@ def parse_nn_dokumenti() -> list[dict]:
     ]
 
 
-def parse_nn_operativne_norme() -> tuple[list[int], set[int], dict[int, str]]:
+def parse_nn_operativne_norme(operativne_norme_dir: Path) -> tuple[list[int], set[int], dict[int, str]]:
     ordered: list[int] = []
     nums: set[int] = set()
     text_by_num: dict[int, str] = {}
 
-    if not OPERATIVNE_NORME_DIR.exists():
+    if not operativne_norme_dir.exists():
         return ordered, nums, text_by_num
 
-    for path in sorted(OPERATIVNE_NORME_DIR.glob("clanak_*.json")):
+    for path in sorted(operativne_norme_dir.glob("clanak_*.json")):
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
@@ -487,9 +561,24 @@ def build_report(
     anomaly_note: str,
     anomaly_meta: dict[str, object],
     control_suspected_truncated_headers: list[str],
+    selected_source_slug: str,
+    selected_source_tip_teksta: str,
+    selected_source_expected_count: int | None,
+    source_selection_mismatch: bool,
 ) -> str:
     lines: list[str] = []
     lines.append("# IZVJESTAJ_VALIDACIJE_KONTROLNO")
+    lines.append("")
+
+    lines.append("## Source selection")
+    lines.append("")
+    lines.append(f"- SELECTED_SOURCE_SLUG: {selected_source_slug}")
+    lines.append(f"- SELECTED_SOURCE_TIP_TEKSTA: {selected_source_tip_teksta}")
+    if selected_source_expected_count is None:
+        lines.append("- SELECTED_SOURCE_EXPECTED_COUNT: (none)")
+    else:
+        lines.append(f"- SELECTED_SOURCE_EXPECTED_COUNT: {selected_source_expected_count}")
+    lines.append(f"- SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     lines.append("")
     lines.append(f"- Timestamp: {ts}")
     lines.append(f"- NN_JSON_SHA256: {nn_hash}")
@@ -625,13 +714,22 @@ def build_report(
 
 
 def main() -> int:
-    for required in (NN_JSON, KONTROLNO_TXT, NN_HTML):
+    selected_source, _ordered_sources = resolve_selected_source()
+    nn_json_path = cast(Path, selected_source["nn_json"])
+    nn_docs_json_path = cast(Path, selected_source["nn_docs_json"])
+    nn_html_path = cast(Path, selected_source["nn_html"])
+    selected_source_slug = str(selected_source["slug"])
+    selected_source_tip_teksta = str(selected_source["tip_teksta"])
+    selected_source_expected_count_raw = int(cast(int, selected_source["ocekivani_broj_clanaka"]))
+    selected_source_expected_count = selected_source_expected_count_raw if selected_source_expected_count_raw > 0 else None
+
+    for required in (nn_json_path, KONTROLNO_TXT, nn_html_path):
         if not required.exists():
             raise FileNotFoundError(f"Nedostaje ulazna datoteka: {required}")
 
-    nn_dokumenti = parse_nn_dokumenti()
+    nn_dokumenti = parse_nn_dokumenti(nn_docs_json_path=nn_docs_json_path, nn_json_path=nn_json_path)
     kontrolno_text = KONTROLNO_TXT.read_text(encoding="utf-8")
-    nn_html = NN_HTML.read_text(encoding="utf-8", errors="ignore")
+    nn_html = nn_html_path.read_text(encoding="utf-8", errors="ignore")
 
     (
         kontrolno_dokumenti,
@@ -668,7 +766,7 @@ def main() -> int:
 
     kontrolno_headers, kontrolno_nums, _ = dokument_brojevi_i_tekst(control_doc)
     _, kontrolno_nums_amandmani, _ = dokument_brojevi_i_tekst(control_doc_amandmani)
-    nn_headers, nn_nums, nn_texts = parse_nn_operativne_norme()
+    nn_headers, nn_nums, nn_texts = parse_nn_operativne_norme(OPERATIVNE_NORME_DIR)
     if not nn_nums:
         nn_headers, nn_nums, nn_texts = dokument_brojevi_i_tekst(nn_doc)
 
@@ -706,7 +804,23 @@ def main() -> int:
 
     anomaly_flag, anomaly_note, anomaly_meta = anomaly_check_in_html(nn_html)
 
-    nn_hash = sha256_file(NN_DOCS_JSON) if NN_DOCS_JSON.exists() else sha256_file(NN_JSON)
+    source_selection_mismatch = False
+    if selected_source_expected_count is not None and len(nn_nums) != selected_source_expected_count:
+        source_selection_mismatch = True
+        anomaly_flag = True
+        mismatch_note = (
+            "SOURCE_SELECTION_MISMATCH: "
+            f"selected={selected_source_slug}, expected={selected_source_expected_count}, actual={len(nn_nums)}"
+        )
+        anomaly_note = f"{anomaly_note} | {mismatch_note}"
+        anomaly_meta["SOURCE_SELECTION_MISMATCH"] = True
+        anomaly_meta["SELECTED_SOURCE_SLUG"] = selected_source_slug
+        anomaly_meta["SELECTED_SOURCE_EXPECTED_COUNT"] = selected_source_expected_count
+        anomaly_meta["NN_COUNT"] = len(nn_nums)
+    else:
+        anomaly_meta["SOURCE_SELECTION_MISMATCH"] = False
+
+    nn_hash = sha256_file(nn_docs_json_path) if nn_docs_json_path.exists() else sha256_file(nn_json_path)
     kontrolno_hash = sha256_file(KONTROLNO_TXT)
     control_docs_ids = [str(d.get("doc_id")) for d in kontrolno_dokumenti if d.get("doc_id")]
     nn_docs_ids = [str(d.get("doc_id")) for d in nn_dokumenti if d.get("doc_id")]
@@ -744,6 +858,10 @@ def main() -> int:
         anomaly_note=anomaly_note,
         anomaly_meta=anomaly_meta,
         control_suspected_truncated_headers=control_suspected_truncated_headers,
+        selected_source_slug=selected_source_slug,
+        selected_source_tip_teksta=selected_source_tip_teksta,
+        selected_source_expected_count=selected_source_expected_count,
+        source_selection_mismatch=source_selection_mismatch,
     )
 
     OUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
@@ -777,6 +895,13 @@ def main() -> int:
     else:
         print("CONTROL_SUSPECTED_TRUNCATED_HEADERS: (none)")
     print(f"NN_COUNT: {len(nn_nums)}")
+    print(f"SELECTED_SOURCE_SLUG: {selected_source_slug}")
+    print(f"SELECTED_SOURCE_TIP_TEKSTA: {selected_source_tip_teksta}")
+    if selected_source_expected_count is None:
+        print("SELECTED_SOURCE_EXPECTED_COUNT: (none)")
+    else:
+        print(f"SELECTED_SOURCE_EXPECTED_COUNT: {selected_source_expected_count}")
+    print(f"SOURCE_SELECTION_MISMATCH: {source_selection_mismatch}")
     print(f"MISSING_COUNT: {len(missing_in_nn)}")
     print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")
     print(f"EXTRA_LIST: [{extra_csv}]" if extra_csv else "EXTRA_LIST: []")

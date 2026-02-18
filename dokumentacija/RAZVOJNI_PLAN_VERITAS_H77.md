@@ -185,6 +185,14 @@ Status pilot (18.02.2026.):
 - nakon promjene operativnog izvora obavezno se generira diff izvještaj
   142 vs 152 (`IZVJESTAJ_DIFF_142_VS_152.md`) kao strojna kontrola
   dodanih/uklonjenih/promijenjenih članaka
+- odabir operativnog izvora za `ustav_rh` je centraliziran i
+  deterministički (`procisceni`-first) na temelju source meta polja:
+  `tip_teksta`, `preferenca`, `ocekivani_broj_clanaka`
+- svaki run mora generirati
+  `izvori/dokazno/narodne_novine/USTAV_RH_SELECTION_REPORT.md`
+  (audit ranking kandidata + odabrani source)
+- validator mora signalizirati `SOURCE_SELECTION_MISMATCH` kada
+  `NN_COUNT` odstupa od `ocekivani_broj_clanaka` odabranog izvora
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
 CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.

@@ -1,7 +1,14 @@
 # IZVJESTAJ_VALIDACIJE_KONTROLNO
 
-- Timestamp: 2026-02-18T15:10:49+01:00
-- NN_JSON_SHA256: 51012a4dc8fab0ead8c2297bda172c861efd60d22b35ab391de99ee49fb6f4a3
+## Source selection
+
+- SELECTED_SOURCE_SLUG: ustav_rh_nn_85_2010
+- SELECTED_SOURCE_TIP_TEKSTA: procisceni
+- SELECTED_SOURCE_EXPECTED_COUNT: 152
+- SOURCE_SELECTION_MISMATCH: False
+
+- Timestamp: 2026-02-18T15:21:33+01:00
+- NN_JSON_SHA256: 7b100ed17bb09db55d8b0fa50067918e590445ccdb741ea77fb8dddd59a7282c
 - KONTROLNO_TXT_SHA256: 2a38e78e9722336813597f74fe4d96526d937e9abaa2b356ce284539b77c6171
 
 ## Document split summary
@@ -21,7 +28,7 @@
 - NN_COUNT: 152
 - MISSING_COUNT: 0
 - SHORT_COUNT: 49
-- ANOMALY_FLAG: True
+- ANOMALY_FLAG: False
 
 ## CONTROL_EXTRACTOR_DEBUG
 
@@ -106,12 +113,10 @@
 
 ## Anomaly hints
 
-- ANOMALY_FLAG: True
-- FOUND_BETWEEN_10_12: Članak 1 I.
+- ANOMALY_FLAG: False
+- FOUND_BETWEEN_10_12: None
 - KEYWORDS_FOUND: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je
   Republike Hrvatske
-- FOUND_TYPO_HEADERS: Članak I35 -> 135
-- NAPOMENA: ANOMALIJA: sadržaj čl. 11 je prisutan u HTML segmentu, ali heading
-  je 'Članak 1 I.' -> NN parsiranje treba ručno/automatski rule. Ključne fraze:
-  Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike
-  Hrvatske
+- FOUND_TYPO_HEADERS: (none)
+- NAPOMENA: U segmentu između 'Članak 10.' i 'Članak 12.' nije pronađen heading
+  'Članak 1 I.'.
