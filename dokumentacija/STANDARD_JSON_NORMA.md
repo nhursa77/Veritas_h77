@@ -27,7 +27,7 @@ označava kao nepotpun za vanjsku uporabu.
 5) **Jezik je hrvatski**, nazivi polja su hrvatski (bez engleskog).  
 6) **Razdvajanje izvora**: operativni tekst (pročišćeni) ≠ dokazni izvor
 (službena objava).  
-7) **Format datuma je hrvatski**: `DD/MM/YYYY` (npr. `16/02/2026`).
+7) **Format datuma je hrvatski**: `DD.MM.YYYY.` (npr. `16.02.2026.`).
 
 ---
 
@@ -37,7 +37,7 @@ Preporučena struktura:
 
 - `baza_zakona/<vrsta>/<slug_akta>/<stanje_na_dan>/`
 npr.
-- `baza_zakona/zakon/zakon_o_opcem_upravnom_postupku/16-02-2026/`
+- `baza_zakona/zakon/zakon_o_opcem_upravnom_postupku/16.02.2026./`
 
 Svaki članak je zasebna datoteka:
 
@@ -69,20 +69,20 @@ Svaki članak mora sadržavati sljedeća polja:
   - `tekst` (string, puni tekst članka u izvornom obliku)
   - `struktura` (objekt; vidi poglavlje 4)
 
-### 3.3 Verzija i provjera (datumi: DD/MM/YYYY)
+### 3.3 Verzija i provjera (datumi: DD.MM.YYYY.)
 
 - `verzija` (objekt)
-  - `stanje_na_dan` (datum `DD/MM/YYYY`)
-  - `datum_provjere` (datum `DD/MM/YYYY`)
+  - `stanje_na_dan` (datum `DD.MM.YYYY.`)
+  - `datum_provjere` (datum `DD.MM.YYYY.`)
   - `napomena` (string ili null)
 
-### 3.4 Izvori i sidra (datumi: DD/MM/YYYY)
+### 3.4 Izvori i sidra (datumi: DD.MM.YYYY.)
 
 - `izvori` (objekt)
   - `operativni_izvor` (objekt ili null)
     - `naziv` (string; npr. `zakon.hr`)
     - `url` (string)
-    - `datum_pristupa` (datum `DD/MM/YYYY`)
+    - `datum_pristupa` (datum `DD.MM.YYYY.`)
   - `dokazni_izvor` (objekt ili null)
     - `naziv` (string; npr. `Narodne novine`)
     - `sidra` (array objekata; vidi 5)
@@ -123,7 +123,7 @@ Ako članak nema formalne stavke, cijeli tekst ide u stavak 1.
 
 - `sidra[]`:
   - `nn_broj` (string, npr. `47/09`)
-  - `datum_objave` (datum `DD/MM/YYYY` ili null ako nije poznat)
+  - `datum_objave` (datum `DD.MM.YYYY.` ili null ako nije poznat)
   - `opis` (string; npr. `pročišćeni tekst`, `izmjene i dopune`,
     `osnovni tekst`)
   - `url` (string ili null)
@@ -175,15 +175,15 @@ i predložiti dopunu sidara.
     }
   },
   "verzija": {
-    "stanje_na_dan": "16/02/2026",
-    "datum_provjere": "16/02/2026",
+    "stanje_na_dan": "16.02.2026.",
+    "datum_provjere": "16.02.2026.",
     "napomena": null
   },
   "izvori": {
     "operativni_izvor": {
       "naziv": "zakon.hr",
       "url": "…",
-      "datum_pristupa": "16/02/2026"
+      "datum_pristupa": "16.02.2026."
     },
     "dokazni_izvor": {
       "naziv": "Narodne novine",
