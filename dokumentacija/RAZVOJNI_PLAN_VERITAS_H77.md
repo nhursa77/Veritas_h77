@@ -148,6 +148,9 @@ PROVJERA:
   (`Ustavni zakon...`, `Promjena Ustava...`)
 - normiranje i usporedba brojeva članaka rade se isključivo nad
   `ustav_rh_procisceni`; amandmani ostaju izdvojeni za evidenciju
+- cutoff marker u kontrolnom TXT-u je obavezan signal početka amandmana;
+  parser vodi `PROCISCENI_CUTOFF_MARKER`, `PROCISCENI_CHAR_LEN` i
+  `AMANDMANI_CHAR_LEN` u reportu radi audit-traga
 GATE:
 - rezultat validacije ulazi u odluku o ručnim/automatiziranim parser pravilima
 

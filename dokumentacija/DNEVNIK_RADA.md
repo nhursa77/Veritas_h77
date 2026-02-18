@@ -159,3 +159,9 @@ te
 Validacija NN vs kontrolno sada uspoređuje samo `ustav_rh_procisceni`,
 a report sadrži sekciju `Document split summary` i ispis
 `CONTROL_DOCS_FOUND` / `NN_DOCS_FOUND`.
+
+### Validator — zakon.hr cutoff marker + stabilniji header parsing
+Uveden je cutoff marker za odvajanje pročišćenog teksta od amandmana u
+`ustav_rh_kontrolni.txt`, a amandmanski dio je izbačen iz usporedbe.
+Parser zaglavlja je stabiliziran (anchored `Članak <N>` + heuristika za
+sumnjive truncirane headere), čime je uklonjen ghost efekt `12` umjesto `123`.

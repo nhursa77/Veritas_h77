@@ -4,6 +4,8 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import textwrap
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -15,9 +17,16 @@ KONTROLNO_DOCS_JSON = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / "ustav_r
 NN_HTML = REPO_ROOT / "izvori" / "dokazno" / "narodne_novine" / "ustav_rh" / "izvor_nn.html"
 OUT_REPORT = REPO_ROOT / "baza_zakona" / "norme" / "ustav_rh" / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
-CONTROL_HEADER_STRICT_RX = re.compile(r"^\s*Članak\s+([0-9]{1,3})\.\s*$")
-CONTROL_HEADER_TYPO_I_RX = re.compile(r"^\s*Članak\s+I([0-9]{2,3})\.\s*$")
-CONTROL_HEADER_TYPO_L_RX = re.compile(r"^\s*Članak\s+l([0-9]{2,3})\.\s*$")
+CONTROL_HEADER_STRICT_RX = re.compile(r"^\s*Članak\s+([0-9]{1,3})(?:\.\s*)?$")
+CONTROL_HEADER_TYPO_I_RX = re.compile(r"^\s*Članak\s+I([0-9]{2,3})(?:\.\s*)?$")
+CONTROL_HEADER_TYPO_L_RX = re.compile(r"^\s*Članak\s+l([0-9]{2,3})(?:\.\s*)?$")
+
+CUTOFF_MARKERS_NORMALIZED = [
+    "ustavni zakon o izmjenama",
+    "ustavni zakon o promjenama",
+    "promjena ustava republike hrvatske",
+    "ustavni zakon (nn",
+]
 
 
 def sha256_file(path: Path) -> str:
@@ -61,7 +70,73 @@ def _detektiraj_switch_dokumenta(line: str) -> dict | None:
     return None
 
 
-def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str]]:
+def _normalize_for_match(value: str) -> str:
+    normalized = unicodedata.normalize("NFKD", value)
+    without_diacritics = "".join(ch for ch in normalized if not unicodedata.combining(ch))
+    return without_diacritics.lower().strip()
+
+
+def _find_procisceni_cutoff(lines: list[str]) -> tuple[int | None, str | None]:
+    for index, raw_line in enumerate(lines):
+        normalized = _normalize_for_match(raw_line)
+        if not normalized:
+            continue
+        if any(marker in normalized for marker in CUTOFF_MARKERS_NORMALIZED):
+            return index, raw_line.strip()
+    return None, None
+
+
+def _apply_truncated_header_heuristics(
+    clanci: list[dict],
+    header_events: list[dict],
+) -> list[str]:
+    suspicious: list[str] = []
+    if len(header_events) < 3:
+        return suspicious
+
+    for i in range(1, len(header_events) - 1):
+        prev_header = header_events[i - 1]
+        current_header = header_events[i]
+        next_header = header_events[i + 1]
+
+        prev_num = int(prev_header["broj"])
+        current_num = int(current_header["broj"])
+        next_num = int(next_header["broj"])
+
+        if prev_num < 100 or next_num < 100:
+            continue
+        if current_num >= 100:
+            continue
+        if next_num <= prev_num:
+            continue
+
+        inferred = prev_num + 1
+        if inferred >= next_num:
+            continue
+
+        index_in_clanci = int(current_header["index"])
+        original_line = str(current_header["line_raw"])
+        line_no = int(current_header["line_no"])
+        clanci[index_in_clanci]["broj"] = inferred
+        current_header["broj"] = inferred
+        suspicious.append(
+            f"L{line_no}: '{original_line}' -> inferred {inferred} (prev={prev_num}, next={next_num})"
+        )
+
+    return suspicious
+
+
+def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str], str | None, int, int, list[str]]:
+    lines = text.splitlines()
+    cutoff_index, cutoff_marker = _find_procisceni_cutoff(lines)
+
+    if cutoff_index is None:
+        procisceni_text = text
+        amandmani_text = ""
+    else:
+        procisceni_text = "\n".join(lines[:cutoff_index])
+        amandmani_text = "\n".join(lines[cutoff_index:])
+
     dokumenti: list[dict] = [
         {
             "doc_id": "ustav_rh_procisceni",
@@ -69,50 +144,79 @@ def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str]]:
             "nn": None,
             "naslov": "Ustav Republike Hrvatske",
             "clanci": [],
+            "meta": {
+                "char_len": len(procisceni_text),
+                "cutoff_marker": cutoff_marker,
+            },
+        },
+        {
+            "doc_id": "ustav_rh_amandmani",
+            "tip": "amandmani",
+            "nn": None,
+            "naslov": "Amandmani i promjene Ustava Republike Hrvatske",
+            "clanci": [],
+            "meta": {
+                "char_len": len(amandmani_text),
+                "cutoff_marker": cutoff_marker,
+            },
         }
     ]
     current_doc = dokumenti[0]
 
     typo_mappings: list[str] = []
+    suspected_truncated_headers: list[str] = []
     current_num: int | None = None
     current_parts: list[str] = []
+    current_header_line_no: int | None = None
+    current_header_raw: str | None = None
+    procisceni_header_events: list[dict] = []
 
     def zavrsi_trenutni() -> None:
-        nonlocal current_num, current_parts
+        nonlocal current_num, current_parts, current_header_line_no, current_header_raw
         if current_num is None:
             return
         tekst = re.sub(r"\s+", " ", " ".join(current_parts)).strip()
+        entry = {
+            "broj": current_num,
+            "naslov": None,
+            "tekst": tekst,
+            "struktura": {"stavci": None, "glava_rimski": None},
+        }
         current_doc["clanci"].append(
-            {
-                "broj": current_num,
-                "naslov": None,
-                "tekst": tekst,
-                "struktura": {"stavci": None, "glava_rimski": None},
-            }
+            entry
         )
+        if current_doc.get("doc_id") == "ustav_rh_procisceni" and current_header_line_no is not None and current_header_raw is not None:
+            procisceni_header_events.append(
+                {
+                    "index": len(current_doc["clanci"]) - 1,
+                    "broj": current_num,
+                    "line_no": current_header_line_no,
+                    "line_raw": current_header_raw,
+                }
+            )
         current_num = None
         current_parts = []
+        current_header_line_no = None
+        current_header_raw = None
 
-    for raw_line in text.splitlines():
+    for line_index, raw_line in enumerate(lines):
+        if cutoff_index is not None and line_index >= cutoff_index:
+            current_doc = dokumenti[1]
+
         line = raw_line.strip()
         if not line:
             continue
 
-        switch_doc = _detektiraj_switch_dokumenta(line)
-        if switch_doc is not None:
-            zavrsi_trenutni()
-            postojeci = next((d for d in dokumenti if d.get("doc_id") == switch_doc["doc_id"]), None)
-            if postojeci is None:
-                dokumenti.append(switch_doc)
-                current_doc = switch_doc
-            else:
-                current_doc = postojeci
-            continue
-
         match_clean = CONTROL_HEADER_STRICT_RX.match(line)
         if match_clean:
+            suffix = line[match_clean.end(1):]
+            if suffix and re.search(r"\d", suffix):
+                suspected_truncated_headers.append(f"L{line_index + 1}: {line}")
+                continue
             zavrsi_trenutni()
             current_num = int(match_clean.group(1))
+            current_header_line_no = line_index + 1
+            current_header_raw = line
             continue
 
         match_i = CONTROL_HEADER_TYPO_I_RX.match(line)
@@ -124,6 +228,8 @@ def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str]]:
             typo = f"Članak I{suffix} -> {mapped}"
             if typo not in typo_mappings:
                 typo_mappings.append(typo)
+            current_header_line_no = line_index + 1
+            current_header_raw = line
             continue
 
         match_l = CONTROL_HEADER_TYPO_L_RX.match(line)
@@ -135,13 +241,18 @@ def parse_kontrolno_dokumenti(text: str) -> tuple[list[dict], list[str]]:
             typo = f"Članak l{suffix} -> {mapped}"
             if typo not in typo_mappings:
                 typo_mappings.append(typo)
+            current_header_line_no = line_index + 1
+            current_header_raw = line
             continue
 
         if current_num is not None:
             current_parts.append(line)
 
     zavrsi_trenutni()
-    return dokumenti, typo_mappings
+    suspected_truncated_headers.extend(
+        _apply_truncated_header_heuristics(dokumenti[0].get("clanci", []), procisceni_header_events)
+    )
+    return dokumenti, typo_mappings, cutoff_marker, len(procisceni_text), len(amandmani_text), suspected_truncated_headers
 
 
 def parse_nn_dokumenti() -> list[dict]:
@@ -283,14 +394,33 @@ def norma_filename_for_number(number: int) -> str:
     return f"clanak_{number:04d}.json"
 
 
+def _append_wrapped_bullet(lines: list[str], text: str, width: int = 80) -> None:
+    wrapped = textwrap.wrap(
+        text,
+        width=max(10, width - 2),
+        break_long_words=False,
+        break_on_hyphens=False,
+    )
+    if not wrapped:
+        lines.append("- ")
+        return
+    lines.append(f"- {wrapped[0]}")
+    for part in wrapped[1:]:
+        lines.append(f"  {part}")
+
+
 def build_report(
     ts: str,
     nn_hash: str,
     kontrolno_hash: str,
     control_docs_ids: list[str],
     nn_docs_ids: list[str],
+    procisceni_cutoff_marker: str | None,
+    procisceni_char_len: int,
+    amandmani_char_len: int,
     nn_count: int,
     kontrolno_count: int,
+    kontrolno_count_amandmani: int,
     kontrolno_headers_count: int,
     kontrolno_first20_headers: list[int],
     kontrolno_has_10: bool,
@@ -310,6 +440,7 @@ def build_report(
     anomaly_flag: bool,
     anomaly_note: str,
     anomaly_meta: dict[str, object],
+    control_suspected_truncated_headers: list[str],
 ) -> str:
     lines: list[str] = []
     lines.append("# IZVJESTAJ_VALIDACIJE_KONTROLNO")
@@ -321,13 +452,23 @@ def build_report(
 
     lines.append("## Document split summary")
     lines.append("")
-    lines.append(f"- CONTROL_DOCS_FOUND: {len(control_docs_ids)} | {', '.join(control_docs_ids) if control_docs_ids else '(none)'}")
-    lines.append(f"- NN_DOCS_FOUND: {len(nn_docs_ids)} | {', '.join(nn_docs_ids) if nn_docs_ids else '(none)'}")
+    _append_wrapped_bullet(
+        lines,
+        f"CONTROL_DOCS_FOUND: {len(control_docs_ids)} | {', '.join(control_docs_ids) if control_docs_ids else '(none)'}",
+    )
+    _append_wrapped_bullet(
+        lines,
+        f"NN_DOCS_FOUND: {len(nn_docs_ids)} | {', '.join(nn_docs_ids) if nn_docs_ids else '(none)'}",
+    )
+    lines.append(f"- PROCISCENI_CUTOFF_MARKER: {procisceni_cutoff_marker if procisceni_cutoff_marker else 'NONE'}")
+    lines.append(f"- PROCISCENI_CHAR_LEN: {procisceni_char_len}")
+    lines.append(f"- AMANDMANI_CHAR_LEN: {amandmani_char_len}")
     lines.append("")
 
     lines.append("## SUMMARY")
     lines.append("")
     lines.append(f"- CONTROL_COUNT: {kontrolno_count}")
+    lines.append(f"- CONTROL_COUNT_AMANDMANI: {kontrolno_count_amandmani}")
     lines.append(f"- CONTROL_HEADERS_COUNT: {kontrolno_headers_count}")
     lines.append(f"- NN_COUNT: {nn_count}")
     lines.append(f"- MISSING_COUNT: {len(missing_in_nn)}")
@@ -337,16 +478,30 @@ def build_report(
 
     lines.append("## CONTROL_EXTRACTOR_DEBUG")
     lines.append("")
-    lines.append("- CONTROL_FIRST20_HEADERS: [" + ", ".join(str(x) for x in kontrolno_first20_headers) + "]")
+    _append_wrapped_bullet(
+        lines,
+        "CONTROL_FIRST20_HEADERS: [" + ", ".join(str(x) for x in kontrolno_first20_headers) + "]",
+    )
     lines.append(f"- CONTROL_HAS_10: {kontrolno_has_10}")
     lines.append(f"- CONTROL_HAS_11: {kontrolno_has_11}")
     lines.append(f"- CONTROL_HAS_12: {kontrolno_has_12}")
     lines.append(f"- CONTROL_TRUNCATION_SUSPECTED: {control_truncation_suspected}")
     lines.append(f"- CONTROL_MIN: {control_min}")
     lines.append(f"- CONTROL_MAX: {control_max}")
-    lines.append("- CONTROL_TYPO_HEADERS: " + (", ".join(kontrolno_typo_headers) if kontrolno_typo_headers else "(none)"))
+    _append_wrapped_bullet(
+        lines,
+        "CONTROL_TYPO_HEADERS: " + (", ".join(kontrolno_typo_headers) if kontrolno_typo_headers else "(none)"),
+    )
+    if control_suspected_truncated_headers:
+        _append_wrapped_bullet(
+            lines,
+            "CONTROL_SUSPECTED_TRUNCATED_HEADERS: "
+            + " | ".join(control_suspected_truncated_headers[:10]),
+        )
+    else:
+        lines.append("- CONTROL_SUSPECTED_TRUNCATED_HEADERS: (none)")
     if kontrolno_count_mismatch_warning:
-        lines.append(f"- WARNING: {kontrolno_count_mismatch_warning}")
+        _append_wrapped_bullet(lines, f"WARNING: {kontrolno_count_mismatch_warning}")
     lines.append("")
 
     lines.append("## Control source anomaly (zakon.hr truncation suspected)")
@@ -371,9 +526,15 @@ def build_report(
     lines.append("## Extra in NN (present in NN, absent in zakon.hr)")
     lines.append("")
     if control_truncation_suspected:
-        lines.append("- UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan (truncation suspected).")
+        _append_wrapped_bullet(
+            lines,
+            "UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan (truncation suspected).",
+        )
         if untrustworthy_control_extra_list:
-            lines.append("- Kandidati (nepouzdano): " + ", ".join(str(x) for x in untrustworthy_control_extra_list))
+            _append_wrapped_bullet(
+                lines,
+                "Kandidati (nepouzdano): " + ", ".join(str(x) for x in untrustworthy_control_extra_list),
+            )
         else:
             lines.append("- Kandidati (nepouzdano): (none)")
     elif extra_in_nn:
@@ -395,13 +556,21 @@ def build_report(
     lines.append("## Anomaly hints")
     lines.append("")
     lines.append(f"- ANOMALY_FLAG: {anomaly_flag}")
-    lines.append(f"- FOUND_BETWEEN_10_12: {anomaly_meta.get('FOUND_BETWEEN_10_12')}")
-    keys = anomaly_meta.get("KEYWORDS") if isinstance(anomaly_meta.get("KEYWORDS"), list) else []
-    lines.append("- KEYWORDS_FOUND: " + (", ".join(str(k) for k in keys) if keys else "(none)"))
-    typo_headers = anomaly_meta.get("FOUND_TYPO_HEADERS") if isinstance(anomaly_meta.get("FOUND_TYPO_HEADERS"), list) else []
-    lines.append("- FOUND_TYPO_HEADERS: " + (", ".join(str(item) for item in typo_headers) if typo_headers else "(none)"))
-    lines.append(f"- NAPOMENA: {anomaly_note}")
-    lines.append("")
+    _append_wrapped_bullet(lines, f"FOUND_BETWEEN_10_12: {anomaly_meta.get('FOUND_BETWEEN_10_12')}")
+    keywords_raw = anomaly_meta.get("KEYWORDS")
+    keywords: list[object] = keywords_raw if isinstance(keywords_raw, list) else []
+    _append_wrapped_bullet(
+        lines,
+        "KEYWORDS_FOUND: " + (", ".join(str(item) for item in keywords) if keywords else "(none)"),
+    )
+
+    typo_headers_raw = anomaly_meta.get("FOUND_TYPO_HEADERS")
+    typo_headers: list[object] = typo_headers_raw if isinstance(typo_headers_raw, list) else []
+    _append_wrapped_bullet(
+        lines,
+        "FOUND_TYPO_HEADERS: " + (", ".join(str(item) for item in typo_headers) if typo_headers else "(none)"),
+    )
+    _append_wrapped_bullet(lines, f"NAPOMENA: {anomaly_note}")
 
     return "\n".join(lines)
 
@@ -415,7 +584,14 @@ def main() -> int:
     kontrolno_text = KONTROLNO_TXT.read_text(encoding="utf-8")
     nn_html = NN_HTML.read_text(encoding="utf-8", errors="ignore")
 
-    kontrolno_dokumenti, kontrolno_typo_headers = parse_kontrolno_dokumenti(kontrolno_text)
+    (
+        kontrolno_dokumenti,
+        kontrolno_typo_headers,
+        procisceni_cutoff_marker,
+        procisceni_char_len,
+        amandmani_char_len,
+        control_suspected_truncated_headers,
+    ) = parse_kontrolno_dokumenti(kontrolno_text)
     KONTROLNO_DOCS_JSON.write_text(
         json.dumps(
             {
@@ -424,6 +600,10 @@ def main() -> int:
                 "parsiranje": {
                     "datum_parsiranja": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
                     "broj_dokumenata": len(kontrolno_dokumenti),
+                    "procisceni_cutoff_marker": procisceni_cutoff_marker,
+                    "procisceni_char_len": procisceni_char_len,
+                    "amandmani_char_len": amandmani_char_len,
+                    "suspected_truncated_headers": control_suspected_truncated_headers,
                 },
             },
             ensure_ascii=False,
@@ -435,11 +615,14 @@ def main() -> int:
 
     nn_doc = next((d for d in nn_dokumenti if d.get("doc_id") == "ustav_rh_procisceni"), {"clanci": []})
     control_doc = next((d for d in kontrolno_dokumenti if d.get("doc_id") == "ustav_rh_procisceni"), {"clanci": []})
+    control_doc_amandmani = next((d for d in kontrolno_dokumenti if d.get("doc_id") == "ustav_rh_amandmani"), {"clanci": []})
 
     kontrolno_headers, kontrolno_nums, _ = dokument_brojevi_i_tekst(control_doc)
+    _, kontrolno_nums_amandmani, _ = dokument_brojevi_i_tekst(control_doc_amandmani)
     nn_headers, nn_nums, nn_texts = dokument_brojevi_i_tekst(nn_doc)
 
     kontrolno_count = len(kontrolno_nums)
+    kontrolno_count_amandmani = len(kontrolno_nums_amandmani)
     kontrolno_headers_count = len(kontrolno_headers)
     kontrolno_first20_headers = kontrolno_headers[:20]
     kontrolno_has_10 = 10 in kontrolno_nums
@@ -484,8 +667,12 @@ def main() -> int:
         kontrolno_hash=kontrolno_hash,
         control_docs_ids=control_docs_ids,
         nn_docs_ids=nn_docs_ids,
+        procisceni_cutoff_marker=procisceni_cutoff_marker,
+        procisceni_char_len=procisceni_char_len,
+        amandmani_char_len=amandmani_char_len,
         nn_count=len(nn_nums),
         kontrolno_count=kontrolno_count,
+        kontrolno_count_amandmani=kontrolno_count_amandmani,
         kontrolno_headers_count=kontrolno_headers_count,
         kontrolno_first20_headers=kontrolno_first20_headers,
         kontrolno_has_10=kontrolno_has_10,
@@ -505,6 +692,7 @@ def main() -> int:
         anomaly_flag=anomaly_flag,
         anomaly_note=anomaly_note,
         anomaly_meta=anomaly_meta,
+        control_suspected_truncated_headers=control_suspected_truncated_headers,
     )
 
     OUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
@@ -518,7 +706,11 @@ def main() -> int:
 
     print(f"CONTROL_DOCS_FOUND: {len(control_docs_ids)} | {', '.join(control_docs_ids) if control_docs_ids else '(none)'}")
     print(f"NN_DOCS_FOUND: {len(nn_docs_ids)} | {', '.join(nn_docs_ids) if nn_docs_ids else '(none)'}")
+    print(f"PROCISCENI_CUTOFF_MARKER: {procisceni_cutoff_marker if procisceni_cutoff_marker else 'NONE'}")
+    print(f"PROCISCENI_CHAR_LEN: {procisceni_char_len}")
+    print(f"AMANDMANI_CHAR_LEN: {amandmani_char_len}")
     print(f"CONTROL_COUNT: {kontrolno_count}")
+    print(f"CONTROL_COUNT_AMANDMANI: {kontrolno_count_amandmani}")
     print(f"CONTROL_HEADERS_COUNT: {kontrolno_headers_count}")
     print("CONTROL_FIRST20_HEADERS: [" + ", ".join(str(x) for x in kontrolno_first20_headers) + "]")
     print(f"CONTROL_HAS_10: {kontrolno_has_10}")
@@ -526,6 +718,13 @@ def main() -> int:
     print(f"CONTROL_HAS_12: {kontrolno_has_12}")
     print(f"CONTROL_TRUNCATION_SUSPECTED: {control_truncation_suspected}")
     print("CONTROL_TYPO_HEADERS: " + (", ".join(kontrolno_typo_headers) if kontrolno_typo_headers else "(none)"))
+    if control_suspected_truncated_headers:
+        print(
+            "CONTROL_SUSPECTED_TRUNCATED_HEADERS: "
+            + " | ".join(control_suspected_truncated_headers[:10])
+        )
+    else:
+        print("CONTROL_SUSPECTED_TRUNCATED_HEADERS: (none)")
     print(f"NN_COUNT: {len(nn_nums)}")
     print(f"MISSING_COUNT: {len(missing_in_nn)}")
     print(f"MISSING_LIST: [{missing_csv}]" if missing_csv else "MISSING_LIST: []")

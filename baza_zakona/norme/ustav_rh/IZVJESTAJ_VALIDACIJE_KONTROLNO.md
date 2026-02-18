@@ -1,18 +1,22 @@
 # IZVJESTAJ_VALIDACIJE_KONTROLNO
 
-- Timestamp: 2026-02-18T14:35:53+01:00
+- Timestamp: 2026-02-18T14:44:01+01:00
 - NN_JSON_SHA256: 51012a4dc8fab0ead8c2297bda172c861efd60d22b35ab391de99ee49fb6f4a3
 - KONTROLNO_TXT_SHA256: 2a38e78e9722336813597f74fe4d96526d937e9abaa2b356ce284539b77c6171
 
 ## Document split summary
 
-- CONTROL_DOCS_FOUND: 5 | ustav_rh_procisceni, amandman_nn_135_97, promjena_nn_113_00, promjena_nn_28_01, promjena_nn_76_10
+- CONTROL_DOCS_FOUND: 2 | ustav_rh_procisceni, ustav_rh_amandmani
 - NN_DOCS_FOUND: 1 | ustav_rh_procisceni
+- PROCISCENI_CUTOFF_MARKER: Ustavni zakon o izmjenama i dopunama Ustava Republike Hrvatske (NN 135/97.)
+- PROCISCENI_CHAR_LEN: 90337
+- AMANDMANI_CHAR_LEN: 1771
 
 ## SUMMARY
 
 - CONTROL_COUNT: 141
-- CONTROL_HEADERS_COUNT: 142
+- CONTROL_COUNT_AMANDMANI: 8
+- CONTROL_HEADERS_COUNT: 141
 - NN_COUNT: 142
 - MISSING_COUNT: 0
 - SHORT_COUNT: 52
@@ -20,20 +24,22 @@
 
 ## CONTROL_EXTRACTOR_DEBUG
 
-- CONTROL_FIRST20_HEADERS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+- CONTROL_FIRST20_HEADERS: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,
+  16, 17, 18, 19, 20]
 - CONTROL_HAS_10: True
 - CONTROL_HAS_11: True
 - CONTROL_HAS_12: True
 - CONTROL_TRUNCATION_SUSPECTED: True
 - CONTROL_MIN: 1
-- CONTROL_MAX: 142
+- CONTROL_MAX: 141
 - CONTROL_TYPO_HEADERS: (none)
-- WARNING: CONTROL_HEADERS_COUNT != len(control_nums): 142 vs 141
+- CONTROL_SUSPECTED_TRUNCATED_HEADERS: L1684: 'Članak 12.' -> inferred 123
+  (prev=122, next=124)
 
 ## Control source anomaly (zakon.hr truncation suspected)
 
 - CONTROL_TRUNCATION_SUSPECTED: True
-- found 12 near high-range context (prev=122, next=124)
+- found small numbers (12/13/14) in same control set with high range >=120
 
 ## Missing in NN (present in zakon.hr, absent in NN)
 
@@ -41,8 +47,9 @@
 
 ## Extra in NN (present in NN, absent in zakon.hr)
 
-- UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan (truncation suspected).
-- Kandidati (nepouzdano): 123
+- UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan
+  (truncation suspected).
+- Kandidati (nepouzdano): 142
 
 ## Short texts in NN (len < 200)
 
@@ -103,7 +110,10 @@
 
 - ANOMALY_FLAG: True
 - FOUND_BETWEEN_10_12: Članak 1 I.
-- KEYWORDS_FOUND: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike Hrvatske
+- KEYWORDS_FOUND: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je
+  Republike Hrvatske
 - FOUND_TYPO_HEADERS: Članak I35 -> 135
-- NAPOMENA: ANOMALIJA: sadržaj čl. 11 je prisutan u HTML segmentu, ali heading je 'Članak 1 I.' -> NN parsiranje treba ručno/automatski rule. Ključne fraze: Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike Hrvatske
-
+- NAPOMENA: ANOMALIJA: sadržaj čl. 11 je prisutan u HTML segmentu, ali heading
+  je 'Članak 1 I.' -> NN parsiranje treba ručno/automatski rule. Ključne fraze:
+  Grb Republike Hrvatske, Zastava Republike Hrvatske, Himna je Republike
+  Hrvatske
