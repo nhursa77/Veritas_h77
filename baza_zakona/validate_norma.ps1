@@ -1,5 +1,5 @@
 param(
-    [string]$NormaPutanja = "baza_zakona/norme/USTAV_RH_clanak_1.json",
+    [string]$NormaPutanja = "baza_zakona/norme/ustav_rh_procisceni/clanak_0001.json",
     [string]$ShemaPutanja = "baza_zakona/sheme/NORMA_V1.schema.json"
 )
 

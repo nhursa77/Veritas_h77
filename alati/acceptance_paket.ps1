@@ -293,8 +293,9 @@ try {
         }
 
         $isSidroSlug = $slug.ToLowerInvariant().Contains("_nn_")
+        $operativniSlug = if (-not $isSidroSlug -and $slug -eq "ustav_rh") { "ustav_rh_procisceni" } else { $slug }
         $reportBaseRel = if ($isSidroSlug) { "baza_zakona/sidra" } else { "baza_zakona/norme" }
-        $reportPathRel = "$reportBaseRel/$slug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+        $reportPathRel = "$reportBaseRel/$operativniSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
         $controlJsonRel = "izvori/kontrolno/zakon_hr/$slug/struktura_kontrolno_dokumenti.json"
         try {
             git restore -- $reportPathRel $controlJsonRel 2>$null | Out-Null

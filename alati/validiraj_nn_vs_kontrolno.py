@@ -51,6 +51,12 @@ def _slug_to_env_key(akt_slug: str) -> str:
     return raw
 
 
+def resolve_operativni_norme_slug(akt_slug: str) -> str:
+    if akt_slug == "ustav_rh":
+        return "ustav_rh_procisceni"
+    return akt_slug
+
+
 def resolve_selected_source(akt_slug: str) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     candidates: list[dict[str, Any]] = []
     akt_slug_normalized = _normalize_slug_token(akt_slug)
@@ -802,8 +808,9 @@ def main() -> int:
 
     kontrolno_txt = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / akt_slug / f"{akt_slug}_kontrolni.txt"
     kontrolno_docs_json = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / akt_slug / "struktura_kontrolno_dokumenti.json"
-    operativne_norme_dir = REPO_ROOT / "baza_zakona" / "norme" / akt_slug
-    out_report = REPO_ROOT / "baza_zakona" / "norme" / akt_slug / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+    operativni_slug = resolve_operativni_norme_slug(akt_slug)
+    operativne_norme_dir = REPO_ROOT / "baza_zakona" / "norme" / operativni_slug
+    out_report = REPO_ROOT / "baza_zakona" / "norme" / operativni_slug / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
     override_value, override_raw, override_error = _resolve_expected_count_override(akt_slug)
     if override_raw is not None:

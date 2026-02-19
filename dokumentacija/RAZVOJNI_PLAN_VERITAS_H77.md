@@ -197,7 +197,7 @@ GATE:
 Status pilot (18.02.2026.):
 - pilot za `ustav_rh` je pokrenut iz `struktura_nn.json`
 - ulazi: `struktura_nn.json` + `meta.json` iz NN arhive
-- izlazi: `baza_zakona/norme/ustav_rh/clanak_XXXX.json`
+- izlazi: `baza_zakona/norme/ustav_rh_procisceni/clanak_XXXX.json`
 - artefakti: `IZVJESTAJ_NORMIRANJA.md` i integritet po članku
 - za `ustav_rh` normiranje koristi `struktura_nn_dokumenti.json`
   i normira isključivo dokument `ustav_rh_procisceni`

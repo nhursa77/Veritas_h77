@@ -14,6 +14,16 @@ $selectionReportName = ($AktSlug.ToUpperInvariant() -replace '[^A-Z0-9]+', '_') 
 $selectionReportPath = Join-Path $sourcesRoot $selectionReportName
 $isAktSlugSidro = $AktSlug.ToLowerInvariant().Contains("_nn_")
 
+function Resolve-OperativniSlug {
+    param([Parameter(Mandatory = $true)][string] $Slug)
+
+    if ($Slug -eq "ustav_rh") {
+        return "ustav_rh_procisceni"
+    }
+
+    return $Slug
+}
+
 function Get-StringValue {
     param(
         [Parameter(Mandatory = $false)] $Object,
@@ -163,8 +173,9 @@ try {
     $inputPath = $selection.selected.inputPath
     $metaPath = $selection.selected.metaPath
     $sourceOutBase = if ($sourceSlug.ToLowerInvariant().Contains("_nn_")) { "sidra" } else { "norme" }
+    $operativniSlug = Resolve-OperativniSlug -Slug $AktSlug
     $sourceOutDir = Join-Path $root "baza_zakona\$sourceOutBase\$sourceSlug"
-    $operativniOutDir = Join-Path $root "baza_zakona\norme\$AktSlug"
+    $operativniOutDir = Join-Path $root "baza_zakona\norme\$operativniSlug"
 
     if (!(Test-Path -LiteralPath $inputPath)) {
         throw "Nedostaje ulazna dokument-split struktura: $inputPath"
@@ -184,7 +195,7 @@ try {
     if ($isAktSlugSidro) {
         Write-Host "Sidrišni set ažuriran: $sourceOutDir"
     }
-    elseif ($sourceSlug -eq $AktSlug) {
+    elseif ([string]::Equals($sourceOutDir, $operativniOutDir, [System.StringComparison]::OrdinalIgnoreCase)) {
         Write-Host "Operativni set ažuriran: $operativniOutDir (izvor=isti akt slug)"
     }
     else {

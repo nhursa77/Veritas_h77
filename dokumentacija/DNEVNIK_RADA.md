@@ -147,7 +147,7 @@ dodan `FOUND_TYPO_HEADERS` (npr. `Članak I35 -> 135`).
 ### NN parser typo fix `I35 -> 135` (ustav_rh)
 NN parser sada normalizira tipfelere broja članka `I/l -> 1` u headeru,
 regenerirana je `struktura_nn.json` i NORMA izlaz, te je kreiran
-`baza_zakona/norme/ustav_rh/clanak_0135.json`.
+`baza_zakona/norme/ustav_rh_procisceni/clanak_0135.json`.
 
 ### Ustav RH — document split (pročišćeni vs amandmani)
 U parseru i validatoru uvedeno je razdvajanje dokumenata:
@@ -181,7 +181,7 @@ Stari operativni set (142) je arhiviran u
 ### Diff 142 vs 152 — automatizirani izvještaj
 Dodan je alat `alati/diff_ustav_rh_sets.py` koji uspoređuje arhivski set
 142 s operativnim setom 152 i generira
-`baza_zakona/norme/ustav_rh/IZVJESTAJ_DIFF_142_VS_152.md`.
+`baza_zakona/norme/ustav_rh_procisceni/IZVJESTAJ_DIFF_142_VS_152.md`.
 
 ### Ustav RH — source selection (procisceni-first) + selection report
 `run_normiratelj_ustav_rh.ps1` sada deterministički bira izvor iz NN

@@ -23,8 +23,9 @@ $controlJsonRel = "izvori/kontrolno/zakon_hr/$AktSlug/struktura_kontrolno_dokume
 $isSidroSlug = $AktSlug.ToLowerInvariant().Contains("_nn_")
 $dataBaseRel = if ($isSidroSlug) { "baza_zakona/sidra" } else { "baza_zakona/norme" }
 $dataBaseAbs = if ($isSidroSlug) { "baza_zakona\sidra" } else { "baza_zakona\norme" }
-$reportPathRel = "$dataBaseRel/$AktSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
-$normeDir = Join-Path $root "$dataBaseAbs\$AktSlug"
+$operativniSlug = if (-not $isSidroSlug -and $AktSlug -eq "ustav_rh") { "ustav_rh_procisceni" } else { $AktSlug }
+$reportPathRel = "$dataBaseRel/$operativniSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+$normeDir = Join-Path $root "$dataBaseAbs\$operativniSlug"
 
 function Get-OutputValue {
     param(
