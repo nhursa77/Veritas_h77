@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "231",
+    "naslov": null,
+    "tekst": ". Tijelo državne uprave koje vodi prekršajni postupak može izdati prekršajni nalog ako su ispunjeni svi sljedeći uvjeti: 1. da je ovlašteni tužitelj iz članka 109. stavka 1. točke 1., 2., 3. i 4. (u slučaju iz članka 229. stavka 2.) ovoga Zakona podnio optužni prijedlog, ili je zaprimilo prijavu o počinjenju prekršaja, 2. da nije donijelo rješenje prema članku 161. stavku 1. i 4. ovoga Zakona, 3. da je prekršaj iz optužnog prijedloga ili prijave utvrđen: a) neposrednim opažanjem ili obavljenim nadzorom ovlaštene službene osobe tužitelja ili samoga tijela državne uprave koje vodi prekršajni postupak koja je o tome sačinila službenu bilješku ili zapisnik, ili b) na temelju vjerodostojne dokumentacije, uključivši i zapisnik o očevidu nadležnog tijela; ili c) upotrebom propisanih tehničkih uređaja ili provođenjem odgovarajućih propisanih laboratorijskih analiza i vještačenja. Državni odvjetnik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "377C03CF48D6350409C6611E504DF1B6BEFF86255D4A219ADC0DC57F3A5D1631",
+    "sha256_datoteke": "30F2AB15E6E3E47C2F77154C37D271F469C27C8C744BAD4EA29984D252190A8C",
+    "napomena": null
+  }
+}

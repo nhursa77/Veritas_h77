@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": ". (1) Zaštitna mjera protjerivanja stranca iz zemlje može biti primijenjena prema počinitelju prekršaja koji nije državljanin Republike Hrvatske za kojeg postoji opasnost da će nastaviti činiti prekršaje. (2) Zaštitna mjera protjerivanja stranca iz zemlje ne može biti primijenjena u trajanju kraćem od tri mjeseca, niti duljem od tri godine. Oduzimanje predmeta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "503EDD596C55560203DB3CAE783C8283ACC122FFD26ED610BA38097E4382B92E",
+    "sha256_datoteke": "2E73A0ADC7B03C3FC3A286CCD7AD400043E983666493DAB469E1D70A6C103377",
+    "napomena": null
+  }
+}

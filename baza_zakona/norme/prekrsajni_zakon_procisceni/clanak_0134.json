@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "134",
+    "naslov": null,
+    "tekst": ". (1) Policija je ovlaštena uhititi osobu zatečenu u počinjenju prekršaja propisanog zakonom ako postoje razlozi za zadržavanje iz članka 135. ovoga Zakona. (2) Nakon uhićenja, policija je dužna: 1. odmah obavijestiti uhićenika o razlozima njegova uhićenja, 2. na traženje uhićenika u roku od 12 sati od uhićenja obavijestiti njegovu obitelj o uhićenju. Roditelja ili skrbnika uhićenog maloljetnika o uhićenju će se obavijestiti neovisno o želji uhićenika, 3. o uhićenju obavijestiti nadležno tijelo socijalne skrbi ako je potrebno poduzeti mjere za zbrinjavanje djece i drugih članova obitelji uhićenika o kojima se on brine, a u postupku povezanim s nasiljem u obitelji obavezno odmah obavijestiti radi radi mogućeg zbrinjavanja članova obitelji oštećenih tim nasiljem. (3) Policija će uhićenika uz optužni prijedlog dovesti sucu ili ga pustiti na slobodu čim prestane potreba lišenja slobode a najkasnije u roku od 12 sati od uhićenja. Policija će od uhićenika uzeti osobne i druge potrebne podatke. Ako navedeni rok za uhićenje pada izvan radnog vremena ili dežurstva suda, uhićenik će se dovesti do kraja vremena u kojemu sud radi. Ako to nije moguće zbog okolnosti uhićenja ili drugih važnih razloga, policija će uhićenika, uz pisano obrazloženje, dovesti sucu početkom radnog vremena ili dežurstva narednog dana. U svakom slučaju, zadržavanje ne može trajati dulje od 24 sata. (4) Nakon što mu je uhićena osoba prema stavku 3. ovoga članka dovedena, sudac je dužan odmah ispitati uhićenu osobu na navode optužnog prijedloga i na prijedlog policije ili po službenoj dužnosti obrazloženim rješenjem odlučiti o njezinu zadržavanju ili puštanju na slobodu. Zadržavanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ECC27DB371986F642A1D119CF056513FC70F631A5F9A6FEE156A8BC945E290D0",
+    "sha256_datoteke": "0EE709A378A1019FE9E1E7CBBD7622E287B819441882545CA5BB57509252F0D5",
+    "napomena": null
+  }
+}

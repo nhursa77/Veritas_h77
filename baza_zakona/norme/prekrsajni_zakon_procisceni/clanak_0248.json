@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "248",
+    "naslov": null,
+    "tekst": ". (1) Protiv okrivljenika koji je u bijegu a pokrenut je protiv njega prekršajni postupak za prekršaj za koji mu se može izreći novčana kazna od dvije tisuće kuna i teža ili protiv njega treba izvršiti izrečenu prekršajnopravnu sankciju izrečenu za takav prekršaj, sud može narediti za njim raspisivanje tjeralice. (2) Naredbu za raspisivanje tjeralice dostavlja sud tijelu unutarnjih poslova, nadležnom prema mjestu suda pred kojim se vodi prekršajni postupak, koje raspisuje tjeralicu. (3) Sud koji je naredio raspisivanje tjeralice povući će naredbu o raspisivanju ili već raspisanu tjeralicu ako je: 1. pronađena tražena osoba, 2. nastupila zastara prekršajnog progona, 3. nastupila zastara izvršenja izrečene prekršajnopravne sankcije 4. nastupio kakav drugi razlog zbog kojeg tjeralica nije više potrebna. Postupak za primjenu pravne posljedice negativnih prekršajnih bodova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "49264E29D48A1884950A756B1C4C6B4CC591D1FFB9CB9A5560538DB88DE03463",
+    "sha256_datoteke": "8D53885F86757D077F17F79D5D04CD2430370FF9E8486DCEB23E46E54C32838E",
+    "napomena": null
+  }
+}

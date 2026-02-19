@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "197",
+    "naslov": null,
+    "tekst": ". (1) Presuda se može pobijati zbog pogrešno ili nepotpuno utvrđenoga činjeničnog stanja. (2) Pogrešno utvrđeno činjenično stanje postoji ako je sud kakvu odlučnu činjenicu pogrešno utvrdio, odnosno kad sadržaj isprava, zapisnika o izvedenim dokazima ili tehničkih snimki ozbiljno dovodi u sumnju pravilnost ili pouzdanost utvrđenja odlučne činjenice. (3) Nepotpuno utvrđeno činjenično stanje postoji ako kakva odlučna činjenica nije utvrđena. Odluka o prekršajnopravnim sankcijama i drugim pitanjima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0B9AD34EED40B0653E68432A29936A0B236B774778C2F9F1037BBFC7102993C4",
+    "sha256_datoteke": "5D8A8272784E0B93269753647D8A7B4D6184ACD2088B1EFE3FC39FAF5BAE4C42",
+    "napomena": null
+  }
+}

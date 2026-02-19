@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "132",
+    "naslov": null,
+    "tekst": ". (1) Odluka kojom se određuje mjera opreza dostavlja se okrivljeniku i tijelu koje izvršava mjeru opreza. (2) Mjere opreza iz članka 130. stavka 2. ovoga Zakona izvršava policija, osim mjeru iz članka 130. stavka 2. točke 4. koju izvršava tijelo državne uprave nadležno za nadzor nad tom poslovnom aktivnošću. (3) Sud može u svako doba zatražiti provjeru izvršavanja mjere opreza i izvješće od policije ili drugog tijela koje izvršava mjeru opreza. Tijelo koje izvršava mjeru opreza hitno će provesti zatražene provjere i odmah o tome obavijestiti sud. (4) O postupanju okrivljenika protivno zabrani ili neispunjavanju obveze koja je određena mjerom opreza, tijelo koje izvršava mjeru opreza odmah obavještava sud. (5) Na temelju pribavljenog izvješća, sud može okrivljenika koji postupa protivno određenoj mjeri opreza ili je u cijelosti ili djelomično ne ispunjava kazniti novčanom kaznom do 10.000,00 kuna. Ovako izrečena novčana kazna ne utječe na prekršajnopravnu sankciju koja će se eventualno izreći za počinjeni prekršaj. Protiv rješenja kojim se izriče kazna pravo žalbe ima okrivljenik. (6) Osobi različitoj od okrivljenika sud može posebnim rješenjem zabraniti aktivnosti kojima se narušavaju mjere opreza prema okrivljeniku. Ako ta osoba postupi protivno rješenju, može se rješenjem kazniti novčanom kaznom do 10.000,00 kuna. (7) Za ponovno kršenje naloženih mjera opreza ili zabrane aktivnosti iz stavka 6. ovoga članka, sud može izreći novčanu kaznu do 20.000 kuna. Jamstvo",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7E6ED167211F075F0CAAF6076B8A8DF52C2D095285F94C339D4989CE5AF75B19",
+    "sha256_datoteke": "581A00704D2C0D8EF9F62481C6629C0FCEDB56B483F222E532BE25A86113B173",
+    "napomena": null
+  }
+}

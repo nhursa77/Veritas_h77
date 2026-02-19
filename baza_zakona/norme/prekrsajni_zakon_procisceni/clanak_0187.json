@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "187",
+    "naslov": null,
+    "tekst": ". Tijela državne uprave stvarno nadležna za vođenje prvostupanjskog prekršajnog postupka vode postupak prema postupovnim odredbama ovoga Zakona koje se odnose na prekršajne sudove, osim ako odredbama ove glave nije nešto drukčije propisano. Pokretanje prekršajnog postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A2DF38AE2C442D26BC063E2725C0F7F5D4767E5F10346C8997A47B4A00764246",
+    "sha256_datoteke": "100FB06C2AC87D4AD6780376FAFB72D144B3B9853C59FFDF338BF5A9091D787F",
+    "napomena": null
+  }
+}

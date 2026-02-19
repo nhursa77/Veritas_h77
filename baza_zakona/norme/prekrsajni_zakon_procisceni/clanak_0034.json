@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "34",
+    "naslov": null,
+    "tekst": ". (1) Ako novčana kazna nije u roku određenom odlukom o izricanju novčane kazne plaćena u cijelosti ili djelomično naplatit će se prisilno, sukladno odredbama ovoga Zakona. (2) Ako se novčana kazna u cijelosti ili djelomično ne naplati ni prisilno u roku od godine dana od kada je nadležno tijelo za prisilnu naplatu primilo za to zahtjev, nadležni će sud, osim pravnoj osobi i maloljetnom osuđeniku, zamijeniti je zatvorom računajući svakih započetih tristo kuna kazne za jedan dan zatvora, time da se zatvor ne može odrediti u vremenu kraćem od tri dana ni duljem od šezdeset dana. Neće se protiv okrivljenika iz članka 136. stavka 1. ovoga Zakona pokretati postupak prisilne naplate neplaćene novčane kazne. U tom slučaju će sud koji je donio pravomoćnu odluku o prekršaju odmah zamijeniti neplaćenu novčanu kaznu kaznom zatvora na način predviđen ovim Zakonom. (3) Ako to ocijeni opravdanim s obzirom na težinu prekršaja i visinu neplaćene novčane kazne sud može umjesto kazne zatvora, prema pravilu iz stavka 2. ovoga članka, odrediti rad za opće dobro na slobodi. Odredbe ovoga Zakona o radu za opće dobro na slobodi ne primjenjuju se protiv okrivljenika iz članka 136. stavka 1. ovoga Zakona. (4) Ako se radi o odluci tijela državne uprave kojom je izrečena novčana kazna, na zahtjev toga tijela će nadležni sud odlučiti prema stavku 2. ili 3. ovoga članka. (5) Ako osuđenik nakon donošenja rješenja iz stavaka 2. do 3. ovoga članka plati novčanu kaznu u cjelini, rješenje će se staviti izvan snage i obustaviti daljnji postupak izvršenja, a ako plati dio novčane kazne, rješenje će se preinačiti tako što će se uvijek neplaćeni dio novčane kazne zamijeniti zatvorom odnosno radom za opće dobro na slobodi primjenom pravila o tome iz stavka 2. i 3. ovoga članka. Kazna zatvora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C1DC4C21CB3B479671447293DFEF2EC3AFEF130878DF28861EFEDBC5348DCA13",
+    "sha256_datoteke": "D8BDD67FABE4BFD59782714A2C5469CD2EB0833D2BCE46607FF30B35E43F0D66",
+    "napomena": null
+  }
+}

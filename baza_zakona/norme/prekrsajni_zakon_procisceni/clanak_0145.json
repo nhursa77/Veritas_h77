@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "145",
+    "naslov": null,
+    "tekst": ". (1) Odluke, podnesci i drugi dopisi dostavljaju se: 1. poštom, 2. vlastitom dostavom tijela koje je odluku donijelo, 3. neposrednim uručivanjem kod tijela koje je odluku donijelo, ili 4. na drugi način kojim se ostvaruje svrha dostave i ne dovodi u pitanje pravo na obranu. (2) Poziv za glavnu raspravu ili druge pozive sud može i usmeno priopćiti osobi koja se nalazi pred sudom, uz pouku o posljedicama nedolaska. Poziv priopćen na taj način zabilježit će se u zapisniku, koji će pozvana osoba potpisati, osim ako je taj poziv zabilježen u zapisniku o glavnoj raspravi. Smatra se da je time dostava postala pravovaljanom. (3) Sud može dostavu povjeriti pravnoj osobi koja je na temelju Zakona o pošti ovlaštena za obavljanje univerzalnih poštanskih usluga (dostavu pismena u prekršajnom postupku). (4) Troškovi dostave prema stavku 3. ovoga članka sastavni su dio troškova prekršajnog postupka. (5) Ako se poziv ili odluka ne može stranci ili sudioniku u postupku (članak 108. stavak 1. i 2.) dostaviti jer nije sudu prijavila promjenu adrese ili postoje okolnosti koje ukazuju da očito izbjegava primitak poziva ili odluke, sud će istaknuti poziv ili odluku, osim presude kojom je okrivljeniku izrečena kazna zatvora ili maloljetnički zatvor, na oglasnu ploču suda i protekom osmog dana od stavljanja na oglasnu ploču dostava se smatra uredno obavljenom. Na jednak način postupit će se i u svezi dostave pravomoćne odluke radi njezina izvršavanja. (6) Dostava se obavlja: 1. tužitelju na adresu koju je naznačio u optužnom prijedlogu, odnosno na adresu koju je prijavio sudu, 2. okrivljeniku fizičkoj osobi na adresu njegova stanovanja ili drugu adresu koju je prijavio sudu, radnom mjestu ili bilo koje drugo mjesto gdje je vjerojatno da će se zateći. 3. okrivljeniku fizičkoj osobi obrtniku i okrivljeniku koji se bavi drugom samostalnom djelatnošću na adresu sjedišta obrta ili samostalne djelatnosti, na adresu stanovanja ili na drugu adresu koju je prijavio sudu ili na bilo koje drugo mjesto gdje je vjerojatno da će se zateći. 4. okrivljeniku pravnoj osobi i drugom subjektu koji je s njom izjednačen na adresu sjedišta, odnosno na adresu koju je prijavila sudu ili na bilo koje drugo mjesto gdje je vjerojatno da će se zateći osoba koja je za nju ovlaštena primiti dopis. 5. sudionicima prekršajnog postupka iz članka 108. stavka 2. točke 1. do 4. ovoga Zakona na adresu sjedišta djelatnosti, adresu stanovanja, adresu naznačenu u punomoćju, odnosno na adresu koju su prijavili sudu ili na bilo koje drugo mjesto gdje je vjerojatno da će se zateći. Način dostave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "607F4BE38C81EF37B5E82E5AD522C533F8F1A11AD3B50FC31FC8E32802C0793E",
+    "sha256_datoteke": "1B7BE64F9F2EABCDB4D5C028BC3059AC91C9333C267353345A8A7BE18A563EBA",
+    "napomena": null
+  }
+}

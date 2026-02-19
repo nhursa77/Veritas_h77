@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "27",
+    "naslov": null,
+    "tekst": ". Ne smatra se neubrojivim počinitelj prekršaja koji se svojom krivnjom doveo u stanje u kojem nije mogao shvatiti značenje svojeg postupanja ili nije mogao vladati svojom voljom uporabom alkohola, droga ili drugih sredstava ako je u vrijeme kada se dovodio u takvo stanje kod njega postojao nehaj glede prekršaja što ga je počinio, odnosno namjera kada je propisom o prekršaju propisano kažnjavanje za taj oblik krivnje. Nehaj i namjera",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "70B7B926614EB724915D2768AACE0667D7BF0DB40F6C151FDDA4CB6D942F088A",
+    "sha256_datoteke": "E036411A4F59F43994AACB7928C0F8AA17AE9E5BE9819712FF36BDB55C64F38D",
+    "napomena": null
+  }
+}

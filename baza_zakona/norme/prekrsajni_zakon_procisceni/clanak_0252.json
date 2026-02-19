@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "252",
+    "naslov": null,
+    "tekst": ". Odluke donesene prema Zakonu o prekršajima (»Narodne novine«, br. 88/02., 122/02., 187/03. 105/04. i 127/04.) izvršit će se prema odredbama toga Zakona. Negativni prekršajni bodovi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F5C888114B83D6A004D299B811B13A61EFC532FF49F2DD30BDC3A83FB455E304",
+    "sha256_datoteke": "BF39D523D1FBB61CA29F21C9A27DAF05B75C0AF1BF99FC9191E8A7D295AA50D2",
+    "napomena": null
+  }
+}

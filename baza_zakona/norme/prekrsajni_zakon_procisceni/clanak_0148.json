@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "148",
+    "naslov": null,
+    "tekst": ". (1) Potvrdu o obavljenoj dostavi (dostavnicu) potpisuju primatelj i dostavljač. Primatelj će na dostavnici sam naznačiti datum i sat primitka. (2) Ako primatelj ne zna pisati ili se nije u stanju potpisati, dostavljač će ga potpisati, naznačiti datum i sat primitka i staviti napomenu zašto je potpisao primatelja. (3) Ako primatelj odbije potpisati dostavnicu, dostavljač će to zabilježiti na dostavnici i naznačiti datum i sat predaje. Ako primatelj ne zna naznačit datum i sat primitka, učinit će to dostavljač te to naznačiti na dostavnici. U ovim slučajevima, dostava se smatra uredno obavljenom. (4) Kad primatelj ili punoljetni član njegova domaćinstva odbije primiti dopis, dostavljač će zabilježiti na dostavnici datum i sat i razlog odbijanja primitka, a dopis će ostaviti u stanu primatelja, u poslovnom prostoru gdje radi ili će, ako tako što nije moguće, dopis staviti na vrata stana ili poslovnog prostora ili ostaviti na mjestu gdje se uobičajeno ostavlja pošta. Tako što naznačit će se na dostavnici. Time je dostava obavljena. U slučaju dostave na mjestu počinjenja prekršaja, ako primatelj svojim potpisom odbije potvrditi prijam odluke ili drugog dopisa, postupit će se na način predviđen ovim stavkom a odluka ili drugi dopis ostavit će se primatelju tako što će mu se na pogodan način učiniti dostupnim i to će se zabilježiti, čime se dostava smatra uredno obavljenom. (5) Dostavnicu kojom se dopis dostavlja pravnoj osobi, obrtniku ili drugoj osobi koja se bavi samostalnom djelatnošću potpisuje osoba koja je primila dopis. Dostava u posebnim slučajevima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "764CEC4F6D241B1CCB571B556887BB135E84C226E215635A0E10180B1C1F59B2",
+    "sha256_datoteke": "C26F40EA806A30FC412850FDD2B53BAEC10520184F525BCF99FA4FFE5BFA74E0",
+    "napomena": null
+  }
+}

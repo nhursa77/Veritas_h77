@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". Prekršaj je počinjen u mjestu gdje je počinitelj radio ili bio dužan raditi i u mjestu gdje je u cjelini ili djelomično nastupila posljedica prekršaja, a u slučaju kažnjivog pokušaja i gdje je posljedica trebala nastupiti. Nužna obrana",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DE1F6DC349BA92F242AF23090E74E89AF3B382490DC369A0D2F945516BFB698C",
+    "sha256_datoteke": "538BD541D42DE997316F022145D99C5BE891CDB3CF5C05F0AF5FCF2B3D4A8C77",
+    "napomena": null
+  }
+}

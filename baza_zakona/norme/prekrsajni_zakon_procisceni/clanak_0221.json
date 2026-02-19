@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "221",
+    "naslov": null,
+    "tekst": ". (1) Žurni se prekršajni postupak vodi: 1. za prekršaje za koje je kao jedina kazna propisana novčana kazna do 10.000,00 za fizičku osobu, novčana kazna do 30.000,00 kuna za pravnu osobu i do 10.000,00 kuna za odgovornu osobu u pravnoj osobi. 2. protiv maloljetnog počinitelja prekršaja, 3. protiv uhićenika (članak 134. stavak 4.), 4. protiv okrivljenika kojem je određeno zadržavanje (članak 135. stavak 1.), 5. protiv okrivljenika koji nema stalno prebivalište ili boravak u Republici Hrvatskoj, 6. po prigovoru protiv obaveznog prekršajnog naloga, zbog poricanja prekršaja. (2) Žurni se postupak može na prijedlog tužitelja provesti i za prekršaje kod kojih je propisana kazna veća od one navedene u stavku 1. točki 1. ovoga članka, ali u tom slučaju prekršajni sud ne može izreći veću kaznu od one predviđene u stavku 1. točki 1. ovoga članka. (3) Prekršajni postupak započet kao žurni provest će se i pravomoćno dovršit kao žurni postupak bez obzira da li i dalje postoje uvjeti za vođenje žurnog postupka iz stavka 1. ovoga članka. (4) Ako se istodobno vodi postupak protiv pravne osobe i odgovorne osobe u pravnoj osobi, žurni će se postupak provesti samo ako za vođenje žurnog postupka postoje uvjeti predviđeni stavkom 1. točkom 1. ovoga članka i za pravnu osobu i za odgovornu osmobu u pravnoj osobi. Ako se protiv odgovorne osobe treba provesti žurni postupak na temelju stavka 1. točke 3. – 5. ovoga članka, žurni će se postupak provesti i protiv pravne i protiv odgovorne osobe. (5) Ako se istodobno vodi postupak protiv više okrivljenika žurni će se postupak provesti ako u odnosu na sve okrivljenike, odnosno na sve prekršaje, postoje uvjeti za vođenje žurnog postupka prema stavku 1. točki 1. ovoga članka. Ako se protiv nekog od okrivljenika treba provesti žurni postupak na temelju stavka 1. točke 3. – 5. ovoga članka, žurni će se postupak provesti protiv svih okrivljenika. (6) Ako se istodobno vodi postupak protiv punoljetnog i maloljetnog počinitelja prekršaja uvijek će se provesti žurni postupak. (7) Ako se vodi postupak protiv okrivljenika koji je neki prekršaj počinio kao maloljetnik a neki kao punoljetna osoba provest će se žurni postupak. Vođenje žurnog postupka i primjena ostalih odredbi ovoga Zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "754E964D6C6FE7D3AE381B25702F5E1E9E6057B514BB55D049A7F0ECAE3D5D47",
+    "sha256_datoteke": "632B8DE3468D4F59ACDCB0A39E79229FCBC1150E4ACFA1192EB84414EC0935BD",
+    "napomena": null
+  }
+}

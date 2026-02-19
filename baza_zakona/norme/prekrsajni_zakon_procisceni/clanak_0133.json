@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "133",
+    "naslov": null,
+    "tekst": ". (1) Okrivljenika, protiv kojeg treba odrediti zadržavanje ili je zadržavanje protiv njega već određeno zbog bojazni da će pobjeći, sud može ostaviti na slobodi, odnosno pustiti na slobodu ako on osobno ili tko drugi za njega dade jamstvo da do kraja prekršajnog postupka neće pobjeći, a sam on na zapisnik obeća da se neće kriti i da bez odobrenja neće napustiti svoje boravište. (2) Jamčevina uvijek glasi na svotu novca koja se određuje s obzirom na težinu prekršaja, nastalu štetu prekršajem, pribavljenu imovinsku korist prekršajem i očekivane troškove provođenja postupka, osobne i obiteljske prilike okrivljenika, te imovno stanje okrivljenika ili osobe koja za njega daje jamstvo. Umjesto gotovog novca kao jamstvo se može položiti vrijednosne papire, dragocjenosti ili druga pokretnina koje se lako mogu unovčiti. (3) Položeno jamstvo ostaje do pravomoćnog završetka postupka, ako ovim Zakonom nije određeno drukčije, ili ako nisu ostvareni zakonski uvjeti za raniji prestanak jamstva. (4) Sud rješenjem: 1. određuje ili odbija jamstvo prema stavku 1. ovoga članka, 2. utvrđuje nastupanje razloga za prestanak jamstva prema stavku 3. ovoga članka i određuje da se jamstvo ima vratiti onomu tko je položio jamstvo, 3. utvrđuje da je okrivljenik pobjegao i određuje da položeno jamstvo pripada u državni proračun, a ako je postupak već dovršen odlukom kojom je okrivljenik proglašen krivim i kažnjen određuje da se iz položenog jamstva ima naplatiti novčana kazna, troškovi postupka, šteta prouzročena prekršajem ili oštećenik ako mu je dosuđen imovinskopravni zahtjev a ostatak jamstva pripada državnom proračunu. (5) Ako je prekršajni postupak pravomoćno dovršen i okrivljenik kažnjen zatvorom, sud će, nakon što okrivljenik stupi na izdržavanje kazne zatvora, rješenjem odrediti da se jamstvo ima vratiti okrivljeniku ili osobi koja je položila jamstvo za njega. Ako je jamstvo položio okrivljenik osobno prethodno će se iz jamstva naplatiti sve novčane obveze okrivljenika prema odluci o prekršaju. Jednako će sud postupiti ako je presudom okrivljeniku izrečena novčana kazna kao i u pogledu kazni koje su okrivljeniku izrečene tijekom postupka posebnom odlukom. (6) Protiv rješenja iz stavka 4. točke 1. i 2. ovoga članka nije dopuštena žalba. (7) Ako okrivljenik koji ima pravo na povrat jamstva, povrat novca i drugih stvari ne zatraži u roku od dvije godine od dana stjecanja prava na povrat, gubi pravo na povrat. U takvom slučaju hipoteka prestaje a sud će provesti njezino brisanje. Treća osoba za preuzimanje jamstva mora imati posebnu punomoć osobe koja je dala jamstvo. 4. UHIĆENJE I ZADRŽAVANJE Uhićenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8B660BBE251262FA7EB7C88C4192E44BF4D77E9CE7D0A5B91CFEBC5082796D53",
+    "sha256_datoteke": "EAE48189953A1D14886F2EAB35FB8467C63708BB046640BF26ADA15A694D056B",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "222",
+    "naslov": null,
+    "tekst": ". (1) U vođenju žurnog prekršajnog postupka odgovarajuće se primjenjuju odredbe ovoga Zakona, osim ako odredbama ove glave nije što drukčije određeno. (2) U vođenju žurnog prekršajnog postupka provest će se pojedine radnje sukladno ovome Zakonu pri čemu se ne primjenjuju odredbe ovoga Zakona o glavnoj raspravi, njezinom zakazivanju i vođenju. (3) Sud sukladno odredbama ovoga Zakona poziva okrivljenika, svjedoke, vještaka i ostale radi ispitivanja te kada na temelju tih dokaza i drugih dokaza u spisu ocijeni da je stanje stvari dovoljno razjašnjeno donosi odluku o prekršaju. (4) Tijekom postupka tužitelj i drugi sudionici u postupku mogu sudjelovati u postupku na način predviđen ovim Zakonom. Glava dvadesetdeveta (XXIX.) POSTUPAK PREMA MALOLJETNIM POČINITELJIMA PREKRŠAJA Opće odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "55550BBB88294F8E01AC909E2CE88B055A634D0988E426E8586D612ADE5EBD52",
+    "sha256_datoteke": "876C42365733C83A5C30DBF7483D65304624FE712ED1B2BF0E1F220AA3B0E6B7",
+    "napomena": null
+  }
+}

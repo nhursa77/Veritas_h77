@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "114",
+    "naslov": null,
+    "tekst": ". (1) Okrivljenik u prekršajnom postupku jest: 1. fizička osoba, 2. fizička osoba obrtnik i osoba koja se bavi drugom samostalnom djelatnošću. Ako propisom o prekršaju nije predviđeno sankcioniranje i kazna za okrivljenika fizičku osobu obrtnika i osobu koja se bavi drugom samostalnom djelatnošću, prekršajno odgovara kao okrivljenik fizička osoba. 3. pravna osoba i s njom izjednačeni subjekti, 4. odgovorna osoba u pravnoj osobi. (2) Okrivljenici iz stavka 1. točaka 1., 2. i 4. ovoga članka svoju obranu iznose sami, a druge radnje u postupku mogu obavljati sami ili putem opunomoćenog branitelja. (3) Ako ovim Zakonom nije određeno drukčije, za okrivljenika pravnu osobu i s njom izjednačeni subjekt obranu daje isključivo njihov ovlašteni predstavnik a druge radnje u postupku poduzimaju putem ovlaštenog predstavnika ili putem opunomoćenog branitelja. (4) Ako se istodobno vodi prekršajni postupak za isti prekršaj protiv pravne osobe i njegove odgovorne osobe a radi se o slučaju kada je odgovorna osoba jedini ovlašteni predstavnik i zaposlenik pravne osobe, ta odgovorna osoba je ujedno i predstavnik pravne osobe. (5) Za okrivljenu pravnu osobu i s njom izjednačen subjekt, izvan slučaja stavka 4. ovoga članka, u prekršajnom postupku sudjeluje njezin predstavnik koji je ovlašten poduzimati sve radnje koje može poduzeti okrivljenik. Okrivljena pravna osoba može imati samo jednog predstavnika, kojeg tijekom postupka može zamijeniti. (6) Sud će u prvom pozivu okrivljenu pravnu osobu pozvati da pisanim putem imenuje svog predstavnika i dostavi dokaze da je ta osoba sukladno ovome Zakonu ovlaštena predstavljati tu pravnu osobu. Pravna osoba odluku o imenovanju predstavnika dostavlja prije započinjanja postupka ili tu odluku prilikom poduzimanja prve radnje u postupku sudu predaje sam predstavnik pravne osobe. (7) Za okrivljenu pravnu osobu i s njom izjednačenog subjekta može se predstavnikom u prekršajnom postupku imenovati: 1. osoba upisana u sudskom ili drugom registru kao osoba ovlaštena za zastupanje, 2. zaposlenik ili član pravne osobe kojeg direktor ili druga čelna osoba okrivljene pravne osobe i s njom izjednačenog subjekta imenuje kao predstavnika pravne osobe. (8) Ako okrivljena pravna osoba i s njom izjednačen subjekt ne postupi sukladno stavku 6. i 7. ovoga članka, ili sud ocijeni da u slučaju iz stavka 4. ovoga članka postoji sukob interesa između pravne osobe i odgovorne osobe, sud će rješenjem odrediti njezina predstavnika u prekršajnom postupku prema odredbi stavka 7. ovoga članka. Ako takve osobe nema, sud će odredit rješenjem pravnoj osobi branitelja po službenoj dužnosti koji će imati sve ovlasti predstavnika pravne osobe. Protiv tako postavljenog branitelja ne mogu se primjenjivati prisilne mjere koje se prema zakonu mogu primijeniti prema predstavniku okrivljenika – pravne osobe. (9) Neće se, prema stavku 8. ovoga članka, određivati predstavnik pravne osobe ako su ispunjeni uvjeti za vođenje postupka bez nazočnosti okrivljene pravne osobe. (10) Protiv rješenja donesenih na temelju stavka 8. ovoga članka nije dopuštena posebna žalba. Branitelj",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0F1781CF06510BFDF6A7637D8701EA00BA88AF3C3AA1C0A3E98A5EAFBFF3A1F4",
+    "sha256_datoteke": "4799EF4CE005536055B56B95BBE244F103E44D25E22D7DA0F452ACE2580F01EA",
+    "napomena": null
+  }
+}

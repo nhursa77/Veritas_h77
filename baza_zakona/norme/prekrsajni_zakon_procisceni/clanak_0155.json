@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "155",
+    "naslov": null,
+    "tekst": ". (1) Ako se prije započinjanja prekršajnog postupka utvrdi da je okrivljenik umro odnosno okrivljena pravna osoba prestala postojati (članak 59. stavak 2. prva rečenica), rješenjem će se odbaciti optužni prijedlog, a ako se činjenica smrti ili prestanak postojanja pravne osobe utvrdi nakon započinjanja postupka, rješenjem će se obustaviti prekršajni postupak. (2) Ako se postupak može provesti protiv pravnog sljednika pravne osobe, neće se donositi rješenje iz stavka 1. ovoga članka, već će se zastati s postupanjem i postupak nastaviti nakon što ovlašteni tužitelj na odgovarajući način izmijeni optužni prijedlog. Ako je već doneseno rješenje iz stavka 1. ovoga članka, nakon što tužitelj izmijeni optužni prijedlog, to će se rješenje staviti izvan snage i nastaviti postupak. (3) Ako se nakon izdavanja prekršajnog naloga, a prije njegove pravomoćnosti ili stavljanja izvan snage, utvrdi da je okrivljenik umro odnosno okrivljena pravna osoba prestala postojati, rješenjem će se prekršajni nalog staviti izvan snage. (4) Rješenje iz stavka 1. i 2. ovoga članka donosi sud kod kojeg se nalazi spis u času utvrđenja smrti okrivljenika odnosno prestanka postojanja pravne osobe. Imunitet",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F505DE41BA915AACE923338B5D90EBD6EC14E112BF43BD1CDD0DCAA31121C21C",
+    "sha256_datoteke": "5E02DCAEC4A97C6A14D334E8CF4EAC60610ABB9F3F01B2F50FD959DDA999478A",
+    "napomena": null
+  }
+}

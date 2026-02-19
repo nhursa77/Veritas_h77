@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "206",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjski će sud, prihvaćajući žalbu osnovanom, rješenjem ukinuti prvostupanjsku presudu i dostaviti predmet na ponovno suđenje ako utvrdi da postoji bitna povreda odredaba prekršajnog postupka, osim slučajeva iz članka 207. stavka 1. ovoga Zakona, ili ako smatra da zbog pogrešno ili nepotpuno utvrđenog činjeničnog stanja treba naložiti novu glavnu raspravu ili postupak pred prvostupanjskim sudom. (2) Drugostupanjski sud može naložiti da se nova glavna rasprava odnosno postupak pred prvostupanjskim sudom održi pred drugim sucem. (3) Drugostupanjski sud može i samo djelomično ukinuti prvostupanjsku presudu ako se pojedini dijelovi presude mogu izdvojiti bez štete za pravilno suđenje. Preinačavanje prvostupanjske presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5EB0D9DFDCFFF686EEF17ED1D88423DD2872956A4654C097DFCCAC4A03A11DDB",
+    "sha256_datoteke": "B0275C8A03848E36EF5A0D744708CAE11529CBA7FBD2DF3E277003997BA6820E",
+    "napomena": null
+  }
+}

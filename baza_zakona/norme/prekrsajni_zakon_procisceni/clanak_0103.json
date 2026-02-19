@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "103",
+    "naslov": null,
+    "tekst": ". (1) Ako sud kojemu je ustupljen predmet na temelju članka 102. stavka 1. ovoga Zakona smatra da nije nadležan, pokrenut će postupak za rješavanje sukoba nadležnosti. (2) Kad je u povodu žalbe protiv rješenja suda kojim se on proglasio mjesno nenadležnim (članak 102. stavak 1.) Visoki prekršajni sud Republike Hrvatske svojim rješenjem odlučio koji je sud nadležan, taj je sud vezan za tu odluku o nadležnosti. (3) O sukobu nadležnosti između prekršajnih sudova odlučuje Visoki prekršajni sud Republike Hrvatske. (4) O sukobu nadležnosti između tijela državne uprave koja vode prekršajni postupak odlučuje nadležno ministarstvo, a ako je riječ o sukobu nadležnosti između tijela državne uprave različitih ministarstava, Vlada Republike Hrvatske. (5) O sukobu nadležnosti sudova i tijela državne uprave koja vode prekršajni postupak odlučuje Ustavni sud Republike Hrvatske. (6) Pri odlučivanju o sukobu nadležnosti Visoki prekršajni sud Republike Hrvatske, odnosno nadležno ministarstvo ili Vlada Republike Hrvatske mogu istodobno s rješenjem o sukobu nadležnosti po službenoj dužnosti donijeti odluku o prenošenju mjesne nadležnosti, ako je udovoljeno uvjetima predviđenim člankom 101. ovoga Zakona. (7) Dok se ne riješi sukob nadležnosti, sud je dužan poduzimati one radnje u postupku za koje postoji opasnost od odgode. Glava trinaesta (XIII.) IZUZEĆE Isključenje i otklon",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "45D074D33C4310DAE0C0A3308F73F574DB21C278007C88AD7D62058FEDFF6390",
+    "sha256_datoteke": "330A03941C489C423EE6872D84A11E51450848A257650B0B064714F3C9795130",
+    "napomena": null
+  }
+}

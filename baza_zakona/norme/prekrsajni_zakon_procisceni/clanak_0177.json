@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "177",
+    "naslov": null,
+    "tekst": ". Nakon što stranke i sudionici u postupku (članak 108. stavak 1. i 2.), nazočni na glavnoj raspravi iscrpe dokazne prijedloge ili sudac odbije prijedloge za daljnjim izvođenjem dokaza i ustanovi da nema potrebe za izvođenjem još nekih dokaza, objavit će da je dokazni postupak završen. Završni govor stranaka i završetak glavne rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2F4FF84F5AA172AB1FDB3FA5A1AEB275D7585D85471C0B7DFC7A5C4EC589A7A9",
+    "sha256_datoteke": "630FF0AC0745029FADC2610F00B5A83DF5434426423F563DAF5FD8BEF629C09E",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "112",
+    "naslov": null,
+    "tekst": ". (1) Pravne osobe koje imaju javne ovlasti, ovlaštene su za prekršajni progon za one prekršaje koji su propisani u području javnih ovlasti koje imaju. (2) Pravna osoba s javnim ovlastima u tijeku prekršajnog postupka poduzima sve radnje na koje je po zakonu ovlaštena putem osobe koju za to ovlasti kao svog predstavnika. Oštećenik tužitelj",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "957C08FED035D92A29E7E4D0BA4A6AF7E328B56657303A53B60D004AF23B0C7B",
+    "sha256_datoteke": "94F860A9FC3B05B52E93ADF0993AA7282422B24C4685DBA517B0CF6D48616B25",
+    "napomena": null
+  }
+}

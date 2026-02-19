@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "256",
+    "naslov": null,
+    "tekst": ". Nadležni će ministri provedbene propise predviđene ovim Zakonom donijeti ili uskladiti s ovim Zakonom najkasnije u roku od mjesec dana od stupanja na snagu ovoga Zakona. Učinci stupanja zakona na snagu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "222B1231885CAD76FA417B1BB1C067E827196A8E10F60F445EA356E53C26DC49",
+    "sha256_datoteke": "EA7DD0BA00E27475C60BC22825A9AAD393E56714434467696D3C7CD0C8BC24DA",
+    "napomena": null
+  }
+}

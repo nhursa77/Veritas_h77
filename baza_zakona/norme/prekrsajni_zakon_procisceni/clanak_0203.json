@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "203",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjski sud može u sjednici vijeća rješenjem odbaciti žalbu kao nepravodobnu ili nedopuštenu, ili presudom odbiti žalbu kao neosnovanu i potvrditi prvostupanjsku presudu, ili rješenjem ukinuti prvostupanjsku presudu i dostaviti predmet prvostupanjskom sudu na ponovno suđenje i odluku, ili presudom preinačiti prvostupanjsku presudu. (2) O svim žalbama protiv iste presude drugostupanjski sud odlučuje jednom odlukom. Odbacivanje žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E4B1A31D8B8954DCED143CED46DE513F7E6EEE5DAD868A9D9551BEB721A55757",
+    "sha256_datoteke": "8B9083E241E0722389C834E133411AC1AB86EC04CDD9E93198347C07E16778D6",
+    "napomena": null
+  }
+}

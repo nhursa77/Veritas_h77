@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "202",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjski sud ispituje presudu u onom dijelu u kojem se pobija žalbom i to iz osnova i razloga koje žalitelj navodi u žalbi. U dijelu u kojemu po žalbi ispituje presudu, sud po službenoj dužnosti ispituje i jesu li presudom na štetu okrivljenika povrijeđene odredbe prekršajnog materijalnog prava i je li u postupku nastupila zastara prekršajnog progona. (2) U povodu žalbe tužitelja može se prvostupanjska presuda ukinuti ili preinačiti i u korist okrivljenika. (3) Na povredu iz članka 195. stavka 1. točke 2. ovoga Zakona žalitelj se može pozvati u žalbi samo ako tu povredu nije mogao iznijeti u tijeku glavne rasprave ili postupka, ili je iznio, ali ju prvostupanjski sud nije uzeo u obzir. (4) Ako je podnesena samo u korist okrivljenika žalba, presuda se ne smije izmijeniti na njegovu štetu. (5) U korist okrivljenika podnesena žalba zbog pogrešno ili nepotpuno utvrđenog činjeničnog stanja ili zbog povrede materijalnog prekršajnog prava sadrži u sebi i žalbu zbog odluke o prekršajnopravnoj sankciji i oduzimanju imovinske koristi. (6) Ako drugostupanjski sud u povodu bilo čije žalbe utvrdi da su razlozi zbog kojih je donio odluku u korist okrivljenika od koristi i za kojeg od suokrivljenika koji nije podnio žalbu ili je nije podnio u tom smislu, postupit će po službenoj dužnosti kao da takva žalba postoji, osim ako se protiv žalitelja presudom odbija optužba zbog nastupanja zastare prekršajnog progona. Odluke drugostupanjskog suda o žalbi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "696846877554DF72CA1D0EE49F381BFD468C7E04351DB050A8C60EE33665733C",
+    "sha256_datoteke": "8DB66474B1B44A6731690B0B09D72EAFCA6EA6A6E5E7E302B7131EF68F3D76F3",
+    "napomena": null
+  }
+}

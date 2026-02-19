@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "136",
+    "naslov": null,
+    "tekst": ". (1) Kad je okrivljeniku koji nema stalno prebivalište ili boravište u Republici Hrvatskoj nepravomoćnom presudom izrečena kazna, a nema zakonskih uvjeta da se protiv njega odredi ili produlji zadržavanje (članak 135. stavak 3.), ponudit će mu sud da položi jamstvo u visini iznosa izrečene novčane kazne, visine određenih troškova postupka i naknade štete koju je obvezan naknaditi. Ako je izrečena kazna zatvora dio jamstva kojim se osigurava izvršavanje kazne zatvora odredit će se srazmjerno visini izrečene kazne, pri čemu će se uzeti u obzir i vrijeme koje je proveo u zadržavanju. (2) Ako okrivljenik ne položi jamstvo prema stavku 1. ovoga članka, sud će, i mimo uvjeta iz članka 135. stavka 3. ovoga Zakona, produljiti ili odrediti njegovo zadržavanje koje može trajati do isteka izrečene kazne zatvora, odnosno onoliko koliko bi mu zamjenom umjesto neplaćene novčane kazne bio određen zatvor. Okrivljenik može u roku od četrdeset osam sati podnijeti žalbu protiv tog rješenja koja ne odgađa izvršenje rješenja. (3) Ako okrivljenik položi jamstvo prema stavku 1. ovoga članka, o tome će se jamstvu odlučivati smislenom primjenom odredbe članka 133. ovoga Zakona. (4) Prigodom polaganja jamstva prema stavku 1. ovoga članka, okrivljenik je dužan sudu predati punomoć za osobu koju on izabere i ovlasti za primanje pismena i svih sudskih odluka u daljnjem tijeku postupka, za slučaj njegova napuštanja Republike Hrvatske prije pravomoćnosti i izvršenja odluke o prekršaju. Ako to ne učini, sud je ovlašten dostavu obavljati oglašavanjem na oglasnoj ploči suda. Posebne mjere policije za neposredno sprječavanje počinitelja prekršaja pod utjecajem opojnih sredstava da nastavi s činjenjem prekršaja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F4A1EBEDAA1900487C7F870B3B64645F236E5BE9EFFE5D73CA430605DC504612",
+    "sha256_datoteke": "1DF10EB93233126BB016C0ADD2CABF6A8FAF0DFCE21A16386A52BE483BE12C7F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "153",
+    "naslov": null,
+    "tekst": ". (1) Prekršajnu evidenciju ustrojava i vodi ministarstvo nadležno za poslove pravosuđa prema pravilniku kojeg donosi ministar nadležan za poslove pravosuđa. (2) Propise o evidenciji izrečenih odgojnih mjera donosi ministar nadležan za poslove socijalne skrbi. (3) Evidencije iz stavka 1. i 2. ovoga članka vode se u elektroničkom obliku. Pravna pomoć",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "77065BA2966A975E4312748791F522679B52123EA1FB542F9BEDC6743AC0CBFC",
+    "sha256_datoteke": "6BDC01B598AFAD49E67377D602DEE956785BE57B0640A90209D9BB35C5C0C00E",
+    "napomena": null
+  }
+}

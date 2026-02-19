@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "179",
+    "naslov": null,
+    "tekst": ". (1) Ako sudac utvrdi da ne treba nastaviti glavnu raspravu radi dopune postupka ili razjašnjenja pojedinih pitanja, odmah će donijeti presudu, koju će priopćiti nazočnim strankama i sudionicima u postupku. Ako u složenijim predmetima sud ne može nakon završetka glavne rasprave istog dana donijeti presudu, odgodit će njezino donošenje i objavu za tri dana. O mjestu i vremenu priopćavanja presude izvijestit će se nazočne stranke i sudionici. U svakom slučaju, izreka presude unosi se u zapisnik o glavnoj raspravi i izvornik je presude. Ako je doneseno i rješenje o zadržavanju i ono se unosi o zapisnik o glavnoj raspravi. (2) Presuda se donosi i javno objavljuje u ime Republike Hrvatske. (3) Presuda se može odnositi samo na osobu protiv koje je podnesen optužni prijedlog i proveden postupak i samo na djelo iz podnesenog ili na raspravi izmijenjenog ili proširenog optužnog prijedloga. (4) Sud nije vezan za prijedlog tužitelja o pravnoj ocjeni djela. (5) Sud temelji presudu samo na činjenicama i dokazima koji su izneseni na glavnoj raspravi, savjesno cijeneći svaki dokaz pojedinačno i u svezi s ostalim dokazima te će na temelju takve ocjene izvesti zaključak je li neka činjenica dokazana. (6) Ako ovim Zakonom nije određeno drukčije, ovjerovljeni prijepis presude s obrazloženjem dostavlja se strankama i drugim osobama koje imaju pravo žalbe. (7) Svatko tko, sukladno ovom Zakonu, ima pravo žalbe protiv presude može se odreći toga prava nakon što mu je usmeno priopćena odnosno dostavljena presuda protiv koje ima pravo na žalbu, a može i odustati od već podnesene žalbe. Okrivljenik može odustati od podnesene žalbe koju je u njegovu korist podnijela za to ovlaštena osoba (članak 192. stavak 2.). Ako se okrivljenik odrekao prava na žalbu, žalbu ne mogu podnijeti osobe koje su ovlaštene žalbu podnijeti u njegovu korist. (8) Odricanje od prava na podnošenje žalbe, odnosno odustajanje od već podnesene žalbe je neopozivo. (9) Ako su se, sukladno stavku 7. ovoga članka, nakon objave presude tužitelj i okrivljenik odrekli prava na podnošenje žalbe, sud nije dužan pisati obrazloženje presude. Ovjerovljeni prijepis presude (izreka) dostavit će im se ako to posebno zahtijevaju. Vrste presuda",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "969C6927708474F396FCBBCEE25E441ED5756CD59C8A65C3A00B86F0036143EA",
+    "sha256_datoteke": "3DFF0AF0BF8380406B048E72761C4ECB7165A313B785EEA9E220A4656206F8D1",
+    "napomena": null
+  }
+}

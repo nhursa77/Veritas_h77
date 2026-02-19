@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "158",
+    "naslov": null,
+    "tekst": ". (1) Ovlaštene osobe tijela državne uprave kada postupaju u okviru svoje nadležnosti za provođenje nadzora ili ako postoje osnove sumnje da je počinjen prekršaj, dužne su poduzeti potrebne mjere da se: 1. utvrdi je li počinjen prekršaj i tko je počinitelj, 2. počinitelj ili sudionik ne sakrije ili pobjegne, 3. otkriju i osiguraju tragovi prekršaja i predmeti koji mogu poslužiti pri utvrđivanju činjenica, 4. prikupe sve obavijesti koje bi mogle biti od koristi za uspješno vođenje prekršajnog postupka. (2) Tijela državne uprave mogu tražiti obavijesti od građana te poduzimati druge mjere sukladno propisima kojima je uređeno njihovo djelovanje, osim ako te mjere nisu u suprotnosti s ovim Zakonom. Ako postoji opasnost od narušavanja javnog reda ili opasnost po sigurnost osoba i imovine, tijela državne uprave mogu tražiti pomoć policije u obavljanju radnji iz stavka 1. ovoga članka. (3) Policija radi ispunjenja zadaće iz stavka 1. ovoga članka može: 1. tražiti potrebne obavijesti od građana, 2. obaviti potreban pregled prijevoznih sredstava, osoba i prtljage, 3. u najkraćem potrebnom vremenu a najdulje šest sati nadzirati i ograničiti kretanje određenih osoba na određenom prostoru, 4. poduzeti druge mjere za otkrivanje osoba i stvari (promatranje, pratnja, blokada, racija, zasjeda, klopka, i dr.), 5. poduzeti potrebne mjere u vezi s utvrđivanjem istovjetnosti osoba i predmeta, 6. u nazočnosti odgovorne osobe obaviti pregled određenih objekata i prostorija državnih tijela, pravnih osoba te drugih poslovnih prostora i ostvariti uvid u određenu njihovu dokumentaciju i podatke, 7. poduzeti i druge potrebne mjere i radnje. (4) O činjenicama i okolnostima koje su utvrđene prilikom poduzimanja pojedinih radnji iz stavka 1. – 3. ovoga članka, a od interesa su za prekršajni postupak, sastavit će se službena bilješka, ako ovim Zakonom ili posebnim propisom nije određeno da se sastavlja zapisnik. (5) Ako je ovlaštena službena osoba tijela državne uprave u okviru svoje nadležnosti za provođenje nadzora neposredno opažala radnju počinjenja prekršaja ili to neposredno utvrdila odgovarajućim tehničkim uređajima i o tome sačinila službenu bilješku ili tehničku snimku, službena bilješka i tehnička snimka dokazi su u prekršajnom postupku. Kao dokaz u prekršajnom postupku mogu se koristiti i zapisnici koje su tijela nadzora sačinila obavljajući nadzor prema posebnim propisima, ako su ti zapisnici sačinjeni prema odredbama Zakona o općem upravnom postupku ili posebnim propisima kojima se uređuje nadzor. (6) Prikupljajući obavijesti ovlaštena osoba tijela državne uprave, kada postupa u okviru svoje nadležnosti za provođenje nadzora, mogu osobu ispitati u svojstvu osumnjičenika, sukladno odredbama ovoga Zakona o ispitivanju okrivljenika u prekršajnom postupku. Pri tome ga moraju upozoriti da ima pravo uzeti branitelja koji može biti nazočan njegovu ispitivanju. Ako okrivljenik odmah ne uzme branitelja ili ako ne odluči iskazivati bez branitelja, tijela državne uprave će zastati s ispitivanjem do 2 sata da bi osumnjičenik mogao uzeti si branitelja kojeg sam odabere ili s liste dežurnih odvjetnika. (7) Ovlaštena osoba tijela državne uprave kada postupa u okviru svoje nadležnosti za provođenje nadzora može ispitati i osobe u svojstvu svjedoka sukladno odredbama ovoga Zakona o ispitivanju svjedoka u prekršajnom postupku. (8) Zapisnici o ispitivanju osumnjičenika i svjedoka iz stavka 6. i 7. ovoga članka mogu se koristiti kao dokazi u prekršajnom postupku. Hitno izvođenje dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "449A6D88F9B46F45E47BCA84F29C7ECFA70E2124A9042E77F6EC4742C1524037",
+    "sha256_datoteke": "DFE13B9523BE6DB225B3A91FC0CE19D7291BC6B611CDF47EF5478B8A1339593A",
+    "napomena": null
+  }
+}

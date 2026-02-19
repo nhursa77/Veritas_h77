@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "185",
+    "naslov": null,
+    "tekst": ". (1) Pisana presuda mora u potpunosti odgovarati presudi koja je objavljena. (2) Presuda mora imati uvod, izreku i obrazloženje, osim ako ovim Zakonom nije određeno drukčije. (3) Uvod presude sadrži: naznaku da se presuda izriče u ime Republika Hrvatske, naziv suda, ime i prezime suca i zapisničara, ime i prezime okrivljenika odnosno naziv okrivljene pravne osobe i s njom izjednačenog subjekta, prekršaj za koji se tereti optužnim prijedlogom i je li bio nazočan glavnoj raspravi, dan glavne rasprave i je li bila javna, naznaku tužitelja, ime branitelja, zakonskog zastupnika i opunomoćenika koji su bili nazočni na glavnoj raspravi te dan objave presude. (4) Izreka presude sadrži: osobne podatke okrivljenika, odluku kojom se okrivljenik proglašava krivim za prekršaj za koji je optužen ili kojom se oslobađa od optužbe za to djelo ili kojom se optužba odbija. (5) Ako je okrivljenik proglašen krivim, izreka presude mora obuhvatiti potrebne podatke navedene u članku 183. ovoga Zakona, a ako je oslobođen optužbe ili je optužba odbijena, izreka presude mora obuhvatiti opis djela za koje je optužen i odluku o troškovima prekršajnog postupka te o imovinskopravnom zahtjevu ako je bio postavljen. (6) U slučaju stjecaja prekršaja sud će u izreku presude unijeti kazne utvrđene za svaki pojedini prekršaj, a nakon toga kaznu koja je izrečena za sve prekršaje u stjecaju. (7) U obrazloženju presude sud će iznijeti kratko razloge za svaku točku presude tako što će: izložiti nesporne činjenice, koje sporne činjenice i iz kojih razloga uzima dokazanim ili nedokazanim, ocjenu vjerodostojnosti proturječnih dokaza, zašto nije prihvatio pojedine prijedloge stranaka ili sudionika u postupku, zašto nije neposredno ispitan svjedok ili vještak, kojim se razlozima vodio pri rješavanju pravnih pitanja a posebice pri utvrđivanju postoji li prekršaj i krivnja okrivljenika, o primjeni određenih odredaba ovoga Zakona i posebnog propisa o prekršaju na okrivljenika i njegovo djelo. (8) Ako je okrivljeniku izrečena kazna, u obrazloženju će se kratko navesti okolnosti koje je sud uzeo u obzir pri odmjeravanju kazne. Posebno će dati razloge za ublažavanje kazne, ili izricanje strože propisane kazne, ili oslobođenje od kazne, ili primjenu mjere upozorenja, za primjenu zaštitne mjere i oduzimanje imovinske koristi. Za izrečenu novčanu kaznu treba izložiti osobne i imovinske prilike okrivljenika. (9) Ako se okrivljenik oslobađa optužbe, u obrazloženju će se navesti iz kojih se razloga navedenih u članku 183. stavku 2. ovoga Zakona to čini. (10) U obrazloženju presude kojom se optužba odbija sud se neće upuštati u ocjenu glavne stvari, nego će se ograničiti samo na razloge za odbijanje optužbe. Ispravak presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "131E04CA04AF4959BDA60B76D428A755182BF5D9680434A85BCD4F9682C1BBCA",
+    "sha256_datoteke": "4A0C6C0E814584E40D4BF19B3B96D101783DACDFED53FB861912E8EED4A10F39",
+    "napomena": null
+  }
+}

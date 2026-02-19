@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "180",
+    "naslov": null,
+    "tekst": ". (1) Presudom se optužba odbija ili se okrivljenik oslobađa optužbe ili se proglašava krivim. (2) Ako optužni prijedlog obuhvaća više prekršaja, u presudi će se izreći je li se i za koji prekršaj optužba odbija, ili se okrivljenik oslobađa optužbe ili se proglašava krivim. Presuda kojom se optužba odbija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A0460C4AB6AB4CF36771E2486F3CF77F5B93AC5CF39ABBDD52F0DD91727BF966",
+    "sha256_datoteke": "B744BCB2E48A1F5129F1E44BC7841A688B9E8B6706AB81A7C034F8A2B39DCEA1",
+    "napomena": null
+  }
+}

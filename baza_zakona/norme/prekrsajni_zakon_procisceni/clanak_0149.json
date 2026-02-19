@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "149",
+    "naslov": null,
+    "tekst": ". (1) Vojnim osobama, pripadnicima redarstvene vlasti i pripadnicima pravosudne policije poziv i drugi dopisi se dostavljaju, osim na način predviđen ovim Zakonom, i preko njihova zapovjedništva, odnosno neposrednog zapovjednika. (2) Osobama kojima je oduzeta sloboda poziv se dostavlja u sudu ili preko uprave ustanove u kojoj su smještene. (3) Pozivi i drugi dopisi osobama koje se nalaze u inozemstvu dostavljaju se sukladno međunarodnim ugovorima ili uobičajenoj praksi. Dostava se može obaviti i neposredno putem pošte, ako se strana država tome ne protivi. (4) Poziv državljanima Republike Hrvatske u stranoj državi, ako se ne primjenjuje postupak propisan odredbama o međunarodnoj pravnoj pomoći u kaznenim stvarima, dostavlja se posredovanjem diplomatskog ili konzularnog poslanstva Republike Hrvatske u stranoj državi, uz uvjet da se strana država ne protivi takvu načinu dostave i uz privolu primatelja poziva. Ovlašteni djelatnik diplomatskog ili konzularnog poslanstva potpisuje dostavnicu kao dostavljač, ako je poziv uručen u samom poslanstvu, a ako je poziv dostavljen poštom, to potvrđuje na dostavnici. (5) Pozivi i odluke koje se donose do završetka glavne rasprave za osobe koje sudjeluju u postupku, osim za okrivljenika, mogu se predati sudioniku u postupku koji pristane da ih uruči onomu komu su upućeni, ako tijelo postupka smatra da je na taj način zajamčeno njihovo dostavljanje. (6) Pismena se, osim presude, mogu slati brzojavom, telefaksom, e-mailom ili drugim sredstvom za komuniciranje na daljinu, ako se prema okolnostima može pretpostaviti da će obavijest upućenu na taj način primiti osoba kojoj je upućena. Pozivi, osim prvog poziva i pojedine obavijesti, mogu se sudionicima u postupku priopćiti telefonom. (7) O dostavi ili obavijesti na način propisan u stavku 1., 2., 5. i 6. ovoga članka sastavit će se službena bilješka u spisu. Razgledavanje, prepisivanje i preslikavanje spisa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FAB2776B6AAA278E2DBFAB2D5EE374DF7F081E7D2BAD2B8545F7E96CE5A629F4",
+    "sha256_datoteke": "613819D9111B2263EE6199CC963888D3DB9EAD669BD5FD126F3F77739D4A33EE",
+    "napomena": null
+  }
+}

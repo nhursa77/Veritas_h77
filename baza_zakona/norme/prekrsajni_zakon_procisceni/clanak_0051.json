@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "51",
+    "naslov": null,
+    "tekst": ". Svrha je zaštitnih mjera da se njihovom primjenom otklanjaju uvjeti koji omogućavaju ili poticajno djeluju na počinjenje novog prekršaja. Obvezno psihijatrijsko liječenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "18.02.2026.",
+    "datum_provjere": "18.02.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html",
+      "datum_pristupa": "18.02.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 107/2007",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D1E702B7D803663E9D64E4061D4CF20320DE6A77B829924DAA2E16F67325F3D7",
+    "sha256_datoteke": "F13DB3B26B8E000354377BCEDF731BF518AAA9FE53AD1683A47ACB5CA5206FC2",
+    "napomena": null
+  }
+}

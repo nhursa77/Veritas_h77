@@ -343,3 +343,12 @@ amandmanske tekstove i zapisuje stabilni izlaz:
 upisuje `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`.
 Time paket acceptance za optional amandmane više ne ovisi samo o
 `*_kontrolni.txt`, nego dobiva stvarni delta-kontrolni artefakt.
+
+### VERITAS_RJECNIK_PROCISCENI_001 — pojam „Pročišćeni tekst”
+Rječnik pojmova je dopunjen pojmom „Pročišćeni tekst” s operativnom
+definicijom za Veritas.
+Uvedeno je pravilo korištenja: pročišćeni tekst je operativni set za
+postupanje/analizu/proceduru, dok NN core + amandmani ostaju sidrišta/audit
+sloj za dokazni trag i verifikaciju promjena.
+Navedeno je i da se zakon.hr koristi samo za usporedbu/validaciju, ne kao
+izvor istine (izvor istine je NN/ELI gdje je primjenjivo).
