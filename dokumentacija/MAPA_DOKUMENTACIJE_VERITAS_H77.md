@@ -51,6 +51,11 @@ Služi kao plan izvođenja od MVP-a do prvog živog predmeta.
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
 
+### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+Zamrzava trenutno stanje repozitorija za nastavak rada bez
+kopanja po povijesti.
+Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -62,6 +67,7 @@ Služi kao dokazni trag promjena i odluka kroz vrijeme.
 5) `STANDARD_JSON_POSTUPAK.md`
 6) `RAZVOJNI_PLAN_VERITAS_H77.md`
 7) `DNEVNIK_RADA.md`
+8) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ---
 

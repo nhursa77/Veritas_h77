@@ -519,3 +519,30 @@ Za amandmanski preflight standardizirani su markeri kontrole delta artefakta:
 
 U soft-missing stanju izlazni kod ostaje `0`, a signalizacija ostaje
 stabilna i grep-friendly za CI/dnevnik.
+
+### VERITAS-PRIMOPREDAJA-001 — paket stanja repozitorija
+Dodana je datoteka
+`dokumentacija/PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md` kao
+kanonski snapshot trenutačnog stanja repozitorija.
+
+Dokument sadrži:
+- datum i vrijeme,
+- granu i HEAD commit,
+- zadnjih 10 commitova,
+- čistoću repoa,
+- tree baze (`norme/sidra/arhiva`),
+- popis aktivnih gate markera.
+
+`dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md` je dopunjena stavkom
+za novi dokument.
+
+Verifikacija (komande):
+- `git --no-pager log -10 --oneline`
+- `git status --short`
+- `Get-ChildItem .\baza_zakona -Directory ...`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
