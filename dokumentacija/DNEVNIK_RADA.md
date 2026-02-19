@@ -298,3 +298,10 @@ Iz workflowa je uklonjeno runtime generiranje kontrolnih TXT datoteka.
 `alati/acceptance_paket.ps1` sada tretira nedostajući kontrolni TXT za
 OPTIONAL amandman kao `MISSING_CONTROL_TEXT` (soft optional fail), pa paketni
 smoke ostaje `exit 0` dok god REQUIRED akti prolaze.
+
+### Jedinstveni CI entrypoint (`ci_smoke.ps1`)
+Dodan je `alati/ci_smoke.ps1` kao jedini ulaz za Windows smoke CI.
+Skript pokreće preflight (`ustav_rh`), paket acceptance
+(`PAKET_PREKRSAJNI_V1`) i preflight (`prekrsajni_zakon`), ispisuje
+`CI_SMOKE_STEP`/`CI_SMOKE_EXIT` markere te provjerava da `git status`
+ostane nepromijenjen nakon runa.

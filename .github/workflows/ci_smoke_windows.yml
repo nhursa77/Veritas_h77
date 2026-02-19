@@ -52,20 +52,8 @@ jobs:
           $ErrorActionPreference = 'Stop'
           chcp 65001
 
-      - name: Smoke preflight ustav_rh
+      - name: Run ci_smoke entrypoint
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\acceptance_preflight.ps1 -AktSlug "ustav_rh"
-
-      - name: Smoke package acceptance (PAKET_PREKRSAJNI_V1)
-        shell: pwsh
-        run: |
-          $ErrorActionPreference = 'Stop'
-          pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\acceptance_paket.ps1 -PaketPath "paketi\PAKET_PREKRSAJNI_V1.json"
-
-      - name: Smoke preflight prekrsajni_zakon
-        shell: pwsh
-        run: |
-          $ErrorActionPreference = 'Stop'
-          pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\acceptance_preflight.ps1 -AktSlug "prekrsajni_zakon"
+          pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
