@@ -44,6 +44,10 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 ## Struktura projekta
 
+Napomena: kanonske putanje se uzimaju iz ovog README-a i
+`dokumentacija/RAZVOJNI_PLAN_VERITAS_H77.md`; tehnički okvir je usklađen s tim
+izvorima.
+
 - `dokumentacija/` – normativna pravila sustava  
 - `baza_zakona/` – strukturirani zapisi zakona  
 - `baza_zakona/norme/` – samo operativni setovi (`*_procisceni`)  

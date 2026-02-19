@@ -1,6 +1,6 @@
 # TEHNIČKI_OKVIR_VERITAS_H77
 
-Datum: 17.02.2026.
+Datum: 19.02.2026.
 Status: kanonski
 Opseg: lokalni rad Veritas H.77 na Windows okruženju, bez cloud-a.
 
@@ -19,13 +19,13 @@ Pokretanje koraka mora biti reproducibilno kroz iste naredbe.
 ### `dokumentacija/`
 Postoji u repozitoriju. Sadrži kanonske dokumente i dnevnik rada.
 
-### `baza_normi/`
-Trenutno ne postoji u repozitoriju.
-TODO: kreirati u fazi 1.
+### `baza_zakona/norme/`
+Postoji u repozitoriju.
+Kanonski sadrži isključivo operativne setove `*_procisceni`.
 
-### `baza_postupaka/`
-Trenutno ne postoji u repozitoriju.
-TODO: kreirati u fazi 2.
+### `baza_postupaka/` (logički naziv)
+Kanonski naziv za proceduralnu bazu je `baza_postupaka/`.
+Fizička migracija mape je zaseban korak i ne utječe na kanon putanja.
 
 ### `predlosci/`
 Postoji u repozitoriju. Namjena je pohrana predložaka dokumenata.
@@ -34,12 +34,11 @@ Postoji u repozitoriju. Namjena je pohrana predložaka dokumenata.
 Postoji u repozitoriju. Namjena je pohrana stvarnih predmeta.
 
 ### `alati/`
-Trenutno ne postoji u repozitoriju.
-TODO: odluka o opsegu alata i kreiranje u odgovarajućoj fazi.
+Postoji u repozitoriju.
+Sadrži skripte za ingest, normiranje, validaciju i CI smoke provjere.
 
 ### `skripte/`
-Trenutno ne postoji u repozitoriju.
-TODO: odluka hoće li se koristiti zasebna mapa `skripte/`.
+Nije kanonska mapa; koristi se `alati/`.
 
 ### `docker/` ili `docker-compose.yml`
 Mapa `docker/` trenutno ne postoji.
@@ -47,9 +46,8 @@ U korijenu postoji `docker-compose.yml`.
 TODO: odluka treba li uvoditi mapu `docker/`.
 
 Napomena:
-U repozitoriju trenutno postoji i `baza_zakona/` te proceduralni sadržaji.
-TODO: odluka o kanonskom usklađenju naziva s planiranim mapama
-`baza_normi/` i `baza_postupaka/`.
+Kanonska baza normi je `baza_zakona/` s podmapama `norme/`, `sidra/` i
+`arhiva/` prema razvojnom planu.
 
 ---
 
@@ -99,12 +97,19 @@ Primarna arhiva izvora je:
 
 - `izvori/dokazno/narodne_novine/<akt_slug>/`
 
-Opcionalni backup/kontrolni izvor je zakon.hr:
+Opcionalni kontrolni izvor je zakon.hr:
 
-- `izvori/operativno/zakon_hr/<akt_slug>/`
+- `izvori/kontrolno/zakon_hr/<akt_slug>/`
 
 Ako postoji nesklad između pomoćnog izvora i NN izvora, nesklad se mora
 označiti i evidentirati. U slučaju nesklada prednost ima NN izvor.
+
+### Logički naziv vs fizička putanja
+Logički naziv "baza normi" označava koncept sloja normi.
+Fizička putanja na disku je `baza_zakona/norme/`.
+Logički naziv "baza postupaka" ostaje kanonski po dokumentaciji.
+Fizička putanja proceduralnih sadržaja može privremeno odstupati dok traje
+tranzicija mapiranja.
 
 ---
 
@@ -129,10 +134,8 @@ Svaki značajan korak obavezno se upisuje u `DNEVNIK_RADA.md`.
 
 ## 9) TODO odluke
 
-- Odluka o kanonskom usklađenju naziva `baza_zakona/` i `baza_normi/`.
-- Odluka o kanonskom usklađenju proceduralnih sadržaja i
-	`baza_postupaka/`.
+- Odluka o terminu fizičke migracije proceduralne mape na
+  `baza_postupaka/`.
 - Odluka o uvođenju mape `skripte/`.
 - Odluka o uvođenju mape `docker/` uz postojeći `docker-compose.yml`.
-- Odluka o opsegu i vremenu uvođenja mape `alati/`.
 - Odluka o konačnom formatu snapshot veze prema predmetu.
