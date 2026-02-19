@@ -47,7 +47,7 @@ U korijenu postoji `docker-compose.yml`.
 TODO: odluka treba li uvoditi mapu `docker/`.
 
 Napomena:
-U repozitoriju trenutno postoji i `baza_zakona/` te `postupci/`.
+U repozitoriju trenutno postoji i `baza_zakona/` te proceduralni sadržaji.
 TODO: odluka o kanonskom usklađenju naziva s planiranim mapama
 `baza_normi/` i `baza_postupaka/`.
 
@@ -130,7 +130,8 @@ Svaki značajan korak obavezno se upisuje u `DNEVNIK_RADA.md`.
 ## 9) TODO odluke
 
 - Odluka o kanonskom usklađenju naziva `baza_zakona/` i `baza_normi/`.
-- Odluka o kanonskom usklađenju naziva `postupci/` i `baza_postupaka/`.
+- Odluka o kanonskom usklađenju proceduralnih sadržaja i
+	`baza_postupaka/`.
 - Odluka o uvođenju mape `skripte/`.
 - Odluka o uvođenju mape `docker/` uz postojeći `docker-compose.yml`.
 - Odluka o opsegu i vremenu uvođenja mape `alati/`.

@@ -33,11 +33,11 @@ Cilj:
 
 Preporučeno:
 
-- `postupci/<podrucje>/<slug_postupka>/v1/`
+- `baza_postupaka/<podrucje>/<slug_postupka>/v1/`
 
 Primjer:
 
-- `postupci/telekom/prigovor_povecanje_cijene/v1/`
+- `baza_postupaka/telekom/prigovor_povecanje_cijene/v1/`
 
 Datoteke:
 
