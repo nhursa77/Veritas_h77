@@ -330,3 +330,16 @@ Dodani su i standardni runtime markeri (`CI_SMOKE_TIMESTAMP`,
 `*_delta_ops.json` ili `*_kontrolni.txt`.
 Ako nema nijednog od ta dva artefakta, optional akt dobiva soft razlog
 `MISSING_DELTA_CONTROL` (umjesto `MISSING_CONTROL_TEXT`).
+
+### ND-PREKR-DELTA-001 — ingest auto-generira `*_delta_ops.json`
+Dodan je novi alat `alati/generiraj_delta_ops.py` koji iz
+`struktura_nn_dokumenti.json` heuristički izdvaja delta operacije za
+amandmanske tekstove i zapisuje stabilni izlaz:
+`akt_slug`, `generated_utc`, `source_doc_id`, `ops[]` s
+`op`, `target_article`, `ref_article`, `note`, `excerpt_hash`.
+
+`alati/ingest_paket.ps1` je dopunjen tako da za akte s
+`tip_teksta=amandmani` nakon parsiranja automatski poziva generator i
+upisuje `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`.
+Time paket acceptance za optional amandmane više ne ovisi samo o
+`*_kontrolni.txt`, nego dobiva stvarni delta-kontrolni artefakt.

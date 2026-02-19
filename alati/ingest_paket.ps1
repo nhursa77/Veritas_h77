@@ -10,6 +10,7 @@ $root = Split-Path -Path $PSScriptRoot -Parent
 $parserScript = Join-Path $PSScriptRoot "parsiraj_nn_html.ps1"
 $normScript = Join-Path $PSScriptRoot "run_normiratelj.ps1"
 $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
+$deltaOpsScript = Join-Path $PSScriptRoot "generiraj_delta_ops.py"
 $sourcesRoot = Join-Path $root "izvori\dokazno\narodne_novine"
 
 function Write-Utf8NoBom {
@@ -171,6 +172,44 @@ function Set-ControlFromParsed {
     Write-Utf8NoBom -Path (Join-Path $controlDir "meta.json") -Content ($controlMetaJson + "`n")
 }
 
+function New-DeltaOpsFromParsed {
+    param(
+        [Parameter(Mandatory = $true)][string] $AktSlug
+    )
+
+    if (!(Test-Path -LiteralPath $deltaOpsScript)) {
+        throw "nedostaje_delta_generator: $deltaOpsScript"
+    }
+
+    $sourceJsonPath = Join-Path $sourcesRoot "$AktSlug\struktura_nn_dokumenti.json"
+    if (!(Test-Path -LiteralPath $sourceJsonPath)) {
+        throw "nedostaje_parsed_docs: $sourceJsonPath"
+    }
+
+    $controlDir = Join-Path $root "izvori\kontrolno\zakon_hr\$AktSlug"
+    New-Item -ItemType Directory -Force -Path $controlDir | Out-Null
+    $outPath = Join-Path $controlDir "${AktSlug}_delta_ops.json"
+
+    $venvPython = Join-Path $root ".venv\Scripts\python.exe"
+    $pythonCmd = $null
+    if (Test-Path -LiteralPath $venvPython) {
+        $pythonCmd = $venvPython
+    }
+    else {
+        $python = Get-Command python -ErrorAction SilentlyContinue
+        if ($null -eq $python) {
+            throw "python_not_found: nije pronađen python ni .venv interpreter"
+        }
+        $pythonCmd = $python.Source
+    }
+
+    & $pythonCmd $deltaOpsScript --akt-slug $AktSlug --source-json $sourceJsonPath --out $outPath
+    $deltaExit = $LASTEXITCODE
+    if ($deltaExit -ne 0) {
+        throw "delta_ops_exit_$deltaExit"
+    }
+}
+
 Push-Location $root
 try {
     if (!(Test-Path -LiteralPath $PaketPath)) {
@@ -211,6 +250,10 @@ try {
             if ($exitCode -ne 0) { throw "parser_exit_$exitCode" }
 
             Set-ControlFromParsed -AktSlug $slug -Item $item
+
+            if ($expectedTipTeksta -eq "amandmani") {
+                New-DeltaOpsFromParsed -AktSlug $slug
+            }
 
             & $normScript -AktSlug $slug
             $exitCode = $LASTEXITCODE
