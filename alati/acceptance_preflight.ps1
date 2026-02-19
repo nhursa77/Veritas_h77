@@ -19,9 +19,12 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Path $PSScriptRoot -Parent
 $validator = Join-Path $PSScriptRoot "validiraj_nn_vs_kontrolno.py"
 $venvPython = Join-Path $root ".venv\Scripts\python.exe"
-$reportPathRel = "baza_zakona/norme/$AktSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 $controlJsonRel = "izvori/kontrolno/zakon_hr/$AktSlug/struktura_kontrolno_dokumenti.json"
-$normeDir = Join-Path $root "baza_zakona\norme\$AktSlug"
+$isSidroSlug = $AktSlug.ToLowerInvariant().Contains("_nn_")
+$dataBaseRel = if ($isSidroSlug) { "baza_zakona/sidra" } else { "baza_zakona/norme" }
+$dataBaseAbs = if ($isSidroSlug) { "baza_zakona\sidra" } else { "baza_zakona\norme" }
+$reportPathRel = "$dataBaseRel/$AktSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+$normeDir = Join-Path $root "$dataBaseAbs\$AktSlug"
 
 function Get-OutputValue {
     param(

@@ -12,6 +12,7 @@ $venvPython = Join-Path $root ".venv\Scripts\python.exe"
 $sourcesRoot = Join-Path $root "izvori\dokazno\narodne_novine"
 $selectionReportName = ($AktSlug.ToUpperInvariant() -replace '[^A-Z0-9]+', '_') + "_SELECTION_REPORT.md"
 $selectionReportPath = Join-Path $sourcesRoot $selectionReportName
+$isAktSlugSidro = $AktSlug.ToLowerInvariant().Contains("_nn_")
 
 function Get-StringValue {
     param(
@@ -161,7 +162,8 @@ try {
     $sourceSlug = $selection.selected.slug
     $inputPath = $selection.selected.inputPath
     $metaPath = $selection.selected.metaPath
-    $sourceOutDir = Join-Path $root "baza_zakona\norme\$sourceSlug"
+    $sourceOutBase = if ($sourceSlug.ToLowerInvariant().Contains("_nn_")) { "sidra" } else { "norme" }
+    $sourceOutDir = Join-Path $root "baza_zakona\$sourceOutBase\$sourceSlug"
     $operativniOutDir = Join-Path $root "baza_zakona\norme\$AktSlug"
 
     if (!(Test-Path -LiteralPath $inputPath)) {
@@ -179,7 +181,10 @@ try {
         exit $LASTEXITCODE
     }
 
-    if ($sourceSlug -eq $AktSlug) {
+    if ($isAktSlugSidro) {
+        Write-Host "Sidrišni set ažuriran: $sourceOutDir"
+    }
+    elseif ($sourceSlug -eq $AktSlug) {
         Write-Host "Operativni set ažuriran: $operativniOutDir (izvor=isti akt slug)"
     }
     else {

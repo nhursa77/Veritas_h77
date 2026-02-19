@@ -285,6 +285,19 @@ očekivani tip po aktu (`tip_teksta`) i paketni summary prikazuje
 
 ## Datum: 19.02.2026
 
+### KANONSKA_STRUKTURA_BAZE (norme/sidra/arhiva)
+Normaliziran je layout `baza_zakona`:
+- svi `*_nn_*` setovi premješteni su iz `baza_zakona/norme/` u
+ `baza_zakona/sidra/`;
+- `baza_zakona/norme/` ostaje isključivo operativni sloj;
+- arhivni Ustav set `NN 56/1990` premješten je u verzionirani put
+ `baza_zakona/arhiva/nn_56_1990_1092_142/ustav_rh/`.
+
+Pravilo odabira izvora je učvršćeno:
+- `sidra` su jedini NN izvor (core + amandmani);
+- `norme` su operativna projekcija za rad;
+- `zakon.hr` ostaje isključivo kontrolni/usporedni izvor.
+
 ### Windows CI smoke (preflight + paket)
 Dodan je GitHub Actions workflow `.github/workflows/ci_smoke_windows.yml` za
 minimalni Windows smoke CI (`windows-latest`, `pwsh`).

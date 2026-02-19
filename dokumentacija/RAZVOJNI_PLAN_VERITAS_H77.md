@@ -52,6 +52,22 @@ Ulazi (činjenice + dokazi)
 8) Ne ide se na skaliranje i UI prije nego što MVP end-to-end radi na jednom
    stvarnom predmetu.
 
+### KANONSKA_STRUKTURA_BAZE
+- `baza_zakona/norme/` sadrži isključivo operativne kanone
+  (npr. `prekrsajni_zakon`, `prekrsajni_zakon_procisceni`, `ustav_rh`).
+- `baza_zakona/sidra/` sadrži isključivo NN sidrišta i njihove verzije
+  (`*_nn_*`, core i amandmani).
+- `baza_zakona/arhiva/` sadrži isključivo hladnu arhivu, obavezno pod
+  verzioniranim putanjama (`arhiva/<verzija>/<akt_slug>/`).
+
+Pravilo odabira izvora:
+- Operativni izlaz uvijek se gradi iz NN izvora (`sidra`), uz
+  `procisceni`-first selekciju kada je dostupna.
+- `norme` je ciljna operativna projekcija za postupanje i citiranje;
+  `sidra` ostaju audit/dokazni sloj i ne zamjenjuju operativni kanon.
+- `zakon.hr` je kontrolni izvor za usporedbu i detekciju anomalija,
+  nikad izvor istine.
+
 ---
 
 ## 3) Repozitorij: minimalna struktura (dogovor)
