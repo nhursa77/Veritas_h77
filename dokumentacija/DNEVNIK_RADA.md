@@ -429,7 +429,25 @@ putanje:
 - logički naziv ostaje "baza postupaka" kao dokumentacijski koncept;
 - trenutačna fizička putanja proceduralnih sadržaja je `postupci/`;
 - `baza_postupaka/` ostaje planirana migracija (TODO) i ne tretira se kao
-	postojeća putanja dok se ne napravi zaseban commit.
+  postojeća putanja dok se ne napravi zaseban commit.
 
 `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md` i `README.md` su usklađeni s
 tim pravilom kako bi se uklonila dvosmislenost u kanonskim putanjama.
+
+---
+
+## Datum: 19.02.2026 (delta_ops JSON shema)
+
+### VERITAS-DELTAOPS-SCHEMA-001 — kanonska shema
+Dodana je kanonska JSON shema za `*_delta_ops.json` na putanji
+`dokumentacija/sheme/SCHEMA_DELTA_OPS.json`.
+
+Shema definira:
+- root objekt,
+- obavezno polje `ops` (array),
+- `ops[]` objekt s obaveznim `op` (string),
+- opcionalni `meta` objekt za buduće proširenje,
+- `additionalProperties: false` na rootu i na `ops[]` objektu.
+
+U `dokumentacija/STANDARD_JSON_POSTUPAK.md` dodana je kratka napomena gdje se
+nalazi kanonska shema za delta kontrolne artefakte.

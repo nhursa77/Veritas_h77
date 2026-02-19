@@ -44,6 +44,11 @@ Datoteke:
 - `postupak.json` (meta)
 - `korak_<nnn>_<slug>.json` (svaki korak zasebno)
 
+Napomena (delta kontrola amandmana):
+
+- kanonska JSON shema za `*_delta_ops.json` nalazi se u
+  `dokumentacija/sheme/SCHEMA_DELTA_OPS.json`
+
 ---
 
 ## 3) Obavezna polja za KORAK (minimalni zapis)

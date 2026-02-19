@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://veritas-h77.local/sheme/delta_ops.schema.json",
+  "title": "Veritas H77 Delta Ops",
+  "description": "Kanonska shema za *_delta_ops.json kontrolne artefakte.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "akt_slug": {
+      "type": "string"
+    },
+    "control_mode": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object"
+    },
+    "affected_articles": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "ops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "op": {
+            "type": "string"
+          },
+          "target_article": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "ref_article": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "excerpt_hash": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "meta": {
+            "type": "object"
+          }
+        },
+        "required": [
+          "op"
+        ]
+      }
+    },
+    "notes": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "ops"
+  ]
+}
