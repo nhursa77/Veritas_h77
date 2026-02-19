@@ -311,3 +311,9 @@ ostane nepromijenjen nakon runa.
 `CI_SMOKE_GIT_AVAILABLE=True/False`.
 Kad je `git` dostupan, hygiene ostaje obavezan (`CI_SMOKE_HYGIENE=ENFORCED`);
 kad nije dostupan, hygiene check se preskače (`CI_SMOKE_HYGIENE=SKIP_NO_GIT`).
+
+### P2.4 — pip cache u Windows CI smoke
+U `.github/workflows/ci_smoke_windows.yml` dodan je `actions/setup-python`
+`cache: pip` s dependency path-om za `requirements.txt` (i budući
+`pyproject.toml`), uz brži i deterministički install ovisnosti.
+Time se skraćuje runtime smoke workflowa bez promjene acceptance logike.
