@@ -27,9 +27,25 @@ function Invoke-SmokeStep {
 }
 
 Push-Location $root
+$finalExitCode = 0
 try {
     $hasGit = $null -ne (Get-Command git -ErrorAction SilentlyContinue)
-    Write-Host "CI_SMOKE_GIT_AVAILABLE=$hasGit"
+    $gitAvailableText = if ($hasGit) { "True" } else { "False" }
+    $timestampIso = (Get-Date).ToString("o")
+    $psVersion = $PSVersionTable.PSVersion
+    $patchValue = 0
+    if ($null -ne $psVersion.Patch -and [string]$psVersion.Patch -ne "") {
+        $patchValue = [int]$psVersion.Patch
+    }
+    elseif ($null -ne $psVersion.Build -and [int]$psVersion.Build -ge 0) {
+        $patchValue = [int]$psVersion.Build
+    }
+    $psVersionText = "{0}.{1}.{2}" -f $psVersion.Major, $psVersion.Minor, $patchValue
+
+    Write-Host "CI_SMOKE_BEGIN=True"
+    Write-Host "CI_SMOKE_TIMESTAMP=$timestampIso"
+    Write-Host "CI_SMOKE_PWSH_VERSION=$psVersionText"
+    Write-Host "CI_SMOKE_GIT_AVAILABLE=$gitAvailableText"
 
     $beforeStatus = @()
     if ($hasGit) {
@@ -40,40 +56,60 @@ try {
         Write-Host "CI_SMOKE_HYGIENE=SKIP_NO_GIT"
     }
 
-    Invoke-SmokeStep -Name "preflight_ustav_rh" -Action {
-        & $preflightScript -AktSlug "ustav_rh"
-    }
+    $steps = @(
+        [pscustomobject]@{
+            Name = "preflight_ustav_rh"
+            Action = { & $preflightScript -AktSlug "ustav_rh" }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "paket_prekrsajni_v1"
+            Action = { & $paketScript -PaketPath $paketPath }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "preflight_prekrsajni_zakon"
+            Action = { & $preflightScript -AktSlug "prekrsajni_zakon" }
+            Enabled = (-not $SkipPrekrsajniPreflight)
+        }
+    )
 
-    Invoke-SmokeStep -Name "acceptance_paket_prekrsajni_v1" -Action {
-        & $paketScript -PaketPath $paketPath
-    }
+    foreach ($step in $steps) {
+        if (-not $step.Enabled) {
+            continue
+        }
 
-    if (-not $SkipPrekrsajniPreflight) {
-        Invoke-SmokeStep -Name "preflight_prekrsajni_zakon" -Action {
-            & $preflightScript -AktSlug "prekrsajni_zakon"
+        Write-Host "CI_SMOKE_STEP_BEGIN=$($step.Name)"
+        & $step.Action
+        $stepExit = $LASTEXITCODE
+        Write-Host "CI_SMOKE_STEP_END=$($step.Name) EXIT=$stepExit"
+
+        if ($stepExit -ne 0 -and $finalExitCode -eq 0) {
+            $finalExitCode = $stepExit
+            break
         }
     }
 
-    if ($hasGit) {
+    if ($hasGit -and $finalExitCode -eq 0) {
         $afterStatus = @(git status --short)
         $beforeText = ($beforeStatus | ForEach-Object { [string]$_ }) -join "`n"
         $afterText = ($afterStatus | ForEach-Object { [string]$_ }) -join "`n"
 
         if ($beforeText -ne $afterText) {
             Write-Host "CI_SMOKE_STEP=repo_hygiene_check"
-            Write-Host "CI_SMOKE_EXIT=90"
             Write-Host "ERROR: git status changed during CI smoke run."
             Write-Host "--- BEFORE ---"
             Write-Host $beforeText
             Write-Host "--- AFTER ---"
             Write-Host $afterText
-            exit 90
+            $finalExitCode = 90
         }
     }
-
-    Write-Host "CI_SMOKE_EXIT=0"
-    exit 0
 }
 finally {
     Pop-Location
 }
+
+Write-Host "CI_SMOKE_END=True"
+Write-Host "CI_SMOKE_EXIT=$finalExitCode"
+exit $finalExitCode

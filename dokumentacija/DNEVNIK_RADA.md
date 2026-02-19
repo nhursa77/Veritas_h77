@@ -317,3 +317,9 @@ U `.github/workflows/ci_smoke_windows.yml` dodan je `actions/setup-python`
 `cache: pip` s dependency path-om za `requirements.txt` (i budući
 `pyproject.toml`), uz brži i deterministički install ovisnosti.
 Time se skraćuje runtime smoke workflowa bez promjene acceptance logike.
+
+### P2.5 — normalizirani CI smoke markeri
+`alati/ci_smoke.ps1` sada ima stabilne markere
+`CI_SMOKE_BEGIN/END`, `CI_SMOKE_STEP_BEGIN/END` i završni `CI_SMOKE_EXIT`.
+Dodani su i standardni runtime markeri (`CI_SMOKE_TIMESTAMP`,
+`CI_SMOKE_PWSH_VERSION`) radi lakšeg grepanja CI logova.
