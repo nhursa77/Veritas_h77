@@ -75,6 +75,19 @@ function Resolve-ControlMode {
     return "standard"
 }
 
+function Restore-GitPathSafe {
+    param([Parameter(Mandatory = $true)][string] $RelativePath)
+
+    $trackedEntries = @(git ls-files --cached -- $RelativePath 2>$null)
+    $hasTrackedEntry = $trackedEntries.Count -gt 0
+
+    if ($hasTrackedEntry) {
+        git restore --quiet -- $RelativePath 1>$null 2>$null
+    }
+
+    $global:LASTEXITCODE = 0
+}
+
 function Assert-Manifest {
     param([Parameter(Mandatory = $true)] $Manifest)
 
@@ -293,16 +306,20 @@ try {
         }
 
         $isSidroSlug = $slug.ToLowerInvariant().Contains("_nn_")
-        $operativniSlug = if (-not $isSidroSlug -and $slug -eq "ustav_rh") { "ustav_rh_procisceni" } else { $slug }
+        $operativniSlug = if (
+            -not $isSidroSlug -and
+            -not $slug.ToLowerInvariant().EndsWith("_procisceni")
+        ) {
+            "${slug}_procisceni"
+        }
+        else {
+            $slug
+        }
         $reportBaseRel = if ($isSidroSlug) { "baza_zakona/sidra" } else { "baza_zakona/norme" }
         $reportPathRel = "$reportBaseRel/$operativniSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
         $controlJsonRel = "izvori/kontrolno/zakon_hr/$slug/struktura_kontrolno_dokumenti.json"
-        try {
-            git restore -- $reportPathRel $controlJsonRel 2>$null | Out-Null
-        }
-        catch {
-            # Ignore restore errors for non-tracked or non-existing paths.
-        }
+        Restore-GitPathSafe -RelativePath $reportPathRel
+        Restore-GitPathSafe -RelativePath $controlJsonRel
     }
 
     git status --short

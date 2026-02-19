@@ -17,11 +17,16 @@ $isAktSlugSidro = $AktSlug.ToLowerInvariant().Contains("_nn_")
 function Resolve-OperativniSlug {
     param([Parameter(Mandatory = $true)][string] $Slug)
 
-    if ($Slug -eq "ustav_rh") {
-        return "ustav_rh_procisceni"
+    $normalized = $Slug.ToLowerInvariant()
+    if ($normalized.Contains("_nn_")) {
+        return $Slug
     }
 
-    return $Slug
+    if ($normalized.EndsWith("_procisceni")) {
+        return $Slug
+    }
+
+    return "${Slug}_procisceni"
 }
 
 function Get-StringValue {
@@ -174,7 +179,8 @@ try {
     $metaPath = $selection.selected.metaPath
     $sourceOutBase = if ($sourceSlug.ToLowerInvariant().Contains("_nn_")) { "sidra" } else { "norme" }
     $operativniSlug = Resolve-OperativniSlug -Slug $AktSlug
-    $sourceOutDir = Join-Path $root "baza_zakona\$sourceOutBase\$sourceSlug"
+    $sourceOutSlug = if ($sourceOutBase -eq "norme") { Resolve-OperativniSlug -Slug $sourceSlug } else { $sourceSlug }
+    $sourceOutDir = Join-Path $root "baza_zakona\$sourceOutBase\$sourceOutSlug"
     $operativniOutDir = Join-Path $root "baza_zakona\norme\$operativniSlug"
 
     if (!(Test-Path -LiteralPath $inputPath)) {

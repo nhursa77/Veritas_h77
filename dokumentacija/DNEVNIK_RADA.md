@@ -285,6 +285,19 @@ očekivani tip po aktu (`tip_teksta`) i paketni summary prikazuje
 
 ## Datum: 19.02.2026
 
+### VH77-PRAVILA-BAZE-001 — kanonska pravila spremanja + enforce
+Uvedeno je striktno pravilo da `baza_zakona/norme/` sadrži samo operativne
+setove sa sufiksom `_procisceni`, dok su NN/amandmanski setovi u `sidra`,
+a snapshotovi u `arhiva/<akt_slug>/<source_set_slug>/`.
+
+Dodan je alat `alati/enforce_baza_layout.ps1` koji detektira kršenja u
+`norme/` (mape bez `_procisceni`) i deterministički ih premješta u
+kanonsku arhivsku strukturu, uz audit ispis `MOVE: old -> new` i
+`SUMMARY` broj premještaja.
+
+Operativni alias lookup je generaliziran: zahtjev za slug bez sufiksa
+automatski mapira na `<akt_slug>_procisceni`.
+
 ### KANONSKA_STRUKTURA_BAZE (norme/sidra/arhiva)
 Normaliziran je layout `baza_zakona`:
 - svi `*_nn_*` setovi premješteni su iz `baza_zakona/norme/` u

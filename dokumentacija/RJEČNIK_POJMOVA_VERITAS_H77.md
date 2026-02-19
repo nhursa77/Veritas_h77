@@ -45,15 +45,10 @@ Operativni izvor je radni tekst za strukturiranje i obradu. Primjer je
 pročišćeni tekst na zakon.hr.
 
 ### Pročišćeni tekst
-Pročišćeni tekst je konsolidirani tekst akta u kojem su sve izmjene i dopune
-primijenjene na osnovni tekst, tako da korisnik dobije jedinstveni važeći
-tekst po člancima.
-U Veritasu je pročišćeni tekst operativni set za
-postupanje/analizu/proceduru.
-U Veritasu izvorni NN core i amandmani služe kao sidrišta i audit sloj
-(dokazni trag i verifikacija promjena).
-zakon.hr se koristi samo za usporedbu i validaciju, ne kao izvor istine;
-izvor istine je NN/ELI gdje je primjenjivo.
+Pročišćeni tekst je konsolidirani tekst zakona/akta koji uključuje sve važeće
+izmjene i dopune na određeni dan.
+Služi kao operativna norma za proceduru, dok sidra i amandmani ostaju
+dokazni sloj.
 
 ### Dokazni izvor
 Dokazni izvor je službena objava koja potvrđuje valjanost norme. U RH su to

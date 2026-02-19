@@ -46,6 +46,10 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 - `dokumentacija/` – normativna pravila sustava  
 - `baza_zakona/` – strukturirani zapisi zakona  
+- `baza_zakona/norme/` – samo operativni setovi (`*_procisceni`)  
+- `baza_zakona/sidra/` – NN sidra i amandmanski `*_nn_<broj>_<godina>` setovi  
+- `baza_zakona/arhiva/` – arhivski snapshotovi u formatu  
+  `<akt_slug>/<source_set_slug>/`  
 - `predlosci/` – kanonski predlošci pravnih akata  
 - `postupci/` – standardizirane proceduralne sheme  
 - `predmeti/` – konkretni slučajevi (lokalno)  

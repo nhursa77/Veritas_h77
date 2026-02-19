@@ -23,7 +23,15 @@ $controlJsonRel = "izvori/kontrolno/zakon_hr/$AktSlug/struktura_kontrolno_dokume
 $isSidroSlug = $AktSlug.ToLowerInvariant().Contains("_nn_")
 $dataBaseRel = if ($isSidroSlug) { "baza_zakona/sidra" } else { "baza_zakona/norme" }
 $dataBaseAbs = if ($isSidroSlug) { "baza_zakona\sidra" } else { "baza_zakona\norme" }
-$operativniSlug = if (-not $isSidroSlug -and $AktSlug -eq "ustav_rh") { "ustav_rh_procisceni" } else { $AktSlug }
+$operativniSlug = if (
+    -not $isSidroSlug -and
+    -not $AktSlug.ToLowerInvariant().EndsWith("_procisceni")
+) {
+    "${AktSlug}_procisceni"
+}
+else {
+    $AktSlug
+}
 $reportPathRel = "$dataBaseRel/$operativniSlug/IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 $normeDir = Join-Path $root "$dataBaseAbs\$operativniSlug"
 
@@ -73,6 +81,37 @@ function Get-SlugEnvKey {
     param([string] $Value)
     $token = ($Value.ToUpperInvariant() -replace '[^A-Z0-9]+', '_').Trim('_')
     return "VERITAS_${token}_EXPECTED_COUNT_OVERRIDE"
+}
+
+function Restore-GitPathSafe {
+    param([Parameter(Mandatory = $true)][string] $RelativePath)
+
+    $trackedEntries = @(git ls-files --cached -- $RelativePath 2>$null)
+    $hasTrackedEntry = $trackedEntries.Count -gt 0
+
+    if ($hasTrackedEntry) {
+        git restore --quiet -- $RelativePath 1>$null 2>$null
+    }
+
+    $global:LASTEXITCODE = 0
+}
+
+function Remove-UntrackedPathIfExists {
+    param(
+        [Parameter(Mandatory = $true)][string] $RelativePath,
+        [Parameter(Mandatory = $true)][string] $AbsolutePath
+    )
+
+    if (!(Test-Path -LiteralPath $AbsolutePath)) {
+        return
+    }
+
+    $trackedEntries = @(git ls-files --cached -- $RelativePath 2>$null)
+    if ($trackedEntries.Count -eq 0) {
+        Remove-Item -LiteralPath $AbsolutePath -Force -ErrorAction SilentlyContinue
+    }
+
+    $global:LASTEXITCODE = 0
 }
 
 $overrideEnvName = Get-SlugEnvKey -Value $AktSlug
@@ -176,12 +215,9 @@ try {
     }
 
     # Repo hygiene: rollback generated artifacts for this akt.
-    try {
-        git restore -- $reportPathRel $controlJsonRel 2>$null | Out-Null
-    }
-    catch {
-        # Ignore when paths are not yet tracked in git for new akt ingests.
-    }
+    Restore-GitPathSafe -RelativePath $reportPathRel
+    Restore-GitPathSafe -RelativePath $controlJsonRel
+    Remove-UntrackedPathIfExists -RelativePath $reportPathRel -AbsolutePath (Join-Path $root ($reportPathRel -replace '/', '\'))
     git status --short
 
     exit $effectiveExitCode

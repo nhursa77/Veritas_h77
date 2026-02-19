@@ -53,13 +53,15 @@ Ulazi (činjenice + dokazi)
    stvarnom predmetu.
 
 ### KANONSKA_STRUKTURA_BAZE
-- `baza_zakona/norme/` sadrži isključivo operativne kanone
-  (npr. `prekrsajni_zakon`, `prekrsajni_zakon_procisceni`,
+- `baza_zakona/norme/` sadrži isključivo operativne kanone i svaka mapa
+  mora završavati s `_procisceni` (npr. `prekrsajni_zakon_procisceni`,
   `ustav_rh_procisceni`).
-- `baza_zakona/sidra/` sadrži isključivo NN sidrišta i njihove verzije
-  (`*_nn_*`, core i amandmani).
-- `baza_zakona/arhiva/` sadrži isključivo hladnu arhivu, obavezno pod
-  kontekstualnim putanjama (`arhiva/<akt_slug>/<izvor_set_slug>/`).
+- U `norme/` je zabranjeno držati izvorne/sidrišne setove bez
+  `_procisceni` sufiksa.
+- `baza_zakona/sidra/` sadrži isključivo NN sidrišta i amandmane,
+  uz naming `*_nn_<broj>_<godina>`.
+- `baza_zakona/arhiva/` sadrži isključivo hladnu arhivu/snapshote
+  u formatu `arhiva/<akt_slug>/<source_set_slug>/`.
 
 Pravilo odabira izvora:
 - Operativni izlaz uvijek se gradi iz NN izvora (`sidra`), uz
@@ -68,6 +70,9 @@ Pravilo odabira izvora:
   `sidra` ostaju audit/dokazni sloj i ne zamjenjuju operativni kanon.
 - `zakon.hr` je kontrolni izvor za usporedbu i detekciju anomalija,
   nikad izvor istine.
+- Alias pravilo: kada se traži slug bez sufiksa (npr. `ustav_rh`),
+  operativni lookup mapira na `ustav_rh_procisceni`; isto vrijedi i
+  za druge akte (`<akt_slug>` -> `<akt_slug>_procisceni`).
 
 ---
 

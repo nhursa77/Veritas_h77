@@ -52,8 +52,12 @@ def _slug_to_env_key(akt_slug: str) -> str:
 
 
 def resolve_operativni_norme_slug(akt_slug: str) -> str:
-    if akt_slug == "ustav_rh":
-        return "ustav_rh_procisceni"
+    normalized = akt_slug.lower()
+    if "_nn_" in normalized:
+        return akt_slug
+    if normalized.endswith("_procisceni"):
+        return akt_slug
+    return f"{akt_slug}_procisceni"
     return akt_slug
 
 
