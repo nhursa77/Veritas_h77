@@ -52,58 +52,6 @@ jobs:
           $ErrorActionPreference = 'Stop'
           chcp 65001
 
-      - name: Prepare kontrolni fixtures (package smoke)
-        shell: pwsh
-        run: |
-          $ErrorActionPreference = 'Stop'
-
-          $root = Get-Location
-          $paketPath = Join-Path $root "paketi\PAKET_PREKRSAJNI_V1.json"
-          $sourcesRoot = Join-Path $root "izvori\dokazno\narodne_novine"
-          $controlRoot = Join-Path $root "izvori\kontrolno\zakon_hr"
-          $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-
-          $manifest = Get-Content -LiteralPath $paketPath -Raw -Encoding UTF8 | ConvertFrom-Json
-          foreach ($item in @($manifest.akti)) {
-            $slug = [string]$item.akt_slug
-            if ([string]::IsNullOrWhiteSpace($slug)) {
-              continue
-            }
-
-            $controlDir = Join-Path $controlRoot $slug
-            $controlTxt = Join-Path $controlDir ("{0}_kontrolni.txt" -f $slug)
-            if (Test-Path -LiteralPath $controlTxt) {
-              continue
-            }
-
-            $docsPath = Join-Path $sourcesRoot ("{0}\struktura_nn_dokumenti.json" -f $slug)
-            if (!(Test-Path -LiteralPath $docsPath)) {
-              throw "Missing docs for slug '$slug': $docsPath"
-            }
-
-            $docsPayload = Get-Content -LiteralPath $docsPath -Raw -Encoding UTF8 | ConvertFrom-Json
-            $docs = @($docsPayload.dokumenti)
-            if ($docs.Count -eq 0) {
-              throw "No dokumenti in: $docsPath"
-            }
-
-            $procDocId = "${slug}_procisceni"
-            $doc = $docs | Where-Object { $_.doc_id -eq $procDocId } | Select-Object -First 1
-            if ($null -eq $doc) {
-              $doc = $docs | Select-Object -First 1
-            }
-
-            $lines = New-Object System.Collections.Generic.List[string]
-            foreach ($cl in @($doc.clanci | Sort-Object {[int]$_.broj})) {
-              $lines.Add(("Članak {0}." -f [string]$cl.broj))
-              $lines.Add([string]$cl.tekst)
-              $lines.Add("")
-            }
-
-            New-Item -ItemType Directory -Force -Path $controlDir | Out-Null
-            [System.IO.File]::WriteAllText($controlTxt, (($lines -join "`n") + "`n"), $utf8NoBom)
-          }
-
       - name: Smoke preflight ustav_rh
         shell: pwsh
         run: |

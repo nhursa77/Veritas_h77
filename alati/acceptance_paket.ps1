@@ -41,6 +41,24 @@ function Get-BoolFromOutput {
     return $false
 }
 
+function Get-OptionalFailReason {
+    param(
+        [bool] $Required,
+        [int] $ExitCode,
+        [string] $JoinedOutput
+    )
+
+    if ($Required -or $ExitCode -eq 0) {
+        return ""
+    }
+
+    if ($JoinedOutput -match "Nedostaje ulazna datoteka:\s*.*_kontrolni\.txt|_kontrolni\.txt") {
+        return "MISSING_CONTROL_TEXT"
+    }
+
+    return ""
+}
+
 function Assert-Manifest {
     param([Parameter(Mandatory = $true)] $Manifest)
 
@@ -106,17 +124,26 @@ try {
         Write-Host "=== AKT: $aktSlug (required=$required) ==="
         $outputLines = @()
         $exitCode = 0
-        try {
-            $outputLines = & $preflightScript -AktSlug $aktSlug -PaketMode -ExpectedTipTeksta $expectedTip 2>&1
-            $exitCode = $LASTEXITCODE
+        $controlTxtPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_kontrolni.txt"
+
+        if (-not $required -and -not (Test-Path -LiteralPath $controlTxtPath)) {
+            $exitCode = 2
+            $outputLines += "OPTIONAL_FAIL_REASON: MISSING_CONTROL_TEXT"
+            $outputLines += "WARNING: optional akt '$aktSlug' nema kontrolni TXT; preflight preskočen u CI smoke modu."
         }
-        catch {
-            $outputLines += [string]$_.Exception.Message
-            if ($LASTEXITCODE -gt 0) {
+        else {
+            try {
+                $outputLines = & $preflightScript -AktSlug $aktSlug -PaketMode -ExpectedTipTeksta $expectedTip 2>&1
                 $exitCode = $LASTEXITCODE
             }
-            else {
-                $exitCode = 1
+            catch {
+                $outputLines += [string]$_.Exception.Message
+                if ($LASTEXITCODE -gt 0) {
+                    $exitCode = $LASTEXITCODE
+                }
+                else {
+                    $exitCode = 1
+                }
             }
         }
 
@@ -146,6 +173,11 @@ try {
             $missingSource = $true
         }
 
+        $optionalFailReason = Get-OutputValue -Lines $outputLines -Key "OPTIONAL_FAIL_REASON"
+        if ([string]::IsNullOrWhiteSpace($optionalFailReason)) {
+            $optionalFailReason = Get-OptionalFailReason -Required $required -ExitCode $exitCode -JoinedOutput $joined
+        }
+
         Write-Host "MISSING_SOURCE: $missingSource"
 
         $results += [pscustomobject]@{
@@ -159,6 +191,7 @@ try {
             expected = $expectedCount
             guardrail_fail = $guardrailFail
             missing_source = $missingSource
+            optional_fail_reason = $optionalFailReason
         }
 
         if ($stopOnFail -and $required -and $exitCode -ne 0) {
@@ -167,13 +200,22 @@ try {
     }
 
     $requiredFails = @($results | Where-Object { $_.required -and $_.exit -ne 0 }).Count
-    $optionalFails = @($results | Where-Object { -not $_.required -and $_.exit -ne 0 }).Count
+    $optionalHardFails = @(
+        $results | Where-Object {
+            -not $_.required -and $_.exit -ne 0 -and $_.optional_fail_reason -ne "MISSING_CONTROL_TEXT"
+        }
+    ).Count
+    $optionalSoftMissingControl = @(
+        $results | Where-Object {
+            -not $_.required -and $_.exit -ne 0 -and $_.optional_fail_reason -eq "MISSING_CONTROL_TEXT"
+        }
+    ).Count
 
     $packageExit = 0
     if ($requiredFails -gt 0) {
         $packageExit = 20
     }
-    elseif ($optionalFails -gt 0) {
+    elseif ($optionalHardFails -gt 0) {
         $packageExit = 21
     }
 
@@ -182,8 +224,9 @@ try {
     Write-Host ""
     Write-Host "=== PAKET SUMMARY ==="
     Write-Host "PAKET_OK: $paketOk"
+    Write-Host "OPTIONAL_SOFT_MISSING_CONTROL: $optionalSoftMissingControl"
     $results |
-        Select-Object akt_slug, exit, selected_source, tip_expected, tip_teksta, nn_count, expected |
+        Select-Object akt_slug, exit, selected_source, tip_expected, tip_teksta, nn_count, expected, optional_fail_reason |
         Format-Table -AutoSize
 
     # Repo hygiene: restore generated artifacts for all acts in manifest.

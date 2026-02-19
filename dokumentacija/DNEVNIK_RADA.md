@@ -292,3 +292,9 @@ Workflow pokreće komande:
 `acceptance_preflight -AktSlug ustav_rh`,
 `acceptance_paket -PaketPath paketi/PAKET_PREKRSAJNI_V1.json` i
 `acceptance_preflight -AktSlug prekrsajni_zakon`.
+
+### CI-safe paket smoke bez bootstrap artefakata
+Iz workflowa je uklonjeno runtime generiranje kontrolnih TXT datoteka.
+`alati/acceptance_paket.ps1` sada tretira nedostajući kontrolni TXT za
+OPTIONAL amandman kao `MISSING_CONTROL_TEXT` (soft optional fail), pa paketni
+smoke ostaje `exit 0` dok god REQUIRED akti prolaze.
