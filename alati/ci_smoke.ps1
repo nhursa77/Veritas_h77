@@ -28,7 +28,17 @@ function Invoke-SmokeStep {
 
 Push-Location $root
 try {
-    $beforeStatus = git status --short
+    $hasGit = $null -ne (Get-Command git -ErrorAction SilentlyContinue)
+    Write-Host "CI_SMOKE_GIT_AVAILABLE=$hasGit"
+
+    $beforeStatus = @()
+    if ($hasGit) {
+        Write-Host "CI_SMOKE_HYGIENE=ENFORCED"
+        $beforeStatus = @(git status --short)
+    }
+    else {
+        Write-Host "CI_SMOKE_HYGIENE=SKIP_NO_GIT"
+    }
 
     Invoke-SmokeStep -Name "preflight_ustav_rh" -Action {
         & $preflightScript -AktSlug "ustav_rh"
@@ -44,19 +54,21 @@ try {
         }
     }
 
-    $afterStatus = git status --short
-    $beforeText = ($beforeStatus | ForEach-Object { [string]$_ }) -join "`n"
-    $afterText = ($afterStatus | ForEach-Object { [string]$_ }) -join "`n"
+    if ($hasGit) {
+        $afterStatus = @(git status --short)
+        $beforeText = ($beforeStatus | ForEach-Object { [string]$_ }) -join "`n"
+        $afterText = ($afterStatus | ForEach-Object { [string]$_ }) -join "`n"
 
-    if ($beforeText -ne $afterText) {
-        Write-Host "CI_SMOKE_STEP=repo_hygiene_check"
-        Write-Host "CI_SMOKE_EXIT=90"
-        Write-Host "ERROR: git status changed during CI smoke run."
-        Write-Host "--- BEFORE ---"
-        Write-Host $beforeText
-        Write-Host "--- AFTER ---"
-        Write-Host $afterText
-        exit 90
+        if ($beforeText -ne $afterText) {
+            Write-Host "CI_SMOKE_STEP=repo_hygiene_check"
+            Write-Host "CI_SMOKE_EXIT=90"
+            Write-Host "ERROR: git status changed during CI smoke run."
+            Write-Host "--- BEFORE ---"
+            Write-Host $beforeText
+            Write-Host "--- AFTER ---"
+            Write-Host $afterText
+            exit 90
+        }
     }
 
     Write-Host "CI_SMOKE_EXIT=0"

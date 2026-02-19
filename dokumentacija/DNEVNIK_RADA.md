@@ -305,3 +305,9 @@ Skript pokreće preflight (`ustav_rh`), paket acceptance
 (`PAKET_PREKRSAJNI_V1`) i preflight (`prekrsajni_zakon`), ispisuje
 `CI_SMOKE_STEP`/`CI_SMOKE_EXIT` markere te provjerava da `git status`
 ostane nepromijenjen nakon runa.
+
+### P2.3 — hygiene fallback kad git nije dostupan
+`alati/ci_smoke.ps1` sada detektira dostupnost `git` i ispisuje marker
+`CI_SMOKE_GIT_AVAILABLE=True/False`.
+Kad je `git` dostupan, hygiene ostaje obavezan (`CI_SMOKE_HYGIENE=ENFORCED`);
+kad nije dostupan, hygiene check se preskače (`CI_SMOKE_HYGIENE=SKIP_NO_GIT`).
