@@ -258,6 +258,10 @@ Status pilot (18.02.2026.):
 - za `amandmani` je kanonski control artefakt isključivo
   `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`
   (deterministički check; bez fallback lokacija)
+- schema gate za `*_delta_ops.json` je obavezan:
+  `alati/validiraj_delta_ops.ps1` validira sve delta control artefakte po
+  `dokumentacija/sheme/SCHEMA_DELTA_OPS.json`; pad validacije ruši `ci_smoke`
+  i acceptance tok
 - za `amandmani` guardrail ne traži `procisceni`; obavezno je
   `SELECTED_NN_TIP_TEKSTA=amandmani`, uz optional expected-count check
   i minimalni content sanity (`NN_COUNT >= 1` + prisutni `clanak_*.json`)

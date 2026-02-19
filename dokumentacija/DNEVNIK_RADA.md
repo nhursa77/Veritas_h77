@@ -451,3 +451,17 @@ Shema definira:
 
 U `dokumentacija/STANDARD_JSON_POSTUPAK.md` dodana je kratka napomena gdje se
 nalazi kanonska shema za delta kontrolne artefakte.
+
+---
+
+## Datum: 19.02.2026 (delta_ops shema gate)
+
+### VERITAS-DELTAOPS-VALIDATOR-001 — validacija delta_ops po shemi
+Dodan je alat `alati/validiraj_delta_ops.ps1` koji deterministički:
+- pronalazi sve `*_delta_ops.json` pod `izvori/kontrolno/zakon_hr/**`,
+- učitava kanonsku shemu `dokumentacija/sheme/SCHEMA_DELTA_OPS.json`,
+- validira svaki artefakt preko Python `jsonschema` engine-a.
+
+`alati/ci_smoke.ps1` je dopunjen korakom `validate_delta_ops_schema`.
+Ako bilo koji `*_delta_ops.json` padne na shemi, run završava s non-zero
+exit kodom (gate fail).

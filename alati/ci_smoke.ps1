@@ -11,6 +11,7 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 $root = Split-Path -Path $PSScriptRoot -Parent
 $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
 $paketScript = Join-Path $PSScriptRoot "acceptance_paket.ps1"
+$deltaOpsValidatorScript = Join-Path $PSScriptRoot "validiraj_delta_ops.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -67,6 +68,11 @@ try {
         [pscustomobject]@{
             Name = "paket_prekrsajni_v1"
             Action = { & $paketScript -PaketPath $paketPath }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_delta_ops_schema"
+            Action = { & $deltaOpsValidatorScript }
             Enabled = $true
         },
         [pscustomobject]@{
