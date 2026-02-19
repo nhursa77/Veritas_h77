@@ -7,7 +7,9 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $root = Split-Path -Path $PSScriptRoot -Parent
 $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
@@ -73,6 +75,12 @@ function Resolve-ControlMode {
     }
 
     return "standard"
+}
+
+function Get-DeltaControlPath {
+    param([Parameter(Mandatory = $true)][string] $AktSlug)
+
+    return (Join-Path $root "izvori\kontrolno\zakon_hr\$AktSlug\${AktSlug}_delta_ops.json")
 }
 
 function Restore-GitPathSafe {
@@ -157,20 +165,17 @@ try {
         Write-Host "CONTROL_MODE: $controlMode"
 
         $controlTxtPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_kontrolni.txt"
-        $deltaOpsPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_delta_ops.json"
+        $deltaOpsPath = Get-DeltaControlPath -AktSlug $aktSlug
 
         $hasControlTxt = Test-Path -LiteralPath $controlTxtPath
         $hasDeltaOps = Test-Path -LiteralPath $deltaOpsPath
-        $hasControl = $hasControlTxt
-        if ($controlMode -eq "delta") {
-            $hasControl = $hasControlTxt -or $hasDeltaOps
-        }
+        $hasControl = if ($controlMode -eq "delta") { $hasDeltaOps } else { $hasControlTxt }
 
         if (-not $required -and -not $hasControl) {
             $exitCode = 2
             if ($controlMode -eq "delta") {
                 $outputLines += "OPTIONAL_FAIL_REASON: MISSING_DELTA_CONTROL"
-                $outputLines += "WARNING: optional akt '$aktSlug' nema ni kontrolni TXT ni delta_ops.json; preflight preskočen u CI smoke modu."
+                $outputLines += "WARNING: optional akt '$aktSlug' nema kanonski delta_ops.json; preflight preskoćen u CI smoke modu."
             }
             else {
                 $outputLines += "OPTIONAL_FAIL_REASON: MISSING_CONTROL_TEXT"
@@ -181,7 +186,7 @@ try {
             $exitCode = 2
             if ($controlMode -eq "delta") {
                 $outputLines += "REQUIRED_FAIL_REASON: MISSING_DELTA_CONTROL"
-                $outputLines += "ERROR: required akt '$aktSlug' nema ni kontrolni TXT ni delta_ops.json."
+                $outputLines += "ERROR: required akt '$aktSlug' nema kanonski delta_ops.json."
             }
             else {
                 $outputLines += "REQUIRED_FAIL_REASON: MISSING_CONTROL_TEXT"

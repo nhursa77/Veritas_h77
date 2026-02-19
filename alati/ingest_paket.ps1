@@ -4,7 +4,9 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $root = Split-Path -Path $PSScriptRoot -Parent
 $parserScript = Join-Path $PSScriptRoot "parsiraj_nn_html.ps1"
@@ -172,7 +174,7 @@ function Set-ControlFromParsed {
     Write-Utf8NoBom -Path (Join-Path $controlDir "meta.json") -Content ($controlMetaJson + "`n")
 }
 
-function New-DeltaOpsFromParsed {
+function New-DeltaOpsFromSidra {
     param(
         [Parameter(Mandatory = $true)][string] $AktSlug
     )
@@ -181,9 +183,9 @@ function New-DeltaOpsFromParsed {
         throw "nedostaje_delta_generator: $deltaOpsScript"
     }
 
-    $sourceJsonPath = Join-Path $sourcesRoot "$AktSlug\struktura_nn_dokumenti.json"
-    if (!(Test-Path -LiteralPath $sourceJsonPath)) {
-        throw "nedostaje_parsed_docs: $sourceJsonPath"
+    $sidraDir = Join-Path $root "baza_zakona\sidra\$AktSlug"
+    if (!(Test-Path -LiteralPath $sidraDir)) {
+        throw "nedostaje_sidra_set: $sidraDir"
     }
 
     $controlDir = Join-Path $root "izvori\kontrolno\zakon_hr\$AktSlug"
@@ -203,7 +205,7 @@ function New-DeltaOpsFromParsed {
         $pythonCmd = $python.Source
     }
 
-    & $pythonCmd $deltaOpsScript --akt-slug $AktSlug --source-json $sourceJsonPath --out $outPath
+    & $pythonCmd $deltaOpsScript --akt-slug $AktSlug --sidra-dir $sidraDir --out $outPath
     $deltaExit = $LASTEXITCODE
     if ($deltaExit -ne 0) {
         throw "delta_ops_exit_$deltaExit"
@@ -242,6 +244,7 @@ try {
             if ([string]::IsNullOrWhiteSpace($expectedTipTeksta)) {
                 $expectedTipTeksta = if ($required) { "procisceni" } else { "amandmani" }
             }
+            $expectedTipTeksta = $expectedTipTeksta.ToLowerInvariant()
 
             New-SourceSnapshot -Item $item -AktDir $aktDir
 
@@ -251,13 +254,13 @@ try {
 
             Set-ControlFromParsed -AktSlug $slug -Item $item
 
-            if ($expectedTipTeksta -eq "amandmani") {
-                New-DeltaOpsFromParsed -AktSlug $slug
-            }
-
             & $normScript -AktSlug $slug
             $exitCode = $LASTEXITCODE
             if ($exitCode -ne 0) { throw "norm_exit_$exitCode" }
+
+            if ($expectedTipTeksta -eq "amandmani") {
+                New-DeltaOpsFromSidra -AktSlug $slug
+            }
 
             & $preflightScript -AktSlug $slug -PaketMode -ExpectedTipTeksta $expectedTipTeksta
             $exitCode = $LASTEXITCODE

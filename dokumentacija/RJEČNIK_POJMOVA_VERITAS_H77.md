@@ -60,6 +60,12 @@ Narodne novine kada je primjenjivo.
 Sidro je konkretna službena referenca objave norme ili izmjene. Sidro se
 bilježi radi dokazivosti citata.
 
+### Delta control (`*_delta_ops.json`)
+Delta control je kanonski kontrolni artefakt za amandmanski set
+`*_nn_<broj>_<godina>`. Sprema se isključivo na putanju
+`izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json` i služi kao
+deterministički dokaz da amandman dira određene članke.
+
 ### Stanje na dan
 Stanje na dan označava datum važenja sadržaja koji se koristi u obradi.
 Format datuma je `DD.MM.YYYY.`.

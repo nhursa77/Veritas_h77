@@ -390,3 +390,31 @@ postupanje/analizu/proceduru, dok NN core + amandmani ostaju sidrišta/audit
 sloj za dokazni trag i verifikaciju promjena.
 Navedeno je i da se zakon.hr koristi samo za usporedbu/validaciju, ne kao
 izvor istine (izvor istine je NN/ELI gdje je primjenjivo).
+
+---
+
+## Datum: 19.02.2026 (delta control kanon + UTF-8 stabilizacija)
+
+### VH77-DELTA-CONTROL-001 — kanonski delta control artefakt
+`acceptance_preflight.ps1` i `acceptance_paket.ps1` su usklađeni na
+deterministički kanon za amandmane: delta kontrola se provjerava isključivo na
+putanji
+`izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`.
+Za `CONTROL_MODE=delta` više nema fallback traženja po više lokacija;
+`MISSING_DELTA_CONTROL` ostaje standardizirani razlog pada.
+
+### VH77-DELTA-CONTROL-002 — generator minimalnog `*_delta_ops.json`
+`alati/generiraj_delta_ops.py` je prebačen na ulaz iz
+`baza_zakona/sidra/<amandman_slug>/clanak_*.json` i generira minimalni
+kanonski JSON:
+`akt_slug`, `control_mode=delta`, `source`, `affected_articles`, `ops=[]`,
+`notes`.
+`alati/ingest_paket.ps1` je dopunjen da za `tip_teksta=amandmani` poziva
+generator nakon normiranja sidra seta i zapisuje artefakt u kanonski
+`izvori/kontrolno/zakon_hr/<akt_slug>/` folder.
+
+### VH77-ENCODING-001 — UTF-8 izlaz na PS5.1
+U `acceptance_preflight.ps1`, `acceptance_paket.ps1` i `ci_smoke.ps1`
+postavljen je UTF-8 runtime (`chcp 65001`, `Console.OutputEncoding`,
+`$OutputEncoding`) kako bi logovi ostali čitki i bez mojibake u porukama
+tipa "preskoćen".

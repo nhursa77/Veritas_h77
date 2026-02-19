@@ -1,0 +1,21 @@
+{
+  "akt_slug": "prekrsajni_zakon_nn_70_2017",
+  "control_mode": "delta",
+  "source": {
+    "tip": "NN",
+    "slug": "prekrsajni_zakon_nn_70_2017",
+    "stanje_na_dan": "18.02.2026."
+  },
+  "affected_articles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    33
+  ],
+  "ops": [],
+  "notes": "AUTO-GENERATED MINIMAL CONTROL; ops empty until delta parser implemented."
+}

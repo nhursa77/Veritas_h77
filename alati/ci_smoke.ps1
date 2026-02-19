@@ -4,7 +4,9 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $root = Split-Path -Path $PSScriptRoot -Parent
 $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"

@@ -57,6 +57,9 @@ Ulazi (činjenice + dokazi)
 - R2: `sidra/` → samo `*_nn_<broj>_<godina>` (NN sidra + amandmani).
 - R3: `arhiva/` → samo snapshotovi u formatu
   `arhiva/<akt_slug>/<source_set_slug>/`.
+- Delta control artefakt za amandmane (`*_nn_<broj>_<godina>`) je obavezan
+  i sprema se isključivo na:
+  `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`.
 - Jednoznačno pravilo imenovanja: kad se generira ili preuzima pročišćeni
   tekst (operativni), mapa se mora zvati `<akt_slug>_procisceni`
   (obavezno).
@@ -252,6 +255,9 @@ Status pilot (18.02.2026.):
 - paketni preflight je tip-aware po aktu (`tip_teksta`) i radi u
   strict modu po očekivanom tipu:
   `procisceni` za core operativni set, `amandmani` za amandmanske akte
+- za `amandmani` je kanonski control artefakt isključivo
+  `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`
+  (deterministički check; bez fallback lokacija)
 - za `amandmani` guardrail ne traži `procisceni`; obavezno je
   `SELECTED_NN_TIP_TEKSTA=amandmani`, uz optional expected-count check
   i minimalni content sanity (`NN_COUNT >= 1` + prisutni `clanak_*.json`)

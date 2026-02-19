@@ -14,7 +14,9 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $root = Split-Path -Path $PSScriptRoot -Parent
 $validator = Join-Path $PSScriptRoot "validiraj_nn_vs_kontrolno.py"
@@ -83,6 +85,12 @@ function Get-SlugEnvKey {
     return "VERITAS_${token}_EXPECTED_COUNT_OVERRIDE"
 }
 
+function Get-DeltaControlPath {
+    param([Parameter(Mandatory = $true)][string] $Slug)
+
+    return (Join-Path $root "izvori\kontrolno\zakon_hr\$Slug\${Slug}_delta_ops.json")
+}
+
 function Restore-GitPathSafe {
     param([Parameter(Mandatory = $true)][string] $RelativePath)
 
@@ -131,6 +139,68 @@ $effectiveExpectedTip = $effectiveExpectedTip.ToLowerInvariant()
 
 Push-Location $root
 try {
+    if ($effectiveExpectedTip -eq "amandmani") {
+        $deltaControlPath = Get-DeltaControlPath -Slug $AktSlug
+        if (!(Test-Path -LiteralPath $deltaControlPath)) {
+            Write-Host "CONTROL_MODE: delta"
+            Write-Host "REQUIRED_FAIL_REASON: MISSING_DELTA_CONTROL"
+            Write-Host "ERROR: nedostaje kanonski delta control artefakt: $deltaControlPath"
+            Write-Host "TIP_EXPECTED: $effectiveExpectedTip"
+            Write-Host "TIP_ACTUAL: (none)"
+            Write-Host "FAIL (exit code 2)"
+            git status --short
+            exit 2
+        }
+
+        $clanakAny = @()
+        if (Test-Path -LiteralPath $normeDir) {
+            $clanakAny = @(Get-ChildItem -LiteralPath $normeDir -Filter "clanak_*.json" -File -ErrorAction SilentlyContinue)
+        }
+
+        if ($clanakAny.Count -lt 1) {
+            Write-Host "CONTROL_MODE: delta"
+            Write-Host "REQUIRED_FAIL_REASON: MISSING_DELTA_CONTENT"
+            Write-Host "ERROR: nema clanak_*.json u sidra setu: $normeDir"
+            Write-Host "TIP_EXPECTED: $effectiveExpectedTip"
+            Write-Host "TIP_ACTUAL: (none)"
+            Write-Host "FAIL (exit code 4)"
+            git status --short
+            exit 4
+        }
+
+        $affectedCount = 0
+        try {
+            $deltaPayload = Get-Content -LiteralPath $deltaControlPath -Raw -Encoding UTF8 | ConvertFrom-Json
+            if ($null -ne $deltaPayload.affected_articles) {
+                $affectedCount = @($deltaPayload.affected_articles).Count
+            }
+        }
+        catch {
+            Write-Host "CONTROL_MODE: delta"
+            Write-Host "REQUIRED_FAIL_REASON: INVALID_DELTA_CONTROL"
+            Write-Host "ERROR: nevaljan delta control JSON: $deltaControlPath"
+            Write-Host "TIP_EXPECTED: $effectiveExpectedTip"
+            Write-Host "TIP_ACTUAL: (none)"
+            Write-Host "FAIL (exit code 5)"
+            git status --short
+            exit 5
+        }
+
+        Write-Host "CONTROL_MODE: delta"
+        Write-Host "DELTA_CONTROL_PATH: $deltaControlPath"
+        Write-Host "NN_COUNT: $($clanakAny.Count)"
+        Write-Host "DELTA_AFFECTED_COUNT: $affectedCount"
+        Write-Host "TIP_EXPECTED: $effectiveExpectedTip"
+        Write-Host "TIP_ACTUAL: amandmani"
+        Write-Host "OK"
+
+        Restore-GitPathSafe -RelativePath $reportPathRel
+        Restore-GitPathSafe -RelativePath $controlJsonRel
+        Remove-UntrackedPathIfExists -RelativePath $reportPathRel -AbsolutePath (Join-Path $root ($reportPathRel -replace '/', '\'))
+        git status --short
+        exit 0
+    }
+
     if ($PSBoundParameters.ContainsKey('ExpectedCountOverride')) {
         Set-Item -Path "Env:$overrideEnvName" -Value ([string]$ExpectedCountOverride)
         $overrideWasSet = $true
