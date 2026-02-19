@@ -465,3 +465,8 @@ Dodan je alat `alati/validiraj_delta_ops.ps1` koji deterministički:
 `alati/ci_smoke.ps1` je dopunjen korakom `validate_delta_ops_schema`.
 Ako bilo koji `*_delta_ops.json` padne na shemi, run završava s non-zero
 exit kodom (gate fail).
+
+Smoke dokaz zatvaranja gate-a:
+- `alati/ci_smoke.ps1` prolazi s `CI_SMOKE_EXIT=0`.
+- korak `validate_delta_ops_schema` prolazi za sve postojeće
+  `*_delta_ops.json` artefakte.
