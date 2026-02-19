@@ -9,11 +9,12 @@
 
 - Detektirano rimskih oznaka glava/dijelova: 1
 - Detektirano tipfelera u headerima članaka: 1
-- Korekcija: 'Članak 1 I.' između 10 i 12 mapiran je na članak 11 (ANOMALIJA_C1I_TO_C11).
+- Korekcija: 'Članak 1 I.' između 10 i 12 mapiran je na članak 11
+  (ANOMALIJA_C1I_TO_C11).
 
 ## Kontrola markera
 
-### Popis pronađenih Članak <broj>
+### Popis pronađenih Članak broj
 
 - 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12
 - 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24

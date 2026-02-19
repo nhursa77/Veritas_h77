@@ -27,14 +27,14 @@ Standard se primjenjuje na sve korake koji mogu proizvesti vanjski izlaz.
 Ukupni `risk_score` je zbroj kriterija, ograničen na 100.
 
 | Kriterij | 0 bodova | 5-10 bodova | 15-20 bodova |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Rokovi | rok jasan i unutar roka | rok blizu isteka | rok istekao ili sporan |
 | Nadležnost | potpuno jasna | djelomično jasna | nejasna ili osporena |
-| Dokazna pokrivenost | ključni dokazi postoje | dio dokaza nedostaje | ključni dokaz nedostaje |
+| Dok. pokriv. | ključni dokazi su tu | dio dokaza fali | ključni dokaz fali |
 | Sidra | status puno | status djelomično | status bez |
 | Kolizije | nema kolizije | manja nejasnoća | kolizija normi potvrđena |
 | Šteta posljedica | niska posljedica | srednja posljedica | visoka posljedica |
-| Reverzibilnost radnje | lako reverzibilna | djelomično reverzibilna | teško reverzibilna |
+| Reverzibilnost | lako reverzibilna | djelomice reverz. | teško reverzibilna |
 
 Tumačenje razine rizika:
 - 0-30: nisko

@@ -7,11 +7,13 @@
 
 ## Upozorenja
 
-- Duplikati brojeva članaka nakon korekcija: 3, 10, 12, 13, 14, 24, 34, 37, 38, 40, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 76, 109, 152
+- Duplikati brojeva članaka nakon korekcija:
+  3, 10, 12, 13, 14, 24, 34, 37, 38, 40, 45, 47, 48, 49, 50, 51, 52,
+  53, 54, 55, 56, 57, 58, 76, 109, 152
 
 ## Kontrola markera
 
-### Popis pronađenih Članak <broj>
+### Popis pronađenih Članak broj
 
 - 1, 2, 3, 3, 4, 10, 5, 12, 6, 13, 7, 13
 - 8, 14, 9, 14, 14, 14, 10, 24, 11, 34, 12, 37
