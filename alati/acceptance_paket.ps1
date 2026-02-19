@@ -59,6 +59,22 @@ function Get-OptionalFailReason {
     return ""
 }
 
+function Resolve-ControlMode {
+    param(
+        [string] $ExpectedTip
+    )
+
+    if ([string]::IsNullOrWhiteSpace($ExpectedTip)) {
+        return "standard"
+    }
+
+    if ($ExpectedTip.ToLowerInvariant() -eq "amandmani") {
+        return "delta"
+    }
+
+    return "standard"
+}
+
 function Assert-Manifest {
     param([Parameter(Mandatory = $true)] $Manifest)
 
@@ -124,12 +140,40 @@ try {
         Write-Host "=== AKT: $aktSlug (required=$required) ==="
         $outputLines = @()
         $exitCode = 0
-        $controlTxtPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_kontrolni.txt"
+        $controlMode = Resolve-ControlMode -ExpectedTip $expectedTip
+        Write-Host "CONTROL_MODE: $controlMode"
 
-        if (-not $required -and -not (Test-Path -LiteralPath $controlTxtPath)) {
+        $controlTxtPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_kontrolni.txt"
+        $deltaOpsPath = Join-Path $root "izvori\kontrolno\zakon_hr\$aktSlug\${aktSlug}_delta_ops.json"
+
+        $hasControlTxt = Test-Path -LiteralPath $controlTxtPath
+        $hasDeltaOps = Test-Path -LiteralPath $deltaOpsPath
+        $hasControl = $hasControlTxt
+        if ($controlMode -eq "delta") {
+            $hasControl = $hasControlTxt -or $hasDeltaOps
+        }
+
+        if (-not $required -and -not $hasControl) {
             $exitCode = 2
-            $outputLines += "OPTIONAL_FAIL_REASON: MISSING_CONTROL_TEXT"
-            $outputLines += "WARNING: optional akt '$aktSlug' nema kontrolni TXT; preflight preskočen u CI smoke modu."
+            if ($controlMode -eq "delta") {
+                $outputLines += "OPTIONAL_FAIL_REASON: MISSING_DELTA_CONTROL"
+                $outputLines += "WARNING: optional akt '$aktSlug' nema ni kontrolni TXT ni delta_ops.json; preflight preskočen u CI smoke modu."
+            }
+            else {
+                $outputLines += "OPTIONAL_FAIL_REASON: MISSING_CONTROL_TEXT"
+                $outputLines += "WARNING: optional akt '$aktSlug' nema kontrolni TXT; preflight preskočen u CI smoke modu."
+            }
+        }
+        elseif ($required -and -not $hasControl) {
+            $exitCode = 2
+            if ($controlMode -eq "delta") {
+                $outputLines += "REQUIRED_FAIL_REASON: MISSING_DELTA_CONTROL"
+                $outputLines += "ERROR: required akt '$aktSlug' nema ni kontrolni TXT ni delta_ops.json."
+            }
+            else {
+                $outputLines += "REQUIRED_FAIL_REASON: MISSING_CONTROL_TEXT"
+                $outputLines += "ERROR: required akt '$aktSlug' nema kontrolni TXT."
+            }
         }
         else {
             try {
@@ -183,6 +227,7 @@ try {
         $results += [pscustomobject]@{
             akt_slug = $aktSlug
             required = $required
+            control_mode = $controlMode
             exit = $exitCode
             selected_source = $selectedSlug
             tip_expected = $tipExpectedOut
@@ -202,12 +247,20 @@ try {
     $requiredFails = @($results | Where-Object { $_.required -and $_.exit -ne 0 }).Count
     $optionalHardFails = @(
         $results | Where-Object {
-            -not $_.required -and $_.exit -ne 0 -and $_.optional_fail_reason -ne "MISSING_CONTROL_TEXT"
+            (
+                -not $_.required -and
+                $_.exit -ne 0 -and
+                $_.optional_fail_reason -ne "MISSING_CONTROL_TEXT" -and
+                $_.optional_fail_reason -ne "MISSING_DELTA_CONTROL"
+            )
         }
     ).Count
     $optionalSoftMissingControl = @(
         $results | Where-Object {
-            -not $_.required -and $_.exit -ne 0 -and $_.optional_fail_reason -eq "MISSING_CONTROL_TEXT"
+            -not $_.required -and $_.exit -ne 0 -and (
+                $_.optional_fail_reason -eq "MISSING_CONTROL_TEXT" -or
+                $_.optional_fail_reason -eq "MISSING_DELTA_CONTROL"
+            )
         }
     ).Count
 
@@ -224,9 +277,12 @@ try {
     Write-Host ""
     Write-Host "=== PAKET SUMMARY ==="
     Write-Host "PAKET_OK: $paketOk"
+    if (@($results | Where-Object { $_.control_mode -eq "delta" }).Count -gt 0) {
+        Write-Host "CONTROL_MODE=delta"
+    }
     Write-Host "OPTIONAL_SOFT_MISSING_CONTROL: $optionalSoftMissingControl"
     $results |
-        Select-Object akt_slug, exit, selected_source, tip_expected, tip_teksta, nn_count, expected, optional_fail_reason |
+        Select-Object akt_slug, control_mode, exit, selected_source, tip_expected, tip_teksta, nn_count, expected, optional_fail_reason |
         Format-Table -AutoSize
 
     # Repo hygiene: restore generated artifacts for all acts in manifest.

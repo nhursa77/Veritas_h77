@@ -323,3 +323,10 @@ Time se skraćuje runtime smoke workflowa bez promjene acceptance logike.
 `CI_SMOKE_BEGIN/END`, `CI_SMOKE_STEP_BEGIN/END` i završni `CI_SMOKE_EXIT`.
 Dodani su i standardni runtime markeri (`CI_SMOKE_TIMESTAMP`,
 `CI_SMOKE_PWSH_VERSION`) radi lakšeg grepanja CI logova.
+
+### Delta control mode za amandmane u paket acceptanceu
+`alati/acceptance_paket.ps1` sada za `tip_teksta=amandmani` koristi
+`CONTROL_MODE=delta`: kontrola je zadovoljena ako postoji
+`*_delta_ops.json` ili `*_kontrolni.txt`.
+Ako nema nijednog od ta dva artefakta, optional akt dobiva soft razlog
+`MISSING_DELTA_CONTROL` (umjesto `MISSING_CONTROL_TEXT`).
