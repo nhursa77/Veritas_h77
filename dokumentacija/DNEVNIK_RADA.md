@@ -418,3 +418,18 @@ U `acceptance_preflight.ps1`, `acceptance_paket.ps1` i `ci_smoke.ps1`
 postavljen je UTF-8 runtime (`chcp 65001`, `Console.OutputEncoding`,
 `$OutputEncoding`) kako bi logovi ostali čitki i bez mojibake u porukama
 tipa "preskoćen".
+
+---
+
+## Datum: 19.02.2026 (baza postupaka vs postupci)
+
+### VERITAS-DOCS-PUTANJE-POSTUPCI — razjašnjenje koncepta i putanje
+Usklađena je dokumentacija da se jasno razlikuje logički naziv od fizičke
+putanje:
+- logički naziv ostaje "baza postupaka" kao dokumentacijski koncept;
+- trenutačna fizička putanja proceduralnih sadržaja je `postupci/`;
+- `baza_postupaka/` ostaje planirana migracija (TODO) i ne tretira se kao
+	postojeća putanja dok se ne napravi zaseban commit.
+
+`dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md` i `README.md` su usklađeni s
+tim pravilom kako bi se uklonila dvosmislenost u kanonskim putanjama.

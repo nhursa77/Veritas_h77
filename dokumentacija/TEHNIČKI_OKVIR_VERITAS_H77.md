@@ -23,9 +23,10 @@ Postoji u repozitoriju. Sadrži kanonske dokumente i dnevnik rada.
 Postoji u repozitoriju.
 Kanonski sadrži isključivo operativne setove `*_procisceni`.
 
-### `baza_postupaka/` (logički naziv)
-Kanonski naziv za proceduralnu bazu je `baza_postupaka/`.
-Fizička migracija mape je zaseban korak i ne utječe na kanon putanja.
+### Postupci (trenutna fizička putanja)
+Trenutna fizička putanja proceduralnih sadržaja je `postupci/`.
+`baza_postupaka/` je planirana migracija (TODO) i ne smatra se postojećom
+putanjom dok se ne napravi zaseban commit.
 
 ### `predlosci/`
 Postoji u repozitoriju. Namjena je pohrana predložaka dokumenata.
@@ -105,11 +106,12 @@ Ako postoji nesklad između pomoćnog izvora i NN izvora, nesklad se mora
 označiti i evidentirati. U slučaju nesklada prednost ima NN izvor.
 
 ### Logički naziv vs fizička putanja
-Logički naziv "baza normi" označava koncept sloja normi.
-Fizička putanja na disku je `baza_zakona/norme/`.
-Logički naziv "baza postupaka" ostaje kanonski po dokumentaciji.
-Fizička putanja proceduralnih sadržaja može privremeno odstupati dok traje
-tranzicija mapiranja.
+Logički naziv “baza normi” označava koncept sloja normi.
+Fizička putanja na disku je baza_zakona/norme/.
+Logički naziv “baza postupaka” označava koncept sloja postupaka.
+Fizička putanja proceduralnih sadržaja trenutno je postupci/.
+baza_postupaka/ je planirana (TODO) migracija i ne smatra se postojećom
+putanjom dok se ne napravi zaseban commit.
 
 ---
 

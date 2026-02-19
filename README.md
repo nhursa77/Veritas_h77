@@ -55,7 +55,8 @@ izvorima.
 - `baza_zakona/arhiva/` – arhivski snapshotovi u formatu  
   `<akt_slug>/<source_set_slug>/`  
 - `predlosci/` – kanonski predlošci pravnih akata  
-- `baza_postupaka/` – standardizirane proceduralne sheme  
+- `postupci/` – proceduralni sadržaji (trenutna fizička putanja; “baza postupaka” je logički naziv u dokumentaciji)  
+- `baza_postupaka/` – planirani naziv nakon migracije proceduralne mape  
 - `predmeti/` – konkretni slučajevi (lokalno)  
 - `primjeri/` – demonstracijski scenariji  
 
