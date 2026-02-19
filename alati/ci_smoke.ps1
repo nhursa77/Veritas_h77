@@ -12,6 +12,7 @@ $root = Split-Path -Path $PSScriptRoot -Parent
 $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
 $paketScript = Join-Path $PSScriptRoot "acceptance_paket.ps1"
 $deltaOpsValidatorScript = Join-Path $PSScriptRoot "validiraj_delta_ops.ps1"
+$markdownLintScript = Join-Path $PSScriptRoot "lint_markdown.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -60,6 +61,11 @@ try {
     }
 
     $steps = @(
+        [pscustomobject]@{
+            Name = "lint_markdown"
+            Action = { & $markdownLintScript }
+            Enabled = $true
+        },
         [pscustomobject]@{
             Name = "preflight_ustav_rh"
             Action = { & $preflightScript -AktSlug "ustav_rh" }

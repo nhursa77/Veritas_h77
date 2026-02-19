@@ -244,7 +244,8 @@ bez operativnog oslanjanja na `zakon.hr`.
 Dodana je generička skripta `alati/ingest_paket.ps1` (bez per-zakon skripti)
 koja po manifestu radi: dohvat NN izvora, parsiranje, normiranje i preflight.
 `alati/acceptance_paket.ps1` usklađen je s kodovima izlaza:
-`0` (sve OK), `20` (required fail), `21` (optional fail), `22` (manifest invalid).
+`0` (sve OK), `20` (required fail), `21` (optional fail),
+`22` (manifest invalid).
 Acceptance rezultat za paket je deterministički:
 core (`prekrsajni_zakon`) prolazi, optional amandmani trenutno padaju bez
 kontrolnog TXT izvora pa paket završava s `exit 21` (bez crash-a).
@@ -470,3 +471,26 @@ Smoke dokaz zatvaranja gate-a:
 - `alati/ci_smoke.ps1` prolazi s `CI_SMOKE_EXIT=0`.
 - korak `validate_delta_ops_schema` prolazi za sve postojeće
   `*_delta_ops.json` artefakte.
+
+---
+
+## Datum: 19.02.2026 (deterministički markdown lint gate)
+
+### VERITAS-MD-LINT-RUNNER-001 — Python runner za MD hard gate
+Dodan je deterministički lint runner:
+- `alati/lint_markdown.py` (čita `.markdownlint.json`, provjerava `MD013`),
+- `alati/lint_markdown.ps1` (PowerShell wrapper).
+
+Runner lint-a ciljane markdown putanje:
+`README.md`, `.github/copilot-instructions.md` i `dokumentacija/**/*.md`.
+Ispisuje stabilne markere `MDLINT_BEGIN/END/EXIT=<code>` i točne
+`datoteka:linija` prekršaje.
+
+`alati/ci_smoke.ps1` je dopunjen korakom `lint_markdown`; pad markdown lint-a
+zaustavlja smoke s non-zero exit kodom.
+
+Runner je zatim prebačen u scoped mod:
+- ciljne `.md` datoteke računa iz `git diff --cached --name-only`
+  (ako postoje staged promjene), inače iz `git diff --name-only`;
+- lint se izvršava samo nad tim popisom, pa gate ne pada na stare MD dugove
+  izvan trenutnog opsega zadatka.

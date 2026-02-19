@@ -226,7 +226,8 @@ Status pilot (18.02.2026.):
 - pre-flight guardrail je obavezan prije acceptance/prolaza:
   `exit 2` ako odabrani izvor nije `procisceni`, `exit 3` ako
   `NN_COUNT` odstupa od `ocekivani_broj_clanaka`
-- standardni one-click run na Windowsu: `alati/acceptance_ustav_rh_preflight.ps1`
+- standardni one-click run na Windowsu:
+  `alati/acceptance_ustav_rh_preflight.ps1`
 - uvedeni su generički entrypointi po `-AktSlug`:
   `alati/run_normiratelj.ps1` i `alati/acceptance_preflight.ps1`
   kako bi selection + guardrail bili primjenjivi na sve akte, ne samo `ustav_rh`
@@ -262,12 +263,18 @@ Status pilot (18.02.2026.):
   `alati/validiraj_delta_ops.ps1` validira sve delta control artefakte po
   `dokumentacija/sheme/SCHEMA_DELTA_OPS.json`; pad validacije ruši `ci_smoke`
   i acceptance tok
+- markdown hard gate je deterministički:
+  `alati/lint_markdown.ps1` (wrapper) i `alati/lint_markdown.py` provode
+  provjeru `MD013` samo nad promijenjenim `.md` datotekama iz `git diff`
+  (`--cached` ako postoje staged promjene, inače radno stablo);
+  pad lint-a ruši `ci_smoke`
 - za `amandmani` guardrail ne traži `procisceni`; obavezno je
   `SELECTED_NN_TIP_TEKSTA=amandmani`, uz optional expected-count check
   i minimalni content sanity (`NN_COUNT >= 1` + prisutni `clanak_*.json`)
 
 ### FAZA 4 — Kontrola arhive (usporedba JSON ↔ NN izvor)
-CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi ima NN arhivu i meta hash.
+CILJ: Potvrditi da svaki akt koji postoji u NORMA bazi
+ima NN arhivu i meta hash.
 ULAZ:
 - `baza_zakona/norme/**`
 - `izvori/dokazno/narodne_novine/**`
