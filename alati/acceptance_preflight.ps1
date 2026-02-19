@@ -162,6 +162,29 @@ try {
 
     Write-Host "NORME_LAYOUT_CHECK=OK"
 
+    $sidraRoot = Join-Path $root "baza_zakona\sidra"
+    $sidraOffenders = @()
+    if (Test-Path -LiteralPath $sidraRoot) {
+        $sidraOffenders = @(
+            Get-ChildItem -LiteralPath $sidraRoot -Directory -ErrorAction SilentlyContinue |
+                Where-Object { $_.Name -notmatch '_nn_\d+_\d+' } |
+                Sort-Object -Property Name
+        )
+    }
+
+    if ($sidraOffenders.Count -gt 0) {
+        Write-Host "SIDRA_LAYOUT_CHECK=FAIL"
+        Write-Host "REQUIRED_FAIL_REASON: SIDRA_LAYOUT_INVALID_NN_PATTERN"
+        foreach ($dir in $sidraOffenders) {
+            Write-Host "SIDRA_LAYOUT_OFFENDER: $($dir.Name)"
+        }
+        Write-Host "FAIL (exit code 2)"
+        git status --short
+        exit 2
+    }
+
+    Write-Host "SIDRA_LAYOUT_CHECK=OK"
+
     if ($effectiveExpectedTip -eq "amandmani") {
         $deltaControlPath = Get-DeltaControlPath -Slug $AktSlug
         if (!(Test-Path -LiteralPath $deltaControlPath)) {

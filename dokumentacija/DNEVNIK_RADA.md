@@ -520,6 +520,16 @@ Za amandmanski preflight standardizirani su markeri kontrole delta artefakta:
 U soft-missing stanju izlazni kod ostaje `0`, a signalizacija ostaje
 stabilna i grep-friendly za CI/dnevnik.
 
+### VERITAS-SIDRA-GUARD-001 — zabrana sidra bez NN obrasca
+U `alati/acceptance_preflight.ps1` dodan je hard guard za
+`baza_zakona/sidra/`:
+- dozvoljene su samo mape koje sadrže obrazac `_nn_<broj>_<godina>`;
+- ako postoji ijedan prekršitelj, preflight ispisuje
+  `SIDRA_LAYOUT_OFFENDER` i pada s non-zero exit kodom.
+
+Time je kanonski layout baze zatvoren s oba hard gate-a:
+`norme` (`*_procisceni`) i `sidra` (`*_nn_<broj>_<godina>`).
+
 ### VERITAS-PRIMOPREDAJA-001 — paket stanja repozitorija
 Dodana je datoteka
 `dokumentacija/PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md` kao
