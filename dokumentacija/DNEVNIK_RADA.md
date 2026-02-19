@@ -494,3 +494,17 @@ Runner je zatim prebačen u scoped mod:
   (ako postoje staged promjene), inače iz `git diff --name-only`;
 - lint se izvršava samo nad tim popisom, pa gate ne pada na stare MD dugove
   izvan trenutnog opsega zadatka.
+
+---
+
+## Datum: 19.02.2026 (norme layout hard gate)
+
+### VERITAS-NORME-GUARD-001 — zabrana non-`_procisceni` u norme
+U `alati/acceptance_preflight.ps1` dodan je hard guard za
+`baza_zakona/norme/`:
+- dozvoljene su isključivo mape koje završavaju na `_procisceni`;
+- ako postoji ijedan prekršitelj, preflight ispisuje
+  `NORME_LAYOUT_OFFENDER` popis i pada s non-zero exit kodom.
+
+Time je isti uvjet automatski propagiran i na `alati/ci_smoke.ps1`
+jer smoke koristi `acceptance_preflight` kao ulazni gate.

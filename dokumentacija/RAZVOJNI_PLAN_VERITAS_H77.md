@@ -259,6 +259,9 @@ Status pilot (18.02.2026.):
 - za `amandmani` je kanonski control artefakt isključivo
   `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`
   (deterministički check; bez fallback lokacija)
+- hard gate za `baza_zakona/norme/` je obavezan: dozvoljene su samo
+  mape koje završavaju na `_procisceni`; svaki non-`_procisceni`
+  direktorij ruši `acceptance_preflight` i `ci_smoke`
 - schema gate za `*_delta_ops.json` je obavezan:
   `alati/validiraj_delta_ops.ps1` validira sve delta control artefakte po
   `dokumentacija/sheme/SCHEMA_DELTA_OPS.json`; pad validacije ruši `ci_smoke`

@@ -139,6 +139,29 @@ $effectiveExpectedTip = $effectiveExpectedTip.ToLowerInvariant()
 
 Push-Location $root
 try {
+    $normeRoot = Join-Path $root "baza_zakona\norme"
+    $nonProcisceniDirs = @()
+    if (Test-Path -LiteralPath $normeRoot) {
+        $nonProcisceniDirs = @(
+            Get-ChildItem -LiteralPath $normeRoot -Directory -ErrorAction SilentlyContinue |
+                Where-Object { -not $_.Name.ToLowerInvariant().EndsWith("_procisceni") } |
+                Sort-Object -Property Name
+        )
+    }
+
+    if ($nonProcisceniDirs.Count -gt 0) {
+        Write-Host "NORME_LAYOUT_CHECK=FAIL"
+        Write-Host "REQUIRED_FAIL_REASON: NORME_LAYOUT_NON_PROCISCENI"
+        foreach ($dir in $nonProcisceniDirs) {
+            Write-Host "NORME_LAYOUT_OFFENDER: $($dir.Name)"
+        }
+        Write-Host "FAIL (exit code 2)"
+        git status --short
+        exit 2
+    }
+
+    Write-Host "NORME_LAYOUT_CHECK=OK"
+
     if ($effectiveExpectedTip -eq "amandmani") {
         $deltaControlPath = Get-DeltaControlPath -Slug $AktSlug
         if (!(Test-Path -LiteralPath $deltaControlPath)) {
