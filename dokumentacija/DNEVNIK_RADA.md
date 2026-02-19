@@ -280,3 +280,15 @@ i dodaje minimalni content sanity (`NN_COUNT >= 1` i prisutan
 `alati/ingest_paket.ps1` i `alati/acceptance_paket.ps1` sada prosljeđuju
 očekivani tip po aktu (`tip_teksta`) i paketni summary prikazuje
 `TIP_EXPECTED` vs `TIP_ACTUAL`.
+
+---
+
+## Datum: 19.02.2026
+
+### Windows CI smoke (preflight + paket)
+Dodan je GitHub Actions workflow `.github/workflows/ci_smoke_windows.yml` za
+minimalni Windows smoke CI (`windows-latest`, `pwsh`).
+Workflow pokreće komande:
+`acceptance_preflight -AktSlug ustav_rh`,
+`acceptance_paket -PaketPath paketi/PAKET_PREKRSAJNI_V1.json` i
+`acceptance_preflight -AktSlug prekrsajni_zakon`.
