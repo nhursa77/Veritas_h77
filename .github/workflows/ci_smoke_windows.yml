@@ -29,7 +29,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python 3.12
+      - name: Setup Python 3.12 (with cache)
+        if: hashFiles('requirements.txt', 'pyproject.toml', 'poetry.lock', 'requirements-dev.txt') != ''
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -37,17 +38,21 @@ jobs:
           cache-dependency-path: |
             requirements.txt
             pyproject.toml
+            poetry.lock
+            requirements-dev.txt
+
+      - name: Setup Python 3.12 (without cache)
+        if: hashFiles('requirements.txt', 'pyproject.toml', 'poetry.lock', 'requirements-dev.txt') == ''
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
       - name: Install dependencies
+        if: hashFiles('requirements.txt') != ''
         shell: pwsh
         run: |
           $ErrorActionPreference = 'Stop'
-          if (Test-Path -LiteralPath "requirements.txt") {
-            python -m pip install -r requirements.txt
-          }
-          else {
-            python -m pip install pypdf
-          }
+          python -m pip install -r requirements.txt
 
       - name: Set UTF-8 console
         shell: pwsh
