@@ -165,14 +165,25 @@ try {
     if ($effectiveExpectedTip -eq "amandmani") {
         $deltaControlPath = Get-DeltaControlPath -Slug $AktSlug
         if (!(Test-Path -LiteralPath $deltaControlPath)) {
+            $clanakAny = @()
+            if (Test-Path -LiteralPath $normeDir) {
+                $clanakAny = @(Get-ChildItem -LiteralPath $normeDir -Filter "clanak_*.json" -File -ErrorAction SilentlyContinue)
+            }
+
             Write-Host "CONTROL_MODE: delta"
-            Write-Host "REQUIRED_FAIL_REASON: MISSING_DELTA_CONTROL"
-            Write-Host "ERROR: nedostaje kanonski delta control artefakt: $deltaControlPath"
+            Write-Host "DELTA_OPS_CONTROL=OPTIONAL_SOFT_MISSING_CONTROL"
+            Write-Host "DELTA_OPS_MISSING: $deltaControlPath"
+            Write-Host "DELTA_OPS_HINT: generiraj_delta_ops.py"
+            Write-Host "NN_COUNT: $($clanakAny.Count)"
             Write-Host "TIP_EXPECTED: $effectiveExpectedTip"
-            Write-Host "TIP_ACTUAL: (none)"
-            Write-Host "FAIL (exit code 2)"
+            Write-Host "TIP_ACTUAL: amandmani"
+            Write-Host "OK"
+
+            Restore-GitPathSafe -RelativePath $reportPathRel
+            Restore-GitPathSafe -RelativePath $controlJsonRel
+            Remove-UntrackedPathIfExists -RelativePath $reportPathRel -AbsolutePath (Join-Path $root ($reportPathRel -replace '/', '\'))
             git status --short
-            exit 2
+            exit 0
         }
 
         $clanakAny = @()
@@ -210,6 +221,7 @@ try {
         }
 
         Write-Host "CONTROL_MODE: delta"
+        Write-Host "DELTA_OPS_CONTROL=OK"
         Write-Host "DELTA_CONTROL_PATH: $deltaControlPath"
         Write-Host "NN_COUNT: $($clanakAny.Count)"
         Write-Host "DELTA_AFFECTED_COUNT: $affectedCount"

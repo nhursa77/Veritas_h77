@@ -259,6 +259,12 @@ Status pilot (18.02.2026.):
 - za `amandmani` je kanonski control artefakt isključivo
   `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_delta_ops.json`
   (deterministički check; bez fallback lokacija)
+- kad nedostaje `*_delta_ops.json` za amandmanski akt, preflight ne pada,
+  nego ispisuje stabilne soft markere:
+  `DELTA_OPS_CONTROL=OPTIONAL_SOFT_MISSING_CONTROL`,
+  `DELTA_OPS_MISSING: <putanja>`,
+  `DELTA_OPS_HINT: generiraj_delta_ops.py`
+- kad je kontrolni artefakt prisutan, marker je `DELTA_OPS_CONTROL=OK`
 - hard gate za `baza_zakona/norme/` je obavezan: dozvoljene su samo
   mape koje završavaju na `_procisceni`; svaki non-`_procisceni`
   direktorij ruši `acceptance_preflight` i `ci_smoke`

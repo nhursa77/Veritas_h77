@@ -508,3 +508,14 @@ U `alati/acceptance_preflight.ps1` dodan je hard guard za
 
 Time je isti uvjet automatski propagiran i na `alati/ci_smoke.ps1`
 jer smoke koristi `acceptance_preflight` kao ulazni gate.
+
+### VERITAS-DELTAOPS-SOFT-STATUS-001 — standardni soft markeri
+Za amandmanski preflight standardizirani su markeri kontrole delta artefakta:
+- prisutno: `DELTA_OPS_CONTROL=OK`
+- nedostaje (soft, bez faila):
+  `DELTA_OPS_CONTROL=OPTIONAL_SOFT_MISSING_CONTROL`,
+  `DELTA_OPS_MISSING: <putanja>`,
+  `DELTA_OPS_HINT: generiraj_delta_ops.py`
+
+U soft-missing stanju izlazni kod ostaje `0`, a signalizacija ostaje
+stabilna i grep-friendly za CI/dnevnik.
