@@ -291,12 +291,24 @@ Normaliziran je layout `baza_zakona`:
  `baza_zakona/sidra/`;
 - `baza_zakona/norme/` ostaje isključivo operativni sloj;
 - arhivni Ustav set `NN 56/1990` premješten je u verzionirani put
- `baza_zakona/arhiva/nn_56_1990_1092_142/ustav_rh/`.
+ `baza_zakona/arhiva/ustav_rh/nn_56_1990_1092_142/`.
 
 Pravilo odabira izvora je učvršćeno:
 - `sidra` su jedini NN izvor (core + amandmani);
 - `norme` su operativna projekcija za rad;
 - `zakon.hr` ostaje isključivo kontrolni/usporedni izvor.
+
+### VH77-ARHIVA-001 — normalizacija arhivskog layouta
+Uvedena je kanonska struktura arhive:
+`baza_zakona/arhiva/<akt_slug>/<izvor_set_slug>/`.
+
+Dodan je alat `alati/normalize_arhiva_layout.ps1` koji detektira
+nekanonske putanje i premješta ih u kanonski oblik uz audit ispis
+`MOVE: old -> new`.
+
+Arhivski Ustav snapshot je normaliziran iz obrnutog layouta
+`arhiva/nn_56_1990_1092_142/ustav_rh/` u
+`arhiva/ustav_rh/nn_56_1990_1092_142/`.
 
 ### Windows CI smoke (preflight + paket)
 Dodan je GitHub Actions workflow `.github/workflows/ci_smoke_windows.yml` za

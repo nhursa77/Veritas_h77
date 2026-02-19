@@ -54,11 +54,12 @@ Ulazi (činjenice + dokazi)
 
 ### KANONSKA_STRUKTURA_BAZE
 - `baza_zakona/norme/` sadrži isključivo operativne kanone
-  (npr. `prekrsajni_zakon`, `prekrsajni_zakon_procisceni`, `ustav_rh`).
+  (npr. `prekrsajni_zakon`, `prekrsajni_zakon_procisceni`,
+  `ustav_rh_procisceni`).
 - `baza_zakona/sidra/` sadrži isključivo NN sidrišta i njihove verzije
   (`*_nn_*`, core i amandmani).
 - `baza_zakona/arhiva/` sadrži isključivo hladnu arhivu, obavezno pod
-  verzioniranim putanjama (`arhiva/<verzija>/<akt_slug>/`).
+  kontekstualnim putanjama (`arhiva/<akt_slug>/<izvor_set_slug>/`).
 
 Pravilo odabira izvora:
 - Operativni izlaz uvijek se gradi iz NN izvora (`sidra`), uz

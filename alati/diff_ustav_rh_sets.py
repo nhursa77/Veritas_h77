@@ -11,8 +11,8 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[1]
-OLD_DIR = ROOT / "baza_zakona" / "arhiva" / "nn_56_1990_1092_142" / "ustav_rh"
-NEW_DIR = ROOT / "baza_zakona" / "norme" / "ustav_rh"
+OLD_DIR = ROOT / "baza_zakona" / "arhiva" / "ustav_rh" / "nn_56_1990_1092_142"
+NEW_DIR = ROOT / "baza_zakona" / "norme" / "ustav_rh_procisceni"
 REPORT_PATH = NEW_DIR / "IZVJESTAJ_DIFF_142_VS_152.md"
 LEN_DIFF_THRESHOLD = 50
 
