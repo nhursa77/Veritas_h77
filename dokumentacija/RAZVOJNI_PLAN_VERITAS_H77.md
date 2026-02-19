@@ -53,15 +53,13 @@ Ulazi (činjenice + dokazi)
    stvarnom predmetu.
 
 ### KANONSKA_STRUKTURA_BAZE
-- `baza_zakona/norme/` sadrži isključivo operativne kanone i svaka mapa
-  mora završavati s `_procisceni` (npr. `prekrsajni_zakon_procisceni`,
-  `ustav_rh_procisceni`).
-- U `norme/` je zabranjeno držati izvorne/sidrišne setove bez
-  `_procisceni` sufiksa.
-- `baza_zakona/sidra/` sadrži isključivo NN sidrišta i amandmane,
-  uz naming `*_nn_<broj>_<godina>`.
-- `baza_zakona/arhiva/` sadrži isključivo hladnu arhivu/snapshote
-  u formatu `arhiva/<akt_slug>/<source_set_slug>/`.
+- R1: `norme/` → samo `*_procisceni` (operativni setovi).
+- R2: `sidra/` → samo `*_nn_<broj>_<godina>` (NN sidra + amandmani).
+- R3: `arhiva/` → samo snapshotovi u formatu
+  `arhiva/<akt_slug>/<source_set_slug>/`.
+- Jednoznačno pravilo imenovanja: kad se generira ili preuzima pročišćeni
+  tekst (operativni), mapa se mora zvati `<akt_slug>_procisceni`
+  (obavezno).
 
 Pravilo odabira izvora:
 - Operativni izlaz uvijek se gradi iz NN izvora (`sidra`), uz
@@ -162,7 +160,7 @@ ULAZ:
 - `izvori/kontrolno/zakon_hr/<akt_slug>/<akt_slug>_kontrolni.txt`
 - `izvori/dokazno/narodne_novine/<akt_slug>/izvor_nn.html`
 IZLAZ:
-- `baza_zakona/norme/<akt_slug>/IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+- `baza_zakona/norme/<akt_slug>_procisceni/IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
 PROVJERA:
 - evidentirani `missing_in_nn`, `extra_in_nn`, `short_text_in_nn`
 - heuristika anomalije bloka `Članak 10.`–`Članak 12.` (signal `Članak 1 I.`)

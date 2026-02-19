@@ -51,7 +51,7 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 - `baza_zakona/arhiva/` – arhivski snapshotovi u formatu  
   `<akt_slug>/<source_set_slug>/`  
 - `predlosci/` – kanonski predlošci pravnih akata  
-- `postupci/` – standardizirane proceduralne sheme  
+- `baza_postupaka/` – standardizirane proceduralne sheme  
 - `predmeti/` – konkretni slučajevi (lokalno)  
 - `primjeri/` – demonstracijski scenariji  
 
