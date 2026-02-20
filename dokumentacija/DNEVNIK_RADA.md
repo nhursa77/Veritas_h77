@@ -576,3 +576,9 @@ predmet) + .gitkeep za praćenje u git-u.
 
 Dodana kanonska specifikacija: RAZVOJNI_PLAN_PREKRSAJNI_MODUL v1
 (faze, putanje, gate kriteriji).
+
+---
+
+## Datum: 20.02.2026 (audit standard)
+
+Dodano: STANDARD_JSON_AUDIT_PRIMJENE v1 (kanonska struktura audita).
