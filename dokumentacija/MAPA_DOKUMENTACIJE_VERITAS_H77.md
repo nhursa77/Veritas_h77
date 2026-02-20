@@ -47,6 +47,10 @@ Uređuje gate uvjete, ulaze, radnje i izlaze postupanja.
 Definira faze razvoja sustava, redoslijed rada i operativne gate uvjete.
 Služi kao plan izvođenja od MVP-a do prvog živog predmeta.
 
+### `RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+Definira kanonske faze, artefakte, putanje i gate kriterije prekršajnog
+modula kao pilot domenu.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.

@@ -566,7 +566,14 @@ README dopunjen: uvedena kanonska specifikacija prekršajnog modula
 
 ---
 
-## Datum: 20.02.2026.
-
+##
+Datum: 20.02.2026
 Kreirane kanonske mape prekršajnog modula (tokovi, predlošci, ogledni
 predmet) + .gitkeep za praćenje u git-u.
+
+---
+
+## Datum: 20.02.2026.
+
+Dodana kanonska specifikacija: RAZVOJNI_PLAN_PREKRSAJNI_MODUL v1
+(faze, putanje, gate kriteriji).
