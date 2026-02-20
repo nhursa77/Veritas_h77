@@ -63,6 +63,76 @@ izvorima.
 
 ---
 
+## Prekršajni modul (kanonska specifikacija)
+
+Prekršajni modul je deterministički pipeline koji radi isključivo ovim redom:
+
+NORMA → POSTUPAK → AUDIT → PREDLOŽAK → NACRT → GATE.
+
+### Fizičke putanje (kanon)
+
+- Postupci (trenutna fizička putanja): `postupci/sud/prekrsajni/`
+- Predlošci akata: `predlosci/sud/prekrsajni/`
+- Predmeti (lokalno): `predmeti/sud/prekrsajni/<ID_predmeta>/`
+- Norme: `baza_zakona/norme/<akt_slug>/clanak_XXXX.json`
+- Sidra (NN): `baza_zakona/sidra/<akt_slug>/...`
+
+Napomena: `baza_postupaka/` je planirana migracija; do migracije je kanonska
+fizička putanja `postupci/`.
+
+### Obavezni tokovi (v1)
+
+Svaki tok je verzioniran (`v1`, `v2`, ...) i ima proceduralne korake u JSON-u.
+
+- `postupci/sud/prekrsajni/TOK_PN_PRIGOVOR/v1/`
+- `postupci/sud/prekrsajni/TOK_PRESUDA_ZALBA/v1/`
+- `postupci/sud/prekrsajni/TOK_RJESENJE_ZALBA/v1/`
+- `postupci/sud/prekrsajni/TOK_OBUSTAVA/v1/`
+
+### Predmet (layout)
+
+Predmet je jedina jedinica rada. Audit se ne prepisuje nego verzionira.
+
+- `predmeti/sud/prekrsajni/<ID_predmeta>/predmet.json`
+- `predmeti/sud/prekrsajni/<ID_predmeta>/dokazi/` (akti, dostava, prilozi)
+- `predmeti/sud/prekrsajni/<ID_predmeta>/lanac_skrbnistva.json`
+- `predmeti/sud/prekrsajni/<ID_predmeta>/audit/audit_v1.json`
+- `predmeti/sud/prekrsajni/<ID_predmeta>/audit/audit_v2.json` (ako dopuna)
+- `predmeti/sud/prekrsajni/<ID_predmeta>/izlazi/nacrt_v1.md` (ili docx)
+- `predmeti/sud/prekrsajni/<ID_predmeta>/manifest.json` (hash + popis)
+
+### Pipeline modula M0–M9 (bez preskakanja)
+
+Svaki modul mora završiti sa statusom `PROLAZ`, `NEPROLAZ` ili `N/A`
+uz kratko obrazloženje u AUDIT zapisu.
+
+- M0 Identifikacija akta i procesne faze
+- M1 Valjanost izvora (NN sidra + važenje verzije)
+- M2 Postupovne pretpostavke (rokovi, dostava, dopuštenost lijeka,
+  nadležnost)
+- M3 Subsumcija (elementi bića prekršaja: činjenica + dokaz + obrazloženje)
+- M4 Obrazloženje odluke (činjenice/pravo, ocjena dokaza, izreka, pouka)
+- M5 Klasifikacija grešaka (matrica pogrešaka: kod/težina/posljedica)
+- M6 Odabir pravnog lijeka (što, kome, do kada, učinak)
+- M7 Generiranje nacrta (predložak JSON punjen iz AUDIT-a)
+- M8 Gate vanjskog izlaza (blokade i uvjeti potpisa)
+- M9 Izvoz paketa (manifest + artefakti spremni za ljudski potpis)
+
+### Gate pravila (blokade)
+
+- Bez NN sidra (status OK) nema normiranja i nema vanjskog izlaza.
+- Bez potpisa nositelja nema slanja/vanjskog izlaza (Veritas generira nacrt).
+- Ako je bilo koji modul `NEPROLAZ`:
+  izlaz je "nalaz nepravilnosti" (audit) + preporučeni pravni lijek,
+  bez generiranja “konačnog” podneska.
+
+Ova sekcija mora poštovati postojeći README kanon o putanjama i NN izvoru.
+
+---
+
 ## Status
 
-Projekt je u fazi definicije normativnih pravila i arhitekture sustava.
+Osnova sustava (kanonska dokumentacija, struktura repoa i gate pravila) je
+postavljena. Prekršajni modul se uvodi kao prvi end-to-end pilot kroz tokove
+u `postupci/sud/prekrsajni/`, uz predmet + audit + predložak + gate.
+Vanjski izlaz ostaje blokiran bez NN sidra i potpisa nositelja.

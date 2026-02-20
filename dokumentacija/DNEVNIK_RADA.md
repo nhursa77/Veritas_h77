@@ -556,3 +556,10 @@ Verifikacija (komande):
   `.\alati\ci_smoke.ps1`
 
 Commit hash: (upisano nakon commita)
+
+---
+
+## Datum: 20.02.2026
+
+README dopunjen: uvedena kanonska specifikacija prekršajnog modula
+(struktura + pipeline M0–M9 + gate).
