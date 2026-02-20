@@ -13,6 +13,9 @@ $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
 $paketScript = Join-Path $PSScriptRoot "acceptance_paket.ps1"
 $deltaOpsValidatorScript = Join-Path $PSScriptRoot "validiraj_delta_ops.ps1"
 $markdownLintScript = Join-Path $PSScriptRoot "lint_markdown.ps1"
+$auditValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_v1.ps1"
+$subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
+$predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -79,6 +82,21 @@ try {
         [pscustomobject]@{
             Name = "validate_delta_ops_schema"
             Action = { & $deltaOpsValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_audit_v1"
+            Action = { & $auditValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_subsumcija_v1"
+            Action = { & $subsumcijaValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_predlozak_v1"
+            Action = { & $predlozakValidatorScript }
             Enabled = $true
         },
         [pscustomobject]@{

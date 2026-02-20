@@ -607,3 +607,10 @@ Dodano: STANDARD_JSON_PREDLOZAK v1 (kanonska struktura predloška).
 
 fix-only: zatvoreni JSON code blokovi + kanonsko mapiranje kolizije u
 AUDIT v1 (nalazi[]), bez novih ključeva
+
+---
+
+## Datum: 20.02.2026 (sheme i validatori)
+
+Dodano: JSON sheme (v1) + PS validatori (audit/subsumcija/predložak) i
+hard-gate u ci_smoke.

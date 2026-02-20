@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_PREDLOZAK_V1",
+  "type": "object",
+  "required": ["meta", "sekcije", "mapiranje"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id_predloska",
+        "naziv",
+        "verzija",
+        "domena",
+        "vrsta_akta",
+        "datum_izrade"
+      ],
+      "properties": {
+        "id_predloska": { "type": "string" },
+        "naziv": { "type": "string" },
+        "verzija": { "type": "string" },
+        "domena": { "type": "string" },
+        "vrsta_akta": { "type": "string" },
+        "datum_izrade": { "type": "string" }
+      }
+    },
+    "sekcije": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "naslov", "polja"],
+        "properties": {
+          "id": { "type": "string" },
+          "naslov": { "type": "string" },
+          "polja": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "label", "izvor", "obavezno"],
+              "properties": {
+                "id": { "type": "string" },
+                "label": { "type": "string" },
+                "izvor": { "type": "string" },
+                "obavezno": { "type": "boolean" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mapiranje": {
+      "type": "object",
+      "required": ["izvori", "pravila"],
+      "properties": {
+        "izvori": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "pravila": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["polje_id", "izvor", "transformacija"],
+            "properties": {
+              "polje_id": { "type": "string" },
+              "izvor": { "type": "string" },
+              "transformacija": {
+                "type": "string",
+                "enum": ["none"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

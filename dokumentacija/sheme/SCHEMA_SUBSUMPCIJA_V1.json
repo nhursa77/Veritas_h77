@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_SUBSUMPCIJA_V1",
+  "type": "object",
+  "required": ["meta", "elementi_bica"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id_predmeta",
+        "tok",
+        "verzija_toka",
+        "datum_izrade",
+        "izvor_subsumcije"
+      ],
+      "properties": {
+        "id_predmeta": { "type": "string" },
+        "tok": { "type": "string" },
+        "verzija_toka": { "type": "string" },
+        "datum_izrade": { "type": "string" },
+        "izvor_subsumcije": { "type": "string" }
+      }
+    },
+    "elementi_bica": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "naziv_elementa",
+          "cinjenica_ref",
+          "dokaz_ref",
+          "obrazlozenje",
+          "status"
+        ],
+        "properties": {
+          "naziv_elementa": { "type": "string" },
+          "cinjenica_ref": { "type": "string" },
+          "dokaz_ref": { "type": "string" },
+          "obrazlozenje": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["PROLAZ", "NEPROLAZ", "N/A"]
+          }
+        }
+      }
+    }
+  }
+}

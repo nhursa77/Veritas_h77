@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_AUDIT_V1",
+  "type": "object",
+  "required": [
+    "meta",
+    "moduli",
+    "nalazi",
+    "rokovi",
+    "preporuceni_pravni_lijek",
+    "gate_stanje"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id_predmeta",
+        "tok",
+        "verzija_toka",
+        "datum_izrade",
+        "izvor_audita"
+      ],
+      "properties": {
+        "id_predmeta": { "type": "string" },
+        "tok": { "type": "string" },
+        "verzija_toka": { "type": "string" },
+        "datum_izrade": { "type": "string" },
+        "izvor_audita": { "type": "string" }
+      }
+    },
+    "moduli": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "status", "razlog", "ulazi", "izlazi"],
+        "properties": {
+          "id": { "type": "string" },
+          "status": {
+            "type": "string",
+            "enum": ["PROLAZ", "NEPROLAZ", "N/A"]
+          },
+          "razlog": { "type": "string" },
+          "ulazi": { "type": "array" },
+          "izlazi": { "type": "array" }
+        }
+      }
+    },
+    "nalazi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kod", "opis", "norma_ref", "tezina", "posljedica"],
+        "properties": {
+          "kod": { "type": "string" },
+          "opis": { "type": "string" },
+          "norma_ref": { "type": "string" },
+          "tezina": {
+            "type": "string",
+            "enum": ["NISKA", "SREDNJA", "VISOKA"]
+          },
+          "posljedica": { "type": "string" }
+        }
+      }
+    },
+    "rokovi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["naziv", "pocetak", "istek", "izvor_norme_ref"],
+        "properties": {
+          "naziv": { "type": "string" },
+          "pocetak": { "type": "string" },
+          "istek": { "type": "string" },
+          "izvor_norme_ref": { "type": "string" }
+        }
+      }
+    },
+    "preporuceni_pravni_lijek": {
+      "type": "object",
+      "required": ["naziv", "kome", "rok", "ucinak"],
+      "properties": {
+        "naziv": { "type": "string" },
+        "kome": { "type": "string" },
+        "rok": { "type": "string" },
+        "ucinak": { "type": "string" }
+      }
+    },
+    "gate_stanje": {
+      "type": "object",
+      "required": ["blocked", "blocked_razlog"],
+      "properties": {
+        "blocked": { "type": "boolean" },
+        "blocked_razlog": { "type": "string" }
+      }
+    }
+  }
+}
