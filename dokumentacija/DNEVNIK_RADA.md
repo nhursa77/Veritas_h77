@@ -614,3 +614,10 @@ AUDIT v1 (nalazi[]), bez novih ključeva
 
 Dodano: JSON sheme (v1) + PS validatori (audit/subsumcija/predložak) i
 hard-gate u ci_smoke.
+
+---
+
+## Datum: 20.02.2026 (ogledni json artefakti)
+
+Dodano: ogledni audit_v1.json i predlozak.json (v1) koji prolaze sheme;
+(opcionalno) dodana i subsumcija_v1.json.

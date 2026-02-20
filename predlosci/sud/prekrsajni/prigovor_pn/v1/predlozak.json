@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "id_predloska": "prigovor_pn_v1",
+    "naziv": "Prigovor na prekršajni nalog",
+    "verzija": "v1",
+    "domena": "prekrsajni",
+    "vrsta_akta": "prigovor_pn",
+    "datum_izrade": "20.02.2026."
+  },
+  "sekcije": [
+    {
+      "id": "zaglavlje",
+      "naslov": "Zaglavlje",
+      "polja": [
+        {
+          "id": "sud_naziv",
+          "label": "Naziv suda",
+          "izvor": "predmet.sud_naziv",
+          "obavezno": true
+        }
+      ]
+    },
+    {
+      "id": "nalazi",
+      "naslov": "Nalazi iz audita",
+      "polja": [
+        {
+          "id": "audit_nalazi",
+          "label": "Nalazi",
+          "izvor": "audit.nalazi",
+          "obavezno": false
+        }
+      ]
+    }
+  ],
+  "mapiranje": {
+    "izvori": [
+      "audit",
+      "predmet"
+    ],
+    "pravila": [
+      {
+        "polje_id": "sud_naziv",
+        "izvor": "predmet.sud_naziv",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "audit_nalazi",
+        "izvor": "audit.nalazi",
+        "transformacija": "none"
+      }
+    ]
+  }
+}

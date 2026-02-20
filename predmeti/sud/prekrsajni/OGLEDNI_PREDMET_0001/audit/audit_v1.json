@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "id_predmeta": "OGLEDNI_PREDMET_0001",
+    "tok": "TOK_PN_PRIGOVOR",
+    "verzija_toka": "v1",
+    "datum_izrade": "20.02.2026.",
+    "izvor_audita": "ogledni_generator"
+  },
+  "moduli": [
+    {
+      "id": "M1",
+      "status": "PROLAZ",
+      "razlog": "Ogledni audit zapis.",
+      "ulazi": {
+        "predmet_ref": "predmet.json"
+      },
+      "izlazi": {
+        "subsumcija_ref": "subsumcija_v1.json",
+        "predlozak_ref": "predlosci/sud/prekrsajni/prigovor_pn/v1/predlozak.json"
+      }
+    }
+  ],
+  "nalazi": [
+    {
+      "kod": "KOL-01",
+      "opis": "Kolizija izvora: izvor_a_ref=NN:SIDRO_A; izvor_b_ref=NN:SIDRO_B; pravilo=lex_specialis; odluka=izvor_a.",
+      "norma_ref": "",
+      "tezina": "SREDNJA",
+      "posljedica": "Zapis kolizije u nalazi[]; ako nije razriješeno, blokirati izlaz."
+    }
+  ],
+  "rokovi": [
+    {
+      "naziv": "Rok (ogledni)",
+      "pocetak": "20.02.2026.",
+      "istek": "27.02.2026.",
+      "izvor_norme_ref": ""
+    }
+  ],
+  "preporuceni_pravni_lijek": {
+    "naziv": "Prigovor",
+    "kome": "Nadležni sud",
+    "rok": "8 dana",
+    "ucinak": "Odgađa izvršenje do odluke."
+  },
+  "gate_stanje": {
+    "blocked": false,
+    "blocked_razlog": ""
+  }
+}

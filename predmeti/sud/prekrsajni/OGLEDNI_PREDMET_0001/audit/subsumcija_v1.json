@@ -1,0 +1,18 @@
+{
+  "meta": {
+    "id_predmeta": "OGLEDNI_PREDMET_0001",
+    "tok": "TOK_PN_PRIGOVOR",
+    "verzija_toka": "v1",
+    "datum_izrade": "20.02.2026.",
+    "izvor_subsumcije": "ogledni_generator"
+  },
+  "elementi_bica": [
+    {
+      "naziv_elementa": "Radnja",
+      "cinjenica_ref": "",
+      "dokaz_ref": "",
+      "obrazlozenje": "Ogledni element; u realnom predmetu mora imati činjenicu i dokaz.",
+      "status": "NEPROLAZ"
+    }
+  ]
+}
