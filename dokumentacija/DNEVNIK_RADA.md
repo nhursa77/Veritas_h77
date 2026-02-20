@@ -588,3 +588,9 @@ Dodano: STANDARD_JSON_AUDIT_PRIMJENE v1 (kanonska struktura audita).
 ## Datum: 20.02.2026 (subsumcija standard)
 
 Dodano: STANDARD_JSON_SUBSUMPCIJA v1 (kanonska struktura subsumcije).
+
+---
+
+## Datum: 20.02.2026 (hijerarhija standard)
+
+Dodano: STANDARD_JSON_HIJERARHIJA v1 (pravila hijerarhije i kolizije).
