@@ -582,3 +582,9 @@ Dodana kanonska specifikacija: RAZVOJNI_PLAN_PREKRSAJNI_MODUL v1
 ## Datum: 20.02.2026 (audit standard)
 
 Dodano: STANDARD_JSON_AUDIT_PRIMJENE v1 (kanonska struktura audita).
+
+---
+
+## Datum: 20.02.2026 (subsumcija standard)
+
+Dodano: STANDARD_JSON_SUBSUMPCIJA v1 (kanonska struktura subsumcije).
