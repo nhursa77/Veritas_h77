@@ -16,6 +16,7 @@ $markdownLintScript = Join-Path $PSScriptRoot "lint_markdown.ps1"
 $auditValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_v1.ps1"
 $subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
 $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
+$postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -97,6 +98,11 @@ try {
         [pscustomobject]@{
             Name = "validate_predlozak_v1"
             Action = { & $predlozakValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_postupak_v1"
+            Action = { & $postupakValidatorScript }
             Enabled = $true
         },
         [pscustomobject]@{

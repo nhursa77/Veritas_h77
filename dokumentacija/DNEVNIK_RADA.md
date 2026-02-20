@@ -621,3 +621,10 @@ hard-gate u ci_smoke.
 
 Dodano: ogledni audit_v1.json i predlozak.json (v1) koji prolaze sheme;
 (opcionalno) dodana i subsumcija_v1.json.
+
+---
+
+## Datum: 20.02.2026 (postupak tok pn prigovor)
+
+Dodano: postupak.json za TOK_PN_PRIGOVOR v1 + shema/validator postupka i
+hard-gate u ci_smoke.
