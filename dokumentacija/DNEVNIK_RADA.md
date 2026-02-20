@@ -563,3 +563,10 @@ Commit hash: (upisano nakon commita)
 
 README dopunjen: uvedena kanonska specifikacija prekršajnog modula
 (struktura + pipeline M0–M9 + gate).
+
+---
+
+## Datum: 20.02.2026.
+
+Kreirane kanonske mape prekršajnog modula (tokovi, predlošci, ogledni
+predmet) + .gitkeep za praćenje u git-u.
