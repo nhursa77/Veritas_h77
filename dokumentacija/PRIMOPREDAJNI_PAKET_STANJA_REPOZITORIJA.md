@@ -2,10 +2,12 @@
 
 ## 1) Osnovni podaci
 
-- Datum i vrijeme: 19.02.2026. 18:33:16
+- Datum i vrijeme: 20.02.2026.
 - Repo putanja: C:\Veritas_H77
 - Grana: main
-- HEAD commit: 6f5b647
+- HEAD commit: e4ec658
+- Upstream: origin/main
+- Divergencija (HEAD...@{u}): 0 0
 
 ## 2) Zadnjih 10 commitova (izlaz komande)
 
@@ -15,18 +17,16 @@ Set-Location -LiteralPath "C:\Veritas_H77"; git --no-pager log -10 --oneline
 
 Izlaz:
 
-- 6f5b647 chore: dodaj soft status za nedostajuce delta_ops
-  (kontrola)
-- d7ddac3 chore: zabrani non-_procisceni u norme (gate)
-- fbfe1bc chore: dodaj lint za markdown (scoped gate)
-- a24b72a docs: dodaj upute za Copilot (kanon)
-- d930297 chore: validiraj delta_ops po shemi (gate)
-- 2a45dd4 chore: validiraj delta_ops po shemi (gate)
-- 5dbae55 docs: dodaj shemu delta_ops (kanon)
-- 4527ba8 docs: clarify 'baza postupaka' concept vs postupci path
-- 427ec6a docs: align TEHNIČKI_OKVIR with canon (paths + terminology)
-- fbe9c46 chore: add delta_ops control + deterministic checks
-  (UTF-8, paket wiring)
+- e4ec658 chore: add postupak tok pn prigovor v1 + gate
+- 7d405b0 test: add ogledni json v1 za validatore
+- 8d9ca89 chore: add json sheme i ps validatori prekrsajni v1
+- b07cdea docs: fix json fences + canon kolizija mapping v1
+- 015de6f docs: add STANDARD_JSON_PREDLOZAK v1
+- b8b8816 docs: add STANDARD_JSON_HIJERARHIJA v1
+- 46cbe2a docs: add STANDARD_JSON_SUBSUMPCIJA v1
+- f29b199 docs: add STANDARD_JSON_AUDIT_PRIMJENE v1
+- d174e1b docs: ispravak MD024 u dnevniku rada
+- 9f22503 docs: add kanonski plan prekrsajnog modula v1
 
 ## 3) Čistoća repoa (izlaz komande)
 
