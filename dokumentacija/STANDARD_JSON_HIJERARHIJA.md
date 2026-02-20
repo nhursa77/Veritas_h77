@@ -55,6 +55,17 @@ Ovaj standard definira strukturu zapisa koji se može ugraditi u audit
     "obrazlozenje": ""
   }
 }
+```
 
 Do uvođenja formalne sheme audita, ovaj primjer služi samo kao kanonska
 struktura.
+
+## 6. Kanonsko mapiranje u AUDIT v1
+
+“U AUDIT v1 kolizija se zapisuje isključivo kao jedan objekt u nalazi[].
+Ne uvodi se novo polje.”
+
+“kod = KOL-01 (ili KOL-xx), opis mora sadržavati: izvor_a_ref,
+izvor_b_ref, pravilo, odluka.”
+
+“Ako kolizija nije razriješena, gate_stanje.blocked=true uz razlog.”
