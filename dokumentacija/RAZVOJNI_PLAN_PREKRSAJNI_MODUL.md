@@ -1,12 +1,33 @@
 # RAZVOJNI PLAN PREKRSAJNI MODUL (v1)
 
 Datum izrade: 20.02.2026.
-Datum revizije: 20.02.2026.
+Datum revizije: 22.02.2026.
 Status: kanonski
 
 ---
 
 ## Razvoj prekršajnog modula — FAZE i točni koraci
+
+## Stanje implementacije (22.02.2026.)
+
+Implementirano:
+
+- P2 (Postupci v1) dovršeno za 4 toka: TOK_PN_PRIGOVOR,
+   TOK_PRESUDA_ZALBA, TOK_RJESENJE_ZALBA, TOK_OBUSTAVA.
+- `alati/run_tok_v1.ps1` radi kao generički runner za sva 4 toka.
+- `alati/ci_smoke.ps1` izvršava run tokovi v1 i validacijske gate korake.
+- INTAKE je uveden kroz standard + shemu + validator
+   (`STANDARD_JSON_INTAKE_PREKRSAJI_V1.md`,
+   `SCHEMA_INTAKE_PREKRSAJI_V1.json`, `validiraj_intake_prekrsaji_v1.ps1`).
+- Predlošci v1 postoje za prigovor i žalbu
+   (`prigovor_pn` i `zalba_presuda_ili_rjesenje`).
+- Standard fer naplate i audit mapiranja su uvedeni i povezani s
+   izlaznim nacrtom/validacijom.
+
+Sljedeće po redu:
+
+- P6 — deterministički generator audita iz predmeta
+   (`audit_v1.json` iz ulaza predmeta, dokaza, normi i postupka).
 
 ## Definicije statusa (vrijedi u svim fazama)
 
@@ -60,6 +81,8 @@ Gate: repo clean nakon commita + ci_smoke.ps1 PROLAZ.
 ---
 
 ## FAZA P2 — Postupci v1 (metadata i koraci bez prava)
+
+Status: DOVRŠENO (4 toka u v1).
 
 Cilj: svaki tok ima minimalan postupak.json i minimalne korake po
 STANDARD_JSON_POSTUPAK, ali još bez “pravnog sadržaja”.

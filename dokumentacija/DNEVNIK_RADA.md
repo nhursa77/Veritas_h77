@@ -757,3 +757,12 @@ CI smoke prolazi bez rušenja sessiona.
 Usklađeno: MAPA_DOKUMENTACIJE_VERITAS_H77.md dopunjena je novim aktivnim
 kanonskim dokumentima prekršajnog modula i redoslijedom čitanja
 (plan → standardi → sheme → alati).
+
+---
+
+## Datum: 22.02.2026 (usklađen razvojni plan prekršajnog modula)
+
+Usklađeno: RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md ažuriran je na stvarno stanje
+implementacije (P2 dovršen za 4 toka, generic runner, smoke gate,
+intake standard/shema/validator, predlošci i fer naplata), uz jasno
+označen sljedeći korak P6 — deterministički generator audita iz predmeta.
