@@ -775,3 +775,10 @@ Kontrola konzistentnosti: OK.
 `STANDARD_JSON_PREDLOZAK.md` i `SCHEMA_PREDLOZAK_V1.json` dopuštaju
 `intake.*`, žalbeni predložak koristi `mapiranje.izvori` s `intake`, a
 `ci_smoke.ps1` koristi isključivo generički runner `run_tok_v1.ps1`.
+
+---
+
+## Datum: 22.02.2026 (standard generiranje audit prekrsaji v1)
+
+Dodano: STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1 (P6) — definiran izlaz
+audit_generated_v1.json, minimalni NAP-* nalazi i STOP uvjeti.
