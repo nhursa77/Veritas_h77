@@ -677,3 +677,10 @@ integracija (STOP/OK deterministički).
 
 Dodano: generički runner run_tok_v1.ps1 + ci_smoke izvršava sva 4 toka
 (OK/STOP deterministički), generična validacija izlaza.
+
+---
+
+## Datum: 22.02.2026 (predlozak zalba v1)
+
+Dodano: predlozak.json v1 za zalba_presuda_ili_rjesenje (da žalbeni tokovi
+imaju kanonski predložak na referenciranoj putanji).

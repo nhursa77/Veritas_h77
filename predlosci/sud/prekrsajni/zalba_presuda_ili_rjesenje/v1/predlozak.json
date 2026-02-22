@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "id_predloska": "zalba_presuda_ili_rjesenje_v1",
+    "naziv": "Žalba (presuda ili rješenje) — minimalni predložak",
+    "verzija": "v1",
+    "domena": "prekrsajni",
+    "vrsta_akta": "zalba_presuda_ili_rjesenje",
+    "datum_izrade": "22.02.2026."
+  },
+  "sekcije": [
+    {
+      "id": "zaglavlje",
+      "naslov": "Zaglavlje",
+      "polja": [
+        {
+          "id": "sud_naziv",
+          "label": "Naziv suda",
+          "izvor": "predmet.sud_naziv",
+          "obavezno": true
+        }
+      ]
+    },
+    {
+      "id": "intake",
+      "naslov": "Cilj i osporavanja",
+      "polja": [
+        {
+          "id": "cilj",
+          "label": "Cilj",
+          "izvor": "intake.cilj",
+          "obavezno": true
+        },
+        {
+          "id": "osporavanja",
+          "label": "Osporavanja",
+          "izvor": "intake.osporavanja",
+          "obavezno": true
+        }
+      ]
+    },
+    {
+      "id": "nalazi",
+      "naslov": "Nalazi iz audita",
+      "polja": [
+        {
+          "id": "audit_nalazi",
+          "label": "Nalazi",
+          "izvor": "audit.nalazi",
+          "obavezno": false
+        }
+      ]
+    },
+    {
+      "id": "napomena",
+      "naslov": "Napomena",
+      "polja": [
+        {
+          "id": "napomena_nacrt",
+          "label": "Napomena",
+          "izvor": "predmet.napomena_nacrt",
+          "obavezno": false
+        }
+      ]
+    }
+  ],
+  "mapiranje": {
+    "izvori": [
+      "audit",
+      "predmet"
+    ],
+    "pravila": [
+      {
+        "polje_id": "sud_naziv",
+        "izvor": "predmet.sud_naziv",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "audit_nalazi",
+        "izvor": "audit.nalazi",
+        "transformacija": "none"
+      }
+    ]
+  }
+}
