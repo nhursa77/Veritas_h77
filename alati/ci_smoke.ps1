@@ -14,6 +14,7 @@ $paketScript = Join-Path $PSScriptRoot "acceptance_paket.ps1"
 $deltaOpsValidatorScript = Join-Path $PSScriptRoot "validiraj_delta_ops.ps1"
 $markdownLintScript = Join-Path $PSScriptRoot "lint_markdown.ps1"
 $auditValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_v1.ps1"
+$intakeValidatorScript = Join-Path $PSScriptRoot "validiraj_intake_prekrsaji_v1.ps1"
 $subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
 $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
@@ -88,6 +89,11 @@ try {
         [pscustomobject]@{
             Name = "validate_audit_v1"
             Action = { & $auditValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_intake_prekrsaji_v1"
+            Action = { & $intakeValidatorScript }
             Enabled = $true
         },
         [pscustomobject]@{

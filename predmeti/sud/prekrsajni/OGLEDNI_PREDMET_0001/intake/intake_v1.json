@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "id_predmeta": "OGLEDNI_PREDMET_0001",
+    "tok": "TOK_PN_PRIGOVOR",
+    "verzija_toka": "v1",
+    "datum_izrade": "22.02.2026.",
+    "izvor_intake": "rucni_unos"
+  },
+  "cilj": "izdvajanje_dokaza",
+  "osporavanja": ["procedura", "dokaz"],
+  "opis_dogadaja": "Korisnik osporava dostavu i traži uvid u dokaz.",
+  "kontradikcije": {
+    "ima_kontradikcija": false,
+    "opis": ""
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_INTAKE_PREKRSAJI_V1",
+  "type": "object",
+  "required": [
+    "meta",
+    "cilj",
+    "osporavanja",
+    "opis_dogadaja",
+    "kontradikcije"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id_predmeta",
+        "tok",
+        "verzija_toka",
+        "datum_izrade",
+        "izvor_intake"
+      ],
+      "properties": {
+        "id_predmeta": { "type": "string" },
+        "tok": { "type": "string" },
+        "verzija_toka": { "type": "string" },
+        "datum_izrade": { "type": "string" },
+        "izvor_intake": { "type": "string" }
+      }
+    },
+    "cilj": {
+      "type": "string",
+      "enum": [
+        "ponistenje",
+        "obustava",
+        "preinaka",
+        "izdvajanje_dokaza",
+        "ublazavanje",
+        "vracanje_u_prijasnje_stanje"
+      ]
+    },
+    "osporavanja": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "identitet",
+          "radnja",
+          "okolnosti",
+          "dokaz",
+          "procedura",
+          "nadleznost"
+        ]
+      }
+    },
+    "opis_dogadaja": { "type": "string" },
+    "kontradikcije": {
+      "type": "object",
+      "required": [
+        "ima_kontradikcija",
+        "opis"
+      ],
+      "properties": {
+        "ima_kontradikcija": { "type": "boolean" },
+        "opis": { "type": "string" }
+      }
+    }
+  }
+}

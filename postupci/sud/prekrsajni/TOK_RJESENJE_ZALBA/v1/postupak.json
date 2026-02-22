@@ -11,6 +11,7 @@
     "dokazi_dir_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/",
     "audit_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/audit_v1.json",
     "subsumcija_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/subsumcija_v1.json",
+    "intake_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/intake/intake_v1.json",
     "predlozak_ref": "predlosci/sud/prekrsajni/zalba_presuda_ili_rjesenje/v1/predlozak.json"
   },
   "koraci": [
@@ -45,6 +46,28 @@
           "putanja": "gate_stanje.blocked",
           "operator": "==",
           "vrijednost": false,
+          "akcija_na_fail": "STOP_BEZ_IZLAZA"
+        }
+      ]
+    },
+    {
+      "id": "M1P",
+      "naziv": "Preflight (fer naplata)",
+      "opis": "Racuna semafor kompozitno iz G1-G3, zapisuje NAP-SEM/NAP-G1/NAP-G2/NAP-G3/NAP-ODL u audit kroz nalazi[]; ako je semafor CRVENO, STOP_BEZ_IZLAZA.",
+      "ulazi": [
+        "audit_ref",
+        "subsumcija_ref",
+        "intake_ref"
+      ],
+      "izlazi": [
+        "mem.preflight_rezultat"
+      ],
+      "gate": [
+        {
+          "izvor_ref": "mem.preflight_rezultat",
+          "putanja": "",
+          "operator": "==",
+          "vrijednost": "CRVENO",
           "akcija_na_fail": "STOP_BEZ_IZLAZA"
         }
       ]

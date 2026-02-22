@@ -656,3 +656,10 @@ Dopuna: STANDARD_JSON_AUDIT_PRIMJENE v1 — kanonsko mapiranje audita naplate
 
 Dopuna: ogledni audit_v1.json — dodani NAP-* nalazi (semafor, G1–G3,
 odluka naplate) po kanonskom mapiranju.
+
+---
+
+## Datum: 22.02.2026
+
+Dodano: STANDARD_JSON_INTAKE_PREKRSAJI v1 + shema/validator; uveden
+Preflight korak (M1P) u sva 4 toka; hard-gate u ci_smoke.
