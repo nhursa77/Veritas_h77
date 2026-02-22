@@ -26,3 +26,6 @@ data/state/*.json
 
 # Veritas H.77 — runtime izlazi (ne verzioniraju se)
 predmeti/**/izlazi/*.txt
+
+# Veritas H.77 — runtime audit output (generator)
+predmeti/**/audit/audit_generated_*.json

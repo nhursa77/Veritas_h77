@@ -782,3 +782,10 @@ Kontrola konzistentnosti: OK.
 
 Dodano: STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1 (P6) — definiran izlaz
 audit_generated_v1.json, minimalni NAP-* nalazi i STOP uvjeti.
+
+---
+
+## Datum: 22.02.2026 (generator audita v1 + smoke integracija)
+
+Dodano: generiraj_audit_prekrsaji_v1.ps1 + validiraj_audit_generated_v1.ps1
+ci_smoke generira i validira audit_generated prije run_tokovi.

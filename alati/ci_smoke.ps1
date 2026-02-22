@@ -18,6 +18,8 @@ $intakeValidatorScript = Join-Path $PSScriptRoot "validiraj_intake_prekrsaji_v1.
 $subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
 $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
+$auditGeneratorScript = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
+$auditGeneratedValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_generated_v1.ps1"
 $tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
 $tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
@@ -117,6 +119,45 @@ try {
             Name = "preflight_prekrsajni_zakon"
             Action = { & $preflightScript -AktSlug "prekrsajni_zakon" }
             Enabled = (-not $SkipPrekrsajniPreflight)
+        },
+        [pscustomobject]@{
+            Name = "generate_audit_prekrsaji_v1"
+            Action = {
+                $tokovi = @(
+                    "TOK_PN_PRIGOVOR",
+                    "TOK_PRESUDA_ZALBA",
+                    "TOK_RJESENJE_ZALBA",
+                    "TOK_OBUSTAVA"
+                )
+
+                foreach ($tok in $tokovi) {
+                    Write-Host "GEN_AUDIT_BEGIN=$tok"
+
+                    $generatorOutput = @(
+                        powershell -NoProfile -ExecutionPolicy Bypass -File $auditGeneratorScript -PredmetId "OGLEDNI_PREDMET_0001" -Tok $tok -Verzija "v1" 2>&1
+                    )
+                    $generatorExit = $LASTEXITCODE
+
+                    foreach ($line in $generatorOutput) {
+                        Write-Host ([string]$line)
+                    }
+
+                    if ($generatorExit -ne 0) {
+                        $global:LASTEXITCODE = $generatorExit
+                        return
+                    }
+
+                    Write-Host "GEN_AUDIT_END=$tok EXIT=$generatorExit"
+                }
+
+                $global:LASTEXITCODE = 0
+            }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_audit_generated_v1"
+            Action = { & $auditGeneratedValidatorScript }
+            Enabled = $true
         },
         # KANON: CI koristi isključivo generički runner run_tok_v1.ps1
         [pscustomobject]@{
