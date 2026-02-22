@@ -38,11 +38,23 @@ if ($fileInfo.Length -le 0) {
 }
 
 $content = Get-Content -LiteralPath $outputPath -Raw
-$requiredText = "NACRT - bez potpisa"
-if ($content -notmatch [regex]::Escape($requiredText)) {
-    Write-Host "ERROR: OUTPUT_MISSING_REQUIRED_TEXT"
-    Write-Host "VALIDATOR_IZLAZ_TOK_EXIT=1"
-    exit 1
+$requiredMarkers = @(
+    "NACRT - bez potpisa",
+    "TOK=",
+    "PREDMET_ID=",
+    "DATUM=",
+    "AUDIT_NALAZI_BEGIN",
+    "AUDIT_NALAZI_END",
+    "INTAKE_BEGIN",
+    "INTAKE_END"
+)
+
+foreach ($marker in $requiredMarkers) {
+    if ($content -notmatch [regex]::Escape($marker)) {
+        Write-Host "ERROR: OUTPUT_MISSING_MARKER=$marker"
+        Write-Host "VALIDATOR_IZLAZ_TOK_EXIT=1"
+        exit 1
+    }
 }
 
 Write-Host "VALIDATOR_IZLAZ_TOK_EXIT=0"

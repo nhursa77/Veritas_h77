@@ -726,3 +726,10 @@ Pojačano: run_tok_v1.ps1 — predložak je obavezan; missing/invalid predložak
 
 Standardizirano: CI koristi samo generički runner run_tok_v1.ps1;
 run_tok_pn_prigovor_v1.ps1 označen kao DEPRECATED (povijest).
+
+---
+
+## Datum: 22.02.2026 (standard izlazni nacrt v1)
+
+Dodano: STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1 + pojačana validacija izlaza
+(obavezni markeri) u validiraj_izlaz_tok_pn_prigovor_v1.ps1.
