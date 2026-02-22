@@ -43,6 +43,34 @@ Uređuje strukturu, izvore, sidra i uvjete valjanosti normativnog zapisa.
 Definira standard proceduralnih koraka u JSON formatu.
 Uređuje gate uvjete, ulaze, radnje i izlaze postupanja.
 
+### `STANDARD_JSON_INTAKE_PREKRSAJI_V1.md`
+Definira standard ulaza (INTAKE) za prekršajne tokove v1.
+Uređuje cilj, osporavanja, događaj i obavezna polja za validaciju.
+
+### `STANDARD_JSON_AUDIT_PRIMJENE.md`
+Definira kanonski audit primjene i statusne ishode po modulima.
+Uređuje nalaze, gate stanje i mapiranje u izlazne nacrte.
+
+### `STANDARD_JSON_SUBSUMPCIJA.md`
+Definira standard subsumpcije činjenica na norme i pravila.
+Uređuje argumentaciju i poveznice na normativna sidra.
+
+### `STANDARD_JSON_HIJERARHIJA.md`
+Definira hijerarhiju normativnih izvora i pravila prvenstva.
+Uređuje razrješenje kolizija i prioritet izvora.
+
+### `STANDARD_JSON_PREDLOZAK.md`
+Definira standard predložaka i mapiranja izvora u nacrt.
+Uređuje dopuštene izvore, uključujući intake.* u mapiranjima.
+
+### `STANDARD_FER_NAPLATA_PREKRSAJI.md`
+Definira standard fer naplate u prekršajnom modulu.
+Uređuje pravila obračuna i kontrolne uvjete naplate.
+
+### `STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+Definira obavezne markere i format izlaznog nacrta v1.
+Uređuje minimalni sadržaj nacrta za validator izlaza.
+
 ### `RAZVOJNI_PLAN_VERITAS_H77.md`
 Definira faze razvoja sustava, redoslijed rada i operativne gate uvjete.
 Služi kao plan izvođenja od MVP-a do prvog živog predmeta.
@@ -72,6 +100,27 @@ Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
 6) `RAZVOJNI_PLAN_VERITAS_H77.md`
 7) `DNEVNIK_RADA.md`
 8) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+
+### Redoslijed čitanja — prekršajni modul
+
+1) `RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+2) `STANDARD_FER_NAPLATA_PREKRSAJI.md`
+3) `STANDARD_JSON_INTAKE_PREKRSAJI_V1.md`
+4) `STANDARD_JSON_AUDIT_PRIMJENE.md`
+5) `STANDARD_JSON_SUBSUMPCIJA.md`
+6) `STANDARD_JSON_HIJERARHIJA.md`
+7) `STANDARD_JSON_PREDLOZAK.md`
+8) `STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+9) `dokumentacija/sheme/SCHEMA_INTAKE_PREKRSAJI_V1.json`
+10) `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
+11) `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
+12) `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
+13) `alati/validiraj_intake_prekrsaji_v1.ps1`
+14) `alati/validiraj_audit_v1.ps1`
+15) `alati/validiraj_subsumciju_v1.ps1`
+16) `alati/validiraj_predlozak_v1.ps1`
+17) `alati/run_tok_v1.ps1`
+18) `alati/ci_smoke.ps1`
 
 ---
 

@@ -749,3 +749,11 @@ INTAKE_BEGIN/END.
 Operativno: stabiliziran VS Code PowerShell Extension (PSES) — prebačeno na
 PowerShell 7 (pwsh), restartan language server; potvrđeno PSVersion=7.x i
 CI smoke prolazi bez rušenja sessiona.
+
+---
+
+## Datum: 22.02.2026 (ažurirana mapa dokumentacije prekršajni kanon)
+
+Usklađeno: MAPA_DOKUMENTACIJE_VERITAS_H77.md dopunjena je novim aktivnim
+kanonskim dokumentima prekršajnog modula i redoslijedom čitanja
+(plan → standardi → sheme → alati).
