@@ -83,12 +83,20 @@ if ($null -ne $existingAudit -and $null -ne $existingAudit.nalazi) {
 }
 
 $hasSubsumcijaProlaz = $false
-if ($null -ne $subsumcija.elementi_bica) {
-    foreach ($element in @($subsumcija.elementi_bica)) {
-        if ([string]$element.rezultat -eq "PROLAZ") {
-            $hasSubsumcijaProlaz = $true
-            break
-        }
+$subsumcijaElementi = @()
+if ($null -ne $subsumcija.PSObject.Properties["elementi_bica"] -and $null -ne $subsumcija.elementi_bica) {
+    $subsumcijaElementi = @($subsumcija.elementi_bica)
+}
+
+foreach ($element in $subsumcijaElementi) {
+    $rezultat = ""
+    if ($null -ne $element.PSObject.Properties["rezultat"]) {
+        $rezultat = [string]$element.rezultat
+    }
+
+    if ($rezultat -eq "PROLAZ") {
+        $hasSubsumcijaProlaz = $true
+        break
     }
 }
 
@@ -103,16 +111,24 @@ if ($null -ne $existingAudit -and $null -ne $existingAudit.gate_stanje -and $nul
 }
 
 $hasKontradikcije = $false
-if ($null -ne $intake.kontradikcije -and $null -ne $intake.kontradikcije.ima_kontradikcija) {
-    $hasKontradikcije = [bool]$intake.kontradikcije.ima_kontradikcija
+$intakeKontradikcije = $null
+if ($null -ne $intake.PSObject.Properties["kontradikcije"]) {
+    $intakeKontradikcije = $intake.kontradikcije
+}
+if ($null -ne $intakeKontradikcije -and $null -ne $intakeKontradikcije.PSObject.Properties["ima_kontradikcija"]) {
+    $hasKontradikcije = [bool]$intakeKontradikcije.ima_kontradikcija
 }
 
 $hasOsporavanja = $false
-if ($null -ne $intake.osporavanja -and @($intake.osporavanja).Count -gt 0) {
+if ($null -ne $intake.PSObject.Properties["osporavanja"] -and $null -ne $intake.osporavanja -and @($intake.osporavanja).Count -gt 0) {
     $hasOsporavanja = $true
 }
 
-$hasCilj = -not [string]::IsNullOrWhiteSpace([string]$intake.cilj)
+$ciljRaw = ""
+if ($null -ne $intake.PSObject.Properties["cilj"]) {
+    $ciljRaw = [string]$intake.cilj
+}
+$hasCilj = -not [string]::IsNullOrWhiteSpace($ciljRaw)
 $g2Pass = (-not $hasKontradikcije) -and $hasOsporavanja -and $hasCilj
 $g3Pass = $hasSubsumcijaProlaz -or $hasKOL01
 
