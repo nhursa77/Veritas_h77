@@ -61,6 +61,7 @@ try {
 catch {
     Write-Host "RUNNER_RESULT=STOP"
     Write-Host "STOP_REASON=invalid.predlozak"
+    Write-Host "STOP_DETAIL=$predlozakPath"
     exit 0
 }
 

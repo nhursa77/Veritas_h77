@@ -712,3 +712,10 @@ shema ažurirana.
 
 Usklađeno: predlozak zalba_presuda_ili_rjesenje v1 — mapiranje sada
 uključuje intake i pravila za cilj/osporavanja.
+
+---
+
+## Datum: 22.02.2026 (runner predlozak stop detail)
+
+Pojačano: run_tok_v1.ps1 — predložak je obavezan; missing/invalid predložak
+→ STOP (uklonjena tolerancija).
