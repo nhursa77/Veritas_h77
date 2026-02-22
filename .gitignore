@@ -23,3 +23,6 @@ data/state/*.json
 
 *.exe
 *.msi
+
+# Veritas H.77 — runtime izlazi (ne verzioniraju se)
+predmeti/**/izlazi/*.txt

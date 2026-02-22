@@ -135,7 +135,6 @@ try {
                     $postupakDoc = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
                     $outputRef = [string]$postupakDoc.izlazi.nacrt_ref
                     $outputPath = Join-Path $root ($outputRef -replace "/", "\")
-                    $outputExistedBefore = Test-Path -LiteralPath $outputPath
 
                     $runnerOutput = @(
                         powershell -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
@@ -165,10 +164,6 @@ try {
                         & $tokOutputValidatorScript -OutputPath $resolvedOutputPath
                         $validatorExit = $LASTEXITCODE
 
-                        if (-not $outputExistedBefore -and (Test-Path -LiteralPath $resolvedOutputPath)) {
-                            Remove-Item -LiteralPath $resolvedOutputPath -Force
-                        }
-
                         if ($validatorExit -ne 0) {
                             $global:LASTEXITCODE = $validatorExit
                             return
@@ -180,10 +175,6 @@ try {
 
                     if ($runnerText -match "RUNNER_RESULT=STOP") {
                         Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
-
-                        if (-not $outputExistedBefore -and (Test-Path -LiteralPath $outputPath)) {
-                            Remove-Item -LiteralPath $outputPath -Force
-                        }
 
                         Write-Host "TOK_RUN_END=$tok RESULT=STOP"
                         continue

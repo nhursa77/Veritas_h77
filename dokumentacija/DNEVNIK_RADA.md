@@ -684,3 +684,10 @@ Dodano: generički runner run_tok_v1.ps1 + ci_smoke izvršava sva 4 toka
 
 Dodano: predlozak.json v1 za zalba_presuda_ili_rjesenje (da žalbeni tokovi
 imaju kanonski predložak na referenciranoj putanji).
+
+---
+
+## Datum: 22.02.2026 (gitignore runtime izlazi)
+
+Standardizirano: runtime nacrti u predmeti/**/izlazi/*.txt su u
+.gitignore; uklonjen cleanup izlaza iz ci_smoke.
