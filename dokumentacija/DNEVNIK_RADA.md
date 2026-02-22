@@ -691,3 +691,10 @@ imaju kanonski predložak na referenciranoj putanji).
 
 Standardizirano: runtime nacrti u predmeti/**/izlazi/*.txt su u
 .gitignore; uklonjen cleanup izlaza iz ci_smoke.
+
+---
+
+## Datum: 22.02.2026 (runner obavezni predlozak)
+
+Pojačano: run_tok_v1.ps1 — predložak je obavezan; missing/invalid predložak
+→ STOP (uklonjena tolerancija).

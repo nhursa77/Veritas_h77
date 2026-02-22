@@ -48,12 +48,20 @@ $outputPath = Resolve-RepoPath -PathRef ([string]$postupak.izlazi.nacrt_ref)
 $audit = Get-Content -LiteralPath $auditPath -Raw | ConvertFrom-Json
 $intake = Get-Content -LiteralPath $intakePath -Raw | ConvertFrom-Json
 $null = Get-Content -LiteralPath $subsumcijaPath -Raw | ConvertFrom-Json
-if (Test-Path -LiteralPath $predlozakPath) {
+if (-not (Test-Path -LiteralPath $predlozakPath)) {
+    Write-Host "RUNNER_RESULT=STOP"
+    Write-Host "STOP_REASON=missing.predlozak"
+    Write-Host "STOP_DETAIL=$predlozakPath"
+    exit 0
+}
+
+try {
     $null = Get-Content -LiteralPath $predlozakPath -Raw | ConvertFrom-Json
 }
-else {
-    Write-Host "PREDLOZAK_STATUS=MISSING"
-    Write-Host "PREDLOZAK_PATH=$predlozakPath"
+catch {
+    Write-Host "RUNNER_RESULT=STOP"
+    Write-Host "STOP_REASON=invalid.predlozak"
+    exit 0
 }
 
 if ($audit.gate_stanje.blocked -eq $true) {
