@@ -18,9 +18,8 @@ $intakeValidatorScript = Join-Path $PSScriptRoot "validiraj_intake_prekrsaji_v1.
 $subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
 $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
-$tokPnPrigovorRunnerScript = Join-Path $PSScriptRoot "run_tok_pn_prigovor_v1.ps1"
-$tokPnPrigovorOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
-$tokPnPrigovorOutputPath = Join-Path $root "predmeti\sud\prekrsajni\OGLEDNI_PREDMET_0001\izlazi\nacrt_prigovor_pn_v1.txt"
+$tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
+$tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -120,48 +119,82 @@ try {
             Enabled = (-not $SkipPrekrsajniPreflight)
         },
         [pscustomobject]@{
-            Name = "run_tok_pn_prigovor_v1"
+            Name = "run_tokovi_v1"
             Action = {
-                $outputExistedBefore = Test-Path -LiteralPath $tokPnPrigovorOutputPath
-                $runnerOutput = @(powershell -NoProfile -ExecutionPolicy Bypass -File $tokPnPrigovorRunnerScript 2>&1)
-                $runnerExit = $LASTEXITCODE
+                $tokovi = @(
+                    "TOK_PN_PRIGOVOR",
+                    "TOK_PRESUDA_ZALBA",
+                    "TOK_RJESENJE_ZALBA",
+                    "TOK_OBUSTAVA"
+                )
 
-                foreach ($line in $runnerOutput) {
-                    Write-Host ([string]$line)
-                }
+                foreach ($tok in $tokovi) {
+                    Write-Host "TOK_RUN_BEGIN=$tok"
 
-                if ($runnerExit -ne 0) {
-                    $global:LASTEXITCODE = $runnerExit
-                    return
-                }
+                    $postupakPath = Join-Path $root ("postupci\sud\prekrsajni\{0}\v1\postupak.json" -f $tok)
+                    $postupakDoc = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
+                    $outputRef = [string]$postupakDoc.izlazi.nacrt_ref
+                    $outputPath = Join-Path $root ($outputRef -replace "/", "\")
+                    $outputExistedBefore = Test-Path -LiteralPath $outputPath
 
-                $runnerText = ($runnerOutput | ForEach-Object { [string]$_ }) -join "`n"
+                    $runnerOutput = @(
+                        powershell -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
+                    )
+                    $runnerExit = $LASTEXITCODE
 
-                if ($runnerText -match "RUNNER_RESULT=OK") {
-                    & $tokPnPrigovorOutputValidatorScript
-                    $validatorExit = $LASTEXITCODE
-
-                    if (-not $outputExistedBefore -and (Test-Path -LiteralPath $tokPnPrigovorOutputPath)) {
-                        Remove-Item -LiteralPath $tokPnPrigovorOutputPath -Force
+                    foreach ($line in $runnerOutput) {
+                        Write-Host ([string]$line)
                     }
 
-                    $global:LASTEXITCODE = $validatorExit
-                    return
-                }
-
-                if ($runnerText -match "RUNNER_RESULT=STOP") {
-                    Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
-
-                    if (-not $outputExistedBefore -and (Test-Path -LiteralPath $tokPnPrigovorOutputPath)) {
-                        Remove-Item -LiteralPath $tokPnPrigovorOutputPath -Force
+                    if ($runnerExit -ne 0) {
+                        $global:LASTEXITCODE = $runnerExit
+                        return
                     }
 
-                    $global:LASTEXITCODE = 0
+                    $runnerText = ($runnerOutput | ForEach-Object { [string]$_ }) -join "`n"
+
+                    if ($runnerText -match "RUNNER_RESULT=OK") {
+                        $pathMatch = [regex]::Match($runnerText, "(?m)^OUTPUT_PATH=(.+)$")
+                        if (-not $pathMatch.Success) {
+                            Write-Host "ERROR: OUTPUT_PATH marker missing"
+                            $global:LASTEXITCODE = 1
+                            return
+                        }
+
+                        $resolvedOutputPath = $pathMatch.Groups[1].Value.Trim()
+                        & $tokOutputValidatorScript -OutputPath $resolvedOutputPath
+                        $validatorExit = $LASTEXITCODE
+
+                        if (-not $outputExistedBefore -and (Test-Path -LiteralPath $resolvedOutputPath)) {
+                            Remove-Item -LiteralPath $resolvedOutputPath -Force
+                        }
+
+                        if ($validatorExit -ne 0) {
+                            $global:LASTEXITCODE = $validatorExit
+                            return
+                        }
+
+                        Write-Host "TOK_RUN_END=$tok RESULT=OK"
+                        continue
+                    }
+
+                    if ($runnerText -match "RUNNER_RESULT=STOP") {
+                        Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
+
+                        if (-not $outputExistedBefore -and (Test-Path -LiteralPath $outputPath)) {
+                            Remove-Item -LiteralPath $outputPath -Force
+                        }
+
+                        Write-Host "TOK_RUN_END=$tok RESULT=STOP"
+                        continue
+                    }
+
+                    Write-Host "ERROR: RUNNER_RESULT marker missing"
+                    $global:LASTEXITCODE = 1
                     return
                 }
 
-                Write-Host "ERROR: RUNNER_RESULT marker missing"
-                $global:LASTEXITCODE = 1
+                $global:LASTEXITCODE = 0
             }
             Enabled = $true
         }

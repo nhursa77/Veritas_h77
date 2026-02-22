@@ -670,3 +670,10 @@ Preflight korak (M1P) u sva 4 toka; hard-gate u ci_smoke.
 
 Dodano: minimalni runner v1 za TOK_PN_PRIGOVOR + validator izlaza i smoke
 integracija (STOP/OK deterministički).
+
+---
+
+## Datum: 22.02.2026 (genericki runner 4 toka)
+
+Dodano: generički runner run_tok_v1.ps1 + ci_smoke izvršava sva 4 toka
+(OK/STOP deterministički), generična validacija izlaza.
