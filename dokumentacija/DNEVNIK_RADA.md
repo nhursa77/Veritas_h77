@@ -733,3 +733,11 @@ run_tok_pn_prigovor_v1.ps1 označen kao DEPRECATED (povijest).
 
 Dodano: STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1 + pojačana validacija izlaza
 (obavezni markeri) u validiraj_izlaz_tok_pn_prigovor_v1.ps1.
+
+---
+
+## Datum: 22.02.2026 (runner obavezni output markeri)
+
+Pojačano: run_tok_v1.ps1 u OK izlazu sada deterministički generira obavezne
+markere NACRT/TOK/PREDMET_ID/DATUM te AUDIT_NALAZI_BEGIN/END i
+INTAKE_BEGIN/END.

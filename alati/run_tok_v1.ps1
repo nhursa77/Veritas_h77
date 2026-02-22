@@ -105,17 +105,19 @@ $osporavanjaText = (@($intake.osporavanja | ForEach-Object { [string]$_ }) -join
 $content = @(
     "NACRT - bez potpisa"
     ""
-    "Tok: $Tok"
-    "Predmet: $PredmetId"
-    "Datum: $datum"
+    "TOK=$Tok"
+    "PREDMET_ID=$PredmetId"
+    "DATUM=$datum"
     ""
-    "Audit nalazi:"
+    "AUDIT_NALAZI_BEGIN"
 ) + $auditLines + @(
+    "AUDIT_NALAZI_END"
     ""
-    "Intake:"
+    "INTAKE_BEGIN"
     "- cilj: $([string]$intake.cilj)"
     "- osporavanja: $osporavanjaText"
     "- opis: $([string]$intake.opis_dogadaja)"
+    "INTAKE_END"
 )
 
 Set-Content -LiteralPath $outputPath -Value $content -Encoding UTF8
