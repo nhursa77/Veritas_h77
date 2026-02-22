@@ -18,6 +18,8 @@ $intakeValidatorScript = Join-Path $PSScriptRoot "validiraj_intake_prekrsaji_v1.
 $subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
 $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
+$tokPnPrigovorRunnerScript = Join-Path $PSScriptRoot "run_tok_pn_prigovor_v1.ps1"
+$tokPnPrigovorOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -115,6 +117,39 @@ try {
             Name = "preflight_prekrsajni_zakon"
             Action = { & $preflightScript -AktSlug "prekrsajni_zakon" }
             Enabled = (-not $SkipPrekrsajniPreflight)
+        },
+        [pscustomobject]@{
+            Name = "run_tok_pn_prigovor_v1"
+            Action = {
+                $runnerOutput = @(powershell -NoProfile -ExecutionPolicy Bypass -File $tokPnPrigovorRunnerScript 2>&1)
+                $runnerExit = $LASTEXITCODE
+
+                foreach ($line in $runnerOutput) {
+                    Write-Host ([string]$line)
+                }
+
+                if ($runnerExit -ne 0) {
+                    $global:LASTEXITCODE = $runnerExit
+                    return
+                }
+
+                $runnerText = ($runnerOutput | ForEach-Object { [string]$_ }) -join "`n"
+
+                if ($runnerText -match "RUNNER_RESULT=OK") {
+                    & $tokPnPrigovorOutputValidatorScript
+                    return
+                }
+
+                if ($runnerText -match "RUNNER_RESULT=STOP") {
+                    Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
+                    $global:LASTEXITCODE = 0
+                    return
+                }
+
+                Write-Host "ERROR: RUNNER_RESULT marker missing"
+                $global:LASTEXITCODE = 1
+            }
+            Enabled = $true
         }
     )
 

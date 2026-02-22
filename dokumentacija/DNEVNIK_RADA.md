@@ -659,7 +659,14 @@ odluka naplate) po kanonskom mapiranju.
 
 ---
 
-## Datum: 22.02.2026
+## Datum: 22.02.2026 (intake + preflight kompozit)
 
 Dodano: STANDARD_JSON_INTAKE_PREKRSAJI v1 + shema/validator; uveden
 Preflight korak (M1P) u sva 4 toka; hard-gate u ci_smoke.
+
+---
+
+## Datum: 22.02.2026 (runner tok pn prigovor)
+
+Dodano: minimalni runner v1 za TOK_PN_PRIGOVOR + validator izlaza i smoke
+integracija (STOP/OK deterministički).
