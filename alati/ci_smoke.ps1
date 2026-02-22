@@ -134,8 +134,6 @@ try {
 
                     $postupakPath = Join-Path $root ("postupci\sud\prekrsajni\{0}\v1\postupak.json" -f $tok)
                     $postupakDoc = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
-                    $outputRef = [string]$postupakDoc.izlazi.nacrt_ref
-                    $outputPath = Join-Path $root ($outputRef -replace "/", "\")
 
                     $runnerOutput = @(
                         powershell -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
