@@ -698,3 +698,10 @@ Standardizirano: runtime nacrti u predmeti/**/izlazi/*.txt su u
 
 Pojačano: run_tok_v1.ps1 — predložak je obavezan; missing/invalid predložak
 → STOP (uklonjena tolerancija).
+
+---
+
+## Datum: 22.02.2026 (predlozak intake izvor)
+
+Usklađeno: PREDLOŽAK v1 dopušta intake.* kao izvor (Gate 2),
+shema ažurirana.

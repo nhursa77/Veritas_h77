@@ -39,7 +39,10 @@
               "properties": {
                 "id": { "type": "string" },
                 "label": { "type": "string" },
-                "izvor": { "type": "string" },
+                "izvor": {
+                  "type": "string",
+                  "pattern": "^(audit|predmet|intake)\\."
+                },
                 "obavezno": { "type": "boolean" }
               }
             }
@@ -53,7 +56,10 @@
       "properties": {
         "izvori": {
           "type": "array",
-          "items": { "type": "string" }
+          "items": {
+            "type": "string",
+            "enum": ["audit", "predmet", "intake"]
+          }
         },
         "pravila": {
           "type": "array",
@@ -62,7 +68,10 @@
             "required": ["polje_id", "izvor", "transformacija"],
             "properties": {
               "polje_id": { "type": "string" },
-              "izvor": { "type": "string" },
+              "izvor": {
+                "type": "string",
+                "pattern": "^(audit|predmet|intake)\\."
+              },
               "transformacija": {
                 "type": "string",
                 "enum": ["none"]

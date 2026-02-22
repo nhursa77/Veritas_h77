@@ -39,7 +39,7 @@ Svako polje mora imati:
 
 - `id` (string)
 - `label` (string)
-- `izvor` (string; referenca u formatu `audit.*` ili `predmet.*`)
+- `izvor` (string; referenca u formatu `audit.*`, `predmet.*` ili `intake.*`)
 - `obavezno` (boolean)
 
 Pravila:
@@ -53,6 +53,7 @@ Pravila:
 Mora sadržavati:
 
 - `izvori` (niz stringova; dopušteno: `audit`, `predmet`)
+- `izvori` (niz stringova; dopušteno: `audit`, `predmet`, `intake`)
 - `pravila` (niz objekata)
 
 Svako pravilo mora imati:
@@ -104,7 +105,7 @@ Pravila:
     }
   ],
   "mapiranje": {
-    "izvori": ["audit", "predmet"],
+    "izvori": ["audit", "predmet", "intake"],
     "pravila": [
       {
         "polje_id": "sud_naziv",
