@@ -741,3 +741,11 @@ Dodano: STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1 + pojačana validacija izlaza
 Pojačano: run_tok_v1.ps1 u OK izlazu sada deterministički generira obavezne
 markere NACRT/TOK/PREDMET_ID/DATUM te AUDIT_NALAZI_BEGIN/END i
 INTAKE_BEGIN/END.
+
+---
+
+## Datum: 22.02.2026 (stabilizacija VS Code PSES na pwsh)
+
+Operativno: stabiliziran VS Code PowerShell Extension (PSES) — prebačeno na
+PowerShell 7 (pwsh), restartan language server; potvrđeno PSVersion=7.x i
+CI smoke prolazi bez rušenja sessiona.
