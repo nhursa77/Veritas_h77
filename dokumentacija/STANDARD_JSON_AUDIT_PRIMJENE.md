@@ -115,3 +115,59 @@ Pravila:
   }
 }
 ```
+
+## 9. Audit naplate (kanonsko mapiranje v1)
+
+Audit naplate se u AUDIT v1 zapisuje isključivo kroz `nalazi[]`.
+Ne uvode se nova polja.
+
+### 9.1. Semafor Preflight (Z/Ž/C)
+
+Preflight rezultat se zapisuje kao jedan nalaz:
+
+- `kod`: `NAP-SEM`
+- `opis`: mora sadržavati `preflight=ZELENO|ZUTO|CRVENO`
+- `tezina`:
+  - ZELENO → `NISKA`
+  - ZUTO → `SREDNJA`
+  - CRVENO → `VISOKA`
+- `posljedica`:
+  - ZELENO → "Naplata dopuštena."
+  - ZUTO → "Naplata uvjetno dopuštena uz Risk Disclosure."
+  - CRVENO → "Naplata zabranjena; nema naplatnog dokumenta."
+
+### 9.2. Gateovi G1–G3 (PASS/FAIL)
+
+Rezultati gateova se bilježe kao 3 nalaza (svaki zasebno):
+
+- `NAP-G1` za Proceduralnu dopuštenost
+- `NAP-G2` za Minimalni činjenični prag
+- `NAP-G3` za Minimalni dokazni prag ili dokaznu strategiju
+
+`opis` mora sadržavati:
+- `gate=G1|G2|G3`
+- `rezultat=PASS|FAIL`
+- kratki razlog (činjenično)
+
+Ako je rezultat FAIL, `tezina` mora biti `VISOKA` i `posljedica` mora
+ukazivati da je naplata zabranjena.
+
+### 9.3. Odluka o naplati
+
+Odluka o naplati se bilježi kao jedan nalaz:
+
+- `kod`: `NAP-ODL`
+- `opis`: `naplata=DOPUSTENO|ZABRANJENO`
+- `tezina`:
+  - DOPUSTENO → `NISKA` ili `SREDNJA`
+  - ZABRANJENO → `VISOKA`
+- `posljedica`:
+  - DOPUSTENO → "Može se generirati naplatni dokument."
+  - ZABRANJENO → "Dozvoljeni su samo besplatni informativni izlazi i/ili
+    alternativni dokument za pribavu dokaza (ako je legitimno)."
+
+### 9.4. Veza s gate_stanje
+
+Ako je `NAP-SEM` CRVENO ili je bilo koji od `NAP-G1/G2/G3` FAIL,
+onda `gate_stanje.blocked` mora biti `true`, a `blocked_razlog` mora biti
+konkretan (bez retorike).

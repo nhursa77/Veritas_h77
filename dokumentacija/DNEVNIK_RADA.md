@@ -642,3 +642,10 @@ TOK_OBUSTAVA (P2 dovršen).
 
 Dodano: STANDARD_FER_NAPLATA_PREKRSAJI v1 (preflight + semafor + gate
 G1–G3; zabrana naplate bez realne šanse; zabrana ‘prodaje nade’).
+
+---
+
+## Datum: 22.02.2026 (audit naplate mapiranje)
+
+Dopuna: STANDARD_JSON_AUDIT_PRIMJENE v1 — kanonsko mapiranje audita naplate
+(Preflight semafor + gateovi G1–G3 + odluka naplate) kroz nalazi[].
