@@ -2,10 +2,10 @@
 
 ## 1) Osnovni podaci
 
-- Datum i vrijeme: 20.02.2026.
+- Datum i vrijeme: 22.02.2026.
 - Repo putanja: C:\Veritas_H77
 - Grana: main
-- HEAD commit: e4ec658
+- HEAD commit: 966c5ad
 - Upstream: origin/main
 - Divergencija (HEAD...@{u}): 0 0
 
@@ -17,16 +17,16 @@ Set-Location -LiteralPath "C:\Veritas_H77"; git --no-pager log -10 --oneline
 
 Izlaz:
 
-- e4ec658 chore: add postupak tok pn prigovor v1 + gate
-- 7d405b0 test: add ogledni json v1 za validatore
-- 8d9ca89 chore: add json sheme i ps validatori prekrsajni v1
-- b07cdea docs: fix json fences + canon kolizija mapping v1
-- 015de6f docs: add STANDARD_JSON_PREDLOZAK v1
-- b8b8816 docs: add STANDARD_JSON_HIJERARHIJA v1
-- 46cbe2a docs: add STANDARD_JSON_SUBSUMPCIJA v1
-- f29b199 docs: add STANDARD_JSON_AUDIT_PRIMJENE v1
-- d174e1b docs: ispravak MD024 u dnevniku rada
-- 9f22503 docs: add kanonski plan prekrsajnog modula v1
+- 966c5ad docs: align prekrsajni plan with implemented state
+- 5a2acfe docs: update dokumentacijska mapa (prekrsajni kanon)
+- be3bc66 docs: zapis stabilizacije VS Code PSES (pwsh)
+- 00c7a2a chore: fix analyzer warnings + md047
+- 644edff chore: fix unused outputPath in ci_smoke
+- 7e801a9 fix: add required output markers in run_tok_v1
+- 0743e43 docs: standard izlaznog nacrta + stricter izlaz validator
+- cdbeebe chore: standardize runner usage (generic only)
+- 8aebea9 fix: require predlozak in run_tok_v1
+- 8e1c43d chore: align zalba predlozak v1 with intake mapping
 
 ## 3) Čistoća repoa (izlaz komande)
 
