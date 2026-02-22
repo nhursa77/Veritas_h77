@@ -628,3 +628,10 @@ Dodano: ogledni audit_v1.json i predlozak.json (v1) koji prolaze sheme;
 
 Dodano: postupak.json za TOK_PN_PRIGOVOR v1 + shema/validator postupka i
 hard-gate u ci_smoke.
+
+---
+
+## Datum: 20.02.2026 (p2 dovrsetak tokova)
+
+Dodano: postupak.json v1 za TOK_PRESUDA_ZALBA, TOK_RJESENJE_ZALBA,
+TOK_OBUSTAVA (P2 dovršen).

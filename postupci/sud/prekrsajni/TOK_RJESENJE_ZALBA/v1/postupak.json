@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "id": "TOK_RJESENJE_ZALBA_v1",
+    "naziv": "Zalba na rjesenje (v1)",
+    "domena": "prekrsajni",
+    "datum_izrade": "20.02.2026.",
+    "verzija": "v1"
+  },
+  "ulazi": {
+    "predmet_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/predmet.json",
+    "dokazi_dir_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/",
+    "audit_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/audit_v1.json",
+    "subsumcija_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/subsumcija_v1.json",
+    "predlozak_ref": "predlosci/sud/prekrsajni/zalba_presuda_ili_rjesenje/v1/predlozak.json"
+  },
+  "koraci": [
+    {
+      "id": "M0",
+      "naziv": "Ucitavanje ulaza",
+      "opis": "Ucitaj sve ulazne reference i provjeri da JSON parse prolazi.",
+      "ulazi": [
+        "predmet_ref",
+        "audit_ref",
+        "subsumcija_ref",
+        "predlozak_ref"
+      ],
+      "izlazi": [
+        "mem.ulazi_ucitani"
+      ],
+      "gate": []
+    },
+    {
+      "id": "M1",
+      "naziv": "Gate: provjera audita",
+      "opis": "Ako audit.gate_stanje.blocked=true, postupak se prekida bez izlaza.",
+      "ulazi": [
+        "audit_ref"
+      ],
+      "izlazi": [
+        "mem.gate_prosao"
+      ],
+      "gate": [
+        {
+          "izvor_ref": "audit_ref",
+          "putanja": "gate_stanje.blocked",
+          "operator": "==",
+          "vrijednost": false,
+          "akcija_na_fail": "STOP_BEZ_IZLAZA"
+        }
+      ]
+    },
+    {
+      "id": "M2",
+      "naziv": "Provjera subsumpcije",
+      "opis": "Provjeri postoji li barem jedan element_bica sa status=PROLAZ ili jasno označi da je subsumpcija NEPROLAZ (bez blokiranja).",
+      "ulazi": [
+        "subsumcija_ref"
+      ],
+      "izlazi": [
+        "mem.subsumcija_procitana"
+      ],
+      "gate": []
+    },
+    {
+      "id": "M3",
+      "naziv": "Priprema predloska",
+      "opis": "Ucitaj predlozak i mapiranje; pripremi listu polja koja treba popuniti.",
+      "ulazi": [
+        "predlozak_ref"
+      ],
+      "izlazi": [
+        "mem.polja_za_popunu"
+      ],
+      "gate": []
+    },
+    {
+      "id": "M4",
+      "naziv": "Popuna predloska (deterministicki)",
+      "opis": "Popuni polja iz predmeta i audita prema mapiranju. Ne raditi transformacije osim none.",
+      "ulazi": [
+        "predmet_ref",
+        "audit_ref",
+        "predlozak_ref"
+      ],
+      "izlazi": [
+        "mem.popunjena_polja"
+      ],
+      "gate": []
+    },
+    {
+      "id": "M5",
+      "naziv": "Izlaz: nacrt dokumenta",
+      "opis": "Generiraj izlazni nacrt kao tekstualni artefakt (jos bez potpisa).",
+      "ulazi": [
+        "mem.popunjena_polja"
+      ],
+      "izlazi": [
+        "izlaz.nacrt_ref"
+      ],
+      "gate": []
+    }
+  ],
+  "izlazi": {
+    "nacrt_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/izlazi/nacrt_rjesenje_zalba_v1.txt"
+  }
+}
