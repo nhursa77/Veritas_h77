@@ -766,3 +766,12 @@ Usklađeno: RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md ažuriran je na stvarno stanje
 implementacije (P2 dovršen za 4 toka, generic runner, smoke gate,
 intake standard/shema/validator, predlošci i fer naplata), uz jasno
 označen sljedeći korak P6 — deterministički generator audita iz predmeta.
+
+---
+
+## Datum: 22.02.2026 (kontrola konzistentnosti predlozak/intake/ci)
+
+Kontrola konzistentnosti: OK.
+`STANDARD_JSON_PREDLOZAK.md` i `SCHEMA_PREDLOZAK_V1.json` dopuštaju
+`intake.*`, žalbeni predložak koristi `mapiranje.izvori` s `intake`, a
+`ci_smoke.ps1` koristi isključivo generički runner `run_tok_v1.ps1`.
