@@ -66,12 +66,23 @@
   "mapiranje": {
     "izvori": [
       "audit",
-      "predmet"
+      "predmet",
+      "intake"
     ],
     "pravila": [
       {
         "polje_id": "sud_naziv",
         "izvor": "predmet.sud_naziv",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "cilj",
+        "izvor": "intake.cilj",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "osporavanja",
+        "izvor": "intake.osporavanja",
         "transformacija": "none"
       },
       {
