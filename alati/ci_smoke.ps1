@@ -118,6 +118,7 @@ try {
             Action = { & $preflightScript -AktSlug "prekrsajni_zakon" }
             Enabled = (-not $SkipPrekrsajniPreflight)
         },
+        # KANON: CI koristi isključivo generički runner run_tok_v1.ps1
         [pscustomobject]@{
             Name = "run_tokovi_v1"
             Action = {

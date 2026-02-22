@@ -1,3 +1,8 @@
+# DEPRECATED (KANONSKI)
+# Ova skripta je zadržana radi povijesti i referenci.
+# Od 22.02.2026. kanonski runner je: alati\run_tok_v1.ps1
+# CI (ci_smoke.ps1) ne smije koristiti ovu skriptu.
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 chcp 65001 | Out-Null

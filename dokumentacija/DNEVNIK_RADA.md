@@ -719,3 +719,10 @@ uključuje intake i pravila za cilj/osporavanja.
 
 Pojačano: run_tok_v1.ps1 — predložak je obavezan; missing/invalid predložak
 → STOP (uklonjena tolerancija).
+
+---
+
+## Datum: 22.02.2026 (runner standardizacija generic only)
+
+Standardizirano: CI koristi samo generički runner run_tok_v1.ps1;
+run_tok_pn_prigovor_v1.ps1 označen kao DEPRECATED (povijest).
