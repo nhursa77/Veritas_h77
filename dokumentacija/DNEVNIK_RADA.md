@@ -649,3 +649,10 @@ G1–G3; zabrana naplate bez realne šanse; zabrana ‘prodaje nade’).
 
 Dopuna: STANDARD_JSON_AUDIT_PRIMJENE v1 — kanonsko mapiranje audita naplate
 (Preflight semafor + gateovi G1–G3 + odluka naplate) kroz nalazi[].
+
+---
+
+## Datum: 22.02.2026
+
+Dopuna: ogledni audit_v1.json — dodani NAP-* nalazi (semafor, G1–G3,
+odluka naplate) po kanonskom mapiranju.

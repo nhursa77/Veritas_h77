@@ -27,6 +27,41 @@
       "norma_ref": "",
       "tezina": "SREDNJA",
       "posljedica": "Zapis kolizije u nalazi[]; ako nije razriješeno, blokirati izlaz."
+    },
+    {
+      "kod": "NAP-SEM",
+      "opis": "Preflight naplate: preflight=ZUTO; uvjeti za naplatu su djelomično ispunjeni.",
+      "norma_ref": "",
+      "tezina": "SREDNJA",
+      "posljedica": "Naplata uvjetno dopuštena uz Risk Disclosure."
+    },
+    {
+      "kod": "NAP-G1",
+      "opis": "Provjera gate=G1; rezultat=PASS.",
+      "norma_ref": "",
+      "tezina": "NISKA",
+      "posljedica": "Kriterij realne procesne osnove je zadovoljen."
+    },
+    {
+      "kod": "NAP-G2",
+      "opis": "Provjera gate=G2; rezultat=PASS.",
+      "norma_ref": "",
+      "tezina": "NISKA",
+      "posljedica": "Rizici i ograničenja su transparentno navedeni."
+    },
+    {
+      "kod": "NAP-G3",
+      "opis": "Provjera gate=G3; rezultat=PASS.",
+      "norma_ref": "",
+      "tezina": "NISKA",
+      "posljedica": "Uvjeti poštene naplate su zadovoljeni."
+    },
+    {
+      "kod": "NAP-ODL",
+      "opis": "naplata=DOPUSTENO",
+      "norma_ref": "",
+      "tezina": "SREDNJA",
+      "posljedica": "Može se generirati naplatni dokument."
     }
   ],
   "rokovi": [
