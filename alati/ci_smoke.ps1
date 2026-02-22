@@ -132,9 +132,6 @@ try {
                 foreach ($tok in $tokovi) {
                     Write-Host "TOK_RUN_BEGIN=$tok"
 
-                    $postupakPath = Join-Path $root ("postupci\sud\prekrsajni\{0}\v1\postupak.json" -f $tok)
-                    $postupakDoc = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
-
                     $runnerOutput = @(
                         powershell -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
                     )
