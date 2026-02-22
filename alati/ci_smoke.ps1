@@ -20,6 +20,7 @@ $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
 $tokPnPrigovorRunnerScript = Join-Path $PSScriptRoot "run_tok_pn_prigovor_v1.ps1"
 $tokPnPrigovorOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
+$tokPnPrigovorOutputPath = Join-Path $root "predmeti\sud\prekrsajni\OGLEDNI_PREDMET_0001\izlazi\nacrt_prigovor_pn_v1.txt"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -121,6 +122,7 @@ try {
         [pscustomobject]@{
             Name = "run_tok_pn_prigovor_v1"
             Action = {
+                $outputExistedBefore = Test-Path -LiteralPath $tokPnPrigovorOutputPath
                 $runnerOutput = @(powershell -NoProfile -ExecutionPolicy Bypass -File $tokPnPrigovorRunnerScript 2>&1)
                 $runnerExit = $LASTEXITCODE
 
@@ -137,11 +139,23 @@ try {
 
                 if ($runnerText -match "RUNNER_RESULT=OK") {
                     & $tokPnPrigovorOutputValidatorScript
+                    $validatorExit = $LASTEXITCODE
+
+                    if (-not $outputExistedBefore -and (Test-Path -LiteralPath $tokPnPrigovorOutputPath)) {
+                        Remove-Item -LiteralPath $tokPnPrigovorOutputPath -Force
+                    }
+
+                    $global:LASTEXITCODE = $validatorExit
                     return
                 }
 
                 if ($runnerText -match "RUNNER_RESULT=STOP") {
                     Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
+
+                    if (-not $outputExistedBefore -and (Test-Path -LiteralPath $tokPnPrigovorOutputPath)) {
+                        Remove-Item -LiteralPath $tokPnPrigovorOutputPath -Force
+                    }
+
                     $global:LASTEXITCODE = 0
                     return
                 }

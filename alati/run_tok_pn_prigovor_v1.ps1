@@ -60,6 +60,7 @@ $auditLines = @($audit.nalazi | ForEach-Object {
 })
 
 $osporavanjaText = (@($intake.osporavanja | ForEach-Object { [string]$_ }) -join ", ")
+$nacrtNapomena = "NACRT $([char]0x2014) bez potpisa"
 
 $content = @(
     "Datum: $datum"
@@ -74,7 +75,7 @@ $content = @(
     "- osporavanja: $osporavanjaText"
     "- opis događaja: $([string]$intake.opis_dogadaja)"
     ""
-    "NACRT — bez potpisa"
+    $nacrtNapomena
 )
 
 Set-Content -LiteralPath $outputPath -Value $content -Encoding UTF8

@@ -21,7 +21,7 @@ if ($fileInfo.Length -le 0) {
 }
 
 $content = Get-Content -LiteralPath $outputPath -Raw
-$requiredText = "NACRT — bez potpisa"
+$requiredText = "NACRT $([char]0x2014) bez potpisa"
 if ($content -notmatch [regex]::Escape($requiredText)) {
     Write-Host "ERROR: OUTPUT_MISSING_REQUIRED_TEXT"
     Write-Host "VALIDATOR_IZLAZ_TOK_PN_PRIGOVOR_V1_EXIT=1"
