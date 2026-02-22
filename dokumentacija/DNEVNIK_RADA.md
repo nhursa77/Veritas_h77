@@ -635,3 +635,10 @@ hard-gate u ci_smoke.
 
 Dodano: postupak.json v1 za TOK_PRESUDA_ZALBA, TOK_RJESENJE_ZALBA,
 TOK_OBUSTAVA (P2 dovršen).
+
+---
+
+## Datum: 20.02.2026 (fer naplata standard)
+
+Dodano: STANDARD_FER_NAPLATA_PREKRSAJI v1 (preflight + semafor + gate
+G1–G3; zabrana naplate bez realne šanse; zabrana ‘prodaje nade’).
