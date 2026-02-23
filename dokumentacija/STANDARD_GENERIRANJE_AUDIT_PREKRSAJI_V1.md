@@ -74,11 +74,37 @@ Pravila G2 i G3:
 Pravila G1 (soft u v1):
 
 - G1 u v1 nikad ne postavlja blocker i nikad samostalno ne daje CRVENO.
-- ako nema dovoljno datuma za izračun roka, emitira se
-  `NAP-G1-MISSING` (warning)
-- ako je rok očito propušten prema dostupnim datumima, emitira se
-  `NAP-G1-LATE` (warning)
-- ako je rok uredan, G1 ostaje bez warning nalaza.
+
+Kanonska formula G1 roka (v1):
+
+- trigger datum (`g1.start_date`) je `intake.meta.datum_izrade`
+- rok je `8` kalendarskih dana
+- `g1.due_date = g1.start_date + 8 dana`
+- referentni datum za usporedbu:
+  - prvo `audit_v1.meta.datum_izrade` (ako postoji i parsira se)
+  - ako ne postoji, koristi se sistemski datum i status je
+    `INDETERMINATE` (uz napomenu u `g1.note`)
+
+Statusi G1 u `audit_generated_v1.json`:
+
+- `OK`: rok je izračunljiv i referentni datum nije nakon `g1.due_date`
+- `LATE`: rok je izračunljiv i referentni datum je nakon `g1.due_date`
+- `MISSING`: nedostaje trigger datum pa rok nije izračunljiv
+- `INDETERMINATE`: trigger postoji, ali referentni datum iz predmeta/audita
+  nedostaje pa je korišten sistemski datum
+
+Mapiranje warning nalaza:
+
+- `MISSING` -> `NAP-G1-MISSING`
+- `LATE` -> `NAP-G1-LATE`
+- `INDETERMINATE` -> `NAP-G1-INDETERMINATE`
+- `OK` -> bez G1 warning nalaza
+
+U izlazu je opcionalan `g1` blok sa strukturom:
+
+- `status`, `start_date`, `due_date`, `days`, `note`
+
+G1 warning i dalje postavlja samo ŽUTO kada nema blockera.
 
 Svaki nalaz mora imati: `kod`, `opis`, `tezina`, `posljedica`, `norma_ref`
 (ako nije primjenjivo u v1, `norma_ref` je prazan string).

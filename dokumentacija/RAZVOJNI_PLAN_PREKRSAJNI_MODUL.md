@@ -1,14 +1,14 @@
 # RAZVOJNI PLAN PREKRSAJNI MODUL (v1)
 
 Datum izrade: 20.02.2026.
-Datum revizije: 22.02.2026.
+Datum revizije: 23.02.2026.
 Status: kanonski
 
 ---
 
 ## Razvoj prekršajnog modula — FAZE i točni koraci
 
-## Stanje implementacije (22.02.2026.)
+## Stanje implementacije (23.02.2026.)
 
 Implementirano:
 
@@ -27,6 +27,10 @@ Implementirano:
    NAP-MIN klasama, semaforom CRVENO/ŽUTO/ZELENO i G1 soft pravilom.
 - P6 fixtures acceptance uveden: kanonski skup CRV/ŽUT/ZEL scenarija
    provjerava očekivani semafor i ključne NAP kodove u CI smoke pipelineu.
+- P6 G1 rokovi usklađeni kao strojno pravilo (soft): kanonska formula
+   (`start + 8 kalendarskih dana`), statusi
+   `OK|MISSING|LATE|INDETERMINATE`, `g1.*` izlazni blok i validator provjera
+   opcionalne G1 strukture.
 
 Sljedeće po redu:
 

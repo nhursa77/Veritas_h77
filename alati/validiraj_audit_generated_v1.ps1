@@ -44,6 +44,64 @@ foreach ($file in $files) {
         $ok = $false
     }
 
+    if ($null -ne $doc.PSObject.Properties["g1"]) {
+        if ($null -eq $doc.g1) {
+            Write-Host "ERROR: G1_BLOCK_NULL FILE=$($file.FullName)"
+            $ok = $false
+        }
+        elseif ($doc.g1 -isnot [psobject]) {
+            Write-Host "ERROR: G1_BLOCK_TYPE_INVALID FILE=$($file.FullName)"
+            $ok = $false
+        }
+        else {
+            $g1Required = @("status", "start_date", "due_date", "days", "note")
+            foreach ($g1Key in $g1Required) {
+                if ($null -eq $doc.g1.PSObject.Properties[$g1Key]) {
+                    Write-Host "ERROR: G1_FIELD_MISSING=$g1Key FILE=$($file.FullName)"
+                    $ok = $false
+                }
+            }
+
+            if ($null -ne $doc.g1.PSObject.Properties["status"]) {
+                $g1Status = [string]$doc.g1.status
+                $allowedG1Statuses = @("OK", "MISSING", "LATE", "INDETERMINATE")
+                if ($allowedG1Statuses -notcontains $g1Status) {
+                    Write-Host "ERROR: G1_STATUS_INVALID=$g1Status FILE=$($file.FullName)"
+                    $ok = $false
+                }
+            }
+
+            if ($null -ne $doc.g1.PSObject.Properties["days"]) {
+                try {
+                    $g1Days = [int]$doc.g1.days
+                    if ($g1Days -lt 0) {
+                        Write-Host "ERROR: G1_DAYS_NEGATIVE FILE=$($file.FullName)"
+                        $ok = $false
+                    }
+                }
+                catch {
+                    Write-Host "ERROR: G1_DAYS_NOT_INT FILE=$($file.FullName)"
+                    $ok = $false
+                }
+            }
+
+            if ($null -ne $doc.g1.PSObject.Properties["start_date"] -and $doc.g1.start_date -isnot [string]) {
+                Write-Host "ERROR: G1_START_DATE_NOT_STRING FILE=$($file.FullName)"
+                $ok = $false
+            }
+
+            if ($null -ne $doc.g1.PSObject.Properties["due_date"] -and $doc.g1.due_date -isnot [string]) {
+                Write-Host "ERROR: G1_DUE_DATE_NOT_STRING FILE=$($file.FullName)"
+                $ok = $false
+            }
+
+            if ($null -ne $doc.g1.PSObject.Properties["note"] -and $doc.g1.note -isnot [string]) {
+                Write-Host "ERROR: G1_NOTE_NOT_STRING FILE=$($file.FullName)"
+                $ok = $false
+            }
+        }
+    }
+
     if ($null -eq $doc.nalazi -or $doc.nalazi -isnot [System.Array]) {
         Write-Host "ERROR: MISSING_NALAZI_ARRAY $($file.FullName)"
         $ok = $false
@@ -104,6 +162,33 @@ foreach ($file in $files) {
     $blocked = $false
     if ($null -ne $doc.gate_stanje.PSObject.Properties["blocked"]) {
         $blocked = [bool]$doc.gate_stanje.blocked
+    }
+
+    if ($null -ne $doc.PSObject.Properties["g1"] -and $null -ne $doc.g1 -and $null -ne $doc.g1.PSObject.Properties["status"]) {
+        $g1Status = [string]$doc.g1.status
+        $hasG1Missing = $codes -contains "NAP-G1-MISSING"
+        $hasG1Late = $codes -contains "NAP-G1-LATE"
+        $hasG1Indeterminate = $codes -contains "NAP-G1-INDETERMINATE"
+
+        if ($g1Status -eq "OK" -and ($hasG1Missing -or $hasG1Late -or $hasG1Indeterminate)) {
+            Write-Host "ERROR: G1_OK_WITH_WARNING_CODE FILE=$($file.FullName)"
+            $ok = $false
+        }
+
+        if ($g1Status -eq "MISSING" -and -not $hasG1Missing) {
+            Write-Host "ERROR: G1_MISSING_WITHOUT_NAP FILE=$($file.FullName)"
+            $ok = $false
+        }
+
+        if ($g1Status -eq "LATE" -and -not $hasG1Late) {
+            Write-Host "ERROR: G1_LATE_WITHOUT_NAP FILE=$($file.FullName)"
+            $ok = $false
+        }
+
+        if ($g1Status -eq "INDETERMINATE" -and -not $hasG1Indeterminate) {
+            Write-Host "ERROR: G1_INDETERMINATE_WITHOUT_NAP FILE=$($file.FullName)"
+            $ok = $false
+        }
     }
 
     if ($preflight -eq "CRVENO" -and -not $blocked) {

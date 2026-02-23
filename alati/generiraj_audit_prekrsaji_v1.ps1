@@ -39,7 +39,7 @@ if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
 }
 
 try {
-    $postupak = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
+    Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json | Out-Null
 }
 catch {
     Write-Host "ERROR: POSTUPAK_JSON_PARSE_FAIL=$postupakPath"
@@ -72,7 +72,7 @@ if (Test-Path -LiteralPath $existingAuditPath) {
     }
 }
 
-function Try-ParseVeritasDate {
+function ConvertTo-VeritasDate {
     param(
         [Parameter(Mandatory = $false)]
         [string] $Raw
@@ -96,6 +96,25 @@ function Try-ParseVeritasDate {
     }
     catch {
         return $null
+    }
+}
+
+function ConvertTo-VeritasDateString {
+    param(
+        [Parameter(Mandatory = $false)]
+        [object] $Value
+    )
+
+    if ($null -eq $Value) {
+        return ""
+    }
+
+    try {
+        $parsed = [datetime]$Value
+        return $parsed.ToString("dd.MM.yyyy.")
+    }
+    catch {
+        return ""
     }
 }
 
@@ -127,30 +146,71 @@ foreach ($element in $subsumcijaElementi) {
     }
 }
 
-$g1Pass = $true
-$g1StatusText = "G1_STATUS=OK"
-$g1WarningReason = ""
-
-$intakeDatum = $null
+$g1Days = 8
+$g1StartDate = $null
 if ($null -ne $intake.PSObject.Properties["meta"] -and $null -ne $intake.meta -and $null -ne $intake.meta.PSObject.Properties["datum_izrade"]) {
-    $intakeDatum = Try-ParseVeritasDate -Raw ([string]$intake.meta.datum_izrade)
+    $g1StartDate = ConvertTo-VeritasDate -Raw ([string]$intake.meta.datum_izrade)
 }
 
-$auditDatum = $null
+$g1ReferenceDate = $null
+$g1ReferenceSource = ""
 if ($null -ne $existingAudit -and $null -ne $existingAudit.PSObject.Properties["meta"] -and $null -ne $existingAudit.meta -and $null -ne $existingAudit.meta.PSObject.Properties["datum_izrade"]) {
-    $auditDatum = Try-ParseVeritasDate -Raw ([string]$existingAudit.meta.datum_izrade)
+    $g1ReferenceDate = ConvertTo-VeritasDate -Raw ([string]$existingAudit.meta.datum_izrade)
+    if ($null -ne $g1ReferenceDate) {
+        $g1ReferenceSource = "audit.meta.datum_izrade"
+    }
 }
 
-if ($null -eq $intakeDatum -or $null -eq $auditDatum) {
-    $g1StatusText = "G1_STATUS=MISSING"
-    $g1WarningReason = "Nedovoljno podataka za izračun roka (intake/audit datum)."
+$g1UsedSystemReference = $false
+if ($null -eq $g1ReferenceDate) {
+    $g1ReferenceDate = (Get-Date).Date
+    $g1ReferenceSource = "sistemski_datum"
+    $g1UsedSystemReference = $true
+}
+
+$g1Status = "OK"
+$g1DueDate = $null
+$g1Note = ""
+
+if ($null -eq $g1StartDate) {
+    $g1Status = "MISSING"
+    $g1Note = "Nedostaje trigger datum intake.meta.datum_izrade; rok nije izračunljiv."
 }
 else {
-    $daysDelta = [int](($auditDatum - $intakeDatum).TotalDays)
-    if ($daysDelta -gt 8) {
-        $g1StatusText = "G1_STATUS=LATE"
-        $g1WarningReason = "Rok je propušten prema dostupnim datumima (delta_dani=$daysDelta)."
+    $g1DueDate = $g1StartDate.AddDays($g1Days)
+
+    if ($g1UsedSystemReference) {
+        $g1Status = "INDETERMINATE"
+        $g1Note = "Referentni datum iz predmeta/audita nedostaje; korišten je sistemski datum."
     }
+    elseif ($g1ReferenceDate -gt $g1DueDate) {
+        $g1Status = "LATE"
+        $g1Note = "Rok je propušten prema referentnom datumu iz audita."
+    }
+    else {
+        $g1Status = "OK"
+        $g1Note = "Rok je u granici prema referentnom datumu iz audita."
+    }
+}
+
+$g1StatusText = "G1_STATUS=$g1Status"
+$g1WarningReason = ""
+if ($g1Status -eq "MISSING") {
+    $g1WarningReason = "Nedovoljno podataka za izračun roka (nedostaje trigger datum)."
+}
+elseif ($g1Status -eq "LATE") {
+    $g1WarningReason = "Rok je propušten prema dostupnim datumima."
+}
+elseif ($g1Status -eq "INDETERMINATE") {
+    $g1WarningReason = "Rok je izračunat uz sistemski referentni datum; status je informativan."
+}
+
+$g1 = [ordered]@{
+    status = $g1Status
+    start_date = (ConvertTo-VeritasDateString -Value $g1StartDate)
+    due_date = (ConvertTo-VeritasDateString -Value $g1DueDate)
+    days = $g1Days
+    note = $g1Note
 }
 
 $hasKontradikcije = $false
@@ -175,8 +235,8 @@ $hasCilj = -not [string]::IsNullOrWhiteSpace($ciljRaw)
 $g2Pass = (-not $hasKontradikcije) -and $hasOsporavanja -and $hasCilj
 $g3Pass = $hasSubsumcijaProlaz -or $hasKOL01
 
-$hasBlocker = (-not $g1Pass) -or (-not $g2Pass) -or (-not $g3Pass)
-$hasWarning = -not [string]::IsNullOrWhiteSpace($g1WarningReason)
+$hasBlocker = (-not $g2Pass) -or (-not $g3Pass)
+$hasWarning = $g1Status -ne "OK"
 
 $preflight = "ZELENO"
 if ($hasBlocker) {
@@ -223,7 +283,7 @@ function New-NalazRaw {
     }
 }
 
-$g1Result = if ($g1Pass) { "PASS" } else { "FAIL" }
+$g1Result = if ($g1Status -eq "OK") { "PASS" } else { "WARN" }
 $g2Result = if ($g2Pass) { "PASS" } else { "FAIL" }
 $g3Result = if ($g3Pass) { "PASS" } else { "FAIL" }
 $naplata = if ($preflight -eq "CRVENO") { "ZABRANJENO" } else { "DOPUSTENO" }
@@ -238,7 +298,7 @@ if (-not $g3Pass) {
 $classDetailText = if ($classDetails.Count -gt 0) { ($classDetails -join ", ") } else { "nema" }
 
 $nalazi = @(
-    (New-Nalaz -Kod "NAP-G1" -Opis "Provjera gate=G1; rezultat=$g1Result; $g1StatusText." -Pass:$g1Pass -Posljedica "G1 je soft pravilo u v1 i ne blokira samostalno."),
+    (New-Nalaz -Kod "NAP-G1" -Opis "Provjera gate=G1; rezultat=$g1Result; $g1StatusText." -Pass:$true -Posljedica "G1 je soft pravilo u v1 i ne blokira samostalno."),
     (New-Nalaz -Kod "NAP-G2" -Opis "Provjera gate=G2; rezultat=$g2Result." -Pass:$g2Pass -Posljedica "Činjenični prag iz intake ulaza obrađen."),
     (New-Nalaz -Kod "NAP-G3" -Opis "Provjera gate=G3; rezultat=$g3Result." -Pass:$g3Pass -Posljedica "Subsumcija/kolizija provjera izvršena."),
     (New-Nalaz -Kod "NAP-SEM" -Opis "Preflight naplate: preflight=$preflight." -Pass:($preflight -eq "ZELENO") -Posljedica "Semafor određuje blocked stanje po blocker/warning pravilima."),
@@ -250,11 +310,14 @@ if ($hasBlocker) {
 }
 
 if ($hasWarning) {
-    if ($g1StatusText -eq "G1_STATUS=MISSING") {
+    if ($g1Status -eq "MISSING") {
         $nalazi += (New-NalazRaw -Kod "NAP-G1-MISSING" -Opis $g1WarningReason -Tezina "SREDNJA" -Posljedica "G1 soft warning; ne blokira samostalno.")
     }
-    elseif ($g1StatusText -eq "G1_STATUS=LATE") {
+    elseif ($g1Status -eq "LATE") {
         $nalazi += (New-NalazRaw -Kod "NAP-G1-LATE" -Opis $g1WarningReason -Tezina "SREDNJA" -Posljedica "G1 soft warning; ne blokira samostalno.")
+    }
+    elseif ($g1Status -eq "INDETERMINATE") {
+        $nalazi += (New-NalazRaw -Kod "NAP-G1-INDETERMINATE" -Opis $g1WarningReason -Tezina "SREDNJA" -Posljedica "G1 soft warning; ne blokira samostalno.")
     }
 
     if (-not $hasBlocker) {
@@ -286,6 +349,7 @@ $doc = [ordered]@{
         }
     )
     nalazi = $nalazi
+    g1 = $g1
     rokovi = @()
     preporuceni_pravni_lijek = [ordered]@{
         naziv = ""

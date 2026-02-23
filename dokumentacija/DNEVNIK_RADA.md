@@ -807,3 +807,24 @@ Dodano: kanonski fixtures skup (10 scenarija) +
 `test_fixtures_audit_prekrsaji_v1.ps1`.
 ci_smoke sada hard-fail provjerava očekivani semafor i ključne NAP kodove
 po scenariju nakon generate/validate koraka.
+
+---
+
+## Datum: 23.02.2026 (P6 G1 rok kalkulator soft + analyzer hygiene)
+
+Uvedena je kanonska formula G1 roka u generatoru audita:
+trigger `intake.meta.datum_izrade`, rok `8` kalendarskih dana,
+izračun `g1.due_date = start + 8`.
+
+Dodani su statusi `OK|MISSING|LATE|INDETERMINATE` i opcionalni
+izlazni blok `g1` (`status`, `start_date`, `due_date`, `days`, `note`),
+uz konzistentno mapiranje warning nalaza (`NAP-G1-MISSING`,
+`NAP-G1-LATE`, `NAP-G1-INDETERMINATE`).
+
+Potvrđeno je soft pravilo: G1 nikad samostalno ne aktivira blocker ni
+CRVENO stanje.
+
+U istom patchu riješene su PSScriptAnalyzer higijenske stavke u
+generatoru: uklonjena je neiskorištena varijabla (`postupak` assignment)
+i funkcija je preimenovana iz `Try-ParseVeritasDate` u
+`ConvertTo-VeritasDate` (odobren glagol).
