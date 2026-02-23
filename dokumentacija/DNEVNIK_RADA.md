@@ -924,6 +924,32 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 23.02.2026 (R2 G1 LATE fixture za TOK_OBUSTAVA)
+
+Dodan je `scenario_23` za `TOK_OBUSTAVA` s očekivanjima
+`preflight=ZUTO` i `g1.status=LATE` bez blockera.
+
+LATE je postavljen istim pravilom kao i u ranijim R2 scenarijima:
+`audit_v1.meta.datum_izrade` je nakon
+`intake.meta.datum_izrade + 8 dana`
+(`10.02.2026.` -> `20.02.2026.`).
+
+Scenarij zahtijeva `NAP-G1-LATE` i `NAP-SEM`, te zabranjuje
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_OBUSTAVA × LATE`, a razvojni plan označava
+ZADATAK 49 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
+
+---
+
 ## Datum: 23.02.2026 (R3 G1 MISSING fixture za TOK_PN_PRIGOVOR)
 
 Dodan je `scenario_22` za `TOK_PN_PRIGOVOR` s očekivanjima
