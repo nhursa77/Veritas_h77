@@ -205,7 +205,7 @@ U ćeliji je naveden scenario_id i semafor.
 | --- | --- | --- | --- | --- | --- |
 | TOK_PN_PRIGOVOR | 17/ZEL | - | 13/ZUT | 11/ZUT | 01/ZEL,05/ZUT,09/CRV |
 | TOK_PRESUDA_ZALBA | 18/ZEL | 16/ZUT | - | - | 02/ZEL,06/ZUT,12/CRV |
-| TOK_RJESENJE_ZALBA | 19/ZEL | 14/ZUT | - | - | 03/ZEL,10/ZUT,07/CRV |
+| TOK_RJESENJE_ZALBA | 19/ZEL | 14/ZUT | 20/ZUT | - | 03/ZEL,10/ZUT,07/CRV |
 | TOK_OBUSTAVA | - | 15/ZUT | - | - | 04/ZUT,08/CRV |
 
 ### 10.2 Praznine matrice (trenutno stanje)
@@ -214,7 +214,7 @@ Prazne ćelije po toku i G1 statusu:
 
 - TOK_PN_PRIGOVOR: `MISSING`
 - TOK_PRESUDA_ZALBA: `LATE`, `INDETERMINATE`
-- TOK_RJESENJE_ZALBA: `LATE`, `INDETERMINATE`
+- TOK_RJESENJE_ZALBA: `INDETERMINATE`
 - TOK_OBUSTAVA: `OK`, `LATE`, `INDETERMINATE`
 
 Praznine u stupcu `—` (G1 nije predmet očekivanja):
