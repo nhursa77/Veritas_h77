@@ -896,3 +896,28 @@ Dokazne naredbe:
 - `Get-ChildItem ... scenario.json | ... | Sort-Object -Unique`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --name-only`
+
+---
+
+## Datum: 23.02.2026 (R2 G1 LATE fixture za TOK_PN_PRIGOVOR)
+
+Dodan je `scenario_13` za `TOK_PN_PRIGOVOR` s očekivanim
+`preflight=ZUTO` i `g1.status=LATE`, bez blockera.
+
+Deterministički uvjet je postavljen datumima:
+`intake.meta.datum_izrade=01.02.2026.` i
+`audit_v1.meta.datum_izrade=20.02.2026.`, pa je
+`due_date = 09.02.2026.` i referentni datum je nakon roka.
+
+Scenarij očekuje warning kod `NAP-G1-LATE`, a zabranjuje
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti i razvojni plan su ažurirani tako da je
+ZADATAK 39 označen kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
