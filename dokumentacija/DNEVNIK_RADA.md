@@ -828,3 +828,17 @@ U istom patchu riješene su PSScriptAnalyzer higijenske stavke u
 generatoru: uklonjena je neiskorištena varijabla (`postupak` assignment)
 i funkcija je preimenovana iz `Try-ParseVeritasDate` u
 `ConvertTo-VeritasDate` (odobren glagol).
+
+---
+
+## Datum: 23.02.2026 (fixture G1 INDETERMINATE soft)
+
+Dodan je novi kanonski fixture scenarij za `g1.status=INDETERMINATE` s
+očekivanjima `preflight=ZUTO` (bez blockera) i
+`NAP-G1-INDETERMINATE` warning kodom.
+
+Fixtures runner je minimalno proširen da, kada je definirano
+`expected.g1.status`, validira status iz generiranog audita.
+Istovremeno je dodana kompatibilna podrška za
+`expected.nap.must_include/must_not_include` uz postojeći
+`required_nap/forbidden_nap` format.

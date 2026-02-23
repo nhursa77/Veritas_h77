@@ -1,0 +1,42 @@
+{
+  "id": "SCN_ZUT_G1_INDET_11",
+  "tok": "TOK_PN_PRIGOVOR",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "izvor_intake": "fixture",
+      "datum_izrade": "10.02.2026."
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": ["dokaz"],
+    "opis_dogadaja": "Fixture yellow g1 indeterminate without audit reference date.",
+    "kontradikcije": {
+      "ima_kontradikcija": false,
+      "opis": ""
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": null,
+  "expected": {
+    "preflight": "ZUTO",
+    "g1": {
+      "status": "INDETERMINATE"
+    },
+    "nap": {
+      "must_include": ["NAP-G1-INDETERMINATE", "NAP-YEL-WARNING", "NAP-SEM"],
+      "must_not_include": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+    }
+  }
+}

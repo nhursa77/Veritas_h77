@@ -126,6 +126,26 @@ try {
         $generated = Get-Content -LiteralPath $runtimeGeneratedPath -Raw -Encoding UTF8 | ConvertFrom-Json
         $generatedCodes = @($generated.nalazi | ForEach-Object { [string]$_.kod })
 
+        $expectedG1Status = ""
+        if ($null -ne $scenario.expected.PSObject.Properties["g1"] -and $null -ne $scenario.expected.g1 -and $null -ne $scenario.expected.g1.PSObject.Properties["status"]) {
+            $expectedG1Status = [string]$scenario.expected.g1.status
+        }
+
+        if (-not [string]::IsNullOrWhiteSpace($expectedG1Status)) {
+            if ($null -eq $generated.PSObject.Properties["g1"] -or $null -eq $generated.g1 -or $null -eq $generated.g1.PSObject.Properties["status"]) {
+                Write-Host "ERROR: G1_STATUS_MISSING scenario=$scenarioId expected=$expectedG1Status"
+                Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+                exit 1
+            }
+
+            $actualG1Status = [string]$generated.g1.status
+            if ($actualG1Status -ne $expectedG1Status) {
+                Write-Host "ERROR: G1_STATUS_MISMATCH scenario=$scenarioId expected=$expectedG1Status actual=$actualG1Status"
+                Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+                exit 1
+            }
+        }
+
         $semNalaz = @($generated.nalazi | Where-Object { [string]$_.kod -eq "NAP-SEM" } | Select-Object -First 1)
         if ($semNalaz.Count -eq 0) {
             Write-Host "ERROR: NAP_SEM_MISSING scenario=$scenarioId"
@@ -148,7 +168,15 @@ try {
             exit 1
         }
 
-        foreach ($requiredCode in @($scenario.expected.required_nap)) {
+        $requiredNapCodes = @()
+        if ($null -ne $scenario.expected.PSObject.Properties["nap"] -and $null -ne $scenario.expected.nap -and $null -ne $scenario.expected.nap.PSObject.Properties["must_include"]) {
+            $requiredNapCodes = @($scenario.expected.nap.must_include)
+        }
+        elseif ($null -ne $scenario.expected.PSObject.Properties["required_nap"]) {
+            $requiredNapCodes = @($scenario.expected.required_nap)
+        }
+
+        foreach ($requiredCode in $requiredNapCodes) {
             $requiredCodeText = [string]$requiredCode
             if ([string]::IsNullOrWhiteSpace($requiredCodeText)) {
                 continue
@@ -161,7 +189,15 @@ try {
             }
         }
 
-        foreach ($forbiddenCode in @($scenario.expected.forbidden_nap)) {
+        $forbiddenNapCodes = @()
+        if ($null -ne $scenario.expected.PSObject.Properties["nap"] -and $null -ne $scenario.expected.nap -and $null -ne $scenario.expected.nap.PSObject.Properties["must_not_include"]) {
+            $forbiddenNapCodes = @($scenario.expected.nap.must_not_include)
+        }
+        elseif ($null -ne $scenario.expected.PSObject.Properties["forbidden_nap"]) {
+            $forbiddenNapCodes = @($scenario.expected.forbidden_nap)
+        }
+
+        foreach ($forbiddenCode in $forbiddenNapCodes) {
             $forbiddenCodeText = [string]$forbiddenCode
             if ([string]::IsNullOrWhiteSpace($forbiddenCodeText)) {
                 continue

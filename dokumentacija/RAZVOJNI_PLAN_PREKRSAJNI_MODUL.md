@@ -27,6 +27,8 @@ Implementirano:
    NAP-MIN klasama, semaforom CRVENO/ŽUTO/ZELENO i G1 soft pravilom.
 - P6 fixtures acceptance uveden: kanonski skup CRV/ŽUT/ZEL scenarija
    provjerava očekivani semafor i ključne NAP kodove u CI smoke pipelineu.
+- Fixtures set je dopunjen scenarijem za `g1.status=INDETERMINATE`
+   (soft warning), s očekivanim `preflight=ZUTO` i usklađenim NAP kodom.
 - P6 G1 rokovi usklađeni kao strojno pravilo (soft): kanonska formula
    (`start + 8 kalendarskih dana`), statusi
    `OK|MISSING|LATE|INDETERMINATE`, `g1.*` izlazni blok i validator provjera

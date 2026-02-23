@@ -93,6 +93,10 @@ Statusi G1 u `audit_generated_v1.json`:
 - `INDETERMINATE`: trigger postoji, ali referentni datum iz predmeta/audita
   nedostaje pa je korišten sistemski datum
 
+Kanonski fixtures acceptance mora sadržavati barem jedan scenarij koji
+deterministički proizvodi `g1.status=INDETERMINATE` i `preflight=ZUTO`
+(bez blockera), uz očekivani `NAP-G1-INDETERMINATE` warning.
+
 Mapiranje warning nalaza:
 
 - `MISSING` -> `NAP-G1-MISSING`
