@@ -924,6 +924,31 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 23.02.2026 (R3 G1 MISSING fixture za TOK_PN_PRIGOVOR)
+
+Dodan je `scenario_22` za `TOK_PN_PRIGOVOR` s očekivanjima
+`preflight=ZUTO` i `g1.status=MISSING` bez blockera.
+
+MISSING okidač je isti kao u prethodnim R3 scenarijima:
+izostavljen je `intake.meta.datum_izrade`, čime je
+`g1StartDate=null` i status postaje `MISSING`.
+
+Scenarij zahtijeva `NAP-G1-MISSING` i `NAP-SEM`, te zabranjuje
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_PN_PRIGOVOR × MISSING`, a razvojni plan označava
+ZADATAK 48 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
+
+---
+
 ## Datum: 23.02.2026 (R2 G1 LATE fixture za TOK_PRESUDA_ZALBA)
 
 Dodan je `scenario_21` za `TOK_PRESUDA_ZALBA` s očekivanjima

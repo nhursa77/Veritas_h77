@@ -64,6 +64,8 @@ Backlog fixtures popune (prioritet nakon kanona):
    (`TOK_RJESENJE_ZALBA` + `G1_STATUS=LATE` zatvoren scenarijem 20).
 - ZADATAK 47: DOVRŠENO (R2 proširenje)
    (`TOK_PRESUDA_ZALBA` + `G1_STATUS=LATE` zatvoren scenarijem 21).
+- ZADATAK 48: DOVRŠENO (R3 proširenje)
+   (`TOK_PN_PRIGOVOR` + `G1_STATUS=MISSING` zatvoren scenarijem 22).
 
 ## Definicije statusa (vrijedi u svim fazama)
 
