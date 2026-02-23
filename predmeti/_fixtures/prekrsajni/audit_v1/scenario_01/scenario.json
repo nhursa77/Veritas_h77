@@ -1,0 +1,46 @@
+{
+  "id": "SCN_ZEL_CLEAN_01",
+  "tok": "TOK_PN_PRIGOVOR",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_intake": "fixture"
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": ["dokaz"],
+    "opis_dogadaja": "Fixture green clean.",
+    "kontradikcije": {
+      "ima_kontradikcija": false,
+      "opis": ""
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": {
+    "meta": {
+      "datum_izrade": "22.02.2026."
+    },
+    "nalazi": [],
+    "gate_stanje": {
+      "blocked": false,
+      "blocked_razlog": ""
+    }
+  },
+  "expected": {
+    "preflight": "ZELENO",
+    "required_nap": ["NAP-G1", "NAP-G2", "NAP-G3", "NAP-SEM", "NAP-ODL", "NAP-GRN-OK"],
+    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-YEL-WARNING", "NAP-G1-MISSING", "NAP-G1-LATE"]
+  }
+}

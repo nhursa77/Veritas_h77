@@ -25,10 +25,13 @@ Implementirano:
    izlaznim nacrtom/validacijom.
 - P6 acceptance v1 uveden: generator `audit_generated_v1.json` radi s
    NAP-MIN klasama, semaforom CRVENO/ŽUTO/ZELENO i G1 soft pravilom.
+- P6 fixtures acceptance uveden: kanonski skup CRV/ŽUT/ZEL scenarija
+   provjerava očekivani semafor i ključne NAP kodove u CI smoke pipelineu.
 
 Sljedeće po redu:
 
-- P7 — proširenje generatora nacrta na izlaz iz `audit_generated_v1.json`.
+- P7 — proširenje fixture matrice i E2E veze
+   (`audit_generated_v1.json` -> izlazni nacrt -> manifest).
 
 ## Definicije statusa (vrijedi u svim fazama)
 
@@ -200,6 +203,8 @@ Gate: validiraj_audit.ps1 PROLAZ.
 ---
 
 ## FAZA P7 — Generator nacrta v1 (predložak + audit)
+
+Status: U TIJEKU (P6 + fixtures acceptance pripremljen za E2E proširenje).
 
 Cilj: iz predlozak.json + audit_v1.json generirati nacrt.
 

@@ -798,3 +798,12 @@ Pojačano: P6 generator uvodi NAP-MIN klase (blocker/warning/ok),
 deterministički semafor CRVENO/ŽUTO/ZELENO i G1 soft pravilo
 (NAP-G1-MISSING/NAP-G1-LATE bez samostalnog blockera), uz validaciju
 generated audita i prolaz smoke pipelinea.
+
+---
+
+## Datum: 22.02.2026 (P6 fixtures CRV/ŽUT/ZEL acceptance)
+
+Dodano: kanonski fixtures skup (10 scenarija) +
+`test_fixtures_audit_prekrsaji_v1.ps1`.
+ci_smoke sada hard-fail provjerava očekivani semafor i ključne NAP kodove
+po scenariju nakon generate/validate koraka.

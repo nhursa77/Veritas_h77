@@ -125,3 +125,26 @@ Standard je ispunjen kada:
 - dokument je u MAPA_DOKUMENTACIJE (u zasebnom zadatku, ne ovdje)
 - implementacija (kasniji zadatak) može proizvesti `audit_generated_v1.json`
   koji prolazi `SCHEMA_AUDIT_V1.json`
+
+## 10. Fixtures acceptance (kanonski)
+
+Za acceptance P6 obavezni su fixtures scenariji u putanji:
+
+- `predmeti/_fixtures/prekrsajni/audit_v1/**/scenario.json`
+
+Svaki scenarij mora sadržavati:
+
+- `intake` ulaz
+- `subsumcija` ulaz
+- opcionalni `audit_v1` ulaz
+- `expected.preflight` (`CRVENO|ZUTO|ZELENO`)
+- `expected.required_nap[]`
+- `expected.forbidden_nap[]`
+
+Fixtures runner mora za svaki scenarij provjeriti:
+
+- podudarnost semafora (`NAP-SEM` → `preflight=`)
+- prisutnost svih `required_nap` kodova
+- odsutnost svih `forbidden_nap` kodova
+
+Ako ijedan scenarij odstupa, acceptance pada (hard fail).

@@ -20,6 +20,7 @@ $predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
 $postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
 $auditGeneratorScript = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
 $auditGeneratedValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_generated_v1.ps1"
+$auditFixturesTestScript = Join-Path $PSScriptRoot "test_fixtures_audit_prekrsaji_v1.ps1"
 $tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
 $tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
@@ -157,6 +158,11 @@ try {
         [pscustomobject]@{
             Name = "validate_audit_generated_v1"
             Action = { & $auditGeneratedValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "test_fixtures_audit_prekrsaji_v1"
+            Action = { & $auditFixturesTestScript }
             Enabled = $true
         },
         # KANON: CI koristi isključivo generički runner run_tok_v1.ps1

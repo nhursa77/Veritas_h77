@@ -1,0 +1,36 @@
+{
+  "id": "SCN_ZUT_G1_MISSING_04",
+  "tok": "TOK_OBUSTAVA",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_OBUSTAVA",
+      "verzija_toka": "v1",
+      "izvor_intake": "fixture"
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": ["dokaz"],
+    "opis_dogadaja": "Fixture yellow missing date and audit.",
+    "kontradikcije": {
+      "ima_kontradikcija": false,
+      "opis": ""
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": null,
+  "expected": {
+    "preflight": "ZUTO",
+    "required_nap": ["NAP-G1-MISSING", "NAP-YEL-WARNING", "NAP-SEM"],
+    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+  }
+}

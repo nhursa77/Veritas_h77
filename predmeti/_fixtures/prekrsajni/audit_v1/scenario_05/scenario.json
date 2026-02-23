@@ -1,0 +1,45 @@
+{
+  "id": "SCN_ZUT_G1_MISSING_05",
+  "tok": "TOK_PN_PRIGOVOR",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "izvor_intake": "fixture"
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": ["procedura"],
+    "opis_dogadaja": "Fixture yellow missing intake date.",
+    "kontradikcije": {
+      "ima_kontradikcija": false,
+      "opis": ""
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": {
+    "meta": {
+      "datum_izrade": "22.02.2026."
+    },
+    "nalazi": [],
+    "gate_stanje": {
+      "blocked": false,
+      "blocked_razlog": ""
+    }
+  },
+  "expected": {
+    "preflight": "ZUTO",
+    "required_nap": ["NAP-G1-MISSING", "NAP-YEL-WARNING"],
+    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+  }
+}

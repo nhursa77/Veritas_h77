@@ -82,21 +82,21 @@ function Try-ParseVeritasDate {
         return $null
     }
 
-    $formats = @("dd.MM.yyyy.", "dd.MM.yyyy")
-    $parsed = [datetime]::MinValue
-    $ok = [datetime]::TryParseExact(
-        $Raw.Trim(),
-        $formats,
-        [System.Globalization.CultureInfo]::InvariantCulture,
-        [System.Globalization.DateTimeStyles]::None,
-        [ref]$parsed
-    )
-
-    if ($ok) {
-        return $parsed.Date
+    $match = [regex]::Match($Raw.Trim(), '^(\d{2})\.(\d{2})\.(\d{4})\.?$')
+    if (-not $match.Success) {
+        return $null
     }
 
-    return $null
+    $day = [int]$match.Groups[1].Value
+    $month = [int]$match.Groups[2].Value
+    $year = [int]$match.Groups[3].Value
+
+    try {
+        return (Get-Date -Year $year -Month $month -Day $day).Date
+    }
+    catch {
+        return $null
+    }
 }
 
 $hasKOL01 = $false
