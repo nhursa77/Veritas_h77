@@ -829,6 +829,31 @@ generatoru: uklonjena je neiskorištena varijabla (`postupak` assignment)
 i funkcija je preimenovana iz `Try-ParseVeritasDate` u
 `ConvertTo-VeritasDate` (odobren glagol).
 
+### Commitovi (23.02.2026.)
+
+Redoslijed unosa nije vremenski; dokaz redoslijeda je u commit listi.
+
+```text
+c8d7b97 P6: fixture G1 LATE TOK_OBUSTAVA (R2)
+f3d9fc8 P6: fixture G1 MISSING TOK_PN_PRIGOVOR (R3)
+fd4ca33 P6: fixture G1 LATE TOK_PRESUDA_ZALBA (R2)
+73fee5b P6: fixture G1 LATE TOK_RJESENJE_ZALBA (R2)
+bd97953 P6: fixture G1 OK TOK_RJESENJE_ZALBA (R4)
+2f73dde P6: fixture G1 OK TOK_PRESUDA_ZALBA (R4)
+38cf112 P6: fixture G1 OK (R4)
+8826cd4 P6: fixture G1 MISSING TOK_PRESUDA_ZALBA (R3)
+8a6af69 P6: fixture G1 MISSING TOK_OBUSTAVA (R3)
+cf70504 P6: fixture G1 MISSING (R3)
+b92122b P6: fixture G1 LATE (R2)
+b103f7f P6: fixture CRVENO blocker (R1)
+d479739 P6: prioritet praznina fixtures matrice
+a711d1e P6: kanon fixturesa + matrica pokrivenosti
+ad6c5f9 P6: fixture G1 INDETERMINATE (soft)
+4e26b02 P6: G1 rokovi kao strojno pravilo (soft)
+db8336d P6: fixtures CRV/ZUT/ZEL acceptance
+2235974 P6: acceptance NAP-MIN + semafor + G1 soft
+```
+
 ---
 
 ## Datum: 23.02.2026 (fixture G1 INDETERMINATE soft)
