@@ -924,6 +924,32 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 23.02.2026 (R2 G1 LATE fixture za TOK_PRESUDA_ZALBA)
+
+Dodan je `scenario_21` za `TOK_PRESUDA_ZALBA` s očekivanjima
+`preflight=ZUTO` i `g1.status=LATE` bez blockera.
+
+LATE je postavljen istim pravilom kao u ZAD 39 i ZAD 46:
+`audit_v1.meta.datum_izrade` je nakon
+`intake.meta.datum_izrade + 8 dana`
+(`10.02.2026.` -> `20.02.2026.`).
+
+Scenarij zahtijeva `NAP-G1-LATE` i `NAP-SEM`, te zabranjuje
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_PRESUDA_ZALBA × LATE`, a razvojni plan označava
+ZADATAK 47 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
+
+---
+
 ## Datum: 23.02.2026 (R2 G1 LATE fixture za TOK_RJESENJE_ZALBA)
 
 Dodan je `scenario_20` za `TOK_RJESENJE_ZALBA` s očekivanjima
