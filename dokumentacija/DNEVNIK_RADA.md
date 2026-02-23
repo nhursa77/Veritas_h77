@@ -860,3 +860,18 @@ podržana, ali deprecirana.
 
 Dodana je matrica pokrivenosti po toku i G1 statusu kako bi sljedeća
 proširenja fixturesa bila vođena jasnim prazninama pokrivenosti.
+
+---
+
+## Datum: 23.02.2026 (prioritet praznina fixtures matrice)
+
+Doc-only odluka: iz postojeće matrice izvučene su prazne ćelije po
+tokovima i G1 statusima, bez dodavanja novih scenarija.
+
+Usvojen je kanonski redoslijed rizika popune:
+R1 CRVENO/blocker po toku, R2 G1_LATE za prigovor/žalbu,
+R3 G1_MISSING, R4 G1_OK, R5 dodatni INDETERMINATE.
+
+U standard je dodan roadmap sljedećih fixturesa (SCN_12..SCN_20)
+kao plan implementacije za iduće zadatke, a razvojni plan je dopunjen
+backlog stavkama ZADATAK 38-42.

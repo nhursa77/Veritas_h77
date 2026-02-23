@@ -42,6 +42,19 @@ Sljedeće po redu:
 - P7 — proširenje fixture matrice i E2E veze
    (`audit_generated_v1.json` -> izlazni nacrt -> manifest).
 
+Backlog fixtures popune (prioritet nakon kanona):
+
+- ZADATAK 38: zatvoriti R1 prazninu
+   (`TOK_PRESUDA_ZALBA` CRVENO/blocker u stupcu `—`).
+- ZADATAK 39: zatvoriti R2 prazninu
+   (`TOK_PN_PRIGOVOR` + `G1_STATUS=LATE`).
+- ZADATAK 40: zatvoriti R3 praznine
+   (`G1_STATUS=MISSING` za PRESUDA, RJESENJE, OBUSTAVA).
+- ZADATAK 41: zatvoriti R4 praznine
+   (`G1_STATUS=OK` za sva 4 toka).
+- ZADATAK 42: proširiti R5
+   (`INDETERMINATE` za dodatne tokove nakon R1-R4).
+
 ## Definicije statusa (vrijedi u svim fazama)
 
 - PROLAZ: svi obavezni artefakti postoje + prolaze validacije/gate.

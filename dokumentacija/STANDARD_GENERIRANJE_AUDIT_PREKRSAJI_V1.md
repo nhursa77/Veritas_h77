@@ -208,4 +208,50 @@ U ćeliji je naveden scenario_id i semafor.
 | TOK_RJESENJE_ZALBA | - | - | - | - | 03/ZEL,10/ZUT,07/CRV |
 | TOK_OBUSTAVA | - | - | - | - | 04/ZUT,08/CRV |
 
+### 10.2 Praznine matrice (trenutno stanje)
+
+Prazne ćelije po toku i G1 statusu:
+
+- TOK_PN_PRIGOVOR: `OK`, `MISSING`, `LATE`
+- TOK_PRESUDA_ZALBA: `OK`, `MISSING`, `LATE`, `INDETERMINATE`
+- TOK_RJESENJE_ZALBA: `OK`, `MISSING`, `LATE`, `INDETERMINATE`
+- TOK_OBUSTAVA: `OK`, `MISSING`, `LATE`, `INDETERMINATE`
+
+Praznine u stupcu `—` (G1 nije predmet očekivanja):
+
+- TOK_PRESUDA_ZALBA nema CRVENO/blocker scenarij u ovom stupcu.
+
+### 10.3 Kanonski prioritet popune (rizik)
+
+Rangiranje vrijedi za sljedeću iteraciju fixturesa:
+
+1) R1 (top): CRVENO/blocker coverage po svakom toku.
+2) R2 (visoko): `G1_STATUS=LATE` za prigovor i žalbu.
+3) R3 (srednje-visoko): `G1_STATUS=MISSING` po tokovima.
+4) R4 (srednje): `G1_STATUS=OK` sanitarni scenariji po tokovima.
+5) R5 (niže): dodatni `INDETERMINATE` po drugim tokovima.
+
+### 10.4 Plan popune matrice (roadmap)
+
+Sljedeći fixturesi (bez implementacije u ovom zadatku):
+
+1) `SCN_CRV_G2_CONTRAD_PRESUDA_12`: TOK_PRESUDA_ZALBA,
+   preflight `CRVENO`, G1 `—`, obavezno `NAP-RED-BLOCKER` i `NAP-SEM`.
+2) `SCN_ZUT_G1_LATE_PRIGOVOR_13`: TOK_PN_PRIGOVOR,
+   preflight `ZUTO`, G1 `LATE`, obavezno `NAP-G1-LATE`, `NAP-YEL-WARNING`.
+3) `SCN_ZUT_G1_MISSING_PRESUDA_14`: TOK_PRESUDA_ZALBA,
+   preflight `ZUTO`, G1 `MISSING`, obavezno `NAP-G1-MISSING`.
+4) `SCN_ZUT_G1_MISSING_RJESENJE_15`: TOK_RJESENJE_ZALBA,
+   preflight `ZUTO`, G1 `MISSING`, obavezno `NAP-G1-MISSING`.
+5) `SCN_ZUT_G1_MISSING_OBUSTAVA_16`: TOK_OBUSTAVA,
+   preflight `ZUTO`, G1 `MISSING`, obavezno `NAP-G1-MISSING`.
+6) `SCN_ZEL_G1_OK_PRIGOVOR_17`: TOK_PN_PRIGOVOR,
+   preflight `ZELENO`, G1 `OK`, bez `NAP-G1-*` warning kodova.
+7) `SCN_ZEL_G1_OK_PRESUDA_18`: TOK_PRESUDA_ZALBA,
+   preflight `ZELENO`, G1 `OK`, bez `NAP-G1-*` warning kodova.
+8) `SCN_ZEL_G1_OK_RJESENJE_19`: TOK_RJESENJE_ZALBA,
+   preflight `ZELENO`, G1 `OK`, bez `NAP-G1-*` warning kodova.
+9) `SCN_ZEL_G1_OK_OBUSTAVA_20`: TOK_OBUSTAVA,
+   preflight `ZELENO`, G1 `OK`, bez `NAP-G1-*` warning kodova.
+
 Ako ijedan scenarij odstupa, acceptance pada (hard fail).
