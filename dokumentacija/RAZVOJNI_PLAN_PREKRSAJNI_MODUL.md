@@ -23,11 +23,12 @@ Implementirano:
    (`prigovor_pn` i `zalba_presuda_ili_rjesenje`).
 - Standard fer naplate i audit mapiranja su uvedeni i povezani s
    izlaznim nacrtom/validacijom.
+- P6 acceptance v1 uveden: generator `audit_generated_v1.json` radi s
+   NAP-MIN klasama, semaforom CRVENO/ŽUTO/ZELENO i G1 soft pravilom.
 
 Sljedeće po redu:
 
-- P6 — deterministički generator audita iz predmeta
-   (`audit_v1.json` iz ulaza predmeta, dokaza, normi i postupka).
+- P7 — proširenje generatora nacrta na izlaz iz `audit_generated_v1.json`.
 
 ## Definicije statusa (vrijedi u svim fazama)
 
@@ -175,6 +176,8 @@ Gate: validiraj_predloske.ps1 PROLAZ.
 ---
 
 ## FAZA P6 — Audit engine v1 (M0–M9 kao podaci, ne “AI priča”)
+
+Status: U TIJEKU (acceptance v1 uveden za NAP-MIN + semafor + G1 soft).
 
 Cilj: generirati audit_v1.json iz predmeta deterministički.
 

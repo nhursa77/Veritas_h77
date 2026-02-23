@@ -789,3 +789,12 @@ audit_generated_v1.json, minimalni NAP-* nalazi i STOP uvjeti.
 
 Dodano: generiraj_audit_prekrsaji_v1.ps1 + validiraj_audit_generated_v1.ps1
 ci_smoke generira i validira audit_generated prije run_tokovi.
+
+---
+
+## Datum: 22.02.2026 (P6 acceptance NAP-MIN + semafor + G1 soft)
+
+Pojačano: P6 generator uvodi NAP-MIN klase (blocker/warning/ok),
+deterministički semafor CRVENO/ŽUTO/ZELENO i G1 soft pravilo
+(NAP-G1-MISSING/NAP-G1-LATE bez samostalnog blockera), uz validaciju
+generated audita i prolaz smoke pipelinea.

@@ -49,38 +49,54 @@ predmeta, bez heuristike.
 
 Generator mora uvijek emitirati minimalno sljedeće nalaze:
 
-- `NAP-G1` (proceduralna dopuštenost) — u v1 može biti `PASS` ako je tok već
-  definiran i `gate_stanje.blocked=false`, inače `FAIL`.
-- `NAP-G2` (činjenični prag) — temelji se na `intake`:
-  - ako `kontradikcije.ima_kontradikcija=true` → `FAIL`
-  - ako je `osporavanja[]` prazno → `FAIL`
-  - ako je `cilj` prazan ili nije u enumu → `FAIL`
-  - inače `PASS`
-- `NAP-G3` (dokaz/strategija/proceduralna greška) — u v1:
-  - `PASS` ako `subsumcija` ima barem jedan element s rezultatom `PROLAZ`
-    ili postoji `KOL-01` u postojećem auditu
-  - inače `FAIL`
-- `NAP-SEM` (semafor) — `preflight=ZELENO|ZUTO|CRVENO`:
-  - CRVENO ako je bilo koji od G1/G2/G3 FAIL
-  - ZELENO ako su G1/G2/G3 PASS i rizik je nizak
-  - ŽUTO ako su G1/G2/G3 PASS, ali postoji rizik (npr. oslonac samo na
-    subsumpciju bez dokaza ili postoje kolizije)
-- `NAP-ODL` (odluka naplate) — `naplata=DOPUSTENO|ZABRANJENO`:
-  - ZABRANJENO ako je `preflight=CRVENO`
-  - DOPUSTENO ako je `preflight=ZELENO`
-  - DOPUSTENO ako je `preflight=ZUTO` uz obaveznu napomenu da je potreban
-    "Risk Disclosure" u izlazu
+- `NAP-G1` (proceduralna dopuštenost; soft u v1)
+- `NAP-G2` (činjenični prag)
+- `NAP-G3` (dokaz/strategija/proceduralna greška)
+- `NAP-SEM` (semafor)
+- `NAP-ODL` (odluka naplate)
+
+Uz navedene obavezne nalaze, generator koristi NAP-MIN klase za
+determinističko mapiranje semafora:
+
+- blocker klasa: `NAP-RED-BLOCKER`
+- warning klasa: `NAP-YEL-WARNING`
+- ok klasa: `NAP-GRN-OK`
+
+Pravila G2 i G3:
+
+- `NAP-G2` je `FAIL` ako je `kontradikcije.ima_kontradikcija=true`, ako je
+  `osporavanja[]` prazno/ne postoji, ili ako je `cilj` prazan/ne postoji;
+  inače je `PASS`.
+- `NAP-G3` je `PASS` ako `subsumcija` sadrži barem jedan element s
+  `rezultat="PROLAZ"` ili ako postoji `KOL-01` u postojećem `audit_v1.json`;
+  inače je `FAIL`.
+
+Pravila G1 (soft u v1):
+
+- G1 u v1 nikad ne postavlja blocker i nikad samostalno ne daje CRVENO.
+- ako nema dovoljno datuma za izračun roka, emitira se
+  `NAP-G1-MISSING` (warning)
+- ako je rok očito propušten prema dostupnim datumima, emitira se
+  `NAP-G1-LATE` (warning)
+- ako je rok uredan, G1 ostaje bez warning nalaza.
 
 Svaki nalaz mora imati: `kod`, `opis`, `tezina`, `posljedica`, `norma_ref`
 (ako nije primjenjivo u v1, `norma_ref` je prazan string).
 
-## 6. Gate stanje (gate_stanje)
+## 6. Semafor i gate_stanje
+
+Semafor je deterministički i računa se ovim redom:
+
+1) `CRVENO` ako postoji barem jedan blocker (`NAP-RED-BLOCKER`)
+2) `ŽUTO` ako nema blockera i postoji barem jedan warning
+   (`NAP-YEL-WARNING`, `NAP-G1-MISSING`, `NAP-G1-LATE`)
+3) `ZELENO` ako nema ni blockera ni warning nalaza
 
 Generator mora postaviti:
 
 - `gate_stanje.blocked`:
   - `true` ako je `preflight=CRVENO`
-  - `false` inače
+  - `false` ako je `preflight=ZUTO` ili `preflight=ZELENO`
 - `gate_stanje.blocked_razlog`:
   - prazan string ako nije blocked
   - kratki razlog ako jest blocked (npr. `preflight=CRVENO`)

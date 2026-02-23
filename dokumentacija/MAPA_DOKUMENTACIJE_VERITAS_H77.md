@@ -51,6 +51,10 @@ Uređuje cilj, osporavanja, događaj i obavezna polja za validaciju.
 Definira kanonski audit primjene i statusne ishode po modulima.
 Uređuje nalaze, gate stanje i mapiranje u izlazne nacrte.
 
+### `STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+Definira determinističko generiranje runtime audita za P6.
+Uređuje NAP-MIN klase, semafor i G1 soft pravilo.
+
 ### `STANDARD_JSON_SUBSUMPCIJA.md`
 Definira standard subsumpcije činjenica na norme i pravila.
 Uređuje argumentaciju i poveznice na normativna sidra.
@@ -107,20 +111,23 @@ Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
 2) `STANDARD_FER_NAPLATA_PREKRSAJI.md`
 3) `STANDARD_JSON_INTAKE_PREKRSAJI_V1.md`
 4) `STANDARD_JSON_AUDIT_PRIMJENE.md`
-5) `STANDARD_JSON_SUBSUMPCIJA.md`
-6) `STANDARD_JSON_HIJERARHIJA.md`
-7) `STANDARD_JSON_PREDLOZAK.md`
-8) `STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
-9) `dokumentacija/sheme/SCHEMA_INTAKE_PREKRSAJI_V1.json`
-10) `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
-11) `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
-12) `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
-13) `alati/validiraj_intake_prekrsaji_v1.ps1`
-14) `alati/validiraj_audit_v1.ps1`
-15) `alati/validiraj_subsumciju_v1.ps1`
-16) `alati/validiraj_predlozak_v1.ps1`
-17) `alati/run_tok_v1.ps1`
-18) `alati/ci_smoke.ps1`
+5) `STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+6) `STANDARD_JSON_SUBSUMPCIJA.md`
+7) `STANDARD_JSON_HIJERARHIJA.md`
+8) `STANDARD_JSON_PREDLOZAK.md`
+9) `STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+10) `dokumentacija/sheme/SCHEMA_INTAKE_PREKRSAJI_V1.json`
+11) `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
+12) `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
+13) `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
+14) `alati/validiraj_intake_prekrsaji_v1.ps1`
+15) `alati/validiraj_audit_v1.ps1`
+16) `alati/validiraj_subsumciju_v1.ps1`
+17) `alati/validiraj_predlozak_v1.ps1`
+18) `alati/generiraj_audit_prekrsaji_v1.ps1`
+19) `alati/validiraj_audit_generated_v1.ps1`
+20) `alati/run_tok_v1.ps1`
+21) `alati/ci_smoke.ps1`
 
 ---
 
