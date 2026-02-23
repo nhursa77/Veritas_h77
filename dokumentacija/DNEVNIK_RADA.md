@@ -921,3 +921,27 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `git diff --name-only`
+
+---
+
+## Datum: 23.02.2026 (R3 G1 MISSING fixture za TOK_RJESENJE_ZALBA)
+
+Dodan je `scenario_14` za `TOK_RJESENJE_ZALBA` s očekivanjima
+`preflight=ZUTO` i `g1.status=MISSING` bez blockera.
+
+Deterministički okidač `MISSING` je namjerno postavljen izostavljanjem
+`intake.meta.datum_izrade` (trigger datuma), uz validne G2/G3 ulaze.
+
+Scenarij zahtijeva `NAP-G1-MISSING` i `NAP-SEM`, te zabranjuje
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_RJESENJE_ZALBA × MISSING`, a razvojni plan označava
+ZADATAK 40 kao dovršen (prva R3 praznina).
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`

@@ -48,8 +48,8 @@ Backlog fixtures popune (prioritet nakon kanona):
    (`TOK_PRESUDA_ZALBA` CRVENO/blocker zatvoren scenarijem 12).
 - ZADATAK 39: DOVRŠENO
    (`TOK_PN_PRIGOVOR` + `G1_STATUS=LATE` zatvoren scenarijem 13).
-- ZADATAK 40: zatvoriti R3 praznine
-   (`G1_STATUS=MISSING` za PRESUDA, RJESENJE, OBUSTAVA).
+- ZADATAK 40: DOVRŠENO (prva R3 praznina)
+   (`TOK_RJESENJE_ZALBA` + `G1_STATUS=MISSING` zatvoren scenarijem 14).
 - ZADATAK 41: zatvoriti R4 praznine
    (`G1_STATUS=OK` za sva 4 toka).
 - ZADATAK 42: proširiti R5
