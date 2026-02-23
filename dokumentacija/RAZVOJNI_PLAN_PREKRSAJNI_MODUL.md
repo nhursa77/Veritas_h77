@@ -29,6 +29,9 @@ Implementirano:
    provjerava očekivani semafor i ključne NAP kodove u CI smoke pipelineu.
 - Fixtures set je dopunjen scenarijem za `g1.status=INDETERMINATE`
    (soft warning), s očekivanim `preflight=ZUTO` i usklađenim NAP kodom.
+- Fixtures kanon je stabiliziran: `expected.g1.status` i
+   `expected.nap.must_include/must_not_include` su preferirani format,
+   dok su `required_nap/forbidden_nap` označeni kao legacy (deprecirano).
 - P6 G1 rokovi usklađeni kao strojno pravilo (soft): kanonska formula
    (`start + 8 kalendarskih dana`), statusi
    `OK|MISSING|LATE|INDETERMINATE`, `g1.*` izlazni blok i validator provjera

@@ -842,3 +842,21 @@ Fixtures runner je minimalno proširen da, kada je definirano
 Istovremeno je dodana kompatibilna podrška za
 `expected.nap.must_include/must_not_include` uz postojeći
 `required_nap/forbidden_nap` format.
+
+---
+
+## Datum: 23.02.2026 (kanon fixturesa + matrica pokrivenosti)
+
+Dokumentacija fixtures acceptance je stabilizirana bez dodavanja novog koda
+ili novih scenarija.
+
+U standardu je definiran kanonski format `scenario.json`:
+`id` (scenario_id), opcionalni `naziv`, `tok`, ulazi i expected blok s
+preferiranim `expected.g1.status` te
+`expected.nap.must_include/must_not_include`.
+
+Legacy polja `required_nap/forbidden_nap` su eksplicitno označena kao
+podržana, ali deprecirana.
+
+Dodana je matrica pokrivenosti po toku i G1 statusu kako bi sljedeća
+proširenja fixturesa bila vođena jasnim prazninama pokrivenosti.

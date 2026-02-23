@@ -164,17 +164,48 @@ Za acceptance P6 obavezni su fixtures scenariji u putanji:
 
 Svaki scenarij mora sadržavati:
 
-- `intake` ulaz
-- `subsumcija` ulaz
-- opcionalni `audit_v1` ulaz
+- `id` (kanonski scenario_id)
+- opcionalni `naziv`
+- `tok`
+- ulaze: `intake`, `subsumcija`, opcionalni `audit_v1`
 - `expected.preflight` (`CRVENO|ZUTO|ZELENO`)
-- `expected.required_nap[]`
-- `expected.forbidden_nap[]`
+- opcionalni `expected.g1.status`
+- preferirano:
+  - `expected.nap.must_include[]`
+  - `expected.nap.must_not_include[]`
+- legacy (podržano, ali deprecirano):
+  - `expected.required_nap[]`
+  - `expected.forbidden_nap[]`
+
+Kanonska naming konvencija scenarija:
+
+- `SCN_<SEMAFOR>_<DOMENA>_<TOK?>_<ID>`
+
+Primjeri:
+
+- `SCN_ZUT_G1_INDET_11`
+- `SCN_CRV_G2_CONTRAD_07`
 
 Fixtures runner mora za svaki scenarij provjeriti:
 
 - podudarnost semafora (`NAP-SEM` → `preflight=`)
-- prisutnost svih `required_nap` kodova
-- odsutnost svih `forbidden_nap` kodova
+- podudarnost `g1.status` kada je definiran u expected
+- prisutnost svih kodova iz `expected.nap.must_include[]`
+- odsutnost svih kodova iz `expected.nap.must_not_include[]`
+
+Ako scenarij koristi legacy expected polja (`required_nap/forbidden_nap`),
+runner ih i dalje mora prihvatiti radi kompatibilnosti v1.
+
+### 10.1 Matrica pokrivenosti fixturesa (v1)
+
+Matrica je kanonski pregled pokrivenosti po toku i G1 statusu.
+U ćeliji je naveden scenario_id i semafor.
+
+| Tok | OK | MISSING | LATE | INDETERMINATE | — |
+| --- | --- | --- | --- | --- | --- |
+| TOK_PN_PRIGOVOR | - | - | - | scenario_11/ZUTO | 01/ZEL,05/ZUT,09/CRV |
+| TOK_PRESUDA_ZALBA | - | - | - | - | 02/ZEL,06/ZUT |
+| TOK_RJESENJE_ZALBA | - | - | - | - | 03/ZEL,10/ZUT,07/CRV |
+| TOK_OBUSTAVA | - | - | - | - | 04/ZUT,08/CRV |
 
 Ako ijedan scenarij odstupa, acceptance pada (hard fail).
