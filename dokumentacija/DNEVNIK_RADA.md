@@ -924,6 +924,32 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 23.02.2026 (R4 G1 OK sanitarni fixture za TOK_RJESENJE_ZALBA)
+
+Dodan je `scenario_19` za `TOK_RJESENJE_ZALBA` s očekivanjima
+`preflight=ZELENO` i `g1.status=OK`.
+
+Datumi su postavljeni unutar roka:
+`intake.meta.datum_izrade=10.02.2026.` i
+`audit_v1.meta.datum_izrade=12.02.2026.`.
+
+Scenarij zabranjuje G1 warning kodove (`NAP-G1-MISSING`,
+`NAP-G1-LATE`, `NAP-G1-INDETERMINATE`) i blocker kod
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_RJESENJE_ZALBA × OK`, a razvojni plan označava
+ZADATAK 45 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
+
+---
+
 ## Datum: 23.02.2026 (R4 G1 OK sanitarni fixture za TOK_PRESUDA_ZALBA)
 
 Dodan je `scenario_18` za `TOK_PRESUDA_ZALBA` s očekivanjima

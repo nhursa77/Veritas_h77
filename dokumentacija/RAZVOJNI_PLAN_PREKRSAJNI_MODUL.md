@@ -58,6 +58,8 @@ Backlog fixtures popune (prioritet nakon kanona):
    (`TOK_PN_PRIGOVOR` + `G1_STATUS=OK` zatvoren scenarijem 17).
 - ZADATAK 44: DOVRŠENO (druga R4 sanitarna pokrivenost)
    (`TOK_PRESUDA_ZALBA` + `G1_STATUS=OK` zatvoren scenarijem 18).
+- ZADATAK 45: DOVRŠENO (treća R4 sanitarna pokrivenost)
+   (`TOK_RJESENJE_ZALBA` + `G1_STATUS=OK` zatvoren scenarijem 19).
 
 ## Definicije statusa (vrijedi u svim fazama)
 

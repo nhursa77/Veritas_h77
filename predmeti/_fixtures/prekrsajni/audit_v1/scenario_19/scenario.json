@@ -1,0 +1,58 @@
+{
+  "id": "SCN_ZEL_G1_OK_TOK_RJESENJE_ZALBA_19",
+  "tok": "TOK_RJESENJE_ZALBA",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_RJESENJE_ZALBA",
+      "verzija_toka": "v1",
+      "izvor_intake": "fixture",
+      "datum_izrade": "10.02.2026."
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": [
+      "dokaz"
+    ],
+    "opis_dogadaja": "Fixture green g1 ok for rjesenje tok.",
+    "kontradikcije": {
+      "ima_kontradikcija": false,
+      "opis": ""
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "datum_izrade": "12.02.2026."
+    },
+    "nalazi": []
+  },
+  "expected": {
+    "preflight": "ZELENO",
+    "g1": {
+      "status": "OK"
+    },
+    "nap": {
+      "must_include": [
+        "NAP-SEM",
+        "NAP-GRN-OK"
+      ],
+      "must_not_include": [
+        "NAP-G1-MISSING",
+        "NAP-G1-LATE",
+        "NAP-G1-INDETERMINATE",
+        "NAP-RED-BLOCKER"
+      ]
+    }
+  }
+}
