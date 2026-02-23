@@ -204,7 +204,7 @@ U ćeliji je naveden scenario_id i semafor.
 | Tok | OK | MISSING | LATE | INDETERMINATE | — |
 | --- | --- | --- | --- | --- | --- |
 | TOK_PN_PRIGOVOR | - | - | - | scenario_11/ZUTO | 01/ZEL,05/ZUT,09/CRV |
-| TOK_PRESUDA_ZALBA | - | - | - | - | 02/ZEL,06/ZUT |
+| TOK_PRESUDA_ZALBA | - | - | - | - | 02/ZEL,06/ZUT,12/CRV |
 | TOK_RJESENJE_ZALBA | - | - | - | - | 03/ZEL,10/ZUT,07/CRV |
 | TOK_OBUSTAVA | - | - | - | - | 04/ZUT,08/CRV |
 
@@ -219,7 +219,7 @@ Prazne ćelije po toku i G1 statusu:
 
 Praznine u stupcu `—` (G1 nije predmet očekivanja):
 
-- TOK_PRESUDA_ZALBA nema CRVENO/blocker scenarij u ovom stupcu.
+- nema praznina za CRVENO/blocker coverage po tokovima.
 
 ### 10.3 Kanonski prioritet popune (rizik)
 

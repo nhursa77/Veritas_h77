@@ -1,0 +1,52 @@
+{
+  "id": "SCN_CRV_TOK_PRESUDA_ZALBA_12",
+  "tok": "TOK_PRESUDA_ZALBA",
+  "intake": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PRESUDA_ZALBA",
+      "verzija_toka": "v1",
+      "izvor_intake": "fixture",
+      "datum_izrade": "12.02.2026."
+    },
+    "cilj": "izdvajanje_dokaza",
+    "osporavanja": [
+      "dokaz"
+    ],
+    "opis_dogadaja": "Fixture red blocker for presuda tok via G2 contradiction.",
+    "kontradikcije": {
+      "ima_kontradikcija": true,
+      "opis": "Kontradikcija aktivira G2 blocker."
+    }
+  },
+  "subsumcija": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001"
+    },
+    "elementi_bica": [
+      {
+        "naziv_elementa": "Radnja",
+        "rezultat": "PROLAZ"
+      }
+    ]
+  },
+  "audit_v1": {
+    "meta": {
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "datum_izrade": "12.02.2026."
+    },
+    "nalazi": []
+  },
+  "expected": {
+    "preflight": "CRVENO",
+    "nap": {
+      "must_include": [
+        "NAP-RED-BLOCKER",
+        "NAP-SEM"
+      ],
+      "must_not_include": [
+        "NAP-GRN-OK"
+      ]
+    }
+  }
+}

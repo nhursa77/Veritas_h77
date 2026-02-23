@@ -44,8 +44,8 @@ Sljedeće po redu:
 
 Backlog fixtures popune (prioritet nakon kanona):
 
-- ZADATAK 38: zatvoriti R1 prazninu
-   (`TOK_PRESUDA_ZALBA` CRVENO/blocker u stupcu `—`).
+- ZADATAK 38: DOVRŠENO
+   (`TOK_PRESUDA_ZALBA` CRVENO/blocker zatvoren scenarijem 12).
 - ZADATAK 39: zatvoriti R2 prazninu
    (`TOK_PN_PRIGOVOR` + `G1_STATUS=LATE`).
 - ZADATAK 40: zatvoriti R3 praznine

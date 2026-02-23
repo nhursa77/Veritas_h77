@@ -875,3 +875,24 @@ R3 G1_MISSING, R4 G1_OK, R5 dodatni INDETERMINATE.
 U standard je dodan roadmap sljedećih fixturesa (SCN_12..SCN_20)
 kao plan implementacije za iduće zadatke, a razvojni plan je dopunjen
 backlog stavkama ZADATAK 38-42.
+
+---
+
+## Datum: 23.02.2026 (R1 CRVENO blocker fixture za postojeći tok)
+
+Dodan je `scenario_12` za `TOK_PRESUDA_ZALBA` s determinističkim
+očekivanjem `preflight=CRVENO` i obaveznim blocker kodom
+`NAP-RED-BLOCKER`.
+
+Scenarij koristi postojeći mehanizam blockera (`G2` fail kroz
+`kontradikcije.ima_kontradikcija=true`) bez izmjena generatora.
+
+Matrica pokrivenosti je dopunjena tako da je R1 praznina zatvorena,
+a razvojni plan označava ZADATAK 38 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `Get-ChildItem ... scenario.json | ... | Sort-Object -Unique`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --name-only`
