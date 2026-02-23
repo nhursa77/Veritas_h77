@@ -50,8 +50,8 @@ Backlog fixtures popune (prioritet nakon kanona):
    (`TOK_PN_PRIGOVOR` + `G1_STATUS=LATE` zatvoren scenarijem 13).
 - ZADATAK 40: DOVRŠENO (prva R3 praznina)
    (`TOK_RJESENJE_ZALBA` + `G1_STATUS=MISSING` zatvoren scenarijem 14).
-- ZADATAK 41: zatvoriti R4 praznine
-   (`G1_STATUS=OK` za sva 4 toka).
+- ZADATAK 41: DOVRŠENO (druga R3 praznina)
+   (`TOK_OBUSTAVA` + `G1_STATUS=MISSING` zatvoren scenarijem 15).
 - ZADATAK 42: proširiti R5
    (`INDETERMINATE` za dodatne tokove nakon R1-R4).
 
