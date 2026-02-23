@@ -54,6 +54,8 @@ Backlog fixtures popune (prioritet nakon kanona):
    (`TOK_OBUSTAVA` + `G1_STATUS=MISSING` zatvoren scenarijem 15).
 - ZADATAK 42: DOVRŠENO (treća R3 praznina)
    (`TOK_PRESUDA_ZALBA` + `G1_STATUS=MISSING` zatvoren scenarijem 16).
+- ZADATAK 43: DOVRŠENO (prva R4 sanitarna pokrivenost)
+   (`TOK_PN_PRIGOVOR` + `G1_STATUS=OK` zatvoren scenarijem 17).
 
 ## Definicije statusa (vrijedi u svim fazama)
 

@@ -924,6 +924,33 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 23.02.2026 (R4 G1 OK sanitarni fixture za TOK_PN_PRIGOVOR)
+
+Dodan je `scenario_17` za `TOK_PN_PRIGOVOR` s očekivanjima
+`preflight=ZELENO` i `g1.status=OK`.
+
+Datumi su postavljeni deterministički unutar roka:
+`intake.meta.datum_izrade=10.02.2026.` i
+`audit_v1.meta.datum_izrade=12.02.2026.`, pa je
+referentni datum unutar granice od 8 dana.
+
+Scenarij zabranjuje G1 warning kodove (`NAP-G1-MISSING`,
+`NAP-G1-LATE`, `NAP-G1-INDETERMINATE`) i blocker kod
+`NAP-RED-BLOCKER`.
+
+Matrica pokrivenosti je dopunjena za ćeliju
+`TOK_PN_PRIGOVOR × OK`, a razvojni plan označava
+ZADATAK 43 kao dovršen.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `git diff --name-only`
+
+---
+
 ## Datum: 23.02.2026 (R3 G1 MISSING fixture za TOK_PRESUDA_ZALBA)
 
 Dodan je `scenario_16` za `TOK_PRESUDA_ZALBA` s očekivanjima
