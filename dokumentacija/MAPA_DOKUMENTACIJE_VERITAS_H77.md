@@ -96,6 +96,10 @@ Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
 Definira dokazne terminološke izvore za višejezične ekvivalente.
 Uređuje ulogu CURIA/IATE izvora i ograničenja prema pravnom učinku.
 
+### `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
+Definira kanonski format normaliziranog terminološkog zapisa.
+Uređuje sljedivost prema raw izvozu bez pravnog tumačenja.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -108,7 +112,8 @@ Uređuje ulogu CURIA/IATE izvora i ograničenja prema pravnom učinku.
 6) `RAZVOJNI_PLAN_VERITAS_H77.md`
 7) `DNEVNIK_RADA.md`
 8) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
-9) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+9) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
+10) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -156,4 +161,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
 - Terminološki dokazni i operativni izvori pripadaju
   `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
-  izvodi `alati/pretvori_curia_xlsx_u_json.py`.
+  izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski
+  sloj izvodi `alati/normaliziraj_curia_terminologiju.py` prema
+  `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`.
