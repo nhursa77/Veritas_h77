@@ -1255,8 +1255,6 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
----
-
 ## Datum: 18.03.2026 (jezgrene natuknice iz pilot-skupa)
 
 Iz postojećeg pilot-skupa izdvojen je uži skup jezgrenih rječničkih
@@ -1285,8 +1283,6 @@ Dokazne naredbe:
 - `git diff --name-only`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
 
 ## Datum: 18.03.2026 (pilot-skup natuknica za prvo NN sidrenje)
 
@@ -1430,4 +1426,34 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+## Datum: 18.03.2026 (tvrda zastita DNEVNIK_RADA.md)
 
+U projektnoj dokumentaciji uvedena je tvrda zaštita datoteke
+`dokumentacija/DNEVNIK_RADA.md` kroz novi kanonski standard i dopune
+metodologije i mape dokumentacije.
+
+Dodan je novi dokument:
+- `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
+
+Uvedena su pravila:
+- dnevnik rada je zaštićena evidencijska datoteka,
+- dopušten je samo append,
+- potpuno prepisivanje je zabranjeno,
+- sanacija je dopuštena samo po posebnom zadatku,
+- prije i poslije svake izmjene obavezni su dokazni ispisi završnog dijela
+  datoteke.
+
+Dokazne naredbe:
+
+- `Write-Host "DNEVNIK_TAIL_BEFORE_BEGIN"`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 40`
+- `Write-Host "DNEVNIK_TAIL_BEFORE_END"`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `Write-Host "DNEVNIK_TAIL_AFTER_BEGIN"`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 60`
+- `Write-Host "DNEVNIK_TAIL_AFTER_END"`
+
+---

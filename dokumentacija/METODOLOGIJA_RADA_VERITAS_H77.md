@@ -58,7 +58,8 @@ Veritas nije:
 
 Svi izlazni dokumenti Veritasa su **nacrti**.
 
-**Pravni učinak nastaje isključivo kada osoba koja je zatražila izradu dokumenta:**
+**Pravni učinak nastaje isključivo kada osoba koja je zatražila izradu
+dokumenta:**
 
 1) pročita dokument,
 2) potvrdi razumijevanje sadržaja,
@@ -76,7 +77,8 @@ Ovo je temelj fer i transparentnog rada:
 
 ## 4) Hijerarhija normi (pravilo odlučivanja)
 
-Veritas primjenjuje hijerarhiju normi prema načelu nadređenosti i ustavnosti:
+Veritas primjenjuje hijerarhiju normi prema načelu nadređenosti i
+ustavnosti:
 
 1) Prirodna prava i načela pravičnosti (kao interpretativno mjerilo)
 2) Međunarodni akti temeljnih prava (npr. Opća deklaracija o ljudskim pravima
@@ -88,8 +90,10 @@ i relevantni paktovi)
 **Pravilo kolizije:** niži akt ne smije derogirati viši. U slučaju kolizije:
 
 - Veritas predlaže argument ustavne/konvencijske neusklađenosti,
-- provodi test razmjernosti (nužnost, prikladnost, razmjernost u užem smislu),
-- bilježi povredu temeljnih prava i predlaže proceduralno zakonit put osporavanja.
+- provodi test razmjernosti (nužnost, prikladnost, razmjernost u užem
+   smislu),
+- bilježi povredu temeljnih prava i predlaže proceduralno zakonit put
+   osporavanja.
 
 ---
 
@@ -112,7 +116,8 @@ Narodne novine su obavezni primarni izvor za:
 
 Svaki NORMA zapis mora imati vezu na NN arhivu:
 
-- putanju do arhivirane izvorne datoteke (`izvor_nn.html` ili `izvor_nn.pdf`),
+- putanju do arhivirane izvorne datoteke (`izvor_nn.html` ili
+   `izvor_nn.pdf`),
 - putanju do `meta.json`,
 - evidentiran SHA-256 datoteke.
 
@@ -131,7 +136,8 @@ Nije dio obaveznog primarnog toka i ne može zamijeniti NN arhivu.
 Ako postoji razlika između pomoćnog izvora i službene objave:
 
 - prednost ima službena objava u Narodnim novinama,
-- zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu o odstupanju.
+- zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu
+   o odstupanju.
 
 ---
 
@@ -149,8 +155,10 @@ dvije povezane baze u JSON formatu:
 ### 6.2 Baza procedure (PROCEDURA JSON)
 
 - chunk = proceduralni korak / pravilo postupanja
-- sadrži: okidače, preduvjete, rokove, nadležnost, korake, iznimke, pravne lijekove
-- svaki proceduralni korak mora imati uporišta na relevantne članke iz baze normi
+- sadrži: okidače, preduvjete, rokove, nadležnost, korake, iznimke,
+  pravne lijekove
+- svaki proceduralni korak mora imati uporišta na relevantne članke iz
+   baze normi
 
 ---
 
@@ -163,9 +171,11 @@ Veritas radi po standardnom ciklusu:
 2) **Dokazi**
    - prikupljanje priloga i izjava; minimalni dokaz za pokretanje
 3) **Norme**
-   - identifikacija relevantnih članaka; provjera izvora i sidara; stanje na dan
+   - identifikacija relevantnih članaka; provjera izvora i sidara;
+     stanje na dan
 4) **Procedura**
-   - određivanje proceduralne grane; rokovi; nadležnost; redoslijed; pravni lijek
+   - određivanje proceduralne grane; rokovi; nadležnost; redoslijed;
+     pravni lijek
 5) **Output**
    - nacrt dokumenta + proceduralni plan + lista izvora i priloga
 6) **Potpis**
@@ -319,3 +329,20 @@ Opća pravila:
 
 - Veritas garantira proceduru; ishod i potpis nisu garantirani.
 - Veritas generira na upit; slanje/potpis je odluka čovjeka.
+
+---
+
+## 16) Zaštita datoteke dnevnika rada
+
+`dokumentacija/DNEVNIK_RADA.md` je zaštićena evidencijska datoteka.
+
+Za dnevnik rada vrijede sljedeća obvezna pravila:
+
+- dopušten je isključivo append novi unos na kraj datoteke,
+- potpuno prepisivanje ili brisanje sadržaja je zabranjeno,
+- sanacija postojećeg sadržaja dopuštena je samo po posebnom zadatku,
+- prije i poslije svake izmjene mora postojati dokazni ispis završnog dijela
+   datoteke (`Get-Content -Tail`).
+
+Ako nije ispunjen bilo koji uvjet iz ove točke, izmjena dnevnika se smatra
+nekanonskom i ne ulazi u commit.

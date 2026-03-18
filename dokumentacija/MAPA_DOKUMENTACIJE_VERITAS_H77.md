@@ -6,7 +6,7 @@ Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
 ---
 
-## 1) Kanon u 10 točaka
+## 1) Kanon u 11 točaka
 
 1) Jezik dokumentacije i zapisa je hrvatski.
 2) Datumi se zapisuju u formatu `DD.MM.YYYY.`.
@@ -18,6 +18,7 @@ Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 8) zakon.hr je operativni izvor, Narodne novine su dokazna sidra.
 9) NORMA JSON i POSTUPAK JSON su obavezni standardi.
 10) Svaki značajan korak evidentira se u `DNEVNIK_RADA.md`.
+11) `DNEVNIK_RADA.md` je append-only i ne smije se prepisivati.
 
 ---
 
@@ -87,6 +88,10 @@ modula kao pilot domenu.
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
 
+### `STANDARD_ZASTITA_DNEVNIKA_RADA.md`
+Definira tvrdu zaštitu datoteke dnevnika rada.
+Uređuje append-only unos, zabranu prepisivanja i dokazne ispise prije/poslije.
+
 ### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 Zamrzava trenutno stanje repozitorija za nastavak rada bez
 kopanja po povijesti.
@@ -143,17 +148,18 @@ Uređuje balans između uskog jezgrenog i općeg postupovnog obuhvata.
 5) `STANDARD_JSON_POSTUPAK.md`
 6) `RAZVOJNI_PLAN_VERITAS_H77.md`
 7) `DNEVNIK_RADA.md`
-8) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
-9) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
-10) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
-11) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
-12) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
-13) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
-14) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
-15) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
-16) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
-17) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
-18) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+8) `STANDARD_ZASTITA_DNEVNIKA_RADA.md`
+9) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
+10) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
+11) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
+12) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
+13) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+14) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
+15) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+16) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+17) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+18) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+19) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -199,6 +205,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `METODOLOGIJA_RADA_VERITAS_H77.md`.
 - Razvojne faze i redoslijed rada pripadaju `RAZVOJNI_PLAN_VERITAS_H77.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
+- Zaštita dnevnika rada pripada
+  `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
 - Terminološki dokazni i operativni izvori pripadaju
   `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
   izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski

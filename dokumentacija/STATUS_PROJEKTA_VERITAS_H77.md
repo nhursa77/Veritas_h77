@@ -4,11 +4,13 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `ee3bc92` - Rjecnik: izdvojene jezgrene natuknice
-  za NN sidrenje
+- Trenutni commit: `d1e6429` - docs: saniran kronoloski redoslijed dnevnika
+  rada
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
 - Zadnji dovršeni terminološki zadatak: ZADATAK 63
   (osnovni postupovni skup za prvo NN sidrenje)
+- Aktivni dokumentacijski guard: append-only zaštita
+  `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeći zadatak po redu: ručno NN sidrenje osnovnog postupovnog skupa
   (sidra, članci, stavci i točke)
 
@@ -41,6 +43,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+- `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
 
