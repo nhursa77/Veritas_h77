@@ -949,209 +949,6 @@ Dokazne naredbe:
 
 ---
 
-## Datum: 18.03.2026 (osnovni postupovni skup iz jezgre i pilota)
-
-Iz pilot-skupa i već izdvojene jezgre formiran je osnovni postupovni skup
-rječničkih natuknica za prvi praktični ciklus NN sidrenja.
-
-Napravljena je skripta
-`alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`.
-
-Dodani su izlazi:
-- `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
-- `baza_terminologije/rjecnik/
-  osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
-
-Dodan je standard:
-- `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
-
-Skup zadržava svih 7 jezgrenih natuknica i dodaje opće natuknice koje su
-deterministički prepoznate kao postupovno relevantne bez uskog konteksta.
-
-Dokazne naredbe:
-
-- `python .\alati\prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (jezgrene natuknice iz pilot-skupa)
-
-Iz postojećeg pilot-skupa izdvojen je uži skup jezgrenih rječničkih
-natuknica za prvi stvarni ciklus NN sidrenja.
-
-Napravljena je skripta `alati/izdvoji_jezgrene_natuknice_iz_pilota.py`.
-
-Dodani su izlazi:
-- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json`
-- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje_manifest.json`
-
-Dodan je standard:
-- `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
-
-Jezgreni skup zadržava puni sadržaj pilot-zapisa i dodaje polja
-`jezgrena_natuknica=true`, `osnova_jezgrenosti` i
-`redoslijed_jezgrenog_skupa`.
-
-Složeni i izvedeni izrazi izdvojeni su u popis odbačenih natuknica u
-manifestu; NN sidra i definicije nisu dodavane.
-
-Dokazne naredbe:
-
-- `python .\alati\izdvoji_jezgrene_natuknice_iz_pilota.py`
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (pilot-skup natuknica za prvo NN sidrenje)
-
-Iz početnog skupa rječničkih natuknica izdvojen je mali pilot-skup za prvi
-operativni ciklus ručnog NN sidrenja.
-
-Napravljena je skripta `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py`.
-
-Dodani su izlazi:
-- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json`
-- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json`
-
-Dodan je standard:
-- `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
-
-Svaka izdvojena natuknica zadržava puni izvorni sadržaj i dodatna
-pilot-polja: `pilot_skup=true`, `osnova_ulaska_u_pilot`,
-`redoslijed_pilota`.
-
-Pilot-sloj ne uvodi NN sidra ni definicije; zadržava
-`status_validacije=CEKA_NN_SIDRO`.
-
-Dokazne naredbe:
-
-- `python .\alati\izdvoji_pilot_natuknice_za_nn_sidrenje.py`
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (kanonski model rječničke natuknice)
-
-Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
-iz postojećeg skupa `nn_sidrenju_podobni_pojmovi.json` generiran je početni
-operativni skup bez NN sidra.
-
-Napravljena je skripta `alati/izgradi_pocetne_rjecnicke_natuknice.py`.
-
-Dodani su izlazi:
-- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice.json`
-- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice_manifest.json`
-
-Dodan je standard:
-- `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
-
-U ovom koraku sva polja bez dokazive osnove ostavljena su na praznim
-vrijednostima (`null`, `[]`, `{}`), `nn_sidra` je prazna struktura spremna
-za buduće sidrenje, `status_validacije=CEKA_NN_SIDRO`, a
-`razina_pouzdanosti` je prenesena iz ulaza gdje postoji.
-
-Dokazne naredbe:
-
-- `python .\alati\izgradi_pocetne_rjecnicke_natuknice.py`
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (ciscenje prioritetnog uzorka za NN sidrenje)
-
-Iz prioritetnog uzorka izdvojen je uži skup kandidata tekstualno podobnih
-za budući NN pregled, uz uklanjanje očitog tehničkog šuma.
-
-Napravljena je skripta `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py`
-koja zadržane zapise označava s
-`status_podobnosti_nn_sidrenja=PODOBAN_ZA_NN_PREGLED` i jednom od osnova
-`PRAVNI_NAZIV`, `PROCESNI_POJAM`, `AKT_ILI_RADNJA`.
-
-Dodani su izlazi:
-- `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
-- `baza_terminologije/mape/eu_prema_nn/
-  nn_sidrenju_podobni_pojmovi_manifest.json`
-
-Dodan je standard `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`.
-
-Dokazne naredbe:
-
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (prioritetni uzorak za NN sidrenje)
-
-Iz postojećeg skupa EU -> NN prijedloga mapiranja izdvojen je prioritetni
-radni uzorak kandidata za prvo NN sidrenje, bez dohvaćanja i bez potvrde
-članaka Narodnih novina.
-
-Napravljena je skripta `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py`
-koja deterministički označava prioritet po osnovama:
-`POUZDANOST_SREDNJA`, `UCESTALI_KANDIDAT`, `PROCESNI_NAZIV`.
-
-Dodani su izlazi:
-- `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
-- `baza_terminologije/mape/eu_prema_nn/
-  prioritetni_uzorak_za_nn_sidrenje_manifest.json`
-
-Dodan je standard
-`STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`.
-
-Dokazne naredbe:
-
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
-## Datum: 18.03.2026 (EU most prema potencijalnim NN pojmovima)
-
-Iz hrvatski relevantnog CURIA skupa dodan je tehnički sloj mapiranja prema
-potencijalnim NN pojmovima bez normativnog sidrenja i bez pravnog
-zaključivanja.
-
-Napravljena je skripta `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py`
-koja koristi samo postojeće ulaze i za svaki prijedlog postavlja
-`zahtijeva_rucnu_provjeru=true` i
-`status_mapiranja=PREDLOZENO_BEZ_NN_SIDRA`.
-
-Dodani su izlazi:
-- `baza_terminologije/mape/eu_prema_nn/
-  curia_prema_nn_potencijalni_pojmovi.json`
-- `baza_terminologije/mape/eu_prema_nn/
-  curia_prema_nn_potencijalni_pojmovi_manifest.json`
-
-Dodan je novi standard `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md` i
-ažurirani su status i mapa dokumentacije za terminološki tok.
-
-Dokazne naredbe:
-
-- `git status --short`
-- `git diff --name-only`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
-- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
-
----
-
 ## Datum: 23.02.2026 (R4 G1 OK sanitarni fixture za TOK_OBUSTAVA)
 
 Dodan je `scenario_24` za `TOK_OBUSTAVA` s očekivanjima
@@ -1431,3 +1228,206 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `git diff --name-only`
+## Datum: 18.03.2026 (osnovni postupovni skup iz jezgre i pilota)
+
+Iz pilot-skupa i već izdvojene jezgre formiran je osnovni postupovni skup
+rječničkih natuknica za prvi praktični ciklus NN sidrenja.
+
+Napravljena je skripta
+`alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/
+  osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+
+Skup zadržava svih 7 jezgrenih natuknica i dodaje opće natuknice koje su
+deterministički prepoznate kao postupovno relevantne bez uskog konteksta.
+
+Dokazne naredbe:
+
+- `python .\alati\prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (jezgrene natuknice iz pilot-skupa)
+
+Iz postojećeg pilot-skupa izdvojen je uži skup jezgrenih rječničkih
+natuknica za prvi stvarni ciklus NN sidrenja.
+
+Napravljena je skripta `alati/izdvoji_jezgrene_natuknice_iz_pilota.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Jezgreni skup zadržava puni sadržaj pilot-zapisa i dodaje polja
+`jezgrena_natuknica=true`, `osnova_jezgrenosti` i
+`redoslijed_jezgrenog_skupa`.
+
+Složeni i izvedeni izrazi izdvojeni su u popis odbačenih natuknica u
+manifestu; NN sidra i definicije nisu dodavane.
+
+Dokazne naredbe:
+
+- `python .\alati\izdvoji_jezgrene_natuknice_iz_pilota.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (pilot-skup natuknica za prvo NN sidrenje)
+
+Iz početnog skupa rječničkih natuknica izdvojen je mali pilot-skup za prvi
+operativni ciklus ručnog NN sidrenja.
+
+Napravljena je skripta `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Svaka izdvojena natuknica zadržava puni izvorni sadržaj i dodatna
+pilot-polja: `pilot_skup=true`, `osnova_ulaska_u_pilot`,
+`redoslijed_pilota`.
+
+Pilot-sloj ne uvodi NN sidra ni definicije; zadržava
+`status_validacije=CEKA_NN_SIDRO`.
+
+Dokazne naredbe:
+
+- `python .\alati\izdvoji_pilot_natuknice_za_nn_sidrenje.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (kanonski model rječničke natuknice)
+
+Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
+iz postojećeg skupa `nn_sidrenju_podobni_pojmovi.json` generiran je početni
+operativni skup bez NN sidra.
+
+Napravljena je skripta `alati/izgradi_pocetne_rjecnicke_natuknice.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice.json`
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+
+U ovom koraku sva polja bez dokazive osnove ostavljena su na praznim
+vrijednostima (`null`, `[]`, `{}`), `nn_sidra` je prazna struktura spremna
+za buduće sidrenje, `status_validacije=CEKA_NN_SIDRO`, a
+`razina_pouzdanosti` je prenesena iz ulaza gdje postoji.
+
+Dokazne naredbe:
+
+- `python .\alati\izgradi_pocetne_rjecnicke_natuknice.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (ciscenje prioritetnog uzorka za NN sidrenje)
+
+Iz prioritetnog uzorka izdvojen je uži skup kandidata tekstualno podobnih
+za budući NN pregled, uz uklanjanje očitog tehničkog šuma.
+
+Napravljena je skripta `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py`
+koja zadržane zapise označava s
+`status_podobnosti_nn_sidrenja=PODOBAN_ZA_NN_PREGLED` i jednom od osnova
+`PRAVNI_NAZIV`, `PROCESNI_POJAM`, `AKT_ILI_RADNJA`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  nn_sidrenju_podobni_pojmovi_manifest.json`
+
+Dodan je standard `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (prioritetni uzorak za NN sidrenje)
+
+Iz postojećeg skupa EU -> NN prijedloga mapiranja izdvojen je prioritetni
+radni uzorak kandidata za prvo NN sidrenje, bez dohvaćanja i bez potvrde
+članaka Narodnih novina.
+
+Napravljena je skripta `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py`
+koja deterministički označava prioritet po osnovama:
+`POUZDANOST_SREDNJA`, `UCESTALI_KANDIDAT`, `PROCESNI_NAZIV`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  prioritetni_uzorak_za_nn_sidrenje_manifest.json`
+
+Dodan je standard
+`STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 18.03.2026 (EU most prema potencijalnim NN pojmovima)
+
+Iz hrvatski relevantnog CURIA skupa dodan je tehnički sloj mapiranja prema
+potencijalnim NN pojmovima bez normativnog sidrenja i bez pravnog
+zaključivanja.
+
+Napravljena je skripta `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py`
+koja koristi samo postojeće ulaze i za svaki prijedlog postavlja
+`zahtijeva_rucnu_provjeru=true` i
+`status_mapiranja=PREDLOZENO_BEZ_NN_SIDRA`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/
+  curia_prema_nn_potencijalni_pojmovi.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  curia_prema_nn_potencijalni_pojmovi_manifest.json`
+
+Dodan je novi standard `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md` i
+ažurirani su status i mapa dokumentacije za terminološki tok.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
