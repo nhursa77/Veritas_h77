@@ -112,6 +112,10 @@ Uređuje status prijedloga bez normativnog sidrenja i ručnu provjeru.
 Definira izdvajanje prioritetnog radnog uzorka iz EU -> NN prijedloga.
 Uređuje operativni redoslijed za sljedeći korak NN sidrenja.
 
+### `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
+Definira čišćenje prioritetnog uzorka na NN-sidrenju podobne kandidate.
+Uređuje uklanjanje tehničkog šuma prije ručnog NN pregleda.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -128,7 +132,8 @@ Uređuje operativni redoslijed za sljedeći korak NN sidrenja.
 10) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
 11) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
 12) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
-13) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+13) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
+14) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -187,4 +192,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py` prema
   `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`; izdvajanje prioritetnog
   uzorka izvodi `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py` prema
-  `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`.
+  `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`; čišćenje uzorka izvodi
+  `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py` prema
+  `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`.

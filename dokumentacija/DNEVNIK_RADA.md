@@ -949,6 +949,32 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (ciscenje prioritetnog uzorka za NN sidrenje)
+
+Iz prioritetnog uzorka izdvojen je uži skup kandidata tekstualno podobnih
+za budući NN pregled, uz uklanjanje očitog tehničkog šuma.
+
+Napravljena je skripta `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py`
+koja zadržane zapise označava s
+`status_podobnosti_nn_sidrenja=PODOBAN_ZA_NN_PREGLED` i jednom od osnova
+`PRAVNI_NAZIV`, `PROCESNI_POJAM`, `AKT_ILI_RADNJA`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  nn_sidrenju_podobni_pojmovi_manifest.json`
+
+Dodan je standard `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (prioritetni uzorak za NN sidrenje)
 
 Iz postojećeg skupa EU -> NN prijedloga mapiranja izdvojen je prioritetni

@@ -1,0 +1,266 @@
+{
+  "ulazna_datoteka": "baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json",
+  "ulazni_manifest": "baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json",
+  "ukupan_broj_ulaznih_zapisa": 2857,
+  "ukupan_broj_zadrzanih_zapisa": 1312,
+  "ukupan_broj_odbacenih_zapisa": 1545,
+  "broj_zadrzanih_po_osnovi_podobnosti": {
+    "PRAVNI_NAZIV": 1190,
+    "PROCESNI_POJAM": 120,
+    "AKT_ILI_RADNJA": 2
+  },
+  "top_30_najcescih_zadrzanih_kandidata": [
+    {
+      "kandidat": "Procedural law",
+      "broj": 438
+    },
+    {
+      "kandidat": "Constitutional law",
+      "broj": 257
+    },
+    {
+      "kandidat": "Criminal law",
+      "broj": 245
+    },
+    {
+      "kandidat": "Family law",
+      "broj": 56
+    },
+    {
+      "kandidat": "Law on aliens",
+      "broj": 52
+    },
+    {
+      "kandidat": "Administrative law",
+      "broj": 18
+    },
+    {
+      "kandidat": "Ustavni sud",
+      "broj": 14
+    },
+    {
+      "kandidat": "Property law",
+      "broj": 13
+    },
+    {
+      "kandidat": "Social security law",
+      "broj": 12
+    },
+    {
+      "kandidat": "Employment law",
+      "broj": 10
+    },
+    {
+      "kandidat": "upravni sud",
+      "broj": 7
+    },
+    {
+      "kandidat": "Fiscal and budgetary law",
+      "broj": 6
+    },
+    {
+      "kandidat": "Visoki upravni sud",
+      "broj": 6
+    },
+    {
+      "kandidat": "Civil procedure",
+      "broj": 5
+    },
+    {
+      "kandidat": "Company law",
+      "broj": 5
+    },
+    {
+      "kandidat": "Criminal procedure",
+      "broj": 5
+    },
+    {
+      "kandidat": "Vrhovni upravni sud",
+      "broj": 5
+    },
+    {
+      "kandidat": "Administrative proceedings",
+      "broj": 4
+    },
+    {
+      "kandidat": "Civil law",
+      "broj": 4
+    },
+    {
+      "kandidat": "Intellectual property law",
+      "broj": 4
+    },
+    {
+      "kandidat": "Law governing liability",
+      "broj": 4
+    },
+    {
+      "kandidat": "okružni upravni sud",
+      "broj": 4
+    },
+    {
+      "kandidat": "Public international law",
+      "broj": 3
+    },
+    {
+      "kandidat": "sud za teža kaznena djela",
+      "broj": 3
+    },
+    {
+      "kandidat": "Financial and banking law",
+      "broj": 2
+    },
+    {
+      "kandidat": "Savezni upravni sud",
+      "broj": 2
+    },
+    {
+      "kandidat": "Specijalizirani kazneni sud",
+      "broj": 2
+    },
+    {
+      "kandidat": "akt kojim se pokreće postupak",
+      "broj": 2
+    },
+    {
+      "kandidat": "kazneni sud",
+      "broj": 2
+    },
+    {
+      "kandidat": "prethodni postupak",
+      "broj": 2
+    }
+  ],
+  "top_30_najcescih_odbacenih_kandidata": [
+    {
+      "kandidat": "EU",
+      "broj": 405
+    },
+    {
+      "kandidat": "ad hoc",
+      "broj": 212
+    },
+    {
+      "kandidat": "Law",
+      "broj": 164
+    },
+    {
+      "kandidat": "DE",
+      "broj": 32
+    },
+    {
+      "kandidat": "No",
+      "broj": 31
+    },
+    {
+      "kandidat": "not validated",
+      "broj": 29
+    },
+    {
+      "kandidat": "FR",
+      "broj": 27
+    },
+    {
+      "kandidat": "PL",
+      "broj": 26
+    },
+    {
+      "kandidat": "ES",
+      "broj": 25
+    },
+    {
+      "kandidat": "HR | IT",
+      "broj": 23
+    },
+    {
+      "kandidat": "BE",
+      "broj": 22
+    },
+    {
+      "kandidat": "AT",
+      "broj": 20
+    },
+    {
+      "kandidat": "SE",
+      "broj": 17
+    },
+    {
+      "kandidat": "IT",
+      "broj": 16
+    },
+    {
+      "kandidat": "preferred",
+      "broj": 16
+    },
+    {
+      "kandidat": "N/A (FR &gt; HR)",
+      "broj": 14
+    },
+    {
+      "kandidat": "obsolete",
+      "broj": 14
+    },
+    {
+      "kandidat": "IE",
+      "broj": 13
+    },
+    {
+      "kandidat": "Vrhovni sud",
+      "broj": 13
+    },
+    {
+      "kandidat": "N/A",
+      "broj": 11
+    },
+    {
+      "kandidat": "de",
+      "broj": 11
+    },
+    {
+      "kandidat": "et",
+      "broj": 11
+    },
+    {
+      "kandidat": "it",
+      "broj": 11
+    },
+    {
+      "kandidat": "mt",
+      "broj": 11
+    },
+    {
+      "kandidat": "općinski sud",
+      "broj": 11
+    },
+    {
+      "kandidat": "sk",
+      "broj": 11
+    },
+    {
+      "kandidat": "BG",
+      "broj": 10
+    },
+    {
+      "kandidat": "HU",
+      "broj": 10
+    },
+    {
+      "kandidat": "LU",
+      "broj": 10
+    },
+    {
+      "kandidat": "fi",
+      "broj": 10
+    }
+  ],
+  "status_podobnosti_nn_sidrenja": "PODOBAN_ZA_NN_PREGLED",
+  "ulazni_segmenti": [
+    "aide.json",
+    "comparative_legal_vocabulary.json",
+    "help.json",
+    "national_courts_and_tribunals.json",
+    "national_legal_acts.json",
+    "rules_of_procedure.json"
+  ]
+}

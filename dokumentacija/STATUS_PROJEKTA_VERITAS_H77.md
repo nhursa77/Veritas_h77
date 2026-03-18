@@ -4,12 +4,12 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `cfb0828` - EU: most prema potencijalnim NN pojmovima
+- Trenutni commit: `d54f174` - EU: prioritetni uzorak za NN sidrenje
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 57
-  (EU -> potencijalni NN pojmovi, bez normativnog sidrenja)
-- Sljedeći zadatak po redu: ZADATAK 58
+- Zadnji dovršeni terminološki zadatak: ZADATAK 58
   (prioritetni uzorak kandidata za prvo NN sidrenje)
+- Sljedeći zadatak po redu: ZADATAK 59
+  (čišćenje uzorka na NN-sidrenju podobne pojmove)
 
 ## Aktivni gateovi
 
@@ -34,6 +34,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
 - `dokumentacija/STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
 - `dokumentacija/STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
+- `dokumentacija/STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
 
 ## Faza po planovima i standardima
 

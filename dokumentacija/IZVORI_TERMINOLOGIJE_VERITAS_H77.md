@@ -102,3 +102,16 @@ Izdvajanje se izvodi skriptom:
 
 Uzorak je tehnička priprema za buduće NN sidrenje i ne predstavlja
 potvrđene članke, stavke ni normativne zaključke.
+
+## NN-sidrenju podobni pojmovi (očišćeni uzorak)
+
+Iz prioritetnog uzorka izdvojen je uži skup tekstualno podobnih kandidata:
+- `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
+- `baza_terminologije/mape/eu_prema_nn/
+	nn_sidrenju_podobni_pojmovi_manifest.json`
+
+Čišćenje se izvodi skriptom:
+- `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py`
+
+Ovaj sloj ne uvodi članke, stavke ni pravne učinke; služi kao tehnička
+priprema za ručni NN pregled u sljedećem koraku.
