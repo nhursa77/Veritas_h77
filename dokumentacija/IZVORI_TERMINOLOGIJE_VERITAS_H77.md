@@ -27,3 +27,13 @@ Dokazni artefakti u repozitoriju:
 - `izvori/dokazno/eu/curia/vjm_iate/iate_popis_svih_jezika/izvor.xlsx`
 - `izvori/dokazno/eu/curia/vjm_iate/iate_popis_svih_jezika/meta.json`
 - `izvori/dokazno/eu/curia/vjm_iate/iate_popis_svih_jezika/status.txt`
+
+## Sirovi JSON izvoz (tehnički međusloj)
+
+Iz dokaznog XLSX izvora postoji i sirovi strojni izvoz u JSON formatu:
+- `izvori/operativno/eu/curia/vjm_iate/iate_popis_svih_jezika_raw.json`
+- `izvori/operativno/eu/curia/vjm_iate/iate_popis_svih_jezika_struktura.json`
+
+Ovaj izvoz je tehnički međusloj između dokaznog izvora i kasnijih obrada.
+Sirovi JSON nije normirani rječnik Veritasa i ne predstavlja pravno
+tumačenje pojmova.

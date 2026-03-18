@@ -154,3 +154,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `METODOLOGIJA_RADA_VERITAS_H77.md`.
 - Razvojne faze i redoslijed rada pripadaju `RAZVOJNI_PLAN_VERITAS_H77.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
+- Terminološki dokazni i operativni izvori pripadaju
+  `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
+  izvodi `alati/pretvori_curia_xlsx_u_json.py`.
