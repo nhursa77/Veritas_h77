@@ -92,6 +92,10 @@ Zamrzava trenutno stanje repozitorija za nastavak rada bez
 kopanja po povijesti.
 Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
 
+### `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
+Definira dokazne terminološke izvore za višejezične ekvivalente.
+Uređuje ulogu CURIA/IATE izvora i ograničenja prema pravnom učinku.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -103,7 +107,8 @@ Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
 5) `STANDARD_JSON_POSTUPAK.md`
 6) `RAZVOJNI_PLAN_VERITAS_H77.md`
 7) `DNEVNIK_RADA.md`
-8) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+8) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
+9) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
