@@ -29,7 +29,7 @@ Izlaz:
 
 - `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
 - `baza_terminologije/rjecnik/
-	osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
+ osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
 
 ---
 
@@ -112,3 +112,19 @@ U osnovnom postupovnom skupu i dalje vrijedi:
 - `nn_sidra` ostaje prazna struktura
 - `status_validacije` ostaje `CEKA_NN_SIDRO`
 - nema normativnih definicija ni pravnih zaključaka
+
+---
+
+## 8) Veza s prvim stvarnim NN sidrenjem
+
+Nakon izgradnje osnovnog postupovnog skupa, prvi stvarni sidreni korak izvodi
+skripta `alati/sidri_osnovni_postupovni_skup_na_nn.py`.
+
+Taj korak proizvodi:
+
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json`
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json`
+
+Pravila sidrenja definirana su standardom:
+
+- `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`

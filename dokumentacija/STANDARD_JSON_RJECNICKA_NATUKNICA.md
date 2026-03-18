@@ -154,3 +154,42 @@ izdvajaju osnovni pojmovi, a složene fraze ostaju izvan jezgre.
 Nakon jezgre slijedi proširenje na osnovni postupovni skup prema
 `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`, bez dodavanja
 definicija i bez dodavanja NN sidara.
+
+Nakon toga slijedi prvo stvarno NN sidrenje prema
+`STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`.
+
+---
+
+## 9) Struktura `nn_sidra` u prvoj stvarnoj NN fazi
+
+Kad natuknica uđe u stvarno NN sidrenje, `nn_sidra` mora imati oblik:
+
+- `status_sidra`
+- `sidra` (lista)
+
+Svako sidro u listi mora sadržavati najmanje:
+
+- `naziv_akta`
+- `akt_slug`
+- `broj_nn`
+- `clanak`
+- `stavak`
+- `tocka`
+- `izvor_putanja`
+- `napomena`
+
+Ako stavak ili točka ne postoje, vrijednost mora biti `null`.
+
+Dozvoljene statusne vrijednosti `status_sidra` su:
+
+- `OK`
+- `VISE_MOGUCIH_SIDARA`
+- `NEJASNO`
+- `NEDOSTAJE`
+
+Mapiranje u `status_validacije`:
+
+- `OK` -> `NN_SIDRENO`
+- `VISE_MOGUCIH_SIDARA` -> `CEKA_RUCNU_PROVJERU_NN`
+- `NEJASNO` -> `CEKA_RUCNU_PROVJERU_NN`
+- `NEDOSTAJE` -> `CEKA_NN_SIDRO`

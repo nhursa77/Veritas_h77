@@ -1,0 +1,705 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje_manifest.json",
+  "ukupan_broj_ulaznih_natuknica": 9,
+  "ukupan_broj_nn_sidrenih_natuknica": 9,
+  "natuknice": [
+    {
+      "pojam_id": "VH77-RJ-b9f1d747aa80",
+      "kanonski_naziv": "dokaz",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "78",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "85",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "88",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "PROCESNO_CENTRALAN_POJAM",
+      "redoslijed_pilota": 2,
+      "osnova_ulaska_u_pilot_opis": "osnova=PROCESNO_CENTRALAN_POJAM; kriterij=dokaz",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PROCESNI_POJAM",
+      "redoslijed_jezgrenog_skupa": 1,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 1
+    },
+    {
+      "pojam_id": "VH77-RJ-8bfa37bed00a",
+      "kanonski_naziv": "dostava",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "114",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "117",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "118",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "PROCESNO_CENTRALAN_POJAM",
+      "redoslijed_pilota": 3,
+      "osnova_ulaska_u_pilot_opis": "osnova=PROCESNO_CENTRALAN_POJAM; kriterij=dostava",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PROCESNI_POJAM",
+      "redoslijed_jezgrenog_skupa": 2,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 2
+    },
+    {
+      "pojam_id": "VH77-RJ-f539f1e6e71b",
+      "kanonski_naziv": "izvršenje",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "13",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "14",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "42",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "44",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "TEMELJNA_PRAVNA_RADNJA",
+      "redoslijed_pilota": 4,
+      "osnova_ulaska_u_pilot_opis": "osnova=TEMELJNA_PRAVNA_RADNJA; kriterij=izvrsenje",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNA_PRAVNA_RADNJA",
+      "redoslijed_jezgrenog_skupa": 3,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 3
+    },
+    {
+      "pojam_id": "VH77-RJ-98eeaee5242b",
+      "kanonski_naziv": "presuda",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "33",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "40",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "106",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "109",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "TEMELJNI_AKT",
+      "redoslijed_pilota": 5,
+      "osnova_ulaska_u_pilot_opis": "osnova=TEMELJNI_AKT; kriterij=presuda",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PRAVNI_AKT",
+      "redoslijed_jezgrenog_skupa": 4,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 4
+    },
+    {
+      "pojam_id": "VH77-RJ-6cfe40c6580e",
+      "kanonski_naziv": "prigovor",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "93",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "120",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "121",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "221",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "PROCESNO_CENTRALAN_POJAM",
+      "redoslijed_pilota": 6,
+      "osnova_ulaska_u_pilot_opis": "osnova=PROCESNO_CENTRALAN_POJAM; kriterij=prigovor",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PROCESNI_POJAM",
+      "redoslijed_jezgrenog_skupa": 5,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 5
+    },
+    {
+      "pojam_id": "VH77-RJ-2002f684bc0f",
+      "kanonski_naziv": "rješenje",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "59",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "92",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "TEMELJNI_AKT",
+      "redoslijed_pilota": 7,
+      "osnova_ulaska_u_pilot_opis": "osnova=TEMELJNI_AKT; kriterij=rjesenje",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PRAVNI_AKT",
+      "redoslijed_jezgrenog_skupa": 6,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 6
+    },
+    {
+      "pojam_id": "VH77-RJ-61b46d26aeb2",
+      "kanonski_naziv": "žalba",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "95",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "100",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "PROCESNO_CENTRALAN_POJAM",
+      "redoslijed_pilota": 8,
+      "osnova_ulaska_u_pilot_opis": "osnova=PROCESNO_CENTRALAN_POJAM; kriterij=zalba",
+      "jezgrena_natuknica": true,
+      "osnova_jezgrenosti": "OSNOVNI_PROCESNI_POJAM",
+      "redoslijed_jezgrenog_skupa": 7,
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "PREUZETO_IZ_JEZGRE",
+      "redoslijed_osnovnog_skupa": 7
+    },
+    {
+      "pojam_id": "VH77-RJ-24ddae2cc620",
+      "kanonski_naziv": "apsolutna nenadležnost",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "NEJASNO",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "101",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "103",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "161",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          }
+        ]
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_RUCNU_PROVJERU_NN",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "TEMELJNI_STATUS_ILI_SVOJSTVO",
+      "redoslijed_pilota": 14,
+      "osnova_ulaska_u_pilot_opis": "osnova=TEMELJNI_STATUS_ILI_SVOJSTVO; kriterij=nadleznost",
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "TEMELJNI_STATUS_POSTUPKA",
+      "redoslijed_osnovnog_skupa": 8
+    },
+    {
+      "pojam_id": "VH77-RJ-a55bfbce041e",
+      "kanonski_naziv": "glavni postupak",
+      "sinonimi": [],
+      "varijante_pisanja": [],
+      "strani_ekvivalenti": [
+        "Procedural law"
+      ],
+      "kratice": [],
+      "vrsta_pojma": "PROCESNI_POJAM",
+      "definicija_jezicna": null,
+      "definicija_procesna": null,
+      "definicija_normativna": null,
+      "napomena_veritas": null,
+      "nn_sidra": {
+        "status_sidra": "NEDOSTAJE",
+        "sidra": []
+      },
+      "povezani_pojmovi": [],
+      "tipicne_pogreske": [],
+      "status_validacije": "CEKA_NN_SIDRO",
+      "razina_pouzdanosti": "NISKA",
+      "pilot_skup": true,
+      "osnova_ulaska_u_pilot": "POSTUPOVNI_OKVIR",
+      "redoslijed_pilota": 29,
+      "osnova_ulaska_u_pilot_opis": "osnova=POSTUPOVNI_OKVIR; kriterij=postupak",
+      "osnovni_postupovni_skup": true,
+      "osnova_ulaska_u_osnovni_skup": "OPCI_POSTUPOVNI_POJAM",
+      "redoslijed_osnovnog_skupa": 9
+    }
+  ]
+}

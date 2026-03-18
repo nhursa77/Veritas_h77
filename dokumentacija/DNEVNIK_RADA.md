@@ -1457,3 +1457,46 @@ Dokazne naredbe:
 - `Write-Host "DNEVNIK_TAIL_AFTER_END"`
 
 ---
+## Datum: 18.03.2026 (prvo NN sidrenje osnovnog postupovnog skupa)
+
+Za osnovni postupovni skup (9 natuknica) izrađen je prvi stvarni
+NN-sidreni sloj bez izmišljanja članaka i bez prisilnog sužavanja
+višeznačnih pojmova.
+
+Napravljena je skripta:
+- `alati/sidri_osnovni_postupovni_skup_na_nn.py`
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json`
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
+
+Obrađene natuknice (kanonski_naziv | status_sidra | broj sidara):
+
+- `dokaz | VISE_MOGUCIH_SIDARA | 5`
+- `dostava | VISE_MOGUCIH_SIDARA | 5`
+- `izvršenje | VISE_MOGUCIH_SIDARA | 5`
+- `presuda | VISE_MOGUCIH_SIDARA | 5`
+- `prigovor | VISE_MOGUCIH_SIDARA | 5`
+- `rješenje | VISE_MOGUCIH_SIDARA | 5`
+- `žalba | VISE_MOGUCIH_SIDARA | 5`
+- `apsolutna nenadležnost | NEJASNO | 5`
+- `glavni postupak | NEDOSTAJE | 0`
+
+Ukupni statusi validacije:
+
+- `NN_SIDRENO = 0`
+- `CEKA_RUCNU_PROVJERU_NN = 8`
+- `CEKA_NN_SIDRO = 1`
+
+Dokazne naredbe:
+
+- `python .\alati\sidri_osnovni_postupovni_skup_na_nn.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---

@@ -4,15 +4,15 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `d1e6429` - docs: saniran kronoloski redoslijed dnevnika
+- Trenutni commit: `76247fc` - docs: uvedena tvrda zastita dnevnika rada
   rada
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 63
-  (osnovni postupovni skup za prvo NN sidrenje)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 67
+  (prvo NN sidrenje osnovnog postupovnog skupa)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: ručno NN sidrenje osnovnog postupovnog skupa
-  (sidra, članci, stavci i točke)
+- Sljedeći zadatak po redu: ručna verifikacija višeznačnih sidara
+  i sužavanje kandidata po granama postupka.
 
 ## Aktivni gateovi
 
@@ -43,6 +43,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+- `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -71,3 +72,9 @@ Datum: 18.03.2026.
 - U završnom bloku su unosi za terminološke korake 52-63.
 - Dnevnik sadrži dokazne naredbe po zadacima i commit tragu.
 - Kronologija unosa je dokumentirana uz commit listu kao dokaz reda.
+
+### NN sidrenje osnovnog postupovnog skupa (ZADATAK 67)
+
+- Dodana je skripta `alati/sidri_osnovni_postupovni_skup_na_nn.py`.
+- Generirani su `osnovni_postupovni_skup_nn_sidren.json` i manifest.
+- U prvom sloju nema prisilnog sužavanja višeznačnih pojmova na jedno sidro.

@@ -170,7 +170,7 @@ Iz pilot-skupa i jezgrenog sloja gradi se osnovni postupovni skup koji
 zadržava jezgru i dodaje opće natuknice potrebne za kostur postupka:
 - `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
 - `baza_terminologije/rjecnik/
-	osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
+ osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
 
 Izgradnja se izvodi skriptom:
 - `alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`
@@ -180,3 +180,19 @@ Pravila su definirana standardom:
 
 Ovaj sloj i dalje ne uvodi NN sidra ni definicije; služi za prvi praktični
 redoslijed ručnog sidrenja osnovnih postupovnih pojmova.
+
+## Prvo stvarno NN sidrenje osnovnog postupovnog skupa
+
+Iz osnovnog postupovnog skupa generira se prvi stvarni NN-sidreni sloj:
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json`
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json`
+
+Sidrenje se izvodi skriptom:
+- `alati/sidri_osnovni_postupovni_skup_na_nn.py`
+
+Pravila su definirana standardom:
+- `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
+
+Za ovaj sloj vrijedi strogo pravilo: Narodne novine su jedini primarni
+dokazni izvor sidra. Višeznačni pojmovi ostaju označeni kao
+`VISE_MOGUCIH_SIDARA` ili `NEJASNO` dok se ne dovrši ručna provjera.

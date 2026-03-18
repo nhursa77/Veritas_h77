@@ -137,6 +137,10 @@ Uređuje odvajanje osnovnih pojmova od složenih procesnih fraza.
 Definira proširenje jezgre na osnovni postupovni skup za prvo NN sidrenje.
 Uređuje balans između uskog jezgrenog i općeg postupovnog obuhvata.
 
+### `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
+Definira prvo stvarno NN sidrenje rječničkih natuknica.
+Uređuje status sidra, višeznačnost i zabranu prisilnog sužavanja na jedno sidro.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -159,7 +163,8 @@ Uređuje balans između uskog jezgrenog i općeg postupovnog obuhvata.
 16) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
 17) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
 18) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
-19) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+19) `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
+20) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -232,4 +237,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`; proširenje na osnovni
   postupovni skup izvodi
   `alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py` prema
-  `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`.
+  `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`; prvo stvarno
+  NN sidrenje osnovnog skupa izvodi
+  `alati/sidri_osnovni_postupovni_skup_na_nn.py` prema
+  `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`.
