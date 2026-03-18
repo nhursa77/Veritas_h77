@@ -48,3 +48,17 @@ Normalizacija se izvodi skriptom:
 
 Ovaj sloj je kanonski operativni terminološki međusloj EU izvora i nije
 korisnički rječnik Veritasa.
+
+## Segmentirani operativni format
+
+Normalizirani puni izvoz ostaje:
+- `baza_terminologije/eu/curia/terminoloski_zapisi.json`
+
+Za operativni rad zapisi su dodatno segmentirani po worksheetu u:
+- `baza_terminologije/eu/curia/segmenti/*.json`
+- `baza_terminologije/eu/curia/segmenti_manifest.json`
+
+Segmentacija se izvodi skriptom:
+- `alati/segmentiraj_curia_terminoloske_zapise.py`
+
+Segmenti su tehnički format rada; puni JSON ostaje cjeloviti izvoz.

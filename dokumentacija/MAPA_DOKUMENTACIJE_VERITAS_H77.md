@@ -163,4 +163,5 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
   izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski
   sloj izvodi `alati/normaliziraj_curia_terminologiju.py` prema
-  `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`.
+  `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`, dok segmentaciju operativnog
+  formata izvodi `alati/segmentiraj_curia_terminoloske_zapise.py`.

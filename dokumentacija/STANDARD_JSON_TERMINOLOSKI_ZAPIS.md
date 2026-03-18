@@ -61,6 +61,13 @@ kanonski sloj sa standardiziranim poljima i sljedivošću prema izvornom retku.
 Normalizacija ne uvodi pravna tumačenja, ne deduplicira pojmove i ne spaja
 jezike "pametno".
 
+Segmentirani format rada koristi iste zapise razbijene po `worksheet` u
+`baza_terminologije/eu/curia/segmenti/*.json` uz
+`baza_terminologije/eu/curia/segmenti_manifest.json`.
+
+Segmenti su operativni format rada radi manjih datoteka i brže obrade,
+dok `terminoloski_zapisi.json` ostaje puni izvoz bez gubitka sadržaja.
+
 ---
 
 ## 5) Odnos prema NN i pravnim institutima RH

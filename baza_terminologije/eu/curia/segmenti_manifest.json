@@ -1,0 +1,39 @@
+{
+  "izvor": "baza_terminologije/eu/curia/terminoloski_zapisi.json",
+  "ukupan_broj_segmenata": 6,
+  "ukupan_broj_zapisa": 53483,
+  "ocekivan_broj_zapisa": 53483,
+  "zbroj_odgovara_izvoru": true,
+  "segmenti": [
+    {
+      "worksheet": "AIDE",
+      "izlazna_datoteka": "aide.json",
+      "broj_zapisa": 194
+    },
+    {
+      "worksheet": "Comparative Legal Vocabulary",
+      "izlazna_datoteka": "comparative_legal_vocabulary.json",
+      "broj_zapisa": 35913
+    },
+    {
+      "worksheet": "HELP",
+      "izlazna_datoteka": "help.json",
+      "broj_zapisa": 197
+    },
+    {
+      "worksheet": "National Courts and Tribunals",
+      "izlazna_datoteka": "national_courts_and_tribunals.json",
+      "broj_zapisa": 5122
+    },
+    {
+      "worksheet": "National Legal Acts",
+      "izlazna_datoteka": "national_legal_acts.json",
+      "broj_zapisa": 214
+    },
+    {
+      "worksheet": "Rules of procedure",
+      "izlazna_datoteka": "rules_of_procedure.json",
+      "broj_zapisa": 11843
+    }
+  ]
+}
