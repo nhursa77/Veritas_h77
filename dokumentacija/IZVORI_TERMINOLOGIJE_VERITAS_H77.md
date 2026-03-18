@@ -147,3 +147,19 @@ Pravila izdvajanja definirana su standardom:
 
 Pilot-sloj ne uvodi NN sidra ni pravne definicije, nego određuje redoslijed
 ručne provjere i sidrenja u sljedećem koraku.
+
+## Jezgrene natuknice za NN sidrenje
+
+Iz pilot-skupa izdvaja se uži jezgreni skup osnovnih natuknica za prvi
+praktični ciklus sidrenja:
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje_manifest.json`
+
+Izdvajanje se izvodi skriptom:
+- `alati/izdvoji_jezgrene_natuknice_iz_pilota.py`
+
+Pravila su definirana standardom:
+- `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Jezgreni sloj i dalje ne uvodi NN sidra ni definicije; služi za fokusirani
+ručni NN pregled osnovnih pojmova.

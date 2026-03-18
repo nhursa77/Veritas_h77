@@ -124,6 +124,10 @@ Uređuje početni operativni skup bez NN sidra i prazna polja za sidrenje.
 Definira izdvajanje pilot-skupa rječničkih natuknica za prvo NN sidrenje.
 Uređuje determinističke kriterije prioriteta i obavezna pilot-polja.
 
+### `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+Definira izdvajanje jezgrenih natuknica iz pilot-skupa za prvo NN sidrenje.
+Uređuje odvajanje osnovnih pojmova od složenih procesnih fraza.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -143,7 +147,8 @@ Uređuje determinističke kriterije prioriteta i obavezna pilot-polja.
 13) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
 14) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
 15) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
-16) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+16) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+17) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -209,4 +214,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `alati/izgradi_pocetne_rjecnicke_natuknice.py` prema
   `STANDARD_JSON_RJECNICKA_NATUKNICA.md`; izdvajanje pilot-skupa izvodi
   `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py` prema
-  `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`.
+  `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`; izdvajanje jezgrenih
+  natuknica izvodi `alati/izdvoji_jezgrene_natuknice_iz_pilota.py` prema
+  `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`.

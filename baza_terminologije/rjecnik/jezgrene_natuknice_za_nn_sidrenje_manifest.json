@@ -1,0 +1,55 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json",
+  "ukupan_broj_ulaznih_pilot_natuknica": 30,
+  "ukupan_broj_izdvojenih_jezgrenih_natuknica": 7,
+  "broj_po_osnova_jezgrenosti": {
+    "OSNOVNA_PRAVNA_RADNJA": 1,
+    "OSNOVNI_PRAVNI_AKT": 2,
+    "OSNOVNI_PROCESNI_POJAM": 4
+  },
+  "popis_jezgrenih_kanonski_naziv": [
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba"
+  ],
+  "popis_odbacenih_slozenih_natuknica": [
+    "akt kojim se pokreće postupak",
+    "apsolutna nenadležnost",
+    "činjenice koje su predmet dokazivanja",
+    "dokaz o plaćanju troškova",
+    "dokaz o protivnom",
+    "dokaz saslušanjem svjedoka",
+    "dokazna radnja",
+    "dokazni elementi i dokumenti",
+    "dokazni prijedlog",
+    "dokazno sredstvo",
+    "dopunjavanje dokaznih prijedloga",
+    "dostava među strankama",
+    "dostava na inicijativu stranaka",
+    "dostava po službenoj dužnosti",
+    "dostava primjerka uz potvrdu o primitku",
+    "dostava tužbe tuženiku",
+    "dostava za potrebe postupka",
+    "glavni postupak",
+    "hitni prethodni postupak",
+    "presuda kojom se završava postupak",
+    "prigovor nenadležnosti",
+    "rješenje kojim se završava postupak",
+    "rješenje protiv kojeg nije dozvoljena žalba"
+  ],
+  "broj_natuknica_s_praznim_nn_sidra": 7,
+  "broj_natuknica_status_validacije_CEKA_NN_SIDRO": 7,
+  "ulazni_broj_po_osnova_ulaska_u_pilot": {
+    "POSTUPOVNI_OKVIR": 3,
+    "PROCESNO_CENTRALAN_POJAM": 19,
+    "TEMELJNA_PRAVNA_RADNJA": 1,
+    "TEMELJNI_AKT": 5,
+    "TEMELJNI_STATUS_ILI_SVOJSTVO": 2
+  }
+}

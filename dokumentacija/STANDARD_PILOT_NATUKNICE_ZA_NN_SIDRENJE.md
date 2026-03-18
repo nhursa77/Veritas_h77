@@ -117,3 +117,6 @@ U ovom koraku posebno vrijedi:
 - `nn_sidra` ostaje prazna struktura spremna za sidrenje
 - `status_validacije` ostaje `CEKA_NN_SIDRO`
 - ne uvode se normativne definicije ni pravni zaključci
+
+Nakon pilot-koraka, izdvajanje jezgrenih natuknica provodi se prema
+`STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`.

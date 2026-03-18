@@ -949,6 +949,37 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (jezgrene natuknice iz pilot-skupa)
+
+Iz postojećeg pilot-skupa izdvojen je uži skup jezgrenih rječničkih
+natuknica za prvi stvarni ciklus NN sidrenja.
+
+Napravljena je skripta `alati/izdvoji_jezgrene_natuknice_iz_pilota.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Jezgreni skup zadržava puni sadržaj pilot-zapisa i dodaje polja
+`jezgrena_natuknica=true`, `osnova_jezgrenosti` i
+`redoslijed_jezgrenog_skupa`.
+
+Složeni i izvedeni izrazi izdvojeni su u popis odbačenih natuknica u
+manifestu; NN sidra i definicije nisu dodavane.
+
+Dokazne naredbe:
+
+- `python .\alati\izdvoji_jezgrene_natuknice_iz_pilota.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (pilot-skup natuknica za prvo NN sidrenje)
 
 Iz početnog skupa rječničkih natuknica izdvojen je mali pilot-skup za prvi

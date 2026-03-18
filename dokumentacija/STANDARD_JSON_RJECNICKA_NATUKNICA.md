@@ -146,3 +146,7 @@ se prema dokumentu `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`.
 
 Taj korak ne mijenja pravilo da se definicije i NN sidra ne izmišljaju,
 nego samo deterministički prioritizira natuknice za ručni pregled.
+
+Sljedeći korak su jezgrene natuknice prema
+`STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`, gdje se iz pilot-skupa
+izdvajaju osnovni pojmovi, a složene fraze ostaju izvan jezgre.
