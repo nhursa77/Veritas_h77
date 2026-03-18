@@ -1,0 +1,52 @@
+{
+  "ulazna_datoteka_pilot": "baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json",
+  "ulazni_pilot_manifest": "baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json",
+  "ulazna_datoteka_jezgra": "baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje.json",
+  "ulazni_jezgra_manifest": "baza_terminologije/rjecnik/jezgrene_natuknice_za_nn_sidrenje_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json",
+  "ukupan_broj_ulaznih_pilot_natuknica": 30,
+  "ukupan_broj_natuknica_u_osnovnom_postupovnom_skupu": 9,
+  "broj_po_osnova_ulaska_u_osnovni_skup": {
+    "OPCI_POSTUPOVNI_POJAM": 1,
+    "PREUZETO_IZ_JEZGRE": 7,
+    "TEMELJNI_STATUS_POSTUPKA": 1
+  },
+  "popis_kanonski_naziv": [
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba",
+    "apsolutna nenadležnost",
+    "glavni postupak"
+  ],
+  "preuzete_iz_jezgre": [
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba"
+  ],
+  "dodane_prosirenjem": [
+    "apsolutna nenadležnost",
+    "glavni postupak"
+  ],
+  "broj_s_praznim_nn_sidra": 9,
+  "broj_sa_status_validacije_CEKA_NN_SIDRO": 9,
+  "ulazni_broj_po_osnova_ulaska_u_pilot": {
+    "POSTUPOVNI_OKVIR": 3,
+    "PROCESNO_CENTRALAN_POJAM": 19,
+    "TEMELJNA_PRAVNA_RADNJA": 1,
+    "TEMELJNI_AKT": 5,
+    "TEMELJNI_STATUS_ILI_SVOJSTVO": 2
+  },
+  "ulazni_broj_po_osnova_jezgrenosti": {
+    "OSNOVNA_PRAVNA_RADNJA": 1,
+    "OSNOVNI_PRAVNI_AKT": 2,
+    "OSNOVNI_PROCESNI_POJAM": 4
+  }
+}

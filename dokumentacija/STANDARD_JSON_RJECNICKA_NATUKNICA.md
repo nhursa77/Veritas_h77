@@ -150,3 +150,7 @@ nego samo deterministički prioritizira natuknice za ručni pregled.
 Sljedeći korak su jezgrene natuknice prema
 `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`, gdje se iz pilot-skupa
 izdvajaju osnovni pojmovi, a složene fraze ostaju izvan jezgre.
+
+Nakon jezgre slijedi proširenje na osnovni postupovni skup prema
+`STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`, bez dodavanja
+definicija i bez dodavanja NN sidara.

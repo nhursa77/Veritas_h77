@@ -131,3 +131,6 @@ U ovom koraku vrijedi:
 - `nn_sidra` ostaje prazna struktura
 - `status_validacije` ostaje `CEKA_NN_SIDRO`
 - ne uvode se normativne definicije ni pravni zaključci
+
+Nakon jezgrenog skupa slijedi proširenje na osnovni postupovni skup prema
+`STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`.

@@ -120,3 +120,6 @@ U ovom koraku posebno vrijedi:
 
 Nakon pilot-koraka, izdvajanje jezgrenih natuknica provodi se prema
 `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`.
+
+Nakon jezgrenog koraka, proširenje na osnovni postupovni skup provodi se
+prema `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`.

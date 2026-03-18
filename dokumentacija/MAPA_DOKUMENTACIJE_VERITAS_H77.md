@@ -128,6 +128,10 @@ Uređuje determinističke kriterije prioriteta i obavezna pilot-polja.
 Definira izdvajanje jezgrenih natuknica iz pilot-skupa za prvo NN sidrenje.
 Uređuje odvajanje osnovnih pojmova od složenih procesnih fraza.
 
+### `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+Definira proširenje jezgre na osnovni postupovni skup za prvo NN sidrenje.
+Uređuje balans između uskog jezgrenog i općeg postupovnog obuhvata.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -148,7 +152,8 @@ Uređuje odvajanje osnovnih pojmova od složenih procesnih fraza.
 14) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
 15) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
 16) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
-17) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+17) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+18) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -216,4 +221,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py` prema
   `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`; izdvajanje jezgrenih
   natuknica izvodi `alati/izdvoji_jezgrene_natuknice_iz_pilota.py` prema
-  `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`.
+  `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`; proširenje na osnovni
+  postupovni skup izvodi
+  `alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py` prema
+  `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`.

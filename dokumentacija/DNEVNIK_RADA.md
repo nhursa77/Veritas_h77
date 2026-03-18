@@ -949,6 +949,35 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (osnovni postupovni skup iz jezgre i pilota)
+
+Iz pilot-skupa i već izdvojene jezgre formiran je osnovni postupovni skup
+rječničkih natuknica za prvi praktični ciklus NN sidrenja.
+
+Napravljena je skripta
+`alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/
+  osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+
+Skup zadržava svih 7 jezgrenih natuknica i dodaje opće natuknice koje su
+deterministički prepoznate kao postupovno relevantne bez uskog konteksta.
+
+Dokazne naredbe:
+
+- `python .\alati\prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (jezgrene natuknice iz pilot-skupa)
 
 Iz postojećeg pilot-skupa izdvojen je uži skup jezgrenih rječničkih

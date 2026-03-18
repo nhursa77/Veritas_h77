@@ -4,11 +4,12 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `a0ef424` - Rjecnik: izdvojen pilot skup za NN sidrenje
+- Trenutni commit: `ee3bc92` - Rjecnik: izdvojene jezgrene natuknice
+  za NN sidrenje
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 62
-  (jezgrene rječničke natuknice iz pilot-skupa)
-- Sljedeći zadatak po redu: ručno NN sidrenje jezgrenog skupa
+- Zadnji dovršeni terminološki zadatak: ZADATAK 63
+  (osnovni postupovni skup za prvo NN sidrenje)
+- Sljedeći zadatak po redu: ručno NN sidrenje osnovnog postupovnog skupa
   (sidra, članci, stavci i točke)
 
 ## Aktivni gateovi
@@ -39,6 +40,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
 - `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
+- `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
 
 ## Faza po planovima i standardima
 
@@ -63,6 +65,6 @@ Datum: 18.03.2026.
 
 ### DNEVNIK_RADA.md (zadnji pregledani blok)
 
-- U završnom bloku su unosi za terminološke korake 52-62.
+- U završnom bloku su unosi za terminološke korake 52-63.
 - Dnevnik sadrži dokazne naredbe po zadacima i commit tragu.
 - Kronologija unosa je dokumentirana uz commit listu kao dokaz reda.

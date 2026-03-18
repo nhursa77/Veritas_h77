@@ -163,3 +163,20 @@ Pravila su definirana standardom:
 
 Jezgreni sloj i dalje ne uvodi NN sidra ni definicije; služi za fokusirani
 ručni NN pregled osnovnih pojmova.
+
+## Osnovni postupovni skup za NN sidrenje
+
+Iz pilot-skupa i jezgrenog sloja gradi se osnovni postupovni skup koji
+zadržava jezgru i dodaje opće natuknice potrebne za kostur postupka:
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/
+	osnovni_postupovni_skup_za_nn_sidrenje_manifest.json`
+
+Izgradnja se izvodi skriptom:
+- `alati/prosiri_jezgrene_natuknice_na_osnovni_postupovni_skup.py`
+
+Pravila su definirana standardom:
+- `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
+
+Ovaj sloj i dalje ne uvodi NN sidra ni definicije; služi za prvi praktični
+redoslijed ručnog sidrenja osnovnih postupovnih pojmova.
