@@ -66,6 +66,10 @@ Ako višeznačnost ostane otvorena nakon prvog sloja, pojam se razlaže u
 kandidatske podnatuknice prema standardu
 `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`, bez konačnog izbora sidra.
 
+Kod korekcije razlaganja kandidata (v2), kandidati se vode po pojedinom
+sidru, odnosno po jedinstvenoj kombinaciji `akt_slug + broj_nn + clanak +
+stavak + tocka`.
+
 ---
 
 ## 5) Obavezna struktura `nn_sidra`

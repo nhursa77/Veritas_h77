@@ -1,0 +1,46 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2.json",
+  "ukupan_broj_ulaznih_viseznacnih_natuknica": 8,
+  "ukupan_broj_kandidata_v2": 40,
+  "broj_kandidata_po_nadredenom_pojmu": {
+    "apsolutna nenadležnost": 5,
+    "dokaz": 5,
+    "dostava": 5,
+    "izvršenje": 5,
+    "presuda": 5,
+    "prigovor": 5,
+    "rješenje": 5,
+    "žalba": 5
+  },
+  "broj_kandidata_po_aktu": {
+    "prekrsajni_zakon": 40
+  },
+  "usporedba_staro_novo": {
+    "stari_broj_kandidata": 8,
+    "novi_broj_kandidata": 40,
+    "delta": 32,
+    "stari_broj_kandidata_po_nadredenom": {
+      "apsolutna nenadležnost": 1,
+      "dokaz": 1,
+      "dostava": 1,
+      "izvršenje": 1,
+      "presuda": 1,
+      "prigovor": 1,
+      "rješenje": 1,
+      "žalba": 1
+    },
+    "novi_broj_kandidata_po_nadredenom": {
+      "apsolutna nenadležnost": 5,
+      "dokaz": 5,
+      "dostava": 5,
+      "izvršenje": 5,
+      "presuda": 5,
+      "prigovor": 5,
+      "rješenje": 5,
+      "žalba": 5
+    }
+  },
+  "popis_natuknica_gdje_je_broj_kandidata_ostao_1": []
+}

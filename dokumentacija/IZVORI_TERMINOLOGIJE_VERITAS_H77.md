@@ -207,6 +207,11 @@ aktu/kontekstu:
 Razlaganje se izvodi skriptom:
 - `alati/razlozi_viseznacna_nn_sidra_po_aktu.py`
 
+Ispravak razlaganja na stvarne kandidate po pojedinom sidru (v2) izvodi se:
+- `alati/ispravi_razlaganje_nn_kandidata.py`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2_manifest.json`
+
 Pravila su definirana standardom:
 - `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 

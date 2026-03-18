@@ -39,6 +39,8 @@ Izlaz:
 
 - `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn.json`
 - `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_manifest.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2_manifest.json`
 
 ---
 
@@ -53,7 +55,10 @@ Svaka kandidatska podnatuknica mora sadržavati najmanje:
 - `naziv_akta`
 - `akt_slug`
 - `broj_nn`
-- `nn_sidra`
+- `clanak`
+- `stavak`
+- `tocka`
+- `izvor_putanja`
 - `status_kandidata`
 - `osnova_razdvajanja`
 - `zahtijeva_rucnu_validaciju`
@@ -63,11 +68,20 @@ Svaka kandidatska podnatuknica mora sadržavati najmanje:
 ## 5) Pravila polja
 
 - `kanonski_naziv_kandidata` ima oblik:
-  `<kanonski_naziv> — <naziv_akta>`
+  `<pojam> — <akt_slug> — <clanak> — s<stavak> — t<tocka>`
 - `status_kandidata` je uvijek `KANDIDAT_NN_SIDRA`
 - `osnova_razdvajanja` je:
   `RAZLICIT_AKT` ili `RAZLICIT_NORMATIVNI_KONTEKST`
 - `zahtijeva_rucnu_validaciju` je uvijek `true`
+
+Razlaganje kandidata v2 radi se po svakom različitom sidru, odnosno najmanje
+po svakoj različitoj kombinaciji:
+
+- `naziv_akta`
+- `broj_nn`
+- `clanak`
+- `stavak`
+- `tocka`
 
 ---
 
@@ -90,5 +104,7 @@ Manifest mora sadržavati najmanje:
 - ukupan broj kandidatskih podnatuknica,
 - broj kandidata po nadređenom pojmu,
 - broj kandidata po aktu,
+- usporedbu starog i novog broja kandidata,
+- popis natuknica gdje je broj kandidata ostao 1 uz objašnjenje,
 - popis svih nadređenih pojmova,
 - popis svih kandidatskih `kanonski_naziv_kandidata`.

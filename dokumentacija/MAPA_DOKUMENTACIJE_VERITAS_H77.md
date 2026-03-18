@@ -248,4 +248,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`; razlaganje višeznačnih
   sidara u kandidatske podnatuknice izvodi
   `alati/razlozi_viseznacna_nn_sidra_po_aktu.py` prema
-  `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`.
+  `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`; ispravak razlaganja na
+  stvarne kandidate po pojedinom sidru izvodi
+  `alati/ispravi_razlaganje_nn_kandidata.py` i generira
+  `kandidatske_podnatuknice_nn_v2.json` + manifest.

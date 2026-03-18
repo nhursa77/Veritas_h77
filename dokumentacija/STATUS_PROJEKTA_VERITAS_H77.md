@@ -4,15 +4,14 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `3fc8cf4` - Rjecnik: prvo NN sidrenje osnovnog
-  postupovnog skupa
+- Trenutni commit: `6553ea1` - Rjecnik: razlozena viseznacna NN sidra po aktu
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 68
-  (razlaganje višeznačnih NN sidara u kandidatske podnatuknice)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 69
+  (ispravljeno razlaganje višeznačnih NN sidara na stvarne kandidate)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: ručna validacija kandidatskih podnatuknica
-  i izbor konačnih sidara po pojmu.
+- Sljedeći zadatak po redu: ručna validacija kandidata v2 i konsolidacija
+  konačnih sidara po nadređenom pojmu.
 
 ## Aktivni gateovi
 
@@ -79,3 +78,9 @@ Datum: 18.03.2026.
 - Dodana je skripta `alati/razlozi_viseznacna_nn_sidra_po_aktu.py`.
 - Generirani su `kandidatske_podnatuknice_nn.json` i pripadni manifest.
 - Kandidatske podnatuknice ostaju nekonačne i ručno validirane.
+
+### Ispravak razlaganja kandidata (ZADATAK 69)
+
+- Dodana je skripta `alati/ispravi_razlaganje_nn_kandidata.py`.
+- Generirani su `kandidatske_podnatuknice_nn_v2.json` i pripadni v2 manifest.
+- V2 kandidati razlažu se po pojedinom sidru, a ne samo po nadređenom pojmu.

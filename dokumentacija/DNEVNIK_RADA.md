@@ -1538,3 +1538,38 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+## Datum: 18.03.2026 (ispravak razlaganja NN kandidata na stvarne kandidate)
+
+Ispravljeno je razlaganje višeznačnih i nejasnih NN sidara tako da se
+kandidati v2 stvaraju po pojedinom sidru (jedinstvena kombinacija akt/NN/
+članak/stavak/točka), umjesto jednog kandidata po nadređenom pojmu.
+
+Napravljena je skripta:
+- `alati/ispravi_razlaganje_nn_kandidata.py`
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2_manifest.json`
+
+Ulaz/izlaz po nadređenoj natuknici (sidra -> kandidati v2):
+
+- `dokaz: 5 -> 5`
+- `dostava: 5 -> 5`
+- `izvršenje: 5 -> 5`
+- `presuda: 5 -> 5`
+- `prigovor: 5 -> 5`
+- `rješenje: 5 -> 5`
+- `žalba: 5 -> 5`
+- `apsolutna nenadležnost: 5 -> 5`
+
+Ukupan broj kandidata v2: `40`.
+
+Dokazne naredbe:
+
+- `python .\alati\ispravi_razlaganje_nn_kandidata.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
