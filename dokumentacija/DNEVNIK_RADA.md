@@ -949,6 +949,33 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (prioritetni uzorak za NN sidrenje)
+
+Iz postojećeg skupa EU -> NN prijedloga mapiranja izdvojen je prioritetni
+radni uzorak kandidata za prvo NN sidrenje, bez dohvaćanja i bez potvrde
+članaka Narodnih novina.
+
+Napravljena je skripta `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py`
+koja deterministički označava prioritet po osnovama:
+`POUZDANOST_SREDNJA`, `UCESTALI_KANDIDAT`, `PROCESNI_NAZIV`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  prioritetni_uzorak_za_nn_sidrenje_manifest.json`
+
+Dodan je standard
+`STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (EU most prema potencijalnim NN pojmovima)
 
 Iz hrvatski relevantnog CURIA skupa dodan je tehnički sloj mapiranja prema

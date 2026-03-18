@@ -4,13 +4,12 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `2f54b95` - EU: izdvojeni hrvatski relevantni CURIA
-  termini
+- Trenutni commit: `cfb0828` - EU: most prema potencijalnim NN pojmovima
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 56
-  (izdvajanje hrvatski relevantnog CURIA sloja)
-- Sljedeći zadatak po redu: ZADATAK 57
-  (tehničko mapiranje EU termina prema potencijalnim NN pojmovima)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 57
+  (EU -> potencijalni NN pojmovi, bez normativnog sidrenja)
+- Sljedeći zadatak po redu: ZADATAK 58
+  (prioritetni uzorak kandidata za prvo NN sidrenje)
 
 ## Aktivni gateovi
 
@@ -34,6 +33,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
 - `dokumentacija/STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
 - `dokumentacija/STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
+- `dokumentacija/STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
 
 ## Faza po planovima i standardima
 

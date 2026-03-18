@@ -82,10 +82,23 @@ Iz hrvatski relevantnog sloja generira se prijedlog mapiranja prema
 potencijalnim NN pojmovima:
 - `baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi.json`
 - `baza_terminologije/mape/eu_prema_nn/
-	curia_prema_nn_potencijalni_pojmovi_manifest.json`
+ curia_prema_nn_potencijalni_pojmovi_manifest.json`
 
 Mapiranje se izvodi skriptom:
 - `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py`
 
 Ovaj sloj ne predstavlja normativno sidrenje ni zaključak o istom
 pravnom institutu, nego tehnički prijedlog za ručnu provjeru.
+
+## Prioritetni uzorak za NN sidrenje
+
+Iz skupa predloženih mapiranja izdvojen je prioritetni radni uzorak:
+- `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
+- `baza_terminologije/mape/eu_prema_nn/
+	prioritetni_uzorak_za_nn_sidrenje_manifest.json`
+
+Izdvajanje se izvodi skriptom:
+- `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py`
+
+Uzorak je tehnička priprema za buduće NN sidrenje i ne predstavlja
+potvrđene članke, stavke ni normativne zaključke.

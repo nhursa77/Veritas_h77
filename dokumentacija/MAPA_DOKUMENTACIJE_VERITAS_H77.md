@@ -108,6 +108,10 @@ Uređuje granicu prema pravnim institutima i pripremu za NN sidrenje.
 Definira tehničko mapiranje EU termina prema potencijalnim NN pojmovima.
 Uređuje status prijedloga bez normativnog sidrenja i ručnu provjeru.
 
+### `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+Definira izdvajanje prioritetnog radnog uzorka iz EU -> NN prijedloga.
+Uređuje operativni redoslijed za sljedeći korak NN sidrenja.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -123,7 +127,8 @@ Uređuje status prijedloga bez normativnog sidrenja i ručnu provjeru.
 9) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
 10) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
 11) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
-12) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+12) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+13) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -180,4 +185,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`; tehničko mapiranje
   prema potencijalnim NN pojmovima izvodi
   `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py` prema
-  `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`.
+  `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`; izdvajanje prioritetnog
+  uzorka izvodi `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py` prema
+  `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`.

@@ -1,0 +1,103 @@
+{
+  "ulazna_datoteka": "baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi.json",
+  "ulazni_manifest": "baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json",
+  "ukupan_broj_ulaznih_zapisa": 3879,
+  "ukupan_broj_izdvojenih_prioritetnih_zapisa": 2857,
+  "broj_izdvojenih_po_osnovi_prioriteta": {
+    "POUZDANOST_SREDNJA": 2,
+    "UCESTALI_KANDIDAT": 2745,
+    "PROCESNI_NAZIV": 110
+  },
+  "broj_jedinstvenih_predlozeni_nn_pojam": 1270,
+  "top_20_najcescih_kandidata": [
+    {
+      "kandidat": "Procedural law",
+      "broj": 438
+    },
+    {
+      "kandidat": "EU",
+      "broj": 405
+    },
+    {
+      "kandidat": "Constitutional law",
+      "broj": 257
+    },
+    {
+      "kandidat": "Criminal law",
+      "broj": 245
+    },
+    {
+      "kandidat": "ad hoc",
+      "broj": 212
+    },
+    {
+      "kandidat": "Law",
+      "broj": 164
+    },
+    {
+      "kandidat": "Family law",
+      "broj": 56
+    },
+    {
+      "kandidat": "Law on aliens",
+      "broj": 52
+    },
+    {
+      "kandidat": "DE",
+      "broj": 32
+    },
+    {
+      "kandidat": "No",
+      "broj": 31
+    },
+    {
+      "kandidat": "not validated",
+      "broj": 29
+    },
+    {
+      "kandidat": "FR",
+      "broj": 27
+    },
+    {
+      "kandidat": "PL",
+      "broj": 26
+    },
+    {
+      "kandidat": "ES",
+      "broj": 25
+    },
+    {
+      "kandidat": "HR | IT",
+      "broj": 23
+    },
+    {
+      "kandidat": "BE",
+      "broj": 22
+    },
+    {
+      "kandidat": "AT",
+      "broj": 20
+    },
+    {
+      "kandidat": "Administrative law",
+      "broj": 18
+    },
+    {
+      "kandidat": "SE",
+      "broj": 17
+    },
+    {
+      "kandidat": "IT",
+      "broj": 16
+    }
+  ],
+  "ulazni_segmenti": [
+    "aide.json",
+    "comparative_legal_vocabulary.json",
+    "help.json",
+    "national_courts_and_tribunals.json",
+    "national_legal_acts.json",
+    "rules_of_procedure.json"
+  ]
+}
