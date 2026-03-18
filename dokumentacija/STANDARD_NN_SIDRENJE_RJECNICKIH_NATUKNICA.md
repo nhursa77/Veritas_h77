@@ -62,6 +62,10 @@ U takvim slučajevima:
 - status ostaje `VISE_MOGUCIH_SIDARA`,
 - `status_validacije` se postavlja na `CEKA_RUCNU_PROVJERU_NN`.
 
+Ako višeznačnost ostane otvorena nakon prvog sloja, pojam se razlaže u
+kandidatske podnatuknice prema standardu
+`STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`, bez konačnog izbora sidra.
+
 ---
 
 ## 5) Obavezna struktura `nn_sidra`

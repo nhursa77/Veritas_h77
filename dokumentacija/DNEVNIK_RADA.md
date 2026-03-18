@@ -1500,3 +1500,41 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+## Datum: 18.03.2026 (razlaganje višeznačnih NN sidara)
+
+Za višeznačne i nejasne natuknice iz NN-sidrenog osnovnog postupovnog skupa
+uveden je kandidatski sloj razlaganja po aktu/kontekstu, bez konačnog
+odabira glavnog sidra.
+
+Napravljena je skripta:
+- `alati/razlozi_viseznacna_nn_sidra_po_aktu.py`
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
+
+Razložene natuknice i broj kandidata:
+
+- `dokaz -> 1`
+- `dostava -> 1`
+- `izvršenje -> 1`
+- `presuda -> 1`
+- `prigovor -> 1`
+- `rješenje -> 1`
+- `žalba -> 1`
+- `apsolutna nenadležnost -> 1`
+
+Ukupan broj kandidata: `8`
+
+Dokazne naredbe:
+
+- `python .\alati\razlozi_viseznacna_nn_sidra_po_aktu.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---

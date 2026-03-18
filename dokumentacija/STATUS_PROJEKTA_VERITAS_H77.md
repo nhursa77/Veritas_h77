@@ -4,15 +4,15 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `76247fc` - docs: uvedena tvrda zastita dnevnika rada
-  rada
+- Trenutni commit: `3fc8cf4` - Rjecnik: prvo NN sidrenje osnovnog
+  postupovnog skupa
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 67
-  (prvo NN sidrenje osnovnog postupovnog skupa)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 68
+  (razlaganje višeznačnih NN sidara u kandidatske podnatuknice)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: ručna verifikacija višeznačnih sidara
-  i sužavanje kandidata po granama postupka.
+- Sljedeći zadatak po redu: ručna validacija kandidatskih podnatuknica
+  i izbor konačnih sidara po pojmu.
 
 ## Aktivni gateovi
 
@@ -44,6 +44,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
+- `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -73,8 +74,8 @@ Datum: 18.03.2026.
 - Dnevnik sadrži dokazne naredbe po zadacima i commit tragu.
 - Kronologija unosa je dokumentirana uz commit listu kao dokaz reda.
 
-### NN sidrenje osnovnog postupovnog skupa (ZADATAK 67)
+### Razlaganje višeznačnih sidara (ZADATAK 68)
 
-- Dodana je skripta `alati/sidri_osnovni_postupovni_skup_na_nn.py`.
-- Generirani su `osnovni_postupovni_skup_nn_sidren.json` i manifest.
-- U prvom sloju nema prisilnog sužavanja višeznačnih pojmova na jedno sidro.
+- Dodana je skripta `alati/razlozi_viseznacna_nn_sidra_po_aktu.py`.
+- Generirani su `kandidatske_podnatuknice_nn.json` i pripadni manifest.
+- Kandidatske podnatuknice ostaju nekonačne i ručno validirane.

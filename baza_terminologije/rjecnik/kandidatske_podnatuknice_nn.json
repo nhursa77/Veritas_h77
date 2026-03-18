@@ -1,0 +1,544 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json",
+  "ukupan_broj_ulaznih_viseznacnih_natuknica": 8,
+  "ukupan_broj_kandidatskih_podnatuknica": 8,
+  "kandidatske_podnatuknice": [
+    {
+      "nadredeni_pojam_id": "VH77-RJ-b9f1d747aa80",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNN-ab3eac6a0508",
+      "kanonski_naziv_kandidata": "dokaz — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "78",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "85",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "88",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNN-2d87aa5ad25b",
+      "kanonski_naziv_kandidata": "dostava — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "114",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "117",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "118",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-f539f1e6e71b",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNN-8f72251c3bbd",
+      "kanonski_naziv_kandidata": "izvršenje — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "13",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "14",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "42",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "44",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-98eeaee5242b",
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNN-027d8b43c0d3",
+      "kanonski_naziv_kandidata": "presuda — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "33",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "40",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "106",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "109",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-6cfe40c6580e",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNN-5788f84f97c6",
+      "kanonski_naziv_kandidata": "prigovor — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "93",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "120",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "121",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "221",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-2002f684bc0f",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNN-b3cb3465c260",
+      "kanonski_naziv_kandidata": "rješenje — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "59",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "92",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNN-3c7c1d345294",
+      "kanonski_naziv_kandidata": "žalba — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "VISE_MOGUCIH_SIDARA",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "95",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "100",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Više mogućih članaka; bez prisilnog sužavanja na jedno sidro u prvom sloju."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-24ddae2cc620",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNN-acb19dbe9b52",
+      "kanonski_naziv_kandidata": "apsolutna nenadležnost — prekrsajni_zakon",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": {
+        "status_sidra": "NEJASNO",
+        "sidra": [
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "101",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "103",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          },
+          {
+            "naziv_akta": "prekrsajni_zakon",
+            "akt_slug": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "161",
+            "stavak": null,
+            "tocka": null,
+            "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+            "napomena": "Pojam nije jednoznačno potvrđen kao normativna fraza; upisani su kandidati za ručnu provjeru."
+          }
+        ]
+      },
+      "status_kandidata": "KANDIDAT_NN_SIDRA",
+      "osnova_razdvajanja": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_validaciju": true
+    }
+  ]
+}

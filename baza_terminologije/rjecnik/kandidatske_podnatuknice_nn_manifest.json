@@ -1,0 +1,51 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/kandidatske_podnatuknice_nn.json",
+  "ukupan_broj_ulaznih_viseznacnih_natuknica": 8,
+  "ukupan_broj_kandidatskih_podnatuknica": 8,
+  "broj_kandidata_po_nadredenom_pojmu": {
+    "apsolutna nenadležnost": 1,
+    "dokaz": 1,
+    "dostava": 1,
+    "izvršenje": 1,
+    "presuda": 1,
+    "prigovor": 1,
+    "rješenje": 1,
+    "žalba": 1
+  },
+  "broj_kandidata_po_aktu": {
+    "prekrsajni_zakon": 8
+  },
+  "popis_nadredenih_pojmova": [
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba",
+    "apsolutna nenadležnost"
+  ],
+  "popis_kanonski_naziv_kandidata": [
+    "dokaz — prekrsajni_zakon",
+    "dostava — prekrsajni_zakon",
+    "izvršenje — prekrsajni_zakon",
+    "presuda — prekrsajni_zakon",
+    "prigovor — prekrsajni_zakon",
+    "rješenje — prekrsajni_zakon",
+    "žalba — prekrsajni_zakon",
+    "apsolutna nenadležnost — prekrsajni_zakon"
+  ],
+  "ulazni_manifest_nn_sidrenja": {
+    "broj_po_status_sidra": {
+      "NEDOSTAJE": 1,
+      "NEJASNO": 1,
+      "VISE_MOGUCIH_SIDARA": 7
+    },
+    "broj_po_status_validacije": {
+      "CEKA_NN_SIDRO": 1,
+      "CEKA_RUCNU_PROVJERU_NN": 8
+    }
+  }
+}

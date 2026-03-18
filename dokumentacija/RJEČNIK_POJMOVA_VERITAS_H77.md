@@ -60,6 +60,11 @@ Narodne novine kada je primjenjivo.
 Sidro je konkretna službena referenca objave norme ili izmjene. Sidro se
 bilježi radi dokazivosti citata.
 
+### Kandidatska podnatuknica (NN)
+Kandidatska podnatuknica je privremeni, nekonačni zapis koji razlaže
+višeznačan ili nejasan pojam na razinu akta/konteksta. Ne predstavlja konačno
+sidrenu natuknicu i obavezno zahtijeva ručnu validaciju.
+
 ### Delta control (`*_delta_ops.json`)
 Delta control je kanonski kontrolni artefakt za amandmanski set
 `*_nn_<broj>_<godina>`. Sprema se isključivo na putanju

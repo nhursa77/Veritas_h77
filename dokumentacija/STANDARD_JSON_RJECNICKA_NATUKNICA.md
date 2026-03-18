@@ -193,3 +193,7 @@ Mapiranje u `status_validacije`:
 - `VISE_MOGUCIH_SIDARA` -> `CEKA_RUCNU_PROVJERU_NN`
 - `NEJASNO` -> `CEKA_RUCNU_PROVJERU_NN`
 - `NEDOSTAJE` -> `CEKA_NN_SIDRO`
+
+Za statuse `VISE_MOGUCIH_SIDARA` i `NEJASNO` dopušten je dodatni
+međukorak razlaganja u kandidatske podnatuknice prema
+`STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`.

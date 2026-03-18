@@ -196,3 +196,19 @@ Pravila su definirana standardom:
 Za ovaj sloj vrijedi strogo pravilo: Narodne novine su jedini primarni
 dokazni izvor sidra. Višeznačni pojmovi ostaju označeni kao
 `VISE_MOGUCIH_SIDARA` ili `NEJASNO` dok se ne dovrši ručna provjera.
+
+## Kandidatske podnatuknice iz višeznačnih NN sidara
+
+Iz višeznačnih i nejasnih sidara izrađuje se kandidatski sloj po
+aktu/kontekstu:
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn.json`
+- `baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_manifest.json`
+
+Razlaganje se izvodi skriptom:
+- `alati/razlozi_viseznacna_nn_sidra_po_aktu.py`
+
+Pravila su definirana standardom:
+- `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
+
+Ovaj sloj nije konačna normativna odluka; kandidati ostaju pod obveznom
+ručnom validacijom prije konačne potvrde sidra.

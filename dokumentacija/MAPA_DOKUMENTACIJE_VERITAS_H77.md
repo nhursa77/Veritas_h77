@@ -141,6 +141,10 @@ Uređuje balans između uskog jezgrenog i općeg postupovnog obuhvata.
 Definira prvo stvarno NN sidrenje rječničkih natuknica.
 Uređuje status sidra, višeznačnost i zabranu prisilnog sužavanja na jedno sidro.
 
+### `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
+Definira razlaganje višeznačnih i nejasnih NN sidara u kandidatske podnatuknice.
+Uređuje razdvajanje po aktu/kontekstu bez konačnog ručnog presuđivanja.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -164,7 +168,8 @@ Uređuje status sidra, višeznačnost i zabranu prisilnog sužavanja na jedno si
 17) `STANDARD_JEZGRENE_NATUKNICE_ZA_NN_SIDRENJE.md`
 18) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
 19) `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
-20) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+20) `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
+21) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -240,4 +245,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`; prvo stvarno
   NN sidrenje osnovnog skupa izvodi
   `alati/sidri_osnovni_postupovni_skup_na_nn.py` prema
-  `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`.
+  `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`; razlaganje višeznačnih
+  sidara u kandidatske podnatuknice izvodi
+  `alati/razlozi_viseznacna_nn_sidra_po_aktu.py` prema
+  `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`.
