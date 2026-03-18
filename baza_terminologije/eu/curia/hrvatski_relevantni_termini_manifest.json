@@ -1,0 +1,30 @@
+{
+  "ulazni_segmenti_manifest": "baza_terminologije/eu/curia/segmenti_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/eu/curia/hrvatski_relevantni_termini.json",
+  "ukupan_broj_pregledanih_zapisa": 53483,
+  "ukupan_broj_izdvojenih_zapisa": 1329,
+  "broj_izdvojenih_po_segmentu": {
+    "AIDE": 1,
+    "Comparative Legal Vocabulary": 548,
+    "HELP": 1,
+    "National Courts and Tribunals": 376,
+    "National Legal Acts": 1,
+    "Rules of procedure": 402
+  },
+  "osnove_hrvatske_relevantnosti": [
+    "EKVIVALENT_HR",
+    "POLJE_SADRZI_CROATIAN"
+  ],
+  "broj_po_osnovi": {
+    "POLJE_SADRZI_CROATIAN": 2,
+    "EKVIVALENT_HR": 1327
+  },
+  "nazivi_ulaznih_segmenata": [
+    "aide.json",
+    "comparative_legal_vocabulary.json",
+    "help.json",
+    "national_courts_and_tribunals.json",
+    "national_legal_acts.json",
+    "rules_of_procedure.json"
+  ]
+}

@@ -62,3 +62,16 @@ Segmentacija se izvodi skriptom:
 - `alati/segmentiraj_curia_terminoloske_zapise.py`
 
 Segmenti su tehnički format rada; puni JSON ostaje cjeloviti izvoz.
+
+## Hrvatski relevantan operativni sloj
+
+Iz segmentiranih zapisa izdvojen je poseban skup hrvatski relevantnih
+termina:
+- `baza_terminologije/eu/curia/hrvatski_relevantni_termini.json`
+- `baza_terminologije/eu/curia/hrvatski_relevantni_termini_manifest.json`
+
+Izdvajanje se izvodi skriptom:
+- `alati/izdvoji_hrvatski_relevantne_curia_termini.py`
+
+Ovaj sloj nije rječnik instituta RH, nego tehnički pripremni most prema
+budućem NN sidrenju.

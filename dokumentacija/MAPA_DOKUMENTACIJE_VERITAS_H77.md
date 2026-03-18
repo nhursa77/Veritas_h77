@@ -100,6 +100,10 @@ Uređuje ulogu CURIA/IATE izvora i ograničenja prema pravnom učinku.
 Definira kanonski format normaliziranog terminološkog zapisa.
 Uređuje sljedivost prema raw izvozu bez pravnog tumačenja.
 
+### `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
+Definira tehnički kriterij izdvajanja hrvatski relevantnih zapisa.
+Uređuje granicu prema pravnim institutima i pripremu za NN sidrenje.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -113,7 +117,8 @@ Uređuje sljedivost prema raw izvozu bez pravnog tumačenja.
 7) `DNEVNIK_RADA.md`
 8) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
 9) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
-10) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+10) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
+11) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -164,4 +169,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski
   sloj izvodi `alati/normaliziraj_curia_terminologiju.py` prema
   `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`, dok segmentaciju operativnog
-  formata izvodi `alati/segmentiraj_curia_terminoloske_zapise.py`.
+  formata izvodi `alati/segmentiraj_curia_terminoloske_zapise.py`; izdvajanje
+  hrvatski relevantnog sloja izvodi
+  `alati/izdvoji_hrvatski_relevantne_curia_termini.py` prema
+  `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`.
