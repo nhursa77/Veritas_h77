@@ -1,0 +1,26 @@
+{
+  "ulazna_datoteka": "baza_terminologije/eu/curia/hrvatski_relevantni_termini.json",
+  "ulazni_manifest": "baza_terminologije/eu/curia/hrvatski_relevantni_termini_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi.json",
+  "ukupan_broj_obradenih_termina": 1329,
+  "ukupan_broj_predlozenih_mapiranja": 3879,
+  "broj_mapiranja_po_razini_pouzdanosti": {
+    "NISKA": 3877,
+    "SREDNJA": 2
+  },
+  "broj_zapisa_oznacenih_za_rucnu_provjeru": 3879,
+  "status_mapiranja": "PREDLOZENO_BEZ_NN_SIDRA",
+  "zahtijeva_rucnu_provjeru": true,
+  "osnove_mapiranja": [
+    "OCITA_JEZICNA_BLISKOST",
+    "TEKSTUALNO_PODUDARANJE"
+  ],
+  "ulazni_segmenti": [
+    "aide.json",
+    "comparative_legal_vocabulary.json",
+    "help.json",
+    "national_courts_and_tribunals.json",
+    "national_legal_acts.json",
+    "rules_of_procedure.json"
+  ]
+}

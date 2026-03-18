@@ -949,6 +949,35 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (EU most prema potencijalnim NN pojmovima)
+
+Iz hrvatski relevantnog CURIA skupa dodan je tehnički sloj mapiranja prema
+potencijalnim NN pojmovima bez normativnog sidrenja i bez pravnog
+zaključivanja.
+
+Napravljena je skripta `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py`
+koja koristi samo postojeće ulaze i za svaki prijedlog postavlja
+`zahtijeva_rucnu_provjeru=true` i
+`status_mapiranja=PREDLOZENO_BEZ_NN_SIDRA`.
+
+Dodani su izlazi:
+- `baza_terminologije/mape/eu_prema_nn/
+  curia_prema_nn_potencijalni_pojmovi.json`
+- `baza_terminologije/mape/eu_prema_nn/
+  curia_prema_nn_potencijalni_pojmovi_manifest.json`
+
+Dodan je novi standard `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md` i
+ažurirani su status i mapa dokumentacije za terminološki tok.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 23.02.2026 (R4 G1 OK sanitarni fixture za TOK_OBUSTAVA)
 
 Dodan je `scenario_24` za `TOK_OBUSTAVA` s očekivanjima

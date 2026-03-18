@@ -4,15 +4,13 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `8d79649` - docs: fix dnevnik rada (P6 commitovi +
-  kronologija)
+- Trenutni commit: `2f54b95` - EU: izdvojeni hrvatski relevantni CURIA
+  termini
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni razvojni zadatak: P6 / ZADATAK 50
-  (`TOK_OBUSTAVA` + `G1_STATUS=OK`, scenarij 24)
-- Zadnji dokumentacijski zadatak: ZADATAK 51 (dnevnik commit lista +
-  kronologija)
-- Sljedeći zadatak po redu: P7 - proširenje fixture matrice i E2E veze
-  (`audit_generated_v1.json` -> izlazni nacrt -> manifest)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 56
+  (izdvajanje hrvatski relevantnog CURIA sloja)
+- Sljedeći zadatak po redu: ZADATAK 57
+  (tehničko mapiranje EU termina prema potencijalnim NN pojmovima)
 
 ## Aktivni gateovi
 
@@ -34,6 +32,8 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_JSON_HIJERARHIJA.md`
 - `dokumentacija/STANDARD_JSON_PREDLOZAK.md`
 - `dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
+- `dokumentacija/STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
 
 ## Faza po planovima i standardima
 

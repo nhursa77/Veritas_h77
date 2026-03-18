@@ -104,6 +104,10 @@ Uređuje sljedivost prema raw izvozu bez pravnog tumačenja.
 Definira tehnički kriterij izdvajanja hrvatski relevantnih zapisa.
 Uređuje granicu prema pravnim institutima i pripremu za NN sidrenje.
 
+### `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
+Definira tehničko mapiranje EU termina prema potencijalnim NN pojmovima.
+Uređuje status prijedloga bez normativnog sidrenja i ručnu provjeru.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -118,7 +122,8 @@ Uređuje granicu prema pravnim institutima i pripremu za NN sidrenje.
 8) `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
 9) `STANDARD_JSON_TERMINOLOSKI_ZAPIS.md`
 10) `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
-11) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+11) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
+12) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -172,4 +177,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   formata izvodi `alati/segmentiraj_curia_terminoloske_zapise.py`; izdvajanje
   hrvatski relevantnog sloja izvodi
   `alati/izdvoji_hrvatski_relevantne_curia_termini.py` prema
-  `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`.
+  `STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`; tehničko mapiranje
+  prema potencijalnim NN pojmovima izvodi
+  `alati/mapiraj_curia_na_potencijalne_nn_pojmove.py` prema
+  `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`.
