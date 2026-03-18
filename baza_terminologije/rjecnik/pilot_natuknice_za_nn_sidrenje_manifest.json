@@ -1,0 +1,57 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json",
+  "ukupan_broj_ulaznih_natuknica": 145,
+  "ukupan_broj_izdvojenih_pilot_natuknica": 30,
+  "broj_po_vrsta_pojma": {
+    "PROCESNI_POJAM": 30
+  },
+  "broj_po_osnova_ulaska_u_pilot": {
+    "POSTUPOVNI_OKVIR": 3,
+    "PROCESNO_CENTRALAN_POJAM": 19,
+    "TEMELJNA_PRAVNA_RADNJA": 1,
+    "TEMELJNI_AKT": 5,
+    "TEMELJNI_STATUS_ILI_SVOJSTVO": 2
+  },
+  "popis_pilot_kanonski_naziv": [
+    "dostava među strankama",
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba",
+    "presuda kojom se završava postupak",
+    "prigovor nenadležnosti",
+    "rješenje kojim se završava postupak",
+    "rješenje protiv kojeg nije dozvoljena žalba",
+    "akt kojim se pokreće postupak",
+    "apsolutna nenadležnost",
+    "činjenice koje su predmet dokazivanja",
+    "dokaz o plaćanju troškova",
+    "dokaz o protivnom",
+    "dokaz saslušanjem svjedoka",
+    "dokazna radnja",
+    "dokazni elementi i dokumenti",
+    "dokazni prijedlog",
+    "dokazno sredstvo",
+    "dopunjavanje dokaznih prijedloga",
+    "dostava na inicijativu stranaka",
+    "dostava po službenoj dužnosti",
+    "dostava primjerka uz potvrdu o primitku",
+    "dostava tužbe tuženiku",
+    "dostava za potrebe postupka",
+    "glavni postupak",
+    "hitni prethodni postupak"
+  ],
+  "broj_natuknica_s_praznim_nn_sidra": 30,
+  "broj_natuknica_status_validacije_CEKA_NN_SIDRO": 30,
+  "ciljani_raspon_pilot_skupa": "20-30",
+  "pilot_skup_u_ciljanom_rasponu": true,
+  "napomena_o_rasponu": "",
+  "ulazni_status_validacije_default": {
+    "CEKA_NN_SIDRO": 145
+  }
+}

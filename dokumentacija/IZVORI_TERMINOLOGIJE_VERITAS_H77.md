@@ -131,3 +131,19 @@ Model natuknice definiran je standardom:
 
 Ovaj sloj je operativna priprema za buduće NN sidrenje i ne predstavlja
 normativni zaključak ni pravni učinak.
+
+## Pilot natuknice za prvo NN sidrenje
+
+Iz početnog rječničkog skupa izdvaja se mali pilot-skup za prvi ciklus
+stvarnog NN sidrenja:
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json`
+
+Izdvajanje se izvodi skriptom:
+- `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py`
+
+Pravila izdvajanja definirana su standardom:
+- `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Pilot-sloj ne uvodi NN sidra ni pravne definicije, nego određuje redoslijed
+ručne provjere i sidrenja u sljedećem koraku.

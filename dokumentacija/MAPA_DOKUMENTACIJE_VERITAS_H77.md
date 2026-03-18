@@ -120,6 +120,10 @@ Uređuje uklanjanje tehničkog šuma prije ručnog NN pregleda.
 Definira kanonski JSON model jedne rječničke natuknice Veritas H.77.
 Uređuje početni operativni skup bez NN sidra i prazna polja za sidrenje.
 
+### `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+Definira izdvajanje pilot-skupa rječničkih natuknica za prvo NN sidrenje.
+Uređuje determinističke kriterije prioriteta i obavezna pilot-polja.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -138,7 +142,8 @@ Uređuje početni operativni skup bez NN sidra i prazna polja za sidrenje.
 12) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
 13) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
 14) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
-15) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+15) `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+16) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -202,4 +207,6 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`; izgradnju početnih
   rječničkih natuknica izvodi
   `alati/izgradi_pocetne_rjecnicke_natuknice.py` prema
-  `STANDARD_JSON_RJECNICKA_NATUKNICA.md`.
+  `STANDARD_JSON_RJECNICKA_NATUKNICA.md`; izdvajanje pilot-skupa izvodi
+  `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py` prema
+  `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`.

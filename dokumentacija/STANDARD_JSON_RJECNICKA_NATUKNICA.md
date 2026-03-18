@@ -136,3 +136,13 @@ U fazi početne izgradnje vrijedi:
   "razina_pouzdanosti": "NISKA"
 }
 ```
+
+---
+
+## 8) Veza s pilot-sidrenjem
+
+Nakon početne izgradnje natuknica, pilot-odabir za prvo NN sidrenje izvodi
+se prema dokumentu `STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`.
+
+Taj korak ne mijenja pravilo da se definicije i NN sidra ne izmišljaju,
+nego samo deterministički prioritizira natuknice za ručni pregled.

@@ -949,6 +949,37 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (pilot-skup natuknica za prvo NN sidrenje)
+
+Iz početnog skupa rječničkih natuknica izdvojen je mali pilot-skup za prvi
+operativni ciklus ručnog NN sidrenja.
+
+Napravljena je skripta `alati/izdvoji_pilot_natuknice_za_nn_sidrenje.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje.json`
+- `baza_terminologije/rjecnik/pilot_natuknice_za_nn_sidrenje_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_PILOT_NATUKNICE_ZA_NN_SIDRENJE.md`
+
+Svaka izdvojena natuknica zadržava puni izvorni sadržaj i dodatna
+pilot-polja: `pilot_skup=true`, `osnova_ulaska_u_pilot`,
+`redoslijed_pilota`.
+
+Pilot-sloj ne uvodi NN sidra ni definicije; zadržava
+`status_validacije=CEKA_NN_SIDRO`.
+
+Dokazne naredbe:
+
+- `python .\alati\izdvoji_pilot_natuknice_za_nn_sidrenje.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (kanonski model rječničke natuknice)
 
 Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
