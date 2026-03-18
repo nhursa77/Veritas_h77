@@ -116,6 +116,10 @@ Uređuje operativni redoslijed za sljedeći korak NN sidrenja.
 Definira čišćenje prioritetnog uzorka na NN-sidrenju podobne kandidate.
 Uređuje uklanjanje tehničkog šuma prije ručnog NN pregleda.
 
+### `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+Definira kanonski JSON model jedne rječničke natuknice Veritas H.77.
+Uređuje početni operativni skup bez NN sidra i prazna polja za sidrenje.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -133,7 +137,8 @@ Uređuje uklanjanje tehničkog šuma prije ručnog NN pregleda.
 11) `STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
 12) `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
 13) `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
-14) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+14) `STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+15) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -194,4 +199,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   uzorka izvodi `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py` prema
   `STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`; čišćenje uzorka izvodi
   `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py` prema
-  `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`.
+  `STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`; izgradnju početnih
+  rječničkih natuknica izvodi
+  `alati/izgradi_pocetne_rjecnicke_natuknice.py` prema
+  `STANDARD_JSON_RJECNICKA_NATUKNICA.md`.

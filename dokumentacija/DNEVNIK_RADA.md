@@ -949,6 +949,36 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 18.03.2026 (kanonski model rječničke natuknice)
+
+Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
+iz postojećeg skupa `nn_sidrenju_podobni_pojmovi.json` generiran je početni
+operativni skup bez NN sidra.
+
+Napravljena je skripta `alati/izgradi_pocetne_rjecnicke_natuknice.py`.
+
+Dodani su izlazi:
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice.json`
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice_manifest.json`
+
+Dodan je standard:
+- `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+
+U ovom koraku sva polja bez dokazive osnove ostavljena su na praznim
+vrijednostima (`null`, `[]`, `{}`), `nn_sidra` je prazna struktura spremna
+za buduće sidrenje, `status_validacije=CEKA_NN_SIDRO`, a
+`razina_pouzdanosti` je prenesena iz ulaza gdje postoji.
+
+Dokazne naredbe:
+
+- `python .\alati\izgradi_pocetne_rjecnicke_natuknice.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (ciscenje prioritetnog uzorka za NN sidrenje)
 
 Iz prioritetnog uzorka izdvojen je uži skup kandidata tekstualno podobnih

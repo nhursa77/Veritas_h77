@@ -4,12 +4,12 @@ Datum: 18.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `d54f174` - EU: prioritetni uzorak za NN sidrenje
+- Trenutni commit: `e0e5b9f` - EU: očišćen prioritetni uzorak za NN sidrenje
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 58
-  (prioritetni uzorak kandidata za prvo NN sidrenje)
-- Sljedeći zadatak po redu: ZADATAK 59
-  (čišćenje uzorka na NN-sidrenju podobne pojmove)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 60
+  (kanonski model rječničke natuknice i početni operativni skup)
+- Sljedeći zadatak po redu: ručno NN sidrenje natuknica
+  (sidra, članci, stavci i točke)
 
 ## Aktivni gateovi
 
@@ -35,6 +35,8 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_IZDVAJANJE_HRVATSKI_RELEVANTNIH_TERMINA.md`
 - `dokumentacija/STANDARD_MAPIRANJE_EU_PREMA_NN_POJMOVIMA.md`
 - `dokumentacija/STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+- `dokumentacija/STANDARD_CISCENJE_PRIORITETNOG_UZORKA_NN.md`
+- `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
 
 ## Faza po planovima i standardima
 
@@ -59,6 +61,6 @@ Datum: 18.03.2026.
 
 ### DNEVNIK_RADA.md (zadnji pregledani blok)
 
-- U završnom bloku su unosi za R3 i R4 fixtures korake od 23.02.2026.
+- U završnom bloku su unosi za terminološke korake 52-60.
 - Dnevnik sadrži dokazne naredbe po zadacima i commit tragu.
 - Kronologija unosa je dokumentirana uz commit listu kao dokaz reda.

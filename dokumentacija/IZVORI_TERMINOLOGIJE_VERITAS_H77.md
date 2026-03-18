@@ -95,7 +95,7 @@ pravnom institutu, nego tehnički prijedlog za ručnu provjeru.
 Iz skupa predloženih mapiranja izdvojen je prioritetni radni uzorak:
 - `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
 - `baza_terminologije/mape/eu_prema_nn/
-	prioritetni_uzorak_za_nn_sidrenje_manifest.json`
+ prioritetni_uzorak_za_nn_sidrenje_manifest.json`
 
 Izdvajanje se izvodi skriptom:
 - `alati/izdvoji_prioritetni_uzorak_za_nn_sidrenje.py`
@@ -108,10 +108,26 @@ potvrđene članke, stavke ni normativne zaključke.
 Iz prioritetnog uzorka izdvojen je uži skup tekstualno podobnih kandidata:
 - `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
 - `baza_terminologije/mape/eu_prema_nn/
-	nn_sidrenju_podobni_pojmovi_manifest.json`
+ nn_sidrenju_podobni_pojmovi_manifest.json`
 
 Čišćenje se izvodi skriptom:
 - `alati/ocisti_prioritetni_uzorak_za_nn_sidrenje.py`
 
 Ovaj sloj ne uvodi članke, stavke ni pravne učinke; služi kao tehnička
 priprema za ručni NN pregled u sljedećem koraku.
+
+## Početne rječničke natuknice (kanonski model)
+
+Iz očišćenog skupa NN-sidrenju podobnih pojmova generira se početni
+operativni rječnički skup:
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice.json`
+- `baza_terminologije/rjecnik/pocetne_rjecnicke_natuknice_manifest.json`
+
+Izgradnja se izvodi skriptom:
+- `alati/izgradi_pocetne_rjecnicke_natuknice.py`
+
+Model natuknice definiran je standardom:
+- `dokumentacija/STANDARD_JSON_RJECNICKA_NATUKNICA.md`
+
+Ovaj sloj je operativna priprema za buduće NN sidrenje i ne predstavlja
+normativni zaključak ni pravni učinak.
