@@ -150,6 +150,12 @@ Definira sužavanje v2 kandidata u konačne podnatuknice za ručnu validaciju.
 Uređuje granicu između grupiranja istog konteksta i zadržavanja različitog
 akta ili različitog normativnog konteksta.
 
+### `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
+Definira ručnu validaciju konačnih NN kandidata i upis potvrđenih sidara u
+validirani sloj rječničkih natuknica.
+Uređuje statuse konačne validacije i pravilo da bez ljudske potvrde nema
+konačnog odabira sidra.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -175,7 +181,8 @@ akta ili različitog normativnog konteksta.
 19) `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
 20) `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 21) `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
-22) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+22) `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
+23) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -261,4 +268,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   za ručnu validaciju izvodi
   `alati/suzi_nn_kandidate_za_rucnu_validaciju.py` prema
   `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md` i generira
-  `konacni_nn_kandidati_za_validaciju.json` + manifest.
+  `konacni_nn_kandidati_za_validaciju.json` + manifest; ručna validacija i
+  upis potvrđenih sidara izvodi
+  `alati/upisi_validirana_nn_sidra_u_natuknice.py` prema
+  `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md` i generira
+  `osnovni_postupovni_skup_nn_validiran.json` + manifest.

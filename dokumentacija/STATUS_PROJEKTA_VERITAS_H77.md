@@ -4,14 +4,14 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `ea5fa26` - Rjecnik: ispravljeno razlaganje NN kandidata
+- Trenutni commit: `02bdaa1` - Rjecnik: suzeni NN kandidati za ručnu validaciju
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 70
-  (sužavanje NN kandidata u konačne podnatuknice za ručnu validaciju)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 71
+  (ručna validacija konačnih NN kandidata i upis potvrđenih NN sidara)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: ručna pravna validacija konačnih kandidata i
-  potvrda završnog sidra po nadređenom pojmu.
+- Sljedeći zadatak po redu: zatvaranje otvorenih višeznačnosti kroz dodatnu
+  ručnu validaciju i prijelaz prema konačnom rječničkom sloju.
 
 ## Aktivni gateovi
 
@@ -45,6 +45,7 @@ Datum: 25.03.2026.
 - `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
 - `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -94,3 +95,13 @@ Datum: 25.03.2026.
 - Uveden je standard `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`.
 - U ovom skupu nije bilo spajanja istog konteksta (`grupirani=0`), a svi
   kandidati ostaju za ručnu validaciju (`zadrzani=40`).
+
+### Ručna validacija i upis potvrđenih sidara (ZADATAK 71)
+
+- Dodana je skripta `alati/upisi_validirana_nn_sidra_u_natuknice.py`.
+- Generirani su `osnovni_postupovni_skup_nn_validiran.json` i pripadni
+  manifest.
+- Uveden je standard `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`.
+- Statusi validacije za 8 ciljanih pojmova su upisani u validirani sloj:
+  `NN_VALIDIRANO=0`, `NN_DJELOMICNO_VALIDIRANO=8`,
+  `CEKA_DALJNJU_RUCNU_VALIDACIJU=0`.

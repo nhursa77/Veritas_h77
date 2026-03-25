@@ -235,3 +235,23 @@ U ovom sloju kandidati se grupiraju samo kada dijele isti akt i isti
 normativni kontekst (`broj_nn`, `clanak`, `stavak`, `tocka`).
 Kandidati s različitim kontekstom ostaju odvojeni za ručnu odluku i ne
 spajaju se nasilno.
+
+## Validirani NN-sidreni rječnički sloj
+
+Nakon ručne validacije konačnih kandidata generira se validirani sloj
+rječničkih natuknica:
+
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json`
+- `baza_terminologije/rjecnik/
+ osnovni_postupovni_skup_nn_validiran_manifest.json`
+
+Upis potvrđenih sidara izvodi skripta:
+
+- `alati/upisi_validirana_nn_sidra_u_natuknice.py`
+
+Pravila su definirana standardom:
+
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
+
+Ovaj sloj upisuje samo ručno potvrđena sidra i status validacije po pojmu.
+Bez ljudske potvrde nema konačnog odabira sidra.

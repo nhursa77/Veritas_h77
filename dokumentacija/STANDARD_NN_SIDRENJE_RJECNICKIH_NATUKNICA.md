@@ -70,6 +70,10 @@ Kod korekcije razlaganja kandidata (v2), kandidati se vode po pojedinom
 sidru, odnosno po jedinstvenoj kombinaciji `akt_slug + broj_nn + clanak +
 stavak + tocka`.
 
+Konačni upis potvrđenih sidara u validirani sloj natuknica provodi se tek
+nakon ručne validacije prema
+`STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`.
+
 ---
 
 ## 5) Obavezna struktura `nn_sidra`

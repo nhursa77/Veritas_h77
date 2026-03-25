@@ -1,0 +1,320 @@
+{
+  "ulaz_kandidati": "baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju.json",
+  "ulaz_kandidati_manifest": "baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju_manifest.json",
+  "ulaz_osnovni_skup": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_sidren.json",
+  "izlaz": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json",
+  "datum_validacije": "25.03.2026.",
+  "izvor_validacije": "rucna_validacija",
+  "ukupan_broj_pojmova_u_ulazu": 8,
+  "broj_potpuno_validiranih": 0,
+  "broj_djelomicno_validiranih": 8,
+  "broj_ceka_daljnju_validaciju": 0,
+  "potvrdena_sidra_po_nadredenom_pojmu": {
+    "dokaz": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "78",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "85",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "88",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "dostava": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "114",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "117",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "118",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "122",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "izvršenje": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "13",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "14",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "34",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "42",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "44",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "presuda": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "106",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "109",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "33",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "40",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "prigovor": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "102",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "120",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "121",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "221",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "93",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "rješenje": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "34",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "59",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "92",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "žalba": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "100",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "95",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    ],
+    "apsolutna nenadležnost": [
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "101",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "102",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "103",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "122",
+        "stavak": null,
+        "tocka": null
+      },
+      {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "161",
+        "stavak": null,
+        "tocka": null
+      }
+    ]
+  },
+  "pojmovi_bez_konacne_odluke": [
+    "apsolutna nenadležnost",
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba"
+  ]
+}

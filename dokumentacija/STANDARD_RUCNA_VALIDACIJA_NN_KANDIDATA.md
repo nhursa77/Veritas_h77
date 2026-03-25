@@ -16,6 +16,9 @@ normativne odluke.
 Konačne podnatuknice iz ovog koraka služe isključivo kao priprema za ručni
 odabir i potvrdu sidra.
 
+Nakon ovog koraka, potvrđena sidra se upisuju u validirani rječnički sloj
+prema standardu `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`.
+
 ---
 
 ## 2) Ulaz i izlaz

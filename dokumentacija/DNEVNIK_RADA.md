@@ -1624,3 +1624,54 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 25.03.2026 (ručna validacija i upis potvrđenih NN sidara)
+
+Provedena je ručna validacija konačnih NN kandidata i upis potvrđenih sidara
+u novi validirani sloj osnovnog postupovnog skupa.
+
+Zabilježen je obavezni zaštitni ispis dnevnika prije izmjene:
+
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+
+Napravljena je skripta:
+
+- `alati/upisi_validirana_nn_sidra_u_natuknice.py`
+
+Dodani su izlazi:
+
+- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json`
+- `baza_terminologije/rjecnik/
+ osnovni_postupovni_skup_nn_validiran_manifest.json`
+
+Dodan je standard:
+
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
+
+Rezultati po nadređenom pojmu
+(ulazni kandidati -> potvrđena sidra | status):
+
+- `dokaz: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `dostava: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `izvršenje: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `presuda: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `prigovor: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `rješenje: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `žalba: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+- `apsolutna nenadležnost: 5 -> 5 | NN_DJELOMICNO_VALIDIRANO`
+
+Ukupni statusi validacije:
+
+- `NN_VALIDIRANO: 0`
+- `NN_DJELOMICNO_VALIDIRANO: 8`
+- `CEKA_DALJNJU_RUCNU_VALIDACIJU: 0`
+
+Dokazne naredbe:
+
+- `python .\alati\upisi_validirana_nn_sidra_u_natuknice.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
