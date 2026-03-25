@@ -1,8 +1,8 @@
 # TEHNIČKI_OKVIR_VERITAS_H77
 
-Datum: 19.02.2026.
+Datum: 25.03.2026.
 Status: kanonski
-Opseg: lokalni rad Veritas H.77 na Windows okruženju, bez cloud-a.
+Opseg: lokalni rad Veritas H.77 na Windows okruženju uz kanonski GitHub.
 
 ---
 
@@ -11,6 +11,12 @@ Opseg: lokalni rad Veritas H.77 na Windows okruženju, bez cloud-a.
 Primarno okruženje je Windows s PowerShell konzolom.
 Rad se izvodi lokalno, uz lokalne datoteke i lokalne alate.
 Pokretanje koraka mora biti reproducibilno kroz iste naredbe.
+
+Kanonski model sinkronizacije:
+
+- GitHub je izvor istine,
+- `C:\Veritas_H77` je jedina radna kopija,
+- Google Disk je sinkronizirana kopija/backup, nije paralelna radna kopija.
 
 ---
 

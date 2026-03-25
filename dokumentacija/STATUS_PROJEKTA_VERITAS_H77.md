@@ -4,15 +4,30 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `f6a24c4` - Rjecnik: uklonjene aktivne repo greske iz
-  Problems panela
+- Trenutni commit: `6e1e938` - Rjecnik: zatvorena prva potpuno validirana
+  natuknica
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 73
-  (zatvorena prva potpuno validirana granska natuknica)
+- Zadnji dovršeni zadatak: ZADATAK 74A
+  (uveden kanonski standard sinkronizacije repoa)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: postupno zatvaranje sljedecih potpuno
-  validiranih granskih natuknica po istom deterministicnom pravilu.
+- Sljedeći korak nakon uspostave sinkronizacije: poravnati `main` s
+  `origin/main`, potvrditi sinkronizaciju i zatim nastaviti s idućom
+  potpuno validiranom natuknicom.
+
+## Pravilo sinkronizacije
+
+- Kanonski izvor istine: GitHub (`nhursa77/Veritas_h77`)
+- Jedina radna kopija: `C:\Veritas_H77`
+- Google Disk: sinkronizirana kopija/backup/pregled, nije paralelni izvor
+  uređivanja istih datoteka
+
+Trenutno stanje sinkronizacije (pre-check):
+
+- lokalni hash: `6e1e938`
+- `git status --short`: prazan
+- `main` poravnanje: NIJE poravnat (`ahead 1`)
+- lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi
 
@@ -49,6 +64,7 @@ Datum: 25.03.2026.
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 - `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima

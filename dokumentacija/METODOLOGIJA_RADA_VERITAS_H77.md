@@ -139,6 +139,16 @@ Ako postoji razlika između pomoćnog izvora i službene objave:
 - zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu
    o odstupanju.
 
+### 5.4 Sinkronizacija repozitorija i kopija
+
+GitHub repozitorij je kanonski izvor istine projekta.
+Lokalna mapa `C:\Veritas_H77` je jedina radna kopija za razvoj.
+Google Disk kopija je sinkronizirana kopija i backup, ne paralelni izvor
+uređivanja istih datoteka.
+
+Obavezni redoslijed rada je: lokalna izmjena, gateovi, commit, push na
+GitHub i tek nakon toga osvježavanje Google Disk kopije.
+
 ---
 
 ## 6) Dvije baze znanja (temelj funkcionalnosti)

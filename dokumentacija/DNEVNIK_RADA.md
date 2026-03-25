@@ -1376,6 +1376,7 @@ Dokazne naredbe:
 
 ---
 
+
 ## Datum: 25.03.2026 (ZADATAK 73 - prva potpuno validirana natuknica)
 
 Iz ulaza `granske_podnatuknice_nn_v2.json` deterministicki je odabrana i
@@ -1843,6 +1844,37 @@ Dokazne naredbe:
 - `python .\alati\konsolidiraj_nn_validirane_pojmove_po_grani.py`
 - `git status --short`
 - `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 25.03.2026 (ZADATAK 74A - standard sinkronizacije repoa)
+
+Uveden je kanonski standard sinkronizacije repoa:
+
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+
+GitHub je proglasen kanonskim izvorom istine.
+Lokalni repo `C:\Veritas_H77` je jedina radna kopija za razvoj i Copilot
+zadatke.
+Google Disk je definiran kao sinkronizirana kopija i backup, bez paralelnog
+uredjivanja istih `.md`, `.py` i `.json` datoteka.
+
+Utvrdene cinjenice prije izmjena:
+
+- lokalni hash: `6e1e938`
+- `git status --short`: prazan
+- `main` prema `origin/main`: `ahead 1` (nije poravnat)
+- tipicne lokalne Drive putanje nisu detektirane ovom provjerom
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git diff --name-only`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 

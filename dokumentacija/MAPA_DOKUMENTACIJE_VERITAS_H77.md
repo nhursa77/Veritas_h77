@@ -168,6 +168,12 @@ Definira pilot-zatvaranje prve potpuno validirane granske natuknice.
 Uređuje uvjete jednoznačnog konteksta i dokazivih NN sidara,
 uz pravilo da se u jednom zadatku zatvara točno jedna natuknica.
 
+### `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+Definira kanonski model sinkronizacije lokalnog repoa, GitHuba i
+Google Disk kopije.
+Uređuje da je GitHub izvor istine, lokalna mapa jedina radna kopija,
+a Drive samo sinkronizirana kopija/backup.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -196,7 +202,8 @@ uz pravilo da se u jednom zadatku zatvara točno jedna natuknica.
 22) `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 23) `STANDARD_GRANSKE_PODNATUKNICE_NN.md`
 24) `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
-25) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+25) `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+26) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
