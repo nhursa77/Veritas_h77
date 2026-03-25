@@ -145,6 +145,11 @@ Uređuje status sidra, višeznačnost i zabranu prisilnog sužavanja na jedno si
 Definira razlaganje višeznačnih i nejasnih NN sidara u kandidatske podnatuknice.
 Uređuje razdvajanje po aktu/kontekstu bez konačnog ručnog presuđivanja.
 
+### `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
+Definira sužavanje v2 kandidata u konačne podnatuknice za ručnu validaciju.
+Uređuje granicu između grupiranja istog konteksta i zadržavanja različitog
+akta ili različitog normativnog konteksta.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -169,7 +174,8 @@ Uređuje razdvajanje po aktu/kontekstu bez konačnog ručnog presuđivanja.
 18) `STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
 19) `STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
 20) `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
-21) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+21) `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
+22) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -251,4 +257,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`; ispravak razlaganja na
   stvarne kandidate po pojedinom sidru izvodi
   `alati/ispravi_razlaganje_nn_kandidata.py` i generira
-  `kandidatske_podnatuknice_nn_v2.json` + manifest.
+  `kandidatske_podnatuknice_nn_v2.json` + manifest; sužavanje v2 kandidata
+  za ručnu validaciju izvodi
+  `alati/suzi_nn_kandidate_za_rucnu_validaciju.py` prema
+  `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md` i generira
+  `konacni_nn_kandidati_za_validaciju.json` + manifest.

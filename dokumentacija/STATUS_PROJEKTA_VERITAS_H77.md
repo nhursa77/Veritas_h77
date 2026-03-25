@@ -1,17 +1,17 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 18.03.2026.
+Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `6553ea1` - Rjecnik: razlozena viseznacna NN sidra po aktu
+- Trenutni commit: `ea5fa26` - Rjecnik: ispravljeno razlaganje NN kandidata
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 69
-  (ispravljeno razlaganje višeznačnih NN sidara na stvarne kandidate)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 70
+  (sužavanje NN kandidata u konačne podnatuknice za ručnu validaciju)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: ručna validacija kandidata v2 i konsolidacija
-  konačnih sidara po nadređenom pojmu.
+- Sljedeći zadatak po redu: ručna pravna validacija konačnih kandidata i
+  potvrda završnog sidra po nadređenom pojmu.
 
 ## Aktivni gateovi
 
@@ -44,6 +44,7 @@ Datum: 18.03.2026.
 - `dokumentacija/STANDARD_OSNOVNI_POSTUPOVNI_SKUP_ZA_NN_SIDRENJE.md`
 - `dokumentacija/STANDARD_NN_SIDRENJE_RJECNICKIH_NATUKNICA.md`
 - `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -84,3 +85,12 @@ Datum: 18.03.2026.
 - Dodana je skripta `alati/ispravi_razlaganje_nn_kandidata.py`.
 - Generirani su `kandidatske_podnatuknice_nn_v2.json` i pripadni v2 manifest.
 - V2 kandidati razlažu se po pojedinom sidru, a ne samo po nadređenom pojmu.
+
+### Sužavanje kandidata za ručnu validaciju (ZADATAK 70)
+
+- Dodana je skripta `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`.
+- Generirani su `konacni_nn_kandidati_za_validaciju.json` i pripadni
+  manifest.
+- Uveden je standard `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`.
+- U ovom skupu nije bilo spajanja istog konteksta (`grupirani=0`), a svi
+  kandidati ostaju za ručnu validaciju (`zadrzani=40`).

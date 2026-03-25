@@ -1,0 +1,556 @@
+{
+  "ulazna_datoteka": "baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2.json",
+  "ulazni_manifest": "baza_terminologije/rjecnik/kandidatske_podnatuknice_nn_v2_manifest.json",
+  "naziv_izlazne_datoteke": "baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju.json",
+  "ukupan_broj_v2_kandidata": 40,
+  "ukupan_broj_konacnih_kandidata": 40,
+  "broj_kandidata_po_nadredenom_pojmu": {
+    "prije": {
+      "apsolutna nenadležnost": 5,
+      "dokaz": 5,
+      "dostava": 5,
+      "izvršenje": 5,
+      "presuda": 5,
+      "prigovor": 5,
+      "rješenje": 5,
+      "žalba": 5
+    },
+    "poslije": {
+      "apsolutna nenadležnost": 5,
+      "dokaz": 5,
+      "dostava": 5,
+      "izvršenje": 5,
+      "presuda": 5,
+      "prigovor": 5,
+      "rješenje": 5,
+      "žalba": 5
+    }
+  },
+  "broj_grupiranih_kandidata": 0,
+  "broj_zadrzanih_kandidata": 40,
+  "popis_grupiranih_kandidata": [],
+  "popis_zadrzanih_kandidata": [
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNNF-a88e6119bb17",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "101",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNNF-131ba209c890",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "102",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNNF-f9af581dff67",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "103",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNNF-bcc857566515",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "122",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "kandidat_id": "VH77-KPNNF-bf7892166862",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "161",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNNF-a596ccadd6dc",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "78",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNNF-3a687cbe56a2",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "85",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNNF-e01deecdb1d7",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNNF-e721dbdae21b",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "88",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "kandidat_id": "VH77-KPNNF-8975df7f9938",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNNF-efb2b5a27f31",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "114",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNNF-59f2a4782f3d",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "117",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNNF-7ca7dd8071ca",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "118",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNNF-303f1884abeb",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "122",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "kandidat_id": "VH77-KPNNF-cf1fa9d1b84b",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNNF-a10a5c8eb37d",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "13",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNNF-c11c101e8706",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "14",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNNF-3831a7ee3a35",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "34",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNNF-bab7bef503f0",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "42",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "kandidat_id": "VH77-KPNNF-aa4c9f719604",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "44",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNNF-4f3eb6152090",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "106",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNNF-cdc57a4d331b",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "109",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNNF-51d9817e2a47",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "33",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNNF-1589d4efa3fb",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "40",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "kandidat_id": "VH77-KPNNF-053078fa768d",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNNF-3af33e2debcd",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "102",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNNF-827cdbe1c093",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "120",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNNF-aada9ca2f66d",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "121",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNNF-c7ee209be145",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "221",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "kandidat_id": "VH77-KPNNF-81c2567e2ccb",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "93",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNNF-541395ad1774",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "34",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNNF-6fe802a7e81c",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "59",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNNF-9c0c86ba1231",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNNF-bb4c1f85295b",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "92",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "kandidat_id": "VH77-KPNNF-4cadb9fa43ae",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNNF-eb78a0ce0666",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "100",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNNF-7537c6815521",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "87",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNNF-635391859d8b",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "89",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNNF-be24d73621d9",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "95",
+        "stavak": null,
+        "tocka": null
+      }
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "kandidat_id": "VH77-KPNNF-cee7f45dba33",
+      "oznaka": "ZADRŽAN_RAZLIČIT_KONTEKST",
+      "kontekst": {
+        "naziv_akta": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "99",
+        "stavak": null,
+        "tocka": null
+      }
+    }
+  ],
+  "usporedba_prije_poslije": {
+    "apsolutna nenadležnost": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "dokaz": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "dostava": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "izvršenje": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "presuda": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "prigovor": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "rješenje": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    },
+    "žalba": {
+      "prije": 5,
+      "poslije": 5,
+      "delta": 0
+    }
+  }
+}

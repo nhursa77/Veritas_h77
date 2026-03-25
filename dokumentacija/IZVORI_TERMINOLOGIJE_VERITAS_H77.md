@@ -217,3 +217,21 @@ Pravila su definirana standardom:
 
 Ovaj sloj nije konačna normativna odluka; kandidati ostaju pod obveznom
 ručnom validacijom prije konačne potvrde sidra.
+
+## Konačni NN kandidati za ručnu validaciju
+
+Iz v2 kandidata generira se sloj konačnih kandidata spremnih za ručni
+pravni pregled:
+- `baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju.json`
+- `baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju_manifest.json`
+
+Sužavanje se izvodi skriptom:
+- `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`
+
+Pravila su definirana standardom:
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
+
+U ovom sloju kandidati se grupiraju samo kada dijele isti akt i isti
+normativni kontekst (`broj_nn`, `clanak`, `stavak`, `tocka`).
+Kandidati s različitim kontekstom ostaju odvojeni za ručnu odluku i ne
+spajaju se nasilno.

@@ -1573,3 +1573,54 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 25.03.2026 (sužavanje NN kandidata za ručnu validaciju)
+
+Iz v2 sloja kandidata izrađen je konačni kandidatski skup za ručnu pravnu
+validaciju, bez automatskog odabira glavnog sidra i bez unošenja novih
+normativnih podataka.
+
+Zabilježen je obavezni zaštitni ispis dnevnika prije izmjene:
+
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+
+Napravljena je skripta:
+
+- `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`
+
+Dodani su izlazi:
+
+- `baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju.json`
+- `baza_terminologije/rjecnik/konacni_nn_kandidati_za_validaciju_manifest.json`
+
+Dodan je standard:
+
+- `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
+
+Statistike sužavanja po nadređenom pojmu (prije -> poslije):
+
+- `apsolutna nenadležnost: 5 -> 5`
+- `dokaz: 5 -> 5`
+- `dostava: 5 -> 5`
+- `izvršenje: 5 -> 5`
+- `presuda: 5 -> 5`
+- `prigovor: 5 -> 5`
+- `rješenje: 5 -> 5`
+- `žalba: 5 -> 5`
+
+Ukupne statistike:
+
+- `ukupno prije: 40`
+- `ukupno poslije: 40`
+- `grupiran_isti_kontekst: 0`
+- `zadržan_različit_akt_ili_kontekst: 40`
+
+Dokazne naredbe:
+
+- `python .\alati\suzi_nn_kandidate_za_rucnu_validaciju.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
