@@ -27,7 +27,8 @@ Ulaz:
 Izlaz:
 
 - `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json`
-- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran_manifest.json`
+- `baza_terminologije/rjecnik/
+ osnovni_postupovni_skup_nn_validiran_manifest.json`
 
 Skripta:
 
@@ -109,3 +110,6 @@ Skripta mora na stdout ispisati za svaki nadređeni pojam:
 - završni `status_validacije`.
 
 Skripta mora ispisati i ukupne brojeve po statusima validacije.
+
+Nakon upisa validiranih sidara, po potrebi se provodi granska konsolidacija
+prema `STANDARD_GRANSKE_PODNATUKNICE_NN.md`.

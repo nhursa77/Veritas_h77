@@ -156,6 +156,11 @@ validirani sloj rječničkih natuknica.
 Uređuje statuse konačne validacije i pravilo da bez ljudske potvrde nema
 konačnog odabira sidra.
 
+### `STANDARD_GRANSKE_PODNATUKNICE_NN.md`
+Definira konsolidaciju validiranih sidara u granske rječničke podnatuknice.
+Uređuje tehničko razdvajanje po dokazivom kontekstu (grana/akt) bez
+slobodnog pravnog tumačenja.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -182,7 +187,8 @@ konačnog odabira sidra.
 20) `STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 21) `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
 22) `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
-23) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+23) `STANDARD_GRANSKE_PODNATUKNICE_NN.md`
+24) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
@@ -272,4 +278,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   upis potvrđenih sidara izvodi
   `alati/upisi_validirana_nn_sidra_u_natuknice.py` prema
   `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md` i generira
-  `osnovni_postupovni_skup_nn_validiran.json` + manifest.
+  `osnovni_postupovni_skup_nn_validiran.json` + manifest; granska
+  konsolidacija validiranih pojmova izvodi
+  `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py` prema
+  `STANDARD_GRANSKE_PODNATUKNICE_NN.md` i generira
+  `granske_podnatuknice_nn.json` + manifest.

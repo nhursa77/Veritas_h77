@@ -1,0 +1,100 @@
+{
+  "ulaz": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json",
+  "ulaz_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran_manifest.json",
+  "izlaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn.json",
+  "ukupan_broj_ulaznih_opcih_pojmova": 8,
+  "ukupan_broj_izlaznih_granskih_podnatuknica": 8,
+  "broj_podnatuknica_po_nadredenom_pojmu": {
+    "apsolutna nenadležnost": 1,
+    "dokaz": 1,
+    "dostava": 1,
+    "izvršenje": 1,
+    "presuda": 1,
+    "prigovor": 1,
+    "rješenje": 1,
+    "žalba": 1
+  },
+  "broj_podnatuknica_po_aktu": {
+    "prekrsajni_zakon": 8
+  },
+  "broj_podnatuknica_po_pravnoj_grani_ili_kontekstu": {
+    "prekršajni": 8
+  },
+  "popis_svih_podnatuknica": [
+    {
+      "podnatuknica_id": "VH77-GPNN-ae6dfc6e1978",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-dbdd040880bb",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-bc670471adce",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-9dda899230ce",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-e49e3df19914",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-f150ec753bff",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-23bb76c21cb6",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-81276f700030",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    }
+  ],
+  "popis_pojmova_koji_su_ostali_u_jednom_kontekstu": [
+    "apsolutna nenadležnost",
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba"
+  ],
+  "popis_pojmova_koji_su_razlomljeni_na_vise_konteksta": []
+}

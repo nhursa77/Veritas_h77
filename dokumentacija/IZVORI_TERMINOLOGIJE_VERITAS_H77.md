@@ -255,3 +255,21 @@ Pravila su definirana standardom:
 
 Ovaj sloj upisuje samo ručno potvrđena sidra i status validacije po pojmu.
 Bez ljudske potvrde nema konačnog odabira sidra.
+
+## Granske podnatuknice iz validiranog NN sloja
+
+Iz validiranog sloja izvodi se granska konsolidacija općih pojmova:
+
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_manifest.json`
+
+Konsolidaciju izvodi skripta:
+
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`
+
+Pravila su definirana standardom:
+
+- `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
+
+Ovaj sloj ne uvodi nova sidra ni definicije, nego tehnički razdvaja opći
+pojam na dokazive granske kontekste.

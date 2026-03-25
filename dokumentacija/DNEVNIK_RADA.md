@@ -1675,3 +1675,50 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 25.03.2026 (konsolidacija validiranih NN sidara po granama)
+
+Iz validiranog NN sloja izvedene su granske rječničke podnatuknice za
+ciljanih 8 općih pojmova, bez izmišljanja članaka i bez spajanja različitih
+konteksta u jedan zapis.
+
+Zabilježen je obavezni zaštitni ispis dnevnika prije izmjene:
+
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+
+Napravljena je skripta:
+
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`
+
+Dodani su izlazi:
+
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_manifest.json`
+
+Dodan je standard:
+
+- `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
+
+Rezultati po nadređenom pojmu
+(broj potvrđenih sidara u ulazu -> broj granskih podnatuknica u izlazu):
+
+- `dokaz: 5 -> 1`
+- `dostava: 5 -> 1`
+- `izvršenje: 5 -> 1`
+- `presuda: 5 -> 1`
+- `prigovor: 5 -> 1`
+- `rješenje: 5 -> 1`
+- `žalba: 5 -> 1`
+- `apsolutna nenadležnost: 5 -> 1`
+
+Ukupan broj granskih podnatuknica: `8`.
+
+Dokazne naredbe:
+
+- `python .\alati\konsolidiraj_nn_validirane_pojmove_po_grani.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---

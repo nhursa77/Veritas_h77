@@ -1,0 +1,528 @@
+{
+  "ulaz": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json",
+  "ulaz_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran_manifest.json",
+  "ukupan_broj_ulaznih_opcih_pojmova": 8,
+  "ukupan_broj_izlaznih_granskih_podnatuknica": 8,
+  "granske_podnatuknice": [
+    {
+      "nadredeni_pojam_id": "VH77-RJ-b9f1d747aa80",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "podnatuknica_id": "VH77-GPNN-ae6dfc6e1978",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "78",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "85",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "87",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "88",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "89",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-dbdd040880bb",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "114",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "117",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "118",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "122",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "87",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-f539f1e6e71b",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "podnatuknica_id": "VH77-GPNN-bc670471adce",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "13",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "14",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "34",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "42",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "44",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-98eeaee5242b",
+      "nadredeni_kanonski_naziv": "presuda",
+      "podnatuknica_id": "VH77-GPNN-9dda899230ce",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "106",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "109",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "33",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "40",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "99",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-6cfe40c6580e",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "podnatuknica_id": "VH77-GPNN-e49e3df19914",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "102",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "120",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "121",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "221",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "93",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-2002f684bc0f",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "podnatuknica_id": "VH77-GPNN-f150ec753bff",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "34",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "59",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "89",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "92",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "99",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-23bb76c21cb6",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "100",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "87",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "89",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "95",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "99",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-24ddae2cc620",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "podnatuknica_id": "VH77-GPNN-81276f700030",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "101",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "102",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "103",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "122",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        },
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "161",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "GRANSKI_KONSOLIDIRANO",
+      "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+      "zahtijeva_rucnu_potvrdu": true
+    }
+  ]
+}

@@ -4,14 +4,14 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `02bdaa1` - Rjecnik: suzeni NN kandidati za ručnu validaciju
+- Trenutni commit: `03fb486` - Rjecnik: upisana rucno validirana NN sidra
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 71
-  (ručna validacija konačnih NN kandidata i upis potvrđenih NN sidara)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 72
+  (konsolidacija djelomično validiranih NN sidara u granske podnatuknice)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: zatvaranje otvorenih višeznačnosti kroz dodatnu
-  ručnu validaciju i prijelaz prema konačnom rječničkom sloju.
+- Sljedeći zadatak po redu: zatvaranje prvih potpuno validiranih granskih
+  natuknica.
 
 ## Aktivni gateovi
 
@@ -46,6 +46,7 @@ Datum: 25.03.2026.
 - `dokumentacija/STANDARD_KANDIDATSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
+- `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -105,3 +106,11 @@ Datum: 25.03.2026.
 - Statusi validacije za 8 ciljanih pojmova su upisani u validirani sloj:
   `NN_VALIDIRANO=0`, `NN_DJELOMICNO_VALIDIRANO=8`,
   `CEKA_DALJNJU_RUCNU_VALIDACIJU=0`.
+
+### Granska konsolidacija validiranih sidara (ZADATAK 72)
+
+- Dodana je skripta `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`.
+- Generirani su `granske_podnatuknice_nn.json` i pripadni manifest.
+- Uveden je standard `STANDARD_GRANSKE_PODNATUKNICE_NN.md`.
+- Za 8 ciljanih općih pojmova izvedena je deterministička granska podnatuknica
+  po dokazivom kontekstu (`ukupno podnatuknica=8`).
