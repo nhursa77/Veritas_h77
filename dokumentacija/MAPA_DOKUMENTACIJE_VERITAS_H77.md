@@ -163,6 +163,11 @@ slobodnog pravnog tumačenja.
 U korekciji v2 precizira razdvajanje po stvarnom normativnom kontekstu,
 bez lažnog sažimanja više sidara u jedan zapis.
 
+### `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+Definira pilot-zatvaranje prve potpuno validirane granske natuknice.
+Uređuje uvjete jednoznačnog konteksta i dokazivih NN sidara,
+uz pravilo da se u jednom zadatku zatvara točno jedna natuknica.
+
 ---
 
 ## 3) Redoslijed čitanja
@@ -190,7 +195,8 @@ bez lažnog sažimanja više sidara u jedan zapis.
 21) `STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
 22) `STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 23) `STANDARD_GRANSKE_PODNATUKNICE_NN.md`
-24) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+24) `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+25) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 

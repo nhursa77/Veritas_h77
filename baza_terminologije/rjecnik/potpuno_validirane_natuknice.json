@@ -1,0 +1,34 @@
+{
+  "ulaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
+  "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
+  "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
+  "ukupan_broj_zatvorenih_natuknica": 1,
+  "potpuno_validirane_natuknice": [
+    {
+      "nadredeni_pojam_id": "VH77-RJ-24ddae2cc620",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "podnatuknica_id": "VH77-GPNN-db5bbfcb516d",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 101",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "101",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-25",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Zatvorena je kao prva po kanonskom sortiranju medu podnatuknicama koje imaju jedan akt_slug, jednoznacan normativni kontekst i nekontradiktorna dokaziva NN sidra; dodatno razbijanje nije potrebno."
+    }
+  ]
+}

@@ -109,3 +109,6 @@ Manifest mora sadržavati najmanje:
 
 Konačna korisnička natuknica u kasnijem koraku može prikazivati više granskih
 podnatuknica istog nadređenog pojma.
+
+Pilot-zatvaranje prve potpuno validirane podnatuknice iz ovog sloja vodi se
+prema `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`.

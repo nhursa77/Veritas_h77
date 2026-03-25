@@ -1376,6 +1376,45 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 25.03.2026 (ZADATAK 73 - prva potpuno validirana natuknica)
+
+Iz ulaza `granske_podnatuknice_nn_v2.json` deterministicki je odabrana i
+zatvorena prva podnatuknica koja zadovoljava uvjete jednoznacnog konteksta,
+jednog `akt_slug` i nekontradiktornih dokazivih NN sidara.
+
+Napravljena je skripta:
+
+- `alati/zatvori_prvu_validiranu_gransku_natuknicu.py`
+
+Dodani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Odabrana i zatvorena natuknica:
+
+- `apsolutna nenadležnost — prekršajni zakon — čl. 101`
+
+Broj ulaznih granskih podnatuknica: `40`.
+Broj potvrdenih sidara odabrane natuknice: `1`.
+Zavrsni status: `POTPUNO_VALIDIRANO`.
+
+Dodan je standard:
+
+- `dokumentacija/STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\zatvori_prvu_validiranu_gransku_natuknicu.py`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (ciscenje prioritetnog uzorka za NN sidrenje)
 
 Iz prioritetnog uzorka izdvojen je uži skup kandidata tekstualno podobnih

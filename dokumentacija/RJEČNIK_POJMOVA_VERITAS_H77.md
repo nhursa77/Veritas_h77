@@ -65,6 +65,11 @@ Kandidatska podnatuknica je privremeni, nekonačni zapis koji razlaže
 višeznačan ili nejasan pojam na razinu akta/konteksta. Ne predstavlja konačno
 sidrenu natuknicu i obavezno zahtijeva ručnu validaciju.
 
+### Potpuno validirana natuknica (NN)
+Potpuno validirana natuknica je zakljucani rjecnicki zapis nastao iz granske
+podnatuknice koja ima jednoznacan kontekst i dokaziva, nekontradiktorna
+NN sidra. U pilot-koraku zatvara se tocno jedna takva natuknica.
+
 ### Delta control (`*_delta_ops.json`)
 Delta control je kanonski kontrolni artefakt za amandmanski set
 `*_nn_<broj>_<godina>`. Sprema se isključivo na putanju

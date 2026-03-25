@@ -281,3 +281,22 @@ Korekcija konsolidacije (v2) generira:
 
 V2 uklanja lažno sažimanje više potvrđenih sidara u jednu podnatuknicu i
 zadržava razdvajanje po stvarnom normativnom kontekstu.
+
+## Potpuno validirane natuknice (pilot-zatvaranje)
+
+Iz v2 skupa granskih podnatuknica deterministicki se zatvara prva natuknica
+koja zadovoljava uvjete jednoznacnog konteksta i dokazivih NN sidara:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Zatvaranje izvodi skripta:
+
+- `alati/zatvori_prvu_validiranu_gransku_natuknicu.py`
+
+Pravila su definirana standardom:
+
+- `dokumentacija/STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+
+U ovom pilot-koraku zatvara se tocno jedna natuknica, bez izmjene ostalih
+granskih podnatuknica.

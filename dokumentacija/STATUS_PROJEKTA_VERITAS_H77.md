@@ -4,15 +4,15 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `d94e3fa` - Rjecnik: sanirane greske i ispravljena
-  granska konsolidacija
+- Trenutni commit: `f6a24c4` - Rjecnik: uklonjene aktivne repo greske iz
+  Problems panela
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 72B
-  (ociscene aktivne repo-greske iz Problems panela; zavrsno stanje 0)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 73
+  (zatvorena prva potpuno validirana granska natuknica)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: nastavak rada na rjecniku nakon potvrdenog
-  nultog stanja repo-gresaka u Problems panelu.
+- Sljedeći zadatak po redu: postupno zatvaranje sljedecih potpuno
+  validiranih granskih natuknica po istom deterministicnom pravilu.
 
 ## Aktivni gateovi
 
@@ -48,6 +48,7 @@ Datum: 25.03.2026.
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_NN_KANDIDATA.md`
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 - `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
+- `dokumentacija/STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
 ## Faza po planovima i standardima
@@ -123,3 +124,11 @@ Datum: 25.03.2026.
 - Uklonjeno je lažno sažimanje `5 -> 1`; za svih 8 pojmova rezultat je
   `5 -> 5` po dokazivom normativnom kontekstu (`ukupno podnatuknica=40`).
 - Pylance provjere za ciljane skripte su bez grešaka prije i poslije izmjene.
+
+### Prva potpuno validirana granska natuknica (ZADATAK 73)
+
+- Dodana je skripta `alati/zatvori_prvu_validiranu_gransku_natuknicu.py`.
+- Generirani su `potpuno_validirane_natuknice.json` i pripadni manifest.
+- Uveden je standard `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`.
+- Deterministicki je zatvorena jedna natuknica iz v2 granskog sloja:
+  `apsolutna nenadležnost — prekršajni zakon — čl. 101`.
