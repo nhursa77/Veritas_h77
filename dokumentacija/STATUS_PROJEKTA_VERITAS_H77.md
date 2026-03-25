@@ -4,14 +4,15 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `00a489d` - Rjecnik: konsolidirane granske NN podnatuknice
+- Trenutni commit: `d94e3fa` - Rjecnik: sanirane greske i ispravljena
+  granska konsolidacija
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 72A
-  (sanirane Python greške i ispravljena granska konsolidacija v2)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 72B
+  (ociscene aktivne repo-greske iz Problems panela; zavrsno stanje 0)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći zadatak po redu: zatvaranje prvih potpuno validiranih granskih
-  natuknica.
+- Sljedeći zadatak po redu: nastavak rada na rjecniku nakon potvrdenog
+  nultog stanja repo-gresaka u Problems panelu.
 
 ## Aktivni gateovi
 

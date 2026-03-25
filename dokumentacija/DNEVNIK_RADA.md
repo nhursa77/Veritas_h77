@@ -1279,6 +1279,37 @@ manifestu; NN sidra i definicije nisu dodavane.
 Dokazne naredbe:
 
 - `python .\alati\izdvoji_jezgrene_natuknice_iz_pilota.py`
+
+## Datum: 25.03.2026 (ZADATAK 72B - ciscenje Problems panela za repo)
+
+Ociscene su aktivne stavke Problems panela koje nisu dio repozitorija,
+uz strogo filtriranje samo na datoteke unutar `C:\Veritas_H77`.
+
+Pocetni broj repo-gresaka u Problems panelu: `0`.
+
+Zahvacene datoteke (provjerene):
+
+- `alati/upisi_validirana_nn_sidra_u_natuknice.py`
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`
+- `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`
+- sve ostale `.py` datoteke iz repozitorija (`alati/*.py`)
+
+Uklonjene greske:
+
+- nema repo-gresaka za uklanjanje; aktivne stavke su bile samo u
+  `Ask.agent.md`, `Explore.agent.md`, `Plan.agent.md` unutar
+  `globalStorage`, sto je izvan scopea i eksplicitno ignorirano.
+
+Zavrsni broj repo-gresaka u Problems panelu: `0`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- provjera Problems panela za repo `.py` datoteke
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git status --short`
 - `git diff --name-only`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
