@@ -4,10 +4,10 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `03fb486` - Rjecnik: upisana rucno validirana NN sidra
+- Trenutni commit: `00a489d` - Rjecnik: konsolidirane granske NN podnatuknice
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni terminološki zadatak: ZADATAK 72
-  (konsolidacija djelomično validiranih NN sidara u granske podnatuknice)
+- Zadnji dovršeni terminološki zadatak: ZADATAK 72A
+  (sanirane Python greške i ispravljena granska konsolidacija v2)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeći zadatak po redu: zatvaranje prvih potpuno validiranih granskih
@@ -114,3 +114,11 @@ Datum: 25.03.2026.
 - Uveden je standard `STANDARD_GRANSKE_PODNATUKNICE_NN.md`.
 - Za 8 ciljanih općih pojmova izvedena je deterministička granska podnatuknica
   po dokazivom kontekstu (`ukupno podnatuknica=8`).
+
+### Sanacija i korekcija granske konsolidacije (ZADATAK 72A)
+
+- Ispravljena je skripta `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`.
+- Generirani su `granske_podnatuknice_nn_v2.json` i pripadni v2 manifest.
+- Uklonjeno je lažno sažimanje `5 -> 1`; za svih 8 pojmova rezultat je
+  `5 -> 5` po dokazivom normativnom kontekstu (`ukupno podnatuknica=40`).
+- Pylance provjere za ciljane skripte su bez grešaka prije i poslije izmjene.

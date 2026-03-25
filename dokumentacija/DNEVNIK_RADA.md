@@ -1722,3 +1722,58 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 25.03.2026 (sanacija grešaka i korekcija granske konsolidacije v2)
+
+Sanirane su ciljane Python/Pylance provjere i ispravljena je lažna granska
+konsolidacija tako da opći pojmovi više nisu automatski sažeti u jedan zapis
+bez stvarnog razdvajanja po normativnom kontekstu.
+
+Zabilježen je obavezni zaštitni ispis dnevnika prije izmjene:
+
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+
+Provjera Pylance grešaka prije popravka:
+
+- `alati/upisi_validirana_nn_sidra_u_natuknice.py`: bez grešaka
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`: bez grešaka
+- `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`: bez grešaka
+
+Ispravljena skripta:
+
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`
+
+Dodani v2 izlazi:
+
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json`
+
+Rezultati po nadređenom pojmu
+(broj sidara u ulazu -> broj granskih podnatuknica u izlazu v2):
+
+- `dokaz: 5 -> 5`
+- `dostava: 5 -> 5`
+- `izvršenje: 5 -> 5`
+- `presuda: 5 -> 5`
+- `prigovor: 5 -> 5`
+- `rješenje: 5 -> 5`
+- `žalba: 5 -> 5`
+- `apsolutna nenadležnost: 5 -> 5`
+
+Ukupan broj granskih podnatuknica v2: `40`.
+
+Provjera Pylance grešaka nakon popravka:
+
+- `alati/upisi_validirana_nn_sidra_u_natuknice.py`: bez grešaka
+- `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py`: bez grešaka
+- `alati/suzi_nn_kandidate_za_rucnu_validaciju.py`: bez grešaka
+
+Dokazne naredbe:
+
+- `python .\alati\konsolidiraj_nn_validirane_pojmove_po_grani.py`
+- `git status --short`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---

@@ -160,6 +160,8 @@ konačnog odabira sidra.
 Definira konsolidaciju validiranih sidara u granske rječničke podnatuknice.
 Uređuje tehničko razdvajanje po dokazivom kontekstu (grana/akt) bez
 slobodnog pravnog tumačenja.
+U korekciji v2 precizira razdvajanje po stvarnom normativnom kontekstu,
+bez lažnog sažimanja više sidara u jedan zapis.
 
 ---
 
@@ -282,4 +284,5 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   konsolidacija validiranih pojmova izvodi
   `alati/konsolidiraj_nn_validirane_pojmove_po_grani.py` prema
   `STANDARD_GRANSKE_PODNATUKNICE_NN.md` i generira
-  `granske_podnatuknice_nn.json` + manifest.
+  `granske_podnatuknice_nn.json` + manifest; korekcija konsolidacije
+  generira `granske_podnatuknice_nn_v2.json` + v2 manifest.

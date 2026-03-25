@@ -22,12 +22,13 @@ Ako postoje različiti dokazivi konteksti, opći pojam ne smije ostati
 Ulaz:
 
 - `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json`
-- `baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran_manifest.json`
+- `baza_terminologije/rjecnik/
+ osnovni_postupovni_skup_nn_validiran_manifest.json`
 
 Izlaz:
 
-- `baza_terminologije/rjecnik/granske_podnatuknice_nn.json`
-- `baza_terminologije/rjecnik/granske_podnatuknice_nn_manifest.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json`
 
 Skripta:
 
@@ -49,6 +50,9 @@ Nije dopušteno:
 - spajati prekršajni i ustavni kontekst u isti konačni zapis,
 - zadržati opći pojam kao jedini spremnik ako postoje različiti dokazivi
   konteksti.
+
+Nije dopušteno automatsko sažimanje `5 -> 1` ako ulazna sidra ne dijele
+isti akt i isti normativni kontekst (`broj_nn`, `clanak`, `stavak`, `tocka`).
 
 ---
 
@@ -94,7 +98,10 @@ Manifest mora sadržavati najmanje:
 - broj podnatuknica po pravnoj grani ili kontekstu,
 - popis svih podnatuknica,
 - popis pojmova koji su ostali u samo jednom kontekstu,
-- popis pojmova koji su razlomljeni na više konteksta.
+- popis pojmova koji su razlomljeni na više konteksta,
+- detalj po pojmu: broj ulaznih sidara, broj izlaznih podnatuknica,
+  razloge grupiranja,
+- popis pojmova koji su ostali `1 -> 1` i obrazloženje zašto.
 
 ---
 

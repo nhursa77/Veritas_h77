@@ -1,0 +1,987 @@
+{
+  "ulaz": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran.json",
+  "ulaz_manifest": "baza_terminologije/rjecnik/osnovni_postupovni_skup_nn_validiran_manifest.json",
+  "izlaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
+  "ukupan_broj_ulaznih_opcih_pojmova": 8,
+  "ukupan_broj_izlaznih_granskih_podnatuknica_v2": 40,
+  "broj_podnatuknica_po_nadredenom_pojmu": {
+    "apsolutna nenadležnost": 5,
+    "dokaz": 5,
+    "dostava": 5,
+    "izvršenje": 5,
+    "presuda": 5,
+    "prigovor": 5,
+    "rješenje": 5,
+    "žalba": 5
+  },
+  "broj_podnatuknica_po_aktu": {
+    "prekrsajni_zakon": 40
+  },
+  "broj_podnatuknica_po_pravnoj_grani_ili_kontekstu": {
+    "prekršajni": 40
+  },
+  "detalji_po_nadredenom_pojmu": [
+    {
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-db5bbfcb516d",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "101",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-c261b2c3f90e",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-41d5dcf976ba",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "103",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-1b891d304a48",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-cf110a21a6ca",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "161",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-be52028c2245",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "78",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-93072cf96090",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "85",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-fa4cbaae8a38",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-28e9186b9c54",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "88",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-9708a5991ef1",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-74cb03f1fdda",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "114",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-9dd648f4a72a",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "117",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-6bc37e0fc60f",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "118",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-b8c3981f2cef",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "122",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-d4d27ff51cbc",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-19f392c24c82",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "13",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-dcc9b21ba00e",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "14",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-1317ce946c21",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-9393cbf8eeea",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "42",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-cae0d4ed5a26",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "44",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-71b02708a321",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "106",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-a8da22b65f33",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "109",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-dd30258fafd1",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "33",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-00fb7470ee89",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "40",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-133dee6c0f42",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-75208582477e",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "102",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-2820e6fad0f8",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "120",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-f9d0163cfa3d",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "121",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-86cee337dd7c",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "221",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-24abecb189a4",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "93",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-b036b6251263",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "34",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-9440dc56fa67",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "59",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-18068061be46",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-0a2375d9e8ff",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "92",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-3392a9d008d4",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    },
+    {
+      "nadredeni_kanonski_naziv": "žalba",
+      "broj_ulaznih_sidara": 5,
+      "broj_izlaznih_podnatuknica": 5,
+      "razlozi_grupiranja": [
+        {
+          "podnatuknica_id": "VH77-GPNN-ec195ea8d2e8",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "100",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-827733699156",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "87",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-a8075217cc71",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "89",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-391b979b82c6",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "95",
+            "stavak": null,
+            "tocka": null
+          }
+        },
+        {
+          "podnatuknica_id": "VH77-GPNN-76ba519a70fe",
+          "broj_sidara_u_grupi": 1,
+          "osnova_konsolidacije": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "razlog_grupiranja": "RAZLICIT_NORMATIVNI_KONTEKST",
+          "kontekst": {
+            "pravna_grana_ili_kontekst": "prekršajni",
+            "naziv_akta": "prekrsajni_zakon",
+            "broj_nn": "NN 107/2007",
+            "clanak": "99",
+            "stavak": null,
+            "tocka": null
+          }
+        }
+      ],
+      "status_mapiranja": "RAZLOMLJEN_NA_VISE"
+    }
+  ],
+  "popis_svih_podnatuknica": [
+    {
+      "podnatuknica_id": "VH77-GPNN-be52028c2245",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon — čl. 78",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-93072cf96090",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon — čl. 85",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-fa4cbaae8a38",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon — čl. 87",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-28e9186b9c54",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon — čl. 88",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-9708a5991ef1",
+      "kanonski_naziv_podnatuknice": "dokaz — prekršajni zakon — čl. 89",
+      "nadredeni_kanonski_naziv": "dokaz",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-74cb03f1fdda",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 114",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-9dd648f4a72a",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 117",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-6bc37e0fc60f",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 118",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-b8c3981f2cef",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 122",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-d4d27ff51cbc",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 87",
+      "nadredeni_kanonski_naziv": "dostava",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-19f392c24c82",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon — čl. 13",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-dcc9b21ba00e",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon — čl. 14",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-1317ce946c21",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon — čl. 34",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-9393cbf8eeea",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon — čl. 42",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-cae0d4ed5a26",
+      "kanonski_naziv_podnatuknice": "izvršenje — prekršajni zakon — čl. 44",
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-71b02708a321",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon — čl. 106",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-a8da22b65f33",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon — čl. 109",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-dd30258fafd1",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon — čl. 33",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-00fb7470ee89",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon — čl. 40",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-133dee6c0f42",
+      "kanonski_naziv_podnatuknice": "presuda — prekršajni zakon — čl. 99",
+      "nadredeni_kanonski_naziv": "presuda",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-75208582477e",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon — čl. 102",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-2820e6fad0f8",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon — čl. 120",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-f9d0163cfa3d",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon — čl. 121",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-86cee337dd7c",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon — čl. 221",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-24abecb189a4",
+      "kanonski_naziv_podnatuknice": "prigovor — prekršajni zakon — čl. 93",
+      "nadredeni_kanonski_naziv": "prigovor",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-b036b6251263",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon — čl. 34",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-9440dc56fa67",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon — čl. 59",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-18068061be46",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon — čl. 89",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-0a2375d9e8ff",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon — čl. 92",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-3392a9d008d4",
+      "kanonski_naziv_podnatuknice": "rješenje — prekršajni zakon — čl. 99",
+      "nadredeni_kanonski_naziv": "rješenje",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-ec195ea8d2e8",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 100",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-827733699156",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 87",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-a8075217cc71",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 89",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-391b979b82c6",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 95",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-76ba519a70fe",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 99",
+      "nadredeni_kanonski_naziv": "žalba",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-db5bbfcb516d",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 101",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-c261b2c3f90e",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 102",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-41d5dcf976ba",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 103",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-1b891d304a48",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 122",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    },
+    {
+      "podnatuknica_id": "VH77-GPNN-cf110a21a6ca",
+      "kanonski_naziv_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 161",
+      "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007"
+    }
+  ],
+  "popis_pojmova_koji_su_ostali_u_jednom_kontekstu": [],
+  "popis_pojmova_koji_su_razlomljeni_na_vise_konteksta": [
+    "apsolutna nenadležnost",
+    "dokaz",
+    "dostava",
+    "izvršenje",
+    "presuda",
+    "prigovor",
+    "rješenje",
+    "žalba"
+  ],
+  "popis_pojmova_koji_su_ostali_1_na_1_i_zasto": [],
+  "usporedba_prethodni_v1_prema_v2": {
+    "prethodni_ukupan_broj_podnatuknica": 8,
+    "novi_ukupan_broj_podnatuknica_v2": 40
+  }
+}

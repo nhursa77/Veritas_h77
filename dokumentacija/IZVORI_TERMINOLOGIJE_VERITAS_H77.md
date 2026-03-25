@@ -273,3 +273,11 @@ Pravila su definirana standardom:
 
 Ovaj sloj ne uvodi nova sidra ni definicije, nego tehnički razdvaja opći
 pojam na dokazive granske kontekste.
+
+Korekcija konsolidacije (v2) generira:
+
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json`
+- `baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json`
+
+V2 uklanja lažno sažimanje više potvrđenih sidara u jednu podnatuknicu i
+zadržava razdvajanje po stvarnom normativnom kontekstu.
