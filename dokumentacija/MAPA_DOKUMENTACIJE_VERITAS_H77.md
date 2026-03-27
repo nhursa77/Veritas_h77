@@ -89,6 +89,12 @@ Definira prioritetni redoslijed daljnje konverzije zakona u NORMA JSON.
 Potvrduje da su `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 postojeci uzorak te da se daljnji ingest i normiranje vode istim obrascem.
 
+### `REZIM_KONVERZIJE_ZUP_U_JSON.md`
+Definira utvrdjeni rezim ingest-a i konverzije za
+`zakon_o_opcem_upravnom_postupku`.
+Dokumentira provjeru dostupnosti prociscenog teksta na NN i obvezu odabira
+kanonskog modela konverzije bez paralelnih ad-hoc postupaka.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
@@ -236,7 +242,8 @@ a Drive samo sinkronizirana kopija/backup.
 24) `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
 25) `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 26) `PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
-27) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+27) `REZIM_KONVERZIJE_ZUP_U_JSON.md`
+28) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 

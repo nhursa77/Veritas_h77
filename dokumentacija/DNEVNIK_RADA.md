@@ -2669,3 +2669,35 @@ Dokazne naredbe:
 - `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
+
+## Datum: 27.03.2026 (ZADATAK 92 - utvrdjen rezim konverzije ZUP u JSON)
+
+Analiziran je `zakon_o_opcem_upravnom_postupku` kao prvi zakon iz
+paketa A prioriteta konverzije.
+
+Provedena je provjera statusa na Narodnim novinama i utvrdjeno je da za
+ovaj korak nije dokazano postojanje valjanog prociscenog teksta za izravnu
+konverziju.
+
+Na temelju toga odabran je rezim konverzije:
+
+- `REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL`
+
+Novi kanonski dokument:
+
+- `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`
+
+Azurirana dokumentacija:
+
+- `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
