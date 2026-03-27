@@ -2643,3 +2643,29 @@ Dokazne naredbe:
 - `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
+
+## Datum: 27.03.2026 (ZADATAK 91 - uskladjenje statusa nakon Z89 i Z90)
+
+Provedeno je servisno uskladjenje statusnog dokumenta sa stvarnim stanjem
+repoa nakon Z89 i Z90.
+
+Potvrde prije uskladjenja:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` bio je zaostao na Z88
+- Z89 i Z90 vec su bili dokazivo prisutni u
+  `dokumentacija/DNEVNIK_RADA.md`
+- novi kanonski dokument prioriteta vec je bio uvrsten u
+  `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+
+Potvrda nakon uskladjenja:
+
+- statusni dokument je uskladen sa stvarnim stanjem nakon Z90
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`

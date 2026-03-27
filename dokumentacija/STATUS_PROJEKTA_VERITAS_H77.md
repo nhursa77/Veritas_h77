@@ -4,20 +4,23 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `062ed37` - paketno zatvaranje niza žalba
-  (prekrsajni_zakon) iz ZADATAKA 87
+- Trenutni commit: `b0d6848` - prioriteti konverzije zakona u json
+  (Z90)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 88
-  (zavrsni servisni snapshot rjecnickog toka nakon Z87)
-- Narav Z88: servisno uskladjenje statusa i dnevnika bez novih zatvaranja
-  natuknica
-- Zadnji operativni paketni korak ostaje: ZADATAK 87
+- Zadnji dovršeni zadatak: ZADATAK 90
+  (izrada kanonskog dokumenta prioriteta konverzije zakona u JSON)
+- ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
+- ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
+- Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
+- Postojeci uzorak rada za konverziju zakona u JSON ostaju:
+  `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci logicni korak: prijelaz na sljedecu planiranu fazu projekta,
-  izvan paketnog rjecnickog zatvaranja.
+- Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
+  prema kanonskom dokumentu
+  `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
 
 ## Pravilo sinkronizacije
 
@@ -28,7 +31,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `062ed37`
+- lokalni hash: `b0d6848`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
