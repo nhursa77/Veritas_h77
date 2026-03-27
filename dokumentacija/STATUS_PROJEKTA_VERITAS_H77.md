@@ -4,15 +4,20 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `36fb4f0` - paketno zatvorene jednoznacne natuknice iz
-  sljedeceg preporucenog niza
+- Trenutni commit: `062ed37` - paketno zatvaranje niza žalba
+  (prekrsajni_zakon) iz ZADATAKA 87
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 87
-  (paketno zatvaranje homogenog niza zalba + prekrsajni_zakon)
+- Zadnji dovršeni zadatak: ZADATAK 88
+  (zavrsni servisni snapshot rjecnickog toka nakon Z87)
+- Narav Z88: servisno uskladjenje statusa i dnevnika bez novih zatvaranja
+  natuknica
+- Zadnji operativni paketni korak ostaje: ZADATAK 87
+- Potpuno validiranih natuknica: 40
+- Preostali homogeni nizovi za paketno zatvaranje: nema
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci korak: analiza eventualnih preostalih meta-zadataka i/ili
-  prelazak na P7 prekršajnog modula.
+- Sljedeci logicni korak: prijelaz na sljedecu planiranu fazu projekta,
+  izvan paketnog rjecnickog zatvaranja.
 
 ## Pravilo sinkronizacije
 
@@ -23,7 +28,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `36fb4f0`
+- lokalni hash: `062ed37`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
