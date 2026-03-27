@@ -4,15 +4,15 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `fe7b4d7` - analiza i rangiranje sljedeceg homogenog
-  niza za paket
+- Trenutni commit: `cb8ecfb` - paketno zatvorene jednoznacne natuknice iz
+  niza dokaz
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 80
-  (paketno zatvaranje niza dokaz — prekrsajni_zakon)
+- Zadnji dovršeni zadatak: ZADATAK 81
+  (paketno zatvaranje sljedeceg homogenog niza)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci korak: analiza i odabir iduceg homogenog niza nakon
-  paketnog zatvaranja niza `dokaz` + `prekrsajni_zakon`.
+- Sljedeci korak: analiza preostalih homogenih nizova nakon paketnog
+  zatvaranja niza `dostava` + `prekrsajni_zakon`.
 
 ## Pravilo sinkronizacije
 
@@ -210,3 +210,15 @@ Trenutno stanje sinkronizacije (pre-check):
 - Paketno je zatvoreno 5 jednoznacnih natuknica iz cl. `78`, `85`, `87`,
   `88`, `89`.
 - Broj potpuno validiranih natuknica je povecan s `5` na `10`.
+
+### Paketno zatvaranje sljedeceg homogenog niza (ZADATAK 81)
+
+- Dodana je skripta `alati/zatvori_paket_dostava_prekrsajni_zakon.py`.
+- Odabrani niz je `dostava` + `prekrsajni_zakon` sa score `550`.
+- Razlog odabira: prvi sljedeci niz po postojecem deterministicnom poretku
+  rang-liste nakon iskljucenja vec obradenih nizova
+  `apsolutna nenadležnost` + `prekrsajni_zakon` i
+  `dokaz` + `prekrsajni_zakon`.
+- Paketno je zatvoreno 5 jednoznacnih natuknica iz cl. `114`, `117`,
+  `118`, `122`, `87`.
+- Broj potpuno validiranih natuknica je povecan s `10` na `15`.

@@ -2,7 +2,7 @@
   "ulaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
   "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
   "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
-  "ukupan_broj_zatvorenih_natuknica": 10,
+  "ukupan_broj_zatvorenih_natuknica": 15,
   "potpuno_validirane_natuknice": [
     {
       "nadredeni_pojam_id": "VH77-RJ-24ddae2cc620",
@@ -263,6 +263,136 @@
       "datum_validacije": "2026-03-27",
       "izvor_validacije": "rucna_validacija",
       "napomena_veritas": "Paketno zatvorena kao dio homogenog niza dokaz — prekršajni zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-74cb03f1fdda",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 114",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "114",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio sljedeceg preporucenog homogenog niza dostava — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-9dd648f4a72a",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 117",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "117",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio sljedeceg preporucenog homogenog niza dostava — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-6bc37e0fc60f",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 118",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "118",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio sljedeceg preporucenog homogenog niza dostava — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-b8c3981f2cef",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 122",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "122",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio sljedeceg preporucenog homogenog niza dostava — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-8bfa37bed00a",
+      "nadredeni_kanonski_naziv": "dostava",
+      "podnatuknica_id": "VH77-GPNN-d4d27ff51cbc",
+      "kanonski_naziv_podnatuknice": "dostava — prekršajni zakon — čl. 87",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "87",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio sljedeceg preporucenog homogenog niza dostava — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
     }
   ]
 }

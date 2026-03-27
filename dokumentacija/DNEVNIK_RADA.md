@@ -2195,3 +2195,58 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
+
+---
+
+## Datum: 27.03.2026 (ZADATAK 81 - sljedeci homogeni niz iz rang-liste)
+
+Provedeno je paketno zatvaranje sljedeceg preporucenog homogenog niza iz
+postojece rang-liste, uz strogo ogranicenje na jedan niz.
+
+Odabrani niz:
+
+- `nadredeni_kanonski_naziv`: `dostava`
+- `akt_slug`: `prekrsajni_zakon`
+- `score`: `550`
+- razlog odabira: prvi sljedeci niz po postojecem deterministicnom poretku
+  rang-liste nakon iskljucenja vec obradenih nizova
+  `apsolutna nenadležnost — prekrsajni_zakon` i
+  `dokaz — prekrsajni_zakon`.
+
+Napravljena je skripta:
+
+- `alati/zatvori_paket_dostava_prekrsajni_zakon.py`
+
+Azurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Pocetni broj potpuno validiranih natuknica: `10`.
+Zavrsni broj potpuno validiranih natuknica: `15`.
+Broj analiziranih kandidata u paketu: `5`.
+Broj novozatvorenih natuknica u paketu: `5`.
+
+Popis novozatvorenih clanaka u paketu:
+
+- `114`
+- `117`
+- `118`
+- `122`
+- `87`
+
+Popis preskocenih stavki:
+
+- nema preskocenih stavki (`0`)
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/zatvori_paket_dostava_prekrsajni_zakon.py`
+- `Get-Content ./dokumentacija/DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
