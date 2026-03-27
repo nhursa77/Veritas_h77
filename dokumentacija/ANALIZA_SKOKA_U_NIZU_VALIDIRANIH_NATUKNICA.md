@@ -73,6 +73,12 @@ Nije doslo do greske odabira niti do preskakanja postojecih kandidata.
 Skok je posljedica stvarnog sastava ulaznog skupa, koji u ciljnom nizu nema
 clanke `104-121`.
 
+Dopuna nakon paketnog zatvaranja (ZADATAK 78):
+
+- u homogenom paketu naknadno je zatvoren i clanak `161`,
+- ova dopuna ne mijenja zakljucak o skoku `103 -> 122`,
+- skok je i dalje ispravan jer raspon `104-121` nije postojao u ulazu.
+
 ---
 
 ## 5) Dokazne naredbe

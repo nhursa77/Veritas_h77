@@ -40,6 +40,13 @@ U jednom zadatku zatvara se tocno jedna natuknica.
 Sve ostale podnatuknice ostaju nepromijenjene i ne diraju se dok ne dodu na
 red prema istom pravilu odabira.
 
+Iznimka paketnog zatvaranja:
+
+- u jednom zadatku dopusteno je zatvaranje vise natuknica samo ako se radi o
+  jednom homogenom paketu (`isti nadredeni pojam` + `isti akt_slug`),
+- svaka zatvorena stavka i dalje mora biti jednoznacna i dokazivo sidrena,
+- stavke koje ne zadovoljavaju uvjete moraju ostati preskocene uz razlog.
+
 Napomena o neuzastopnim clancima:
 
 - redoslijed zatvaranja prati stvarno postojanje kandidata u ulazu,
@@ -77,6 +84,13 @@ Manifest mora sadrzavati najmanje:
 - broj potvrdenih sidara u odabranoj natuknici,
 - popis svih sidara u odabranoj natuknici,
 - potvrdu da je zatvorena samo jedna natuknica.
+
+Za paketni zadatak manifest dodatno mora sadrzavati:
+
+- popis svih novozatvorenih clanaka u paketu,
+- broj novozatvorenih natuknica,
+- popis preskocenih stavki s razlogom preskakanja,
+- potvrdu da je obraden samo homogeni paket.
 
 ---
 

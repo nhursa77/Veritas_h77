@@ -4,11 +4,11 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `d501911` - rjecnik: zatvorena jos jedna potpuno
-  validirana natuknica
+- Trenutni commit: `3bcb678` - docs: ispravljen markdown lint u analizi
+  skoka
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 77
-  (stabiliziran append-only dnevnik i analiziran skok 103 -> 122)
+- Zadnji dovršeni zadatak: ZADATAK 78
+  (paketno zatvaranje jednoznacnih natuknica iz homogenog niza)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeći korak: zatvoriti novu sljedecu potpuno validiranu natuknicu po
@@ -23,7 +23,7 @@ Datum: 25.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `d501911`
+- lokalni hash: `3bcb678`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
@@ -181,3 +181,13 @@ Trenutno stanje sinkronizacije (pre-check):
   `dokumentacija/ANALIZA_SKOKA_U_NIZU_VALIDIRANIH_NATUKNICA.md`.
 - Potvrdeno je da je skok `103 -> 122` ispravan jer u ulaznom nizu za taj
   pojam ne postoje clanci `104-121`.
+
+### Paketno zatvaranje homogenog niza (ZADATAK 78)
+
+- Dodana je skripta
+  `alati/zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`.
+- Ažurirani su `potpuno_validirane_natuknice.json` i pripadni manifest.
+- Paketno je zatvoren preostali jednoznacni clanak iz niza
+  `apsolutna nenadležnost — prekršajni zakon`: `čl. 161`.
+- Izvan paketa su evidentirane vec zatvorene stavke `101`, `102`, `103`,
+  `122` kao preskocene u manifestu s razlogom.

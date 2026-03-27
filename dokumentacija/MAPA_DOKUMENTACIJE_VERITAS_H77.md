@@ -99,6 +99,8 @@ Definira dokaznu analizu neuzastopnog skoka u nizu potpuno validiranih
 natuknica (`103 -> 122`) u istom normativnom nizu.
 Uređuje popis clanaka u ulazu, preskoceni raspon i zakljucak ispravnosti
 skoka.
+U paketnom zatvaranju koristi se kao dokazna podloga da raspon `104-121`
+nije bio dostupan u ulazu tog homogenog niza.
 
 ### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 Zamrzava trenutno stanje repozitorija za nastavak rada bez
@@ -179,7 +181,8 @@ Operativno zatvaranje izvode skripte
 `alati/zatvori_prvu_validiranu_gransku_natuknicu.py` i
 `alati/zatvori_drugu_validiranu_gransku_natuknicu.py` i
 `alati/zatvori_sljedecu_validiranu_gransku_natuknicu.py` i
-`alati/zatvori_jos_jednu_validiranu_gransku_natuknicu.py`.
+`alati/zatvori_jos_jednu_validiranu_gransku_natuknicu.py` i
+`alati/zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`.
 
 ### `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 Definira kanonski model sinkronizacije lokalnog repoa, GitHuba i

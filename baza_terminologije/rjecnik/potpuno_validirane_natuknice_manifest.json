@@ -3,27 +3,59 @@
   "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
   "izlaz": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
   "prethodni_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
-  "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
-  "pocetni_broj_potpuno_validiranih_natuknica": 3,
-  "zavrsni_broj_potpuno_validiranih_natuknica": 4,
-  "naziv_novo_zatvorene_natuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 122",
-  "broj_potvrdenih_sidara_u_novo_zatvorenoj_natuknici": 1,
-  "status_zadataka": "JOS_JEDNA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA",
-  "zatvorena_samo_jedna_nova_natuknica_u_ovom_zadatku": true,
-  "prethodno_zatvorene_natuknice": [
-    "apsolutna nenadležnost — prekršajni zakon — čl. 101",
-    "apsolutna nenadležnost — prekršajni zakon — čl. 102",
-    "apsolutna nenadležnost — prekršajni zakon — čl. 103"
+  "pocetni_broj_potpuno_validiranih_natuknica": 4,
+  "zavrsni_broj_potpuno_validiranih_natuknica": 5,
+  "broj_novozatvorenih_natuknica_u_paketu": 1,
+  "popis_novozatvorenih_clanaka_u_paketu": [
+    "161"
   ],
-  "razlog_odabira": "Kandidat je odabran deterministicki nakon iskljucenja vec zatvorenih natuknica, po sortiranju kanonski_naziv_podnatuknice pa clanak.",
-  "popis_sidara_u_novo_zatvorenoj_natuknici": [
+  "popis_novozatvorenih_natuknica_u_paketu": [
+    "apsolutna nenadležnost — prekršajni zakon — čl. 161"
+  ],
+  "popis_preskocenih_stavki_u_paketu": [
     {
-      "akt_slug": "prekrsajni_zakon",
-      "broj_nn": "NN 107/2007",
+      "clanak": "101",
+      "podnatuknica": "apsolutna nenadležnost — prekršajni zakon — čl. 101",
+      "razlog": "Vec zatvoreni clanak iz iskljucenog skupa 101/102/103/122."
+    },
+    {
+      "clanak": "102",
+      "podnatuknica": "apsolutna nenadležnost — prekršajni zakon — čl. 102",
+      "razlog": "Vec zatvoreni clanak iz iskljucenog skupa 101/102/103/122."
+    },
+    {
+      "clanak": "103",
+      "podnatuknica": "apsolutna nenadležnost — prekršajni zakon — čl. 103",
+      "razlog": "Vec zatvoreni clanak iz iskljucenog skupa 101/102/103/122."
+    },
+    {
       "clanak": "122",
-      "stavak": null,
-      "tocka": null,
-      "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
+      "podnatuknica": "apsolutna nenadležnost — prekršajni zakon — čl. 122",
+      "razlog": "Vec zatvoreni clanak iz iskljucenog skupa 101/102/103/122."
     }
-  ]
+  ],
+  "status_zadatka": "PAKET_JEDNOZNACNIH_NATUKNICA_ZATVOREN",
+  "obraden_samo_homogeni_paket": true,
+  "homogeni_paket": {
+    "nadredeni_kanonski_naziv": "apsolutna nenadležnost",
+    "akt_slug": "prekrsajni_zakon"
+  },
+  "iskljuceni_vec_zatvoreni_clanci": [
+    "101",
+    "102",
+    "103",
+    "122"
+  ],
+  "sidra_po_novozatvorenom_clanku": {
+    "161": [
+      {
+        "akt_slug": "prekrsajni_zakon",
+        "broj_nn": "NN 107/2007",
+        "clanak": "161",
+        "stavak": null,
+        "tocka": null,
+        "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
+      }
+    ]
+  }
 }

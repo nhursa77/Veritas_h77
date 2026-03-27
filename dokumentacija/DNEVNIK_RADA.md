@@ -2068,3 +2068,50 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 27.03.2026 (ZADATAK 78 - paketno zatvaranje homogenog niza)
+
+Provedeno je paketno zatvaranje preostalih jednoznacnih natuknica iz
+homogenog niza `apsolutna nenadležnost — prekrsajni_zakon`.
+
+Napravljena je skripta:
+
+- `alati/zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`
+
+Azurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Pocetni broj potpuno validiranih natuknica: `4`.
+Zavrsni broj potpuno validiranih natuknica: `5`.
+
+Popis novozatvorenih clanaka u paketu:
+
+- `161`
+
+Popis preskocenih clanaka u paketu:
+
+- `101` (vec zatvoren)
+- `102` (vec zatvoren)
+- `103` (vec zatvoren)
+- `122` (vec zatvoren)
+
+Broj novozatvorenih natuknica u paketu: `1`.
+Broj preskocenih stavki u paketu: `4`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath $entryPath`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
