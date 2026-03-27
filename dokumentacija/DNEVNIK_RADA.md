@@ -2921,7 +2921,7 @@ Dokazne naredbe:
 
 ## Datum: 27.03.2026 (ZADATAK 99 - utvrdjen rezim konverzije ZUS u JSON)
 
-### Sažetak
+### Sažetak (ZADATAK 99)
 Utvrdjen je kanonski rezim konverzije za `zakon_o_upravnim_sporovima` i
 dokumentiran u `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`.
 Deterministicka provjera NN pretrage nije dala eksplicitan dokaz valjanog
@@ -2943,13 +2943,13 @@ REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL
 
 Datum: 27.03.2026.
 
-### Sažetak
+### Sažetak (ZADATAK 100)
 Zakljucak iz Z99 je revidiran za
 `zakon_o_upravnim_sporovima`.
 Vazeci ZUS se vodi kao jedan vazeci akt (`NN 36/2024`) po obrascu rada
 `ustav_rh_procisceni`.
 
-### Odluka rezima
+### Odluka rezima (ZADATAK 100)
 REZIM_ODABRAN = PROCISCENI_FIRST
 
 ### Pravila primjene

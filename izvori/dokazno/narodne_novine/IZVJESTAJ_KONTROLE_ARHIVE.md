@@ -30,4 +30,4 @@
 ## Gate pravilo
 
 - Ako postoji NEDOSTAJE, HASH_NEDOSTAJE ili NEVALJAN_IZVOR za akt
-	koji se koristi u predmetu, vanjski izlaz je zabranjen.
+ koji se koristi u predmetu, vanjski izlaz je zabranjen.
