@@ -1417,7 +1417,6 @@ Dokazne naredbe:
 
 ---
 
-
 ## Datum: 18.03.2026 (kanonski model rječničke natuknice)
 
 Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
@@ -2028,3 +2027,44 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 27.03.2026 (ZADATAK 77 - stabilizacija dnevnika i analiza skoka)
+
+Rijesen je uzrok zbog kojeg je novi dnevnicki unos ponekad zavrsavao u sredini
+`dokumentacija/DNEVNIK_RADA.md` umjesto na kraju.
+
+Uzrok:
+
+- unos se u prethodnim zadacima povremeno dodavao kontekstnim patchanjem uz
+  ponavljajuce markere (`---`), pa je alat mogao odabrati prvo podudaranje u
+  sredini datoteke umjesto stvarnog EOF-a.
+
+Trajno rjesenje:
+
+- uvedena je kanonska append-only skripta
+  `alati/dodaj_dnevnicki_unos_na_kraj.ps1` koja dodaje unos iskljucivo na EOF
+  i ne dira stare retke.
+
+Analiza skoka `103 -> 122` je provedena i dokumentirana u:
+
+- `dokumentacija/ANALIZA_SKOKA_U_NIZU_VALIDIRANIH_NATUKNICA.md`
+
+Zakljucak analize:
+
+- skok `103 -> 122` je potvrden kao ispravan,
+- za ciljani niz u ulazu postoje clanci `101, 102, 103, 122, 161`,
+- clanci `104-121` ne postoje u ulazu i zato nisu mogli biti zatvoreni.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git --no-pager show ae7b980 -- dokumentacija/DNEVNIK_RADA.md`
+- `git --no-pager show d501911 -- dokumentacija/DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath $entryPath`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---

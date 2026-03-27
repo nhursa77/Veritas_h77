@@ -40,6 +40,13 @@ U jednom zadatku zatvara se tocno jedna natuknica.
 Sve ostale podnatuknice ostaju nepromijenjene i ne diraju se dok ne dodu na
 red prema istom pravilu odabira.
 
+Napomena o neuzastopnim clancima:
+
+- redoslijed zatvaranja prati stvarno postojanje kandidata u ulazu,
+- nije obavezno da clanci budu uzastopni,
+- ako postoji skok u nizu (primjer `103 -> 122`), obavezna je zasebna
+	dokazna analiza raspona koji nedostaje.
+
 ---
 
 ## 4) Obavezna polja potpuno validirane natuknice

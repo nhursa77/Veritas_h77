@@ -91,6 +91,14 @@ Služi kao dokazni trag promjena i odluka kroz vrijeme.
 ### `STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 Definira tvrdu zaštitu datoteke dnevnika rada.
 Uređuje append-only unos, zabranu prepisivanja i dokazne ispise prije/poslije.
+Kanonska append-only metoda je skripta
+`alati/dodaj_dnevnicki_unos_na_kraj.ps1`.
+
+### `ANALIZA_SKOKA_U_NIZU_VALIDIRANIH_NATUKNICA.md`
+Definira dokaznu analizu neuzastopnog skoka u nizu potpuno validiranih
+natuknica (`103 -> 122`) u istom normativnom nizu.
+Uređuje popis clanaka u ulazu, preskoceni raspon i zakljucak ispravnosti
+skoka.
 
 ### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 Zamrzava trenutno stanje repozitorija za nastavak rada bez

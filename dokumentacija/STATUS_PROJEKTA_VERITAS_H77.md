@@ -4,11 +4,11 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `ae7b980` - rjecnik: zatvorena sljedeca potpuno
+- Trenutni commit: `d501911` - rjecnik: zatvorena jos jedna potpuno
   validirana natuknica
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 76
-  (zatvorena jos jedna potpuno validirana natuknica)
+- Zadnji dovršeni zadatak: ZADATAK 77
+  (stabiliziran append-only dnevnik i analiziran skok 103 -> 122)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeći korak: zatvoriti novu sljedecu potpuno validiranu natuknicu po
@@ -23,7 +23,7 @@ Datum: 25.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `ae7b980`
+- lokalni hash: `d501911`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
@@ -170,3 +170,14 @@ Trenutno stanje sinkronizacije (pre-check):
 - Deterministicki je zatvorena tocno jedna nova natuknica nakon 101, 102 i
   103:
   `apsolutna nenadležnost — prekršajni zakon — čl. 122`.
+
+### Stabilizacija dnevnika i analiza skoka niza (ZADATAK 77)
+
+- Dodana je skripta `alati/dodaj_dnevnicki_unos_na_kraj.ps1` kao kanonska
+  append-only metoda upisa na EOF.
+- Dopunjen je `STANDARD_ZASTITA_DNEVNIKA_RADA.md` zabranom kontekstnog
+  umetanja dnevnickog unosa po sredini datoteke.
+- Izradena je dokumentacija
+  `dokumentacija/ANALIZA_SKOKA_U_NIZU_VALIDIRANIH_NATUKNICA.md`.
+- Potvrdeno je da je skok `103 -> 122` ispravan jer u ulaznom nizu za taj
+  pojam ne postoje clanci `104-121`.

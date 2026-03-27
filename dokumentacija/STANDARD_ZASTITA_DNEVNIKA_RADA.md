@@ -22,6 +22,10 @@ kanonske datoteke projekta Veritas H.77.
    eksplicitno zadanom zadatku.
 5) Prije i poslije svake izmjene dnevnika obavezni su dokazni ispisi završnog
    dijela datoteke (`Get-Content -Tail`).
+6) Novi unos mora biti dodan iskljucivo na kraj datoteke (EOF) append-only
+   metodom, bez kontekstnog patchanja po sredini datoteke.
+7) Kanonska metoda append-only dodavanja je skripta
+   `alati/dodaj_dnevnicki_unos_na_kraj.ps1`.
 
 ---
 
@@ -48,6 +52,8 @@ ispise:
 - Trunciranje sadržaja dnevnika.
 - Prepisivanje cijele datoteke iz vanjskog izvora bez posebnog zadatka.
 - Retroaktivno uređivanje starih unosa bez eksplicitnog sanacijskog naloga.
+- Kontekstno umetanje novog unosa uz oslanjanje na ponavljajuce markere
+   (`---`, stari naslovi i slicno) umjesto append-only na EOF.
 
 ---
 
