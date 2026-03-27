@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "109",
+    "naslov": null,
+    "tekst": ". Žalba se izjavljuje u roku od 15 dana od dana dostave rješenja, ako nije propisan duži rok. Predaja žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6D9343A61C5937B5C5DA8BA91F3CE84A6DEC2014FBB7722BF2CBC44A479AF986",
+    "sha256_datoteke": "4D78BFCA7B2BCE7C7E46BF37DCACB5FE06945577F4EE1720662105016542181C",
+    "napomena": null
+  }
+}

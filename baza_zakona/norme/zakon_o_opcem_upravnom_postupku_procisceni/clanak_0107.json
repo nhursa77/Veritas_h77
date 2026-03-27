@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "107",
+    "naslov": null,
+    "tekst": ". (1) U žalbenom postupku ispituje se zakonitost rješenja koje se pobija. (2) Kad je rješenje doneseno po slobodnoj ocjeni, u žalbenom postupku ocjenjuje se i svrhovitost rješenja. Sadržaj žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D8678725B5C02FA267602C75F56DEE44E44B73B9F7049BB697C934D9A97457C7",
+    "sha256_datoteke": "4DF664035B8F6A44438DE58A92915E41CA59DD44CA550315050856F263DFE506",
+    "napomena": null
+  }
+}

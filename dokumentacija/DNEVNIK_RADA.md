@@ -2737,3 +2737,36 @@ Dokazne naredbe:
 - `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
+
+## Datum: 27.03.2026 (ZADATAK 94 - stvarni ingest ZUP po manifestu)
+
+Proveden je stvarni ingest paketa za
+zakon_o_opcem_upravnom_postupku prema postojecem paketnom modelu.
+
+Manifest i rezim:
+
+- paketi/PAKET_ZUP_V1.json
+- dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md
+
+Tijekom prvog pokretanja ingest-a preflight je odbio vrijednost
+tip_teksta=izvorni za required core akt jer prihvaca samo
+procisceni ili amandmani.
+
+Primijenjena je minimalna korekcija manifesta:
+
+- tip_teksta za core akt promijenjen je u procisceni
+
+Nakon korekcije, ponovljeni ingest je uspjesno zavrsio:
+
+- required core akt: EXIT=0
+- optional amandman akt: EXIT=0
+- paketni ishod: Z94_INGEST_RERUN_EXIT=0
+
+Dokazne naredbe:
+
+- git status --short
+- git --no-pager log -1 --oneline
+- git branch -vv
+- Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

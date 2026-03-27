@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "73",
+    "naslov": null,
+    "tekst": ". (1) Kad podnesak sadržava kakav nedostatak koji onemogućuje postupanje po podnesku odnosno ako je podnesak nerazumljiv ili nepotpun, službena osoba zaključkom će upozoriti na to stranku i odredit će rok u kojem je stranka dužna otkloniti nedostatak, uz upozorenje na pravne posljedice ako to u određenom roku ne učini. (2) Ako se nedostaci ne otklone u određenom roku, a po podnesku se ne može postupiti, službena osoba rješenjem će odbaciti podnesak. Prijevod podneska",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4BAFFDAB7065FE5EF62E3B270E86B96BB6A2A728996412946D1F293B2F99C48E",
+    "sha256_datoteke": "96557ACE7351CBEF7985396027130AF8E70F0E89EAFA448F94190CA9B97A8968",
+    "napomena": null
+  }
+}

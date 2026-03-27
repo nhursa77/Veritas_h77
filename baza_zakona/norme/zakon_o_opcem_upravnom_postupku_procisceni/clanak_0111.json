@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "111",
+    "naslov": null,
+    "tekst": ". (1) Kad je u rješenju dana pogrešna uputa o pravnom lijeku, stranka može postupiti po važećim propisima ili po uputi. Stranka koja postupi po pogrešnoj uputi ne može zbog toga imati štetnih posljedica. (2) Kad u rješenju nije dana nikakva uputa o pravnom lijeku ili je ta uputa nepotpuna, stranka može postupiti po važećim propisima, a može u roku od 30 dana zatražiti od javnopravnog tijela koje je rješenje donijelo dopunu rješenja u tom dijelu. U takvom slučaju rok za žalbu teče od dana dostave dopunjenog rješenja. Odgodni učinak žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E9E8F9955805D395D394E429BAEBBB54F47EFE6DFDE4E50CD62004D0EF598917",
+    "sha256_datoteke": "14B614079C628E1E46E1A0A139C01801DF2E85BD918B26C8A41CA45540A69D4C",
+    "napomena": null
+  }
+}

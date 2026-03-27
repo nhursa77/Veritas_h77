@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "52",
+    "naslov": null,
+    "tekst": ". (1) Stranka ima pravo sudjelovati u ispitnom postupku sve do donošenja odluke o upravnoj stvari, davati izjave i objašnjenja, iznositi činjenice i okolnosti koje su bitne za rješavanje upravne stvari te pobijati točnost navoda koji se ne slažu s njezinim navodima. (2) Službena osoba dužna je omogućiti stranci izjašnjavanje o svim okolnostima i činjenicama koje su iznesene u ispitnom postupku, o prijedlozima za izvođenje dokaza i podnesenim dokazima, sudjelovanje u izvođenju dokaza i postavljanje pitanja drugim strankama, svjedocima i vještacima preko službene osobe, a uz dopuštenje službene osobe i neposredno, kao i upoznavanje s rezultatom izvođenja dokaza i izjašnjavanje o tim rezultatima. (3) Stranka može davati izjave usmeno na zapisnik ili u pisanom obliku. U složenim upravnim stvarima službena osoba može naložiti stranci podnošenje izjave u pisanom obliku, što ne isključuje pravo stranke na usmeno izjašnjavanje. (4) Stranka je dužna sudjelovati u utvrđivanju činjenica važnih za rješavanje o upravnoj stvari te osobno dati izjavu kad to zatraži službena osoba ili kad je to propisano zakonom. Naknadno priznavanje položaja stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "08D935E604AD7BB498CD6F287FC73FB4DD15F454B31FFF2396EA049D43F8D951",
+    "sha256_datoteke": "25312BDA8A78A03F59EEA8CD4AF8DFBEC3C942798DC65DFDB93E4850D0B45C15",
+    "napomena": null
+  }
+}

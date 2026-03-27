@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "65",
+    "naslov": null,
+    "tekst": ". (1) Kad je za utvrđivanje ili ocjenu određene činjenice koja je bitna za rješavanje upravne stvari potrebno posebno stručno znanje kojim službena osoba ne raspolaže, dokaz se može izvesti vještačenjem. (2) Službena osoba određuje vještačenje po službenoj dužnosti ili na prijedlog stranke. Za vještaka će se zaključkom odrediti osoba koja je odgovarajuće struke, a ovlaštena je za davanje mišljenja o pitanjima odgovarajuće struke ili osoba registrirana za vještačenje. Ako takvih osoba nema, za vještaka se može odrediti i druga osoba koja ima odgovarajuću stručnost potrebnu za vještačenje. Stranke će se uvijek prethodno saslušati o osobi vještaka. (3) Ako bi troškovi izvođenja dokaza vještačenjem bili nerazmjerni vrijednosti predmeta, o upravnoj stvari može se riješiti i na temelju drugih dokaza, bez vještačenja. (4) Za vještaka se ne može odrediti osoba koja ne može biti svjedok. Pravila vještačenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4B7B98CCF264AA3C9DBEDAD992A803551FE89182809882F8BAD502B152A9FBAE",
+    "sha256_datoteke": "0E8C57EEB9227C032F4BCC1EBCF4AEB0205C00502335EE5D3F8C02D5EA073F5D",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "138",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Izvršenje nenovčanih obveza provodi javnopravno tijelo koje je o stvari riješilo u prvom stupnju ako zakonom nije propisano drugo ovlašteno tijelo. (2) Tijelo čije se rješenje izvršava dužno je za rješenje koje se izvršava izdati potvrdu izvršnosti i dostaviti ga javnopravnom tijelu nadležnom za izvršenje.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "40560254BE9539A481EAE0DC76CDA85EF2E6364C73623A9FA6FBD5B0462504D5",
+    "sha256_datoteke": "36D14DF0A380A612645A4A6D7A51534916BDC00208BA3A40460C7B81843ED191",
+    "napomena": null
+  }
+}

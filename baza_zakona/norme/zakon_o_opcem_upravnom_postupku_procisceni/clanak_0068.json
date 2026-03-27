@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "68",
+    "naslov": null,
+    "tekst": ". (1) Očevid se provodi kad je za utvrđivanje neke činjenice ili za razjašnjenje bitnih okolnosti potrebno neposredno opažanje službene osobe. (2) Provođenje očevida određuje se zaključkom. (3) Stranke imaju pravo nazočiti očevidu. Očevid se može provesti i bez nazočnosti stranke u slučaju poduzimanja hitnih mjera radi zaštite života, zdravlja ili imovine veće vrijednosti. (4) Službena osoba određuje po službenoj dužnosti ili na prijedlog stranke koje će još osobe nazočiti očevidu. Dužnost omogućivanja provedbe očevida",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "69999050084860768A814733DEE8389F3182DBA557AAE0645CB7E3C3E888C1FA",
+    "sha256_datoteke": "3CEB0437454B5F3BA4A99EE5897E9D0B1D77078A58FD2E73DEB4487E7ECD6E75",
+    "napomena": null
+  }
+}

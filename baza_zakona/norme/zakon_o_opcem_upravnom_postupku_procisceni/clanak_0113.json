@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "113",
+    "naslov": null,
+    "tekst": ". (1) Prvostupanjsko tijelo ispitat će je li žalba dopuštena, pravodobna i izjavljena od ovlaštene osobe. Ako žalba nije dopuštena ili pravodobna ili izjavljena od ovlaštene osobe, odbacit će je rješenjem. (2) Kad prvostupanjsko tijelo utvrdi da je žalba dopuštena, pravodobna i izjavljena od ovlaštene osobe, navodi žalbe razmotrit će se te ispitati zakonitost, odnosno ocijeniti svrhovitost rješenja koje se žalbom osporava. (3) Kad je rješenje doneseno u postupku neposrednog rješavanja, a stranka u žalbi zahtijeva da joj se omogući izjašnjavanje o činjenicama i okolnostima koje su važne za rješavanje stvari ili da se provede ispitni postupak, prvostupanjsko tijelo dužno je postupiti po zahtjevu stranke. (4) Kad u postupku sudjeluju dvije stranke ili više njih s protivnim interesima, žalba se dostavlja na odgovor svim strankama te im se određuje primjeren rok za odgovor na žalbu. (5) Kad prvostupanjsko tijelo ocijeni da je žalba osnovana u cijelosti ili djelomično, zamijenit će pobijano rješenje novim ako se ne dira u prava trećih osoba. (6) Ako prvostupanjsko tijelo ne odbaci žalbu ili ne zamijeni pobijano rješenje novim, bez odgode će dostaviti žalbu sa spisom predmeta drugostupanjskom tijelu. Postupanje drugostupanjskog tijela po primitku žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0CFDE4A89A09D65C69058C03079B2482A7AFF69A69913BF36B8BEB1CF91F55D1",
+    "sha256_datoteke": "7B35DED4AE87838664E42B43838326CCE1C84445D1EC20D7550C1234A09A3CB3",
+    "napomena": null
+  }
+}

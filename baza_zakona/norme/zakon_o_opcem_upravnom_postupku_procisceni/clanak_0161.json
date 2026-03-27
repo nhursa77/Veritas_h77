@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "161",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo snosi redovite troškove postupka, osim troškova upravnih pristojbi ili drugih troškova koje stranke plaćaju po posebnim propisima. (2) U postupcima pokrenutim na zahtjev stranke ili u upravnim stvarima u kojima sudjeluju dvije stranke ili više njih s protivnim interesima troškove postupka snosi stranka na zahtjev koje je postupak pokrenut ili protiv koje se vodio postupak koji je za nju nepovoljno okončan, ako nije drukčije propisano. (3) Kad je postupak pokrenut na zahtjev stranke, a sa sigurnošću se može predvidjeti da će u ispitnom postupku izazvati posebne izdatke, službena osoba može zaključkom naložiti stranci da unaprijed položi potreban novčani iznos za pokriće tih troškova. Ako stranka ne položi taj iznos u određenom roku, službena osoba može odustati od izvođenja dokaza ili obustaviti postupak, osim ako produženje postupka zahtijeva javni interes. (4) O troškovima postupka odlučuje se rješenjem o upravnoj stvari. Iznimno, ako u trenutku donošenja rješenja o upravnoj stvari nisu poznati svi troškovi postupka, o troškovima postupka donijet će se dopunsko rješenje. (5) Kad je postupak koji je pokrenut po službenoj dužnosti okončan povoljno za stranku, troškove postupka snosi javnopravno tijelo koje je postupak pokrenulo, ako nije drukčije propisano. (6) Kad je postupak okončan nagodbom, svaka stranka snosi svoje troškove, osim ako nagodbom nije drukčije određeno. Nagrade i naknade troškova drugim osobama koje sudjeluju u postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DFE15345DABF31827FB076481DF40C3EF094E198B15E4DD7F6F1113D2985D9AC",
+    "sha256_datoteke": "B7472487C4F36704ED7AC1D0965F7C57CD9D0297017642C974E8870B33CB256C",
+    "napomena": null
+  }
+}

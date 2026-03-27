@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "57",
+    "naslov": null,
+    "tekst": ". (1) Kad u postupku sudjeluju dvije stranke ili više njih s protivnim interesima, službena osoba nastojat će tijekom cijelog postupka postići nagodbu stranaka u cijelosti ili o pojedinim spornim pitanjima. (2) Nagodba protivna propisima, javnom interesu ili pravima trećih osoba nije dopuštena. (3) Nagodba se smatra sklopljenom kad je stranke nakon pročitanog zapisnika potpišu. Ovjereni prijepis zapisnika predaje se strankama. (4) Kad je nagodbom u potpunosti riješena upravna stvar, službena osoba rješenjem će obustaviti postupak. (5) Ako se nagodba odnosi samo na pojedina sporna pitanja, službena će osoba u izreci rješenja naznačiti postojanje nagodbe o tim pitanjima. (6) Nagodba ima snagu izvršnog rješenja donesenog u upravnom postupku. Glava III. DOKAZIVANJE Dokazi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "75649F5F7787361FB6DF7905D358E5311A4C456C49A7CCA2A34ED19EA5A2F1E8",
+    "sha256_datoteke": "C372B04E3CA11A3297877DB967C1B7379D9F0F3BF90505711298E893BC8E1181",
+    "napomena": null
+  }
+}

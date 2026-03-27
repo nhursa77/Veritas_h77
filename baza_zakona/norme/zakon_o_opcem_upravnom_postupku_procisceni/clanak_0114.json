@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "114",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjsko tijelo ispitat će je li žalba dopuštena, pravodobna i izjavljena od ovlaštene osobe. Ako žalba nije dopuštena ili pravodobna ili izjavljena od ovlaštene osobe, odbacit će je rješenjem. (2) Kad drugostupanjsko tijelo postupajući u povodu žalbe protiv rješenja prvostupanjskog tijela o odbacivanju žalbe utvrdi da ne postoje razlozi za odbacivanje žalbe, poništit će rješenje o odbacivanju žalbe i riješiti odbačenu žalbu. Postupanje i ovlasti drugostupanjskog tijela u povodu žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "335865D98FAEA10F24A6BDC29D2985641A247EBD426B3A8B180E0C74A593B463",
+    "sha256_datoteke": "9446388EF5BDF5E9A2618E430D0DA92F66B1C2A1B60DD9315229324B11AEEBFA",
+    "napomena": null
+  }
+}

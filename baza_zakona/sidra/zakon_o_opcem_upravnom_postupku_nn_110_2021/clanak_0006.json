@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 59. stavak 3. mijenja se i glasi: »(3) Za osiguranje dokaza prije pokretanja postupka nadležno je javnopravno tijelo prvog stupnja na području kojeg se nalazi stvar koju treba razgledati ili na kojem borave osobe koje treba saslušati, odnosno drugo javnopravno tijelo zamoljeno za pravnu pomoć, ako nije drukčije propisano.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "641C17486340A50771253AA1EDD94640BA266205901C78D6C1289590D521DED5",
+    "sha256_datoteke": "524E81003271EB2CE4A5F817A344D9868D10BF4513D54A85CB6A984EAEB4E00C",
+    "napomena": null
+  }
+}

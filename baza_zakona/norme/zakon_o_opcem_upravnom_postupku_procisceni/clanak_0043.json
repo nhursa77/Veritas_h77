@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "43",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo može javnom objavom pokrenuti postupak kad su stranke nepoznate ili je takav način pokretanja postupka propisan zakonom. (2) Javna objava mora sadržavati naznaku upravne stvari, određenje osoba na koje se odnosi, način sudjelovanja tih osoba u postupku, popis isprava koje trebaju poslati ili ih osobno dostaviti javnopravnom tijelu te upozorenje na posljedice neodazivanja na javnu objavu u određenom roku. (3) Strankama se mora odrediti rok od najmanje 30 dana za odazivanje na javnu objavu. (4) Javna objava oglašava se u odgovarajućem službenom glasilu, sredstvima javnog priopćivanja, odnosno na drugi prikladan način kojim će se pozvanim osobama omogućiti saznanje o javnoj objavi. Spajanje i razdvajanje upravnih stvari",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "11B0BDD99B1D671C578F74109434DE900E296407231869D0338E3D90E21BA695",
+    "sha256_datoteke": "6DA54286BC40F4A4E9227FA4A99245ECF53D0A684AD47275A0333DBB3FCBDB36",
+    "napomena": null
+  }
+}

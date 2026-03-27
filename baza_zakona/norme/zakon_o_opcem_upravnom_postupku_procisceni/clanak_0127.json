@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "127",
+    "naslov": null,
+    "tekst": ". (1) Nakon provedene obnove postupka, nadležno tijelo donosi rješenje o upravnoj stvari koja je bila predmet obnovljenog postupka. Rješenjem donesenim u obnovljenom postupku, nadležno tijelo može rješenje koje je bilo predmet obnove ostaviti na snazi ili ga zamijeniti novim rješenjem, u kojem će slučaju, s obzirom na okolnosti, prijašnje rješenje poništiti ili ukinuti. (2) Protiv rješenja kojim je odlučeno o prijedlogu za obnovu postupka i protiv rješenja donesenog u obnovljenom postupku može se izjaviti žalba samo kad je rješenje donijelo prvostupanjsko tijelo. Kad je rješenje donijelo drugostupanjsko tijelo, protiv tog rješenja može se pokrenuti upravni spor. Glava IV. OGLAŠIVANJE RJEŠENJA NIŠTAVIM Oglašivanje rješenja ništavim",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DF8FCAF1946967328D58D88916B9B7AD78319C4C7AC45324E9ED12F0D90DDD5E",
+    "sha256_datoteke": "A57BEAE49665BAF1AC33DC7A3A4BE8C91624740A14B579B560D833D9C6C6B3D9",
+    "napomena": null
+  }
+}

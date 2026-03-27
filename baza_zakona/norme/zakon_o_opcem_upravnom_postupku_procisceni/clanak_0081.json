@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "81",
+    "naslov": null,
+    "tekst": ". (1) Nedjelje, blagdani i neradni dani ne utječu na početak i na tijek roka. (2) Kad zadnji dan roka pada u nedjelju, na blagdan ili u drugi dan kad javnopravno tijelo ne radi, rok istječe prvoga sljedećega radnog dana. Povrat u prijašnje stanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EA47F140E4C737EEE5141930C0A13E5472795969A666CC12A108CB580761477A",
+    "sha256_datoteke": "C8D7F4999480DFDE0949507AA85BB00A2F6A68F155AE241610C16D238281591B",
+    "napomena": null
+  }
+}

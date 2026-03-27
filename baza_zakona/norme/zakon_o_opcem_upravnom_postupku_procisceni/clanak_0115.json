@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "115",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjsko tijelo ispituje zakonitost i ocjenjuje svrhovitost pobijanog rješenja u granicama zahtjeva iz žalbe, ali pri tome nije vezano žalbenim razlozima. (2) Drugostupanjsko tijelo u postupanju po žalbi pazi po službenoj dužnosti na nadležnost i postojanje razloga za oglašivanje rješenja ništavim. (3) Drugostupanjsko tijelo riješit će stvar na temelju činjenica utvrđenih u prvostupanjskom postupku. Kad činjenice nisu u potpunosti utvrđene ili su pogrešno utvrđene u prvostupanjskom postupku, drugostupanjsko će tijelo upotpuniti postupak samo ili putem prvostupanjskog tijela. (4) Drugostupanjsko tijelo može žalbu odbiti, rješenje poništiti u cijelosti ili djelomično ili ga izmijeniti. (5) Poništavanjem se poništavaju sve pravne posljedice koje je rješenje proizvelo. Odbijanje žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C68A483A7476A38DCF7EA1D8F45F1827E70CF782216DD25E95D86E646A9FDE40",
+    "sha256_datoteke": "8568E4374A955734DA620D2DFBED8328DF28544BD4E2640B323355B68A9390F0",
+    "napomena": null
+  }
+}

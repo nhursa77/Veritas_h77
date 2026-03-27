@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "62",
+    "naslov": null,
+    "tekst": ". (1) Svjedok može biti svaka osoba za koju se smatra da ima saznanja o određenim činjenicama i koja svoja saznanja može priopćiti. (2) Svjedoku se poziv dostavlja u pisanom obliku osam dana prije dana svjedočenja. Obveza svjedočenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "32335054F8C3657BEB7CEFE3ABFA178F629DBAEBBA45F9F3859B44BA04C8AA59",
+    "sha256_datoteke": "7068D010F2DCBC61DA71DEE117E72820760ABE1B170D479D22AEDFC34A74FF4D",
+    "napomena": null
+  }
+}

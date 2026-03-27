@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". (1) Ako je za ostvarenje nekog prava stranke potrebno voditi više upravnih ili drugih postupaka, stranci će se omogućiti da na jedinstvenom upravnom mjestu u javnopravnom tijelu podnese sve zahtjeve, koji će se po službenoj dužnosti bez odgode dostaviti nadležnim javnopravnim tijelima. (2) Na jedinstvenom upravnom mjestu stranke i druge zainteresirane osobe mogu dobiti propisane obrasce, obavijesti, savjete i drugu pomoć iz nadležnosti javnopravnog tijela. (3) Zaprimanje zahtjeva stranke na jedinstvenom upravnom mjestu ne utječe na stvarnu i mjesnu nadležnost javnopravnih tijela za rješavanje u upravnim i drugim postupcima. Glava III. SLUŽBENA OSOBA Službena osoba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "949D1F3400CF553529F1C4C32334A406A708FC5354BA50F25380FD84149C9F13",
+    "sha256_datoteke": "9DF26203B3710ED80E46E886AA40977B7BDBB5F29D8F3EEEB004493079C36252",
+    "napomena": null
+  }
+}

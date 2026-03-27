@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "71",
+    "naslov": null,
+    "tekst": ". (1) Podnescima u postupku smatraju se zahtjevi, prijedlozi, ispunjeni obrasci, prijave, molbe, žalbe, predstavke, prigovori, obavijesti, priopćenja te drugi podnesci kojima se stranke obraćaju javnopravnim tijelima u vezi s određenom upravnom stvari. (2) Podnesak mora biti razumljiv i sadržavati sve što je potrebno da bi se po njemu moglo postupiti, a osobito naziv javnopravnog tijela kojem se upućuje, naznaku upravne stvari na koju se odnosi, osobno ime (ime i prezime) stranke, odnosno osobe ovlaštene za zastupanje ako je stranka ima i adresu te osobe. (3) Podnesci se javnopravnom tijelu mogu predati neposredno u pisanom obliku, poslati poštom, dostaviti u obliku elektroničke isprave izrađene sukladno zakonu ili usmeno izjaviti na zapisnik. (4) Službena osoba koja primi podnesak dužna je na traženje podnositelja potvrditi primitak podneska. (5) Podnesak potpisuje stranka, odnosno osoba ovlaštena za zastupanje stranke. Stranku koja ne zna ili ne može pisati, potpisat će druga pismena osoba uz naznaku svoga osobnog imena i adrese. Podnošenje podneska unutar roka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "090C25594FB705BABBAA54B2CCF026784D40BBC8D462180CF790EA00B9C218F6",
+    "sha256_datoteke": "D26BD12F4228719518C3BA6DFF322A6CCF56FCCC02798C052007A8DBB1573CDB",
+    "napomena": null
+  }
+}

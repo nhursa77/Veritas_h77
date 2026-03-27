@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "99",
+    "naslov": null,
+    "tekst": ". U stvarima manjeg značenja u kojima se udovoljava zahtjevu stranke, a ne dira se u javni interes niti interes trećih osoba, rješenje se može sastojati samo od izreke u obliku zabilješke u spisu, ako su razlozi za takvu odluku očiti. Djelomično, dopunsko i privremeno rješenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E47B8D5CA7B1BFECD00FFE0FCE910598E0EEC76148A8E3F16F1757BD1A4AD780",
+    "sha256_datoteke": "8852918C44CF041C7034DDA0503DFF75447A56703E9A350F902C17C6EC37ECF1",
+    "napomena": null
+  }
+}

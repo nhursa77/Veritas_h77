@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "168",
+    "naslov": null,
+    "tekst": ". Postupci započeti do stupanja na snagu ovoga Zakona nastavit će se i dovršiti prema odredbama Zakona o općem upravnom postupku (»Narodne novine«, br. 53/91. i 103/96.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "279C9BB427562C0EA9EFAB11CC43CC90BF94586814D2EC7FAD01B8BEE31AB3F4",
+    "sha256_datoteke": "BCD0015FFD142E2A4FF3A5B7A5D14235756AD1935E6686BA8B94F0D4300C19A6",
+    "napomena": null
+  }
+}

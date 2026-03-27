@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "133",
+    "naslov": null,
+    "tekst": ". (1) Rješenje doneseno u upravnom postupku izvršava se nakon što postane izvršno. (2) Prvostupanjsko rješenje postaje izvršno istekom roka za žalbu ako žalba nije izjavljena, dostavom rješenja stranci ako žalba nije dopuštena, dostavom rješenja stranci ako žalba nema odgodni učinak, dostavom stranci rješenja kojim se žalba odbacuje ili odbija, danom odricanja stranke od prava na žalbu te dostavom stranci rješenja o obustavi postupka u povodu žalbe. (3) Drugostupanjsko rješenje kojim se rješava upravna stvar postaje izvršno dostavom stranci. (4) Kad je u rješenju određeno da se radnja koja je predmet izvršenja može izvršiti u ostavljenom roku, rješenje postaje izvršno istekom tog roka. Izvršenik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8459B37CB5720009E95961E5D38FE9A87E6832E24E241CF6705351986123782B",
+    "sha256_datoteke": "168178D2D83FD582E8A0847117ED48625219690F04FD91F90BC014E79740F514",
+    "napomena": null
+  }
+}

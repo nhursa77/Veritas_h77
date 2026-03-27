@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "91",
+    "naslov": null,
+    "tekst": ". (1) Stranka je dužna o promjeni adrese prebivališta, boravišta ili sjedišta obavijestiti javnopravno tijelo. Ako stranka promijeni adresu prebivališta, boravišta ili sjedišta, a o tome ne obavijesti javnopravno tijelo, daljnja dostava u postupku obavlja se stavljanjem pismena na oglasnu ploču javnopravnog tijela. Dostava se smatra obavljenom istekom osmoga dana od dana stavljanja pismena na oglasnu ploču. (2) Ako osoba ovlaštena za zastupanje ili opunomoćenik za primanje pismena u tijeku postupka promijeni adresu i o tome propusti obavijestiti javnopravno tijelo, dostava se obavlja izravno stranci, kao da osoba ovlaštena za zastupanje ili opunomoćenik za primanje pismena nisu određeni. Vrijeme dostave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1863439D83618D48CCD4E2571E0363239151C38F510D38FEAF30FFF4C17B912F",
+    "sha256_datoteke": "200947FBBBE77717880260A7FA767C7C079CD86CAF0B0778E959356FBE803E65",
+    "napomena": null
+  }
+}

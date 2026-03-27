@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "83",
+    "naslov": null,
+    "tekst": ". (1) Službena osoba može stranku i druge sudionike u postupku obavijestiti o tijeku i radnjama u postupanju usmeno, elektroničkim putem, neposrednim uručenjem pismena ili slanjem pismena poštom ili na drugi prikladan način. (2) Obavješćivanje elektroničkim putem smatra se obavljenim u trenutku kad je zabilježeno na poslužitelju za primanje takvih poruka. (3) Obavješćivanje poštom obavlja se prema odredbama ovoga Zakona koje se odnose na posrednu dostavu. (4) Stranka i drugi sudionici u postupku obavješćuju se osobno, osim kad stranka ima osobu ovlaštenu za zastupanje ili opunomoćenika za primanje obavijesti. Obavješćivanje o tijeku postupka i razgledavanje spisa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BC7D0477D4A00D1760BB9729FAD210900663C3C404CED6B9C04BB9682492B5B0",
+    "sha256_datoteke": "F18E8DD9143593F7B587A1353AF7B5075E7351802E5E12FBCD99EEA48F07E218",
+    "napomena": null
+  }
+}

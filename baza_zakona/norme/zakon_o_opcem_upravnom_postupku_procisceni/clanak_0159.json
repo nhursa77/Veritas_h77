@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "159",
+    "naslov": null,
+    "tekst": ". (1) Javnopravna tijela izdaju potvrde. Potvrdama se smatraju i uvjerenja, izvadci i druge javne isprave o činjenicama o kojima javnopravna tijela vode službenu evidenciju. (2) Potvrde o činjenicama o kojima se vodi službena evidencija izdaju se u skladu s podacima iz službene evidencije. Takve su potvrde javne isprave. (3) Službenom evidencijom smatra se evidencija koja je ustanovljena na temelju propisa, odnosno općeg akta pravne osobe koja ima javne ovlasti. (4) Potvrde o činjenicama o kojima se vodi službena evidencija izdaju se stranci na njezin zahtjev, u pravilu istoga dana kad je stranka zatražila izdavanje potvrde, a najkasnije u roku od 15 dana od dana podnošenja urednog zahtjeva za izdavanje, ako propisom kojim je ustanovljena službena evidencija nije drukčije propisano. Potvrda se može izdati i u elektroničkom obliku. (5) Ako javnopravno tijelo odbije zahtjev za izdavanje potvrde, dužno je o tome donijeti rješenje. Ako u roku od 15 dana od dana podnošenja zahtjeva ne izda potvrdu ili ne donese i dostavi stranci rješenje o odbijanju zahtjeva, stranka može izjaviti žalbu. (6) Ako stranka, na temelju dokaza kojim raspolaže, smatra da potvrda nije izdana sukladno podacima iz službene evidencije, može zahtijevati izmjenu potvrde. Kad javnopravno tijelo ne izda izmijenjenu potvrdu, dužno je donijeti rješenje o odbijanju zahtjeva stranke za izmjenu potvrde u roku od 15 dana od dana podnošenja zahtjeva. Ako se u propisanom roku ne izda izmijenjena potvrda ili ne donese rješenje o odbijanju zahtjeva stranke, stranka može izjaviti žalbu. Potvrde o činjenicama o kojima se ne vodi službena evidencija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AFE5E5A71213797CD25F0EB88B2F60FD46C5921B29C871C7CE0A20C81834F5CC",
+    "sha256_datoteke": "C196F17E933B6960A668D4030C4A16214C6B9BD3E5934C8864B3619135DE03EE",
+    "napomena": null
+  }
+}

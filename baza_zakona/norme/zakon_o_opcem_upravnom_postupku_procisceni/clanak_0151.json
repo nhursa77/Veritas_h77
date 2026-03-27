@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "151",
+    "naslov": null,
+    "tekst": ". (1) Upravni ugovor je ništetan ako je protivan rješenju radi izvršenja kojeg je sklopljen. (2) Upravni ugovor je ništetan i iz razloga ništetnosti propisanih zakonom koji uređuje obvezne odnose. (3) Upravni ugovor je ništetan i kad je ništetan dio toga ugovora, osim ako bi ugovor proizvodio pravne učinke i bez tog dijela. (4) Ništetnost upravnog ugovora utvrđuje sud nadležan za upravne sporove na temelju tužbe stranke ili javnopravnog tijela. (5) Ništetan upravni ugovor ne proizvodi pravne posljedice. Izmjena upravnog ugovora zbog promijenjenih okolnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A44E935739C8576AFC918A11E7132F5CCB6228A65A8529C2A2327D502B591653",
+    "sha256_datoteke": "268CA9AECF2BEF31E6B933D5DF2DF948AD1B02B4FE22E7228A08FC8AAB240AAA",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "167",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Javnopravna tijela podatke o rješavanju upravnih stvari te o provedenim postupcima zaštite od postupanja javnopravnih tijela i postupanja pružatelja javnih usluga dostavljaju putem jedinstvenog informacijskog sustava za nadzor nad provedbom ovoga Zakona. (2) Tijelo državne uprave nadležno za poslove opće uprave izvješćuje Vladu Republike Hrvatske o rješavanju upravnih stvari te o provedenim postupcima zaštite od postupanja javnopravnih tijela i postupanja pružatelja javnih usluga.«. ZAVRŠNA ODREDBA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F1A40777E18144192C55E0F1EB5CD9DCEB235051AB76E85A6CF5991661800CBF",
+    "sha256_datoteke": "5D6A4FD3BEDAAAE78DEF75921044677BD162D59390A66A086058EE3A9F0F3D2E",
+    "napomena": null
+  }
+}

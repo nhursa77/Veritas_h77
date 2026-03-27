@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "100",
+    "naslov": null,
+    "tekst": ". (1) Kad se u upravnoj stvari rješava o više pitanja, a samo se o nekima od njih može riješiti na temelju utvrđenoga činjeničnog stanja, može se donijeti rješenje samo o tim pitanjima (djelomično rješenje). (2) Ako javnopravno tijelo rješenjem nije riješilo sva pitanja koja su predmet postupka, može se, na prijedlog stranke ili po službenoj dužnosti, donijeti rješenje o pitanjima koja nisu riješena (dopunsko rješenje). O odbijanju prijedloga stranke donosi se rješenje. (3) Ako prema okolnostima slučaja prije okončanja postupka treba donijeti rješenje kojim se privremeno uređuju sporna pitanja ili odnosi, rješenje će se donijeti na temelju činjenica poznatih u vrijeme njegova donošenja. To rješenje mora biti označeno kao privremeno (privremeno rješenje). Privremeno rješenje ukinut će se rješenjem kojim se rješava o upravnoj stvari. (4) Djelomično, dopunsko i privremeno rješenje u pogledu pravnih lijekova i izvršenja smatraju se samostalnim rješenjem. Rok za donošenje rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AC8CB66208CE64921F60B824ABAB04B8F65DFD626DD0A84ACD68E05AF0BDBB89",
+    "sha256_datoteke": "DAFB38A8797A36F4ACC5E574721EC0A886EC944AD0F6B77EDE5F86C9BBAF4CC3",
+    "napomena": null
+  }
+}

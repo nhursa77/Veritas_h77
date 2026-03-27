@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "39",
+    "naslov": null,
+    "tekst": ". (1) Ako u tijeku postupka stranka umre ili pravna osoba prestane postojati, postupak se može obustaviti ili nastaviti, ovisno o naravi upravne stvari koja je predmet postupka. (2) O obustavi postupka donosi se rješenje koje se dostavlja nasljednicima, odnosno pravnim sljednicima. Kad nasljednici, odnosno pravni sljednici nisu poznati, rješenje će se javno objaviti u službenom glasilu. DRUGI DIO POKRETANJE I VOĐENJE UPRAVNOG POSTUPKA Glava I. POKRETANJE POSTUPKA Načini pokretanja postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ABED4E77BFCD71C8BE0429EC3D0155EB8143AC9DCA49EF589C20B4A97F728787",
+    "sha256_datoteke": "82738167F88C1637D9C11A58A2D902319513EA360306FD71CCE9C90562EB0C22",
+    "napomena": null
+  }
+}

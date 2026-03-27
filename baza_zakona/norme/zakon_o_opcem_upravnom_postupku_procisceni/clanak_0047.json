@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "47",
+    "naslov": null,
+    "tekst": ". (1) Službena osoba utvrđuje sve činjenice i okolnosti bitne za rješavanje o upravnoj stvari. (2) Službena osoba pribavit će po službenoj dužnosti podatke o činjenicama o kojima službenu evidenciju vodi javnopravno tijelo kod kojeg se vodi postupak, odnosno drugo javnopravno tijelo ili sud. (3) Stranka je dužna iznijeti točno, istinito i određeno činjenično stanje na kojem temelji svoj zahtjev. Kad se ne radi o općepoznatim činjenicama, stranka je dužna za svoje navode ponuditi dokaze i po mogućnosti ih podnijeti. Ako stranka tako ne postupi, službena osoba zaključkom će je pozvati da to učini u primjerenom roku. (4) Kad stranka nije u ostavljenom roku dostavila zatražene dokaze, a postupak je pokrenut na zahtjev stranke, službena osoba ocijenit će od kakve je to važnosti za rješavanje upravne stvari. Ako se bez tih dokaza ne može udovoljiti zahtjevu stranke, zahtjev će se rješenjem odbiti. (5) Kad stranka nije u ostavljenom roku dostavila zatražene dokaze, a postupak je pokrenut po službenoj dužnosti ili na zahtjev protivne stranke, službena osoba nastavit će postupak te riješiti upravnu stvar. Neposredno rješavanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8EF66C16B1197C11D0A2070361296D79BE99EF6674F43C25B4FF87AEFBB84229",
+    "sha256_datoteke": "18D6EAF83497C1F94B8D867B0CCCBF1BA558D94A889A6B012B6A13BF93372F83",
+    "napomena": null
+  }
+}

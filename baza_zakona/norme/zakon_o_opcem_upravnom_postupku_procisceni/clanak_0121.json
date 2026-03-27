@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "121",
+    "naslov": null,
+    "tekst": ". Drugostupanjsko tijelo rješenje o žalbi mora donijeti i dostaviti stranci putem prvostupanjskog tijela što je prije moguće, a najkasnije u roku od 60 dana od dana predaje uredne žalbe, ako zakonom nije propisan kraći rok. Glava II. PRIGOVOR Izjavljivanje prigovora i postupanje po prigovoru",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9581571A64583DCF69936909B3F23F1859E97844C7D289D9685BBA114E5A69B5",
+    "sha256_datoteke": "9FAA3C6B84DCB5F2BE7C32D2071B2CA7DAF549AE6146C12848D647736590D6E3",
+    "napomena": null
+  }
+}

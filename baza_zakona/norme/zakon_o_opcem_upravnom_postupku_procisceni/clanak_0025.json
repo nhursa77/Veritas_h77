@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". (1) Kolegijalno javnopravno tijelo o upravnim stvarima odlučuje većinom glasova svih članova, ako nije drukčije propisano. (2) Kolegijalno javnopravno tijelo može u pisanom obliku ovlastiti službenu osobu u tom tijelu za postupanje u upravnim stvarima do donošenja odluke. U tom slučaju službena osoba o provedenom će postupku podnijeti kolegijalnom tijelu pisano izvješće i prijedlog odluke o toj upravnoj stvari. Glava IV. PRAVNA POMOĆ U UPRAVNIM STVARIMA Pravna pomoć",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0E4CD1773A1CB97DC977E538CA74F50AEDFBBC1FDA80725F57A9368E71137371",
+    "sha256_datoteke": "DC54BD2E6024881549CB7E98046533D8771D921935A43911DA8C1CF473DC743C",
+    "napomena": null
+  }
+}

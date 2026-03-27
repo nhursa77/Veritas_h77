@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "102",
+    "naslov": null,
+    "tekst": ". (1) Kad je to propisano zakonom, smatrat će se da je zahtjev stranke usvojen ako javnopravno tijelo, u postupku pokrenutom na uredan zahtjev stranke u kojem je ovlašteno neposredno riješiti upravnu stvar, ne donese rješenje u propisanom roku. (2) Stranka ima pravo tražiti da javnopravno tijelo donese rješenje kojim se utvrđuje da je zahtjev stranke usvojen. Javnopravno tijelo dužno je izdati takvo rješenje u roku od osam dana od dana traženja stranke. Jamstvo stjecanja prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5478E44E1705B8E82A8DD7371FF57A796F2CF21BB7B26E7D96B1464580D78DC1",
+    "sha256_datoteke": "8739C2015068646367F84165CC46AC6F08A6EF6C403F5F7DF9BCDCA1FD2F3E5A",
+    "napomena": null
+  }
+}

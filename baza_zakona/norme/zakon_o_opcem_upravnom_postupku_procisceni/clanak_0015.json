@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". (1) Stvarna nadležnost javnopravnih tijela određuje se zakonom kojim se uređuje pojedino upravno područje, ili određuje nadležnost javnopravnih tijela. (2) Ako se stvarna nadležnost ne može utvrditi na temelju zakona, niti je to moguće utvrditi po naravi upravne stvari, stvarno je nadležno prvostupanjsko tijelo državne uprave u djelokrugu kojeg su poslovi opće uprave. Mjesna nadležnost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8CF844F37E1481E3CE479E58C8EA77A13C2C84E3E6DF5C036942B21A4875F8B2",
+    "sha256_datoteke": "4DAE89602A55B8C137AE8BD85424D479F9BFD72E7845E6E18F88C39169ABD806",
+    "napomena": null
+  }
+}

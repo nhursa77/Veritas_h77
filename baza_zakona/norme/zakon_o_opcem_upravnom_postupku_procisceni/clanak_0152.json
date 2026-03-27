@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "152",
+    "naslov": null,
+    "tekst": ". (1) Ako bi zbog okolnosti nastalih nakon sklapanja ugovora, koje se nisu mogle predvidjeti u vrijeme sklapanja ugovora, ispunjenje obveze za jednu ugovornu stranu postalo bitno otežano, ta strana može zahtijevati da se ugovor izmijeni sukladno nastalim okolnostima. (2) O izmjeni ugovora ugovorne se strane moraju suglasiti. Raskid upravnog ugovora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5E3239425DEDC28C499397FC7D5E094AFC814145B904F837B02A3C93BC9C8596",
+    "sha256_datoteke": "AEC18C667E1933E8FCEA1289F148BC09FB98ADC8F60BB56555285D214750E3BC",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "94",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Dostava se obavlja elektroničkim putem na zahtjev, uz izričit pristanak stranke ili kad je to propisano zakonom. (2) Ako je stranka zahtjev podnijela u elektroničkom obliku, smatra se da je pristala da joj se dostava obavlja elektroničkim putem, dok se ne izjasni drukčije. (3) Elektronička dostava može se obaviti u bilo koje vrijeme. (4) Kad osobna dostava nije obvezna, dostava elektroničkim putem može se obaviti na adresu elektroničke pošte naznačene u zahtjevu ili s koje je zahtjev poslan, a smatra se obavljenom u trenutku kad je pismeno zabilježeno na poslužitelju za primanje poruka. Stranka elektroničkim putem potvrđuje primitak pismena na zahtjev službene osobe. (5) Dostava elektroničkim putem u korisnički pretinac informacijskog sustava povezanog na državnu informacijsku infrastrukturu smatra se obavljenom potvrdom primitka pismena, a najkasnije istekom osmog dana od dana kad je pismeno zabilježeno na poslužitelju za primanje poruka osim ako zakonom nije propisan kraći rok. (6) Dostava elektroničkim putem obavljena dostavom u korisnički pretinac informacijskog sustava povezanog na državnu informacijsku infrastrukturu smatra se osobnom dostavom.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4CC77404730CC8634DACC81A382AA11CCC0F63A11CDA91F1B03CC96644BE8E5B",
+    "sha256_datoteke": "9BE2F752A10AD5F24C1E9F8AF9E4DEBAAFCF3BCF2B75F596BFB5E38BE9B569AD",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": ". Kad u postupku sudjeluje veći broj stranaka s istovjetnim zahtjevima ili skupina osoba povezanih zajedničkim interesom, dostava se obavlja uručivanjem pismena zajedničkom predstavniku. Dostava pravnoj osobi, osobi koja obavlja registriranu djelatnost i javnopravnom tijelu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9C075EB2C3BF04F99C8E9FD422A72DDB69781F2FBA773397BA95D408353DF12E",
+    "sha256_datoteke": "205019B2711BBA2909E5B11797508F09C9CC503C5C11BC6610E4B0791DBE447F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "117",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjsko tijelo poništit će rješenje i samo riješiti stvar ako utvrdi: 1. da su u prvostupanjskom postupku činjenice nepotpuno ili pogrešno utvrđene, 2. da se u postupku nije vodilo računa o pravilima postupka koja bi bila od utjecaja na rješavanje stvari, 3. da je izreka pobijanog rješenja nejasna ili je u proturječnosti s obrazloženjem, 4. da je pogrešno primijenjen pravni propis na temelju kojega se rješava stvar. (2) Kad je za donošenje novoga rješenja, s obzirom na prirodu upravne stvari, nužno neposredno rješavanje prvostupanjskog tijela, a drugostupanjsko tijelo utvrdi da rješenje treba poništiti, dostavit će predmet na ponovno rješavanje prvostupanjskom tijelu. (3) Ako drugostupanjsko tijelo utvrdi da je prvostupanjsko rješenje donijelo nenadležno tijelo, poništit će to rješenje po službenoj dužnosti i dostaviti predmet nadležnom tijelu na rješavanje. Izmjena rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DBAF547AB105792FCFF24360A5B2344196C6A7320A3DAF3E34A9CB62A75BA5AB",
+    "sha256_datoteke": "4AC1C2D9A589296634035E183CD0B572488E8A53C6BF890FBA025DAA11FD2700",
+    "napomena": null
+  }
+}

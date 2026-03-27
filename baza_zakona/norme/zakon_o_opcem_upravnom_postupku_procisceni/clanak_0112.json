@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "112",
+    "naslov": null,
+    "tekst": ". (1) Žalba odgađa pravne učinke rješenja dok se stranci ne dostavi rješenje o žalbi, ako zakonom nije drukčije propisano. (2) Kad se rješenje odnosi na dvije stranke ili više njih koje sudjeluju u postupku s istovjetnim zahtjevima, žalba bilo koje od stranaka odgađa izvršenje prema svim strankama. (3) Javnopravno tijelo može iznimno, radi zaštite javnog interesa ili radi poduzimanja hitnih mjera, odnosno radi otklanjanja štete koja se ne bi mogla otkloniti, odlučiti da žalba nema odgodni učinak. Rješenje mora sadržavati detaljno obrazloženje zašto žalba nema odgodni učinak. Postupak i ovlasti prvostupanjskog tijela u povodu žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2669B63D14334457F9F1D2C18C27F9B59F77037D5622CBAF944897669BEF52C4",
+    "sha256_datoteke": "4120D172812F174269683900A938B1737BEF4070888DC98EDEF58BBE7FC8921F",
+    "napomena": null
+  }
+}

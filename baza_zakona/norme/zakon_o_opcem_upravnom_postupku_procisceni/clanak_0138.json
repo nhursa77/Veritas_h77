@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "138",
+    "naslov": null,
+    "tekst": ". (1) Izvršenje nenovčanih obveza provodi javnopravno tijelo koje je o stvari riješilo u prvom stupnju. (2) Ako je propisano da izvršenje ne može provoditi javnopravno tijelo koje je o stvari rješavalo u prvom stupnju, a nije propisano za to ovlašteno tijelo, izvršenje provodi prvostupanjsko tijelo državne uprave nadležno za poslove opće uprave prema mjestu prebivališta, odnosno boravišta izvršenika ili prema sjedištu pravne osobe ako je izvršenik pravna osoba. Tijelo kojeg se rješenje izvršava dužno je na rješenje koje se izvršava staviti potvrdu izvršnosti i dostaviti ga javnopravnom tijelu nadležnom za izvršenje. Rješenje o izvršenju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E2471D1E9075F2C6B516547018AC7C3D6CC480C643D5BF6299122711D27C885F",
+    "sha256_datoteke": "B7E531F172D3D95396F5D53FDC39AE89B6DF9A27061E131C445EF0E9FBBED817",
+    "napomena": null
+  }
+}

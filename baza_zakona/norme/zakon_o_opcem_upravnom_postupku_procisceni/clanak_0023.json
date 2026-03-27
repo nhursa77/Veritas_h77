@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": ". (1) U upravnom postupku postupa službena osoba u opisu poslova koje je vođenje tog postupka ili rješavanje o upravnim stvarima, sukladno propisima o ustrojstvu javnopravnih tijela. (2) U javnopravnim tijelima službena osoba koja vodi postupak ili rješava o upravnim stvarima mora imati odgovarajuću stručnu spremu, potrebno radno iskustvo i položen državni stručni ispit. (3) Ako u javnopravnom tijelu nema osobe ovlaštene za rješavanje o upravnoj stvari, rješenje donosi čelnik tijela. Izuzeće službene osobe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0940FC0FDDCDF532EE048D5BDB6746034AF39709897EB81B072891362C92F83C",
+    "sha256_datoteke": "F08371F158820751BE0D20038301250422F2EB1DCFDE95D080778BF1C32CA7FA",
+    "napomena": null
+  }
+}

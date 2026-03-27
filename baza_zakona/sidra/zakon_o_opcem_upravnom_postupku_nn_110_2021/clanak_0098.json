@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "98",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Rješenje se sastoji od zaglavlja, uvoda, izreke, obrazloženja, upute o pravnom lijeku te vlastoručnog potpisa ovlaštene službene osobe i otiska službenog pečata javnopravnog tijela ili kvalificiranog elektroničkog potpisa ovlaštene službene osobe ili kvalificiranog elektroničkog pečata javnopravnog tijela. (2) Uvod sadržava naziv i osobni identifikacijski broj (OIB) javnopravnog tijela koje je rješenje donijelo, propis o nadležnosti, osobno ime, odnosno naziv stranke i osoba ovlaštenih za zastupanje, osobni identifikacijski broj (OIB) stranke ako joj je dodijeljen i osobe ovlaštene za zastupanje, kratku oznaku predmeta postupka te naznaku je li postupak pokrenut po službenoj dužnosti ili na zahtjev stranke. Uvod sadržava i naznaku da su rješenje donijela dva javnopravna tijela ili više njih ili da je rješenje doneseno u ponovljenom postupku ili po presudi suda nadležnog za upravne sporove ili uz suglasnost, potvrdu ili po pribavljenom mišljenju drugog tijela. Kad je upravnu stvar riješilo kolegijalno tijelo, navodi se dan sjednice na kojoj je stvar riješena. (3) Izreka sadržava odluku o upravnoj stvari. Izreka mora biti kratka i određena. Kad odluka sadržava rok, uvjet, namet, pridržaj ukidanja ili obvezu sklapanja upravnog ugovora, to treba biti sadržano u izreci. (4) Izreka se može podijeliti u više točaka. Troškovi postupka utvrđuju se u posebnoj točki izreke, kao i to da žalba ne odgađa izvršenje rješenja. (5) Obrazloženje sadržava kratko izlaganje zahtjeva stranke, utvrđeno činjenično stanje, razloge koji su bili odlučujući pri ocjeni pojedinih dokaza, razloge zbog kojih nije usvojen koji od zahtjeva stranaka, razloge donošenja zaključaka tijekom postupka te propise na temelju kojih je riješena upravna stvar. Kad žalba ne odgađa izvršenje rješenja, obrazloženje sadržava i pozivanje na zakon koji to propisuje. (6) Uputom o pravnom lijeku stranka se obavješćuje može li protiv rješenja izjaviti žalbu ili pokrenuti upravni spor, kojem tijelu, u kojem roku i na koji način. Uputa o pravnom lijeku sadrži i napomenu da se stranke imaju pravo odreći prava na žalbu od dana primitka prvostupanjskog rješenja do dana isteka roka za izjavljivanje žalbe. (7) Rješenje potpisuje ovlaštena službena osoba vlastoručno ili kvalificiranim elektroničkim potpisom. (8) Rješenje izdano iz informacijskog sustava javnopravnog tijela može se ovjeriti samo kvalificiranim elektroničkim pečatom.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E73567CDD4FC62DF64AEE5B6C90CF519FC8FEEFE82F1F8A86FB05A6EBA774D13",
+    "sha256_datoteke": "0C4995658A5C9F9C17F97E4BC4FB8DA979A1A13A4A78C30FC4F7ED5CB41B48CD",
+    "napomena": null
+  }
+}

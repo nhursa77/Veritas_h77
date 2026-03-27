@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": ". Službena osoba može neposredno riješiti upravnu stvar u postupku koji je pokrenut na zahtjev stranke: 1. kad je stranka u svojem zahtjevu navela sve činjenice ili podnijela potrebne dokaze na temelju kojih se može utvrditi pravo stanje stvari ili ako se to stanje može utvrditi na temelju općepoznatih činjenica ili službenih podataka kojima raspolaže javnopravno tijelo, 2. kad je propisano da se stvar može riješiti na temelju činjenica ili okolnosti koje nisu potpuno dokazane ili se dokazima samo posredno utvrđuju pa su činjenice ili okolnosti učinjene vjerojatnima, a iz svih okolnosti slučaja proizlazi da se zahtjevu stranke može udovoljiti. Ispitni postupak",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "38370872187396CACE604B2981AF39FC1C4BE7519BDDC0D925528F75B7FA2800",
+    "sha256_datoteke": "3BC35B0D4AFB3F8CA016E8F2CBFA2F19D685F607DE6FF855F67D126CD5FE0A7F",
+    "napomena": null
+  }
+}

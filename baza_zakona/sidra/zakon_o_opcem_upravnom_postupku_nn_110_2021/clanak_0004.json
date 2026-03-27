@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". U članku 24. stavku 1. točka 2. mijenja se i glasi: »2. sa strankom ili osobom ovlaštenom za zastupanje srodnik po krvi u ravnoj liniji, a u pobočnoj liniji do četvrtog stupnja zaključno, bračni drug, životni partner ili srodnik po tazbini do drugog stupnja zaključno, i po prestanku braka ili životnog partnerstva,«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5D0303E1B49B922507F3DA928DA08B0E8F58847C8BCA6C7D3731317EEF360D68",
+    "sha256_datoteke": "08CFD65AB1F576FBF7029EEB0708B8E0FC26F5D12DF5C23523356A5985383A7C",
+    "napomena": null
+  }
+}

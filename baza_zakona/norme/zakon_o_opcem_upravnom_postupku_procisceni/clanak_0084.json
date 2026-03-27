@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "84",
+    "naslov": null,
+    "tekst": ". (1) Stranke i druge osobe koje dokažu pravni interes imaju pravo obavijestiti se o tijeku postupka i razgledati spis predmeta te o svom trošku umnožiti akte iz spisa, osim zapisnika o vijećanju i glasovanju članova kolegijalnih tijela, nacrta rješenja i drugih akata koji su propisima označeni određenim stupnjem tajnosti ili ako je to protivno interesu stranke ili trećih osoba. (2) Razgledavanje spisa obavlja se u službenim prostorijama javnopravnog tijela kod kojeg se vodi postupak. U opravdanim slučajevima spisi se mogu razgledati u službenim prostorijama drugoga javnopravnog tijela. (3) Kad se spis predmeta vodi u elektroničkom obliku, javnopravno tijelo dužno je osigurati tehničke uvjete za njegovo razgledanje. Javnopravno tijelo može osigurati dostupnost spisa elektroničkim putem, ako su osigurani uvjeti za zaštitu privatnosti stranke. (4) O odbijanju zahtjeva za razgledavanje i umnožavanje spisa donosi se rješenje. Osobna dostava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EC2EB78CA3804B5700778A8AF5A18F04277CAF6246E3ED8FA54C618134BDEC52",
+    "sha256_datoteke": "609C083373F94C21E84603F1ED45DB42E02A3CF47C1E5891D20052639B868031",
+    "napomena": null
+  }
+}

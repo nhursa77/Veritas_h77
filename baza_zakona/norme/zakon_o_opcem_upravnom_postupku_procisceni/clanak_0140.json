@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "140",
+    "naslov": null,
+    "tekst": ". (1) Na prijedlog stranke, a radi izbjegavanja nastanka teško popravljive štete, javnopravno tijelo koje je donijelo rješenje može odgoditi izvršenje i, ako je to nužno, produžiti odgodu izvršenja rješenja sve do donošenja pravomoćne odluke o upravnoj stvari, ako nije drukčije propisano zakonom i ako se to ne protivi javnom interesu. (2) Izvršenje će se odgoditi ako je u izvršenju obveze dopušten poček ili se umjesto izvršnoga privremenog rješenja donese rješenje o glavnoj stvari koje se razlikuje od privremenog rješenja. (3) O odgodi izvršenja donosi se rješenje. Vrijeme izvršenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E9197C76817398BF1A732B50B75C683A78A7A48D25B97E2B127B99E6FD5AC9C7",
+    "sha256_datoteke": "B28FBE8A3F17F0B278B4403DAEA45E910B8DA796789DBD55D8F201B4161A76D7",
+    "napomena": null
+  }
+}

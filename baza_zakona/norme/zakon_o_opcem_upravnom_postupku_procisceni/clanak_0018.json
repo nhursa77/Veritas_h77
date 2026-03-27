@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". (1) Kad javnopravno tijelo nije nadležno za primitak podneska koji je podnositelj osobno predao odnosno koji se primi na zapisnik, službena osoba upozorit će na to podnositelja i uputiti ga na nadležno tijelo. Ako podnositelj i dalje zahtijeva da se njegov podnesak primi, službena osoba dužna je primiti takav podnesak i bez odgode uputiti ga nadležnom tijelu te o tome obavijestiti stranku. (2) Kad službena osoba primi podnesak stranke iz kojeg se ne može utvrditi koje je tijelo nadležno za rad po podnesku, bez odgode će, a najkasnije u roku od osam dana od dana primitka podneska, donijeti rješenje kojim će odbaciti podnesak zbog nenadležnosti i rješenje dostaviti stranci. Sukob nadležnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BF6A50F28F1341D0C83BF307A660E4CA8A7F0A29F56AF1385B2BFF864E96BBE5",
+    "sha256_datoteke": "06B1E40A053B235E0993FAA3B469082A4C3BC493EC66F536FA6DF0B6F3527BFB",
+    "napomena": null
+  }
+}

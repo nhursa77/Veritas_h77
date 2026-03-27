@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "63",
+    "naslov": null,
+    "tekst": ". (1) Svaka osoba pozvana kao svjedok dužna je svjedočiti. (2) Svjedoka će se poučiti da ima pravo uskratiti svjedočenje, odnosno odgovore na pojedina pitanja kojima bi sebe, svoje srodnike u ravnoj liniji, a u pobočnoj liniji do trećeg stupnja srodstva zaključno, bračnog druga ili srodnike po tazbini do drugog stupnja srodstva zaključno, pa i onda kad je brak prestao, te skrbnika i štićenika, odnosno posvojitelja i posvojenika izložio kaznenom progonu, teškoj sramoti ili znatnoj materijalnoj šteti. (3) Svjedoka će se poučiti da ima pravo uskratiti odgovore i na pojedina pitanja na koja ne bi mogao odgovoriti, a da ne povrijedi propisima utvrđenu tajnu, a posebice na pitanja o onome što mu je stranka povjerila kao svojem opunomoćeniku ili ispovjedila kao vjerskom ispovjedniku. (4) Svjedok ne može, zbog opasnosti od imovinske štete, uskratiti svjedočenje o pravnim poslovima kojima je bio nazočan kao svjedok, zapisničar ili posrednik odnosno o radnjama koje je poduzeo u vezi sa spornim odnosom kao pravni prednik ili zastupnik jedne od stranaka te o drugim radnjama o kojima je na temelju propisa dužan podnijeti prijavu ili dati izjavu. (5) Kad to službena osoba ocijeni potrebnim, svjedok mora učiniti vjerojatnima razloge uskrate svjedočenja, odnosno odgovora na pojedina pitanja. Saslušanje svjedoka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D2A54F3FA18208E98B88FCD23418C761A1F54AD84931F9DEA82DAA9DEE07B97E",
+    "sha256_datoteke": "532EE8092AC149D5BDDE6C7617F31A0422EC5256518BA31BE86838EEB19BD62F",
+    "napomena": null
+  }
+}

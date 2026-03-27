@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "108",
+    "naslov": null,
+    "tekst": ". (1) U žalbi stranka treba navesti rješenje koje pobija, naziv javnopravnog tijela koje je rješenje donijelo i zbog čega je nezadovoljna rješenjem. (2) Kad se u žalbi iznose nove činjenice i novi dokazi, stranka je dužna obrazložiti zašto te činjenice i dokaze nije iznijela tijekom prvostupanjskog postupka. (3) Kad se u žalbi iznose nove činjenice i novi dokazi, a u postupku sudjeluju dvije stranke ili više njih s protivnim interesima, svakoj stranci dostavlja se prijepis žalbe i daje rok za izjašnjavanje o novim činjenicama i dokazima. (4) Ako je u upravnoj stvari doneseno privremeno rješenje, u žalbi protiv rješenja o glavnoj stvari može se osporavati utvrđeno činjenično stanje i kad to nije osporavano u postupku donošenja privremenog rješenja. Rok za izjavljivanje žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3FF64762770A41EC1A7C68088B1FD5853CC5CF426A39B528F6B32CF829A0E070",
+    "sha256_datoteke": "DEBE2F6121575F1B89353B111E42EB290E4DCC5DBB320BBD9238FF949B3EFB71",
+    "napomena": null
+  }
+}

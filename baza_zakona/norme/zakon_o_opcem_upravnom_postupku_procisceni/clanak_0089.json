@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "89",
+    "naslov": null,
+    "tekst": ". (1) Osobi na službi u oružanim snagama ili policiji, osobi u kopnenom, riječnom, pomorskom i zračnom prometu, osobi koja je lišena slobode ili joj je na drugi način ograničeno kretanje, dostava se može obaviti preko zapovjedništva, uprave, drugih službenih tijela, odnosno pravne osobe u kojima je zaposlena ili u kojima se nalazi. (2) Osobama koje se nalaze u inozemstvu, kao i stranim državama, međunarodnim organizacijama i osobama s diplomatskim imunitetom dostava se obavlja preko središnjeg tijela državne uprave nadležnog za vanjske poslove ako međunarodnim ugovorima nije drukčije određeno. (3) Dostava potvrda izdanih na zahtjev stranke koja se nalazi u inozemstvu dostavlja se neposredno stranci. Mjesto dostave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9D52080A5531BBA9C3A8C1778F526046344B016FA315808288C4C17A4D91F2E3",
+    "sha256_datoteke": "AC0D7E95A8E544B5B7A8BD9EDAFB33615A56C611AEDCFE00943C086666940EEE",
+    "napomena": null
+  }
+}

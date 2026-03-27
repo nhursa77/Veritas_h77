@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". (1) Stranka u upravnom postupku je fizička ili pravna osoba na zahtjev koje je pokrenut postupak, protiv koje se vodi postupak ili koja radi zaštite svojih prava ili pravnih interesa ima pravo sudjelovati u postupku. (2) Stranka može biti i tijelo državne uprave te drugo državno tijelo, tijelo jedinice lokalne ili područne (regionalne) samouprave ili drugo javnopravno tijelo koje nema pravnu osobnost te njihova područna jedinica, odnosno podružnica ili skupina osoba povezanih zajedničkim interesom, ako može biti nositelj prava, odnosno obveza o kojima se rješava. Načelo zakonitosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "72B3593F3E5D179508C5CCAFB6533215045AE560D06E7D2F728834B68E3252C7",
+    "sha256_datoteke": "F4FEE7AEC20ED09985B478B31E5097DAE9504395308774CB4AC83077A4F4B9E6",
+    "napomena": null
+  }
+}

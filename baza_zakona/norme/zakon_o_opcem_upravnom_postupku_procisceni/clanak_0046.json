@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "46",
+    "naslov": null,
+    "tekst": ". (1) Tijekom postupka stranka može odustati od zahtjeva u pisanom obliku, usmeno na zapisnik ili elektroničkim putem. (2) Ako stranka odustane od zahtjeva, donijet će se rješenje o obustavi postupka. (3) Rješenje o obustavi postupka donijet će se po službenoj dužnosti i u slučaju kad se iz postupanja stranke ili iz drugih okolnosti postupka može zaključiti da je stranka odustala od zahtjeva. (4) Postupak će se nastaviti ako je nastavak postupka u javnom interesu ili to zahtijeva protivna stranka. (5) Kad se tijekom postupka utvrdi da više ne postoje pravne pretpostavke za vođenje postupka, rješenjem će se obustaviti postupak. Glava II. POSTUPAK RJEŠAVANJA UPRAVNE STVARI Utvrđivanje činjeničnog stanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8885A4898B229B00E75F004BA6D02ECA9A52A1219C5C7B4F4C7D03202F3818BF",
+    "sha256_datoteke": "8C48FCFEB852E873527C970FC59831E0122189556AF54D2EB19B83478F302814",
+    "napomena": null
+  }
+}

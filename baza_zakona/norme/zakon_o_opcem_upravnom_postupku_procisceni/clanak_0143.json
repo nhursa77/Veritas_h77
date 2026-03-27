@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "143",
+    "naslov": null,
+    "tekst": ". (1) Kad se obveza izvršenika sastoji od radnji koje mogu obaviti i treće osobe, a izvršenik je ne izvrši ili je ne izvrši u cijelosti, ta će se radnja obaviti putem trećih osoba na trošak izvršenika. (2) Tijelo nadležno za izvršenje zaključkom će naložiti izvršeniku da unaprijed položi novčani iznos potreban za podmirenje troškova izvršenja. O iznosu troškova izvršenja putem trećih osoba odlučuje se rješenjem. Izvršenje nenovčanih obveza neposrednom prisilom",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "40AC20097159FA2D44266F0CA050C50F25DBF7A7C1D39DED9409FF12FAE434BD",
+    "sha256_datoteke": "D977D6193223963BD6EA9BB790DD4D84AC6DFF97D8EA1F9462D05471E66591E6",
+    "napomena": null
+  }
+}

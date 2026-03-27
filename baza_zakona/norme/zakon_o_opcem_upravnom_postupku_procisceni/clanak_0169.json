@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "169",
+    "naslov": null,
+    "tekst": ". Na dan stupanja na snagu ovoga Zakona prestaje važiti Naputak za izradu izvješća o stanju rješavanja upravnih stvari u tijelima državne uprave i upravnim tijelima Grada Zagreba i rokovima za dostavljanje tih izvješća (»Narodne novine«, br. 86/06.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4C4B14C3A84001AEEDABAB8DB7ADE01824D230297F6FA4BC786068B09CA9FAD6",
+    "sha256_datoteke": "45CBD0B17EB313F98EA8BB8445C44CABA5AD8853B8658C3A8927688E9DD4A6FC",
+    "napomena": null
+  }
+}

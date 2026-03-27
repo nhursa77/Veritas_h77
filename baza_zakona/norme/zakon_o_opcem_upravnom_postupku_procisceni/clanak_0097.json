@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "97",
+    "naslov": null,
+    "tekst": ". (1) Rješenje se donosi u pisanom obliku. Rješenje se može izdati na propisanom obrascu. (2) Iznimno, rješenje se može donijeti i u usmenom obliku kad je potrebno poduzeti hitne mjere radi osiguranja javnog reda i sigurnosti, radi otklanjanja neposredne opasnosti za život i zdravlje ljudi ili imovinu veće vrijednosti. (3) Rješenje u usmenom obliku dostavlja se stranci i u pisanom obliku, kad je to propisano zakonom, ili ako stranka to zahtijeva, ili ako za to postoje drugi opravdani razlozi. Rješenje u pisanom obliku dostavlja se bez odgode, a najkasnije u roku od osam dana od dana donošenja usmenog rješenja. Službena osoba dužna je upozoriti stranku da ima pravo tražiti pisani otpravak usmenog rješenja. Sadržaj rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B4784716C4A2B2D2D91BE618744CDD8F2360F6CFEA3F384E153B3824C4C2DADA",
+    "sha256_datoteke": "B5EE99E75FC3BB84A29D60F14DEFCB48C375F749227B2526A432469869E8445B",
+    "napomena": null
+  }
+}

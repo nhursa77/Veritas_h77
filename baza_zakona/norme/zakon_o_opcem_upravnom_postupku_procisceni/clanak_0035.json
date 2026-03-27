@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". (1) Kad dvije stranke ili više njih u istom predmetu nastupaju zajednički, dužne su naznačiti koja će od njih nastupati kao zajednički predstavnik ili odrediti zajedničkog opunomoćenika. (2) Ako stranke ne odrede zajedničkog predstavnika ili zajedničkog opunomoćenika, službena osoba zaključkom će naložiti strankama da to učine u primjerenom roku. Ako stranke to ne učine, službena će osoba po službenoj dužnosti zaključkom odrediti jednu od stranaka kao zajedničkog predstavnika koji poduzima radnje u postupku dok stranke ne odrede drugoga zajedničkog predstavnika ili opunomoćenika. (3) U slučaju određivanja zajedničkog predstavnika, odnosno opunomoćenika svaka stranka zadržava samostalno pravo nastupanja u tom postupku. Opunomoćenik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D21D7D4B722908D9A3DADB9C8B4AF8C09F92F71C047BE6023C15281429EA8945",
+    "sha256_datoteke": "56F1199AC8ECB2285C7FC0080D2A95B82650E7C2202DA31728AA00C99CB217DC",
+    "napomena": null
+  }
+}

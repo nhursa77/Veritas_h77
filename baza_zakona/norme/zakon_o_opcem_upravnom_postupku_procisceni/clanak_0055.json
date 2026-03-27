@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". (1) Ako se u postupku rješavanja upravne stvari pojavi pravno pitanje koje čini samostalnu pravnu cjelinu, a bez rješavanja kojeg nije moguće riješiti upravnu stvar, službena osoba može riješiti to pitanje ili postupak prekinuti rješenjem dok nadležni sud ili javnopravno tijelo to pitanje ne riješe. (2) Postupak će se prekinuti kad se prethodno pitanje odnosi na postojanje kaznenog djela, postojanje braka, utvrđivanje očinstva ili majčinstva te u drugom slučaju propisanom zakonom. Kad se prethodno pitanje odnosi na kazneno djelo, a nema mogućnosti za kazneni progon, službena osoba razmotrit će i to pitanje. (3) Službena osoba vezana je pravomoćnom odlukom nadležnog tijela kojom je riješeno prethodno pitanje. Rješavanje prethodnog pitanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5745C3813BFB5809C63EDB2DF968A64D568CCEE6438285F8139C311E304C7827",
+    "sha256_datoteke": "92D0AC7270D5F0AF5A2B5F2D69CF0EAE91692E47AC90079D2BD15F1A0C4C9FE5",
+    "napomena": null
+  }
+}

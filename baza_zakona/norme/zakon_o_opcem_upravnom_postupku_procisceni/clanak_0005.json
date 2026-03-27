@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo rješava upravnu stvar na temelju zakona i drugih propisa te općih akata donesenih na temelju zakonom utvrđenih javnih ovlasti. (2) U upravnim stvarima u kojima je javnopravno tijelo zakonom ovlašteno rješavati po slobodnoj ocjeni, odluka mora biti donesena u granicama dane ovlasti i sukladno svrsi radi koje je ovlast dana. Načelo razmjernosti u zaštiti prava stranaka i javnog interesa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "866E976441806FD74B89051BF99B739EA58A835E5771DD008C0BEC84A5167014",
+    "sha256_datoteke": "5A4BF4AD4675C8FC287938AFFD18594828DF2806D54B84A7974511391CEC1EC8",
+    "napomena": null
+  }
+}

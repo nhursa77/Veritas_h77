@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "126",
+    "naslov": null,
+    "tekst": ". (1) Kad nadležno tijelo primi prijedlog za obnovu postupka, dužno je ispitati je li prijedlog pravodoban i izjavljen od ovlaštene osobe te je li je okolnost na kojoj se prijedlog temelji učinjena vjerojatnom. Ako ti uvjeti nisu ispunjeni, nadležno tijelo odbacit će prijedlog rješenjem. (2) Ako su uvjeti za obnovu postupka ispunjeni, nadležno tijelo ispitat će mogu li okolnosti, odnosno dokazi koji se iznose kao razlog za obnovu dovesti do drukčijeg rješenja. Ako utvrdi da ne mogu, odbit će prijedlog rješenjem. (3) Ako nadležno tijelo ne odbaci niti odbije prijedlog za obnovu postupka ili po službenoj dužnosti utvrdi da postoje razlozi za obnovu postupka, donijet će rješenje kojim će dopustiti obnovu postupka i odrediti u kojem će se opsegu postupak obnoviti. Rješenje kojim se dopušta obnova postupka odgađa izvršenje rješenja protiv kojeg je obnova dopuštena. (4) Kad je to prema okolnostima slučaja moguće i u interesu je ubrzanja postupka, nadležno će tijelo, čim utvrdi postojanje uvjeta za obnovu, poduzeti one radnje postupka koje se imaju obnoviti, ne donoseći posebno rješenje kojim se obnova dopušta. Rješenje o obnovi postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E2181B0BB32A1032D793860CA241A5E9EBC41F181406EE0D64485C04C8FFAE00",
+    "sha256_datoteke": "80CCC8658C6E2F0A7867C68BC97CAA7E024C81B35C6B6A30C9C4AAD8755751A2",
+    "napomena": null
+  }
+}

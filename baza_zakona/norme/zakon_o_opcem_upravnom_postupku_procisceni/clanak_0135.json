@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "135",
+    "naslov": null,
+    "tekst": ". (1) Izvršenje se provodi po službenoj dužnosti kad to nalaže javni interes. Izvršenje koje je u interesu stranke provodi se na prijedlog stranke (predlagatelj izvršenja). (2) Izvršenje se može provesti i na temelju nagodbe stranaka. (3) Po isteku roka od pet godina od dana kad je rješenje postalo izvršno, rješenje se ne može izvršiti, ako zakonom nije drukčije propisano. Predmet izvršenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7BE6F678E98DED459006FAD6053E3DE8DC19DFFEE1A339787299084C0AA38287",
+    "sha256_datoteke": "CB14FD97D13648272F39E37C0D2755469E8EA6595BE428B2C86241FAC4C21F30",
+    "napomena": null
+  }
+}

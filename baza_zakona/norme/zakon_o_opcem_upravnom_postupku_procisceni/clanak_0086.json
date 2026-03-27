@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "86",
+    "naslov": null,
+    "tekst": ". (1) Kad osobna dostava nije obvezna, a dostavljač ne zatekne naslovljenu osobu na mjestu dostave, pismeno se može uručiti odraslom članu kućanstva, a ako ta osoba ne želi preuzeti pismeno ili nije u mogućnosti predati pismeno, pismeno se ostavlja u poštanskom sandučiću ili pretincu naslovljene osobe. U tom slučaju na dostavnici pismena naznačuje se dan i način dostave. (2) Pismeno se ne može uručiti osobi koja u istom postupku sudjeluje s protivnim interesom. (3) Dostava se smatra obavljenom danom uručenja naslovljenoj osobi, ostavljanjem pismena odraslom članu kućanstva, odnosno danom ostavljanja pismena u poštanskom sandučiću ili pretincu. Dostava zajedničkom predstavniku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "09FE24E98A0F74921B7AD07DA734B9C95057BC9422594CE2F2762D37C07A13E6",
+    "sha256_datoteke": "B91EF2352699AC76B690368505593AF27665418685F34C943C53993E75C9B29C",
+    "napomena": null
+  }
+}

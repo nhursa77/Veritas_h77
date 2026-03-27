@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "98",
+    "naslov": null,
+    "tekst": ". (1) Rješenje se sastoji od zaglavlja, uvoda, izreke, obrazloženja, upute o pravnom lijeku, potpisa službene osobe i otiska službenog pečata javnopravnog tijela. (2) Uvod sadržava naziv javnopravnog tijela koje je rješenje donijelo, propis o nadležnosti, osobno ime, odnosno naziv stranke i osoba ovlaštenih za zastupanje, kratku oznaku predmeta postupka te naznaku je li postupak pokrenut po službenoj dužnosti ili na zahtjev stranke. Uvod sadržava i naznaku da su rješenje donijela dva javnopravna tijela ili više njih ili da je rješenje doneseno u ponovljenom postupku ili po presudi suda nadležnog za upravne sporove ili uz suglasnost, potvrdu ili po pribavljenom mišljenju drugog tijela. Kad je upravnu stvar riješilo kolegijalno tijelo, navodi se dan sjednice na kojoj je stvar riješena. (3) Izreka sadržava odluku o upravnoj stvari. Izreka mora biti kratka i određena. Kad odluka sadržava rok, uvjet, namet, pridržaj opoziva ili obvezu sklapanja upravnog ugovora, to treba biti sadržano u izreci. (4) Izreka se može podijeliti u više točaka. Troškovi postupka utvrđuju se u posebnoj točki izreke, kao i to da žalba ne odgađa izvršenje rješenja. (5) Obrazloženje sadržava kratko izlaganje zahtjeva stranke, utvrđeno činjenično stanje, razloge koji su bili odlučujući pri ocjeni pojedinih dokaza, razloge zbog kojih nije usvojen koji od zahtjeva stranaka, razloge donošenja zaključaka u tijeku postupka te propisi na temelju kojih je riješena upravna stvar. Kad žalba ne odgađa izvršenje rješenja, obrazloženje sadržava i pozivanje na zakon koji to propisuje. (6) Uputom o pravnom lijeku stranka se obavješćuje može li protiv rješenja izjaviti žalbu ili pokrenuti upravni spor, kojem tijelu, u kojem roku i na koji način. Rješenje u stvarima manjeg značenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3E56B1E575D18DF53EC31F686D2029B0BC02161435E6B7A1F57669749D2BA818",
+    "sha256_datoteke": "362CE97C609865A56AB59260E966709686EDA5BA75722394B810C687BFE7169C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "104",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo može rješenjem ispraviti pogreške u imenima ili brojevima, pisanju ili računanju te druge očite netočnosti u rješenju koje je donijelo ili u njegovim ovjerenim prijepisima. (2) Ispravak pogreške proizvodi pravni učinak od dana od kojeg proizvodi pravni učinak rješenje koje se ispravlja. ČETVRTI DIO PRAVNI LIJEKOVI Glava I. ŽALBA Izjavljivanje žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "54D3D725E2385DB46DBC73C21D4F1A43D4B056026276CA5CCAA4905AD2262689",
+    "sha256_datoteke": "C6DDEB44EE47FD5EA4A489B396722B747E0DA887DB94A05A6297CB9C74DE81D8",
+    "napomena": null
+  }
+}

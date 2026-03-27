@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "44",
+    "naslov": null,
+    "tekst": ". (1) Dvije upravne stvari ili više njih zaključkom se mogu spojiti u jedan postupak, ako se prava ili obveze stranaka temelje na istoj pravnoj osnovi i na istom ili sličnom činjeničnom stanju, a javnopravno tijelo koje vodi postupak stvarno je i mjesno nadležno za vođenje svih tih postupaka. (2) Ako se promijene okolnosti zbog kojih su stvari spojene u jedan postupak, postupci će se zaključkom razdvojiti. Izmjena zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CF9898BB44EF6827785E5CB990259FB5A0E03DE4B1F6159534ED5BD06C23A294",
+    "sha256_datoteke": "9AFC7A82E3E95DBFF1AB5A7609D369B976898C373CC4C440F678594DFC48BC44",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "132",
+    "naslov": null,
+    "tekst": ". U slučaju oglašivanja rješenja ništavim ili poništavanja rješenja, imovina stečena bez pravne osnove vraća se sukladno propisima građanskog prava. PETI DIO IZVRŠENJE Izvršnost rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CA7DCAE72B11F8FE86720AAD7BA339DFD3DA2B08E1319B7EA7139E2E047332BA",
+    "sha256_datoteke": "E68B2B363032B823B4551E5008024BA0A942C68F9A64978DA4CC97A9ACCDC3FC",
+    "napomena": null
+  }
+}

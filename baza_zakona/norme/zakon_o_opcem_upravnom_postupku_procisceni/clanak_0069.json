@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "69",
+    "naslov": null,
+    "tekst": ". (1) Vlasnik, odnosno posjednik stvari na kojima je potrebno obaviti očevid dužni su dopustiti da se očevid provede. Šteta koja nastane provedbom očevida uračunava se u ukupne troškove postupka. (2) Ako vlasnik ili posjednik stvari, odnosno druga osoba bez opravdanog razloga onemogući obavljanje očevida, službena osoba može ih rješenjem novčano kazniti u iznosu do 50% prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini, a za provedbu očevida mogu se upotrijebiti i druge prikladne mjere koje će omogućiti njegovu provedbu, uključujući i neposrednu prisilu uz pomoć policije. Žalba na rješenje o novčanoj kazni ne odgađa izvršenje rješenja. (3) Službena osoba zatražit će u pisanom obliku pomoć policije ako se očevid nije mogao obaviti zbog neopravdanog protivljenja vlasnika, posjednika ili drugih osoba ili kad se pri obavljanju očevida opravdano očekuje pružanje otpora. (4) Nadležno policijsko tijelo dužno je pružiti zatraženu pomoć pri očevidu, sukladno propisima o postupanju policije. Izjava stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3B3FE35FAC64AF40E455D765D675E026DF83EFAEB762290D9A3D5D1A1A6A4DF7",
+    "sha256_datoteke": "1B5245BD31969FC5B7132A60BF4F418712871250EC960E6A92570596E981F609",
+    "napomena": null
+  }
+}

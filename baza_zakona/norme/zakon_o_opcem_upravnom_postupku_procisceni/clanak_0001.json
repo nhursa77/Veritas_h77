@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". Ovim se Zakonom uređuju pravila na temelju kojih tijela državne uprave i druga državna tijela, tijela jedinica lokalne i područne (regionalne) samouprave, pravne osobe koje imaju javne ovlasti (u daljnjem tekstu: javnopravna tijela), u okviru djelokruga utvrđenog na temelju zakona, postupaju i rješavaju u upravnim stvarima. Upravna stvar",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "85052C4CFB158F27D932AB6D7CB061807ED0C933A8B8DD7D6A2CAFA37DF9BCF9",
+    "sha256_datoteke": "D2136AB13659042DF9807125AB22FA5F4CED79032378B099B552C8243EC59DB5",
+    "napomena": null
+  }
+}

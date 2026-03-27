@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "148",
+    "naslov": null,
+    "tekst": ". (1) Radi osiguranja izvršenja mogu se na prijedlog stranke, odnosno po službenoj dužnosti obaviti određene radnje izvršenja i prije nego što je rješenje postalo izvršno, ako bi izvršenje moglo biti spriječeno ili znatno otežano. U slučaju izvršenja obveza koje se mogu prisilno izvršiti samo na prijedlog stranke, predlagatelj mora opasnost od sprječavanja ili otežavanja ispunjenja učiniti vjerojatnom, a službena osoba može u tom slučaju izvršenje radi osiguranja uvjetovati, u pravilu, polaganjem određenoga novčanog iznosa za štetu koja bi mogla izvršenjem rješenja nastati za protivnu stranku u slučaju da zahtjev predlagatelja ne bude usvojen pravomoćnim rješenjem o upravnoj stvari. (2) Privremeno rješenje o osiguranju može se donijeti i kad postoji obveza stranke ili ju je predlagatelj učinio vjerojatnom, a postoji opasnost da će obvezana stranka raspolaganjem imovinom, dogovorom s trećim osobama ili na drugi način spriječiti ili znatno otežati izvršenje obveze. (3) O izvršenju radi osiguranja donosi se privremeno rješenje o osiguranju. (4) Kad je pravomoćnim rješenjem o upravnoj stvari utvrđeno da ne postoji obveza stranke za osiguranje koje je doneseno privremenim rješenjem, ili je na drugi način utvrđeno da je zahtjev za donošenje privremenog rješenja bio neopravdan, predlagatelj u korist kojeg je privremeno rješenje doneseno naknadit će protivnoj stranci štetu koja joj je prouzročena donesenim privremenim rješenjem. (5) O naknadi štete rješava javnopravno tijelo koje je donijelo privremeno rješenje. Ako je očito da je privremeno rješenje ishođeno krivnjom ili obiješću predlagatelja, predlagatelj će se rješenjem kazniti novčanom kaznom u iznosu do 50% prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini. Žalba na rješenje o novčanoj kazni ne odgađa izvršenje rješenja. Hitno izvršenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AB2BBE1A7F1CF4AD50D0CD30DF62607044A74008290FA4B9ABA33041F3ED2932",
+    "sha256_datoteke": "04A990C291C3EF71A7D79ED8F528C34EDFCBCBD16A9AB013FAE5C85E6B522174",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "153",
+    "naslov": null,
+    "tekst": ". (1) Kad se javnopravno tijelo i stranka ne suglase o izmjeni ugovora ili ako javnopravno tijelo ili treće osobe uključene u upravni ugovor na takvu izmjenu ne pristanu, javnopravno tijelo može jednostrano raskinuti upravni ugovor. (2) Ako stranka ne ispunjava obveze iz upravnog ugovora, javnopravno tijelo jednostrano će raskinuti upravni ugovor. Ako je neispunjivanjem obveze iz ugovora javnopravnom tijelu nastala šteta, to tijelo ima pravo od stranke potraživati naknadu štete. (3) Javnopravno tijelo može jednostrano raskinuti upravni ugovor i kad je to potrebno radi otklanjanja teške i neposredne opasnosti za život i zdravlje ljudi i javnu sigurnost, ako se to ne bi moglo otkloniti drugim sredstvima kojima bi se manje diralo u stečena prava. (4) Javnopravno tijelo raskida upravni ugovor rješenjem u kojem moraju biti navedeni i obrazloženi razlozi raskida i određen iznos štete ukoliko je javnopravnom tijelu šteta nastala. (5) Protiv rješenja o raskidu upravnog ugovora može se pokrenuti upravni spor. Prigovor na upravni ugovor",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "48180F2566A93DCA19D1320FAC4CEF1E13D57EF44BD25CA4B6FB59526185883F",
+    "sha256_datoteke": "A752FE18DDD0F5F6470A9D9DB57BBF7424A812BAF0B701174A220FF07F66A21F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "158",
+    "naslov": null,
+    "tekst": ". (1) Nadležno javnopravno tijelo dužno je ispitati navode korisnika javnih usluga te poduzeti mjere iz svoje nadležnosti po pravu nadzora. (2) Nadležno tijelo dužno je bez odgode, a najkasnije u roku od 30 dana od dana izjavljivanja prigovora, obavijestiti korisnika usluga u pisanom obliku o mjerama koje je u povodu prigovora poduzelo. Ako korisnik usluga nije zadovoljan poduzetim mjerama ili u propisanom roku nije obaviješten o poduzetim mjerama, može pokrenuti upravni spor. OSMI DIO IZDAVANJE POTVRDA Potvrde o činjenicama o kojima se vodi službena evidencija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BC36D20371336D48F3ACAA0C8183827D13812F111A463DB3BA6BBBA2CEB27D8C",
+    "sha256_datoteke": "5DFC52C831D7C02915BA27EECDF9DA133BED99AE9BCE95AD6EB75815CDAFFE35",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "131",
+    "naslov": null,
+    "tekst": ". (1) Rješenje može poništiti ili ukinuti javnopravno tijelo koje ga je donijelo. Kad je rješenje donijelo prvostupanjsko tijelo, može ga poništiti ili ukinuti i drugostupanjsko tijelo. Ako nema drugostupanjskog tijela, rješenje može poništiti ili ukinuti tijelo koje na temelju zakona obavlja nadzor nad tim tijelom. (2) Nezakonito rješenje može se poništiti u roku od dvije godine, a ukinuti u roku od jedne godine od dana dostave rješenja stranci, u kojim slučajevima rješenje mora biti u tom roku otpremljeno iz tijela koje je rješenje donijelo. (3) Javnopravno tijelo donosi rješenje o poništavanju ili ukidanju rješenja po službenoj dužnosti, na prijedlog stranke ili ovlaštenoga državnog tijela. Ako je prijedlog za poništavanje ili ukidanje rješenja podnijela stranka ili ovlašteno državno tijelo, a javnopravno tijelo ne prihvati prijedlog, obavijestit će o tome podnositelja prijedloga. (4) Protiv rješenja o poništavanju ili ukidanju koje je donijelo prvostupanjsko tijelo može se uložiti žalba, a kad žalba nije dopuštena, može se pokrenuti upravni spor. Protiv rješenja drugostupanjskog tijela može se pokrenuti upravni spor. Povrat imovine stečene bez pravne osnove",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3AD90CA7FD1DECC4CD956CF6FF3CEC3480A2D3137BB894C7AE4D7A544E7AB4A3",
+    "sha256_datoteke": "69689E135685198003DDE07CC8304037D618AE00D960E032B443C2BDD7979211",
+    "napomena": null
+  }
+}

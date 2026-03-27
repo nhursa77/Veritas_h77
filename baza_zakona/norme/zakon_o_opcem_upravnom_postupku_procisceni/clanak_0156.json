@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "156",
+    "naslov": null,
+    "tekst": ". Osoba koja smatra da joj je drugim postupanjem javnopravnog tijela iz područja upravnog prava, o kojem se ne donosi rješenje, povrijeđeno pravo, obveza ili pravni interes, može izjaviti prigovor sve dok takvo postupanje traje ili traju njegove posljedice. Glava II. ZAŠTITA OD POSTUPANJA PRUŽATELJA JAVNIH USLUGA Zaštita prava korisnika javnih usluga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CA0E29ECD9B5EB75B050B20CB37EDC87E9E24D507DB8B2B9E8CEAB54E2AC150B",
+    "sha256_datoteke": "25DB8882EE79E228199EF2D4F96AE5B6D702D9CDD63D1E410829FD08D5C3078E",
+    "napomena": null
+  }
+}

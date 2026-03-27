@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "155",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo dužno je obavijestiti zainteresiranu osobu na njezin zahtjev o uvjetima, načinu i postupku ostvarivanja ili zaštite njezinog prava ili pravnog interesa u određenoj upravnoj stvari. (2) Na zahtjev zainteresirane osobe javnopravno tijelo dužno je u roku od 15 dana od podnošenja zahtjeva izdati obavijest u pisanom obliku. (3) Ako javnopravno tijelo odbije izdati obavijest u pisanom obliku, zainteresirana osoba u roku od osam dana ima pravo izjaviti prigovor. (4) Ako javnopravno tijelo u propisanom roku ne izda obavijest, zainteresirana osoba ima pravo izjaviti prigovor. Zaštita od drugih oblika postupanja javnopravnih tijela",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "20EDF0DA7FD9D1A8372A715CFE7739B3F7AE39D936FE8B2058E3915A3DC21487",
+    "sha256_datoteke": "F9AC05C2F68A9B6FA4F58A761406A80FDE6AAE204269FA688A682A0C1379171B",
+    "napomena": null
+  }
+}

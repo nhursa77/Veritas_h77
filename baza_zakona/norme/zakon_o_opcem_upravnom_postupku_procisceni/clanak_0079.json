@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "79",
+    "naslov": null,
+    "tekst": ". (1) Za poduzimanje pojedinih radnji u postupku određuju se rokovi. (2) Kad rok nije propisan, službena osoba odredit će odgovarajući rok za obavljanje radnje u postupku. (3) Rok koji je odredila službena osoba, kao i rok za koji je propisano da se može produžavati, može se iz opravdanih razloga produžiti. Računanje rokova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "87F45B9F378F1AD61FE1329CCE8FD25502F1D66C900F2010433D6D836334D25D",
+    "sha256_datoteke": "1B2CDC88FE03C4AC1FB2FE8F2142E42D389BD41A74B1E0788B8CD514210887FA",
+    "napomena": null
+  }
+}

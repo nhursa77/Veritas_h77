@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "110",
+    "naslov": null,
+    "tekst": ". (1) Žalba se predaje prvostupanjskom tijelu na način propisan za predaju podnesaka. Ako je žalba predana drugostupanjskom tijelu, ono će je bez odgode proslijediti prvostupanjskom tijelu. Žalba koja je u roku predana drugostupanjskom tijelu smatra se pravodobnom. (2) Kad stranka izjavljuje žalbu zbog nedonošenja rješenja u propisanom roku, žalba se može predati izravno i drugostupanjskom tijelu. Pravo stranke kad je uputa o pravnom lijeku pogrešna",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E6D27A51CF64C1482021C5B368CB1684368DA0DADA8EC36F95A3793DED2DEA0C",
+    "sha256_datoteke": "E82951D0B157131F95783BD566505A52D59E792FD8E28D8F965FF4D05019E061",
+    "napomena": null
+  }
+}

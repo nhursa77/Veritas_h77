@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "149",
+    "naslov": null,
+    "tekst": ". Ako je doneseno usmeno rješenje, javnopravno tijelo može narediti da se provede izvršenje bez donošenja rješenja o izvršenju. ŠESTI DIO UPRAVNI UGOVOR Uvjeti za sklapanje i predmet upravnog ugovora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "83984872CE182D49E50A026F0237885DF2CF57B76B32A007D384C699B1BE4715",
+    "sha256_datoteke": "434FEA59C27C4866144EC504F638E1AC2BFB6CF04C9A23C46E995019BE0C1F2F",
+    "napomena": null
+  }
+}

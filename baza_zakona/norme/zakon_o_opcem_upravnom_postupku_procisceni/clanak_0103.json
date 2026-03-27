@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "103",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo može stranci jamčiti stjecanje određenog prava, kad je to propisano zakonom. (2) Jamstvo ne smije biti protivno javnom interesu ili interesu trećih osoba. (3) O jamstvu se odlučuje rješenjem koje obvezuje javnopravno tijelo, osim ako su se pravna osnova i činjenično stanje bitno izmijenili. Otklanjanje pogrešaka u rješenju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9A145991BC511D1EEAAA719F1ADDF31C8E9C299B98FBF0D0A8B095BE17EB3915",
+    "sha256_datoteke": "9180283F8E5B7FD641B483523B2A3A441D9194ECDD7C9DB1111473B8BF027A3E",
+    "napomena": null
+  }
+}

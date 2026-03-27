@@ -1,0 +1,37 @@
+{
+  "akt_slug": "zakon_o_opcem_upravnom_postupku_nn_110_2021",
+  "control_mode": "delta",
+  "source": {
+    "tip": "NN",
+    "slug": "zakon_o_opcem_upravnom_postupku_nn_110_2021",
+    "stanje_na_dan": "27.03.2026."
+  },
+  "affected_articles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    75,
+    94,
+    98,
+    138,
+    166,
+    167
+  ],
+  "ops": [],
+  "notes": "AUTO-GENERATED MINIMAL CONTROL; ops empty until delta parser implemented."
+}

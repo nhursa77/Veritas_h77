@@ -1,0 +1,21 @@
+{
+  "naziv_akta": "Zakon o općem upravnom postupku",
+  "vrsta_akta": "zakon",
+  "slug": "zakon_o_opcem_upravnom_postupku",
+  "izvor": "Narodne novine",
+  "naziv_izvora": "Narodne novine",
+  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+  "akt_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+  "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/pdf",
+  "pdf_title_anchor": "",
+  "tip_sadrzaja": "text/html; charset=utf-8",
+  "velicina_bajta": 167343,
+  "oznaka_akta": "NN 47/2009",
+  "datum_pristupa": "27.03.2026.",
+  "sha256_datoteke": "DA70DE521DCB48B53AE132E291DAFFBB7211A9F6CEB608798DCCB9B503153B49",
+  "format": "html",
+  "napomena": "Dokazni NN izvor (HTML; ELI PDF fallback ako sadržaj nedostupan).",
+  "tip_teksta": "procisceni",
+  "ocekivani_broj_clanaka": 0,
+  "preferenca": 100
+}

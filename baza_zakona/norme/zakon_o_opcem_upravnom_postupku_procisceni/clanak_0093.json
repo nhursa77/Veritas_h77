@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "93",
+    "naslov": null,
+    "tekst": ". (1) Obavljena dostava potvrđuje se dostavnicom. Dostavnicu vlastoručno potpisuje osoba koja je preuzela pismeno, uz obveznu naznaku datuma primitka. (2) Kad je naslovljena osoba nepismena ili se ne može potpisati, dostavljač će na dostavnici naznačiti osobno ime naslovljene osobe s datumom dostave i naznakom zašto osoba nije potpisala dostavnicu. (3) Ako dostava nije obavljena osobno, dostavljač će na dostavnici naznačiti kome je predao pismeno i u kojem je odnosu osoba koja je primila pismeno s naslovljenom osobom. Dostava elektroničkim putem",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B72138013F44898F33D822018EE0345DCBFC40F499A00948A92954F415CB5B26",
+    "sha256_datoteke": "CEE30BA2E5CF95C07F81FCE7E771697C7800F11F68BA36D6C4B729C306343302",
+    "napomena": null
+  }
+}

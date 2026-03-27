@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". (1) Javnopravna tijela dužna su strankama omogućiti pristup potrebnim podacima, propisanim obrascima, internetskoj stranici javnopravnog tijela i pružiti im druge obavijesti, savjete i stručnu pomoć. (2) U postupku se moraju zaštititi osobni i tajni podaci, sukladno propisima o zaštiti osobnih podataka, odnosno tajnosti podataka. Pravo stranke na pravni lijek",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C6E73993877FA48B377991253DDD8D7E00F970492C66A4574911FDD308B24B62",
+    "sha256_datoteke": "21C915758A2F2E542723C198085065096E81929E710D1BF3F0EAE473692B75D4",
+    "napomena": null
+  }
+}

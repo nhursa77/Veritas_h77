@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "64",
+    "naslov": null,
+    "tekst": ". (1) Svjedoka će se saslušati bez nazočnosti ostalih svjedoka. Kad je pozvano više svjedoka, svjedok koji je ispitan ne smije napustiti službene prostorije javnopravnog tijela ili mjesto očevida bez dopuštenja, prije saslušanja ostalih svjedoka. Svjedok koji je ispitan može se ponovo saslušati, odnosno suočiti s ostalim svjedocima ako se njihovi iskazi ne podudaraju. (2) Svjedok koji se zbog bolesti ili drugog opravdanog razloga ne može odazvati pozivu može se ispitati u svojem stanu ili na drugom prikladnom mjestu. (3) Kad svjedok ne zna jezik na kojem se vodi postupak, saslušat će se preko prevoditelja. Svjedoku koji je gluh pitanja će se postavljati u pisanom obliku, a ako je nijem, odgovarat će u pisanom obliku. Kad se saslušanje svjedoka ne može obaviti na taj način, kao tumač pozvat će se osoba koja se sa svjedokom može sporazumjeti. (4) Od svjedoka će se uzeti sljedeći osobni podaci: osobno ime, datum i mjesto rođenja, zanimanje i mjesto prebivališta, odnosno boravišta ako nema prebivalište na području Republike Hrvatske te srodstvo, odnosno u kakvom je odnosu sa strankama. (5) Ako službena osoba posumnja da postoje određeni razlozi koji dovode u sumnju objektivnost svjedoka, svjedoka će se ispitati i o tim okolnostima. (6) Svjedoka će se prethodno upozoriti da je dužan govoriti istinu i da ne smije ništa prešutjeti. Svjedoku će se predočiti posljedice davanja lažnog iskaza. (7) Svjedoku će se postavljati samo pitanja o upravnoj stvari koja je predmet postupka i pozvat će se da iznese sve ono što mu je o tome poznato. Nije dopušteno postavljati pitanja na način kojim bi se svjedoka uputilo kako odgovoriti. (8) Kad je svjedok maloljetna osoba saslušat će se uz prisutnost zakonskog zastupnika. Vještačenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B31BC8EEBA37FD3D3CFB2FB17FAD6F460E3FB66CA8639735A4E227D4BA946370",
+    "sha256_datoteke": "3914493D257D9E318D92064309310BEA1B71366A4283D19DEDF4FB89267AEFAC",
+    "napomena": null
+  }
+}

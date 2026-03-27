@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ". (1) O usmenoj raspravi, očevidu ili drugoj važnijoj radnji u postupku te o važnijim usmenim izjavama stranaka ili trećih osoba u postupku sastavlja se zapisnik. (2) U zapisnik se upisuje naziv javnopravnog tijela koje obavlja radnju, mjesto gdje se obavlja, datum i sat kad se obavlja, upravna stvar o kojoj se vodi postupak, osobna imena službenih osoba, nazočnih stranaka i osoba ovlaštenih za njihovo zastupanje, opis tijeka i sadržaja u postupku provedenih radnji i danih izjava te isprava koje su korištene. (3) Prije zaključenja zapisnik će se pročitati nazočnim osobama koje su sudjelovale u upravnoj radnji. Na kraju zapisnika navest će se da je zapisnik pročitan i da nisu stavljene primjedbe ili će se, ako su primjedbe stavljene, ukratko navesti njihov sadržaj. Zapisnik će potpisati službena osoba koja je vodila upravnu radnju i zapisničar ako ga je bilo. Osobe koje su dale izjave potpisuju zapisnik neposredno iza svoje izjave te na kraju svake stranice na kojima se njihova izjava nalazi. U potpisanom i zaključenom zapisniku ne smije se ništa dodavati niti mijenjati. Dopuna u već zaključeni zapisnik unosi se kao dodatak zapisniku koji potpisuje službena osoba i osoba na prijedlog koje je dopuna unesena. (4) Ako neka od nazočnih osoba odbije potpisati zapisnik ili napusti mjesto radnje prije zaključenja zapisnika, to će se navesti u zapisniku, kao i razlozi zbog kojih je potpis uskraćen. (5) Zapisnik sastavljen na način propisan zakonom javna je isprava. Zapisnik je dokaz o tijeku i sadržaju radnje postupka i danih izjava, osim onih dijelova zapisnika na koje je stavljena primjedba da nisu pravilno sastavljeni. Zaključak",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "936098F3531C9C38044351370A2DC320D7014C7D6B8799BA7CB5DD849EF4AA0C",
+    "sha256_datoteke": "FFCA8FCD01D5C10E0135E998445970D65394D17AE16B2C3F1B153E798A13135D",
+    "napomena": null
+  }
+}

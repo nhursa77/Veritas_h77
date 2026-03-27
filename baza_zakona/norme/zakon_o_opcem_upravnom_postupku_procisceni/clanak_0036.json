@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "36",
+    "naslov": null,
+    "tekst": ". (1) Stranka, odnosno njezin zakonski zastupnik može odrediti opunomoćenika koji će je zastupati. Za opunomoćenika se može odrediti odvjetnik, odvjetnički ured ili druga pravna osoba koja na temelju zakona može zastupati stranku, odnosno svaka druga potpuno poslovno sposobna osoba, osim one koja se bavi nadripisarstvom. (2) Službena osoba uskratit će rješenjem sudjelovanje u postupku osobi za koju smatra da se bavi nadripisarstvom. Žalba na to rješenje ne odgađa izvršenje rješenja. Radnje koje je nakon donošenja rješenja o uskrati zastupanja stranke u postupku poduzeo takav opunomoćenik su ništave. (3) Radnje koje u postupku poduzima opunomoćenik, u granicama dane punomoći, imaju pravni učinak kao da ih je poduzela sama stranka. (4) Stranka može samostalno davati izjave, odnosno poduzimati druge radnje i kad je u postupku određen opunomoćenik. (5) Stranka koja je nazočna kad opunomoćenik daje usmenu izjavu može neposredno nakon dane izjave izmijeniti ili opozvati izjavu opunomoćenika. Stranka može, do donošenja odluke o upravnoj stvari, u pisanom obliku ili usmeno na zapisnik opozvati pojedine ili sve radnje opunomoćenika u postupku. Troškove postupka koji nastanu takvim opozivom snosi stranka. (6) Opoziv punomoći ima pravni učinak od trenutka kad službena osoba od stranke u pisanom obliku ili usmeno na zapisnik primi opoziv punomoći. Opunomoćenik za primanje pismena",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D7C8650AF1B4CD8169CA8ACE15C5406914E55320A348E5980B51306F71E76A65",
+    "sha256_datoteke": "1D22BF1692C00748BC34A7365ECA77828EA61605469A3AAD2CDB0FDE0C133116",
+    "napomena": null
+  }
+}

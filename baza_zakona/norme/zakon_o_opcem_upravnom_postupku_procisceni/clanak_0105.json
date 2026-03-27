@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "105",
+    "naslov": null,
+    "tekst": ". (1) Protiv prvostupanjskog rješenja stranka ima pravo izjaviti žalbu drugostupanjskom tijelu, ako zakonom žalba nije isključena. (2) Stranka može izjaviti žalbu i kad rješenje nije doneseno u zakonom propisanom roku. Odricanje od prava na žalbu i odustanak od žalbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "18C602B2905E9529DA7D887E08820E241765F38DCEB7A74F8657FA2AB75B28A5",
+    "sha256_datoteke": "902340D1B72EFD6CD3E7A665527995F61BF1A92C4E5BA89720C9E4733A91E1D6",
+    "napomena": null
+  }
+}

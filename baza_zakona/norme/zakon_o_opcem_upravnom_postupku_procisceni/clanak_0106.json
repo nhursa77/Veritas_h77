@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "106",
+    "naslov": null,
+    "tekst": ". (1) Stranka se može odreći prava na žalbu u pisanom obliku ili usmeno na zapisnik, od dana primitka prvostupanjskog rješenja do dana isteka roka za izjavljivanje žalbe. (2) Odricanje od prava na žalbu u višestranačkim stvarima ima pravni učinak samo ako se sve stranke odreknu prava na žalbu. (3) Stranka može odustati od žalbe sve do otpreme rješenja o žalbi. (4) Kad stranka odustane od izjavljene žalbe, postupak u povodu žalbe obustavit će se rješenjem. (5) Odricanje ili odustanak od žalbe ne mogu se opozvati. Predmet žalbenog postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AFD7BAC6767F4325368A0FEF730300DF56D1640A531B55A2CAAA12ABA0B9F627",
+    "sha256_datoteke": "3B2F0ED498B79DE44168802F8CA035625F9552CA65E3FA096FCA0AEE44738AA2",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "80",
+    "naslov": null,
+    "tekst": ". (1) Rokovi se računaju na dane, mjesece i godine. (2) Kad je rok određen na dane, dan kad je dostavljeno pismeno od kojeg počinje teći rok odnosno dan u koji pada događaj od kojega se računa trajanje roka ne uračunava se u rok, već se početak roka računa od prvoga sljedećeg dana. (3) Rok određen na mjesece, odnosno na godine istječe onog dana, mjeseca ili godine koji po svom broju odgovara danu kad je pismeno dostavljeno, odnosno danu u koji pada događaj od kojega se računa trajanje roka. Ako toga dana nema u mjesecu u kojem rok istječe, rok istječe posljednjeg dana toga mjeseca. (4) Istjecanje roka može se označiti i određenim datumom. Nedjelje, blagdani i neradni dani",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "62A19A3BB617C7F6F335DDE10D6DA8399ACB005E0BB16B66E16A3A700ECD1F91",
+    "sha256_datoteke": "B72F1971A541F846245ED34322C11A613E4740B007BBE56522910122E40FAC84",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U članku 71. stavci 2. i 3. mijenjaju se i glase: »(2) Podnesak mora biti razumljiv i sadržavati sve što je potrebno da bi se po njemu moglo postupiti, a osobito naziv javnopravnog tijela kojem se upućuje, naznaku upravne stvari na koju se odnosi, osobno ime odnosno naziv i adresu stranke te osoba ovlaštenih za zastupanje ako ih stranka ima. Podnesak mora sadržavati i osobni identifikacijski broj (OIB) stranke ako joj je dodijeljen i osobe ovlaštene za zastupanje. (3) Podnesci se javnopravnom tijelu mogu predati u pisanom obliku neposredno, poslati poštom, dostaviti elektroničkim putem ili usmeno izjaviti na zapisnik.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "713CA55EF30A3010D9B7057A621DA1CA262430D26B5899151027CB81A62574AC",
+    "sha256_datoteke": "967F703445E1D781C37A13FF59F85AB12437A8336934C0554B4E5B81031CB68B",
+    "napomena": null
+  }
+}

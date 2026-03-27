@@ -7,8 +7,8 @@ Datum: 27.03.2026.
 - Trenutni commit: `837a2b4` - utvrdjen rezim konverzije zup u json
   (Z92)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 93
-  (pripremljen kanonski manifest ingest-a za ZUP)
+- Zadnji dovršeni zadatak: ZADATAK 94
+  (stvarni ingest ZUP-a po manifestu)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -16,6 +16,9 @@ Datum: 27.03.2026.
   `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`
 - ZADATAK 93: pripremljen je manifest ingest-a
   `paketi/PAKET_ZUP_V1.json` (core + amandman + kontrolni izvor)
+- ZADATAK 94: proveden je stvarni ingest paketa
+  `paketi/PAKET_ZUP_V1.json` za core i amandman (`EXIT=0`), uz minimalnu
+  korekciju manifesta (`tip_teksta` za core: `procisceni`)
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -26,9 +29,8 @@ Datum: 27.03.2026.
 - Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
   prema kanonskom dokumentu
   `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
-- Sljedeci logicki korak: stvarni ingest ZUP-a po manifestu
-  `paketi/PAKET_ZUP_V1.json` i utvrdjenom rezimu konverzije iz
-  `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`.
+- Sljedeci logicki korak: provjera artefakata ZUP ingest-a i odluka o
+  sljedecem zakonu iz prioritetnog reda konverzije.
 
 ## Pravilo sinkronizacije
 

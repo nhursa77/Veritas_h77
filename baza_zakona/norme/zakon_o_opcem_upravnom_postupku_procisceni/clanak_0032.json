@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "32",
+    "naslov": null,
+    "tekst": ". (1) U postupku stranku može zastupati osoba ovlaštena za zastupanje, odnosno zakonski zastupnik, privremeni zastupnik, zajednički predstavnik i opunomoćenik (u daljnjem tekstu: osoba ovlaštena za zastupanje stranke). Osoba ovlaštena za zastupanje stranke dužna je podnijeti dokaz o ovlasti za zastupanje stranke, a ako su zakonom propisani i dodatni uvjeti za oblik ovlasti, ovlast mora biti dana prema tim uvjetima. (2) Službena osoba u tijeku postupka obraća se osobi ovlaštenoj za zastupanje stranke, kad je takva osoba određena. Iznimno, kad je to nužno za utvrđivanje činjenica i okolnosti u postupku, službena osoba može zatražiti neposrednu nazočnost, odnosno drugo sudjelovanje stranke u postupku. Ako službena osoba zatraži neposrednu nazočnost ili drugo sudjelovanje stranke u postupku, o tome je dužna istodobno obavijestiti i osobu ovlaštenu za zastupanje. (3) Odredbe ovoga Zakona koje se odnose na stranke primjenjuju se na odgovarajući način i na osobe ovlaštene za zastupanje stranke. Zakonski zastupnik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "99D2DCA21762547902F5E5B935354F3686A8DD1C35BEEFCB5A499C9BDD79E47E",
+    "sha256_datoteke": "E49BD4236C2592297CF644B389302ADE89E5D8021524AD1E2E212EEA22BEA52C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "75",
+    "naslov": null,
+    "tekst": ". (1) Javnopravna tijela i stranke te druge osobe koje sudjeluju u postupku mogu komunicirati i u elektroničkom obliku. (2) Podnesci dostavljeni u elektroničkom obliku s elektroničkim potpisom sukladno zakonu smatrat će se vlastoručno potpisanim. (3) Elektroničkim putem dostavljeni podnesak smatra se podnesenim javnopravnom tijelu u trenutku kad je zabilježen na poslužitelju za slanje takvih poruka. Javnopravno tijelo bez odgode elektroničkim će putem pošiljatelju potvrditi primitak podneska. (4) Ako se u javnopravnom tijelu iz tehničkih razloga ne može pročitati podnesak u elektroničkom obliku, o tome će se obavijestiti pošiljatelja. Pošiljatelj je tada dužan ponovo poslati podnesak u ispravnom elektroničkom obliku ili ga dostaviti na drugi način u određenom roku. Ako to pošiljatelj ne učini u određenom roku, smatrat će se da podnesak nije podnesen. Zapisnik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4EAE3A6D4D857A68515760B5D415AC8ECA65152172FABC75CE4E7EF375F2629D",
+    "sha256_datoteke": "B3B45AB4B4D2EDE2D1429D981CC71007AB33F9AB4D97C9833D425105C7A386C6",
+    "napomena": null
+  }
+}

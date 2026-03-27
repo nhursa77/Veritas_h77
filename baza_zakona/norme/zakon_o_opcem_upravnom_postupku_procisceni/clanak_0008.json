@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U postupku treba utvrditi pravo stanje stvari i u tu se svrhu moraju utvrditi sve činjenice i okolnosti koje su bitne za zakonito i pravilno rješavanje upravne stvari. Načelo samostalnosti i slobodne ocjene dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "641B102A3F39A5D43AC51CB79444A969EBF1FB9B014D70E5A886905682201A58",
+    "sha256_datoteke": "0252868674EA5AD8A3A0506E436DEC3DF8E663F41644A91326381B0A18BFA151",
+    "napomena": null
+  }
+}

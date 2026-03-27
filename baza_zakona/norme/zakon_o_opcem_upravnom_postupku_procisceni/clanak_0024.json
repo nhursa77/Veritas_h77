@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": ". (1) Čelnik tijela zaključkom će izuzeti službenu osobu od vođenja postupka, odnosno rješavanja o upravnoj stvari ako je službena osoba u toj upravnoj stvari: 1. stranka, suovlaštenik, odnosno suobveznik, svjedok, vještak ili osoba ovlaštena za zastupanje, 2. sa strankom ili osobom ovlaštenom za zastupanje srodnik po krvi u ravnoj liniji, a u pobočnoj liniji do četvrtog stupnja zaključno, bračni drug ili srodnik po tazbini do drugog stupnja zaključno, i po prestanku braka, 3. sa strankom ili osobom ovlaštenom za zastupanje u odnosu skrbnika, posvojitelja ili posvojenika. (2) Čelnik tijela zaključkom će izuzeti službenu osobu od vođenja drugostupanjskog postupka ako je ta osoba sudjelovala u prvostupanjskom postupku. (3) Čelnik tijela zaključkom može izuzeti službenu osobu od vođenja postupka, odnosno rješavanja: 1. ako je službena osoba sa strankom ili osobom ovlaštenom za zastupanje stranke u bliskom osobnom odnosu, 2. ako je službena osoba sa strankom u gospodarskom ili drugom poslovnom odnosu, 3. ako službena osoba prema stranci postupa diskriminirajuće, 4. ako se utvrde drugi razlozi koji dovode u sumnju nepristranost službene osobe. (4) Svaka osoba koja sudjeluje u postupku dužna je bez odgode izvijestiti čelnika javnopravnog tijela o razlozima izuzeća službene osobe. (5) O izuzeću čelnika prvostupanjskog tijela, po službenoj dužnosti ili na zahtjev stranke, odlučuje zaključkom čelnik drugostupanjskog tijela, a ako takvog tijela nema, o izuzeću će odlučiti tijelo koje obavlja nadzor nad tim javnopravnim tijelom. (6) Zaključkom o izuzeću odredit će se službena osoba koja će rješavati o upravnoj stvari odnosno obavljati pojedine radnje u postupku u vezi s predmetom u kojem je izuzeće određeno. Rješavanje kolegijalnog tijela",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DE73AC4D26C181CF0B99CCF27801CE7828CC1512432E79EFAC54100CE243BA83",
+    "sha256_datoteke": "337B1E9A94CA29A1B96950E35F6F15FD686D07C6D1EF975C4BC360AAED582F5D",
+    "napomena": null
+  }
+}

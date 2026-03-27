@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "150",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo i stranka sklopit će upravni ugovor o izvršenju prava i obveza utvrđenih u rješenju kojim je riješena upravna stvar, ako je zakonom propisano sklapanje takvog ugovora. (2) Upravni ugovor ne smije biti protivan izreci rješenja, prinudnim propisima, javnom interesu niti smije biti sklopljen na štetu trećih osoba. (3) Upravni ugovor koji ima pravni učinak na prava trećih osoba pravno je valjan samo uz pisani pristanak tih osoba. (4) Upravni ugovor sklapa se u pisanom obliku. Ništetnost upravnog ugovora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "800191A3D79C883C16402CF536FE23B8559BEB9D592379675AD639524F01BC59",
+    "sha256_datoteke": "E2FDB47E4EA154AC5FE999107E7CFC0E3EC14C7A934731BB8854588124D72439",
+    "napomena": null
+  }
+}

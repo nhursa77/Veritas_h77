@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "67",
+    "naslov": null,
+    "tekst": ". Ako svjedok ili vještak bez opravdanog razloga izostanu s usmene rasprave ili odbiju svjedočiti, odnosno vještačiti te ako vještak bez opravdanog razloga u ostavljenom roku ne dostavi nalaz i mišljenje u pisanom obliku, službena osoba može ih rješenjem novčano kazniti u iznosu do 50% prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini i odrediti da snose troškove prouzročene njihovim propustom. Žalba na rješenje o novčanoj kazni ne odgađa izvršenje rješenja. Očevid",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6D5CAC755A71FBC1793A5F9AAFB14F73F9BA5F79CFBE36812E56E9E57D874D16",
+    "sha256_datoteke": "7528B783013583BC83B1E059A0D2F171E7B5FFEA96BC168F236E9F35CFD3A17C",
+    "napomena": null
+  }
+}

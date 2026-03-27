@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "166",
+    "naslov": null,
+    "tekst": ". Ministarstva u svom djelokrugu nadziru rješavanje upravnih stvari te osiguravaju zakonitost, djelotvornost i svrhovitost provedbe upravnog postupka tijela državne uprave i jedinica lokalne i područne (regionalne) samouprave te pravnih osoba s javnim ovlastima.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AFB817CC1745F78037A7F42D36E2EE486D802121F7DF1C2195B8767AC8F88719",
+    "sha256_datoteke": "4382C971F732731B0221F3BC730C5022F0E51D9BA651657B423C019F6CC442E7",
+    "napomena": null
+  }
+}

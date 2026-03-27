@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "90",
+    "naslov": null,
+    "tekst": ". (1) Dostava stranci obavlja se na adresu koja je naznačena u zahtjevu za pokretanje postupka, odnosno na adresu mjesta na kojem se stranka trenutačno nalazi. (2) Kad se postupak pokreće po službenoj dužnosti dostava stranci obavlja se na adresu prebivališta, boravišta ili mjesta na kojem se trenutačno nalazi. Dostava pravnoj osobi, podružnici ili drugoj osobi koja obavlja registriranu djelatnost obavlja se na adresu sjedišta. (3) Ostalim osobama koje sudjeluju u postupku dostava se obavlja na adresu prebivališta, boravišta ili mjesta gdje se trenutačno nalazi, odnosno sjedišta. Dostava javnopravnim ili drugim tijelima obavlja se na adresu njihova sjedišta. Promjena adrese stranke i osobe ovlaštene za zastupanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "56BC104BA162E9775BA5C6394359BE6B48A363390DCB0C31B9E4F59F53E7EBBB",
+    "sha256_datoteke": "0AC62E08071C1660712E737D99A71C4366855A0B73565DD7672EE210AB7D58ED",
+    "napomena": null
+  }
+}

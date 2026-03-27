@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "34",
+    "naslov": null,
+    "tekst": ". (1) Kad postupovno nesposobna stranka nema zakonskog zastupnika ili se neka radnja u postupku treba hitno poduzeti protiv osobe koje prebivalište, boravište ili sjedište nije poznato, a koja nema opunomoćenika, takvoj stranci službena će osoba zaključkom odrediti privremenog zastupnika. (2) Privremenog zastupnika odredit će se i stranci kojoj su identitet i adresa poznati, ali se ne nalazi na području Republike Hrvatske, a na zahtjev službene osobe u za to ostavljenom roku ne odredi osobu ovlaštenu za zastupanje. Službena osoba o tome će bez odgode obavijestiti stranku. (3) Kad je stranka nepoznata, zaključak o određivanju privremenog zastupnika objavit će se u službenom glasilu, na oglasnoj ploči i na internetskoj stranici javnopravnog tijela ili na drugi prikladan način. Ovlast privremenog zastupnika prestaje kad se stranka ili osoba ovlaštena za njezino zastupanje pojavi u postupku, odnosno ako stranka u pisanom obliku odredi osobu ovlaštenu za zastupanje. (4) Kad interes stranke ili zaštita života i zdravlja, odnosno imovine veće vrijednosti nalažu hitno obavljanje postupovne radnje i ako je sudjelovanje stranke, odnosno osobe ovlaštene za zastupanje stranke u obavljanju te radnje nemoguće, ili je vezano uz nerazmjerne troškove, odredit će se privremeni zastupnik samo za tu radnju i o tome će se bez odgode obavijestiti stranku odnosno osobu ovlaštenu za zastupanje stranke. (5) Privremeni zastupnik sudjeluje u postupku, odnosno obavlja radnje za koje je određen dok ne bude utvrđena osoba ovlaštena za zastupanje stranke, odnosno dok se ne obave radnje za koje je određen. Zajednički predstavnik i zajednički opunomoćenik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5A13683D40DB22F8FEB5858B5D6591CFC54EF9D61D4D674672E26589D4160847",
+    "sha256_datoteke": "8DA9504D4CC5FC3B449562FBAB2F09306670953DB22B8EC6757562D38CCE1E1B",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "146",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo će obustaviti izvršenje, a izvršene radnje poništiti: 1. ako utvrdi da je obveza izvršena, 2. ako utvrdi da izvršenje uopće nije bilo dopušteno, 3. ako utvrdi da je izvršenje započeto prema osobi koja nije u obvezi, 4. ako predlagatelj izvršenja odustane od prijedloga, 5. ako utvrdi da je rješenje koje čini osnovu izvršenja oglašeno ništavim, poništeno ili ukinuto, 6. u drugim propisanim slučajevima. (2) O obustavi izvršenja donosi se rješenje. Otklanjanje posljedica poništavanja ili izmjene izvršenog rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "86FECCCF7ED1998AA54DFB8336091E96D280A08C49985356F59ADA99C2937A81",
+    "sha256_datoteke": "426D2C5822BD322EB6649446E15102B8C56C211FF96C934155225E7E01FCEAA4",
+    "napomena": null
+  }
+}

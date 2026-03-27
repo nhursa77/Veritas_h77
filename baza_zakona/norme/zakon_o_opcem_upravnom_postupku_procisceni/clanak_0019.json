@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". (1) Kad se dva javnopravna tijela ili više njih izjasne kao stvarno ili mjesno nadležna ili nenadležna u istoj upravnoj stvari, o tijelu nadležnom za rješavanje u toj upravnoj stvari odlučit će rješenjem nadležno javnopravno tijelo drugog stupnja u djelokrugu kojeg se nalazi ta upravna stvar, a ako takvog tijela nema, o sukobu nadležnosti odlučit će središnje tijelo državne uprave nadležno za poslove opće uprave, po službenoj dužnosti ili na zahtjev stranke. (2) Ako su u sukobu nadležnosti tijela državne uprave i druga državna tijela, odnosno tijela državne uprave i tijela jedinica lokalne i područne (regionalne) samouprave ili druga državna tijela i tijela jedinica lokalne i područne (regionalne) samouprave, o sukobu nadležnosti odlučit će bez odgode sud nadležan za upravne sporove. Odlučivanje o sukobu nadležnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "62B59ECD805044091198F81805218FF5C479F3D016E37153DA886C08CFB7ACD1",
+    "sha256_datoteke": "9C0D6FA50D06BF334F7F77552414E7BB4D02324DB1E2C74A5F1CB9EF8B33AD44",
+    "napomena": null
+  }
+}

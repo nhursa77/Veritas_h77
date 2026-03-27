@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "53",
+    "naslov": null,
+    "tekst": ". Ako u tijeku postupka osoba koja do tada nije sudjelovala u postupku traži da joj se prizna svojstvo stranke u tom postupku, službena osoba ispitat će njezino pravo da kao stranka sudjeluje u postupku i o tome donijeti rješenje. Žalba protiv tog rješenja ne zaustavlja tijek postupka. Usmena rasprava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8856B61CCABE574F7C7C50B67969C2F44B32232370A9D240126BD2DFA2501FB0",
+    "sha256_datoteke": "CF1F6BF121D2D852B4A8C1177209F8E325489817261162349F28F0EC035EABE9",
+    "napomena": null
+  }
+}

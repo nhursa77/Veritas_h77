@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "123",
+    "naslov": null,
+    "tekst": ". (1) Obnova postupka u kojem je doneseno rješenje protiv kojeg se ne može izjaviti žalba može se pokrenuti na zahtjev stranke ili po službenoj dužnosti u roku od tri godine od dana dostave rješenja stranci: 1. ako se sazna za nove činjenice ili stekne mogućnost da se upotrijebe novi dokazi koji bi, sami ili u vezi s već izvedenim i upotrijebljenim dokazima, mogli dovesti do drukčijeg rješenja da su te činjenice, odnosno dokazi bili izneseni, odnosno upotrijebljeni u prijašnjem postupku, 2. ako je rješenje povoljno za stranku doneseno na temelju neistinitih navoda stranke kojima je službena osoba dovedena u zabludu, 3. ako je rješenje donijela osoba koja nije bila ovlaštena za njegovo donošenje ili osoba koja je morala biti izuzeta, 4. ako kolegijalno tijelo koje je donijelo rješenje nije rješavalo u propisanom sastavu ili ako za rješenje nije glasovala propisana većina, 5. ako osobi koja je trebala sudjelovati u svojstvu stranke nije bila dana mogućnost sudjelovanja u postupku, 6. ako stranku nije zastupao zakonski zastupnik, 7. ako osobi koja je sudjelovala u postupku nije bila dana mogućnost da se služi svojim jezikom ili pismom. (2) Obnova postupka u kojem je doneseno rješenje protiv kojeg se ne može izjaviti žalba može se pokrenuti na zahtjev stranke ili po službenoj dužnosti bez vremenskog ograničenja: 1. ako je rješenje doneseno na temelju lažne isprave ili lažnog iskaza svjedoka ili vještaka ili je posljedica kakvog kaznenog djela, 2. ako se rješenje temelji na presudi donesenoj u sudskom postupku, a ta je presuda pravomoćno ukinuta, 3. ako se rješenje temelji na prethodnom pitanju, a nadležni sud ili javnopravno tijelo o tom je pitanju kasnije odlučilo u bitnim točkama drukčije. (3) Stranka može tražiti obnovu postupka u roku od 30 dana od dana saznanja za razloge obnove ili od kad je stekla mogućnost upotrebe novih dokaza. (4) Državni odvjetnik, odnosno drugo ovlašteno državno tijelo može tražiti obnovu postupka uz jednake uvjete kao i stranka. Prijedlog za obnovu postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5E3A84CD208E723C5F083072116511D160864D70D82D13E75039C11F3D978714",
+    "sha256_datoteke": "C32ACE2F1C8CEEAD5B6B608BEF19547EB08BACBC85E9019A339212698FFE6E02",
+    "napomena": null
+  }
+}

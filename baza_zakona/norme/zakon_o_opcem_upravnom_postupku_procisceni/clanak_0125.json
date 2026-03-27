@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "125",
+    "naslov": null,
+    "tekst": ". O prijedlogu za obnovu postupka rješava javnopravno tijelo koje je donijelo rješenje protiv kojeg se ne može izjaviti žalba. Pokretanje obnove postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC1C0B6DB35E4068D537AFED8928D69276CD2969C5A0CEDFC0710892E63BD1C4",
+    "sha256_datoteke": "D1ACCDBCD3783A0F2AB43B69864D133757FB3547E991930A6B9A5550F6B009CB",
+    "napomena": null
+  }
+}

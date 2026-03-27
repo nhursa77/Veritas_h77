@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". Službena osoba u javnopravnom tijelu može riješiti upravnu stvar bez provedbe ispitnog postupka u slučajevima propisanim zakonom, ako u postupku ne sudjeluju stranke s protivnim interesima (neposredno rješavanje). Neposredno rješavanje u postupku pokrenutom po službenoj dužnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B2FDF7D6C95F4F0D4BF190314D63A825A47169467837F4BB5E807A4919FE507F",
+    "sha256_datoteke": "F941F709FD3E25A641F419F78D26CC587A9D03F942ECEFD40D07AD8DE6A2E4FB",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "77",
+    "naslov": null,
+    "tekst": ". (1) Zaključkom se odlučuje o postupovnim pitanjima ako ovim Zakonom nije propisano donošenje rješenja. (2) Zaključak donosi službena osoba koja obavlja radnju u postupku pri kojoj se postavilo pitanje koje je predmet zaključka. (3) Kad se nalaže izvršenje neke radnje, zaključkom će se odrediti rok u kojem se ta radnja treba obaviti. (4) Zaključak se priopćuje usmeno. Zaključak se izdaje u pisanom obliku kad stranka to zatraži ili je to nužno radi pravilnog vođenja postupka. (5) Protiv zaključka ne može se izjaviti žalba. Zaključak se može pobijati žalbom protiv rješenja kojim se rješava o upravnoj stvari. Obnavljanje (rekonstrukcija) spisa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3441EA84BAD3B674AA96B207956E167CA40E4B710AD4C4E361A99CBBA9F1AB4D",
+    "sha256_datoteke": "2D10FAAF2E0C58BBB5CA230BB4C9392D3CAA76958CC94B58D38ECE9062979958",
+    "napomena": null
+  }
+}

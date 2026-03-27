@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". (1) Postupak se vodi na hrvatskom jeziku i latiničnom pismu. (2) Postupak se može voditi i na drugom jeziku ili pismu koji su u službenoj uporabi pri javnopravnom tijelu kod kojeg se vodi postupak, sukladno uvjetima utvrđenim propisima donesenim na temelju zakona o službenoj uporabi jezika i pisma. Glava II. NADLEŽNOST Stvarna nadležnost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8A2F312019F6D57D49FCFC62EDECF9527EDD8A84CA06108CAED2A8D060F94955",
+    "sha256_datoteke": "99595E6107B43F4ADCACB4B60DB478EB8172765AB2133650C7CD1EFC5EF5607E",
+    "napomena": null
+  }
+}

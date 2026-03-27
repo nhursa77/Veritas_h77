@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "160",
+    "naslov": null,
+    "tekst": ". (1) Javnopravna tijela izdaju potvrde o činjenicama o kojima ne vode službenu evidenciju ako je to zakonom propisano. U tom slučaju činjenice se utvrđuju prema odredbama o dokazivanju propisanim ovim Zakonom. (2) Potvrde izdane o činjenici o kojoj se ne vodi službena evidencija ne obvezuju javnopravno tijelo kojem su podnesene kao dokaz. Javnopravno tijelo nadležno za rješavanje o upravnoj stvari može ponovo utvrđivati činjenice navedene u potvrdi. (3) Potvrde se izdaju stranci u roku od 30 dana od dana podnošenja zahtjeva. Kad javnopravno tijelo odbije zahtjev za izdavanje potvrde, dužno je o tome donijeti rješenje. Ako u roku 30 dana od dana podnošenja zahtjeva ne izda potvrdu ili ne donese i dostavi stranci rješenje o odbijanju zahtjeva, stranka može uložiti žalbu. DEVETI DIO TROŠKOVI POSTUPKA Troškovi postupka i stranaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F162DE3AB0B86D2A5BDDE176F14D77F802F597D7829BEEA64BDCB6C01FF9A940",
+    "sha256_datoteke": "B17F43D53C76AC5C586213CE3F7152BFBBDC0734CE71069E3ACF0E30C8F6924C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "66",
+    "naslov": null,
+    "tekst": ". (1) Vještačenje se može obaviti na usmenoj raspravi. Vještaku se može naložiti i obavljanje vještačenja izvan usmene rasprave, u kojem će se slučaju vještaku odrediti da nalaz i mišljenje dostavi u pisanom obliku u primjerenom roku te da na usmenoj raspravi obrazloži svoj nalaz i mišljenje. (2) Prije početka vještačenja vještaka treba upozoriti da je dužan predmet vještačenja brižljivo razmotriti i u svojem nalazu točno navesti što zapazi i utvrdi te svoje obrazloženo mišljenje iznijeti nepristrano i u skladu s pravilima struke, odnosno vještine. (3) Kad se vještačenje ne obavlja na usmenoj raspravi, službena osoba odredit će vještaku predmet vještačenja, odnosno osobe ili stvari koje treba razmotriti i u kojem pogledu. (4) Kad vještak izloži svoj nalaz i mišljenje, službena osoba i stranke mogu mu postavljati pitanja i tražiti objašnjenja o izloženom nalazu i mišljenju. (5) Kad je određeno više vještaka, oni mogu svoj nalaz i mišljenje dati zajednički. Ako se ne slažu, svaki će od njih odvojeno izložiti svoj nalaz i mišljenje. (6) Ako nalaz, odnosno mišljenje vještaka nisu jasni ili potpuni, ako se nalazi i mišljenja dvaju ili više vještaka bitno razlikuju, ako mišljenje vještaka nije dovoljno obrazloženo ili se pojavi osnovana sumnja u točnost danog mišljenja, a ti se nedostaci ne mogu otkloniti ni ponovnim saslušanjem vještaka, ponovit će se vještačenje s drugim vještacima, a može se zatražiti i mišljenje znanstvene ili stručne ustanove. (7) Mišljenje znanstvene ili stručne ustanove može se tražiti i onda kad se zbog složenosti slučaja ili radi potrebe obavljanja analize može opravdano pretpostaviti da će se na taj način doći do točnijeg mišljenja. Novčane kazne za svjedoke, odnosno vještake",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B878B1DE9665115ABE12168E876E2493115ECB0AAB748FE4CEF59119F5DF3E79",
+    "sha256_datoteke": "0FD8FCB86E630FDBBBDE7D939BF9F1D873D8EDEED19142002B37BB8BEF9ED4E8",
+    "napomena": null
+  }
+}

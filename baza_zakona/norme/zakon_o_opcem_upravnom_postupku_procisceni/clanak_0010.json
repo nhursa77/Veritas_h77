@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". U upravnim stvarima postupa se što je moguće jednostavnije, bez odgode i uz što manje troškova, ali tako da se utvrde sve činjenice i okolnosti bitne za rješavanje o upravnoj stvari. Načelo pristupa podacima i zaštite podataka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "94A1816AFB403F914D9FCEFF7275EFF8F1DB31D87955A31B6C9CFCE71C711AEC",
+    "sha256_datoteke": "5952806B2C0DDB7A824B5A245E436DEDF093B0647A7A8A463B3F21B6F932DE80",
+    "napomena": null
+  }
+}

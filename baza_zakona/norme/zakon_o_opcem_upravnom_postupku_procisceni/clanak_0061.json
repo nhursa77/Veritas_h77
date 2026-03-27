@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "61",
+    "naslov": null,
+    "tekst": ". (1) Stranka ili druga osoba kod koje se nalazi isprava potrebna kao dokaz u postupku dužna je omogućiti uvid u ispravu na zahtjev službene osobe. (2) Ako fizička osoba kod koje se nalazi isprava, bez opravdanog razloga odbije dati ispravu na uvid službenoj osobi, rješenjem će se novčano kazniti u iznosu do 50% prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini. Ako pravna osoba kod koje se nalazi isprava bez opravdanog razloga odbije dati ispravu na uvid službenoj osobi, rješenjem će se novčano kazniti odgovorna osoba te pravne osobe u iznosu do tri prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini. Žalba na rješenje o novčanoj kazni ne odgađa izvršenje rješenja. Svjedoci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0359F90B0EF40CEAF65C221CF71B4D4876FB02BAE7F8DDE637F6109842D9AD3C",
+    "sha256_datoteke": "B383104463FB8374CA36A9DC846B9BAC44526DEDCBA1E89633983416BAEB4288",
+    "napomena": null
+  }
+}

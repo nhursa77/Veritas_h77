@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "85",
+    "naslov": null,
+    "tekst": ". (1) Dostava se obavlja osobno naslovljenoj osobi kad od obavljanja dostave počinje teći rok koji se ne može produžiti ili kad je takva dostava propisana (osobna dostava). (2) Kad se naslovljena osoba ne zatekne na mjestu dostave, dostavljač će u poštanskom sandučiću ili pretincu ili kod osobe zatečene na mjestu dostave ostaviti pisanu obavijest da u određeni dan i sat bude na mjestu dostave radi primanja pismena i gdje do toga dana sama može podići pismeno. (3) Ako dostavljač u naznačeno vrijeme ne pronađe naslovljenu osobu ili ako ona odbije primiti pismeno, dostavljač će ostaviti pismeno u njezinom poštanskom sandučiću ili pretincu ili ako toga nema, na vratima ili drugom za primatelja vidljivom mjestu. Na dostavnici uz ostavljeno pismeno dostavljač će naznačiti razlog takve dostave, dan i sat kad je ostavio pismeno i potpisati se. (4) Kad dostavljač prilikom pokušaja dostave sazna da postoje razlozi zbog kojih pismeno uopće nije moguće uručiti naslovljenoj osobi, pismeno će vratiti pošiljatelju uz naznaku razloga zbog kojih pismeno nije moguće dostaviti. (5) Dostava se smatra obavljenom danom uručenja, odnosno danom kad je pismeno ostavljeno u poštanskom sandučiću ili pretincu ili ako toga nema, na vratima ili drugom za primatelja vidljivom mjestu, osim ako stranka dokaže da iz opravdanih razloga nije mogla primiti pismeno. (6) Dostavom pismena osobi ovlaštenoj za zastupanje stranke ili opunomoćeniku za primanje pismena smatra se da je dostava izvršena samoj stranci. Dostava odvjetniku koji zastupa stranku može se obaviti i tako da se pismeno uruči zaposleniku odvjetničkog ureda. Posredna dostava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "81D29C0BF3945BC699E3F92D2F9DD6D0A4D6BA80BADFEEAA6E76A731406F38F8",
+    "sha256_datoteke": "8BD16BDD85E1AF511A7B60F7192EC3A79BF560FA57BF7398EF5E3501E751D9BA",
+    "napomena": null
+  }
+}

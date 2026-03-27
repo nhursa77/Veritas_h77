@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "120",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjsko tijelo o žalbi odlučuje rješenjem. (2) Odredbe ovoga Zakona koje se odnose na oblik i sadržaj prvostupanjskog rješenja na odgovarajući se način primjenjuju i na drugostupanjsko rješenje. (3) U obrazloženju drugostupanjskog rješenja ocijenit će se i svi navodi žalbe. Ako je već prvostupanjsko tijelo u obrazloženju svojeg rješenja pravilno ocijenilo navode koji se u žalbi iznose, drugostupanjsko tijelo može se pozvati na razloge prvostupanjskog rješenja. (4) Protiv drugostupanjskog rješenja može se pokrenuti upravni spor. Rok za donošenje drugostupanjskog rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E694FB5D7F75BA58D95AF8473C7FEC71EE89145B99D5D2373EF667B3289A8D98",
+    "sha256_datoteke": "CD619DE80B79D75F1A0BC555D129F3985DED73BED24234DFEBE9D86B3DA3B64B",
+    "napomena": null
+  }
+}

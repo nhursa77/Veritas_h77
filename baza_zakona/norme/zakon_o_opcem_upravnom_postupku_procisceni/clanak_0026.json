@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": ". (1) Javnopravna tijela dužna su pružati pravnu pomoć drugim javnopravnim tijelima, u granicama svojeg djelokruga i nadležnosti. (2) Javnopravno tijelo zatražit će pravnu pomoć kad su mu potrebna saznanja o činjenicama, ispravama, podacima ili drugim dokazima kojima raspolaže drugo javnopravno tijelo ili kad zbog drugih opravdanih razloga ne može samo ili ne može pravodobno provesti potrebne radnje u postupku. (3) Pravna pomoć zatražit će se i kad bi određene radnje u postupku javnopravno tijelo moglo obaviti samo, ali manje učinkovito ili uz znatno veće troškove. (4) Javnopravno tijelo može tražiti od sudova dostavu spisa, isprava ili podataka koji su potrebni za vođenje postupka. (5) Pravna pomoć može se zatražiti i od tijela druge države sukladno odredbama međunarodnih ugovora, a ako ugovori nisu sklopljeni, primjenjuje se načelo uzajamnosti. Postojanje uzajamnosti utvrđuje središnje tijelo državne uprave nadležno za vanjske poslove. Pružanje pravne pomoći",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "837642F496F39C7D33FD13A4CAA19456D97D85DBA4E81ED74CDA4F2072F64E7D",
+    "sha256_datoteke": "A177A1016998A09F0D7B6FDE546D56D4AE58B43FD8AD39C6BA2E6753065134BE",
+    "napomena": null
+  }
+}

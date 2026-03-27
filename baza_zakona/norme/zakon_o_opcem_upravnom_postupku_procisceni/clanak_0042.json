@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "42",
+    "naslov": null,
+    "tekst": ". (1) Postupak se pokreće po službenoj dužnosti kad je to propisano zakonom ili je nužno radi zaštite javnog interesa. (2) Kod ocjene o postojanju razloga za pokretanje postupka po službenoj dužnosti javnopravno tijelo uzet će u obzir predstavke, odnosno druge obavijesti koje upućuju na potrebu zaštite javnoga interesa. (3) Kad službena osoba utvrdi da ne postoje uvjeti za pokretanje postupka po službenoj dužnosti, obavijestit će o tome podnositelja što je prije moguće, a najkasnije u roku od 30 dana od dana podnošenja predstavke, odnosno obavijesti. (4) Podnositelj ima pravo izjaviti prigovor javnopravnom tijelu od kojeg je primio obavijest kojom se ne prihvaća prijedlog za pokretanje postupka, u roku od osam dana od dana primanja obavijesti, kao i u slučaju da u propisanom roku nije dobio odgovor. Pokretanje postupka javnom objavom",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "25AC4835A70B6D83C32FE23ED38C4214B9D3837AD9CC775BFD5AD994911F7B04",
+    "sha256_datoteke": "AA27281926DD4B14473943CCC0D5D8FA6AA81FD84D6888C715B24791F30D2C9C",
+    "napomena": null
+  }
+}

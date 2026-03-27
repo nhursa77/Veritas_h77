@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "88",
+    "naslov": null,
+    "tekst": ". (1) Dostava pismena pravnoj osobi, osobi koja obavlja registriranu djelatnost i javnopravnom tijelu obavlja se uručivanjem pismena osobi ovlaštenoj za primanje pismena. (2) Ako se osoba ovlaštena za primanje pismena ne zatekne na mjestu dostave, pismeno će se uručiti drugom zaposleniku. Dostava u posebnim slučajevima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BF41A1CCA515800428340FB9E20328CFE4FF304B8CFC1522B5B4CCE9320BAF26",
+    "sha256_datoteke": "D950D4C1B527B1BD7C5F473136880B74EF3134435B96744058E0F56EF36E36D3",
+    "napomena": null
+  }
+}

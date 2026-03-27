@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "59",
+    "naslov": null,
+    "tekst": ". (1) Osiguranje dokaza provodi službena osoba po službenoj dužnosti ili na prijedlog stranke. (2) Kad se postupak pokreće po službenoj dužnosti, a postoji opravdana sumnja da se pojedini dokaz neće moći izvesti kasnije u tijeku postupka ili da će njegovo izvođenje biti otežano, radi osiguranja dokaza taj se dokaz može izvesti u tijeku cijelog postupka i prije nego što je postupak pokrenut. (3) Za osiguranje dokaza prije pokretanja postupka nadležno je tijelo državne uprave prvog stupnja nadležno za poslove opće uprave na području kojeg se nalazi stvar koju treba razgledati ili na kojem borave osobe koje treba saslušati, odnosno drugo javnopravno tijelo zamoljeno za pravnu pomoć, ako nije drukčije propisano. (4) O osiguranju dokaza donosi se rješenje koje ne prekida tijek postupka. Isprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B1D9C786F3EB1E67CA1C5CC060FDFB45C9D23D283276B36B25A82E2C6396FE18",
+    "sha256_datoteke": "5B0B73D282B631F06D61C5B0CE9B0723A0E4A2E2DEFA0608DDA479BED2F78001",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". (1) Za pruženu pravnu pomoć ne plaća se naknada kad se troškovi pružene pomoći naknađuju iz proračuna. (2) Kad se troškovi pravne pomoći koju pruži zamoljeno tijelo podmiruju iz drugih financijskih izvora, javnopravno tijelo koje je zatražilo pružanje pravne pomoći dužno ih je naknaditi zamoljenom tijelu. (3) Troškovi pravne pomoći koji se naknađuju zamoljenom tijelu čine dio ukupnih troškova postupka. Glava V. SUDJELOVANJE STRANKE U POSTUPKU Izjašnjavanje stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FED2BE4958AB13B085B3ED9CEE3585552C629890267F58F96C3EF1C609C48019",
+    "sha256_datoteke": "D5B362FED81BAB19AF40A82BFEDA42F860379B208B13A07E5BC539077D57651B",
+    "napomena": null
+  }
+}

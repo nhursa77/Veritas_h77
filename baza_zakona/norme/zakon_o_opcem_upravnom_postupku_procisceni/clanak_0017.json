@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". (1) Stvarna i mjesna nadležnost ne mogu se mijenjati međusobnim dogovorom javnopravnih tijela, javnopravnih tijela i stranaka ni samih stranaka. (2) Javnopravna tijela dužna su tijekom cijelog postupka po službenoj dužnosti paziti na svoju stvarnu i mjesnu nadležnost. (3) Kad postoji opasnost od odgode, a mjesno nadležno tijelo ne može poduzeti potrebnu hitnu radnju, drugo stvarno nadležno javnopravno tijelo može poduzeti radnju i izvan područja svoje mjesne nadležnosti. O poduzetoj radnji dužno je odmah obavijestiti mjesno nadležno javnopravno tijelo. Postupanje nenadležnoga javnopravnog tijela po podnesku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A8D032AC3CCD349A5F4BF16EF723BBAADA5146F0CB3864D9F10428E9558CFBF2",
+    "sha256_datoteke": "DBCA03B991CB37C27851BC0540BEF14202986D8E619A50BE77DFAE071617B833",
+    "napomena": null
+  }
+}

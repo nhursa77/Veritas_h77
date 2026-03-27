@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "141",
+    "naslov": null,
+    "tekst": ". (1) Izvršenje rješenja provodi se radnim danom. (2) Nedjeljom, blagdanom, neradnim danom i noću izvršenje se može provesti samo ako postoji opasnost od odgode ili se moraju poduzeti hitne mjere radi zaštite života i zdravlja ljudi ili imovine veće vrijednosti i ako je javnopravno tijelo koje provodi izvršenje za to izdalo pisani nalog. Prisilno izvršenje nenovčanih obveza novčanom kaznom",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4F7A11BEB65E4484935FF4DD1A9BA953D2F4F72D47FB00F18C64469F2328C58D",
+    "sha256_datoteke": "C2D2D074546519D11AE3F754DE3B9B738FC4345D00A171B2ECD922B46F27F6AE",
+    "napomena": null
+  }
+}

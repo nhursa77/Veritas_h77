@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "40",
+    "naslov": null,
+    "tekst": ". (1) Upravni postupak pokreće se na zahtjev stranke ili po službenoj dužnosti. (2) Kad se postupak pokreće na zahtjev stranke, postupak se smatra pokrenutim u trenutku predaje urednog zahtjeva stranke javnopravnome tijelu. (3) Kad se postupak pokreće po službenoj dužnosti, postupak se smatra pokrenutim kad službena osoba u javnopravnom tijelu poduzme bilo koju radnju sa svrhom vođenja postupka po službenoj dužnosti. Pokretanje postupka na zahtjev stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2CF80EFC58C25043D8D7E6533600E3085389D9AEB2E0850B9ECBBBE87D8F33D4",
+    "sha256_datoteke": "8E78800E2EE2645D2131B59B0A17DFA4C7B9D7DD64F134189A9539D1B3944FA7",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". U članku 83. iza stavka 2. dodaje se novi stavak 3. koji glasi: »(3) Obavješćivanje putem informacijskog sustava povezanog na državnu informacijsku infrastrukturu obavlja se slanjem obavijesti u korisnički pretinac stranke ili drugog sudionika u postupku.«. Dosadašnji stavci 3. i 4. postaju stavci 4. i 5.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D4FA1F8C484CA2819A1A406A3732CC10D3C31D4E5F3DEF3EEBF7C4C3DEA1DB99",
+    "sha256_datoteke": "97D1D0D265A3BD028F8790F68687A13D184AE7AEC85452B33D5D290B59D0790A",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "147",
+    "naslov": null,
+    "tekst": ". (1) Kad je nakon provedenog izvršenja rješenje oglašeno ništavim, poništeno ili izmijenjeno u korist izvršenika, izvršenik ima pravo na povrat predmeta izvršenja u prijašnje stanje ili naknadu štete. (2) O zahtjevu izvršenika javnopravno tijelo koje je odobrilo izvršenje odlučuje rješenjem. Izvršenje radi osiguranja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "67B15481A6C1C7310AED7DC0D9AF49A3E5FBF126F333F754E4F3FBE66E459DB7",
+    "sha256_datoteke": "DC260338616B75B9CE44602141DA70CBCD3A9DCC5E0B9FDD28B8AE4D53B89E35",
+    "napomena": null
+  }
+}

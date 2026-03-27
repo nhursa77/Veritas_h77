@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": ". (1) Dokazivanje se izvodi javnim ili privatnim ispravama. Isprava može biti i u elektroničkom obliku. (2) Pod javnim ispravama u smislu ovoga Zakona smatraju se isprave koje su izdali nadležni sudovi ili javnopravna tijela u granicama svoje nadležnosti i u propisanom obliku. Javne isprave dokazuju ono što se njima utvrđuje ili potvrđuje. (3) Ako postoji sumnja u vjerodostojnost isprave, službena osoba provjerit će po službenoj dužnosti ili na zahtjev stranke vjerodostojnost takve isprave kod suda, odnosno javnopravnog tijela koji su takvu ispravu izdali. Pribavljanje isprava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A62B5DD06F7A57157B7A9E30C6110D6286527169F69DBD007DCA74F3941F4F5C",
+    "sha256_datoteke": "8F32DA5B51569E6C5C20DADC5CABED20B1B028989E1F72A24444B506C35BF961",
+    "napomena": null
+  }
+}

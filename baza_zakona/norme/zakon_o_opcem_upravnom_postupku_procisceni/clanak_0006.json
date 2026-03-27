@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". (1) Pravo stranke može se ograničiti postupanjem javnopravnih tijela samo kad je to propisano zakonom te ako je takvo postupanje nužno za postizanje zakonom utvrđene svrhe i razmjerno cilju koji treba postići. (2) Kad se na temelju propisa stranci nalaže kakva obveza, prema njoj će se primjenjivati one mjere za ispunjenje obveze koje su za nju povoljnije, ako se takvim mjerama postiže svrha propisa. (3) Pri vođenju postupka javnopravna tijela dužna su strankama omogućiti da što lakše zaštite i ostvare svoja prava, vodeći pri tome računa da ostvarivanje njihovih prava ne bude na štetu prava trećih osoba niti u protivnosti s javnim interesom. Načelo pomoći stranci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3754941BC7A80B6A8E12CE7CC9060E27DD88DB7514EFCB4F5E645ED08D2B60D0",
+    "sha256_datoteke": "61453BFA91ED74836638AC776E7F486C75234007F203048F545E9A5765E13D72",
+    "napomena": null
+  }
+}

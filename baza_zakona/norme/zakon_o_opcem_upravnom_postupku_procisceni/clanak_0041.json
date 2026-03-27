@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "41",
+    "naslov": null,
+    "tekst": ". (1) Zahtjev za pokretanje postupka stranka može neposredno podnijeti javnopravnom tijelu u pisanom obliku ili usmeno na zapisnik, a može takav zahtjev poslati poštom ili dostaviti elektroničkim putem. (2) Kad službena osoba utvrdi da ne postoje zakonske pretpostavke za pokretanje postupka, rješenjem će odbaciti zahtjev. (3) Ako je stranka u jednom podnesku postavila više različitih zahtjeva, postupit će se po svakom zahtjevu odvojeno. Ako je za postupanje po kojem od tih zahtjeva nadležno drugo javnopravno tijelo, postupit će se po pravilima o postupanju nenadležnog tijela po podnesku. Pokretanje postupka po službenoj dužnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F878EC498996B83985DFE678B7157FCA8CF8A622E8A21E8CB8245F29257F3E7D",
+    "sha256_datoteke": "85F90CD86033CFBE86FF16C6A54706B64758532E6849E0EA1E8B3A75C19C0862",
+    "napomena": null
+  }
+}

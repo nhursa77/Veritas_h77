@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "21",
+    "naslov": null,
+    "tekst": ". (1) Kad je propisano da u rješavanju o upravnoj stvari sudjeluju dva javnopravna tijela ili više njih, svako od njih dužno je postupiti u toj stvari. Javnopravna tijela sporazumjet će se koje će tijelo donijeti odluku o upravnoj stvari, u kojoj moraju biti navedene i odluke drugih javnopravnih tijela. (2) Kad je propisano da javnopravno tijelo rješava na temelju suglasnosti, potvrde, odobrenja ili mišljenja drugoga javnopravnog tijela, to je tijelo dužno takav akt izdati ili odbiti njegovo izdavanje u roku od 30 dana od dana dostave urednog zahtjeva za izdavanje. (3) Kad javnopravno tijelo u propisanom roku ne odluči o zahtjevu za izdavanje suglasnosti, potvrde, odobrenja ili mišljenja, smatrat će se da je akt izdan u korist stranke, ako nije drukčije propisano. Jedinstveno upravno mjesto",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F9DBF20F13CC57A9C3B3E516CE262B8DC039384E23A3B786FDF28B837BB8579E",
+    "sha256_datoteke": "798BF165ABD47D51B233C4F08B867671FEDF5F2F7AF142F29A1C36E84CC8ECF4",
+    "napomena": null
+  }
+}

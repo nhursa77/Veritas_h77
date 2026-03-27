@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": ". (1) Ako je službena osoba riješila prethodno pitanje, rješavanje prethodnog pitanja ima pravni učinak samo u upravnoj stvari u kojoj je to pitanje riješeno. (2) Kad službena osoba ne uzme prethodno pitanje u rješavanje, a postupak za rješavanje prethodnog pitanja koji se može voditi po službenoj dužnosti još nije pokrenut pred nadležnim sudom ili javnopravnim tijelom, službena će osoba od nadležnog suda ili javnopravnog tijela zatražiti pokretanje postupka, ako nije drukčije propisano. (3) U stvari u kojoj se postupak za rješenje prethodnog pitanja pokreće pred nadležnim sudom ili javnopravnim tijelom na zahtjev stranke, službena osoba zaključkom može naložiti stranci da u primjerenom roku radi rješavanja prethodnog pitanja pokrene postupak pred nadležnim tijelom te dostavi dokaz da je to učinila. Službena osoba upozorit će stranku na posljedice toga propuštanja. (4) Kad je postupak pokrenut na zahtjev stranke, a stranka u određenom roku ne podnese dokaz o podnošenju zahtjeva za rješavanje prethodnog pitanja, smatrat će se da je odustala od zahtjeva te će se postupak obustaviti rješenjem. (5) Postupak prekinut radi rješavanja prethodnog pitanja pred nadležnim sudom ili javnopravnim tijelom nastavit će se kad odluka o tom pitanju postane pravomoćna. Postupak se može nastaviti po službenoj dužnosti i bez pravomoćne odluke o prethodnom pitanju i kad službena osoba ocijeni da više nema razloga čekati na pravomoćnost rješenja prethodnog pitanja pred nadležnim sudom ili javnopravnim tijelom, osim u slučajevima u kojima se mora prekinuti postupak. Nagodba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DCC0953BA85CF038E33ED25F5EA1F8A831635BA438A4020DEB93308324D755B3",
+    "sha256_datoteke": "8BA27FAB2200447F3312B2324447AFE385998762779BABF9EE4B240E8D2CC8A1",
+    "napomena": null
+  }
+}

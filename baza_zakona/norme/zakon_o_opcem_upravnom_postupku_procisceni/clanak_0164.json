@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "164",
+    "naslov": null,
+    "tekst": ". Javnopravna tijela u provedbi ovoga Zakona u postupanju s podnescima, izdavanju, obradi, otpremi, čuvanju te izlučivanju donesenih akata primjenjuju propise o uredskom poslovanju.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "67D333C073D070A15BAAA6B7B56992A14E8CBC628E6FE27C98561949594EF137",
+    "sha256_datoteke": "6ADB496CBD521D5428A71EC2899A010D357A2051DEC3C4D3B52BA86676206111",
+    "napomena": null
+  }
+}

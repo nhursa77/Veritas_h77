@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "74",
+    "naslov": null,
+    "tekst": ". (1) Kad javnopravno tijelo primi podnesak na stranom jeziku ili pismu koji nisu u službenoj uporabi kod tijela, službena će osoba bez odgode tražiti od stranke dostavljanje prijevoda podneska i za to odrediti primjereni rok, a ako to stranka ne učini u određenom roku, smatrat će se da podnesak nije podnesen. (2) Ovjereni prijevod podneska inozemne javne isprave obvezan je ako se posumnja u vjerodostojnost te isprave. Elektronička komunikacija",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F06E39685889E0790A237AF954C76E4B6ACADAA1374BAB9CC615B73BEF8913AF",
+    "sha256_datoteke": "1208F5B69E7196398F737CDF6EFD93CE169A928F1EDD311D99AA2098A7E78F36",
+    "napomena": null
+  }
+}

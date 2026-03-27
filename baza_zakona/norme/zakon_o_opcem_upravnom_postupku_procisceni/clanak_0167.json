@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "167",
+    "naslov": null,
+    "tekst": ". Središnje tijelo državne uprave nadležno za poslove opće uprave izvješćuje Vladu Republike Hrvatske o rješavanju upravnih stvari te o provedenim postupcima zaštite od postupanja javnopravnih tijela i postupanja pružatelja javnih usluga. JEDANAESTI DIO PRIJELAZNE I ZAKLJUČNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ED90D9C7C763D4B8283D523A942B4284843FB2E1DA58F2A05EB774F8E98D6C00",
+    "sha256_datoteke": "F898E3A49573C2D9B6CCA86CD6832DF81A0A929AC803D74ABCCA30B249B7D71A",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": ". (1) Službena osoba u postupku utvrđuje činjenično stanje svim sredstvima prikladnim za dokazivanje te u tu svrhu može pribaviti isprave, saslušati svjedoke, pribaviti nalaz i mišljenje vještaka i obaviti očevid. (2) Nije potrebno dokazivati činjenice o kojima javnopravna tijela vode službenu evidenciju, općepoznate činjenice, činjenice koje su poznate službenoj osobi ni činjenice koje propis pretpostavlja, ali je dopušteno dokazivati nepostojanje tih činjenica. Osiguranje dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "925387AE3AAC1DB34157C56B0BDFBCE1BB0277B8E6BF0A6B0D700163D0E7731D",
+    "sha256_datoteke": "66C1FCA6C0F8E939ACDF7C51B9C81E9E26AFA2D74B17C85DEE97E0C376DD13E4",
+    "napomena": null
+  }
+}

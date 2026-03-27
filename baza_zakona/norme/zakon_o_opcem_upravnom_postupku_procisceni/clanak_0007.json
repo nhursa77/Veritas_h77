@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". Kad ovlaštena službena osoba (u daljnjem tekstu: službena osoba) tijekom postupka sazna ili ocijeni da stranka ima osnovu za ostvarenje nekog prava, upozorit će je na to, kao i na posljedice njezinih radnji ili propuštanja u postupku, a brinut će se i da neznanje odnosno neukost stranke i drugih osoba koje sudjeluju u postupku ne budu na štetu prava koja im po zakonu pripadaju. Načelo utvrđivanja materijalne istine",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8CBE5204D958DF968ECD78DDD458D8D9CD447AC5756964057F15428B1C084AEC",
+    "sha256_datoteke": "311BB4092D60710B654C5CB334E63EE909D92421006760DAD37E37ED20440525",
+    "napomena": null
+  }
+}

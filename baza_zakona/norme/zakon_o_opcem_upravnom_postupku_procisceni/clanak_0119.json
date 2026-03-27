@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "119",
+    "naslov": null,
+    "tekst": ". (1) Drugostupanjsko tijelo u postupanju po žalbi izjavljenoj zbog toga što prvostupanjsko tijelo nije u roku donijelo rješenje na zahtjev stranke dužno je bez odgode zatražiti obavijest o razlozima zbog kojih rješenje nije doneseno u propisanom roku. (2) Kad drugostupanjsko tijelo utvrdi da prvostupanjsko tijelo nije donijelo rješenje iz opravdanih razloga, odredit će prvostupanjskom tijelu novi rok za donošenje rješenja koji ne može biti duži od 30 dana. (3) Kad drugostupanjsko tijelo utvrdi da razlozi za nedonošenje prvostupanjskog rješenja nisu opravdani, samo će riješiti upravnu stvar ili naložiti prvostupanjskom tijelu da u roku od 15 dana donese traženo rješenje. Drugostupanjsko rješenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DB76D8C381D02F65067998CCB18BDDB76AE068603C788B0E95B18DF7739565E7",
+    "sha256_datoteke": "254547EE86134E0FD93FD150839EF534D5B6670128CD19A993AF8D020A15071E",
+    "napomena": null
+  }
+}

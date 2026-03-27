@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "124",
+    "naslov": null,
+    "tekst": ". (1) Prijedlog za obnovu postupka stranka predaje tijelu koje je donijelo rješenje na način propisan za predaju podnesaka. (2) U prijedlogu za obnovu postupka stranka je dužna učiniti vjerojatnim razloge zbog kojih traži obnovu postupka i da je prijedlog podnesen u zakonskom roku. (3) Prijedlog za obnovu postupka ne odgađa izvršenje rješenja po kojem se obnova traži. Iznimno, tijelo nadležno za odlučivanje o prijedlogu može rješenjem odgoditi izvršenje dok se ne odluči o pitanju obnove postupka. Tijelo nadležno za rješavanje o prijedlogu za obnovu postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DB63E3333E5EA7BA89E9BFC883FAF2C9BA67BA091C077992955998E09416B248",
+    "sha256_datoteke": "5E2542F797411BF39A478ED3186BC107244C2040CC1BD29B353F252E0FC0B774",
+    "napomena": null
+  }
+}

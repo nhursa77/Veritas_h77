@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "49",
+    "naslov": null,
+    "tekst": ". Službena osoba može neposredno riješiti upravnu stvar u postupku koji je pokrenut po službenoj dužnosti: 1. ako se pravo stanje stvari može utvrditi na temelju službenih podataka kojima raspolažu javnopravna tijela, a nije potrebno posebno izjašnjenje stranke radi zaštite njezinih prava ili pravnih interesa, 2. ako je to nužno za poduzimanje hitnih mjera radi zaštite života i zdravlja ljudi ili imovine veće vrijednosti koje se ne mogu odgađati, ako je to u javnom interesu, a činjenice na kojima se rješenje temelji su utvrđene ili barem učinjene vjerojatnima. Neposredno rješavanje u postupku pokrenutom na zahtjev stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ECDEDF455FE6E1F17914995D2EB6A1E8E3DCF7543C667370255426211494AA27",
+    "sha256_datoteke": "6833816A579D98E62F7DF6A56EDF33FEA4FAAF0B327DBC31CBEB73F3AEF68CF8",
+    "napomena": null
+  }
+}

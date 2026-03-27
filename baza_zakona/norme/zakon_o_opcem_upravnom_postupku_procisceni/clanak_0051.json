@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "51",
+    "naslov": null,
+    "tekst": ". (1) Ispitni postupak provodi se kad je to nužno radi utvrđivanja činjenica i okolnosti koje su bitne za razjašnjenje pravog stanja stvari, kad u postupku sudjeluju dvije stranke ili više njih s protivnim interesima te radi omogućivanja strankama ostvarenja i zaštite njihovih prava i pravnih interesa. (2) Službena osoba odredit će izvođenje dokaza kad nađe da je to potrebno radi razjašnjenja stvari te upotpuniti činjenično stanje i izvoditi dokaze o činjenicama koje prije u postupku nisu bile iznesene ili još nisu utvrđene, a potrebne su radi utvrđivanja pravog stanja stvari. Prava i dužnosti stranke u ispitnom postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "12E9F48766563306E9ADC35A5C820E74B21714207B32C1E9E5C0D8FE7EC78FCB",
+    "sha256_datoteke": "20098FF8AB502F9638D3622F6B81F6065A6CF2BB44F897AD23AACA6FBA32FC23",
+    "napomena": null
+  }
+}

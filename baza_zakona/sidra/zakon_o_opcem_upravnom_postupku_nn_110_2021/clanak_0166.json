@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "166",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »Tijela državne uprave nadziru rješavanje upravnih stvari te osiguravaju zakonitost, djelotvornost, svrhovitost i učinkovitost provedbe upravnih postupaka iz svog djelokruga.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8638655530FACB19A93FE2438B4D4B1D9F4435B2371F4EED4E357214C023FE5A",
+    "sha256_datoteke": "099B3A21B0058472B5F6B98FBDE2DDDB168B99AB421B2C53D93E36EC14AAE309",
+    "napomena": null
+  }
+}

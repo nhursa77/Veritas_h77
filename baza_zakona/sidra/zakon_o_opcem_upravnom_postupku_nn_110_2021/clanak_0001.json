@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Zakonu o općem upravnom postupku (»Narodne novine«, br. 47/09.) u članku 15. stavak 2. mijenja se i glasi: »(2) Ako se stvarna nadležnost ne može utvrditi na temelju zakona, utvrdit će se po naravi upravne stvari.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2357EBBAAA2B1FF5EAFB4A485D45FEB4B1386F19D18424BAB799961552A14F15",
+    "sha256_datoteke": "5F4A54F2C5AE93B733C8C8FAB1B022C601C8945E8F917252FE37BDBF0F9F73AE",
+    "napomena": null
+  }
+}

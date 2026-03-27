@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "157",
+    "naslov": null,
+    "tekst": ". (1) Pod postupanjem pružatelja javnih usluga smatra se poduzimanje ili propuštanje radnji pružatelja javnih usluga koje imaju učinak na prava, obveze ili pravne interese fizičkih i pravnih osoba, a o kojima se ne rješava u upravnom postupku. (2) Ako korisnik javnih usluga smatra da su postupanjem pružatelja javnih usluga povrijeđena njegova prava ili pravni interesi, može izjaviti i prigovor radi zaštite svojih prava, odnosno pravnih interesa tijelu nadležnom za provedbu nadzora nad obavljanjem tih javnih usluga. (3) Prigovor se može izjaviti sve dok radnja ili propuštanje radnje pružatelja javnih usluga traje. Postupanje po prigovoru korisnika javnih usluga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F086325BB4C6885E0F63B92E1CDFAA020EABD892B94195474DE1C68939628273",
+    "sha256_datoteke": "0F36183DF049979A48875DC7980DE21BF6607DE6780234ADE6E31B5AB52798E6",
+    "napomena": null
+  }
+}

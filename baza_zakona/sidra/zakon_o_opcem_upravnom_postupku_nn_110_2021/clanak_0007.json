@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". U članku 63. stavak 2. mijenja se i glasi: »(2) Svjedoka će se poučiti da ima pravo uskratiti svjedočenje, odnosno odgovore na pojedina pitanja kojima bi sebe, svoje srodnike u ravnoj liniji, a u pobočnoj liniji do trećeg stupnja srodstva zaključno, bračnog druga, životnog partnera ili srodnike po tazbini do drugog stupnja srodstva zaključno, pa i onda kad su brak ili životno partnerstvo prestali, te skrbnika i štićenika, odnosno posvojitelja i posvojenika izložio kaznenom progonu, teškoj sramoti ili znatnoj materijalnoj šteti.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 110/2021",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6E34AC2D8A2938410B21C028E873711622058759C8607C4F5A73FFD213A0F8A8",
+    "sha256_datoteke": "975B75C5A272126AEC6078E09AFF6CBAA963E2CE37EAD3CBBF0DEA68001A8438",
+    "napomena": null
+  }
+}

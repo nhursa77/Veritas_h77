@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "27",
+    "naslov": null,
+    "tekst": ". (1) O činjenicama, ispravama, podacima ili drugim dokazima pravna pomoć zatražit će se od javnopravnog tijela, odnosno suda koji njima raspolaže (u daljnjem tekstu: zamoljeno tijelo), a kad treba poduzeti određene upravne radnje, ako nije drukčije propisano, pravna pomoć tražit će se od javnopravnog tijela prvog stupnja mjesno nadležnog za poduzimanje radnje koja je predmet pravne pomoći. (2) Pravna pomoć pružit će se najkasnije u roku od osam dana od dana kada je zatražena. Odbijanje pružanja pravne pomoći",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EED409800FC833B07A1AB1906C69D9553C9FAFED03086D1451216D9FECA83274",
+    "sha256_datoteke": "42B08FC2EE6340C6CB932DF25945F18FA2B26B2E494E555CB7902F1EF5D75AC2",
+    "napomena": null
+  }
+}

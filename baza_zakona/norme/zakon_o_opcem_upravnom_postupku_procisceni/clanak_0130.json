@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "130",
+    "naslov": null,
+    "tekst": ". (1) Zakonito rješenje kojim je stranka stekla kakvo pravo može se ukinuti u cijelosti ili djelomično: 1. ako je ukidanje tog rješenja dopušteno zakonom, 2. ako sadržava pridržaj ukidanja, a stranka nije ispunila obvezu iz rješenja ili je nije ispunila u roku, 3. ako je to potrebno zbog otklanjanja teške i neposredne opasnosti za život i zdravlje ljudi i javnu sigurnost, ako se to ne bi moglo otkloniti drugim sredstvima kojima bi se manje diralo u stečena prava. (2) Kad je rješenje ukinuto radi otklanjanja teške i neposredne opasnosti za život i zdravlje ljudi i javnu sigurnost, stranka ima pravo na naknadu stvarne štete. Nadležnost i postupak poništavanja ili ukidanja rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "43A14648CD39A20A083E141473B7140A4FA43B22D30E93BFA81C9F598ABB09EA",
+    "sha256_datoteke": "D1354A44C262710D8BC8C4D061F34B9B6FAA846EC996687E1E836F057EFC2196",
+    "napomena": null
+  }
+}

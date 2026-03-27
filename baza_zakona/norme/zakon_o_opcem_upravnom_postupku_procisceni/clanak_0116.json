@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "116",
+    "naslov": null,
+    "tekst": ". Drugostupanjsko tijelo odbit će žalbu ako utvrdi: 1. da je postupak koji je rješenju prethodio pravilno proveden i da je rješenje pravilno i na zakonu osnovano, 2. da je u prvostupanjskom postupku bilo nedostataka, ali da su oni takvi da nisu mogli utjecati na rješenje stvari, 3. da je prvostupanjsko rješenje na zakonu osnovano, ali zbog drugih razloga, a ne zbog onih koji su u rješenju navedeni. Poništavanje rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "79EDF275E828A98EB78D7A1931D4DAFE7B30F8FDD0C1D6EE988881AD7B6BBDA0",
+    "sha256_datoteke": "E94E71AA310416E73BF9276D0F2FB61BBB99A458D9FE160B11A6DE504A590A4C",
+    "napomena": null
+  }
+}

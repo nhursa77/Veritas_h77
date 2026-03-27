@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "137",
+    "naslov": null,
+    "tekst": ". (1) Izvršenje novčanih obveza provodi se u skladu s propisima koji se primjenjuju na sudsko izvršenje. (2) Izvršenje novčanih obveza provodi se sudskim putem na temelju zahtjeva javnopravnog tijela koje je donijelo rješenje ili stranke kojoj je izvršenje u interesu. (3) Rješenje kojeg se izvršenje traži treba sadržavati potvrdu izvršnosti. Ako tijelo koje je izvršno rješenje donijelo ne izda potvrdu u roku od 15 dana od podnošenja zahtjeva, stranka može izvršnost rješenja dokazivati i drugim sredstvima. Izvršenje nenovčanih obveza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0A5CEAA8C7AF89583A400B7EDEF9757A5D32D2E1C7D9A6F091A072790C7BEBA6",
+    "sha256_datoteke": "CF540A819CE27C61E87E824905F8E8FBD9062C422D0FEB5A48D1F790059E2174",
+    "napomena": null
+  }
+}

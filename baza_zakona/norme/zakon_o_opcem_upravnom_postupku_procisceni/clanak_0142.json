@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "142",
+    "naslov": null,
+    "tekst": ". (1) Javnopravno tijelo koje provodi izvršenje prisilit će izvršenika na ispunjenje obveze iz rješenja novčanom kaznom, ako je izvršenik ne ispuni sam, ako izvršenje putem trećih osoba nije moguće ili je neprikladno za postizanje svrhe izvršenja. (2) Novčana kazna kojom se fizička osoba prisiljava na izvršenje izriče se rješenjem u iznosu do dvije prosječne godišnje bruto plaće ostvarene u Republici Hrvatskoj u prethodnoj godini. Novčana kazna kojom se pravna osoba prisiljava na izvršenje izriče se rješenjem odgovornoj osobi te pravne osobe u iznosu do deset prosječnih godišnjih bruto plaća ostvarenih u Republici Hrvatskoj u prethodnoj godini. Žalba na rješenje o novčanoj kazni ne odgađa izvršenje rješenja. (3) U slučaju daljnjeg neispunjavanja obveze, izreći će se druga, veća novčana kazna unutar utvrđenog raspona. Ako je potrebno, novčana kazna može se izreći i više puta. (4) Novčane kazne izvršavaju se sukladno odredbama ovoga Zakona o izvršenju novčanih obveza. Izvršenje nenovčanih obveza putem trećih osoba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B73C6F1A082D077ED0DE3C40899A141FFA6B49CD0B8FB1C3BF56A1CF2E791935",
+    "sha256_datoteke": "6E52682DBFFA20C73545FA5FC885E9802E7950EF65806B0177CAB9382DDFB04D",
+    "napomena": null
+  }
+}

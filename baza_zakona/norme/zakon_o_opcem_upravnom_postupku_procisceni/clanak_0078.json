@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "78",
+    "naslov": null,
+    "tekst": ". (1) Ako se pojedini spisi upravnog postupka izgube, oštete ili unište, po potrebi će se pokrenuti postupak za obnovu spisa (rekonstrukcija). (2) Postupak za obnovu spisa provodi javnopravno tijelo nadležno za rješavanje u toj upravnoj stvari. (3) Postupak za obnovu spisa pokreće se na zahtjev stranke ili po službenoj dužnosti. Rješenje o obnovi spisa donosi čelnik javnopravnog tijela ili osoba koju on za to ovlasti. (4) Pri obnovi spisa obnovit će se samo oni dijelovi spisa koji su važni s obzirom na razloge zbog kojih je odobren postupak za obnovu. Spisi se obnavljaju na temelju prijepisa nestalih, oštećenih ili uništenih podnesaka kojima raspolažu stranke ili javnopravno tijelo, podataka iz glavnih i pomoćnih uredskih knjiga, sukladno pravilima o dokazivanju. (5) Postupak za obnovu spisa neće se provesti ako je protekao propisani rok do kojeg se čuvaju spisi određene upravne stvari. (6) Troškovi koji nastanu obnovom spisa naknađuju se iz sredstava javnopravnog tijela. Glava V. ROKOVI Određivanje rokova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "27.03.2026.",
+    "datum_provjere": "27.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "datum_pristupa": "27.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 47/2009",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2E5C784E05AD7A5A9776E385796936AE892498D567275644E5E4D5EF4F56CDE3",
+    "sha256_datoteke": "0B96E0A376199D7BC6469D956C5319F64EB2FD90BA23726C18E6CD1C9D53A624",
+    "napomena": null
+  }
+}
