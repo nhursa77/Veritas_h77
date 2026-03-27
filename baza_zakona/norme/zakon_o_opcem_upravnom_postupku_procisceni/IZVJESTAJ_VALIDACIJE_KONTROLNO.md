@@ -18,9 +18,11 @@
 - SOURCE_SELECTION_MISMATCH: False
 - GUARDRAIL_FAIL: False
 
-- Timestamp: 2026-03-27T18:40:30+01:00
-- NN_JSON_SHA256: 10d1c9557ad05d3f737f75694780d131b1aa96b65b8211218b30782be84f1472
-- KONTROLNO_TXT_SHA256: 6809caf279f76433da90ce29e5ddef777c9ac3ff8ff4db2faf5a107029ad0079
+- Timestamp: 2026-03-27T19:03:57+01:00
+- NN_JSON_SHA256:
+  10d1c9557ad05d3f737f75694780d131b1aa96b65b8211218b30782be84f1472
+- KONTROLNO_TXT_SHA256:
+  6809caf279f76433da90ce29e5ddef777c9ac3ff8ff4db2faf5a107029ad0079
 
 ## Document split summary
 
@@ -48,7 +50,7 @@
 - CONTROL_HAS_10: True
 - CONTROL_HAS_11: True
 - CONTROL_HAS_12: True
-- CONTROL_TRUNCATION_SUSPECTED: True
+- CONTROL_TRUNCATION_SUSPECTED: False
 - CONTROL_MIN: 1
 - CONTROL_MAX: 171
 - CONTROL_TYPO_HEADERS: (none)
@@ -56,8 +58,8 @@
 
 ## Control source anomaly (zakon.hr truncation suspected)
 
-- CONTROL_TRUNCATION_SUSPECTED: True
-- found small numbers (12/13/14) in same control set with high range >=120
+- CONTROL_TRUNCATION_SUSPECTED: False
+- (none)
 
 ## Missing in NN (present in zakon.hr, absent in NN)
 
@@ -65,27 +67,25 @@
 
 ## Extra in NN (present in NN, absent in zakon.hr)
 
-- UNTRUSTWORTHY_CONTROL_EXTRA_LIST: kontrolni izvor je označen kao nepouzdan
-  (truncation suspected).
-- Kandidati (nepouzdano): (none)
+- (none)
 
 ## Short texts in NN (len < 200)
 
-- Članak 70 (len=187) -> clanak_0070.json
-- Članak 96 (len=148) -> clanak_0096.json
-- Članak 107 (len=194) -> clanak_0107.json
-- Članak 109 (len=107) -> clanak_0109.json
-- Članak 125 (len=153) -> clanak_0125.json
-- Članak 132 (len=186) -> clanak_0132.json
-- Članak 134 (len=135) -> clanak_0134.json
-- Članak 136 (len=107) -> clanak_0136.json
-- Članak 145 (len=133) -> clanak_0145.json
-- Članak 149 (len=199) -> clanak_0149.json
-- Članak 163 (len=142) -> clanak_0163.json
-- Članak 164 (len=181) -> clanak_0164.json
-- Članak 165 (len=191) -> clanak_0165.json
-- Članak 168 (len=170) -> clanak_0168.json
-- Članak 170 (len=128) -> clanak_0170.json
+- Članak 70 (len=148) -> clanak_0070.json
+- Članak 96 (len=131) -> clanak_0096.json
+- Članak 107 (len=178) -> clanak_0107.json
+- Članak 109 (len=91) -> clanak_0109.json
+- Članak 125 (len=124) -> clanak_0125.json
+- Članak 132 (len=146) -> clanak_0132.json
+- Članak 134 (len=114) -> clanak_0134.json
+- Članak 136 (len=79) -> clanak_0136.json
+- Članak 145 (len=112) -> clanak_0145.json
+- Članak 149 (len=125) -> clanak_0149.json
+- Članak 163 (len=113) -> clanak_0163.json
+- Članak 164 (len=179) -> clanak_0164.json
+- Članak 165 (len=179) -> clanak_0165.json
+- Članak 168 (len=168) -> clanak_0168.json
+- Članak 170 (len=126) -> clanak_0170.json
 
 ## Anomaly hints
 

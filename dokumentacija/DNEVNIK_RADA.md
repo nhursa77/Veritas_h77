@@ -2881,3 +2881,40 @@ Dokazne naredbe:
 - Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+## Datum: 27.03.2026 (ZADATAK 98 - revizija heuristike validacije ZUP kontrole)
+
+Analiziran je preostali `SHORT_COUNT=15` i signal
+`CONTROL_TRUNCATION_SUSPECTED=True` za ZUP.
+
+Analiza je pokazala da su kratki clanci legitimno kratki po normativnom
+sadrzaju, a da je truncation signal bio lazno pozitivan zbog heuristike koja
+je tretirala prisutnost 12/13/14 kao sumnju i kad su to regularni clanci.
+
+U ovom zadatku mijenjan je i kod:
+
+- `alati/validiraj_nn_vs_kontrolno.py` (minimalna revizija heuristike)
+
+Ponovna validacija nakon revizije:
+
+- CONTROL_COUNT=171
+- NN_COUNT=171
+- MISSING_COUNT=0
+- SHORT_COUNT=15
+- CONTROL_TRUNCATION_SUSPECTED=False
+
+Azurirana dokumentacija:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md` nije mijenjana
+
+Dokazne naredbe:
+
+- git status --short
+- git --no-pager log -1 --oneline
+- git branch -vv
+- c:/Veritas_H77/.venv/Scripts/python.exe
+  .\alati\validiraj_nn_vs_kontrolno.py
+  -AktSlug zakon_o_opcem_upravnom_postupku
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

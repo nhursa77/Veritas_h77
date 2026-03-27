@@ -461,10 +461,9 @@ def detect_control_truncation(headers: list[int]) -> tuple[bool, int | None, int
                     f"found {number} near high-range context (prev={prev_value}, next={next_value})"
                 )
 
-    small_weird = {12, 13, 14} & set(headers)
-    truncated = control_max >= 120 and (bool(suspicious_examples) or bool(small_weird))
-    if truncated and not suspicious_examples and small_weird:
-        suspicious_examples.append("found small numbers (12/13/14) in same control set with high range >=120")
+    # Legitimate laws can naturally contain small article numbers (e.g. 12/13/14).
+    # Flag truncation only when low numbers appear in high-range neighborhood context.
+    truncated = control_max >= 120 and bool(suspicious_examples)
 
     return truncated, control_min, control_max, suspicious_examples
 
@@ -630,8 +629,8 @@ def build_report(
     lines.append("")
 
     lines.append(f"- Timestamp: {ts}")
-    lines.append(f"- NN_JSON_SHA256: {nn_hash}")
-    lines.append(f"- KONTROLNO_TXT_SHA256: {kontrolno_hash}")
+    _append_wrapped_bullet(lines, f"NN_JSON_SHA256: {nn_hash}")
+    _append_wrapped_bullet(lines, f"KONTROLNO_TXT_SHA256: {kontrolno_hash}")
     lines.append("")
 
     lines.append("## Document split summary")

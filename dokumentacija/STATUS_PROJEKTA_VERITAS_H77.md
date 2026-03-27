@@ -7,8 +7,8 @@ Datum: 27.03.2026.
 - Trenutni commit: `ea183f7` - sanacija kratkih clanaka zup prema
   kontrolnom izvjestaju (Z96)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 96
-  (ciljana sanacija kratkih/sumnjivo kratkih ZUP članaka)
+- Zadnji dovršeni zadatak: ZADATAK 98
+  (revizija heuristike validacije ZUP kontrole)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -33,6 +33,12 @@ Datum: 27.03.2026.
   `CONTROL_COUNT=171`, `NN_COUNT=171`, `MISSING_COUNT=0` i
   `SHORT_COUNT=15` (članci ostaju kratki po sadržaju, bez truncation
   artefakta).
+- ZADATAK 98: revidirana je heuristika u
+  `alati/validiraj_nn_vs_kontrolno.py` za detekciju truncation signala
+  kontrolnog izvora. Potvrdeno je da `SHORT_COUNT=15` predstavlja legitimno
+  kratke članke, a ne truncation artefakt. Ponovljena validacija daje:
+  `CONTROL_COUNT=171`, `NN_COUNT=171`, `MISSING_COUNT=0`,
+  `SHORT_COUNT=15`, `CONTROL_TRUNCATION_SUSPECTED=False`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -42,13 +48,11 @@ Datum: 27.03.2026.
   `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeci logicni smjer: revizija heuristike i/ili dodatna sanacija za
   preostali `SHORT_COUNT=15` i
-  `CONTROL_TRUNCATION_SUSPECTED=True`.
+  `CONTROL_TRUNCATION_SUSPECTED=False`.
 - Rezultat kontrolne usporedbe: STABILNO
-  (nema missing/extra clanaka; kontrolni izvor i dalje nosi heuristicko
-  upozorenje `CONTROL_TRUNCATION_SUSPECTED=True`).
-- Sljedeci logicki korak: revizija heuristike i/ili dodatna sanacija za
-  preostali `SHORT_COUNT=15` i
-  `CONTROL_TRUNCATION_SUSPECTED=True`.
+  (nema missing/extra clanaka; nakon revizije heuristike
+  `CONTROL_TRUNCATION_SUSPECTED=False`).
+- Sljedeci logicki korak: priprema sljedeceg zakona iz paketa A.
 
 ## Pravilo sinkronizacije
 
