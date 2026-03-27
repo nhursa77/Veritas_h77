@@ -1346,6 +1346,41 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 27.03.2026 (sanacija Copilot agent upozorenja u globalStorage)
+
+Sanirana su VS Code Copilot agent upozorenja iz globalStorage i potvrdeno je
+da problem nije bio u Veritas repou.
+
+Zahvacene datoteke izvan repoa:
+
+- `C:\Users\User\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\`
+  `ask-agent\Ask.agent.md`
+- `C:\Users\User\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\`
+  `explore-agent\Explore.agent.md`
+- `C:\Users\User\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\`
+  `plan-agent\Plan.agent.md`
+
+Pocetni broj upozorenja: `18`.
+Zavrsni broj upozorenja: `0`.
+
+Uklonjeni su nepodrzani alati iz `tools` polja:
+
+- `github/issue_read`
+- `github.vscode-pull-request-github/issue_fetch`
+- `github.vscode-pull-request-github/activePullRequest`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- provjera Problems panela za `Ask.agent.md`, `Explore.agent.md`,
+  `Plan.agent.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 18.03.2026 (kanonski model rječničke natuknice)
 
 Uveden je kanonski JSON model jedne rječničke natuknice Veritas H.77 i
