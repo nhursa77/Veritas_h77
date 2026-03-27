@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_opcem_upravnom_postupku",
-  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
-  "preuzeto_lokalno": "2026-03-27 18:24:44 +01:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o opcem upravnom postupku",
+  "url": "https://www.zakon.hr/z/65/zakon-o-opcem-upravnom-postupku",
+  "preuzeto_lokalno": "2026-03-27 18:40:17 ",
+  "html_sha256": "4b17dd8a2a9a86b709a64895e87398c7deccf2bedc255b71303976dbd4804c4b",
+  "txt_sha256": "6809caf279f76433da90ce29e5ddef777c9ac3ff8ff4db2faf5a107029ad0079",
+  "broj_clanaka_u_kontrolnom_txt": 171,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }

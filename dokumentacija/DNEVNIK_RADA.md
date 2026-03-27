@@ -2770,3 +2770,40 @@ Dokazne naredbe:
 - Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+## Datum: 27.03.2026 (ZADATAK 95 - kontrolna usporedba ZUP JSON sa zakon.hr)
+
+Proveden je kontrolni dohvat sa zakon.hr za akt
+zakon_o_opcem_upravnom_postupku.
+Kontrolni sloj je izgradjen po istom modelu kontrole koji je koristen za
+prekrsajni_zakon,
+uz zadrzavanje pravila: NN je primarni dokazni izvor,
+zakon.hr je kontrolni izvor.
+
+Nastali kontrolni artefakti i izvjestaji:
+
+- alati/izgradi_kontrolni_zakon_hr.py
+- izvori/kontrolno/zakon_hr/zakon_o_opcem_upravnom_postupku/
+  zakon_o_opcem_upravnom_postupku_zakon_hr.html
+- izvori/kontrolno/zakon_hr/zakon_o_opcem_upravnom_postupku/
+  zakon_o_opcem_upravnom_postupku_kontrolni.txt
+- izvori/kontrolno/zakon_hr/zakon_o_opcem_upravnom_postupku/meta.json
+- izvori/kontrolno/zakon_hr/zakon_o_opcem_upravnom_postupku/
+  struktura_kontrolno_dokumenti.json
+- baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md
+
+Sazetak nalaza usporedbe:
+
+- CONTROL_COUNT=171
+- NN_COUNT=171
+- MISSING_COUNT=0
+- EXTRA_LIST: prazno
+- postoje kratki/sumnjivo kratki clanci (SHORT_COUNT=15)
+- prisutan je heuristicki signal CONTROL_TRUNCATION_SUSPECTED=True
+- rezultat: djelomicno odstupanje / otvorena sanacija
+
+Azurirana dokumentacija:
+
+- dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md
+- dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md

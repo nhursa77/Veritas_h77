@@ -7,8 +7,8 @@ Datum: 27.03.2026.
 - Trenutni commit: `837a2b4` - utvrdjen rezim konverzije zup u json
   (Z92)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 94
-  (stvarni ingest ZUP-a po manifestu)
+- Zadnji dovršeni zadatak: ZADATAK 95
+  (kontrolna usporedba ZUP JSON sa zakon.hr)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -19,6 +19,13 @@ Datum: 27.03.2026.
 - ZADATAK 94: proveden je stvarni ingest paketa
   `paketi/PAKET_ZUP_V1.json` za core i amandman (`EXIT=0`), uz minimalnu
   korekciju manifesta (`tip_teksta` za core: `procisceni`)
+- ZADATAK 95: proveden je kontrolni dohvat sa zakon.hr i usporedba
+  `baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/`
+  naspram kontrolnog teksta
+  `izvori/kontrolno/zakon_hr/zakon_o_opcem_upravnom_postupku/`
+  kroz postojeći validator `alati/validiraj_nn_vs_kontrolno.py`
+  (CONTROL_COUNT=171, NN_COUNT=171, MISSING_COUNT=0)
+  uz heuristicki signal `CONTROL_TRUNCATION_SUSPECTED=True`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -29,8 +36,10 @@ Datum: 27.03.2026.
 - Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
   prema kanonskom dokumentu
   `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
-- Sljedeci logicki korak: provjera artefakata ZUP ingest-a i odluka o
-  sljedecem zakonu iz prioritetnog reda konverzije.
+- Rezultat kontrolne usporedbe: DJELOMICNO ODSTUPANJE
+  (heuristicko upozorenje kontrolnog izvora bez detektiranih
+  missing/extra clanaka).
+- Sljedeci logicki korak: sanacija ZUP JSON seta prema kontrolnom izvjestaju.
 
 ## Pravilo sinkronizacije
 
