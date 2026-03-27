@@ -2,21 +2,23 @@
   "ulaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
   "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
   "izlaz": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
+  "prethodni_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
   "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
-  "naziv_odabrane_podnatuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 101",
-  "razlog_odabira": "Prva po uzlaznom sortiranju kanonski_naziv_podnatuknice medu podnatuknicama koje zadovoljavaju sva pravila odabira.",
-  "broj_potvrdenih_sidara_u_odabranoj_natuknici": 1,
-  "popis_sidara_u_odabranoj_natuknici": [
+  "pocetni_broj_potpuno_validiranih_natuknica": 1,
+  "zavrsni_broj_potpuno_validiranih_natuknica": 2,
+  "naziv_novo_zatvorene_natuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 102",
+  "broj_potvrdenih_sidara_u_novo_zatvorenoj_natuknici": 1,
+  "status_zadataka": "DRUGA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA",
+  "zatvorena_samo_jedna_nova_natuknica_u_ovom_zadatku": true,
+  "prethodno_zatvorena_natuknica": "apsolutna nenadležnost — prekršajni zakon — čl. 101",
+  "popis_sidara_u_novo_zatvorenoj_natuknici": [
     {
       "akt_slug": "prekrsajni_zakon",
       "broj_nn": "NN 107/2007",
-      "clanak": "101",
+      "clanak": "102",
       "stavak": null,
       "tocka": null,
       "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
     }
-  ],
-  "zatvorena_samo_jedna_natuknica": true,
-  "ukupan_broj_zatvorenih_u_ovom_zadatku": 1,
-  "status_zadataka": "PILOT_POTPUNO_VALIDIRANO_ZATVOREN"
+  ]
 }

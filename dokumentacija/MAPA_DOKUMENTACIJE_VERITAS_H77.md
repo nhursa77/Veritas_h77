@@ -167,6 +167,9 @@ bez lažnog sažimanja više sidara u jedan zapis.
 Definira pilot-zatvaranje prve potpuno validirane granske natuknice.
 Uređuje uvjete jednoznačnog konteksta i dokazivih NN sidara,
 uz pravilo da se u jednom zadatku zatvara točno jedna natuknica.
+Operativno zatvaranje izvode skripte
+`alati/zatvori_prvu_validiranu_gransku_natuknicu.py` i
+`alati/zatvori_drugu_validiranu_gransku_natuknicu.py`.
 
 ### `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 Definira kanonski model sinkronizacije lokalnog repoa, GitHuba i

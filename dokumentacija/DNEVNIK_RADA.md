@@ -1346,6 +1346,42 @@ Dokazne naredbe:
 
 ---
 
+## Datum: 27.03.2026 (ZADATAK 74B - druga potpuno validirana natuknica)
+
+Deterministicki je zatvorena druga potpuno validirana natuknica iz ulaza
+`granske_podnatuknice_nn_v2.json`, uz iskljucenje vec zatvorene natuknice
+`apsolutna nenadležnost — prekršajni zakon — čl. 101`.
+
+Napravljena je skripta:
+
+- `alati/zatvori_drugu_validiranu_gransku_natuknicu.py`
+
+Ažurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Početni broj potpuno validiranih natuknica: `1`.
+Završni broj potpuno validiranih natuknica: `2`.
+Novo zatvorena natuknica:
+`apsolutna nenadležnost — prekršajni zakon — čl. 102`.
+Broj potvrđenih sidara u novo zatvorenoj natuknici: `1`.
+Završni status:
+`DRUGA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\zatvori_drugu_validiranu_gransku_natuknicu.py`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
 ## Datum: 27.03.2026 (sanacija Copilot agent upozorenja u globalStorage)
 
 Sanirana su VS Code Copilot agent upozorenja iz globalStorage i potvrdeno je
@@ -1410,7 +1446,6 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
-
 
 ## Datum: 25.03.2026 (ZADATAK 73 - prva potpuno validirana natuknica)
 
