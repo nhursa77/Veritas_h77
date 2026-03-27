@@ -186,7 +186,8 @@ Operativno zatvaranje izvode skripte
 `alati/zatvori_paket_dokaz_prekrsajni_zakon.py` i
 `alati/zatvori_paket_dostava_prekrsajni_zakon.py` i
 `alati/zatvori_paket_izvrsenje_prekrsajni_zakon.py` i
-`alati/zatvori_paket_presuda_prekrsajni_zakon.py`.
+`alati/zatvori_paket_presuda_prekrsajni_zakon.py` i
+`alati/zatvori_paket_prigovor_prekrsajni_zakon.py`.
 Za analiza-only odabir sljedeceg paketa koristi se skripta
 `alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`, koja generira
 `baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json`
