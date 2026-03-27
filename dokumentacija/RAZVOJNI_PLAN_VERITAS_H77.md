@@ -1,5 +1,19 @@
 # RAZVOJNI PLAN VERITAS H.77 (kanonski)
 
+## Status plana nakon zatvaranja rjecnickog toka (27.03.2026.)
+
+- Rjecnicki homogeni paketni tok je dovrsen.
+- Zavrsna dva koraka te cjeline su:
+  - ZADATAK 87: zatvoren je zadnji homogeni niz
+    `žalba — prekrsajni_zakon`.
+  - ZADATAK 88: napravljen je zavrsni servisni snapshot i potvrdeno je da
+    nema preostalih homogenih nizova.
+- Ova cjelina se smatra kanonski zatvorenom za paketno rjecnicko
+  zatvaranje.
+- Sljedeca aktivna faza projekta je P7 prekrsajnog modula:
+  prosirenje fixture matrice i E2E veza
+  `audit_generated_v1.json -> izlazni nacrt -> manifest`.
+
 ## 0) Definicija “funkcionalan Veritas” (MVP)
 Veritas H.77 se smatra funkcionalnim na lokalnom desktopu kada može, bez
 cloud-a:
