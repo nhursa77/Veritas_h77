@@ -4,15 +4,15 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `977168b` - paketno zatvorene jednoznacne natuknice iz
+- Trenutni commit: `36fb4f0` - paketno zatvorene jednoznacne natuknice iz
   sljedeceg preporucenog niza
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 85
-  (paketno zatvaranje sljedeceg preporucenog homogenog niza)
+- Zadnji dovršeni zadatak: ZADATAK 86
+  (usklađenje statusa i osvjezavanje rang-liste bez novih zatvaranja)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci korak: analiza preostalih homogenih nizova nakon paketnog
-  zatvaranja niza `rješenje` + `prekrsajni_zakon`.
+- Sljedeci korak: paketno zatvaranje niza `žalba` + `prekrsajni_zakon`
+  kao zadnjeg preostalog homogenog niza s otvorenim stavkama.
 
 ## Pravilo sinkronizacije
 
@@ -23,7 +23,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `3bcb678`
+- lokalni hash: `36fb4f0`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

@@ -2468,3 +2468,46 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
+
+## Datum: 27.03.2026 (ZADATAK 86 - uskladjenje statusa i rang-liste)
+
+Proveden je servisni analysis/sync korak bez zatvaranja novih natuknica.
+
+Stvarni HEAD commit prije izmjena:
+
+- `36fb4f0`
+
+Zadnji dovrseni operativni paketni zadatak prije ovog koraka:
+
+- `ZADATAK 85`
+
+Osvjezena je rang-lista homogenih nizova:
+
+- `baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json`
+- `baza_terminologije/rjecnik/`
+  `rang_lista_homogenih_nizova_za_paket_manifest.json`
+
+Novi rezultat rangiranja:
+
+- prvi sljedeci homogeni niz: `žalba — prekrsajni_zakon`
+- broj nizova s barem jednom preostalom stavkom: `1`
+- potvrda: `žalba — prekrsajni_zakon` je sljedeci i ujedno zadnji
+  preostali homogeni niz.
+
+Uskladjen je statusni dokument:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Nema novih zatvaranja natuknica u ovom zadatku.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`
+- `Get-Content ./dokumentacija/DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`

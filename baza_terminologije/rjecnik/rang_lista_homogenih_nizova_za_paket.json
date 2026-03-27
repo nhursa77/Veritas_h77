@@ -3,115 +3,13 @@
   "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
   "ulaz_potpuno_validirane": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
   "ulaz_potpuno_validirane_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
-  "datum_generiranja": "2026-03-27T12:00:01+00:00",
+  "datum_generiranja": "2026-03-27T14:28:40+00:00",
   "metodologija_bodovanja": {
     "formula": "score = 100 * ukupno_preostalih_u_nizu + 10 * broj_jednoznacno_spremnih_za_paketno_zatvaranje - broj_problematnih_u_nizu",
     "deterministicki_sort": "score desc, ukupno_preostalih desc, broj_jednoznacno_spremnih desc, nadredeni_kanonski_naziv asc, akt_slug asc"
   },
   "ukupan_broj_homogenih_nizova": 8,
   "top_10_nizova": [
-    {
-      "nadredeni_kanonski_naziv": "dokaz",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "78",
-        "85",
-        "87",
-        "88",
-        "89"
-      ]
-    },
-    {
-      "nadredeni_kanonski_naziv": "dostava",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "114",
-        "117",
-        "118",
-        "122",
-        "87"
-      ]
-    },
-    {
-      "nadredeni_kanonski_naziv": "izvršenje",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "13",
-        "14",
-        "34",
-        "42",
-        "44"
-      ]
-    },
-    {
-      "nadredeni_kanonski_naziv": "presuda",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "106",
-        "109",
-        "33",
-        "40",
-        "99"
-      ]
-    },
-    {
-      "nadredeni_kanonski_naziv": "prigovor",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "102",
-        "120",
-        "121",
-        "221",
-        "93"
-      ]
-    },
-    {
-      "nadredeni_kanonski_naziv": "rješenje",
-      "akt_slug": "prekrsajni_zakon",
-      "ukupno_u_nizu": 5,
-      "ukupno_vec_zatvorenih_u_nizu": 0,
-      "ukupno_preostalih_u_nizu": 5,
-      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 5,
-      "broj_problematnih_u_nizu": 0,
-      "score": 550,
-      "primjeri_preostalih_clanaka": [
-        "34",
-        "59",
-        "89",
-        "92",
-        "99"
-      ]
-    },
     {
       "nadredeni_kanonski_naziv": "žalba",
       "akt_slug": "prekrsajni_zakon",
@@ -139,10 +37,76 @@
       "broj_problematnih_u_nizu": 0,
       "score": 0,
       "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "dokaz",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "dostava",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "izvršenje",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "presuda",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
+    },
+    {
+      "nadredeni_kanonski_naziv": "rješenje",
+      "akt_slug": "prekrsajni_zakon",
+      "ukupno_u_nizu": 5,
+      "ukupno_vec_zatvorenih_u_nizu": 5,
+      "ukupno_preostalih_u_nizu": 0,
+      "broj_jednoznacno_spremnih_za_paketno_zatvaranje": 0,
+      "broj_problematnih_u_nizu": 0,
+      "score": 0,
+      "primjeri_preostalih_clanaka": []
     }
   ],
   "preporuceni_sljedeci_niz_za_paket": {
-    "nadredeni_kanonski_naziv": "dokaz",
+    "nadredeni_kanonski_naziv": "žalba",
     "akt_slug": "prekrsajni_zakon",
     "ukupno_u_nizu": 5,
     "ukupno_vec_zatvorenih_u_nizu": 0,
@@ -151,11 +115,11 @@
     "broj_problematnih_u_nizu": 0,
     "score": 550,
     "primjeri_preostalih_clanaka": [
-      "78",
-      "85",
+      "100",
       "87",
-      "88",
-      "89"
+      "89",
+      "95",
+      "99"
     ]
   },
   "napomena": "Analiza je read-only i ne zatvara nove natuknice. Sluzi iskljucivo za odabir sljedeceg homogenog paketa.",
