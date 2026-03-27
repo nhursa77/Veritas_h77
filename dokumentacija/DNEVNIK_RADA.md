@@ -2619,3 +2619,27 @@ Dokazne naredbe:
 - `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
+
+## Datum: 27.03.2026 (ZADATAK 90 - prioriteti konverzije zakona u JSON)
+
+Izraden je novi kanonski dokument prioriteta daljnje konverzije zakona u
+JSON.
+
+Novi dokument:
+
+- `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
+
+Potvrde:
+
+- `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni` ostaju postojeci
+  uzorak rada
+- dokument definira redoslijed daljnje konverzije zakona po paketima
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`

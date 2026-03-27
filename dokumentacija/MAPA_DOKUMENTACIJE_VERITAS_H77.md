@@ -84,6 +84,11 @@ Služi kao plan izvođenja od MVP-a do prvog živog predmeta.
 Definira kanonske faze, artefakte, putanje i gate kriterije prekršajnog
 modula kao pilot domenu.
 
+### `PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
+Definira prioritetni redoslijed daljnje konverzije zakona u NORMA JSON.
+Potvrduje da su `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
+postojeci uzorak te da se daljnji ingest i normiranje vode istim obrascem.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
@@ -230,7 +235,8 @@ a Drive samo sinkronizirana kopija/backup.
 23) `STANDARD_GRANSKE_PODNATUKNICE_NN.md`
 24) `STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
 25) `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
-26) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+26) `PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
+27) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 
