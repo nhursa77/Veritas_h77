@@ -53,7 +53,8 @@ U zatvorenom nizu (`potpuno_validirane_natuknice.json`) u tom rasponu postoji:
 
 Preskoceni brojevi u rasponu:
 
-- `104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121`
+- `104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117,
+  118, 119, 120, 121`
 
 Razlog preskakanja za cijelu skupinu `104-121`:
 
@@ -79,7 +80,12 @@ clanke `104-121`.
 - `git status --short`
 - `git --no-pager log -1 --oneline`
 - `git branch -vv`
-- `Get-Content .\baza_terminologije\rjecnik\granske_podnatuknice_nn_v2.json -Raw`
-- `Get-Content .\baza_terminologije\rjecnik\granske_podnatuknice_nn_v2_manifest.json -Raw`
-- `Get-Content .\baza_terminologije\rjecnik\potpuno_validirane_natuknice.json -Raw`
-- `Get-Content .\baza_terminologije\rjecnik\potpuno_validirane_natuknice_manifest.json -Raw`
+- `Get-Content`
+    `.\baza_terminologije\rjecnik\granske_podnatuknice_nn_v2.json -Raw`
+- `Get-Content`
+    `.\baza_terminologije\rjecnik\granske_podnatuknice_nn_v2_manifest.json -Raw`
+- `Get-Content`
+    `.\baza_terminologije\rjecnik\potpuno_validirane_natuknice.json -Raw`
+- `Get-Content`
+    `.\baza_terminologije\rjecnik\potpuno_validirane_natuknice_manifest.json`
+    `-Raw`

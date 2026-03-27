@@ -45,7 +45,7 @@ Napomena o neuzastopnim clancima:
 - redoslijed zatvaranja prati stvarno postojanje kandidata u ulazu,
 - nije obavezno da clanci budu uzastopni,
 - ako postoji skok u nizu (primjer `103 -> 122`), obavezna je zasebna
-	dokazna analiza raspona koji nedostaje.
+  dokazna analiza raspona koji nedostaje.
 
 ---
 
