@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "96",
     "naslov": null,
-    "tekst": ". (1) O upravnoj stvari odlučuje se rješenjem. (2) Sukladno zakonu, akt kojim se odlučuje o upravnoj stvari može imati i drugi naziv. Oblik rješenja",
+    "tekst": "(1) O upravnoj stvari odlučuje se rješenjem. (2) Sukladno zakonu, akt kojim se odlučuje o upravnoj stvari može imati i drugi naziv.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "FD144686F30AA98DC4CA02EB456131531789317FD76799F2297C3662CEEC41AE",
-    "sha256_datoteke": "F7CD56D381CF9CA0358A3937362ABAB5BFB40F34920AE3705C8E5FB55796D599",
+    "sha256_teksta": "34FD72BBCE9C6A6284B642D16D9CC9F9F7FDADBCE3EE6493F698B01A9C2F27B8",
+    "sha256_datoteke": "A82FF9703187C7A0343AC858130573BC528896727E2C6AFA8E9E2BF2308DA79C",
     "napomena": null
   }
 }

@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "107",
     "naslov": null,
-    "tekst": ". (1) U žalbenom postupku ispituje se zakonitost rješenja koje se pobija. (2) Kad je rješenje doneseno po slobodnoj ocjeni, u žalbenom postupku ocjenjuje se i svrhovitost rješenja. Sadržaj žalbe",
+    "tekst": "(1) U žalbenom postupku ispituje se zakonitost rješenja koje se pobija. (2) Kad je rješenje doneseno po slobodnoj ocjeni, u žalbenom postupku ocjenjuje se i svrhovitost rješenja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D8678725B5C02FA267602C75F56DEE44E44B73B9F7049BB697C934D9A97457C7",
-    "sha256_datoteke": "4DF664035B8F6A44438DE58A92915E41CA59DD44CA550315050856F263DFE506",
+    "sha256_teksta": "9E50BDBE35EA50761CD357808BF900584A4D297D50A5BB0FF49F47D0D2193D93",
+    "sha256_datoteke": "5BF6DCF5BCCF1D58A5F2689ACF63B2605B572D27BD3766293AE676A2EB7083FA",
     "napomena": null
   }
 }

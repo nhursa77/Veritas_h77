@@ -2807,3 +2807,44 @@ Azurirana dokumentacija:
 
 - dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md
 - dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md
+
+## Datum: 27.03.2026 (ZADATAK 96 - ciljana sanacija kratkih ZUP clanaka)
+
+Provedena je ciljana sanacija iskljucivo clanaka iz SHORT_LIST izvjestaja
+`baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/
+IZVJESTAJ_VALIDACIJE_KONTROLNO.md` bez ponovnog ingest-a.
+
+Sanirani clanci (15):
+
+- 70, 96, 107, 109, 125, 132, 134, 136, 145, 149, 163, 164, 165, 168, 170
+
+Primijenjene korekcije po clanku:
+
+- uklonjen je vodeci ingest artefakt `". "`
+- uklonjen je prijelazni naslov sljedece cjeline koji nije dio clanka
+- preračunata su polja `integritet.sha256_teksta` i
+  `integritet.sha256_datoteke`
+
+Kontrolna revalidacija:
+
+- alat: `alati/acceptance_preflight.ps1 -AktSlug`
+  `zakon_o_opcem_upravnom_postupku`
+- CONTROL_COUNT=171
+- NN_COUNT=171
+- MISSING_COUNT=0
+- SHORT_COUNT=15
+- CONTROL_TRUNCATION_SUSPECTED=True
+
+Zakljucak:
+
+- ciljane datoteke su sanirane od truncation artefakta
+- SHORT_COUNT ostaje 15 jer su ti clanci sadrzajno kratki i nakon sanacije
+
+Dokazne naredbe:
+
+- git status --short
+- powershell -NoProfile -ExecutionPolicy Bypass -File
+  .\alati\acceptance_preflight.ps1 -AktSlug
+  "zakon_o_opcem_upravnom_postupku"
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

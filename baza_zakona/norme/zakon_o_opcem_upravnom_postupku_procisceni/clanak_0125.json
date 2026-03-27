@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "125",
     "naslov": null,
-    "tekst": ". O prijedlogu za obnovu postupka rješava javnopravno tijelo koje je donijelo rješenje protiv kojeg se ne može izjaviti žalba. Pokretanje obnove postupka",
+    "tekst": "O prijedlogu za obnovu postupka rješava javnopravno tijelo koje je donijelo rješenje protiv kojeg se ne može izjaviti žalba.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CC1C0B6DB35E4068D537AFED8928D69276CD2969C5A0CEDFC0710892E63BD1C4",
-    "sha256_datoteke": "D1ACCDBCD3783A0F2AB43B69864D133757FB3547E991930A6B9A5550F6B009CB",
+    "sha256_teksta": "4D098836965FDF5609374E0EAD86D7C7B8ED2FF643B43BD7DEB04F199DB584DF",
+    "sha256_datoteke": "C55DE0523FF85F7B44AC5431CDD5B7ABE5FC06FDBC41B27322B604D641736360",
     "napomena": null
   }
 }

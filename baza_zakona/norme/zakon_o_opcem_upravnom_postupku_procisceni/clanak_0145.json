@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "145",
     "naslov": null,
-    "tekst": ". Izvršenje se provodi na način i primjenom sredstava koja su najblaža za izvršenika, a dovode do cilja izvršenja. Obustava izvršenja",
+    "tekst": "Izvršenje se provodi na način i primjenom sredstava koja su najblaža za izvršenika, a dovode do cilja izvršenja.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0E7B9F4C902FDEF6ED9C3878ABB4420C267BE30E5A972F1C7D36FC9B6D1FA2D3",
-    "sha256_datoteke": "E9968A2B181391CFDA80804BDEB626E3138B5A8B8F25C9E731437750B223F2A0",
+    "sha256_teksta": "3D5F79C110AE4A440E0C359A6AF02CEACF6D328A0D10BED62F2880D0B15B57CE",
+    "sha256_datoteke": "9F8C7989157AA77FDB6C01FC38D0A03F6B811FF5B333723410F997F45DB98A04",
     "napomena": null
   }
 }

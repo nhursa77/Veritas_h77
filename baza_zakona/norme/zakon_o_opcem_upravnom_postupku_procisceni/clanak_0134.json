@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "134",
     "naslov": null,
-    "tekst": ". Izvršenje se provodi protiv osobe koja je obvezna ispuniti obvezu (izvršenik), odnosno njegovih pravnih sljednika. Provedba izvršenja",
+    "tekst": "Izvršenje se provodi protiv osobe koja je obvezna ispuniti obvezu (izvršenik), odnosno njegovih pravnih sljednika.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "25523236229DD5BFE45408874C9EE7701AFE8D3A6DBB81747C00FA46F8D52679",
-    "sha256_datoteke": "880ECCE2D0D35973B0E8422EE5C42FA545CC8D42108D12AB34047CF2CA8451A2",
+    "sha256_teksta": "B793088ADE079A55647D93AC8EDDE0796F17C09E48BBC03A9F4495E6CF5C827B",
+    "sha256_datoteke": "7950186ECBD223130EA35742BFCA3F17B9B9E2A4B1B3069B5B97331C6F51850A",
     "napomena": null
   }
 }

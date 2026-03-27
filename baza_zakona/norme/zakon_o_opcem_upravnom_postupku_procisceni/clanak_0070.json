@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "70",
     "naslov": null,
-    "tekst": ". Ako za utvrđivanje određenih činjenica ne postoje drugi dokazi, za utvrđivanje takvih činjenica može se kao dokazno sredstvo uzeti i izjava stranke. Glava IV. RADNJE U POSTUPKU Podnesci",
+    "tekst": "Ako za utvrđivanje određenih činjenica ne postoje drugi dokazi, za utvrđivanje takvih činjenica može se kao dokazno sredstvo uzeti i izjava stranke.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "F9DBDA6C114164A09B6761940BD29C8B29CA9DFED72DC9B414D4FBA3A8A50EEB",
-    "sha256_datoteke": "278201E2008593DDB5155F23E5F3B81FE7FF2E3F045533B2CCD0725FCCE5F54F",
+    "sha256_teksta": "AEE453789C11C5F1E93CB97BB298BDAAE8E96E28E88523D1CADF8A70F5D778B7",
+    "sha256_datoteke": "8A08116F90F4380D6C7F41C6FD64AA95A5794B50B1F3E36EF599A34231CA25D2",
     "napomena": null
   }
 }

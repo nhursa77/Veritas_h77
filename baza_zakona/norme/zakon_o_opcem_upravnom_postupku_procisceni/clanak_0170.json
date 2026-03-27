@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "170",
     "naslov": null,
-    "tekst": ". Danom stupanja na snagu ovoga Zakona prestaje važiti Zakon o općem upravnom postupku (»Narodne novine«, br. 53/91. i 103/96.).",
+    "tekst": "Danom stupanja na snagu ovoga Zakona prestaje važiti Zakon o općem upravnom postupku (»Narodne novine«, br. 53/91. i 103/96.).",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6087EE717AFFE7031E8CCBAA4F9680F405BB94D959B66FF0935395284D4CD2FA",
-    "sha256_datoteke": "16CFD22140585D030085DF32AD067E6A37220A5A7963622535612483D4F67DAD",
+    "sha256_teksta": "F83B0F0C763CF54CDAA6307A810BD809E066F96AF9F22C98FB7EC57AB873E4C9",
+    "sha256_datoteke": "69A74153EFD7ABE5950BCD08701382C4FB176F64586FAE4DBC022880E0D46BB0",
     "napomena": null
   }
 }

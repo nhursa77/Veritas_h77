@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "149",
     "naslov": null,
-    "tekst": ". Ako je doneseno usmeno rješenje, javnopravno tijelo može narediti da se provede izvršenje bez donošenja rješenja o izvršenju. ŠESTI DIO UPRAVNI UGOVOR Uvjeti za sklapanje i predmet upravnog ugovora",
+    "tekst": "Ako je doneseno usmeno rješenje, javnopravno tijelo može narediti da se provede izvršenje bez donošenja rješenja o izvršenju.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "83984872CE182D49E50A026F0237885DF2CF57B76B32A007D384C699B1BE4715",
-    "sha256_datoteke": "434FEA59C27C4866144EC504F638E1AC2BFB6CF04C9A23C46E995019BE0C1F2F",
+    "sha256_teksta": "5F66ABC289E7FDC7F7F4ACE3F8C7E1E969204546A42C9A7229A96B4CDE7FF208",
+    "sha256_datoteke": "252C93638283A1DE92B4B8EE3AFB4C5ACB03C9F55CC313B2879F5621DDCD6473",
     "napomena": null
   }
 }

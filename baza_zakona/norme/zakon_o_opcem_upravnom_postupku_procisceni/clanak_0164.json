@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "164",
     "naslov": null,
-    "tekst": ". Javnopravna tijela u provedbi ovoga Zakona u postupanju s podnescima, izdavanju, obradi, otpremi, čuvanju te izlučivanju donesenih akata primjenjuju propise o uredskom poslovanju.",
+    "tekst": "Javnopravna tijela u provedbi ovoga Zakona u postupanju s podnescima, izdavanju, obradi, otpremi, čuvanju te izlučivanju donesenih akata primjenjuju propise o uredskom poslovanju.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "67D333C073D070A15BAAA6B7B56992A14E8CBC628E6FE27C98561949594EF137",
-    "sha256_datoteke": "6ADB496CBD521D5428A71EC2899A010D357A2051DEC3C4D3B52BA86676206111",
+    "sha256_teksta": "0A8EA3AA97095986E4E2C4D2E2C7278A504D132F2AED5A50EB497B62A14896AC",
+    "sha256_datoteke": "62C00CD30667CA8E570D54B28A38E84EE9737010A839F79E0861ED3370772AA3",
     "napomena": null
   }
 }

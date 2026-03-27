@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "163",
     "naslov": null,
-    "tekst": ". Stranka se može u cijelosti ili djelomično osloboditi od plaćanja troškova postupka, kad je to propisano zakonom. DESETI DIO PROVEDBA ZAKONA",
+    "tekst": "Stranka se može u cijelosti ili djelomično osloboditi od plaćanja troškova postupka, kad je to propisano zakonom.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "D23D771BB19099F165896BB30A2B3ACC9512B6AA61D53F50F3621CF1B0F24B9C",
-    "sha256_datoteke": "662F76771E04292F869A0F13F482F1D233693D992E3EF8DEF5CCEE3F14160B3C",
+    "sha256_teksta": "580A2B878D6A2824734466C24A6056E547BDBD25CFDD61BA84ACED01576735B1",
+    "sha256_datoteke": "2A66DCFE2EFA881212277D24183FE57A0D3C51E70B3271F0A4A2DFDB06BC08D7",
     "napomena": null
   }
 }

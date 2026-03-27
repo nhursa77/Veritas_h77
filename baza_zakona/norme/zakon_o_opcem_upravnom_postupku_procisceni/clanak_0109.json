@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "109",
     "naslov": null,
-    "tekst": ". Žalba se izjavljuje u roku od 15 dana od dana dostave rješenja, ako nije propisan duži rok. Predaja žalbe",
+    "tekst": "Žalba se izjavljuje u roku od 15 dana od dana dostave rješenja, ako nije propisan duži rok.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "6D9343A61C5937B5C5DA8BA91F3CE84A6DEC2014FBB7722BF2CBC44A479AF986",
-    "sha256_datoteke": "4D78BFCA7B2BCE7C7E46BF37DCACB5FE06945577F4EE1720662105016542181C",
+    "sha256_teksta": "251CEAF8945022BFFEC73710843ED4A6DE2DD3DA4F399A614597E38B5CE203BE",
+    "sha256_datoteke": "65177535EED4CD295B189DE770E57EEB6AAC14F23A62BDF3FC524C32F2C85617",
     "napomena": null
   }
 }

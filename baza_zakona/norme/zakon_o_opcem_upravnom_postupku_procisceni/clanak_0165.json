@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "165",
     "naslov": null,
-    "tekst": ". (1) Nadzor nad provedbom ovoga Zakona obavlja središnje tijelo državne uprave nadležno za poslove opće uprave. (2) Inspekcijski nadzor nad provedbom ovoga Zakona provodi upravna inspekcija.",
+    "tekst": "(1) Nadzor nad provedbom ovoga Zakona obavlja tijelo državne uprave nadležno za poslove opće uprave. (2) Inspekcijski nadzor nad provedbom ovoga Zakona provodi upravna inspekcija.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "0E631F93B91EF143C662E27628EA060A335EAD404E3DC338D808CD5218ECC623",
-    "sha256_datoteke": "B5A9F7BAA04CA759AA710F66F5974D43F9583C6CAC8105D1254D0CE29A34DC19",
+    "sha256_teksta": "7568F7783AECA4DF354D671312208C0EF60DA37DC67F38DD27FB44047CB90308",
+    "sha256_datoteke": "780883DA49405B130BBFB4A8D7FDD115AAF262342F5B7A86BF41075F1CDCA4FE",
     "napomena": null
   }
 }

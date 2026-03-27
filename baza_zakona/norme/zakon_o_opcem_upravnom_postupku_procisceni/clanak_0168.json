@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "168",
     "naslov": null,
-    "tekst": ". Postupci započeti do stupanja na snagu ovoga Zakona nastavit će se i dovršiti prema odredbama Zakona o općem upravnom postupku (»Narodne novine«, br. 53/91. i 103/96.).",
+    "tekst": "Postupci započeti do stupanja na snagu ovoga Zakona nastavit će se i dovršiti prema odredbama Zakona o općem upravnom postupku (»Narodne novine«, br. 53/91. i 103/96.).",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "279C9BB427562C0EA9EFAB11CC43CC90BF94586814D2EC7FAD01B8BEE31AB3F4",
-    "sha256_datoteke": "BCD0015FFD142E2A4FF3A5B7A5D14235756AD1935E6686BA8B94F0D4300C19A6",
+    "sha256_teksta": "ABD72CE2C9F07D3D4ED877D02E4473B4ADDADD2517D282D878D8DA6C23E7E4EB",
+    "sha256_datoteke": "5728693B0BD3C13C99473E6A22CFEC62DD05D4E7BAA00B0454B69153444D3FCF",
     "napomena": null
   }
 }

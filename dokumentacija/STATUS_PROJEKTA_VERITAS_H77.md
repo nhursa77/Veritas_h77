@@ -4,11 +4,11 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `837a2b4` - utvrdjen rezim konverzije zup u json
-  (Z92)
+- Trenutni commit: `aaa3a2a` - kontrolna usporedba zup json sa zakon hr
+  (Z95)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 95
-  (kontrolna usporedba ZUP JSON sa zakon.hr)
+- Zadnji dovršeni zadatak: ZADATAK 96
+  (ciljana sanacija kratkih/sumnjivo kratkih ZUP članaka)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -26,6 +26,13 @@ Datum: 27.03.2026.
   kroz postojeći validator `alati/validiraj_nn_vs_kontrolno.py`
   (CONTROL_COUNT=171, NN_COUNT=171, MISSING_COUNT=0)
   uz heuristicki signal `CONTROL_TRUNCATION_SUSPECTED=True`.
+- ZADATAK 96: ciljano su sanirani članci iz SHORT_LIST (15 datoteka)
+  uklanjanjem artefakata ingest-a (`". "` prefiks i prijelazni naslovi
+  sljedećih cjelina) uz preračun integritetnih hash polja.
+  Ponovljena validacija je potvrdila
+  `CONTROL_COUNT=171`, `NN_COUNT=171`, `MISSING_COUNT=0` i
+  `SHORT_COUNT=15` (članci ostaju kratki po sadržaju, bez truncation
+  artefakta).
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -36,10 +43,11 @@ Datum: 27.03.2026.
 - Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
   prema kanonskom dokumentu
   `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
-- Rezultat kontrolne usporedbe: DJELOMICNO ODSTUPANJE
-  (heuristicko upozorenje kontrolnog izvora bez detektiranih
-  missing/extra clanaka).
-- Sljedeci logicki korak: sanacija ZUP JSON seta prema kontrolnom izvjestaju.
+- Rezultat kontrolne usporedbe: STABILNO
+  (nema missing/extra clanaka; kontrolni izvor i dalje nosi heuristicko
+  upozorenje `CONTROL_TRUNCATION_SUSPECTED=True`).
+- Sljedeci logicki korak: sistemska sanacija preostalih clanaka s ingest
+  artefaktom prijelaznih naslova i vodeceg prefiksa `". "`.
 
 ## Pravilo sinkronizacije
 

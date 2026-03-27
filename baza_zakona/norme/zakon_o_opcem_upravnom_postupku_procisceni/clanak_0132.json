@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "132",
     "naslov": null,
-    "tekst": ". U slučaju oglašivanja rješenja ništavim ili poništavanja rješenja, imovina stečena bez pravne osnove vraća se sukladno propisima građanskog prava. PETI DIO IZVRŠENJE Izvršnost rješenja",
+    "tekst": "U slučaju oglašivanja rješenja ništavim ili poništavanja rješenja, imovina stečena bez pravne osnove vraća se sukladno propisima građanskog prava.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "CA7DCAE72B11F8FE86720AAD7BA339DFD3DA2B08E1319B7EA7139E2E047332BA",
-    "sha256_datoteke": "E68B2B363032B823B4551E5008024BA0A942C68F9A64978DA4CC97A9ACCDC3FC",
+    "sha256_teksta": "EE9E5DCF4AEBD36F7818AD9AE695790E40EB9634357EB5807CD51A3C44EA1807",
+    "sha256_datoteke": "CEEAA1CEAE522A67D89B8287B4EAEAD3B354503CE5F2FD8C2B4482106043AB86",
     "napomena": null
   }
 }

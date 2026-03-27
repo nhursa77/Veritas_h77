@@ -9,7 +9,7 @@
   "clanak": {
     "oznaka": "136",
     "naslov": null,
-    "tekst": ". Izvršenje rješenja provodi se radi ostvarivanja novčanih ili nenovčanih obveza. Izvršenje novčanih obveza",
+    "tekst": "Izvršenje rješenja provodi se radi ostvarivanja novčanih ili nenovčanih obveza.",
     "struktura": {
       "stavci": null
     }
@@ -39,8 +39,8 @@
     "status_sidra": "puno"
   },
   "integritet": {
-    "sha256_teksta": "19FF3ECC66399CFFAD4FD62D537B9B7594C050F370BF8A748C301E6536B7DF9F",
-    "sha256_datoteke": "140B5AC72F93475F5DC3EDED29BD3D5D4FC28BF8069BFDE1986D2836C874046E",
+    "sha256_teksta": "8B31CC6940D01ABD76B10882084B4CCAAE95AD833BABCE0DE6245183F720BBD4",
+    "sha256_datoteke": "7957D10238653BD6969BAA0E05A6E7A0A50C7A9F628DF4BD669F3EB840BBCAB1",
     "napomena": null
   }
 }
