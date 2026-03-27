@@ -4,15 +4,15 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `267bd5b` - paketno zatvorene jednoznacne natuknice
-  apsolutne nenadleznosti
+- Trenutni commit: `fe7b4d7` - analiza i rangiranje sljedeceg homogenog
+  niza za paket
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 79
-  (analiza i rangiranje sljedeceg homogenog niza za paket)
+- Zadnji dovršeni zadatak: ZADATAK 80
+  (paketno zatvaranje niza dokaz — prekrsajni_zakon)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci korak: paketno zatvaranje sljedeceg homogenog niza prema
-  rang-listi (preporuka: `dokaz` + `prekrsajni_zakon`).
+- Sljedeci korak: analiza i odabir iduceg homogenog niza nakon
+  paketnog zatvaranja niza `dokaz` + `prekrsajni_zakon`.
 
 ## Pravilo sinkronizacije
 
@@ -200,3 +200,13 @@ Trenutno stanje sinkronizacije (pre-check):
 - Korak je analiza-only: broj novih zatvaranja u ovom zadatku je `0`.
 - Top preporuka za sljedeci paket je niz:
   `dokaz` + `prekrsajni_zakon` (score `550`).
+
+### Paketno zatvaranje homogenog niza dokaz (ZADATAK 80)
+
+- Dodana je skripta `alati/zatvori_paket_dokaz_prekrsajni_zakon.py`.
+- Ažurirani su `potpuno_validirane_natuknice.json` i pripadni manifest.
+- Skripta obavezno provjerava rang-manifest i potvrdu preporuke:
+  `dokaz` + `prekrsajni_zakon`.
+- Paketno je zatvoreno 5 jednoznacnih natuknica iz cl. `78`, `85`, `87`,
+  `88`, `89`.
+- Broj potpuno validiranih natuknica je povecan s `5` na `10`.

@@ -2150,3 +2150,48 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
+
+---
+
+## Datum: 27.03.2026 (ZADATAK 80 - paketno zatvaranje niza dokaz)
+
+Provedeno je paketno zatvaranje jednoznacnih natuknica iz homogenog niza
+`dokaz — prekrsajni_zakon`.
+
+Napravljena je skripta:
+
+- `alati/zatvori_paket_dokaz_prekrsajni_zakon.py`
+
+Azurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Pocetni broj potpuno validiranih natuknica: `5`.
+Zavrsni broj potpuno validiranih natuknica: `10`.
+Broj analiziranih kandidata u paketu: `5`.
+Broj novozatvorenih natuknica u paketu: `5`.
+
+Popis novozatvorenih clanaka u paketu:
+
+- `78`
+- `85`
+- `87`
+- `88`
+- `89`
+
+Popis preskocenih stavki:
+
+- nema preskocenih stavki (`0`)
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/zatvori_paket_dokaz_prekrsajni_zakon.py`
+- `Get-Content ./dokumentacija/DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
