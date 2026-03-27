@@ -2701,3 +2701,39 @@ Dokazne naredbe:
 - `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`
+
+## Datum: 27.03.2026 (ZADATAK 93 - pripremljen manifest ingest-a za ZUP)
+
+Pripremljen je kanonski ulazni manifest ingest-a za
+`zakon_o_opcem_upravnom_postupku` bez pokretanja ingest-a i normiranja.
+
+Potvrdjeni akti:
+
+- `NN 47/2009` (core)
+- `NN 110/2021` (amandman)
+
+Dodan je kontrolni zakon.hr link za usporedbu i validaciju JSON formata,
+uz pravilo da primarni dokazni izvor ostaju Narodne novine.
+
+Izradjen je:
+
+- `paketi/PAKET_ZUP_V1.json`
+
+Rezim rada ostaje:
+
+- `PREKRSAJNI_ZAKON_MODEL`
+
+Azurirana dokumentacija:
+
+- `paketi/PAKET_ZUP_V1.json`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\\dokumentacija\\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\\alati\\ci_smoke.ps1`

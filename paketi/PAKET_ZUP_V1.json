@@ -1,0 +1,32 @@
+{
+  "paket": {
+    "slug": "zup_v1",
+    "naziv": "ZUP paket v1",
+    "napomena": "Dokazni izvor je NN; kontrolni konsolidirani prikaz za usporedbu i validaciju JSON formata je zakon.hr; rezim je model kao prekrsajni_zakon"
+  },
+  "akti": [
+    {
+      "akt_slug": "zakon_o_opcem_upravnom_postupku",
+      "oznaka_akta": "NN 47/2009",
+      "naziv_akta": "Zakon o op\u0107em upravnom postupku",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/1065",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2009/47/pdf",
+      "tip_teksta": "izvorni",
+      "required": true
+    },
+    {
+      "akt_slug": "zakon_o_opcem_upravnom_postupku_nn_110_2021",
+      "oznaka_akta": "NN 110/2021",
+      "naziv_akta": "Zakon o izmjenama i dopuni Zakona o op\u0107em upravnom postupku",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/1930",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2021/110/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNI ZAKONA O OP\u0106EM UPRAVNOM POSTUPKU",
+      "tip_teksta": "amandmani",
+      "required": false
+    }
+  ],
+  "kontrolni_izvor": {
+    "zakon_hr_url": "https://www.zakon.hr/z/65/zakon-o-opcem-upravnom-postupku",
+    "napomena": "zakon.hr se koristi iskljucivo za usporedbu i validaciju konsolidiranog JSON formata; primarni izvor ostaju Narodne novine"
+  }
+}

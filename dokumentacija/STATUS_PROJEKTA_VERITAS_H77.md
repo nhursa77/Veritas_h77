@@ -4,16 +4,18 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `6f16cab` - uskladjen status projekta nakon Z89 i Z90
-  (Z91)
+- Trenutni commit: `837a2b4` - utvrdjen rezim konverzije zup u json
+  (Z92)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 92
-  (utvrdjivanje izvora i rezima konverzije za ZUP)
+- Zadnji dovršeni zadatak: ZADATAK 93
+  (pripremljen kanonski manifest ingest-a za ZUP)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
   konverzije prema kanonskom dokumentu
   `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`
+- ZADATAK 93: pripremljen je manifest ingest-a
+  `paketi/PAKET_ZUP_V1.json` (core + amandman + kontrolni izvor)
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -24,8 +26,8 @@ Datum: 27.03.2026.
 - Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
   prema kanonskom dokumentu
   `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
-- Sljedeci logicki korak: stvarni ingest ZUP-a prema utvrdjenom rezimu
-  konverzije iz
+- Sljedeci logicki korak: stvarni ingest ZUP-a po manifestu
+  `paketi/PAKET_ZUP_V1.json` i utvrdjenom rezimu konverzije iz
   `dokumentacija/REZIM_KONVERZIJE_ZUP_U_JSON.md`.
 
 ## Pravilo sinkronizacije
@@ -37,7 +39,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `6f16cab`
+- lokalni hash: `837a2b4`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

@@ -288,6 +288,9 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
 - Opća metodologija i gate logika pripadaju
   `METODOLOGIJA_RADA_VERITAS_H77.md`.
 - Razvojne faze i redoslijed rada pripadaju `RAZVOJNI_PLAN_VERITAS_H77.md`.
+- Operativni paketni manifesti ingest-a pripadaju mapi `paketi/`.
+- Aktivni paketni manifesti za ingest su `paketi/PAKET_PREKRSAJNI_V1.json`
+  i `paketi/PAKET_ZUP_V1.json`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
