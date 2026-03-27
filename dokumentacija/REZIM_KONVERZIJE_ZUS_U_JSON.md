@@ -13,62 +13,43 @@ Opseg: utvrdjivanje izvora i rezima ingest-a za
 
 ---
 
-## B) Provjera izvora na Narodnim novinama
+## B) Važeći izvor
 
-Provedena je deterministicka provjera NN pretrage kroz dva ciljna upita:
+- `NN 36/2024` - Zakon o upravnim sporovima
 
-- upit 1: `zakon o upravnim sporovima`
-- upit 2: `procisceni tekst zakona o upravnim sporovima`
-
-Rezultat provjere:
-
-- u NN pretraznom odgovoru nije pronadjen eksplicitan signal za
-  procisceni tekst ciljanog zakona
-- nije pronadjen ni jasan izravni indikator prociscenog ulaza za ZUS
-
-Kontrolni sloj (zakon.hr) prikazuje:
-
-- naslov `Zakon o upravnim sporovima`
-- oznaku `procisceni tekst zakona`
-- referencu `NN 36/24` i status `na snazi od 01.07.2024.`
-- prijelaznu referencu na raniji zakon (`NN 20/10, 143/12, 152/14,
-  94/16, 29/17, 110/21`) kao zakon koji prestaje vaziti
-
-Zakljucak za ovaj korak:
-
-- zakon.hr ostaje kontrolni izvor i ne moze zamijeniti dokazni NN signal
-- za `zakon_o_upravnim_sporovima` nije dokazano da je na NN dostupan
-  valjani procisceni tekst za izravnu konverziju
-- rezim konverzije mora se voditi po modelu kao `prekrsajni_zakon`
+Za operativni rad u projektu relevantan je važeći cjeloviti akt.
 
 ---
 
-## C) Pravilo odluke
+## C) Režim rada
 
-Obavezno pravilo odluke bez alternative:
+Važeći ZUS vodi se:
 
-- ako je zakon na Narodnim novinama dostupan u prociscenom obliku,
-  ide se po obrascu prociscenog akta
-- ako nije dostupan u prociscenom obliku,
-  mora se odraditi na nacin kako je u projektu odradjen
-  `prekrsajni_zakon`
+- kao jedan važeći cjeloviti akt
+- po obrascu istog tipa kao `ustav_rh_procisceni`
 
----
-
-## D) Operativni zakljucak za ZUS
-
-REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL
+To znaci da se radi jedinstveni operativni set važeceg teksta,
+uz standardni ingest -> parser -> normiranje -> validacija tok.
 
 ---
 
-## E) Veza s postojecim projektom
+## D) Što se ne radi
 
-- `ustav_rh_procisceni` predstavlja postojeci uzorak rada za procisceni akt
-- `prekrsajni_zakon` predstavlja postojeci uzorak rada za akt koji se mora
-  voditi kroz slozeniji model kada nema jednostavnog prociscenog ulaza
+Za važeći ZUS se u ovom režimu:
 
-Operativni okvir slozenijeg modela u projektu ukljucuje:
+- ne slaže paket starih izmjena
+- ne koristi model `prekrsajni_zakon`
+- `zakon.hr` ostaje kontrolni izvor za validaciju, ne primarni izvor
 
-- core + amandmani
-- sidra (NN) i kontrolni sloj
-- fallback i validaciju prije operativne projekcije u NORMA JSON
+---
+
+## E) Završna oznaka režima
+
+REZIM_ODABRAN = PROCISCENI_FIRST
+
+Obrazlozenje:
+
+- ne zato sto je nuzno pronadjen zasebno naslovljen NN
+  "procisceni tekst"
+- nego zato sto je važeći ZUS jedan samostalni važeći akt
+- i za trenutni rad ne trazi paket povijesnih izmjena

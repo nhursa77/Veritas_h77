@@ -98,8 +98,9 @@ kanonskog modela konverzije bez paralelnih ad-hoc postupaka.
 ### `REZIM_KONVERZIJE_ZUS_U_JSON.md`
 Definira utvrdjeni rezim ingest-a i konverzije za
 `zakon_o_upravnim_sporovima`.
-Dokumentira provjeru NN dostupnosti prociscenog ulaza i odabir
-kanonskog modela konverzije kada taj ulaz nije dokazano dostupan.
+Dokumentira da se vazeci ZUS vodi kao jedan vazeci cjeloviti akt
+(`NN 36/2024`) po obrascu tipa `ustav_rh_procisceni`,
+uz `zakon.hr` kao kontrolni izvor validacije.
 
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.

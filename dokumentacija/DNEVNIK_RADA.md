@@ -2938,3 +2938,26 @@ REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL
 ### Verifikacija
 - `alati/lint_markdown.ps1` -> `MDLINT_EXIT=0`
 - `alati/ci_smoke.ps1` -> `CI_SMOKE_EXIT=0`
+
+## ZADATAK 100 - ispravljen rezim konverzije ZUS prema obrascu prociscenog akta
+
+Datum: 27.03.2026.
+
+### Sažetak
+Zakljucak iz Z99 je revidiran za
+`zakon_o_upravnim_sporovima`.
+Vazeci ZUS se vodi kao jedan vazeci akt (`NN 36/2024`) po obrascu rada
+`ustav_rh_procisceni`.
+
+### Odluka rezima
+REZIM_ODABRAN = PROCISCENI_FIRST
+
+### Pravila primjene
+- model `prekrsajni_zakon` se ne koristi za vazeci ZUS
+- ne koristi se paket starih izmjena za vazeci ZUS
+- `zakon.hr` ostaje samo kontrolni izvor za validaciju
+
+### Azurirana dokumentacija
+- `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`

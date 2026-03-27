@@ -7,8 +7,8 @@ Datum: 27.03.2026.
 - Trenutni commit: `ea183f7` - sanacija kratkih clanaka zup prema
   kontrolnom izvjestaju (Z96)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 99
-  (utvrdjen rezim konverzije ZUS u JSON)
+- Zadnji dovršeni zadatak: ZADATAK 100
+  (ispravljen rezim konverzije ZUS prema obrascu prociscenog akta)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -45,6 +45,12 @@ Datum: 27.03.2026.
   Kako na NN pretrazi nije dokazan valjan procisceni signal,
   operativna odluka je:
   `REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL`.
+- ZADATAK 100: rezim konverzije za
+  `zakon_o_upravnim_sporovima` je ispravljen.
+  ZUS se vodi po obrascu tipa `ustav_rh_procisceni`,
+  kao jedan vazeci cjeloviti akt (`NN 36/2024`),
+  bez koristenja starog niza izmjena i bez modela
+  `prekrsajni_zakon` za vazeci ZUS.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -52,13 +58,14 @@ Datum: 27.03.2026.
   `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci logicni smjer: priprema manifesta ingest-a za ZUS prema
-  odabranom rezimu (`PREKRSAJNI_ZAKON_MODEL`).
+- Sljedeci logicni smjer: priprema manifesta ingest-a za vazeci ZUS
+  kao jedan vazeci akt.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: priprema izvornog paketa za
-  `zakon_o_upravnim_sporovima` (core + amandmani + kontrolni sloj).
+- Sljedeci logicki korak: priprema manifesta ingest-a za
+  `zakon_o_upravnim_sporovima` kao jedan vazeci cjeloviti akt,
+  uz `zakon.hr` samo kao kontrolni sloj validacije.
 
 ## Pravilo sinkronizacije
 
