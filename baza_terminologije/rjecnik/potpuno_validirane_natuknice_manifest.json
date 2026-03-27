@@ -5,33 +5,33 @@
   "ulaz_rang_manifest": "baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket_manifest.json",
   "izlaz": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
   "prethodni_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
-  "odabrani_nadredeni_kanonski_naziv": "prigovor",
+  "odabrani_nadredeni_kanonski_naziv": "rješenje",
   "odabrani_akt_slug": "prekrsajni_zakon",
   "odabrani_score": 550,
-  "razlog_odabira": "Odabran je kao prvi sljedeci niz po postojecem deterministickom poretku rang-liste nakon iskljucenja vec obradenih nizova apsolutna nenadležnost + prekrsajni_zakon, dokaz + prekrsajni_zakon dostava + prekrsajni_zakon, izvršenje + prekrsajni_zakon i presuda + prekrsajni_zakon.",
-  "pocetni_broj_potpuno_validiranih_natuknica": 25,
-  "zavrsni_broj_potpuno_validiranih_natuknica": 30,
+  "razlog_odabira": "Odabran je kao prvi sljedeci niz po postojecem deterministickom poretku rang-liste nakon iskljucenja vec obradenih nizova apsolutna nenadležnost + prekrsajni_zakon, dokaz + prekrsajni_zakon dostava + prekrsajni_zakon, izvršenje + prekrsajni_zakon i presuda + prekrsajni_zakon te prigovor + prekrsajni_zakon.",
+  "pocetni_broj_potpuno_validiranih_natuknica": 30,
+  "zavrsni_broj_potpuno_validiranih_natuknica": 35,
   "broj_analiziranih_kandidata_u_paketu": 5,
   "broj_novozatvorenih_natuknica_u_paketu": 5,
   "popis_novozatvorenih_clanaka_u_paketu": [
-    "93",
-    "102",
-    "120",
-    "121",
-    "221"
+    "34",
+    "59",
+    "89",
+    "92",
+    "99"
   ],
   "popis_novozatvorenih_natuknica_u_paketu": [
-    "prigovor — prekršajni zakon — čl. 102",
-    "prigovor — prekršajni zakon — čl. 120",
-    "prigovor — prekršajni zakon — čl. 121",
-    "prigovor — prekršajni zakon — čl. 221",
-    "prigovor — prekršajni zakon — čl. 93"
+    "rješenje — prekršajni zakon — čl. 34",
+    "rješenje — prekršajni zakon — čl. 59",
+    "rješenje — prekršajni zakon — čl. 89",
+    "rješenje — prekršajni zakon — čl. 92",
+    "rješenje — prekršajni zakon — čl. 99"
   ],
   "popis_preskocenih_stavki_u_paketu": [],
   "status_zadatka": "PAKET_JEDNOZNACNIH_NATUKNICA_ZATVOREN",
   "obraden_samo_homogeni_paket": true,
   "homogeni_paket": {
-    "nadredeni_kanonski_naziv": "prigovor",
+    "nadredeni_kanonski_naziv": "rješenje",
     "akt_slug": "prekrsajni_zakon"
   },
   "iskljuceni_vec_obradeni_nizovi": [
@@ -54,54 +54,58 @@
     {
       "nadredeni_kanonski_naziv": "presuda",
       "akt_slug": "prekrsajni_zakon"
+    },
+    {
+      "nadredeni_kanonski_naziv": "prigovor",
+      "akt_slug": "prekrsajni_zakon"
     }
   ],
   "sidra_po_novozatvorenom_clanku": {
-    "93": [
+    "34": [
       {
         "akt_slug": "prekrsajni_zakon",
         "broj_nn": "NN 107/2007",
-        "clanak": "93",
+        "clanak": "34",
         "stavak": null,
         "tocka": null,
         "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
       }
     ],
-    "102": [
+    "59": [
       {
         "akt_slug": "prekrsajni_zakon",
         "broj_nn": "NN 107/2007",
-        "clanak": "102",
+        "clanak": "59",
         "stavak": null,
         "tocka": null,
         "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
       }
     ],
-    "120": [
+    "89": [
       {
         "akt_slug": "prekrsajni_zakon",
         "broj_nn": "NN 107/2007",
-        "clanak": "120",
+        "clanak": "89",
         "stavak": null,
         "tocka": null,
         "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
       }
     ],
-    "121": [
+    "92": [
       {
         "akt_slug": "prekrsajni_zakon",
         "broj_nn": "NN 107/2007",
-        "clanak": "121",
+        "clanak": "92",
         "stavak": null,
         "tocka": null,
         "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
       }
     ],
-    "221": [
+    "99": [
       {
         "akt_slug": "prekrsajni_zakon",
         "broj_nn": "NN 107/2007",
-        "clanak": "221",
+        "clanak": "99",
         "stavak": null,
         "tocka": null,
         "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
