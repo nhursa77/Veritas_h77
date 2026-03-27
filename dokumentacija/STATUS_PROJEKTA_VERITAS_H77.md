@@ -4,11 +4,11 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `a7d2530` - rjecnik: zatvorena druga potpuno validirana
-  natuknica
+- Trenutni commit: `ae7b980` - rjecnik: zatvorena sljedeca potpuno
+  validirana natuknica
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 75
-  (zatvorena sljedeca potpuno validirana natuknica)
+- Zadnji dovršeni zadatak: ZADATAK 76
+  (zatvorena jos jedna potpuno validirana natuknica)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Sljedeći korak: zatvoriti novu sljedecu potpuno validiranu natuknicu po
@@ -23,7 +23,7 @@ Datum: 25.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `a7d2530`
+- lokalni hash: `ae7b980`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
@@ -161,3 +161,12 @@ Trenutno stanje sinkronizacije (pre-check):
 - Ažurirani su `potpuno_validirane_natuknice.json` i pripadni manifest.
 - Deterministicki je zatvorena tocno jedna nova natuknica nakon 101 i 102:
   `apsolutna nenadležnost — prekršajni zakon — čl. 103`.
+
+### Jos jedna potpuno validirana granska natuknica (ZADATAK 76)
+
+- Dodana je skripta
+  `alati/zatvori_jos_jednu_validiranu_gransku_natuknicu.py`.
+- Ažurirani su `potpuno_validirane_natuknice.json` i pripadni manifest.
+- Deterministicki je zatvorena tocno jedna nova natuknica nakon 101, 102 i
+  103:
+  `apsolutna nenadležnost — prekršajni zakon — čl. 122`.

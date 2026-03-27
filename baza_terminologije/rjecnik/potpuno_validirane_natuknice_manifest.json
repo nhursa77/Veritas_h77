@@ -4,22 +4,23 @@
   "izlaz": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
   "prethodni_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
   "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
-  "pocetni_broj_potpuno_validiranih_natuknica": 2,
-  "zavrsni_broj_potpuno_validiranih_natuknica": 3,
-  "naziv_novo_zatvorene_natuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 103",
+  "pocetni_broj_potpuno_validiranih_natuknica": 3,
+  "zavrsni_broj_potpuno_validiranih_natuknica": 4,
+  "naziv_novo_zatvorene_natuknice": "apsolutna nenadležnost — prekršajni zakon — čl. 122",
   "broj_potvrdenih_sidara_u_novo_zatvorenoj_natuknici": 1,
-  "status_zadataka": "SLJEDECA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA",
+  "status_zadataka": "JOS_JEDNA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA",
   "zatvorena_samo_jedna_nova_natuknica_u_ovom_zadatku": true,
   "prethodno_zatvorene_natuknice": [
     "apsolutna nenadležnost — prekršajni zakon — čl. 101",
-    "apsolutna nenadležnost — prekršajni zakon — čl. 102"
+    "apsolutna nenadležnost — prekršajni zakon — čl. 102",
+    "apsolutna nenadležnost — prekršajni zakon — čl. 103"
   ],
   "razlog_odabira": "Kandidat je odabran deterministicki nakon iskljucenja vec zatvorenih natuknica, po sortiranju kanonski_naziv_podnatuknice pa clanak.",
   "popis_sidara_u_novo_zatvorenoj_natuknici": [
     {
       "akt_slug": "prekrsajni_zakon",
       "broj_nn": "NN 107/2007",
-      "clanak": "103",
+      "clanak": "122",
       "stavak": null,
       "tocka": null,
       "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html"
