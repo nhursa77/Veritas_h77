@@ -2,7 +2,7 @@
   "ulaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
   "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
   "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
-  "ukupan_broj_zatvorenih_natuknica": 35,
+  "ukupan_broj_zatvorenih_natuknica": 40,
   "potpuno_validirane_natuknice": [
     {
       "nadredeni_pojam_id": "VH77-RJ-24ddae2cc620",
@@ -913,6 +913,136 @@
       "datum_validacije": "2026-03-27",
       "izvor_validacije": "rucna_validacija",
       "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza rješenje — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-ec195ea8d2e8",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 100",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "100",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza žalba — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-827733699156",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 87",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "87",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza žalba — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-a8075217cc71",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 89",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "89",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza žalba — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-391b979b82c6",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 95",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "95",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza žalba — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
+    },
+    {
+      "nadredeni_pojam_id": "VH77-RJ-61b46d26aeb2",
+      "nadredeni_kanonski_naziv": "žalba",
+      "podnatuknica_id": "VH77-GPNN-76ba519a70fe",
+      "kanonski_naziv_podnatuknice": "žalba — prekršajni zakon — čl. 99",
+      "pravna_grana_ili_kontekst": "prekršajni",
+      "naziv_akta": "prekrsajni_zakon",
+      "akt_slug": "prekrsajni_zakon",
+      "broj_nn": "NN 107/2007",
+      "nn_sidra": [
+        {
+          "naziv_akta": "prekrsajni_zakon",
+          "akt_slug": "prekrsajni_zakon",
+          "broj_nn": "NN 107/2007",
+          "clanak": "99",
+          "stavak": null,
+          "tocka": null,
+          "izvor_putanja": "izvori/dokazno/narodne_novine/prekrsajni_zakon/izvor_nn.html",
+          "napomena": "Potvrđeno ručnom validacijom kao relevantan normativni kontekst; višeznačnost nije potpuno zatvorena."
+        }
+      ],
+      "status_podnatuknice": "POTPUNO_VALIDIRANO",
+      "datum_validacije": "2026-03-27",
+      "izvor_validacije": "rucna_validacija",
+      "napomena_veritas": "Paketno zatvorena kao dio novog homogenog niza žalba — prekrsajni_zakon, uz jednoznacan normativni kontekst i dokaziva NN sidra."
     }
   ]
 }

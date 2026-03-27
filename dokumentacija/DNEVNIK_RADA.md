@@ -2511,3 +2511,60 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`
+
+## Datum: 27.03.2026 (ZADATAK 87 - paketno zatvaranje niza zalba)
+
+Provedeno je paketno zatvaranje homogenog niza `žalba — prekrsajni_zakon`
+kao zavrsni operativni korak terminoloskog toka.
+
+Odabrani niz:
+
+- `nadredeni_kanonski_naziv`: `žalba`
+- `akt_slug`: `prekrsajni_zakon`
+- `score`: `550`
+- razlog odabira: sljedeci i zadnji preostali homogeni niz s otvorenim
+  kandidatima nakon prethodno zatvorenih nizova.
+
+Napravljena je skripta:
+
+- `alati/zatvori_paket_zalba_prekrsajni_zakon.py`
+
+Azurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+- `baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json`
+- `baza_terminologije/rjecnik/`
+  `rang_lista_homogenih_nizova_za_paket_manifest.json`
+
+Pocetni broj potpuno validiranih natuknica: `35`.
+Zavrsni broj potpuno validiranih natuknica: `40`.
+Broj novozatvorenih natuknica: `5`.
+
+Popis novozatvorenih clanaka (numericki uzlazno):
+
+- `87`
+- `89`
+- `95`
+- `99`
+- `100`
+
+Potvrda prethodno zatvorenih nizova:
+
+- `apsolutna nenadležnost`, `dokaz`, `dostava`, `izvršenje`, `presuda`,
+  `prigovor` i `rješenje` vec su zatvoreni prije ovog koraka.
+
+Potvrda stanja nakon Z87:
+
+- nema preostalih homogenih nizova za paketno zatvaranje
+  (`preporuceni_sljedeci_niz_za_paket = null`).
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/zatvori_paket_zalba_prekrsajni_zakon.py`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/ci_smoke.ps1`

@@ -7,12 +7,12 @@ Datum: 27.03.2026.
 - Trenutni commit: `36fb4f0` - paketno zatvorene jednoznacne natuknice iz
   sljedeceg preporucenog niza
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 86
-  (usklađenje statusa i osvjezavanje rang-liste bez novih zatvaranja)
+- Zadnji dovršeni zadatak: ZADATAK 87
+  (paketno zatvaranje homogenog niza zalba + prekrsajni_zakon)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci korak: paketno zatvaranje niza `žalba` + `prekrsajni_zakon`
-  kao zadnjeg preostalog homogenog niza s otvorenim stavkama.
+- Sljedeci korak: analiza eventualnih preostalih meta-zadataka i/ili
+  prelazak na P7 prekršajnog modula.
 
 ## Pravilo sinkronizacije
 
@@ -274,3 +274,17 @@ Trenutno stanje sinkronizacije (pre-check):
 - Paketno je zatvoreno 5 jednoznacnih natuknica iz cl. `34`, `59`, `89`,
   `92`, `99`.
 - Broj potpuno validiranih natuknica je povecan s `30` na `35`.
+
+### Paketno zatvaranje homogenog niza zalba (ZADATAK 87)
+
+- Dodana je skripta `alati/zatvori_paket_zalba_prekrsajni_zakon.py`.
+- Odabrani niz je `žalba` + `prekrsajni_zakon` sa score `550`.
+- Razlog odabira: zadnji preostali homogeni niz s otvorenim i jednoznacno
+  spremnim kandidatima nakon zatvaranja nizova
+  `apsolutna nenadležnost`, `dokaz`, `dostava`, `izvršenje`, `presuda`,
+  `prigovor` i `rješenje` za isti akt.
+- Paketno je zatvoreno 5 jednoznacnih natuknica iz cl. `87`, `89`, `95`,
+  `99`, `100`.
+- Broj potpuno validiranih natuknica je povecan s `35` na `40`.
+- Osvjezena je rang-lista homogenih nizova i potvrdeno je da vise nema
+  preostalih preporucenih nizova za paketno zatvaranje.
