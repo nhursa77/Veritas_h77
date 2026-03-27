@@ -108,3 +108,4 @@ Operativne skripte za paketno zatvaranje homogenog niza trenutno su:
 - `alati/zatvori_paket_dokaz_prekrsajni_zakon.py`
 - `alati/zatvori_paket_dostava_prekrsajni_zakon.py`
 - `alati/zatvori_paket_izvrsenje_prekrsajni_zakon.py`
+- `alati/zatvori_paket_presuda_prekrsajni_zakon.py`
