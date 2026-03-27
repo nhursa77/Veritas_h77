@@ -95,6 +95,12 @@ Definira utvrdjeni rezim ingest-a i konverzije za
 Dokumentira provjeru dostupnosti prociscenog teksta na NN i obvezu odabira
 kanonskog modela konverzije bez paralelnih ad-hoc postupaka.
 
+### `REZIM_KONVERZIJE_ZUS_U_JSON.md`
+Definira utvrdjeni rezim ingest-a i konverzije za
+`zakon_o_upravnim_sporovima`.
+Dokumentira provjeru NN dostupnosti prociscenog ulaza i odabir
+kanonskog modela konverzije kada taj ulaz nije dokazano dostupan.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
@@ -243,7 +249,8 @@ a Drive samo sinkronizirana kopija/backup.
 25) `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 26) `PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
 27) `REZIM_KONVERZIJE_ZUP_U_JSON.md`
-28) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+28) `REZIM_KONVERZIJE_ZUS_U_JSON.md`
+29) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 

@@ -2918,3 +2918,23 @@ Dokazne naredbe:
   -AktSlug zakon_o_opcem_upravnom_postupku
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+## Datum: 27.03.2026 (ZADATAK 99 - utvrdjen rezim konverzije ZUS u JSON)
+
+### Sažetak
+Utvrdjen je kanonski rezim konverzije za `zakon_o_upravnim_sporovima` i
+dokumentiran u `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`.
+Deterministicka provjera NN pretrage nije dala eksplicitan dokaz valjanog
+prociscenog ulaza, pa je odabran model kao za `prekrsajni_zakon`.
+
+### Odluka rezima
+REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL
+
+### Ažurirani dokumenti
+- `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+
+### Verifikacija
+- `alati/lint_markdown.ps1` -> `MDLINT_EXIT=0`
+- `alati/ci_smoke.ps1` -> `CI_SMOKE_EXIT=0`

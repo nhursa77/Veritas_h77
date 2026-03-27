@@ -7,8 +7,8 @@ Datum: 27.03.2026.
 - Trenutni commit: `ea183f7` - sanacija kratkih clanaka zup prema
   kontrolnom izvjestaju (Z96)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 98
-  (revizija heuristike validacije ZUP kontrole)
+- Zadnji dovršeni zadatak: ZADATAK 99
+  (utvrdjen rezim konverzije ZUS u JSON)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -39,6 +39,12 @@ Datum: 27.03.2026.
   kratke članke, a ne truncation artefakt. Ponovljena validacija daje:
   `CONTROL_COUNT=171`, `NN_COUNT=171`, `MISSING_COUNT=0`,
   `SHORT_COUNT=15`, `CONTROL_TRUNCATION_SUSPECTED=False`.
+- ZADATAK 99: utvrdjen je kanonski rezim konverzije za
+  `zakon_o_upravnim_sporovima` u dokumentu
+  `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`.
+  Kako na NN pretrazi nije dokazan valjan procisceni signal,
+  operativna odluka je:
+  `REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -46,13 +52,13 @@ Datum: 27.03.2026.
   `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci logicni smjer: revizija heuristike i/ili dodatna sanacija za
-  preostali `SHORT_COUNT=15` i
-  `CONTROL_TRUNCATION_SUSPECTED=False`.
+- Sljedeci logicni smjer: priprema manifesta ingest-a za ZUS prema
+  odabranom rezimu (`PREKRSAJNI_ZAKON_MODEL`).
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: priprema sljedeceg zakona iz paketa A.
+- Sljedeci logicki korak: priprema izvornog paketa za
+  `zakon_o_upravnim_sporovima` (core + amandmani + kontrolni sloj).
 
 ## Pravilo sinkronizacije
 
