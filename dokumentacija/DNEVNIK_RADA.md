@@ -2848,3 +2848,36 @@ Dokazne naredbe:
   "zakon_o_opcem_upravnom_postupku"
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+## Datum: 27.03.2026 (ZADATAK 97 - uskladjenje statusa nakon Z96)
+
+Provedeno je servisno uskladjenje statusnog dokumenta nakon Z96.
+
+Utvrdeno stanje prije uskladjenja:
+
+- statusni dokument je bio neusklađen po commit/hash tragu
+- Z96 ostaje zadnji dovrseni zadatak
+
+Primijenjeno uskladjenje:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` je poravnat sa stvarnim
+  stanjem repoa
+- `Trenutni commit` i `lokalni hash` uskladjeni su na stvarni zadnji
+  commit nakon Z96
+- odredjen je sljedeci logicki korak nakon Z96:
+  revizija heuristike i/ili dodatna sanacija za preostali
+  `SHORT_COUNT=15` i `CONTROL_TRUNCATION_SUSPECTED=True`
+
+Napomena:
+
+- nema novih operativnih promjena na ZUP setu
+- ingest, validator i heuristika nisu mijenjani u ovom zadatku
+
+Dokazne naredbe:
+
+- git status --short
+- git --no-pager log -1 --oneline
+- git branch -vv
+- Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

@@ -4,8 +4,8 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `aaa3a2a` - kontrolna usporedba zup json sa zakon hr
-  (Z95)
+- Trenutni commit: `ea183f7` - sanacija kratkih clanaka zup prema
+  kontrolnom izvjestaju (Z96)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
 - Zadnji dovršeni zadatak: ZADATAK 96
   (ciljana sanacija kratkih/sumnjivo kratkih ZUP članaka)
@@ -40,14 +40,15 @@ Datum: 27.03.2026.
   `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci logicni smjer: provedba prioriteta konverzije zakona u JSON
-  prema kanonskom dokumentu
-  `dokumentacija/PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`.
+- Sljedeci logicni smjer: revizija heuristike i/ili dodatna sanacija za
+  preostali `SHORT_COUNT=15` i
+  `CONTROL_TRUNCATION_SUSPECTED=True`.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; kontrolni izvor i dalje nosi heuristicko
   upozorenje `CONTROL_TRUNCATION_SUSPECTED=True`).
-- Sljedeci logicki korak: sistemska sanacija preostalih clanaka s ingest
-  artefaktom prijelaznih naslova i vodeceg prefiksa `". "`.
+- Sljedeci logicki korak: revizija heuristike i/ili dodatna sanacija za
+  preostali `SHORT_COUNT=15` i
+  `CONTROL_TRUNCATION_SUSPECTED=True`.
 
 ## Pravilo sinkronizacije
 
@@ -58,7 +59,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `837a2b4`
+- lokalni hash: `ea183f7`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
