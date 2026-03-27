@@ -2115,3 +2115,38 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+---
+
+## Datum: 27.03.2026 (ZADATAK 79 - rangiranje sljedeceg homogenog niza)
+
+Proveden je analiza-only korak za odabir sljedeceg homogenog paketa bez
+zatvaranja novih natuknica.
+
+Napravljena je skripta:
+
+- `alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`
+
+Generirani su izlazi:
+
+- `baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json`
+- `baza_terminologije/rjecnik/`
+  `rang_lista_homogenih_nizova_za_paket_manifest.json`
+
+Rezultat rangiranja:
+
+- preporuceni sljedeci homogeni niz: `dokaz` + `prekrsajni_zakon`
+- score preporuke: `550`
+- broj novih zatvaranja u ovom koraku: `0`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`
+- `Get-Content ./dokumentacija/DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `./dokumentacija/DNEVNIK_RADA.md -EntryPath $entryPath`

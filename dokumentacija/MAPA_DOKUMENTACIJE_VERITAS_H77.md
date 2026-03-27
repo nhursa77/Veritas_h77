@@ -183,6 +183,10 @@ Operativno zatvaranje izvode skripte
 `alati/zatvori_sljedecu_validiranu_gransku_natuknicu.py` i
 `alati/zatvori_jos_jednu_validiranu_gransku_natuknicu.py` i
 `alati/zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`.
+Za analiza-only odabir sljedeceg paketa koristi se skripta
+`alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`, koja generira
+`baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json`
+i pripadni manifest bez zatvaranja novih natuknica.
 
 ### `STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 Definira kanonski model sinkronizacije lokalnog repoa, GitHuba i

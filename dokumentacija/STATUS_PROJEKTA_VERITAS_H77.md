@@ -4,15 +4,15 @@ Datum: 25.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `3bcb678` - docs: ispravljen markdown lint u analizi
-  skoka
+- Trenutni commit: `267bd5b` - paketno zatvorene jednoznacne natuknice
+  apsolutne nenadleznosti
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 78
-  (paketno zatvaranje jednoznacnih natuknica iz homogenog niza)
+- Zadnji dovršeni zadatak: ZADATAK 79
+  (analiza i rangiranje sljedeceg homogenog niza za paket)
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeći korak: zatvoriti novu sljedecu potpuno validiranu natuknicu po
-  istom deterministicnom modelu ili evidentirati da nema kandidata.
+- Sljedeci korak: paketno zatvaranje sljedeceg homogenog niza prema
+  rang-listi (preporuka: `dokaz` + `prekrsajni_zakon`).
 
 ## Pravilo sinkronizacije
 
@@ -191,3 +191,12 @@ Trenutno stanje sinkronizacije (pre-check):
   `apsolutna nenadležnost — prekršajni zakon`: `čl. 161`.
 - Izvan paketa su evidentirane vec zatvorene stavke `101`, `102`, `103`,
   `122` kao preskocene u manifestu s razlogom.
+
+### Rangiranje sljedeceg homogenog niza (ZADATAK 79)
+
+- Dodana je skripta `alati/rangiraj_sljedeci_homogeni_niz_za_paket.py`.
+- Generirani su:
+  `rang_lista_homogenih_nizova_za_paket.json` i pripadni manifest.
+- Korak je analiza-only: broj novih zatvaranja u ovom zadatku je `0`.
+- Top preporuka za sljedeci paket je niz:
+  `dokaz` + `prekrsajni_zakon` (score `550`).

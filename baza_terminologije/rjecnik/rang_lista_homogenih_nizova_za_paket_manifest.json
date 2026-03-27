@@ -1,0 +1,18 @@
+{
+  "ulaz": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2.json",
+  "ulaz_manifest": "baza_terminologije/rjecnik/granske_podnatuknice_nn_v2_manifest.json",
+  "ulaz_potpuno_validirane": "baza_terminologije/rjecnik/potpuno_validirane_natuknice.json",
+  "ulaz_potpuno_validirane_manifest": "baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json",
+  "izlaz": "baza_terminologije/rjecnik/rang_lista_homogenih_nizova_za_paket.json",
+  "datum_generiranja": "2026-03-27T12:00:01+00:00",
+  "status_zadatka": "RANGIRANJE_HOMOGENIH_NIZOVA_ZAVRSENO",
+  "ukupan_broj_granskih_podnatuknica_u_ulazu": 40,
+  "ukupan_broj_potpuno_validiranih_u_ulazu": 5,
+  "ukupan_broj_homogenih_nizova": 8,
+  "broj_nizova_u_top_10": 8,
+  "preporuceni_nadredeni_kanonski_naziv": "dokaz",
+  "preporuceni_akt_slug": "prekrsajni_zakon",
+  "preporuceni_score": 550,
+  "zatvaranje_novih_natuknica_u_ovom_koraku": 0,
+  "napomena": "Analiza-only korak; bez izmjene potpuno_validirane_natuknice.json."
+}
