@@ -1949,3 +1949,41 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+
+## Datum: 27.03.2026 (ZADATAK 75 - sljedeca potpuno validirana natuknica)
+
+Iz ulaza `granske_podnatuknice_nn_v2.json` deterministicki je zatvorena tocno
+jedna nova potpuno validirana natuknica, razlicita od vec zatvorenih
+`apsolutna nenadležnost — prekršajni zakon — čl. 101` i
+`apsolutna nenadležnost — prekršajni zakon — čl. 102`.
+
+Napravljena je skripta:
+
+- `alati/zatvori_sljedecu_validiranu_gransku_natuknicu.py`
+
+Azurirani su izlazi:
+
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice.json`
+- `baza_terminologije/rjecnik/potpuno_validirane_natuknice_manifest.json`
+
+Pocetni broj potpuno validiranih natuknica: `2`.
+Zavrsni broj potpuno validiranih natuknica: `3`.
+Novo zatvorena natuknica:
+`apsolutna nenadležnost — prekršajni zakon — čl. 103`.
+Broj potvrdenih sidara u novo zatvorenoj natuknici: `1`.
+Zavrsni status:
+`SLJEDECA_POTPUNO_VALIDIRANA_NATUKNICA_ZATVORENA`.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\zatvori_sljedecu_validiranu_gransku_natuknicu.py`
+- `git diff --name-only`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
