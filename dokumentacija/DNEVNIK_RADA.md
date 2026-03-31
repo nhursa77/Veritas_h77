@@ -1679,6 +1679,62 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+## Datum: 31.03.2026 (ZADATAK 119 - ZPD vs zakon.hr)
+
+Za `zakon_o_porezu_na_dohodak_procisceni` provedena je stvarna kontrolna
+usporedba naspram `zakon.hr`, bez novog ingest-a, bez izmjene
+`paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+`dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+
+Osvjezen je kontrolni sloj pod
+`izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak/`.
+Potvrdeni su artefakti `meta.json`,
+`struktura_kontrolno_dokumenti.json`,
+`zakon_o_porezu_na_dohodak_kontrolni.txt` i novi
+`zakon_o_porezu_na_dohodak_zakon_hr.html`.
+
+Generiran je trajni validacijski izvjestaj:
+- `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Rezultat usporedbe:
+- `CONTROL_COUNT=99`
+- `NN_COUNT=99`
+- `MISSING_COUNT=0`
+- `EXTRA_LIST=[]`
+- `SHORT_COUNT=2` (`clanci 28 i 98`)
+- `CONTROL_TRUNCATION_SUSPECTED=False`
+- `ANOMALY_FLAG=False`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug zakon_o_porezu_na_dohodak`
+  `--naziv-akta "Zakon o porezu na dohodak"`
+  `--url "https://www.zakon.hr/z/85/zakon-o-porezu-na-dohodak"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\validiraj_nn_vs_kontrolno.py -AktSlug zakon_o_porezu_na_dohodak`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -ZadnjiZadatak "ZADATAK 119"`
+  `-PolazniHead "4e64c6f"`
+  `-PolazniSubject "feat: stvarni ingest zpd po paketnom manifestu (Z118)"`
+  `-RepoCistPriPrecheck "DA" -PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+Napomena:
+- Commit hash Z119 bit ce potvrden zavrsnim dokazom
+  `git --no-pager log -1 --oneline` nakon scoped commita.
+
+---
 ## Datum: 18.03.2026 (ispravak razlaganja NN kandidata na stvarne kandidate)
 
 Ispravljeno je razlaganje višeznačnih i nejasnih NN sidara tako da se

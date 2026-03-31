@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `1a9c58b` - fix: trajno ispravljen pre-check
-  snapshot i servisno zatvoren z116 (Z117)
+- Polazni HEAD prije zadatka: `4e64c6f` - feat: stvarni ingest zpd po paketnom
+  manifestu (Z118)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 118
+- Zadnji dovršeni zadatak: ZADATAK 119
 
 ## Pregled dovršenih zadataka
 
@@ -165,6 +165,22 @@ Datum: 31.03.2026.
   reportova, uz osvjezen
   `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md` kao stvarni
   nusartefakt ingest-a.
+- ZADATAK 119: provedena je stvarna kontrolna usporedba ZPD JSON seta sa
+  `zakon.hr` za `zakon_o_porezu_na_dohodak` bez novog ingest-a i bez izmjene
+  manifesta `paketi/PAKET_ZPD_V1.json`.
+  Osvjezen je kontrolni sloj pod
+  `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak/`, pri cemu su
+  potvrdeni `meta.json`,
+  `struktura_kontrolno_dokumenti.json`,
+  `zakon_o_porezu_na_dohodak_kontrolni.txt` i novi
+  `zakon_o_porezu_na_dohodak_zakon_hr.html`.
+  Validacija nad
+  `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/` dala je
+  `CONTROL_COUNT=99`, `NN_COUNT=99`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
+  `SHORT_COUNT=2` (`28`, `98`) i
+  `CONTROL_TRUNCATION_SUSPECTED=False`, uz trajni izvjestaj
+  `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 
 ## Operativni sazetak
 
@@ -176,11 +192,11 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (OPZ: nema missing/extra clanaka; za Z111
-  `CONTROL_COUNT=199`, `NN_COUNT=199`, `SHORT_COUNT=19`; nakon validacije
+  (Z119 za ZPD: `CONTROL_COUNT=99`, `NN_COUNT=99`, `MISSING_COUNT=0`,
+  `EXTRA_LIST=[]`, `SHORT_COUNT=2`,
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: stvarna kontrolna usporedba ZPD JSON seta sa
-  `zakon.hr` za `zakon_o_porezu_na_dohodak`.
+- Sljedeci logicki korak: po zasebnom zadatku ciljano procijeniti jesu li
+  kratki ZPD clanci `28` i `98` legitimno kratki ili traze dodatnu sanaciju.
 
 ## Pravilo sinkronizacije
 
@@ -191,8 +207,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `1a9c58b` - fix: trajno ispravljen pre-check
-  snapshot i servisno zatvoren z116 (Z117)
+- Polazni HEAD prije zadatka: `4e64c6f` - feat: stvarni ingest zpd po paketnom
+  manifestu (Z118)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

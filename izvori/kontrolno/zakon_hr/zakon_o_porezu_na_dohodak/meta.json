@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:34 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o porezu na dohodak",
+  "url": "https://www.zakon.hr/z/85/zakon-o-porezu-na-dohodak",
+  "preuzeto_lokalno": "2026-03-31 15:11:30 ",
+  "html_sha256": "7a99c396735e5f99ac526c0d35061bc4ea2339ada8bbdd7cbabb0fddcf0f2ad5",
+  "txt_sha256": "3562c3b0dd8be512f08ab9e3b3b538251e8396ab3b5d2b12e97f3b74c48702d2",
+  "broj_clanaka_u_kontrolnom_txt": 99,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
