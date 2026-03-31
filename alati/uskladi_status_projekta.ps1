@@ -24,6 +24,38 @@ function Write-Utf8NoBom {
     [System.IO.File]::WriteAllText($Path, $Content, $encoding)
 }
 
+function Normalize-ComparableText {
+    param([AllowEmptyString()][string]$Text)
+
+    if ($null -eq $Text) {
+        return ''
+    }
+
+    $normalized = $Text.Normalize([System.Text.NormalizationForm]::FormD)
+    $builder = New-Object System.Text.StringBuilder
+
+    foreach ($char in $normalized.ToCharArray()) {
+        $category = [Globalization.CharUnicodeInfo]::GetUnicodeCategory($char)
+        if ($category -ne [Globalization.UnicodeCategory]::NonSpacingMark) {
+            [void]$builder.Append($char)
+        }
+    }
+
+    return $builder.ToString().Normalize([System.Text.NormalizationForm]::FormKC).ToLowerInvariant()
+}
+
+function Test-LineStartsWith {
+    param(
+        [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Line,
+        [Parameter(Mandatory = $true)][AllowEmptyString()][string]$Prefix
+    )
+
+    return (Normalize-ComparableText -Text $Line).StartsWith(
+        (Normalize-ComparableText -Text $Prefix),
+        [System.StringComparison]::Ordinal
+    )
+}
+
 function Format-HeadBlock {
     param(
         [Parameter(Mandatory = $true)][string]$ShortHash,
@@ -65,9 +97,9 @@ function Replace-BlockLines {
     )
 
     for ($index = 0; $index -lt $Lines.Count; $index++) {
-        if ($Lines[$index].StartsWith($Prefix)) {
+        if (Test-LineStartsWith -Line ([string]$Lines[$index]) -Prefix $Prefix) {
             $removeCount = 1
-            while (($index + $removeCount) -lt $Lines.Count -and $Lines[$index + $removeCount].StartsWith('  ')) {
+            while (($index + $removeCount) -lt $Lines.Count -and (Test-LineStartsWith -Line ([string]$Lines[$index + $removeCount]) -Prefix '  ')) {
                 $removeCount++
             }
 
@@ -91,9 +123,9 @@ function Replace-BlockLinesAll {
 
     $replaceCount = 0
     for ($index = 0; $index -lt $Lines.Count; $index++) {
-        if ($Lines[$index].StartsWith($Prefix)) {
+        if (Test-LineStartsWith -Line ([string]$Lines[$index]) -Prefix $Prefix) {
             $removeCount = 1
-            while (($index + $removeCount) -lt $Lines.Count -and $Lines[$index + $removeCount].StartsWith('  ')) {
+            while (($index + $removeCount) -lt $Lines.Count -and (Test-LineStartsWith -Line ([string]$Lines[$index + $removeCount]) -Prefix '  ')) {
                 $removeCount++
             }
 
@@ -108,6 +140,34 @@ function Replace-BlockLinesAll {
     }
 
     return $replaceCount
+}
+
+function Replace-SimpleFieldValue {
+    param(
+        [Parameter(Mandatory = $true)][System.Collections.ArrayList]$Lines,
+        [Parameter(Mandatory = $true)][string]$Prefix,
+        [Parameter(Mandatory = $true)][string]$Value
+    )
+
+    for ($index = 0; $index -lt $Lines.Count; $index++) {
+        $line = [string]$Lines[$index]
+        if (-not (Test-LineStartsWith -Line $line -Prefix $Prefix)) {
+            continue
+        }
+
+        $separatorIndex = $line.IndexOf(':')
+        $label = if ($separatorIndex -ge 0) {
+            $line.Substring(0, $separatorIndex + 1)
+        }
+        else {
+            $Prefix.TrimEnd()
+        }
+
+        $Lines[$index] = "$label $Value"
+        return $true
+    }
+
+    return $false
 }
 
 function Get-RequiredPrecheckValue {
@@ -162,11 +222,11 @@ try {
 
     $updated = $false
     $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Polazni HEAD prije zadatka:' -NewLines (Format-HeadBlock -ShortHash $headShort -Subject $headSubject)) -gt 0) -or $updated
-    $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Repo čist pri pre-checku:' -NewLines @("- Repo čist pri pre-checku: $repoClean")) -gt 0) -or $updated
-    $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Poravnanje grane pri pre-checku:' -NewLines @("- Poravnanje grane pri pre-checku: $alignment")) -gt 0) -or $updated
+    $updated = (Replace-SimpleFieldValue -Lines $lines -Prefix '- Repo cist pri pre-checku:' -Value $repoClean) -or $updated
+    $updated = (Replace-SimpleFieldValue -Lines $lines -Prefix '- Poravnanje grane pri pre-checku:' -Value $alignment) -or $updated
 
     if ($PSBoundParameters.ContainsKey('ZadnjiZadatak') -and -not [string]::IsNullOrWhiteSpace($ZadnjiZadatak)) {
-        $updated = (Replace-BlockLines -Lines $lines -Prefix '- Zadnji dovršeni zadatak:' -NewLines @("- Zadnji dovršeni zadatak: $ZadnjiZadatak")) -or $updated
+        $updated = (Replace-SimpleFieldValue -Lines $lines -Prefix '- Zadnji dovrseni zadatak:' -Value $ZadnjiZadatak) -or $updated
     }
 
     $content = ($lines -join "`n") + "`n"

@@ -101,7 +101,8 @@ Obavezna pravila:
   zadatka koji tek treba biti commitan
 - skripta `alati/uskladi_status_projekta.ps1` usklađuje samo stabilna
   pre-check polja: `Polazni HEAD prije zadatka`,
-  `Repo čist pri pre-checku` i `Poravnanje grane pri pre-checku`
+  `Repo čist pri pre-checku`, `Poravnanje grane pri pre-checku`
+  i, kad je eksplicitno zadan, `Zadnji dovršeni zadatak`
 - sva pre-check polja u statusu pune se isključivo iz dokazno uhvaćenih
   ulaza s početnog pre-checka; nikad se ne smiju inferirati nakon izmjena
 - `Repo čist pri pre-checku` smije imati samo vrijednost `DA` ili `NE`
@@ -109,8 +110,9 @@ Obavezna pravila:
   `alati/uskladi_status_projekta.ps1` i
   `alati/zatvori_dokumentacijski_korak.ps1` moraju pasti fail-fast
 - skripta smije opcionalno uskladiti i oznaku zadnjeg dovršenog zadatka,
-  ali samo ako je eksplicitno zadana; ne smije preuređivati pregled
-  dovrsenih zadataka
+  ali samo ako je eksplicitno zadana; taj upis mora biti pouzdan i ne smije
+  zahtijevati naknadni ručni patch statusa; skripta ne smije preuređivati
+  pregled dovrsenih zadataka
 - opisni sadržaj zadatka u statusu dopunjava se samo u scoped patchu
 
 ---

@@ -123,6 +123,10 @@ Skripta `alati/uskladi_status_projekta.ps1` smije uskladjivati samo snapshot
 polja iz eksplicitno predanih pre-check ulaza i ne smije rusiti kronoloski
 rastuci poredak pregleda zadataka.
 
+Ako je parametar `-ZadnjiZadatak` eksplicitno predan, skripta mora
+deterministicki i bez rucne intervencije azurirati redak
+`- Zadnji dovršeni zadatak: ...` na proslijedjenu vrijednost.
+
 ---
 
 ## 8) Operativna napomena za Google Disk

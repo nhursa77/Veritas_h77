@@ -4587,3 +4587,53 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 136)
+
+### ZADATAK 136 - trajno ispravljen upis zadnjeg dovrsenog zadatka u statusu
+
+Trajno je ispravljena skripta alati/uskladi_status_projekta.ps1 tako da pri
+eksplicitno zadanom parametru -ZadnjiZadatak pouzdano i deterministicki azurira
+snapshot redak Zadnji dovrseni zadatak u
+dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md, bez naknadnog rucnog patchanja
+statusa.
+
+Kvar je dokazno reproduciran na privremenoj kopiji i zatim stvarno potvrden nad
+samim status dokumentom: nakon patcha skripta je najprije upisala testnu
+vrijednost ZADATAK TEST 136, a potom i realnu vrijednost ZADATAK 136, bez rucne
+intervencije na tom retku.
+
+Mijenjane datoteke:
+
+- `alati/uskladi_status_projekta.ps1`
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK TEST`
+  `136' -PolazniHead '3b9db2f' -PolazniSubject 'docs: servisno uklonjen`
+  `izvan-scope vscode artefakt (Z135)' -RepoCistPriPrecheck 'DA'`
+  `-PoravnanjeGranePriPrecheck 'poravnat'`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK 136'`
+  `-PolazniHead '3b9db2f' -PolazniSubject 'docs: servisno uklonjen izvan-scope`
+  `vscode artefakt (Z135)' -RepoCistPriPrecheck 'DA'`
+  `-PoravnanjeGranePriPrecheck 'poravnat'`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+  `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+  `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+  `dokumentacija/DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

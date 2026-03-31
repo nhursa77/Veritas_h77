@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `d4e7f54` - docs: dokazno dovrsen z133 i uskladen
-  stvarni scope (Z134)
-- Repo čist pri pre-checku: NE
+- Polazni HEAD prije zadatka: `3b9db2f` - docs: servisno uklonjen izvan-scope
+  vscode artefakt (Z135)
+- Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 135
+- Zadnji dovršeni zadatak: ZADATAK 136
 
 ## Pregled dovršenih zadataka
 
@@ -353,6 +353,14 @@ Datum: 31.03.2026.
   kanonski potreban u repou, pa je uklonjen bez ikakvih promjena u zakonima,
   parserima, validatorima ili ZPD dokumentima. Dokumentacijski trag zadržan je
   isključivo na `STATUS_PROJEKTA_VERITAS_H77.md` i `DNEVNIK_RADA.md`.
+- ZADATAK 136: trajno je ispravljena skripta
+  `alati/uskladi_status_projekta.ps1` tako da pri eksplicitno zadanom
+  parametru `-ZadnjiZadatak` deterministicki i bez rucne intervencije mijenja
+  redak `- Zadnji dovršeni zadatak: ...` u
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`.
+  Ispravak je dokazno potvrden stvarnim pokretanjem skripte nad statusom
+  najprije s testnom vrijednoscu `ZADATAK TEST 136`, a zatim s realnom
+  vrijednoscu `ZADATAK 136`, bez naknadnog rucnog patchanja tog retka.
 
 ## Operativni sazetak
 
@@ -364,16 +372,16 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z135 je servisno uklonio jedini preostali izvan-scope artefakt iz radnog
-  stabla, tako da se repo nakon uklanjanja `.vscode/` vratio na čisto git
-  stanje prije dokumentacijskog traga.)
+  (Z136 je trajno uklonio potrebu za rucnim patchanjem snapshot retka
+  `Zadnji dovršeni zadatak` nakon poziva
+  `alati/uskladi_status_projekta.ps1`.)
 - Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
   kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
   koristiti zavrsni ZPD izvjestaj kao ulazni presjek stanja i tek na tvrdim
   fail signalima otvarati novi refresh, ingest ili patch parsera/validatora;
-  servisni trag za Z133-Z135 sada je zatvoren bez preostalih izvan-scope
-  artefakata u radnom stablu.
+  servisni sloj status-sync skripte sada ima deterministicko ponasanje i za
+  `Zadnji dovršeni zadatak`, bez dodatne rucne korekcije.
 
 ## Pravilo sinkronizacije
 
@@ -384,8 +392,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `d4e7f54` - docs: dokazno dovrsen z133 i uskladen
-  stvarni scope (Z134)
+- Polazni HEAD prije zadatka: `3b9db2f` - docs: servisno uklonjen izvan-scope
+  vscode artefakt (Z135)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
