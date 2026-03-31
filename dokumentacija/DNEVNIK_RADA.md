@@ -4028,7 +4028,7 @@ Dokazne naredbe:
 ### ZADATAK 123 - kontrolna usporedba zpd nn 32 2020 sa zakon hr
 
 Dokazno je potvrden poseban zakon.hr zapis za ZPD amandman NN 32/2020 na URL-u
-https://www.zakon.hr/cms.htm?id=43421, bez koristenja konsolidiranog /z/85
+`https://www.zakon.hr/cms.htm?id=43421`, bez koristenja konsolidiranog /z/85
 izvora kao kontrolnog zapisa za amandman.
 
 Pokrenut je stvarni refresh kontrolnog sloja samo za
