@@ -3419,3 +3419,57 @@ Dokazne naredbe:
   `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 111)
+
+### ZADATAK 111 - kontrolna usporedba opz json seta sa zakon hr
+
+Stvarni OPZ kontrolni sloj pod izvori/kontrolno/zakon_hr/opci_porezni_zakon
+osvjezen je sa zakon.hr kroz alati/izgradi_kontrolni_zakon_hr.py bez minimalnog
+patcha alata (KONTROLNI_BUILD_EXIT=0).
+
+Validator alati/validiraj_nn_vs_kontrolno.py stvarno je pokrenut nad
+opci_porezni_zakon i operativnim setom
+baza_zakona/norme/opci_porezni_zakon_procisceni; rezultat usporedbe je
+CONTROL_COUNT=199, NN_COUNT=199, MISSING_COUNT=0, EXTRA_LIST=[], SHORT_COUNT=19,
+CONTROL_TRUNCATION_SUSPECTED=False (VALIDACIJA_EXIT=0).
+
+Trajno su azurirani OPZ kontrolni artefakti meta.json,
+struktura_kontrolno_dokumenti.json i opci_porezni_zakon_kontrolni.txt, nov je
+ostao
+opci_porezni_zakon_zakon_hr.html,
+a trajni validacijski izvjestaj
+baza_zakona/norme/
+opci_porezni_zakon_procisceni/IZVJESTAJ_VALIDACIJE_KONTROLNO.md
+stvarno je ostao na disku.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ opci_porezni_zakon/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ opci_porezni_zakon/`
+  `opci_porezni_zakon_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ opci_porezni_zakon/`
+  `opci_porezni_zakon_zakon_hr.html`
+- `baza_zakona/ norme/ opci_porezni_zakon_procisceni/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug opci_porezni_zakon`
+  `--naziv-akta "Opci porezni zakon" --url`
+  `"https://www.zakon.hr/z/100/opci-porezni-zakon"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe .\alati\validiraj_nn_vs_kontrolno.py`
+  `-AktSlug opci_porezni_zakon`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 111"`
+  `-PolazniHead "f0fafbb" -PolazniSubject "popravak" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`

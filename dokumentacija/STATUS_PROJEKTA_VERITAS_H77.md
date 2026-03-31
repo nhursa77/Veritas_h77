@@ -4,11 +4,10 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `fca2339` - feat: stvarni ingest opz po paketnom
-  manifestu (Z109)
+- Polazni HEAD prije zadatka: `f0fafbb` - popravak
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 110
+- Zadnji dovršeni zadatak: ZADATAK 111
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -119,6 +118,14 @@ Datum: 31.03.2026.
   workspace problema, dok je u
   `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md` saniran jedan
   preostali `MD010` problem (hard tab). Nakon patcha provjere su ciste.
+- ZADATAK 111: provedena je stvarna kontrolna usporedba OPZ JSON seta sa
+  `zakon.hr` za `opci_porezni_zakon`.
+  Kontrolni sloj pod `izvori/kontrolno/zakon_hr/opci_porezni_zakon/`
+  osvjezen je stvarnim `zakon.hr` sadrzajem, validator
+  `alati/validiraj_nn_vs_kontrolno.py` proveden je nad
+  `baza_zakona/norme/opci_porezni_zakon_procisceni/`, a rezultat je:
+  `CONTROL_COUNT=199`, `NN_COUNT=199`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
+  `SHORT_COUNT=19`, `CONTROL_TRUNCATION_SUSPECTED=False`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -127,10 +134,11 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (nema missing/extra clanaka; nakon revizije heuristike
+  (OPZ: nema missing/extra clanaka; za Z111
+  `CONTROL_COUNT=199`, `NN_COUNT=199`, `SHORT_COUNT=19`; nakon validacije
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: provesti kontrolnu usporedbu OPZ JSON seta sa
-  `zakon.hr` za `opci_porezni_zakon`.
+- Sljedeci logicki korak: daljnja konverzija sljedeceg zakona po
+  prioritetnom redoslijedu.
 
 ## Pravilo sinkronizacije
 
@@ -141,8 +149,7 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `fca2339` - feat: stvarni ingest opz po paketnom
-  manifestu (Z109)
+- Polazni HEAD prije zadatka: `f0fafbb` - popravak
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

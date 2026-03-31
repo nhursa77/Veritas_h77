@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "opci_porezni_zakon",
-  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
-  "preuzeto_lokalno": "2026-03-31 12:25:56 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Opci porezni zakon",
+  "url": "https://www.zakon.hr/z/100/opci-porezni-zakon",
+  "preuzeto_lokalno": "2026-03-31 12:52:59 ",
+  "html_sha256": "ffd5c74dd3d9100cbf187b7e34f34843bf878f52f47bf402374ea0a52556c5ab",
+  "txt_sha256": "4d50d6bd3833b1cdacc2f1bc3fcc0e16e7abd8755f47a521b8ae4336321c2fb3",
+  "broj_clanaka_u_kontrolnom_txt": 199,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
