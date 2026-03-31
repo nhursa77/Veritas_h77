@@ -813,7 +813,10 @@ def main() -> int:
     kontrolno_docs_json = REPO_ROOT / "izvori" / "kontrolno" / "zakon_hr" / akt_slug / "struktura_kontrolno_dokumenti.json"
     operativni_slug = resolve_operativni_norme_slug(akt_slug)
     operativne_norme_dir = REPO_ROOT / "baza_zakona" / "norme" / operativni_slug
-    out_report = REPO_ROOT / "baza_zakona" / "norme" / operativni_slug / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+    if operativni_slug.endswith("_procisceni"):
+        out_report = REPO_ROOT / "baza_zakona" / "norme" / operativni_slug / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
+    else:
+        out_report = REPO_ROOT / "baza_zakona" / "sidra" / akt_slug / "IZVJESTAJ_VALIDACIJE_KONTROLNO.md"
 
     override_value, override_raw, override_error = _resolve_expected_count_override(akt_slug)
     if override_raw is not None:
@@ -936,11 +939,11 @@ def main() -> int:
     guardrail_fail = False
     guardrail_exit_code = 0
     guardrail_reason: str | None = None
-    if selected_source_tip_teksta != "procisceni":
+    if selected_source_tip_teksta not in {"procisceni", "amandmani"}:
         guardrail_fail = True
         guardrail_exit_code = 2
         guardrail_reason = (
-            "Odabrani NN izvor nije pročišćeni tekst: "
+            "Odabrani NN izvor nije podrzani tip teksta: "
             f"slug={selected_source_slug}, tip_teksta={selected_source_tip_teksta or 'NONE'}"
         )
     elif selected_source_expected_count is not None and source_selection_mismatch:

@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `4e64c6f` - feat: stvarni ingest zpd po paketnom
-  manifestu (Z118)
+- Polazni HEAD prije zadatka: `6c1108a` - feat: kontrolna usporedba zpd json
+  seta sa zakon hr (Z119)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 119
+- Zadnji dovršeni zadatak: ZADATAK 120
 
 ## Pregled dovršenih zadataka
 
@@ -181,6 +181,26 @@ Datum: 31.03.2026.
   `CONTROL_TRUNCATION_SUSPECTED=False`, uz trajni izvjestaj
   `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 120: provedena je stvarna kontrolna usporedba prvog ZPD amandmana
+  `zakon_o_porezu_na_dohodak_nn_106_2018` sa `zakon.hr`, bez novog ingest-a,
+  bez izmjene manifesta `paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+  `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+  Osvjezen je kontrolni sloj pod
+  `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_106_2018/`, pri
+  cemu su potvrdeni `meta.json`,
+  `struktura_kontrolno_dokumenti.json`,
+  `zakon_o_porezu_na_dohodak_nn_106_2018_kontrolni.txt` i novi
+  `zakon_o_porezu_na_dohodak_nn_106_2018_zakon_hr.html` iz stvarnog izvora
+  `https://www.zakon.hr/cms.htm?id=35597`.
+  Nakon minimalnog patcha u alatima `alati/parsiraj_nn_html.py` i
+  `alati/validiraj_nn_vs_kontrolno.py`, te reparsiranja postojeceg lokalnog NN
+  HTML snapshota za isti amandman, validacija nad
+  `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/` dala je
+  `CONTROL_COUNT=33`, `NN_COUNT=33`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
+  `SHORT_COUNT=9`, `CONTROL_TRUNCATION_SUSPECTED=False` i
+  `ANOMALY_FLAG=False`, uz trajni izvjestaj
+  `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 
 ## Operativni sazetak
 
@@ -192,11 +212,11 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z119 za ZPD: `CONTROL_COUNT=99`, `NN_COUNT=99`, `MISSING_COUNT=0`,
-  `EXTRA_LIST=[]`, `SHORT_COUNT=2`,
-  `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: po zasebnom zadatku ciljano procijeniti jesu li
-  kratki ZPD clanci `28` i `98` legitimno kratki ili traze dodatnu sanaciju.
+  (Z120 za ZPD amandman `NN 106/2018`: `CONTROL_COUNT=33`, `NN_COUNT=33`,
+  `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=9`,
+  `CONTROL_TRUNCATION_SUSPECTED=False`, `ANOMALY_FLAG=False`).
+- Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
+  amandman-po-amandman za preostale ZPD izmjene i dopune.
 
 ## Pravilo sinkronizacije
 
@@ -207,8 +227,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `4e64c6f` - feat: stvarni ingest zpd po paketnom
-  manifestu (Z118)
+- Polazni HEAD prije zadatka: `6c1108a` - feat: kontrolna usporedba zpd json
+  seta sa zakon hr (Z119)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

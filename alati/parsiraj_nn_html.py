@@ -255,7 +255,7 @@ def _detektiraj_switch_dokumenta(line: str) -> dict | None:
 
 
 def parsiraj_dokumente_nn(lines: list[str], meta: dict) -> tuple[list[dict], list[str], list[str]]:
-    pattern = re.compile(r"^\s*[ČC]lanak\s+([\dIl]+)\s*(.*)$", flags=re.IGNORECASE)
+    pattern = re.compile(r"^\s*[ČC]lanak\s+([\dIl]+)\.?\s*(?:\(.*\))?\s*$", flags=re.IGNORECASE)
     rimski_pattern = re.compile(r"^([IVXLCDM]{1,10})\.?\s*(.*)$", flags=re.IGNORECASE)
 
     upozorenja: list[str] = []
@@ -332,7 +332,7 @@ def parsiraj_dokumente_nn(lines: list[str], meta: dict) -> tuple[list[dict], lis
             if korekcija and korekcija not in typo_headers:
                 typo_headers.append(korekcija)
 
-            ostatak = m.group(2).strip()
+            ostatak = ""
             rimski_match = rimski_pattern.match(ostatak) if ostatak else None
             if rimski_match:
                 kandidat = rimski_match.group(1).upper()

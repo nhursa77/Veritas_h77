@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_106_2018",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:36 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=35597",
+  "preuzeto_lokalno": "2026-03-31 15:26:51 ",
+  "html_sha256": "98c467e140e8fa9d779f038dcf776c6585617e5f494f5d5ac9eb8565bc3d9279",
+  "txt_sha256": "258f321a657bc3d37c8dc54d7413ca37f09576cd8a871c87c4d1af26526a125b",
+  "broj_clanaka_u_kontrolnom_txt": 33,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }

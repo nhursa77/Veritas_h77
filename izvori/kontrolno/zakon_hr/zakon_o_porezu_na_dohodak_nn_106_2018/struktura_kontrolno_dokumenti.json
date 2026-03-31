@@ -6,8 +6,8 @@
   "dokumenti": [
     {
       "doc_id": "zakon_o_porezu_na_dohodak_nn_106_2018_procisceni",
-      "tip": "zakon_procisceni",
-      "nn": "NN 106/2018",
+      "tip": "ustav_procisceni",
+      "nn": null,
       "naslov": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
       "clanci": [
         {
@@ -85,7 +85,7 @@
         {
           "broj": 9,
           "naslov": null,
-          "tekst": "U članku 21. stavku 3. iza riječi: »odobravanju kredita« zarez i riječi: »dodjela ili opcijska kupnja vlastitih dionica po povoljnijim uvjetima« brišu se, a riječi: »kamate od 3%« zamjenjuju se riječima: »kamate od 2%«. U stavku 4. iza točke 2. dodaje se točka 3. koja glasi: »3. primici u naravi po osnovi dodjele ili opcijske kupnje vlastitih dionica po povoljnijim uvjetima koje poslodavci i isplatitelji primitka odnosno plaće iz stavaka 1. i 2. ovoga članka daju radnicima i fizičkim osobama koje ostvaruju primitke iz stavaka 1. i 2. ovoga članka.«. U stavku 5. iza riječi: »Zakona« umjesto točke stavlja se zarez i dodaju riječi koje glase: »osim primitaka iz stavka 4. točke 3. ovoga članka koji se smatraju dohotkom od kapitala iz članka 68. stavka 2. ovoga Zakona.«.",
+          "tekst": "U stavku 4. iza točke 2. dodaje se točka 3. koja glasi: U stavku 5. iza riječi: »Zakona« umjesto točke stavlja se zarez i dodaju riječi koje glase: »osim primitaka iz stavka 4. točke 3. ovoga članka koji se smatraju dohotkom od kapitala iz članka 68. stavka 2. ovoga Zakona.«.",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
@@ -301,25 +301,36 @@
         {
           "broj": 33,
           "naslov": null,
-          "tekst": "Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu 1. siječnja 2019. Klasa: 022-03/18-01/144 Zagreb, 21. studenoga 2018. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 106/2018-2062 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 106/2018 Broj dokumenta u izdanju: 2062 Stranica tiskanog izdanja: 73 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 30.11.2018. ELI: /eli/sluzbeni/2018/106/2062 Osnove porezne pismenosti Nika Šimurina, Ivana Dražić Lutilsky, Dajana Barbić, Martina Dragija Kostić travanj 2018. Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+          "tekst": "Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu 1. siječnja 2019. Klasa: 022-03/18-01/144 Zagreb, 21. studenoga 2018. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Za pristup ovom sadržaju morate biti prijavljeni te imati aktivnu pretplatu Prijavite se Besplatno se registrirajte Više informacija Svaki zakon ima / aktivni sadržaj / pametno označavanje / pripremu za ispis / eko e-oblik Pogledajte npr. Zakon o radu Zahvaljujemo na odazivu :) Sav prihod ide u održavanje i razvoj.",
           "struktura": {
             "stavci": null,
             "glava_rimski": null
           }
         }
-      ]
+      ],
+      "meta": {
+        "char_len": 16167,
+        "cutoff_marker": null
+      }
+    },
+    {
+      "doc_id": "zakon_o_porezu_na_dohodak_nn_106_2018_amandmani",
+      "tip": "amandmani",
+      "nn": null,
+      "naslov": "Amandmani i promjene — Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "clanci": [],
+      "meta": {
+        "char_len": 0,
+        "cutoff_marker": null
+      }
     }
   ],
-  "izvor": {
-    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
-    "datum_pristupa": "31.03.2026.",
-    "tip_sadrzaja": "text/html; charset=utf-8",
-    "sha256_datoteke": "6E6A4D4F5CF037F7B078B338332319973BD00C9D8C0764FFACB2BF1AD1721157",
-    "oznaka_akta": "NN 106/2018"
-  },
   "parsiranje": {
-    "datum_parsiranja": "31.03.2026.",
-    "broj_dokumenata": 1,
-    "broj_clanaka_ukupno": 33
+    "datum_parsiranja": "2026-03-31T15:38:19+02:00",
+    "broj_dokumenata": 2,
+    "procisceni_cutoff_marker": null,
+    "procisceni_char_len": 16167,
+    "amandmani_char_len": 0,
+    "suspected_truncated_headers": []
   }
 }

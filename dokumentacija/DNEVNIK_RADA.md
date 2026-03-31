@@ -1735,6 +1735,87 @@ Napomena:
   `git --no-pager log -1 --oneline` nakon scoped commita.
 
 ---
+## Datum: 31.03.2026 (ZADATAK 120 - prvi ZPD amandman vs zakon.hr)
+
+Za `zakon_o_porezu_na_dohodak_nn_106_2018` provedena je stvarna kontrolna
+usporedba naspram `zakon.hr`, bez novog ingest-a, bez izmjene
+`paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+`dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+
+Za taj je amandman najprije dokazan stvarni `zakon.hr` izvor
+`https://www.zakon.hr/cms.htm?id=35597`, a zatim je osvjezen kontrolni sloj
+pod `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_106_2018/`.
+Potvrdeni su artefakti `meta.json`,
+`struktura_kontrolno_dokumenti.json`,
+`zakon_o_porezu_na_dohodak_nn_106_2018_kontrolni.txt` i novi
+`zakon_o_porezu_na_dohodak_nn_106_2018_zakon_hr.html`.
+
+Prvi validator run je dokazno pao jer je lokalni NN parse za amandman lazno
+izdvajao in-body reference tipa `Članak 45.` i `Članak 68.` kao nove clanke,
+a guardrail u `alati/validiraj_nn_vs_kontrolno.py` nije dopustao
+`tip_teksta=amandmani`. Nakon toga je napravljen minimalni patch u
+`alati/parsiraj_nn_html.py` i `alati/validiraj_nn_vs_kontrolno.py`, pa je bez
+novog ingest-a reparsiran postojeci lokalni NN HTML snapshot za isti amandman.
+
+Generirani su i potvrdeni obnovljeni NN dokazni izlazi pod
+`izvori/dokazno/narodne_novine/zakon_o_porezu_na_dohodak_nn_106_2018/` te
+trajni validacijski izvjestaj:
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Zavrsni rezultat usporedbe:
+- `CONTROL_COUNT=33`
+- `NN_COUNT=33`
+- `MISSING_COUNT=0`
+- `EXTRA_LIST=[]`
+- `SHORT_COUNT=9`
+- `CONTROL_TRUNCATION_SUSPECTED=False`
+- `GUARDRAIL_FAIL=False`
+- `ANOMALY_FLAG=False`
+
+Mijenjane datoteke:
+
+- `alati/parsiraj_nn_html.py`
+- `alati/validiraj_nn_vs_kontrolno.py`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/dokazno/narodne_novine/zakon_o_porezu_na_dohodak_nn_106_2018/`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_106_2018/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_106_2018`
+  `--naziv-akta "Zakon o izmjenama i dopunama Zakona o porezu na dohodak"`
+  `--url "https://www.zakon.hr/cms.htm?id=35597"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/validiraj_nn_vs_kontrolno.py -AktSlug`
+  `zakon_o_porezu_na_dohodak_nn_106_2018`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/parsiraj_nn_html.py --akt-slug zakon_o_porezu_na_dohodak_nn_106_2018`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/uskladi_status_projekta.ps1 -ZadnjiZadatak "ZADATAK 120"`
+  `-PolazniHead "6c1108a"`
+  `-PolazniSubject "feat: kontrolna usporedba zpd json seta sa zakon hr (Z119)"`
+  `-RepoCistPriPrecheck "DA" -PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/provjeri_markdown_scope.ps1`
+  `./dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+  `./dokumentacija/DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/ci_smoke.ps1`
+
+Napomena:
+- Commit hash Z120 bit ce potvrden zavrsnim dokazom
+  `git --no-pager log -1 --oneline` nakon scoped commita.
+
+---
 ## Datum: 18.03.2026 (ispravak razlaganja NN kandidata na stvarne kandidate)
 
 Ispravljeno je razlaganje višeznačnih i nejasnih NN sidara tako da se
