@@ -1,6 +1,6 @@
 # MAPA_DOKUMENTACIJE_VERITAS_H77
 
-Datum: 17.02.2026.
+Datum: 31.03.2026.
 Status: kanonski
 Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
@@ -305,7 +305,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
 - Razvojne faze i redoslijed rada pripadaju `RAZVOJNI_PLAN_VERITAS_H77.md`.
 - Operativni paketni manifesti ingest-a pripadaju mapi `paketi/`.
 - Aktivni paketni manifesti za ingest su `paketi/PAKET_PREKRSAJNI_V1.json`,
-  `paketi/PAKET_ZUP_V1.json` i `paketi/PAKET_ZUS_V1.json`.
+  `paketi/PAKET_ZUP_V1.json`, `paketi/PAKET_ZUS_V1.json` i
+  `paketi/PAKET_OPZ_V1.json`.
 - Trajni kontrolni izvjestaj usporedbe ZUP JSON seta s kontrolnim slojem
   zakon.hr je
   `baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/

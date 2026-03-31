@@ -1,0 +1,92 @@
+{
+  "paket": {
+    "slug": "opz_v1",
+    "naziv": "OPZ paket v1",
+    "napomena": "Dokazni izvor je NN; kontrolni izvor je zakon.hr samo za validaciju; rezim je model core + amandmani jer zakon.hr vodi vazeci procisceni tekst kao skup NN 115/16, 106/18, 121/19, 32/20, 42/20, 114/22, 152/24 i 151/25"
+  },
+  "akti": [
+    {
+      "akt_slug": "opci_porezni_zakon",
+      "oznaka_akta": "NN 115/2016",
+      "naziv_akta": "Op\u0107i porezni zakon",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/pdf",
+      "tip_teksta": "procisceni",
+      "required": true
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_106_2018",
+      "oznaka_akta": "NN 106/2018",
+      "naziv_akta": "Zakon o izmjenama i dopunama Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_121_2019",
+      "oznaka_akta": "NN 121/2019",
+      "naziv_akta": "Zakon o izmjenama i dopunama Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_32_2020",
+      "oznaka_akta": "NN 32/2020",
+      "naziv_akta": "Zakon o dopuni Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/pdf",
+      "pdf_title_anchor": "ZAKON O DOPUNI OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_42_2020",
+      "oznaka_akta": "NN 42/2020",
+      "naziv_akta": "Zakon o dopuni Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/pdf",
+      "pdf_title_anchor": "ZAKON O DOPUNI OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_114_2022",
+      "oznaka_akta": "NN 114/2022",
+      "naziv_akta": "Zakon o izmjenama Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/1677",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_152_2024",
+      "oznaka_akta": "NN 152/2024",
+      "naziv_akta": "Zakon o izmjenama i dopunama Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "opci_porezni_zakon_nn_151_2025",
+      "oznaka_akta": "NN 151/2025",
+      "naziv_akta": "Zakon o izmjenama i dopunama Op\u0107eg poreznog zakona",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA OP\u0106EG POREZNOG ZAKONA",
+      "tip_teksta": "amandmani",
+      "required": false
+    }
+  ],
+  "kontrolni_izvor": {
+    "zakon_hr_url": "https://www.zakon.hr/z/100/opci-porezni-zakon",
+    "napomena": "zakon.hr se koristi iskljucivo za usporedbu i validaciju konsolidiranog JSON formata; primarni izvor ostaju Narodne novine"
+  }
+}

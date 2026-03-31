@@ -3200,3 +3200,35 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 106)
+
+### ZADATAK 106 - pripremljen manifest ingest-a za OPZ
+
+Iz kanonskog dokumenta prioriteta potvrdeno je da nakon ZUP-a i ZUS-a
+slijedi `opci_porezni_zakon`.
+
+Repo pretraga nije pokazala postojeceg OPZ manifesta ni raniji operativni trag.
+
+Vanjska potvrda sa `zakon.hr` pokazala je da se vazeci tekst vodi kao
+procisceni prikaz sastavljen od `NN 115/16`, `106/18`, `121/19`, `32/20`,
+`42/20`, `114/22`, `152/24` i `151/25`.
+
+Dodan je `paketi/PAKET_OPZ_V1.json` kao manifest modela `core + amandmani`.
+
+Azurirani su:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+- `Invoke-WebRequest -Method Head`
+  `https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519`
+- `Invoke-WebRequest -Method Head`
+  `https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263`

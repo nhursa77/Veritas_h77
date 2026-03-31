@@ -4,11 +4,10 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `38b3920` - docs: servisno zatvoren z103 i saniran
-  dnevnik (Z104)
+- Trenutni commit: `cff5552` - feat: uveden status sync i markdown
+  preflight za dokumentaciju (Z105)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 105
-  (uveden status sync i markdown preflight za dokumentaciju)
+- Zadnji dovršeni zadatak: ZADATAK 106
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -98,6 +97,12 @@ Datum: 31.03.2026.
   heading disciplinu, pravila za MD024/MD026/MD013 i obvezni servisni
   redoslijed: pre-check -> before-tail -> izmjena -> markdown scope
   provjera -> puni gateovi -> commit.
+- ZADATAK 106: pripremljen je manifest ingest-a
+  `paketi/PAKET_OPZ_V1.json` za `opci_porezni_zakon`.
+  Na temelju prioritetnog reda i vanjske potvrde sa `zakon.hr`, OPZ se vodi
+  kao model `core + amandmani` nad nizom `NN 115/16`, `106/18`, `121/19`,
+  `32/20`, `42/20`, `114/22`, `152/24` i `151/25`, uz `zakon.hr` samo kao
+  kontrolni izvor.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -108,8 +113,8 @@ Datum: 31.03.2026.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: primijeniti novi status sync i markdown
-  preflight sloj na sljedećem scoped dokumentacijskom ili ingest zadatku.
+- Sljedeci logicki korak: provesti stvarni ingest manifesta
+  `paketi/PAKET_OPZ_V1.json` za `opci_porezni_zakon`.
 
 ## Pravilo sinkronizacije
 
@@ -120,7 +125,7 @@ Datum: 31.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `38b3920`
+- lokalni hash: `cff5552`
 - `git status --short`: prazan
 - main poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
