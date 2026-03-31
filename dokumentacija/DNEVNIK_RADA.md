@@ -3989,3 +3989,36 @@ Dokazne naredbe:
 - `Get-ChildItem .\baza_zakona\sidra\zakon_o_porezu_na_dohodak_nn_*`
 - `Get-ChildItem .\izvori\dokazno\narodne_novine\zakon_o_porezu_na_dohodak*`
 - `Get-ChildItem .\izvori\kontrolno\zakon_hr\zakon_o_porezu_na_dohodak*`
+
+## Datum: 31.03.2026 (ZADATAK 122)
+
+### ZADATAK 122 - servisno potvrden i sinkroniziran z121 push
+
+Dokazno je utvrdjeno da commit 454ab6f nije bio na origin/main: lokalni main je
+bio ahead 1, a git ls-remote je pokazao remote hash e286e72.
+
+Nakon toga je dovrsen git push za Z121, potvrdeno je da origin/main sada
+pokazuje 454ab6f, a statusni snapshot je servisno uskladjen kanonskom skriptom
+bez sirenja scopea izvan statusa i dnevnika.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `git ls-remote --heads origin main`
+- `git push`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 121"`
+  `-PolazniHead "e286e72" -PolazniSubject "feat: kontrolna usporedba zpd nn 106`
+  `2018 sa zakon hr (Z120)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
+- `alati/generiraj_dnevnicki_unos.ps1`
+- `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
