@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `16cac27` - docs: utvrdjen rezim konverzije zpd u
-  json (Z114)
-- Repo čist pri pre-checku: DA
+- Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
+  status synca (Z115)
+- Repo čist pri pre-checku: NE
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 114
+- Zadnji dovršeni zadatak: ZADATAK 116
 
 ## Pregled dovršenih zadataka
 
@@ -147,6 +147,10 @@ Datum: 31.03.2026.
   `151/2022`, `114/2023` i `152/2024`, bez dokaza jednog zasebnog važeceg
   prociscenog NN akta, pa je odabran
   `REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL`.
+- ZADATAK 116: pripremljen je manifest ingest-a
+  `paketi/PAKET_ZPD_V1.json` za `zakon_o_porezu_na_dohodak` po vec utvrdjenom
+  modelu `core + amandmani`, s primarnim dokaznim izvorom u Narodnim
+  novinama i `zakon.hr` samo kao kontrolnim izvorom za kasniju validaciju.
 
 ## Operativni sazetak
 
@@ -161,9 +165,8 @@ Datum: 31.03.2026.
   (OPZ: nema missing/extra clanaka; za Z111
   `CONTROL_COUNT=199`, `NN_COUNT=199`, `SHORT_COUNT=19`; nakon validacije
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: daljnja konverzija sljedeceg zakona po
-  prioritetnom redoslijedu, sada kroz pripremu manifesta ingest-a za
-  `zakon_o_porezu_na_dohodak` po modelu `core + amandmani`.
+- Sljedeci logicki korak: stvarni ingest po
+  `paketi/PAKET_ZPD_V1.json` za `zakon_o_porezu_na_dohodak`.
 
 ## Pravilo sinkronizacije
 
@@ -174,9 +177,9 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `16cac27` - docs: utvrdjen rezim konverzije zpd u
-  json (Z114)
-- Repo čist pri pre-checku: DA
+- Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
+  status synca (Z115)
+- Repo čist pri pre-checku: NE
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 

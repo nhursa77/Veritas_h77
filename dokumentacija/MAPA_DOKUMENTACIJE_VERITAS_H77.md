@@ -316,7 +316,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
 - Operativni paketni manifesti ingest-a pripadaju mapi `paketi/`.
 - Aktivni paketni manifesti za ingest su `paketi/PAKET_PREKRSAJNI_V1.json`,
   `paketi/PAKET_ZUP_V1.json`, `paketi/PAKET_ZUS_V1.json` i
-  `paketi/PAKET_OPZ_V1.json`.
+  `paketi/PAKET_OPZ_V1.json` i `paketi/PAKET_ZPD_V1.json`.
 - Trajni kontrolni izvjestaj usporedbe ZUP JSON seta s kontrolnim slojem
   zakon.hr je
   `baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/

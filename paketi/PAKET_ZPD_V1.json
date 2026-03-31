@@ -1,0 +1,92 @@
+{
+  "paket": {
+    "slug": "zpd_v1",
+    "naziv": "ZPD paket v1",
+    "napomena": "Primarni dokazni izvor su Narodne novine; kontrolni izvor je zakon.hr samo za validaciju; rezim je vec utvrdjeni model core + amandmani prema Z114 nad nizom NN 115/16, 106/18, 121/19, 32/20, 138/20, 151/22, 114/23 i 152/24"
+  },
+  "akti": [
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak",
+      "oznaka_akta": "NN 115/2016",
+      "naziv_akta": "Zakon o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2525/pdf",
+      "tip_teksta": "procisceni",
+      "required": true
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_106_2018",
+      "oznaka_akta": "NN 106/2018",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2062/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_121_2019",
+      "oznaka_akta": "NN 121/2019",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2385/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_32_2020",
+      "oznaka_akta": "NN 32/2020",
+      "naziv_akta": "Zakon o izmjeni i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_03_32_692.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/692/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENI I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_138_2020",
+      "oznaka_akta": "NN 138/2020",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/138/2625/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_151_2022",
+      "oznaka_akta": "NN 151/2022",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/151/2337/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_114_2023",
+      "oznaka_akta": "NN 114/2023",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2023/114/1609/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    },
+    {
+      "akt_slug": "zakon_o_porezu_na_dohodak_nn_152_2024",
+      "oznaka_akta": "NN 152/2024",
+      "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2505/pdf",
+      "pdf_title_anchor": "ZAKON O IZMJENAMA I DOPUNAMA ZAKONA O POREZU NA DOHODAK",
+      "tip_teksta": "amandmani",
+      "required": false
+    }
+  ],
+  "kontrolni_izvor": {
+    "zakon_hr_url": "https://www.zakon.hr/z/85/zakon-o-porezu-na-dohodak",
+    "napomena": "zakon.hr se koristi iskljucivo kao kontrolni izvor za usporedbu i validaciju konsolidiranog JSON formata; primarni dokazni izvor ostaju Narodne novine"
+  }
+}

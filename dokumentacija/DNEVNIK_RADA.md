@@ -3634,3 +3634,40 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z115_dnevnik.md`
+
+## Datum: 31.03.2026 (ZADATAK 116)
+
+### ZADATAK 116 - pripremljen manifest ingest-a za zpd
+
+Za ZPD je u ovom koraku koristen vec utvrdjeni rezim iz Z114, odnosno
+PREKRSAJNI_ZAKON_MODEL u obrascu core + amandmani, bez ponovnog odlucivanja o
+rezimu.
+
+Ingest nije raden. Izradjen je samo kanonski manifest paketi/PAKET_ZPD_V1.json s
+izvorim NN nizom 115/2016, 106/2018, 121/2019, 32/2020, 138/2020, 151/2022,
+114/2023 i 152/2024 te s zakon.hr kao kontrolnim izvorom.
+
+Azurirani su dokumenti dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md i
+dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md, a status sync je dokazno
+pokrenut tijekom zadatka i ponovno se pokrece prije commita.
+
+Mijenjane datoteke:
+
+- `paketi/PAKET_ZPD_V1.json`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 116"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\generiraj_dnevnicki_unos.ps1 -BrojZadatka 116 -Naslov "pripremljen`
+  `manifest ingest-a za zpd"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z116_dnevnik.md`
