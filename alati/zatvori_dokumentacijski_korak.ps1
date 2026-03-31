@@ -58,7 +58,7 @@ function Invoke-PwshStep {
     param(
         [Parameter(Mandatory = $true)][string]$StepName,
         [Parameter(Mandatory = $true)][string]$ScriptPath,
-        [Parameter(Mandatory = $true)][string[]]$Arguments
+        [AllowEmptyCollection()][string[]]$Arguments = @()
     )
 
     Write-Host "DOC_CLOSE_STEP_BEGIN=$StepName"

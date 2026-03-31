@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `104a5cf` - feat: refaktoriran statusni trag i
-  automatizirano zatvaranje dokumentacije (Z108)
+- Polazni HEAD prije zadatka: `fca2339` - feat: stvarni ingest opz po paketnom
+  manifestu (Z109)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 109
+- Zadnji dovršeni zadatak: ZADATAK 110
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -112,6 +112,13 @@ Datum: 31.03.2026.
   pod `baza_zakona/norme/opci_porezni_zakon_procisceni/` i sidrisni setovi
   za svih sedam amandmanskih NN akata pod `baza_zakona/sidra/`, uz selection
   reportove i kontrolne direktorije koje je ingest workflow stvarno generirao.
+- ZADATAK 110: izvrsena je servisna sanacija workspace problema nakon Z109.
+  Dokazni audit prije patcha pokazao je da obje PowerShell skripte
+  `alati/generiraj_dnevnicki_unos.ps1` i
+  `alati/zatvori_dokumentacijski_korak.ps1` trenutno nemaju prijavljenih
+  workspace problema, dok je u
+  `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md` saniran jedan
+  preostali `MD010` problem (hard tab). Nakon patcha provjere su ciste.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -134,8 +141,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `104a5cf` - feat: refaktoriran statusni trag i
-  automatizirano zatvaranje dokumentacije (Z108)
+- Polazni HEAD prije zadatka: `fca2339` - feat: stvarni ingest opz po paketnom
+  manifestu (Z109)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

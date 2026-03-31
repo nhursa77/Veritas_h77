@@ -3380,3 +3380,42 @@ Dokazne naredbe:
   `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md dokumentacija/DNEVNIK_RADA.md`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 110)
+
+### ZADATAK 110 - sanirani workspace problemi nakon z109
+
+Servisni audit nakon Z109 dokazno je proveden nad tri ciljane datoteke:
+alati/generiraj_dnevnicki_unos.ps1, alati/zatvori_dokumentacijski_korak.ps1 i
+izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md.
+
+Audit prije patcha pokazao je stvarno stanje 0 + 0 + 1: obje PowerShell skripte
+nisu imale workspace ni parser problema, dok je arhivski izvjestaj imao jedan
+MD010 problem na liniji 35 (hard tab).
+
+Minimalnim patchom saniran je samo
+izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md, a nakon patcha
+get_errors i parser provjere vise ne prijavljuju probleme ni u jednoj od tri
+ciljane datoteke.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `functions.get_errors -> alati/generiraj_dnevnicki_unos.ps1,`
+  `alati/zatvori_dokumentacijski_korak.ps1,`
+  `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+- `PowerShell parser -> alati/generiraj_dnevnicki_unos.ps1,`
+  `alati/zatvori_dokumentacijski_korak.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md dokumentacija/DNEVNIK_RADA.md`
+  `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
