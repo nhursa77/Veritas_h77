@@ -3515,3 +3515,45 @@ Dokazne naredbe:
   `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
   `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
   `dokumentacija/DNEVNIK_RADA.md`
+
+## Datum: 31.03.2026 (ZADATAK 113)
+
+### ZADATAK 113 - stvarno normaliziran kronoloski pregled zadataka u statusu
+
+Pregled dovrsenih zadataka u dokumentu
+dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md prije patcha bio je nekronoloski:
+dokazni ispis svih redaka koji pocinju s - ZADATAK napravljen je prije izmjene,
+a dodatna provjera pokazala je da se u istom bloku pregleda nize nalazila stavka
+s manjim brojem ZADATAK 87 ispod vecih brojeva.
+
+Statusni pregled je zatim stvarno normaliziran tako da blok Pregled dovrsenih
+zadataka sadrzi samo zadatkovne stavke poredane uzlazno po broju, a nakon patcha
+ponovno je ispisan dokazni popis svih - ZADATAK redaka i potvrdeno je da je
+ZADATAK 113 zadnja stavka pregleda.
+
+Skriptu alati/uskladi_status_projekta.ps1 nije trebalo dirati jer iz stvarnog
+koda uskladjuje samo snapshot polja i ne dira pregled zadataka.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Select-String -Path .\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -Pattern`
+  `'^- ZADATAK ' | ForEach-Object { $_.Line }`
+- `Select-String -Path .\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -Pattern`
+  `'ZADATAK 87|ZADATAK 89|ZADATAK 112'`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 113"`
+  `-PolazniHead "cc9fa43" -PolazniSubject "docs: kronoloski ureden status`
+  `projekta i pravilo upisa (Z112)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md dokumentacija/DNEVNIK_RADA.md`

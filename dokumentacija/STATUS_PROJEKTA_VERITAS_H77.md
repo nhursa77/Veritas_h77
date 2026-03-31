@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `6b72223` - feat: kontrolna usporedba opz json
-  seta sa zakon hr (Z111)
+- Polazni HEAD prije zadatka: `cc9fa43` - docs: kronoloski ureden status
+  projekta i pravilo upisa (Z112)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 112
+- Zadnji dovršeni zadatak: ZADATAK 113
 
 ## Pregled dovršenih zadataka
 
@@ -135,6 +135,13 @@ Datum: 31.03.2026.
   snapshot stanja na vrhu od pregleda dovrsenih zadataka ispod. `Zadnji
   dovrseni zadatak` vodi se u snapshot bloku na vrhu i kao zadnja stavka
   ovog pregleda; `alati/uskladi_status_projekta.ps1` nije trebalo mijenjati.
+- ZADATAK 113: pregled dovrsenih zadataka u statusu stvarno je normaliziran
+  tako da cijeli blok sadrzi samo stavke zadataka poredane uzlazno po broju,
+  bez manjeg broja ispod veceg. `alati/uskladi_status_projekta.ps1` nije
+  trebalo mijenjati jer ne dira pregled zadataka.
+
+## Operativni sazetak
+
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -158,8 +165,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `6b72223` - feat: kontrolna usporedba opz json
-  seta sa zakon hr (Z111)
+- Polazni HEAD prije zadatka: `cc9fa43` - docs: kronoloski ureden status
+  projekta i pravilo upisa (Z112)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
