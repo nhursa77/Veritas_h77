@@ -1,6 +1,6 @@
 # STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77
 
-Datum: 25.03.2026.
+Datum: 31.03.2026.
 Status: kanonski
 Opseg: sinkronizacija lokalnog repoa, GitHub repozitorija i Google Disk kopije.
 
@@ -93,7 +93,29 @@ Minimalni skup kljucnih datoteka za provjeru:
 
 ---
 
-## 7) Operativna napomena za Google Disk
+## 7) Pravilo statusnog pregleda zadataka
+
+Potrebno je strogo razlikovati dva sloja unutar
+`dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`:
+
+- snapshot stanja na vrhu dokumenta
+- pregled dovrsenih zadataka ispod snapshot bloka
+
+Snapshot blok vodi samo stabilna polja stanja, ukljucujuci i polje
+`Zadnji dovrseni zadatak`.
+
+Pregled dovrsenih zadataka nije append-only dnevnik, ali mora ostati uredjen
+strogo kronoloski od starijeg prema novijem.
+
+Isti zadatak koji je upisan kao `Zadnji dovrseni zadatak` u snapshot bloku
+mora se nalaziti i kao zadnja stavka pregleda dovrsenih zadataka.
+
+Skripta `alati/uskladi_status_projekta.ps1` smije uskladjivati samo snapshot
+polja i ne smije rusiti kronoloski rastuci poredak pregleda zadataka.
+
+---
+
+## 8) Operativna napomena za Google Disk
 
 Google Disk kopija sluzi za:
 

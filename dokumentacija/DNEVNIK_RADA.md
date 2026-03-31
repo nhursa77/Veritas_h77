@@ -3473,3 +3473,45 @@ Dokazne naredbe:
   `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 111"`
   `-PolazniHead "f0fafbb" -PolazniSubject "popravak" -RepoCistPriPrecheck "DA"`
   `-PoravnanjeGranePriPrecheck "poravnat"`
+
+## Datum: 31.03.2026 (ZADATAK 112)
+
+### ZADATAK 112 - kronoloski ureden status projekta i pravilo upisa
+
+Pregled dovrsenih zadataka u dokumentu
+dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md kronoloski je preureden tako da ide
+strogo od starijeg prema novijem, uz jasno odvajanje snapshot bloka na vrhu od
+pregleda dovrsenih zadataka ispod.
+
+Kanonski je odredjeno da se Zadnji dovrseni zadatak vodi u snapshot bloku na
+vrhu i kao zadnja stavka pregleda dovrsenih zadataka, a dokumenti
+STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md i
+STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md dopunjeni su tim pravilom.
+
+Skriptu alati/uskladi_status_projekta.ps1 nije trebalo dirati jer iz stvarnog
+koda uskladjuje samo snapshot polja i ne preureduje pregled zadataka.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 112"`
+  `-PolazniHead "6b72223" -PolazniSubject "feat: kontrolna usporedba opz json`
+  `seta sa zakon hr (Z111)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+  `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+  `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+  `dokumentacija/DNEVNIK_RADA.md`

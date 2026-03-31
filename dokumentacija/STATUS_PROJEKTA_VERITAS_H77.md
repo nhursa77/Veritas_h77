@@ -4,10 +4,14 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `f0fafbb` - popravak
+- Polazni HEAD prije zadatka: `6b72223` - feat: kontrolna usporedba opz json
+  seta sa zakon hr (Z111)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 111
+- Zadnji dovršeni zadatak: ZADATAK 112
+
+## Pregled dovršenih zadataka
+
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -126,6 +130,11 @@ Datum: 31.03.2026.
   `baza_zakona/norme/opci_porezni_zakon_procisceni/`, a rezultat je:
   `CONTROL_COUNT=199`, `NN_COUNT=199`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
   `SHORT_COUNT=19`, `CONTROL_TRUNCATION_SUSPECTED=False`.
+- ZADATAK 112: pregled dovrsenih zadataka u statusu kronoloski je uredjen
+  od starijeg prema novijem, a kanonsko pravilo sada eksplicitno razlikuje
+  snapshot stanja na vrhu od pregleda dovrsenih zadataka ispod. `Zadnji
+  dovrseni zadatak` vodi se u snapshot bloku na vrhu i kao zadnja stavka
+  ovog pregleda; `alati/uskladi_status_projekta.ps1` nije trebalo mijenjati.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -149,7 +158,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `f0fafbb` - popravak
+- Polazni HEAD prije zadatka: `6b72223` - feat: kontrolna usporedba opz json
+  seta sa zakon hr (Z111)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

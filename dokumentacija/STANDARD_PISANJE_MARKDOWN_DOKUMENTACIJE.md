@@ -83,13 +83,24 @@ potrebno uskladiti stvarno stanje projekta.
 Obavezna pravila:
 
 - prije izmjene statusa mora se dokazati stvarni git HEAD
+- `dokumentacija/DNEVNIK_RADA.md` ostaje jedini strogo kronološki
+  append-only dnevnik rada
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` nije dnevnik nego snapshot
+  i sazet pregled dovrsenih zadataka
+- status mora imati snapshot blok na vrhu, a pregled dovrsenih zadataka
+  ispod njega
+- pregled dovrsenih zadataka u statusu mora ici strogo od starijeg prema
+  novijem
+- zadnji dovrseni zadatak mora biti upisan na dva mjesta: u snapshot bloku
+  na vrhu i kao zadnja stavka pregleda dovrsenih zadataka
 - status više ne vodi samoreferencijalni finalni commit/hash kao opis
   zadatka koji tek treba biti commitan
 - skripta `alati/uskladi_status_projekta.ps1` usklađuje samo stabilna
   pre-check polja: `Polazni HEAD prije zadatka`,
   `Repo čist pri pre-checku` i `Poravnanje grane pri pre-checku`
 - skripta smije opcionalno uskladiti i oznaku zadnjeg dovršenog zadatka,
-  ali samo ako je eksplicitno zadana
+  ali samo ako je eksplicitno zadana; ne smije preuređivati pregled
+  dovrsenih zadataka
 - opisni sadržaj zadatka u statusu dopunjava se samo u scoped patchu
 
 ---
