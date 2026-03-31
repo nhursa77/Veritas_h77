@@ -4,9 +4,10 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `4798104` - docs: saniran md034 u dnevniku rada
+- Polazni HEAD prije zadatka: `494b307` - feat: kontrolna usporedba zpd nn 138
+  2020 sa zakon hr (Z124)
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat
+- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
 - Zadnji dovršeni zadatak: ZADATAK 123
 
 ## Pregled dovršenih zadataka
@@ -283,9 +284,10 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `4798104` - docs: saniran md034 u dnevniku rada
+- Polazni HEAD prije zadatka: `494b307` - feat: kontrolna usporedba zpd nn 138
+  2020 sa zakon hr (Z124)
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat
+- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi

@@ -4078,7 +4078,7 @@ Dokazne naredbe:
 ### ZADATAK 124 - kontrolna usporedba zpd nn 138 2020 sa zakon hr
 
 Dokazno je potvrden poseban zakon.hr zapis za ZPD amandman NN 138/2020 na URL-u
-https://www.zakon.hr/cms.htm?id=46522, bez koristenja konsolidiranog /z/85
+`https://www.zakon.hr/cms.htm?id=46522`, bez koristenja konsolidiranog /z/85
 izvora kao kontrolnog zapisa za amandman.
 
 Pokrenut je stvarni refresh kontrolnog sloja samo za
@@ -4123,3 +4123,41 @@ Dokazne naredbe:
   `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 124"`
   `-PolazniHead 4798104 -PolazniSubject "docs: saniran md034 u dnevniku rada"`
   `-RepoCistPriPrecheck DA -PoravnanjeGranePriPrecheck poravnat`
+
+## Datum: 31.03.2026 (ZADATAK 125)
+
+### ZADATAK 125 - sinkroniziran z124 push i saniran md034 u dnevniku
+
+Servisno je potvrdeno da je Z124 commit postojao lokalno kao 494b307 i da prije
+pusha nije bio sinkroniziran na origin/main, nakon cega je izvrsen git push i
+potvrdena sinkronizacija glavne grane.
+
+U dnevniku je minimalno saniran preostali MD034 no-bare-urls trag iz Z124 unosa
+tako da je dokazni zakon.hr URL prebacen u markdown-safe inline code oblik bez
+promjene smisla zapisa.
+
+Skripta alati/generiraj_dnevnicki_unos.ps1 je minimalno dopunjena tako da gole
+URL-ove u sazetcima automatski sanitizira u markdown-safe oblik prije upisa, a
+pravilo je evidentirano u dokumentaciji
+STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `alati/generiraj_dnevnicki_unos.ps1`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git push`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 124"`
+  `-PolazniHead 494b307 -PolazniSubject "feat: kontrolna usporedba zpd nn 138`
+  `2020 sa zakon hr (Z124)" -RepoCistPriPrecheck DA -PoravnanjeGranePriPrecheck`
+  `"ispred origin/main (ahead 1)"`

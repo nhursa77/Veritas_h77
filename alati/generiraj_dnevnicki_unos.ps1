@@ -40,6 +40,23 @@ function Remove-HeadingPunctuation {
     return $Text.Trim().TrimEnd('.', ':', ';', '!', '?')
 }
 
+function Convert-BareUrlsToMarkdownSafe {
+    param([Parameter(Mandatory = $true)][string]$Text)
+
+    return [System.Text.RegularExpressions.Regex]::Replace(
+        $Text,
+        '(?<!`)(https?://\S+)',
+        {
+            param($match)
+
+            $value = $match.Groups[1].Value
+            $trimmed = $value.TrimEnd('.', ',', ';', ':', '!', '?')
+            $suffix = $value.Substring($trimmed.Length)
+            return '`' + $trimmed + '`' + $suffix
+        }
+    )
+}
+
 function Wrap-TextBlock {
     param(
         [Parameter(Mandatory = $true)][string]$Text,
@@ -148,7 +165,8 @@ $lines.Add($entryHeading)
 $lines.Add('')
 
 foreach ($paragraph in $Sazetak) {
-    foreach ($wrappedLine in (Wrap-TextBlock -Text $paragraph -FirstPrefix '' -NextPrefix '')) {
+    $safeParagraph = Convert-BareUrlsToMarkdownSafe -Text $paragraph
+    foreach ($wrappedLine in (Wrap-TextBlock -Text $safeParagraph -FirstPrefix '' -NextPrefix '')) {
         $lines.Add($wrappedLine)
     }
     $lines.Add('')

@@ -68,6 +68,10 @@ Obavezna pravila:
   `alati/generiraj_dnevnicki_unos.ps1`
 - novi unos dodaje se u dnevnik isključivo preko
   `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+- goli URL-ovi ne smiju se pojaviti u dnevniku; ako su dio dokaznog traga,
+  moraju biti zapisani u markdown-safe obliku, preferirano kao inline code
+- generator `alati/generiraj_dnevnicki_unos.ps1` mora prije upisa automatski
+  sanitizirati gole URL-ove iz sazetka u markdown-safe oblik
 - prije izmjene obavezan je before-tail ispis
 - nakon dodavanja obavezan je after-tail ispis
 - postojeći sadržaj smije se sanirati samo minimalno i samo kad je to
