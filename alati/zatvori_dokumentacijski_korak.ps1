@@ -125,21 +125,6 @@ try {
     }
     Invoke-PwshStep -StepName 'status_sync' -ScriptPath $statusSyncPath -Arguments $statusArgs
 
-    $generatorArgs = @(
-        '-BrojZadatka',
-        [string]$BrojZadatka,
-        '-Naslov',
-        $Naslov,
-        '-Datum',
-        (Get-Date).ToString('dd.MM.yyyy.'),
-        '-OutputPath',
-        $tempEntryPath,
-        '-Sazetak'
-    ) + $Sazetak + @(
-        '-AzuriraneDatoteke'
-    ) + $AzuriraneDatoteke + @(
-        '-DokazneNaredbe'
-    ) + $DokazneNaredbe
     Invoke-LocalStep -StepName 'generate_diary_entry' -Action {
         & $generatorPath -BrojZadatka $BrojZadatka -Naslov $Naslov -Datum (Get-Date).ToString('dd.MM.yyyy.') -OutputPath $tempEntryPath -Sazetak $Sazetak -AzuriraneDatoteke $AzuriraneDatoteke -DokazneNaredbe $DokazneNaredbe
     }
