@@ -3058,3 +3058,75 @@ Dokazne naredbe:
   `.\alati\acceptance_preflight.ps1 -AktSlug zakon_o_upravnim_sporovima`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026.
+
+### ZADATAK 103 - uskladjen status Z102 i kontrolna usporedba ZUS sa zakon.hr
+
+Najprije je provjeren statusni trag nakon Z102 i uskladjen sa stvarnim
+git stanjem repoa.
+
+Potvrđeno je:
+
+- stvarni zadnji commit prije rada na Z103: `7dd0cb3`
+- `STATUS_PROJEKTA_VERITAS_H77.md` je bio zaostao po poljima
+  `Trenutni commit` i `lokalni hash`
+- statusni hash trag je zatim uskladjen na stvarno stanje nakon Z102
+
+Nakon toga proveden je stvarni kontrolni dohvat sa `zakon.hr` za
+`zakon_o_upravnim_sporovima` i usporedba seta
+`zakon_o_upravnim_sporovima_procisceni`
+sa stvarnim kontrolnim tekstom.
+
+ZUS ostaje vođen kao jedan važeći akt:
+
+- `NN 36/2024` - Zakon o upravnim sporovima
+- `zakon.hr` ostaje samo kontrolni izvor
+
+Nastali artefakti i izvještaji:
+
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+  `zakon_o_upravnim_sporovima_zakon_hr.html`
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+  `zakon_o_upravnim_sporovima_kontrolni.txt`
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/meta.json`
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+  `struktura_kontrolno_dokumenti.json`
+- `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Rezultat usporedbe:
+
+- `CONTROL_COUNT=172`
+- `NN_COUNT=172`
+- `MISSING_COUNT=0`
+- `EXTRA_LIST=[]`
+- `SHORT_COUNT=11`
+- `CONTROL_TRUNCATION_SUSPECTED=False`
+
+Ažurirana dokumentacija:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+
+Sljedeci logicki korak:
+
+- priprema manifesta ingest-a za sljedeći zakon po prioritetnom
+  redoslijedu konverzije
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py`
+  `--akt-slug zakon_o_upravnim_sporovima`
+  `--naziv-akta "Zakon o upravnim sporovima"`
+  `--url "https://www.zakon.hr/z/101/Zakon-o-upravnim-sporovima"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\validiraj_nn_vs_kontrolno.py`
+  `-AktSlug zakon_o_upravnim_sporovima`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

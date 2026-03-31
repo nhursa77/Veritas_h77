@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `b2fc7c5` - docs: pripremljen manifest ingest-a za
-  vazeci zus (Z101)
+- Trenutni commit: `7dd0cb3` - feat: stvarni ingest važećeg zus po
+  paketnom manifestu (Z102)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 102
-  (stvarni ingest vazećeg ZUS-a po paketnom manifestu)
+- Zadnji dovršeni zadatak: ZADATAK 103
+  (uskladjen status Z102 i kontrolna usporedba ZUS sa zakon.hr)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -74,6 +74,20 @@ Datum: 31.03.2026.
   Paketni ingest i zasebni `acceptance_preflight` završili su s
   `exit=0`; preflight je potvrdio `NN_COUNT=172`, `MISSING_COUNT=0`,
   `EXTRA_LIST=[]`, `TIP_ACTUAL=procisceni`.
+- ZADATAK 103: najprije je uskladjen statusni trag nakon Z102 na
+  stvarni git commit `7dd0cb3` i potvrđeno poravnanje grane `main`.
+  Zatim je za `zakon_o_upravnim_sporovima` izgrađen stvarni kontrolni
+  sloj sa `zakon.hr` pod
+  `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+  i provedena puna usporedba NORMA seta
+  `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/`
+  naspram stvarnog kontrolnog teksta.
+  Rezultat usporedbe: `CONTROL_COUNT=172`, `NN_COUNT=172`,
+  `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=11`,
+  `CONTROL_TRUNCATION_SUSPECTED=False`.
+  Generiran je trajni izvještaj:
+  `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -84,8 +98,8 @@ Datum: 31.03.2026.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: kontrolna usporedba ZUS JSON seta sa
-  `zakon.hr` za `zakon_o_upravnim_sporovima`.
+- Sljedeci logicki korak: priprema manifesta ingest-a za sljedeći zakon
+  po prioritetnom redoslijedu konverzije.
 
 ## Pravilo sinkronizacije
 
@@ -96,7 +110,7 @@ Datum: 31.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `b2fc7c5`
+- lokalni hash: `7dd0cb3`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

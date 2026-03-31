@@ -303,6 +303,10 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   zakon.hr je
   `baza_zakona/norme/zakon_o_opcem_upravnom_postupku_procisceni/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- Trajni kontrolni izvjestaj usporedbe ZUS JSON seta s kontrolnim slojem
+  zakon.hr je
+  `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.

@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_upravnim_sporovima",
-  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
-  "preuzeto_lokalno": "2026-03-31 09:55:10 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o upravnim sporovima",
+  "url": "https://www.zakon.hr/z/101/Zakon-o-upravnim-sporovima",
+  "preuzeto_lokalno": "2026-03-31 10:06:44 ",
+  "html_sha256": "5e11e94cc749f53fcbcc54aa089ce96c34457004507045753db1773611a20c56",
+  "txt_sha256": "f670773d59c7ef22a4f79b544c55bc7c7fcf6eff100c83d58c013773707f47f3",
+  "broj_clanaka_u_kontrolnom_txt": 172,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
