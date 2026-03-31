@@ -1,0 +1,123 @@
+# STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE
+
+Datum: 31.03.2026.
+Status: kanonski
+Opseg: pravila za pisanje i servisnu kontrolu projektne markdown
+dokumentacije.
+
+---
+
+## 1) Svrha
+
+Ovaj standard uvodi obaveznu disciplinu za markdown dokumentaciju kako bi
+se spriječili tipični kvarovi u pratećim dokumentima:
+
+- zaostajanje statusnog traga prema stvarnom git stanju
+- dupli headingi (`MD024`)
+- interpunkcija na kraju headinga (`MD026`)
+- predugi redci (`MD013`)
+
+---
+
+## 2) Pravilo headinga
+
+Headingi se pišu kratko, jednoznačno i bez završne interpunkcije.
+
+Obavezna pravila:
+
+- heading ne završava s `.`, `:`, `;`, `!` ili `?`
+- heading mora biti jedinstven unutar iste markdown datoteke
+- ako postoje više unosa istog datuma ili istog zadatka, heading mora imati
+  razlikovni dodatak, npr. `(ZADATAK 104)`
+- datum se može pisati u headingu samo bez završne točke ako je dio samog
+  heading retka
+
+Primjeri ispravno:
+
+- `## Datum: 31.03.2026 (ZADATAK 104)`
+- `### ZADATAK 104 - servisno zatvaranje z103 i sanacija dnevnika`
+
+Primjeri neispravno:
+
+- `## Datum: 31.03.2026.`
+- `### Sažetak.`
+- dva headinga `### Sažetak` u istoj datoteci
+
+---
+
+## 3) Pravilo retka
+
+Za markdown dokumentaciju vrijedi ograničenje `MD013`.
+
+Obavezna pravila:
+
+- redak ne smije prelaziti 80 znakova kad god je sadržaj moguće razlomiti
+- duge naredbe, putanje i popise treba lomiti u više redaka
+- kod blokovi i dokazne naredbe smiju se lomiti u više stavki umjesto u
+  jednu predugu liniju
+
+---
+
+## 4) Pravilo dnevnika
+
+`dokumentacija/DNEVNIK_RADA.md` je append-only evidencijska datoteka.
+
+Obavezna pravila:
+
+- novi unos dodaje se isključivo preko
+  `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+- prije izmjene obavezan je before-tail ispis
+- nakon dodavanja obavezan je after-tail ispis
+- postojeći sadržaj smije se sanirati samo minimalno i samo kad je to
+  nužno za uklanjanje dokazive markdown greške ili servisne nekonzistentnosti
+
+---
+
+## 5) Pravilo statusa
+
+`dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` smije se dirati samo kad je
+potrebno uskladiti stvarno stanje projekta.
+
+Obavezna pravila:
+
+- prije izmjene statusa mora se dokazati stvarni git HEAD
+- polja `Trenutni commit`, `lokalni hash` i `main poravnanje` usklađuju se
+  skriptom `alati/uskladi_status_projekta.ps1`
+- skripta smije mijenjati samo ta servisna polja i opcionalno oznaku
+  zadnjeg zadatka ako je eksplicitno zadana
+- opisni sadržaj zadatka u statusu dopunjava se samo u scoped patchu
+
+---
+
+## 6) Pravilo mape dokumentacije
+
+`dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md` mijenja se samo kad nastane
+novi kanonski dokument, nova trajna skripta koju mapa mora voditi ili novi
+trajni artefakt koji je važno indeksirati.
+
+Ne mijenja se rutinski pri svakom zadatku.
+
+---
+
+## 7) Obavezni servisni redoslijed
+
+Za svaki dokumentacijski zadatak vrijedi ovaj redoslijed:
+
+1. pre-check repozitorija
+2. before-tail dnevnika ako je dnevnik u scopeu
+3. scoped izmjena datoteka
+4. `alati/provjeri_markdown_scope.ps1` nad ciljanim `.md` datotekama
+5. puni gateovi (`alati/lint_markdown.ps1`, `alati/ci_smoke.ps1`)
+6. commit
+
+---
+
+## 8) Servisne skripte
+
+Kanonske servisne skripte za ovaj standard su:
+
+- `alati/uskladi_status_projekta.ps1`
+- `alati/provjeri_markdown_scope.ps1`
+
+Njihova je svrha smanjiti ručne greške u statusnom tragu i markdown
+disciplini, bez širenja opsega na druge dijelove sustava.

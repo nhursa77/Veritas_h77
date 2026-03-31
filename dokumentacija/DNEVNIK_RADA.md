@@ -2569,7 +2569,7 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/ci_smoke.ps1`
 
-## Datum: 27.03.2026 (ZADATAK 88 - zavrsni servisni snapshot)
+## Datum: 31.03.2026
 
 Proveden je zavrsni servisni snapshot rjecnickog toka nakon Z87, bez novih
 operativnih zatvaranja natuknica.
@@ -3131,7 +3131,7 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
-## Datum: 31.03.2026.
+## Datum: 31.03.2026 (ZADATAK 104)
 
 ### ZADATAK 104 - servisno zatvaranje z103 i sanacija dnevnika
 
@@ -3163,5 +3163,40 @@ Dokazne naredbe:
 - `git status --short`
 - `git --no-pager log -1 --oneline`
 - `git branch -vv`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 105)
+
+### ZADATAK 105 - kanonski status sync i markdown preflight
+
+Uveden je trajni servisni sloj za dokumentacijske zadatke.
+
+Dodane su skripte:
+
+- `alati/uskladi_status_projekta.ps1`
+- `alati/provjeri_markdown_scope.ps1`
+
+Dodan je kanonski dokument:
+
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+
+Ažurirani su:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Standard propisuje disciplinu headinga, scoped markdown provjeru i
+obavezni servisni redoslijed za dokumentacijske zadatke.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

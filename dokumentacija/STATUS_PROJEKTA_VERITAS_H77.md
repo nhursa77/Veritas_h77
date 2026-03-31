@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `a6c9d83` - docs: uskladjen status z102 i kontrolna
-  usporedba zus sa zakon hr (Z103)
+- Trenutni commit: `38b3920` - docs: servisno zatvoren z103 i saniran
+  dnevnik (Z104)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 103
-  (uskladjen status Z102 i kontrolna usporedba ZUS sa zakon.hr)
+- Zadnji dovršeni zadatak: ZADATAK 105
+  (uveden status sync i markdown preflight za dokumentaciju)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -88,6 +88,16 @@ Datum: 31.03.2026.
   Generiran je trajni izvještaj:
   `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 105: uveden je kanonski servisni sloj za dokumentaciju.
+  Dodane su skripte `alati/uskladi_status_projekta.ps1` za usklađenje
+  statusnog dokumenta sa stvarnim git stanjem i
+  `alati/provjeri_markdown_scope.ps1` za scoped markdown preflight nad
+  ciljanim `.md` datotekama.
+  Dodan je novi standard
+  `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md` koji propisuje
+  heading disciplinu, pravila za MD024/MD026/MD013 i obvezni servisni
+  redoslijed: pre-check -> before-tail -> izmjena -> markdown scope
+  provjera -> puni gateovi -> commit.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -98,8 +108,8 @@ Datum: 31.03.2026.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: priprema manifesta ingest-a za sljedeći zakon
-  po prioritetnom redoslijedu konverzije.
+- Sljedeci logicki korak: primijeniti novi status sync i markdown
+  preflight sloj na sljedećem scoped dokumentacijskom ili ingest zadatku.
 
 ## Pravilo sinkronizacije
 
@@ -110,15 +120,16 @@ Datum: 31.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `a6c9d83`
+- lokalni hash: `38b3920`
 - `git status --short`: prazan
-- `main` poravnanje: poravnat
+- main poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi
 
 - `alati/ci_smoke.ps1`
 - `alati/lint_markdown.ps1`
+- `alati/provjeri_markdown_scope.ps1`
 - `alati/test_fixtures_audit_prekrsaji_v1.ps1`
 
 ## Ključni standardi na snazi
@@ -150,6 +161,7 @@ Trenutno stanje sinkronizacije (pre-check):
 - `dokumentacija/STANDARD_RUCNA_VALIDACIJA_I_UPIS_NN_SIDARA.md`
 - `dokumentacija/STANDARD_GRANSKE_PODNATUKNICE_NN.md`
 - `dokumentacija/STANDARD_POTPUNO_VALIDIRANA_NATUKNICA.md`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
 - `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
 - `dokumentacija/STANDARD_ZASTITA_DNEVNIKA_RADA.md`
 
