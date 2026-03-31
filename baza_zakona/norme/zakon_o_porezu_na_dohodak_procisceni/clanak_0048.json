@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". (1) Godišnju poreznu prijavu obvezno podnosi: 1. porezni obveznik ako u poreznom razdoblju ostvari dohodak od samostalne djelatnosti iz članka 29. ovoga Zakona i djelatnosti po osnovi kojih se dohodak utvrđuje i oporezuje kao dohodak od samostalne djelatnosti prema člancima 30. – 35. ovoga Zakona i/ili 2. porezni obveznik – rezident za dohodak od nesamostalnog rada koji, prema posebnom zakonu, ostvari kao član posade broda u međunarodnoj plovidbi. (2) Godišnju poreznu prijavu obvezno podnosi i porezni obveznik ako je Porezna uprava zatražila da naknadno plati porez na dohodak. (3) Porezni obveznik iz stavaka 1. i 2. ovoga članka obvezan je u godišnjoj poreznoj prijavi iskazati sve ostvarene oporezive dohotke, osim dohotka koji ostvari po osnovi rada na brodu u međunarodnoj plovidbi ako isti sukladno posebnom propisu ne podliježe oporezivanju i dohotka koji Republika Hrvatska sukladno međunarodnim ugovorima izuzima od oporezivanja te dohotka koji se smatra konačnim. (4) Obveznicima poreza na dohodak koji su obvezni podnijeti godišnju poreznu prijavu, a istu ne podnesu ili ako su podaci iz godišnje porezne prijave netočni ili nepotpuni, porez na dohodak utvrđuje se procjenom. Porezni obveznici koji ne podnose godišnju poreznu prijavu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "316EF9029CC11C01B7A33458EF1C17535C6FD5D9A3BFEDC8D884BE6D3109F4E4",
+    "sha256_datoteke": "965D2346184F8DD7C20B459C5230125CE1F2C5E3C9ED9D6D14D84C2F382F175A",
+    "napomena": null
+  }
+}

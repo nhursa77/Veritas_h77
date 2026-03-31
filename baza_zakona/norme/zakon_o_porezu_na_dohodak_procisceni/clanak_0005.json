@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". (1) Izvori dohotka su primici ostvareni od nesamostalnog rada, samostalne djelatnosti, imovine i imovinskih prava, kapitala, osiguranja i drugih primitaka. (2) Dohodak koji se oporezuje prema odredbama ovoga Zakona, prema izvoru dohotka iz stavka 1. ovoga članka, jest: 1. dohodak od nesamostalnog rada 2. dohodak od samostalne djelatnosti 3. dohodak od imovine i imovinskih prava 4. dohodak od kapitala 5. dohodak od osiguranja i/ili 6. drugi dohodak. POGLAVLJE IV. OPSEG POREZNE OBVEZE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2F5B353E92504405410495B745291F7DE9397B3834846F9C522B6F7CF4A456CC",
+    "sha256_datoteke": "F62DD48D1BC27EAF9ACE1FE032C70D5BB023233A3809D28AFB76CBDE499FB216",
+    "napomena": null
+  }
+}

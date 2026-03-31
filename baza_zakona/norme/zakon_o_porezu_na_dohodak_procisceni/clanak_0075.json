@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "75",
+    "naslov": null,
+    "tekst": ". (1) Drugim dohotkom smatra se primitak po osnovi povrata doprinosa iz stavka 2. ovoga članka. (2) Primitkom po osnovi povrata doprinosa smatra se iznos vraćenog doprinosa iz osnovice za obvezno mirovinsko osiguranje na temelju generacijske solidarnosti, a koji je, za određeno razdoblje obračuna doprinosa, obračunan i uplaćen iz iznosa koji prelazi iznos najviše godišnje osnovice prema zakonu kojim se uređuju doprinosi za obvezna osiguranja. (3) Pri utvrđivanju drugog dohotka po osnovi povrata doprinosa ne priznaju se izdaci. Drugi dohodak po osnovi razlike vrijednosti imovine i visine sredstava kojima je stečena",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A94609C434A5360B64F36E2CC495C4FFA4A09F7479ED182B53733D243C4A2AB4",
+    "sha256_datoteke": "CE25AF211CB7D91CE1BF30C299248C32D0DFE2ACCA85ADF21F002D7BE96B1B51",
+    "napomena": null
+  }
+}

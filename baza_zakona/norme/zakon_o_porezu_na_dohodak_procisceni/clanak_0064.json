@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "64",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom od kapitala smatraju se primici po osnovi kamata, izuzimanja imovine i korištenja usluga na teret dobiti tekućeg razdoblja, kapitalni dobici, udjeli u dobiti ostvareni dodjelom ili opcijskom kupnjom vlastitih dionica, dividende i udjeli u dobiti na temelju udjela u kapitalu, a koji su ostvareni u poreznom razdoblju. (2) Pri utvrđivanju dohotka od kapitala ne priznaju se izdaci, osim ako je ovim Zakonom drukčije uređeno. Dohodak od kapitala po osnovi kamata",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D9E45DA2A8606E6DAC01340667F0DAA328B7E25200C5BADF320FFAF918D1520D",
+    "sha256_datoteke": "3C60E24FB5E42C351683F421849C17FC5D126815F53C6178CF951764DDCA64C9",
+    "napomena": null
+  }
+}

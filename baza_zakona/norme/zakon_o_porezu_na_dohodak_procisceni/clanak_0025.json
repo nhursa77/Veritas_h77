@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". (1) Hrvatski zavod za mirovinsko osiguranje obvezan je obračunani i obustavljen predujam poreza na dohodak iz mirovina uplatiti najkasnije do posljednjeg dana u mjesecu za svaki mjesec. (2) Predujam poreza na dohodak od ostvarene mirovine ili razlike mirovina iz članka 21. stavka 2. ovoga Zakona koje Hrvatski zavod za mirovinsko osiguranje ili isplatitelj inozemnih mirovina iz sustava socijalnog osiguranja isplaćuje u tijeku kalendarskog mjeseca za više proteklih mjeseci, odnosno poreznih razdoblja obavlja se na način: 1. u slučaju isplata za više proteklih mjeseci istoga poreznog razdoblja primjenjuju se propisi koji važe na dan isplate i osobni odbitak za svaki mjesec za koji se obavlja isplata, utvrđen prema propisima koji su važili u mjesecu kada je mirovina ili razlika mirovine trebala biti isplaćena i/ili 2. u slučaju isplate mirovina ili razlike mirovina koje se odnose na protekla porezna razdoblja (kalendarske godine), kod obračuna se primjenjuju propisi koji su važili na dan kada je isplata trebala biti obavljena, odnosno kada je mirovina prema rješenju dospjela za isplatu. (3) Iz primitaka od nesamostalnog rada ostvarenih u naravi iz članka 21. stavka 3. ovoga Zakona, predujam poreza na dohodak plaća se najkasnije do 15. dana u mjesecu koji slijedi nakon mjeseca u kojem je primitak ostvaren. (4) Porezni obveznik zaposlen u diplomatskom ili konzularnom predstavništvu strane države, u međunarodnoj organizaciji ili u predstavništvu ili organizaciji koja na teritoriju Republike Hrvatske ima diplomatski imunitet, kada je porezni obveznik i po ovom Zakonu, dužan je sam obračunati predujam poreza od nesamostalnog rada na način iz članka 24. ovoga Zakona i uplatiti ga u roku od 30 dana od dana isplate. Na isti način postupaju i navedeni isplatitelji primitaka ako na vlastiti zahtjev preuzmu obvezu obračunavanja, obustavljanja i uplate predujma poreza na dohodak za svoje radnike. (5) Prema primitku od kojeg se prema odredbama ovoga Zakona utvrđuje dohodak od nesamostalnog rada, a poslodavac ili isplatitelj primitka ili plaće iz članka 21. stavka 1. ovoga Zakona na dan dospjelosti primitak nije isplatio, a istodobno je, sukladno odredbama zakona kojim se uređuju radni odnosi, obvezan dostaviti radniku obračun iznosa koje je bio dužan isplatiti, predujam poreza na dohodak od nesamostalnog rada obračunava se i dospijeva na naplatu istodobno s nastankom obveze dostave obračuna radniku o dospjelom, a neisplaćenom primitku. (6) Predujam poreza na dohodak od nesamostalnog rada po osnovi primitka (plaće) iz članka 21. stavka 1. ovoga Zakona, ostvarenog u proteklim poreznim razdobljima, a koji se isplaćuje po sudskoj presudi prema članku 433.a Zakona o parničnom postupku (»Narodne novine«, br. 53/91., 91/92., 58/93., 112/99., 88/01., 117/03., 88/05., 02/07., 84/08., 123/08., 57/11., 148/11., 25/13. i 89/14.), nagodbi u tijeku sudskog postupka, nagodbi sklopljenoj s nadležnim državnim odvjetništvom u postupcima za mirno rješenje spora ili nagodbi sklopljenoj u postupku mirenja u individualnim radnim sporovima prema zakonu kojim je uređen postupak mirenja, kao i u postupcima pred nadležnim službeničkim sudovima, obračunava, obustavlja i uplaćuje isplatitelj primitka prema propisima koji su važili na dan kada je isplata trebala biti obavljena, uz primjenu godišnjeg obračuna poreza na dohodak od nesamostalnog rada i prireza porezu na dohodak i uz korištenje podataka dostavljenih od Porezne uprave o iskorištenom iznosu osobnog odbitka i primijenjenim poreznim stopama na godišnjoj razini, pod uvjetom da utuženi iznos primitka (plaće), odnosno iznos primitka utvrđen nagodbom sadržava iznos doprinosa za obvezna osiguranja iz primitka prema posebnim propisima, porez na dohodak i prirez porezu na dohodak. Ako se isplata provede u ovršnom postupku na način da je poreznom obvezniku isplaćen ukupan primitak, porezni obveznik obvezan je uplatiti porez na dohodak i prirez porezu na dohodak. (7) Ministar financija pravilnikom propisuje način provedbe ovoga članka. Porezna kartica",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7C1E9346C5AB50B03A5A89E8077A5B0D629CE41E34F3C3579708C4CC9C713B5B",
+    "sha256_datoteke": "09B59F8E4C28B3AFF4980F5D775CBB95DA5AE5ECF4395AC95684E8B7250EC5BE",
+    "napomena": null
+  }
+}

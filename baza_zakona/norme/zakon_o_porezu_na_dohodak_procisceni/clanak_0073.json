@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "73",
+    "naslov": null,
+    "tekst": ". (1) Porez na dohodak od osiguranja obračunavaju, obustavljaju i uplaćuju isplatitelji ugovora o osiguranju, kod dospijeća, otkupa ili prijevremenog prestanka ugovora o osiguranju, kao porez po odbitku. (2) Porez se plaća od osnovice u visini uplaćenih porezno priznatih premija osiguranja, odnosno u visini obračunanog iznosa za isplatu, ako je manji od uplaćenih porezno priznatih premija osiguranja te u visini uplaćenih premija osiguranja na koje se ne plaća porez na dohodak sukladno članku 9. točki 18. ovoga Zakona, po stopi od 12%. Evidencije i izvješća",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F88C48EE554DCB418F4E8C5C0FA6AF7039288F68C702FB9DAED9F4D5B8BFD01C",
+    "sha256_datoteke": "2C143548C9E0EF4FDF5277556BC160F77B98907695B6D116EC7DA3F4C304C292",
+    "napomena": null
+  }
+}

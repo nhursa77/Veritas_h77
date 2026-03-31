@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U članku 19. stavku 1. riječi: »do visine 210.000,00 kuna« zamjenjuju se riječima: »do visine 360.000,00 kuna«, a riječi: »od 210.000,00 kuna« zamjenjuju se riječima: »od 360.000,00 kuna«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3B93172E111BF5E4502A66B0838D544469A2A34A9824910999DC8CCAF9019BCD",
+    "sha256_datoteke": "D3723A47E784A5B35F09B5CFADF064E47B4A7409AA12123B2565C509BC5B07B3",
+    "napomena": null
+  }
+}

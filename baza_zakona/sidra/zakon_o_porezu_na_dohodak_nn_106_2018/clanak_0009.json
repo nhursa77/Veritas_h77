@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 21. stavku 3. iza riječi: »odobravanju kredita« zarez i riječi: »dodjela ili opcijska kupnja vlastitih dionica po povoljnijim uvjetima« brišu se, a riječi: »kamate od 3%« zamjenjuju se riječima: »kamate od 2%«. U stavku 4. iza točke 2. dodaje se točka 3. koja glasi: »3. primici u naravi po osnovi dodjele ili opcijske kupnje vlastitih dionica po povoljnijim uvjetima koje poslodavci i isplatitelji primitka odnosno plaće iz stavaka 1. i 2. ovoga članka daju radnicima i fizičkim osobama koje ostvaruju primitke iz stavaka 1. i 2. ovoga članka.«. U stavku 5. iza riječi: »Zakona« umjesto točke stavlja se zarez i dodaju riječi koje glase: »osim primitaka iz stavka 4. točke 3. ovoga članka koji se smatraju dohotkom od kapitala iz članka 68. stavka 2. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8B19FC78828505FDA9FF4436846A4C6C246DEF98D37A689E2968016C160493D7",
+    "sha256_datoteke": "A99D641587B6A7C8E8DC6C509303BB182526F02C066824AC6BCCD568C41C6CDC",
+    "napomena": null
+  }
+}

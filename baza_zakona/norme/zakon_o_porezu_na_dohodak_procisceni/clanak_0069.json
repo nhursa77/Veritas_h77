@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "69",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom od kapitala smatraju se i primici od dividendi i udjela u dobiti na temelju udjela u kapitalu. (2) Dohodak od kapitala ne utvrđuje se po osnovi dividendi i udjela u dobiti ako su dividende i ti udjeli iskorišteni za uvećanje temeljnog kapitala društva ili ako su ostvareni od ulaganja Fonda hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji te su namijenjeni i dijele se članovima tog fonda. Utvrđivanje poreza na dohodak od kapitala",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "51FC03188993B8C47E8DAC28F74D860E857F70420C34123704B131A22A648A2B",
+    "sha256_datoteke": "F19FDD5B24494ECA60D09014982DF12A56CA2AEF0B6F351F04CC8448DBB1F336",
+    "napomena": null
+  }
+}

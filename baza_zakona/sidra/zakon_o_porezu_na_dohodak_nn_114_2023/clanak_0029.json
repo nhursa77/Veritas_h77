@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". Iza članka 76.a dodaju se naslov iznad članka i članak 76.b koji glase: »Drugi dohodak po osnovi nagrade za dobro obavljenu uslugu (napojnice)",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9AF07EFB3E097CDE3C9D2A8A782B2F370AD31DF6FBEFC26D807DC1CF05656359",
+    "sha256_datoteke": "8DC24E0767E9C1CC5829C9063CF6AA947AFFE5B075E3FC620D5631F60C698187",
+    "napomena": null
+  }
+}

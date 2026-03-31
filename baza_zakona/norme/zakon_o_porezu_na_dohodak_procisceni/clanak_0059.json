@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "59",
+    "naslov": null,
+    "tekst": ". (1) Dohodak od imovine utvrđuje se i po osnovi primitaka od otuđenja posebnih vrsta imovine. (2) Posebnom vrstom imovine iz stavka 1. ovoga članka smatra se otpad u skladu s posebnim propisima. U smislu ovoga Zakona otpadom se ne smatra povratna ambalaža niti otpad prikupljen u okviru organiziranih akcija i aktivnosti u svrhu zaštite okoliša. (3) Pri utvrđivanju dohotka od imovine iz stavka 1. ovoga članka ne priznaju se izdaci. (4) Odredbe o promjeni načina utvrđivanja dohotka od imovine iz članka 61. ovoga Zakona primjenjuju se i na dohodak po osnovi otuđenja posebnih vrsta imovine iz ovoga članka. Procjena dohotka od imovine",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CCF97300A6573DE5F7586266BA28014D364995845B1B0A89D01AFD320AE59E88",
+    "sha256_datoteke": "32EA42C9406977EDE68058F40549F218B19EC74BBA6D60D34220C463817D374D",
+    "napomena": null
+  }
+}

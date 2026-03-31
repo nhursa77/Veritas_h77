@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 9. stavku 1. točki 18. riječi: »do visine 500,00 kuna« zamjenjuju se riječima: »do visine 66,37 eura«, a riječi: »do 6000,00 kuna« zamjenjuju se riječima: »do 796,44 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F0DBA48559651A7A9C2FB4238ACFDC1D090F169F50BFF914FBD3D1C143CDF9E2",
+    "sha256_datoteke": "2CD4A71C466FAC332335B0FA4A1AC0C6F8C7E2D0F381F08F19B4EDAAF8164B55",
+    "napomena": null
+  }
+}

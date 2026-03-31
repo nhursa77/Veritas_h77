@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". (1) Predstavnička tijela jedinica lokalne samouprave koja su visinu paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu odnosno po smještajnoj jedinici za robinzonski smještaj utvrdila odlukom sukladno članku 57. stavku 3. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.) dužna su donijeti novu odluku sukladno članku 8. ovoga Zakona ako je visina paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu odnosno po smještajnoj jedinici za robinzonski smještaj izvan granica propisanih člankom 8. ovoga Zakona. (2) Odluku iz stavka 1. ovoga članka predstavnička tijela jedinice lokalne samouprave dužna su donijeti te dostaviti Poreznoj upravi najkasnije do 28. veljače 2025. (3) Ako predstavničko tijelo jedinice lokalne samouprave ne donese odluku u propisanom roku iz stavka 1. ovoga članka, visina paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu odnosno po smještajnoj jedinici za robinzonski smještaj određuje se sukladno članku 57. stavku 7. koji je dodan člankom 8. ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E925AB924152432ACA9F63E1AC22F8212756A61EC41E01480AEADF70D8FF5187",
+    "sha256_datoteke": "81B736C92AE236B867F212B40ED2B2364C00FE3A8BC90DAA7684BD75CD740175",
+    "napomena": null
+  }
+}

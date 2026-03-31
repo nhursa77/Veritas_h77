@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 22. stavku 1. točki 5. riječi: »i/ili« brišu se. U točki 6. na kraju rečenice briše se točka i dodaju se riječi: » i/ili «. Iza točke 6. dodaje se točka 7. koja glasi: »7. trošak cijepljenja protiv zaraznih bolesti što ga poslodavac i isplatitelj primitka odnosno plaće na svoj teret omogućuje radnicima i fizičkim osobama koje ostvaruju primitke iz članka 21. stavka 1. ovoga Zakona u interesu obavljanja djelatnosti poslodavca i isplatitelja primitka odnosno plaće neovisno o načinu podmirenja troška cijepljenja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C8CC7CE028D84AA6CFEA1F1F462B387D52D5CE2D808A6340303AE7267FF5B92F",
+    "sha256_datoteke": "CF9A8995A224894254BD2CD516F649DBED9D547483242A5434250111B9944290",
+    "napomena": null
+  }
+}

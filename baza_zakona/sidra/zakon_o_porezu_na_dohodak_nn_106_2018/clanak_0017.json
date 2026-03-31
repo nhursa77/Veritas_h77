@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". U članku 57. iza stavka 2. dodaju se novi stavci 3., 4. i 5. koji glase: »(3) Za slučaj iz stavka 2. ovoga članka, predstavničko tijelo jedinice lokalne samouprave obvezno je donijeti odluku kojom će propisati visine paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu, a koje ne mogu biti manje od 150,00 kuna niti veće od 1500,00 kuna. (4) Odluka predstavničkog tijela jedinice lokalne samouprave iz stavka 3. ovoga članka može se mijenjati najkasnije do 15. prosinca tekuće godine, a primjenjuje se od 1. siječnja sljedeće godine do donošenja nove odluke kojom će se propisati visina paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu. (5) Jedinice lokalne samouprave dužne su odluku svog predstavničkog tijela iz stavka 3. ovoga članka dostaviti Ministarstvu financija, Poreznoj upravi u roku od osam dana od dana njezina donošenja radi objave na mrežnim stranicama Porezne uprave.«. Dosadašnji stavak 3. postaje stavak 6. U dosadašnjim stavcima 4. i 5., koji postaju stavci 7. i 8., riječi: »stavka 3.« zamjenjuju se riječima: »stavka 6.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7888EA6AFFD7DEE0406D8D6CFDBD449E435D221ED65B79E92BFC163F7F8102F9",
+    "sha256_datoteke": "8BA3FFBACDE93C610975EE727D655B32686E7BB9045A0CFFC8F62522218C053A",
+    "napomena": null
+  }
+}

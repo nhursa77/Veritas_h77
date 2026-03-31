@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "92",
+    "naslov": null,
+    "tekst": ". (1) Novčanom kaznom od 5000,00 do 50.000,00 kuna kaznit će se fizička osoba obrtnik i osoba koja obavlja drugu samostalnu djelatnost za prekršaj koji je počinila u vezi s obavljanjem njezina obrta ili samostalne djelatnosti, a koja: 1. u propisanom roku ne uplati ili uplati manji porez po godišnjoj poreznoj prijavi (članak 46. stavak 4.) 2. ne uplati mjesečni, tromjesečni, odnosno jednokratni porez na dohodak prema rješenju Porezne uprave u utvrđenoj visini i u propisanom roku (članak 37. stavak 5. i članak 62. stavci 1., 3. i 4. i članak 82. stavak 6.) 3. u propisanom roku ne uplati ili uplati manji porez na dohodak (članak 81. stavak 1.) 4. u propisanom roku ne prijavi početak obavljanja djelatnosti, iznajmljivanja i/ili ostvarivanja dohotka (članak 83. stavak 1. i članak 87. stavak 1.). (2) Novčanom kaznom od 2000,00 do 20.000,00 kuna kaznit će se fizička osoba: 1. za prekršaje iz stavka 1. ovoga članka 2. ako kao imatelj financijske imovine ne uplati ili uplati manji porez na dohodak od kapitala (članak 70. stavci 4. i 14.) 3. ako na plati ili plati manji porez na dohodak od kapitala po osnovi kapitalnih dobitaka od otuđenja udjela u kapitalu koji nisu prenosivi na tržištu kapitala (članak 70. stavak 17.) 4. ako ne uplati predujam poreza na dohodak od nesamostalnog rada po osnovi mirovine (članak 81. stavak 2.). DIO DESETI PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "191C1CF758484261EBAB8A3D5DBF666B9706CB29D288BB00B0660CBC54282B2D",
+    "sha256_datoteke": "6B2AC26B99AC3163BBB631CE11365971CDFF3E7DA76D8FFFFB1100452F500ADB",
+    "napomena": null
+  }
+}

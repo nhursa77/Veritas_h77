@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". (1) Nerezidentu se ostvareni dohodak iz članka 13. ovoga Zakona umanjuje za osnovni osobni odbitak iz članka 14. stavka 3. ovoga Zakona za mjesece u kojima ostvaruje dohodak u tuzemstvu. (2) Nerezidentu se osobni odbitak može uvećati i za dio osobnog odbitka za dana darovanja i doprinose za zdravstveno osiguranje na način i pod uvjetima propisanim člankom 15. ovoga Zakona. (3) Iznimno od stavka 1. ovoga članka, rezident države članice Europske unije ili Europskog gospodarskog prostora, osim Republike Hrvatske koji u Republici Hrvatskoj ostvari dohodak prema članku 5. ovoga Zakona, može u godišnjem obračunu poreza na dohodak na temelju podnesene godišnje porezne prijave ili u posebnom postupku utvrđivanja godišnjeg poreza na dohodak koristiti i osobni odbitak iz članka 14. stavka 4. ovoga Zakona za cijelo porezno razdoblje, uz uvjet da vjerodostojnim ispravama dokaže da navedeni dohodak ostvaren u Republici Hrvatskoj čini najmanje 90% njegova ukupnog (svjetskog) dohotka ostvarenog u poreznom razdoblju i da je isti izuzet ili oslobođen oporezivanja u državi članici čiji je rezident. Uvjeti za priznavanje osobnog odbitka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6A7413AAB072390697971E248032C5525EAC44B09ECB1BA3D4D12162DA8A0AA2",
+    "sha256_datoteke": "BCB6D57972772901908449AABF11C62A35A156A4DAEACEAE44C0B9D1C87E0EE0",
+    "napomena": null
+  }
+}

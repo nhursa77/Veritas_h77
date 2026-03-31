@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": ". U članku 62. stavku 1. riječi: »od 10 %« zamjenjuju se riječima: »od 12 %«. U stavcima 2., 3. i 4. riječi: »od 20 %« zamjenjuju se riječima: »od 24 %«. U stavku 6. riječi: »od 10 %« zamjenjuju se riječima: »od 12 %«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4696EAB8D63A39AB829E77FB4B165DA4D918FF272E3ABE6A7C0A1ACEF5D503BF",
+    "sha256_datoteke": "C523BA4FFBA6FECDA8EACBB375418FED48D59B9F4C9E9D1DABCA7346D62F1E43",
+    "napomena": null
+  }
+}

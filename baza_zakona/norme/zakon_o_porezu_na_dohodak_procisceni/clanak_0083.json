@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "83",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznici koji počinju obavljati samostalnu djelatnost iz članka 29. ovoga Zakona, porezni obveznici koji počinju davati u najam i zakup pokretnine, stvari i nekretnine i porezni obveznici koji počinju ostvarivati dohodak izravno iz inozemstva dužni su Poreznoj upravi prijaviti početak obavljanja djelatnosti, iznajmljivanja i ostvarivanja dohotka, u roku od osam dana od dana početka obavljanja djelatnosti, odnosno od dana početka ostvarivanja dohotka. (2) U roku iz stavka 1. ovoga članka porezni obveznici koji počinju obavljati samostalnu djelatnost iz članka 29. ovoga Zakona dužni su nadležnoj ispostavi Porezne uprave prema svome prebivalištu ili uobičajenom boravištu dati podatke o osobi koja im vodi poslovne knjige. (3) Porezna uprava može temeljem prikupljenih podataka o dohotku od nesamostalnog rada, obveznim doprinosima i predujmu poreza na dohodak i prireza porezu na dohodak koje porezni obveznici dostavljaju na propisanom izvješću, na svojim mrežnim stranicama objaviti popis poreznih obveznika/poslodavaca koji ne isplaćuju plaću svojim radnicima, odnosno koji su na dostavljenim izvješćima tri mjeseca uzastopno ili tri mjeseca u vremenskom razdoblju od šest mjeseci iskazali samo obračun doprinosa sukladno članku 24. stavku 2. Zakona o doprinosima. Popis sadržava: ime i prezime ili naziv poslodavca, godinu rođenja fizičke osobe poslodavca, mjesto prebivališta ili uobičajenog boravišta fizičke osobe ili sjedišta pravne osobe poslodavca, broj radnika kojima na izvješću nije iskazana isplata plaće i razdoblje na koje se ta izvješća odnose. Na zahtjev osobe koja dokaže pravni interes, Porezna uprava popis može dopuniti i drugim podacima potrebnim radi nespornog utvrđivanja identiteta pojedinačnog poreznog obveznika s ovoga popisa, kao što su: datum i mjesec rođenja fizičke osobe poslodavca i ime roditelja fizičke osobe poslodavca. (4) Porezna uprava može, putem sustava ePorezna, temeljem podataka iz svojih službenih evidencija, omogućiti isplatiteljima primitaka od kojih se utvrđuje drugi dohodak, dohodak od imovinskih prava, kapitala i osiguranja, uvid u podatke koji se odnose na pripadnost općini/gradu primatelja. POGLAVLJE II. DOSTAVLJANJE PODATAKA OD NADLEŽNIH DRŽAVNIH TIJELA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "83C41781571E5872050CC65713F86154199AA6CC3E6D83E9C119108B0EB7E2E7",
+    "sha256_datoteke": "646D1B10FD0889B8406B03667A1A8A213074008BB4985EF55A58B6FD478D2132",
+    "napomena": null
+  }
+}

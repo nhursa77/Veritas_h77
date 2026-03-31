@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". U članku 82. stavak 5. mijenja se i glasi: »(5) Poreznim obveznicima iz stavaka 2. i 3. ovoga članka godišnji porez u paušalnom iznosu po stopi od 12% utvrđuje Porezna uprava rješenjem.«. Iza stavka 5. dodaju se novi stavci 6. i 7. koji glase: »(6) Porezni obveznici iz stavka 1. ovoga članka godišnji porez u paušalnom iznosu po stopi od 12% utvrđuju na temelju izvješća iz stavka 10. ovoga članka. Razlika godišnjeg paušalnog poreza za uplatu ili za povrat utvrđuje se na temelju izvješća iz stavka 10. ovoga članka, koje porezni obveznik podnosi Poreznoj upravi najkasnije u roku od 15 dana od dana isteka godine za koju se izvješće podnosi. Porezni obveznik obvezan je razliku godišnjeg paušalnog poreza uplatiti s danom podnošenja izvješća. (7) Poreznim obveznicima iz stavka 6. ovoga članka koji ne podnesu izvješće iz stavka 10. ovoga članka ili su podaci u navedenom izvješću netočni ili nepotpuni, porez na dohodak utvrđuje se procjenom.«. Dosadašnji stavak 6., koji postaje stavak 8., mijenja se i glasi: »(8) Porezna uprava može na temelju obavljenog nadzora i prikupljenih podataka o ostvarenom prometu donijeti rješenje o obvezi plaćanja predujma poreza na dohodak, u skladu s člankom 37. stavkom 1. ovoga Zakona, ako utvrdi da je porezni obveznik ostvario primitke po toj osnovi iznad iznosa propisanog za obvezni ulazak u sustav poreza na dodanu vrijednost.«. Dosadašnji stavci od 7. do 9. postaju stavci od 9. do 11.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FF1826B88693195CDF157DA893700A750338F7724B56FA611856E79CE56DA503",
+    "sha256_datoteke": "71D244ABB88B9E85E8079AD20572CB441328E1E3A4CD315C5B046B9E23396DA5",
+    "napomena": null
+  }
+}

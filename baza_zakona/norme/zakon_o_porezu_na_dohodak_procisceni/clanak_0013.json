@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". Godišnjim dohotkom smatra se ukupan dohodak od nesamostalnog rada, dohodak od samostalne djelatnosti te drugi dohodak koji se ne smatra konačnim koji porezni obveznik ostvari u poreznom razdoblju i koji se obračunava na temelju godišnje porezne prijave ili u posebnom postupku utvrđivanja godišnjeg poreza na dohodak. POGLAVLJE II. OSOBNI ODBITAK ILI NEOPOREZIVI DIO DOHOTKA Utvrđivanje osobnog odbitka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "750289F84D1F70621B8E196627A138B80D1F4138C2B15DA333F8F47BCA6BA010",
+    "sha256_datoteke": "83A6AABC90ADFE50694FE94DF993E9B226E3ADA76D7BBA2B067048B071E22480",
+    "napomena": null
+  }
+}

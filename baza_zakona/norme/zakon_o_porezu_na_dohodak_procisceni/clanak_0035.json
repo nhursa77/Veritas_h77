@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". (1) Popis dugotrajne imovine služi za utvrđivanje izdataka otpisa (amortizacije) dugotrajne imovine. Dugotrajna se imovina i nakon što je u cijelosti otpisana zadržava u popisu dugotrajne imovine do trenutka prodaje, darovanja ili drugog načina otuđenja ili uništenja. (2) U popis dugotrajne imovine unose se stvari i prava, ako su njihove nabavne cijene, odnosno troškovi proizvodnje (nabavna vrijednost) veći od 3500,00 kuna i ako je njihov vijek trajanja dulji od godinu dana. Prava ulaze u popis dugotrajne imovine samo ako je kod njihove nabave plaćena naknada. (3) U popis dugotrajne imovine unosi se pojedinačna nabavna vrijednost dobara dugotrajne imovine, vijek trajanja (korištenja), knjigovodstvena vrijednost i otpisi. (4) Nabavna vrijednost dobara dugotrajne imovine, koja su unesena u popis dugotrajne imovine, otpisuje se u skladu s propisima kojima se uređuje porez na dobit. Ako se dobro dugotrajne imovine zbog uništenja više ne može koristiti ili ako se proda, izuzme ili na drugi način otuđi, tada se njegova knjigovodstvena vrijednost otpisuje u cijelosti. Promjena načina oporezivanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D2A90F2BCF41C68DCB3C97FB24424B4505A73A77A0F7B5925CD52567365ED689",
+    "sha256_datoteke": "3FF9ABC9E139214BF3F6674B99E66BC55FF72E5E1097C3F978AE08223694F68A",
+    "napomena": null
+  }
+}

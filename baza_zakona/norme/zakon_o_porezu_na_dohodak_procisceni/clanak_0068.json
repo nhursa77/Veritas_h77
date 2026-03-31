@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "68",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom od kapitala iz članka 64. stavka 1. ovoga Zakona smatraju se i primici u naravi po osnovi udjela u dobiti članova uprave trgovačkih društava, a koje ostvaruju putem dodjele ili opcijske kupnje vlastitih dionica. (2) Dohodak od kapitala po osnovi opcijske kupnje dionica iz stavka 1. ovoga članka utvrđuje se kao razlika između tržišne vrijednosti dionice i opcijskim ugovorom utvrđene cijene dionica, ako je tržišna vrijednost viša u trenutku realizacije prava iz opcije. (3) Realizacijom prava iz opcije u smislu stavka 1. ovoga članka smatra se trenutak kupnje dionica društva od strane vlasnika opcije (članova uprave društva) ili trenutak prijenosa prava na kupnju dionica društva na treću osobu. (4) Dohodak od kapitala po osnovi opcijske kupnje vlastitih dionica utvrđuje se poreznom obvezniku koji je vlasnik opcije u trenutku realizacije prava iz opcije prema stavku 3. ovoga članka. (5) Primici po osnovi udjela u dobiti koje članovi uprave trgovačkih društava ostvaruju dodjelom vlastitih dionica tih društava utvrđuju se u visini tržišne vrijednosti ili razlike između tržišne vrijednosti dodijeljenih dionica i plaćene naknade, ako se dionice stječu uz djelomičnu naknadu. (6) Dohodak od kapitala prema ovom članku utvrđuje se samo ako vlastite dionice društva u trenutku dodjele tih dionica ili realizacije prava iz opcije kotiraju na burzi ili uređenim javnim tržištima u skladu s posebnim zakonom. Ako ovaj uvjet nije ispunjen po toj osnovi, utvrđuje se drugi dohodak iz članka 39. ovoga Zakona. Dohodak od kapitala po osnovi dividendi i udjela u dobiti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "87011EDB1C309408883A3C9C99E9BA1D30D197129D9C7DB1C7EE8AEECA66688A",
+    "sha256_datoteke": "405A2AA96D7205D24D7940A5EB6F323009296CA73C4AECD6CCD729FF81B896FE",
+    "napomena": null
+  }
+}

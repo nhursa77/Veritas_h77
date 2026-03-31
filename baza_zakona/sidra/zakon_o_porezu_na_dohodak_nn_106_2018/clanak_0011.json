@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". U članku 36. stavku 1. riječi: »pisani zahtjev« zamjenjuju se riječima: »pisanu izjavu«. U stavku 2. riječi: »Pisani zahtjev iz stavka 1. ovoga članka kojim se na vlastiti zahtjev« zamjenjuju se riječima: »Pisana izjava iz stavka 1. ovoga članka kojom se«. U stavku 3. riječi: »podnesenog zahtjeva« zamjenjuju se riječima: »pisane izjave«. U stavku 4. riječi: »pisanog zahtjeva« zamjenjuju se riječima: »pisane izjave«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "06EFC6457CA9317190AB77DF83D473F9046C7C852E0491765C745CDD7E270D29",
+    "sha256_datoteke": "DE90444A4E00699D580323D5D73A7AAF9F414A9185550BEF998B0D41EC526F4A",
+    "napomena": null
+  }
+}

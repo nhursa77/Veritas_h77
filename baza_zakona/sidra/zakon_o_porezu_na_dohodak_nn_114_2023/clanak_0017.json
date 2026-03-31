@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". U članku 40. stavak 1. mijenja se i glasi: »(1) Predujam poreza na dohodak od drugog dohotka prema članku 39. stavku 1. ovoga Zakona plaća se po odbitku, primjenom niže stope utvrđene prema članku 19.a ovoga Zakona.«. U stavku 3. riječi: »po stopi od 20 %« zamjenjuju se riječima: »po nižoj stopi utvrđenoj prema članku 19.a ovoga Zakona«, a riječi: »stavka 3.« zamjenjuju se riječima: »stavka 1.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC42E06F680878A33D29376FA2C6D2D12457C2B55D2AA9374095B8F2345DA379",
+    "sha256_datoteke": "1DC5357F6E59F42F17F70E971BB4357AA18D5C3D38D9C8BA9BBAA3E3C7541E71",
+    "napomena": null
+  }
+}

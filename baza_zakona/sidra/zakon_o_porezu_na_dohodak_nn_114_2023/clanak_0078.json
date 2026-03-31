@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "78",
+    "naslov": null,
+    "tekst": ".b (1) Porez na dohodak od drugog dohotka iz članka 76.b ovoga Zakona plaća se iz primitka po osnovi nagrade iz članka 9. stavka 1. točke 27. ovoga Zakona iznad propisanog iznosa po odbitku po stopi od 20 %. (2) Porez na dohodak iz stavka 1. ovoga Zakona obračunavaju, obustavljaju i uplaćuju isplatitelji primitaka do 15. dana u mjesecu koji slijedi nakon mjeseca u kojem su ostvareni primici iz članka 76.b stavka 1. ovoga Zakona. (3) Isplatitelji primitaka iz stavka 2. ovoga članka obvezni su Poreznoj upravi dostavljati izvješća o isplaćenim primicima po osnovi kojih se utvrđuje drugi dohodak iz članka 76.b stavka 1. ovoga Zakona i obustavljenom i uplaćenom porezu na dohodak, u propisanom roku, na propisanom obrascu. (4) Ministar financija pravilnikom propisuje način provedbe ovoga članka.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "144554848C0279E8E97371015527B0E034DF7CBE4BF4EC8A5BE5774E56138658",
+    "sha256_datoteke": "48D03A90609591D5552E9B703EA896F9751C87A1A314E4B0E847FC6FA7BBFDB1",
+    "napomena": null
+  }
+}

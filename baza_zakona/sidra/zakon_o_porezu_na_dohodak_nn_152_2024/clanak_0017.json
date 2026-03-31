@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". Ministar financija će u roku od 90 dana od dana stupanja na snagu ovoga Zakona uskladiti sljedeće pravilnike s odredbama ovoga Zakona: – Pravilnik o porezu na dohodak (»Narodne novine«, br. 10/17., 128/17., 106/18., 1/19., 80/19., 1/20., 74/20., 1/21., 102/22., 112/22., 156/22., 1/23., 3/23. − ispravak, 56/23. i 143/23.) – Pravilnik o paušalnom oporezivanju samostalnih djelatnosti (»Narodne novine«, br. 1/20., 1/21., 156/22., 15/23. i 1/24.) – Pravilnik o paušalnom oporezivanju djelatnosti iznajmljivanja i organiziranja smještaja u turizmu (»Narodne novine«, br. 1/19., 1/20., 1/21., 156/22. i 1/24).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "260FB2B1935E37629DA919D5A09FB6C6053243D1073E63E8818EEA82A774700F",
+    "sha256_datoteke": "8105C5499072CD5C09921499B5A1E7609F8EC2120DFF625131BD7C4D98216BAF",
+    "napomena": null
+  }
+}

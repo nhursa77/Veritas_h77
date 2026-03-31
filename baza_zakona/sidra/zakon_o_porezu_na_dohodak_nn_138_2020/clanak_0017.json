@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". (1) Odredbe članaka 4. i 16. ovoga Zakona primjenjuju se pri utvrđivanju poreza na dohodak za 2021. godinu i nadalje. (2) Pri izračunu predujma poreza na dohodak iz članka 37. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/18. i 32/20.) za 2021. godinu, na temelju prijave poreza na dohodak za 2020. godinu, primjenjuju se odredbe članka 16. ovoga Zakona. (3) Odredbe članaka 10. i 16. ovoga Zakona primjenjuju se na sve postupke utvrđivanja dohotka iz članka 76. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/18. i 32/20.) pokrenute od stupanja na snagu ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F6CF00209E28C03DADECDE8B4ACF0AECBA3507CEFC3196E51E517F5463E656E4",
+    "sha256_datoteke": "672B2B3431AEA1B469D05ECBE448963AA4956F818C99B7F0BEEA6D66F410A4D3",
+    "napomena": null
+  }
+}

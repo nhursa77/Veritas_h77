@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 26. iza stavka 5. dodaje se novi stavak 6. koji glasi: »(6) Poslodavac i isplatitelj plaće pri isplati plaće bivšim radnicima za posljednji mjesec rada kod tog poslodavca ima uvid u poreznu karticu bivšeg radnika, a najkasnije do dana dospjelosti plaće za posljednji mjesec rada te isti može koristiti podatke iz stavka 1. ovoga članka iz porezne kartice bivšeg radnika.«. Dosadašnji stavak 6. postaje stavak 7.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DA9AB9E8BE99EB0EFE3AF08E2B2A9816C4FF2CE566CE6A52CC850F5E0FA1A92A",
+    "sha256_datoteke": "E0BB1B11FABBA489C8800FF74A0CD192AA092AD5DA30B5B47D32E01AD59F8593",
+    "napomena": null
+  }
+}

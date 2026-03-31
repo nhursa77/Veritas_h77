@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "36",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznik koji obavlja samostalnu djelatnost iz članka 29. ovoga Zakona može na vlastiti zahtjev plaćati porez na dobit umjesto poreza na dohodak ili je obvezan plaćati porez na dobit umjesto poreza na dohodak ako ispunjava zakonske uvjete za oporezivanje dobiti, na način i pod uvjetima propisanim zakonom kojim se uređuje porez na dobit. U slučaju supoduzetnišva ili drugog oblika zajedničkog dohotka pisani zahtjev podnose i potpisuju svi supoduzetnici. (2) Pisani zahtjev iz stavka 1. ovoga članka kojim se na vlastiti zahtjev traži promjena načina oporezivanja dostavlja se nadležnoj ispostavi Porezne uprave do kraja tekuće godine za iduću kalendarsku godinu. (3) Promjena načina oporezivanja na temelju podnesenog zahtjeva iz stavka 1. ovoga članka obvezuje poreznog obveznika sljedeće tri godine. (4) U opravdanim slučajevima i na temelju pisanog zahtjeva poreznog obveznika Porezna uprava može odobriti i kraći rok prelaska s plaćanja poreza na dohodak na porez na dobit i obratno, o čemu donosi rješenje. (5) Opravdanim slučajevima iz stavka 4. ovoga članka osobito se smatraju cjelovita promjena djelatnosti koju obavlja porezni obveznik te bitno izmijenjeni uvjeti (više od 50%), zbog kojih je porezni obveznik promijenio način oporezivanja. Utvrđivanje predujma poreza na dohodak od samostalne djelatnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D1A4BBFBE2CF6B7F6A7E949EC71EC5F883BD827BF46A921A0A1A5A201D214E82",
+    "sha256_datoteke": "ACAB00F400753FA774F39244D9C9CC331EBF72D1CCD896B933074E88571F68B9",
+    "napomena": null
+  }
+}

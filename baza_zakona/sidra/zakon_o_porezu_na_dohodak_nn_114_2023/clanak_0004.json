@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". U članku 14. stavak 1. briše se. Dosadašnji stavci 2., 3. i 4., koji postaju stavci 1., 2. i 3., mijenjaju se i glase: »(1) Poreznom obvezniku se ostvareni dohodak iz članka 13. ovoga Zakona umanjuje za osnovni osobni odbitak u visini 560,00 eura i to za svaki mjesec poreznog razdoblja za koji se utvrđuje porez na dohodak. (2) Dijelovi osobnog odbitka za uzdržavane članove uže obitelji i djecu te invalidnost/tjelesno oštećenje izračunavaju se primjenom propisanih koeficijenata i osnovnog osobnog odbitka iz stavka 1. ovoga članka. (3) Rezident može uvećati osnovni osobni odbitak iz stavka 1. ovoga članka u visini iznosa: R. br. Osnova za uvećanje osnovnog osobnog odbitka Koeficijent Mjesečni iznos (u eurima i centima) 1 2 3 4 1. Uzdržavani članovi uže obitelji 0,5 280,00 2. Prvo uzdržavano dijete 0,5 280,00 3. Drugo uzdržavano dijete 0,7 392,00 4. Treće uzdržavano dijete 1,0 560,00 5. Četvrto uzdržavano dijete 1,4 784,00 6. Peto uzdržavano dijete 1,9 1064,00 7. Šesto uzdržavano dijete 2,5 1400,00 8. Sedmo uzdržavano dijete 3,2 1792,00 9. Osmo uzdržavano dijete 4,0 2240,00 10. Deveto uzdržavano dijete 4,9 2744,00 11. Za svako daljnje uzdržavano dijete koeficijent osnovnoga osobnog odbitka progresivno se uvećava za 1,1 … više u odnosu prema koeficijentu za prethodno dijete 12. Invalidnost poreznog obveznika, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta 0,3 168,00 13. Invalidnost utvrđena po jednoj osnovi 100 % i/ili korištenje, na temelju posebnih propisa, prava na doplatak za pomoć i njegu poreznog obveznika odnosno prava na osobnu invalidninu, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta. Korištenje uvećanja osnovnog osobnog odbitka po ovoj osnovi isključuje korištenje uvećanja osnovnog osobnog odbitka iz r. br. 12. 1,0 560,00 U dosadašnjim stavcima 5., 6. i 7., koji postaju stavci 4., 5. i 6., riječi: »stavka 4. ovoga članka« zamjenjuju se riječima: »stavka 3. ovoga članka«. Dosadašnji stavak 8. postaje stavak 7.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "89F18F6BAB3C837C9E8AE1EB9AEE6968991BE33668999FA782B052B0FA782F47",
+    "sha256_datoteke": "E2EC85E7BA2D31E06B20609A092AFDEF241E2662F15E9168B9E97AB5A5431827",
+    "napomena": null
+  }
+}

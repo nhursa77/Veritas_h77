@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "30",
+    "naslov": null,
+    "tekst": ". (1) Dohodak od samostalnih djelatnosti je razlika između poslovnih primitaka i poslovnih izdataka nastalih u poreznom razdoblju. (2) Iznimno od stavka 1. ovoga članka i članka 34. stavka 1. ovoga Zakona, porezni obveznici koji obavljaju samostalnu djelatnost novinara, umjetnika i športaša iz članka 29. stavka 2. točke 4. ovoga Zakona mogu utvrđivati dohodak i plaćati predujam poreza na dohodak po osnovi tih djelatnosti u skladu s člancima 39. i 40. ovoga Zakona. Primici po osnovi samostalnih djelatnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F8E2F71CA12732C2DF297B3449106CF7B27770EF26C3241005B3F56E5A8D3394",
+    "sha256_datoteke": "4EFCF9AB4C8D76688A2B9CDC6E4EDEFB6DBD61D716441E634D05D9D859FF105E",
+    "napomena": null
+  }
+}

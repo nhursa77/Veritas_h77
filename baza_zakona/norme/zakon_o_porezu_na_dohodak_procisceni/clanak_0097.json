@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "97",
+    "naslov": null,
+    "tekst": ". Danom stupanja na snagu ovoga Zakona prestaju važiti: – Pravilnik o djelatnostima iznajmljivanja stanova, soba i postelja putnicima i turistima te organiziranja kampova koje će se paušalno oporezivati, o visini paušalnog poreza i načinu plaćanja paušalnog poreza (»Narodne novine«, br. 48/05. i 148/09.) – Pravilnik o porezu na dohodak (»Narodne novine«, br. 95/05., 96/06., 68/07., 146/08., 2/09., 9/09., 146/09., 123/10., 137/11., 61/12., 79/13., 160/13., 157/14. i 137/15.) – Pravilnik o paušalnom oporezivanju samostalnih djelatnosti (»Narodne novine«, br. 143/06., 61/12., 160/13. i 137/15.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "782DD3DE42F1C7B1A6324BD6BC6373D91B3777958FEC9ED98C4D45713931FD07",
+    "sha256_datoteke": "F0B9AB7FA502D9CA6848E88EB1AF972628CCA9A108210DE517E19DFCFDD60428",
+    "napomena": null
+  }
+}

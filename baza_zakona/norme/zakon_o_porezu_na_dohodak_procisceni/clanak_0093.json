@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "93",
+    "naslov": null,
+    "tekst": ". Ministar financija donijet će u roku od 90 dana od dana stupanja na snagu ovoga Zakona pravilnik iz članka 9. stavka 2., članka 17. stavka 9., članka 25. stavka 7., članka 26. stavka 6., članka 27. stavka 2., članka 34. stavka 6., članka 37. stavka 7., članka 39. stavka 9., članka 40. stavka 3., članka 41. stavka 2., članka 50. stavka 3., članka 53. stavka 7., članka 54. stavka 12., članka 57. stavka 5., članka 58. stavka 10., članka 62. stavka 7., članka 63. stavka 2., članka 70. stavka 21., članka 71. stavka 2., članka 74. stavka 2., članka 79. stavka 8., članka 81. stavka 7., članka 82. stavka 8., članka 85. stavka 6., članka 86. stavka 2., članka 87. stavka 6. i članka 89. stavka 10. ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B9D38F50E799BDA730519402280A5F4CF66A557529EABAEA2211BBA59F0B890D",
+    "sha256_datoteke": "F891ACE4B35BB46AC3B4B7A62FAFCC483593F7077D013621260CE76ABF7DA54B",
+    "napomena": null
+  }
+}

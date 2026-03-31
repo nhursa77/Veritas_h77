@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "78",
+    "naslov": null,
+    "tekst": ". (1) Porez na dohodak od drugog dohotka iz članka 76. ovoga Zakona obračunava Porezna uprava po stopi od 36%. (2) Obračunani porez na dohodak iz stavka 1. uvećava se za 50%. (3) O utvrđenom i obračunanom porezu na dohodak iz stavka 2. ovoga članka Porezna uprava donosi porezno rješenje. (4) Porezni obveznik kojem je utvrđen i obračunan drugi dohodak iz stavka 1. ovoga članka obvezan je isti uplatiti u roku od 15 dana od dana dostave poreznog rješenja iz stavka 3. ovoga članka. DIO ČETVRTI UTVRĐIVANJE ZAJEDNIČKOG DOHOTKA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "66A35286C4BBDD38E070ADF86588400834DA53008C47C325CEF892C58C6F558C",
+    "sha256_datoteke": "09A2EBF4794B5AD98220C6DFA590366AA4250100588E14477B1FF3BBAE9D89FC",
+    "napomena": null
+  }
+}

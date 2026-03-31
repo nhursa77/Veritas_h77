@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". (1) Porez na dohodak utvrđuje se i plaća za kalendarsku godinu (dalje u tekstu: porezno razdoblje), osim ako je ovim Zakonom drukčije uređeno. (2) Iznimno od stavka 1. ovoga članka, porezno razdoblje može biti kraće od kalendarske godine u sljedećim slučajevima: 1. ako rezident tijekom iste kalendarske godine postane nerezident ili obratno, u kojem slučaju porezno razdoblje obuhvaća razdoblje u kojemu je fizička osoba bila rezident ili nerezidenti i/ili 2. rođenja ili smrti poreznog obveznika. (3) U slučajevima iz stavka 2. ovoga članka prava iz ovoga Zakona računaju se u korist poreznog obveznika, na pune mjesece. POGLAVLJE VI. PRIMICI KOJI SE NE SMATRAJU DOHOTKOM",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CD449AE5EB6B1C8823E8F817CC46903761E6A801D3BEDB9B1F956F85A87DBCE4",
+    "sha256_datoteke": "325A697D7C548B0F7302506B17932F581648663202DC0173FC3948B9B7C2D83C",
+    "napomena": null
+  }
+}

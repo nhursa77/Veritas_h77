@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "51",
+    "naslov": null,
+    "tekst": ". (1) Posebnim postupkom utvrđivanja godišnjeg poreza na dohodak i prireza porezu na dohodak smatra se postupak utvrđivanja ukupnog godišnjeg dohotka i ukupnog godišnjeg poreza na dohodak i prireza porezu na dohodak koji provodi Porezna uprava po službenoj dužnosti, osim u slučajevima iz članka 52. ovoga Zakona. (2) Godišnjim dohotkom na koji se primjenjuje poseban postupak iz stavka 1. ovoga članka smatra se ukupan dohodak od nesamostalnog rada i drugi dohodak koji se ne smatra konačnim ostvaren u poreznom razdoblju. (3) Poseban postupak iz stavka 1. ovoga članka primjenjuje se na porezne obveznike koji u poreznom razdoblju ostvare dohodak iz stavka 2. ovoga članka. Porezni obveznici na koje se poseban postupak ne primjenjuje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "76C008AF1F2015CFEB7ED5B1A728F40F96A5ABBDA1C887A527007ABFC468AD73",
+    "sha256_datoteke": "6331DBC2FD874354B45D38E5FD00E5A66F67AD8A95B41D6CD0F84E08FF843FAD",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". U članku 29. stavku 3. riječi: »10.684,19 eura« zamjenjuju se riječima: »10.685,00 eura«. U stavku 4. riječi: »četverostrukog iznosa osnovice osobnog odbitka« zamjenjuju se riječima: »trostrukog iznosa osnovnog osobnog odbitka«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A17272F220813C9200DA13B04B23C2A91F62DB22A9E25CA9B73742E7C781280B",
+    "sha256_datoteke": "63ABF6096FED94B444BEC5F1CA4AFA254056F770E8B3A4C6336A292059A8F73D",
+    "napomena": null
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "akt_slug": "zakon_o_porezu_na_dohodak_nn_138_2020",
+  "control_mode": "delta",
+  "source": {
+    "tip": "NN",
+    "slug": "zakon_o_porezu_na_dohodak_nn_138_2020",
+    "stanje_na_dan": "31.03.2026."
+  },
+  "affected_articles": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    62
+  ],
+  "ops": [],
+  "notes": "AUTO-GENERATED MINIMAL CONTROL; ops empty until delta parser implemented."
+}

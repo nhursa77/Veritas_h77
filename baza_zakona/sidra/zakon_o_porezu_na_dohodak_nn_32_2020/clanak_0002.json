@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 54. stavku 2. iza točke dodaje se rečenica koja glasi: »Porezna uprava će temeljem dostavljenih privremenih poreznih rješenja izvršiti zaduženje poreznih obveznika za utvrđenu razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili poreznim obveznicima izvršiti povrat ako porezni obveznik ispunjava uvjete za povrat preplaćenog poreza na dohodak i prireza porezu na dohodak sukladno ovom Zakonu i propisu kojim je uređen opći porezni postupak.«. U stavku 3. rečenica: »Izjavljeni prigovor odgađa izvršenje privremenog poreznog rješenja do donošenja rješenja po prigovoru.« briše se. U stavku 7. rečenica: »Izjavljena žalba ne odgađa izvršenje poreznog rješenja.“ briše se. U stavku 8. iza riječi: »poreznom obvezom« dodaje se točka, a riječi: »te će Porezna uprava temeljem dostavljenih privremenih poreznih rješenja izvršiti zaduženje poreznih obveznika za utvrđenu razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili poreznim obveznicima izvršiti povrat ako porezni obveznik ispunjava uvjete za povrat preplaćenog poreza na dohodak i prireza porezu na dohodak sukladno ovom Zakonu i zakonu kojim je uređen opći porezni postupak.« brišu se. U stavku 9. riječi: »stavkom 8.« zamjenjuju se riječima: »stavkom 2.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_03_32_692.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 32/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_03_32_692.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9F1932DA1B866D557C8620A09298746FD2CE7B83B06CA671BCDE79028D6C72A3",
+    "sha256_datoteke": "CFC85B8B037AFE5CA775B7EB6AC4B5A8E7B1FCFEE85B3BACE9F24DABDF94725C",
+    "napomena": null
+  }
+}

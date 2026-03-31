@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "65",
+    "naslov": null,
+    "tekst": ". (1) Kamatama iz članka 64. stavka 1. ovoga Zakona smatraju se primici od tražbina svake vrste, a osobito: 1. primici od kamata na kunsku i deviznu štednju (po viđenju, oročenu ili rentnu štednju, uključujući i prinos, nagradu, premiju i svaku drugu naknadu ostvarenu iznad visine uloženih sredstava) 2. primici od kamata po vrijednosnim papirima 3. primici od kamata po osnovi danih zajmova i 4. primici ostvareni na temelju podjele prihoda investicijskog fonda u obliku kamata, ako se ne oporezuju kao udjeli u dobiti na temelju podjele dobiti ili prihoda investicijskog fonda. (2) Kamatama iz stavka 1. ovoga članka ne smatraju se: 1. zatezne kamate 2. naplaćene kamate po sudskim rješenjima i rješenjima tijela lokalne i područne (regionalne) samouprave 3. kamate na pozitivno stanje na žiroračunu, tekućem i deviznom računu, kamate ostvarene po osnovi pologa i štednje po viđenju, koje su ostvarene od banaka, štedionica i drugih financijskih institucija, te kamate ostvarene temeljem namjenski oročenih depozitima koji služe za osiguranje tražbina banke pod uvjetom da su te kamate manje od najmanje kamate za oročenu štednju, odnosno ako iznose najviše do 0,5% godišnje. Najmanja kamata za oročenu štednju ne odnosi se na namjenske oročene depozite koji služe za osiguranje tražbina banke 4. primici od kamata ostvarenih ulaganjem u obveznice, neovisno o izdavatelju i vrsti obveznica i 5. primici po osnovi prinosa na životno osiguranje s obilježjem štednje (isplaćena naknada iznad uplaćenih premija osiguranja) i prinosa po osnovi dobrovoljnog mirovinskog osiguranja. Dohodak od kapitala po osnovi izuzimanja imovine i korištenja usluga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A5808297FD24D40E5E944A9DAE59890F998856B2AA47C21B5BF356605BE7B813",
+    "sha256_datoteke": "95ADD7687DEC89704C5E0F792FB4DB052D4254CDD3B398FB95AC1E53846174B1",
+    "napomena": null
+  }
+}

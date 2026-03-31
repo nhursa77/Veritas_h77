@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "80",
+    "naslov": null,
+    "tekst": ". (1) Pri utvrđivanju oporezivog dohotka iz članka 12. stavka 7. ovoga Zakona odredbe međunarodnih ugovora koji su sklopljeni i potvrđeni u skladu s Ustavom Republike Hrvatske, a koji su na snazi, imaju prednost pred odredbama tuzemnog Zakona. (2) Porez koji je rezident platio u inozemstvu temeljem inozemnog dohotka uračunat će se u tuzemni porez na dohodak za svaki pojedinačni inozemni dohodak zasebno, osim ako je ovim Zakonom drukčije uređeno. (3) Porez plaćen u inozemstvu može se uračunati samo na temelju potvrde inozemnog poreznog tijela ili za to ovlaštene osobe o uplaćenom porezu u inozemstvu. (4) Iznimno od stavka 2. ovoga članka, porez koji je rezident platio u inozemstvu temeljem inozemnog dohotka neće se uračunati u tuzemni porez na dohodak ako isti nije plaćen u inozemstvu u skladu s odredbama međunarodnog ugovora, ako je međunarodni ugovor u primjeni. (5) Uračunavanje inozemnog poreza u tuzemni porez na dohodak obavlja se u godišnjem obračunu poreza putem podnesene godišnje porezne prijave, odnosno u posebnom postupku utvrđivanja godišnjeg poreza na dohodak te u slučaju konačnog oporezivanja putem podnesenog izvješća iz članka 81. stavka 4. ovoga Zakona. POGLAVLJE II. OBVEZE OBRAČUNA I UPLATE POREZA NA DOHODAK I IZVJEŠĆIVANJE O INOZEMNOM DOHOTKU",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1D36CAE1EB8D966D38C08C82D135CD15999D4563E4E5BAE68A70926BF50B4FB5",
+    "sha256_datoteke": "6BBB2F2758137495FA69B3FFF080B76C059B44CAFF2B0278B838FB9EDE86C755",
+    "napomena": null
+  }
+}

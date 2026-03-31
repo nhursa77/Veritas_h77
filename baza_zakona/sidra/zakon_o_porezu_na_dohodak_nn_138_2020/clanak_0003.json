@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". U članku 17. stavku 2. točki 11. riječi: »i/ili« brišu se. U točki 12. na kraju rečenice briše se točka i dodaju se riječi: »i/ili«. Iza točke 12. dodaje se točka 13. koja glasi: »13. nacionalna naknada za starije osobe.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6BD7C8950D86CAFA5ACFD0BB2E7D97F1CC9F04CC9DB4F5FE3D9D1BEE63359948",
+    "sha256_datoteke": "96D212AE7735E1710BF816FB3ACA6934A2403A75F35B4A391EBBAE6CDF98F7EC",
+    "napomena": null
+  }
+}

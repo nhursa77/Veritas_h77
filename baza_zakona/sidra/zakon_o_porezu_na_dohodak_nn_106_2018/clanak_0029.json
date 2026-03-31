@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". U članku 91. stavku 1. točki 5. riječi: »članak 74. stavak 1.,« zamjenjuju se riječima: »članak 78.a stavak 3.,«. Točka 11. mijenja se i glasi: »11. isplatitelj primitka od kojeg se utvrđuje drugi dohodak, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od drugog dohotka (članak 78.a stavak 2.)«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3EC07B52FD71320D69462F82F32ADC947D0D1C4792B300B007493D89529F6313",
+    "sha256_datoteke": "02391E49694832236A2A1EAFFD97C05D559C9FEF00982AF237A8BBFBDDF13502",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": ". (1) Osobni odbitak iz članka 14. ovoga Zakona, pripadnost općini/gradu i ostali podaci bitni za utvrđivanje predujma poreza na dohodak, odnosno poreza na dohodak od nesamostalnog rada priznaje se i utvrđuje isključivo na temelju porezne kartice koju za radnika, umirovljenika i fizičku osobu koja ostvaruje primitke iz članka 21. ovoga Zakona imaju poslodavci i isplatitelji primitka, odnosno plaće i mirovine ili sam porezni obveznik. (2) Poreznu karticu iz stavka 1. ovoga članka, poslodavcu i isplatitelju plaće ili mirovine ili samom poreznom obvezniku dostavlja elektroničkim putem Porezna uprava na njegov zahtjev i uz suglasnost radnika, odnosno fizičke osobe koja ostvaruje primitke od nesamostalnog rada, dok za umirovljenika – korisnika mirovine koju isplaćuje Hrvatski zavod za mirovinsko osiguranje podatke bitne za utvrđivanje predujma poreza na dohodak Porezna uprava dostavlja elektroničkim putem po službenoj dužnosti. (3) Iznimno od stavka 2. ovoga članka, ako poslodavac i isplatitelj plaće ili mirovine ili sam porezni obveznik nije korisnik sustava ePorezna ili ne ishodi suglasnost radnika ili umirovljenika, poreznu karticu može besplatno izdati Porezna uprava u papirnatom obliku, a poslodavci i isplatitelj plaće ili mirovine dužni su je čuvati dok radnik, umirovljenik i fizička osoba koja ostvaruje primitak od nesamostalnog rada kod njih radi, odnosno dok se isplaćuje mirovina ili primitak po osnovi nesamostalnog rada. (4) Radnik, umirovljenik i fizička osoba koja ostvaruje primitke iz članka 21. ovoga Zakona obvezni su svaku promjenu u svezi s uzdržavanim članovima, promjenu prebivališta ili uobičajenog boravišta i drugo, koja utječe na osobni odbitak, odnosno neoporezivi dio dohotka, prijaviti Poreznoj upravi, u roku od 30 dana od dana nastanka promjene, putem svog poslodavca ili izravno putem sustava e-građani ili iznimno putem nadležne ispostave Porezne uprave i dostaviti vjerodostojne isprave. (5) Prihvaćene i evidentirane promjene iz stavka 4. ovoga članka poslodavac i isplatitelj plaće, mirovine ili sam porezni obveznik primjenjuje pri sljedećim isplatama plaća i mirovina. (6) Ministar financija pravilnikom propisuje oblik i sadržaj porezne kartice iz stavka 1. ovoga članka. Evidencije i izvješća",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5AE91DBE1A2402B13DF5D233C1419A3D199DE1D31832116369CB41C3E4B84E00",
+    "sha256_datoteke": "F7E6A104C058E5EA5B58AE7477F53129484D0DA2B5808EE441866D600FEAE61B",
+    "napomena": null
+  }
+}

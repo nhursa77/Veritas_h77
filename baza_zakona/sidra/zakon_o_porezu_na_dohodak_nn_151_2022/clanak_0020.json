@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": ". Razlike koje poreznim obveznicima nastanu zbog primjene pravila za preračunavanje i zaokruživanje u skladu sa Zakonom o uvođenju eura kao službene valute u Republici Hrvatskoj (»Narodne novine«, br. 57/22. i 88/22. – ispravak) uključuju se u poreznu osnovicu.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6CA6FF72613059C692FFD8B981552283B794786949F06862241F1660DE733435",
+    "sha256_datoteke": "3A57A349C845E98236EE83FAD45F97DEB3E89D83182933CD16EC37AE9CF3E6C9",
+    "napomena": null
+  }
+}

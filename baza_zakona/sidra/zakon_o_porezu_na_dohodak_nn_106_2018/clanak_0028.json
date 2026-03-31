@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "28",
+    "naslov": null,
+    "tekst": ". U članku 83. stavak 4. mijenja se i glasi: »(4) Porezna uprava može, putem sustava ePorezna, temeljem podataka iz svojih službenih evidencija, omogućiti isplatiteljima primitaka od kojih se utvrđuje drugi dohodak, dohodak od imovinskih prava i kapitala, uvid u podatke koji se odnose na pripadnost općini/gradu primatelja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "30B9D47B55A651778F22EB31B96A476A629FC7AB3CE787F32D3072DDC5FDAFBD",
+    "sha256_datoteke": "353A3CDC8A7AEA2D06226108BB6B1E3122F922610C191AF53E579522679A3DFB",
+    "napomena": null
+  }
+}

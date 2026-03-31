@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". U članku 39. stavku 3. točka 8. mijenja se i glasi: »8. stipendije učenicima za redovito školovanje na srednjim školama te studentima u redovitom statusu na sveučilišnim prijediplomskim studijima, sveučilišnim diplomskim studijima, sveučilišnim integriranim prijediplomskim i diplomskim studijima odnosno stručnim prijediplomskim studijima i stručnim diplomskim studijima iz članka 9. stavka 1. točke 14. ovoga Zakona, iznad propisanog iznosa«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8A3ADE86A19A0E7992CFD24138E658ADAFC68E039F18757E3A320A0780E3A130",
+    "sha256_datoteke": "03AC071B5173DE1F065EFCEB747FA414EDBF00F96297FBB03D34CC267A609201",
+    "napomena": null
+  }
+}

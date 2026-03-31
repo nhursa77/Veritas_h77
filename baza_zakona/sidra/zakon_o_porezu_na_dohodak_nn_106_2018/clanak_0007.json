@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". U članku 17. stavku 2. točki 8. iza riječi: »porez na dohodak« umjesto točke stavlja se zarez i dodaju točke 9., 10. i 11. koje glase: »9. odštete od osiguranja isplaćene zbog teške ozljede i priznate invalidnosti 10. stipendije, nagrade za izvrsnost učenika i studenata isplaćene iz proračuna i bespovratna sredstva koja se isplaćuju iz proračuna, fondova i programa Europske unije i drugih međunarodnih fondova i programa uređenih posebnim propisima i međunarodnim sporazumima, u svrhu obrazovanja i stručnog usavršavanja 11. potpore djetetu za školovanje do 15. godine života odnosno do završetka osnovnoškolskog obrazovanja, koje poslodavac isplaćuje djetetu umrlog radnika ili djetetu bivšeg radnika kod kojeg je nastupio potpuni gubitak radne sposobnosti, uz uvjet da bivši radnik ne ostvaruje primitke iz članka 21. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6F6DB00A03336260BBD898AF4079B928CC0C8E89CD8CCDB8F1EFA0ABC3AEAA92",
+    "sha256_datoteke": "B6B327559880F2AA658C7F065FFA3A35B610425C48B898D466298D207AE7B9E9",
+    "napomena": null
+  }
+}

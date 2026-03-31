@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "52",
+    "naslov": null,
+    "tekst": ". (1) Poseban postupak iz članka 51. ovoga Zakona ne primjenjuje se na: 1. porezne obveznike koji sukladno odredbama članka 48. ovoga Zakona obvezno podnose godišnju poreznu prijavu 2. porezne obveznike koji su u poreznom razdoblju ostvarili samo dohodak iz članka 49. ovoga Zakona i/ili 3. porezne obveznike za koje Porezna uprava ne raspolaže podacima o njihovu ostvarenom dohotku u poreznom razdoblju, odnosno porezne obveznike koji su u poreznom razdoblju ostvarili oporezivi dohodak o kojem poslodavac, isplatitelj primitka ili sam porezni obveznik, ako mu je ovim Zakonom propisana obveza izvješćivanja, nije izvijestio Poreznu upravu u propisanom roku na propisanom izvješću. (2) U slučaju iz stavka 1. točke 3. ovoga članka postupit će se u skladu s odredbom članka 48. stavka 4. ovoga Zakona. Način ostvarivanja prava poreznih obveznika u posebnom postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F79FF740B4ABCB837E126C275DE83178ACAB57BE707AD786A33A0B379D160BB9",
+    "sha256_datoteke": "50BDDC97CAA46B0257C0C7FC51C8DF16ED6AC21CE8A6414F131E19F566AB7357",
+    "napomena": null
+  }
+}

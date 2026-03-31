@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". (1) Primicima od nesamostalnog rada ne smatraju se primici koje poslodavac i isplatitelj primitka odnosno, plaće omogućuje radnicima i fizičkim osobama koje ostvaruju primitke iz članka 21. stavka 1. ovoga Zakona, te fizičkim osobama koje se stručno osposobljavaju za rad bez zasnivanja radnog odnosa u interesu obavljanja djelatnosti poslodavca i isplatitelja primitka, odnosno plaće, i to: 1. uređenje i opremanje radnih prostora i prostora za odmor i prehranu 2. posebna radna odjeća obilježena nazivom ili znakom poslodavca ili isplatitelja primitka, odnosno plaće, u skladu s posebnim propisima o zaštiti na radu te odjeća određena prema posebnim pravilima poslodavca 3. obvezni liječnički pregledi prema posebnim propisima 4. sistematski kontrolni liječnički pregledi ako su omogućeni svim radnicima i fizičkim osobama koje ostvaruju primitke iz članka 21. stavka 1. ovoga Zakona 5. obrazovanje i izobrazba koje su u svezi s djelatnosti poslodavca i isplatitelja primitka, odnosno, plaće i/ili 6. članarine po osnovi članstva u strukovnim komorama koje je, prema posebnim propisima, obvezno za radnike pri obavljanju određenih poslova za poslodavaca i isplatitelja primitka, odnosno plaće. (2) Primicima po osnovi nesamostalnog rada ne smatraju se iznosi koje isplaćuje Hrvatski zavod za mirovinsko osiguranje, i to: 1. naknada plaće hrvatskih branitelja iz Domovinskog rata prema posebnom zakonu od dana stjecanja prava na profesionalnu rehabilitaciju, za vrijeme profesionalne rehabilitacije i od završene profesionalne rehabilitacije do zaposlenja, a najduže 12 mjeseci od dana završetka profesionalne rehabilitacije 2. zaštitni dodatak uz mirovinu planiran u državnom proračunu ili proračunu jedinica lokalne i područne (regionalne) samouprave 3. novčana naknada zbog tjelesnog oštećenja 4. doplatak za pomoć i njegu druge osobe 5. naknada plaće invalidu rada s pravom na profesionalnu rehabilitaciju, od dana nastanka invalidnosti do najduže 24 mjeseca od dana završetka profesionalne rehabilitacije i/ili 6. dodatak na mirovinu isplaćen sukladno Zakonu o dodatku na mirovine ostvarene prema Zakonu o mirovinskom osiguranju (»Narodne novine«, br. 79/07. i 114/11.) koji korisniku mirovine pripada za razdoblje do 31. prosinca 2011. (3) Ako poslodavac i isplatitelj primitka, odnosno plaće i mirovine iz članka 21. ovoga Zakona isplaćuje radniku i fizičkim osobama te umirovljenicima plaću ili mirovinu po sudskoj presudi, sudskoj nagodbi ili izvansudskoj nagodbi, propisane zatezne kamate isplaćene po toj osnovi ne smatraju se primitkom od nesamostalnog rada i ne podliježu oporezivanju. Primicima po osnovi nesamostalnog rada ne smatraju se niti zatezne kamate isplaćene na temelju arbitražnih odluka u skladu s posebnim propisom, zatezne kamate isplaćene prema rješenju službeničkih sudova te zatezne kamate isplaćene na temelju nagodbi sklopljenih u postupcima za mirno rješenje spora do visine zakonske stope zateznih kamata. Izdaci po osnovi nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "89ECFF11C3D76703894F1BCCFC276B4AFEA59E74A70F70CF000B2B36488953A8",
+    "sha256_datoteke": "18E4042CDF7B885652FF50045CBBDB837881391148C0A53B97414093A5E4762E",
+    "napomena": null
+  }
+}

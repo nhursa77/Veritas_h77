@@ -3717,3 +3717,56 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z117_dnevnik.md`
+
+## Datum: 31.03.2026 (ZADATAK 118)
+
+### ZADATAK 118 - stvarni ingest zpd po paketnom manifestu
+
+Pokrenut je stvarni ingest za `zakon_o_porezu_na_dohodak` koristeci vec
+postojeci manifest `paketi/PAKET_ZPD_V1.json`, bez izmjene manifesta i bez
+promjene rezima iz `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+
+Paketni run zavrsio je s `INGEST_PAKET_EXIT=0`, a zavrsni summary je potvrdio
+`status OK` za core akt i svih sedam amandmanskih akata.
+
+Dokazno su potvrdeni stvarno nastali artefakti: core NORMA set
+`baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/` s 99 clanaka,
+sidrisni setovi za akte `NN 106/2018`, `121/2019`, `32/2020`, `138/2020`,
+`151/2022`, `114/2023` i `152/2024`, NN snapshot i parsirani izlazi pod
+`izvori/dokazno/narodne_novine/zakon_o_porezu_na_dohodak*/`, kontrolni
+direktoriji pod `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak*/` te
+osam selection reportova.
+
+Kao stvarni nusartefakt ingest-a osvjezen je i
+`izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`, pa ostaje u
+scopeu ovog zadatka zajedno sa ZPD generiranim izlazima.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+- `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_32_2020/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_138_2020/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_114_2023/`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_152_2024/`
+- `izvori/dokazno/narodne_novine/ZAKON_O_POREZU_NA_DOHODAK*.md`
+- `izvori/dokazno/narodne_novine/zakon_o_porezu_na_dohodak*/`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak*/`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\ingest_paket.ps1 -PaketPath .\paketi\PAKET_ZPD_V1.json`
+- `Get-ChildItem .\baza_zakona\norme\zakon_o_porezu_na_dohodak_procisceni`
+- `Get-ChildItem .\baza_zakona\sidra\zakon_o_porezu_na_dohodak_nn_*`
+- `Get-ChildItem .\izvori\dokazno\narodne_novine\zakon_o_porezu_na_dohodak*`
+- `Get-ChildItem .\izvori\kontrolno\zakon_hr\zakon_o_porezu_na_dohodak*`

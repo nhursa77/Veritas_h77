@@ -1,9 +1,9 @@
 # Izvještaj kontrole arhive NN
 
 - Datum: 31.03.2026.
-- Ukupno aktova u NORMA bazi: 5
+- Ukupno aktova u NORMA bazi: 6
 - OK: 0
-- NEDOSTAJE: 5
+- NEDOSTAJE: 6
 - HASH_NEDOSTAJE: 0
 - NEVALJAN_IZVOR: 0
 
@@ -19,6 +19,7 @@
 - prekrsajni_zakon_procisceni | nedostaje mapa akta u NN arhivi
 - ustav_rh_procisceni | nedostaje mapa akta u NN arhivi
 - zakon_o_opcem_upravnom_postupku_procisceni | nedostaje mapa akta u NN arhivi
+- zakon_o_porezu_na_dohodak_procisceni | nedostaje mapa akta u NN arhivi
 - zakon_o_upravnim_sporovima_procisceni | nedostaje mapa akta u NN arhivi
 
 ### HASH_NEDOSTAJE
@@ -32,4 +33,4 @@
 ## Gate pravilo
 
 - Ako postoji NEDOSTAJE, HASH_NEDOSTAJE ili NEVALJAN_IZVOR za akt koji se
-  koristi u predmetu, vanjski izlaz je zabranjen.
+	koristi u predmetu, vanjski izlaz je zabranjen.

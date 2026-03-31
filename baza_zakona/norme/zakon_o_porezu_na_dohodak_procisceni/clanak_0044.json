@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "44",
+    "naslov": null,
+    "tekst": ". (1) Obveznicima poreza na dohodak koji obavljaju samostalne djelatnosti iz članka 29. ovoga Zakona dohodak od samostalne djelatnosti može se u poreznom razdoblju dodatno umanjiti za iznos isplaćenih plaća i uplaćenih doprinosa na plaću novim radnicima. (2) Novim radnicima u smislu stavka 1. ovoga članka smatraju se radnici s kojima je sklopljen ugovor o radu na neodređeno vrijeme, a zaposlenje je kod poreznog obveznika uslijedilo nakon najmanje jednomjesečne prijave kod Hrvatskog zavoda za zapošljavanje i trajanja probnog rada ako je ugovoren. Novim radnicima smatraju se i osobe zaposlene nakon odustanka od korištenja prava na mirovinu ili osobe koje se prvi put zapošljavaju, a i osobe zaposlene na određeno vrijeme kao pripravnici, vježbenici, stažisti i slično. (3) Ako porezni obveznik tijekom poreznog razdoblja sklopi ugovor o radu s novim radnicima iz stavka 2. ovoga članka, a u istom poreznom razdoblju raskine ugovor o radu s određenim brojem radnika, dohodak se umanjuje za razliku između obračunanih i isplaćenih plaća novim radnicima i obračunanih plaća koje bi u istom poreznom razdoblju primili radnici s kojima je raskinut ugovor o radu. (4) Porezni obveznik može pravo na umanjenje dohotka za isplaćene plaće i doprinose na plaću novih radnika koristiti godinu dana od dana njihovog zaposlenja. (5) Iznimno od stavka 4. ovoga članka, porezni obveznik može pravo na umanjenje dohotka za isplaćene plaće i doprinose na plaću novih radnika – osoba s invaliditetom koristiti tri godine računajući od dana njihova zaposlenja. (6) Obveznicima poreza na dohodak koji obavljaju samostalne djelatnosti iz članka 29. ovoga Zakona dohodak od samostalne djelatnosti može se dodatno umanjiti i za iznos državne potpore za obrazovanje i izobrazbu te iznos potpore male vrijednosti za izvođenje praktične nastave i vježbe naukovanja u sustavu vezanih obrta, prema posebnim propisima. (7) Iznos umanjenja dohotka od samostalne djelatnosti iz stavka 1. ovoga članka utvrđuje se u skladu s odgovarajućim pravilima o potporama male vrijednosti. (8) Porezne olakšice iz ovoga članka priznaju se u godišnjem obračunu poreza na dohodak na temelju podnesene godišnje porezne prijave iz članka 48. ovoga Zakona. Poticaji istraživanja i razvoja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0217AEFFAAC9E0DBB2CAA294C28FDA3EE3EB02D97D0D2EB7D8CEC3F8868D1065",
+    "sha256_datoteke": "8505484EF45E84BBC0AFC04A182519878C3BA29538CB554EEAF6B3798CA543F8",
+    "napomena": null
+  }
+}

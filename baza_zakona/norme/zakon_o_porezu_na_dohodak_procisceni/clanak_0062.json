@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "62",
+    "naslov": null,
+    "tekst": ". (1) Kod dohotka od imovine ostvarenog od najamnine i zakupnine, osim dohotka ostvarenog iznajmljivanjem stanova soba i postelja putnicima i turistima i organiziranjem kampova iz članka 82. ovoga Zakona, porez na dohodak plaća se prema rješenju Porezne uprave, i to do posljednjeg dana u mjesecu za tekući mjesec. Porez na dohodak plaća porezni obveznik po postupku i na način iz članka 37. ovoga Zakona, a po stopi od 12%. (2) Porez na dohodak od imovinskih prava obračunavaju, obustavljaju i uplaćuju isplatitelji primitka kao porez po odbitku istodobno s isplatom primitka, i to od ukupne naknade primjenom stope od 24%. (3) Porez na dohodak od otuđenja nekretnina i imovinskih prava plaćaju porezni obveznici prema rješenju Porezne uprave jednokratno na pojedinačno ostvareni primitak, i to u roku od 15 dana od dana primitka rješenja Porezne uprave o utvrđenom porezu na dohodak. Porez na dohodak se utvrđuje od porezne osnovice iz članka 58. stavka 1. ovoga Zakona primjenom stope od 24%. (4) Porez na dohodak od otuđenja više od tri nekretnine iste vrste ili više od tri imovinska prava iste vrste u razdoblju od pet godina od dana stjecanja plaćaju porezni obveznici prema rješenju Porezne uprave jednokratno u roku od 15 dana od dana dostave rješenja Porezne uprave o utvrđenom porezu na dohodak, na ukupno ostvareni primitak od otuđenja nekretnina iste vrste ili imovinskih prava iste vrste u tom razdoblju, a koje se donosi nakon otuđenja četvrte nekretnine iste vrste ili četvrtog imovinskog prava iste vrste. Za svako daljnje otuđenje nekretnine iste vrste ili imovinskog prava iste vrste u razdoblju od pet godina u kojem je već utvrđen dohodak od otuđenja nekretnina iste vrste ili imovinskih prava iste vrste, donosi se novo rješenje za tu nekretninu ili imovinsko pravo koje se otuđuje. Porez na dohodak se utvrđuje od porezne osnovice iz članka 58. stavka 3. ovoga Zakona primjenom stope od 24%. (5) Ranije plaćeni porez na dohodak iz stavka 3. ovoga članka po osnovi otuđenja nekretnine ili imovinskog prava iste vrste uračunava se u poreznu obvezu utvrđenu po osnovi stavka 4. ovoga članka. (6) Porez na dohodak od posebnih vrsta imovine iz članka 59. ovoga Zakona obračunava, obustavlja i uplaćuje isplatitelj primitka kao porez po odbitku najkasnije do kraja tekućeg mjeseca za tekući mjesec. Porez na dohodak se plaća po stopi od 12%. (7) Ministar financija pravilnikom propisuje način provedbe ovoga članka. Izvješćivanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "202D1FA5D4AF1171B3099AE53E5E488D00B06545ADC22C0D1F44D61B993494C5",
+    "sha256_datoteke": "5EB4DA2B99757C535C856E1C4CC93DA2066679BC8F65B96216575CD14138EECF",
+    "napomena": null
+  }
+}

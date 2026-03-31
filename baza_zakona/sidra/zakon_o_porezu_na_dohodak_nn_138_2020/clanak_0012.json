@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". U članku 87. iza stavka 5. dodaje se novi stavak 6. koji glasi: »(6) Iznimno od stavka 1. ovoga članka, kada javni bilježnik dostavi ispravu o ostvarivanju najamnine i zakupnine nekretnina i pokretnina sukladno članku 62. stavku 8. ovoga Zakona, smatra se da je izvršena prijava upisa u registar poreznih obveznika.«. Dosadašnji stavak 6. postaje stavak 7.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "98C8BB0CB2C37A8E424C30403993B1C4679011FC81F811551FB48788B165D3C7",
+    "sha256_datoteke": "623C0FB90E2D9ECC16D544A51162F2EB82507C19CF77939BA2D515D02AC0854A",
+    "napomena": null
+  }
+}

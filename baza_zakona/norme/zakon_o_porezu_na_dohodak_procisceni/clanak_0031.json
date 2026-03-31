@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "31",
+    "naslov": null,
+    "tekst": ". (1) Primici po osnovi samostalnih djelatnosti (dalje u tekstu: poslovni primici) su sva dobra (novac, stvari, materijalna prava, usluge i drugo) koja su poreznom obvezniku u okviru njegove samostalne djelatnosti pritekla u poreznom razdoblju. (2) Poslovni primici iz stavka 1. ovoga članka utvrđuju se prema njihovoj tržišnoj vrijednosti. (3) U poslovne primitke ulaze i primici ostvareni od prodaje i izuzimanja stvari i prava koja služe za obavljanje samostalne djelatnosti i koja se vode ili su se trebala voditi u popisu dugotrajne imovine, kao i primici ostvareni od otuđenja ili likvidacije djelatnosti. Ako stjecatelj cijele djelatnosti nastavlja poduzetničku djelatnost, primici od otuđenja se ne oporezuju ako je osigurano kasnije oporezivanje skrivenih pričuva. (4) Poslovnim primicima smatraju se i izuzimanja osim izuzimanja financijske imovine. (5) Poslovnim primicima smatraju se manjkovi dobara u smislu propisa o porezu na dodanu vrijednost iznad visine utvrđene odlukom Hrvatske obrtničke komore te pripadajući porezi zaračunati prilikom nabave dobara za koja je utvrđen manjak. (6) Poslovnim primicima smatraju se i primici po osnovi kamata iz članka 65. ovoga Zakona ako su ostvareni od financijskih transakcija koje čine osnovnu djelatnost poreznog obveznika. (7) Iznimno od stavka 1. ovoga članka, poslovne primitke poreznog razdoblja po osnovi državnih pomoći, poticaja i potpora namijenjenih za nabavu dugotrajne imovine koja podliježe amortizaciji, uključuje se u poreznu osnovicu u iznosima evidentiranih izdataka nastalih temeljem amortizacije te dugotrajne imovine u istom poreznom razdoblju. (8) U slučaju primjene stavka 7. ovoga članka porezni obveznik je obvezan voditi evidenciju o primljenim državnim potporama i poticajima za nabavu dugotrajne imovine i iznosima obračunane amortizacije. Izdaci po osnovi samostalnih djelatnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0366E958518C79F732A2552AB9D770FAACE4F3B32231BF84B289790C6A762D5E",
+    "sha256_datoteke": "8196B97FC374B2137D8B3A8AC266E6AAC8FC770B3889675D871A74827703795C",
+    "napomena": null
+  }
+}

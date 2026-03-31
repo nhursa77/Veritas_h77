@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "31",
+    "naslov": null,
+    "tekst": ". (1) Ministar financija uskladit će provedbene propise Zakona o porezu na dohodak (»Narodne novine«, br. 115/16.) s odredbama ovoga Zakona u roku od 90 dana od dana njegova stupanja na snagu. (2) Odredbe Pravilnika o porezu na dohodak (»Narodne novine«, br. 10/17. i 128/17.) ostaju na snazi u dijelu koji nije u suprotnosti s ovim Zakonom.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "32C2C26310E6BCF1E23ED85CAAB1E4C31E863E98D78CFD928EFE1394F7BCA30A",
+    "sha256_datoteke": "BC28E951157D92A67D1030AD0DC5C85D54B40B9CAF7B91669BF57721FB4D1E32",
+    "napomena": null
+  }
+}

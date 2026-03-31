@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". (1) Godišnji porez na dohodak plaća se po stopi od 24% na poreznu osnovicu do visine 210.000,00 kuna te po stopi od 36% na dio porezne osnovice koji prelazi iznos od 210.000,00 kuna. (2) Godišnja porezna osnovica za primjenu stope od 24% iz stavka 1. ovoga članka uvećava se za ostvareni iznos drugog dohotka iz članka 39. ovoga Zakona uz uvjet da iznos tako ostvarenog dohotka godišnje ne prelazi peterostruki iznos osnovice osobnog odbitka. POGLAVLJE V. UTVRĐIVANJE DOHOTKA OD NESAMOSTALNOG RADA Dohodak od nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F0DB373FFA68B77CAF11BC50B2B4405E9589A597AC2A01DB43A77CD4A10E9376",
+    "sha256_datoteke": "178E68DC934F6F24612DC5CEF482B7A660D14478702BCC294360BACB7624E987",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". U članku 83. stavku 3. riječi: »i prireza porezu na dohodak« brišu se. Iza stavka 5. dodaju se stavci 6. i 7. koji glase: »(6) Porezna uprava može putem sustava ePorezna, na temelju podataka iz svojih službenih evidencija, omogućiti isplatiteljima primitaka uvid u podatke koji se odnose na isplaćene neoporezive primitke po osnovi nagrade za dobro obavljenu uslugu (napojnice). (7) U slučaju uočenih nepravilnosti Porezna uprava može naknadno od isplatitelja napojnice zatražiti ispravak podnesenog izvješća po primatelju.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2E6A0FF8074B415D1FD6CFF24E2FD449FBC3F5931FF397C63F393B3F483FBE37",
+    "sha256_datoteke": "754D04B03B565EE4BA9CAA0474BD7577521F8E09CB0408255E00F12236E0F382",
+    "napomena": null
+  }
+}

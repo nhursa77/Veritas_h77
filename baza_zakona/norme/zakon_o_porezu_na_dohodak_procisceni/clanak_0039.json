@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "39",
+    "naslov": null,
+    "tekst": ". (1) Drugi dohodak je razlika između svakoga pojedinačnog primitka prema stavku 2., odnosno stavku 3. ovoga članka umanjen za propisane izdatke iz stavaka 4. i 5. ovoga članka. (2) Drugi dohodak ostvaruje se po osnovi primitaka koji se ne smatraju primicima određenim po osnovi: 1. nesamostalnog rada iz članka 21. ovoga Zakona 2. samostalne djelatnosti iz članka 29. ovoga Zakona 3. imovine i imovinskih prava iz članaka 56. – 59. ovoga Zakona 4. kapitala iz članaka 64. – 69. ovoga Zakona i 5. osiguranja iz članka 72. ovoga Zakona. (3) Primicima prema stavcima 1. i 2. ovoga članka osobito se smatraju: 1. primici po osnovi djelatnosti članova skupština i nadzornih odbora trgovačkih društava, upravnih odbora, upravnih vijeća i drugih njima odgovarajućih tijela drugih pravnih osoba, članova povjerenstava i odbora koje imaju ta tijela i sudaca porotnika koji nemaju svojstvo djelatnika u sudu 2. autorske naknade isplaćene prema posebnom zakonu kojim se uređuju autorska i srodna prava 3. primici po osnovi djelatnosti športaša 4. primici po osnovi djelatnosti trgovačkih putnika, agenta, akvizitera, športskih sudaca i delegata, tumača, prevoditelja, turističkih djelatnika, konzultanata, sudskih vještaka te druge slične djelatnosti 5. primici u naravi – korištenje zgrada, prometnih sredstava, povoljnije kamate pri odobravanju kredita i druge pogodnosti prema članku 21. stavku 3. ovoga Zakona, a koje davatelji tih primitaka daju fizičkim osobama koje nisu njihovi radnici i osobe koje ostvaruju primitke iz članka 21. ovoga Zakona 6. nagrade učenicima za vrijeme praktičnog rada i naukovanja iz članka 9. točke 4. ovoga Zakona, iznad propisanog iznosa 7. primici učenika i studenata na redovitom školovanju za rad preko učeničkih i studentskih udruga prema posebnim propisima iz članka 9. točke 6. ovoga Zakona, iznad propisanog iznosa 8. stipendije učenicima i studentima za redovito školovanje na srednjim školama, preddiplomskim, diplomskim ili integriranim preddiplomskim i diplomskim sveučilišnim studijima, odnosno preddiplomskim ili specijalističkim diplomskim stručnim studijima iz članka 9. točke 14. ovoga Zakona, iznad propisanog iznosa 9. športske stipendije koje se prema posebnim propisima isplaćuju športašima amaterima za njihovo športsko usavršavanje iz članka 9. točke 16. ovoga Zakona, iznad propisanog iznosa 10. nagrade za športska ostvarenja i naknade športašima amaterima prema posebnim propisima iz članka 9. točke 17. ovoga Zakona, iznad propisanih iznosa i/ili 11. ostali posebno nenavedeni primici koje fizičkim osobama isplaćuju ili daju pravne i fizičke osobe (obveznici poreza na dobit i obveznici poreza na dohodak koji obavljaju samostalne djelatnosti) i drugi isplatitelji i davatelji. (4) Izdacima koji se priznaju pri utvrđivanju drugog dohotka iz stavka 1. ovoga članka smatraju se uplaćeni doprinosi za obvezna osiguranja iz primitaka, prema posebnim propisima. (5) Iznimno, pri utvrđivanju drugog dohotka iz stavka 1. ovoga članka izdaci se, prije izdataka iz stavka 4. ovoga članka ako su obračunani i plaćeni prema posebnim propisima, priznaju u visini 30% ostvarenih primitaka fizičkim osobama po osnovi: 1. autorskih naknada isplaćenih prema posebnom zakonu kojim se uređuju autorska i srodna prava, uključujući i naknade za isporučeno umjetničko djelo osobama koje obavljaju umjetničku i kulturnu djelatnost 2. profesionalnih djelatnosti novinara, umjetnika i športaša koji su osigurani po toj osnovi i doprinose za obvezna osiguranja plaćaju prema rješenju i/ili 3. primitaka nerezidenata za obavljanje umjetničke, artističke, zabavne, športske, književne i likovne djelatnosti te djelatnosti u svezi s tiskom, radijem i televizijom te zabavnim priredbama. (6) Porezni obveznik koji ostvaruje drugi dohodak iz stavka 1. ovoga članka po osnovi djelatnosti može na vlastiti zahtjev, upisom u registar poreznih obveznika, utvrđivati dohodak u skladu s člancima 30. – 35. ovoga Zakona, odnosno na način propisan za samostalne djelatnosti. Zahtjev za promjenom načina utvrđivanja i oporezivanja dohotka porezni obveznik obvezan je podnijeti na početku ostvarivanja dohotka, na početku obavljanja djelatnosti ili do kraja tekuće godine za iduću godinu. (7) Porezni obveznik koji prema stavku 6. ovoga članka utvrđuje dohodak u skladu s člancima 30. – 35. ovoga Zakona ne može koristiti izdatke iz stavka 5. ovoga članka. (8) Izdaci iz stavka 5. ovoga članka priznaju se pri utvrđivanju predujma poreza na dohodak od drugog dohotka. (9) Ministar financija pravilnikom propisuje vrste primitaka u naravi iz stavka 3. točke 5. ovoga članka i način njihova utvrđivanja. Utvrđivanje predujma poreza na dohodak od drugog dohotka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F09DD0370CD895C02F8F413322A59D8CCB50218A8AB465457BE16B734BE64520",
+    "sha256_datoteke": "1227E84BE3B0F0C13D8F8B3ED35CFCC1DE4314BFD8B9BBE915730E86256CF2CC",
+    "napomena": null
+  }
+}

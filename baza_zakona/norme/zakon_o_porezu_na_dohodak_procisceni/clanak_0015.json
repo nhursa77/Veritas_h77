@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". (1) Poreznom obvezniku se osobni odbitak uvećava i za iznose plaćene za obvezno zdravstveno osiguranje ako porezni obveznik nije drukčije osiguran, do visine propisanoga obveznog doprinosa za zdravstveno osiguranje. (2) Porezni obveznik može uvećati osobni odbitak za darovanja dana u tuzemstvu u naravi i u novcu doznačenim na žiroračun, a u kulturne, odgojno-obrazovne, znanstvene, zdravstvene, humanitarne, športske i vjerske svrhe, udrugama i drugim osobama koje te djelatnosti obavljaju u skladu s posebnim propisima, do visine 2% primitaka za koje je u tekućoj godini podnesena godišnja porezna prijava i utvrđen godišnji porez na dohodak ili je proveden poseban postupak utvrđivanja godišnjeg poreza na dohodak i prireza porezu na dohodak. (3) Iznimno od stavka 2. ovoga članka, osobni odbitak se uvećava za darovanja dana iznad propisane visine, pod uvjetom da su dana prema odlukama nadležnih ministarstava o provedbi i financiranju posebnih programa i akcija, ali ne i za redovitu djelatnost primatelja darovanja. Osobni odbitak nerezidenta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D52C691317C66A2A1B75C0DA27BCB6A47EEB329D03221A80AE6441A8197CBB0E",
+    "sha256_datoteke": "184C6707450CC879DE0502F6EB64289BCCBB6FDD5C5E7B59ECC0BE3B1D8B482E",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". U članku 9. stavku 1. točka 4. mijenja se i glasi: »4. nagrade učenicima za vrijeme praktičnog rada i naukovanja i naknade učenicima za vrijeme dualnog obrazovanja, do propisanog iznosa«. Iza točke 22. brišu se riječi: » i/ili «. Iza točke 23. briše se točka te se dodaju riječi: » i/ili « i točka 24. koja glasi: »24. premije dodatnog i dopunskog zdravstvenog osiguranja koje poslodavac uplaćuje u korist svojeg radnika, osiguravatelju odnosno Hrvatskom zavodu za zdravstveno osiguranje prema propisu kojim je uređeno dobrovoljno zdravstveno osiguranje, do propisanog iznosa.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "75572B3FAD967AED242D8EA38C5E590413B63D93A07D1D7556B327D34178CB5B",
+    "sha256_datoteke": "6BE09F2C722EC587BEC8B9D8B9110E58D02645CEAF5A5BA0EB9760ED7571B9D8",
+    "napomena": null
+  }
+}

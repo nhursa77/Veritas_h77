@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". U članku 29. stavku 3. riječi: »od 80.500,00 kuna« zamjenjuju se riječima: »od 10.684,19 eura«. Iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Djelatnošću proizvodnje električne energije smatra se djelatnost proizvodnje električne energije od strane krajnjih kupaca s vlastitom proizvodnjom električne energije uz ispunjenje ostalih uvjeta propisanih propisom kojim se uređuje preuzimanje električne energije od krajnjih kupaca s vlastitom proizvodnjom ili korisnika postrojenja za samoopskrbu. Ako fizičke osobe, proizvođači električne energije koje kao krajnji kupci s vlastitom proizvodnjom, a koje su prethodno bile proizvođači električne energije kao korisnici postrojenja za samoopskrbu, ostvare ukupan godišnji primitak veći od četverostrukog iznosa osnovice osobnog odbitka iz članka 14. stavka 1. ovoga Zakona, obveznici su poreza na dohodak.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "19203CC51BCE29C6ABB400786D7DB06245332D8314C01378F92B6DBC2B7579A2",
+    "sha256_datoteke": "4D7D6451CB6D39BA9C6FD3C12C3C43E71414189D05F77472059518287B5E1F69",
+    "napomena": null
+  }
+}

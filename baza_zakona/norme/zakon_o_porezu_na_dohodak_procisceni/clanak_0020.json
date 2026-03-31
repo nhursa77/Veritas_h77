@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": ". Dohodak od nesamostalnog rada je razlika između primitaka priteklih u poreznom razdoblju u skladu s odredbama članka 21. ovoga Zakona i izdataka nastalih u istom razdoblju u skladu s odredbama članka 23. ovoga Zakona. Primici po osnovi nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6C7607DC1014DD91B188E0F16BA58113D555C0716EF9556410A8B6BD535D2DFD",
+    "sha256_datoteke": "C7D9E818230C9EE71A4EE3405462719DB9C7EFCE329E546B14FE7FD88D09897C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". Ministar financija uskladit će provedbene propise Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20. i 138/20.) s odredbama ovoga Zakona u roku od 90 dana od dana njegova stupanja na snagu, i to: – Pravilnik o porezu na dohodak (»Narodne novine«, br. 10/17., 128/17., 106/18., 1/19., 80/19., 1/20., 74/20., 1/21., 102/22. i 112/22.) – Pravilnik o paušalnom oporezivanju samostalnih djelatnosti (»Narodne novine«, br. 1/20. i 1/21.) – Pravilnik o paušalnom oporezivanju djelatnosti iznajmljivanja i organiziranja smještaja u turizmu (»Narodne novine«, br. 1/19., 1/20. i 1/21.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "95523BBBBE4029F1C64B64328598F7302F76252D23DC592B58FF55F180FC22B7",
+    "sha256_datoteke": "C6B60CE45DB0C8BEF0BFD091E6D824866604F1C815899F7471F8BEA17AE5FA5B",
+    "napomena": null
+  }
+}

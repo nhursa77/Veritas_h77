@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". U članku 47. stavku 1. riječi: »i prireza porezu na dohodak« brišu se, a riječi: »stavaka 3. i 4.« zamjenjuju se riječima: »stavaka 1. i 3.«. U stavku 2. riječi: »koje su propisale plaćanje prireza porezu na dohodak« brišu se.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "06AA67CC63074D21A9D4E2363DEDD4CFAA7A9F2F81C7124604FED4BB47FC5CBC",
+    "sha256_datoteke": "47C1E061F3ACE9CC59DF39022CC1383ACA5F9DBB5079522BB20A62E3C50232BF",
+    "napomena": null
+  }
+}

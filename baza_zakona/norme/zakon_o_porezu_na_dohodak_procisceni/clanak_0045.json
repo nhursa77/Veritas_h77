@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "45",
+    "naslov": null,
+    "tekst": ". (1) Obveznicima poreza na dohodak koji obavljaju samostalne djelatnosti iz članka 29. ovoga Zakona dohodak od samostalne djelatnosti može se u poreznom razdoblju dodatno umanjiti po osnovi izdataka za istraživanje i razvoj i to u visini 100% nastalih i u poslovnim knjigama iskazanih izdataka. (2) Istraživanjem se u smislu stavka 1. ovoga članka smatra izvorno i planirano ispitivanje poduzeto radi stjecanja novih znanstvenih i tehničkih spoznaja i razumijevanja, a uključuje temeljno istraživanje i primijenjeno istraživanje. Temeljnim istraživanjem smatra se teorijski ili pokusni rad poduzet radi stjecanja novih znanja bez konkretne praktične primjene, a primijenjenim istraživanjem teorijski ili pokusni rad poduzet radi stjecanja novih znanja i usmjeren na ostvarivanje praktičnog cilja. Razvojem se smatra sustavni rad koji se temelji na rezultatima znanstvenog istraživanja i praktičnog iskustva, usmjeren stvaranju novih materijala, proizvoda i sustava te uvođenju novih procesa, sustava i usluga ili znatnom poboljšanju postojećih. (3) Istraživanjem i razvojem u smislu stavka 1. ovoga članka ne smatra se kontrola kvalitete, rutinsko testiranje proizvoda, prikupljanje podataka koje nije dijelom istraživačkoga razvojnog procesa, istraživanje učinkovitosti, upravljačka studija, istraživanje tržišta i promotivna prodaja. (4) Izdacima za istraživanje i razvoj iz stavka 1. ovoga članka smatraju se osobito: 1. plaće i ostali odnosni troškovi osoba koje sudjeluju u istraživanju i razvoju 2. izdaci za materijal i usluge korištene u djelatnosti istraživanja i razvoja 3. izdaci otpisa nekretnina, postrojenja i opreme u razmjernom dijelu u kojem se ova sredstva koriste za istraživanje i razvoj 4. opći izdaci koji se odnose na istraživanje i razvoj, osim općih administrativnih izdataka 5. izdaci za istraživanje i razvoj koje je za poreznog obveznika obavila osoba registrirana za obavljanje istraživanja i razvoja i 6. amortizacija patenata i licencija u razmjernom dijelu u kojem se koriste za istraživanje i razvoj. (5) Porezne olakšice iz ovoga članka priznaju se u godišnjem obračunu poreza na dohodak na temelju podnesene godišnje porezne prijave iz članka 48. ovoga Zakona. POGLAVLJE IX. POSTUPAK ZA UTVRĐIVANJE I NAPLATU GODIŠNJEG POREZA Odjeljak 1. UTVRĐIVANJE GODIŠNJEG POREZA Godišnji porez na dohodak",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2A6E23324CA897B4130C5F5D22F767914F6CB9E79F9B3457AE6373BC87DB08BE",
+    "sha256_datoteke": "F9DBAE0E7536C339A3BA303FD0EA763638B4BD5AAC0204034D7618842A4ABB21",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "84",
+    "naslov": null,
+    "tekst": ". (1) Nadležna tijela državne uprave, pravne osobe s javnim ovlastima, odnosno druge nadležne organizacije dužne su Poreznoj upravi dostaviti sva odobrenja za obavljanje djelatnosti obrta i slobodnih zanimanja, te rješenja o privremenoj obustavi i prestanku djelatnosti, odnosno slobodnih zanimanja istodobno s dostavom odobrenja, odnosno rješenja poreznom obvezniku. (2) Podaci iz stavka 1. ovoga članka mogu se dostaviti i elektroničkim putem, odnosno na nosačima podataka. POGLAVLJE III. DOSTAVLJANJE PODATAKA OD DRUGIH PRAVNIH I FIZIČKIH OSOBA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6C4960ED67FDE424FAA7AA8E8511529F4C464B9B01A3148AFA2ABEDA97AFD72D",
+    "sha256_datoteke": "221D98CF9868F567F9C5451705F7CF5D874E87BE74E92500EE8D89F92F588CEF",
+    "napomena": null
+  }
+}

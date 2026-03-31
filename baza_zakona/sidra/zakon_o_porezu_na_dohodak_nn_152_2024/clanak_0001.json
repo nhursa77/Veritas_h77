@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Zakonu o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.) u članku 1. stavak 3. mijenja se i glasi: »(3) Iznimno od stavka 2. ovoga članka, pripadnost poreza na dohodak po osnovi ostvarenog dohotka od imovine na temelju najma ili zakupa nekretnina iz članka 57. stavka 1. ovoga Zakona i dohotka od iznajmljivanja kuća, stanova, soba i postelja te objekata za robinzonski smještaj putnicima i turistima i organiziranja kampova iz članka 57. stavka 2. ovoga Zakona određuje se prema mjestu gdje se nekretnina odnosno smještajna jedinica nalazi.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F98B5B5D5DA41F3C533116363F3AFDEAAF785381C2FECCD24A49BF1EAC1EB5FB",
+    "sha256_datoteke": "3B61D57FF8D0B680CAA5C528FDC76BFDEF2CB7D359DD9867B3AB3508919BB61F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": ". (1) Obveznici poreza na dohodak iz članka 48. ovoga Zakona dužni su nakon isteka poreznog razdoblja (kalendarske godine) podnijeti godišnju poreznu prijavu propisanog oblika i sadržaja. (2) Godišnja porezna prijava podnosi se do kraja veljače tekuće godine za prethodnu godinu. (3) Ministar financija pravilnikom propisuje oblik i sadržaj godišnje porezne prijave. Odjeljak 3. POSEBAN POSTUPAK UTVRĐIVANJA GODIŠNJEG POREZA NA DOHODAK Opće odredbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B9E66AFBDA970CAC46945760CAD53D32CC14E963395906B12450E60F698FEB2B",
+    "sha256_datoteke": "1DCCF1450D83FCC9EC54E4BFBB5A8CBE03A542A45CAFB876AF1D26E25CB1A4D9",
+    "napomena": null
+  }
+}

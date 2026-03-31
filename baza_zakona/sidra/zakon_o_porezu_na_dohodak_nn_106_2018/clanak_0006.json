@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 14. stavku 5. iza riječi: »roditelji,« dodaju se riječi: »maćehe odnosno očusi,«. U stavku 6. iza riječi: »roditelji poreznog obveznika,« dodaju se riječi: »maćehe odnosno očusi koje punoljetno pastorče uzdržava,«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "25449884E3C1EE0DA7D41F7B69789F56E60EF98E500BC3F3E76DC49057CA6B30",
+    "sha256_datoteke": "4A737DDA038E9C1807DD5C5D5A8ED4279EF6BBFA4C08880C2155B5BEB1D53C44",
+    "napomena": null
+  }
+}

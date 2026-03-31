@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". U članku 46. iza stavka 1. dodaju se novi stavci 2., 3. i 4. koji glase: »(2) Godišnji porez na dohodak koji se utvrđuje prema poreznoj osnovici iz članka 18. ovoga Zakona umanjuje se: – fizičkim osobama do 25 godina života koje ostvare dohodak od nesamostalnog rada (plaću iz članka 21. stavka 1. točke 1. ovoga Zakona) i to za 100% razmjernog dijela porezne obveze obračunane na dio porezne osnovice na koju se sukladno članku 19. ovoga Zakona plaća godišnji porez po stopi od 24%, a koja se odnosi na dohodak od nesamostalnog rada (plaću iz članka 21. stavka 1. točke 1. ovoga Zakona) – fizičkim osobama od 26 do 30 godina života koje ostvare dohodak od nesamostalnog rada (plaću iz članka 21. stavka 1. točke 1. ovoga Zakona) i to za 50% razmjernog dijela porezne obveze obračunane na dio porezne osnovice na koju se sukladno članku 19. ovoga Zakona plaća godišnji porez po stopi od 24%, a koja se odnosi na dohodak od nesamostalnog rada (plaću iz članka 21. stavka 1. točke 1. ovoga Zakona). (3) Umanjenje iz stavka 2. ovoga članka utvrđuje se prije umanjenja iz stavka 1. ovoga članka. (4) Umanjenje godišnjeg poreza na dohodak iz stavka 2. ovoga članka koristi se za cijelo porezno razdoblje u kojem obveznik navršava određenu godinu života.«. Dosadašnji stavci od 2. do 5. postaju stavci od 5. do 8.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AC988CC54A8769ABAE893FD66D482ED18783DF5898367DE5BD064D74327909F2",
+    "sha256_datoteke": "A234263AF276A577E5146577E3A04BD287FF499D1997D2FC2C5399B8DA6C688E",
+    "napomena": null
+  }
+}

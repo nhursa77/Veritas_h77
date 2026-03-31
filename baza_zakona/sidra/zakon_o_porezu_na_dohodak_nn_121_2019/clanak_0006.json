@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 17. stavku 2. iza točke 7. brišu se riječi: »i/ili«. Iza točke 8. briše se zarez. Iza točke 11. briše se točka te se dodaju riječi: »i/ili« i točka 12. koja glasi: »12. nagrade učenicima za vrijeme praktičnog rada i naukovanja i naknade učenicima za vrijeme dualnog obrazovanja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A47F39DA351AD8A555CD665964F2528D179FB0F64780243AD5067C33C30228EE",
+    "sha256_datoteke": "74F4643C6C9C655E364FFC345E3D9CBA402C07C6E9A9582A3F1B0C24397AF01A",
+    "napomena": null
+  }
+}

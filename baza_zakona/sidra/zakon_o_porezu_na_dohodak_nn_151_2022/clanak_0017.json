@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". U članku 86. stavku 1. riječi: »žiroračun kod banke, a iznimno na njihov tekući račun sukladno posebnim propisima te u« zamjenjuju se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet kod banke, a iznimno u«. U stavku 2. riječi: »tekući račun« zamjenjuju se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "088A9CEF4A6A6380ED89021B140E6A8187A9F657176DDD5112BBA4722C03EA4F",
+    "sha256_datoteke": "5785570EA5F37ABC92906AB34108A75AF516B3FC918F0B8FE08047CA8BE46F09",
+    "napomena": null
+  }
+}

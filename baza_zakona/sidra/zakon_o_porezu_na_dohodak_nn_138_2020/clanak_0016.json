@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". U cijelom tekstu Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19. i 32/20.) riječi: »stope od 24%« u određenom broju i padežu zamjenjuju se riječima: »stope od 20%« u odgovarajućem broju i padežu, riječi: »stope od 36%« u određenom broju i padežu zamjenjuju se riječima: »stope od 30%« u odgovarajućem broju i padežu, riječi: »stope od 12%« u određenom broju i padežu zamjenjuju se riječima: »stope od 10%« u odgovarajućem broju i padežu. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "42D2C0F71192B1793B08FA60E2249AA59338E1BFF681FAEA69E7569C6509D873",
+    "sha256_datoteke": "5A0AA8DEFA1007BCB206557AC362BB8C893A17C83112A310FC80B9D0FCF2E13B",
+    "napomena": null
+  }
+}

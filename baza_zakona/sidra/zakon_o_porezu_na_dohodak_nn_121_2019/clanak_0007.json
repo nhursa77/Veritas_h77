@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". U članku 21. stavku 1. točki 1. podtočka e) mijenja se i glasi: »e) premije osiguranja koje poslodavci plaćaju za svoje radnike po osnovi životnog osiguranja, osiguranja njihove imovine, privatnoga zdravstvenog osiguranja, dopunskog i dodatnog zdravstvenog osiguranja iznad propisanog iznosa i dobrovoljnoga mirovinskog osiguranja iznad propisanog iznosa«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A186A48D7707C9B9D74A53501AB898C27FE81A8CCB83C5F405FF693414E06D5B",
+    "sha256_datoteke": "DC07FA305D0AD9714BFBE462A29AE592132EE0368AB0485D3510B6B6C15659BC",
+    "napomena": null
+  }
+}

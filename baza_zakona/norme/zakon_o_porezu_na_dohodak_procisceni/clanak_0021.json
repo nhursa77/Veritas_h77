@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "21",
+    "naslov": null,
+    "tekst": ". (1) Primicima po osnovi nesamostalnog rada (plaćom) smatraju se: 1. svi primici koje poslodavac u novcu ili u naravi isplaćuje ili daje radniku po osnovi radnog odnosa, prema propisima koji uređuju radni odnos, a to su: a) plaća koju poslodavac isplaćuje radnicima u svezi sa sadašnjim radom, prijašnjim radom po osnovi prijašnjeg radnog odnosa bez obzira na sadašnji status te osobe – umirovljenik ili neki drugi status, i to ako se radi o plaći za rad koji je obavljen za vrijeme radnog odnosa i možebitne druge isplate na koje je radnik imao pravo u vrijeme toga radnog odnosa neovisno kada je u toj godini prestao radni odnos, odnosno raskinut ugovor o radu ili budućim radom po osnovi sadašnjeg radnog odnosa b) primici po osnovi naknada, potpora, nagrada i drugog, koje poslodavac isplaćuje ili daje radnicima iznad propisanih iznosa c) plaća koju radniku umjesto poslodavca isplati druga osoba d) naknada članu uprave i/ili izvršnom direktoru koji kao radnik u radnom odnosu obavlja određene poslove za poslodavca sukladno zakonu kojim se uređuju radni odnosi e) premije osiguranja koje poslodavci plaćaju za svoje radnike po osnovi životnog osiguranja, dopunskog, dodatnog i privatnoga zdravstvenog osiguranja, dobrovoljnoga mirovinskog osiguranja iznad propisanog iznosa i osiguranja njihove imovine f) svi drugi primici koje poslodavac isplaćuje ili daje radniku vezano uz radni odnos i odnos poslodavca i radnika bez obzira na oblik i način isplate ili temelja za isplatu, osim ako je ovim Zakonom drukčije uređeno 2. poduzetnička plaća koja ulazi u rashod pri utvrđivanju poreza na dobit 3. primici (plaća) fizičkih osoba izaslanih na rad u Republiku Hrvatsku po nalogu inozemnog poslodavca u tuzemna društva za rad u tim društvima 4. primici (plaća) članova predstavničkih i izvršnih tijela državne vlasti i jedinica lokalne i područne (regionalne) samouprave koji im se isplaćuju za rad u tim tijelima i jedinicama i/ili 5. naknade plaće osobama koje pružaju njegu i pomoć hrvatskim ratnim vojnim invalidima iz Domovinskog rata I. skupine, prema posebnom propisu. (2) Primicima po osnovi nesamostalnog rada smatraju se i: 1. mirovine ostvarene na temelju prijašnjih uplata doprinosa za obvezno mirovinsko osiguranje 2. mirovine koje isplaćuju osiguravatelji na temelju prijašnjih uplata poslodavca za dokup dijela mirovine svojim radnicima u vrijeme njihovog umirovljenja, ako su te uplate bile oslobođene oporezivanja 3. mirovine koje se isplaćuju poduzetnicima koji su obavljali samostalnu djelatnost, poduzetnicima koji su plaćali porez na dobit i drugim osobama na temelju prijašnjih uplata doprinosa u propisano obvezno osiguranje, a koji su bili porezno dopustivi izdatak ili rashod i/ili 4. mirovine rezidenata ostvarene u inozemstvu. (3) Primicima u naravi smatraju se korištenje zgrada, prometnih sredstava, povoljnije kamate pri odobravanju kredita, dodjela ili opcijska kupnja vlastitih dionica po povoljnijim uvjetima i druge pogodnosti koje poslodavci i isplatitelji primitka, odnosno plaće iz stavaka 1. i 2. ovoga članka daju radnicima i fizičkim osobama koje ostvaruju primitke iz stavaka 1. i 2. ovoga članka. Primitkom po osnovi povoljnijih kamata smatra se razlika između ugovorene niže i stope kamate od 3% godišnje, osim kamata po kreditima koji se daju ili subvencioniraju iz proračuna, ali ne radnicima uprave. (4) Iznimno od stavka 1. ovoga članka, primicima od nesamostalnog rada (plaćom) ne smatraju se primici koje poslodavci i isplatitelji tih primitaka isplaćuju svojim radnicima i drugim fizičkim osobama koje ostvaruju primitke (plaću), i to: 1. primici po osnovi autorskih naknada pod uvjetom da se autorske naknade isplaćuju na temelju ugovora o autorskim pravima i srodnim pravima sklopljenih između poslodavca/isplatitelja primitaka od nesamostalnog rada (plaće) i tih osoba za autorsko djelo i drugim uvjetima u skladu s propisima koji uređuju autorska i srodna prava te pod uvjetom da autorsko djelo nije stvoreno radom u radnom odnosu izvršavajući svoje obveze prema ugovoru o radu, pravilniku o radu, kolektivnom ugovoru ili posebnom propisu 2. primici po osnovi rada članova skupština i nadzornih odbora trgovačkih društava, upravnih odbora, upravnih vijeća i drugih njima odgovarajućih tijela drugih pravnih osoba, pod uvjetom da radnik istodobno nije član uprave ili izvršni direktor kod poslodavca ili isplatitelja te da je primitak ostvaren temeljem rada predstavnika radnika u organu poslodavca sukladno odredbama zakona kojim se uređuju radni odnosi i drugih posebnih propisa i/ili (5) Primici iz stavka 4. ovoga članka smatraju se drugim dohotkom prema članku 39. ovoga Zakona. (6) Radnicima, u smislu stavka 1. točke 1. ovoga članka, smatraju se i službenici, namještenici i druge osobe koje su u radnom odnosu, prema propisima koji uređuju radni odnos. Primici koji se ne smatraju primicima od nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "960372D40FF6E1B5950A8753CCF2A010FE2D0D09889C878302E5624C8017727B",
+    "sha256_datoteke": "52A1F682677EB5ACFF6366BB5A69C2A98955CD887D0AE2CD18FCF74F7B94FE98",
+    "napomena": null
+  }
+}

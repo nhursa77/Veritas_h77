@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "91",
+    "naslov": null,
+    "tekst": ". (1) Novčanom kaznom od 10.000,00 do 50.000,00 kuna kaznit će se za prekršaj pravna osoba: 1. poslodavac, isplatitelj primitka od nesamostalnog rada, odnosno mirovine, koji u propisanom roku ne uplati ili uplati manji predujam poreza na dohodak od nesamostalnog rada (članak 24. stavak 1., članak 25. stavak 5. i članak 81. stavak 1.) 2. inozemna organizacija koja ne uživa diplomatski imunitet u Republici Hrvatskoj, sa sjedištem u Republici Hrvatskoj, koja u propisanom roku ne uplati ili uplati manji predujam poreza na dohodak od nesamostalnog rada (članak 24. stavak 4.) 3. Hrvatski zavod za mirovinsko osiguranje, koji u propisanom roku ne uplati ili uplati manji predujam poreza na dohodak od nesamostalnog rada (članak 25. stavak 1.) 4. poslodavac, odnosno isplatitelj primitka od nesamostalnog rada u naravi, koji u propisanom roku ne uplati ili uplati manji predujam poreza na dohodak od nesamostalnog rada (članak 25. stavak 3.) 5. koja Poreznoj upravi na propisanom obrascu ne dostavi ili ne dostavi u roku podatke o isplaćenim primicima i uplaćenom porezu na dohodak i prirezu (članak 27. stavak 1., članak 41. stavak 1., članak 63. stavak 1., članak 70. stavci 7. i 14., članak 74. stavak 1., članak 81. stavci 1. i 4. i članak 85. stavak 5.) 6. isplatitelj primitka od kojeg se utvrđuje drugi dohodak, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od drugog dohotka (članak 40. stavak 2.) 7. koja za svoje radnike i fizičke osobe iz članka 21. ovoga Zakona ako ne izvrši godišnji obračun poreza na dohodak od nesamostalnog rada (članak 47. stavak 1.) 8. isplatitelj primitka od kojeg se utvrđuje dohodak od imovinskih prava, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od imovinskih prava (članak 62. stavak 2.) 9. isplatitelj primitka od kojeg se utvrđuje dohodak od imovine po osnovi posebnih vrsta imovine, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od imovine (članak 62. stavak 6.) 10. isplatitelj primitka od kojeg se utvrđuje dohodak od kapitala, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od kapitala (članak 70. stavci 1., 2. i 19.) 11. isplatitelj primitka od kojeg se utvrđuje dohodak od osiguranja, koji u propisanom roku ne uplati ili uplati manji porez na dohodak od osiguranja (članak 73. stavak 1.) 12. koja isplatu primitaka fizičkim osobama ne obavlja na njihov žiroračun kod banke, a iznimno na njihov tekući račun kod banke u skladu s posebnim propisima (članak 86. stavak 1.). (2) Novčanom kaznom od 5000,00 do 30.000,00 kuna kaznit će se fizička osoba obrtnik i osoba koja obavlja drugu samostalnu djelatnost za prekršaj iz stavka 1. točaka 1. i 4. – 12. ovoga članka koji je počinila u vezi s obavljanjem njezina obrta ili samostalne djelatnosti. (3) Novčanom kaznom od 2000,00 do 20.000,00 kuna za prekršaje iz stavka 1. točaka 1., 4. i 5. ovoga članka kaznit će se fizička osoba. (4) Novčanom kaznom od 2000,00 do 10.000,00 kuna kaznit će se i odgovorna osoba u pravnoj osobi za prekršaje iz stavka 1. ovoga članka.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "255F1670A2BCE38F5E43CF1993782B72023CA7EA013C0826EEB85F7D2242FADF",
+    "sha256_datoteke": "B7C3548BF0CBEC17B2859FAF4D712AB947CD538750056F68D583C13530F40CCB",
+    "napomena": null
+  }
+}

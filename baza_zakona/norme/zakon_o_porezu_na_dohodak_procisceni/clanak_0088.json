@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "88",
+    "naslov": null,
+    "tekst": ". (1) Radi pravilnog utvrđivanja obveze poreza na dohodak i drugih poreza, Porezna uprava je dužna tijekom poreznog razdoblja uspoređivati podatke o fizičkim osobama kojima raspolaže te na temelju uspoređenih podataka prikupiti ostale podatke bitne za oporezivanje. (2) Usporedbu podataka iz stavka 1. ovoga članka Porezna uprava provodi na temelju svih podataka o ostvarenom dohotku iz članka 5. ovoga Zakona, ostvarenih primitaka koji se ne smatraju dohotkom iz članka 8. ovoga Zakona, a i drugih neoporezivih primitka i tražbina te podataka o nabavljenoj nepokretnoj, pokretnoj i drugoj imovini te drugim izdacima fizičkih osoba i njihovim obvezama tijekom poreznog razdoblja. Usporedbu obavlja na temelju podataka s kojima raspolaže, podataka koje priopći porezni obveznik i podataka iz drugih izvora. (3) Ako Porezna uprava u tijeku prikupljanja podataka i njihove usporedbe iz stavaka 1. i 2. ovoga članka utvrdi da izvori za imovinu fizičkih osoba nisu dokazani, utvrdit će po toj osnovi drugi dohodak u skladu s člankom 76. ovoga Zakona. (4) Za svrhe iz stavaka 1. i 2. ovoga članka Porezna uprava je obvezna ustrojiti evidencije o imovini poreznih obveznika na temelju podataka iz svojih evidencija, evidencija tijela državne uprave i evidencija jedinica lokalne i područne (regionalne) samouprave. Prikupljanje podataka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "005707022902B25593F678FB45DDBD1960C1B1039AD4B81E7EAA27CE092D761F",
+    "sha256_datoteke": "7236B586FDE7BBE45711D9EC39B27A0A613AB3241A4FFF485F854148F530594F",
+    "napomena": null
+  }
+}

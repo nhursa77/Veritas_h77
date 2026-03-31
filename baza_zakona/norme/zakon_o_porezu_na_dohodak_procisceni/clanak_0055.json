@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". (1) Konačnim dohotkom smatra se svaki pojedinačni iznos dohotka od imovine i imovinskih prava, kapitala i osiguranja i drugog dohotka koji se smatra konačnim. (2) Za konačne dohotke ostvarene u poreznom razdoblju porezni obveznici ne mogu podnijeti godišnju poreznu prijavu niti se za te dohotke može provesti poseban postupak utvrđivanja godišnjeg poreza na dohodak. (3) Pri utvrđivanju konačnog dohotka i konačnog poreza na dohodak ne priznaju se osobni odbici iz članka 14 . – 16. ovoga Zakona. (4) Ako porezni obveznik ostvari dohodak iz stavka 1. ovoga članka, osim dohotka iz članaka 75. i 76. ovoga Zakona, može na vlastiti zahtjev tako ostvaren dohodak utvrđivati u skladu s člancima 30. – 35. ovoga Zakona, odnosno na način propisan za samostalnu djelatnost. (5) U slučajevima iz stavka 4. ovoga članka porezni obveznik može plaćati porez na dobit umjesto poreza na dohodak u skladu s odredbama članka 36. ovoga Zakona. POGLAVLJE II. UTVRĐIVANJE DOHOTKA OD IMOVINE I IMOVINSKIH PRAVA Dohodak od imovine i imovinskih prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C8F49F258972C8D6A65F5E20F1A28FB01F35D769028C0B37059900BB90F0A22E",
+    "sha256_datoteke": "E739A8F97428FBB8AF1B0B14DF933EA9D68D07B7FD73F9F0720C429EEC50E26B",
+    "napomena": null
+  }
+}

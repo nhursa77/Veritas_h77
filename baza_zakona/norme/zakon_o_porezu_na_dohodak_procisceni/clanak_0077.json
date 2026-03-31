@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "77",
+    "naslov": null,
+    "tekst": ". Porez na dohodak po osnovi povrata doprinosa prema članku 75. ovoga Zakona obračunava, obustavlja i uplaćuje Porezna uprava nadležna prema mjestu prebivališta ili uobičajenog boravišta poreznog obveznika, kao porez po odbitku, i to iz iznosa vraćenih doprinosa za obvezno mirovinsko osiguranje na temelju generacijske solidarnosti prema zakonu kojim se uređuju doprinosi za obvezna osiguranja po stopi od 36%. Utvrđivanje poreza na dohodak od drugog dohotka po osnovi razlike vrijednosti imovine i visine sredstava kojima je stečena",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A87D4651B82FF6651D9E97D61BA7C5367BDA841AF55E21B6E2CEE1DEF95E572F",
+    "sha256_datoteke": "41E59086DE04398EBD5D72101B7347001711E82C14A34C0BDF378468B9A9F0D3",
+    "napomena": null
+  }
+}

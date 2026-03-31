@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 58. stavku 1. četvrta rečenica mijenja se i glasi: »Troškovi ulaganja za koje porezni obveznik posjeduje vjerodostojne isprave te troškovi otuđenja mogu se odbiti kao izdaci.«. Stavci 2., 3. i 4. mijenjaju se i glase: »(2) Dohodak od otuđenja nekretnina iz stavka 1. ovoga članka ne oporezuje se ako je nekretnina ili imovinsko pravo otuđeno nakon dvije godine od dana nabave odnosno nakon dvije godine od dana kada je nekretnina osposobljena za uporabu, ako je nekretnina izgrađena, rekonstruirana ili je promijenila oblik i namjenu. (3) Iznimno od stavka 2. ovoga članka, dohodak od otuđenja nekretnina i imovinskih prava oporezuje se ako je otuđeno više od tri nekretnine iste vrste ili više od tri imovinska prava iste vrste u razdoblju od pet godina od dana stjecanja nekretnine ili imovinskog prava odnosno u razdoblju od pet godina od dana kada su stečene nekretnine osposobljene za uporabu u slučaju izgradnje, rekonstrukcije ili promjene oblika i namjene. Ako se otuđuje zgrada s više stanova ili poslovnih prostora ili građevinsko zemljište ili više zemljišnih čestica, jednom nekretninom smatra se svaki stan, poslovni prostor, gradilište ili zemljišna čestica. Dohodak čini razlika između ukupnog iznosa primitka utvrđenog prema tržišnoj vrijednosti nekretnina ili imovinskih prava koji se otuđuju u razdoblju od pet godina i njihove nabavne vrijednosti uvećane za rast proizvođačkih cijena industrijskih proizvoda te za troškove ulaganja i otuđenja za koje porezni obveznik posjeduje vjerodostojne isprave. (4) Dohodak od otuđenja nekretnina iz stavaka 1. i 3. ovoga članka ne oporezuje se: 1. ako je nekretnina služila za stanovanje poreznom obvezniku ili uzdržavanim članovima njegove uže obitelji iz članka 14. stavaka 4. i 5. ovoga Zakona 2. ako se nekretnine izvlašćuju na temelju posebnog zakona 3. ako je otuđenje izvršeno između bračnih drugova i srodnika u prvoj liniji i drugih članova uže obitelji iz članka 14. stavaka 4. i 5. ovoga Zakona, te između razvedenih bračnih drugova ako je otuđenje u neposrednoj svezi s razvodom braka, osim u slučaju kada porezni obveznik tako stečene nekretnine otuđi u izmijenjenom obliku od stečenog ovisno o njihovim obilježjima i namjenama 4. ako je otuđenje u neposrednoj vezi s nasljeđivanjem nekretnina i imovinskih prava, osim u slučaju kada porezni obveznik tako stečene nekretnine otuđi u izmijenjenom obliku od stečenog ovisno o njihovim obilježjima i namjenama.«. Iza stavka 4. dodaju se novi stavci 5. i 6. koji glase: »(5) Radi dokazivanja da se radi o nekretnini koja je služila za stanovanje poreznom obvezniku ili uzdržavanim članovima njegove uže obitelji iz članka 14. stavaka 4. i 5. ovoga Zakona, porezni obveznik dužan je dokazati činjenicu stalnog stanovanja, pri čemu se prijava prebivališta na adresi nekretnine ne smatra dovoljnim dokazom. (6) Dohodak od otuđenja nekretnina iz stavka 3. ovoga članka ne oporezuje se ako se otuđuju zemljišta čija je pojedinačna površina do 250 m², a ukupno do 1000 m².«. Dosadašnji stavci 5. do 8. postaju stavci 7. do 10. U dosadašnjim stavcima 9. i 10., koji postaju stavci 11. i 12., riječi: »stavka 8.« zamjenjuju se riječima: »stavka 10.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "72441431FE6022E0B1F3D5BCD04465078A98C83BC4FCAE1573BCA6D1C604B0C7",
+    "sha256_datoteke": "E63492DD2CCD10A56E2C37F91E8556C68D64DB98E836E1FAE2731AC078365BBF",
+    "napomena": null
+  }
+}

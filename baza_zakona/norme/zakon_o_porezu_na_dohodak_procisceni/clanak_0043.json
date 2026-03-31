@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "43",
+    "naslov": null,
+    "tekst": ". (1) Obveznici poreza na dohodak koji obavljaju samostalnu djelatnost iz članka 29. ovoga Zakona na području Grada Vukovara utvrđenog prema posebnom propisu o obnovi i razvoju Grada Vukovara, a koji zapošljavaju više od dva radnika u radnom odnosu na neodređeno vrijeme, pri čemu više od 50% radnika ima prebivalište i borave na potpomognutim područjima jedinica lokalne samouprave razvrstanih u I. skupinu po stupnju razvijenosti prema posebnom propisu o regionalnom razvoju Republike Hrvatske, odnosno na području Grada Vukovara, oslobođeni su plaćanja poreza na dohodak od tih djelatnosti. (2) Obveznicima poreza na dohodak koji obavljaju samostalnu djelatnost iz članka 29. ovoga Zakona na području jedinica lokalne samouprave razvrstanih u I. skupinu po stupnju razvijenosti prema posebnom propisu o regionalnom razvoju Republike Hrvatske, a koji zapošljavaju više od dva radnika u radnom odnosu na neodređeno vrijeme, pri čemu više od 50% radnika ima prebivalište i borave na potpomognutim područjima jedinica lokalne samouprave razvrstanih u I. skupinu po stupnju razvijenosti prema posebnom propisu o regionalnom razvoju Republike Hrvatske, odnosno na području Grada Vukovara, utvrđeni porez na dohodak od tih djelatnosti na tim područjima umanjuje se za 50%. (3) Iznos oslobođenja od plaćanja poreza na dohodak iz stavaka 1. i 2. ovoga članka utvrđuje se u skladu s odgovarajućim pravilima o potporama male vrijednosti. (4) Smatra se da porezni obveznik iz stavaka 1. i 2. ovoga članka zapošljava na neodređeno vrijeme radnika ako je radnik proveo u radnom odnosu na neodređeno vrijeme kod poreznog obveznika i imao prebivalište i boravio na potpomognutim područjima jedinica lokalne samouprave, odnosno na području Grada Vukovara, najmanje devet mjeseci u poreznom razdoblju. (5) Način ostvarivanja porezne olakšice iz stavaka 1. i 2. ovoga članka utvrđuje se u skladu s pravilnikom kojim se propisuje način ostvarivanja poreznih olakšica od obavljanja djelatnosti na potpomognutim područjima donesenim na temelju zakona kojim se uređuje porez na dobit. Poticaji zapošljavanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D6DEC603FF3C3BFCA3847934D90792068BFBB958D5DD36F036D513985E112A55",
+    "sha256_datoteke": "0E005118B368C265FBE1F779EC7E850F3FB90DD4F83A212D3180F87C71CBD311",
+    "napomena": null
+  }
+}

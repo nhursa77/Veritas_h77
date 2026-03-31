@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U članku 57. stavak 3. mijenja se i glasi: »(3) Porezni obveznik koji ostvaruje dohodak od imovine iz stavka 2. ovoga članka je fizička osoba – građanin, iznajmljivač kojemu je na temelju rješenja o odobrenju nadležnog ureda odobreno pružanje ugostiteljskih usluga u domaćinstvu u skladu s odredbama zakona kojima se uređuje ugostiteljska djelatnost.«. Iza stavka 3. dodaje se novi stavak 4. koji glasi: »(4) Za slučaj iz stavka 2. ovoga članka, predstavničko tijelo jedinice lokalne samouprave obvezno je donijeti odluku kojom će propisati visine paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu odnosno smještajnoj jedinici u objektu za robinzonski smještaj. Odluku o visini iznosa paušalnog poreza predstavničko tijelo jedinice lokalne samouprave donosi sukladno kategoriji u koju je jedinica lokalne samouprave razvrstana prema indeksu turističke razvijenosti, utvrđenom za prethodnu godinu, sukladno posebnom propisu, u granicama propisanim ovim Zakonom, i to: Kategorija jedinice lokalne samouprave prema indeksu turističke razvijenosti Iznos paušalnog poreza u eurima i centima I 100,00 − 300,00 II 70,00 − 200,00 III 30,00 − 150,00 IV,0 20,00 − 100,00 «. U dosadašnjem stavku 4., koji postaje stavak 5., iza riječi: »smještajnoj jedinici u kampu« dodaju se riječi: »odnosno po smještajnoj jedinici u objektu za robinzonski smještaj«. Iza dosadašnjeg stavka 5., koji postaje stavak 6., dodaju se novi stavci 7. i 8. koji glase: »(7) Ako predstavničko tijelo jedinice lokalne samouprave ne donese odluku kojom će propisati visine paušalnog poreza u propisanom roku, visina paušalnog poreza po krevetu odnosno po smještajnoj jedinici u kampu odnosno po smještanoj jedinici u objektu za robinzonski smještaj određuje se: Kategorija jedinice lokalne samouprave prema indeksu turističke razvijenosti Iznos paušalnog poreza u eurima i centima I 200,00 II 135,00 III 90,00 IV, 0 60,00 (8) Predstavničko tijelo jedinice lokalne samouprave donosi odluku iz stavka 4. ovoga članka na prijedlog izvršnog tijela.«. Dosadašnji stavak 6. postaje stavak 9. U dosadašnjim stavcima 7. i 8., koji postaju stavci 10. i 11., riječi: »stavka 6.« zamjenjuju se riječima: »stavka 9.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D505CA309FD126357C6CE2E4EE6DD1B4661B1FD318F6D8609F496FCB652F3BCC",
+    "sha256_datoteke": "094E8B6A87C94E4F308DE1DF13F2003A92B25C681FED60ED64E3B9194684A2B4",
+    "napomena": null
+  }
+}

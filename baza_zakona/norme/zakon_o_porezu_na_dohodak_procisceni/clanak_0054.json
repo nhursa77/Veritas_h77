@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "54",
+    "naslov": null,
+    "tekst": ". (1) Porezna uprava, primjenjujući poseban postupak iz članka 51. ovoga Zakona, obvezna je, na temelju evidencija i podataka kojima raspolaže, odnosno podataka koje je dostavio porezni obveznik, utvrditi poreznom obvezniku godišnji dohodak ostvaren u poreznom razdoblju te razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili za povrat, o čemu izdaje privremeno porezno rješenje. (2) Privremeno porezno rješenje o utvrđenom godišnjem dohotku ostvarenom u poreznom razdoblju te razlici poreza na dohodak i prireza porezu na dohodak za uplatu ili za povrat Porezna uprava dostavit će poreznom obvezniku prema adresi njegova prebivališta ili uobičajenog boravišta iz službenih evidencija kojima raspolaže i to najkasnije do 30. lipnja tekuće za prethodnu godinu. Dostavom privremenog poreznog rješenja na navedenu adresu smatra se da je, u smislu ovoga Zakona, izvršena osobna dostava. (3) Protiv privremenog poreznog rješenja iz stavka 2. ovoga članka donesenog na temelju izračuna godišnjeg poreza na dohodak i prireza porezu na dohodak od strane Porezne uprave porezni obveznik može podnijeti prigovor najkasnije do 31. srpnja tekuće za prethodnu godinu, ako smatra da su podaci iz privremenog poreznog rješenja nepotpuni ili netočni. Iznimno, porezni obveznici koji privremeno porezno rješenje zaprime nakon roka propisanog stavkom 2. ovoga članka mogu podnijeti prigovor u roku od 30 dana od dana primitka privremenog poreznog rješenja. Izjavljeni prigovor odgađa izvršenje privremenog poreznog rješenja do donošenja rješenja po prigovoru. (4) O prigovoru iz stavka 3. ovoga članka odlučuje prvostupanjsko porezno tijelo rješenjem u roku od 30 dana od dana zaprimanja prigovora. (5) Ako prvostupanjsko porezno tijelo po podnesenom prigovoru, a nakon izvršene provjere podataka iskazanih u privremenom poreznom rješenju, utvrdi da postoji osnova za izmjenu privremenog poreznog rješenja u skladu s navodima iz prigovora, donosi porezno rješenje protiv kojeg nije dopuštena žalba, a porezna obveza utvrđena poreznim rješenjem smatra se konačno utvrđenom poreznom obvezom. (6) Osnova za izmjenu privremenog poreznog rješenja ne može biti propuštanje roka za podnošenje obrasca za priznavanjem prava u posebnom postupku ili obrasca za pokretanje posebnog postupka, osim u slučaju opravdanih razloga sukladno odredbama zakona kojim je uređen opći porezni postupak. (7) Ako prvostupanjsko porezno tijelo po podnesenom prigovoru, a nakon izvršene provjere podataka iskazanih u privremenom poreznom rješenju, utvrdi da navodi iz prigovora nisu osnovani, donosi se porezno rješenje kojim se odbija prigovor te se protiv takvog rješenja može izjaviti žalba u roku od 30 dana od dana dostave poreznog rješenja. Izjavljena žalba ne odgađa izvršenje poreznog rješenja. (8) Za porezne obveznike koji ne postupe na način i u roku propisanom stavkom 3. ovoga članka, obveza utvrđena privremenim poreznim rješenjem iz stavka 2. ovoga članka smatra se konačno utvrđenom poreznom obvezom te će Porezna uprava temeljem dostavljenih privremenih poreznih rješenja izvršiti zaduženje poreznih obveznika za utvrđenu razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili poreznim obveznicima izvršiti povrat ako porezni obveznik ispunjava uvjete za povrat preplaćenog poreza na dohodak i prireza porezu na dohodak sukladno ovom Zakonu i zakonu kojim je uređen opći porezni postupak. (9) Porezni obveznik kojem je na način propisan stavkom 8. ovoga članka izvršeno zaduženje poreza na dohodak i prireza porezu na dohodak obvezan je dužnu razliku uplatiti u roku od 15 dana od isteka roka za prigovor iz stavka 3. ovoga članka. (10) Porezni obveznik kojem je na način propisan stavkom 7. ovoga članka izvršeno zaduženje poreza na dohodak i prireza porezu na dohodak obvezan je dužnu razliku uplatiti u roku od 15 dana od dana osobne dostave u smislu ovoga Zakona. (11) U slučaju provedbe posebnog postupka iz članka 51. ovoga Zakona, kojim je utvrđeno da razlike godišnjeg poreza na dohodak i prireza porezu na dohodak za uplatu ili povrat nema ili da bi troškovi utvrđivanja i naplate poreza ili povrata poreza bili nerazmjerni naplaćenom porezu na dohodak i prirezu porezu na dohodak, Porezna uprava neće poreznim obveznicima dostavljati privremeno porezno rješenje. (12) Ministar financija pravilnikom propisuje oblik i sadržaj privremenog poreznog rješenja iz stavka 1. ovoga članka. DIO TREĆI UTVRĐIVANJE KONAČNOG DOHOTKA I KONAČNOG POREZA NA DOHODAK POGLAVLJE I. OPĆE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC379235071B78379CFC5FBFC2799149611D8D638E3D2F0734B3C6517B82CC29",
+    "sha256_datoteke": "6C67310F01B20A4B8263CFCF7F1520C653494D68A060989ADAE65394BC0E872E",
+    "napomena": null
+  }
+}

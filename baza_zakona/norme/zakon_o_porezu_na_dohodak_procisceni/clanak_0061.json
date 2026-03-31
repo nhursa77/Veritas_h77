@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "61",
+    "naslov": null,
+    "tekst": ". Porezni obveznik koji dohodak od imovine ostvaruje izdavanjem u najam ili zakup nekretnina i pokretnina, iznajmljivanjem stanova, soba i postelja putnicima i turistima i organiziranjem kampova, a obveznik je po toj osnovi poreza na dodanu vrijednost prema zakonu kojim se uređuje porez na dodanu vrijednost ili po osnovi obavljenih usluga od te imovine, koje su oslobođene plaćanja poreza na dodanu vrijednost prema zakonu kojim se uređuje porez na dodanu vrijednost, u poreznom razdoblju ostvaruje ukupne primitke veće od iznosa propisanog za obvezni upis u registar obveznika poreza na dodanu vrijednost utvrđuje dohodak od imovine u skladu s člancima 30. – 35. ovoga Zakona, odnosno na način propisan za samostalne djelatnosti. Utvrđivanje poreza na dohodak od imovine i imovinskih prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E34C398336C947406FEE51701F20DC3DAE7B62308D1FE6F25A99892814CA85F5",
+    "sha256_datoteke": "33ACC6C22AD9BFDC06ADA554B8A40A56450AD4DC9FEA9BD764DCAABB36219737",
+    "napomena": null
+  }
+}

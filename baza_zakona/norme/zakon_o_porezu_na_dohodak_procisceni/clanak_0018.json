@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". (1) Godišnju osnovicu poreza na dohodak čini ukupan iznos dohotka od nesamostalnog rada, samostalne djelatnosti prema stavku 2. ovoga članka i drugog dohotka koji se ne smatra konačnim, a umanjen za osobni odbitak iz članaka 14. – 16. ovoga Zakona, osim ako je ovim Zakonom drukčije uređeno. (2) Dohodak od samostalne djelatnosti iz članka 28. ovoga Zakona, koji rezident ostvari u tuzemstvu i inozemstvu, a nerezident u tuzemstvu, umanjuje se za: 1. iznos plaća novozaposlenih osoba iz članka 44. stavka 1. ovoga Zakona 2. iznos državne potpore za obrazovanje i izobrazbu te iznos potpore male vrijednosti za izvođenje praktične nastave i vježbe naukovanja u sustavu vezanih obrta prema posebnim propisima 3. iznos izdataka za istraživanje i razvoj iz članka 45. stavka 1. ovoga Zakona i/ili 4. preneseni gubitak iz članka 38. ovoga Zakona, nakon umanjenja iz točaka 1. – 3. ovoga stavka, koji je rezident po osnovi obavljanja samostalne djelatnosti iz članka 29. ovoga Zakona ostvario u tuzemstvu i inozemstvu, a nerezident u tuzemstvu. POGLAVLJE IV. GODIŠNJE POREZNE STOPE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3C867A906E85C4F137CF11B091A9C33B59253501401D69F310CFDDCC06595E11",
+    "sha256_datoteke": "4DC1DAEE1977980F5B814FE63C48AE1B072DE96AF972D5EF3DCA205527F88007",
+    "napomena": null
+  }
+}

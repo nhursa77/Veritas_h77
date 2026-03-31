@@ -1,0 +1,21 @@
+{
+  "naziv_akta": "Zakon o porezu na dohodak",
+  "vrsta_akta": "zakon",
+  "slug": "zakon_o_porezu_na_dohodak",
+  "izvor": "Narodne novine",
+  "naziv_izvora": "Narodne novine",
+  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+  "akt_url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+  "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2525/pdf",
+  "pdf_title_anchor": "",
+  "tip_sadrzaja": "text/html; charset=utf-8",
+  "velicina_bajta": 324498,
+  "oznaka_akta": "NN 115/2016",
+  "datum_pristupa": "31.03.2026.",
+  "sha256_datoteke": "55C770DC0FEAA0FBA48501AE00B24FDB9599A85832F2DE0FE0927D70CBA9815D",
+  "format": "html",
+  "napomena": "Dokazni NN izvor (HTML; ELI PDF fallback ako sadržaj nedostupan).",
+  "tip_teksta": "procisceni",
+  "ocekivani_broj_clanaka": 0,
+  "preferenca": 100
+}

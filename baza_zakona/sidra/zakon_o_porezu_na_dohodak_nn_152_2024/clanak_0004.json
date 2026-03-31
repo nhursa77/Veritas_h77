@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". U članku 19.a stavak 2. mijenja se i glasi: »(2) Predstavničko tijelo jedinice lokalne samouprave može svojom odlukom propisati visine poreznih stopa u granicama propisanim ovim Zakonom, i to: 1. općina − nižu stopu u granicama od 15 % do 20 % te višu stopu u granicama od 25 % do 30 % 2. grad − nižu stopu u granicama od 15 % do 21 % te višu stopu u granicama od 25 % do 31 % 3. veliki grad i grad sjedište županije − nižu stopu u granicama od 15 % do 22 % te višu stopu u granicama od 25 % do 32 % 4. Grad Zagreb − nižu stopu u granicama od 15 % do 23 % te višu stopu u granicama od 25 % do 33 %.«. U stavku 5. riječi: »50.400,00 eura« zamjenjuju se riječima: »60.000,00 eura«. Iza stavka 5. dodaje se stavak 6. koji glasi: »(6) Predstavničko tijelo jedinice lokalne samouprave donosi odluku iz stavka 1. ovoga članka na prijedlog izvršnog tijela.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2887AFFA0EC0A77661FC242439C51E05E83D7C744DFD72565E4708C43DE11EBC",
+    "sha256_datoteke": "B2EAA68135D2B5EAF661797397C705D867F44589F1C28C5425B6FD4E2D84615B",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 46. stavci 1. i 2. mijenjaju se i glase: »(1) Godišnji porez na dohodak utvrđuje se prema poreznoj osnovici iz članka 18. ovoga Zakona te se tako utvrđen godišnji porez umanjuje za 50% razmjernog dijela porezne obveze koja se odnosi na mirovinu ili za 50% razmjernog dijela porezne obveze koja se odnosi na ostali dohodak od nesamostalnog rada ako porezni obveznik ima prebivalište i boravi na području jedinica lokalne samouprave razvrstanih u I. skupinu po stupnju razvijenosti prema posebnom propisu o regionalnom razvoju Republike Hrvatske i/ili na području Grada Vukovara utvrđenog prema posebnom propisu o obnovi i razvoju Grada Vukovara. (2) Od utvrđenog i umanjenog godišnjeg poreza na dohodak, sukladno stavku 1. ovoga članka, odbijaju se iznosi plaćenog predujma poreza po svim iskazanim dohocima prema članku 13. ovoga Zakona te se utvrđuje razlika za uplatu ili povrat poreza.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3C44B4855D99C753AB388D3C162B078E2A7694B63994C32CCCF3981867E75702",
+    "sha256_datoteke": "EBA98DEC555394C545BE20C0BA66F5583E5C0D2AF8B6AD8D2E48A4C309B7636D",
+    "napomena": null
+  }
+}

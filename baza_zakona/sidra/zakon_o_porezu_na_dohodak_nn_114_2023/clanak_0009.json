@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". Iza članka 19. dodaje se članak 19.a koji glasi: »Članak 19.a (1) Visine poreznih stopa iz članka 19. ovoga Zakona određuju predstavnička tijela jedinica lokalne samouprave svojom odlukom. (2) Predstavničko tijelo jedinica lokalne samouprave može svojom odlukom propisati visine poreznih stopa u granicama propisanim ovim Zakonom, i to: 1. općina – nižu stopu u granicama od 15 % do 22 % te višu stopu u granicama od 25 % do 33 % 2. grad s manje od 30.000 stanovnika nižu stopu u granicama od 15 % do 22,40 % te višu stopu u granicama od 25 % do 33,60 % 3. grad s više od 30.000 stanovnika nižu stopu u granicama od 15 % do 23 % te višu stopu u granicama od 25 % do 34,50 % 4. Grad Zagreb nižu stopu u granicama od 15 % do 23,60 % te višu stopu u granicama od 25 % do 35,40 %. (3) Odluka predstavničkog tijela jedinice lokalne samouprave iz stavka 1. ovoga članka objavljuje se u »Narodnim novinama«, donosi se najkasnije do kraja studenoga tekuće godine, sa stupanjem na snagu 1. siječnja iduće godine i primjenjuje se do donošenja nove odluke. (4) Jedinice lokalne samouprave dužne su odluku svog predstavničkog tijela iz stavka 1. ovoga članka dostaviti Ministarstvu financija, Poreznoj upravi u roku od osam dana od dana njezina donošenja radi objave na mrežnim stranicama Porezne uprave. (5) Ako predstavničko tijelo jedinice lokalne samouprave ne donese odluku kojom će propisati visinu poreznih stopa u propisanom roku, određuje se stopa od 20 % na poreznu osnovicu do visine 50.400,00 eura i 30 % na dio porezne osnovice koji prelazi iznos od 50.400,00 eura.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "90AA2D1BA84433A56A22322064D51C8376C86899DFA39D1490DD9BFD9BD68306",
+    "sha256_datoteke": "FD2A15F22474ED09799315A5C79FDA574D856315ADC77A2323ED2354741CCC93",
+    "napomena": null
+  }
+}

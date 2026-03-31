@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ". (1) Drugim dohotkom smatra se primitak utvrđen kao razlika između vrijednosti stečene imovine i značajnih izdataka učinjenih osobito za luksuz, zabavu i razonodu s jedne strane (dalje u tekstu: stečena imovina) i dokazane visine sredstava za njezino stjecanje i stjecanje tih izdataka s druge strane. (2) Drugi dohodak iz stavka 1. ovoga članka utvrđuje se na način propisan člancima 88. i 89. ovoga Zakona. Utvrđivanje poreza na dohodak od drugog dohotka po osnovi povrata doprinosa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C08ABA8A076A694AFB43060C5176A1B94FF6BF3E65092BC76F35F8329CA1B313",
+    "sha256_datoteke": "CEAD4D6AF4C7420B87ED8B04EE5D4106E3FBA996DD0E2CD907030F601A1E06D8",
+    "napomena": null
+  }
+}

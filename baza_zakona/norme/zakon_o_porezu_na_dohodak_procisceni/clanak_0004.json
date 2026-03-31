@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". Nerezident je fizička osoba koja u Republici Hrvatskoj nema ni prebivalište ni uobičajeno boravište, a u Republici Hrvatskoj ostvaruje dohodak koji se oporezuje prema odredbama ovoga Zakona. POGLAVLJE III. IZVORI DOHOTKA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "77BD6B56B6F4647A89BF6E09EDBBC5A0DB487E5DE5F69C2511877451FF585F43",
+    "sha256_datoteke": "00368A83C225A78374A5BA6C2F8368F9F41565A2304DC347AE9A76FF182A0101",
+    "napomena": null
+  }
+}

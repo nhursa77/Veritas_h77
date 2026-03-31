@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": ". Dohotkom od imovine i imovinskih prava smatra se razlika između primitaka po osnovi najamnine, zakupnine, iznajmljivanja stanova, soba i postelja putnicima i turistima i organiziranja kampova, primitaka od vremenski ograničenog ustupa autorskih prava, prava industrijskog vlasništva i drugih imovinskih prava u skladu s posebnim propisima, primitaka od otuđenja nekretnina i imovinskih prava i izdataka koji su poreznom obvezniku u poreznom razdoblju nastali u svezi s tim primicima. Dohodak od najma, zakupa, iznajmljivanja stanova soba i postelja putnicima i turistima te imovinskih prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BA0E3A239C150CF1D51E20666D686B04057074E658B343BB1CC6B82CC4B8E3D0",
+    "sha256_datoteke": "185DFA8440D15D302DD0DB52F9AF36316549B4AB7872064D362BDE80B2BE1892",
+    "napomena": null
+  }
+}

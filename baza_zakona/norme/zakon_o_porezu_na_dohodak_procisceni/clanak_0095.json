@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "95",
+    "naslov": null,
+    "tekst": ". (1) Do dana stupanja na snagu članka 14. stavaka 5. i 6. ovoga Zakona, uzdržavanom djecom smatraju se djeca koju roditelji, skrbnici, usvojitelji, poočimi i pomajke uzdržavaju. Djecom se smatraju i djeca nakon završetka redovitog školovanja do prvog zapošljavanja ako su prijavljena Hrvatskom zavodu za zapošljavanje. Drugim uzdržavanim članovima uže obitelji smatraju se bračni i izvanbračni drug, odnosno životni partner i neformalni životni partner poreznog obveznika, roditelji poreznog obveznika i roditelji njegova bračnog i izvanbračnog druga, odnosno životnog partnera i neformalnog životnog partnera, preci i potomci u izravnoj liniji, maćehe, odnosno očusi koje punoljetno pastorče uzdržava, bivši bračni i izvanbračni drugovi, odnosno životni partneri i neformalni životni partneri za koje porezni obveznik plaća uzdržavanje i punoljetne osobe kojima je porezni obveznik imenovan skrbnikom prema posebnom zakonu. (2) Do stupanja na snagu članka 26. ovoga Zakona, osobni odbitak pri utvrđivanju predujma poreza na dohodak od nesamostalnog rada priznaje se i utvrđuje na temelju porezne kartice koju za radnika, umirovljenika i fizičke osobe koje ostvaruju primitke od nesamostalnog rada imaju poslodavci i isplatitelji primitka, odnosno plaće i mirovina. (3) Poreznu karticu iz stavka 2. ovoga članka besplatno izdaje Porezna uprava, a poslodavci i isplatitelji primitaka od nesamostalnog rada dužni su je čuvati dok radnik, umirovljenik i fizička osoba koja ostvaruje te primitke kod njih radi, odnosno dok se isplaćuje mirovina ili primitak po osnovi nesamostalnog rada. (4) Radnik, umirovljenik i fizička osoba koja ostvaruje primitak od nesamostalnog rada može tijekom poreznog razdoblja koristiti osobni odbitak ako je poslodavcu ili isplatitelju primitka odnosno plaće ili mirovine predao poreznu karticu iz stavka 2. ovoga članka. (5) Radnik, umirovljenik i fizička osoba koja ostvaruje primitke od nesamostalnog rada obvezni su svaku promjenu u svezi s uzdržavanim članovima uže obitelji i djece, promjenu prebivališta ili uobičajenog boravišta i drugo, koja utječe na osobni odbitak, odnosno neoporezivi dio dohotka, prijaviti ispostavi Porezne uprave prema svom prebivalištu, odnosno uobičajenom boravištu i dostaviti joj vjerodostojne isprave u roku od trideset (30) dana od dana nastanka promjene. Prihvaćene i evidentirane promjene poslodavac i isplatitelj plaće ili mirovine ili sam porezni obveznik primjenjuje pri sljedećim isplatama plaća i mirovina. (6) Do stupanja na snagu članka 33. stavka 1. točke 5. ovoga Zakona izdacima koji se porezno ne priznaju pri utvrđivanju dohotka od samostalne djelatnosti smatra se 30% izdataka u svezi s vlastitim ili unajmljenim osobnim motornim vozilima i drugim sredstvima za osobni prijevoz poduzetnika, poslovodnih i drugih zaposlenih osoba, ako se po osnovi korištenja tih sredstava za osobni prijevoz ne utvrđuje plaća ili drugi dohodak.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7FD01683E7D319DAD69F74BABC1761B6B304B5D172F855959EABC8DCEE4F947A",
+    "sha256_datoteke": "0CDA9E90D1C6B5D121F52EAAC6ECC703F36CFCA474709B4FF7EFF7FCD4D2B34C",
+    "napomena": null
+  }
+}

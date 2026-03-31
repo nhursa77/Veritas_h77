@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". (1) Predstavnička tijela jedinica lokalne samouprave koja su visinu poreznih stopa utvrdila odlukom sukladno članku 19.a stavku 2. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.) dužna su donijeti novu odluku sukladno članku 4. ovoga Zakona ako je visina poreznih stopa izvan granica propisanih člankom 4. ovoga Zakona. (2) Odluku iz stavka 1. ovoga članka predstavnička tijela jedinice lokalne samouprave dužna su donijeti i objaviti u »Narodnim novinama« najkasnije do 28. veljače 2025. (3) Odluka iz stavka 1. ovoga članka primijenit će se pri utvrđivanju predujmova poreza na dohodak iz članaka 24. i 40. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.) od 1. ožujka 2025., a u postupku godišnjeg obračuna poreza na dohodak za cijelo porezno razdoblje 2025. godine. (4) Do donošenja odluke iz stavka 1. ovoga članka i stupanjem na snagu u roku iz stavka 3. ovoga članka, pri utvrđivanju predujmova poreza na dohodak iz članaka 24. i 40. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.) primjenjuje se odluka donesena sukladno članku 19.a stavku 2. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.). (5) Zbog različitog poreznog opterećenja u poreznom razdoblju proizišlog na temelju primjene stavaka 3. i 4. ovoga članka, poslodavac i isplatitelj primitaka i mirovina može za 2025. godinu izvršiti godišnji obračun na način propisan člankom 47. Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20., 138/20., 151/22. i 114/23.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5AA798154E95B39569E37F2602A5D2E3BFBF2CE1DADF49B38DF8C7F8041A8FAD",
+    "sha256_datoteke": "B01B35E9C5399E2BFE6E2BF9F69C42BE2F858AC56CD393D3157527ACD5BCE35C",
+    "napomena": null
+  }
+}

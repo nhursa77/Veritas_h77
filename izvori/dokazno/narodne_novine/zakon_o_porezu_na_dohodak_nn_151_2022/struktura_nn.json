@@ -1,0 +1,229 @@
+{
+  "akt": {
+    "slug": "zakon_o_porezu_na_dohodak_nn_151_2022",
+    "naziv": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+    "vrsta": "zakon",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+    "datum_pristupa": "31.03.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "F54F3B54D11701CFF4997BBA710A62AF0132876E5947F544B5FCB0F5AD7B0F13",
+    "oznaka_akta": "NN 151/2022"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "31.03.2026.",
+    "broj_clanaka": 23
+  },
+  "clanci": [
+    {
+      "broj": 1,
+      "naslov": null,
+      "tekst": ". U Zakonu o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20. i 138/20.) u članku 8. stavku 1. točki 4. riječ: »žiroračun« zamjenjuje se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 2,
+      "naslov": null,
+      "tekst": ". U članku 9. stavku 1. točki 18. riječi: »do visine 500,00 kuna« zamjenjuju se riječima: »do visine 66,37 eura«, a riječi: »do 6000,00 kuna« zamjenjuju se riječima: »do 796,44 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 3,
+      "naslov": null,
+      "tekst": ". U članku 11. stavku 12. riječi: »ne prelaze 5000,00 kuna« zamjenjuju se riječima: »ne prelaze 663,61 euro«, a riječi: »do 200,00 kuna« zamjenjuju se riječima: »do 26,54 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 4,
+      "naslov": null,
+      "tekst": ". U članku 12. stavak 8. mijenja se i glasi: »(8) Dohodak ostvaren u stranoj valuti preračunava se u euro primjenom srednjeg tečaja koji Hrvatska narodna banka objavljuje na dan isplate.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 5,
+      "naslov": null,
+      "tekst": ". U članku 14. stavku 1. riječi: »iznosi 2500,00 kuna« zamjenjuju se riječima: »iznosi 331,81 euro«. U stavku 3. riječi: »u visini 4000,00 kuna« zamjenjuju se riječima: »u visini 530,90 eura«. Stavak 4. mijenja se i glasi: »(4) Rezident može uvećati osnovni osobni odbitak iz stavka 2. ovoga članka u visini: R. br. Osnova za uvećanje osnovnog osobnog odbitka Koeficijent Mjesečni iznos (u eurima i centima) 1 2 3 4 1. Uzdržavani članovi uže obitelji 0,7 232,27 2. Prvo uzdržavano dijete 0,7 232,27 3. Drugo uzdržavano dijete 1,0 331,81 4. Treće uzdržavano dijete 1,4 464,53 5. Četvrto uzdržavano dijete 1,9 630,44 6. Peto uzdržavano dijete 2,5 829,53 7. Šesto uzdržavano dijete 3,2 1061,79 8. Sedmo uzdržavano dijete 4,0 1327,24 9. Osmo uzdržavano dijete 4,9 1625,87 10. Deveto uzdržavano dijete 5,9 1957,68 11. Za svako daljnje uzdržavano dijete koeficijent osnovnoga osobnog odbitka progresivno se uvećava se za 1,1 … više u odnosu prema koeficijentu za prethodno dijete 12. Invalidnost poreznog obveznika, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta 0,4 132,72 13. Invalidnost utvrđena po jednoj osnovi 100 % i/ili korištenje, na temelju posebnih propisa, prava na doplatak za pomoć i njegu poreznog obveznika odnosno prava na osobnu invalidninu, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta. Korištenje uvećanja osnovnog osobnog odbitka po ovoj osnovi isklju­čuje korištenje uvećanja osnovnog osobnog odbitka iz r. br. 12. 1,5 497,72",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 6,
+      "naslov": null,
+      "tekst": ". U članku 15. stavku 2. riječ: »žiroračun« zamjenjuje se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 7,
+      "naslov": null,
+      "tekst": ". U članku 17. stavku 1. riječi: »iznos od 15.000,00 kuna na godišnjoj razini izračunan kao šesterostruki iznos osnovice osobnog odbitka« zamjenjuju se riječima: »šesterostruki iznos osnovnog osobnog odbitka iz članka 14. stavka 3. ovoga Zakona na godišnjoj razini«. U stavku 6. riječi: »15.000,00 kuna« zamjenjuju se riječima: »šesterostrukog iznosa osnovnog osobnog odbitka«. U stavku 8. riječi: »od 15.000,00 kuna ili manjem« zamjenjuju se riječima: »do šesterostrukog iznosa osnovnog osobnog odbitka«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 8,
+      "naslov": null,
+      "tekst": ". U članku 19. riječi: »do visine 360.000,00 kuna« zamjenjuju se riječima: »do visine 47.780,28 eura«, a riječi: »od 360.000,00 kuna« zamjenjuju se riječima: »od 47.780,28 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 9,
+      "naslov": null,
+      "tekst": ". U članku 24. stavku 3. riječi: »do visine 30.000,00 kuna« zamjenjuju se riječima: »do visine 3981,69 eura«, a riječi: »iznad 30.000,00 kuna« zamjenjuju se riječima: »iznad 3981,69 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 10,
+      "naslov": null,
+      "tekst": ". U članku 28. iza riječi: »dohodak od slobodnih zanimanja« riječ: »i« briše se, stavlja se zarez, a iza riječi: »dohodak od poljoprivrede i šumarstva« dodaju se riječi: »i dohodak od djelatnosti proizvodnje električne energije«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 11,
+      "naslov": null,
+      "tekst": ". U članku 29. stavku 3. riječi: »od 80.500,00 kuna« zamjenjuju se riječima: »od 10.684,19 eura«. Iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Djelatnošću proizvodnje električne energije smatra se djelatnost proizvodnje električne energije od strane krajnjih kupaca s vlastitom proizvodnjom električne energije uz ispunjenje ostalih uvjeta propisanih propisom kojim se uređuje preuzimanje električne energije od krajnjih kupaca s vlastitom proizvodnjom ili korisnika postrojenja za samoopskrbu. Ako fizičke osobe, proizvođači električne energije koje kao krajnji kupci s vlastitom proizvodnjom, a koje su prethodno bile proizvođači električne energije kao korisnici postrojenja za samoopskrbu, ostvare ukupan godišnji primitak veći od četverostrukog iznosa osnovice osobnog odbitka iz članka 14. stavka 1. ovoga Zakona, obveznici su poreza na dohodak.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 12,
+      "naslov": null,
+      "tekst": ". U članku 32. stavku 12. riječi: »do 160,00 kuna« zamjenjuju se riječima: »do 21,24 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 13,
+      "naslov": null,
+      "tekst": ". U članku 35. stavku 2. riječi: »od 3500,00 kuna« zamjenjuju se riječima: »od 464,53 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 14,
+      "naslov": null,
+      "tekst": ". U članku 57. stavku 3. riječi: »od 150,00 kuna niti veće od 1500,00 kuna« zamjenjuju se riječima: »od 19,91 euro niti veće od 199,08 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 15,
+      "naslov": null,
+      "tekst": ". U članku 65. stavku 1. točki 1. riječi: »od kamata na kunsku i deviznu štednju« zamjenjuju se riječima: »od kamata na štednju u eurima i deviznu štednju«. U stavku 2. točki 3. riječi: »žiroračunu, tekućem i deviznom računu« zamjenjuju se riječima: »računu za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 16,
+      "naslov": null,
+      "tekst": ". U članku 81. stavku 2. riječi: »do 100,00 kuna« zamjenjuju se riječima: »do 13,27 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 17,
+      "naslov": null,
+      "tekst": ". U članku 86. stavku 1. riječi: »žiroračun kod banke, a iznimno na njihov tekući račun sukladno posebnim propisima te u« zamjenjuju se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet kod banke, a iznimno u«. U stavku 2. riječi: »tekući račun« zamjenjuju se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 18,
+      "naslov": null,
+      "tekst": ". U članku 91. stavku 1. u uvodnoj rečenici riječi: »od 10.000,00 do 50.000,00 kuna« zamjenjuju se riječima: »od 1320,00 do 6630,00 eura«. U točki 12. riječi: »žiroračun kod banke, a iznimno na njihov tekući račun kod banke u skladu s posebnim propisima« zamjenjuju se riječima: »račun za plaćanje sukladno propisu kojim se uređuje platni promet kod banke«. U stavku 2. riječi: »od 5000,00 do 30.000,00 kuna« zamjenjuju se riječima: »od 660,00 do 3980,00 eura«. U stavku 3. riječi: »od 2000,00 do 20.000,00 kuna« zamjenjuju se riječima: »od 260,00 do 2650,00 eura«. U stavku 4. riječi: »od 2000,00 do 10.000,00 kuna« zamjenjuju se riječima: »od 260,00 do 1320,00 eura«. U stavku 5. riječi: »od 5000,00 do 50.000,00 kuna« zamjenjuju se riječima: »od 660,00 do 6630,00 eura«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 19,
+      "naslov": null,
+      "tekst": ". U članku 92. stavku 1. u uvodnoj rečenici riječi: »od 5000,00 do 50.000,00 kuna« zamjenjuju se riječima: »od 660,00 do 6630,00 eura«. U stavku 2. u uvodnoj rečenici riječi: »od 2000,00 do 20.000,00 kuna« zamjenjuju se riječima: »od 260,00 do 2650,00 eura«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 20,
+      "naslov": null,
+      "tekst": ". Razlike koje poreznim obveznicima nastanu zbog primjene pravila za preračunavanje i zaokruživanje u skladu sa Zakonom o uvođenju eura kao službene valute u Republici Hrvatskoj (»Narodne novine«, br. 57/22. i 88/22. – ispravak) uključuju se u poreznu osnovicu.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 21,
+      "naslov": null,
+      "tekst": ". Odredba članka 7. ovoga Zakona primjenjuje se u postupku godišnjeg obračuna poreza na dohodak za 2022. godinu i nadalje.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 22,
+      "naslov": null,
+      "tekst": ". Ministar financija uskladit će provedbene propise Zakona o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20. i 138/20.) s odredbama ovoga Zakona u roku od 90 dana od dana njegova stupanja na snagu, i to: – Pravilnik o porezu na dohodak (»Narodne novine«, br. 10/17., 128/17., 106/18., 1/19., 80/19., 1/20., 74/20., 1/21., 102/22. i 112/22.) – Pravilnik o paušalnom oporezivanju samostalnih djelatnosti (»Narodne novine«, br. 1/20. i 1/21.) – Pravilnik o paušalnom oporezivanju djelatnosti iznajmljivanja i organiziranja smještaja u turizmu (»Narodne novine«, br. 1/19., 1/20. i 1/21.).",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 23,
+      "naslov": null,
+      "tekst": ". Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu prvoga dana od dana objave u »Narodnim novinama«, osim članaka 1. do 6., članaka 8. do 20. i članka 22. ovoga Zakona koji stupaju na snagu 1. siječnja 2023. Klasa: 022-02/22-01/154 Zagreb, 16. prosinca 2022. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 151/2022-2337 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 151/2022 Broj dokumenta u izdanju: 2337 Stranica tiskanog izdanja: 65 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 22.12.2022. ELI: /eli/sluzbeni/2022/151/2337 Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    }
+  ]
+}

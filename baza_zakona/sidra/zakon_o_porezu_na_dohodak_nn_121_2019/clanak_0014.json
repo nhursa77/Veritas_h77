@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 53. stavak 4. mijenja se i glasi: »(4) Na porezne obveznike koji su ostvarili dohodak u inozemstvu ili iz inozemstva, u posebnom postupku iz članka 51. ovoga Zakona, uzet će se u obzir podaci iz izvješća propisanog člankom 81. stavkom 4. ovoga Zakona. Ako porezni obveznici ne dostave izvješće iz članka 81. stavka 4. ovoga Zakona do roka propisanog za dostavu, a žele da im se uplaćeni porez u inozemstvu uračuna u tuzemnu obvezu poreza na dohodak, dužni su o tome izvijestiti Poreznu upravu na podnesenom obrascu za priznavanjem prava u posebnom postupku u roku iz stavka 1. ovoga članka.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CD32AB24174852526689723FBB55E1BB2C9C2E939608E96C5E2334FB542F4351",
+    "sha256_datoteke": "34FFF96C276F583ABEB33D9BFFC5D7F0186FBEB845E1D5A061310D4430F641F4",
+    "napomena": null
+  }
+}

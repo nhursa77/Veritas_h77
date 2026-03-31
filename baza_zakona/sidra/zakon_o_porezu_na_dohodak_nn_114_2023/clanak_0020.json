@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": ". U članku 49. stavku 1. točki 4. iza riječi: »76. ovoga Zakona« riječ: »i« briše se, stavlja se zarez, a iza riječi: »76.a ovoga Zakona« dodaju se riječi: »i drugi dohodak po osnovi nagrade za dobro obavljenu uslugu (napojnice) prema članku 76.b ovoga Zakona«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6FA0A99CFFB086CA0A47B168BD013950D946AE84900826609B3E239A229D1FE3",
+    "sha256_datoteke": "40C9C5B2338A62F517A69ED9C6C220A04D31A561FBD6B56505A65900B55A1EAE",
+    "napomena": null
+  }
+}

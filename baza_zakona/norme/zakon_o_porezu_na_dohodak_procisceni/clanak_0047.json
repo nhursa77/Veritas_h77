@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "47",
+    "naslov": null,
+    "tekst": ". (1) Poslodavac i isplatitelj primitaka i mirovina iz članka 21. ovoga Zakona obvezan je za radnike i druge fizičke osobe koje ostvaruju dohodak od nesamostalnog rada iz članka 20. ovoga Zakona izvršiti godišnji obračun poreza na dohodak i prireza porezu na dohodak u mjesecu prosincu tekuće godine, a najkasnije do 31. prosinca, ako tijekom godine dohodak od nesamostalnog rada nije redovito mjesečno isplaćivan pa nije iskorišten osobni odbitak iz članka 14. stavaka 3. i 4. ovoga Zakona ili je po toj osnovi porezno opterećenje u pojedinim mjesecima bilo različito pa je porez uplaćen u većem iznosu. (2) Poslodavac i isplatitelj primitaka i mirovina obvezan je izvršiti godišnji obračun iz stavka 1. ovoga članka za radnike i fizičke osobe koji su kod njega ostvarivali plaću, mirovinu ili primitke iz članka 21. ovoga Zakona u cijelom poreznom razdoblju, a nisu mijenjali prebivalište ili uobičajeno boravište između gradova i općina koje su propisale plaćanje prireza porezu na dohodak. (3) Poslodavac i isplatitelj primitaka obvezan je postupiti na način iz stavaka 1. i 2. ovoga članka ako je radnik i druga fizička osoba koja ostvaruje primitke iz članka 21. stavaka 1. i 3. ovoga Zakona u tijeku poreznog razdoblja koristila pravo na rodiljni, roditeljski ili posvojiteljski dopust, bolovanje iznad 42 dana ili drugi dopust za koji se prema posebnim propisima isplaćuje naknada plaće na teret sredstava obveznih osiguranja, osim ako je to pravo koristila svih 12 mjeseci poreznog razdoblja, odnosno u svim ostalim slučajevima kada je porezno opterećenje u poreznom razdoblju bilo različito te bi na temelju godišnjeg obračuna radnik i druga fizička osoba ostvarila razliku za povrat preplaćenog poreza ili za uplatu manje uplaćenog poreza zbog ravnomjernoga godišnjeg oporezivanja, odnosno izravnanja porezne osnovice. (4) Poslodavac i isplatitelj primitaka i mirovina iz članka 21. ovoga Zakona u godišnjem obračunu iz stavka 1. ovoga članka isključivo koristi podatke kako su iskazani na poreznoj kartici uzimajući u obzir od kada vrijede iskazani podaci. Odjeljak 2. GODIŠNJA POREZNA PRIJAVA Porezni obveznici koji obvezno podnose godišnju poreznu prijavu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D6C15D8180F4F8A59D084147CE6CDF61DDDF7D00BC59A6476FAE6926F366DD40",
+    "sha256_datoteke": "365B849E1791AC6F371E6815E6BAFC5E8450EF2B83AAFD4F6A5C62A917AB974A",
+    "napomena": null
+  }
+}

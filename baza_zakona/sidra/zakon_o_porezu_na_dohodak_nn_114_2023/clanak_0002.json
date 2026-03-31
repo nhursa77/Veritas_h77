@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 9. stavku 1. točke 14. i 15. mijenjaju se i glase: »14. stipendije učenicima za redovito školovanje na srednjim školama te studentima u redovitom statusu na sveučilišnim prijediplomskim studijima, sveučilišnim diplomskim studijima, sveučilišnim integriranim prijediplomskim i diplomskim studijima odnosno stručnim prijediplomskim studijima i stručnim diplomskim studijima, ukupno do propisanog iznosa 15. stipendije studenata u redovitom statusu na sveučilišnim prijediplomskim studijima, sveučilišnim diplomskim studijima, sveučilišnim integriranim prijediplomskim i diplomskim studijima odnosno stručnim prijediplomskim studijima i stručnim diplomskim studijima i studenata na poslijediplomskoj razini te poslijedoktoranada za koje su sredstva planirana u državnom proračunu Republike Hrvatske i stipendije koje se isplaćuju, odnosno dodjeljuju iz proračuna Europske unije, uređene posebnim međunarodnim sporazumima, i to studentima za redovito školovanje na visokim učilištima«. U točki 18. riječi: »66,37 eura« zamjenjuju se riječima: »67,00 eura«, a riječi: »796,44 eura« zamjenjuju se riječima: »804,00 eura«. U točki 19. riječi: »stipendije studentima izabranima na javnim natječajima kojima mogu pristupiti svi studenti pod jednakim uvjetima, za redovito školovanje na visokim učilištima« zamjenjuju se riječima: »stipendije studentima u redovitom statusu na visokim učilištima, izabranima na javnim natječajima kojima mogu pristupiti svi studenti pod jednakim uvjetima«. Točka 22. mijenja se i glasi: »22. Primitke u visini razlike između primljenih bespovratnih novčanih sredstava isplaćenih iz fondova Europske unije i državnog proračuna Republike Hrvatske za provedbu mjere trajne obustave ribolovne aktivnosti ili mjere trajnog ukidanja prava na obavljanje ribolova obalnim mrežama potegačama, malim plivaricama i gospodarskog sakupljanja crvenog koralja uz uništenje plovila ili ribolovnih alata, u skladu s posebnim propisima, i knjigovodstvene vrijednosti uništenog plovila odnosno ribolovnih alata«. U točki 23. riječ: »poslijediplomantima« zamjenjuje se riječima: »studentima na poslijediplomskoj razini«. U točki 25. riječi: »i/ili« brišu se. U točki 26. iza riječi: »propisu« briše se točka i dodaju riječi: »i/ili«. Iza točke 26. dodaje se točka 27. koja glasi: »27. primitke, po osnovi nagrade za dobro obavljenu uslugu primljene od strane trećih osoba (napojnice) evidentirane u sustavu fiskalizacije prema posebnom propisu o fiskalizaciji, do propisanog iznosa.«. U stavku 2. riječi: »21. i 23. ovoga članka« zamjenjuju se riječima: »21., 23., 24. i 27. ovoga članka«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9A7E07EF1E048ECA65EFCE0DAB0404DA9A250DCCCCA39D03C723724777BD712F",
+    "sha256_datoteke": "A3632ABA0C98EA53ACC518892E87C6C98564294FA1937F3A7985CC1A6E20B40C",
+    "napomena": null
+  }
+}

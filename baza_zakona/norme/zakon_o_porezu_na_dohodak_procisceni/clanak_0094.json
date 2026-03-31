@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "94",
+    "naslov": null,
+    "tekst": ". (1) Dohodak ostvaren do dana stupanja na snagu ovoga Zakona oporezivat će se po propisima kojima je uređeno oporezivanje dohotka, a koji su tada bili na snazi. (2) Porez na dohodak ne plaća se pri isplati dividendi i udjela u dobiti iz članka 70. ovoga Zakona ako se isplaćuju iz dobiti ostvarene do 29. veljače 2012., osim dividendi i udjela u dobiti na temelju udjela u kapitalu koji su ostvareni u razdoblju od 1. siječnja 2001. do 31. prosinca 2004., a isplaćuju se nakon stupanja na snagu ovoga Zakona te se oporezuju stopom predujma poreza na dohodak od 12%. (3) Odredbe članka 70. ovoga Zakona u dijelu koji se odnosi na oporezivanje kapitalnih dobitaka primjenjuju se pri otuđenju financijske imovine stečene od 1. siječnja 2016. (4) Na postupke podnošenja i obrade prijave poreza na dohodak za 2016. godinu, utvrđivanje i plaćanje razlike paušalnog poreza na dohodak za 2016. godinu, utvrđivanje i plaćanje predujmova poreza na dohodak od samostalne djelatnosti koji se u 2017. godini utvrđuju na temelju ostvarenog dohotka u 2016. godini, primjenjuju se odredbe Zakona o porezu na dohodak (»Narodne novine«, br. 177/04., 73/08., 80/10., 114/11., 22/12., 144/12., 120/13., 125/13., 148/13., 83/14., 143/14. i 136/15.). (5) Postupci koji su započeti po članku 63. Zakona o porezu na dohodak (»Narodne novine«, br. 177/04., 73/08., 80/10., 114/11., 22/12., 144/12., 120/13., 125/13., 148/13., 83/14., 143/14. i 136/15.), a nisu dovršeni do stupanja na snagu ovoga Zakona, dovršit će se po odredbama toga Zakona. (6) Na isplate nakon stupanja na snagu ovoga Zakona u vezi s reinvestiranom dobiti prema Zakonu o porezu na dobit (»Narodne novine«, br. 177/04., 90/05., 57/06., 146/08., 80/10., 22/12., 148/13., 143/14. i 50/16.) u postupku utvrđivanja dohotka i plaćanja poreza na dohodak po osnovi propisanoj tim zakonom, primijenit će se odredbe propisa kojima se uređuje oporezivanje dohotka, a koje su bile na snazi u trenutku reinvestiranja, neovisno kada se te isplate obavljaju. (7) Odredbe članka 45. ovoga Zakona vrijede do donošenja zakona kojim će se urediti državne potpore za istraživačko razvojne projekte.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3120E9B00BD3C6A503CAEC4E5844D427F64E9F66552433E9524ACA6ABB966CFB",
+    "sha256_datoteke": "0BF99E10861DC4F16C9E787B25735D9D5DF3F44E82D44E734A601A948BF7C0DF",
+    "napomena": null
+  }
+}

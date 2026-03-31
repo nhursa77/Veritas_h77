@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "96",
+    "naslov": null,
+    "tekst": ". Danom stupanja na snagu ovoga Zakona prestaje važiti Zakon o porezu na dohodak (»Narodne novine«, br. 177/04., 73/08., 80/10., 114/11., 22/12., 144/12., 120/13., 125/13., 148/13., 83/14., 143/14. i 136/15.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "98F5CB05810B4CFC94F902E1F5640124EE380F0B0DF5637DDB21987D0CB106DD",
+    "sha256_datoteke": "00AECDB426F45384703BF1094604527CCD229FD6C1282E0E4FFD58581D5B0E81",
+    "napomena": null
+  }
+}

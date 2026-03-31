@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "66",
+    "naslov": null,
+    "tekst": ". (1) Izuzimanjima imovine i korištenjem usluga iz članka 64. stavka 1. ovoga Zakona smatraju se izuzimanja imovine i korištenje usluga od strane članova trgovačkih društava za njihove privatne potrebe (skrivene isplate dobiti) izvršeni tijekom poreznog razdoblja na teret dobiti tekućeg razdoblja, te izuzimanja fizičkih osoba koje obavljaju samostalnu djelatnost iz članka 29. ovoga Zakona od koje se plaća porez na dobit. (2) Dohotkom od kapitala po osnovi izuzimanja iz stavka 1. ovoga članka smatra se i razlika primitka koja nastaje kada se tijekom poreznog razdoblja poreznom obvezniku isplati predujam udjela u dobiti, a istekom tog poreznog razdoblja ostvarena dobit nije dostatna za pokriće takvog predujma. Dohodak od kapitala po osnovi kapitalnih dobitaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D0895A0EAFE78A5B424758C0BA1C2552E2F4F8C304480C45B962C621E89182FF",
+    "sha256_datoteke": "90446C07563FDF2568C382E3050B90F0D4EFCF80D44CA5D3F6B597613765404D",
+    "napomena": null
+  }
+}

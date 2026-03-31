@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "49",
+    "naslov": null,
+    "tekst": ". (1) Godišnju poreznu prijavu ne podnosi, u skladu s ovim Zakonom, porezni obveznik za: 1. dohodak od imovine i imovinskih prava iz članaka 56. – 59. ovoga Zakona 2. dohodak od kapitala iz članaka 64. – 69. ovoga Zakona 3. dohodak od osiguranja iz članka 72. ovoga Zakona 4. drugi dohodak po osnovi povrata doprinosa prema članku 75. ovoga Zakona 5. drugi dohodak po osnovi razlike vrijednosti imovine i visine sredstava kojima je stečena prema članku 76. ovoga Zakona i 6. dohodak koji se u poreznom razdoblju oporezuje u paušalnom iznosu prema članku 82. ovoga Zakona. (2) Godišnju poreznu prijavu ne podnose niti porezni obveznici na koje se primjenjuje poseban postupak utvrđivanja godišnjeg poreza. Rok za podnošenje godišnje porezne prijave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E2E0FF82C9136547153E7D899360B8E21E43ACDDFDA62761A1ED6D71DA40B3F3",
+    "sha256_datoteke": "E1510614609E299447334561AFFE59551A2DD2E35A0F3069D2FCA29B6E575868",
+    "napomena": null
+  }
+}

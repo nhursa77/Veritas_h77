@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "46",
+    "naslov": null,
+    "tekst": ". (1) Godišnji porez na dohodak utvrđuje se prema poreznoj osnovici iz članka 18. ovoga Zakona, a od utvrđenoga godišnjeg poreza odbijaju se iznosi plaćenog predujma poreza po svim iskazanim dohocima prema članku 13. ovoga Zakona te utvrđuje razlika za uplatu ili povrat poreza. (2) Iznosima plaćenog predujma poreza iz stavka 1. ovoga članka umirovljenika i poreznih obveznika koji imaju prebivalište i borave na području jedinica lokalne samouprave razvrstanih u I. skupinu po stupnju razvijenosti prema posebnom propisu o regionalnom razvoju Republike Hrvatske i na području Grada Vukovara utvrđenog prema posebnom propisu o obnovi i razvoju Grada Vukovara smatraju se obračunani predujmovi prema članku 24. stavcima 2. i 3. ovoga Zakona u razmjernom djelu uplaćenog predujma utvrđenog sukladno članku 24. stavku 5. ovoga Zakona. (3) Obveznicima poreza na dohodak porez se utvrđuje poreznim rješenjem, osim ako je ovim Zakonom drukčije uređeno. (4) Porez na dohodak po godišnjoj poreznoj prijavi plaća se u roku od 15 dana od dana dostave rješenja poreznom obvezniku. Porezni obveznici koji obavljaju samostalnu djelatnost plaćaju porez na dohodak po godišnjoj poreznoj prijavi s danom podnošenja godišnje porezne prijave. (5) Ako je porezni obveznik tijekom poreznog razdoblja platio veći predujam od poreza na dohodak utvrđenog rješenjem, više plaćeni porez vraća se poreznom obvezniku. Iznimno, poreznim obveznicima koji ostvaruju dohodak od samostalne djelatnosti iz članka 29. ovoga Zakona i poreznim obveznicima koji dohodak utvrđuju na način propisan za samostalne djelatnosti prema člancima 30. – 35. ovoga Zakona, više plaćeni porez vraća se na njihov zahtjev ili im se uračunava u predujam za iduće razdoblje. Utvrđivanje godišnjeg poreza na dohodak od nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D11A2A88428E02080CE7F52E277CFCF483A34E6282F4BC4F1B97817EF8A2FD78",
+    "sha256_datoteke": "65CC50C779BFA07F19A92536280485BE081FEBD12596C3078B7129C941C70654",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ".a (1) Drugim dohotkom smatraju se primici ostvareni po osnovi privremenih odnosno povremenih sezonskih poslova u poljoprivredi sukladno posebnom propisu kojim se uređuje tržište rada. (2) Pri utvrđivanju drugog dohotka iz stavka 1. ovoga članka ne priznaju se izdaci.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5E44DBB676CA303B63BCBEB5149492118E3CAEAEFCB8510F98BF213502F76580",
+    "sha256_datoteke": "15B55A07BE98AF1610DFE718B8DC6FD37ACD3861293709737095C850415A4179",
+    "napomena": null
+  }
+}

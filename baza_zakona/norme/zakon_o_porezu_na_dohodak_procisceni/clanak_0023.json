@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": ". Izdacima koji se oduzimaju od primitaka iz članka 21. ovoga Zakona pri utvrđivanju dohotka od nesamostalnog rada smatraju se uplaćeni doprinosi za obvezna osiguranja iz primitka ili doprinosi za mirovinska osiguranja ako su sukladno odredbama zakona kojim se uređuju doprinosi za obvezna osiguranja propisani kao doprinosi koji se utvrđuju na osnovicu, a porezni obveznik je sam za sebe obveznik tako utvrđenih doprinosa. Utvrđivanje predujma poreza na dohodak od nesamostalnog rada",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B1C3A02EA7D2259519108BD3F92B0CFDBB693C96FA53987A5B940DED5DFE14FF",
+    "sha256_datoteke": "9E672531D62F6257A0E40772F52A93783C4CADA6DA0A342F00C38B29F4A23B6D",
+    "napomena": null
+  }
+}

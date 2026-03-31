@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". Fizičke osobe koje u Republici Hrvatskoj obavljaju diplomatsko-konzularne dužnosti ne plaćaju porez na dohodak na tako ostvaren dohodak, i to: 1. šefovi inozemnih diplomatskih misija akreditiranih u Republici Hrvatskoj i diplomatsko osoblje inozemnih diplomatskih misija u Republici Hrvatskoj, a i članovi njihove uže obitelji, ako ti članovi nisu hrvatski državljani ili nemaju prebivalište u Republici Hrvatskoj 2. šefovi inozemnih konzulata u Republici Hrvatskoj i konzularni dužnosnici te članovi njihove uže obitelji, ako ti članovi nisu hrvatski državljani ili nemaju prebivalište u Republici Hrvatskoj 3. dužnosnici Ujedinjenih naroda i njihovih specijaliziranih agencija, stručnjaci na zadatku za Ujedinjene narode i njihove specijalizirane agencije 4. fizičke osobe zaposlene kod inozemnih diplomatskih misija, konzulata i međunarodnih organizacija, fizičke osobe zaposlene kod šefova diplomatskog osoblja inozemnih diplomatskih misija i međunarodnih organizacija u Republici Hrvatskoj, ako nisu hrvatski državljani ili nemaju prebivalište u Republici Hrvatskoj i/ili 5. počasni konzularni dužnosnici inozemnih konzulata u Republici Hrvatskoj za primitke što ih ostvaruju od države koja ih je imenovala za obavljanje konzularnih poslova. POGLAVLJE IX. OPĆE ODREDBE O UTVRĐIVANJU DOHOTKA Primici i izdaci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "31559BF523F4797B7B01E90A1F9C4736B3A014FE9A929E5563BA0A3A1C1C064B",
+    "sha256_datoteke": "75B85AAD68AFBD28BC7F742247F1F4EBF7D1C6B9816CDD4ABA613D44EDDBD20F",
+    "napomena": null
+  }
+}

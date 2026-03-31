@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "42",
+    "naslov": null,
+    "tekst": ". (1) Fizičkoj osobi kojoj je po posebnom propisu rješenjem utvrđen status hrvatskoga ratnoga vojnog invalida iz Domovinskog rata obračunani porez na dohodak od nesamostalnog rada (plaća i mirovina) umanjuje se za postotak utvrđene invalidnosti. (2) Fizičkoj osobi iz stavka 1. ovoga članka obračunani porez na dohodak od nesamostalnog rada (plaća i mirovina) umanjuje se za postotak utvrđene invalidnosti prije umanjenja iz članka 24. stavka 5. ovoga Zakona. (3) Fizička osoba – član obitelji smrtno stradalog, zatočenog ili nestalog hrvatskog branitelja iz Domovinskog rata ne plaća porez na dohodak od obiteljske mirovine, odnosno novčane naknade u visini obiteljske mirovine ostvarene prema zakonu kojim su uređena prava hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji. Olakšice za potpomognuta područja i Grad Vukovar",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D6ED889C59683D13F5E1F350095A720102B1B0A5EB4BCA1E00D80E179A432699",
+    "sha256_datoteke": "A0EB851B5CEDAC8BFCA23CF555C822E8E83BD3E7B0192F8A0902688D35FFF88C",
+    "napomena": null
+  }
+}

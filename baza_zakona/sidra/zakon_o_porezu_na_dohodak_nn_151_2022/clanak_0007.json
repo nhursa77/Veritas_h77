@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". U članku 17. stavku 1. riječi: »iznos od 15.000,00 kuna na godišnjoj razini izračunan kao šesterostruki iznos osnovice osobnog odbitka« zamjenjuju se riječima: »šesterostruki iznos osnovnog osobnog odbitka iz članka 14. stavka 3. ovoga Zakona na godišnjoj razini«. U stavku 6. riječi: »15.000,00 kuna« zamjenjuju se riječima: »šesterostrukog iznosa osnovnog osobnog odbitka«. U stavku 8. riječi: »od 15.000,00 kuna ili manjem« zamjenjuju se riječima: »do šesterostrukog iznosa osnovnog osobnog odbitka«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AEC4662BB34E19245BE3C1259EC059B074E8BED40EE677D25879A910EA319590",
+    "sha256_datoteke": "EA064B6741F34DDA3CD5D7FD25CEFD4D1F787252F8A2D7B701C377CC6E8271EB",
+    "napomena": null
+  }
+}

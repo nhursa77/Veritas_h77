@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznik je fizička osoba koja ostvaruje dohodak. (2) Ako više fizičkih osoba zajednički ostvaruje dohodak, porezni obveznik je svaka fizička osoba zasebno i to za svoj udio u zajednički ostvarenom dohotku. (3) Porezni obveznik je i nasljednik za sve porezne obveze koje proizlaze iz dohotka što ga je ostavitelj ostvario do svoje smrti. Nasljednik je istodobno i porezni obveznik za dohodak koji mu pritječe iz naslijeđenih izvora dohotka. Predujam poreza na dohodak odnosno porez na dohodak nasljedniku se utvrđuje po istom izvoru dohotka koji se utvrđivao ostavitelju. Rezident",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8961232028B54499211C5603630517AA1A473E6D98415DC028661D064F55580D",
+    "sha256_datoteke": "64C5BC3298C4FFCE7AC6E105DD0A437AC8A56CED57FCEA5C3B583013B7F7F847",
+    "napomena": null
+  }
+}

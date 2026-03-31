@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": ". (1) Ako pri utvrđivanju dohotka iz članka 56. ovoga Zakona zakupnina, najamnina, primitak od imovinskih prava te primitak od otuđenja nekretnina i imovinskih prava nije prijavljen ili nije prijavljen u tržišnom iznosu, dohodak će utvrditi Porezna uprava prema tržišnim cijenama u mjestu u kojemu se nekretnina nalazi, mjestu u kojemu se imovinsko pravo daje na korištenje, odnosno u mjestu u kojemu se imovinsko pravo otuđuje. (2) Porezni obveznik obvezan je prijaviti dohodak od imovine iz stavka 1. ovoga članka na način i u rokovima propisanim člankom 87. ovoga Zakona. Promjena načina utvrđivanja dohotka od imovine",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2C41311C5FE1CA179351B45F8B85B4D5B598D6D61AA004AFAAA3482FA01FD762",
+    "sha256_datoteke": "2ADF8F9E7C006D6DF7871B2531A7F0F20B81381B98535EB9D474A8D043D19883",
+    "napomena": null
+  }
+}

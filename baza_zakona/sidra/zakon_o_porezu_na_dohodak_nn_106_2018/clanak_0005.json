@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 12. stavak 4. mijenja se i glasi: »(4) Konačnim dohotkom iz stavka 2. točke 2. ovoga članka smatra se dohodak koji ima izvor u primicima od imovine i imovinskih prava i kapitala te drugim primicima koji se smatraju konačnim.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "55131B66A676DE687DEA951D811A6409B338C00FFEEE27F579D059EF4D7B7ECB",
+    "sha256_datoteke": "C6ED6F27EDA30FD6E3A30DD74B152E02AD02C66B2C6D78DE6F6DF75C22AC3126",
+    "napomena": null
+  }
+}

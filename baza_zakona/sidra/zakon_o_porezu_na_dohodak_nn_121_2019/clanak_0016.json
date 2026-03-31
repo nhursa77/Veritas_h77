@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "16",
+    "naslov": null,
+    "tekst": ". U članku 83. iza stavka 4. dodaje se stavak 5. koji glasi: »(5) Porezna uprava može, putem sustava ePorezna, temeljem podataka iz svojih službenih evidencija omogućiti poslodavcima i isplatiteljima plaće uvid u podatke koji se odnose na isplaćene neoporezive primitke koje radnik može ostvariti od više poslodavaca i isplatitelja plaće do određenoga godišnjeg iznosa u poreznom razdoblju te uvid u neiskorišteni iznos osobnog odbitka u slučaju iz članka 26. stavka 6. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "891586588ADB6377BAE1AA3F2B347BD653714760B00C7873562D9A2040B0E78D",
+    "sha256_datoteke": "07B51745426ED83F916512DBCC7BF98385735BB0149B67327493D6E483406934",
+    "napomena": null
+  }
+}

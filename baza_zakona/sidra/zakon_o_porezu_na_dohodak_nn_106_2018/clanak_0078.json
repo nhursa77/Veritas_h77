@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "78",
+    "naslov": null,
+    "tekst": ".a (1) Porez na dohodak od drugog dohotka iz članka 76.a ovoga Zakona plaća se po odbitku, po stopi od 12%. (2) Porez na dohodak iz stavka 1. ovoga članka obračunavaju, obustavljaju i uplaćuju isplatitelji do posljednjeg dana u mjesecu u kojem je izvršena isplata odnosno davanje. (3) Isplatitelji su obvezni dostavljati Poreznoj upravi izvješća o isplaćenim primicima po osnovi kojih se utvrđuje drugi dohodak i obustavljenom i uplaćenom porezu na dohodak, u propisanom roku, na propisanom obrascu.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E7B0DD4C8B536B741D66A4D9D684BF267C6D59E552B453CD2EB213484686F579",
+    "sha256_datoteke": "8433A01D6B115ADE413C45096A10DD2D42E415D63A112E01CA6787CB4B00104F",
+    "napomena": null
+  }
+}

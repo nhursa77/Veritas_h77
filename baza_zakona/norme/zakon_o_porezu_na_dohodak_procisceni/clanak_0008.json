@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom se ne smatraju: 1. izravne uplate premije osiguranja za dokup dijela doživotne mirovine određene prema zakonu kojim se uređuje mirovinsko osiguranje koji bi osiguranik ostvario da je navršio određenu starosnu dob i/ili određeni mirovinski staž, a koje se određuju i isplaćuju u mjesečnim obrocima, kao dokupljena mirovina 2. obiteljske mirovine i invalidnine koje djeca ostvaruju nakon smrti roditelja prema zakonu kojim se uređuje mirovinsko osiguranje i zakonu kojim se uređuju prava hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji 3. državne nagrade ustanovljene propisima koje donosi Hrvatski sabor i Vlada Republike Hrvatske, nagrade jedinica lokalne i područne (regionalne) samouprave propisane statutom tih jedinica i novčane nagrade za osvojenu medalju na olimpijskim igrama, paraolimpijskim igrama i olimpijskim igrama gluhih te svjetskim i europskim prvenstvima planirane za te namjene u državnom proračunu Republike Hrvatske i proračunima jedinica lokalne i područne (regionalne) samouprave i/ili 4. primici koje fizičke osobe ostvaruju po osnovi darovanja pravnih i fizičkih osoba, a za zdravstvene potrebe (operativne zahvate, liječenja, nabavu lijekova i ortopedskih pomagala), rješavanje kojih nije plaćeno osnovnim, dopunskim, dodatnim i privatnim zdravstvenim osiguranjem niti na teret sredstava fizičke osobe, a pod uvjetom da je darovanje, odnosno plaćanje nastalih izdataka za tu namjenu obavljeno na žiroračun primatelja dara ili zdravstvene ustanove te na temelju vjerodostojnih isprava. (2) Dohotkom se ne smatraju niti: 1. primici po posebnim propisima: a) potpore zbog zbrinjavanja ratnih invalida i članova obitelji smrtno stradalih, zatočenih ili nestalih hrvatskih branitelja iz Domovinskog rata b) socijalne potpore c) doplatak za djecu i novčani primici za opremu novorođenog djeteta. Dohotkom se ne smatraju primici po osnovi potpora za novorođenče, odnosno potpora za opremu novorođenog djeteta koje isplaćuju ili daju jedinice lokalne i područne (regionalne) samouprave, na temelju svojih općih akata i za koje su sredstva planirana u proračunima tih jedinica d) primici osoba s invaliditetom, osim plaća i mirovina e) potpore zbog uništenja i oštećenja imovine zbog elementarnih nepogoda 2. potpore zbog uništenja i oštećenja imovine zbog ratnih događaja 3. nasljedstva i darovi, osim ako je ovim Zakonom drukčije uređeno 4. primici od otuđenja osobne imovine, osim imovine iz članka 59. ovoga Zakona 5. odštete koje nisu u svezi s gospodarskom djelatnošću. Pod odštetom se smatraju i isplate po osnovi osiguranja stvari, odgovornosti i imovine 6. primici ostvareni na nagradnim natječajima ili natjecanjima, raspisanim pod jednakim uvjetima uz mogućnost sudjelovanja svih osoba i dozvoljenim igrama na sreću prema posebnom zakonu 7. novčani dodaci uz mirovinu koje umirovljenicima isplaćuju jedinice lokalne i područne (regionalne) samouprave, na temelju svojih općih akata i za koje su sredstva planirana u proračunima tih jedinica, te jednokratni novčani dodaci koji se isplaćuju uz mirovine na temelju Odluke Vlade Republike Hrvatske ili na temelju posebnog propisa 8. jednokratne potpore koje djeci u slučaju smrti roditelja isplaćuju ili daju jedinice lokalne i područne (regionalne) samouprave na temelju svojih općih akata te pravne i fizičke osobe i/ili 9. pomoći i potpore koje neprofitne organizacije isplaćuju svim svojim članovima pod istim uvjetima iz sredstava prikupljenih članarinama koja nisu ostvarena obavljanjem djelatnosti koja podliježe obvezi plaćanja poreza na dobit, a temeljem statuta i odluka nadležnih tijela neprofitnih organizacija, uz uvjet da se za isplaćene primitke ne traži niti ne daje protučinidba odnosno da se ne radi o primicima iz članka 5. ovoga Zakona. (3) Dohotkom se ne smatraju niti primici po osnovi ugovora o osiguranju života i dobrovoljnog mirovinskog osiguranja, osim ako su uplaćene premije bile porezno priznati izdatak. (4) Ako su primici iz stavaka 2. i 3. ovoga članka u svezi s ostvarivanjem dohotka iz članka 5. stavka 2. ovoga Zakona, smatraju se oporezivim dohotkom. (5) Dohotkom se u smislu ovoga Zakona ne smatraju primici koji se ostvaruju u okviru djelatnosti koja se oporezuje prema zakonu kojim se uređuje porez na dobit. POGLAVLJE VII. PRIMICI NA KOJE SE NE PLAĆA POREZ NA DOHODAK",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "540DA6BAD0B20864017634579C9EC427264E53E222FD5835CCC334AB8237DC3B",
+    "sha256_datoteke": "D7571CA29B7047DFAFC3E8B2140205A79FD9201BC50B859CC20CE2C9257DB475",
+    "napomena": null
+  }
+}

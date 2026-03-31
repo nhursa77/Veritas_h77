@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". (1) Oporezivi dohodak rezidenta čini dohodak od nesamostalnog rada, dohodak od samostalne djelatnosti, dohodak od imovine i imovinskih prava, dohodak od kapitala, dohodak od osiguranja i drugi dohodak iz članka 5. ovoga Zakona, koji rezident ostvari u tuzemstvu i u inozemstvu (načelo svjetskog dohotka). (2) Oporezivi dohodak nerezidenta čini dohodak iz stavka 1. ovoga članka, koji nerezident ostvari u tuzemstvu (načelo tuzemnog dohotka). POGLAVLJE V. POREZNO RAZDOBLJE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "58ACC8A241A657924EDDB001BC92ADC6C3B755148AC169EF50BCA8ACDECD6F53",
+    "sha256_datoteke": "EBE12503BF9C1ED75716CF73F97EA5C474DEC200AA4D635D277BD5DAD97A4AA5",
+    "napomena": null
+  }
+}

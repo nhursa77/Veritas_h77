@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". U članku 39. stavku 3. točka 6. mijenja se i glasi: »6. nagrade učenicima za vrijeme praktičnog rada i naukovanja i naknade učenicima za vrijeme dualnog obrazovanja iz članka 9. točke 4. ovoga Zakona, iznad propisanog iznosa«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4F783041A7215AB65862D74FD81329621D0A7522C325EF29A56C2A56638BB061",
+    "sha256_datoteke": "9DAC7DCCE4BD7F41EBEA5A7BF325CBB0FAA0B60ED042AB3D89804D9AC08538AE",
+    "napomena": null
+  }
+}

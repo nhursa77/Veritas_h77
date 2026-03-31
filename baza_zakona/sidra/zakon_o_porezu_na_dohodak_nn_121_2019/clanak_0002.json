@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 8. stavku 1. iza točke 3. brišu se riječi: »i/ili«. Iza točke 4. briše se točka te se dodaju riječi: »i/ili« i točka 5. koja glasi: »5. primici koje fizičke osobe ostvaruju po osnovi darovanja (materijalnih i financijskih dobara) od pravnih i fizičkih osoba, za podmirivanje potreba, prikupljenih u humanitarnim akcijama i javno oglašenim akcijama koje imaju općekorisnu svrhu u korist osjetljivih skupina.«. U stavku 2. točki 9. iza riječi: »poreza na dobit« dodaju se riječi: »te članovima uže obitelji preminulog člana neprofitne organizacije«. Iza stavka 5. dodaje se stavak 6. koji glasi: »(6) Ministar financija pravilnikom propisuje način provedbe ovoga članka u vezi s primicima koji se ne smatraju dohotkom.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BA11E753C09F7B7353C6FF4D33FBCDC0E6A9EE6222DF5680A0A67FFC6DF149DF",
+    "sha256_datoteke": "13BBCDE4DC1B952E4A4CD3123D5218F001EA04E09F9BCD9F2CEAFAF571DA7C9C",
+    "napomena": null
+  }
+}

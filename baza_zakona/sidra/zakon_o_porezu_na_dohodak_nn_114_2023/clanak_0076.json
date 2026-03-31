@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ".b (1) Drugim dohotkom smatraju se primici po osnovi nagrade iz članka 9. stavka 1. točke 27. ovoga Zakona iznad propisanog iznosa. (2) Pri utvrđivanju drugog dohotka iz stavka 1. ovoga članka ne priznaju se izdaci.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "89CCBBDBAD04D021CC997E69171541429E82170195860F995D7A6A50392799C5",
+    "sha256_datoteke": "00BBDC5F27F13A50EE7F493B5D26D14AD98AEA7DEA1CF386C61E6C47D63BD711",
+    "napomena": null
+  }
+}

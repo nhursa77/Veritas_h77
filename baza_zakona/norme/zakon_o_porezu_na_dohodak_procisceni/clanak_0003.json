@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". (1) Rezident je fizička osoba koja u Republici Hrvatskoj ima prebivalište ili uobičajeno boravište. (2) Rezident je i fizička osoba koja u Republici Hrvatskoj nema prebivalište ni uobičajeno boravište, a zaposlen je u državnoj službi Republike Hrvatske i po toj osnovi prima plaću. Nerezident",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BD995D869121383C607E6543309DCA937738FABDF4AEBDAE47DF90D94363033E",
+    "sha256_datoteke": "CA46EB521DDE1EC6DA02EFAC6F950AD0C4F5980727232249406CBF865A1F2C1D",
+    "napomena": null
+  }
+}

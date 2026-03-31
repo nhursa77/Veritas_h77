@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "67",
+    "naslov": null,
+    "tekst": ". (1) Dohodak od kapitala po osnovi kapitalnih dobitaka iz članka 64. stavka 1. ovoga Zakona čini razlika između ugovorene prodajne cijene, odnosno primitka utvrđenog prema tržišnoj vrijednosti financijske imovine koja se otuđuje i nabavne vrijednosti. (2) Primicima iz stavka 1. ovoga članka smatraju se primici od otuđenja financijskih instrumenata i strukturiranih proizvoda (u daljnjem tekstu: financijska imovina), odnosno primici od: 1. prenosivih vrijednosnih papira i strukturiranih proizvoda, uključivo i udjela u kapitalu trgovačkih društava i drugih vrsta udruživanja čiji je način raspolaganja udjelima usporediv s takvim društvima 2. instrumenata tržišta novca 3. jedinica u subjektima za zajednička ulaganja 4. izvedenica i/ili 5. razmjernog dijela likvidacijske mase u slučaju likvidacije investicijskog fonda te ostali primici ostvareni od vlasničkih udjela u slučaju likvidacije, prestanka ili istupa. (3) Otuđenjem financijske imovine iz stavka 2. ovoga članka smatra se prodaja, zamjena, darovanje i drugi prijenos. (4) Otuđenjem iz stavka 3. ovoga članka ne smatra se: 1. prijenos udjela iz jednog u drugi dobrovoljni mirovinski fond 2. zamjena vrijednosnih papira s istovrsnim papirima istog izdavatelja pri čemu se ne mijenjaju odnosi među članovima i kapital izdavatelja, kao i zamjena vrijednosnih papira ili udjela u kapitalu trgovačkih društava, odnosno financijskih instrumenata drugim ili drugima vrijednosnim papirima, odnosno financijskim instrumentima te stjecanja vrijednosnih papira, odnosno financijskih instrumenata u slučajevima statusnih promjena pri čemu u svim slučajevima nema novčanog tijeka i pod uvjetom da je osiguran slijed stjecanja financijske imovine 3. podjela dionica istog izdavatelja pri čemu ne dolazi do promjene temeljnog kapitala niti novčanog tijeka 4. zamjena udjela između investicijskih pod-fondova unutar istog krovnog fonda, odnosno zamjena udjela između investicijskih fondova kojima upravlja isto društvo za upravljanje, pod uvjetom da je osiguran slijed stjecanja financijske imovine i/ili 5. otkup udjela u Fondu hrvatskih branitelja iz Domovinskog rata i članova njihovih obitelji. (5) U slučaju otuđenja financijske imovine iz stavka 4. točaka 2. i 4. ovoga članka kao nabavna vrijednost uzima se vrijednost utvrđena na dan prvog stjecanja financijske imovine. (6) Dohodak od kapitala po osnovi primitaka ostvarenih od jedinica u subjektima za zajednička ulaganja utvrđuje se u visini ostvarenih, odnosno realiziranih prinosa umanjenih za troškove upravljanja investicijama, odnosno troškove upravljanja imovinom investicijskog fonda (neto prinos), odnosno kod diskontnih vrijednosnih papira, u visini razlike između otkupne vrijednosti pri emisiji i realizirane vrijednosti pri dospijeću ako otkupitelj drži vrijednosni papir do njegova dospijeća. Dohodak od kapitala po osnovi kapitalnih dobitaka ostvarenih od ulaganja financijske imovine u portfelje, sukladno propisu koji uređuje tržište kapitala, utvrđuje se u trenutku realizacije prinosa iz portfelja umanjenog za troškove upravljanja portfeljem (neto prinos). (7) Kod utvrđivanja neto prinosa iz stavka 6. ovog članka izuzimaju se primici od dividendi ili udjela u dobiti, odnosno primici od kamata, po osnovi kojih je već plaćen porez na dohodak sukladno članku 70. stavcima 1. i 9. ovoga Zakona, te primici od kamata na obveznice, osim onih kamata na obveznice koje su ostvarene temeljem ulaganja investicijskog društva za račun portfelja zbirno za račun svih klijenata (fizičkih i pravnih osoba). (8) Dohodak od kapitala po osnovi kapitalnih dobitaka ne oporezuje se ako je otuđenje izvršeno između bračnih drugova i srodnika u prvoj liniji i drugih članova uže obitelji iz članka 14. stavaka 5. i 6. ovoga Zakona, između razvedenih bračnih drugova ako je otuđenje u neposrednoj svezi s razvodom braka, nasljeđivanjem financijske imovine te u slučaju ako je financijska imovina otuđena nakon dvije godine od dana nabave, odnosno stjecanja te imovine. (9) Ako se financijska imovina stečena darovanjem otuđi u roku od dvije godine od dana nabave darovatelja, otuđitelju (daroprimatelju) utvrđuje se dohodak od kapitala na način iz stavka 1. ovoga Zakona, te se u tome slučaju danom nabave financijske imovine za otuđitelja (daroprimatelja) smatra dan nabave pravnog prednika (darovatelja). (10) Ako se naknadno otuđi financijska imovina koja je stečena otuđenjem između bračnih drugova i srodnika u prvoj liniji te drugih članova uže obitelji iz članka 14. stavaka 5. i 6. ovoga Zakona i/ili otuđenjem između razvedenih bračnih drugova koje je u neposrednoj svezi s razvodom braka i/ili otuđenjem koje je u neposrednoj svezi s nasljeđivanjem, po osnovi kapitalne dobiti koja se pri tom ostvari utvrđuje se dohodak od kapitala, pri čemu se danom stjecanja financijske imovine smatra dan prvotnog stjecanja kada je primijenjeno izuzeće od oporezivanja. (11) Kapitalni gubici mogu se odbiti samo od dohotka od kapitalnih dobitaka koji je ostvaren u istoj kalendarskoj godini. U kapitalni gubitak uračunavaju se i svi pripadajući troškovi koji su naplaćeni na teret poreznog obveznika. Kapitalni gubitak iskazuje se najviše do visine porezne osnovice. (12) Ako dohodak od kapitala po osnovi kapitalnih dobitaka nije utvrđen ili nije prijavljen po tržišnim cijenama, dohodak će utvrditi Porezna uprava prema tržišnim cijenama. Dohodak od kapitala po osnovi dodjele ili opcijske kupnje vlastitih dionica",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9CF1BEBA60D0EA9D148AF8B268B332BC16A38019A0EF7EAD2975E9592985DF4E",
+    "sha256_datoteke": "2A996200D98A8F3D02AEB6B974FC9BD65D23D3BFDF7E37D90FA31D092563F370",
+    "napomena": null
+  }
+}

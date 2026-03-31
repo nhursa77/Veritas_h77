@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 91. iza stavka 4. dodaje se stavak 5. koji glasi: »(5) Novčanom kaznom od 5000,00 do 50.000,00 kuna kaznit će se za prekršaj javni bilježnik ako po obavljenoj službenoj radnji iz članka 62. stavka 8. ovoga Zakona, a najkasnije u roku od 30 dana od dana obavljene službene radnje nadležnoj ispostavi Porezne uprave ne dostavi ispravu o ostvarivanju najamnine i zakupnine nekretnina i pokretnina (članak 62. stavak 8. ovoga Zakona).«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BCCCD63418599C9B5BAC69799D005118D88387B6B6E746D0B4CFD5F44E68ED9E",
+    "sha256_datoteke": "87A8DAF2231795FCC2E8593703A70918CD7E4D055B98DFD731D2E5BB4213C39F",
+    "napomena": null
+  }
+}

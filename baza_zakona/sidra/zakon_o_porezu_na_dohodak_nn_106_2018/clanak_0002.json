@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 6. stavku 1. iza riječi: »kapitala« briše se zarez i riječi: »dohodak od osiguranja«. Iza stavka 2. dodaje se stavak 3. koji glasi: »(3) Po osnovi primitaka koje ostvare fizičke osobe – nerezidenti u svojstvu izvođača (umjetnika, zabavljača, športaša) ne postoji obveza obračuna, obustave i uplate predujma poreza na dohodak odnosno poreza na dohodak kada se za njihove nastupe prema ugovoru s inozemnom osobom koja nije fizička osoba plaća naknada toj inozemnoj osobi te se na iste naknade (plaćanja), sukladno propisima o oporezivanju dobiti, plaća porez po odbitku.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2018_11_106_2062.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "92A5ABF1A9E5F71B96A55085F4A82E28D09077357BF3D829EE2A3243A50AFC0E",
+    "sha256_datoteke": "7F0C7A978E43B5C45791778A75526059CEACEE112A3B117A023ADB905E905557",
+    "napomena": null
+  }
+}

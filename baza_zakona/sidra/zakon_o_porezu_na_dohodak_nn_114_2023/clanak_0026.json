@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": ". U članku 67. stavku 4. točki 4. riječi: »i/ili« brišu se. U točki 5. iza riječi: »obitelji« briše se točka i dodaju riječi: »i/ili«. Iza točke 5. dodaje se točka 6. koja glasi: »6. otuđenje dužničkih vrijednosnih papira i instrumenata tržišta novca koje izdaje Republika Hrvatska i jedinice lokalne i područne (regionalne) samouprave.«. U stavku 8. riječi: »stavaka 5. i 6.« zamjenjuju se riječima: »stavaka 4. i 5.«. U stavku 10. riječi: »stavaka 5. i 6.« zamjenjuju se riječima: »stavaka 4. i 5.«, a riječi: »dan prvotnog stjecanja kada je primijenjeno izuzeće od oporezivanja« zamjenjuju se riječima: »dan nabave pravnog prednika«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6610D60B4D9A13AA3A8424AFA80F6DF7878AB6CB5270C9807CDB159D27256078",
+    "sha256_datoteke": "AE8B9B7EAD1FFEFE608827BEA911B512E746AEA31A3C871B54DE2B98B4353CEA",
+    "napomena": null
+  }
+}

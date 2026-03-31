@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "85",
+    "naslov": null,
+    "tekst": ". (1) Pravne i fizičke osobe te druge organizacije dužne su Poreznoj upravi na njezin zahtjev dostaviti podatke o isporučenoj robi i uslugama što su im obavili obveznici poreza na dohodak te druge propisane podatke o isplaćenim plaćama, mirovinama i drugim primicima po osnovi nesamostalnog rada i djelatnosti, za godinu za koju se utvrđuje porez na dohodak. (2) Banke i druge financijske organizacije koje obavljaju poslove platnog prometa dužne su Poreznoj upravi na njezin zahtjev dostaviti podatke o prometu preko računa obveznika poreza na dohodak. Na zahtjev Porezne uprave dužne su te podatke za pojedine obveznike poreza na dohodak dostaviti i tijekom godine. (3) Osobe i organizacije iz stavaka 1. i 2. ovoga članka dužni su Poreznoj upravi omogućiti uvid u poslovne knjige i evidencije radi utvrđivanja podataka potrebnih za utvrđivanje poreza. (4) Podaci iz stavaka 1. i 2. ovoga članka mogu se dostaviti i elektroničkim putem, odnosno na nosačima podataka. (5) Osobe i organizacije iz stavaka 1. i 2. ovoga članka dužne su Poreznoj upravi u propisanom roku na propisanom obrascu dostavljati i podatke o isplaćenim propisanim primicima na koje se ne plaća porez na dohodak i o drugim propisanim primicima koji se u smislu ovoga Zakona ne smatraju dohotkom. (6) Ministar financija pravilnikom propisuje oblik, sadržaj, rokove te način dostavljanja podataka o isplaćenim primicima i uplaćenom porezu iz stavka 5. ovoga članka za potrebe Porezne uprave i Središnjeg registra osiguranika. POGLAVLJE IV. OBVEZA ISPLATE NA RAČUN",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "44A42817A0B001FD2F4FC6D75BF549AD8AD65940BE08AC23B601390A9C92DA58",
+    "sha256_datoteke": "EA791E5E3E10114C076350415E41196B5B3DEB87E246B4606FF4F8F8BA33F08D",
+    "napomena": null
+  }
+}

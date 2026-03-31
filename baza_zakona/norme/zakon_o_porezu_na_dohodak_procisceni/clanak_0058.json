@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom iz članka 56. ovoga Zakona smatra se i dohodak koji porezni obveznik ostvari od otuđenja nekretnina i imovinskih prava. Otuđenjem se smatra prodaja, zamjena i drugi prijenos. Dohodak čini razlika između primitka utvrđenog prema tržišnoj vrijednosti nekretnine ili imovinskog prava koje se otuđuje i nabavne vrijednosti uvećane za rast proizvođačkih cijena industrijskih proizvoda. Troškovi otuđenja mogu se odbiti kao izdaci. (2) Dohodak od otuđenja nekretnina iz stavka 1. ovoga članka ne oporezuje se ako je nekretnina služila za stanovanje poreznom obvezniku ili uzdržavanim članovima njegove uže obitelji iz članka 14. stavaka 5. i 6. ovoga Zakona, a i u slučaju ako je nekretnina ili imovinsko pravo otuđeno nakon dvije godine od dana nabave. (3) Iznimno od stavka 2. ovoga članka, dohodak od otuđenja nekretnina i imovinskih prava oporezuje se ako je otuđeno više od tri nekretnine iste vrste ili više od tri imovinska prava iste vrste u razdoblju od pet godina od dana stjecanja nekretnine ili imovinskog prava, osim ako se nekretnine izvlašćuju na temelju posebnog zakona te ako se otuđuju zemljišta čija je pojedinačna površina do 250 m 2 , a ukupno do 1000 m 2 . Ako se otuđuje zgrada s više stanova ili poslovnih prostora ili građevinsko zemljište ili više zemljišnih čestica, jednom nekretninom smatra se svaki stan, poslovni prostor, gradilište ili zemljišna čestica. Dohodak čini razlika između ukupnog iznosa primitka utvrđenog prema tržišnoj vrijednosti nekretnina ili imovinskih prava koji se otuđuju u razdoblju od pet godina i njihove nabavne vrijednosti uvećane za rast proizvođačkih cijena industrijskih proizvoda te za troškove ulaganja za koje porezni obveznik posjeduje vjerodostojne isprave. (4) Dohodak od otuđenja nekretnina i imovinskih prava iz stavaka 1. i 3. ovoga članka ne oporezuje se ako je otuđenje izvršeno između bračnih drugova i srodnika u prvoj liniji i drugih članova uže obitelji iz članka 14. stavaka 5. i 6. ovoga Zakona te između razvedenih bračnih drugova ako je otuđenje u neposrednoj svezi s razvodom braka te nasljeđivanjem nekretnina i imovinskih prava. (5) Ako je nekretnina iz stavaka 1., 2. i 4. ovoga članka stečena darovanjem i otuđena u roku od dvije godine od dana njezine nabave od strane darovatelja, otuđitelju se utvrđuje dohodak od imovine i imovinskih prava na način iz stavka 1. ovoga članka. U slučaju stjecanja nekretnine darovanjem, danom nabave nekretnine smatra se dan nabave darovatelja, a nabavnu vrijednost čini tržišna vrijednost u trenutku nabave. (6) Ako su nekretnine i imovinska prava iz stavka 3. ovoga članka stečena darovanjem i otuđena u roku od pet godina od dana njihove nabave od strane darovatelja, darovatelju se utvrđuje dohodak od imovine i imovinskih prava na način iz stavka 3. ovoga članka. (7) Gubici od otuđenja nekretnina i imovinskih prava mogu se odbiti samo od dohotka od otuđenja nekretnina i imovinskih prava koji je ostvaren u istoj kalendarskoj godini. Gubici od otuđenja nekretnina i imovinskih prava iskazuju se najviše do visine porezne osnovice. (8) Porezni obveznici koji ostvare gubitke od otuđenja nekretnina i imovinskih prava mogu, radi priznavanja istih, Poreznoj upravi podnijeti godišnje izvješće u kojem se iskazuje ukupno ostvaren iznos dohotka te ukupno ostvaren iznos gubitaka na zadnji dan godine za koju se izvješće podnosi, i to u roku od 15 dana od dana isteka godine za koju se izvješće podnosi. (9) U slučaju iz stavka 8. ovoga članka, utvrđena porezna obveza plaća se u roku od 15 dana od dana dostave rješenja. (10) Ministar financija pravilnikom propisuje oblik i sadržaj izvješća o ostvarenim gubicima od otuđenja nekretnina i imovinskih prava iz stavka 8. ovoga članka. Dohodak po osnovi otuđenja posebnih vrsta imovine",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0554B972BA965F83943AA47DB84A54C3025F284881955365F0F0CBF2A9E5D53B",
+    "sha256_datoteke": "88B4629760E5598E9E9E9AC402CC72273E90001E358ABEB681B5EE5BD69BA0A2",
+    "napomena": null
+  }
+}

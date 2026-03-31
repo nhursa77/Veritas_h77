@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "72",
+    "naslov": null,
+    "tekst": ". (1) Dohotkom od osiguranja smatraju se uplaćene i porezno priznate premije ugovora životnog osiguranja s obilježjem štednje i dobrovoljnoga mirovinskog osiguranja, a u slučaju otkupa polica životnog i dobrovoljnoga mirovinskog osiguranja ili prestanka osiguranja dohotkom se smatra obračunani iznos za isplatu po ugovoru osiguranja, ako je manji od ukupnih uplaćenih i porezno priznatih premija osiguranja. (2) Pri utvrđivanju dohotka prema stavku 1. ovoga članka ne priznaju se izdaci. (3) Uplaćene premije osiguranja od kojih se utvrđuje dohodak od osiguranja iskazuju se s valutnom klauzulom i u trenutku isplate osigurane svote preračunavaju u kunsku protuvrijednost primjenom srednjeg tečaja Hrvatske narodne banke na dan isplate. (4) Dohotkom od osiguranja smatraju se i primici u visini uplaćenih premija dobrovoljnoga mirovinskog osiguranja, a koje su bile oslobođene od plaćanja poreza na dohodak sukladno članku 9. točki 18. ovoga Zakona te su poslodavcu ili osobno poreznom obvezniku koji obavlja samostalnu djelatnost iz članka 29. ovoga Zakona bile porezno priznati rashod, odnosno izdatak. Utvrđivanje poreza na dohodak od osiguranja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "68D40E90581CE446789372B4CF14A4DCF5919095C7EF7F136332CD56E8C2FD35",
+    "sha256_datoteke": "CA411F814F1621EB39D6D3383D47D721B7C09C6803397005B36C5BB345AE3017",
+    "napomena": null
+  }
+}

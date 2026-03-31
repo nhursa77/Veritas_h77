@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". (1) Porez na dohodak utvrđuje se i plaća prema odredbama ovoga Zakona. (2) Porez na dohodak iz stavka 1. ovoga članka uvećava se za prirez porezu na dohodak koji uvedu jedinice lokalne samouprave prema posebnim zakonima. (3) Raspodjela prihoda od poreza na dohodak utvrđuje se posebnim zakonom. POGLAVLJE II. POREZNI OBVEZNIK Pojam poreznog obveznika",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "907C21EF3FF1934E3414506763744E92A3B807E27DBBCDFA4CD098B59FB294B0",
+    "sha256_datoteke": "56F1808500B32FF53209DE4B7D5F62B0EBA76110044F364280F5F371B76FD90C",
+    "napomena": null
+  }
+}

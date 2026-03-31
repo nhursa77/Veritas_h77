@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
-  status synca (Z115)
+- Polazni HEAD prije zadatka: `1a9c58b` - fix: trajno ispravljen pre-check
+  snapshot i servisno zatvoren z116 (Z117)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 116
+- Zadnji dovršeni zadatak: ZADATAK 118
 
 ## Pregled dovršenih zadataka
 
@@ -151,6 +151,20 @@ Datum: 31.03.2026.
   `paketi/PAKET_ZPD_V1.json` za `zakon_o_porezu_na_dohodak` po vec utvrdjenom
   modelu `core + amandmani`, s primarnim dokaznim izvorom u Narodnim
   novinama i `zakon.hr` samo kao kontrolnim izvorom za kasniju validaciju.
+- ZADATAK 118: proveden je stvarni ingest paketa
+  `paketi/PAKET_ZPD_V1.json` za `zakon_o_porezu_na_dohodak` bez izmjene
+  manifesta i bez promjene rezima iz
+  `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+  Paketni ingest zavrsio je s `INGEST_PAKET_EXIT=0` i `status OK` za core akt
+  te svih sedam amandmana. Generirani su NN dokazni snapshoti pod
+  `izvori/dokazno/narodne_novine/zakon_o_porezu_na_dohodak*/`, kontrolni
+  direktoriji pod `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak*/`,
+  core NORMA set od 99 clanaka pod
+  `baza_zakona/norme/zakon_o_porezu_na_dohodak_procisceni/`, sidrisni setovi
+  za svih sedam amandmanskih akata pod `baza_zakona/sidra/` i osam selection
+  reportova, uz osvjezen
+  `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md` kao stvarni
+  nusartefakt ingest-a.
 
 ## Operativni sazetak
 
@@ -165,8 +179,8 @@ Datum: 31.03.2026.
   (OPZ: nema missing/extra clanaka; za Z111
   `CONTROL_COUNT=199`, `NN_COUNT=199`, `SHORT_COUNT=19`; nakon validacije
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: stvarni ingest po
-  `paketi/PAKET_ZPD_V1.json` za `zakon_o_porezu_na_dohodak`.
+- Sljedeci logicki korak: stvarna kontrolna usporedba ZPD JSON seta sa
+  `zakon.hr` za `zakon_o_porezu_na_dohodak`.
 
 ## Pravilo sinkronizacije
 
@@ -177,8 +191,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
-  status synca (Z115)
+- Polazni HEAD prije zadatka: `1a9c58b` - fix: trajno ispravljen pre-check
+  snapshot i servisno zatvoren z116 (Z117)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". U članku 65. stavku 1. točki 1. riječi: »od kamata na kunsku i deviznu štednju« zamjenjuju se riječima: »od kamata na štednju u eurima i deviznu štednju«. U stavku 2. točki 3. riječi: »žiroračunu, tekućem i deviznom računu« zamjenjuju se riječima: »računu za plaćanje sukladno propisu kojim se uređuje platni promet«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DC7175B06F64FCB31D26E679ACB436CE665B0E8B71CA63869417D06DD6CCE022",
+    "sha256_datoteke": "4283F87EED53CF2B7E5B2193EDCC0BFC00A1B30249B4AA5B3199AC5488A702C3",
+    "napomena": null
+  }
+}

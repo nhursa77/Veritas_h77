@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 9. stavku 1. točki 6. riječ: »redovitom« briše se. U točki 23. riječi: »i/ili« brišu se. U točki 24. na kraju rečenice briše se točka. Iza točke 24. dodaju se točke 25. i 26. koje glase: »25. nacionalnu naknadu za starije osobe prema posebnim propisima i/ili 26. primitke fizičkih osoba ostvarene po osnovi obavljanja nesamostalnog rada ili djelatnosti za poslodavca koji nije registriran u Republici Hrvatskoj temeljem stečenog statusa digitalnog nomada sukladno posebnom propisu.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 138/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "931DD9D63ECA03696CD56173C4A28A0E8C724E3099A800D0B59BE1144CE98D5D",
+    "sha256_datoteke": "75EC85DC9B94C8FCCC2DAFD7E66375693C19F8D8686767BEEE8359DED205B454",
+    "napomena": null
+  }
+}

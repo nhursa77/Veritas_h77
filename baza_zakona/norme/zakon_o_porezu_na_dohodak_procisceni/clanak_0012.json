@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". (1) Dohodak je razlika između primitaka priteklih u poreznom razdoblju i izdataka nastalih u istom poreznom razdoblju, osim ako je ovim Zakonom drukčije uređeno. (2) Dohodak iz članka 5. ovoga Zakona utvrđuje se kao: 1. godišnji dohodak ili 2. konačan dohodak. (3) Godišnjim dohotkom iz stavka 2. točke 1. ovoga članka smatra se dohodak koji ima izvor u primicima od nesamostalnog rada, samostalne djelatnosti i drugim primicima koji se ne smatraju konačnim. (4) Konačnim dohotkom iz stavka 2. točke 2. ovoga članka smatra se dohodak koji ima izvor u primicima od imovine i imovinskih prava, kapitala i osiguranja te drugim primicima koji se smatraju konačnim. (5) Dohodak se može utvrđivati i u paušalnom iznosu te se tako utvrđeni dohodak smatra konačnim. (6) Dohodak se može utvrđivati zajedničkim obavljanjem samostalne djelatnosti ili zajedničkim korištenjem imovine i imovinskih prava. (7) Inozemni dohodak je dohodak iz članka 5. ovoga Zakona koji rezident ostvari u inozemstvu ili iz inozemstva. (8) Dohodak ostvaren u stranoj valuti preračunava se u kunsku protuvrijednost primjenom srednjeg tečaja Hrvatske narodne banke na dan isplate. DIO DRUGI UTVRĐIVANJE GODIŠNJEG DOHOTKA POGLAVLJE I. OPĆA ODREDBA",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2016_12_115_2525.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "371C727518A8BC05DF720BB0DC582DDB5C3CBC78B74D2FAE8C5E9E00FBCFB1D5",
+    "sha256_datoteke": "6A3B165826BF1FEB873BA331363CFE9FED4EF7EDF7FB572D3F4FAEF93017EE50",
+    "napomena": null
+  }
+}

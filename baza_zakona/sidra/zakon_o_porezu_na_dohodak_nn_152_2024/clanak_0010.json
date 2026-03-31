@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". U članku 62. iza stavka 8. dodaje se novi stavak 9. i stavak 10. koji glase: »(9) Smatra se da je ostvarena najamnina i zakupnina i u slučaju kada je nekretnina i/ili pokretnina predana na uporabu ili korištenje drugoj osobi bez isprave o nastanku ili promjeni činjenica vezanih za ostvarivanje najamnine i zakupnine nekretnina i pokretnina. (10) Iznimno od stavka 9. ovoga članka, najamnina i zakupnina nije ostvarena u slučaju kada porezni obveznik nekretninu i pokretninu preda na uporabu ili korištenje sljedećim osobama: njegovu bračnom drugu, njegovu krvnom srodniku u ravnoj liniji, u pobočnoj liniji do drugog stupnja, po tazbini do istog stupnja bez obzira na to je li brak prestao ili nije, posvojitelju, posvojeniku, skrbniku, osobi pod skrbništvom te osobi koja s njime živi u zajedničkom kućanstvu.«. Dosadašnji stavak 9. postaje stavak 11.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3682B315AA49FE35A7C358FD0AC48BA71FD252B90046B2F9D0E48BB7E4F06FBC",
+    "sha256_datoteke": "25CDB7064E4B5488CA6EF6C2888420DA516C5EC619D7F5F2DA20C3770A6AF1B5",
+    "napomena": null
+  }
+}

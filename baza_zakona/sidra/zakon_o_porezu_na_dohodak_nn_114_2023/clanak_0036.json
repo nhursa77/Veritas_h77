@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "36",
+    "naslov": null,
+    "tekst": ". U članku 91. stavku 1. točki 5. riječi: »i prirezu« brišu se. U točki 11. iza riječi: »članak 78.a stavak 2.« dodaju se riječi: »i članak 78.b stavak 2.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2023",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "52280FBE35828686A5223FA620D7B180408EC7CC0B8B8DBF41D1E0D60D94DA37",
+    "sha256_datoteke": "6D9DAE22A559AC7BBBBEF1E4997F44B137457AAB0C3D46C4B4576ACA843373C9",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 14. stavku 1. riječi: »iznosi 2500,00 kuna« zamjenjuju se riječima: »iznosi 331,81 euro«. U stavku 3. riječi: »u visini 4000,00 kuna« zamjenjuju se riječima: »u visini 530,90 eura«. Stavak 4. mijenja se i glasi: »(4) Rezident može uvećati osnovni osobni odbitak iz stavka 2. ovoga članka u visini: R. br. Osnova za uvećanje osnovnog osobnog odbitka Koeficijent Mjesečni iznos (u eurima i centima) 1 2 3 4 1. Uzdržavani članovi uže obitelji 0,7 232,27 2. Prvo uzdržavano dijete 0,7 232,27 3. Drugo uzdržavano dijete 1,0 331,81 4. Treće uzdržavano dijete 1,4 464,53 5. Četvrto uzdržavano dijete 1,9 630,44 6. Peto uzdržavano dijete 2,5 829,53 7. Šesto uzdržavano dijete 3,2 1061,79 8. Sedmo uzdržavano dijete 4,0 1327,24 9. Osmo uzdržavano dijete 4,9 1625,87 10. Deveto uzdržavano dijete 5,9 1957,68 11. Za svako daljnje uzdržavano dijete koeficijent osnovnoga osobnog odbitka progresivno se uvećava se za 1,1 … više u odnosu prema koeficijentu za prethodno dijete 12. Invalidnost poreznog obveznika, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta 0,4 132,72 13. Invalidnost utvrđena po jednoj osnovi 100 % i/ili korištenje, na temelju posebnih propisa, prava na doplatak za pomoć i njegu poreznog obveznika odnosno prava na osobnu invalidninu, svakog uzdržavanog člana uže obitelji i svakog uzdržavanog djeteta. Korištenje uvećanja osnovnog osobnog odbitka po ovoj osnovi isklju­čuje korištenje uvećanja osnovnog osobnog odbitka iz r. br. 12. 1,5 497,72",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0FD1FCF4B73B20E417891899C25763A0FCCA08295217E10EEA4CD07E59FAC3E6",
+    "sha256_datoteke": "F57F8CE952742B90F10E2DBD868786DCB1ABD4F2A23D439EDC84E2344C66AA6C",
+    "napomena": null
+  }
+}
