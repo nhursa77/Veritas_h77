@@ -4554,3 +4554,36 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 135)
+
+### ZADATAK 135 - servisno uklonjen izvan-scope vscode artefakt
+
+Dokazno je utvrdeno da je .vscode/ sadrzavao samo lokalni editor artefakt
+.vscode/settings.json, bez kanonske potrebe za repozitorij, nakon cega je taj
+izvan-scope artefakt uklonjen iz radnog stabla bez ikakvih promjena u zakonima,
+parserima, validatorima ili ZPD dokumentima.
+
+Nakon uklanjanja .vscode/ git status --short je postao prazan prije
+dokumentacijskog traga, a Z135 je zatim evidentiran iskljucivo kroz
+STATUS_PROJEKTA_VERITAS_H77.md i append-only unos u DNEVNIK_RADA.md.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-ChildItem .\.vscode -Force`
+- `git status --short`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
