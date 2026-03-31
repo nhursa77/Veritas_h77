@@ -110,6 +110,13 @@ Dokumentira da je na primarnoj NN provjeri potvrden izvorni zakon
 vazeceg prociscenog NN akta, pa se odabire model
 `PREKRSAJNI_ZAKON_MODEL`.
 
+### `OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`
+Definira kanonsko tumacenje prolaza za zasebne ZPD amandmane u kontrolnoj
+usporedbi s `zakon.hr`.
+Uređuje odnos `CONTROL_COUNT`, `NN_COUNT`, `EXTRA_LIST` i `SHORT_COUNT`
+na temelju stvarnih rezultata Z120 i Z121, uz razliku između toleriranih
+naleza i tvrdih validator fail signala.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.

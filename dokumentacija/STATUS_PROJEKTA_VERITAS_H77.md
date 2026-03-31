@@ -4,8 +4,8 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `5f673e4` - feat: kontrolna usporedba zpd nn 114
-  2023 sa zakon hr (Z128)
+- Polazni HEAD prije zadatka: `d8e307a` - feat: kontrolna usporedba zpd nn 152
+  2024 sa zakon hr (Z129)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - Zadnji dovršeni zadatak: ZADATAK 128
@@ -320,6 +320,14 @@ Datum: 31.03.2026.
   `ANOMALY_FLAG=False`; trajni izvjestaj upisan je u
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_152_2024/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 130: izveden je kanonski obrazac kontrolne usporedbe zasebnih ZPD
+  amandmana u dokumentu
+  `dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md` na temelju
+  stvarnih rezultata Z120 (`NN 106/2018`) i Z121 (`NN 121/2019`).
+  Dokument formalizira da su `MISSING_COUNT=0`,
+  `CONTROL_TRUNCATION_SUSPECTED=False`, `GUARDRAIL_FAIL=False` i
+  `ANOMALY_FLAG=False` tvrda jezgra prolaza, dok `SHORT_COUNT` i izolirani
+  `EXTRA_LIST` ostaju tolerirani nalazi bez automatskog patcha.
 
 ## Operativni sazetak
 
@@ -331,15 +339,16 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z129 za ZPD amandman `NN 152/2024` iz
-  `https://www.zakon.hr/cms.htm?id=540193`: `CONTROL_COUNT=19`,
-  `NN_COUNT=19`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=6`,
-  `CONTROL_TRUNCATION_SUSPECTED=False`, `ANOMALY_FLAG=False`; validator je
-  prosao bez patcha.)
+  (Z130 je formalizirao kanonski obrazac za zasebne ZPD amandmane iz stvarnih
+  rezultata Z120 i Z121: prolaz pociva na `MISSING_COUNT=0`,
+  `CONTROL_TRUNCATION_SUSPECTED=False`, `GUARDRAIL_FAIL=False` i
+  `ANOMALY_FLAG=False`, dok `SHORT_COUNT` i izolirani `EXTRA_LIST` ne cine
+  automatski fail.)
 - Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
   kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
-  amandman-po-amandman za preostale ZPD izmjene i dopune nakon `NN 152/2024`.
+  koristiti ovaj obrazac pri tumacenju kasnijih ZPD amandmanskih usporedbi i
+  tek na tvrdim fail signalima otvarati patch parsera ili validatora.
 
 ## Pravilo sinkronizacije
 
@@ -350,8 +359,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `5f673e4` - feat: kontrolna usporedba zpd nn 114
-  2023 sa zakon hr (Z128)
+- Polazni HEAD prije zadatka: `d8e307a` - feat: kontrolna usporedba zpd nn 152
+  2024 sa zakon hr (Z129)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

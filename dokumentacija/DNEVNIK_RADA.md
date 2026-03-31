@@ -4358,3 +4358,44 @@ Dokazne naredbe:
   `-PolazniHead "5f673e4" -PolazniSubject "feat: kontrolna usporedba zpd nn 114`
   `2023 sa zakon hr (Z128)" -RepoCistPriPrecheck "DA"`
   `-PoravnanjeGranePriPrecheck "poravnat"`
+
+## Datum: 31.03.2026 (ZADATAK 130)
+
+### ZADATAK 130 - kanonski obrazac kontrolne usporedbe amandmana zpd
+
+Na temelju stvarnih izvjestaja Z120 za NN 106/2018 i Z121 za NN 121/2019 izveden
+je kanonski obrazac za zasebne ZPD amandmane u usporedbi sa zakon.hr, bez
+diranja parsera ili validatora u ovom zadatku.
+
+Dokument formalizira da su MISSING_COUNT=0, CONTROL_TRUNCATION_SUSPECTED=False,
+GUARDRAIL_FAIL=False i ANOMALY_FLAG=False tvrdi kriteriji prolaza, dok
+SHORT_COUNT i izolirani EXTRA_LIST ostaju tolerirani nalazi ako nisu praceni
+signalom stvarnog kvara ili gubitka clanka.
+
+Mijenjane datoteke:
+
+- `dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK 130'`
+  `-PolazniHead 'd8e307a' -PolazniSubject 'feat: kontrolna usporedba zpd nn 152`
+  `2024 sa zakon hr (Z129)' -RepoCistPriPrecheck 'DA'`
+  `-PoravnanjeGranePriPrecheck 'poravnat'`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
