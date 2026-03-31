@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `494b307` - feat: kontrolna usporedba zpd nn 138
-  2020 sa zakon hr (Z124)
+- Polazni HEAD prije zadatka: `a7942ec` - docs: servisno potvrden i
+  sinkroniziran z124 push te saniran md034 (Z125)
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
-- Zadnji dovršeni zadatak: ZADATAK 123
+- Poravnanje grane pri pre-checku: poravnat
+- Zadnji dovršeni zadatak: ZADATAK 125
 
 ## Pregled dovršenih zadataka
 
@@ -256,6 +256,25 @@ Datum: 31.03.2026.
   patcha, uz trajni izvjestaj
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_138_2020/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+  - ZADATAK 126: provedena je stvarna kontrolna usporedba petog ZPD amandmana
+    `zakon_o_porezu_na_dohodak_nn_151_2022` sa `zakon.hr`, bez novog ingest-a,
+    bez izmjene manifesta `paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+    `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+    Dokazno je potvrden zaseban zakon.hr zapis
+    `https://www.zakon.hr/cms.htm?id=55111`, a osvjezen kontrolni sloj pod
+    `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_151_2022/`, pri cemu
+    su potvrdeni `meta.json`, `struktura_kontrolno_dokumenti.json`,
+    `zakon_o_porezu_na_dohodak_nn_151_2022_kontrolni.txt` i
+    `zakon_o_porezu_na_dohodak_nn_151_2022_zakon_hr.html` uz
+    `KONTROLNI_CLANCI=23`.
+    Validacija nad
+    `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/` dala je
+    `CONTROL_COUNT=23`, `NN_COUNT=23`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
+    `SHORT_COUNT=11`, `CONTROL_TRUNCATION_SUSPECTED=False`,
+    `GUARDRAIL_FAIL=False` i `ANOMALY_FLAG=False`; validator je prosao bez
+    patcha, uz trajni izvjestaj
+    `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/
+    IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 
 ## Operativni sazetak
 
@@ -267,13 +286,13 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z124 za ZPD amandman `NN 138/2020` iz
-  `https://www.zakon.hr/cms.htm?id=46522`: `CONTROL_COUNT=21`,
-  `NN_COUNT=21`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=8`,
+  (Z126 za ZPD amandman `NN 151/2022` iz
+  `https://www.zakon.hr/cms.htm?id=55111`: `CONTROL_COUNT=23`,
+  `NN_COUNT=23`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=11`,
   `CONTROL_TRUNCATION_SUSPECTED=False`, `ANOMALY_FLAG=False`; validator je
   prosao bez patcha.)
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
-  amandman-po-amandman za preostale ZPD izmjene i dopune nakon `NN 138/2020`.
+  amandman-po-amandman za preostale ZPD izmjene i dopune nakon `NN 151/2022`.
 
 ## Pravilo sinkronizacije
 
@@ -284,10 +303,10 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `494b307` - feat: kontrolna usporedba zpd nn 138
-  2020 sa zakon hr (Z124)
+- Polazni HEAD prije zadatka: `a7942ec` - docs: servisno potvrden i
+  sinkroniziran z124 push te saniran md034 (Z125)
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
+- Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi

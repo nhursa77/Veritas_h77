@@ -4161,3 +4161,57 @@ Dokazne naredbe:
   `-PolazniHead 494b307 -PolazniSubject "feat: kontrolna usporedba zpd nn 138`
   `2020 sa zakon hr (Z124)" -RepoCistPriPrecheck DA -PoravnanjeGranePriPrecheck`
   `"ispred origin/main (ahead 1)"`
+
+## Datum: 31.03.2026 (ZADATAK 126)
+
+### ZADATAK 126 - kontrolna usporedba zpd nn 151 2022 sa zakon hr
+
+Dokazno je potvrden zaseban zakon.hr zapis za ZPD amandman NN 151/2022 na URL-u
+`https://www.zakon.hr/cms.htm?id=55111`, bez koristenja konsolidiranog /z/85
+izvora kao amandmanskog kontrolnog zapisa.
+
+Pokrenut je stvarni refresh kontrolnog sloja samo za
+zakon_o_porezu_na_dohodak_nn_151_2022, pri cemu su osvjezeni meta.json,
+struktura_kontrolno_dokumenti.json,
+zakon_o_porezu_na_dohodak_nn_151_2022_kontrolni.txt i
+zakon_o_porezu_na_dohodak_nn_151_2022_zakon_hr.html uz KONTROLNI_CLANCI=23.
+
+Validacija nad baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022 dala je
+CONTROL_COUNT=23, NN_COUNT=23, MISSING_COUNT=0, EXTRA_LIST=[], SHORT_COUNT=11,
+CONTROL_TRUNCATION_SUSPECTED=False, GUARDRAIL_FAIL=False i ANOMALY_FLAG=False,
+uz trajni izvjestaj IZVJESTAJ_VALIDACIJE_KONTROLNO.md i bez potrebe za patchom
+parsera ili validatora.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_151_2022/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_151_2022/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_151_2022/`
+  `zakon_o_porezu_na_dohodak_nn_151_2022_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_151_2022/`
+  `zakon_o_porezu_na_dohodak_nn_151_2022_zakon_hr.html`
+- `baza_zakona/ sidra/ zakon_o_porezu_na_dohodak_nn_151_2022/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_151_2022 --naziv-akta "Zakon o izmjenama i`
+  `dopunama Zakona o porezu na dohodak" --url`
+  `"https://www.zakon.hr/cms.htm?id=55111"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe .\alati\validiraj_nn_vs_kontrolno.py`
+  `--akt-slug zakon_o_porezu_na_dohodak_nn_151_2022`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 125"`
+  `-PolazniHead a7942ec -PolazniSubject "docs: servisno potvrden i`
+  `sinkroniziran z124 push te saniran md034 (Z125)" -RepoCistPriPrecheck DA`
+  `-PoravnanjeGranePriPrecheck poravnat`

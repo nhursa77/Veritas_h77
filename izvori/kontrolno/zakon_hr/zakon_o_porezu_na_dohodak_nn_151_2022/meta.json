@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_151_2022",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2337.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:43 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=55111",
+  "preuzeto_lokalno": "2026-03-31 17:57:06 ",
+  "html_sha256": "04af21d5dfc5841c4032dee82c7659b432d2d74836287901735c99671e01b977",
+  "txt_sha256": "0a4acd82dfd18037e6959fcddf1af26b2750e8a314560313ea51c89e84c9fd64",
+  "broj_clanaka_u_kontrolnom_txt": 23,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
