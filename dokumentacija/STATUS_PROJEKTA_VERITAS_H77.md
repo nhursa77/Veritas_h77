@@ -4,11 +4,11 @@ Datum: 27.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `ea183f7` - sanacija kratkih clanaka zup prema
-  kontrolnom izvjestaju (Z96)
+- Trenutni commit: `5fdc2fa` - docs: dnevnik rada i izvjestaj kontrole
+  arhive
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 100
-  (ispravljen rezim konverzije ZUS prema obrascu prociscenog akta)
+- Zadnji dovršeni zadatak: ZADATAK 101
+  (pripremljen manifest ingest-a za vazeci ZUS)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -51,6 +51,13 @@ Datum: 27.03.2026.
   kao jedan vazeci cjeloviti akt (`NN 36/2024`),
   bez koristenja starog niza izmjena i bez modela
   `prekrsajni_zakon` za vazeci ZUS.
+- ZADATAK 101: pripremljen je manifest ingest-a
+  `paketi/PAKET_ZUS_V1.json` za važeći
+  `zakon_o_upravnim_sporovima` (`NN 36/2024`) kao jedan važeći
+  cjeloviti akt po obrascu `ustav_rh_procisceni` s `zakon.hr` kao
+  kontrolnim izvorom za validaciju.
+  Ažurirana dokumentacija: `STATUS_PROJEKTA_VERITAS_H77.md`,
+  `MAPA_DOKUMENTACIJE_VERITAS_H77.md`, `DNEVNIK_RADA.md`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -58,8 +65,6 @@ Datum: 27.03.2026.
   `ustav_rh_procisceni` i `prekrsajni_zakon_procisceni`
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
-- Sljedeci logicni smjer: priprema manifesta ingest-a za vazeci ZUS
-  kao jedan vazeci akt.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).

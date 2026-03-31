@@ -2961,3 +2961,43 @@ REZIM_ODABRAN = PROCISCENI_FIRST
 - `dokumentacija/REZIM_KONVERZIJE_ZUS_U_JSON.md`
 - `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
 - `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+
+## Datum: 31.03.2026 (ZADATAK 101 - pripremljen manifest ingest-a za vazeci ZUS)
+
+Pripremljen je kanonski manifest ingest-a za važeći
+`zakon_o_upravnim_sporovima` kao jedan važeći akt iz NN 36/2024,
+uz zakon.hr kao kontrolni izvor za validaciju.
+
+Temelj:
+
+- Dokumentacija `REZIM_KONVERZIJE_ZUS_U_JSON.md` (Z99-Z100)
+- ZUS se vodi kao jedan važeći cjeloviti akt
+- NN 36/2024 je dokazni izvor
+- zakon.hr je samo kontrolni izvor za validaciju
+- Rezim rada: PROCISCENI_FIRST
+
+Izrada manifesta:
+
+- Novi manifest: `paketi/PAKET_ZUS_V1.json`
+- Core akt: zakon_o_upravnim_sporovima (required)
+- Bez paketnih amandmana
+- Kontrolni izvor: zakon.hr
+
+Ažurirana dokumentacija:
+
+- `paketi/PAKET_ZUS_V1.json` (novi aktivni paketni manifest)
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+
+Sljedeci logicki korak:
+
+- Stvarni ingest vazeceg ZUS-a po manifestu
+  `paketi/PAKET_ZUS_V1.json`
+
+Dokazne naredbe:
+
+- git status --short
+- git --no-pager log -1 --oneline
+- git branch -vv
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

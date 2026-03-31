@@ -1,0 +1,22 @@
+{
+  "paket": {
+    "slug": "zus_v1",
+    "naziv": "ZUS paket v1",
+    "napomena": "Dokazni izvor je NN; kontrolni izvor je zakon.hr samo za validaciju; rezim je jedan važeći akt po obrascu ustav_rh_procisceni bez paketnih izmjena"
+  },
+  "akti": [
+    {
+      "akt_slug": "zakon_o_upravnim_sporovima",
+      "oznaka_akta": "NN 36/2024",
+      "naziv_akta": "Zakon o upravnim sporovima",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/pdf",
+      "tip_teksta": "procisceni",
+      "required": true
+    }
+  ],
+  "kontrolni_izvor": {
+    "zakon_hr_url": "https://www.zakon.hr/z/101/Zakon-o-upravnim-sporovima",
+    "napomena": "zakon.hr se koristi iskljucivo za usporedbu i validaciju konsolidiranog JSON formata; primarni izvor ostaju Narodne novine; nema paketa starih izmjena za vazeci ZUS"
+  }
+}
