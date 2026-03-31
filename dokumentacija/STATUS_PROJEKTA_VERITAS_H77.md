@@ -8,7 +8,7 @@ Datum: 31.03.2026.
   sinkroniziran z124 push te saniran md034 (Z125)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 125
+- Zadnji dovršeni zadatak: ZADATAK 126
 
 ## Pregled dovršenih zadataka
 
@@ -256,25 +256,32 @@ Datum: 31.03.2026.
   patcha, uz trajni izvjestaj
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_138_2020/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
-  - ZADATAK 126: provedena je stvarna kontrolna usporedba petog ZPD amandmana
-    `zakon_o_porezu_na_dohodak_nn_151_2022` sa `zakon.hr`, bez novog ingest-a,
-    bez izmjene manifesta `paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
-    `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
-    Dokazno je potvrden zaseban zakon.hr zapis
-    `https://www.zakon.hr/cms.htm?id=55111`, a osvjezen kontrolni sloj pod
-    `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_151_2022/`, pri cemu
-    su potvrdeni `meta.json`, `struktura_kontrolno_dokumenti.json`,
-    `zakon_o_porezu_na_dohodak_nn_151_2022_kontrolni.txt` i
-    `zakon_o_porezu_na_dohodak_nn_151_2022_zakon_hr.html` uz
-    `KONTROLNI_CLANCI=23`.
-    Validacija nad
-    `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/` dala je
-    `CONTROL_COUNT=23`, `NN_COUNT=23`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
-    `SHORT_COUNT=11`, `CONTROL_TRUNCATION_SUSPECTED=False`,
-    `GUARDRAIL_FAIL=False` i `ANOMALY_FLAG=False`; validator je prosao bez
-    patcha, uz trajni izvjestaj
-    `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/
-    IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 126: provedena je stvarna kontrolna usporedba petog ZPD amandmana
+  `zakon_o_porezu_na_dohodak_nn_151_2022` sa `zakon.hr`, bez novog ingest-a,
+  bez izmjene manifesta `paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+  `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+  Dokazno je potvrden zaseban zakon.hr zapis
+  `https://www.zakon.hr/cms.htm?id=55111`, a osvjezen kontrolni sloj pod
+  `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_151_2022/`, pri cemu
+  su potvrdeni `meta.json`, `struktura_kontrolno_dokumenti.json`,
+  `zakon_o_porezu_na_dohodak_nn_151_2022_kontrolni.txt` i
+  `zakon_o_porezu_na_dohodak_nn_151_2022_zakon_hr.html` uz
+  `KONTROLNI_CLANCI=23`.
+  Validacija je pokrenuta nad slugom
+  `zakon_o_porezu_na_dohodak_nn_151_2022` kroz
+  `alati/validiraj_nn_vs_kontrolno.py`, s rezultatom `CONTROL_COUNT=23`,
+  `NN_COUNT=23`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=11`,
+  `CONTROL_TRUNCATION_SUSPECTED=False`, `GUARDRAIL_FAIL=False` i
+  `ANOMALY_FLAG=False`; trajni izvjestaj upisan je u
+  `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_151_2022/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 127: servisno je ispravljen dokumentacijski trag za Z126.
+  Potvrdeno je da je raniji status-sync unutar Z126 dokaznog traga bio
+  pokrenut s krivim parametrom `-ZadnjiZadatak "ZADATAK 125"`, nakon cega je
+  statusni snapshot kanonski ponovno uskladjen s tocnim parametrima za Z126.
+  Ispravljena je i formulacija validacije tako da eksplicitno navodi pokretanje
+  nad slugom `zakon_o_porezu_na_dohodak_nn_151_2022`, bez izmjene zakona,
+  manifesta, parsera ili validatora.
 
 ## Operativni sazetak
 
@@ -291,6 +298,8 @@ Datum: 31.03.2026.
   `NN_COUNT=23`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=11`,
   `CONTROL_TRUNCATION_SUSPECTED=False`, `ANOMALY_FLAG=False`; validator je
   prosao bez patcha.)
+- Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
+  kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
   amandman-po-amandman za preostale ZPD izmjene i dopune nakon `NN 151/2022`.
 

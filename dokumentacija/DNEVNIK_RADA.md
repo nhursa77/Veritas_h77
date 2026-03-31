@@ -4215,3 +4215,40 @@ Dokazne naredbe:
   `-PolazniHead a7942ec -PolazniSubject "docs: servisno potvrden i`
   `sinkroniziran z124 push te saniran md034 (Z125)" -RepoCistPriPrecheck DA`
   `-PoravnanjeGranePriPrecheck poravnat`
+
+## Datum: 31.03.2026 (ZADATAK 127)
+
+### ZADATAK 127 - servisno ispravljen dokumentacijski trag z126
+
+Servisno je ispravljen dokumentacijski trag Z126 tako da status vise ne sugerira
+pogresan opis validacije, nego eksplicitno navodi da je validacija bila
+pokrenuta nad slugom zakon_o_porezu_na_dohodak_nn_151_2022 kroz alat
+validiraj_nn_vs_kontrolno.py.
+
+Potvrdeno je da je raniji status-sync u Z126 dokaznom tragu bio pokrenut s
+krivim parametrom -ZadnjiZadatak "ZADATAK 125", nakon cega je kanonski ponovno
+pokrenut status sync s tocnim parametrima za Z126: -ZadnjiZadatak "ZADATAK 126",
+-PolazniHead "a7942ec", -PolazniSubject "docs: servisno potvrden i sinkroniziran
+z124 push te saniran md034 (Z125)", -RepoCistPriPrecheck "DA" i
+-PoravnanjeGranePriPrecheck "poravnat".
+
+Azuriranje je namjerno zadrzano iskljucivo na dokumentacijska traga
+STATUS_PROJEKTA_VERITAS_H77.md i DNEVNIK_RADA.md, bez diranja zakona, manifesta,
+parsera ili validatora.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 126"`
+  `-PolazniHead "a7942ec" -PolazniSubject "docs: servisno potvrden i`
+  `sinkroniziran z124 push te saniran md034 (Z125)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
