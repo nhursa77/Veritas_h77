@@ -3002,7 +3002,7 @@ Dokazne naredbe:
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
 
-## Datum: 31.03.2026.
+## Datum: 31.03.2026 (ZADATAK 102)
 
 ### ZADATAK 102 - stvarni ingest važećeg ZUS po paketnom manifestu
 
@@ -3059,7 +3059,7 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
-## Datum: 31.03.2026.
+## Datum: 31.03.2026 (ZADATAK 103)
 
 ### ZADATAK 103 - uskladjen status Z102 i kontrolna usporedba ZUS sa zakon.hr
 
@@ -3128,5 +3128,40 @@ Dokazne naredbe:
 - `c:/Veritas_H77/.venv/Scripts/python.exe`
   `.\alati\validiraj_nn_vs_kontrolno.py`
   `-AktSlug zakon_o_upravnim_sporovima`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026.
+
+### ZADATAK 104 - servisno zatvaranje z103 i sanacija dnevnika
+
+U ovom servisnom koraku provjeren je dokumentacijski trag nakon Z103.
+
+Utvrđeno je:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` bio je zaostao po
+  commit/hash tragu nakon Z103
+- stvarni zadnji commit u repou bio je `a6c9d83`
+- statusni dokument je usklađen sa stvarnim git stanjem
+
+U `dokumentacija/DNEVNIK_RADA.md` sanirane su točno prijavljene greške:
+
+- `MD026 x2`
+- `MD024 x1`
+
+Primijenjena je minimalna sanacija postojećih naslova bez širenja opsega.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+`dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md` nije dirana.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

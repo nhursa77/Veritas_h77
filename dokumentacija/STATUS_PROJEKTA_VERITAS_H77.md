@@ -4,8 +4,8 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `7dd0cb3` - feat: stvarni ingest važećeg zus po
-  paketnom manifestu (Z102)
+- Trenutni commit: `a6c9d83` - docs: uskladjen status z102 i kontrolna
+  usporedba zus sa zakon hr (Z103)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
 - Zadnji dovršeni zadatak: ZADATAK 103
   (uskladjen status Z102 i kontrolna usporedba ZUS sa zakon.hr)
@@ -110,7 +110,7 @@ Datum: 31.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `7dd0cb3`
+- lokalni hash: `a6c9d83`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
