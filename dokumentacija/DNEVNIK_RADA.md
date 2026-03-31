@@ -4517,3 +4517,40 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 134)
+
+### ZADATAK 134 - dokazno dovrsen z133 i uskladen stvarni scope
+
+Dokazno je potvrdeno da Z133 pri otvaranju Z134 nije bio zatvoren na
+origin/main: lokalni HEAD bio je cb977d5, grana main je bila ahead 1, a git
+ls-remote je pokazao da origin/main jos pokazuje 008cdbc.
+
+Istodobno je potvrdeno da
+dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md nema stvarni radni
+diff nakon Z133, pa nije ukljucena u stvarni Z134 commit scope; Z134 je zato
+zadrzan samo na STATUS_PROJEKTA_VERITAS_H77.md i append-only unosu u
+DNEVNIK_RADA.md, uz dokazno zatvaranje remote nesklada pushom.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git diff --name-only`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`
+  `.\dokumentacija\ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

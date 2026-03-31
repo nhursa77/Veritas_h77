@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `008cdbc` - docs: ujednacen dokazni format z120 i
-  z121 u statusu (Z131)
+- Polazni HEAD prije zadatka: `cb977d5` - docs: sanirana 2 workspace problema
+  nakon z132 (Z133)
 - Repo čist pri pre-checku: NE
-- Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 133
+- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
+- Zadnji dovršeni zadatak: ZADATAK 134
 
 ## Pregled dovršenih zadataka
 
@@ -340,6 +340,13 @@ Datum: 31.03.2026.
   `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`.
   Sanacija je zadrzana na normalizaciji završnog newline zapisa bez drugih
   sadržajnih izmjena, uz ažuriran dokumentacijski trag u statusu i dnevniku.
+- ZADATAK 134: dokazno je potvrđeno da Z133 pri pre-checku nije bio zatvoren na
+  `origin/main`, jer je lokalni `main` bio `ahead 1`, dok je remote još bio na
+  `008cdbc`. Istodobno je potvrđeno da
+  `dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md` nema stvarni
+  radni diff nakon Z133 i zato nije dio stvarnog Z134 commit scopea. Z134 je
+  zadržan isključivo na dokumentacijskom tragu (`STATUS_PROJEKTA_VERITAS_H77.md`
+  i `DNEVNIK_RADA.md`) te na dokaznom zatvaranju lokalno/remote nesklada.
 
 ## Operativni sazetak
 
@@ -351,14 +358,15 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z133 je potvrdio da su nakon Z132 bila otvorena točno 2 stvarna workspace
-  problema i da su oba sanirana bez promjene značenja ZPD završnog pregleda.)
+  (Z134 je dokazno potvrdio da Z133 sadržajno ostaje valjan, da
+  `OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md` nema preostali diff i da je
+  preostali problem bio samo push zatvaranje na `origin/main`.)
 - Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
   kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
   koristiti zavrsni ZPD izvjestaj kao ulazni presjek stanja i tek na tvrdim
-  fail signalima otvarati novi refresh, ingest ili patch parsera/validatora,
-  bez novih servisnih zahvata dok workspace diagnostics ostaje čist.
+  fail signalima otvarati novi refresh, ingest ili patch parsera/validatora;
+  servisni trag za Z133/Z134 sada je dokazno zatvoren i na remoteu.
 
 ## Pravilo sinkronizacije
 
@@ -369,10 +377,10 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `008cdbc` - docs: ujednacen dokazni format z120 i
-  z121 u statusu (Z131)
+- Polazni HEAD prije zadatka: `cb977d5` - docs: sanirana 2 workspace problema
+  nakon z132 (Z133)
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat
+- Poravnanje grane pri pre-checku: ispred origin/main (ahead 1)
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi
