@@ -123,6 +123,12 @@ Uređuje jedinstveni pregled core akta i svih amandmana iz manifesta,
 sa zavrsnim zakljuckom o potpunosti obrade, toleriranim odstupanjima i
 preostalim tehnickim ili interpretativnim napomenama.
 
+### `INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+Definira analitičku inventuru postojećeg obrasca za zakone s amandmanima.
+Uređuje što je već kanonski pokriveno kroz postojeće dokumente i alate,
+što još nedostaje te koje sekcije treba dodati budućem jedinstvenom
+kanonskom dokumentu obrasca.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.

@@ -362,6 +362,14 @@ Datum: 31.03.2026.
   najprije s testnom vrijednoscu `ZADATAK TEST 136`, a zatim s realnom
   vrijednoscu `ZADATAK 136`, bez naknadnog rucnog patchanja tog retka.
 
+- ZADATAK 138: izrađena je analitička inventura postojećeg obrasca za
+  pretvaranje zakona s amandmanima u JSON u dokumentu
+  `dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Na temelju postojećih kanonskih dokumenata i alata utvrđeno je da repou ne
+  nedostaju pojedinačni mehanizmi, nego objedinjeni opći kanonski dokument
+  koji bi na jednom mjestu povezao odluku o režimu, manifest, NN dokazni sloj,
+  sidra, kontrolni `zakon.hr` sloj, validaciju i završni izvještaj.
+
 ## Operativni sazetak
 
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87

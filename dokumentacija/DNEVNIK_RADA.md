@@ -4637,3 +4637,40 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 138)
+
+### ZADATAK 138 - inventura obrasca zakoni s amandmanima
+
+Izradjena je analiticka inventura postojećeg obrasca za pretvaranje zakona s
+amandmanima u JSON u dokumentu
+dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md, isključivo na temelju
+postojećih kanonskih dokumenata i alata, bez novih patch-eva u zakonima,
+normama, sidrima ili kontrolnim artefaktima.
+
+Inventura je pokazala da repou ne nedostaju pojedinačni mehanizmi za model core
+- amandmani, nego jedan objedinjeni kanonski dokument koji bi na jednom mjestu
+spojio odluku o režimu, manifest, NN dokazni sloj, kontrolni zakon.hr sloj,
+sidra, validaciju i završni izvještaj.
+
+Mijenjane datoteke:
+
+- `dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
