@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `d8e307a` - feat: kontrolna usporedba zpd nn 152
-  2024 sa zakon hr (Z129)
+- Polazni HEAD prije zadatka: `eef49a6` - docs: kanonski obrazac kontrolne
+  usporedbe amandmana zpd (Z130)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 128
+- Zadnji dovršeni zadatak: ZADATAK 131
 
 ## Pregled dovršenih zadataka
 
@@ -197,8 +197,7 @@ Datum: 31.03.2026.
   HTML snapshota za isti amandman, validacija nad
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/` dala je
   `CONTROL_COUNT=33`, `NN_COUNT=33`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
-  `SHORT_COUNT=9`, `CONTROL_TRUNCATION_SUSPECTED=False` i
-  `ANOMALY_FLAG=False`, uz trajni izvjestaj
+  `SHORT_COUNT=9` i `CONTROL_TRUNCATION_SUSPECTED=False`; trajni izvjestaj
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 - ZADATAK 121: provedena je stvarna kontrolna usporedba drugog ZPD amandmana
@@ -215,8 +214,7 @@ Datum: 31.03.2026.
   Validacija nad
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/` dala je
   `CONTROL_COUNT=21`, `NN_COUNT=22`, `MISSING_COUNT=0`, `EXTRA_LIST=[27]`,
-  `SHORT_COUNT=6`, `CONTROL_TRUNCATION_SUSPECTED=False`,
-  `GUARDRAIL_FAIL=False` i `ANOMALY_FLAG=False`, uz trajni izvjestaj
+  `SHORT_COUNT=6` i `CONTROL_TRUNCATION_SUSPECTED=False`; trajni izvjestaj
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 - ZADATAK 123: provedena je stvarna kontrolna usporedba treceg ZPD amandmana
@@ -359,8 +357,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `d8e307a` - feat: kontrolna usporedba zpd nn 152
-  2024 sa zakon hr (Z129)
+- Polazni HEAD prije zadatka: `eef49a6` - docs: kanonski obrazac kontrolne
+  usporedbe amandmana zpd (Z130)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

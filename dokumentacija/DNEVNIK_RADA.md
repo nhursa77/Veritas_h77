@@ -4399,3 +4399,41 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 131)
+
+### ZADATAK 131 - ujednacen dokazni format z120 i z121 u statusu
+
+Azurirana je dokumentacija iskljucivo radi ujednacavanja dokaznog formata zapisa
+za Z120 i Z121 u statusu, tako da oba ZPD amandmana sada slijede isti
+eksplicitni skup polja kao kasniji zapisi Z128 i Z129, bez promjene znacenja ili
+rezultata tih zadataka.
+
+Pokrenut je kanonski status sync za Z131 na pre-check commit eef49a6, a nakon
+poznatog ogranicenja skripte rucno je korigiran samo snapshot redak Zadnji
+dovrseni zadatak na ZADATAK 131; parser, validator, manifest, mapa i zakonodavni
+artefakti nisu dirani.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK 131'`
+  `-PolazniHead 'eef49a6' -PolazniSubject 'docs: kanonski obrazac kontrolne`
+  `usporedbe amandmana zpd (Z130)' -RepoCistPriPrecheck 'DA'`
+  `-PoravnanjeGranePriPrecheck 'poravnat'`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
