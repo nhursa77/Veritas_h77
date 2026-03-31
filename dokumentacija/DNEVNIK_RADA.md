@@ -3232,3 +3232,33 @@ Dokazne naredbe:
   `https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519`
 - `Invoke-WebRequest -Method Head`
   `https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263`
+
+## Datum: 31.03.2026 (ZADATAK 107)
+
+### ZADATAK 107 - servisno zatvoren z106 nakon status synca
+
+Z106 manifest je vec postojao i nije diran:
+`paketi/PAKET_OPZ_V1.json`.
+
+Problem je bio u zaostalom statusnom hash i commit tragu u
+`dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`.
+
+Dokazno je pokrenut:
+`alati/uskladi_status_projekta.ps1`.
+
+Status je nakon toga uskladen sa stvarnim git stanjem Z106.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/uskladi_status_projekta.ps1 -ZadnjiZadatak "ZADATAK 106"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/dodaj_dnevnicki_unos_na_kraj.ps1`

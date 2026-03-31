@@ -4,8 +4,8 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `cff5552` - feat: uveden status sync i markdown
-  preflight za dokumentaciju (Z105)
+- Trenutni commit: `9952bbb` - docs: pripremljen manifest ingest-a za
+  sljedeci zakon po prioritetu (Z106)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
 - Zadnji dovršeni zadatak: ZADATAK 106
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
@@ -125,7 +125,7 @@ Datum: 31.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `cff5552`
+- lokalni hash: `9952bbb`
 - `git status --short`: prazan
 - main poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
