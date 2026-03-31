@@ -4072,3 +4072,54 @@ Dokazne naredbe:
   `-AktSlug zakon_o_porezu_na_dohodak_nn_32_2020`
 - `git diff --name-only`
 - `git status --short`
+
+## Datum: 31.03.2026 (ZADATAK 124)
+
+### ZADATAK 124 - kontrolna usporedba zpd nn 138 2020 sa zakon hr
+
+Dokazno je potvrden poseban zakon.hr zapis za ZPD amandman NN 138/2020 na URL-u
+https://www.zakon.hr/cms.htm?id=46522, bez koristenja konsolidiranog /z/85
+izvora kao kontrolnog zapisa za amandman.
+
+Pokrenut je stvarni refresh kontrolnog sloja samo za
+zakon_o_porezu_na_dohodak_nn_138_2020, pri cemu je builder potvrdio
+KONTROLNI_CLANCI=21 i osvjezio meta.json, struktura_kontrolno_dokumenti.json,
+zakon_o_porezu_na_dohodak_nn_138_2020_kontrolni.txt i
+zakon_o_porezu_na_dohodak_nn_138_2020_zakon_hr.html.
+
+Validacija nad baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_138_2020 dala je
+CONTROL_COUNT=21, NN_COUNT=21, MISSING_COUNT=0, EXTRA_LIST=[], SHORT_COUNT=8,
+CONTROL_TRUNCATION_SUSPECTED=False, GUARDRAIL_FAIL=False i ANOMALY_FLAG=False,
+uz trajni izvjestaj IZVJESTAJ_VALIDACIJE_KONTROLNO.md i bez potrebe za patchom
+parsera ili validatora.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_138_2020/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_138_2020/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_138_2020/`
+  `zakon_o_porezu_na_dohodak_nn_138_2020_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_138_2020/`
+  `zakon_o_porezu_na_dohodak_nn_138_2020_zakon_hr.html`
+- `baza_zakona/ sidra/ zakon_o_porezu_na_dohodak_nn_138_2020/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe alati/izgradi_kontrolni_zakon_hr.py`
+  `--akt-slug zakon_o_porezu_na_dohodak_nn_138_2020 --naziv-akta "Zakon o`
+  `izmjenama i dopunama Zakona o porezu na dohodak" --url`
+  `https://www.zakon.hr/cms.htm?id=46522`
+- `c:/Veritas_H77/.venv/Scripts/python.exe alati/validiraj_nn_vs_kontrolno.py`
+  `--akt-slug zakon_o_porezu_na_dohodak_nn_138_2020`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 124"`
+  `-PolazniHead 4798104 -PolazniSubject "docs: saniran md034 u dnevniku rada"`
+  `-RepoCistPriPrecheck DA -PoravnanjeGranePriPrecheck poravnat`

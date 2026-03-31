@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_138_2020",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_12_138_2625.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:41 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=46522",
+  "preuzeto_lokalno": "2026-03-31 17:34:20 ",
+  "html_sha256": "3739a852a811b748a5cdf593b3c468a816cb2c3a2a03e79d16baa4a7fc0f66e9",
+  "txt_sha256": "6414814db74e24c98d8312b353c8ce46cb566be2866941c9e0ef91763dd25efa",
+  "broj_clanaka_u_kontrolnom_txt": 21,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
