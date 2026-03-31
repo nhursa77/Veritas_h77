@@ -4252,3 +4252,56 @@ Dokazne naredbe:
   `-PolazniHead "a7942ec" -PolazniSubject "docs: servisno potvrden i`
   `sinkroniziran z124 push te saniran md034 (Z125)" -RepoCistPriPrecheck "DA"`
   `-PoravnanjeGranePriPrecheck "poravnat"`
+
+## Datum: 31.03.2026 (ZADATAK 128)
+
+### ZADATAK 128 - kontrolna usporedba zpd nn 114 2023 sa zakon hr
+
+Dokazno je potvrden zaseban zakon.hr zapis za ZPD amandman NN 114/2023 na URL-u
+`https://www.zakon.hr/cms.htm?id=58270`, bez koristenja konsolidiranog /z/85
+izvora kao amandmanskog kontrolnog zapisa.
+
+Pokrenut je stvarni refresh kontrolnog sloja samo za
+zakon_o_porezu_na_dohodak_nn_114_2023, pri cemu su osvjezeni meta.json,
+struktura_kontrolno_dokumenti.json,
+zakon_o_porezu_na_dohodak_nn_114_2023_kontrolni.txt i
+zakon_o_porezu_na_dohodak_nn_114_2023_zakon_hr.html uz KONTROLNI_CLANCI=42.
+
+Validacija nad slugom zakon_o_porezu_na_dohodak_nn_114_2023 dala je
+CONTROL_COUNT=42, NN_COUNT=44, MISSING_COUNT=0, EXTRA_LIST=[76, 78],
+SHORT_COUNT=20, CONTROL_TRUNCATION_SUSPECTED=False, GUARDRAIL_FAIL=False i
+ANOMALY_FLAG=False, uz trajni izvjestaj IZVJESTAJ_VALIDACIJE_KONTROLNO.md i bez
+potrebe za patchom parsera ili validatora.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_114_2023/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_114_2023/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_114_2023/`
+  `zakon_o_porezu_na_dohodak_nn_114_2023_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_114_2023/`
+  `zakon_o_porezu_na_dohodak_nn_114_2023_zakon_hr.html`
+- `baza_zakona/ sidra/ zakon_o_porezu_na_dohodak_nn_114_2023/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_114_2023 --naziv-akta "Zakon o izmjenama i`
+  `dopunama Zakona o porezu na dohodak" --url`
+  `"https://www.zakon.hr/cms.htm?id=58270"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe .\alati\validiraj_nn_vs_kontrolno.py`
+  `--akt-slug zakon_o_porezu_na_dohodak_nn_114_2023`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 127"`
+  `-PolazniHead "65e9a37" -PolazniSubject "docs: servisno ispravljen`
+  `dokumentacijski trag z126 (Z127)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`

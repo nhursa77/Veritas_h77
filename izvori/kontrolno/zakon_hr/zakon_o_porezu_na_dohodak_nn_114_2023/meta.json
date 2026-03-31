@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_114_2023",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2023_10_114_1609.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:44 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=58270",
+  "preuzeto_lokalno": "2026-03-31 18:13:25 ",
+  "html_sha256": "429ea1ac9b2dd2d46d5a2f95a59c4c5b6aecd44f05830aab3872cc6cbe1b4378",
+  "txt_sha256": "a44536aa145ea487f61a2ce01d8659ecc7e984589b331cd72ea5bbc44b32ad7b",
+  "broj_clanaka_u_kontrolnom_txt": 42,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }
