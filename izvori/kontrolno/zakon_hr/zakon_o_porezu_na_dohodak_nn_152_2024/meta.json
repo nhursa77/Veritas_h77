@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_152_2024",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2024_12_152_2505.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:47 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=540193",
+  "preuzeto_lokalno": "2026-03-31 18:18:08 ",
+  "html_sha256": "3e673ff1c84dd7ea7209eb9aa5a26745eba54b518449fabf6896c57bf99f226b",
+  "txt_sha256": "9648adf6f9ae799af6562aa5c281a02cfa4d637b30ec435bdfbb1c5efdc49734",
+  "broj_clanaka_u_kontrolnom_txt": 19,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }

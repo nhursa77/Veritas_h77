@@ -4305,3 +4305,56 @@ Dokazne naredbe:
   `-PolazniHead "65e9a37" -PolazniSubject "docs: servisno ispravljen`
   `dokumentacijski trag z126 (Z127)" -RepoCistPriPrecheck "DA"`
   `-PoravnanjeGranePriPrecheck "poravnat"`
+
+## Datum: 31.03.2026 (ZADATAK 129)
+
+### ZADATAK 129 - kontrolna usporedba zpd nn 152 2024 sa zakon hr
+
+Dokazno je potvrden zaseban zakon.hr zapis za ZPD amandman NN 152/2024 na URL-u
+`https://www.zakon.hr/cms.htm?id=540193`, bez koristenja konsolidiranog /z/85
+izvora kao amandmanskog kontrolnog zapisa.
+
+Pokrenut je stvarni refresh kontrolnog sloja samo za
+zakon_o_porezu_na_dohodak_nn_152_2024, pri cemu su osvjezeni meta.json,
+struktura_kontrolno_dokumenti.json,
+zakon_o_porezu_na_dohodak_nn_152_2024_kontrolni.txt i
+zakon_o_porezu_na_dohodak_nn_152_2024_zakon_hr.html uz KONTROLNI_CLANCI=19.
+
+Validacija nad slugom zakon_o_porezu_na_dohodak_nn_152_2024 dala je
+CONTROL_COUNT=19, NN_COUNT=19, MISSING_COUNT=0, EXTRA_LIST=[], SHORT_COUNT=6,
+CONTROL_TRUNCATION_SUSPECTED=False, GUARDRAIL_FAIL=False i ANOMALY_FLAG=False,
+uz trajni izvjestaj IZVJESTAJ_VALIDACIJE_KONTROLNO.md i bez potrebe za patchom
+parsera ili validatora.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_152_2024/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_152_2024/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_152_2024/`
+  `zakon_o_porezu_na_dohodak_nn_152_2024_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_152_2024/`
+  `zakon_o_porezu_na_dohodak_nn_152_2024_zakon_hr.html`
+- `baza_zakona/ sidra/ zakon_o_porezu_na_dohodak_nn_152_2024/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_152_2024 --naziv-akta "Zakon o izmjenama i`
+  `dopunama Zakona o porezu na dohodak" --url`
+  `"https://www.zakon.hr/cms.htm?id=540193"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe .\alati\validiraj_nn_vs_kontrolno.py`
+  `--akt-slug zakon_o_porezu_na_dohodak_nn_152_2024`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 128"`
+  `-PolazniHead "5f673e4" -PolazniSubject "feat: kontrolna usporedba zpd nn 114`
+  `2023 sa zakon hr (Z128)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
