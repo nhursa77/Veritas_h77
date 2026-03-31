@@ -555,6 +555,44 @@ Verifikacija (komande):
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\ci_smoke.ps1`
 
+## Datum: 31.03.2026 (ZADATAK 139)
+
+### ZADATAK 139 - kanonski obrazac zakoni s amandmanima u JSON
+
+Izrađen je objedinjeni kanonski dokument za pretvaranje zakona s amandmanima u
+JSON u datoteci dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md,
+isključivo na temelju već postojećih kanonskih dokumenata i stvarnog ponašanja
+repo alata, bez zahvata u zakonima, sidrima, normama, kontrolnim artefaktima,
+skriptama ili završnom ZPD izvještaju.
+
+Dokument na jednom mjestu uređuje kada se koristi model core + amandmani,
+koji je minimalni obvezni skup ulaznih artefakata, kako su razdvojeni NN
+dokazni sloj i kontrolni zakon.hr sloj, koja su pravila za norme i sidra,
+koji su kriteriji prolaza, koja su tolerirana odstupanja i kada se smije reći
+da je zakon kanonski obrađen.
+
+Mijenjane datoteke:
+
+- `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `\.\alati\provjeri_markdown_scope.ps1`
+  `\.\dokumentacija\KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+  `\.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `\.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `\.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `\.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
 Commit hash: (upisano nakon commita)
 
 ---

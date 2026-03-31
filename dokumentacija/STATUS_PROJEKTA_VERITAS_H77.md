@@ -369,6 +369,14 @@ Datum: 31.03.2026.
   nedostaju pojedinačni mehanizmi, nego objedinjeni opći kanonski dokument
   koji bi na jednom mjestu povezao odluku o režimu, manifest, NN dokazni sloj,
   sidra, kontrolni `zakon.hr` sloj, validaciju i završni izvještaj.
+- ZADATAK 139: izrađen je objedinjeni kanonski dokument
+  `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md` koji na
+  jednom mjestu definira postupak pretvaranja zakona s amandmanima u JSON.
+  Dokument objedinjeno pokriva režim `core + amandmani`, minimalni obvezni
+  skup ulaznih artefakata, NN dokazni sloj, kontrolni `zakon.hr` sloj,
+  pravila za `norme/` i `sidra/`, kriterije prolaza, tolerirana odstupanja,
+  završni izvještaj i uvjete pod kojima se smije reći da je zakon kanonski
+  obrađen.
 
 ## Operativni sazetak
 

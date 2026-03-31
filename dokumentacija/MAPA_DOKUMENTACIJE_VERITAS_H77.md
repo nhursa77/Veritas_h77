@@ -129,6 +129,14 @@ Uređuje što je već kanonski pokriveno kroz postojeće dokumente i alate,
 što još nedostaje te koje sekcije treba dodati budućem jedinstvenom
 kanonskom dokumentu obrasca.
 
+### `KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+Definira objedinjeni kanonski postupak za pretvaranje zakona s amandmanima
+u JSON.
+Uređuje režim `core + amandmani`, NN dokazni sloj, kontrolni `zakon.hr`
+sloj, pravila za sidra i norme, validaciju, tolerirana odstupanja,
+završni izvještaj i uvjete kada se zakon smije označiti kao kanonski
+obrađen.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
