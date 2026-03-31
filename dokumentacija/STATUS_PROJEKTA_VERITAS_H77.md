@@ -4,10 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `9952bbb` - docs: pripremljen manifest ingest-a za
-  sljedeci zakon po prioritetu (Z106)
-- Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 106
+- Polazni HEAD prije zadatka: `474ad3d` - docs: servisno zatvoren z106 nakon
+  status synca (Z107)
+- Repo čist pri pre-checku: DA
+- Poravnanje grane pri pre-checku: poravnat
+- Zadnji dovršeni zadatak: ZADATAK 108
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -123,11 +124,12 @@ Datum: 31.03.2026.
 - Google Disk: sinkronizirana kopija/backup/pregled, nije paralelni izvor
   uređivanja istih datoteka
 
-Trenutno stanje sinkronizacije (pre-check):
+Pre-check snapshot sinkronizacije:
 
-- lokalni hash: `9952bbb`
-- `git status --short`: prazan
-- main poravnanje: poravnat
+- Polazni HEAD prije zadatka: `474ad3d` - docs: servisno zatvoren z106 nakon
+  status synca (Z107)
+- Repo čist pri pre-checku: DA
+- Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 
 ## Aktivni gateovi

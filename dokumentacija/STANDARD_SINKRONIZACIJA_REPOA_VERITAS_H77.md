@@ -60,6 +60,29 @@ Minimalna provjera sinkronizacije mora ukljucivati:
 - `git branch -vv`,
 - provjeru da kljucne datoteke postoje i odgovaraju kanonskom stanju.
 
+---
+
+## 6) Razlika izmedju pre-check snapshota i zavrsnog git dokaza
+
+Potrebno je strogo razlikovati dvije vrste dokaza:
+
+- pre-check snapshot prije zadatka
+- zavrsni git dokaz nakon commita i push-a
+
+Pre-check snapshot sluzi za stabilan opis pocetnog stanja zadatka i smije
+evidentirati samo:
+
+- polazni HEAD prije zadatka,
+- cistocu repoa pri pre-checku,
+- poravnanje grane pri pre-checku.
+
+Zavrsni git dokaz sluzi za potvrdu da je zadatak zaista zakljucen i mora
+ostati odvojen od statusnog snapshot zapisa. Zavrsni dokaz obuhvaca:
+
+- `git status --short`,
+- `git --no-pager log -1 --oneline`,
+- `git branch -vv`.
+
 Minimalni skup kljucnih datoteka za provjeru:
 
 - `README.md`,
@@ -70,7 +93,7 @@ Minimalni skup kljucnih datoteka za provjeru:
 
 ---
 
-## 6) Operativna napomena za Google Disk
+## 7) Operativna napomena za Google Disk
 
 Google Disk kopija sluzi za:
 

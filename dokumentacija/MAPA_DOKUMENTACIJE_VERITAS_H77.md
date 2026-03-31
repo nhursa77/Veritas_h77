@@ -116,7 +116,8 @@ Kanonska append-only metoda je skripta
 Definira kanonska pravila za headinge, duljinu redaka i scoped provjeru
 markdown dokumentacije.
 Uređuje izbjegavanje `MD024`, `MD026` i `MD013`, pravila diranja dnevnika,
-statusa i mape, te obavezni servisni redoslijed dokumentacijskog zadatka.
+statusa i mape, generator dnevnickog unosa i kanonski wrapper za zatvaranje
+dokumentacijskog koraka.
 
 ### `ANALIZA_SKOKA_U_NIZU_VALIDIRANIH_NATUKNICA.md`
 Definira dokaznu analizu neuzastopnog skoka u nizu potpuno validiranih
@@ -223,7 +224,8 @@ i pripadni manifest bez zatvaranja novih natuknica.
 Definira kanonski model sinkronizacije lokalnog repoa, GitHuba i
 Google Disk kopije.
 Uređuje da je GitHub izvor istine, lokalna mapa jedina radna kopija,
-a Drive samo sinkronizirana kopija/backup.
+a Drive samo sinkronizirana kopija/backup, uz razdvajanje pre-check
+snapshota od zavrsnog git dokaza.
 
 ---
 
@@ -320,8 +322,11 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
 - Pravila headinga, scoped markdown provjere i servisne discipline
   pripadaju `STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`; statusni sync
-  izvodi `alati/uskladi_status_projekta.ps1`, a scoped markdown preflight
-  izvodi `alati/provjeri_markdown_scope.ps1`.
+  izvodi `alati/uskladi_status_projekta.ps1`, generator dnevnickog unosa
+  izvodi `alati/generiraj_dnevnicki_unos.ps1`, append-only dodavanje izvodi
+  `alati/dodaj_dnevnicki_unos_na_kraj.ps1`, kanonsko zatvaranje koraka
+  izvodi `alati/zatvori_dokumentacijski_korak.ps1`, a scoped markdown
+  preflight izvodi `alati/provjeri_markdown_scope.ps1`.
 - Terminološki dokazni i operativni izvori pripadaju
   `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
   izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski

@@ -12,7 +12,7 @@ dokumentacije.
 Ovaj standard uvodi obaveznu disciplinu za markdown dokumentaciju kako bi
 se spriječili tipični kvarovi u pratećim dokumentima:
 
-- zaostajanje statusnog traga prema stvarnom git stanju
+- samoreferencijalni commit/hash trag koji zaostaje prema stvarnom git stanju
 - dupli headingi (`MD024`)
 - interpunkcija na kraju headinga (`MD026`)
 - predugi redci (`MD013`)
@@ -64,7 +64,9 @@ Obavezna pravila:
 
 Obavezna pravila:
 
-- novi unos dodaje se isključivo preko
+- novi unos generira se isključivo preko
+  `alati/generiraj_dnevnicki_unos.ps1`
+- novi unos dodaje se u dnevnik isključivo preko
   `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
 - prije izmjene obavezan je before-tail ispis
 - nakon dodavanja obavezan je after-tail ispis
@@ -81,10 +83,13 @@ potrebno uskladiti stvarno stanje projekta.
 Obavezna pravila:
 
 - prije izmjene statusa mora se dokazati stvarni git HEAD
-- polja `Trenutni commit`, `lokalni hash` i `main poravnanje` usklađuju se
-  skriptom `alati/uskladi_status_projekta.ps1`
-- skripta smije mijenjati samo ta servisna polja i opcionalno oznaku
-  zadnjeg zadatka ako je eksplicitno zadana
+- status više ne vodi samoreferencijalni finalni commit/hash kao opis
+  zadatka koji tek treba biti commitan
+- skripta `alati/uskladi_status_projekta.ps1` usklađuje samo stabilna
+  pre-check polja: `Polazni HEAD prije zadatka`,
+  `Repo čist pri pre-checku` i `Poravnanje grane pri pre-checku`
+- skripta smije opcionalno uskladiti i oznaku zadnjeg dovršenog zadatka,
+  ali samo ako je eksplicitno zadana
 - opisni sadržaj zadatka u statusu dopunjava se samo u scoped patchu
 
 ---
@@ -106,9 +111,13 @@ Za svaki dokumentacijski zadatak vrijedi ovaj redoslijed:
 1. pre-check repozitorija
 2. before-tail dnevnika ako je dnevnik u scopeu
 3. scoped izmjena datoteka
-4. `alati/provjeri_markdown_scope.ps1` nad ciljanim `.md` datotekama
-5. puni gateovi (`alati/lint_markdown.ps1`, `alati/ci_smoke.ps1`)
-6. commit
+4. `alati/uskladi_status_projekta.ps1` nad stabilnim pre-check poljima
+5. `alati/generiraj_dnevnicki_unos.ps1` za lint-safe entry file
+6. `alati/dodaj_dnevnicki_unos_na_kraj.ps1` za append-only dnevnik
+7. `alati/provjeri_markdown_scope.ps1` nad ciljanim `.md` datotekama
+8. `alati/zatvori_dokumentacijski_korak.ps1` kao kanonski wrapper
+9. puni gateovi (`alati/lint_markdown.ps1`, `alati/ci_smoke.ps1`)
+10. commit
 
 ---
 
@@ -117,6 +126,9 @@ Za svaki dokumentacijski zadatak vrijedi ovaj redoslijed:
 Kanonske servisne skripte za ovaj standard su:
 
 - `alati/uskladi_status_projekta.ps1`
+- `alati/generiraj_dnevnicki_unos.ps1`
+- `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+- `alati/zatvori_dokumentacijski_korak.ps1`
 - `alati/provjeri_markdown_scope.ps1`
 
 Njihova je svrha smanjiti ručne greške u statusnom tragu i markdown

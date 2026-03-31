@@ -3262,3 +3262,43 @@ Dokazne naredbe:
   `./alati/uskladi_status_projekta.ps1 -ZadnjiZadatak "ZADATAK 106"`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `./alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 108)
+
+### ZADATAK 108 - refaktor statusnog traga i automatizacije dokumentacije
+
+Ukinut je lazni model samoreferencijalnog commit traga u statusnom dokumentu.
+
+Promijenjena je semantika skripte alati/uskladi_status_projekta.ps1 na stabilna
+pre-check polja.
+
+Dodane su skripte alati/generiraj_dnevnicki_unos.ps1 i
+alati/zatvori_dokumentacijski_korak.ps1 te su azurirani standardi i mapa
+dokumentacije.
+
+Mijenjane datoteke:
+
+- `alati/uskladi_status_projekta.ps1`
+- `alati/generiraj_dnevnicki_unos.ps1`
+- `alati/zatvori_dokumentacijski_korak.ps1`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -PolazniHead 474ad3d`
+  `-PolazniSubject "docs: servisno zatvoren z106 nakon status synca (Z107)"`
+  `-RepoCistPriPrecheck DA -PoravnanjeGranePriPrecheck poravnat`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\generiraj_dnevnicki_unos.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\zatvori_dokumentacijski_korak.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

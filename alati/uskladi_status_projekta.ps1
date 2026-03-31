@@ -1,6 +1,10 @@
 param(
     [string]$StatusPath = ".\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md",
-    [string]$ZadnjiZadatak
+    [string]$ZadnjiZadatak,
+    [string]$PolazniHead,
+    [string]$PolazniSubject,
+    [string]$RepoCistPriPrecheck,
+    [string]$PoravnanjeGranePriPrecheck
 )
 
 $ErrorActionPreference = "Stop"
@@ -20,30 +24,37 @@ function Write-Utf8NoBom {
     [System.IO.File]::WriteAllText($Path, $Content, $encoding)
 }
 
-function Format-CommitBlock {
+function Format-HeadBlock {
     param(
         [Parameter(Mandatory = $true)][string]$ShortHash,
         [Parameter(Mandatory = $true)][string]$Subject
     )
 
-    $prefix = "- Trenutni commit: ``$ShortHash`` - "
-    $line = $prefix + $Subject
-    if ($line.Length -le 80) {
-        return @($line)
+    $prefix = "- Polazni HEAD prije zadatka: ``$ShortHash`` - "
+    $words = $Subject -split '\s+' | Where-Object { $_ -ne '' }
+    $lines = New-Object System.Collections.Generic.List[string]
+    $currentPrefix = $prefix
+    $currentText = ''
+
+    foreach ($word in $words) {
+        $candidate = if ([string]::IsNullOrEmpty($currentText)) { $word } else { "$currentText $word" }
+        $candidateLine = $currentPrefix + $candidate
+
+        if ($candidateLine.Length -le 80 -or [string]::IsNullOrEmpty($currentText)) {
+            $currentText = $candidate
+            continue
+        }
+
+        $lines.Add($currentPrefix + $currentText)
+        $currentPrefix = '  '
+        $currentText = $word
     }
 
-    $available = 80 - $prefix.Length
-    $splitIndex = $Subject.LastIndexOf(" ", [Math]::Min($available, $Subject.Length - 1))
-    if ($splitIndex -lt 1) {
-        $splitIndex = [Math]::Min($available, $Subject.Length)
+    if (-not [string]::IsNullOrEmpty($currentText)) {
+        $lines.Add($currentPrefix + $currentText)
     }
 
-    $first = $Subject.Substring(0, $splitIndex).TrimEnd()
-    $rest = $Subject.Substring($splitIndex).TrimStart()
-    return @(
-        $prefix + $first,
-        "  $rest"
-    )
+    return $lines
 }
 
 function Get-BranchAlignment {
@@ -85,6 +96,46 @@ function Replace-BlockLines {
     return $false
 }
 
+function Replace-BlockLinesAll {
+    param(
+        [Parameter(Mandatory = $true)][System.Collections.ArrayList]$Lines,
+        [Parameter(Mandatory = $true)][string]$Prefix,
+        [Parameter(Mandatory = $true)][string[]]$NewLines
+    )
+
+    $replaceCount = 0
+    for ($index = 0; $index -lt $Lines.Count; $index++) {
+        if ($Lines[$index].StartsWith($Prefix)) {
+            $removeCount = 1
+            while (($index + $removeCount) -lt $Lines.Count -and $Lines[$index + $removeCount].StartsWith('  ')) {
+                $removeCount++
+            }
+
+            $Lines.RemoveRange($index, $removeCount)
+            for ($insert = $NewLines.Length - 1; $insert -ge 0; $insert--) {
+                $Lines.Insert($index, $NewLines[$insert])
+            }
+
+            $index += $NewLines.Length - 1
+            $replaceCount++
+        }
+    }
+
+    return $replaceCount
+}
+
+function Get-FlagText {
+    param([Parameter(Mandatory = $true)][string]$Value)
+
+    switch ($Value.Trim().ToUpperInvariant()) {
+        'TRUE' { return 'DA' }
+        'DA' { return 'DA' }
+        'YES' { return 'DA' }
+        '1' { return 'DA' }
+        default { return 'NE' }
+    }
+}
+
 Write-Host "STATUS_SYNC_BEGIN=True"
 
 Push-Location $root
@@ -103,10 +154,34 @@ try {
     }
 
     $gitStatus = @(git status --short)
-    $headShort = (git --no-pager log -1 --pretty=format:%h).Trim()
-    $headSubject = (git --no-pager log -1 --pretty=format:%s).Trim()
+    $headShort = if ($PSBoundParameters.ContainsKey('PolazniHead') -and -not [string]::IsNullOrWhiteSpace($PolazniHead)) {
+        $PolazniHead.Trim()
+    }
+    else {
+        (git --no-pager log -1 --pretty=format:%h).Trim()
+    }
+
+    $headSubject = if ($PSBoundParameters.ContainsKey('PolazniSubject') -and -not [string]::IsNullOrWhiteSpace($PolazniSubject)) {
+        $PolazniSubject.Trim()
+    }
+    else {
+        (git --no-pager log -1 --pretty=format:%s).Trim()
+    }
+
     $branchLine = (git branch -vv | Where-Object { $_.StartsWith('*') } | Select-Object -First 1)
-    $alignment = Get-BranchAlignment -BranchLine $branchLine
+    $alignment = if ($PSBoundParameters.ContainsKey('PoravnanjeGranePriPrecheck') -and -not [string]::IsNullOrWhiteSpace($PoravnanjeGranePriPrecheck)) {
+        $PoravnanjeGranePriPrecheck.Trim()
+    }
+    else {
+        Get-BranchAlignment -BranchLine $branchLine
+    }
+
+    $repoClean = if ($PSBoundParameters.ContainsKey('RepoCistPriPrecheck') -and -not [string]::IsNullOrWhiteSpace($RepoCistPriPrecheck)) {
+        Get-FlagText -Value $RepoCistPriPrecheck
+    }
+    else {
+        Get-FlagText -Value ([string]($gitStatus.Count -eq 0))
+    }
 
     $lines = New-Object System.Collections.ArrayList
     foreach ($line in (Get-Content -LiteralPath $statusFile -Encoding UTF8)) {
@@ -114,9 +189,9 @@ try {
     }
 
     $updated = $false
-    $updated = (Replace-BlockLines -Lines $lines -Prefix '- Trenutni commit:' -NewLines (Format-CommitBlock -ShortHash $headShort -Subject $headSubject)) -or $updated
-    $updated = (Replace-BlockLines -Lines $lines -Prefix '- lokalni hash:' -NewLines @("- lokalni hash: ``$headShort``")) -or $updated
-    $updated = (Replace-BlockLines -Lines $lines -Prefix '- `main` poravnanje:' -NewLines @("- `main` poravnanje: $alignment")) -or $updated
+    $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Polazni HEAD prije zadatka:' -NewLines (Format-HeadBlock -ShortHash $headShort -Subject $headSubject)) -gt 0) -or $updated
+    $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Repo čist pri pre-checku:' -NewLines @("- Repo čist pri pre-checku: $repoClean")) -gt 0) -or $updated
+    $updated = ((Replace-BlockLinesAll -Lines $lines -Prefix '- Poravnanje grane pri pre-checku:' -NewLines @("- Poravnanje grane pri pre-checku: $alignment")) -gt 0) -or $updated
 
     if ($PSBoundParameters.ContainsKey('ZadnjiZadatak') -and -not [string]::IsNullOrWhiteSpace($ZadnjiZadatak)) {
         $updated = (Replace-BlockLines -Lines $lines -Prefix '- Zadnji dovršeni zadatak:' -NewLines @("- Zadnji dovršeni zadatak: $ZadnjiZadatak")) -or $updated
@@ -125,10 +200,10 @@ try {
     $content = ($lines -join "`n") + "`n"
     Write-Utf8NoBom -Path $statusFile -Content $content
 
-    Write-Host "STATUS_SYNC_HEAD=$headShort"
-    Write-Host "STATUS_SYNC_SUBJECT=$headSubject"
-    Write-Host "STATUS_SYNC_ALIGNMENT=$alignment"
-    Write-Host "STATUS_SYNC_STATUS_CLEAN=$([string]($gitStatus.Count -eq 0))"
+    Write-Host "STATUS_SYNC_PRECHECK_HEAD=$headShort"
+    Write-Host "STATUS_SYNC_PRECHECK_SUBJECT=$headSubject"
+    Write-Host "STATUS_SYNC_PRECHECK_ALIGNMENT=$alignment"
+    Write-Host "STATUS_SYNC_PRECHECK_CLEAN=$repoClean"
     Write-Host "STATUS_SYNC_UPDATED=$([string]$updated)"
     Write-Host "STATUS_SYNC_END=True"
     Write-Host "STATUS_SYNC_EXIT=0"
