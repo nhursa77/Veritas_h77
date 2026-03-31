@@ -57,20 +57,6 @@ function Format-HeadBlock {
     return $lines
 }
 
-function Get-BranchAlignment {
-    param([Parameter(Mandatory = $true)][string]$BranchLine)
-
-    if ($BranchLine -match '\[(?<tracking>[^\]]+)\]') {
-        $tracking = $Matches['tracking']
-        if ($tracking -match ':') {
-            return ($tracking.Split(':', 2)[1]).Trim()
-        }
-        return 'poravnat'
-    }
-
-    return 'bez upstreama'
-}
-
 function Replace-BlockLines {
     param(
         [Parameter(Mandatory = $true)][System.Collections.ArrayList]$Lines,
@@ -124,15 +110,26 @@ function Replace-BlockLinesAll {
     return $replaceCount
 }
 
-function Get-FlagText {
+function Get-RequiredPrecheckValue {
+    param(
+        [Parameter(Mandatory = $true)][string]$Name,
+        [AllowEmptyString()][string]$Value
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Value)) {
+        throw "Nedostaje obavezni pre-check parametar: $Name"
+    }
+
+    return $Value.Trim()
+}
+
+function Get-RepoCleanValue {
     param([Parameter(Mandatory = $true)][string]$Value)
 
     switch ($Value.Trim().ToUpperInvariant()) {
-        'TRUE' { return 'DA' }
         'DA' { return 'DA' }
-        'YES' { return 'DA' }
-        '1' { return 'DA' }
-        default { return 'NE' }
+        'NE' { return 'NE' }
+        default { throw 'Parametar RepoCistPriPrecheck mora biti DA ili NE.' }
     }
 }
 
@@ -153,35 +150,10 @@ try {
         exit 2
     }
 
-    $gitStatus = @(git status --short)
-    $headShort = if ($PSBoundParameters.ContainsKey('PolazniHead') -and -not [string]::IsNullOrWhiteSpace($PolazniHead)) {
-        $PolazniHead.Trim()
-    }
-    else {
-        (git --no-pager log -1 --pretty=format:%h).Trim()
-    }
-
-    $headSubject = if ($PSBoundParameters.ContainsKey('PolazniSubject') -and -not [string]::IsNullOrWhiteSpace($PolazniSubject)) {
-        $PolazniSubject.Trim()
-    }
-    else {
-        (git --no-pager log -1 --pretty=format:%s).Trim()
-    }
-
-    $branchLine = (git branch -vv | Where-Object { $_.StartsWith('*') } | Select-Object -First 1)
-    $alignment = if ($PSBoundParameters.ContainsKey('PoravnanjeGranePriPrecheck') -and -not [string]::IsNullOrWhiteSpace($PoravnanjeGranePriPrecheck)) {
-        $PoravnanjeGranePriPrecheck.Trim()
-    }
-    else {
-        Get-BranchAlignment -BranchLine $branchLine
-    }
-
-    $repoClean = if ($PSBoundParameters.ContainsKey('RepoCistPriPrecheck') -and -not [string]::IsNullOrWhiteSpace($RepoCistPriPrecheck)) {
-        Get-FlagText -Value $RepoCistPriPrecheck
-    }
-    else {
-        Get-FlagText -Value ([string]($gitStatus.Count -eq 0))
-    }
+    $headShort = Get-RequiredPrecheckValue -Name 'PolazniHead' -Value $PolazniHead
+    $headSubject = Get-RequiredPrecheckValue -Name 'PolazniSubject' -Value $PolazniSubject
+    $alignment = Get-RequiredPrecheckValue -Name 'PoravnanjeGranePriPrecheck' -Value $PoravnanjeGranePriPrecheck
+    $repoClean = Get-RepoCleanValue -Value (Get-RequiredPrecheckValue -Name 'RepoCistPriPrecheck' -Value $RepoCistPriPrecheck)
 
     $lines = New-Object System.Collections.ArrayList
     foreach ($line in (Get-Content -LiteralPath $statusFile -Encoding UTF8)) {

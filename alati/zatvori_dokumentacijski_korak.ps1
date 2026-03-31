@@ -54,6 +54,29 @@ function Get-BranchAlignment {
     return 'bez upstreama'
 }
 
+function Get-RequiredPrecheckValue {
+    param(
+        [Parameter(Mandatory = $true)][string]$Name,
+        [AllowEmptyString()][string]$Value
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Value)) {
+        throw "Nedostaje obavezni pre-check parametar: $Name"
+    }
+
+    return $Value.Trim()
+}
+
+function Get-RepoCleanValue {
+    param([Parameter(Mandatory = $true)][string]$Value)
+
+    switch ($Value.Trim().ToUpperInvariant()) {
+        'DA' { return 'DA' }
+        'NE' { return 'NE' }
+        default { throw 'Parametar RepoCistPriPrecheck mora biti DA ili NE.' }
+    }
+}
+
 function Invoke-PwshStep {
     param(
         [Parameter(Mandatory = $true)][string]$StepName,
@@ -92,25 +115,10 @@ try {
         }
     }
 
-    $currentStatus = @(git status --short)
-    $currentHead = (git --no-pager log -1 --pretty=format:%h).Trim()
-    $currentSubject = (git --no-pager log -1 --pretty=format:%s).Trim()
-    $branchLine = (git branch -vv | Where-Object { $_.StartsWith('*') } | Select-Object -First 1)
-    $currentAlignment = Get-BranchAlignment -BranchLine $branchLine
-    $resolvedHead = if ([string]::IsNullOrWhiteSpace($PolazniHead)) { $currentHead } else { $PolazniHead.Trim() }
-    $resolvedSubject = if ([string]::IsNullOrWhiteSpace($PolazniSubject)) { $currentSubject } else { $PolazniSubject.Trim() }
-    $resolvedClean = if ([string]::IsNullOrWhiteSpace($RepoCistPriPrecheck)) {
-        if ($currentStatus.Count -eq 0) { 'DA' } else { 'NE' }
-    }
-    else {
-        $RepoCistPriPrecheck.Trim()
-    }
-    $resolvedAlignment = if ([string]::IsNullOrWhiteSpace($PoravnanjeGranePriPrecheck)) {
-        $currentAlignment
-    }
-    else {
-        $PoravnanjeGranePriPrecheck.Trim()
-    }
+    $resolvedHead = Get-RequiredPrecheckValue -Name 'PolazniHead' -Value $PolazniHead
+    $resolvedSubject = Get-RequiredPrecheckValue -Name 'PolazniSubject' -Value $PolazniSubject
+    $resolvedClean = Get-RepoCleanValue -Value (Get-RequiredPrecheckValue -Name 'RepoCistPriPrecheck' -Value $RepoCistPriPrecheck)
+    $resolvedAlignment = Get-RequiredPrecheckValue -Name 'PoravnanjeGranePriPrecheck' -Value $PoravnanjeGranePriPrecheck
 
     Write-Host "DOC_CLOSE_PRECHECK_HEAD=$resolvedHead"
     Write-Host "DOC_CLOSE_PRECHECK_SUBJECT=$resolvedSubject"

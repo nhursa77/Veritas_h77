@@ -3671,3 +3671,49 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
   `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z116_dnevnik.md`
+
+## Datum: 31.03.2026 (ZADATAK 117)
+
+### ZADATAK 117 - servisno zatvoren z116 i trajno ispravljen pre-check snapshot
+
+Dokazno je utvrdjeno da lazni upis Repo cist pri pre-checku: NE nastaje zato sto
+alati/uskladi_status_projekta.ps1 inferira vrijednost iz trenutnog git statusa
+nakon izmjena, a isti fallback postoji i u
+alati/zatvori_dokumentacijski_korak.ps1.
+
+U oba skriptna sloja uklonjena je inferencija: PolazniHead, PolazniSubject,
+RepoCistPriPrecheck i PoravnanjeGranePriPrecheck sada su obavezni eksplicitni
+ulazi, a RepoCistPriPrecheck prihvaca samo DA ili NE i inace pada fail-fast.
+
+Status za Z116 ponovno je uskladjen s dokaznim pre-check ulazima 121d883 /
+poravnat / DA, a standardi dokumentacije i sinkronizacije dopunjeni su pravilom
+da se snapshot polja pune samo iz dokazno uhvacenog pre-checka, nikad naknadnom
+inferencijom.
+
+Mijenjane datoteke:
+
+- `alati/uskladi_status_projekta.ps1`
+- `alati/zatvori_dokumentacijski_korak.ps1`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+- `dokumentacija/STANDARD_SINKRONIZACIJA_REPOA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 116"`
+  `-PolazniHead "121d883" -PolazniSubject "docs: servisno zatvoren z114 nakon`
+  `status synca (Z115)" -RepoCistPriPrecheck "DA" -PoravnanjeGranePriPrecheck`
+  `"poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 116"`
+  `-PolazniHead "121d883" -PolazniSubject "docs: servisno zatvoren z114 nakon`
+  `status synca (Z115)" -PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z117_dnevnik.md`

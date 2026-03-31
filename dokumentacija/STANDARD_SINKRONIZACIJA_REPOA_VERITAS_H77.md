@@ -76,6 +76,15 @@ evidentirati samo:
 - cistocu repoa pri pre-checku,
 - poravnanje grane pri pre-checku.
 
+Sva ta polja moraju biti prenesena iz dokazno uhvacenog pre-check ispisa.
+Nije dopusteno naknadno inferirati vrijednosti iz trenutnog stanja repoa nakon
+sto su izmjene vec napravljene.
+
+Polje `Repo čist pri pre-checku` smije imati samo vrijednost `DA` ili `NE`.
+Ako bilo koji obavezni pre-check ulaz nije eksplicitno predan,
+`alati/uskladi_status_projekta.ps1` i
+`alati/zatvori_dokumentacijski_korak.ps1` moraju pasti fail-fast.
+
 Zavrsni git dokaz sluzi za potvrdu da je zadatak zaista zakljucen i mora
 ostati odvojen od statusnog snapshot zapisa. Zavrsni dokaz obuhvaca:
 
@@ -111,7 +120,8 @@ Isti zadatak koji je upisan kao `Zadnji dovrseni zadatak` u snapshot bloku
 mora se nalaziti i kao zadnja stavka pregleda dovrsenih zadataka.
 
 Skripta `alati/uskladi_status_projekta.ps1` smije uskladjivati samo snapshot
-polja i ne smije rusiti kronoloski rastuci poredak pregleda zadataka.
+polja iz eksplicitno predanih pre-check ulaza i ne smije rusiti kronoloski
+rastuci poredak pregleda zadataka.
 
 ---
 

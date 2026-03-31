@@ -6,7 +6,7 @@ Datum: 31.03.2026.
 
 - Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
   status synca (Z115)
-- Repo čist pri pre-checku: NE
+- Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - Zadnji dovršeni zadatak: ZADATAK 116
 
@@ -179,7 +179,7 @@ Pre-check snapshot sinkronizacije:
 
 - Polazni HEAD prije zadatka: `121d883` - docs: servisno zatvoren z114 nakon
   status synca (Z115)
-- Repo čist pri pre-checku: NE
+- Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
 

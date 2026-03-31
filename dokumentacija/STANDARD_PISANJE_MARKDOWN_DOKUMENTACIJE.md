@@ -98,6 +98,12 @@ Obavezna pravila:
 - skripta `alati/uskladi_status_projekta.ps1` usklađuje samo stabilna
   pre-check polja: `Polazni HEAD prije zadatka`,
   `Repo čist pri pre-checku` i `Poravnanje grane pri pre-checku`
+- sva pre-check polja u statusu pune se isključivo iz dokazno uhvaćenih
+  ulaza s početnog pre-checka; nikad se ne smiju inferirati nakon izmjena
+- `Repo čist pri pre-checku` smije imati samo vrijednost `DA` ili `NE`
+- ako bilo koji obavezni pre-check ulaz nije eksplicitno predan,
+  `alati/uskladi_status_projekta.ps1` i
+  `alati/zatvori_dokumentacijski_korak.ps1` moraju pasti fail-fast
 - skripta smije opcionalno uskladiti i oznaku zadnjeg dovršenog zadatka,
   ali samo ako je eksplicitno zadana; ne smije preuređivati pregled
   dovrsenih zadataka
@@ -123,6 +129,7 @@ Za svaki dokumentacijski zadatak vrijedi ovaj redoslijed:
 2. before-tail dnevnika ako je dnevnik u scopeu
 3. scoped izmjena datoteka
 4. `alati/uskladi_status_projekta.ps1` nad stabilnim pre-check poljima
+  iz eksplicitno uhvaćenih ulaza
 5. `alati/generiraj_dnevnicki_unos.ps1` za lint-safe entry file
 6. `alati/dodaj_dnevnicki_unos_na_kraj.ps1` za append-only dnevnik
 7. `alati/provjeri_markdown_scope.ps1` nad ciljanim `.md` datotekama
