@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `b2a844b` - docs: stvarno normaliziran kronoloski
-  pregled zadataka u statusu (Z113)
+- Polazni HEAD prije zadatka: `16cac27` - docs: utvrdjen rezim konverzije zpd u
+  json (Z114)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 113
+- Zadnji dovršeni zadatak: ZADATAK 114
 
 ## Pregled dovršenih zadataka
 
@@ -174,8 +174,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `b2a844b` - docs: stvarno normaliziran kronoloski
-  pregled zadataka u statusu (Z113)
+- Polazni HEAD prije zadatka: `16cac27` - docs: utvrdjen rezim konverzije zpd u
+  json (Z114)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

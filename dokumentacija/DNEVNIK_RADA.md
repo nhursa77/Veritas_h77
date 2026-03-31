@@ -3600,3 +3600,37 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\provjeri_markdown_scope.ps1`
   `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md dokumentacija/DNEVNIK_RADA.md`
+
+## Datum: 31.03.2026 (ZADATAK 115)
+
+### ZADATAK 115 - servisno zatvoren z114 nakon status synca
+
+Servisno je zatvoren Z114 nakon sto je potvrdeno da rezimski dokument
+dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md nije diran i da je problem bio samo
+zaostali statusni snapshot u dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md.
+
+Dokazno je pokrenut alati/uskladi_status_projekta.ps1 s parametrom
+-ZadnjiZadatak "ZADATAK 114", cime je snapshot blok uskladjen sa stvarnim
+stanjem u kojem pregled zadataka vec sadrzi ZADATAK 114.
+
+U ovom servisnom koraku mijenjane su samo dvije datoteke:
+dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md i dokumentacija/DNEVNIK_RADA.md.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 114"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\generiraj_dnevnicki_unos.ps1 -BrojZadatka 115 -Naslov "servisno`
+  `zatvoren z114 nakon status synca"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath %TEMP%\veritas_z115_dnevnik.md`
