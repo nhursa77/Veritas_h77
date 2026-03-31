@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "161",
+    "naslov": null,
+    "tekst": ". (1) Visoki upravni sud rješenjem će odbaciti zahtjev za ocjenu zakonitosti i o tome obavijestiti podnositelja ako utvrdi: 1. da akt koji se zahtjevom osporava nije opći akt 2. da je akt koji se zahtjevom osporava propis kojeg je ocjena zakonitosti u nadležnosti Ustavnog suda Republike Hrvatske 3. da je zakonom osigurana druga zaštita od nezakonitosti općeg akta 4. da je zahtjev podnijela neovlaštena osoba. (2) Sud može, do donošenja presude, rješenjem obustaviti izvršenje osporenog općeg akta. Rješenje o obustavi izvršenja objavljuje se u »Narodnim novinama«. Odlučivanje o zakonitosti općeg akta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "308E90E66FAB17B5401E456158B895EB64BF35DD01552B3D10B2C65FCD044CA6",
+    "sha256_datoteke": "42519AC5033DA22DAAADD0F290FEDC3722DB291838A5BCC2C7663C742DB49C3B",
+    "napomena": null
+  }
+}

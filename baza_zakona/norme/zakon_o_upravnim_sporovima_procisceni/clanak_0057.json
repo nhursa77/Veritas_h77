@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "57",
+    "naslov": null,
+    "tekst": ". Ako međunarodnim ugovorom nije što drugo određeno, inozemne javne isprave koje su propisno ovjerene imaju, uz uvjet uzajamnosti, istu dokaznu snagu kao i domaće javne isprave. Dužnost stranke da podnese ispravu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F420F92955A9B3AFD4A6A8D4F0E438FEE004B4AC530A09665FFA9A13F1CEA7CA",
+    "sha256_datoteke": "EB527D1ECAED75B775CF2A6944D7C1F687007125C70B4944D74FC631504CF05A",
+    "napomena": null
+  }
+}

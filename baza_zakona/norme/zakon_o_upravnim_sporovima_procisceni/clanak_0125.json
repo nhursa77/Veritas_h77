@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "125",
+    "naslov": null,
+    "tekst": ". (1) O postupovnim pitanjima sud odlučuje rješenjem. (2) Rješenja koja se odnose na upravljanje postupkom donosi sudac kojem je predmet dodijeljen u rad. (3) Rješenja koja se donose na raspravi objavljuje sudac kojem je predmet dodijeljen u rad, a u sporovima u kojima sudi vijeće predsjednik vijeća. (4) Rješenje objavljeno na raspravi prema strankama ima učinak od trenutka objave. Rješenje doneseno izvan rasprave sud će strankama dostaviti pisanim ili elektroničkim putem. Rješenje u pisanom ili elektroničkom obliku prema strankama ima učinak od trenutka uredne dostave. (5) Pisani otpravak rješenja sadržava uvod, izreku i uputu o pravnom lijeku. Rješenje mora biti obrazloženo ako se njime odbija prijedlog stranke ili ako se njime rješava o suprotnim prijedlozima stranaka, a može biti obrazloženo kad sud to smatra potrebnim. (6) Odredbe članka 124. ovoga Zakona na odgovarajući način primjenjuju se i na rješenja. DIO TREĆI PRAVNI LIJEKOVI GLAVA I. ŽALBA Žalba protiv presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C18121723A241E5C769501755C3AF2593E30D2B69A1059B43F4FA005D1EC04D3",
+    "sha256_datoteke": "3A9205ED055DD363FBF90A07542652A226C1EF546227DDD7CAB5A3D585631061",
+    "napomena": null
+  }
+}

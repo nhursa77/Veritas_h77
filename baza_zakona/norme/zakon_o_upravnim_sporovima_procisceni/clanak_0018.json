@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". (1) Tužitelj je fizička ili pravna osoba koja smatra da su joj prava i pravni interesi povrijeđeni pojedinačnom odlukom, postupanjem javnopravnog tijela odnosno propuštanjem donošenja pojedinačne odluke ili postupanja javnopravnog tijela u zakonom propisanom roku ili sklapanjem, raskidom ili izvršavanjem upravnog ugovora. (2) Tužitelj može biti osoba koja nema pravne osobnosti ili skupina osoba ako su pojedinačnom odlukom ili postupanjem javnopravnog tijela povrijeđena njihova prava i pravni interesi. (3) Tužitelj može biti javnopravno tijelo koje je sudjelovalo ili je trebalo sudjelovati u donošenju odluke, postupanju ili sklapanju upravnog ugovora. (4) Tužitelj može biti i državno tijelo ovlašteno zakonom. Tuženik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3CBD783904A5A70EBFC8E25DD5729CD138E35D1E53B746DBD9F88EAA13B1B436",
+    "sha256_datoteke": "0E5310DBCA39215379B1D5055EB734DFD52514283FADEBE0AC225F9EA935317F",
+    "napomena": null
+  }
+}

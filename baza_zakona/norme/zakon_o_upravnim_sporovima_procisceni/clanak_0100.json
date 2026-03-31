@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "100",
+    "naslov": null,
+    "tekst": ". (1) Ako nakon pokretanja upravnog spora zbog propuštanja donošenja pojedinačne odluke javnopravno tijelo naknadno donese pojedinačnu odluku koju je propustilo donijeti u propisanom roku, to će tijelo, osim tužitelja, istodobno izvijestiti i sud pred kojim je spor pokrenut. Sud će u tom slučaju pozvati tužitelja da u roku od 15 dana izjavi je li naknadno donesenom odlukom zadovoljan ili proširuje tužbeni zahtjev i na novu odluku. (2) Ako tužitelj izjavi da je naknadno donesenom odlukom zadovoljan ili ako ne da izjavu u roku iz stavka 1. ovoga članka, sud će donijeti rješenje o obustavi spora. Protiv rješenja o obustavi spora može se izjaviti žalba. (3) Ako tužitelj izjavi da proširuje tužbeni zahtjev i na novu odluku, sud će nastaviti postupak ako protiv nove odluke nije dopušten redoviti pravni lijek u upravnom postupku. Povlačenje tužbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "61AC10CF1449C692581065FF99F237E00B94B73704153494CD5F1E8837B38317",
+    "sha256_datoteke": "49D45CF240959C92B42DFC0515364244903084A212B39B70241431C1391C73CA",
+    "napomena": null
+  }
+}

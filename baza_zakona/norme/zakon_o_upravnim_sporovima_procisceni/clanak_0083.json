@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "83",
+    "naslov": null,
+    "tekst": ". (1) Ako je određeno više vještaka, oni mogu podnijeti zajednički nalaz i mišljenje. Ako se njihovi nalazi i mišljenja razlikuju, svaki vještak posebno daje svoj nalaz i mišljenje. (2) Ako se podaci vještaka o njihovu nalazu bitno razlikuju, ili ako je nalaz jednog ili više vještaka nejasan, nepotpun ili u proturječnosti sam sa sobom ili s utvrđenim okolnostima, a ti se nedostaci ne mogu otkloniti ponovnim saslušanjem vještaka, obnovit će se vještačenje s istim ili drugim vještacima. (3) Ako u mišljenju jednog ili više vještaka ima proturječnosti ili nedostataka, ili se pojavi osnovana sumnja u pravilnost danog mišljenja, a ti se nedostaci ili sumnja ne mogu otkloniti ponovnim saslušanjem vještaka, zatražit će se mišljenje drugih vještaka. Tumač",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FD84F6074213F7456C4A5DDF16D4F25993CFD660BD0704DC385D287D735E2DC3",
+    "sha256_datoteke": "D476837CADC0B6B19C2B9CAF720D622B8F2A521F98EB0419858BC628B2813824",
+    "napomena": null
+  }
+}

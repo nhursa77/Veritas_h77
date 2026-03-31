@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "68",
+    "naslov": null,
+    "tekst": ". (1) Svjedoci se pozivaju dostavom pisanog poziva u kojem se navodi ime i prezime pozvanoga, vrijeme i mjesto dolaska, predmet u vezi s kojim se poziva i naznaka da se poziva kao svjedok. U pozivu će se svjedok upozoriti na posljedice neopravdanog izostanka i na pravo na naknadu troškova. (2) Svjedoci koji se zbog starosti, bolesti ili invalidnosti ne mogu odazvati pozivu saslušat će se u svom domu. Saslušanje svjedoka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3242600B44C2B7EF07B78147ABF0D102B0F0A31E08CA642A256C19E0B5B2238A",
+    "sha256_datoteke": "8607A400FBBA42003DB744F5CDC0EF4E64220BC236348DCEBC70B646CD4D018E",
+    "napomena": null
+  }
+}

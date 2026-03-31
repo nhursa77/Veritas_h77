@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "103",
+    "naslov": null,
+    "tekst": ". (1) Ako tuženik tijekom spora u cijelosti postupi prema tužbenom zahtjevu, sud će obustaviti spor. (2) Ako tuženik tijekom spora djelomično postupi prema tužbenom zahtjevu, sud će o preostalom dijelu zahtjeva nastaviti voditi spor. Prethodno pitanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7836AA1105C76A566093E1D67CC00D9B24BBCBECB97D1D37A221100F277D3131",
+    "sha256_datoteke": "95B31FEBBA2E880D3C1BEF946D08DB3D6FF487DCD1B9C500BF6D017E1ADCD0EE",
+    "napomena": null
+  }
+}

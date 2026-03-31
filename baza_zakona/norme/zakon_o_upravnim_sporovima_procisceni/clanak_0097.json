@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "97",
+    "naslov": null,
+    "tekst": ". (1) Dužnost je suca kojemu je predmet dodijeljen u rad da se tijekom rasprave brine o održavanju reda u sudnici i o dostojanstvu suda. (2) Ako osoba koja sudjeluje u postupku u podnesku ili na ročištu vrijeđa sud ili druge sudionike u postupku, ometa rad ili se ne pridržava naredbi suda za održavanje reda odnosno ako to učini osoba koja prisustvuje ročištu, sud će je opomenuti ili kazniti novčanom kaznom, a može je i udaljiti i kazniti tom novčanom kaznom. (3) Ako stranka ili zastupnik stranke bude udaljen iz sudnice, ročište će se održati i bez njihove nazočnosti. (4) Ako iz sudnice bude udaljen zakonski zastupnik fizičke osobe, sud će odgoditi ročište ako je to potrebno radi zaštite prava i interesa zastupane stranke. (5) Kad sud novčano kazni ili udalji iz sudnice odvjetnika ili odvjetničkog vježbenika kao opunomoćenika, obavijestit će o tome Hrvatsku odvjetničku komoru. (6) Kad sud novčano kazni ili udalji iz sudnice državnog odvjetnika, obavijestit će o tome nadležnog državnog odvjetnika. Rješavanje upravnog spora bez rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F0B49FDD9EF07A79C1BFF27CFD6A3BF30152ECAFEC34BAACBC558DBD4B373D58",
+    "sha256_datoteke": "116ADDBCAC8128D58A877A2F316A8E1244DB1B1EE7A032B610101F912868EB59",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "27",
+    "naslov": null,
+    "tekst": ". (1) Ako se kao opunomoćenik pojavi osoba koja ne može biti opunomoćenikom prema odredbama ovoga Zakona, sud će takvoj osobi rješenjem uskratiti daljnje zastupanje i o tome obavijestiti stranku. (2) Ako utvrdi da opunomoćenik koji nije odvjetnik nije sposoban obavljati tu dužnost, sud će upozoriti stranku na štetne posljedice koje mogu nastati zbog nepravilnog zastupanja. Izmjena ili opoziv izjava opunomoćenika",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F1D7CDBE02C02112E5754C8FC4F26F825B24D151B5848E626C82896A36D5E50E",
+    "sha256_datoteke": "C13696BD8D17350B1C95EF76D68BA26AE54D67153532C69F6BCD5707FDE518E0",
+    "napomena": null
+  }
+}

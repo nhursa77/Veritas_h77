@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "34",
+    "naslov": null,
+    "tekst": ". (1) Sud može dopustiti da radnje u sporu za stranku privremeno obavi osoba koja nije podnijela punomoć, ali će istodobno narediti toj osobi da naknadno u određenom roku podnese punomoć ili odobrenje stranke za obavljanje radnje u sporu. (2) Dok ne istekne rok za podnošenje punomoći, sud će odgoditi donošenje odluke. Ako osoba iz stavka 1. ovoga članka ne podnese punomoć u određenom roku, sud će nastaviti spor, ne uzimajući u obzir radnje što ih je obavila osoba bez punomoći. (3) Sud je dužan tijekom cijelog upravnog spora paziti je li osoba koja se pojavljuje kao opunomoćenik ovlaštena za zastupanje. Ako sud utvrdi da osoba koja se pojavljuje kao opunomoćenik nije ovlaštena za zastupanje, poništit će radnje što ih je ta osoba poduzela ako te radnje nije stranka naknadno odobrila. (4) Ako punomoć nije dostavljena uz tužbu ni naknadno, a tužitelj nije odobrio poduzete radnje, sud će odbaciti tužbu. Opoziv i otkaz punomoći",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C727CDB06769CBE6B0C810D9AA2840D59263BCF3BDB7F53D7E4573C9BA087679",
+    "sha256_datoteke": "10659A40D98452C0D99B6DA76529D771D34ED20BE07BFE605C62A5AAD5150C56",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "120",
+    "naslov": null,
+    "tekst": ". (1) Ako je sud propustio odlučiti o svim zahtjevima ili je propustio odlučiti o dijelu zahtjeva, stranka može u roku od 15 dana od dana dostave presude podnijeti prijedlog da se presuda dopuni. (2) Sud će nepravodobni prijedlog odbaciti odnosno neosnovani prijedlog odbiti rješenjem bez održavanja rasprave. Protiv rješenja prvostupanjskog suda o odbacivanju ili odbijanju prijedloga dopuštena je žalba. (3) Ako sud utvrdi da je prijedlog osnovan, zakazat će raspravu radi donošenja presude o zahtjevu koji nije riješen. Dopunska presuda može se donijeti i bez održavanja rasprave ako je zahtjev u pogledu kojeg se traži dopuna dovoljno raspravljen. Na podnošenje i druga pitanja odlučivanja o žalbi protiv dopunske presude primjenjuju se odredbe o žalbi protiv presude. (4) Ako je uz prijedlog za dopunsku presudu izjavljena i žalba protiv presude, sud će zastati s dostavom te žalbe drugostupanjskom sudu dok ne donese odluku o prijedlogu za dopunu presude i dok ne istekne rok za žalbu protiv te odluke. Ako i protiv odluke o dopuni presude bude izjavljena žalba, prvostupanjski sud će je zajedno sa žalbom protiv presude dostaviti drugostupanjskom sudu. Objava presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "71A5475C569394C3FB20E2AD55E7C11EB71B31D2B33D2A98014EB4C03AF4B83D",
+    "sha256_datoteke": "335EBA10E2C0FF8B877EE2E7B05429FBB043820AEAE535096771D1CB2AD4FCB1",
+    "napomena": null
+  }
+}

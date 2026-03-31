@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "91",
+    "naslov": null,
+    "tekst": ". (1) Sudac kojemu je predmet dodijeljen u rad utvrđuje jesu li došle sve pozvane osobe, a ako nisu, provjerava jesu li uredno pozvane i jesu li opravdale svoj izostanak i nakon toga otvara raspravu, objavljuje predmet raspravljanja te rukovodi raspravom. (2) Sudac ispituje stranke i izvodi dokaze, a u sporovima u kojima sudi vijeće daje riječ članovima vijeća te objavljuje odluke vijeća. (3) Ako stranka ili drugi sudionik spora bez opravdanog razloga ne dođu na ročište, ono se može održati i bez njihove nazočnosti. (4) O raspravi se vodi zapisnik. Rukovođenje raspravom",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A404D57E884838328FA13497C85693AF18F29DFA37D804541CC3C38BD364616A",
+    "sha256_datoteke": "01082983CDF80F2AA8D64CA548DF3CBD294C474C06C050215BC8618D3C412D4B",
+    "napomena": null
+  }
+}

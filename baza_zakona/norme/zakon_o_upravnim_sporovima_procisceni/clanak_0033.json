@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "33",
+    "naslov": null,
+    "tekst": ". (1) Stranka izdaje punomoć pisano ili usmeno na zapisnik kod suda. (2) Stranka koja nije pismena ili nije u stanju potpisati se stavit će na pisanu punomoć umjesto potpisa otisak kažiprsta. Ako se u tom slučaju punomoć izdaje osobi koja nije odvjetnik, potrebna je nazočnost dva svjedoka koji će se potpisati na punomoći. (3) Ako posumnja u istinitost pisane punomoći, sud može rješenjem odrediti da se podnese ovjerena punomoć. Posljedice nepodnošenja punomoći",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A7561C42A4D97A51A615D3E311AF543D4D582A19AC316A7AAC5636691DF236E9",
+    "sha256_datoteke": "5C6EBDDCB3EBFCC8DF0ADAC83E5ABD7C38AC8DA05DE0AA9D9FAAF937B01CABAD",
+    "napomena": null
+  }
+}

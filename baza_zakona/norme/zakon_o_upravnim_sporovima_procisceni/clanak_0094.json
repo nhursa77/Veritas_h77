@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "94",
+    "naslov": null,
+    "tekst": ". (1) U sporovima u kojima sudi vijeće, kad sudac kojem je predmet dodijeljen u rad završi saslušanje pojedinog svjedoka, vještaka ili stranke, članovi vijeća mogu toj osobi neposredno postavljati pitanja. (2) Stranka ili njezin zastupnik ili opunomoćenik mogu po odobrenju suca neposredno postavljati pitanja protivnoj stranki, svjedocima i vještacima. (3) Sudac će zabraniti stranki postavljanje određenog pitanja ili će zabraniti odgovor na postavljeno pitanje ako je već u pitanju sadržano kako na njega treba odgovoriti ili ako se pitanje ne odnosi na predmet. (4) Ako sudac kojem je predmet dodijeljen u rad zabrani postavljanje određenog pitanja ili davanja odgovora, stranka može zahtijevati da o tome odluči vijeće. (5) Na zahtjev stranke u zapisnik će se unijeti pitanje koje je sud odbio, a i pitanje na koje je zabranjen odgovor. Otpuštanje svjedoka i vještaka i mogućnost njihova ponovnog saslušanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BD33D73A41A77B93866F037E18EDB4627A36EAC0C9CB41CABB248ACF8EA15342",
+    "sha256_datoteke": "B2131C19DF1E9A5B580B08DB6838FA3986DAD367D8ADAB6164BC24197D041B72",
+    "napomena": null
+  }
+}

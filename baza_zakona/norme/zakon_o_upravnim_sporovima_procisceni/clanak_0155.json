@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "155",
+    "naslov": null,
+    "tekst": ". (1) Ako tuženik odnosno tijelo nadležno za izvršenje u izvršenju presude donese novu odluku koja je protivna izreci presude, pravnom shvaćanju ili primjedbama suda, sud će nakon primitka odgovora na zahtjev za izvršenje ili isteka roka za dostavu odgovora na zahtjev za izvršenje, presudom bez održavanja rasprave poništiti odluku koja je donesena protivno izreci presude, pravnom shvaćanju ili primjedbama suda i naložiti tuženiku odnosno tijelu nadležnom za izvršenje da u određenom roku izvrši presudu. (2) U izreci presude iz ovoga članka sud će čelniku nadležnog javnopravnog tijela izreći novčanu kaznu sukladno odredbama članka 154. ovoga Zakona. Odlučivanje o zahtjevu za izvršenje presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7C570D2169742FC162F91A9F8522910CD8E02384B8B977431851A0780821D369",
+    "sha256_datoteke": "38934A3001C31C33A6AF0AE4A833C4EFD95043896D38B0332D8373D54090AB82",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "42",
+    "naslov": null,
+    "tekst": ". (1) Tužba nema odgodni učinak, osim kad je to zakonom propisano. (2) Sud može odlučiti da tužba ima odgodni učinak ako bi se izvršenjem pojedinačne odluke ili upravnog ugovora tužitelju nanijela šteta koja bi se teško mogla popraviti, ako zakonom nije propisano da žalba ne odgađa izvršenje pojedinačne odluke, a odgoda nije protivna javnom interesu. (3) Sud može na prijedlog stranke izdati privremenu mjeru ako je to nužno kako bi se izbjegla šteta koja bi se teško mogla popraviti, a privremena mjera nije protivna javnom interesu, niti bi se njome nanijela veća nenadoknadiva šteta protivnoj stranki. (4) O odgodnom učinku i privremenoj mjeri sud odlučuje rješenjem. (5) Protiv rješenja o odgodnom učinku i privremenoj mjeri može se izjaviti žalba. (6) Odgodni učinak tužbe i privremene mjere vrijede do pravomoćnog okončanja spora ili drukčije odluke suda. GLAVA II. POSTUPANJE SUDA PO TUŽBI Postupanje suda nakon primitka tužbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8A83791ECECE38EB6DE11AF057DC8DE74F85F3A34A71F9C2028D6C3BD43FE3F7",
+    "sha256_datoteke": "5E03BDC0B0A8FEDDE7555038B65EE3A4885515F9CAA504B93FE53F8E385F65F0",
+    "napomena": null
+  }
+}

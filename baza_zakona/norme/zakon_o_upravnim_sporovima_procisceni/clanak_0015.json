@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". (1) Sudac ne može odlučivati niti sudjelovati u sporu: 1. ako je sam stranka, zakonski zastupnik ili opunomoćenik stranke ili ako je sa strankom u odnosu suovlaštenika ili suobveznika 2. ako mu je stranka ili zakonski zastupnik ili opunomoćenik stranke srodnik po krvi u pravoj liniji do bilo kojeg stupnja, a u pobočnoj do četvrtog stupnja, ili mu je bračni drug, izvanbračni drug, životni partner, neformalni životni partner ili srodnik po tazbini do drugog stupnja, bez obzira na to je li brak prestao ili nije 3. ako je skrbnik, posvojitelj ili posvojenik stranke, njezina zakonskog zastupnika ili opunomoćenika 4. ako je u istom predmetu sudjelovao u donošenju odluke u upravnom postupku ili prvostupanjskom upravnom sporu 5. ako postoje druge okolnosti koje dovode u sumnju njegovu nepristranost. (2) Čim sudac sazna da postoji koji od razloga za izuzeće, prekinut će svaki rad na tom predmetu i o tome obavijestiti predsjednika suda, koji će rješenjem odlučiti o izuzeću suca i odrediti drugog suca. (3) Izuzeće suca može tražiti i stranka koja je zahtjev za izuzeće dužna podnijeti čim sazna da postoji razlog za izuzeće, najkasnije do zaključenja rasprave, a ako nije bilo rasprave, do donošenja odluke. (4) O izuzeću predsjednika suda odlučuje predsjednik Visokog upravnog suda, a o izuzeću predsjednika Visokog upravnog suda odlučuje predsjednik Vrhovnog suda Republike Hrvatske. (5) Odredbe o izuzeću sudaca primjenjuju se na odgovarajući način na savjetnike i zapisničare. (6) Protiv rješenja kojim je odlučeno o izuzeću posebna žalba nije dopuštena. Odbačaj zahtjeva za izuzeće",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7749E1FB53BC8AAB9BF8098C269A934615D2811F6A29529B1C3ED2BF66DD0BF7",
+    "sha256_datoteke": "E31A09D19A3ADED285D91809C6E49FD601036384C693F6DB7533DCD863BA0DD1",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "152",
+    "naslov": null,
+    "tekst": ". (1) Ako tuženik odnosno tijelo nadležno za izvršenje u izvršenju presude ne donese novu odluku u roku koji je određen presudom ili donese odluku koja je protivna izreci presude, pravnom shvaćanju ili primjedbama suda, tužitelj može sudu koji je donio presudu podnijeti zahtjev za izvršenje presude. Ako je presudom naložena isplata, izvršenje se provodi u ovršnom postupku pred nadležnim tijelom. (2) Zahtjev za izvršenje presude sud dostavlja tuženiku odnosno tijelu nadležnom za izvršenje, koje mora u roku od 15 dana dostaviti odgovor na zahtjev za izvršenje. U odgovoru se mora očitovati je li presuda izvršena i o tome dostaviti dokaz, a ako presuda nije izvršena, mora obrazložiti razloge. Postupak po zahtjevu za izvršenje presude kad nova odluka nije donesena u roku zbog opravdanih razloga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C2E86B93D0602B8AF4727922954D00BB1F723F6553C468D65668D49C60514D22",
+    "sha256_datoteke": "B1341F922AC24AAC1A946DA6B6871317F3354B1B46E9A665D7A36B8BDD5AFD9E",
+    "napomena": null
+  }
+}

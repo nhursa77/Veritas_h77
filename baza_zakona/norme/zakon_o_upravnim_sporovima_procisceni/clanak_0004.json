@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". (1) Upravni spor ne može se voditi u stvarima u kojima je sudska zaštita osigurana izvan upravnog spora. (2) Upravni spor ne može se voditi o pravilnosti pojedinačne odluke donesene primjenom slobodne ocjene javnopravnog tijela, ali se može voditi o zakonitosti takve odluke, granicama ovlasti i svrsi radi koje je ovlast dana. (3) Upravni spor ne može se voditi protiv postupovne odluke javnopravnog tijela, već se takva odluka može pobijati tužbom protiv odluke o glavnoj stvari, ako zakonom nije drukčije propisano. Načelo zakonitosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A5C467FCD58699F3AE35A802EB43159CE78BEBFCF3E304300E03F1412EC150EF",
+    "sha256_datoteke": "E61CC1545F27125195FA4B4C85ACAA0616027BD32704D9715B899DF388C8D358",
+    "napomena": null
+  }
+}

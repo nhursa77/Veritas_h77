@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "96",
+    "naslov": null,
+    "tekst": ". (1) Kad sudac zaključi da je predmet raspravljen tako da se može donijeti odluka, sudac će priopćiti da je rasprava zaključena. U sporovima u kojima sudi, vijeće će se nakon toga povući na vijećanje i glasanje. (2) Sudac odnosno vijeće tijekom vijećanja i glasanja može odlučiti da se rasprava ponovno otvori ako je to potrebno radi dopune postupka ili razjašnjenja pojedinih važnijih pitanja. Održavanje reda na raspravi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E1F9E89332BDBB0E738A26A2BC500DB37BFBEA5E9832DD11C7450D82B79AAAF3",
+    "sha256_datoteke": "D5C423F2D0937385139625FEFDF532E3957DA0D43AAED3FAF08D800DADD30626",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "104",
+    "naslov": null,
+    "tekst": ". (1) Kad odluka suda u sporu ovisi o pravnom pitanju koje čini samostalnu pravnu cjelinu, a o kojem drugi sud ili nadležno javnopravno tijelo nije odlučilo (prethodno pitanje), sud može sam riješiti to pitanje, ako zakonom nije drukčije propisano, ili prekinuti spor do donošenja odluke o prethodnom pitanju. (2) Odluka suda o prethodnom pitanju ima pravni učinak samo u upravnom sporu u kojem je to pitanje riješeno. Prekid upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "99F689A249A5CABEFEB7D2B920805B64EFDF3F1FFB4BF1056A8208DF546DC643",
+    "sha256_datoteke": "044A03AAF2AAE56F7EA00BF4823B23EBF1CA794ECAA341430C534F58D9CFB775",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U upravnom sporu sud odlučuje na temelju Ustava, pravne stečevine Europske unije, međunarodnih ugovora, zakona i drugih važećih izvora prava. Načelo izjašnjavanja stranke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0D91124F5CDC62955DD4C9069AC61160A7C7C475B7581DB4FADE0BB803FEB079",
+    "sha256_datoteke": "400BB24E8C4343514D75F7E6A4F1DCBE9CF817F40C64F831A04A096BABCB7E63",
+    "napomena": null
+  }
+}

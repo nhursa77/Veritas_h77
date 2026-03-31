@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "168",
+    "naslov": null,
+    "tekst": ". (1) Ako je udovoljeno uvjetima za donošenje odluke o izricanju novčane kazne, a sud ne raspolaže podatkom o osobnom identifikacijskom broju fizičke odnosno pravne osobe, sud će pribaviti taj podatak po službenoj dužnosti od Ministarstva financija, Porezne uprave. (2) U slučaju iz ovoga članka Ministarstvo financija, Porezna uprava dužna je u roku od osam dana, na zahtjev suda, uz dostavu podataka o imenu, prezimenu i datumu rođenja ili broju osobne iskaznice za fizičke osobe odnosno nazivu i matičnom broju pravne osobe dati podatak o osobnom identifikacijskom broju, ako se na temelju dostavljenih podataka može jednoznačno identificirati osoba. DIO DEVETI PRIJELAZNE I ZAVRŠNE ODREDBE Dovršenje upravnih sporova pokrenutih do dana stupanja na snagu ovoga Zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3B5C7D9C89E5747EE80B56CFC805B0A7F6F75829532165931B5FF5ADEC7913B3",
+    "sha256_datoteke": "EAEF46C1D982D7A98533921EF1296CAEA7C35F8025860A2A43A282D532BE0697",
+    "napomena": null
+  }
+}

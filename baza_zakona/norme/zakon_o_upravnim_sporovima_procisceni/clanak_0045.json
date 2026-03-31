@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "45",
+    "naslov": null,
+    "tekst": ". (1) Ako tužba ne sadržava propisane dijelove ili je nerazumljiva, pozvat će se tužitelj da u određenom roku otkloni nedostatke tužbe i upozorit će se na posljedice koje će nastati ako ne postupi po traženju suda. (2) Ako tužitelj u ostavljenom roku ne otkloni naznačene nedostatke tužbe, a oni su takvi da sprječavaju rad suda, sud će rješenjem odbaciti tužbu kao neurednu, ako ne nađe da je osporena pojedinačna odluka ništava ili upravni ugovor ništetan. Protiv tog rješenja dopuštena je žalba. Ocjenjivanje pretpostavki za vođenje upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3EA8A658F4FCEC80CDE73DA1534E4C17D148459AED936B54C9345EE667A02399",
+    "sha256_datoteke": "5604C7DFBAFAC9FDB7E1C061B604246B07252138F69838E7AD3E74B59E255862",
+    "napomena": null
+  }
+}

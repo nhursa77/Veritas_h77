@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "153",
+    "naslov": null,
+    "tekst": ". Ako nova odluka nije donesena u roku koji je određen presudom zbog opravdanih razloga, sud će tuženiku odnosno tijelu nadležnom za izvršenje odrediti novi rok za izvršenje presude, sukladno okolnostima konkretnog slučaja. Postupak po zahtjevu za izvršenje presude kad ne postoje opravdani razlozi za nedonošenje nove odluke u roku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8433FA04A7383B27D85B607D0E2DE9DBFD98C6F73D4BB9278349C872B74EA9F3",
+    "sha256_datoteke": "B4D2A38A7FD371E881578B3E41A2E5B8C1E14C720E4DFB1BD7488E191083FEB9",
+    "napomena": null
+  }
+}

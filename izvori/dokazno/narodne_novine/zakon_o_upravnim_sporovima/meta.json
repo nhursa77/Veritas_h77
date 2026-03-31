@@ -1,0 +1,21 @@
+{
+  "naziv_akta": "Zakon o upravnim sporovima",
+  "vrsta_akta": "zakon",
+  "slug": "zakon_o_upravnim_sporovima",
+  "izvor": "Narodne novine",
+  "naziv_izvora": "Narodne novine",
+  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+  "akt_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+  "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/pdf",
+  "pdf_title_anchor": "",
+  "tip_sadrzaja": "text/html; charset=utf-8",
+  "velicina_bajta": 214931,
+  "oznaka_akta": "NN 36/2024",
+  "datum_pristupa": "31.03.2026.",
+  "sha256_datoteke": "CDEEC50DC105CA57A4D408A9CCAA60F0CBFDB2FC58CEC23B63397CEC76B58892",
+  "format": "html",
+  "napomena": "Dokazni NN izvor (HTML; ELI PDF fallback ako sadržaj nedostupan).",
+  "tip_teksta": "procisceni",
+  "ocekivani_broj_clanaka": 0,
+  "preferenca": 100
+}

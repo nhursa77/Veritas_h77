@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "75",
+    "naslov": null,
+    "tekst": ". (1) Sud određuje vještačenje po službenoj dužnosti ili na prijedlog stranaka. (2) Sud će omogućiti strankama da se izjasne o predloženom vještaku. (3) Vještačenje, u pravilu, obavlja jedan vještak, a kad sud ocijeni da je vještačenje složeno, može odrediti dva ili više vještaka. (4) Vještaci se određuju u prvom redu iz reda stalnih sudskih vještaka za određenu vrstu vještačenja. Vještačenje se može povjeriti i stručnoj ustanovi, a ako postoje posebne ustanove za određene vrste vještačenja, takva će se vještačenja povjeravati tim ustanovama. Oslobođenje dužnosti vještačenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9BED26DCF933583D0B81522029259408D00B4797703CA4CCB2D5F8AFB6990A78",
+    "sha256_datoteke": "67D2A695D2B3BF5C7BBCE0282C723D5CC322E6CA65661BC7289BD9CA3813242D",
+    "napomena": null
+  }
+}

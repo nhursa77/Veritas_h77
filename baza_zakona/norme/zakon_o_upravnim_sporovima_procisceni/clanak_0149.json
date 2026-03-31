@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "149",
+    "naslov": null,
+    "tekst": ". Pravo na oslobođenje od plaćanja troškova postupka i pravo na stručnu pravnu pomoć stranka ostvaruje na način i uz uvjete propisane propisom kojim se uređuje besplatna pravna pomoć. DIO PETI IZVRŠENJE SUDSKIH ODLUKA Izvršnost sudskih odluka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AE7DB2EAC456781322F8FFCFEDC11DD1377FA622FD3A6999DE576B06D314D636",
+    "sha256_datoteke": "F092AC7F807094409670037E243E905F2C1F8156E3819CC4906600286B1DE464",
+    "napomena": null
+  }
+}

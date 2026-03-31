@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "82",
+    "naslov": null,
+    "tekst": ". (1) Sud će odrediti hoće li vještak iznijeti svoj nalaz i mišljenje usmeno na raspravi ili u pisanom obliku prije rasprave. Sud će odrediti rok za podnošenje nalaza i mišljenja u pisanom obliku koji ne može biti duži od 60 dana. (2) Vještak mora obrazložiti svoje mišljenje. (3) Sud će dostaviti strankama pisani nalaz i mišljenje najkasnije 15 dana prije ročišta na kojem će se o njima raspravljati. (4) Ako stranke istaknu obrazložene prigovore na pisani nalaz i mišljenje vještaka ili sud smatra da je to potrebno radi razrješenja pojedinih okolnosti, sud će odrediti da se vještak i usmeno sasluša na raspravi. (5) Ako vještak svoj nalaz i mišljenje ne podnese u roku, sud će rješenjem naložiti vještaku da snosi trošak koji je time prouzročio. (6) Protiv rješenja iz stavka 5. ovoga članka dopuštena je žalba, koja odgađa izvršenje rješenja. Zajednički nalaz i mišljenje vještaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E46D758F47D8BA8C343878E6FFAB77BFF22E116AA3E35B11784A403BD3591FF5",
+    "sha256_datoteke": "11BB0C8307B634A011D4929E6D2DA4927CDFE52AD5A9FC17C744A5B60D377BE1",
+    "napomena": null
+  }
+}

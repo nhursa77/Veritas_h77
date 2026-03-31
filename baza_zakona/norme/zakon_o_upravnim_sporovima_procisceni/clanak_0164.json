@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "164",
+    "naslov": null,
+    "tekst": ". Podnositelj zahtjeva iz članka 158. stavka 1. ovoga Zakona ima pravo podnijeti zahtjev nadležnom tijelu za izmjenu pojedinačne odluke tijela kojom je povrijeđeno njegovo pravo ili pravni interes odgovarajućom primjenom odredaba o obnovi postupka u roku od tri mjeseca od dana objave presude u »Narodnim novinama«. Obustava postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0CC92EAA0B7D6E562D7977F55978CDE01F57CF86BA625A168D530A477DB768B4",
+    "sha256_datoteke": "73E2B78B0FF4232E73F7AC8C0D4FF66BF23D08B7345B64E71A6CB0FC95EC59BD",
+    "napomena": null
+  }
+}

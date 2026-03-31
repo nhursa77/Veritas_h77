@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "74",
+    "naslov": null,
+    "tekst": ". (1) Sud će izvesti dokaz vještačenjem kad je radi utvrđivanja ili razjašnjenja kakve činjenice potrebno stručno znanje kojim sud ne raspolaže. (2) Sud će izvesti dokaz vještačenjem i kada je radi razjašnjenja kakve činjenice potrebno ocijeniti stručnu podlogu službenih osoba javnopravnih tijela koja je provedena u postupku koji je prethodio upravnom sporu. (3) Ako sud provodi vještačenje zbog razloga navedenih u stavku 2. ovoga članka, može saslušati službenu osobu koja je izradila stručnu podlogu u postupku koji je prethodio upravnom sporu o razlozima konkretne podloge. Određivanje vještačenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2091B71D10B8E4CD05DFB95CD75B122936C9ACD507150FFE2DB46F6D91066E7B",
+    "sha256_datoteke": "5DADE30AB5F3FDFF10B904AC898A0BEBF175D09E482B1583A693D7849012050D",
+    "napomena": null
+  }
+}

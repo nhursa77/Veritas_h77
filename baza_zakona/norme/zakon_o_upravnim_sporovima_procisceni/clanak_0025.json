@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". (1) Kad sud utvrdi da stranka nema zakonskog zastupnika ili da zakonski zastupnik nema posebno ovlaštenje kad je ono potrebno, zatražit će da tijelo nadležno za socijalnu skrb postavi skrbnika postupovno nesposobnoj osobi odnosno pozvat će zakonskog zastupnika da pribavi posebno ovlaštenje ili će poduzeti druge mjere koje su potrebne da bi postupovno nesposobna stranka bila pravilno zastupana. (2) Sud može odrediti stranki rok za otklanjanje nedostataka iz stavka 1. ovoga članka. (3) Dok se ne otklone nedostaci iz stavka 1. ovoga članka, mogu se u sporu poduzimati samo one radnje zbog čije bi odgode mogle nastati štetne posljedice za stranku. Sposobnost biti opunomoćenik tužitelja i zainteresirane osobe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "853E305E11DF62F96B53E85F6B60A6FB666D38ACDB085F0EE5C5C569F09991BC",
+    "sha256_datoteke": "D15B848AD546648B02A47860600448189019AF710B275ADA42854A53EA20B059",
+    "napomena": null
+  }
+}

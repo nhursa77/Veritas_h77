@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "76",
+    "naslov": null,
+    "tekst": ". (1) Određeni vještaci dužni su odazvati se pozivu suda i iznijeti svoj nalaz i mišljenje. (2) Sud će vještaka, na njegov zahtjev, osloboditi dužnosti vještačenja zbog razloga zbog kojih svjedok može uskratiti svjedočenje ili odgovor na pojedino pitanje. (3) Sud može vještaka, na njegov zahtjev, osloboditi dužnosti vještačenja i zbog drugih opravdanih razloga. Oslobođenje od dužnosti vještačenja može tražiti i ovlaštena osoba tijela ili pravne osobe u kojoj vještak radi. Izuzeće vještaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "619E572F2717DA4CCE99C0994480228042FC7E9315498CE394A2ADC74FA68211",
+    "sha256_datoteke": "8B4DFF1AEFD485F22966B2C801B75F9446D3C74E53CCC1548810587F1222D53C",
+    "napomena": null
+  }
+}

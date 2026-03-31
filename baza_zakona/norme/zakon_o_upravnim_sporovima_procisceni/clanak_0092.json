@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "92",
+    "naslov": null,
+    "tekst": ". (1) Ročište za raspravu počinje izlaganjem tužbe, a nakon toga ovlaštena osoba tuženika odgovara na navode tužbe. (2) U daljnjem tijeku rasprave raspravlja se o prijedlozima stranaka i činjeničnim navodima kojima stranke obrazlažu svoje prijedloge odnosno pobijaju prijedloge protivne stranke, kao i o dokazima ponuđenim s njihove strane, izvode se dokazi i raspravlja o rezultatima njihova izvođenja. (3) Stranke mogu iznositi svoja pravna shvaćanja koja se odnose na predmet spora. (4) Sudac će postavljanjem pitanja i na drugi svrhovit način nastojati da se tijekom rasprave iznesu sve odlučne činjenice, da se dopune nepotpuni navodi stranaka o važnim činjenicama, da se označe ili dopune dokazna sredstva koja se odnose na navode stranaka i uopće, da se daju sva razjašnjenja potrebna za utvrđenje činjeničnog stanja važnog za odluku. (5) U mjeri u kojoj je to potrebno radi ostvarenja toga cilja sudac će sa strankama razmotriti i pravna pitanja spora. Određivanje izvođenja dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F44B3FA34D6CA57CE98136F19ED020E5B7399558E98D11A298E82B3E7B00F84B",
+    "sha256_datoteke": "B22A2AEDD37CA528C6E0C52EC725AC0015EEDFF7801EA95546F17DBFBABAE92D",
+    "napomena": null
+  }
+}

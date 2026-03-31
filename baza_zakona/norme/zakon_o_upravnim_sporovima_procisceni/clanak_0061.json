@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "61",
+    "naslov": null,
+    "tekst": ". (1) Na zahtjev suda javnopravna tijela dostavit će isprave kojima raspolažu. (2) Isprave ili dijelove isprava kojima je pristup ograničen ili zabranjen sukladno posebnim propisima javnopravno tijelo će posebno označiti. S takvim ispravama postupat će se sukladno tim propisima. Svjedoci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A28EB5C2206866D24B6FD63E904023582FC14D68F99C5E05AEEF6D85689A9404",
+    "sha256_datoteke": "966280314CD94E005831399AC6A2534FE84DB760B906F3BA5E0F4FD8F35134F6",
+    "napomena": null
+  }
+}

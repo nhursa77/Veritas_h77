@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "70",
+    "naslov": null,
+    "tekst": ". (1) Svjedok koji ne zna jezik na kojem se vodi postupak saslušat će se preko tumača. (2) Ako je svjedok gluh, postavljat će mu se pitanja u pisanom obliku, a ako je nijem, pozvat će se da u pisanom obliku odgovara. Ako se saslušanje ne može obaviti na taj način, pozvat će se kao tumač osoba koja se sa svjedokom može sporazumjeti. (3) Sud će tumača upozoriti na dužnost vjernog prenošenja pitanja koja se svjedoku postavljaju i izjava koje svjedok bude davao. Osiguranje nazočnosti svjedoka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "545B1945BA5EE5A5B5633F2D767F03437BB95C35CA1A0200F6BF57292FD54B58",
+    "sha256_datoteke": "147D3933CCA9EB8527F231EB6AC95DCB1027DDE79D6724FAE9DBA8CCBBDA2B14",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "131",
+    "naslov": null,
+    "tekst": ". (1) Žalba se podnosi upravnom sudu koji je donio presudu u roku od 15 dana od dana dostave presude. (2) Žalba se podnosi u dovoljnom broju primjeraka za sud i sve stranke u sporu. (3) Na predaju žalbe odgovarajuće se primjenjuju odredbe članka 41. stavaka 1. do 3. ovoga Zakona. Postupanje upravnog suda po žalbi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A760182EF6FC1AB79E52CD7677F12A8D89D36177F6F2E9BFEEDCB83F66DE2DAA",
+    "sha256_datoteke": "B36EC5364A1067E9707D2863B7B94B8E8F789C8DDDCF7360B3B80C8C70E3FB79",
+    "napomena": null
+  }
+}

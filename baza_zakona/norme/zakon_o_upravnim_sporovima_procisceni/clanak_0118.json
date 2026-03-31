@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "118",
+    "naslov": null,
+    "tekst": ". (1) Sud će u okviru tužbenog zahtjeva odlučiti i o naknadi štete te povratu stvari. (2) Kad sud utvrdi da je upravni ugovor nezakonito raskinut ili ništetan, odlučit će i o naknadi štete. (3) Sud će odbiti tužbeni zahtjev glede naknade štete i povrata stvari ako utvrdi da je tužitelj svojim postupanjem prouzročio štetu ili pridonio nastanku takve štete. Sadržaj presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "35748C492DCF09BFC2EE9D01AB548DED52A01EA9D322ED09D04809A2F82227A4",
+    "sha256_datoteke": "AC65286C2A0FE3ECFF3A5C5BBF00E5250F9B6AB22C16B4BDFEB4F970A4364B51",
+    "napomena": null
+  }
+}

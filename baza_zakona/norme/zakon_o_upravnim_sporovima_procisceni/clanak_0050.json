@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": ". (1) Sudovi su jedan drugome dužni pružiti pravnu pomoć u upravnom sporu. (2) Ako zamoljeni sud nije nadležan da obavi radnju za koju je zamoljen, ustupit će molbu nadležnom sudu odnosno drugome javnopravnom tijelu i o tome obavijestiti sud od kojeg je primio molbu, a ako mu nadležni sud odnosno javnopravno tijelo nije poznato, vratit će molbu. Prava i obveze stranaka u upravnom sporu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ED31F8BEE401DA30ED9DCFE4B6508AC043B7927CAB14640BA39EC5E289B44831",
+    "sha256_datoteke": "E42BB682088BDD97F63515A47D90BD78F4DB979346EC6A6F3BF38346A1B95CAE",
+    "napomena": null
+  }
+}

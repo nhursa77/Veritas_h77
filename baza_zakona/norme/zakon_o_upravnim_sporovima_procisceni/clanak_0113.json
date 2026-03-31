@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "113",
+    "naslov": null,
+    "tekst": ". (1) Stranke imaju pravo obavijestiti se o tijeku spora i razgledati spis te o svom trošku umnožiti akte iz spisa, osim akata koji su označeni određenim stupnjem tajnosti. Nacrti sudskih odluka i pripremni tekstovi izrađeni tijekom rada na predmetu nisu sastavni dio spisa. (2) Pristup dijelovima spisa predmeta može se uskratiti ako je to nužno radi zaštite javnog interesa, interesa jedne od stranaka ili interesa trećih osoba. (3) Razgledavanje spisa predmeta odobrava sudac kojem je predmet dodijeljen u rad. (4) Pristup elektroničkom spisu može se odobriti i elektroničkim putem. GLAVA VI. SUDSKE ODLUKE Presuda",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "223307974ACF7E12EE9C866A55EDFFA8DD71732043A2F9C0244EC756447AD22B",
+    "sha256_datoteke": "E8933F14B52BB7B8BCA6CB0A604689B1F0E24DBEFFC0F7337DECF82E56CDA2B1",
+    "napomena": null
+  }
+}

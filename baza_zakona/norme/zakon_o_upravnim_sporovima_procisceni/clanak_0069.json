@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "69",
+    "naslov": null,
+    "tekst": ". (1) Svjedoci se saslušavaju pojedinačno i bez nazočnosti svjedoka koji će se poslije saslušavati. Svjedok je dužan odgovore davati usmeno. (2) Svjedoka će se najprije opomenuti da je dužan govoriti istinu i da ne smije ništa prešutjeti, a nakon toga će ga se upozoriti na posljedice davanja lažnog iskaza. (3) Zatim će se svjedoka pitati za ime i prezime, osobni identifikacijski broj, ime oca, zanimanje, mjesto rođenja, godine života i njegov odnos sa strankama. (4) Poslije općih pitanja svjedoka se poziva da iznese sve što mu je poznato o činjenicama o kojima treba svjedočiti, a nakon toga mu se mogu postavljati pitanja radi provjere, dopune ili razjašnjenja. (5) Svjedoka će se uvijek pitati otkud mu je poznato ono o čemu svjedoči. (6) Svjedoci se mogu suočiti ako se njihovi iskazi ne slažu o važnim činjenicama. Suočeni će se o svakoj okolnosti o kojoj se ne slažu pojedinačno saslušati. Saslušanje putem tumača",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "817A2AB708A3AC2404647D88CFD51F2B60A30F6B7D69154C2CED1F4457774518",
+    "sha256_datoteke": "A68B8BB6F7AA77F160D7CC7D245C4F80FE7D825DC00B566DDE369805773170C6",
+    "napomena": null
+  }
+}

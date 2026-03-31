@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". Ovim se Zakonom uređuju nadležnost, sastav suda i pravila postupka na temelju kojih upravni sudovi odlučuju o zakonitosti odluka javnopravnih tijela o pravima, obvezama i pravnim interesima fizičkih i pravnih osoba i drugih stranaka te o zakonitosti postupanja javnopravnih tijela iz područja upravnog prava (u daljnjem tekstu: upravni spor). Cilj Zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C879D5BE28A414A92968B58DC9B51D0A16E6A4E885CAED923AC97DED0A5BDCCA",
+    "sha256_datoteke": "BA1BF1D8CA579C75161EDADBE6405842815DDA1B020D00EF189FE32440797824",
+    "napomena": null
+  }
+}

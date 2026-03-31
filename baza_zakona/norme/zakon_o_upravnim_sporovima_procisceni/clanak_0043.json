@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "43",
+    "naslov": null,
+    "tekst": ". Nakon primitka tužbe sud će ispitati nadležnost za postupanje po tužbi, urednost tužbe te postojanje pretpostavki za vođenje spora. Ocjenjivanje nadležnosti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3E073507DED43D7C1A5DB3C6C33F0177A09E246894973E4E4D4574C7C4163F8B",
+    "sha256_datoteke": "3EF27D9A1CC9CD0AC8C96959C9A7747B6A6DE5B5A3346D7E882D686FD8A0F653",
+    "napomena": null
+  }
+}

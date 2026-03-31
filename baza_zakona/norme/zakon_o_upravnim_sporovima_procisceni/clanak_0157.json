@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "157",
+    "naslov": null,
+    "tekst": ". (1) Rješenje protiv kojeg žalba nije dopuštena izvršava sud koji je rješenje donio. (2) Na izvršenje pravomoćnih rješenja odgovarajuće se primjenjuju odredbe ovoga Zakona o izvršenju pravomoćnih presuda. (3) Izvršenje novčanih obveza određenih rješenjem provodi se dostavom rješenja s potvrdom ovršnosti Financijskoj agenciji radi provedbe ovrhe na novčanim sredstvima stranke u skladu s odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima. DIO ŠESTI OCJENA ZAKONITOSTI OPĆIH AKATA Pokretanje postupka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9119975CBDBDA1207D47D30582899D50432D72CBB9F3C74CB53B502F6F62D130",
+    "sha256_datoteke": "1EE7751F1EDC9554B47FEDA1710A918A2A0651A772768B09B5AAC9D44718B7E0",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": ". Tijekom cijelog upravnog spora sud će, po službenoj dužnosti, brinuti se o tome je li osoba koja se pojavljuje kao tužitelj ili zainteresirana osoba postupovno sposobna, zastupa li postupovno nesposobnu stranku njezin zakonski zastupnik i ima li zakonski zastupnik posebno ovlaštenje kad je ono potrebno. Otklanjanje nedostataka u postupovnoj sposobnosti te urednom zastupanju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5729C93A21F388DB521F553D535968036B64A4972CC28E084D71CDF8EB3F8B47",
+    "sha256_datoteke": "2D080B825A0A550F73AFA7A5FB6B64AA26BF39191F81E2BF97963F6B511CA138",
+    "napomena": null
+  }
+}

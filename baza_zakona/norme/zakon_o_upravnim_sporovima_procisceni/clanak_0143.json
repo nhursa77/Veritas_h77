@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "143",
+    "naslov": null,
+    "tekst": ". (1) Nepravodoban zahtjev, zahtjev koji je podnijela neovlaštena osoba, kao i zahtjev koji ne sadrži podatke propisane člankom 140. stavkom 2. ovoga Zakona Vrhovni sud Republike Hrvatske odbacit će rješenjem. (2) Ako Vrhovni sud Republike Hrvatske ne odbaci zahtjev, dostavit će ga protivnoj stranki koja može u roku od 30 dana podnijeti odgovor na zahtjev. (3) Sud protiv čije presude odnosno rješenja je podnesen zahtjev i javnopravno tijelo kao tuženik dužni su bez odgađanja dostaviti Vrhovnom sudu Republike Hrvatske, na njegov zahtjev, sve spise predmeta. (4) Vrhovni sud Republike Hrvatske rješava o zahtjevu na nejavnoj sjednici, a pobijanu odluku ispituje samo u dijelu u kojem je osporavana zahtjevom i u granicama razloga navedenih u zahtjevu. (5) Vrhovni sud Republike Hrvatske odbit će zahtjev ako utvrdi da je neosnovan. (6) Ako Vrhovni sud Republike Hrvatske utvrdi osobito tešku povredu zakona koja dovodi u pitanje jedinstvenu primjenu prava i ravnopravnost svih u njegovoj primjeni, presudom će usvojiti zahtjev i osporavanu odluku ukinuti i vratiti predmet na ponovno rješavanje ili je preinačiti. DIO ČETVRTI TROŠKOVI UPRAVNOG SPORA Troškovi upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC82373B0819354762273EB0C819E7537A72A48B8D12BCDD9C53BF4CCD057ECD",
+    "sha256_datoteke": "27555CC21549F6CEE07EB131F722A505BB49CD3A8F2CED83C65FFA04528E420D",
+    "napomena": null
+  }
+}

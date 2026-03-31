@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "132",
+    "naslov": null,
+    "tekst": ". (1) Nepravodobnu, nedopuštenu ili žalbu koju je podnijela neovlaštena osoba upravni sud odbacit će rješenjem u roku od 15 dana od dana njezina primitka. (2) Ako je žalba neuredna, upravni sud će u roku od 15 dana od dana primitka žalbe rješenjem pozvati žalitelja da dopuni ili ispravi žalbu i za to mu odrediti primjereni rok. Ako žalitelj u roku ne postupi po traženju suda, sud će žalbu rješenjem odbaciti kao neurednu. (3) Primjerak uredne žalbe dostavit će prvostupanjski sud protivnoj stranki koja može u roku od 15 dana od primitka žalbe podnijeti tome sudu odgovor na žalbu. Odgovor na žalbu predaje se sukladno pravilima o predaji podnesaka. (4) Primjerak odgovora na žalbu dostavit će prvostupanjski sud žalitelju bez odgode. (5) Nakon primitka odgovora na žalbu ili nakon isteka roka za odgovor na žalbu sud će žalbu i odgovor na žalbu, ako je podnesen, sa svim spisima dostaviti drugostupanjskom sudu. (6) Protiv rješenja prvostupanjskog suda kojim je žalba odbačena može se izjaviti žalba. Postupanje Visokog upravnog suda po žalbi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D98D0998FA4AE23FA3ACD61E10062DCD17F196C205743EA439A3CE84F46408CF",
+    "sha256_datoteke": "13E4F0092B82EA70DE1F45D9C3D750F5281A59B36E729FAE091627645A2F09DE",
+    "napomena": null
+  }
+}

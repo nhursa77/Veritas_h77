@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "105",
+    "naslov": null,
+    "tekst": ". (1) Sud će rješenjem prekinuti spor: 1. do pravomoćnosti presude donesene u oglednom sporu 2. kad tužitelj umre ili prestane postojati, a spor se s obzirom na narav upravne stvari može nastaviti 3. kad je to propisano zakonom 4. kad sud odluči podnijeti zahtjev Sudu Europske unije o tumačenju prava Europske unije ili o valjanosti akta koje su donijele institucije Europske unije. (2) Sud rješenjem može prekinuti spor: 1. dok se ne odluči o prethodnom pitanju ako je postupak o prethodnom pitanju pokrenut pred sudom ili nadležnim javnopravnim tijelom 2. dok Visoki upravni sud ne odluči o zakonitosti općeg akta koji se u konkretnom slučaju primjenjuje. (3) Protiv rješenja o prekidu spora može se izjaviti žalba. (4) Za trajanja prekida spora prestaju teći svi rokovi određeni za obavljanje radnji u sporu te sud ne može poduzimati nikakve radnje. (5) Po prestanku razloga prekida, sud će donijeti rješenje o nastavku spora na prijedlog stranke ili po službenoj dužnosti. Rokovi koji su zbog prekida spora prestali teći počinju iznova teći od dana dostave rješenja o nastavku spora. (6) Ako je sud odredio prekid spora iz stavka 2. točke 1. ovoga članka radi podnošenja zahtjeva Sudu Europske unije, dužan je o tome obavijestiti ministarstvo nadležno za vanjske poslove i dostaviti mu podneseni zahtjev. Obustava upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F764B031263B752883D527A6B42F6D7AD82391F72FD9FA5B342E889C3ABE56C3",
+    "sha256_datoteke": "3441F0A5BAFAF1E0CE1583C4B8C60493AFE1308E4BE5488325CD950F35C64637",
+    "napomena": null
+  }
+}

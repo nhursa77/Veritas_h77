@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". (1) Sud će upravni spor provesti brzo i bez odugovlačenja, uz izbjegavanje nepotrebnih radnji i troškova, onemogućit će zlouporabu prava stranaka i drugih sudionika u sporu te će odluku donijeti u razumnom roku. (2) U slučajevima kada se posebnim zakonom propisuje rok za rješavanje upravnog spora, predlagatelj posebnog zakona dužan je razloge za takvo propisivanje roka detaljno i razumno obrazložiti. Načelo pomoći neukoj stranki",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E0F44B98B832D70076E972FBD80946E02FB5AE01C378386F7A97DFA5F011D04A",
+    "sha256_datoteke": "55089BA0E34B387AFB26CEB52385D0BCB481BD8D3CB5F64C1F65A8821E0FACDF",
+    "napomena": null
+  }
+}

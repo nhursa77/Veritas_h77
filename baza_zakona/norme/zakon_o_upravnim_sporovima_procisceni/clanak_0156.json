@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "156",
+    "naslov": null,
+    "tekst": ". (1) Sud će rješenjem odbaciti zahtjev za izvršenje podnesen od strane neovlaštene osobe te preuranjen zahtjev. (2) Sud će rješenjem odbiti zahtjev za izvršenje ako se zahtjev odnosi na tijelo koje nije obveznik izvršenja presude ili ako je zahtjev neosnovan zbog drugih razloga. (3) Sud će rješenjem obustaviti postupak ako podnositelj odustane od zahtjeva za izvršenje, ako je presuda izvršena prije donošenja odluke o zahtjevu ili ako je tijekom postupka izvršenja presuda koja se izvršava stavljena izvan snage. (4) Protiv rješenja i presude upravnog suda iz članaka 152. do 155. ovoga Zakona žalba je dopuštena, a postupak po žalbi hitan. (5) Zbog štete nastale neizvršenjem odnosno nepravodobnim izvršenjem presude donesene u upravnom sporu tužitelj ima pravo na naknadu štete, koja se ostvaruje u postupku pred sudom opće nadležnosti. Izvršenje rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2D3015DD7C9DFBDDEEB3EA573D0B44E389EC4F50E5BFE1F2C4412750DB8FD259",
+    "sha256_datoteke": "5CADE1083497FA4908AE40DD636D69BB7D20CF3CB8DAA609727E69C7AA9B3AAA",
+    "napomena": null
+  }
+}

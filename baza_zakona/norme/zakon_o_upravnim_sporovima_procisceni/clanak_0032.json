@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "32",
+    "naslov": null,
+    "tekst": ". Ako stranka u punomoći nije pobliže odredila ovlaštenja opunomoćenika, opunomoćenik koji nije odvjetnik može, na temelju takve punomoći, obavljati sve radnje u sporu, ali mu je uvijek potrebno izričito ovlaštenje za povlačenje tužbe, za zaključenje nagodbe, za odricanje ili odustanak od pravnog lijeka i za prenošenje punomoći na drugu osobu te za podnošenje izvanrednih pravnih lijekova. Oblik punomoći",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9807DDBA86598513823C3F6BD58C84ABCD8916F6B536CC100A0646F918BE69A9",
+    "sha256_datoteke": "14A1DCB8173FCBE48C4BEA9188EC12AD0AE724E0E70AD7F2530157DD8B3FE515",
+    "napomena": null
+  }
+}

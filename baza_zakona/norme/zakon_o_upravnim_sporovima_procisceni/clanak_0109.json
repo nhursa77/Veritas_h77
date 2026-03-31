@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "109",
+    "naslov": null,
+    "tekst": ". (1) Podnesci se dostavljaju u pisanom ili elektroničkom obliku putem informacijskog sustava. Izjava koja se daje podneskom može se sudu dati i usmeno na zapisnik. (2) Podnesak mora biti razumljiv te sadržavati sve što je potrebno da bi se po njemu moglo postupiti, osobito oznaku suda, osobno ime odnosno naziv, osobni identifikacijski broj i adresu stranke i osoba ovlaštenih za zastupanje, predmet spora, sadržaj izjave te potpis. Podnesak u elektroničkom obliku mora biti potpisan kvalificiranim elektroničkim potpisom u skladu s posebnim propisima. Podnesak u elektroničkom obliku potpisan kvalificiranim elektroničkim potpisom smatrat će se vlastoručno potpisanim. (3) Ako podnesak nije razumljiv ili ne sadržava sve što je potrebno da bi se po njemu moglo postupiti, sud će podnositelju naložiti da podnesak ispravi odnosno dopuni i za to mu odrediti primjereni rok, uz upozorenje na pravne posljedice ako to u određenom roku ne učini. Ako se nedostaci u roku ne otklone, a po podnesku se ne može postupiti, sud će rješenjem odbaciti podnesak. (4) Dan kada je informacijski sustav podnositelju potvrdio primitak podneska, smatra se danom predaje podneska sudu kojemu je upućen. (5) Ako podnesak podnesen u elektroničkom obliku sadržava nedostatak koji onemogućuje postupanje po podnesku odnosno ako je podnesak nerazumljiv ili nepotpun, sud će o tome elektroničkim putem obavijestiti podnositelja i odredit će rok u kojem je podnositelj dužan otkloniti nedostatak, uz upozorenje na pravne posljedice ako to u određenom roku ne učini. Ako podnositelj u roku ne postupi po traženju suda, sud će rješenjem odbaciti podnesak. (6) Iznimno od stavka 1. ovoga članka, tijela državne uprave i druga državna tijela, tijela jedinica lokalne i područne (regionalne) samouprave, pravne osobe koje imaju javne ovlasti, državno odvjetništvo, odvjetnici, javni bilježnici, sudski vještaci, sudski procjenitelji, sudski tumači, stečajni upravitelji, povjerenici te pravne osobe obvezni su podneske podnositi u elektroničkom obliku. (7) Ako podnositelj iz stavka 6. ovoga članka podnesak ne podnese u elektroničkom obliku, sud će mu naložiti da u roku od osam dana podnesak dostavi u elektroničkom obliku. Ako podnositelj ne dostavi podnesak u elektroničkom obliku u određenom roku, sud će rješenjem odbaciti podnesak. (8) Ministarstvo nadležno za poslove pravosuđa uspostavlja informacijski sustav. (9) Pretpostavke za podnošenje podnesaka i dostavu u elektroničkom obliku, oblike zapisa podnesaka u elektroničkom obliku te organizaciju i djelovanje informacijskog sustava uređuju se pravilnikom koji donosi ministar nadležan za poslove pravosuđa. Dostava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EB7BAA8783CEA4EDD5D0C454C92A4CD9107F93C1DEADCABB2A068C6FB7BA30EB",
+    "sha256_datoteke": "09F9066598325B9BD94B3E669C778C9217DE36EF525746F107E787145002FE15",
+    "napomena": null
+  }
+}

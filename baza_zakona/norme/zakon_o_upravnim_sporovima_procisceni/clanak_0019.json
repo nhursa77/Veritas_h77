@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". Tuženik je javnopravno tijelo koje je donijelo ili propustilo donijeti pojedinačnu odluku, postupilo ili propustilo postupiti odnosno koje je stranka upravnog ugovora. Zainteresirana osoba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A7BF19A46BCB768F42953AF45C7C3E4064EF9AAE26F55607B75DC8E12E011F4E",
+    "sha256_datoteke": "28CECF0F3B0B9FE5D0BAF105C91983E42F6F9E1DFAB61EFF8567A61A77529A53",
+    "napomena": null
+  }
+}

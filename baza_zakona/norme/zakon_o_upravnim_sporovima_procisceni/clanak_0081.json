@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "81",
+    "naslov": null,
+    "tekst": ". (1) Prije početka vještačenja pozvat će se vještak da predmet vještačenja brižljivo razmotri, da točno navede sve što opazi i nađe i da svoje mišljenje iznese savjesno i u skladu s pravilima znanosti i vještine, a upozorit će se i na posljedice davanja lažnog iskaza. (2) Nakon toga će se vještaka pitati za ime i prezime, osobni identifikacijski broj, ime oca, zanimanje, mjesto rođenja, godine života i njegov odnos sa strankom. (3) Sud rukovodi vještačenjem, označuje vještaku predmet koji će se razgledati, postavlja mu pitanja i, prema potrebi, traži objašnjenja u vezi s danim nalazom i mišljenjem. (4) Vještaku se mogu davati razjašnjenja, a može mu se dopustiti i razmatranje spisa. Na zahtjev vještaka mogu se izvoditi i novi dokazi da bi se utvrdile okolnosti koje su važne za davanje mišljenja vještaka. Nalaz i mišljenje vještaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EEF94445C3BBE252D2AD097073D844A5C96D1D2BF3C6EF1A5B3F87BFA7738F2E",
+    "sha256_datoteke": "4C5B934D9B8AD1E736EE3737C6DC2C8FE51D9F2C45F0053A9B63D97E16338AF1",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "108",
+    "naslov": null,
+    "tekst": ". (1) Ako je u pet ili više prvostupanjskih upravnih sporova predmet tužbe iste pravne i činjenične prirode, sud može rješenjem odlučiti koji će predmet riješiti u oglednom sporu. U ostalim predmetima sud će rješenjem prekinuti spor. (2) Nakon pravomoćnosti presude donesene u oglednom sporu sud će nastaviti voditi prekinute sporove uz primjenu dokaza koji su provedeni u oglednom sporu. (3) Na temelju pravomoćne presude donesene u oglednom sporu sud može riješiti spor pokrenut nakon pravomoćnosti te presude bez vođenja rasprave, ali nakon omogućivanja strankama da se o tome izjasne. Podnesci",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EFF454B2E931C1C6C11C182754896FE538987D04B9A177007F30EFA527814873",
+    "sha256_datoteke": "7498CFD848C5E8A70127AC03066B9AEB290210FA655653D2B9EC6D8071AFFFFD",
+    "napomena": null
+  }
+}

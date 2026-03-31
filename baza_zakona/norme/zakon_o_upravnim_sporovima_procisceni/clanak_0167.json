@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "167",
+    "naslov": null,
+    "tekst": ". (1) Sud će kazniti novčanom kaznom od 60,00 do 1320,00 eura osobu koja ne postupi sukladno članku 71. stavcima 1. i 2., članku 78. stavku 1. i članku 97. stavku 2. ovoga Zakona. (2) Sud će kazniti novčanom kaznom od 330,00 do 6630,00 eura pravnu osobu odnosno novčanom kaznom od 60,00 do 1320,00 eura fizičku osobu koja teže zlouporabi prava koja joj pripadaju u sporu ako ovim Zakonom nije drukčije određeno. (3) Novčana kazna iz stavka 2. ovoga članka može se izreći i zastupniku stranke ako je on odgovoran za zlouporabu prava. (4) Kada kažnjena osoba ne plati izrečenu novčanu kaznu u ostavljenom roku ili o tome bez odgađanja ne obavijesti sud, sud će u daljnjem roku od osam dana na rješenje o izrečenoj novčanoj kazni staviti potvrdu o ovršnosti te rješenje dostaviti Financijskoj agenciji radi izravne naplate novčane kazne provedbom ovrhe na novčanim sredstvima kažnjene osobe. (5) Ako Financijska agencija u roku od godine dana od dana primitka rješenja iz stavka 4. ovoga članka ne provede ovrhu na novčanim sredstvima kažnjene osobe u skladu s odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima u cjelokupnom iznosu izrečene novčane kazne, dostavit će rješenje iz stavaka 1. i 2. ovoga članka nadležnoj ispostavi Područnog ureda Porezne uprave prema prebivalištu odnosno sjedištu kažnjene osobe radi prisilne naplate izrečene novčane kazne prema propisima o prisilnoj naplati poreza. (6) Ako kažnjena osoba nema prebivalište odnosno sjedište na području Republike Hrvatske, Financijska agencija dostavit će rješenje iz stavaka 1. i 2. ovoga članka ispostavi Područnog ureda Porezne uprave prema sjedištu suda koji je donio rješenje iz stavaka 1. i 2. ovoga članka. (7) Naplaćena novčana kazna uplaćuje se na račun prihoda državnog proračuna Republike Hrvatske, dok će se o izvršenoj naplati obavijestiti sud. (8) Protiv rješenja o novčanoj kazni žalba je dopuštena. (9) Ako u roku od godine dana od dana primitka rješenja iz stavaka 1. i 2. ovoga članka ne uspije naplatiti novčanu kaznu, nadležna ispostava Područnog ureda Porezne uprave će o nenaplaćenoj novčanoj kazni za fizičku osobu obavijestiti sud koji je donio rješenje, nakon čega će se novčana kazna izrečena fizičkoj osobi zamijeniti kaznom zatvora po pravilima kaznenog prava o zamjeni novčane kazne kaznom zatvora, o čemu će odluku donijeti sud koji je izrekao novčanu kaznu. Ako se novčana kazna izrečena pravnoj osobi ne naplati u roku od godine dana od dana primitka rješenja iz stavaka 1. i 2. ovoga članka, ta će se kazna prisilno naplatiti po pravilima kaznenog prava. (10) Ako je rješenje o izricanju novčane kazne poništeno ili preinačeno, osoba kojoj je naplaćena izrečena novčana kazna može u roku od tri mjeseca od dana primitka tog rješenja u istom postupku zatražiti od suda da naloži Republici Hrvatskoj isplatu neosnovano naplaćenog iznosa novčane kazne. Ako taj zahtjev bude podnesen nakon isteka toga roka, sud će ga odbaciti. Zahtjev za isplatu na temelju rješenja kojim se nalaže Republici Hrvatskoj isplata neosnovano naplaćenog iznosa novčane kazne podnosi se ministarstvu nadležnom za poslove pravosuđa. Pribavljanje podatka o osobnom identifikacijskom broju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "47707E3C8615961A46FBCFCD71DE1CC44E731903CB432169EB9D35D5FF2B16DB",
+    "sha256_datoteke": "18AB1ABBCD10769A237C7175A4A830F8E87A7D7C8A9074C53150ECF2287C1B5C",
+    "napomena": null
+  }
+}

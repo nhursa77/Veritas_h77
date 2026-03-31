@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "160",
+    "naslov": null,
+    "tekst": ". (1) Zahtjev odnosno obavijest iz članka 158. ovoga Zakona mora sadržavati: 1. osobno ime odnosno naziv, osobni identifikacijski broj i adresu podnositelja 2. naziv osporenog općeg akta i naznaku njegova donositelja 3. oznaku odredbi kojih se zakonitost osporava 4. razloge nezakonitosti općeg akta 5. potpis podnositelja. (2) Podnositelj zahtjeva iz članka 158. stavka 1. ovoga Zakona mora u zahtjevu učiniti vjerojatnim da se općim aktom ili njegovom primjenom dira u njegovo pravo ili pravni interes. (3) Zahtjev se predaje Visokom upravnom sudu odgovarajućom primjenom odredbi članka 41. ovoga Zakona. Postupanje suda po zahtjevu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C48B0ADFAD9D41A76B96B8E7930782F323C81A615331502A1082827E8C26785D",
+    "sha256_datoteke": "77594B739A56E42B5541CD853C1C8BA42A173CE741CF31485273466043138C28",
+    "napomena": null
+  }
+}

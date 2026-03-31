@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "73",
+    "naslov": null,
+    "tekst": ". (1) Svjedok ima pravo na naknadu putnih troškova i troškova za prehranu i prenoćište te na naknadu izmakle dobiti. (2) Svjedok treba zatražiti naknadu odmah nakon saslušanja, inače gubi pravo na nju. Sud je dužan na to upozoriti svjedoka. (3) U rješenju kojim se odmjeravaju troškovi svjedoka sud će odrediti da se određeni iznos isplati iz položenog predujma, a ako predujam nije položen, naredit će stranki da određeni iznos plati svjedoku u roku od osam dana. (4) Protiv rješenja iz stavka 3. ovoga članka dopuštena je žalba, koja odgađa izvršenje rješenja. Vještačenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "22F7DBA1D6D8EF91E8A89185ECE05BE43B8A9373BCC1D77464E758518F15EC06",
+    "sha256_datoteke": "A8610EE90C9446C1AB566169369CB5E55F18DDFE387966DDE7BB9E85D09D048F",
+    "napomena": null
+  }
+}

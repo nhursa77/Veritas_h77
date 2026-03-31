@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". (1) Ako se prema okolnostima može pretpostaviti da se dokaz neće moći izvesti ili da se neće moći izvesti u primjerenom roku, ili ako dokaz treba izvesti u inozemstvu, sud će u rješenju o izvođenju dokaza odrediti rok do kojeg će se čekati izvođenje dokaza. (2) Kad određeni rok istekne, rasprava će se provesti bez obzira na to što određeni dokaz nije izveden. Javna isprava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AFE10333FC45AAEA32FC087BB9B769A9F681A19E5DC3BEBF6D9D9C6717CCC130",
+    "sha256_datoteke": "074B9630DF4D026662F69572BC24D38F3BC5040345A4F5A80C39FB89D4B1FBB7",
+    "napomena": null
+  }
+}

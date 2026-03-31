@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "59",
+    "naslov": null,
+    "tekst": ". (1) Kad se jedna stranka poziva na ispravu i tvrdi da se ona nalazi kod druge stranke, sud će tu stranku pozvati da podnese ispravu, ostavljajući joj za to određeni rok. (2) Stranka ne može uskratiti podnošenje isprave ako se ona sama pozvala na tu ispravu za dokaz svojih navoda, ili ako je riječ o ispravi koju je po zakonu dužna predati ili pokazati, ili ako se isprava s obzirom na njezin sadržaj smatra zajedničkom za obje stranke. (3) U pogledu prava stranke da uskrati podnošenje drugih isprava na odgovarajući način primjenjuju se odredbe ovoga Zakona o pravu svjedoka da uskrati svjedočenje ili odgovor na pojedina pitanja. (4) Kad stranka koja je pozvana da podnese ispravu poriče da se isprava kod nje nalazi, sud može radi utvrđivanja te činjenice izvoditi dokaze. (5) Sud će, s obzirom na sve okolnosti, po svom uvjerenju cijeniti od kakva je značenja što stranka koja drži ispravu neće postupiti po rješenju suda kojim joj se nalaže da podnese ispravu ili protivno uvjerenju suda poriče da se isprava kod nje nalazi. Dužnost treće osobe da podnese ispravu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B83B849651A3865A7B294F6ACE3A2EDFB1ABEE6D3EF20A6058F26450B0901B7E",
+    "sha256_datoteke": "82DE92A621F6E3F25AAA0E1FF9CEEBFEE845018DC2D7AAD2A0B9156D3FA22B49",
+    "napomena": null
+  }
+}

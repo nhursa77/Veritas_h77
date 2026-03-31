@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "66",
+    "naslov": null,
+    "tekst": ". (1) Opravdanost razloga za uskraćivanje svjedočenja ili odgovora na pojedina pitanja ocjenjuje sud pred kojim svjedok treba svjedočiti. Ako je potrebno, prije toga će se o tome saslušati stranke. (2) Svjedok može rješenje kojim mu se odbija zahtjev za uskratu svjedočenja ili uskratu odgovora na pojedina pitanja pobijati u žalbi protiv rješenja o novčanoj kazni ili o zatvoru zbog toga što je uskratio svjedočenje ili odgovor na pojedino pitanje. Prijedlog za saslušanje svjedoka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7C6354525E6F0F197D69894077DCBB66CF841CF1C8CC02B33F33AF59ED18B86F",
+    "sha256_datoteke": "7551DB556602175F2A5B77D8B0A81C8C98C46CEA0FEE7A70295538148A848B3B",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "58",
+    "naslov": null,
+    "tekst": ". (1) Stranka je dužna sama podnijeti ispravu na koju se poziva za dokaz svojih navoda. Stranka je dužna podnijeti ispravu u trenutku predlaganja tog dokaza, osim ako sud odredi drukčije. (2) Uz ispravu sastavljenu na stranom jeziku podnosi se i ovjereni prijevod. (3) Ako se isprava nalazi kod javnopravnog tijela ili pravne i fizičke osobe kojoj su povjerene javne ovlasti, a sama stranka ne može postići da se isprava preda ili pokaže, sud će na prijedlog stranke pribaviti tu ispravu. Pribavljanje isprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DDF0C8F3A2E27FCEC8CBC854EC2C68FF6DDD2EB580821ADEA87B1EF099B6CECD",
+    "sha256_datoteke": "13E36E792043A0854728ECD2101CDC83D95DE230C0CCAD3FED2B3FC34E2E8F70",
+    "napomena": null
+  }
+}

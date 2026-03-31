@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". (1) U upravnim sporovima pred upravnim sudovima odlučuje sudac kojemu je predmet dodijeljen u rad. (2) U upravnim sporovima, a kada to zahtijeva složenost slučaja, sudac kojem je predmet dodijeljen u rad može takav predmet rješavati u vijeću od tri suca. (3) Vijeće iz stavka 2. ovoga članka čine sudac kojem je predmet dodijeljen u rad kao predsjednik vijeća i dva suca kao članovi vijeća. (4) Visoki upravni sud odlučuje u vijeću od tri suca, osim o zakonitosti općih akata kada odlučuje u vijeću od pet sudaca. Izuzeće",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A0371B8D9FC10A7DF766B0A42160B8345620C5B1FBD7BAF3CAA19F29316E5323",
+    "sha256_datoteke": "B03246D2DE8FB9117BE395018A4B028F72105BA570B87C7DF7E881A48EBEB654",
+    "napomena": null
+  }
+}

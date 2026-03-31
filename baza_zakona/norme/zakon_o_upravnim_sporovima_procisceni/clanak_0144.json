@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "144",
+    "naslov": null,
+    "tekst": ". (1) Troškove spora čine opravdani izdaci učinjeni tijekom ili u povodu spora. (2) Troškovi spora obuhvaćaju i nagradu za rad odvjetnika i drugih osoba koje imaju pravo na zakonom propisanu naknadu. (3) Vrijednost predmeta spora smatra se neprocjenjivom. (4) Troškovi spora obuhvaćaju i zatezne kamate koje teku od dana donošenja odluke kojom je naloženo plaćanje troškova do isplate, ako ih stranka kojoj je naloženo plaćanje troškova ne podmiri u ostavljenom roku. O zateznim kamatama na iznos troškova spora sud odlučuje na zahtjev stranke. Predujmljivanje troškova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4A9E43A93D37D3D4AB380F032D08D097C5B1002474FE87A6F6BCD2043C1A33F2",
+    "sha256_datoteke": "B4FE655C39F4CC3538D6A082C9821FE19AA47370ECF7ECC02A9D77065D495462",
+    "napomena": null
+  }
+}

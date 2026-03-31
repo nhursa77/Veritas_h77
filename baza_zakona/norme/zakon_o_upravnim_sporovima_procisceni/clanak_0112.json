@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "112",
+    "naslov": null,
+    "tekst": ". (1) Ako stranka propusti ročište ili rok za poduzimanje neke radnje u sporu i zbog toga izgubi pravo poduzeti tu radnju, sud će toj stranki na njezin prijedlog dopustiti naknadno obavljanje radnje samo ako ocijeni da postoje opravdani razlozi za propuštanje. (2) Prijedlog za povrat u prijašnje stanje podnosi se sudu kod kojeg je trebalo obaviti propuštenu radnju u roku od 15 dana od dana kad je prestao razlog koji je uzrokovao propuštanje, a ako je stranka tek kasnije saznala za propuštanje, od dana kad je za to saznala. Nakon proteka 90 dana od propuštanja ne može se tražiti povrat u prijašnje stanje. (3) Ako se povrat u prijašnje stanje traži zbog propuštanja roka za poduzimanje radnje, predlagatelj je dužan istodobno s podnošenjem prijedloga obaviti i propuštenu radnju. (4) O prijedlogu za povrat u prijašnje stanje sud odlučuje rješenjem, a ako prijedlog usvoji, spor se vraća u ono stanje u kojem se nalazio prije propuštanja te se poništavaju sve odluke koje je sud zbog propuštanja donio. (5) Neće se dopustiti povrat u prijašnje stanje ako je propušten rok za podnošenje prijedloga za povrat u prijašnje stanje ili ako je propušteno ročište određeno u povodu prijedloga za povrat u prijašnje stanje. Razgledavanje spisa predmeta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A1B006CEB20B96F43A33F7D6618CBA2D95B46469E18FC4911230583B1C193533",
+    "sha256_datoteke": "A107EEC0D9B2B11916B33DBE192E9F75781FE4F475FD9B8FDF8A2ACEDE8338D5",
+    "napomena": null
+  }
+}

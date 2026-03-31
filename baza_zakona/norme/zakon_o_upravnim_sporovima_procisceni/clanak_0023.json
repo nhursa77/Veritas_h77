@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "23",
+    "naslov": null,
+    "tekst": ". (1) Zakonski zastupnik može u ime tužitelja ili zainteresirane osobe poduzimati sve radnje u sporu, ali ako je za podnošenje ili povlačenje tužbe, za priznanje tužbenog zahtjeva, za zaključenje nagodbe ili za poduzimanje drugih radnji u postupku u posebnim propisima određeno da zastupnik mora imati posebno ovlaštenje, on može te radnje poduzimati samo ako ima takvo ovlaštenje. (2) Osoba koja se pojavljuje kao zakonski zastupnik dužna je na zahtjev suda dokazati da je zakonski zastupnik. Kad je za poduzimanje određenih radnji u sporu potrebno posebno ovlaštenje, zakonski zastupnik dužan je dokazati da ima takvo ovlaštenje. (3) Kad sud utvrdi da zakonski zastupnik ne ulaže dovoljno pozornosti u zastupanju, obavijestit će o tome tijelo koje ga je odredilo odnosno koje obavlja nadzor nad radom zakonskog zastupnika. Ako bi zbog propuštanja zastupnika mogla nastati šteta za tužitelja ili zainteresiranu osobu, sud će zastati sa sporom i predložiti određivanje drugog zakonskog zastupnika. Briga o postupovnoj sposobnosti te urednom zastupanju",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4B2705857E431D6D32A511B86FE03CFFF8ACB864C8BF267AEF2A5FEB567D9BA5",
+    "sha256_datoteke": "395D32A0FD57283669EC7EBBD47942B95888EBF6A0FA22D7DA3B12CD5920F908",
+    "napomena": null
+  }
+}

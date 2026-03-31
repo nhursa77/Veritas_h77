@@ -3001,3 +3001,60 @@ Dokazne naredbe:
 - git branch -vv
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+## Datum: 31.03.2026.
+
+### ZADATAK 102 - stvarni ingest važećeg ZUS po paketnom manifestu
+
+Pokrenut je stvarni ingest po `paketi/PAKET_ZUS_V1.json` za
+`zakon_o_upravnim_sporovima`.
+
+Primijenjen je model jednog važećeg akta:
+
+- važeći akt: `NN 36/2024` - Zakon o upravnim sporovima
+- režim rada: jedan važeći cjeloviti akt (`PROCISCENI_FIRST`)
+- ne koristi se paket starih izmjena
+- `zakon.hr` ostaje samo kontrolni izvor
+
+Obrađeni akt:
+
+- `zakon_o_upravnim_sporovima`
+
+Minimalni patch manifesta:
+
+- nije bio potreban
+
+Nastali izlazi i artefakti postojećeg workflowa:
+
+- `izvori/dokazno/narodne_novine/zakon_o_upravnim_sporovima/`
+- `izvori/dokazno/narodne_novine/ZAKON_O_UPRAVNIM_SPOROVIMA_SELECTION_REPORT.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+- `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/`
+- ažuriran `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+
+Rezultat ingest-a i provjere:
+
+- paketni ingest završio je s `exit=0`
+- zasebni `acceptance_preflight` završio je s `exit=0`
+- potvrđeno: `NN_COUNT=172`, `MISSING_COUNT=0`, `EXTRA_LIST=[]`,
+  `TIP_ACTUAL=procisceni`
+
+Ažurirana dokumentacija:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Sljedeći logički korak:
+
+- kontrolna usporedba ZUS JSON seta sa `zakon.hr`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ingest_paket.ps1`
+  `-PaketPath .\paketi\PAKET_ZUS_V1.json`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\acceptance_preflight.ps1 -AktSlug zakon_o_upravnim_sporovima`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

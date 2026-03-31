@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "171",
+    "naslov": null,
+    "tekst": ". Danom stupanja na snagu ovoga Zakona prestaje važiti Zakon o upravnim sporovima (»Narodne novine«, br. 20/10., 143/12., 152/14., 94/16. – Odluka Ustavnog suda Republike Hrvatske, 29/17. i 110/21.). Stupanje na snagu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A2FD70E5B5652980AA4B580576F89AE47CB8C6853F2A37F57D3D66C2419E341D",
+    "sha256_datoteke": "24398E1B15C049EBFC2220E4B4CB08E610CEDDDFF63A82965C0148B1BC82CE8D",
+    "napomena": null
+  }
+}

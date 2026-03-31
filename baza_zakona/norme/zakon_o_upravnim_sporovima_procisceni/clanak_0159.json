@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "159",
+    "naslov": null,
+    "tekst": ". (1) Ako sud u postupku utvrdi da opći akt koji bi trebao primijeniti odnosno pojedina njegova odredba nisu suglasni sa zakonom, na konkretan slučaj može neposredno primijeniti zakon. (2) U slučaju iz stavka 1. ovoga članka sud će Visokom upravnom sudu podnijeti zahtjev za ocjenu zakonitosti spornog općeg akta odnosno pojedine njegove odredbe. (3) Kad sud pravomoćnom odlukom odbije primijeniti opći akt zbog njegove nezakonitosti odnosno pojedinu njegovu odredbu, a Visoki upravni sud utvrdi da takva nezakonitost ne postoji, stranka kojoj je time bilo povrijeđeno neko pravo ili pravni interes može zahtijevati izmjenu pravomoćne odluke suda odgovarajućom primjenom odredaba o obnovi upravnog spora ili drugog sudskog postupka u roku od tri mjeseca od dana dostave odluke. (4) Sud koji je podnio zahtjev Visokom upravnom sudu dostavit će odluku strankama. Sadržaj i predaja zahtjeva odnosno obavijesti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "40D931D3162E8C1338637B5A3F83F7CD285895CC305E9DD9E3BC8CC4726CC992",
+    "sha256_datoteke": "6D5F9ADA9CCF0370EF9EB9D2037C3703BB3E8365FE44A1A8956E7EA15EEF599F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "80",
+    "naslov": null,
+    "tekst": ". Vještaci se pozivaju dostavom pisanog poziva u kojem se navodi ime i prezime pozvanoga, vrijeme i mjesto dolaska, predmet u vezi s kojim se poziva i naznaka da se poziva kao vještak. U pozivu će se vještak upozoriti na posljedice neopravdanog izostanka i na pravo na naknadu troškova. Pravila vještačenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "317886E32A9DF3C4C21E84F1F9D8FA630A50516C2EF24ECDF2FF1E3AECAA2DA8",
+    "sha256_datoteke": "9013C6F47035555134270CA7B36DB90EFD11F22E5E2CEA45BE0D12C3844D60CC",
+    "napomena": null
+  }
+}

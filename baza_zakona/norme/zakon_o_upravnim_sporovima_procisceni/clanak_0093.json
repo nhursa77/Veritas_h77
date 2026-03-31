@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "93",
+    "naslov": null,
+    "tekst": ". (1) Izvođenje dokaza određuje sud rješenjem u kojem će se naznačiti sporna činjenica o kojoj treba izvesti dokaz i dokazno sredstvo. (2) Predložene dokaze koje ne smatra važnim za odluku sud će odbiti i u rješenju naznačiti razlog odbijanja. (3) Sud nije u daljnjem tijeku spora vezan za svoje prijašnje rješenje o izvođenju dokaza. Izvođenje dokaza saslušanjem",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4BFE3879F7A71CB3BF727EAF48C1D81885783BB3FC90D5E1203AFFCF2E36CED3",
+    "sha256_datoteke": "C1417F8209D12277382C214D6C6EDA87E00972B5B0A5500E6CBA79E7222D84B7",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "47",
+    "naslov": null,
+    "tekst": ". (1) Sud odlučuje u granicama tužbenog zahtjeva, ali nije vezan razlozima tužbe. (2) Sud može riješiti stvar i kada to tužitelj nije izrijekom tražio. (3) Na razloge ništavosti pojedinačne odluke i ništetnosti upravnog ugovora sud pazi po službenoj dužnosti. Dostava tužbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0F76794CFE5E7A460FF73CE0966CCA675D30ABDF01E09F466B68CF66C1D139A4",
+    "sha256_datoteke": "8FD73009B0857D355896559699016446E9882204ADC86EA0A828168AD0CDDADB",
+    "napomena": null
+  }
+}

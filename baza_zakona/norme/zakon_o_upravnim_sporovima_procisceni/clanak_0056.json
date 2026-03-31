@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": ". (1) Pod javnom ispravom u smislu ovoga Zakona smatra se isprava koju su izdali nadležni sudovi ili javnopravna tijela u granicama svoje nadležnosti i u propisanom obliku. Javna isprava dokazuje istinitost onoga što se u njoj potvrđuje ili određuje. (2) Dokaznu snagu kao javna isprava imaju i druge isprave koje su posebnim propisima u pogledu dokazne snage izjednačene s javnim ispravama. (3) Dopušteno je dokazivati da su u javnoj ispravi neistinito utvrđene činjenice ili da je isprava nepravilno sastavljena. (4) Ako sud posumnja u autentičnost isprave, može zatražiti da se o tome izjasni tijelo ovlašteno za njezino izdavanje. Inozemna javna isprava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "08053C420E066AD0E7D4860E94F8C9B14AA8C6F111CAD7A3F451024A6A7FC363",
+    "sha256_datoteke": "FC28D4EFD07B6311DCD787F260A1FF5888BE39D9CB277D9904E24A4A2C02A208",
+    "napomena": null
+  }
+}

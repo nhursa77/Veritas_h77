@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "170",
+    "naslov": null,
+    "tekst": ". Do stupanja na snagu pravilnika iz članka 109. stavka 9. ovoga Zakona ostaje na snazi Pravilnik o elektroničkoj komunikaciji (»Narodne novine«, br. 139/21. i 27/23.). Prestanak važenja Zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "38B64EA9C4EE701C86E81750307437E83B088F5C1146DB7C25E4A163DF1B32AB",
+    "sha256_datoteke": "CF83D26FCCAF098D132438CCA2927CFE156DA8AA6BAC83E18963B627507100F0",
+    "napomena": null
+  }
+}

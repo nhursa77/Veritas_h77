@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "121",
+    "naslov": null,
+    "tekst": ". (1) Presuda se objavljuje u roku koji ne može biti dulji od 30 dana od dana zaključenja rasprave. (2) Presudu objavljuje sudac kojem je predmet dodijeljen u rad odnosno predsjednik vijeća. (3) Na objavi presude javno će se pročitati izreka i ukratko obrazložiti presuda. (4) Datum objave presude odredit će se na ročištu na kojem je rasprava zaključena. (5) Ročište na kojem se presuda objavljuje održat će se neovisno o tome jesu li stranke o njemu uredno obaviještene odnosno jesu li pristupile na ročište. (6) Ako je javnost na raspravi bila isključena, izreka presude javno će se pročitati, a sud će odlučiti hoće li se i koliko isključiti javnost pri objavi razloga presude. (7) Svi nazočni saslušat će čitanje izreke presude stojeći. Dostava presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0AB9784CBAB8C0448CEA1823F22884971457F98249403DA0EAAA3D202297BB3E",
+    "sha256_datoteke": "579D5026A94577F4FC27B606D315795E8A3910D96E9AD1B89F1F52B50692B5BB",
+    "napomena": null
+  }
+}

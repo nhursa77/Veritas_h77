@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "78",
+    "naslov": null,
+    "tekst": ". (1) Sud će kazniti novčanom kaznom vještaka koji ne dođe na ročište iako je uredno pozvan, a izostanak ne opravda, vještaka koji bez opravdanog razloga odbije vještačiti te vještaka koji svoj nalaz i mišljenje bez opravdanog razloga ne podnese u roku koji mu je odredio sud. (2) Rješenje o kazni sud može poništiti pod uvjetima propisanim za svjedoke. (3) Na zahtjev stranke sud može rješenjem narediti vještaku da nadoknadi troškove koje je uzrokovao svojim neopravdanim nedolaskom ili neopravdanim odbijanjem da vještači. O takvom zahtjevu sud je dužan odlučiti bez odgode. Protiv rješenja žalba je dopuštena. Naknade i nagrade vještacima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5C1F63A409D5AF7A7F0A36E1B3B8013C1330D35FD9BA28455E071A1C2AF44FAE",
+    "sha256_datoteke": "E8C49248EBB23C65748ECE092D2A903BB4D7EFAA0CDA123A42D1008714C2F1DA",
+    "napomena": null
+  }
+}

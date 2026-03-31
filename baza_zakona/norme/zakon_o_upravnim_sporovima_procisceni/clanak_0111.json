@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "111",
+    "naslov": null,
+    "tekst": ". (1) Ako rokovi nisu propisani ovim Zakonom, određuje ih sud prema okolnostima slučaja. Sud rokove određuje na dane ili određenim datumom. (2) Kad je rok određen na dane, dan kada je dostava izvršena odnosno dan u koji pada događaj od kojega se računa trajanje roka ne uračunava se u rok, već se početak roka računa od sljedećeg dana. (3) Nedjelje, blagdani i neradni dani ne utječu na početak i tijek roka. Kad zadnji dan roka pada u nedjelju, na blagdan ili drugi dan kada sud ne radi, rok istječe prvog sljedećeg radnog dana. Povrat u prijašnje stanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5BD5DC84DAD8C750F22061256B9AD3E3D431B4C98D0FFB92FCA6CDC99501D0E2",
+    "sha256_datoteke": "54C9E545E224D610ACEE6169C5649E40A39525B7BE4E581BCC3068F3FE4C4BA6",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": ". (1) Poziv na ročište na kojem će se izvoditi dokaz saslušanjem stranaka dostavit će se osobno strankama odnosno osobi koja će se za stranku saslušati. (2) Ako stranka ima opunomoćenika, poziv na ročište na kojemu će se izvesti dokaz saslušanjem stranaka stranki ili osobi koja se treba saslušati za stranku uputit će se preko opunomoćenika. (3) U pozivu će se naznačiti da će se na ročištu izvoditi dokaz saslušanjem stranaka i da stranka koja dođe na ročište može biti saslušana u odsutnosti druge stranke. (4) Ne mogu se primijeniti nikakve prisilne mjere prema stranki koja se nije odazvala pozivu suda radi saslušanja niti se stranka može prisiliti na davanje iskaza. (5) Sud će, s obzirom na sve okolnosti, ocijeniti od kakva je značenja što stranka nije došla na saslušanje ili što je uskratila iskaz. Osiguranje dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D77A457D6AF41C624295B8326A20EE6EBF793A67C1FAC0D081AE4446D0A0E384",
+    "sha256_datoteke": "6FD1A5809C20D77F6B5E89FD5C5591DD3AF013EF3C068A21CF1A44A0D0DBDE17",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "39",
+    "naslov": null,
+    "tekst": ". (1) Tužba mora biti razumljiva i obvezno mora sadržavati: 1. naziv suda kojem se podnosi 2. osobno ime odnosno naziv, osobni identifikacijski broj i adresu tužitelja 3. naziv i osobni identifikacijski broj tuženika 4. oznaku osporavane pojedinačne odluke ili upravnog ugovora odnosno opis postupanja ili obveze izvršenje kojih se zahtijeva 5. tužbeni zahtjev 6. opseg osporavanja pojedinačne odluke, postupanja ili upravnog ugovora 7. razloge za pokretanje spora glede glavne stvari i sporednih traženja 8. činjenice i dokaze na kojima tužitelj temelji tužbeni zahtjev 9. potpis tužitelja. (2) Ako se u sporu traži povrat stvari ili naknada štete, zahtjev u svezi sa stvarima i visinom pretrpljene štete mora biti sadržan u tužbi. (3) Ako tužitelj nema prebivalište odnosno boravište ili sjedište u Republici Hrvatskoj, u tužbi je obvezan naznačiti opunomoćenika ili opunomoćenika za primanje pismena. (4) Tužbi treba priložiti izvornik ili presliku osporene pojedinačne odluke, upravnog ugovora ili dokaz o postupanju. Pri pokretanju spora zbog propuštanja donošenja pojedinačne odluke ili postupanja u propisanom roku, tužbi treba priložiti i dokaz o trenutku pokretanja upravnog postupka odnosno podnošenja zahtjeva za postupanje. (5) Uz tužbu se podnosi prijepis tužbe i priloga za tuženika i, ako ih ima, za svaku zainteresiranu osobu. Rok za podnošenje tužbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5019F6C6E66066BDC3832C66C9C80D5B5F4F952D16C43F64DE644332286505C1",
+    "sha256_datoteke": "EAF74F2A345D6D955C1DF38E8677EC0E58520185736F6C337A5A7497EB53442C",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "141",
+    "naslov": null,
+    "tekst": ". (1) Zahtjev za izvanredno preispitivanje zakonitosti Državno odvjetništvo Republike Hrvatske može podnijeti Vrhovnom sudu Republike Hrvatske u roku od šest mjeseci od dana dostave pravomoćne presude odnosno rješenja strankama. Državno odvjetništvo Republike Hrvatske ovaj zahtjev može podnijeti i po službenoj dužnosti. (2) Ako je državno odvjetništvo bilo stranka u upravnom sporu ili je zastupalo tuženika u upravnom sporu, zahtjev za izvanredno preispitivanje zakonitosti može Vrhovnom sudu Republike Hrvatske izravno podnijeti i protivna stranka u roku iz stavka 1. ovoga članka. (3) Ako Državno odvjetništvo Republike Hrvatske ne postupi u skladu s člankom 140. stavcima 4. i 5. ovoga Zakona, zahtjev za izvanredno preispitivanje zakonitosti može Vrhovnom sudu Republike Hrvatske izravno podnijeti stranka u roku iz stavka 1. ovoga članka. (4) Odredba stavka 3. ovoga članka ne primjenjuje se na javnopravna tijela. (5) Zahtjev mora sadržavati podatke propisane člankom 140. stavkom 2. ovoga Zakona. (6) Protivna stranka iz stavka 2. ovoga članka i stranka iz stavka 3. ovoga članka mogu same podnijeti zahtjev ako imaju završen sveučilišni diplomski studij prava odnosno integrirani prijediplomski i diplomski sveučilišni studij prava i položen pravosudni ispit odnosno za njih može zahtjev podnijeti kao opunomoćenik osoba koja ih je prema odredbama ovoga ili kojega drugog zakona ovlaštena zastupati u tom svojstvu ako ima završen sveučilišni diplomski studij prava odnosno integrirani prijediplomski i diplomski sveučilišni studij prava i položen pravosudni ispit. (7) U zahtjevu se ne mogu iznositi nove činjenice, osim onih koje se odnose na osobito teške materijalne ili postupovne povrede zakona iz članka 139. ovoga Zakona. Sastav vijeća Vrhovnog suda Republike Hrvatske",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CC9E63B23390510A239EE19621FFD1B8724E0C43656BAEAE8F34E71A6C081192",
+    "sha256_datoteke": "37DED35834F612F0C17B6551F13714E39B4F1B3A4BD340CF138E5988135D2826",
+    "napomena": null
+  }
+}

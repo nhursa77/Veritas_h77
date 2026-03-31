@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". (1) Upravni spor vodi se na hrvatskom jeziku i latiničnom pismu. (2) Stranke i drugi sudionici u upravnom sporu imaju pravo pred sudom upotrebljavati svoj jezik uz ovlaštenog prevoditelja. Te se stranke mogu odreći prava na prevođenje ako izjave da znaju hrvatski jezik. Troškovi prevođenja terete stranku na koju se odnose, ako zakonom nije drukčije propisano. GLAVA II. NADLEŽNOST I SASTAV SUDA Nadležnost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "84A28B1C586436A78B8DEFF7D1FA354228D115F4D5A73D1D6779321BF6ECE6BF",
+    "sha256_datoteke": "F550C8F278B57A02CDF9A52F22E968617F716A095F6309CBD3A784A0FF124AB4",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "89",
+    "naslov": null,
+    "tekst": ". (1) Ročište za raspravu zakazuje sudac pojedinac, a u sporovima u kojima sudi vijeće raspravu priprema i zakazuje sudac kojem je predmet dodijeljen u rad kao predsjednik vijeća, koji je ovlašten donositi sve odluke i poduzimati sve radnje koje je tijekom pripremanja rasprave ovlašten donositi odnosno poduzimati sudac pojedinac. (2) Ročište se, u pravilu, održava neposredno. Sud može odrediti da se ročište održi na daljinu, uz korištenje odgovarajućih audiovizualnih uređaja ili da se na taj način izvede pojedini dokaz. (3) Sudac će na ročište pozvati stranke, svjedoke i po potrebi vještake. Poziv se mora uručiti najkasnije 15 dana prije održavanja ročišta na koje su pozvani, a u hitnim postupcima bez odgode. (4) U pozivu će se navesti da se ročište može održati i donijeti presuda i bez nazočnosti uredno obaviještene stranke. (5) Sudac, u pravilu, zakazuje jedno ročište za raspravu radi izvođenja svih dokaza. (6) Imenovane vještake sud će obavijestiti o predmetu koji treba razgledati i pozvati ih da u roku koji odredi sudac pripreme svoj nalaz i mišljenje. Javnost rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C0C5BA2D553023F2CF44194904DAB26B17DBD8B92D5C33E6790A86157BD352A3",
+    "sha256_datoteke": "7E81F1D57AFB12F62D0975761F3EC4FAEC48EA019B377938E730184EBF7467B8",
+    "napomena": null
+  }
+}

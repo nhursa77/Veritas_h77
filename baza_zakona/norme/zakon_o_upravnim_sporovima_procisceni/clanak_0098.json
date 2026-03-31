@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "98",
+    "naslov": null,
+    "tekst": ". Sud može presudom riješiti spor bez rasprave: 1. ako je tuženik priznao tužbeni zahtjev u cijelosti 2. u predmetu u kojem se rješava na temelju pravomoćne presude donesene u oglednom sporu 3. ako utvrdi da pojedinačna odluka, postupanje ili upravni ugovor sadržava nedostatke koji sprječavaju ocjenu njihove zakonitosti 4. ako tužitelj osporava samo primjenu prava, činjenice su nesporne, a stranke u tužbi ili u odgovoru na tužbu izričito ne zahtijevaju održavanje rasprave 5. ako se stranke o tome izrijekom suglase, a sud utvrdi da nije potrebno izvoditi nove dokaze 6. ako na temelju stanja spisa utvrdi da je pojedinačna odluka javnopravnog tijela nezakonita, a tuženik u odgovoru na tužbu ne traži održavanje rasprave i ne predlaže izvođenje dokaza. GLAVA V. RADNJE U UPRAVNOM SPORU Proširenje tužbenog zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "760C6E863BE79442DE0417D8A04DA731BE3143EA8BA682A079A785C5B557C333",
+    "sha256_datoteke": "B8A0606B3D271B771A1C51BC16C1F53CC1003416B46C64B348865FA5F893CD99",
+    "napomena": null
+  }
+}

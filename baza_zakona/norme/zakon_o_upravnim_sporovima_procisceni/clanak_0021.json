@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "21",
+    "naslov": null,
+    "tekst": ". (1) Tužitelj i zainteresirana osoba mogu poduzimati radnje u sporu ako su potpuno poslovno sposobni odnosno u granicama svoje poslovne sposobnosti. (2) Za tužitelja ili zainteresiranu osobu radnje u sporu može poduzimati osoba ovlaštena za zastupanje, zajednički predstavnik i zajednički opunomoćenik skupine osoba. Osoba ovlaštena za zastupanje dužna je pri prvoj radnji u sporu podnijeti dokaz o ovlasti za zastupanje stranke. (3) Za tuženika radnje u sporu može poduzimati službena osoba javnopravnog tijela koja je donijela ili propustila donijeti odluku, postupila ili propustila postupiti odnosno službena osoba javnopravnog tijela čija je odluka potvrđena osporavanom odlukom te druga osoba određena propisima o unutarnjem ustrojstvu javnopravnog tijela. Za poduzimanje radnji u sporu čelnik javnopravnog tijela može ovlastiti drugu službenu osobu tog tijela. Tijela državne uprave i druga državna tijela po punomoći čelnika može zastupati državno odvjetništvo. (4) Kada je Vlada Republike Hrvatske tuženik u upravnom sporu, za poduzimanje radnji u sporu može ovlastiti službenu osobu pojedinog ministarstva ili drugog tijela državne uprave iz čijeg je djelokruga predmet upravnog spora, u skladu sa stavkom 3. ovoga članka. (5) Radnja u sporu koju poduzima osoba ovlaštena za zastupanje ima isti pravni učinak kao da je poduzima i sama stranka. (6) Sud može, kada smatra korisnim za razrješenje spora, pozvati tužitelja ili zainteresiranu osobu koje zastupa osoba ovlaštena za zastupanje da se osobno odazovu i izjasne o određenim činjenicama. Postupovna nesposobnost tužitelja i zainteresirane osobe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FC4E0D4B7E404E81298A3B84D0789FF8671827D07523B7A52A6928232A2A3CC5",
+    "sha256_datoteke": "55F0692D205C3AB9BBFD19E59E81B4FB612E01E3281065AFCA51457897C9ACDE",
+    "napomena": null
+  }
+}

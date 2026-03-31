@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "31",
+    "naslov": null,
+    "tekst": ". (1) Ako je odvjetniku privremeno obustavljeno pravo na obavljanje odvjetništva, tada ga zamjenjuje privremeni zamjenik kojem pripadaju sva prava koja ima odvjetnik kojeg zamjenjuje i bez punomoći stranaka. (2) Privremeni zamjenik dužan je sudu podnijeti rješenje o postavljanju za privremenog zamjenika prilikom obavljanja prve radnje u sporu. (3) Ako odvjetnik prestane obavljati odvjetništvo, tada je preuzimatelj njegova ureda dužan bez posebne punomoći zastupati stranku najdulje šest mjeseci od dana kada je odvjetnik prestao obavljati odvjetništvo. (4) Preuzimatelj ureda dužan je o tome, bez odgode, obavijestiti sud i stranku koju zastupa. Opseg punomoći opunomoćenika koji nije odvjetnik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "65FC517D4FA642AC1835E15878AB146060F86DAC3D8CDDDA05307A561D5F4F05",
+    "sha256_datoteke": "69C7EC1580F7BA59C680C14DFA4E9B186CFF3E3244A567FD505C2B91BD700D9D",
+    "napomena": null
+  }
+}

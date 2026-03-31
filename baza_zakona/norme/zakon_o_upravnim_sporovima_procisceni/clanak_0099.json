@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "99",
+    "naslov": null,
+    "tekst": ". (1) Tužitelj može proširiti tužbeni zahtjev do zaključenja rasprave, a kad se rasprava ne vodi, do donošenja odluke suda. (2) Proširenje tužbenog zahtjeva mora biti u okviru istoga predmeta spora. (3) Kad dopusti proširenje tužbenog zahtjeva, sud će odrediti vrijeme potrebno za pripremu tuženika i zainteresiranih osoba za raspravu. Proširenje tužbenog zahtjeva u sporu pokrenutom zbog propuštanja donošenja pojedinačne odluke",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9AA520508151263B1376AF7E1F8498D240C8189D614466B60F9CD1614DE937C3",
+    "sha256_datoteke": "DDD2A4DB87541AD1BB343D8812AF62C41FE3677738C66DECAF8EEF4F2F854D2E",
+    "napomena": null
+  }
+}

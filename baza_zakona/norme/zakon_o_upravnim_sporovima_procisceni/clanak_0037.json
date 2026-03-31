@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "37",
+    "naslov": null,
+    "tekst": ". (1) Smrću fizičke osobe odnosno prestankom pravne osobe prestaje i punomoć koju je ona izdala. (2) U slučaju stečaja punomoć koju je izdao stečajni dužnik prestaje kad prema važećim propisima nastupe pravne posljedice otvaranja stečajnog postupka, ako zakonom nije drukčije određeno. (3) Iznimno od ovoga članka, opunomoćenik je dužan još mjesec dana obavljati radnje u sporu ako je potrebno od stranke otkloniti štetu. DIO DRUGI PRVOSTUPANJSKI UPRAVNI SPOR GLAVA I. PODNOŠENJE TUŽBE Pokretanje upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "06FAAFAB005378E59FAB81CFC3B3CA57102AE20D11A059D6E7388F4DC5437DD8",
+    "sha256_datoteke": "95299BC2EE4D2C023CF60D6B85DEAE574E95684D6DA29D92EF30C134A8059B0D",
+    "napomena": null
+  }
+}

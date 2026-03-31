@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "67",
+    "naslov": null,
+    "tekst": ". Stranka koja predlaže da se određena osoba sasluša kao svjedok mora prije toga naznačiti o čemu ona treba svjedočiti i navesti njezino ime i prezime i adresu. Pozivanje svjedoka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "ECEFDE061A185CD7125FC4F5AB34D9C9166F3655B6032536FE8F16E035E88691",
+    "sha256_datoteke": "B2233AF79B44A547AEF66A0D83975E2B6AA1D04E2451962B0EF9A65E3B4E4952",
+    "napomena": null
+  }
+}

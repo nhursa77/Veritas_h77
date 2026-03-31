@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "26",
+    "naslov": null,
+    "tekst": ". (1) Tužitelja ili zainteresiranu osobu kao opunomoćenik može zastupati odvjetnik, osoba koja je s njom u radnom odnosu, ako je potpuno poslovno sposobna, krvni srodnik u ravnoj lozi, brat, sestra, bračni drug, izvanbračni drug, životni partner, neformalni životni partner – ako je potpuno poslovno sposoban, ako zakonom nije drukčije određeno. (2) Službenike i namještenike u upravnim sporovima u vezi s ostvarivanjem njihovih prava iz službeničkih odnosa može kao opunomoćenik zastupati osoba koja je u radnom odnosu u sindikatu čiji je on član ili u udruzi sindikata u koju je udružen sindikat čiji je on član. Uskrata zastupanja opunomoćeniku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E1B4B759D152EC4EB9CA5F9039FD27B90548D4352D28D0019789E98A35AB7185",
+    "sha256_datoteke": "B37ABFDA27406E90F033F9EC5FE8F3DA71F4C7D7BF54B92F5417E77635CCEA74",
+    "napomena": null
+  }
+}

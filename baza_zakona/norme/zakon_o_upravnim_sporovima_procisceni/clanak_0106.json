@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "106",
+    "naslov": null,
+    "tekst": ". (1) Sud će rješenjem obustaviti spor: 1. kad tužitelj umre ili prestane postojati, a spor se s obzirom na narav upravne stvari ne može nastaviti 2. kad nastupe razlozi propisani člankom 101. stavcima 1. i 2., člankom 103. stavkom 1. ili člankom 165. ovoga Zakona 3. kada se iz cjelokupnog stanja spora može zaključiti da je tužitelj odustao od tužbenog zahtjeva. (2) Rješenje o obustavi spora sud će dostaviti svim strankama u sporu te nasljednicima odnosno pravnim sljednicima tužitelja koji je umro ili prestao postojati, nakon što oni budu utvrđeni. (3) Sud će nasljednicima umrlog tužitelja, na prijedlog stranke ili po službenoj dužnosti, postaviti privremenog zastupnika kojemu će dostaviti rješenje o obustavi spora, ako ocijeni da bi ostavinski postupak mogao dulje trajati. (4) Kad je pravna osoba prestala postojati, sud će rješenje o obustavi spora dostaviti drugim strankama i pravnom sljedniku tužitelja nakon što on bude utvrđen. (5) Protiv rješenja o obustavi spora stranka može izjaviti žalbu. Dok se postupak po žalbi o obustavi spora ne završi, na rokove za poduzimanje radnji te na prava stranaka na odgovarajući način primjenjuju se pravila o prekidu spora. Spajanje upravnih sporova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "678AADD60F8FCE30E25138FDB92A3F32B974585771E0DEFAECA547DCA122FE93",
+    "sha256_datoteke": "7B47BA929E1DF932BCA28D6CFEFF285D250F4E25AA1D55A7BC2BD44984BEF9A8",
+    "napomena": null
+  }
+}

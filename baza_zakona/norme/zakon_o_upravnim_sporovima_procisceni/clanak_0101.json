@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "101",
+    "naslov": null,
+    "tekst": ". (1) Tužitelj može povući tužbu sve do zaključenja rasprave, a kad se rasprava ne vodi, do donošenja odluke suda. Povlačenje tužbe ne može se opozvati. (2) Ako tužitelj u roku koji mu je za to određen ne postupi po zahtjevu suda, pri čemu je poučen o pravnim posljedicama propuštanja, tužba se smatra povučenom. (3) U slučaju povlačenja tužbe spor se obustavlja. Priznanje tužbenog zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "AF4D57F697EB9001602F0D2A6014650577D8786A7485AA242DC9C397CB8B35FB",
+    "sha256_datoteke": "183C56C1C44CBD6F027B6A228D7DBC4007AF46918B09BD9C0220E8223D9D15FB",
+    "napomena": null
+  }
+}

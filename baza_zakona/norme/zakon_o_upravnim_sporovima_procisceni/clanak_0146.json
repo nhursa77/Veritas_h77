@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "146",
+    "naslov": null,
+    "tekst": ". (1) Kad stranka predloži izvođenje dokaza, dužna je po nalogu suda unaprijed položiti iznos potreban za podmirenje troškova koji će nastati u povodu izvođenja dokaza. (2) Kad izvođenje dokaza predlože obje stranke ili kad ga sud odredi po službenoj dužnosti, sud može odrediti da iznos potreban za podmirenje troškova polože obje stranke na jednake dijelove ili samo jedna stranka. (3) Sud će odustati od izvođenja dokaza ako iznos potreban za podmirenje troškova ne bude položen u roku što ga sud odredi. U tom će slučaju sud, s obzirom na sve okolnosti, po svojem uvjerenju cijeniti od kakve je važnosti što stranka nije u roku položila iznos potreban za podmirenje troškova. (4) Ako sud izvede dokaz iako predujam za njegovo izvođenje nije položen, rješenjem će naložiti stranki da u roku od osam dana od dana primitka tog rješenja određeni iznos plati svjedoku ili vještaku. Snošenje troškova spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "58CBA42F311EBFD3891153C51D9356BD3EDC115227B048700D6E451F956E68B6",
+    "sha256_datoteke": "B8504870147FAAEE79543DB3EA8D50550241A03424CA04B1D74A88CD77B244BC",
+    "napomena": null
+  }
+}

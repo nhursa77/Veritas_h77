@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". (1) Sud tužbu sa svim prilozima dostavlja na odgovor tuženiku i zainteresiranim osobama. (2) Sud određuje rok za odgovor na tužbu prema okolnostima slučaja koji ne može biti kraći od 30 niti dulji od 60 dana. (3) U odgovoru na tužbu tuženik se treba izjasniti o zahtjevima i navodima tužbe te predložiti dokaze kojima potkrepljuje svoje navode. Uz odgovor na tužbu tuženik je dužan priložiti sve dokaze kojima raspolaže. (4) Odgovor na tužbu predaje se prema pravilima o predaji podnesaka. Uz odgovor na tužbu tuženik je dužan sudu dostaviti sve spise koji se odnose na predmet spora u obliku u kojemu su spisi vođeni. Ako tuženik ne dostavi sve spise predmeta u obliku u kojemu su vođeni ili izjavi da ih ne može dostaviti, sud može riješiti spor i bez spisa predmeta. GLAVA III. DOKAZI I IZVOĐENJE DOKAZA Utvrđivanje činjeničnog stanja i dokazi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "15DBE06B9851D3199672EF87ACF22BE08BEEE126257C41BFB2106B2F3121E122",
+    "sha256_datoteke": "392AD12245CAF79D58C417B7EB8ED4E1A05A05780C3AC4E750A4DB1F22D09E5B",
+    "napomena": null
+  }
+}

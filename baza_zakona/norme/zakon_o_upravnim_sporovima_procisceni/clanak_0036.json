@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "36",
+    "naslov": null,
+    "tekst": ". (1) Ako je opunomoćeniku dano ovlaštenje za obavljanje svih radnji u sporu, a tužitelj ili zainteresirana osoba izgubi postupovnu sposobnost odnosno njezin zakonski zastupnik umre ili izgubi poslovnu sposobnost, ili ako zakonski zastupnik bude razriješen dužnosti, opunomoćenik je ovlašten i nadalje poduzimati radnje u sporu, ali novi zakonski zastupnik može opozvati punomoć. (2) U slučajevima u ovom članku opunomoćeniku koji nije odvjetnik uvijek prestaju ovlaštenja koja se u punomoći moraju izričito navesti. Prestanak punomoći u određenim slučajevima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B4552B5324542D3C9E933A462F9EF6DD16C01EDCEC48CB9F9575EBE573C82884",
+    "sha256_datoteke": "60965089D0A0E6BBF2E603D8A217AC4F08082EBEA430E7108276758B14A72F6E",
+    "napomena": null
+  }
+}

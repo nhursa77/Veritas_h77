@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "134",
+    "naslov": null,
+    "tekst": ". (1) Visoki upravni sud ispituje prvostupanjsku presudu u dijelu u kojem je osporavana žalbom i u granicama razloga navedenih u žalbi. Na razloge ništavosti pojedinačne odluke i ništetnosti upravnog ugovora Visoki upravni sud pazi po službenoj dužnosti. (2) Visoki upravni sud o žalbi odlučuje na sjednici vijeća, bez održavanja rasprave. (3) Visoki upravni sud može održati raspravu ako to smatra potrebnim. Na zakazivanje i tijek rasprave pred Visokim upravnim sudom na odgovarajući se način primjenjuju odredbe o raspravi pred upravnim sudom. Odluka u sporu može se donijeti i ako na raspravu bez opravdanog razloga nije došla jedna stranka ili nisu došle obje uredno pozvane stranke. Ovlasti Visokog upravnog suda u odlučivanju po žalbi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "01B6E9F15A6E838CB2A42545DF29DE9A2330F103064AF8ECEE99F0A4995F856A",
+    "sha256_datoteke": "77DA4CC6B148CBEA389F39D55EFB3638CE39C2894856DA0BDA3C4A2E68E2287F",
+    "napomena": null
+  }
+}

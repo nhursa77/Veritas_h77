@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "163",
+    "naslov": null,
+    "tekst": ". (1) Ako tijekom postupka pred Visokim upravnim sudom pokrenutog po zahtjevu za ocjenu zakonitosti općeg akta taj opći akt prestane važiti, Visoki upravni sud može ocijeniti zakonitost osporenog općeg akta. (2) Kad u postupku iz stavka 1. ovoga članka utvrdi da opći akt nije bio suglasan sa zakonom ili statutom javnopravnog tijela, Visoki upravni sud donijet će presudu o utvrđenju nezakonitosti općeg akta odnosno pojedinih njegovih odredaba. (3) Presuda iz stavka 2. ovoga članka objavit će se u »Narodnim novinama«. Zahtjev za izmjenu pojedinačne odluke zbog ukidanja ili utvrđenja nezakonitosti općeg akta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "253899A04B587207134D9E405D0DF1861D943C4C2DA2FA534D00FC7626FBE13F",
+    "sha256_datoteke": "73C515748D56BC47E1359265610819C74FCE59AA44AEE757CE7858E0834162A1",
+    "napomena": null
+  }
+}

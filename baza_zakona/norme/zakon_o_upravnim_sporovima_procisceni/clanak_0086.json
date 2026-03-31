@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "86",
+    "naslov": null,
+    "tekst": ". (1) Sporne činjenice važne za odluku sud može utvrđivati i saslušavanjem stranaka. (2) Neće se saslušati stranka koja uskrati davanje iskaza ili se bez opravdanog razloga ne odazove pozivu suda. (3) Za stranku koja nema postupovnu sposobnost saslušat će se njezin zakonski zastupnik. Sud može odlučiti da se umjesto ili osim zakonskog zastupnika sasluša sama stranka, ako je njezino saslušanje moguće. (4) Za pravnu osobu saslušat će se njezin zakonski zastupnik. Ako kao stranka u sporu sudjeluje na jednoj strani više osoba, sud će odlučiti hoće li se saslušati sve te osobe ili samo neke od njih. (5) Odredbe o izvođenju dokaza svjedocima na odgovarajući način primjenjuju se i pri izvođenju dokaza saslušanjem stranaka, ako za saslušanje stranaka nije što drugo propisano. Pozivanje stranaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2BD703C2B27FAE41D267332B69B0818151E14DFE22F94C88175FF3DB31A7BA5E",
+    "sha256_datoteke": "E4994505E21DCBB3107B4AE508BEEA209AFA9521725687C180C9BDA2F15DEDFE",
+    "napomena": null
+  }
+}

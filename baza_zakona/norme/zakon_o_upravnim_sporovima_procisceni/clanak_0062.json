@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "62",
+    "naslov": null,
+    "tekst": ". (1) Svaka osoba koja se poziva kao svjedok dužna je odazvati se pozivu, a ako ovim Zakonom nije drukčije određeno, dužna je i svjedočiti. (2) Kao svjedoci mogu se saslušati samo osobe koje su sposobne dati obavijesti o činjenicama koje se dokazuju, kao i razlozima donošenja odluka u postupku koji je prethodio sporu. (3) Ne može se saslušati kao svjedok osoba koja bi svojim iskazom povrijedila dužnost čuvanja službene ili vojne tajne, dok je nadležno tijelo ne oslobodi te dužnosti. Pravo uskrate svjedočenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "79A12BCA239E65D7E3D2D549092D579B57BEE1AB89888D84AFF7C95D4E3F9519",
+    "sha256_datoteke": "B44D68DE3F05E9DFACF39401926E1FAF7B10161627E7953F53E195D47F61D639",
+    "napomena": null
+  }
+}

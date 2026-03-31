@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "147",
+    "naslov": null,
+    "tekst": ". (1) Stranka koja izgubi spor u cijelosti snosi sve troškove spora, ako zakonom nije drukčije propisano. (2) Ako stranka djelomično uspije u sporu, sud može, s obzirom na postignuti uspjeh, odrediti da svaka stranka snosi svoje troškove ili da se troškovi raspodijele razmjerno uspjehu u sporu. (3) Sud može odlučiti da jedna stranka nadoknadi sve troškove koje je protivna stranka imala ako protivna stranka nije uspjela samo u razmjerno neznatnom dijelu svog zahtjeva, a zbog tog dijela nisu nastali posebni troškovi. (4) Stranka je dužna neovisno o ishodu spora nadoknaditi protivnoj stranki troškove koje je uzrokovala svojom krivnjom ili slučajem koji se njoj dogodio. (5) Stranka koja je povukla tužbu, žalbu ili drugi prijedlog koji je prouzročio troškove drugim strankama snosi troškove i tim strankama. (6) Ako je spor obustavljen nakon što je tuženik postupio po tužbenom zahtjevu, tužitelj ima pravo na naknadu troškova spora. (7) Ako je obveznik izvršenja izvršio presudu nakon isteka roka za izvršenje presude i nakon što je zaprimio zahtjev za izvršenje presude, predlagatelj izvršenja ima pravo na naknadu troškova nastalih povodom zahtjeva za izvršenje presude. (8) Stranka koja zlouporabi prava koja joj pripadaju u sporu, nema pravo na naknadu troškova. Odlučivanje o naknadi troškova",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C011E5EB4DA76CCA20EB910E70C82E1387458EA501A3E51529E7A3714095A9FE",
+    "sha256_datoteke": "94FDF42D47866838CD5BA358BA48224A12F2C2E8AB414AED28EC5EAC9411184D",
+    "napomena": null
+  }
+}

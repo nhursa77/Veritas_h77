@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "77",
+    "naslov": null,
+    "tekst": ". (1) Vještak može biti izuzet zbog istih razloga zbog kojih može biti izuzet sudac, propisanih člankom 15. stavkom 1. ovoga Zakona. (2) Stranka je dužna podnijeti zahtjev za izuzeće vještaka čim sazna da postoji razlog za izuzeće, a najkasnije prije početka izvođenja dokaza vještačenjem. (3) U zahtjevu za izuzeće vještaka stranka je dužna navesti okolnosti na kojima temelji svoj zahtjev za izuzeće. (4) O zahtjevu za izuzeće odlučuje sudac kojemu je predmet dodijeljen u rad. Sudac zamoljenog suda odlučuje o izuzeću ako mu je povjereno izvođenje dokaza vještačenjem. (5) Ako je stranka saznala za razlog izuzeća poslije provedenog vještačenja i prigovara vještačenju zbog tog razloga, sud će postupiti kao da je zahtjev za izuzeće stavljen prije provedenog vještačenja. Kažnjavanje vještaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "08B0D9421182E0DC6367EC509587263B44E60C946A8942B700B355078D5EE890",
+    "sha256_datoteke": "7DCD0DF43C8609044187A3229E5A6EA476CD6FBE17A1730200C2E954E2145DFF",
+    "napomena": null
+  }
+}

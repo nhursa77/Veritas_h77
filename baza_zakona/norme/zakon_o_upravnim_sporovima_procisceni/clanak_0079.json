@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "79",
+    "naslov": null,
+    "tekst": ". (1) Vještak ima pravo na naknadu putnih troškova i troškova za prehranu i prenoćište, troškova vještačenja te pravo na nagradu za obavljeno vještačenje. (2) U pogledu naknade troškova i nagrade vještaka na odgovarajući način primjenjuju se odredbe članka 73. stavaka 2., 3. i 4. ovoga Zakona. Pozivanje vještaka",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C48D919C200732941B35558AE02D311C28B5537AD7FE30BE10BC4DBB69E2B70E",
+    "sha256_datoteke": "BBB63DC06B3D03A7546E41D149E638AF945DBEB20D42BE1A1462643BC8670347",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "127",
+    "naslov": null,
+    "tekst": ". (1) Žalba nije dopuštena protiv presude kojom je pojedinačna odluka javnopravnog tijela poništena ili oglašena ništavom i predmet prvi put vraćen na ponovni postupak, kao ni protiv presude kojom je sud naložio donošenje pojedinačne odluke koja nije donesena u propisanom roku. (2) Iznimno od stavka 1. ovoga članka, žalba je dopuštena protiv presude kojom je predmet prvi put vraćen na ponovni postupak ako je u obrazloženju presude naloženo donošenje sadržajno određene odluke. Žalba protiv rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9B020239F897C4E38C7B78978BCF0122FDCC8B34C219E2C943BFA48FD3D159C0",
+    "sha256_datoteke": "6FF6804F689A65ECF49427239CA129B7B3A28DFEF2F9DDC50BB257E32AD50E63",
+    "napomena": null
+  }
+}

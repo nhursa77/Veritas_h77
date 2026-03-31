@@ -1,14 +1,14 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 27.03.2026.
+Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Trenutni commit: `5fdc2fa` - docs: dnevnik rada i izvjestaj kontrole
-  arhive
+- Trenutni commit: `b2fc7c5` - docs: pripremljen manifest ingest-a za
+  vazeci zus (Z101)
 - Repo čist: DA (pre-check `git status --short` bez izlaza)
-- Zadnji dovršeni zadatak: ZADATAK 101
-  (pripremljen manifest ingest-a za vazeci ZUS)
+- Zadnji dovršeni zadatak: ZADATAK 102
+  (stvarni ingest vazećeg ZUS-a po paketnom manifestu)
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -58,6 +58,22 @@ Datum: 27.03.2026.
   kontrolnim izvorom za validaciju.
   Ažurirana dokumentacija: `STATUS_PROJEKTA_VERITAS_H77.md`,
   `MAPA_DOKUMENTACIJE_VERITAS_H77.md`, `DNEVNIK_RADA.md`.
+- ZADATAK 102: proveden je stvarni ingest po
+  `paketi/PAKET_ZUS_V1.json` za važeći
+  `zakon_o_upravnim_sporovima` kao jedan važeći akt (`NN 36/2024`).
+  Manifest nije zahtijevao nikakav patch. Generirani su NN snapshot i
+  parsirani izlazi pod
+  `izvori/dokazno/narodne_novine/zakon_o_upravnim_sporovima/`,
+  selection report
+  `izvori/dokazno/narodne_novine/
+  ZAKON_O_UPRAVNIM_SPOROVIMA_SELECTION_REPORT.md`,
+  kontrolni sloj pod
+  `izvori/kontrolno/zakon_hr/zakon_o_upravnim_sporovima/`
+  te operativni NORMA set pod
+  `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/`.
+  Paketni ingest i zasebni `acceptance_preflight` završili su s
+  `exit=0`; preflight je potvrdio `NN_COUNT=172`, `MISSING_COUNT=0`,
+  `EXTRA_LIST=[]`, `TIP_ACTUAL=procisceni`.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -68,9 +84,8 @@ Datum: 27.03.2026.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: priprema manifesta ingest-a za
-  `zakon_o_upravnim_sporovima` kao jedan vazeci cjeloviti akt,
-  uz `zakon.hr` samo kao kontrolni sloj validacije.
+- Sljedeci logicki korak: kontrolna usporedba ZUS JSON seta sa
+  `zakon.hr` za `zakon_o_upravnim_sporovima`.
 
 ## Pravilo sinkronizacije
 
@@ -81,7 +96,7 @@ Datum: 27.03.2026.
 
 Trenutno stanje sinkronizacije (pre-check):
 
-- lokalni hash: `ea183f7`
+- lokalni hash: `b2fc7c5`
 - `git status --short`: prazan
 - `main` poravnanje: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

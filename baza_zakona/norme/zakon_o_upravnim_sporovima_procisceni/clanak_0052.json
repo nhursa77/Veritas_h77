@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "52",
+    "naslov": null,
+    "tekst": ". (1) Ne treba dokazivati činjenice koje je stranka priznala tijekom postupka, ali sud može odlučiti da se dokazuju i takve činjenice ako smatra da je to potrebno radi osiguranja zakonitosti. (2) Sud će, uzimajući u obzir sve okolnosti, prema svom uvjerenju ocijeniti hoće li uzeti za priznatu ili osporenu činjenicu koju je stranka najprije priznala, a onda potpuno ili djelomično porekla ili ograničila priznanje dodavanjem drugih činjenica. (3) Činjenice čije postojanje zakon pretpostavlja ne treba dokazivati, ali se može dokazivati da te činjenice ne postoje, ako zakonom nije što drugo određeno. (4) Ne treba dokazivati činjenice koje su općepoznate. Slobodna ocjena dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EDE24FD8F022BCF08BAC68B5D7D5FA97FFD72E6544E222BE2C5DE72189F04D5D",
+    "sha256_datoteke": "984A82DA2B2A1DB836BE5BF0D7ED5143768F3E913159386ADD4CB05BD9EB1C60",
+    "napomena": null
+  }
+}

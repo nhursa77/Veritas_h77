@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". (1) Predmet upravnog spora jesu: 1. ocjena zakonitosti pojedinačne odluke kojom je javnopravno tijelo odlučilo o pravu, obvezi ili pravnom interesu stranke u upravnoj stvari (upravni akt) protiv koje nije dopušteno izjaviti redoviti pravni lijek 2. ocjena zakonitosti postupanja javnopravnog tijela iz područja upravnog prava kojim je povrijeđeno pravo, obveza ili pravni interes stranke protiv kojeg nije dopušteno izjaviti redoviti pravni lijek 3. ocjena zakonitosti propuštanja javnopravnog tijela iz područja upravnog prava da u zakonom propisanom roku odluči o pravu, obvezi ili pravnom interesu ili redovitom pravnom lijeku stranke odnosno da postupi prema propisu 4. ocjena zakonitosti sklapanja, raskidanja i izvršavanja upravnog ugovora. (2) Predmet upravnog spora je i ocjena zakonitosti općeg akta jedinice lokalne i područne (regionalne) samouprave, pravne osobe koja ima javnu ovlast i pravne osobe koja obavlja javnu službu (u daljnjem tekstu: opći akt). Iznimke od vođenja upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5FD307827012A2C0F1BB131AD30E44EE60D13BA185E9E1CECC1CCC9EA84F366D",
+    "sha256_datoteke": "27420EA70EC0533B43045AB0A92C9351C43735D1BF7E72A2C1301EAF100C1F38",
+    "napomena": null
+  }
+}

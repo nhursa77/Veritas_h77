@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "140",
+    "naslov": null,
+    "tekst": ". (1) Stranke u upravnom sporu mogu predložiti Državnom odvjetništvu Republike Hrvatske podnošenje zahtjeva za izvanredno preispitivanje zakonitosti u roku od 60 dana od dana dostave pravomoćne presude ili rješenja. (2) Prijedlog iz stavka 1. ovoga članka mora sadržavati: 1. osobno ime odnosno naziv, osobni identifikacijski broj i adresu stranke i osoba ovlaštenih za zastupanje 2. oznaku presude odnosno rješenja protiv kojeg se podnosi 3. opseg osporavanja presude odnosno rješenja 4. razloge iz članka 139. ovoga Zakona koji moraju biti detaljno obrazloženi 5. potpis podnositelja. (3) Prijedlogu treba priložiti izvornik ili presliku osporene presude odnosno rješenja. (4) Državno odvjetništvo Republike Hrvatske dužno je o svojoj odluci obavijestiti stranku što je prije moguće, a najkasnije u roku od 90 dana od dana podnošenja prijedloga. (5) Ako Državno odvjetništvo Republike Hrvatske odluči da nema uvjeta za podnošenje zahtjeva za izvanredno preispitivanje zakonitosti pravomoćne odluke, obavijest stranki mora biti obrazložena. Podnošenje zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B8C7CA1DA01972BDEC115F30A6E66C3FB02D702C8186CD49D350F8A3C48BBD85",
+    "sha256_datoteke": "FE73D79340AC769B33833355E65F55182FFB969B967CDEF583BC2E0DC1472FD9",
+    "napomena": null
+  }
+}

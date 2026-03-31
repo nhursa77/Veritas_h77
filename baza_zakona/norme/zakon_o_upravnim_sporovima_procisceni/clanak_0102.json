@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "102",
+    "naslov": null,
+    "tekst": ". (1) Ako tuženik u odgovoru na tužbu ili tijekom spora prizna tužbeni zahtjev u cijelosti, sud će presudom riješiti spor. (2) Ako tuženik u odgovoru na tužbu ili tijekom spora prizna tužbeni zahtjev u jednom dijelu, sud će nastaviti voditi spor samo o spornim dijelovima tužbenog zahtjeva. Postupanje prema tužbenom zahtjevu tijekom upravnog spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8B576E71A71EAB464B03ECAA5D76E0129C355C8607F9C8BE36E932A530DEE130",
+    "sha256_datoteke": "F5127C17F11D7E5E0C1E0B95143CA6B4259C52B5A3228692E1598FA0F65674C0",
+    "napomena": null
+  }
+}

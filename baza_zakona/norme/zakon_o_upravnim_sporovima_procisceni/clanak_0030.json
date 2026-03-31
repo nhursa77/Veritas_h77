@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "30",
+    "naslov": null,
+    "tekst": ". (1) Ako je stranka izdala odvjetniku punomoć za vođenje spora, a nije pobliže odredila ovlaštenja u punomoći, odvjetnik je ovlašten na temelju takve punomoći: 1. obavljati sve radnje u sporu, a osobito podnijeti tužbu, povući je, priznati tužbeni zahtjev, zaključiti nagodbu, podnijeti pravni lijek i odreći se ili odustati od njega te zahtijevati donošenje rješenja o odgodnom učinku tužbe i privremenoj mjeri 2. podnijeti zahtjev za izvršenje i poduzimati potrebne radnje u sporu u povodu takva zahtjeva 3. od protivne stranke primiti dosuđene troškove 4. punomoć prenijeti na drugog odvjetnika ili ovlastiti drugog odvjetnika na poduzimanje samo pojedinih radnji u sporu. (2) Za podnošenje prijedloga za obnovu spora i zahtjeva za izvanredno preispitivanje zakonitosti pravomoćne odluke, ako je od pravomoćnosti odluke proteklo više od šest mjeseci, kao i za podnošenje zahtjeva za izvršenje presude, odvjetniku je potrebna posebna punomoć. Ovlast privremenog zamjenika i preuzimatelja ureda odvjetnika",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BDD539FC7533F8807262E6DFBEA77BD02054437EFB702A0E2B5D17AB578CA6D7",
+    "sha256_datoteke": "C0FE95FE2E1069F1D13335628C98C5835316FCBA65401D11CDD422A936E1BE20",
+    "napomena": null
+  }
+}

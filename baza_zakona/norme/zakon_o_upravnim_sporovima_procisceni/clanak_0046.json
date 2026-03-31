@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "46",
+    "naslov": null,
+    "tekst": ". (1) Sud će rješenjem odbaciti tužbu, jer ne postoje pretpostavke za vođenje spora, ako utvrdi: 1. da je tužba podnesena nepravodobno ili prijevremeno 2. da se pojedinačnom odlukom, postupanjem ili upravnim ugovorom ne dira u pravo ili pravni interes tužitelja 3. da protiv pojedinačne odluke, postupanja ili upravnog ugovora nije iskorišten redovit pravni lijek 4. da je sudska zaštita osigurana izvan upravnog spora 5. da već postoji pravomoćna odluka donesena u upravnom sporu u istoj stvari 6. da je tužba podnesena protiv postupovne odluke, osim ako zakonom nije drukčije propisano 7. da je tužba podnesena u stvari koja ne može biti predmet upravnog spora. (2) Protiv rješenja iz stavka 1. ovoga članka dopuštena je žalba. Rješavanje o tužbenom zahtjevu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FAA2148D10CCB651CBC9DC815678074440ADB17D0CA86A0166F42C4FB9A3F1E9",
+    "sha256_datoteke": "EFFA09CB0A9A08F5A16D6230A464DB6E101D2D368C1BF433F4A2F8A7CB1B6575",
+    "napomena": null
+  }
+}

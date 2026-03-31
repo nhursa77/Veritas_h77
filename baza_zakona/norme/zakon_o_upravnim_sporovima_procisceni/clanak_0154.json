@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "154",
+    "naslov": null,
+    "tekst": ". (1) Ako tuženik odnosno tijelo nadležno za izvršenje bez opravdanih razloga ne donese novu odluku u roku koji je određen presudom ili ako u roku od 15 dana ne dostavi sudu odgovor na zahtjev za izvršenje, sud će čelniku nadležnog javnopravnog tijela rješenjem izreći novčanu kaznu u iznosu do 30% prosječne godišnje brutoplaće ostvarene u Republici Hrvatskoj u prethodnoj godini. (2) Sud će izricati daljnje novčane kazne unutar utvrđenog raspona sve dok tuženik odnosno tijelo nadležno za izvršenje ne donese novu odluku u izvršenju presude. (3) Novčana kazna uplaćuje se u korist prihoda državnog proračuna. Ako čelnik tijela u roku koji je sud odredio rješenjem ne dostavi dokaz o uplati novčane kazne, sud će rješenje o novčanoj kazni s potvrdom ovršnosti dostaviti Financijskoj agenciji radi provedbe ovrhe na novčanim sredstvima u skladu s odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima. (4) Ako Financijska agencija u roku od godine dana od dana primitka rješenja iz stavka 1. ovoga članka ne provede ovrhu na novčanim sredstvima čelnika tijela u skladu s odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima u cjelokupnom iznosu izrečene novčane kazne, dostavit će rješenje iz stavka 1. ovoga članka nadležnoj ispostavi Područnog ureda Porezne uprave prema prebivalištu kažnjene osobe radi prisilne naplate izrečene novčane kazne prema propisima o prisilnoj naplati poreza. (5) Ako kažnjena osoba nema prebivalište na području Republike Hrvatske, Financijska agencija dostavit će rješenje iz stavka 1. ovoga članka ispostavi Područnog ureda Porezne uprave prema sjedištu suda koji je donio rješenje iz stavka 1. ovoga članka. (6) Ako je rješenje o izricanju novčane kazne poništeno ili preinačeno, čelnik tijela kojem je naplaćena izrečena novčana kazna može u roku od tri mjeseca od dana primitka tog rješenja u istom postupku zatražiti od suda da naloži Republici Hrvatskoj isplatu neosnovano naplaćenog iznosa novčane kazne. Ako taj zahtjev bude podnesen nakon isteka toga roka, sud će ga odbaciti. (7) Zahtjev za isplatu na temelju rješenja kojim se nalaže Republici Hrvatskoj isplata neosnovano naplaćenog iznosa novčane kazne podnosi se ministarstvu nadležnom za poslove pravosuđa. Postupak po zahtjevu za izvršenje presude kad je nova odluka donesena protivno izreci presude, pravnom shvaćanju ili primjedbama suda",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7F00D7071FA6EDEC39A2FE2F9C6727F3CEEA6F23F89B3EE52D26E499D6861E53",
+    "sha256_datoteke": "0C51E363E66F43EEAAA4564B30294E2FBB57A5BD076F7A38C13087568A04545C",
+    "napomena": null
+  }
+}

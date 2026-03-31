@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "65",
+    "naslov": null,
+    "tekst": ". Svjedok ne može zbog opasnosti od kakve imovinske štete uskratiti svjedočenje o pravnim poslovima tijekom kojih je bio nazočan kao pozvani svjedok, o radnjama što ih je u pogledu spornog odnosa poduzeo kao pravni prethodnik ili zastupnik jedne od stranaka, o činjenicama koje se tiču imovinskih odnosa uvjetovanih obiteljskom, bračnom vezom, izvanbračnom vezom, životnim partnerstvom, neformalnim životnim partnerstvom o činjenicama koje se tiču rođenja, sklapanja braka ili smrti te kad je na temelju posebnih propisa dužan podnijeti prijavu ili dati izjavu. Opravdanost razloga za uskraćivanje svjedočenja ili odgovora na pojedina pitanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "883D279C68987F93351E7DF8CE4DCD4BAB77F0FD946A3A228D96FDC5D2CA3D19",
+    "sha256_datoteke": "A5DE1561CD3981C45713F64DC2539AE100A60A1DFF882BAC72FB82FDC258228B",
+    "napomena": null
+  }
+}

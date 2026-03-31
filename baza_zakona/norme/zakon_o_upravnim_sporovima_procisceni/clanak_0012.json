@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". (1) Upravne sporove (u daljnjem tekstu: spor) rješavaju upravni sudovi i Visoki upravni sud Republike Hrvatske (u daljnjem tekstu: Visoki upravni sud). (2) Upravni sudovi odlučuju: 1. o tužbama protiv pojedinačnih odluka javnopravnih tijela 2. o tužbama protiv postupanja javnopravnih tijela 3. o tužbama zbog propuštanja donošenja pojedinačne odluke ili postupanja javnopravnog tijela u zakonom propisanom roku 4. o tužbama protiv upravnih ugovora i izvršavanja upravnih ugovora 5. u drugim zakonom propisanim slučajevima. (3) Visoki upravni sud odlučuje: 1. o žalbama protiv presuda upravnih sudova i rješenja upravnih sudova protiv kojih je dopuštena žalba 2. o zakonitosti općih akata 3. o sukobu nadležnosti između upravnih sudova 4. u drugim zakonom propisanim slučajevima. (4) U slučajevima kada se posebnim zakonom propisuje nadležnost Visokog upravnog suda Republike Hrvatske, predlagatelj posebnog zakona dužan je razloge za takvo rješavanje upravnog spora detaljno obrazložiti. Mjesna nadležnost",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9BB19EC4CC9832B34127AD716444D0B9BCFD3EC743EF605DCC1FA542C0E923BF",
+    "sha256_datoteke": "2708EC2039E2F5260323EB55D056A7F18C453DA4DCE0C311B4496F617DC21716",
+    "napomena": null
+  }
+}

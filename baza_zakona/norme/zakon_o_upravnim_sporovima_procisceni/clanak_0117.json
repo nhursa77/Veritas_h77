@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "117",
+    "naslov": null,
+    "tekst": ". (1) Ako sud utvrdi da je pojedinačna odluka javnopravnog tijela nezakonita, presudom će usvojiti tužbeni zahtjev, poništiti pobijanu odluku i sam riješiti stvar, osim kada to ne može učiniti s obzirom na prirodu stvari ili je tuženik rješavao po slobodnoj ocjeni. (2) Ako sud utvrdi da je pojedinačna odluka javnopravnog tijela ništava, presudom će usvojiti tužbeni zahtjev i oglasiti odluku ništavom. (3) Ako sud utvrdi da javnopravno tijelo nije u propisanom roku donijelo pojedinačnu odluku koju je prema propisima trebalo donijeti, presudom će usvojiti tužbeni zahtjev i sam riješiti stvar, osim kada to ne može učiniti s obzirom na prirodu stvari ili je tuženik rješavao po slobodnoj ocjeni. Tada će tuženiku narediti donošenje odluke i za to mu odrediti primjereni rok. (4) Ako sud utvrdi da tuženik nije postupio sukladno propisima, pojedinačnoj odluci ili upravnom ugovoru, presudom će usvojiti tužbeni zahtjev i narediti postupanje u primjerenom roku. (5) Ako sud utvrdi da je upravni ugovor ništetan, presudom će usvojiti tužbeni zahtjev i ugovor oglasiti ništetnim. (6) Ako sud utvrdi da je javnopravno tijelo nezakonito raskinulo upravni ugovor, presudom će usvojiti tužbeni zahtjev i poništiti odluku o raskidu upravnog ugovora. Naknada štete i povrat stvari",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D8CF5E4464E6019E79750B37243C135260131E32B40CA7B5864E611DB3FA84BD",
+    "sha256_datoteke": "3A0FB0C6B97F18C5CCF7FFD3AEF6718B2B8477ED1D03E18983C96320ACE03F50",
+    "napomena": null
+  }
+}

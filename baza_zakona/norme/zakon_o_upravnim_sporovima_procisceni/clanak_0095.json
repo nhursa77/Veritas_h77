@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "95",
+    "naslov": null,
+    "tekst": ". (1) Saslušani svjedoci i vještaci ostaju u sudnici ako sudac ne odluči drukčije. (2) Sudac može odrediti da se saslušani svjedoci i vještaci poslije ponovo pozovu i još jednom saslušaju u nazočnosti ili odsutnosti drugih svjedoka ili vještaka. Zaključivanje rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B6ABC508360D7F9051F2DAE22A95BDA40B04AA009997D112D141749E9EDE87FF",
+    "sha256_datoteke": "5ABA9E118C58925651D236B4BC29F2010A817DFB88D95BD213EDB54EED7F321A",
+    "napomena": null
+  }
+}

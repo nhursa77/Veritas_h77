@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "63",
+    "naslov": null,
+    "tekst": ". (1) Svjedok može uskratiti svjedočenje: 1. o onome što mu je stranka kao svom opunomoćeniku povjerila 2. o onome o čemu se stranka ili druga osoba svjedoku kao vjerskom ispovjedniku ispovjedila 3. o činjenicama što ih je svjedok saznao kao odvjetnik, liječnik, ili u obavljanju kakva drugog poziva ili kakve druge djelatnosti ako postoji obveza da se kao tajna čuva ono što se saznalo u obavljanju tog poziva ili djelatnosti. (2) Sudac kojem je predmet dodijeljen u rad ili predsjednik vijeća upozorit će svjedoka da može uskratiti davanje iskaza u slučajevima iz ovoga članka. Pravo uskrate odgovora na pojedina pitanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DA41B684BD9B7E4A1E87CB97BAB888629815D4DFA5EEB904F8B1863912A9B795",
+    "sha256_datoteke": "5BFB387911BB103E422B9394AD4FA27C5D9854C9359087AE36D3546811DEB9DE",
+    "napomena": null
+  }
+}

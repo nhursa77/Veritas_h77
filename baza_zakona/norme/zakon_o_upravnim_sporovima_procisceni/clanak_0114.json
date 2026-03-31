@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "114",
+    "naslov": null,
+    "tekst": ". (1) O tužbenom zahtjevu koji se odnosi na glavnu stvar i sporedna traženja sud odlučuje presudom. (2) Presuda se donosi i objavljuje u ime Republike Hrvatske. (3) Sud presudu donosi prema slobodnom uvjerenju te na temelju razmatranja svih pravnih i činjeničnih pitanja. (4) Presuda se može temeljiti samo na činjenicama i dokazima o kojima je strankama dana mogućnost izjašnjavanja. Donošenje presude kada rješava vijeće",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D3FE4260CB05505E6D5B7E7833798281326667449FDFEFA84D97504626FCA9A5",
+    "sha256_datoteke": "F8D107D1E3E69F0CE75B92BF81F114FC913E5FF34BB14F0C72C190CE4C8A283E",
+    "napomena": null
+  }
+}

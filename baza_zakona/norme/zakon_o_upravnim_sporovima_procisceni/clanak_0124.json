@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "124",
+    "naslov": null,
+    "tekst": ". (1) Pogreške u imenima i brojevima, očite pogreške u pisanju i računanju te druge očite pogreške sud može rješenjem ispraviti bez roka. O ispravljanju presude sud može odlučiti bez izjašnjavanja stranaka. (2) Rješenje o ispravku prilaže se izvorniku i ovjerenim prijepisima presude. (3) Ako je presuda pohranjena u elektroničkom obliku, rješenje o ispravku pohranjuje se kao zasebna elektronička isprava. (4) Protiv rješenja o ispravku može se izjaviti žalba. Rješenje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "204EA05AE778C8068D91005FCE6C6A65083FD87EB85447224D9B7EF579A93804",
+    "sha256_datoteke": "DAC4DBE94CF5DADED9323F705FA9042B4A65928F4E86C3A5E0CB68FE7A010E09",
+    "napomena": null
+  }
+}

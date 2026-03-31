@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "51",
+    "naslov": null,
+    "tekst": ". (1) Stranke su obvezne u tužbi i odgovoru na tužbu iznijeti sve činjenice na kojima temelje svoje zahtjeve, predložiti dokaze potrebne za njihovo utvrđivanje i izjasniti se o činjeničnim navodima i dokaznim prijedlozima drugih stranaka. (2) Sud može od stranke zatražiti izjašnjenje o određenim pitanjima koja se odnose na činjenice te predlaganje dokaza koji podupiru njezine tvrdnje. U tu joj svrhu sud može odrediti primjereni rok. (3) Sud može od stranke zatražiti da u primjerenom roku dopuni i obrazloži svoje podneske, dostavi isprave i druge dokaze koji se mogu koristiti u sporu. Činjenice koje ne treba dokazivati",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4F0042CA85D87899B3F595A90E763EAD88997EE85CD324935353846E0625421B",
+    "sha256_datoteke": "79CADA894275889FEC613704EAF59AD595AAECF68257C74FA50398A421156CD9",
+    "napomena": null
+  }
+}

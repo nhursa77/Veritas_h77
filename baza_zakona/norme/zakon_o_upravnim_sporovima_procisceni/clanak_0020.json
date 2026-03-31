@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "20",
+    "naslov": null,
+    "tekst": ". (1) Zainteresirana osoba je svaka osoba kojoj bi poništavanje, izmjena ili donošenje pojedinačne odluke, postupanje ili propuštanje postupanja javnopravnog tijela odnosno sklapanje, raskid ili izvršavanje upravnog ugovora povrijedilo njezino pravo ili pravni interes. (2) Zainteresirana osoba je i javnopravno tijelo koje smatra da sudska odluka može imati učinak na prava i pravne interese koje to javnopravno tijelo štiti na temelju zakona. (3) Sud će po službenoj dužnosti ili na prijedlog stranke pozvati zainteresiranu osobu da sudjeluje u sporu. (4) Zainteresirana osoba može se uključiti u spor u svakom trenutku. (5) Sud će bez odgode obavijestiti sve stranke o uključivanju zainteresirane osobe u spor. Poduzimanje radnji u upravnom sporu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6A2ED6D48509591248ADD6951118A4135B1AFDF3F9A01350545869B8FA459170",
+    "sha256_datoteke": "986CC34E07EC603F16588576FE36F5D0D15B600FB09547203D7D0552E43E7F37",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". (1) Stranka može punomoć u svako vrijeme opozvati, a opunomoćenik je može u svako vrijeme otkazati. (2) O opozivanju odnosno otkazu punomoći mora se obavijestiti sud pred kojim se vodi spor pisano ili usmeno na zapisnik. (3) Opozivanje odnosno otkaz punomoći vrijedi za sud i druge stranke od trenutka kad su o tome obaviješteni. (4) Poslije otkaza punomoći opunomoćenik je dužan još mjesec dana obavljati radnje za osobu koja mu je izdala punomoć ako je potrebno od nje otkloniti kakvu štetu koja bi u to vrijeme mogla nastati. Djelovanje punomoći u određenim slučajevima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9EFD3EFD19E702A8F944BACA66C47D87300698741BDE15E065DEA4E220ACC291",
+    "sha256_datoteke": "8132FEB88F9AA334ED9F355FBD2B697BF4DC5E8CC08DE35CDB821A725C62B8C2",
+    "napomena": null
+  }
+}

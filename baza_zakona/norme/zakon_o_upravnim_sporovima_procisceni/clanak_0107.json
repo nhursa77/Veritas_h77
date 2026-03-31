@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "107",
+    "naslov": null,
+    "tekst": ". (1) Ako jedan ili više tužitelja pred istim sudom pokrenu dva ili više sporova protiv istog tuženika radi ocjene zakonitosti pojedinačnih odluka, propuštanja donošenja pojedinačne odluke, postupanja ili upravnog ugovora, koji se temelje na istoj činjeničnoj i pravnoj osnovi, ti se sporovi po službenoj dužnosti ili na prijedlog stranke mogu rješenjem spojiti radi zajedničkog raspravljanja. Nakon završetka raspravljanja spojeni predmeti mogu se razdvojiti radi donošenja zasebnih odluka. (2) Ako više tužitelja pokrene spor radi ocjene zakonitosti iste pojedinačne odluke, istog propuštanja donošenja pojedinačne odluke, istog postupanja ili istog upravnog ugovora, ti će se sporovi po službenoj dužnosti ili na prijedlog stranke rješenjem spojiti radi zajedničkog raspravljanja i donošenja zajedničke odluke. (3) Spojeni se sporovi nastavljaju pred sucem ili vijećem koje je odlučilo o spajanju. (4) Za sve spojene sporove sud može donijeti zajedničku odluku. Ogledni spor",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "714CAD1700D83609DA98E846439221CA0958AD541C55A2B37E879F6BDC2AE62D",
+    "sha256_datoteke": "363E08E56FB743F4BAD27003DE42BD4B313ED6FE48D21CBD199B25E320006B36",
+    "napomena": null
+  }
+}

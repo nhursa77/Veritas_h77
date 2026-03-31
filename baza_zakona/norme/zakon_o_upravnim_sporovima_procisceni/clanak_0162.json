@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "162",
+    "naslov": null,
+    "tekst": ". (1) O zakonitosti općeg akta Visoki upravni sud odlučuje na javnoj sjednici. (2) Visoki upravni sud može održati savjetodavnu raspravu ako ocijeni da je prije odlučivanja o biti stvari potrebna rasprava sa sudionicima postupka, znanstvenicima i drugim stručnjacima. (3) Sud će presudom ukinuti opći akt, ili pojedine njegove odredbe, ako utvrdi da nije suglasan sa zakonom ili statutom javnopravnog tijela. (4) Ukinuti opći akt prestaje važiti odnosno ukinute odredbe općeg akta prestaju važiti danom objave presude Visokog upravnog suda u »Narodnim novinama«. Ocjena zakonitosti osporenog općeg akta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FDE5256919240C74A84F16BB7FED24764969CB7717889C413E0A83473BA34AE4",
+    "sha256_datoteke": "01472D16DAC83176E6609AE80FC58357FB93A9E609D34B65ACB90D19AA981854",
+    "napomena": null
+  }
+}

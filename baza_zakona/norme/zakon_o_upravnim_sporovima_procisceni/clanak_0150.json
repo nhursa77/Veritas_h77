@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "150",
+    "naslov": null,
+    "tekst": ". (1) Pravomoćna presuda postaje izvršna nakon dostave stranki, ako presudom nije određen drugi rok za izvršenje. (2) Rješenje postaje izvršno nakon objave odnosno dostave stranki, ako ovim Zakonom nije drukčije propisano. Izvršenje presuda",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "68956B02C02DD296D4C2E14A879FFD6B6021457FE58B736AEFA6B4BFF101950D",
+    "sha256_datoteke": "D5DB7B20D52480ECEA31AC17BF423E01A6836E0B87A45423A953684FBB4F0A58",
+    "napomena": null
+  }
+}

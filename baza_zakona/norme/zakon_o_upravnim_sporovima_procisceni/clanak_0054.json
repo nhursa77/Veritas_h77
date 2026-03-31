@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "54",
+    "naslov": null,
+    "tekst": ". (1) U sporovima koje rješava vijeće dokazi na raspravi izvode se pred vijećem, ali vijeće može zbog važnih razloga odlučiti da se određeni dokazi izvedu pred predsjednikom vijeća ili sucem zamoljenog suda. U tom slučaju zapisnici o izvedenim dokazima pročitat će se na raspravi. (2) Kad vijeće odluči da se kakav dokaz izvede pred zamoljenim sucem, u zamolnici za izvođenje dokaza opisat će se stanje stvari prema tijeku rasprave i posebno će se naznačiti o kojim okolnostima treba osobito voditi računa pri izvođenju dokaza. (3) O ročištu za izvođenje dokaza, pred predsjednikom vijeća ili pred zamoljenim sucem obavijestit će se i stranke, ako nisu izjavile da neće pristupiti ročištu. (4) Predsjednik vijeća ili zamoljeni sudac ima pri izvođenju dokaza sva ovlaštenja koja ima vijeće odnosno predsjednik vijeća kad se dokazi izvode na raspravi. (5) Predsjednik vijeća ili zamoljeni sudac kome je povjereno izvođenje dokaza ovlašten je, ako stranke to predlože, izvesti i druge dokaze, ako smatra da je to svrhovito. Odgoda izvođenja dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1233DC32DCE9FAD7A76889824A1EB56AC6D086772079AE2143E54826CC0F1241",
+    "sha256_datoteke": "4FE2C25143DA2645C50E230C75DE0072787CF225115F7783EE9C19D227CCF036",
+    "napomena": null
+  }
+}

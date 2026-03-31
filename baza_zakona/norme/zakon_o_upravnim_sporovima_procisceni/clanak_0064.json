@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "64",
+    "naslov": null,
+    "tekst": ". (1) Svjedok može uskratiti odgovor na pojedina pitanja ako za to postoje važni razlozi, a osobito ako bi svojim odgovorom na ta pitanja izložio teškoj sramoti, znatnoj imovinskoj šteti ili kaznenom gonjenju sebe ili svoje srodnike po krvi u pravoj liniji do bilo kojeg stupnja, a u pobočnoj liniji do trećeg stupnja zaključno, svoga bračnog druga, izvanbračnog druga, životnog partnera, neformalnog životnog partnera ili srodnike po tazbini do drugog stupnja zaključno i onda kad je brak, izvanbračna zajednica ili životno partnerstvo prestalo te svog skrbnika ili štićenika, posvojitelja ili posvojenika. (2) Sudac kojemu je predmet dodijeljen u rad ili predsjednik vijeća upozorit će svjedoka da može uskratiti davanje odgovora na postavljeno pitanje. Iznimka od prava uskrate odgovora na pojedina pitanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "801795C43CDD080D4A0497B0618A525BF5C24746F46FF9163E65EF327E47E626",
+    "sha256_datoteke": "3C02C1440E88912A28DAA1CD61894FB862C41F15C6A10D858301CB8C1CBDEFEA",
+    "napomena": null
+  }
+}

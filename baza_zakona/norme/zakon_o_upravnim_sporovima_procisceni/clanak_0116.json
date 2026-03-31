@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "116",
+    "naslov": null,
+    "tekst": ". (1) Sud će odbiti tužbeni zahtjev ako utvrdi da je neosnovan. (2) Sud će odbiti tužbeni zahtjev kao neosnovan i kada utvrdi da je u postupku koji je prethodio donošenju pojedinačne odluke bilo nedostataka, ali nisu utjecali na rješavanje predmeta postupka te ako utvrdi da je pojedinačna odluka zasnovana na zakonu, ali zbog drugih razloga od onih navedenih u odluci. Usvajanje tužbenog zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6A8E35F1074BA9FA367C0B8F7BC7B2D7EFBB9B1DA61255453C6D6E0995F0348C",
+    "sha256_datoteke": "04B648378C3BCB4FD47A5220F7818BE9554631ADC82625835DC7BCC1FAA49336",
+    "napomena": null
+  }
+}

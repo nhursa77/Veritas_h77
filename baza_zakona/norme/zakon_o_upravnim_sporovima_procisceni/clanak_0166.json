@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "166",
+    "naslov": null,
+    "tekst": ". (1) Stranke mogu tijekom spora pred sudom sklopiti nagodbu o predmetu spora. (2) Nagodba se ne može sklopiti o zahtjevima kojima stranke ne mogu raspolagati. (3) Sud će tijekom spora upozoriti stranke na mogućnost sklapanja nagodbe i pomoći im pri sklapanju nagodbe. Sudska nagodba unosi se u zapisnik koji potpisuju i stranke. (4) Ako se nagodba odnosi na cjelokupni tužbeni zahtjev, sud će rješenjem obustaviti spor, a ako se odnosi na dio tužbenog zahtjeva, sadržaj nagodbe sud će uključiti u izreku presude. (5) Protiv dijela presude iz stavka 4. ovoga članka koji čini sadržaj sudske nagodbe žalba nije dopuštena. (6) Na izvršenje nagodbe na odgovarajući način primjenjuju se odredbe ovoga Zakona kojima je uređeno izvršenje sudske presude. DIO OSMI POSEBNI DIO O NOVČANIM KAZNAMA Novčane kazne i zlouporaba prava u upravnom sporu",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D8EF9B71A7C8D5018160DA9C0544E1724BF04DDBBE65E8A66EABF69FBF21215F",
+    "sha256_datoteke": "38DB0D2286F0AAB10278B63EA7003D7CE4B1BD0B6A4927BAE186F03BBB107A08",
+    "napomena": null
+  }
+}

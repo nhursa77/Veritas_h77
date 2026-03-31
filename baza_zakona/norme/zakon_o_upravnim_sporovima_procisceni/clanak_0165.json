@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "165",
+    "naslov": null,
+    "tekst": ". (1) Sud može obustaviti postupak ocjene zakonitosti općeg akta ako podnositelj odustane od zahtjeva. (2) Sud će rješenjem obustaviti postupak kad prestanu postojati pretpostavke za njegovo vođenje. DIO SEDMI POSEBAN NAČIN RJEŠAVANJA UPRAVNIH SPOROVA Sudska nagodba",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A479F995AF7113C43B25BCB36E6050ECEEC1A2A5A9555DB80CFC1BFB4ECE1223",
+    "sha256_datoteke": "FF7EAE85392B72CCF8BEA01FF5BCDB52CABD77882A4AC149872815E627A81BC3",
+    "napomena": null
+  }
+}

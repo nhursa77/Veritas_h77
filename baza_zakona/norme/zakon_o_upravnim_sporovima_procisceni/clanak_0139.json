@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "139",
+    "naslov": null,
+    "tekst": ". Zahtjev za izvanredno preispitivanje zakonitosti pravomoćne odluke (u daljnjem tekstu: zahtjev za izvanredno preispitivanje zakonitosti) može se podnijeti protiv pravomoćne presude ili rješenja upravnog suda ili Visokog upravnog suda zbog osobito teške materijalne ili postupovne povrede zakona koja dovodi u pitanje jedinstvenu primjenu prava i ravnopravnost svih u njegovoj primjeni. Prijedlog za podnošenje zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "58FE1982DBA058D04FAD2CFEAE8ECD03290C4DC5CBC429182FD449E810D99E78",
+    "sha256_datoteke": "F809C313A2FD0BD5A8CF8F36F1D15CDCF147ECA6DC9836BCB1F98A79702E7C14",
+    "napomena": null
+  }
+}

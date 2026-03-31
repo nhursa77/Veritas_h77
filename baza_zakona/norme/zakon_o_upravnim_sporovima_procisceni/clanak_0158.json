@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "158",
+    "naslov": null,
+    "tekst": ". (1) Postupak ocjene zakonitosti općeg akta Visoki upravni sud pokreće na zahtjev fizičke ili pravne osobe ili skupine osoba povezanih zajedničkim interesom koji smatraju da su im općim aktom povrijeđena njihova prava ili pravni interes. (2) Postupak ocjene zakonitosti općeg akta Visoki upravni sud može pokrenuti po službenoj dužnosti, na temelju obavijesti fizičkih ili pravnih osoba, prijedloga pučkog ili posebnog pravobranitelja ili na zahtjev suda. Zahtjev suda za ocjenu zakonitosti općeg akta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0E866C6DF4EB45D08397887077537A6A946EA1C42947F8812031A75E9F9F2B5A",
+    "sha256_datoteke": "105EF7245102D596B8A193F89666DCFAD806E2E811F752292B8A4407F299CB01",
+    "napomena": null
+  }
+}

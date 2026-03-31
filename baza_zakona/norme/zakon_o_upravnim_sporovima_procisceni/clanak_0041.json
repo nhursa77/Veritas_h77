@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "41",
+    "naslov": null,
+    "tekst": ". (1) Tužba se predaje nadležnom sudu neposredno u pisanom obliku, usmeno na zapisnik ili se šalje poštom odnosno dostavlja u elektroničkom obliku putem informacijskog sustava. (2) Kad je tužba upućena poštom preporučeno ili predana ovlaštenom pružatelju poštanskih usluga, dan predaje pošti odnosno ovlaštenom pružatelju poštanskih usluga smatra se danom predaje sudu. (3) Dan kada je informacijski sustav potvrdio podnositelju primitak tužbe, smatra se danom predaje tužbe sudu kojemu je upućena. Tužba u elektroničkom obliku mora biti potpisana kvalificiranim elektroničkim potpisom u skladu s posebnim propisima. Tužba u elektroničkom obliku potpisana kvalificiranim elektroničkim potpisom smatrat će se vlastoručno potpisanom. (4) Smatra se da je tužba podnesena u roku i kad je u roku predana nenadležnom sudu ili tuženiku. Odgodni učinak tužbe i privremene mjere",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DF4BD20611681E93603761D2752137B9F3C0B9EF519D781EFDD22615EE65EC35",
+    "sha256_datoteke": "C5E5C6A90C9B2CF882506CB54F855C725EBBB2EA69904D34D11A918FEB860E6D",
+    "napomena": null
+  }
+}

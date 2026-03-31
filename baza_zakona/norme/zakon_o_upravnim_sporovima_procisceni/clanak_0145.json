@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "145",
+    "naslov": null,
+    "tekst": ". (1) Svaka stranka prethodno sama podmiruje troškove koje je prouzročila svojim radnjama, osim ako zakonom nije drukčije propisano. (2) Troškovi proizašli iz poduzimanja radnji po službenoj dužnosti suda predujmljuju se iz sredstava suda. Troškovi za izvođenje dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "68D0815989B991B2C92452800BFEFCB9F8E48D113AC1285D29A3A2E557A631B9",
+    "sha256_datoteke": "35C4A66C230C7DCE3C1FF851B9307E2902C45E3926810C4BA141BDA486A0F80A",
+    "napomena": null
+  }
+}

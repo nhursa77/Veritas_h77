@@ -1,6 +1,6 @@
 # Izvještaj kontrole arhive NN
 
-- Datum: 27.03.2026.
+- Datum: 31.03.2026.
 - Ukupno aktova u NORMA bazi: 3
 - OK: 0
 - NEDOSTAJE: 3
@@ -30,4 +30,4 @@
 ## Gate pravilo
 
 - Ako postoji NEDOSTAJE, HASH_NEDOSTAJE ili NEVALJAN_IZVOR za akt
- koji se koristi u predmetu, vanjski izlaz je zabranjen.
+	koji se koristi u predmetu, vanjski izlaz je zabranjen.

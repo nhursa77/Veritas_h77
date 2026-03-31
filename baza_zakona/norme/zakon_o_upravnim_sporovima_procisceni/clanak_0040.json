@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "40",
+    "naslov": null,
+    "tekst": ". (1) Tužba se podnosi sudu u roku od 30 dana od dostave osporene pojedinačne odluke ili odluke o prigovoru na osporeno postupanje. (2) Pri pokretanju spora zbog propuštanja donošenja pojedinačne odluke ili propuštanja postupanja u propisanom roku tužba se sudu podnosi najranije osam dana nakon isteka propisanog roka. (3) Ako pojedinačna odluka nije dostavljena stranki sukladno propisanim pravilima o dostavi, tužba se može podnijeti u roku od 90 dana od dana kad je stranka saznala ili je mogla saznati za odluku. Tužitelj je u tužbi dužan učiniti vjerojatnim i navesti dokaze da je tužba podnesena u roku. (4) Ako pojedinačna odluka u uputi o pravnom lijeku sadržava dulji rok za pokretanje spora od roka propisanog zakonom, tužba se može podnijeti u roku navedenom u uputi o pravnom lijeku. (5) Ako pojedinačna odluka sadržava uputu o pravnom lijeku u kojoj je pogrešno navedeno da tužba nije dopuštena, tužba se može podnijeti u roku od 90 dana od dana kad je stranka saznala ili mogla saznati za mogućnost podnošenja tužbe. Predaja tužbe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B2354E48F886D538D2201EE96FC2D661D0E3F1B88C18F9250690DF16991F62D8",
+    "sha256_datoteke": "1F4E6ECF5D94AB997A60293FB618F307733DE874A66B45E2F0EBC2111C9D5AC3",
+    "napomena": null
+  }
+}

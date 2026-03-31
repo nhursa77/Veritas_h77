@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "122",
+    "naslov": null,
+    "tekst": ". Presuda se dostavlja svim strankama u sporu pisanim ili elektroničkim putem i otprema u roku od 15 dana od dana objave, a ako nije objavljena, od njezina donošenja. Pravomoćnost presude",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "355946C1AEEF24452D2610F33420C1EB5CFD10C778D13E9D8A94B237F1795B2E",
+    "sha256_datoteke": "7576825036160D7A64EA85FF0410DDC8AABD9D480CA84A815102E54E5C3BD2F3",
+    "napomena": null
+  }
+}

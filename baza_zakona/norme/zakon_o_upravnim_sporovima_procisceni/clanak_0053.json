@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "53",
+    "naslov": null,
+    "tekst": ". (1) Koje će činjenice uzeti kao dokazane odlučuje sud prema svom uvjerenju na temelju savjesne i brižljive ocjene svakog dokaza zasebno i svih dokaza zajedno, a i na temelju rezultata cjelokupnog postupka. (2) Ako sud na temelju izvedenih dokaza ne može sa sigurnošću utvrditi neku činjenicu, o postojanju činjenice zaključit će primjenom pravila o teretu dokazivanja, a da to ne bude na štetu prava koja imaju neuke stranke. Izvođenje dokaza u sporovima koje rješava vijeće",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "13601214ADABA0DCC05948251C1931951D197BE5B8D0A9C61C5DD120D359F625",
+    "sha256_datoteke": "7C9047419F31CC88CF76F79D1EF2EEA9806769106E3E7E1AAD4C8BA0E2359598",
+    "napomena": null
+  }
+}

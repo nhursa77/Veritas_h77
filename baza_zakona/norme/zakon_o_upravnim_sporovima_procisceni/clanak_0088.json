@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "88",
+    "naslov": null,
+    "tekst": ". Na osiguranje dokaza u upravnom sporu na odgovarajući se način primjenjuju pravila kojima je uređeno osiguranje dokaza u općem upravnom postupku. GLAVA IV. RASPRAVA Zakazivanje rasprave",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6457CD976F6908C7C1B7E2846BCAAE69E8E9275A677469998793761306699BFD",
+    "sha256_datoteke": "DADAB8C0AA49ACCE8EFB58921A898ACA41F0F1E4111D1836F1830C57C1C877C4",
+    "napomena": null
+  }
+}

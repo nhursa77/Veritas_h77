@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "115",
+    "naslov": null,
+    "tekst": ". (1) Vijeće donosi presudu većinom glasova. (2) O vijećanju i glasanju vodi se poseban zapisnik koji potpisuju svi članovi vijeća i zapisničar. (3) Na zahtjev člana vijeća koji je izdvojio glas, njegovo pisano obrazloženje izdvojenoga glasa priložit će se pisanoj presudi. To mišljenje objavljuje se na isti način kao i presuda. Odbijanje tužbenog zahtjeva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4A1829391D098EC1512036DB7DB56794133A0FBB7A88D68BAC0CABF39FA696AF",
+    "sha256_datoteke": "55F78416493AB339CFA2BC48A8E20DF0F866DC1706D65C57F3832B98175280C0",
+    "napomena": null
+  }
+}

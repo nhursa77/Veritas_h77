@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "148",
+    "naslov": null,
+    "tekst": ". (1) O naknadi troškova odlučuje sud na zahtjev stranke. (2) Stranka je dužna u zahtjevu navesti troškove za koje traži naknadu. (3) Zahtjev za naknadu troškova stranka je dužna postaviti najkasnije do zaključenja rasprave. Ako je odluka donesena bez rasprave, stranka je dužna zahtjev za naknadu troškova postaviti u roku od 15 dana od dostave odluke kojom je spor okončan. (4) O troškovima spora sud može odlučiti zajedno s odlukom o glavnoj stvari ili posebnim rješenjem u roku od 15 dana od dana objave presude ili postavljanja zahtjeva iz stavka 3. ovoga članka. (5) Protiv rješenja iz stavka 4. ovoga članka žalba je dopuštena. (6) Iznimno od članka 128. stavka 3. ovoga Zakona, žalba odgađa izvršenje rješenja. Oslobođenje od plaćanja troškova spora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FE46AEB53207E998F847946F2A93AF361ACFFD4B8FE2596A49E303BDE5B56891",
+    "sha256_datoteke": "F6C2F5C0D2BFFB486326507A993F1BA9C5F707D403C0AC23CFB43F1F51F8827F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". (1) Tužitelja ili zainteresiranu osobu koja nema postupovnu sposobnost zastupa njezin zakonski zastupnik. (2) Zakonski zastupnik određuje se zakonom ili aktom nadležnoga tijela donesenim na temelju zakona. Zakonski zastupnik tužitelja i zainteresirane osobe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 36/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/36/564"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DC7F05D31549B94FDCAFFEF12A2740669D62EB8677E198C0A9BE790B0CA3D360",
+    "sha256_datoteke": "D142DA9F1CD22C0483E40C16E78AD0065282F0C22B064D95344413945937CC73",
+    "napomena": null
+  }
+}
