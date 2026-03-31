@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `eef49a6` - docs: kanonski obrazac kontrolne
-  usporedbe amandmana zpd (Z130)
-- Repo čist pri pre-checku: DA
+- Polazni HEAD prije zadatka: `008cdbc` - docs: ujednacen dokazni format z120 i
+  z121 u statusu (Z131)
+- Repo čist pri pre-checku: NE
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 131
+- Zadnji dovršeni zadatak: ZADATAK 133
 
 ## Pregled dovršenih zadataka
 
@@ -326,6 +326,20 @@ Datum: 31.03.2026.
   `CONTROL_TRUNCATION_SUSPECTED=False`, `GUARDRAIL_FAIL=False` i
   `ANOMALY_FLAG=False` tvrda jezgra prolaza, dok `SHORT_COUNT` i izolirani
   `EXTRA_LIST` ostaju tolerirani nalazi bez automatskog patcha.
+- ZADATAK 132: izrađen je završni kanonski pregled za cijeli ZPD u dokumentu
+  `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`, isključivo na
+  temelju postojećih repo artefakata. Dokument objedinjeno pokriva core akt i
+  svih sedam amandmana iz manifesta, sa zajednickim prikazom `CONTROL_COUNT`,
+  `NN_COUNT`, `MISSING_COUNT`, `EXTRA_LIST`, `SHORT_COUNT` i
+  `CONTROL_TRUNCATION_SUSPECTED`, te zavrsnim zakljuckom da je ZPD kao cjelina
+  stabilno zatvoren po modelu `core + amandmani`, bez otvorenog zahtjeva za
+  novi ingest ili patch alata.
+- ZADATAK 133: sanirana su točno 2 stvarna workspace problema nakon Z132,
+  oba po pravilu `MD047/single-trailing-newline`: jedan u
+  `dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`, drugi u
+  `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`.
+  Sanacija je zadrzana na normalizaciji završnog newline zapisa bez drugih
+  sadržajnih izmjena, uz ažuriran dokumentacijski trag u statusu i dnevniku.
 
 ## Operativni sazetak
 
@@ -337,16 +351,14 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z130 je formalizirao kanonski obrazac za zasebne ZPD amandmane iz stvarnih
-  rezultata Z120 i Z121: prolaz pociva na `MISSING_COUNT=0`,
-  `CONTROL_TRUNCATION_SUSPECTED=False`, `GUARDRAIL_FAIL=False` i
-  `ANOMALY_FLAG=False`, dok `SHORT_COUNT` i izolirani `EXTRA_LIST` ne cine
-  automatski fail.)
+  (Z133 je potvrdio da su nakon Z132 bila otvorena točno 2 stvarna workspace
+  problema i da su oba sanirana bez promjene značenja ZPD završnog pregleda.)
 - Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
   kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
-  koristiti ovaj obrazac pri tumacenju kasnijih ZPD amandmanskih usporedbi i
-  tek na tvrdim fail signalima otvarati patch parsera ili validatora.
+  koristiti zavrsni ZPD izvjestaj kao ulazni presjek stanja i tek na tvrdim
+  fail signalima otvarati novi refresh, ingest ili patch parsera/validatora,
+  bez novih servisnih zahvata dok workspace diagnostics ostaje čist.
 
 ## Pravilo sinkronizacije
 
@@ -357,8 +369,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `eef49a6` - docs: kanonski obrazac kontrolne
-  usporedbe amandmana zpd (Z130)
+- Polazni HEAD prije zadatka: `008cdbc` - docs: ujednacen dokazni format z120 i
+  z121 u statusu (Z131)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

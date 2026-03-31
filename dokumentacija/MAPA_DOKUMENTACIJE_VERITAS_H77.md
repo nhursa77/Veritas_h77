@@ -117,6 +117,12 @@ Uređuje odnos `CONTROL_COUNT`, `NN_COUNT`, `EXTRA_LIST` i `SHORT_COUNT`
 na temelju stvarnih rezultata Z120 i Z121, uz razliku između toleriranih
 naleza i tvrdih validator fail signala.
 
+### `ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+Definira objedinjeni zavrsni pregled za cijeli ZPD set.
+Uređuje jedinstveni pregled core akta i svih amandmana iz manifesta,
+sa zavrsnim zakljuckom o potpunosti obrade, toleriranim odstupanjima i
+preostalim tehnickim ili interpretativnim napomenama.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.

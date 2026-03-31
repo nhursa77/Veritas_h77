@@ -4437,3 +4437,83 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 132)
+
+### ZADATAK 132 - zavrsni kanonski dokument za cijeli zpd
+
+Izradjen je novi kanonski dokument
+dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md koji objedinjeno zatvara
+pregled za cijeli zakon_o_porezu_na_dohodak na temelju vec postojecih repo
+artefakata, statusa i dnevnickih tragova, bez novog ingest-a, bez novog
+refresh-a i bez izmjene parsera ili validatora.
+
+Dokument pokriva core ZPD i svih sedam amandmana iz manifesta, za svaki akt
+navodi kontrolni zakon.hr URL ako je vec evidentiran u repou, glavne
+validacijske metrike i zakljucak o prolazu, a zavrsni dio potvrduje da je cijeli
+ZPD skup obradjen modelom core + amandmani uz preostale tolerirane napomene
+oblika SHORT_COUNT i izoliranog EXTRA_LIST.
+
+Mijenjane datoteke:
+
+- `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK 132'`
+  `-PolazniHead '008cdbc' -PolazniSubject 'docs: ujednacen dokazni format z120`
+  `i z121 u statusu (Z131)' -RepoCistPriPrecheck 'DA'`
+  `-PoravnanjeGranePriPrecheck 'poravnat'`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 133)
+
+### ZADATAK 133 - sanirana 2 workspace problema nakon z132
+
+Deterministicki su utvrdena i sanirana točno 2 stvarna workspace problema
+nastala nakon izrade dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md:
+MD047/single-trailing-newline u
+dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md i isti MD047 problem
+u dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md.
+
+Sanacija je namjerno zadrzana samo na normalizaciji zavrsnog newline zapisa u te
+dvije datoteke, bez drugih sadržajnih izmjena, uz dopunu
+STATUS_PROJEKTA_VERITAS_H77.md i append-only evidenciju u DNEVNIK_RADA.md.
+
+Mijenjane datoteke:
+
+- `dokumentacija/OBRAZAC_KONTROLNE_USPOREDBE_AMANDMANA_ZPD.md`
+- `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
