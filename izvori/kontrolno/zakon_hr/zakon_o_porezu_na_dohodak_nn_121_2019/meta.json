@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_121_2019",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2019_12_121_2385.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:38 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjenama i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=42193",
+  "preuzeto_lokalno": "2026-03-31 15:53:01 ",
+  "html_sha256": "5890ffc50e7c92732af5985735e0d64cb10d53be343e8277764711796793e3bf",
+  "txt_sha256": "6b6b6a46142ffb6fed0577c2bc98f351ea83662da37c21b9bb16bf79778b147a",
+  "broj_clanaka_u_kontrolnom_txt": 21,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }

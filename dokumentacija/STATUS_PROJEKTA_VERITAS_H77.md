@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `6c1108a` - feat: kontrolna usporedba zpd json
-  seta sa zakon hr (Z119)
+- Polazni HEAD prije zadatka: `e286e72` - feat: kontrolna usporedba zpd nn 106
+  2018 sa zakon hr (Z120)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 120
+- Zadnji dovršeni zadatak: ZADATAK 121
 
 ## Pregled dovršenih zadataka
 
@@ -201,6 +201,24 @@ Datum: 31.03.2026.
   `ANOMALY_FLAG=False`, uz trajni izvjestaj
   `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_106_2018/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
+- ZADATAK 121: provedena je stvarna kontrolna usporedba drugog ZPD amandmana
+  `zakon_o_porezu_na_dohodak_nn_121_2019` sa `zakon.hr`, bez novog ingest-a,
+  bez izmjene manifesta `paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+  `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+  Osvjezen je kontrolni sloj pod
+  `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_121_2019/`, pri
+  cemu su potvrdeni `meta.json`,
+  `struktura_kontrolno_dokumenti.json`,
+  `zakon_o_porezu_na_dohodak_nn_121_2019_kontrolni.txt` i
+  `zakon_o_porezu_na_dohodak_nn_121_2019_zakon_hr.html` iz stvarnog izvora
+  `https://www.zakon.hr/cms.htm?id=42193`.
+  Validacija nad
+  `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/` dala je
+  `CONTROL_COUNT=21`, `NN_COUNT=22`, `MISSING_COUNT=0`, `EXTRA_LIST=[27]`,
+  `SHORT_COUNT=6`, `CONTROL_TRUNCATION_SUSPECTED=False`,
+  `GUARDRAIL_FAIL=False` i `ANOMALY_FLAG=False`, uz trajni izvjestaj
+  `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 
 ## Operativni sazetak
 
@@ -212,11 +230,11 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z120 za ZPD amandman `NN 106/2018`: `CONTROL_COUNT=33`, `NN_COUNT=33`,
-  `MISSING_COUNT=0`, `EXTRA_LIST=[]`, `SHORT_COUNT=9`,
+  (Z121 za ZPD amandman `NN 121/2019`: `CONTROL_COUNT=21`, `NN_COUNT=22`,
+  `MISSING_COUNT=0`, `EXTRA_LIST=[27]`, `SHORT_COUNT=6`,
   `CONTROL_TRUNCATION_SUSPECTED=False`, `ANOMALY_FLAG=False`).
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
-  amandman-po-amandman za preostale ZPD izmjene i dopune.
+  amandman-po-amandman za preostale ZPD izmjene i dopune nakon `NN 121/2019`.
 
 ## Pravilo sinkronizacije
 
@@ -227,8 +245,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `6c1108a` - feat: kontrolna usporedba zpd json
-  seta sa zakon hr (Z119)
+- Polazni HEAD prije zadatka: `e286e72` - feat: kontrolna usporedba zpd nn 106
+  2018 sa zakon hr (Z120)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

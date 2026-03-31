@@ -1902,6 +1902,88 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ---
+## Datum: 31.03.2026 (ZADATAK 121 - ZPD amandman NN 121/2019 vs zakon.hr)
+
+Za `zakon_o_porezu_na_dohodak_nn_121_2019` provedena je stvarna kontrolna
+usporedba naspram `zakon.hr`, bez novog ingest-a, bez izmjene
+`paketi/PAKET_ZPD_V1.json` i bez promjene rezima iz
+`dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+
+Za taj je amandman najprije dokazan stvarni `zakon.hr` izvor
+`https://www.zakon.hr/cms.htm?id=42193`, a zatim je osvjezen kontrolni sloj
+pod `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_121_2019/`.
+Potvrdeni su artefakti `meta.json`,
+`struktura_kontrolno_dokumenti.json`,
+`zakon_o_porezu_na_dohodak_nn_121_2019_kontrolni.txt` i
+`zakon_o_porezu_na_dohodak_nn_121_2019_zakon_hr.html`.
+
+Validator je prosao iz prvog pokusaja, bez patcha alata i bez reparsiranja
+lokalnog NN snapshota. Trajni validacijski izvjestaj je pod:
+
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Zavrsni rezultat usporedbe:
+
+- `CONTROL_COUNT=21`
+- `NN_COUNT=22`
+- `MISSING_COUNT=0`
+- `EXTRA_LIST=[27]`
+- `SHORT_COUNT=6`
+- `SHORT_LIST_FIRST20=[8, 10, 17, 18, 19, 20]`
+- `CONTROL_TRUNCATION_SUSPECTED=False`
+- `GUARDRAIL_FAIL=False`
+- `ANOMALY_FLAG=False`
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_121_2019/
+  IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_121_2019/meta.json`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_121_2019/
+  struktura_kontrolno_dokumenti.json`
+- `izvori/kontrolno/zakon_hr/
+  zakon_o_porezu_na_dohodak_nn_121_2019/
+  zakon_o_porezu_na_dohodak_nn_121_2019_kontrolni.txt`
+- `izvori/kontrolno/zakon_hr/
+  zakon_o_porezu_na_dohodak_nn_121_2019/
+  zakon_o_porezu_na_dohodak_nn_121_2019_zakon_hr.html`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_121_2019`
+  `--naziv-akta "Zakon o izmjenama i dopunama Zakona o porezu na dohodak"`
+  `--url "https://www.zakon.hr/cms.htm?id=42193"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `./alati/validiraj_nn_vs_kontrolno.py -AktSlug`
+  `zakon_o_porezu_na_dohodak_nn_121_2019`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/uskladi_status_projekta.ps1 -ZadnjiZadatak "ZADATAK 121"`
+  `-PolazniHead "e286e72"`
+  `-PolazniSubject "feat: kontrolna usporedba zpd nn 106 2018 sa zakon hr
+  (Z120)"`
+  `-RepoCistPriPrecheck "DA" -PoravnanjeGranePriPrecheck "poravnat"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `./alati/provjeri_markdown_scope.ps1`
+  `./dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+  `./dokumentacija/DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File ./alati/ci_smoke.ps1`
+
+Napomena:
+
+- Commit hash Z121 bit ce potvrden zavrsnim dokazom
+  `git --no-pager log -1 --oneline` nakon scoped commita.
+
+---
 
 ## Datum: 25.03.2026 (ručna validacija i upis potvrđenih NN sidara)
 
