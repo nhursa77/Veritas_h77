@@ -4,8 +4,8 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `cc9fa43` - docs: kronoloski ureden status
-  projekta i pravilo upisa (Z112)
+- Polazni HEAD prije zadatka: `b2a844b` - docs: stvarno normaliziran kronoloski
+  pregled zadataka u statusu (Z113)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - Zadnji dovršeni zadatak: ZADATAK 113
@@ -139,6 +139,14 @@ Datum: 31.03.2026.
   tako da cijeli blok sadrzi samo stavke zadataka poredane uzlazno po broju,
   bez manjeg broja ispod veceg. `alati/uskladi_status_projekta.ps1` nije
   trebalo mijenjati jer ne dira pregled zadataka.
+- ZADATAK 114: za `zakon_o_porezu_na_dohodak` utvrdjen je kanonski rezim
+  konverzije u dokumentu
+  `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`.
+  Primarna NN provjera potvrdila je izvorni zakon `NN 115/2016` i zasebne
+  izmjene/dopune `NN 106/2018`, `121/2019`, `32/2020`, `138/2020`,
+  `151/2022`, `114/2023` i `152/2024`, bez dokaza jednog zasebnog važeceg
+  prociscenog NN akta, pa je odabran
+  `REZIM_ODABRAN = PREKRSAJNI_ZAKON_MODEL`.
 
 ## Operativni sazetak
 
@@ -154,7 +162,8 @@ Datum: 31.03.2026.
   `CONTROL_COUNT=199`, `NN_COUNT=199`, `SHORT_COUNT=19`; nakon validacije
   `CONTROL_TRUNCATION_SUSPECTED=False`).
 - Sljedeci logicki korak: daljnja konverzija sljedeceg zakona po
-  prioritetnom redoslijedu.
+  prioritetnom redoslijedu, sada kroz pripremu manifesta ingest-a za
+  `zakon_o_porezu_na_dohodak` po modelu `core + amandmani`.
 
 ## Pravilo sinkronizacije
 
@@ -165,8 +174,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `cc9fa43` - docs: kronoloski ureden status
-  projekta i pravilo upisa (Z112)
+- Polazni HEAD prije zadatka: `b2a844b` - docs: stvarno normaliziran kronoloski
+  pregled zadataka u statusu (Z113)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

@@ -3199,6 +3199,49 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\provjeri_markdown_scope.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 114)
+
+### ZADATAK 114 - utvrdjen rezim konverzije zakona o porezu na dohodak u JSON
+
+Dokumentacijski je utvrdjeno da je `zakon_o_porezu_na_dohodak` sljedeci zakon po
+prioritetu za konverziju nakon vec obradjenog `opci_porezni_zakon`.
+
+Primarna provjera na Narodnim novinama potvrdila je izvorni zakon `NN 115/2016`
+i zasebne izmjene/dopune `NN 106/2018`, `121/2019`, `32/2020`, `138/2020`,
+`151/2022`, `114/2023` i `152/2024`, bez dokaza jednog zasebnog vazeceg
+prociscenog NN akta.
+
+Na toj osnovi kreiran je kanonski dokument
+`dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md` i odabran je `REZIM_ODABRAN =`
+`PREKRSAJNI_ZAKON_MODEL`, uz `zakon.hr` samo kao kontrolni izvor za kasniju
+validaciju.
+
+Mijenjane datoteke:
+
+- `dokumentacija/REZIM_KONVERZIJE_ZPD_U_JSON.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `\.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `\.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak "ZADATAK 114"`
+  `-PolazniHead "b2a844b" -PolazniSubject "docs: stvarno normaliziran`
+  `kronoloski pregled zadataka u statusu (Z113)" -RepoCistPriPrecheck "DA"`
+  `-PoravnanjeGranePriPrecheck "poravnat"`
+- `$u='https://narodne-novine.nn.hr/search.aspx?sortiraj=4&kategorija=1&' +`
+  `'godina=2016&broj=115&rpp=10&qtype=1&pretraga=da'`
+- `(Invoke-WebRequest -UseBasicParsing $u).Content | Select-String`
+  `'dohodak'`
+- `$u='https://narodne-novine.nn.hr/search.aspx?sortiraj=4&kategorija=1&' +`
+  `'godina=2024&broj=152&rpp=10&qtype=1&pretraga=da'`
+- `(Invoke-WebRequest -UseBasicParsing $u).Content | Select-String`
+  `'dohodak'`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
 ## Datum: 31.03.2026 (ZADATAK 106)

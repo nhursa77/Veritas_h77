@@ -102,6 +102,14 @@ Dokumentira da se vazeci ZUS vodi kao jedan vazeci cjeloviti akt
 (`NN 36/2024`) po obrascu tipa `ustav_rh_procisceni`,
 uz `zakon.hr` kao kontrolni izvor validacije.
 
+### `REZIM_KONVERZIJE_ZPD_U_JSON.md`
+Definira utvrdjeni rezim ingest-a i konverzije za
+`zakon_o_porezu_na_dohodak`.
+Dokumentira da je na primarnoj NN provjeri potvrden izvorni zakon
+`NN 115/2016` i zaseban niz izmjena/dopuna, bez dokaza jednog samostalnog
+vazeceg prociscenog NN akta, pa se odabire model
+`PREKRSAJNI_ZAKON_MODEL`.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
