@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "85",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznici i osobe koje su dužne davati obavijesti u smislu članka 79. ovoga Zakona mogu uskratiti davanje obavijesti koje bi njih same ili njihova srodnika mogle izložiti kaznenom progonu. (2) Porezno tijelo dužno je osobe iz stavka 1. ovoga članka poučiti o pravu na uskratu obavijesti te pouku o tome unijeti kao zabilješku u spis. Uskrata davanja i predočavanja stručnog mišljenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "24C9C824ED0F0991E406DF437914F18A4D2165FFD2853F893CD1548A9FA040E4",
+    "sha256_datoteke": "8A8CAA70F32314E3CE026C908EC3E0B69A53CAF4887F4E77F86D1037E506C986",
+    "napomena": null
+  }
+}

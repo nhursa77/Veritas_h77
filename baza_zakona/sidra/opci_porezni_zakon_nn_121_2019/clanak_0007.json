@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". U članku 193. stavku 1. točke 3., 4. i 5. mijenjaju se i glase: »3. ako evidencije o dnevnom gotovinskom prometu ne vodi na mjestu na kojem se ti primici ostvaruju ili ne osigurava dostupnost evidencija poreznom tijelu (članak 66. stavak 6.) 4. ako poslovne knjige i druge evidencije ne vodi u skladu s načinom oporezivanja (članak 66. stavak 8.) 5. ako pri vođenju poslovnih knjiga i drugih evidencija u elektroničkom obliku ne osigura raspoložive, čitljive i sustavne podatke (članak 66. stavak 9.)«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "467EBC68B2C79797713402E7CD2658FB6B6C6EF7F7094F5F29F459DE83EE008E",
+    "sha256_datoteke": "C4CDB65310A63BCC75D87C022E0005319E528C47E2FD07CFC9624474C82A404B",
+    "napomena": null
+  }
+}

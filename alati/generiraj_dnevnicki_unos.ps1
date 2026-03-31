@@ -86,7 +86,21 @@ function Wrap-CodeBlock {
         [int]$Limit = 80
     )
 
-    $words = $Text -split '\s+' | Where-Object { $_ -ne '' }
+    $words = @()
+    foreach ($chunk in ($Text -split '\s+' | Where-Object { $_ -ne '' })) {
+        if ($chunk.Length -le ($Limit - $FirstPrefix.Length - 2)) {
+            $words += $chunk
+            continue
+        }
+
+        $subParts = [System.Text.RegularExpressions.Regex]::Matches($chunk, '[^\\/]+[\\/]*') | ForEach-Object { $_.Value }
+        if ($subParts.Count -gt 1) {
+            $words += $subParts
+        }
+        else {
+            $words += $chunk
+        }
+    }
     $segments = New-Object System.Collections.Generic.List[string]
     $current = ''
 

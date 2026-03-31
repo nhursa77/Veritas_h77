@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 119. stavak 1. mijenja se i glasi: »(1) Porezno tijelo odlučuje kod kojeg će poreznog obveznika provoditi porezni nadzor, vodeći računa o poreznoj snazi poreznog obveznika i objektivnim kriterijima na temelju procjene rizika, pri čemu prioritet imaju veliki poduzetnici iz članka 5. Zakona o računovodstvu (»Narodne novine«, br. 78/15., 134/15., 120/16. i 116/18.) i porezni obveznici iz članaka 12.a i 49. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BB39BAD644BD452472F984BDB51EC3A4962E7FFF4F8040502D3FA9CDC07B707A",
+    "sha256_datoteke": "9777A5FC9C0D41A5D8BC3FA5F4382F7EB1AB4EC33CBA0B29F3293B3CF1F81CF5",
+    "napomena": null
+  }
+}

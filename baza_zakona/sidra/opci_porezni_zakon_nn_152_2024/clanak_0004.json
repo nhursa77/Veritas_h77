@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "4",
+    "naslov": null,
+    "tekst": ". Iznad članka 44. dodaje se naslov koji glasi: »Obavljanje gospodarske djelatnosti«. U članku 44. stavak 3. mijenja se i glasi: »(3) Ako se određena gospodarska djelatnost obavlja putem interneta, digitalnih platformi ili drugih virtualnih oblika poslovanja uz izbjegavanje ispunjavanja zahtjeva reguliranih odredbama posebnih propisa i propisa kojima se uređuje pojedina vrsta poreza te se tako ostvaruju nepripadajuće porezne pogodnosti ili izaziva teško nadoknadiva šteta za društvenu zajednicu, nadležno porezno tijelo može izdati nalog o zabrani daljnjeg rada.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6EC593EDAE50CE2D37D1C403352DC62980D9004269A1BD1D533D476334589411",
+    "sha256_datoteke": "0EA26292CA87424AA3AE3C7F701C814739BC6E381377663776259A36BB7FDF3F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "32",
+    "naslov": null,
+    "tekst": ".a (1) Smatra se da su ispunjene pretpostavke za odgovornost članova društva ako porezni obveznik nije podnio zakonom propisane mjesečne i godišnje porezne prijave. (2) U slučaju iz stavka 1. ovoga članka u postupku utvrđivanja porezne obveze jednim poreznim rješenjem utvrđuje se porezna obveza i odgovornost člana društva. (3) Osobe iz stavka 1. ovoga članka s poreznim obveznikom za utvrđenu obvezu odgovaraju solidarno kao jamci platci. (4) Izjavljena žalba na rješenje iz stavka 2. ovoga članka ne odgađa izvršenje rješenja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2869BBC95078EFFDCD1126C1D4114FCB0FB5D92862CF12DCC9F660232B4566BF",
+    "sha256_datoteke": "4692CAD0B533E63AAC8FE877D58FE981994B7230E98B0EA22F7E3D7F4D69E284",
+    "napomena": null
+  }
+}

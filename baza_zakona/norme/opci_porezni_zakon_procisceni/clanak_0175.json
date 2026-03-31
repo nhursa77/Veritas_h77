@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "175",
+    "naslov": null,
+    "tekst": ". (1) U postupku utvrđivanja zlouporabe prava utvrđuje se da li osoba nad kojom se postupak provodi: 1. koristi društvo za to da bi postigla cilj koji joj je inače zabranjen 2. koristi društvo da bi oštetila porezno tijelo 3. protivno zakonu upravlja imovinom društva kao da je to njezina imovina ili imovina povezanih društava ili osoba 4. u svoju korist ili u korist neke druge osobe umanji imovinu društva, iako je znala ili mogla znati da neće moći podmiriti svoje obveze 5. sklapa pravne poslove ili raspolaže imovinom društva na način opisan u članku 31. ovoga Zakona. (2) Ako je poduzetnik fizička osoba, postupak utvrđivanja zlouporabe prava može obuhvaćati i one činjenice koje nisu u vezi s njegovom gospodarskom djelatnošću. (3) Postupak utvrđivanja zlouporabe prava kod društava kapitala ili društava osoba obuhvaća i provjeru odnosa bitnih za oporezivanje između člana društva i samog društva. Obavijest o postupku utvrđivanja zlouporabe prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "02B4D0438960A621E4297615497827B22A6606BC9ECD6DC4FD7566A46EC72AAD",
+    "sha256_datoteke": "92AD0A89FA46A41E00451A2BB07B4123609881978D021281D1017DC51A07EF1F",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo dužno je kao poreznu tajnu čuvati sve podatke koje porezni obveznik iznosi u poreznom postupku te sve druge podatke u vezi s poreznim postupkom kojima raspolaže, kao i podatke koje razmjenjuje s drugim državama u poreznim stvarima. (2) Iznimno od stavka 1. ovoga članka, ne smatra se poreznom tajnom: 1. podatak o datumu upisa u sustav poreza na dodanu vrijednost ili ispisa iz sustava poreza na dodanu vrijednost 2. podatak o poreznim obveznicima koji su davali lažne podatke s namjerom umanjenja svoje ili tuđe obveze poreza na dodanu vrijednost (kružne prijevare poreza na dodanu vrijednost) ako je to utvrđeno u porezno-pravnom postupku. (3) Obveza čuvanja porezne tajne iz stavka 1. ovoga članka odnosi se na sve službene osobe poreznog tijela, vještake i druge osobe koje su uključene u porezni postupak. (4) Obveza čuvanja porezne tajne je povrijeđena ako se činjenice navedene u stavku 1. ovoga članka neovlašteno koriste ili objave. (5) Obveza čuvanja porezne tajne nije povrijeđena: 1. ako se poreznom jamcu omogući uvid u podatke o poreznom obvezniku bitne za njegov odnos prema poreznom obvezniku 2. ako se članove društva osoba upozna s činjenicama bitnima za oporezivanje društva 3. ako se iznose podaci tijekom poreznog, prekršajnog ili sudskog postupka 4. ako se iznose podaci uz pisani pristanak osobe na koju se ti podaci odnose 5. ako se iznose podaci za potrebe naplate poreznog duga 6. ako se podaci daju na zahtjev drugog javnopravnog tijela koje po službenoj dužnosti traži podatke nužne za ostvarivanje prava pred tim tijelom povodom zahtjeva stranke u postupku, a koje bi inače stranka trebala sama pribaviti 7. ako ustrojstvene jedinice Ministarstva financija međusobno dostavljaju podatke koji mogu biti od utjecaja na utvrđivanje prava i obveza poreznih obveznika 8. ako se podaci daju u skladu s postupcima propisanim ugovorima o izbjegavanju dvostrukog oporezivanja i drugim međunarodnim ugovorima u poreznim stvarima koji su u primjeni u Republici Hrvatskoj 9. ako se podaci daju u skladu s postupkom propisanim ovim Zakonom za pružanje i dobivanje pravne pomoći i 10. ako se podaci daju sukladno zakonu kojim se uređuje administrativna suradnja u području poreza. (6) Obveza čuvanja porezne tajne nije povrijeđena u slučaju kada porezno tijelo bez posebnog zahtjeva dostavlja drugom javnopravnom tijelu podatke za koje je saznalo tijekom vođenja poreznog postupka, ako postoji sumnja u postojanje kaznenog djela, kršenje zakona ili drugog propisa za čije je provođenje nadležno neko drugo javnopravno tijelo. (7) Obveza čuvanja porezne tajne nije povrijeđena ako Ministarstvo financija – Porezna uprava bez pristanka poreznog obveznika objavi na svojim mrežnim stranicama popis dospjelih i neplaćenih dugova po osnovi poreza na dodanu vrijednost, poreza na dobit, poreza na dohodak i prireza, doprinosa za obvezna osiguranja, trošarina, posebnih poreza, poreza na promet nekretnina, iznosa na ime naknade za koncesiju te carina, ako je ukupni iznos duga: 1. veći od iznosa 100.000,00 kuna za fizičke osobe koje obavljaju djelatnost 2. veći od iznosa 300.000,00 kuna za pravne osobe i 3. veći od iznosa 15.000,00 kuna za sve ostale porezne obveznike. (8) Popis dospjelih, a neplaćenih dugova iz stavka 7. ovoga članka objavit će se 31. listopada svake godine. (9) Popis iz stavka 7. ovoga članka sadržava: ime i prezime ili naziv poreznog obveznika, godinu rođenja fizičke osobe, mjesto prebivališta ili boravišta fizičke osobe ili sjedišta pravne osobe, iznos duga po vrsti poreza te ukupni iznos duga. Na zahtjev osobe koja dokaže pravni interes, Porezna uprava popis može dopuniti i drugim podacima potrebnim radi nespornog utvrđivanja identiteta pojedinačnog poreznog obveznika s ovoga popisa, kao što su: datum i mjesec rođenja fizičke osobe i ime roditelja fizičke osobe. Porezna uprava može za porezne obveznike s popisa iz stavka 7. ovoga članka iznijeti podatke o poduzetim mjerama ovršnog postupka. (10) Iznimno od stavaka 7. i 9. ovoga članka, popis neće sadržavati podatke o dugovima poreznih obveznika kojima je porezno tijelo odobrilo odgodu ili obročno plaćanje duga ili reprogramiranje naplate poreznog duga, ili je pravomoćnim rješenjem o sklopljenoj predstečajnoj nagodbi utvrđeno da se dug reprogramira ili je potvrđen predstečajni sporazum, ili je sukladno Zakonu o stečaju potrošača sklopljen izvansudski sporazum, odnosno sudska nagodba na pripremnom ročištu. (11) Iznimno, obveza čuvanja porezne tajne nije povrijeđena ako Ministarstvo financija – Porezna uprava i Carinska uprava bez pristanka poreznog obveznika objavljuje u sredstvima javnog priopćavanja i na svojim mrežnim stranicama podatke potrebne radi ispravljanja netočnih ili nepotpunih informacija u slučaju ako je netočne ili nepotpune informacije porezni obveznik izravno ili neizravno dostavio sredstvima javnog priopćavanja. Obveza postupanja u dobroj vjeri",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "74A9B2E700A9785A6997F8776537292E87BEAF6985722978DC45D595E2A946E8",
+    "sha256_datoteke": "E03142096030A4974266FFFD46CCDAF1C44B23F1238FBA8C59EE0949DE90FD1A",
+    "napomena": null
+  }
+}

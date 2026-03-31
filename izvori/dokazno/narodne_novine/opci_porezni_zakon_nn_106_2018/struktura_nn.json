@@ -1,0 +1,526 @@
+{
+  "akt": {
+    "slug": "opci_porezni_zakon_nn_106_2018",
+    "naziv": "Zakon o izmjenama i dopunama Općeg poreznog zakona",
+    "vrsta": "zakon",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+    "datum_pristupa": "31.03.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "A4A233A1289AD3F6F010E658F342A98C86718F95EDB19765F14333FD4DE46D8D",
+    "oznaka_akta": "NN 106/2018"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "31.03.2026.",
+    "broj_clanaka": 56
+  },
+  "clanci": [
+    {
+      "broj": 1,
+      "naslov": null,
+      "tekst": ". U Općem poreznom zakonu (»Narodne novine«, br. 115/16.) u članku 2. stavku 2. riječi: »Porezi se ne smatraju povremenim davanjima.« zamjenjuju se riječima: »Trošarine se smatraju porezima.«. U stavku 3. riječ: »trošarine,« briše se.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 2,
+      "naslov": null,
+      "tekst": ". U članku 8. stavku 5. točki 3. iza riječi: »prekršajnog« stavlja se zarez i dodaje riječ: »kaznenog«. U stavku 9. iza riječi: »roditelja fizičke osobe.« dodaje se rečenica koja glasi: »Pregled poreznih obveznika za koje je utvrđeno da nisu porezni obveznici koji se nalaze na popisu objavljuje se na mrežnim stranicama Porezne uprave.«. Iza stavka 11. dodaju se stavci 12. i 13. koji glase: »(12) U izračun visine duga iz stavka 7. ovoga članka uzima se stanje duga po osnovama za koje je propisana objava dospjelih i neplaćenih dugova na zadnji dan u mjesecu koji prethodi mjesecu objave popisa dospjelih i neplaćenih dugova, umanjen za uplate do dana obrade podataka. Ako zadnji dan u mjesecu koji prethodi mjesecu objave popisa dospjelih i neplaćenih dugova pada na neradni dan ili dane blagdana, u izračun se uzima stanje duga na prvi sljedeći radni dan. (13) Porezni obveznici koji nakon objave popisa u cijelosti podmire dugovanja s osnova dugova iz stavka 7. ovoga članka brišu se s popisa. Na popisu dospjelih i neplaćenih dugova posebnim oznakama i porukama obilježavaju se porezni obveznici koji nakon objave popisa ne podmire dugovanja iz stavka 7. ovoga članka u cijelosti, već je nakon podmirenja dijela dugovanja njegov nepodmireni iznos manji od iznosa koji je kriterij za objavu popisa.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 3,
+      "naslov": null,
+      "tekst": ". U članku 10. stavak 2. briše se. Dosadašnji stavci 3. i 4. postaju stavci 2. i 3.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 4,
+      "naslov": null,
+      "tekst": ". U članku 11. stavak 3. mijenja se i glasi: »(3) Ako je u kaznenom ili prekršajnom postupku pravomoćnom odlukom izrečeno oduzimanje imovinske koristi ostvarene protupravnom radnjom, porezni akt kojim je utvrđena porezna obveza poništit će se na zahtjev poreznog obveznika u visini oduzete imovinske koristi u kaznenom ili prekršajnom postupku.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 5,
+      "naslov": null,
+      "tekst": ". U članku 17. iza stavka 4. dodaje se stavak 5. koji glasi: »(5) U okviru poreznog nadzora pravnih i fizičkih osoba koje obavljaju registriranu djelatnost opunomoćenik je stručna osoba iz redova odvjetnika ili poreznih savjetnika.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 6,
+      "naslov": null,
+      "tekst": ". U naslovu iznad članka 43. iza riječi: »boravište« dodaju se riječi: »za porezne svrhe«. U članku 43. stavak 3. mijenja se i glasi: »(3) Ako porezni obveznik ima prebivalište u tuzemstvu i u inozemstvu, smatra se da ima prebivalište u državi u kojoj je prebivalište obitelji, a za poreznog obveznika samca ili ako se prebivalište obitelji ne može utvrditi, smatra se da ima prebivalište u državi iz koje pretežno odlazi na rad ili obavljanje djelatnosti ili u kojoj se pretežno zadržava.«. Iza stavka 3. dodaje se novi stavak 4. koji glasi: »(4) Ako u slučaju iz stavka 3. ovoga članka druga država ne smatra poreznog obveznika svojim poreznim rezidentom, smatra se da ima prebivalište u tuzemstvu.«. Iza dosadašnjeg stavka 4., koji postaje stavak 5., dodaje se stavak 6. koji glasi: »(6) Ministar financija pravilnikom će propisati sadržaj i oblik obrazaca za utvrđivanje prebivališta iz stavka 3. ovoga članka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 7,
+      "naslov": null,
+      "tekst": ". U članku 44. iza stavka 2. dodaju se stavci 3. do 7. koji glase: »(3) Ako se određena gospodarska djelatnost obavlja putem interneta uz izbjegavanje ispunjavanja zahtjeva reguliranih odredbama posebnog propisa kojim se uređuje ta djelatnost te se tako ostvaruju nepripadajuće porezne pogodnosti ili izaziva teško nadoknadiva šteta za društvenu zajednicu, nadležno porezno tijelo može izdati nalog o zabrani daljnjeg rada. (4) Nalog o zabrani rada iz stavka 3. ovoga članka izvršava se blokiranjem pristupa sadržaju koji putem nadležne regulatorne agencije za mrežne djelatnosti provode pružatelji usluge pristupa internetu. (5) Nalog iz stavka 4. ovoga članka izdaje se na način opisan u članku 58. ovoga Zakona. (6) Pravna ili fizička osoba koja obavlja gospodarsku djelatnost iz stavaka 3. i 4. ovoga članka bit će upućena da se u roku od 30 dana javi nadležnom poreznom tijelu radi otklanjanja razloga zabrane rada odnosno blokiranja pristupa sadržaju. (7) Ministar financija pravilnikom će propisati oblik i način izdavanja naloga iz ovoga članka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 8,
+      "naslov": null,
+      "tekst": ". Naslov iznad članka 45. mijenja se i glasi: »Stalna poslovna jedinica nerezidenta«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 45,
+      "naslov": null,
+      "tekst": ". mijenja se i glasi: »(1) U smislu ovoga Zakona stalnom poslovnom jedinicom smatra se stalno mjesto poslovanja putem kojega poduzetnik nerezident obavlja djelatnost u cijelosti ili djelomično. (2) Stalnom poslovnom jedinicom poduzetnika nerezidenta smatraju se posebno: 1. mjesto uprave 2. podružnica 3. ured 4. tvornica 5. radionica i 6. rudnik, naftni ili plinski izvor, kamenolom i bilo koje drugo mjesto crpljenja prirodnih bogatstava. (3) Gradilište ili građevinski ili montažni projekt čini stalnu poslovnu jedinicu nerezidenta samo ako traje dulje od šest mjeseci. (4) Stalnom poslovnom jedinicom poduzetnika, nerezidenta, smatra se i pružanje usluga, uključujući savjetodavne ili poslovne usluge, od strane poduzetnika putem zaposlenika ili drugog osoblja koje je poduzetnik angažirao u tu svrhu, ali samo ako se takve djelatnosti nastavljaju (za isti ili povezani projekt) u razdoblju ili razdobljima koja ukupno traju dulje od tri mjeseca u bilo kojem dvanaestomjesečnom razdoblju. (5) Neovisno o ostalim uvjetima i rokovima iz ovoga članka, može se oporezivati dobit ili dohodak koji poduzetnik nerezident ostvari od nekretnina (uključujući dobit ili dohodak od poljoprivrede ili šumarstva) koje se nalaze na području Republike Hrvatske. (6) Neovisno o prethodnim odredbama ovoga članka, neće se smatrati da izraz »stalna poslovna jedinica« nerezidenta uključuje: 1. korištenje objekata isključivo u svrhu uskladištenja, izlaganja ili isporuke dobara ili robe koja pripada poduzetniku 2. održavanje zaliha dobara ili robe koja pripada poduzetniku isključivo u svrhu uskladištenja, izlaganja ili isporuke 3. održavanje zaliha dobara ili robe koja pripada poduzetniku isključivo u svrhu prerade koju obavlja drugi poduzetnik 4. održavanje stalnog mjesta poslovanja isključivo u svrhu kupnje dobara ili robe ili u svrhu prikupljanja podataka za poduzetnika 5. održavanje stalnog mjesta poslovanja isključivo u svrhu obavljanja bilo koje druge slične pripremne ili pomoćne aktivnosti za poduzetnika 6. održavanje stalnog mjesta poslovanja isključivo zbog bilo koje kombinacije aktivnosti spomenutih u točkama 1. do 5. ovoga stavka, pod uvjetom da je ta aktivnost ili, u slučaju ove točke, ukupna aktivnost stalnog mjesta poslovanja, pripremne ili pomoćne naravi. (7) Odredba stavka 6. ovoga članka ne primjenjuje se kada stalno mjesto poslovanja koristi ili održava poduzetnik nerezident ako isti poduzetnik nerezident ili povezana osoba ili povezano društvo obavlja poslovanje na istom mjestu ili na drugom mjestu u Republici Hrvatskoj i a) to mjesto ili drugo mjesto čini stalnu poslovnu jedinicu poduzetnika ili povezane osobe ili povezanog društva prema odredbama ovoga članka ili b) ukupna aktivnost, koja proizlazi iz kombinacije djelatnosti koje obavljaju dva poduzetnika na istom mjestu ili isti poduzetnik ili povezane osobe ili povezana društva na dva mjesta, nije pripremne ili pomoćne naravi, pod uvjetom da poslovne djelatnosti koje obavljaju dva poduzetnika na istom mjestu ili isti poduzetnik ili povezane osobe ili povezana društva na dva mjesta predstavljaju nadopunjujuće funkcije koje su dio jedinstvenog poslovanja. (8) Neovisno od stavaka 1. i 2. ovoga članka, kad osoba djeluje u Republici Hrvatskoj u ime poduzetnika nerezidenta te pritom uobičajeno sklapa ugovore ili uobičajeno ima glavnu ulogu u postupku sklapanja ugovora koji se rutinski sklapaju bez značajne preinake od strane poduzetnika nerezidenta te se ugovori sklapaju: a) u ime poduzetnika ili b) za prijenos vlasništva ili za dodjeljivanje prava na korištenje, imovine koju posjeduje taj poduzetnik ili za koju taj poduzetnik ima pravo korištenja ili c) za pružanje usluga od strane tog poduzetnika, smatra se da taj poduzetnik nerezident ima stalnu poslovnu jedinicu u Republici Hrvatskoj u pogledu svih djelatnosti koje ta osoba poduzme za poduzetnika nerezidenta, osim ako djelatnosti te osobe nisu ograničene na one navedene u stavku 6. ovoga članka. Ako bi se djelatnosti iz stavka 6. ovoga članka obavljale putem stalnog mjesta poslovanja (osim stalnog mjesta poslovanja na koje se primjenjuje stavak 7. ovoga članka), to stalno mjesto poslovanja ne bi činilo stalnu poslovnu jedinicu. (9) Odredba stavka 8. ovoga članka ne primjenjuje se ako osoba koja djeluje u Republici Hrvatskoj u ime poduzetnika nerezidenta posluje kao zastupnik sa samostalnim statusom i djeluje za poduzetnika nerezidenta u okviru tog redovitog poslovanja. Ako osoba djeluje isključivo ili gotovo isključivo u ime jednog ili više poduzetnika s kojima je usko povezana, ta se osoba ne smatra zastupnikom sa samostalnim statusom u smislu ovoga stavka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 9,
+      "naslov": null,
+      "tekst": ". U članku 49. stavku 1. točki 3. na kraju rečenice briše se točka i dodaje točka 4. koja glasi: »4. dvije ili više fizičkih i/ili pravnih osoba koje za izvršavanje obveza iz porezno-dužničkog odnosa predstavljaju jedan rizik na način da ostvaruju kontinuitet djelatnosti u istom prostoru, koristeći istu opremu.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 10,
+      "naslov": null,
+      "tekst": ".",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 50,
+      "naslov": null,
+      "tekst": ". mijenja se i glasi: »Ako se utvrđuje dobit stalne poslovne jedinice nerezidenta, stalnoj poslovnoj jedinici nerezidenta pripisuje se dobit koja se može očekivati u transakcijama s drugim dijelovima poduzetnika, kao da su odvojene i kao da se radi o samostalnim poduzetnicima koji se bave istim ili sličnim djelatnostima pod istim ili sličnim uvjetima. Pritom se uzimaju u obzir obavljene funkcije, imovina koja se koristi i preuzeti rizici od poduzetnika putem stalne poslovne jedinice i kroz druge dijelove poduzetnika.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 11,
+      "naslov": null,
+      "tekst": ". U članku 58. stavku 4. točka 4. mijenja se i glasi: »4. potpis ovlaštene osobe ili elektronički potpis ili elektronički pečat poreznog tijela.«. Iza stavka 6. dodaju se stavci 7. do 11. koji glase: »(7) Porezni akt koji je izvorno izdan u elektroničkom obliku predstavlja elektronički zapis koji je pravno valjan i kada je ispisan na papiru, ako postoji proces validacije izvornosti elektroničkim putem iz stavka 9. ovoga članka. (8) Poreznim aktima iz stavka 7. ovoga članka pristupa se putem elektroničkih usluga poreznog tijela. (9) Porezni akti iz stavka 7. ovoga članka generiraju se iz elektroničkog sustava poreznog tijela i čuvaju se u elektroničkom sustavu poreznog tijela do zakonskog roka čuvanja tog pojedinog akta od trenutka generiranja te se u tom roku može izvršiti provjera broja zapisa i kontrolnog broja te validacija izvornosti elektroničkog pečata. (10) Odredbe ovoga članka u dijelu elektroničkog izdavanja poreznog akta primjenjuju se i na ostala pismena koja nisu porezni akti, a koja izdaje porezno tijelo. (11) Ministar financija pravilnikom će propisati način provjere izvornosti, pristup poreznim aktima izdanim u elektroničkom obliku i čuvanje poreznog akta u elektroničkom obliku.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 12,
+      "naslov": null,
+      "tekst": ". U članku 62. stavak 4. mijenja se i glasi: »(4) Porezni obveznici koji isporuku dobara ili obavljanje usluga naplaćuju u gotovini obvezni su promet iskazivati potpuno, točno, pravodobno i uredno putem naplatnih uređaja ili na drugi odgovarajući način.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 13,
+      "naslov": null,
+      "tekst": ". Iza članka 63. dodaje se naslov iznad članka i članak 63.a koji glase: »Uporaba računa u elektroničkom obliku",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 63,
+      "naslov": null,
+      "tekst": ".a Porezni obveznik može izdati račun u elektroničkom obliku ako primatelj računa izričito ne odbija takav način ispostavljanja računa.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 14,
+      "naslov": null,
+      "tekst": ". U članku 66. iza stavka 2. dodaje se novi stavak 3. koji glasi: »(3) Knjigovodstvene isprave koje su izrađene na papiru mogu se pretvoriti u elektronički zapis ako se osigura vjerodostojnost podrijetla, cjelovitost sadržaja i čitljivost od trenutka pretvorbe do kraja razdoblja propisanog za čuvanje knjigovodstvene isprave.«. Dosadašnji stavci 3. do 16. postaju stavci 4. do 17. Iza dosadašnjeg članka 17., koji postaje stavak 18., dodaje se stavak 19. koji glasi: »(19) Ministar financija pravilnikom će propisati način osiguranja vjerodostojnosti podrijetla, cjelovitosti sadržaja i čitljivosti knjigovodstvene isprave pretvorene u elektronički zapis za porezne potrebe.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 15,
+      "naslov": null,
+      "tekst": ". U članku 68. stavak 1. mijenja se i glasi: »(1) Porezni obveznik dužan je prijaviti sve činjenice bitne za utvrđivanje njegove porezne obveze, a osobito premještaj radionice ili stalne poslovne jedinice, početak obavljanja gospodarske djelatnosti, broj poslovnog računa koji ima izvan Republike Hrvatske i druge činjenice čije je prijavljivanje propisano posebnim zakonom, a koje nisu dostupne poreznom tijelu kroz razmjenu podataka s drugim javnopravnim tijelima.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 16,
+      "naslov": null,
+      "tekst": ". Iza članka 74. dodaje se naslov iznad članka i članak 74.a koji glase: »Elektronička komunikacija između poreznih obveznika i poreznog tijela",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 74,
+      "naslov": null,
+      "tekst": ".a (1) Iznimno od članka 74. stavka 6. ovoga Zakona te od odredbi posebnih propisa, porezni obveznici mogu komunicirati s poreznim tijelom na način da se registriraju u elektronički sustav poreznog tijela. (2) Registracijom u elektronički sustav porezni obveznik postaje korisnik elektroničkog sustava poreznog tijela te korisnik u tu svrhu mora dati poreznom tijelu registracijske podatke. (3) Za porezne obveznike koji nisu obveznici prema članku 74. stavku 6. ovoga Zakona te od odredbi posebnih propisa, odnosno za određene kategorije poreznih obveznika umjesto korištenja naprednog elektroničkog potpisa može se propisati korištenje niže sigurnosne razine nacionalno priznatih vjerodajnica za korištenje elektroničkog sustava poreznog tijela. (4) Porezno tijelo može razmjenjivati potvrde s drugim državama elektroničkim putem. (5) Ministar financija pravilnikom će propisati način registracije u elektronički sustav poreznog tijela i korištenje sigurnosnih razina nacionalno priznatih vjerodajnica.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 17,
+      "naslov": null,
+      "tekst": ". U članku 79. stavak 9. mijenja se i glasi: »(9) Porezni obveznici upisani u registar obveznika poreza na dodanu vrijednost koji imaju u svojim poslovnim knjigama evidentirane dospjele, a nenaplaćene tražbine, koje su dospjele sukladno rokovima ispunjenja novčanih obveza propisanim posebnim propisom, dužni su sastaviti statističko izvješće o dospjelim, a nenaplaćenim tražbinama u rokovima za podnošenje poreznih prijava poreza na dohodak ili poreza na dobit sukladno posebnom propisu u tekućoj godini za sve dospjele, a neplaćene račune sa stanjem na dan 31. prosinca prethodne godine.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 18,
+      "naslov": null,
+      "tekst": ". U članku 95. iza stavka 3. dodaju se stavci 4. i 5. koji glase: »(4) Čelnik poreznog tijela za potrebe provedbe ovoga članka odlukom propisuje koji iznos u pojedinom poreznom postupku predstavlja trošak izdavanja rješenja nerazmjeran naplaćenom porezu, što će se objavljivati na službenim stranicama poreznog tijela. (5) U slučaju kada je porezno tijelo tijelo jedinice lokalne odnosno područne (regionalne) samouprave, odluku iz stavka 4. ovoga članka donosi predstavničko tijelo jedinice područne (regionalne) samouprave ili predstavničko tijelo jedinice lokalne samouprave.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 19,
+      "naslov": null,
+      "tekst": ". U članku 98. stavku 2. točka 4. mijenja se i glasi: »4. potpis ovlaštene osobe i otisak pečata ili elektronički potpis ili elektronički pečat poreznog tijela.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 20,
+      "naslov": null,
+      "tekst": ". U članku 101. stavku 7. iza riječi: »ovrha« dodaju se riječi: »na novčanim sredstvima«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 21,
+      "naslov": null,
+      "tekst": ". U članku 108. stavku 4. iza riječi: »poreznu obvezu i kamate« dodaju se riječi: »odnosno istekom godine u kojoj je porezna obveza dospjela«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 22,
+      "naslov": null,
+      "tekst": ". U članku 109. stavak 11. mijenja se i glasi: »(11) Na zastaru prekršajnog progona, izvršenja prekršajnopravnih sankcija, izvršenja oduzimanja imovinske koristi, oduzimanja predmeta i troškova prekršajnog postupka primjenjuju se odredbe zakona kojim se uređuje prekršajni postupak.«. Iza stavka 11. dodaje se stavak 12. koji glasi: »(12) Na nastup zastare prava na povrat porezno tijelo pazi po službenoj dužnosti.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 23,
+      "naslov": null,
+      "tekst": ". U članku 114. stavak 1. mijenja se i glasi: »(1) Radi praćenja činjenica bitnih za oporezivanje banke su dužne Ministarstvu financija dostavljati podatke o prometu svih kunskih i deviznih računa pravnih osoba, fizičkih osoba koje obavljaju registriranu djelatnost obrta i slobodnih zanimanja i građana, uključujući i podatke o prometu tekućih računa i štednih uloga.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 24,
+      "naslov": null,
+      "tekst": ". U članku 115. stavak 1. mijenja se i glasi: »(1) Porezni nadzor u smislu ovoga Zakona dio je porezno-pravnog odnosa u kojem Porezna uprava i Carinska uprava te druga porezna tijela provode postupak radi provjere i utvrđivanja činjenica bitnih za oporezivanje poreznih obveznika i drugih osoba.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 25,
+      "naslov": null,
+      "tekst": ". U članku 119. stavku 1. riječi: »stavka 2.« brišu se.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 26,
+      "naslov": null,
+      "tekst": ". U članku 120. stavku 3. točka 8. mijenja se i glasi: »8. potpis ovlaštene osobe ili elektronički potpis ili elektronički pečat poreznog tijela.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 27,
+      "naslov": null,
+      "tekst": ". U članku 124. stavak 1. mijenja se i glasi: »(1) Radi onemogućavanja daljnjeg nezakonitog postupanja i pravilnog uređenja porezno-pravnog odnosa porezno tijelo može rješenjem poreznom obvezniku zabraniti daljnji rad kada: 1. ne izdaje račune prema članku 62. stavcima 1. i 5. ovoga Zakona 2. ne iskazuje isporuke dobara i usluga preko naplatnog uređaja prema članku 62. stavku 4. ovoga Zakona 3. ne vodi poslovne knjige i evidencije radi oporezivanja prema propisima koji se primjenjuju u Republici Hrvatskoj prema članku 62. stavku 5. ovoga Zakona 4. odbija sudjelovati u poreznom postupku prema članku 69. i članku 71. ovoga Zakona 5. kada se ne odazove na poziv poreznog tijela prema članku 78. ovoga Zakona i kada ne dopusti obavljanje poreznog nadzora prema članku 117. stavku 1. ovoga Zakona.«. U stavku 4. iza riječi: »rad.« dodaje se rečenica koja glasi: »Poslovni prostor ostaje zapečaćen u roku koji je određen bez obzira na promjene pravne osobnosti poreznog obveznika koji obavlja djelatnost u tom poslovnom prostoru.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 28,
+      "naslov": null,
+      "tekst": ". U članku 125. stavku 2. točki 2. na kraju rečenice briše se točka i dodaje se točka 3. koja glasi: »3. u nadzorima fiskalizacije i igara na sreću.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 29,
+      "naslov": null,
+      "tekst": ".",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 126,
+      "naslov": null,
+      "tekst": ". mijenja se i glasi: » (1) O poreznom nadzoru sastavlja se zapisnik. (2) Zapisnik treba sadržavati: 1. naziv poreznog tijela, broj i datum poreznog akta 2. ime i prezime, odnosno naziv poreznog obveznika 3. pravni i činjenični temelj 4. mjesto provođenja i vrijeme trajanja nadzora 5. imena ovlaštenih osoba koje su nadzor provele 6. vrste poreza i razdoblje obuhvaćeno nadzorom 7. opis radnja, činjenica i dokaza provedenih u postupku po kojima su utvrđene nepravilnosti. (3) Zapisnik se mora voditi uredno, u njemu se ništa ne smije dodati ili mijenjati, prekrižena mjesta moraju ostati čitljiva, a ako zapisnik ima više listova, svaka stranica mora biti označena rednim brojem i potpisana. (4) Na zapisnik o poreznom nadzoru porezni obveznik ima pravo podnijeti prigovor u roku koji ne može biti kraći od pet dana, a niti dulji od 20 dana, računajući od dana primitka zapisnika. Porezni obveznik može se odreći prava na prigovor. (5) Porezno tijelo dužno je razmotriti prigovor na zapisnik te ako prigovor ne usvoji, razloge neusvajanja treba navesti u obrazloženju poreznog rješenja. (6) Ako su prigovorom iznesene nove činjenice i materijalni dokazi zbog kojih bi trebalo promijeniti činjenično stanje utvrđeno u zapisniku ili izmijeniti prijašnje pravne ocjene, porezno tijelo će o takvim činjenicama i materijalnim dokazima ili novim pravnim ocjenama sastaviti dopunski zapisnik. Na dopunski zapisnik ne može se podnijeti prigovor. (7) Na temelju činjenica navedenih u zapisniku i u dopunskom zapisniku o poreznom nadzoru donosi se porezno rješenje. (8) Rješenje iz stavka 7. ovoga članka donosi se najkasnije u roku od 60 dana od dana isteka roka za prigovor na zapisnik, odnosno od dana uručenja dopunskog zapisnika poreznom nadzoru. (9) Iznimno od stavka 8. ovoga članka, u nadzorima fiskalizacije i nadzorima igara na sreću ne donosi se porezno rješenje. (10) U slučaju primjene stavka 9. ovoga članka razloge neusvajanja prigovora treba navesti u obrazloženju prekršajnog naloga i optužnog prijedloga u smislu zakona kojim se uređuje prekršajni postupak. (11) Ako ovlaštene osobe tijekom poreznog nadzora utvrde činjenice značajne za oporezivanje drugih osoba, tada će o tome obavijestiti nadležno porezno tijelo.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 30,
+      "naslov": null,
+      "tekst": ". U članku 129. stavak 4. mijenja se i glasi: »(4) U slučaju otvaranja stečajnoga postupka nad poreznim dužnikom porezno tijelo može prije prijave tražbine u stečajni postupak, putem jednostrane izjave, izvršiti prijeboj nesporne tražbine, dospjele do dana otvaranja stečajnoga postupka poreznog dužnika s nespornom tražbinom poreznog tijela, dospjelom do dana otvaranja stečajnog postupka, pod uvjetima predviđenim zakonom kojim se uređuje stečajni postupak i zakonom kojim se uređuju obvezni odnosi.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 31,
+      "naslov": null,
+      "tekst": ". U članku 132. stavak 2. mijenja se i glasi: »(2) Pravima poreznog tijela iz porezno-dužničkog odnosa u postupku koji se provodi prema odredbama zakona kojim se uređuje stečaj potrošača te u postupku predstečajne nagodbe, odnosno predstečajnom i stečajnom postupku, čija vrijednost predmeta, odnosno visina ukupne obveze dužnika prelazi iznos od 10.000.000,00 kuna, ovlašten je raspolagati ministar financija.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 32,
+      "naslov": null,
+      "tekst": ". U članku 140. stavku 2. iza točke 4. dodaje se nova točka 5. koja glasi: »5. rješenje o ovrsi«. Dosadašnja točka 5. postaje točka 6. U stavku 3. iza riječi: »tijela« umjesto točke stavlja se zarez i dodaju se riječi: »ili ovjeren elektroničkim potpisom ili elektroničkim pečatom poreznog tijela.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 33,
+      "naslov": null,
+      "tekst": ". U članku 141. stavak 3. mijenja se i glasi: »(3) Rješenje o ovrsi donosi porezno tijelo koje je mjesno nadležno za utvrđivanje i/ili naplatu poreza.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 34,
+      "naslov": null,
+      "tekst": ". U članku 146. stavak 1. mijenja se i glasi: »(1) Ovrhu provodi porezno tijelo ako je porezni dug poreznog obveznika dospio.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 35,
+      "naslov": null,
+      "tekst": ". U članku 147. iza stavka 2. dodaju se stavci 3. i 4. koji glase: »(3) Ovrhu porezno tijelo može obustaviti ako tijelo koje provodi ovrhu, sukladno zakonu kojim je propisana provedba ovrhe na novčanim sredstvima, prestane izvršavati osnovu za plaćanje. (4) Ovrha se obustavlja rješenjem koje postaje izvršno danom donošenja.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 36,
+      "naslov": null,
+      "tekst": ". U članku 148. stavku 1. točka 5. mijenja se i glasi: »5. ako se u stečajnom postupku nad dužnikom pojedincem ispune pretpostavke za oslobođenje od preostalih obveza propisane zakonom kojim se uređuje stečajni postupak«. U točki 6. na kraju rečenice briše se točka i dodaje točka 7. koja glasi: »7. ako se u sudskom postupku ili postupku mirnog rješenja spora sklopi nagodba, tražbina će se otpisati kao nenaplativa.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 37,
+      "naslov": null,
+      "tekst": ".",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 151,
+      "naslov": null,
+      "tekst": ". mijenja se i glasi: »Ako ovim Zakonom nije uređeno drugačije, na ovrhu se primjenjuje zakon kojim se uređuje ovršni postupak i zakon kojim se uređuje provedba ovrhe na novčanim sredstvima.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 38,
+      "naslov": null,
+      "tekst": ". U članku 153. stavak 1. mijenja se i glasi: »(1) Provedba ovrhe na novčanim sredstvima ovršenika obavlja se dostavom osnove za plaćanje Financijskoj agenciji sukladno odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima. Financijska agencija po primitku rješenja o ovrsi i naloga za provedbu ovrhe iz stavka 2. ovoga članka, sukladno ovom Zakonu, odmah izdaje nalog za prijenos novčanih sredstava na račun ovrhovoditelja naznačen u osnovi za plaćanje.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 39,
+      "naslov": null,
+      "tekst": ".",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 155,
+      "naslov": null,
+      "tekst": ". mijenja se i glasi: »U postupku ovrhe ne mogu se plijeniti ovršenikove tražbine za koje su zakonom kojim se uređuje ovršni postupak ili posebnim propisom propisana izuzeća i ograničenja od ovrhe.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 40,
+      "naslov": null,
+      "tekst": ". U članku 164. stavci 3. i 4. mijenjaju se i glase: »(3) Pokretnine se prodaju po najvišoj ponuđenoj cijeni. (4) Ako na prvoj javnoj prodaji nije pristigla niti jedna ponuda te se pokretnine ne unovče po cijeni koja ne smije biti niža od dvije trećine njihove vrijednosti utvrđene procjenom, može se u roku od najmanje pet dana odrediti druga javna prodaja.«",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 41,
+      "naslov": null,
+      "tekst": ". U članku 167. stavak 2. mijenja se i glasi: »(2) Primjerak rješenja o ovrsi kojim se nalaže pljenidba dostavlja se tijelu nadležnom za vođenje upisnika propisanih odredbama zakona kojim se uređuje ovršni postupak, odnosno drugoga posebnog zakona kojim se uređuje vođenje upisnika stvari ili prava radi provedbe zabilježbe ovrhe.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 42,
+      "naslov": null,
+      "tekst": ". U članku 171. iza stavka 5. dodaju se stavci 6. do 9. koji glase: »(6) Postupak osiguranja može se provoditi najduže do 15 dana od dana nastupanja uvjeta za ovrhu. U slučaju da su nastupile okolnosti zbog kojih se osiguranje više ne može provoditi, postupak osiguranja se obustavlja, a Financijskoj agenciji nalaže se zaplijenjena sredstva vratiti na račun protivnika osiguranja. (7) Kada nastupe uvjeti za ovrhu radi naplate osigurane tražbine, porezno tijelo istim će rješenjem obustaviti postupak osiguranja, odrediti ovrhu te naložiti Financijskoj agenciji prijenos sredstava zaplijenjenih po rješenju o osiguranju radi namirenja tražbine iz rješenja o ovrsi. (8) U slučaju iz stavka 7. ovoga članka, ako tražbina iz rješenja nije namirena iz prenesenih zaplijenjenih sredstava, rješenje o ovrsi za preostali iznos tražbine zadržava prednosni red koji je steklo rješenje o osiguranju. (9) Provedbom mjere osiguranja predlagatelj osiguranja stječe založno pravo, osim u slučaju iz stavaka 3. i 4. ovoga članka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 43,
+      "naslov": null,
+      "tekst": ". U članku 176. točki 8. iza riječi: »osobe« dodaju se riječi: »ili elektronički potpis ili elektronički pečat poreznog tijela«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 44,
+      "naslov": null,
+      "tekst": ". U članku 181. stavku 4. iza riječi: »potpisati« umjesto točke stavlja se zarez i dodaju se riječi: »a u slučaju podnošenja žalbe u elektroničkom obliku potpisuje ju na način propisan člankom 74.a stavkom 3. ovoga Zakona.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 45,
+      "naslov": null,
+      "tekst": ". U članku 192. stavku 1. točka 2. mijenja se i glasi: »2. ako ne iskazuje isporuke dobara i usluga preko naplatnog uređaja ili na drugi odgovarajući način, a naplaćuje ih gotovinom ili ne iskazuje ili ne iskazuje potpuno i/ili točno i/ili pravodobno i/ili uredno (članak 62. stavak 4.)«. Iza stavka 5. dodaje se stavak 6. koji glasi: »(6) Utvrđeni višak gotovine koji nije iskazan preko naplatnog uređaja oduzet će se kao imovinska korist, a povodom prekršaja opisanog u stavku 1. točki 2. ovoga članka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 46,
+      "naslov": null,
+      "tekst": ". U članku 193. stavku 1. dodaju se nove točke 1. i 2. koje glase: »1. ako kao pružatelj usluga pristupa internetu ne blokira pristup sadržaju prema nalogu o zabrani rada koji izdaje nadležno tijelo putem nadležne regulatorne agencije za mrežne djelatnosti (članak 44. stavak 4.) 2. ako netočno vodi evidencije ili je za iskazane isporuke dobara i usluga preko naplatnog uređaja utvrđen manjak gotovine (članak 62. stavci 4. i 5.)«. Dosadašnje točke 1. do 13. postaju točke 3. do 15. Stavak 3. mijenja se i glasi: »Novčanom kaznom u iznosu od 500,00 do 30.000,00 kuna za prekršaj iz stavka 1. točaka 6., 7., 8., 9., 10., 11., 12., 13. i 14. ovoga članka kaznit će se fizička osoba.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 47,
+      "naslov": null,
+      "tekst": ". U članku 197. stavak 4. briše se. PRIJELAZNE I ZAVRŠNE ODREDBE",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 48,
+      "naslov": null,
+      "tekst": ". (1) Ministar financija će u roku od 60 dana od dana stupanja na snagu ovoga Zakona donijeti pravilnik iz članka 43. stavka 6. dodanog člankom 6. ovoga Zakona, članka 44. stavka 7. dodanog člankom 7. ovoga Zakona, članka 58. stavka 11. dodanog člankom 11. ovoga Zakona, članka 66. stavka 19. dodanog člankom 14. ovoga Zakona i članka 74.a stavka 5. dodanog člankom 16. ovoga Zakona. (2) Odredbe Pravilnika o provedbi Općeg poreznog zakona (»Narodne novine«, br. 30/17.) ostaju na snazi.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 49,
+      "naslov": null,
+      "tekst": ". Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu 1. siječnja 2019. Klasa: 022-03/18-01/148 Zagreb, 21. studenoga 2018. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 106/2018-2065 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 106/2018 Broj dokumenta u izdanju: 2065 Stranica tiskanog izdanja: 83 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 30.11.2018. ELI: /eli/sluzbeni/2018/106/2065 Osnove porezne pismenosti Nika Šimurina, Ivana Dražić Lutilsky, Dajana Barbić, Martina Dragija Kostić travanj 2018. Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    }
+  ]
+}

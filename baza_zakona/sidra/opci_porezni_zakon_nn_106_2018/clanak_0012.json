@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". U članku 62. stavak 4. mijenja se i glasi: »(4) Porezni obveznici koji isporuku dobara ili obavljanje usluga naplaćuju u gotovini obvezni su promet iskazivati potpuno, točno, pravodobno i uredno putem naplatnih uređaja ili na drugi odgovarajući način.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8ADB2F85614861368CE6EEE37188D10E3EA6ACA02AFC197BB35A4795D70B3944",
+    "sha256_datoteke": "56EEB0A7FB8F642BD65E4071C99E0E1366472E2DEF293EB47F742343C71C4A53",
+    "napomena": null
+  }
+}

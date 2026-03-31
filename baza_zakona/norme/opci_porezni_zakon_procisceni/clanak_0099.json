@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "99",
+    "naslov": null,
+    "tekst": ". (1) Ako se rješenje o utvrđivanju poreza donosi na temelju podataka iskazanih u poreznoj prijavi poreznog obveznika, a porezno tijelo nije prethodno provelo postupak provjere činjenica bitnih za donošenje toga rješenja, takvo je rješenje privremeno. (2) Ako postoji sumnja glede vlasništva nad nekim predmetom ili glede njegove vrijednosti koja se može otkloniti tek nekim drugim postupkom ili radnjom, porezno tijelo će privremenim rješenjem utvrditi poreznu obvezu. (3) Privremeno porezno rješenje mora biti kao takvo označeno. (4) Privremeno porezno rješenje smatra se u pogledu pravnih lijekova i izvršenja samostalnim rješenjem. (5) Porezno tijelo može izvršiti naknadnu provjeru vjerodostojnosti podataka iskazanih u poreznoj prijavi poreznog obveznika. Ako porezno tijelo na temelju naknadno izvršene provjere utvrdi da postoji osnova za izmjenu porezne obveze utvrđene privremenim poreznim rješenjem, porezno tijelo će zamijeniti privremeno porezno rješenje novim rješenjem. (6) Ako porezno tijelo ne donese rješenje kojim se zamjenjuje privremeno porezno rješenje, porezna obveza utvrđena privremenim rješenjem smatrat će se konačno utvrđenom poreznom obvezom. Obračunska prijava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9B830F613C4B36067ED04A0FB843F38D16F30FF5CA948674E9BB7CC008124248",
+    "sha256_datoteke": "555B4AC0D770FFC5EAF0FA83BB4C5FD46A637868073440A5AC24676B33498A98",
+    "napomena": null
+  }
+}

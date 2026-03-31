@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 7. iza stavka 5. dodaje se novi stavak 6. koji glasi: »(6) Iznimno od rokova propisanih stavcima 2., 3., 4. i 5. ovoga članka, u slučaju nastupanja posebnih okolnosti iz članka 6. stavka 3. ovoga Zakona prijevremeni izbori održat će se nakon prestanka posebnih okolnosti, a najkasnije u roku od 90 dana od dana prestanka tih okolnosti.«. U dosadašnjem stavku 6., koji postaje stavak 7., riječi: »4. i 5.« zamjenjuju se riječima: »4., 5. i 6.«. Dosadašnji stavak 7. postaje stavak 8.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 42/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CD38CD744D3498E576E1A65E98AD8EA8D9D3CA2271E0D69F3362FD99973B34A6",
+    "sha256_datoteke": "1908E0FA86AFC2D4772793C7F222CF18B0E033FC226BA1DE8D3F6D3710CF1305",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "44",
+    "naslov": null,
+    "tekst": ".a (1) Zabrana rada provodi se i zabranom izvršenja platne transakcije platnim karticama putem interneta u korist poslovnih subjekata koji nedozvoljeno obavljaju gospodarsku djelatnost putem interneta iz članka 44. stavka 3. ovoga Zakona, a zabranu plaćanja izvršavaju pružatelji platnih usluga u Republici Hrvatskoj. (2) Pružatelji platnih usluga iz stavka 1. ovoga članka dužni su bez odgađanja onemogućiti izvršenje platne transakcije putem interneta platnim karticama izdanim od strane pružatelja platnih usluga u Republici Hrvatskoj, koja su izvršena u korist poslovnih subjekata koji nedozvoljeno obavljaju gospodarsku djelatnost putem interneta. (3) U svrhu provedbe odredbe stavka 2. ovoga članka Porezna uprava će za područja koja su u njezinoj nadležnosti na mrežnim stranicama objaviti podatke o poslovnim subjektima koji određenu gospodarsku djelatnost obavljaju u skladu s posebnim propisom kojim se uređuje ta djelatnost. (4) Identifikacija platnih transakcija iz stavka 2. ovoga članka platnim karticama pružatelja platnih usluga u Republici Hrvatskoj koja podliježu zabrani izvršenja provodi se na osnovu identifikatora koji se dodjeljuju u međunarodnim kartičnim shemama.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "717BBC815FBF3FF1E73B57D111EDD402119211EB7A9EA24665E59B295F61E9A7",
+    "sha256_datoteke": "878C5A3C475D6550E42963DE94864779F7FE10E55EA88E4FCA9024D867CA88CF",
+    "napomena": null
+  }
+}

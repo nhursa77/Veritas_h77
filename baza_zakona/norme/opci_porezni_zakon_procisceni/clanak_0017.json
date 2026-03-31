@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznik može imati opunomoćenika, stručnog pomagača i poreznog savjetnika. (2) Opunomoćenik je osoba koja zastupa poreznog obveznika u okviru dobivene punomoći i u njegovo ime može poduzimati radnje u poreznom postupku. (3) Stručni pomagač je osoba koja nastupa uz nazočnost poreznog obveznika i pomaže mu savjetima. Izjava stručnog pomagača smatra se izjavom poreznog obveznika samo ako porezni obveznik danoj izjavi odmah ne proturječi. Stručni pomagač nije ovlašten u ime poreznog obveznika poduzimati radnje u poreznom postupku kao njegov zastupnik. (4) Porezni savjetnik je osoba koja obavlja poslove savjetovanja poreznog obveznika u poreznom postupku pred poreznim tijelima. Ako nastupa i kao opunomoćenik poreznog obveznika, mora imati punomoć za obavljanje tih poslova. Obavljanje djelatnosti poreznog savjetnika uređuje se posebnim zakonom. Obveze zakonskih zastupnika, upravitelja imovine i osoba s pravom raspolaganja imovinom",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4226BA798745BC5FDC98779AC0453F6FAB1E5328E09D38F9A39434E46DDF4EB1",
+    "sha256_datoteke": "64435CD1B2F2A5F20DB6C4D2911858EA034E2B4395392E2066C2F8B5FC0C8E42",
+    "napomena": null
+  }
+}

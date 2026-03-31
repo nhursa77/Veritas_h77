@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "124",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo može rješenjem zabraniti daljnji rad poreznom obvezniku kada ne izdaje račune prema članku 62. stavku 1. i 5. ovog Zakona, kada ne iskazuje isporuke dobara i usluga preko naplatnog uređaja prema članku 62. stavku 4. ovog Zakona, kada ne vodi poslovne knjige i evidencije radi oporezivanja prema propisima koji se primjenjuju u Republici Hrvatskoj prema članku 62. stavku 5. ovog Zakona, kada odbija sudjelovati u poreznom postupku prema članku 69. i članku 71. ovog Zakona, kada se ne odazove na poziv poreznog tijela prema članku 78. ovog Zakona i kada ne dopusti obavljanje poreznog nadzora prema članku 117. stavku 1. ovog Zakona. (2) Zabrana rada može trajati od 15 dana do šest mjeseci. (3) Žalba izjavljena protiv rješenja iz stavka 1. ovoga članka ne zadržava izvršenje rješenja. (4) Zabrana iz stavka 2. ovoga članka izvršava se pečaćenjem poslovnih prostorija u kojima porezni obveznik obavlja djelatnost, kao i pečaćenjem opreme i sredstava koja mu služe za rad. Pravo poreznog obveznika na obavijest o ishodu poreznog nadzora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1C7D44E5A5BAF151307535F39C8C6C6CB032649C0F230BD05D5F0A4128FE1161",
+    "sha256_datoteke": "1E161A0C2D8DDC983E196BDD2652CD5569FD22C4A79DD00135E8A944115A504A",
+    "napomena": null
+  }
+}

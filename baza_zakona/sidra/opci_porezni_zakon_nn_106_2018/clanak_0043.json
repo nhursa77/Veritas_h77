@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "43",
+    "naslov": null,
+    "tekst": ". U članku 176. točki 8. iza riječi: »osobe« dodaju se riječi: »ili elektronički potpis ili elektronički pečat poreznog tijela«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7680F677AD52D08152C6CC0AEC8F61FC54D4AD274CBCA9772B84F3711233BE0A",
+    "sha256_datoteke": "279BE9584E86F08726F8CB24F5C8D3A33D166D6214831A812D9F779D3C9E164D",
+    "napomena": null
+  }
+}

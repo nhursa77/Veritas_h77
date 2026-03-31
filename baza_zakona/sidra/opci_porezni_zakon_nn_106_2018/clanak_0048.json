@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "48",
+    "naslov": null,
+    "tekst": ". (1) Ministar financija će u roku od 60 dana od dana stupanja na snagu ovoga Zakona donijeti pravilnik iz članka 43. stavka 6. dodanog člankom 6. ovoga Zakona, članka 44. stavka 7. dodanog člankom 7. ovoga Zakona, članka 58. stavka 11. dodanog člankom 11. ovoga Zakona, članka 66. stavka 19. dodanog člankom 14. ovoga Zakona i članka 74.a stavka 5. dodanog člankom 16. ovoga Zakona. (2) Odredbe Pravilnika o provedbi Općeg poreznog zakona (»Narodne novine«, br. 30/17.) ostaju na snazi.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F209C778643EF2160B58896E8C8DB481AAAA441E5BFD0D9684611C992281B7CF",
+    "sha256_datoteke": "A8B980C62B66D6F00C3A7ED14B982CA830465CC1E4791B8BA981B8BEEE4B3C44",
+    "napomena": null
+  }
+}

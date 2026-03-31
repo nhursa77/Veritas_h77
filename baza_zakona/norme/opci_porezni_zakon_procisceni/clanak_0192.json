@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "192",
+    "naslov": null,
+    "tekst": ". (1) Novčanom kaznom u iznosu od 20.000,00 do 500.000,00 kuna kaznit će se pravna osoba: 1. ako ne izdaje račune (članak 62. stavak 1. i 5.) 2. ako ne iskazuje isporuke dobara i usluga preko naplatnog uređaja ili na drugi odgovarajući način, a naplaćuje ih gotovinom (članak 62. stavak 4.) 3. ako ne vodi poslovne knjige i evidencije radi oporezivanja prema poreznim propisima koji se primjenjuju u Republici Hrvatskoj (članak 62. stavak 5.) 4. ako knjiženja i druga evidentiranja u poslovnim knjigama ne obavlja potpuno ili točno ili pravodobno ili uredno (članak 66. stavak 1.) 5. ako poslovne knjige, druge evidencije i knjigovodstvene isprave ne čuva u rokovima propisani zakonom (članak 66. stavak 17.) 6. ako ne uruči ispis elektronički vođenih poslovnih knjiga, evidencija i izvješća i drugih podataka koji izravno ili neizravno utječu na utvrđivanje porezne osnovice, ili ne omogući pristup i nadzor podataka elektronički vođenih poslovnih knjiga, evidencija i izvješća, ili ne omogući pristup podacima koji izravno ili neizravno utječu na utvrđivanje porezne osnovice ili ne omogući pristup i nadzor računalnog ili drugog elektroničkog sustava i baza podataka, odnosno ako ne osigura podatke na propisani način, ili ne osigura odgovarajuću zaštitu, tajnost i cjelovitost podataka (članak 67. stavak 1., 2.i 4.) 7. ako ne osigura čuvanje podataka u elektroničkom obliku, ako ne dopusti pristup podacima u elektroničkom obliku, ako ne osigura čitljivost izvornih podataka bez obzira na okolnosti promjene opreme korištenih sustava ili programa, ako ne osigura njihovo pravilno spremanje i čuvanje za propisano razdoblje, ako ne omogući pristup elektronički vođenim poslovnim knjigama, evidencijama, izvješćima i drugim podacima koji izravno ili neizravno utječu na utvrđivanje porezne osnovice i u slučajevima kada se čuvaju u elektroničkom obliku kod drugih osoba ili u drugim zemljama, ako ne pohrani i čuva podatke u obliku koji dopušta nadzor u razumnom vremenu ili ako ne omogući kopiranje mrežnih podataka, podataka na internetu i podataka sa računala i druge opreme (članak 67. stavak 5.) 8. ako odbije sudjelovati u poreznom postupku (članak 69. i članak 71.) 9. ako se ne odazove na poziv poreznog tijela (članak 78.) 10. ako ne predoči poslovne knjige, evidencije, poslovnu dokumentaciju i druge isprave na zahtjev poreznog tijela (članak 81. stavak 1.) 11. ako ne dostavi Poreznoj upravi u zakonom propisanom roku ili na njezin zahtjev podatke o prometu kunskih i deviznih računa pravnih osoba, fizičkih osoba koje obavljaju registriranu djelatnost obrta, slobodnih zanimanja i građana, uključivo i podatke o prometu tekućih računa i štednih uloga (članak 114. stavak 1. i 2.) 12. ako ne dopusti obavljanje poreznog nadzora (članak 117. stavak 1.). (2) Novčanom kaznom od 10.000,00 do 300.000,00 kuna za prekršaj iz stavka 1. ovoga članka kaznit će se fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost. (3) Novčanom kaznom od 1000,00 do 40.000,00 kuna za prekršaj iz stavka 1. točke 8. i 9. ovoga članka kaznit će se fizička osoba. (4) Novčanom kaznom u iznosu od 5000,00 do 40.000,00 kuna kaznit će se i odgovorna osoba u pravnoj osobi za prekršaje iz stavka 1. ovoga članka. (5) Za ponovljeni prekršaj iz stavka 1. ovog članka, kaznit će se za prekršaj pravna osoba novčanom kaznom u iznosu od 30.000,00 do 700.000,00 kuna, fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost novčanom kaznom u iznosu od 20.000,00 do 400.000,00 kuna, fizička osoba novčanom kaznom u iznosu od 2000,00 do 40.000,00 kuna a odgovorna osoba u pravnoj osobi novčanom kaznom u iznosu od 8000,00 do 50.000,00 kuna. Teži porezni prekršaji",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "36398447D0D0490327A20DDE80209942CDBF99CF208E22E36CEEAB4A090F847A",
+    "sha256_datoteke": "047C63353D906C250F9871565719B91ADEF39CD749F2C1D2B15DFBBA3166B5CE",
+    "napomena": null
+  }
+}

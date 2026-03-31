@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "80",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo odlučuje o potrebi vještačenja. Ako ne postoji opasnost od odgode, porezno tijelo treba obavijestiti sudionike poreznog postupka o osobi koju namjerava imenovati vještakom. Vještaci se imenuju iz reda poreznih savjetnika, a po potrebi iz reda sudskih vještaka odgovarajuće struke. (2) Sudionici poreznog postupka mogu tražiti izuzeće vještaka ako postoji opravdana sumnja u njegovu nepristranost ili ako bi zbog njegovog vještačenja moglo doći do povrede poslovne tajne ili štete za poslovnu djelatnost sudionika. Obrazložen zahtjev za izuzeće podnosi se poreznom tijelu u roku od osam dana od dana primitka obavijesti o imenovanju vještaka. O izuzeću odlučuje čelnik poreznog tijela koje je imenovalo vještaka. (3) O vještačenju se sastavlja nalaz u pisanom obliku. Vještak može biti pozvan na usmeno obrazlaganje nalaza. (4) Nalaz vještaka prilaže se spisu. Predočenje isprava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1AB6ED3FC9DFA1A07FEBDE76D07111CCAA8A184F3EC54D709C580D8E95AC84C2",
+    "sha256_datoteke": "9887D5A8C79BC799051143865E153C848952213C77C507DB9777FEF69A8D32A5",
+    "napomena": null
+  }
+}

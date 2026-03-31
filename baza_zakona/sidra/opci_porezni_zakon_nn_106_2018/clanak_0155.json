@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "155",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »U postupku ovrhe ne mogu se plijeniti ovršenikove tražbine za koje su zakonom kojim se uređuje ovršni postupak ili posebnim propisom propisana izuzeća i ograničenja od ovrhe.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5BE7407AC1F7C5E502FA5E1C92753EEC4668BD37C1DD4E9A06EC01DAB9360DF5",
+    "sha256_datoteke": "77AF19697411AF6223A3D30849DF128D99796D2F90C73BD9FCD6B51B305A0BF2",
+    "napomena": null
+  }
+}

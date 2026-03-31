@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "28",
+    "naslov": null,
+    "tekst": ". U članku 125. stavku 2. točki 2. na kraju rečenice briše se točka i dodaje se točka 3. koja glasi: »3. u nadzorima fiskalizacije i igara na sreću.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D248EA86D45364C7BF6B0CD7AEF6C55EA3B8489388D828639CEF5B49B472DB15",
+    "sha256_datoteke": "EA2A57D3D7DE7714C9643A60098C16BF2B1C8FA35D81FD7BD3F5E299A45BE591",
+    "napomena": null
+  }
+}

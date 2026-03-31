@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "142",
+    "naslov": null,
+    "tekst": ". (1) Protiv rješenja o ovrsi donesenog na temelju ovršne isprave iz članka 140. stavka 2. ovoga Zakona može se podnijeti žalba u roku od osam dana od dana dostave rješenja. (2) Protiv rješenja o ovrsi donesenog na temelju vjerodostojne isprave iz članka 140. stavka 3. ovoga Zakona može se podnijeti prigovor u roku od osam dana od dana dostave rješenja. (3) O prigovoru iz stavka 2. ovoga članka odlučuje prvostupanjsko porezno tijelo rješenjem u roku od osam dana od dana zaprimanja prigovora. (4) Prigovor iz stavka 2. ovoga članka odgađa izvršenje rješenja o ovrsi do donošenja rješenja po prigovoru. (5) Protiv rješenja donesenog na temelju stavka 3. ovoga članka može se podnijeti žalba u roku od osam dana od dana dostave rješenja. (6) Žalba na rješenje iz stavka 1. i 5. ovoga članka ne odgađa izvršenje rješenja o ovrsi. (7) Žalbom na rješenje iz stavka 1. ovoga članka ne može se pobijati zakonitost ovršne isprave. Ovrha radi naplate poreznog duga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D9CA49F6DB4A36A755B9F11E1CBAE2AD50E9C1487EE3DCD8AC9B4BB75C12A195",
+    "sha256_datoteke": "B9240D8021C6BBE64733122FEEC703B3B012F480F3E2806633EF80CE045F1B29",
+    "napomena": null
+  }
+}

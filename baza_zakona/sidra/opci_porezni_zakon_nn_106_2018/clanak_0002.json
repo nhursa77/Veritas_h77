@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 8. stavku 5. točki 3. iza riječi: »prekršajnog« stavlja se zarez i dodaje riječ: »kaznenog«. U stavku 9. iza riječi: »roditelja fizičke osobe.« dodaje se rečenica koja glasi: »Pregled poreznih obveznika za koje je utvrđeno da nisu porezni obveznici koji se nalaze na popisu objavljuje se na mrežnim stranicama Porezne uprave.«. Iza stavka 11. dodaju se stavci 12. i 13. koji glase: »(12) U izračun visine duga iz stavka 7. ovoga članka uzima se stanje duga po osnovama za koje je propisana objava dospjelih i neplaćenih dugova na zadnji dan u mjesecu koji prethodi mjesecu objave popisa dospjelih i neplaćenih dugova, umanjen za uplate do dana obrade podataka. Ako zadnji dan u mjesecu koji prethodi mjesecu objave popisa dospjelih i neplaćenih dugova pada na neradni dan ili dane blagdana, u izračun se uzima stanje duga na prvi sljedeći radni dan. (13) Porezni obveznici koji nakon objave popisa u cijelosti podmire dugovanja s osnova dugova iz stavka 7. ovoga članka brišu se s popisa. Na popisu dospjelih i neplaćenih dugova posebnim oznakama i porukama obilježavaju se porezni obveznici koji nakon objave popisa ne podmire dugovanja iz stavka 7. ovoga članka u cijelosti, već je nakon podmirenja dijela dugovanja njegov nepodmireni iznos manji od iznosa koji je kriterij za objavu popisa.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DD4C97A56562E97D9A301459586EA256714978D2FFDFDF6C67A21642F4D81F7B",
+    "sha256_datoteke": "F684A6D0FCBF37E27FA82461C9A4368F10D7F82CE046770C0FD2667D16524B68",
+    "napomena": null
+  }
+}

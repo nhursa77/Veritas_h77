@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "107",
+    "naslov": null,
+    "tekst": ". (1) Na rješenja o naplati poreza na osnovi jamstva primjenjuju se odredbe ovoga Zakona o poreznim rješenjima. (2) Rješenje o naplati poreza na osnovi jamstva ne može se donijeti: 1. ako poreznom obvezniku utvrđena porezna obveza nije dospjela ili je otpisana ili 2. ako je za porez koji je utvrđen poreznom obvezniku nastupila zastara prava na naplatu. Odjeljak 8. POREZNA ZASTARA Zastara",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2B8A82FE4DB8BFA36C0CE4B762F9A3D7000B46A5EE5FB8A6CD658348503232EC",
+    "sha256_datoteke": "6FAD33603FD6392FA35B99649AD08DF5E7F8654313635EC2C45F15C076D30CC3",
+    "napomena": null
+  }
+}

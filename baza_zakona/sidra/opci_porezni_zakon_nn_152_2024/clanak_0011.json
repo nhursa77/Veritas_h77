@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". U članku 108. stavku 7. na kraju rečenice umjesto točke stavlja se zarez i dodaju riječi: »kao i u slučajevima u kojima porezno tijelo nije bilo u mogućnosti pokrenuti postupak naplate.«. U stavku 8. na kraju rečenice briše se točka i dodaju se riječi: », osim u slučaju uplata koje se odnose na carinu.«. Iza stavka 8. dodaje se stavak 9. koji glasi: »(9) Iznimno od ovoga članka, kod utvrđivanja zastare prava na naplatu carine primjenjuju se propisi kojima se uređuje sustav vlastitih sredstava Europske unije.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D4F23077EE1056EF4128A57A2908ADCE9EDBCAFF1132817D4A3CCDAC1D709C08",
+    "sha256_datoteke": "3396EFBA2F0E927ECE3C2E6981313A6D0C1A552CA4B632BFB189A76E2FB1923B",
+    "napomena": null
+  }
+}

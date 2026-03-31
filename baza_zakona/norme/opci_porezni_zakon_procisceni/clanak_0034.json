@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "34",
+    "naslov": null,
+    "tekst": ". Tko sudjeluje u ispostavljanju neistinitih i nevjerodostojnih isprava ili u neurednom, neistinitom i nepravodobnom vođenju poslovnih knjiga, jamči za iznos manje plaćenog poreza i pripadajućih kamata nastalog kao posljedica takva njegova djelovanja. Odgovornost preuzimatelja gospodarske cjeline",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DF89634393193F7B9237C90C7F0F3181FDAB80C53CCCF71924E98E735537227F",
+    "sha256_datoteke": "0FF16C43D9D326D6215030209C84279E21FC5E647E66080BFEFC30FD2EFB8220",
+    "napomena": null
+  }
+}

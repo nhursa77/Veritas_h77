@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "188",
+    "naslov": null,
+    "tekst": ". (1) Ako rješenje o žalbi potpuno ili djelomično ovisi o prethodnom pitanju koje je predmet sudskog spora ili je u nadležnosti drugog tijela državne uprave, nadležno drugostupanjsko porezno tijelo može zaključkom privremeno prekinuti postupak do okončanja sudskog spora ili do donošenja odluke nadležnog tijela državne uprave. (2) Za vrijeme trajanja privremenog prekida postupka iz stavka 1. ovoga članka ne teku zastarni rokovi. Žalbeni postupak i izvedba dokaza",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1C5AD906F49FCA7D7FA41C832D89647C79D6BD079CB9D162C9B010BD523053F7",
+    "sha256_datoteke": "0F3A587CBD4BCD82363DDB67E0C84AFD4CDD2104128397E51E0546252A005998",
+    "napomena": null
+  }
+}

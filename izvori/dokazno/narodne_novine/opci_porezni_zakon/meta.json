@@ -1,0 +1,21 @@
+{
+  "naziv_akta": "Opći porezni zakon",
+  "vrsta_akta": "zakon",
+  "slug": "opci_porezni_zakon",
+  "izvor": "Narodne novine",
+  "naziv_izvora": "Narodne novine",
+  "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+  "akt_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+  "eli_pdf_url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/pdf",
+  "pdf_title_anchor": "",
+  "tip_sadrzaja": "text/html; charset=utf-8",
+  "velicina_bajta": 295471,
+  "oznaka_akta": "NN 115/2016",
+  "datum_pristupa": "31.03.2026.",
+  "sha256_datoteke": "1036FA110CCA8DB9E2B635B85DC84A9F1ACE9EF354D04A08B96627B945C83416",
+  "format": "html",
+  "napomena": "Dokazni NN izvor (HTML; ELI PDF fallback ako sadržaj nedostupan).",
+  "tip_teksta": "procisceni",
+  "ocekivani_broj_clanaka": 0,
+  "preferenca": 100
+}

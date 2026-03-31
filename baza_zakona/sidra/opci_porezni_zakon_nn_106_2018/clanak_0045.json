@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "45",
+    "naslov": null,
+    "tekst": ". U članku 192. stavku 1. točka 2. mijenja se i glasi: »2. ako ne iskazuje isporuke dobara i usluga preko naplatnog uređaja ili na drugi odgovarajući način, a naplaćuje ih gotovinom ili ne iskazuje ili ne iskazuje potpuno i/ili točno i/ili pravodobno i/ili uredno (članak 62. stavak 4.)«. Iza stavka 5. dodaje se stavak 6. koji glasi: »(6) Utvrđeni višak gotovine koji nije iskazan preko naplatnog uređaja oduzet će se kao imovinska korist, a povodom prekršaja opisanog u stavku 1. točki 2. ovoga članka.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0CB18B0D139B2EF8F6498FDFC41126B9A58F6703844F958F5BD6EDF07E096FB3",
+    "sha256_datoteke": "C4896342FC1AA2F29F27F53D19336DDE5BF32440502950B5CA5027D582C6BBE3",
+    "napomena": null
+  }
+}

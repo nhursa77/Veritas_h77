@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "28",
+    "naslov": null,
+    "tekst": ". U članku 193. stavku 1. iza točke 1. dodaje se nova točka 2. koja glasi: »2. ako pružatelj platnih usluga ne onemogući bez odgađanja izvršenje platne transakcije u korist poslovnih subjekata koji nedozvoljeno obavljaju gospodarsku djelatnost putem interneta, na osnovu podataka objavljenih na mrežnim stranicama Porezne uprave o poslovnim subjektima koji određenu gospodarsku djelatnost obavljaju u skladu s posebnim propisom kojim se uređuje ta djelatnost (članak 44.a stavci 2. i 3.)«. Dosadašnje točke 2. do 15. postaju točke 3. do 16. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F11ED28AA3E19D47D32C4B929BF318124E27C358DC4A42EF7069F98E9A00DE0C",
+    "sha256_datoteke": "BE66AD91811BF0A18F4CF268BD3946B845D7D21EDFD551B5BD4632B83D872B9B",
+    "napomena": null
+  }
+}

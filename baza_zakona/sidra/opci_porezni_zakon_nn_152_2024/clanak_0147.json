@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "147",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) Ovrha će se obustaviti po službenoj dužnosti ili na prijedlog ovršenika: 1. ako je ovršna isprava nakon pravomoćno dovršenog postupka preinačena, ukinuta ili poništena 2. ako prestanu prava i obveze iz porezno-dužničkog odnosa 3. ako nema osnove za nastavak postupka zbog razloga iz članka 156. ovoga Zakona. (2) Ovrha će se obustaviti na prijedlog nadležnog tijela druge države koja je zatražila pomoć pri naplati tražbine sukladno propisima kojima se uređuje međunarodna pomoć pri naplati. (3) Ovrhu porezno tijelo može obustaviti i u slučajevima: 1. ako porezno tijelo sukladno propisu kojim se uređuje stečaj potrošača sklopi izvansudski sporazum, sudsku nagodbu na pripremnom ročištu odnosno ako se otvori postupak stečaja potrošača 2. ako se otvori stečajni postupak 3. ako rješenje o potvrdi plana restrukturiranja u predstečajnom postupku postane pravomoćno 4. ako se odgodi izvršenje rješenja o utvrđivanju poreza 5. ako tijelo koje provodi ovrhu, sukladno zakonu kojim je propisana provedba ovrhe na novčanim sredstvima, prestane izvršavati osnovu za plaćanje 6. ako je predmet ovrhe u postupku ovrhe prodan ili je propao. (4) Ovrha se obustavlja rješenjem koje postaje izvršno danom donošenja. (5) Iznimno od ovoga članka, ovrha se ne može obustaviti u odnosu na carine na koje se primjenjuju propisi kojima se uređuje sustav vlastitih sredstava Europske unije.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2991E54D35D9FAC8D62DF2E4C36F3213F81ABF9597A117C164E007C53372F4FF",
+    "sha256_datoteke": "A0E31467DFF5A6B6DFA4EEFA79EB25C2B1632C7FCDF1990F687AF059DAEB104A",
+    "napomena": null
+  }
+}

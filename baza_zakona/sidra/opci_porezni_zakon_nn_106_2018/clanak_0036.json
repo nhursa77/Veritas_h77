@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "36",
+    "naslov": null,
+    "tekst": ". U članku 148. stavku 1. točka 5. mijenja se i glasi: »5. ako se u stečajnom postupku nad dužnikom pojedincem ispune pretpostavke za oslobođenje od preostalih obveza propisane zakonom kojim se uređuje stečajni postupak«. U točki 6. na kraju rečenice briše se točka i dodaje točka 7. koja glasi: »7. ako se u sudskom postupku ili postupku mirnog rješenja spora sklopi nagodba, tražbina će se otpisati kao nenaplativa.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8962C9ABDD898CEB7E1E68B032707F19855B74788314A84B2D9B961BA58135E5",
+    "sha256_datoteke": "51D1B2C8002D7D075CD4ECBA3AE9280F05BD34FBBC668E17AB99DA35E7FBDFBD",
+    "napomena": null
+  }
+}

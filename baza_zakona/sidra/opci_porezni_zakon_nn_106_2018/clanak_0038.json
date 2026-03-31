@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "38",
+    "naslov": null,
+    "tekst": ". U članku 153. stavak 1. mijenja se i glasi: »(1) Provedba ovrhe na novčanim sredstvima ovršenika obavlja se dostavom osnove za plaćanje Financijskoj agenciji sukladno odredbama zakona kojim se uređuje provedba ovrhe na novčanim sredstvima. Financijska agencija po primitku rješenja o ovrsi i naloga za provedbu ovrhe iz stavka 2. ovoga članka, sukladno ovom Zakonu, odmah izdaje nalog za prijenos novčanih sredstava na račun ovrhovoditelja naznačen u osnovi za plaćanje.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6E0A446EB79A65E1DBE7F2CB44BCD7C4256C3227548A6426EF3B3DEF4A05D268",
+    "sha256_datoteke": "37A26BBCBD829C33BDF0B4467FEADA21B2C9E9E7B8DD94E3C327CBD72BF77E04",
+    "napomena": null
+  }
+}

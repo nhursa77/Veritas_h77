@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "14",
+    "naslov": null,
+    "tekst": ". U članku 66. iza stavka 2. dodaje se novi stavak 3. koji glasi: »(3) Knjigovodstvene isprave koje su izrađene na papiru mogu se pretvoriti u elektronički zapis ako se osigura vjerodostojnost podrijetla, cjelovitost sadržaja i čitljivost od trenutka pretvorbe do kraja razdoblja propisanog za čuvanje knjigovodstvene isprave.«. Dosadašnji stavci 3. do 16. postaju stavci 4. do 17. Iza dosadašnjeg članka 17., koji postaje stavak 18., dodaje se stavak 19. koji glasi: »(19) Ministar financija pravilnikom će propisati način osiguranja vjerodostojnosti podrijetla, cjelovitosti sadržaja i čitljivosti knjigovodstvene isprave pretvorene u elektronički zapis za porezne potrebe.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "89BAFB02E7B2CBD1949FA88F880F48402C1E68355EAE6AF3AF4C406CF1DE4B38",
+    "sha256_datoteke": "6ACFB1907F9C57B2D7BB6F6D92A130A822E9EE85C71D245E45C82B9D79CC7C3E",
+    "napomena": null
+  }
+}

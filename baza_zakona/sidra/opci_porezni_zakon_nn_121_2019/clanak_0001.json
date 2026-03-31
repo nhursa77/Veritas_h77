@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Općem poreznom zakonu (»Narodne novine«, br. 115/16. i 106/18.) iza članka 12. dodaju se naslovi iznad članaka i članci 12.a i 12.b koji glase: »Korištenje poreznih pogodnosti protivno svrsi zakona",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "66DA711AEF349D8C6F1993D2011835CDF01E44C51A099D3C2A3462DFDF4F2C0E",
+    "sha256_datoteke": "96483CE791E2FD35908601ECF58A1583E6C6FFB4AA19C62324549C83DC8EB34E",
+    "napomena": null
+  }
+}

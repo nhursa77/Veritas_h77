@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "196",
+    "naslov": null,
+    "tekst": ". (1) Ovlašćuje se ministar financija da u roku od 60 dana od stupanja na snagu ovoga Zakona donese pravilnike iz članka 9. stavka 3., članka 10. stavka 4., članka 19. stavka 6., članka 38. stavka 2., članka 67. stavka 11., članka 68. stavka 5., članka 70. stavka 3., članka 74. stavka 10., članka 76. stavka 9., članka 79. stavka 10. i članka 104. stavka 13. (2) Pravilnici doneseni na temelju odredbi Općeg poreznog zakona (»Narodne novine«, br. 147/08., 18/11., 78/12., 136/12., 73/13., 26/15. i 44/16.) ostaju na snazi do stupanja na snagu pravilnika iz stavka 1. ovoga članka, i to: – Pravilnik o postupanju u dobroj vjeri sudionika porezno-pravnog odnosa, gospodarskoj cjelini te obrascima prijave činjenica za koje postoji obveza prijavljivanja i izjave o izvorima stjecanja imovine (»Narodne novine«, br. 59/09.) – Pravilnik o obvezujućim mišljenjima, ispravku prijave, statističkim izvješćima i poreznoj nagodbi (»Narodne novine«, br. 78/15. i 16/16.) – Pravilnik o utvrđivanju visine nagrada i naknada troškova zastupniku po službenoj dužnosti (»Narodne novine«, br. 59/09.) – Pravilnik o obliku, sadržaju, roku i načinu dostave poslovnih knjiga, evidencija i izvješća koji se čuvaju u elektroničkom obliku (»Narodne novine«, br. 59/09.) – Pravilnik o podnošenju poreznih prijava i drugih podataka elektroničkim putem (»Narodne novine«, br. 51/11. i 62/11. – ispravak) – Pravilnik o uvjetima, načinu i postupku prijeboja potraživanja prema državnom proračunu s poreznim dugom (»Narodne novine«, br. 15/13.). (3) Do stupanja na snagu pravilnika iz stavka 1. ovoga članka ostaje na snazi Pravilnik o načinu odobravanja i ukidanja posebnog statusa poreznom obvezniku u svrhu promicanja dobrovoljnog ispunjenja obveza (»Narodne novine«, br. 67/15.) koji je donesen na temelju Zakona o Poreznoj upravi (»Narodne novine«, br. 148/13. i 141/14.).",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "22693EC803BD433658CA65A5D924D79BD3C98B6D6DB220524CC966C8F43841AB",
+    "sha256_datoteke": "90FBF6CAF91A28E511BCB0FD10F78A232C233ED5DFA35C34F2F1CC094ABADAB0",
+    "napomena": null
+  }
+}

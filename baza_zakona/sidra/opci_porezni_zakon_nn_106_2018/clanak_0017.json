@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "17",
+    "naslov": null,
+    "tekst": ". U članku 79. stavak 9. mijenja se i glasi: »(9) Porezni obveznici upisani u registar obveznika poreza na dodanu vrijednost koji imaju u svojim poslovnim knjigama evidentirane dospjele, a nenaplaćene tražbine, koje su dospjele sukladno rokovima ispunjenja novčanih obveza propisanim posebnim propisom, dužni su sastaviti statističko izvješće o dospjelim, a nenaplaćenim tražbinama u rokovima za podnošenje poreznih prijava poreza na dohodak ili poreza na dobit sukladno posebnom propisu u tekućoj godini za sve dospjele, a neplaćene račune sa stanjem na dan 31. prosinca prethodne godine.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C7D83A4A0938B69ABBA8E1045C5D2E238D6F4B8D76D830ECD7561274390DB081",
+    "sha256_datoteke": "FE32E46D268BA649AECB5EC137B26926DD0C4072DFC359A2FF47DBC2A7DC1A1B",
+    "napomena": null
+  }
+}

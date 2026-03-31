@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "89",
+    "naslov": null,
+    "tekst": ". Oporezivanje se temelji na podacima iz knjigovodstva i na evidencijama poreznog obveznika koje se vode u skladu s člancima 62. do 67. ovoga Zakona, ako okolnosti pojedinog slučaja ne upućuju na njihovu netočnost. Dokazivanje fiducijarnog (povjereničkog) prava",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E28A2F7C145BC70869BCB06116A7449B35BAF4DCB1AA2D4F6FEEA7FE4A030569",
+    "sha256_datoteke": "E298AF1D450165913C9C890D14AF10F937927B21F8DA089D58E5ED35D0EC1CCF",
+    "napomena": null
+  }
+}

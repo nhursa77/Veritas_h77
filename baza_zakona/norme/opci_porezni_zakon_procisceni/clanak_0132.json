@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "132",
+    "naslov": null,
+    "tekst": ". (1) Osim u slučajevima utvrđenima ovim Zakonom, Vlada Republike Hrvatske može na prijedlog ministra financija donijeti odluku o prodaji ili otpisu poreznog duga iz porezno-dužničkog odnosa. (2) Pravima poreznog tijela iz porezno-dužničkog odnosa u postupku koji se provodi prema odredbama Zakona o stečaju potrošača (»Narodne novine«, br. 100/15.) te u postupku predstečajne nagodbe, odnosno predstečajnom i stečajnom postupku, čija vrijednost predmeta, odnosno visina ukupne obveze dužnika prelazi iznos od 10.000.000,00 kuna, ovlašten je raspolagati ministar financija. (3) Pravima poreznog tijela iz porezno-dužničkog odnosa u postupku koji se provodi prema odredbama Zakona o stečaju potrošača te u postupku predstečajne nagodbe, odnosno predstečajnom i stečajnom postupku, čija vrijednost predmeta, odnosno visina ukupne obveze dužnika ne prelazi iznos od 10.000.000,00 kuna, ovlašten je raspolagati čelnik poreznog tijela, odnosno nadležno tijelo određeno zakonom i drugim propisima utemeljenim zakonom. (4) U iznimnim slučajevima, kada je to od interesa za Repub­liku Hrvatsku, o čemu prethodno mišljenje daje tijelo nadležno za upravljanje državnom imovinom, Vlada Republike Hrvatske, na prijedlog ministra financija, može donijeti odluku o potpunom ili djelomičnom namirenju poreznog duga ustupanjem nekretnina. Odjeljak 12. SREDSTVA OSIGURANJA NAPLATE POREZNOG DUGA Osiguranje naplate poreznog duga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "981CF2D7D3A9F382DEFE7744ED834F7A0E813BE55F64A77F748A7F115D570A29",
+    "sha256_datoteke": "C1D4A783B785204367069A36B9B07B3F14D7F2C1957983E955809DC5E4C13D53",
+    "napomena": null
+  }
+}

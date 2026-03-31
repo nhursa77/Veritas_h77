@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". (1) Porezno-pravni odnos u smislu ovoga Zakona jest odnos između poreznog tijela i poreznog obveznika koji obuhvaća njihova prava i obveze u poreznom postupku. (2) Sudionici porezno-pravnog odnosa jesu porezno tijelo i porezni obveznik te osobe koje prema odredbama ovoga Zakona jamče za plaćanje poreza. Porezni obveznik",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CA9434EC6A8507DF7BF53FD20DD5A9AAB3FF07B4AD121EC36086324814AF02E9",
+    "sha256_datoteke": "E8A8CF7DF599765983FAAEBE4E0ED5BF49C80034D7056FEDCC0B7E9E720F2EE7",
+    "napomena": null
+  }
+}

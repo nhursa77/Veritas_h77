@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "62",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznici dužni su izdavati račune te voditi poslovne knjige i evidencije radi oporezivanja prema propisima kojima se uređuje pojedina vrsta poreza. (2) Računom se za potrebe oporezivanja smatra i svaka isprava kojom se obračunavaju isporuke bez obzira na to u kojem obliku i pod kojim nazivom je izdana. (3) Porezni obveznici dužni su postupati prema odredbama stavka 1. ovoga članka i u slučaju kad su te knjige i evidencije dužni voditi i prema drugim propisima. (4) Porezni obveznici koji isporuku dobara ili obavljanje usluga naplaćuju u gotovini obvezni su promet iskazivati putem naplatnih uređaja ili na drugi odgovarajući način. (5) Stalna poslovna jedinica strane osobe i pravna osoba čiji je osnivač strana osoba dužne su izdavati račune, voditi poslovne knjige i evidencije radi oporezivanja prema poreznim propisima koji se primjenjuju u Republici Hrvatskoj. Računi za gotovinski promet",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "84A03D122024ACDEFFE78240AD5FBB7370D3E74C21729CF5DAF3C1046828EB97",
+    "sha256_datoteke": "803989519EA61A6D3053ED5D01A7841BA785F5487DFC621DA60BD1C8CEA5289A",
+    "napomena": null
+  }
+}

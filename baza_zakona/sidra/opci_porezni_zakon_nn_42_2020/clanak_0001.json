@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Zakonu o lokalnim izborima (»Narodne novine«, br. 144/12., 121/16. i 98/19.) u članku 6. iza stavka 2. dodaje se novi stavak 3. koji glasi: »(3) U slučaju nastupanja posebnih okolnosti koje podrazumijevaju događaj ili određeno stanje koje se nije moglo predvidjeti i na koje se nije moglo utjecati, a koje trenutačno ugrožava pravni poredak, život, zdravlje ili sigurnost stanovništva te imovinu veće vrijednosti, Vlada Republike Hrvatske može odgoditi raspisivanje prijevremenih izbora, odnosno staviti izvan snage odluku kojom su raspisani prijevremeni izbori do prestanka posebnih okolnosti.«. U dosadašnjem stavku 3., koji postaje stavak 4., iza riječi: »izbora« dodaju se riječi: »i odluka o stavljanju izvan snage odluke o raspisivanju prijevremenih izbora«, riječi: »dostavlja se« zamjenjuju se riječima: »dostavljaju se« te riječi: »je donesena« zamjenjuju se riječima: »su donesene«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 42/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EEB22D125E470A92EFF722067621990B273CF5A1C5AA4E239B8E53C275DC50F3",
+    "sha256_datoteke": "0031220964606AB363E6B96FCA6F957B7F7F9BC30D1E34B9A7552A026DB90A06",
+    "napomena": null
+  }
+}

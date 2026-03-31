@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ".b (1) Iznimno od posebnih propisa kojima se regulira porez na dohodak i doprinose, poreznom obvezniku koji dobrovoljno prijavi inozemni primitak radi plaćanja dužnih poreza i doprinosa, porezna obveza nastaje danom prijave inozemnog primitka, bez obzira na to kada su primici iz inozemstva ostvareni. (2) Odredba stavka 1. ovoga članka ne primjenjuje se kada porezno tijelo pokreće postupak oporezivanja inozemnih primitaka po službenoj dužnosti.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BDE09094EEE5F7F3EA158C8E9DAE13745DBCA670085FF8363537F81897A863CC",
+    "sha256_datoteke": "679F880890858464EA312FFB7D11A40E94F96AF0B7B54FD8F713B0A3BAA3677D",
+    "napomena": null
+  }
+}

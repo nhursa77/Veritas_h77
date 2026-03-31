@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". (1) Porezne činjenice utvrđuju se prema njihovoj gospodarskoj biti. (2) Ako je prihod, dohodak, dobit ili druga procjenjiva korist ostvarena bez pravne osnove, porezno tijelo utvrdit će poreznu obvezu u skladu s posebnim zakonom kojim se uređuje pojedina vrsta poreza. (3) Ako je u kaznenom ili prekršajnom postupku pravomoćnom odlukom izrečena zaštitna mjera oduzimanja imovinske koristi ostvarene protupravnom radnjom, porezni akt kojim je utvrđena porezna obveza poništit će se na zahtjev poreznog obveznika. Prividni pravni poslovi",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "EF2A7D3CD67D7CB91DC88AFAEB700B5DA1FA1D57CCB03B2DFACAAB4D6FDE0003",
+    "sha256_datoteke": "703F9E4C171D3FF18A77F0DD8AF68644DB0BD23E77EBC5FE9A8CE4DB3E075C13",
+    "napomena": null
+  }
+}

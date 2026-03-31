@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "159",
+    "naslov": null,
+    "tekst": ". (1) Pokretnine koje su kod ovršenika ovrhovoditelj popisuje i plijeni (pljenidbeni popis). Pokretnine osim novca, dragocjenosti i vrijednosnih papira (vrijednosnica) ostavljaju se kod ovršenika, ako se time ne ugrožava ovrha. Zaplijenjene pokretnine koje ostaju kod ovršenika treba označiti stavljanjem pečata ili na drugi način. (2) Ovršenikove pokretnine koje se nalaze u posjedu treće osobe popisuju se i plijene prema odredbama stavka 1. ovoga članka. (3) Ako treća osoba ne pristane na popis i predaju stvari ovršenika, porezno tijelo donosi rješenje s nalogom za predaju stvari ovršenika. (4) Ako treća osoba u roku od osam dana ne izvrši nalog poreznog tijela, porezno tijelo će se naplatiti iz imovine treće osobe. (5) Ako ovršenik namjerno ili krajnjom nepažnjom uništi, ošteti ili otuđi popisane stvari, ovrhovoditelj će podnijeti kaznenu prijavu nadležnom tijelu. (6) Ovrhovoditelj je po pisanom sudskom nalogu ovlašten pretražiti stambene prostorije. Ovrhovoditelj je ovlašten pretražiti poslovne prostorije i spremnike te naložiti otvaranje zaključanih vrata, ako to zahtijeva svrha ovrhe. (7) Ako u provedbi ovrhe u stambenim ili poslovnim prostorijama nije nazočan ovršenik ili član njegove obitelji ili njegov zaposlenik, ovrhovoditelj mora kao svjedoke pozvati dvije punoljetne osobe. Pokretnine koje se ne mogu plijeniti",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9F0C264CF8990C0DC7386A35EC1CC5A2D1B28EDD8CAC55293D7F3ACE196DD49B",
+    "sha256_datoteke": "36F92A2A827297667419789631E9F5A7F03774ADEB3EAC4E71D73193B16840CB",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "126",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »(1) O poreznom nadzoru sastavlja se zapisnik. (2) Zapisnik treba sadržavati: 1. naziv poreznog tijela, broj i datum poreznog akta 2. ime i prezime, OIB odnosno naziv poreznog obveznika 3. pravni i činjenični temelj 4. mjesto provođenja i vrijeme trajanja nadzora 5. imena ovlaštenih osoba koje su nadzor provele 6. vrste poreza i razdoblje obuhvaćeno nadzorom 7. opis radnja, činjenica i dokaza provedenih u postupku po kojima su utvrđene nepravilnosti. (3) Zapisnik se izdaje u elektroničkom obliku te se potpisuje elektroničkim potpisom ili elektroničkim pečatom poreznog tijela i dostavlja u elektronički pretinac poreznog obveznika. (4) Iznimno od stavka 3. ovoga članka, ako se zapisnik ne može izdati u elektroničkom obliku, izdaje se u fizičkom obliku. (5) Zapisnik koji nije izdan u elektroničkom obliku mora se voditi uredno, u njemu se ništa ne smije dodati ili mijenjati, precrtana mjesta moraju ostati čitljiva, a ako zapisnik ima više listova, svaka stranica mora biti označena rednim brojem i potpisana. (6) Na zapisnik o poreznom nadzoru porezni obveznik ima pravo podnijeti prigovor u roku koji ne može biti kraći od pet dana, a niti dulji od 20 dana, računajući od dana primitka zapisnika. (7) Porezni obveznik može se odreći prava na prigovor. (8) Porezno tijelo razmotrit će prigovor na zapisnik te ako prigovor ne usvoji, razloge neusvajanja treba navesti u obrazloženju poreznog rješenja. (9) Prigovor podnesen izvan roka iz stavka 6. ovoga članka porezno tijelo neće razmatrati. (10) Ako su prigovorom iznesene nove činjenice i materijalni dokazi zbog kojih bi trebalo promijeniti činjenično stanje utvrđeno u zapisniku ili izmijeniti prijašnje pravne ocjene, porezno tijelo će o takvim činjenicama i materijalnim dokazima ili novim pravnim ocjenama sastaviti dopunski zapisnik. (11) Na dopunski zapisnik ne može se podnijeti prigovor. (12) Na temelju činjenica utvrđenih u zapisniku i u dopunskom zapisniku o poreznom nadzoru donosi se porezno rješenje. (13) Iznimno od stavka 12. ovoga članka, kada u postupku poreznog nadzora nisu utvrđene nepravilnosti ili je obveznik u prigovoru iznio nove činjenice i dokaze na temelju kojih više ne postoji osnova za izmjenu porezne obveze, donosi se rješenje kojim se postupak obustavlja. (14) Rješenja iz stavaka 12. i 13. ovoga članka donose se najkasnije u roku od 60 dana od dana isteka roka za prigovor na zapisnik odnosno od dana uručenja dopunskog zapisnika o poreznom nadzoru, osim kada se rješenje donosi primjenom carinskog zakonodavstva kada se donosi najkasnije u roku od 30 dana od isteka roka za prigovor. (15) Na rješenje iz stavka 13. ovoga članka nije dopuštena žalba, već se može pokrenuti upravni spor. (16) Iznimno od stavka 12. ovoga članka, u nadzorima fiskalizacije i nadzorima igara na sreću ne donosi se porezno rješenje. (17) U slučaju primjene stavka 16. ovoga članka razloge neusvajanja prigovora treba navesti u obrazloženju prekršajnog naloga i optužnog prijedloga u smislu zakona kojim se uređuje prekršajni postupak. (18) Ako ovlaštene osobe tijekom poreznog nadzora utvrde činjenice bitne za oporezivanje drugih osoba, tada će o tome obavijestiti nadležno porezno tijelo.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BDBC92534A7114661190F49060EDC217B9C5C9C69AB0BBA553AA2FBFD6D8D096",
+    "sha256_datoteke": "247B045E059E78C8E269BCC08B9809F0B0DB0D404D1A80E3AA5898D5DA433FA8",
+    "napomena": null
+  }
+}

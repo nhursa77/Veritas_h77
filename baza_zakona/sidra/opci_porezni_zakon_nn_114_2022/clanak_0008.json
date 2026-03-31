@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U članku 192. stavku 1. riječi: »u iznosu od 20.000,00 do 500.000,00 kuna« zamjenjuju se riječima: »u iznosu od 2650,00 do 66.360,00 eura«. U stavku 2. riječi: »od 10.000,00 do 300.000,00 kuna« zamjenjuju se riječima: »od 1320,00 do 39.810,00 eura«. U stavku 3. riječi: »od 1000,00 do 40.000,00 kuna« zamjenjuju se riječima: »od 130,00 do 5300,00 eura«. U stavku 4. riječi: »od 5000,00 do 40.000,00 kuna« zamjenjuju se riječima: »od 660,00 do 5300,00 eura«. U stavku 5. riječi: »od 30.000,00 do 700.000,00 kuna« zamjenjuju se riječima: »od 3980,00 do 92.900,00 eura«, riječi: »od 20.000,00 do 400.000,00 kuna« zamjenjuju se riječima: »od 2650,00 do 53.080,00 eura«, riječi: »od 2000,00 do 40.000,00 kuna« zamjenjuju se riječima: »od 260,00 do 5300,00 eura«, a riječi: »od 8000,00 do 50.000,00 kuna« zamjenjuju se riječima: »od 1060,00 do 6630,00 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/1677",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/1677"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "FA9AEC9D805694589DF8CF024EB1C4E328E44FF2059CDAAE0AFB70D7B269B488",
+    "sha256_datoteke": "152F9A2076A127169610128FEA4A4EE7C8867CEF78F77B12091D2D235C449D68",
+    "napomena": null
+  }
+}

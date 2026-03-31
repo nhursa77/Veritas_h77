@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 64. stavku 1. iza riječi: »zabavu,« dodaju se riječi: »za usluge oslobođene od poreza na dodanu vrijednost za koje nije propisana obveza izdavanja računa prema posebnom propisu o porezu na dodanu vrijednost,«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2025",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "471FDCDFB39E4286F2F0E002780F553A854494C1D731C0AE81498016FDA9D22E",
+    "sha256_datoteke": "289047607C740F41504B337C9F36D22F7346A06E8B2BB4124DA8389AE73275D6",
+    "napomena": null
+  }
+}

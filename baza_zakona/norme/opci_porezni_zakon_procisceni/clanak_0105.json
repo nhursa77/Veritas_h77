@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "105",
+    "naslov": null,
+    "tekst": ". Porezna nagodba mora sadržavati najmanje odredbe kojima se uređuju: – svrha i predmet porezne nagodbe – prihvaćanje novoutvrđene obveze u postupku poreznog nadzora od strane poreznog obveznika – rok u kojem se porezna obveza mora ispuniti – posljedice neispunjenja poreznom nagodbom utvrđenih obveza, odnosno nepoštivanja odredaba porezne nagodbe – prava, obveze i odgovornosti stranaka – odricanje poreznog obveznika izrijekom od prava na korištenje pravnih lijekova. Zaštita prava poreznih obveznika pri poništavanju, ukidanju ili izmjeni poreznog rješenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6080776F4C577A462D484FAD42778BDA76449EA62A2F2423B047C53D29E8417D",
+    "sha256_datoteke": "F9DF13EF59E74ED61CBC6E2BC9FFA70FEA1B9963095BA4620F4D7912BD96BB15",
+    "napomena": null
+  }
+}

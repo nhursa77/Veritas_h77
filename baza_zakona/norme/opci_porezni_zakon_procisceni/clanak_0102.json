@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "102",
+    "naslov": null,
+    "tekst": ". (1) Prijedlog za sklapanje upravnog ugovora podnosi porezni obveznik fizička ili pravna osoba. (2) Prijedlog sadržava: – prijedlog načina namirenja dospjelog poreznog duga (u cijelosti ili djelomično) prethodno usklađenog s poreznim tijelom, ovjerenog pečatom i potpisom ovlaštenih osoba poreznog tijela i poreznog obveznika – prijedlog rokova za njegovo namirenje – osobni identifikacijski broj (OIB) poreznog obveznika – razloge zbog kojih je nastao porezni dug – podatke o strukturi vlasništva poreznog obveznika – podatke o povezanim društvima – popis imovine u vlasništvu poreznog obveznika s iskazanim knjigovodstvenim vrijednostima na zadnji obračunski datum – podatke o sudskim postupcima koji imaju utjecaj na poslovanje poreznog obveznika – prijedlog sredstava osiguranja naplate poreznoga duga, a sukladno Općem poreznom zakonu – popis dospjelih obveza prema svim vjerovnicima na zadnji obračunski datum – popis ključnih dobavljača i vjerovnika sa stanjem obveza na zadnji obračunski datum. (3) Prijedlog se podnosi nadležnom poreznom tijelu. (4) Porezno tijelo će odlučiti o ispunjenju zakonom propisanih uvjeta i o osnovanosti zaprimljenog prijedloga za sklapanje upravnog ugovora te o tome obavijestiti poreznog obveznika. Sadržaj upravnog ugovora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C0990F2E86DD00474EECEF4D3442EAC2EDA3835F9BEE33C98D714ADFEDC74D59",
+    "sha256_datoteke": "974AA26CF8191ED08604BD81B88E8991D1F3ED5EEFDAEDBB32FA534714926B39",
+    "napomena": null
+  }
+}

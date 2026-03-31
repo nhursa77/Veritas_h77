@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "44",
+    "naslov": null,
+    "tekst": ". U članku 181. stavku 4. iza riječi: »potpisati« umjesto točke stavlja se zarez i dodaju se riječi: »a u slučaju podnošenja žalbe u elektroničkom obliku potpisuje ju na način propisan člankom 74.a stavkom 3. ovoga Zakona.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B8F6F62F2B750ED0D8F462265B87E22E4BBE6806AF9F7D5A8F938A52F2AF19DA",
+    "sha256_datoteke": "2C5A5889F1A5BEFB4DD497D95BE1E0440AA76C88CC7059E74D9150728249C51A",
+    "napomena": null
+  }
+}

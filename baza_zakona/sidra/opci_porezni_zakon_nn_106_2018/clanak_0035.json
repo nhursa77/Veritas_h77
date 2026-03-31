@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". U članku 147. iza stavka 2. dodaju se stavci 3. i 4. koji glase: »(3) Ovrhu porezno tijelo može obustaviti ako tijelo koje provodi ovrhu, sukladno zakonu kojim je propisana provedba ovrhe na novčanim sredstvima, prestane izvršavati osnovu za plaćanje. (4) Ovrha se obustavlja rješenjem koje postaje izvršno danom donošenja.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5E0E4F13E1DC1F07438BE36404BDA8E0C0B5976DE9EAC17A08692E40779866F0",
+    "sha256_datoteke": "E45FB037D6ADAC4D7D95EB1F43AC8A6CFB4A83660DFF02ADE2F8D0BCF0751A12",
+    "napomena": null
+  }
+}

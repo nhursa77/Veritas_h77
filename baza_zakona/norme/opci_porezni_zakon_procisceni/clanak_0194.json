@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "194",
+    "naslov": null,
+    "tekst": ". (1) Novčanom kaznom u iznosu od 2000,00 do 200.000,00 kuna kaznit će se pravna osoba: 1. ako poslovne knjige i druge evidencije s pripadajućom dokumentacijom ne čuva na mjestu propisanom zakonom (članak 66. stavak 9.) 2. ako na početku poslovanja i krajem svake poslovne godine ne popiše svu imovinu i obveze (članak 66. stavak 13.) 3. ako ne popiše imovinu i obveze pri promjenama cijena dobara ili kod statusnih promjena ili prestanka obavljanja djelatnosti ili kod otvaranja postupka stečaja ili likvidacije (članak 66. stavak 14.) 4. ako na zahtjev poreznog tijela ne stavi na raspolaganje dokumentaciju o elektroničkom sustavu korištenom za vođenje poslovnih knjiga, evidencija i izvješća na propisani način (članak 67. stavak 7.) 5. ako ne prijavi činjenicu stjecanja većinskog udjela ili činjenicu da je u sustavu povezanih društava, u propisanom roku (članak 68. stavak 2. i 4.) 6. ako ne prijavi činjenicu promjene većinskog vlasnika u propisanom roku (članak 68. stavak 3. i 4.) 7. ako ne dostavi poreznom tijelu podatke o osobi i ovlašteniku za koje vodi račun, čuva ili kao zalog uzima vrijednosti ili ustupa pretinac (članak 72.) 8. ako u poreznoj prijavi iskaže netočne ili neistinite podatke (članak 74. stavak 2.) 9. ako ne izda poreznom obvezniku dokumentaciju potrebnu za poreznu prijavu (članak 74. stavak 4.) 10. ako se ne odazove na poziv poreznog tijela radi davanja obavijesti usmeno na službenom mjestu poreznog tijela (članak 79. stavak 4.) 11. ako na traženje poreznog tijela ne dostavi obavijest u pisanom obliku ili obavijest ne dostavi pravodobno (članak 79. stavak 7.) 12. ako ne podnese pravovremeno statistička izvješća Poreznoj upravi za potrebe utvrđivanja činjenica bitnih za oporezivanje (članak 79. stavak 9.) 13. ako ometa očevid (članak 82. stavak 1.) 14. ako kao ovršenik koji na zahtjev poreznog tijela ne da podatke ili da netočne i nepotpune podatke o svojoj imovini i dohotku (članak 139.) 15. Financijska agencija, ako ne postupi u skladu s člankom 153. ovoga Zakona. (2) Novčanom kaznom od 1000,00 do 100.000,00 kuna za prekršaj iz stavka 1. točke 1. do 5. i 7. do 14. ovoga članka kaznit će se fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost. (3) Novčanom kaznom od 200,00 do 20.000,00 kuna za prekršaj iz stavka 1. točke 8., 10., 11. i 12. ovoga članka kaznit će se fizička osoba. (4) Novčanom kaznom u iznosu od 2000,00 do 20.000,00 kuna kaznit će se i odgovorna osoba u pravnoj osobi za prekršaje iz stavka 1. ovoga članka. (5) Za ponovljeni prekršaj iz stavka 1. ovog članka kaznit će se za prekršaj pravna osoba novčanom kaznom u iznosu od 4000,00 do 300.000,00 kuna, fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost novčanom kaznom u iznosu od 2000,00 do 200.000,00 kuna, fizička osoba novčanom kaznom u iznosu od 400,00 do 30.000,00 kuna, a odgovorna osoba u pravnoj osobi novčanom kaznom u iznosu od 4000,00 do 30.000,00 kuna. POGLAVLJE VIII. OVLASTI VLADE REPUBLIKE HRVATSKE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F35E4DFEA71D19402225525FCE4DE64A9A20969B3E0DEA243AEA08BC2DEF8FCD",
+    "sha256_datoteke": "62070B984CA50B705BF1C2B6B1E03C4FB3A2E62D6C05E372401A27A5AECF1D1C",
+    "napomena": null
+  }
+}

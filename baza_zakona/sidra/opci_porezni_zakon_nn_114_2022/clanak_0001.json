@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Općem poreznom zakonu (»Narodne novine«, br. 115/16., 106/18., 121/19., 32/20. i 42/20.) u članku 8. stavku 7. točki 1. riječi: »od iznosa 100.000,00 kuna« zamjenjuju se riječima: »od iznosa 13.272,28 eura«. U točki 2. riječi: »od iznosa 300.000,00 kuna« zamjenjuju se riječima: »od iznosa 39.816,84 eura«. U točki 3. riječi: »od iznosa 15.000,00 kuna« zamjenjuju se riječima: »od iznosa 1990,84 eura«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/1677",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 114/2022",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2022/114/1677"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "9A7DD1494C8AF11887731C8E90223711095599881A84D63B7FD81CC21537719B",
+    "sha256_datoteke": "CFAEE9B71978F5F577999EEF60D4416130D3ADC6D329C72572678441E7FE219D",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "8",
+    "naslov": null,
+    "tekst": ". U članku 74. stavak 6. mijenja se i glasi: »(6) Porezni obveznici koji su razvrstani u srednje ili velike poduzetnike u smislu odredaba propisa kojima se uređuje računovodstvo, obveznici poreza na dodanu vrijednost, fizičke i pravne osobe obveznici poreza na dobit, obveznici koji ostvaruju dohodak od samostalne djelatnosti, obveznici poreza na dohodak od iznajmljivanja kuća, stanova, soba i postelja te objekata za robinzonski smještaj putnicima i turistima i organiziranja kampova i članovi posade broda u međunarodnoj plovidbi dužni su porezne prijave ili druge podatke potrebne za oporezivanje podnositi Poreznoj upravi elektroničkim putem.«. U stavku 7. treća rečenica briše se. U stavku 9. riječi: »koje je izdala ovlaštena pravna osoba registrirana« zamjenjuju se riječima: »koje su izdale ovlaštene pravne osobe registrirane«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DED903EB8C26F822D21A9BBB59CA05ED9F1100EA397D6F8F1260C487A12571A9",
+    "sha256_datoteke": "CCD7F68E4CD4999E50BDA1F8590349B14352207E1494E98BF66ADD27C58E5510",
+    "napomena": null
+  }
+}

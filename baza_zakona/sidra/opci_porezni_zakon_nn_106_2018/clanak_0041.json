@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "41",
+    "naslov": null,
+    "tekst": ". U članku 167. stavak 2. mijenja se i glasi: »(2) Primjerak rješenja o ovrsi kojim se nalaže pljenidba dostavlja se tijelu nadležnom za vođenje upisnika propisanih odredbama zakona kojim se uređuje ovršni postupak, odnosno drugoga posebnog zakona kojim se uređuje vođenje upisnika stvari ili prava radi provedbe zabilježbe ovrhe.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B799331375E5AF93CD53BA4CCA31E751608564B19E0F1539A08B5870C7C3B875",
+    "sha256_datoteke": "D0CF153E05BF98B683785BA2A41D7BE70BE566F608509D0554B277AA60911C6D",
+    "napomena": null
+  }
+}

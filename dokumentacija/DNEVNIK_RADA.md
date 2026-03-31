@@ -3302,3 +3302,81 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 109)
+
+### ZADATAK 109 - stvarni ingest opz po paketnom manifestu
+
+Stvarni ingest paketa paketi/PAKET_OPZ_V1.json za opci_porezni_zakon proveden je
+kroz ingest workflow i prosao je iz prvog pokusaja bez patcha manifesta
+(INGEST_FIRST_RUN_EXIT=0).
+
+OPZ je voden kao core + amandmani: generiran je operativni NORMA set pod
+baza_zakona/norme/opci_porezni_zakon_procisceni te sidrisni setovi za NN 106/18,
+121/19, 32/20, 42/20, 114/22, 152/24 i 151/25 pod baza_zakona/sidra/.
+
+Stvarno su nastali NN dokazni snapshoti pod
+izvori/dokazno/narodne_novine/opci_porezni_zakon i pripadnim amandmanskim
+direktorijima, selection reportovi pod izvori/dokazno/narodne_novine/ te
+kontrolni direktoriji pod izvori/kontrolno/zakon_hr/.
+
+Trajni izvjestaj validacije OPZ seta nije ostao na disku nakon ingest runa, pa
+nije dokumentiran kao nastali trajni artefakt; sljedeci logicki korak ostaje
+kontrolna usporedba OPZ JSON seta sa zakon.hr.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+- `baza_zakona/norme/opci_porezni_zakon_procisceni/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_106_2018/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_121_2019/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_32_2020/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_42_2020/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_114_2022/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_152_2024/`
+- `baza_zakona/sidra/opci_porezni_zakon_nn_151_2025/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_106_2018/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_121_2019/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_32_2020/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_42_2020/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_114_2022/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_152_2024/`
+- `izvori/dokazno/narodne_novine/opci_porezni_zakon_nn_151_2025/`
+- `izvori/dokazno/narodne_novine/OPCI_POREZNI_ZAKON_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_106_2018_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_121_2019_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_32_2020_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_42_2020_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_114_2022_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_152_2024_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `OPCI_POREZNI_ZAKON_NN_151_2025_SELECTION_REPORT.md`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_106_2018/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_121_2019/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_32_2020/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_42_2020/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_114_2022/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_152_2024/`
+- `izvori/kontrolno/zakon_hr/opci_porezni_zakon_nn_151_2025/`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ingest_paket.ps1`
+  `-PaketPath .\paketi\PAKET_OPZ_V1.json`
+- `git diff --name-only`
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md dokumentacija/DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

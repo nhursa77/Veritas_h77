@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "29",
+    "naslov": null,
+    "tekst": ". (1) Članovi uprave i izvršni direktori društva kapitala odgovaraju kao porezni jamci ako pri vođenju poslova društva zloupotrebljavaju svoje ovlasti što ima za posljedicu nemogućnost ispunjenja obveza iz porezno-dužničkog odnosa i oštećenje poreznog tijela. (2) Radnjama kojima se oštećuje porezno tijelo kao vjerovnik u porezno-dužničkom odnosu osobito se smatraju: preusmjeravanje novčanih tokova na druge pravne ili fizičke osobe radi izbjegavanja plaćanja poreznih obveza, korištenje društva radi postizanja ciljeva koje ne bi sam mogao postići, a koji su zabranjeni, umanjenje ili otuđenje imovine društva ako je isto za posljedicu imalo nemogućnost plaćanja obveza iz porezno-dužničkog odnosa. (3) Osobna odgovornost postoji i u slučaju osobe koja se koristi drugim osobama koje djeluju kao njegovi povjerenici, tako da se u društvu kao član iskazuje netko drugi, ali to čini po nalogu i uputama te osobe. (4) Za podmirenje obveza društva, ali najviše do visine ostvarene koristi, supsidijarno odgovaraju i povezane osobe u čiju korist je poduzeto raspolaganje na štetu društva, što za posljedicu ima neispunjavanje obveze iz porezno-dužničkog odnosa. Odgovornost članova trgovačkog društva",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A1707919EDB631E5445E0B6C1094EFB44D544E1819D1A750DDE275C4381726DB",
+    "sha256_datoteke": "3619B25924F3D9EBD0156C0EF8F7251B417D257C33A540BFCB44A73D62D92371",
+    "napomena": null
+  }
+}

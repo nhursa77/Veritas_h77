@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "108",
+    "naslov": null,
+    "tekst": ". (1) Pravo i obveze poreznog tijela na utvrđivanje porezne obveze i kamata, pravo i obveza poreznog tijela na naplatu poreza, kamata i troškova ovrhe te pravo poreznog obveznika na povrat poreza, kamata i troškova ovrhe zastarijeva za šest godina računajući od dana kada je zastara počela teći. (2) Zastara prava na utvrđivanje porezne obveze i kamata počinje teći istekom godine u kojoj je nastala porezna obveza. Nastanak porezne obveze propisan je posebnim poreznim zakonima. (3) Zastara prava na utvrđivanje porezne obveze i kamata sukladno članku 28. ovog zakona počinje teći istekom godine u kojoj je donesena pravomoćna presuda za kazneno djelo. (4) Zastara prava na naplatu poreza, kamata i troškova ovrhe počinje teći istekom godine u kojoj je porezni obveznik sam utvrdio poreznu obvezu ili istekom godine u kojoj je postalo izvršno rješenje kojim je porezno tijelo utvrdilo poreznu obvezu i kamate. (5) Zastara prava na povrat poreza, kamata i troškova ovrhe počinje teći istekom godine u kojoj je porezni obveznik stekao pravo na povrat. (6) Ako se radi utvrđenja poreza i kamata ili naplate poreza, kamata i troškova ovrhe vodi postupak pred sudom, za vrijeme trajanja tog postupka zastara ne teče. (7) Zastara prava na naplatu porezne obveze, kamata i troškova ovrhe ne teče niti u slučajevima propisanim ovim zakonom i posebnim propisima. (8) Ako porezni obveznik podmiri poreznu obvezu nakon nastupa zastare, ima pravo na povrat plaćenog poreza i pravo na kamate od dana podnošenja zahtjeva.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "68EB463A4989F1D47362CBCDB81BDC9CB8D576EEFE3551CB61DB02266D68FDA6",
+    "sha256_datoteke": "5A07FF597425E8DE96A459182AB023D84AF4020D0B0337184F9980817DE79CB6",
+    "napomena": null
+  }
+}

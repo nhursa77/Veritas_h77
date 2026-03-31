@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "60",
+    "naslov": null,
+    "tekst": ". Osobna dostava u inozemstvo može se izvršiti: 1. preko nadležnog poreznog tijela u inozemstvu, na temelju molbe poreznog tijela koje šalje pismeno 2. slanjem preporučene pošiljke s povratnicom ili 3. preko diplomatskog ili konzularnog predstavništva Republike Hrvatske u inozemstvu. Dostavnica",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "435565B1A040CFCEEF7AA70450BBA8CF9336E9B03599EDF4A6DDBFB99BB46A7E",
+    "sha256_datoteke": "3A1452C4CEA322A512DA8177D62D796EFCAA38E5CA910CDFA0B0DC2AF312AC44",
+    "napomena": null
+  }
+}

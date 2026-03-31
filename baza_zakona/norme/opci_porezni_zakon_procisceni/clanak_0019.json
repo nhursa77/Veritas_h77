@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "19",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo će po službenoj dužnosti postaviti zastupnika: 1. poreznom obvezniku nepoznatog sjedišta, prebivališta ili uobičajenog boravišta 2. nepoznatom vlasniku imovine koja je predmet poreznog postupka. (2) Ako je porezni obveznik fizička osoba koja nije poslovno sposobna i nema zakonskog zastupnika, porezno tijelo podnijet će zahtjev nadležnom sudu za postavljanje zastupnika. (3) Za zastupnika po službenoj dužnosti može se postaviti porezni savjetnik, odvjetnik ili druga osoba koja ima potrebno stručno znanje za obavljanje zastupanja. (4) Zastupnik iz stavka 1. i 2. ovoga članka ima pravo na nagradu i naknadu troškova zastupanja. (5) Porezno tijelo ima pravo potraživati od poreznog obveznika povrat sredstava isplaćenih za nagrade i naknadu troškova zastupnika iz stavka 1. i 2. ovoga članka. (6) Visinu nagrade i naknadu troškova iz stavka 4. ovoga članka koje utvrđuje i isplaćuje porezno tijelo propisuje pravilnikom ministar financija. POGLAVLJE II. POREZNO-DUŽNIČKI ODNOS Odjeljak 1. OPĆE ODREDBE Pojam porezno-dužničkog odnosa",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "903E0C8EC37B9EC487A166B0F0BE912FA967A2822672070482986727DEBFEB56",
+    "sha256_datoteke": "A69D578143F5F63F19829C6D7BF8D0D764679188FA807338A0E9435D689E7B59",
+    "napomena": null
+  }
+}

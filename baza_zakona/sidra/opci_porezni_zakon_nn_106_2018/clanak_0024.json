@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "24",
+    "naslov": null,
+    "tekst": ". U članku 115. stavak 1. mijenja se i glasi: »(1) Porezni nadzor u smislu ovoga Zakona dio je porezno-pravnog odnosa u kojem Porezna uprava i Carinska uprava te druga porezna tijela provode postupak radi provjere i utvrđivanja činjenica bitnih za oporezivanje poreznih obveznika i drugih osoba.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BF3DF5880E3D68874FFA22B617D7CCFFE72DD05E89E2971D5F665D3C07677777",
+    "sha256_datoteke": "4E94782E1BDB4B1C321E8BC748BB0E781313D816AA8E929EA044795E07AE5F4B",
+    "napomena": null
+  }
+}

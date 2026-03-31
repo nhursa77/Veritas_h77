@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "10",
+    "naslov": null,
+    "tekst": ". Obveza sastavljanja i podnošenja statističkog izvješća iz članka 79. stavka 9. Općeg poreznog zakona (»Narodne novine« br. 115/16., 106/18., 121/19., 32/20., 42/20., 114/22. i 152/24.) za 2025. godinu o dospjelim, a nenaplaćenim tražbinama treba se izvršiti do 28. veljače 2026. za obveznike poreza na dohodak od samostalne djelatnosti prema propisu kojim se uređuje porez na dohodak ili do 30. travnja 2026. za obveznike poreza na dobit prema propisu kojim se uređuje porez na dobit odnosno drugog roka ako je poreznom obvezniku odobreno drugačije porezno razdoblje sukladno propisu kojim se uređuje porez na dobit.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2025",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "14EAB60DEE60D2E72D042EA64824D3513C5AEC871BA6C8F619F73832144C2285",
+    "sha256_datoteke": "EA74B25C2780479F589E019C2502286E2196AED1D23BFB9A97282F8B7550AC6A",
+    "napomena": null
+  }
+}

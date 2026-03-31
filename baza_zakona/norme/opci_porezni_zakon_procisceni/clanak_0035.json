@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "35",
+    "naslov": null,
+    "tekst": ". (1) Pri prijenosu vlasništva gospodarske cjeline, stjecatelj se smatra poreznim jamcem za: 1. porez čija se obveza plaćanja temelji na poslovanju gospodarske cjeline prije stjecanja 2. porez koji se plaća po odbitku (porez na dohodak od nesamostalnog rada) pod uvjetom da je obveza plaćanja tog poreza nastala u godini u kojoj je izvršen prijenos vlasništva gospodarske cjeline. (2) Jamstvo stjecatelja ograničeno je vrijednošću stečene imovine. (3) Iznimno, odredba stavka 1. točke 1. ovoga članka ne primjenjuje se na stjecanje u stečajnom i ovršnom postupku. Odgovornost poreznog jamca",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0BEA1B27B858BAF0674EFC5E97895CBF8473CE762D2546EF9BEE71C515035F19",
+    "sha256_datoteke": "829891D70DB952BEA4FABC5D1A58D5D04FADE958409CB17CE85DCD63A050592D",
+    "napomena": null
+  }
+}

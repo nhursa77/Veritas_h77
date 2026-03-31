@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 82. stavak 4. mijenja se i glasi: »(4) Nalazi utvrđeni očevidom unose se u zapisnik o obavljenom očevidu.«. Iza stavka 4. dodaje se novi stavak 5. i stavci 6. do 8. koji glase: »(5) U zapisnik o obavljenom očevidu obvezno se unose i primjedbe poreznog obveznika. (6) Zapisnik o obavljenom očevidu izdaje se u elektroničkom obliku i dostavlja u elektronički pretinac poreznog obveznika. (7) Iznimno od stavka 6. ovoga članka, zapisnik koji nije moguće izdati u elektroničkom obliku izdaje se u fizičkom obliku. (8) Zapisnik koji nije izdan u elektroničkom obliku potpisuju svi sudionici te se uz primjedbe poreznog obveznika obvezno unose i razlozi odbijanja potpisivanja zapisnika.«. Dosadašnji stavak 5. postaje stavak 9.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "478D2EFD66703195BD8EE3D6B6B5B940A459688C9DB0F0E76C41C27A7414A56B",
+    "sha256_datoteke": "8B385B201D44ADF556CB43FACCED6E538D9C5D340BBFFD00544A5402A798BAE8",
+    "napomena": null
+  }
+}

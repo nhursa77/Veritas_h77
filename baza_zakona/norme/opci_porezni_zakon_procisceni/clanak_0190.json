@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "190",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo protiv čijeg je rješenja pravodobno podnesena tužba nadležnom sudu može do okončanja spora poništiti ili izmijeniti svoje rješenje iz onih razloga iz kojih bi sud mogao poništiti to rješenje. (2) Poništavanje ili izmjena rješenja iz stavka 1. ovoga članka može se izvršiti samo ako se na taj način otklanja nezakonitost rješenja i ako se time porezni obveznik ne dovodi u lošiji položaj. (3) Porezno rješenje iz stavka 1. ovoga članka dostavlja se poreznom obvezniku i nadležnom sudu. POGLAVLJE VII. PREKRŠAJNE ODREDBE Porezni prekršaj",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CDEA9BF7DBD496B2C51FE9893D7EC01642DD45982BF454458CF6BD9F3258DAAA",
+    "sha256_datoteke": "C2E1B384B736CE703C35F4C4222D3DABC0E31BDB67D5826D287C7441DA884712",
+    "napomena": null
+  }
+}

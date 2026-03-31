@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "130",
+    "naslov": null,
+    "tekst": ". (1) Na iznos manje ili više plaćenog poreza obračunavaju se i plaćaju kamate u skladu s posebnim propisom, ako ovim Zakonom nije uređeno drugačije. (2) Dospijeće pojedine vrste poreza utvrđuje se posebnim zakonom. (3) Kamate se obračunavaju od dana dospijeća porezne obveze. (4) Na iznos dužnih kamata ne obračunavaju se kamate. (5) Na plaćene poreze bez pravne osnove kamate se obračunavaju počevši s 15-im danom od dana primitka zahtjeva za povrat, ako posebnim propisom nije uređeno drugačije. (6) Iznimno od stavka 5. ovoga članka, ako je poništeno ili izmijenjeno rješenje ili drugi akt o zaduženju na temelju kojeg je plaćen porez, tada obračun kamata na ukupno plaćeni iznos počinje teći od dana uplate poreznog duga. (7) Ako se tijekom poreznog nadzora utvrdi razlika porezne obveze, kamata se obračunava od dana kada je tu poreznu obvezu porezni obveznik bio dužan platiti. Kamata na porezni dug čije je plaćanje odgođeno",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "BBAA1CB60919D89AAD97AC6059D4366DFB8DA47CD3F2B259C9E474FAAB1F4771",
+    "sha256_datoteke": "DCFE5FA31A5BC8FB767D98332FB113878490E7113B5E9D1B2F8D97FE8103D36C",
+    "napomena": null
+  }
+}

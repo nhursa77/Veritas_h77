@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "50",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »Ako se utvrđuje dobit stalne poslovne jedinice nerezidenta, stalnoj poslovnoj jedinici nerezidenta pripisuje se dobit koja se može očekivati u transakcijama s drugim dijelovima poduzetnika, kao da su odvojene i kao da se radi o samostalnim poduzetnicima koji se bave istim ili sličnim djelatnostima pod istim ili sličnim uvjetima. Pritom se uzimaju u obzir obavljene funkcije, imovina koja se koristi i preuzeti rizici od poduzetnika putem stalne poslovne jedinice i kroz druge dijelove poduzetnika.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5CDB202592F33DD09C16B4A554067430DACEBED8A3E0E12312D45EB7C1EE176F",
+    "sha256_datoteke": "669BE549737C5CD1ACF95E0640C721A8DF3457F6F6E42B037C8BB33FF8288891",
+    "napomena": null
+  }
+}

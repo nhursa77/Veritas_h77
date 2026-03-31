@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "13",
+    "naslov": null,
+    "tekst": ". U članku 117. stavcima 2. i 3. riječi: »se može obavljati« zamjenjuju se riječima: »može započeti«. U stavku 3. iza točke 4. briše se točka na kraju rečenice i dodaju se točke 5. i 6. koje glase: »5. u drugim postupcima koji uključuju provjere poslovanja u inozemstvu, povezane osobe i društva te transakcije u prekograničnom poslovanju, kao i provjere transfernih cijena, poreznih aranžmana i slične prekogranične transakcije i poslove koji uključuju više jurisdikcija odnosno država 6. u postupcima u kojima postoji osnovana sumnja na počinjenje sljedećih kaznenih djela iz Kaznenog zakona (»Narodne novine«, br. 125/11., 144/12., 56/15., 61/15., 101/17., 118/18., 126/19., 84/21., 114/22., 114/23. i 36/24.): primanja mita (članak 293.), davanja mita (članak 294.), trgovanja utjecajem (članak 295.), davanja mita radi trgovanja utjecajem (članak 296.), podmićivanja zastupnika (članak 339.).«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "CD60B93520E791509261E950406176DFA340F14B247C4E2E0F82C4F60EEAD7C6",
+    "sha256_datoteke": "42B032FF9B24DC048C3262D10FCFE328DB8DA7FE3A178D24D84BED84C61CC397",
+    "napomena": null
+  }
+}

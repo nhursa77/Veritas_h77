@@ -1,0 +1,55 @@
+{
+  "glavni_akt": {
+    "slug": "opci_porezni_zakon_nn_42_2020",
+    "naziv": "Zakon o dopuni Općeg poreznog zakona"
+  },
+  "dokumenti": [
+    {
+      "doc_id": "opci_porezni_zakon_nn_42_2020_procisceni",
+      "tip": "zakon_procisceni",
+      "nn": "NN 42/2020",
+      "naslov": "Zakon o dopuni Općeg poreznog zakona",
+      "clanci": [
+        {
+          "broj": 1,
+          "naslov": null,
+          "tekst": ". U Zakonu o lokalnim izborima (»Narodne novine«, br. 144/12., 121/16. i 98/19.) u članku 6. iza stavka 2. dodaje se novi stavak 3. koji glasi: »(3) U slučaju nastupanja posebnih okolnosti koje podrazumijevaju događaj ili određeno stanje koje se nije moglo predvidjeti i na koje se nije moglo utjecati, a koje trenutačno ugrožava pravni poredak, život, zdravlje ili sigurnost stanovništva te imovinu veće vrijednosti, Vlada Republike Hrvatske može odgoditi raspisivanje prijevremenih izbora, odnosno staviti izvan snage odluku kojom su raspisani prijevremeni izbori do prestanka posebnih okolnosti.«. U dosadašnjem stavku 3., koji postaje stavak 4., iza riječi: »izbora« dodaju se riječi: »i odluka o stavljanju izvan snage odluke o raspisivanju prijevremenih izbora«, riječi: »dostavlja se« zamjenjuju se riječima: »dostavljaju se« te riječi: »je donesena« zamjenjuju se riječima: »su donesene«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 2,
+          "naslov": null,
+          "tekst": ". U članku 7. iza stavka 5. dodaje se novi stavak 6. koji glasi: »(6) Iznimno od rokova propisanih stavcima 2., 3., 4. i 5. ovoga članka, u slučaju nastupanja posebnih okolnosti iz članka 6. stavka 3. ovoga Zakona prijevremeni izbori održat će se nakon prestanka posebnih okolnosti, a najkasnije u roku od 90 dana od dana prestanka tih okolnosti.«. U dosadašnjem stavku 6., koji postaje stavak 7., riječi: »4. i 5.« zamjenjuju se riječima: »4., 5. i 6.«. Dosadašnji stavak 7. postaje stavak 8.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 3,
+          "naslov": null,
+          "tekst": ". Ovaj Zakon stupa na snagu prvoga dana od dana objave u »Narodnim novinama«. Klasa: 022-03/20-01/48 Zagreb, 7. travnja 2020. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 42/2020-881 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 42/2020 Broj dokumenta u izdanju: 881 Stranica tiskanog izdanja: 1 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 7.4.2020. ELI: /eli/sluzbeni/2020/42/881 Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        }
+      ]
+    }
+  ],
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/42/881",
+    "datum_pristupa": "31.03.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "FA5BB3809BD903104A4DE3D7A64B302C1C082C49C0AE273993FE41CECAA8EB44",
+    "oznaka_akta": "NN 42/2020"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "31.03.2026.",
+    "broj_dokumenata": 1,
+    "broj_clanaka_ukupno": 3
+  }
+}

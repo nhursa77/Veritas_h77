@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "15",
+    "naslov": null,
+    "tekst": ". U članku 68. stavak 1. mijenja se i glasi: »(1) Porezni obveznik dužan je prijaviti sve činjenice bitne za utvrđivanje njegove porezne obveze, a osobito premještaj radionice ili stalne poslovne jedinice, početak obavljanja gospodarske djelatnosti, broj poslovnog računa koji ima izvan Republike Hrvatske i druge činjenice čije je prijavljivanje propisano posebnim zakonom, a koje nisu dostupne poreznom tijelu kroz razmjenu podataka s drugim javnopravnim tijelima.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "037FCFEB3A8A44E525CC9DCB6D8C10EA8C0382C67B14BB088C3A52DDBF9ED37B",
+    "sha256_datoteke": "4170DDC016F3162CA1D7B2915A01288FD72473BD8FAA0560C36508A12E878D7B",
+    "napomena": null
+  }
+}

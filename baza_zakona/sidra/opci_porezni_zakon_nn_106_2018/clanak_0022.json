@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "22",
+    "naslov": null,
+    "tekst": ". U članku 109. stavak 11. mijenja se i glasi: »(11) Na zastaru prekršajnog progona, izvršenja prekršajnopravnih sankcija, izvršenja oduzimanja imovinske koristi, oduzimanja predmeta i troškova prekršajnog postupka primjenjuju se odredbe zakona kojim se uređuje prekršajni postupak.«. Iza stavka 11. dodaje se stavak 12. koji glasi: »(12) Na nastup zastare prava na povrat porezno tijelo pazi po službenoj dužnosti.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "2AF69DFA56CBD19F23C6D533A8D201E1805BEDABC6BDE24EFB5302754B269BEB",
+    "sha256_datoteke": "CE681D1CC4FDAFFA2A6082F418B0EF87014626334C3996B7C07EB44B38D5236F",
+    "napomena": null
+  }
+}

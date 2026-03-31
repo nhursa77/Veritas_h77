@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "122",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznik dužan je sudjelovati u utvrđivanju činjeničnog stanja bitnog za oporezivanje na način da daje obavijesti, predočava evidencije, poslovne knjige, poslovnu dokumentaciju i druge isprave ili imenuje osobu koja će to raditi u njegovo ime, o čemu je dužan obavijestiti porezno tijelo najkasnije do datuma početka poreznog nadzora utvrđenog u obavijesti iz članka 120. ovoga Zakona. (2) Ako obavijesti poreznog obveznika ili imenovane osobe nisu dovoljne, ovlaštena osoba za porezni nadzor može zatražiti od poreznog obveznika da imenuje i druge osobe za davanje obavijesti. Ovlaštena osoba za porezni nadzor može zatražiti obavijesti od drugih zaposlenika poreznog obveznika ili od trećih osoba. (3) Osobe iz stavka 2. ovoga članka koje daju obavijesti u postupku poreznog nadzora dužne su dati obavijesti ovlaštenoj osobi za porezni nadzor, bez pisanog zahtjeva. Postupak u slučaju sumnje na porezno kazneno djelo i prekršaj",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4A6DC7350D1D56F46AD58CB583CFB615E504C792460AC64692E41A1C01102F24",
+    "sha256_datoteke": "CA0C977451FA54151E9BB68CC39AE2ED8C7BBD465760E359D9B17C80F2CF198A",
+    "napomena": null
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "glavni_akt": {
+    "slug": "opci_porezni_zakon_nn_32_2020",
+    "naziv": "Zakon o dopuni Općeg poreznog zakona"
+  },
+  "dokumenti": [
+    {
+      "doc_id": "opci_porezni_zakon_nn_32_2020_procisceni",
+      "tip": "zakon_procisceni",
+      "nn": "NN 32/2020",
+      "naslov": "Zakon o dopuni Općeg poreznog zakona",
+      "clanci": [
+        {
+          "broj": 1,
+          "naslov": null,
+          "tekst": ". U Općem poreznom zakonu (»Narodne novine«, br. 115/16., 106/18. i 121/19.) iza članka 107. dodaje se naslov iznad članka i članak 107.a koji glase: »Plaćanje poreza u posebnim okolnostima",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 107,
+          "naslov": null,
+          "tekst": ".a (1) »Posebne okolnosti« podrazumijevaju događaj ili određeno stanje koje se nije moglo predvidjeti i na koje se nije moglo utjecati, a koje ugrožava život i zdravlje građana, imovinu veće vrijednosti, znatno narušava okoliš, narušava gospodarsku aktivnost ili uzrokuje znatnu gospodarsku štetu. (2) Ako posebne okolnosti iz stavka 1. ovoga članka utječu na mogućnost podmirivanja poreznih obveza, dospijeće poreznih obveza nastalih i/ili dospjelih sukladno posebnim propisima može se odgoditi i/ili se može odobriti njihova obročna otplata. (3) Za vrijeme trajanja odgode plaćanja i obročne otplate iz stavka 2. ovoga članka ne obračunavaju se kamate i zastara ne teče. (4) Ministar financija pravilnikom će propisati provedbu ovoga članka.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 2,
+          "naslov": null,
+          "tekst": ". Ovlašćuje se ministar financija uskladiti Pravilnik o provedbi Općeg poreznog zakona (»Narodne novine«, br. 45/19.) s odredbama ovoga Zakona u roku od 30 dana od dana njegova stupanja na snagu.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 3,
+          "naslov": null,
+          "tekst": ". Ovaj Zakon stupa na snagu prvoga dana od dana objave u »Narodnim novinama«. Klasa: 022-03/20-01/26 Zagreb, 19. ožujka 2020. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 32/2020-691 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 32/2020 Broj dokumenta u izdanju: 691 Stranica tiskanog izdanja: 2 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 19.3.2020. ELI: /eli/sluzbeni/2020/32/691 Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        }
+      ]
+    }
+  ],
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691",
+    "datum_pristupa": "31.03.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "68C0E9D9CEADD4EBF632C30DD91DE24E5D90495C804AC01A9471890D113A8A92",
+    "oznaka_akta": "NN 32/2020"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "31.03.2026.",
+    "broj_dokumenata": 1,
+    "broj_clanaka_ukupno": 4
+  }
+}

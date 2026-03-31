@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "127",
+    "naslov": null,
+    "tekst": ". (1) Porez i kamate po osnovi poreznog duga uplaćuju se na propisane uplatne račune putem banke. (2) Porezi i kamate iz stavka 1. ovoga članka smatraju se plaćeni danom kad je banka kod koje se vode uplatni računi primila uplatu. (3) Vraćanje preplaćenog poreza, plaćenog poreza bez pravne osnove i pripadajućih kamata pravnim i fizičkim osobama obavlja se bezgotovinski ili propisanim sredstvima gotovinskog plaćanja. (4) Pri povratu poreza i pripadajućih kamata danom plaćanja smatra se: 1. kod bezgotovinskog plaćanja dan kada su sredstva pristigla u korist računa banke vjerovnika 2. kod gotovinskog plaćanja dan s kojim je za navedenu isplatu terećen račun proračuna. (5) Povrat preplaćenog poreza i poreza plaćenog bez pravne osnove zajedno s kamatama porezno tijelo dužno je vratiti osobi koja ga je platila, odnosno osobi kojoj je pravo na povrat poreza ustupljeno. (6) Iznimno, povrat iz stavka 5. ovoga članka se neće izvršiti ako je porezno tijelo prethodno utvrdilo da porezni obveznik ima dospjelih, a neplaćenih poreza koje naplaćuje porezno tijelo. Redoslijed plaćanja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "18F1AF260D271C5201355AD4F16A4462B0B128740BBB208C3BD9A58B6310415E",
+    "sha256_datoteke": "1157F97ED6873895B60305287A297B9F276CEF7875521013ADBA00EF30CA54C6",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "68",
+    "naslov": null,
+    "tekst": ". (1) Porezni obveznik dužan je prijaviti sve činjenice bitne za utvrđivanje njegove porezne obveze, a osobito osnutak, premještaj i prestanak trgovačkog društva, radionice ili stalne poslovne jedinice ili početak obavljanja gospodarske djelatnosti, odnosno promjenu prebivališta ili uobičajenog boravišta, i druge činjenice čije je prijavljivanje propisano posebnim zakonom. (2) Porezni obveznik koji je izravno ili neizravno stekao više od 50 % udjela u tuzemnom ili inozemnom trgovačkom društvu, ili je u sustavu povezanih društava određenih člankom 49. stavkom 2. ovoga Zakona, dužan je to prijaviti nadležnom poreznom tijelu prema svome sjedištu. (3) Trgovačko društvo nad kojim druga osoba ima većinska članska prava dužno je tu činjenicu prijaviti nadležnom poreznom tijelu prema svome sjedištu. (4) Ako posebnim propisom nije uređeno drugačije, prijave iz stavka 1., 2. i 3. ovoga članka treba podnijeti u roku od trideset dana od dana nastanka činjenice za koju postoji obveza prijavljivanja. (5) Obrasce za prijave prema stavku 4. ovoga članka pravilnikom propisuje ministar financija. Sudjelovanje poreznog obveznika u poreznom postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "8FCC7C024650BA4CC1DB5821E1746632C00AE574048D03684B8F900E8360EF3C",
+    "sha256_datoteke": "89725B665ABE2C68E09BE5A42DD2E751BB68E40E57150609FD0AFA1C994D0FD9",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "195",
+    "naslov": null,
+    "tekst": ". Uvjete, način i postupak odlučivanja o pravima poreznog tijela iz porezno-dužničkog odnosa u predstečajnom i stečajnom postupku propisuje Uredbom Vlada Republike Hrvatske. POGLAVLJE IX. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3D010A9D71A31BDC44E7B34EB173001655B4B09EDBDF8CA6626378EE92A95C2B",
+    "sha256_datoteke": "8B547BC490E0518281F1675822AD8E560C85CC14CDB24DCC3EB2E6B6180CE84B",
+    "napomena": null
+  }
+}

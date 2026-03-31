@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo dužno je zakonito utvrđivati sva prava i obveze iz porezno-pravnog odnosa. (2) Porezno tijelo dužno je utvrđivati sve činjenice koje su bitne za donošenje zakonite i pravilne odluke, pri čemu je s jednakom pažnjom dužno utvrditi i one činjenice koje idu u prilog poreznog obveznika. Koje će se radnje u postupku poduzimati i u kojem opsegu, određuje porezno tijelo. (3) Porezno tijelo treba porezne obveznike poticati na podnošenje poreznih prijava. Porezno tijelo dužno je upozoriti sudionike porezno-pravnog postupka na njihova prava i obveze u postupku. (4) Porezno tijelo dužno je uspostaviti sustav informiranja koji će poreznim obveznicima omogućavati jedinstven, suvremen i što lakši pristup informacijama, objavljujući na svojim mrežnim stranicama porezne propise i njihove izmjene i dopune. (5) Ako porezni obveznik predaje ispravu na stranom jeziku i pismu koje nije u službenoj uporabi kod poreznog tijela, porezno tijelo odredit će rok u kojem će porezni obveznik dostaviti ovjereni prijevod isprave na hrvatski jezik i latinično pismo. (6) Ako porezni obveznik ne dostavi ovjereni prijevod iz stavka 5. ovoga članka u određenom roku, porezno tijelo prevest će isprave o trošku poreznog obveznika. Pravo na očitovanje",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "045980691758F4DA8396F4C43DDA7ED165BD1C64FD2B2C0A443C9EDBB5ED0FFC",
+    "sha256_datoteke": "7F358797192E8C26FEDE336F38471AD727CEC5F112192A0DCC40A66570A0AA3F",
+    "napomena": null
+  }
+}

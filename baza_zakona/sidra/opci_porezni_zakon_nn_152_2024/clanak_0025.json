@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "25",
+    "naslov": null,
+    "tekst": ". U članku 172. stavak 2. mijenja se i glasi: »(2) Postupak utvrđivanja zlouporabe prava iz porezno-dužničkog odnosa osoba koje u skladu s člankom 32. ovoga Zakona odgovaraju kao porezni jamci, provodi se po saznanju za postojanje indicija da je izvršena zlouporaba prava.«. Iza stavka 2. dodaje se stavak 3. koji glasi: »(3) Postupak naplate od poreznog jamca provest će se u slučaju nemogućnosti naplate poreznog duga od poreznog obveznika primjenom svih oportunih mjera prisilne naplate.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "130679B1794EB6F81A6FFA17D98F1974F238C12ACDC68C8D5F580F29EC429423",
+    "sha256_datoteke": "47A21BF039F0CBC371E75E19910251565CCDBC1624974F99BDB330E11F016119",
+    "napomena": null
+  }
+}

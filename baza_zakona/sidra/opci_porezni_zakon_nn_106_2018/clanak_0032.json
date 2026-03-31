@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "32",
+    "naslov": null,
+    "tekst": ". U članku 140. stavku 2. iza točke 4. dodaje se nova točka 5. koja glasi: »5. rješenje o ovrsi«. Dosadašnja točka 5. postaje točka 6. U stavku 3. iza riječi: »tijela« umjesto točke stavlja se zarez i dodaju se riječi: »ili ovjeren elektroničkim potpisom ili elektroničkim pečatom poreznog tijela.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C398FD033126765A2164792E39308A27A9107C2A4E513A7796F4677A777E63BC",
+    "sha256_datoteke": "35832E28797DEF0B6711C5C4F54297E4EC3EB30962EE3E90D663802054003311",
+    "napomena": null
+  }
+}

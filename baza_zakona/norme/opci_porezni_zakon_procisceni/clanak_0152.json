@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "152",
+    "naslov": null,
+    "tekst": ". (1) Ovrha se može provesti na novčanoj tražbini ovršenika, pokretninama, drugim imovinskim, odnosno materijalnim pravima te na nekretninama. (2) Radi osiguranja naplate poreza, u postupku ovrhe može se upisati zalog i/ili hipoteka na pokretninama i/ili nekretninama ovršenika. (3) Pljenidba je ovršna radnja koja se poduzima u postupku ovrhe kada su predmet pljenidbe: 1. novčana sredstva po svim računima i oročenim novčanim sredstvima 2. tražbine ovršenika, osim nepljenjivih tražbina (članak 155.) 3. pljenidba vlasničkih i vjerovničkih vrijednosnih papira 4. pljenidba tražbine na temelju udjela u kapitalu 5. pljenidba pokretnina, osim onih koje se ne mogu plijeniti (članak 160.) 6. pljenidba na imovinskim pravima. Pljenidba novčanih sredstava ovršenika na računima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "52B5F6396FFBBECF04459F95F2905A4ABD970A9DC77E4B6649510985EC61A3FE",
+    "sha256_datoteke": "742670C799820D4C60AE4935460E65B7BCF8FC7B31B522AAF5563920C12B0DCF",
+    "napomena": null
+  }
+}

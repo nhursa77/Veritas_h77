@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". U članku 24. iza stavka 3. dodaje se stavak 4. koji glasi: »(4) Od dana smrti poreznog obveznika do trenutka izvršnosti rješenja o pravnim sljednicima ne teče zastara za dug ostavitelja u trenutku smrti.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "B3E2D3E825FC86233101A32BD30BC6A3AC110C7332DA71DDC9FFD0896A865E1B",
+    "sha256_datoteke": "DB1134D91157A3B5A1713F074084B4BCE23CCDFA6F34B48BADE0BCFA17A6BE33",
+    "napomena": null
+  }
+}

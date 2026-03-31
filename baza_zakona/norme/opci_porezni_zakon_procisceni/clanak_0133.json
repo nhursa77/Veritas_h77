@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "133",
+    "naslov": null,
+    "tekst": ". Porezno tijelo može tražiti od poreznog obveznika ili poreznog jamca da dade sredstva osiguranja plaćanja poreza, ako je to uvjet za sklapanje upravnog ugovora. Vrste sredstava osiguranja naplate",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "5E725054F09D2265D3283D96A7B07228ABC5CE73256C8AC6688418112F19B57A",
+    "sha256_datoteke": "0477D71829FCE05A4C3A7C127FEDAEDEDD19FD2AEA9BA0EFD4BE581A473E115F",
+    "napomena": null
+  }
+}

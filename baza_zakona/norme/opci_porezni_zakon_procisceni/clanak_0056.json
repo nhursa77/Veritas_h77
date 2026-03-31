@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "56",
+    "naslov": null,
+    "tekst": ". (1) Službenik poreznog tijela izuzet će se od obavljanja službenih radnji u poreznom postupku: 1. ako je sudionik postupka, bilo da je porezni obveznik ili porezni jamac 2. ako je srodnik sa sudionikom postupka ili zakonski zastupnik sudionika postupka 3. ako je zakonski zastupnik, opunomoćenik ili stručni pomagač sudionika postupka 4. ako je u poslovnom odnosu sa sudionikom postupka 5. ako postoji vjerojatnost da će službenim radnjama steći neposrednu korist ili pretrpjeti štetu 6. ako je u prvostupanjskom postupku sudjelovao u vođenju postupka ili u donošenju poreznog rješenja. (2) Srodnici u smislu ovoga Zakona jesu: 1. srodnik po krvi u ravnoj liniji 2. srodnik u pobočnoj liniji do trećeg stupnja zaključno 3. bračni drug 4. skrbnik, štićenik, posvojitelj i posvojenik. (3) Ako postoji opravdana sumnja u nepristranost službene osobe, voditelj poreznog tijela izuzet će službenu osobu od obavljanja službenih radnji u tom postupku. Ako se sumnja u nepristranost voditelja poreznog tijela, o izuzeću odlučuje čelnik neposredno više ustrojstvene jedinice poreznog tijela. Odjeljak 2. POREZNI AKTI U POREZNOM POSTUPKU Pojam poreznog akta",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1FE7E5AC31F22AB81F162BFAF413F7718D9F0E38F112BE3F64B4432FD032818C",
+    "sha256_datoteke": "54B5B8B475B411613E187FC9BF4EAB7E31BFA45178867A8FFA158A936135D4EB",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "5",
+    "naslov": null,
+    "tekst": ". U članku 17. iza stavka 4. dodaje se stavak 5. koji glasi: »(5) U okviru poreznog nadzora pravnih i fizičkih osoba koje obavljaju registriranu djelatnost opunomoćenik je stručna osoba iz redova odvjetnika ili poreznih savjetnika.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "97C04DF7E671B4F79E5CC7BBCEB024CEDFBDF29593C1864C225CDD8F54A59A20",
+    "sha256_datoteke": "E0CE15048A556FE4359236296EBF257A03AE40D4AB885E905666F567080E1338",
+    "napomena": null
+  }
+}

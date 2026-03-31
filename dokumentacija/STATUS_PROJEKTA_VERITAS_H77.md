@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `474ad3d` - docs: servisno zatvoren z106 nakon
-  status synca (Z107)
+- Polazni HEAD prije zadatka: `104a5cf` - feat: refaktoriran statusni trag i
+  automatizirano zatvaranje dokumentacije (Z108)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 108
+- Zadnji dovršeni zadatak: ZADATAK 109
 - ZADATAK 89: plansko uskladjenje nakon zatvaranja rjecnickog toka
 - ZADATAK 90: definiran prioritetni redoslijed konverzije zakona u JSON
 - ZADATAK 92: za `zakon_o_opcem_upravnom_postupku` utvrdjen rezim
@@ -104,6 +104,14 @@ Datum: 31.03.2026.
   kao model `core + amandmani` nad nizom `NN 115/16`, `106/18`, `121/19`,
   `32/20`, `42/20`, `114/22`, `152/24` i `151/25`, uz `zakon.hr` samo kao
   kontrolni izvor.
+- ZADATAK 109: proveden je stvarni ingest paketa
+  `paketi/PAKET_OPZ_V1.json` za `opci_porezni_zakon`.
+  Ingest je prosao iz prvog pokusaja (`INGEST_FIRST_RUN_EXIT=0`) bez patcha
+  manifesta. Nastali su NN dokazni snapshoti pod
+  `izvori/dokazno/narodne_novine/opci_porezni_zakon/`, operativni NORMA set
+  pod `baza_zakona/norme/opci_porezni_zakon_procisceni/` i sidrisni setovi
+  za svih sedam amandmanskih NN akata pod `baza_zakona/sidra/`, uz selection
+  reportove i kontrolne direktorije koje je ingest workflow stvarno generirao.
 - Zadnji operativni paketni rjecnicki korak ostaje: ZADATAK 87
 - Potpuno validiranih natuknica: 40
 - Preostali homogeni nizovi za paketno zatvaranje: nema
@@ -114,8 +122,8 @@ Datum: 31.03.2026.
 - Rezultat kontrolne usporedbe: STABILNO
   (nema missing/extra clanaka; nakon revizije heuristike
   `CONTROL_TRUNCATION_SUSPECTED=False`).
-- Sljedeci logicki korak: provesti stvarni ingest manifesta
-  `paketi/PAKET_OPZ_V1.json` za `opci_porezni_zakon`.
+- Sljedeci logicki korak: provesti kontrolnu usporedbu OPZ JSON seta sa
+  `zakon.hr` za `opci_porezni_zakon`.
 
 ## Pravilo sinkronizacije
 
@@ -126,8 +134,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `474ad3d` - docs: servisno zatvoren z106 nakon
-  status synca (Z107)
+- Polazni HEAD prije zadatka: `104a5cf` - feat: refaktoriran statusni trag i
+  automatizirano zatvaranje dokumentacije (Z108)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

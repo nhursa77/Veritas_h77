@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "18",
+    "naslov": null,
+    "tekst": ". U članku 95. iza stavka 3. dodaju se stavci 4. i 5. koji glase: »(4) Čelnik poreznog tijela za potrebe provedbe ovoga članka odlukom propisuje koji iznos u pojedinom poreznom postupku predstavlja trošak izdavanja rješenja nerazmjeran naplaćenom porezu, što će se objavljivati na službenim stranicama poreznog tijela. (5) U slučaju kada je porezno tijelo tijelo jedinice lokalne odnosno područne (regionalne) samouprave, odluku iz stavka 4. ovoga članka donosi predstavničko tijelo jedinice područne (regionalne) samouprave ili predstavničko tijelo jedinice lokalne samouprave.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "DE7A49C4E287B9C5688C8DAECE0F3CEAB34E5F80272E927AB6BE36224A35A09B",
+    "sha256_datoteke": "75EE88DD482E09BC11D14A0CA7CA5773396906931EC0505A9C55D3B729BA7110",
+    "napomena": null
+  }
+}

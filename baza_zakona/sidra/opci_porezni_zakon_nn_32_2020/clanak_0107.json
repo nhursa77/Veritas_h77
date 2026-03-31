@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "107",
+    "naslov": null,
+    "tekst": ".a (1) »Posebne okolnosti« podrazumijevaju događaj ili određeno stanje koje se nije moglo predvidjeti i na koje se nije moglo utjecati, a koje ugrožava život i zdravlje građana, imovinu veće vrijednosti, znatno narušava okoliš, narušava gospodarsku aktivnost ili uzrokuje znatnu gospodarsku štetu. (2) Ako posebne okolnosti iz stavka 1. ovoga članka utječu na mogućnost podmirivanja poreznih obveza, dospijeće poreznih obveza nastalih i/ili dospjelih sukladno posebnim propisima može se odgoditi i/ili se može odobriti njihova obročna otplata. (3) Za vrijeme trajanja odgode plaćanja i obročne otplate iz stavka 2. ovoga članka ne obračunavaju se kamate i zastara ne teče. (4) Ministar financija pravilnikom će propisati provedbu ovoga članka.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 32/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F674C024E37FD216E2E5E7B790E6CE57B734BCA02D96C47BCE36F6119D215E9D",
+    "sha256_datoteke": "995DA002708B9DFCC6C2932670571C3B8D7BDC64A572CD104CA6C74796DEEAC7",
+    "napomena": null
+  }
+}

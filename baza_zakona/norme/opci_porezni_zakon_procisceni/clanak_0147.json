@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "147",
+    "naslov": null,
+    "tekst": ". (1) Ovrha će se obustaviti po službenoj dužnosti ili na prijedlog ovršenika: 1. ako je ovršna isprava nakon pravomoćno dovršenog postupka preinačena, ukinuta ili poništena 2. ako prestanu prava i obveze iz porezno-dužničkog odnosa 3. ako nema osnove za nastavak postupka zbog razloga iz članka 156. ovoga Zakona 4. ako porezno tijelo sukladno Zakonu o stečaju potrošača sklopi izvansudski sporazum, sudsku nagodbu na pripremnom ročištu, odnosno ako se otvori postupak stečaja potrošača 5. ako se otvori stečajni postupak 6. ako se odgodi izvršenje rješenja. (2) Ovrha će se obustaviti na prijedlog nadležnog tijela države članice Europske unije koja je zatražila pomoć pri naplati tražbina sukladno zakonu kojim se uređuje administrativna suradnja u području poreza. Otpis dospjeloga poreznog duga",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "92B82128EF051D159253A1DA8700160A948B7E8B12523CD03D6C9D41390FE026",
+    "sha256_datoteke": "FCD70B7F2076988AEF31EF0E9F77D443BE6A083711762AC8C649013ED394BA14",
+    "napomena": null
+  }
+}

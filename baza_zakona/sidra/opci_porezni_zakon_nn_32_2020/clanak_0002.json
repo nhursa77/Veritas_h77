@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "2",
+    "naslov": null,
+    "tekst": ". Ovlašćuje se ministar financija uskladiti Pravilnik o provedbi Općeg poreznog zakona (»Narodne novine«, br. 45/19.) s odredbama ovoga Zakona u roku od 30 dana od dana njegova stupanja na snagu.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 32/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D3C039642FF7B72E21D44B4B759889CEBD934640491818B3FD8229BA0A636FC2",
+    "sha256_datoteke": "217504D499572EAE55EC8F6CCC675F2EFE8EC6EFA7634F78E24B1E8C35C5E8A9",
+    "napomena": null
+  }
+}

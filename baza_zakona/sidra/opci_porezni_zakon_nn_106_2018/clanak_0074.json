@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "74",
+    "naslov": null,
+    "tekst": ".a (1) Iznimno od članka 74. stavka 6. ovoga Zakona te od odredbi posebnih propisa, porezni obveznici mogu komunicirati s poreznim tijelom na način da se registriraju u elektronički sustav poreznog tijela. (2) Registracijom u elektronički sustav porezni obveznik postaje korisnik elektroničkog sustava poreznog tijela te korisnik u tu svrhu mora dati poreznom tijelu registracijske podatke. (3) Za porezne obveznike koji nisu obveznici prema članku 74. stavku 6. ovoga Zakona te od odredbi posebnih propisa, odnosno za određene kategorije poreznih obveznika umjesto korištenja naprednog elektroničkog potpisa može se propisati korištenje niže sigurnosne razine nacionalno priznatih vjerodajnica za korištenje elektroničkog sustava poreznog tijela. (4) Porezno tijelo može razmjenjivati potvrde s drugim državama elektroničkim putem. (5) Ministar financija pravilnikom će propisati način registracije u elektronički sustav poreznog tijela i korištenje sigurnosnih razina nacionalno priznatih vjerodajnica.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A9F1F506FBF94479EB790768A4E371FA27AB9617D68AB8D9E584A001E2C1DE84",
+    "sha256_datoteke": "8868A074761C28D0B6132B059B398F70E1D9E14E9DA13F9D12C7095786FBA729",
+    "napomena": null
+  }
+}

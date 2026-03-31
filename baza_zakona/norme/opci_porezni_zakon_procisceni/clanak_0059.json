@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "59",
+    "naslov": null,
+    "tekst": ". (1) Porezni akt kojim se odlučuje o pojedinačnim pravima i obvezama iz porezno-pravnog odnosa ili kada od dana dostave poreznog akta počinje teći rok koji se ne može produžiti, dostavlja se prema mjestu dostave osobnom dostavom sudionicima poreznog postupka. Ako sudionik ima opunomoćenika, porezni akt dostavlja se samo opunomoćeniku. (2) Mjestom dostave iz stavka 1. ovoga članaka smatra se: 1. prebivalište ili uobičajeno boravište sudionika 2. sjedište sudionika koji je pravna osoba 3. radno mjesto sudionika. (3) Osobnom dostavom iz ovoga članka smatra se dostava koja je izvršena osobno osobi kojoj je porezni akt namijenjen. Dostavom poreznog akta opunomoćeniku smatra se da je dostava izvršena samom sudioniku. (4) Ako se sudionik prema kojem se treba izvršiti osobna dostava ne zatekne na mjestu dostave određenom stavkom 2. ovoga članka, dostavljač će ostaviti potpisanu pisanu obavijest o vremenu pokušane osobne dostave i o vremenu sljedeće osobne dostave, koja se ne može izvršiti prije isteka roka od 24 sata od prvog pokušaja. (5) Porezni akt se vraća poreznom tijelu: 1. ako nakon drugog pokušaja dostava ne bude izvršena ili 2. ako sudionik odbije primiti porezni akt. (6) U slučajevima iz stavka 5. ovoga članka na mjestu dostave ostavlja se potpisana pisana obavijest sudioniku u kojoj se naznačuje datum i vrijeme pokušane dostave, mjesto gdje se porezni akt može preuzeti i pravne posljedice nepreuzimanja poreznog akta. Smatra se da je osobna dostava izvršena u roku od petnaest dana od dana kada je obavijest ostavljena na mjestu dostave osim ako sudionik dokaže da iz opravdanih razloga nije mogao primiti porezni akt. (7) Ako se ne radi o poreznom aktu iz stavka 1. ovoga članka te se dostava ne može izvršiti osobno sudioniku, tada se dostava obavlja predajom poreznog akta članu obitelji sudionika ili osobi koja je zaposlena na istom radnom mjestu kao i sudionik. (8) Porezni akti kojima se odlučuje o pojedinačnim pravima i obvezama iz porezno-pravnog odnosa mogu se dostavljati elektroničkim putem na zahtjev ili uz izričiti pristanak stranke. (9) Iznimno od stavka 8. ovoga članka, osobna dostava poduzetnicima može se obavljati elektroničkim putem i bez zahtjeva ili izričitog pristanka stranke. (10) Dostava poreznog akta elektroničkim putem se obavlja u elektronički pretinac koji je porezno tijelo odredilo za takvu namjenu. (11) Istodobno s uručenjem poreznog akta prema prethodnom stavku sudioniku se na elektroničku adresu koju je prijavio poreznom tijelu šalje i informativna poruka u kojoj ga se obavještava da je porezni akt u njegovom elektroničkom pretincu te ga je sudionik dužan preuzeti u roku od sedam dana od dana kada je porezni akt pristigao u njegov elektronički pretinac. U poruci se sudionika izričito upozorava na pravne posljedice iz stavka 12. ovoga članka. (12) Smatrat će se da je dostava obavljena danom zapisa na poslužitelju kada je sudionik preuzeo porezni akt. Ako se porezni akt ne preuzme u roku od sedam dana, smatrat će se da je dostava obavljena istekom roka od sedam dana od dana kada je porezni akt pristigao u elektronički pretinac. (13) Osobnom dostavom smatra se i dostava obavljena sukladno odredbama stavaka 8. – 12. ovoga članka. Dostava u inozemstvo",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "0361385F8F3DB23C7ECA73471D858E6EE7C323EEEFD93688AF37B3581B72DEE6",
+    "sha256_datoteke": "A9DACC1E44825628491FCF91ED3F432B6A0B7CCA82E45F11065468F395E62FB8",
+    "napomena": null
+  }
+}

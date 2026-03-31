@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "136",
+    "naslov": null,
+    "tekst": ". Ovršni postupak u smislu ovoga Zakona dio je porezno-pravnog odnosa u kojem porezno tijelo provodi postupak prisilne naplate poreznog duga na temelju ovršnih i vjerodostojnih isprava. Načela ovrhe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D3F694A9AB4FCEBBFB238172782D819429FCF3A0504F7507F7CFD0987794523D",
+    "sha256_datoteke": "64C67556766E5802D1EF325E325A51B685871BA19878FD38EB415B2A4147B0A5",
+    "napomena": null
+  }
+}

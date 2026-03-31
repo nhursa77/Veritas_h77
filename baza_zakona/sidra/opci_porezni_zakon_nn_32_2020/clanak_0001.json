@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "1",
+    "naslov": null,
+    "tekst": ". U Općem poreznom zakonu (»Narodne novine«, br. 115/16., 106/18. i 121/19.) iza članka 107. dodaje se naslov iznad članka i članak 107.a koji glase: »Plaćanje poreza u posebnim okolnostima",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 32/2020",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2020/32/691"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7F1567DFCD7B5F176CCD2E8CE83C80DADECAB0EDCC84BB98F8D3DDA8E8759DF8",
+    "sha256_datoteke": "30FB35B36974293075C09713A0A4C5FCFDE893C53FE77506CD80E556FE7C8662",
+    "napomena": null
+  }
+}

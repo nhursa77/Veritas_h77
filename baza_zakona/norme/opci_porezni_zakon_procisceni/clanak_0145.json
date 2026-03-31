@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "145",
+    "naslov": null,
+    "tekst": ". Ako porezno tijelo provodi ovrhu na temelju zamolbe drugog tijela državne uprave, tijela jedinice područne (regionalne) samouprave ili tijela jedinice lokalne samouprave, za pravni temelj ovrhe odgovorno je tijelo koje je podnijelo zamolbu. Provedba ovrhe",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "A04786D7FCED9A570EE9DBA849EE75B2D371A8C01A49C8D2DB47655367B8CAB1",
+    "sha256_datoteke": "390C4416EB554554F6E36585D5228BEAE5587F37838901D0D2915D20DB21E319",
+    "napomena": null
+  }
+}

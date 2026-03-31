@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "55",
+    "naslov": null,
+    "tekst": ". Porezno tijelo koje je pokrenulo postupak ustupit će predmet poreznom tijelu koje je prema novim okolnostima postalo mjesno nadležno ako se time poreznom obvezniku bitno olakšava sudjelovanje u poreznom postupku. Izuzeće službenika poreznog tijela",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "95391FF4A010D88BB61816E5B952A4443EB9C413A30AB0910ADAEB586E3F407A",
+    "sha256_datoteke": "1F6F544A7737E90705018DC378429C64D1EE925384F3CFDE2ED17E4909BA0370",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 191. stavku 2. riječi: »nadležnog područnog ureda Porezne uprave, odnosno Carinske uprave« zamjenjuju se riječima: »u Poreznoj upravi, odnosno u nadležnom područnom uredu Carinske uprave«. U stavku 3. riječi: »područnim uredima« zamjenjuju se riječima: »Poreznoj upravi«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2025",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "F294307C8CC02DD86314D40BE3ADDE32256232E0C935C634AAB47C93F31E15B8",
+    "sha256_datoteke": "ABFD81E8241D16C79C524C6B6B1907496A38C5B9F5243B0F11C196E6F92B11F2",
+    "napomena": null
+  }
+}

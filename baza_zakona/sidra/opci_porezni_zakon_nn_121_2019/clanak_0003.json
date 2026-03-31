@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "3",
+    "naslov": null,
+    "tekst": ". U članku 49. iza stavka 2. dodaje se stavak 3. koji glasi: »(3) Ugovori i poslovni odnosi između povezanih osoba porezno će biti priznati samo onda ako bi i druge osobe koje nisu u takvom međusobnom odnosu pod istim ili sličnim okolnostima utvrdile takve ugovorne uvjete ili uspostavile takve poslovne odnose.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 121/2019",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2019/121/2386"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "756C107412B34D12C2777181194BF4738EDC3F9EBECA61ACFA824C71103F4C09",
+    "sha256_datoteke": "63C62B6CA77FD2D2E2D8ECF05404AD3EB10F65FE8F94141A176B09993DC67B0B",
+    "napomena": null
+  }
+}

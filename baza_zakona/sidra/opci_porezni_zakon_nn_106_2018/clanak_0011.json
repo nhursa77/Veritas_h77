@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "11",
+    "naslov": null,
+    "tekst": ". U članku 58. stavku 4. točka 4. mijenja se i glasi: »4. potpis ovlaštene osobe ili elektronički potpis ili elektronički pečat poreznog tijela.«. Iza stavka 6. dodaju se stavci 7. do 11. koji glase: »(7) Porezni akt koji je izvorno izdan u elektroničkom obliku predstavlja elektronički zapis koji je pravno valjan i kada je ispisan na papiru, ako postoji proces validacije izvornosti elektroničkim putem iz stavka 9. ovoga članka. (8) Poreznim aktima iz stavka 7. ovoga članka pristupa se putem elektroničkih usluga poreznog tijela. (9) Porezni akti iz stavka 7. ovoga članka generiraju se iz elektroničkog sustava poreznog tijela i čuvaju se u elektroničkom sustavu poreznog tijela do zakonskog roka čuvanja tog pojedinog akta od trenutka generiranja te se u tom roku može izvršiti provjera broja zapisa i kontrolnog broja te validacija izvornosti elektroničkog pečata. (10) Odredbe ovoga članka u dijelu elektroničkog izdavanja poreznog akta primjenjuju se i na ostala pismena koja nisu porezni akti, a koja izdaje porezno tijelo. (11) Ministar financija pravilnikom će propisati način provjere izvornosti, pristup poreznim aktima izdanim u elektroničkom obliku i čuvanje poreznog akta u elektroničkom obliku.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "94FD5F915EBEC75E0B61D0D4915171EED2CC34B30F89EA37EC75B2DE96DEE8D0",
+    "sha256_datoteke": "19186E015CCB2A8C7ACEDBAB0A6C68E59BDC44C8B68A1A697C406EA095952938",
+    "napomena": null
+  }
+}

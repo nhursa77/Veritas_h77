@@ -1,0 +1,121 @@
+{
+  "akt": {
+    "slug": "opci_porezni_zakon_nn_151_2025",
+    "naziv": "Zakon o izmjenama i dopunama Općeg poreznog zakona",
+    "vrsta": "zakon",
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "izvor": {
+    "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+    "datum_pristupa": "31.03.2026.",
+    "tip_sadrzaja": "text/html; charset=utf-8",
+    "sha256_datoteke": "7A2BBCA07343177BC071F8BAC9EAC97B04135870A7B899C6C4B757023BB3ED1C",
+    "oznaka_akta": "NN 151/2025"
+  },
+  "parsiranje": {
+    "datum_parsiranja": "31.03.2026.",
+    "broj_clanaka": 11
+  },
+  "clanci": [
+    {
+      "broj": 1,
+      "naslov": null,
+      "tekst": ". U Općem poreznom zakonu (»Narodne novine« br. 115/16., 106/18., 121/19., 32/20., 42/20., 114/22. i 152/24.) u članku 8. stavku 5. točki 4. riječ: »pisani« briše se. Iza stavka 14. dodaju se stavci 15. do 20. koji glase: »(15) Obveza čuvanja porezne tajne nije povrijeđena ako Ministarstvo financija, Porezna uprava jednom godišnje daje upravnom tijelu jedinice lokalne ili područne (regionalne) samouprave nadležnom za proračun i financije analitičke podatke o naplati lokalnih poreza koji pripadaju jedinici lokalne ili područne (regionalne) samouprave, čija je naplata povjerena Poreznoj upravi sukladno propisu kojim se uređuju lokalni porezi. (16) Obveza čuvanja porezne tajne nije povrijeđena ako Ministarstvo financija, Porezna uprava periodično daje upravnom tijelu jedinice lokalne ili područne (regionalne) samouprave nadležnom za proračun i financije podatke o naplati poreza na dohodak koji pripadaju jedinici lokalne ili područne (regionalne) samouprave sukladno propisu kojim se uređuje raspodjela prihoda od poreza na dohodak. (17) Podaci iz stavaka 15. i 16. ovoga članka daju se u svrhu praćenja naplate prihoda i primitaka iz nadležnosti jedinice lokalne ili područne (regionalne) samouprave, uplate u proračun i evidentiranja u proračunu sukladno propisu kojim se uređuje planiranje, izrada, donošenje i izvršavanje proračuna te se u druge svrhe ne mogu koristiti. (18) Podaci iz stavka 15. ovoga članka odnose se na: OIB, ime i prezime ili naziv poreznog obveznika te podatke o obvezama, uplatama i dospjelom dugovanju po pojedinoj vrsti lokalnog poreza. (19) Ovlaštene osobe jedinice lokalne ili područne (regionalne) samouprave kojima će biti omogućen pristup podacima iz stavaka 15. i 16. ovoga članka u svrhu propisanu stavkom 17. ovoga članka obvezne su čuvati te podatke kao poreznu tajnu sukladno odredbama ovoga članka. (20) Ministar financija pravilnikom propisuje opseg i vrstu podataka iz stavka 16. ovoga članka te rokove i način dostave podataka iz stavaka 15. i 16. ovoga članka.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 2,
+      "naslov": null,
+      "tekst": ". U članku 64. stavku 1. iza riječi: »zabavu,« dodaju se riječi: »za usluge oslobođene od poreza na dodanu vrijednost za koje nije propisana obveza izdavanja računa prema posebnom propisu o porezu na dodanu vrijednost,«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 3,
+      "naslov": null,
+      "tekst": ". U članku 67. stavku 1. točki 4. na kraju rečenice briše se točka i dodaje se točka 5. koja glasi: »5. dostaviti šifre i lozinke onih programskih rješenja kojima se provodi postupak fiskalizacije, u svrhu njihove provjere.«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 4,
+      "naslov": null,
+      "tekst": ". U članku 79. stavci 9. i 10. brišu se.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 5,
+      "naslov": null,
+      "tekst": ". U članku 124. stavku 1. točka 4. mijenja se i glasi: »4. odbija sudjelovati u poreznom postupku i ometa provođenje poreznog postupka«. U stavku 2. riječi: »15 dana« zamjenjuju se riječima: »osam dana«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 6,
+      "naslov": null,
+      "tekst": ". U članku 191. stavku 2. riječi: »nadležnog područnog ureda Porezne uprave, odnosno Carinske uprave« zamjenjuju se riječima: »u Poreznoj upravi, odnosno u nadležnom područnom uredu Carinske uprave«. U stavku 3. riječi: »područnim uredima« zamjenjuju se riječima: »Poreznoj upravi«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 7,
+      "naslov": null,
+      "tekst": ". U članku 192. stavku 1. točki 6. iza riječi: »cjelovitost podataka« dodaju se riječi: »ili ne dostavi šifre i lozinke onih programskih rješenja kojima se provodi postupak fiskalizacije, u svrhu njihove provjere«.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 8,
+      "naslov": null,
+      "tekst": ". U članku 194. stavku 1. točka 12. briše se. Dosadašnje točke 13. do 15. postaju točke 12. do 14. PRIJELAZNE I ZAVRŠNE ODREDBE",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 9,
+      "naslov": null,
+      "tekst": ". Ministar financija uskladit će Pravilnik o provedbi Općeg poreznog zakona (»Narodne novine« br. 45/19., 35/20., 43/20., 50/20., 70/20., 74/20., 103/20., 114/20., 144/20., 2/21., 26/21., 43/21., 106/21., 144/21., 156/22. i 16/25.) s odredbama ovoga Zakona u roku od 60 dana od dana stupanja na snagu ovoga Zakona.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 10,
+      "naslov": null,
+      "tekst": ". Obveza sastavljanja i podnošenja statističkog izvješća iz članka 79. stavka 9. Općeg poreznog zakona (»Narodne novine« br. 115/16., 106/18., 121/19., 32/20., 42/20., 114/22. i 152/24.) za 2025. godinu o dospjelim, a nenaplaćenim tražbinama treba se izvršiti do 28. veljače 2026. za obveznike poreza na dohodak od samostalne djelatnosti prema propisu kojim se uređuje porez na dohodak ili do 30. travnja 2026. za obveznike poreza na dobit prema propisu kojim se uređuje porez na dobit odnosno drugog roka ako je poreznom obvezniku odobreno drugačije porezno razdoblje sukladno propisu kojim se uređuje porez na dobit.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    },
+    {
+      "broj": 11,
+      "naslov": null,
+      "tekst": ". Ovaj Zakon objavit će se u »Narodnim novinama«, a stupa na snagu 1. siječnja 2026., osim članka 8. stavaka 15. do 20. koji su dodani člankom 1. ovoga Zakona, koji stupaju na snagu 1. siječnja 2027. Klasa: 022-02/25-01/122 Zagreb, 5. prosinca 2025. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Zakon, NN 151/2025-2263 Više Dio NN: Službeni Vrsta dokumenta: Zakon Izdanje: NN 151/2025 Broj dokumenta u izdanju: 2263 Stranica tiskanog izdanja: 41 Donositelj: Hrvatski sabor Datum tiskanog izdanja: 15.12.2025. ELI: /eli/sluzbeni/2025/151/2263 PDF Opći uvjeti korištenja Zaštita privatnosti Pristup podatcima ELI ©2026. g. Narodne novine d.d. , izrada Novena d.o.o. Opći uvjeti korištenja Odgovornost za objavljene sadržaje Narodne novine d.d. će poduzeti razumne i odgovarajuće napore kako bi informacije na ovim internetskim stranicama bile potpune i točne, ali ne odgovara u slučaju njihove netočnosti ili nepotpunosti. Narodne novine d.d. ne odgovaraju za štetu ili povredu koja može biti rezultat korištenja ili nemogućnosti korištenja bilo kojeg dijela ove web-lokacije ili nečeg što je na njoj objavljeno. Ove internetske stranice sadrže i informacije trećih osoba i poveznice na druge internetske sadržaje. Narodne novine d.d. ne odgovaraju za sadržaje na vanjskim izvorima podataka do kojih mogu voditi poveznice s naših internetskih stranica, niti odgovara, niti upućuje na način i uvjete korištenja tih sadržaja. Narodne novine d.d. ne odgovaraju za sadržaje koje na ove internetske stranice stave treće osobe. Zaštita autorskog prava Svi sadržaji objavljeni na ovim internetskim stranicama zaštićeni su autorskim pravom i mogu se koristiti samo pod uvjetima propisanim Zakonom. Promjene Narodne novine d.d. zadržavaju pravo izmjene, dopune ili uklanjanja bilo kojeg dijela ovih internetskih stranica u bilo kojem trenutku. Promjene stupaju na snagu objavljivanjem na ovim internetskim stranicama ili kada su korisnici o njima obaviješteni. Zaštita privatnosti Narodne novine d.d se obvezuju poštivati anonimnost i privatnost korisnika ovih internetskih stranica. O posjetiteljima se neće prikupljati nikakvi osobni podaci osim u slučajevima ako ih posjetitelj dobrovoljno dostavi Narodnim novinama d.d. U slučajevima kad je poznat indentitet posjetitelja/pošiljatelja, njegovi će se podaci koristiti samo u svrhu zbog koje ih je pošiljatelj poslao. Narodne novine d.d. takve podatke mogu koristiti i za što bolji uvid i razumijevanja pojedinačnih potreba i zahtjeva korisnika kao i razvijanja mogućnosti što kvalitetnijega pružanja svojih usluga korisnicima. Narodne novine d.d. se obvezuju da navedene podatke neće učiniti dostupnim bilo kojoj trećoj osobi odnosno strani bez izričitoga pristanka korisnika. Narodne novine d.d. upozoravaju posjetitelje/korisnike na ograničenja suvremenih informacijsko-komunikacijskih tehnologija u odnosu na sigurnost i zaštitu privatnosti osobnih podataka.",
+      "struktura": {
+        "stavci": null,
+        "glava_rimski": null
+      }
+    }
+  ]
+}

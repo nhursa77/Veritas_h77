@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "7",
+    "naslov": null,
+    "tekst": ". Prije donošenja poreznog akta kojim se utvrđuju prava i obveze poreznog obveznika, porezno tijelo mora poreznom obvezniku omogućiti očitovanje o činjenicama i okolnostima koje su bitne za donošenje poreznog akta. Obveza čuvanja porezne tajne",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3E28D3186D81B3A0D0E903F5642F09ED242D1F9CA6C27BBCEB54435048822C6C",
+    "sha256_datoteke": "E68066AE1D66044E8BF51A979D0021A82F19425A6CA08FA917AB759D8F535BED",
+    "napomena": null
+  }
+}

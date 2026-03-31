@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "101",
+    "naslov": null,
+    "tekst": ". (1) Porezno tijelo i porezni obveznik mogu radi namirenja dospjelog poreznog duga sklopiti upravni ugovor. (2) Upravni ugovor s poreznim obveznikom sklapa čelnik poreznog tijela. (3) Upravni ugovor može se odnositi na namirenje poreznog duga u cijelosti ili djelomično. (4) Upravni ugovor sklapa se u pisanom obliku najdulje na rok od 24 mjeseca. (5) Upravni ugovor sklapa se slobodnom voljom sudionika porezno-dužničkog odnosa, a ne smije biti protivan prinudnim propisima, javnom interesu, ne smije biti sklopljen na štetu trećih osoba niti smije biti protivan izreci rješenja kojim je utvrđena porezna obveza. (6) Sklopljeni upravni ugovor ima učinak izvršnog rješenja donesenog u poreznom postupku. (7) Sklapanjem upravnog ugovora ovrha će se obustaviti samo za iznos poreznog duga obuhvaćenog upravnim ugovorom. (8) Upravni ugovor ne može se sklopiti s poreznim obveznikom čiji je račun blokiran od strane drugih vjerovnika i/ili protiv kojega se provodi postupak utvrđivanja zlouporabe prava u porezno-dužničkom odnosu. (9) Upravni ugovor ne može se sklopiti za porezni dug koji je već bio predmetom raskinutog upravnog ugovora, za dug za koji je sklopljen upravni ugovor ili za dug koji je obuhvaćen reprogramom. (10) Upravni ugovor neće se sklopiti ako porezno tijelo razmatranjem prijedloga i dostavljene dokumentacije ocijeni kako porezni obveznik nije učinio vjerojatnim ispunjenje svrhe i predmeta upravnog ugovora. (11) Upravni ugovor koji ima pravni učinak na prava trećih osoba pravno je valjan samo uz pisani pristanak tih osoba. (12) Za vrijeme trajanja upravnog ugovora zastara ne teče. (13) Porezno tijelo jednostrano će raskinuti upravni ugovor zbog nepoštivanja utvrđenih rokova plaćanja i načina namirenja poreznog duga. (14) Upravni ugovor raskida se rješenjem protiv kojega se može pokrenuti upravni spor, a naplata obveze iz upravnog ugovora nastavit će se prema odredbama Općeg poreznog zakona i zakona kojim se uređuje stečajni postupak. Prijedlog za sklapanje upravnog ugovora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "1FD036D529C0AB39DE1BC4787FF4059E388EB1050D7CFDF899FE77D69FFD9B3F",
+    "sha256_datoteke": "03DF20C23C3E0E54DBFA4349DFB1058D2D71F8EE62A8F92BB317E9A19054645A",
+    "napomena": null
+  }
+}

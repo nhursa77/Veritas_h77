@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "12",
+    "naslov": null,
+    "tekst": ". U članku 114. stavku 1. riječ: »kunskih« zamjenjuje se riječima: »računa u eurima«. Stavak 2. mijenja se i glasi: »(2) Podatke iz stavka 1. ovoga članka banke su dužne dostavljati do kraja mjeseca za prethodni mjesec, putem raspoloživih informatičkih tehnologija.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "3D4CBF9DC19DECE66F140D790F86DB32C62FA91E3E1E04252CE204EFA2F1DC21",
+    "sha256_datoteke": "646C9BBC8D62BFC97FA15DEEEE40D7F5A1391CA83F7970ADDDA7349377F25A6C",
+    "napomena": null
+  }
+}

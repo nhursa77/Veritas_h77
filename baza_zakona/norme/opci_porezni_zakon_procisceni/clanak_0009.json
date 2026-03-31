@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". (1) Sudionici porezno-pravnog odnosa dužni su postupati u dobroj vjeri. (2) Postupanje u dobroj vjeri znači savjesno i pošteno postupanje u skladu sa zakonom. (3) Ministar financija pravilnikom propisuje način postupanja u dobroj vjeri. Obvezujuća mišljenja",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "90AB53FEEEA93C7425C1F3EB2A2CBB1BC9DEEECA0B63620F80A5D3E0D7EE8FB5",
+    "sha256_datoteke": "04E8D09B27D8BB19B72BBD44615C4B92BA710C0DD1A552C42B542E6832827CB4",
+    "napomena": null
+  }
+}

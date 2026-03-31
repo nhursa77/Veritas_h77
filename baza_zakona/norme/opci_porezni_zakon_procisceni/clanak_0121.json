@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "121",
+    "naslov": null,
+    "tekst": ". (1) Prije početka poreznog nadzora osoba ovlaštena za njegovu provedbu mora se predstaviti poreznom obvezniku predočenjem službene iskaznice. (2) Porezni nadzor treba obavljati jednakom pozornošću u pogledu svih bitnih činjenica, kako onih koje idu na štetu poreznog obveznika tako i onih u njegovu korist. (3) Porezni nadzor treba usmjeriti na bitne činjenice koje mogu konačno povećati ili smanjiti poreznu obvezu te njegovo trajanje ograničiti na nužnu mjeru. (4) Porezni obveznik mora ovlaštenoj osobi za provođenje poreznog nadzora, na njezin zahtjev, omogućiti obavljanje nadzora u sjedištu poreznog obveznika i na ostalim mjestima na kojima porezni obveznik ili druga osoba prema njegovoj ovlasti obavlja djelatnosti i poslove u vezi s kojima se obavlja porezni nadzor. Porezni obveznik u tu svrhu mora staviti na raspolaganje odgovarajuće mjesto za rad i potrebna pomagala. (5) Ako ne postoji poslovni prostor pogodan za obavljanje poreznog nadzora, porezni nadzor se obavlja u službenim prostorijama poreznog tijela. Ako se porezni nadzor ne obavlja u poslovnim prostorijama, osoba ovlaštena za njegovu provedbu dužna je poslovne prostorije razgledati i to navesti u zapisniku o obavljenom nadzoru. (6) Ovlaštena osoba za porezni nadzor ima pravo stupiti na zemljište i u poslovne prostorije u kojima porezni obveznik obavlja djelatnost te ih pregledati. Poreznom obvezniku ili njegovu opunomoćeniku ili zastupniku mora omogućiti nazočnost pri pregledavanju poslovnih prostorija. (7) Porezni nadzor obavlja se tijekom uobičajenoga radnog vremena. Obavljanje poreznog nadzora izvan tog vremena dopustivo je ako porezni obveznik na to pristane ili ako to bezuvjetno nalaže svrha poreznog nadzora. (8) Ako se započeta radnja u postupku poreznog nadzora ne može završiti tijekom radnog vremena poreznog obveznika, a porezni obveznik ne pristane na nastavak obavljanja poreznog nadzora nakon redovitoga radnog vremena, porezno tijelo može izvršiti privremeno pečaćenje poslovnog ili skladišnog prostora. (9) Mjera privremenog pečaćenja iz stavka 8. ovoga članka može trajati najdulje do početka radnog vremena poreznog obveznika prvoga idućeg radnog dana. (10) O privremenoj mjeri iz stavka 8. ovoga članka donosi se zaključak protiv kojeg nije dopuštena žalba. Obveza sudjelovanja poreznog obveznika u provedbi poreznog nadzora",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "7D825FB7CF702D8175770BC3B63089ABBFAE772FC4BAEB61282BAFAD75770F2B",
+    "sha256_datoteke": "75A9C9D880E1FC4881AAB664AD1AB484C90A47569F62BC79EC94538C4FCE69BA",
+    "napomena": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "193",
+    "naslov": null,
+    "tekst": ". (1) Novčanom kaznom u iznosu od 5000,00 do 300.000,00 kuna kaznit će se pravna osoba: 1. ako evidencije o dnevnom gotovinskom prometu ne vodi na mjestu na kojem se ti primici ostvaruju ili ne osigurava dostupnost evidencija poreznom tijelu (članak 66. stavak 5.) 2. ako poslovne knjige i druge evidencije ne vodi u skladu s načinom oporezivanja (članak 66. stavak 7.) 3. ako pri vođenju poslovnih knjiga i drugih evidencija u elektroničkom obliku ne osigura raspoložive, čitljive i sustavne podatke (članak 66. stavak 8.) 4. ako ne prijavi činjenice bitne za utvrđivanje njegove porezne obveze u zakonskom roku (članak 68. stavak 4.) 5. ako ne podnese poreznu prijavu na poziv poreznog tijela (članak 73. stavak 2.) 6. ako ne podnese poreznu prijavu poreznom tijelu u propisanom roku (članak 73. stavak 4.) 7. ako uz poreznu prijavu ne priloži dokumentaciju sukladno poreznim propisima (članak 74. stavak 3.) 8. ako ne podnese elektroničkim putem poreznu prijavu ili druge podatke potrebne za oporezivanje (članak 74. stavak 6.) 9. ako ne omogući pristup i preuzimanje dokumenata koji su pohranjeni u u elektroničkom obliku (članak 74. stavak 9.) 10. ako ne izvrši ispravak prijave u roku od 15 dana od dana izvršnosti odluke kada je temeljem činjenica utvrđenih rješenjem poreznog nadzora ili drugog tijela nužno izvršiti ispravak prijave ili ako ne izvrši ispravak prijave u roku od 15 dana od dana pravomoćnosti sudske odluke (članak 76. stavak 7. i 8.) 11. ako na zahtjev poreznog tijela ne dostavi podatke potrebne za utvrđivanje porezne obveze, provedbu ovrhe i mjera osiguranja (članak 79. stavak 1.) 12. ako ne omogući obavljanje poreznog nadzora ovlaštenoj osobi za provođenje nadzora na njezin zahtjev (članak 121. stavak 4.) 13. ako ne sudjeluje u utvrđivanju činjeničnog stanja bitnog za njegovo oporezivanje na način da ne da obavijesti i ne predoči poslovnu dokumentaciju na zahtjev poreznog tijela, ne imenuje osobu koja će to raditi u njegovo ime (članak 122. stavak 1.). (2) Novčanom kaznom u iznosu od 2000,00 do 200.000,00 kuna za prekršaj iz stavka 1. ovoga članka kaznit će se fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost. (3) Novčanom kaznom u iznosu od 500,00 do 30.000,00 kuna za prekršaj iz stavka 1. točke 4., 5., 6., 7., 8., 9., 10., 11. i 12. ovoga članka kaznit će se fizička osoba. (4) Novčanom kaznom u iznosu od 3000,00 do 30.000,00 kuna kaznit će se i odgovorna osoba u pravnoj osobi za prekršaje iz stavka 1. ovoga članka. (5) Za ponovljeni prekršaj iz stavka 1. ovoga članka kaznit će se za prekršaj pravna osoba novčanom u iznosu od 8000,00 do 400.000,00 kuna, fizička osoba obrtnik i fizička osoba koja obavlja drugu samostalnu djelatnost novčanom kaznom u iznosu od 3000,00 do 300.000,00 kuna, fizička osoba novčanom kaznom u iznosu od 1000,00 do 40.000,00 kuna, a odgovorna osoba u pravnoj osobi novčanom kaznom u iznosu od 5000,00 do 50.000,00 kuna. Lakši porezni prekršaji",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "D583EB357334985571A1E720742DCC04C4168DD7061EDD02BB57BCF72DF61D3A",
+    "sha256_datoteke": "0C173AC78082B4A5EF2FAB31059014A9F2970DB05956E08ADE6446D0958E7510",
+    "napomena": null
+  }
+}

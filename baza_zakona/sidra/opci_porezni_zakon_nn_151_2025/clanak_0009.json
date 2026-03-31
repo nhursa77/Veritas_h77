@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". Ministar financija uskladit će Pravilnik o provedbi Općeg poreznog zakona (»Narodne novine« br. 45/19., 35/20., 43/20., 50/20., 70/20., 74/20., 103/20., 114/20., 144/20., 2/21., 26/21., 43/21., 106/21., 144/21., 156/22. i 16/25.) s odredbama ovoga Zakona u roku od 60 dana od dana stupanja na snagu ovoga Zakona.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 151/2025",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2025/151/2263"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "4E8B9CF091A4A8A26BCB439568FD693D1C87DAEC505406CD2A8FA8B6A30199F3",
+    "sha256_datoteke": "51ED0CCF95F130B1BB79D57D9E978A990E8D45D9B846E92A31C3422F218D7F49",
+    "napomena": null
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "akt_slug": "opci_porezni_zakon_nn_42_2020",
+  "control_mode": "delta",
+  "source": {
+    "tip": "NN",
+    "slug": "opci_porezni_zakon_nn_42_2020",
+    "stanje_na_dan": "31.03.2026."
+  },
+  "affected_articles": [
+    1,
+    2,
+    3
+  ],
+  "ops": [],
+  "notes": "AUTO-GENERATED MINIMAL CONTROL; ops empty until delta parser implemented."
+}

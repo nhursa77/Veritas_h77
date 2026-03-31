@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "9",
+    "naslov": null,
+    "tekst": ". U članku 49. stavku 1. točki 3. na kraju rečenice briše se točka i dodaje točka 4. koja glasi: »4. dvije ili više fizičkih i/ili pravnih osoba koje za izvršavanje obveza iz porezno-dužničkog odnosa predstavljaju jedan rizik na način da ostvaruju kontinuitet djelatnosti u istom prostoru, koristeći istu opremu.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "6F32E422179BFE25E2D6C4EDCA11FF17C4E191C04BC0ACAD7EF902642355A0A3",
+    "sha256_datoteke": "343A2F4AC6E7E7B5619B9BF6B1D6686AEAAADE83D62B2685C261D460F69ED859",
+    "napomena": null
+  }
+}

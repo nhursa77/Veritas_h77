@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "6",
+    "naslov": null,
+    "tekst": ". U članku 59. stavak 8. mijenja se i glasi: »(8) Porezni akti kojima se odlučuje o pojedinačnim pravima i obvezama iz porezno-pravnog odnosa te ostala pismena koja nisu porezni akti, a koje izdaje porezno tijelo, mogu se dostavljati elektroničkim putem korisnicima elektroničkog sustava poreznog tijela.«. Stavak 9. mijenja se i glasi: »(9) Izričit pristanak za dostavu pismena sudionik daje registracijom ili prijavom u elektronički sustav poreznog tijela.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 152/2024",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2024/152/2509"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "E102209BCFCCC1C888E85334559609986D1EBE73E2EA5FADBAC47A69F3773622",
+    "sha256_datoteke": "904E97441414EDD726AC9B4CA51ABA83B8CEF3C8447D2F8B3C306D3577666102",
+    "napomena": null
+  }
+}

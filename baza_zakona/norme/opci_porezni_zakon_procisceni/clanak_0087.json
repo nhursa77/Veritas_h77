@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "87",
+    "naslov": null,
+    "tekst": ". Porezno tijelo može riješiti stvar bez provedbe ispitnog postupka: 1. ako je porezni obveznik u poreznoj prijavi naveo činjenice ili podnio dokaze na podlozi kojih se utvrđuje stanje stvari, ili ako se to stanje može utvrditi na podlozi općepoznatih činjenica ili činjenica koje su poreznom tijelu poznate 2. ako se stanje stvari može utvrditi na temelju podataka iz službenih evidencija kojima porezno tijelo raspolaže ili ih je pribavilo od drugih nadležnih tijela, a nije potrebno posebno saslušanje stranke radi zaštite njezinih prava, odnosno pravnih interesa. Dokazivanje u poreznom postupku",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 115/2016",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2016/115/2519"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "C6D40C106DD8B59F935B255665DF2089ABB008EE11511779C46419DEC5F18C81",
+    "sha256_datoteke": "F04DEFD386DC974A11DECEB96DEADF2105774EF78BD8D840E504460D5498BEE6",
+    "napomena": null
+  }
+}

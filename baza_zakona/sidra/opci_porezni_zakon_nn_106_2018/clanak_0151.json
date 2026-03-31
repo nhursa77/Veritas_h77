@@ -1,0 +1,46 @@
+{
+  "akt": {
+    "naziv": null,
+    "vrsta": null,
+    "slug": null,
+    "jurisdikcija": "RH",
+    "jezik": "hr"
+  },
+  "clanak": {
+    "oznaka": "151",
+    "naslov": null,
+    "tekst": ". mijenja se i glasi: »Ako ovim Zakonom nije uređeno drugačije, na ovrhu se primjenjuje zakon kojim se uređuje ovršni postupak i zakon kojim se uređuje provedba ovrhe na novčanim sredstvima.«.",
+    "struktura": {
+      "stavci": null
+    }
+  },
+  "verzija": {
+    "stanje_na_dan": "31.03.2026.",
+    "datum_provjere": "31.03.2026.",
+    "napomena": "Normirano iz NN strukture."
+  },
+  "izvori": {
+    "operativni_izvor": {
+      "naziv": "Narodne novine",
+      "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065",
+      "datum_pristupa": "31.03.2026."
+    },
+    "dokazni_izvor": {
+      "naziv": "Narodne novine",
+      "sidra": [
+        {
+          "nn_broj": "NN 106/2018",
+          "datum_objave": null,
+          "opis": "službena objava",
+          "url": "https://narodne-novine.nn.hr/eli/sluzbeni/2018/106/2065"
+        }
+      ]
+    },
+    "status_sidra": "puno"
+  },
+  "integritet": {
+    "sha256_teksta": "26C9C82D4F32631DC4C2161CEE14758BBA3DF4D4E7A7D95B86BED6F22E687950",
+    "sha256_datoteke": "E64388A9BA1234A2943EB4C40D0D17A53A1B40C743D6B97673173D423471FDBF",
+    "napomena": null
+  }
+}
