@@ -1,7 +1,11 @@
 {
-  "izvor": "nn_snapshot_generated",
+  "izvor": "zakon.hr",
   "akt_slug": "zakon_o_porezu_na_dohodak_nn_32_2020",
-  "url": "https://narodne-novine.nn.hr/clanci/sluzbeni/2020_03_32_692.html",
-  "preuzeto_lokalno": "2026-03-31 14:56:39 +02:00",
-  "napomena": "Kontrolni TXT generiran iz NN parsiranog snapshota radi paketnog preflighta."
+  "naziv_akta": "Zakon o izmjeni i dopunama Zakona o porezu na dohodak",
+  "url": "https://www.zakon.hr/cms.htm?id=43421",
+  "preuzeto_lokalno": "2026-03-31 16:11:24 ",
+  "html_sha256": "f34379e6dcb6b4deb8c1d12eaed3b4b2d2d5f81dc5f5d70f945c5d4e3b424509",
+  "txt_sha256": "926727cdd212c432a307ed1b1031a73045e9416a156cb08b622850e156cbaf22",
+  "broj_clanaka_u_kontrolnom_txt": 4,
+  "napomena": "Kontrolni tekst preuzet sa zakon.hr za usporedbu s NORMA JSON setom."
 }

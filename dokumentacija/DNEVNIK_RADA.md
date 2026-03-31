@@ -4022,3 +4022,53 @@ Dokazne naredbe:
   `-PoravnanjeGranePriPrecheck "poravnat"`
 - `alati/generiraj_dnevnicki_unos.ps1`
 - `alati/dodaj_dnevnicki_unos_na_kraj.ps1`
+
+## Datum: 31.03.2026 (ZADATAK 123)
+
+### ZADATAK 123 - kontrolna usporedba zpd nn 32 2020 sa zakon hr
+
+Dokazno je potvrden poseban zakon.hr zapis za ZPD amandman NN 32/2020 na URL-u
+https://www.zakon.hr/cms.htm?id=43421, bez koristenja konsolidiranog /z/85
+izvora kao kontrolnog zapisa za amandman.
+
+Pokrenut je stvarni refresh kontrolnog sloja samo za
+zakon_o_porezu_na_dohodak_nn_32_2020, nakon cega je validacija nad
+baza_zakona/sidra/zakon_o_porezu_na_dohodak_nn_32_2020 dala CONTROL_COUNT=4,
+NN_COUNT=4, MISSING_COUNT=0, EXTRA_LIST=[], SHORT_COUNT=1,
+CONTROL_TRUNCATION_SUSPECTED=False, GUARDRAIL_FAIL=False i ANOMALY_FLAG=False.
+
+Validator je prosao bez patcha; stvarno su promijenjeni i ili nastali meta.json,
+struktura_kontrolno_dokumenti.json,
+zakon_o_porezu_na_dohodak_nn_32_2020_kontrolni.txt,
+zakon_o_porezu_na_dohodak_nn_32_2020_zakon_hr.html i trajni izvjestaj
+IZVJESTAJ_VALIDACIJE_KONTROLNO.md za isti amandman.
+
+Mijenjane datoteke:
+
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `izvori/kontrolno/zakon_hr/zakon_o_porezu_na_dohodak_nn_32_2020/meta.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_32_2020/`
+  `struktura_kontrolno_dokumenti.json`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_32_2020/`
+  `zakon_o_porezu_na_dohodak_nn_32_2020_kontrolni.txt`
+- `izvori/ kontrolno/ zakon_hr/ zakon_o_porezu_na_dohodak_nn_32_2020/`
+  `zakon_o_porezu_na_dohodak_nn_32_2020_zakon_hr.html`
+- `baza_zakona/ sidra/ zakon_o_porezu_na_dohodak_nn_32_2020/`
+  `IZVJESTAJ_VALIDACIJE_KONTROLNO.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\izgradi_kontrolni_zakon_hr.py --akt-slug`
+  `zakon_o_porezu_na_dohodak_nn_32_2020 --naziv-akta "Zakon o izmjeni i`
+  `dopunama Zakona o porezu na dohodak" --url`
+  `"https://www.zakon.hr/cms.htm?id=43421"`
+- `c:/Veritas_H77/.venv/Scripts/python.exe .\alati\validiraj_nn_vs_kontrolno.py`
+  `-AktSlug zakon_o_porezu_na_dohodak_nn_32_2020`
+- `git diff --name-only`
+- `git status --short`

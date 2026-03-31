@@ -1,0 +1,75 @@
+{
+  "glavni_akt": {
+    "slug": "zakon_o_porezu_na_dohodak_nn_32_2020",
+    "naziv": "Zakon o izmjeni i dopunama Zakona o porezu na dohodak"
+  },
+  "dokumenti": [
+    {
+      "doc_id": "zakon_o_porezu_na_dohodak_nn_32_2020_procisceni",
+      "tip": "ustav_procisceni",
+      "nn": null,
+      "naslov": "Zakon o izmjeni i dopunama Zakona o porezu na dohodak",
+      "clanci": [
+        {
+          "broj": 1,
+          "naslov": null,
+          "tekst": "U Zakonu o porezu na dohodak (»Narodne novine«, br. 115/16., 106/18. i 121/19.) u članku 31. iza stavka 8. dodaje se stavak 9. koji glasi: »(9) Iznimno od stavka 1. ovoga članka, poslovnim primicima poreznog razdoblja ne smatraju se primici po osnovi potpora primljenih radi ublažavanja posebnih okolnosti propisanih propisom kojim je uređen opći porezni postupak.«.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 2,
+          "naslov": null,
+          "tekst": "U članku 54. stavku 2. iza točke dodaje se rečenica koja glasi: »Porezna uprava će temeljem dostavljenih privremenih poreznih rješenja izvršiti zaduženje poreznih obveznika za utvrđenu razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili poreznim obveznicima izvršiti povrat ako porezni obveznik ispunjava uvjete za povrat preplaćenog poreza na dohodak i prireza porezu na dohodak sukladno ovom Zakonu i propisu kojim je uređen opći porezni postupak.«. U stavku 3. rečenica: »Izjavljeni prigovor odgađa izvršenje privremenog poreznog rješenja do donošenja rješenja po prigovoru.« briše se. U stavku 7. rečenica: »Izjavljena žalba ne odgađa izvršenje poreznog rješenja.“ briše se. U stavku 8. iza riječi: »poreznom obvezom« dodaje se točka, a riječi: »te će Porezna uprava temeljem dostavljenih privremenih poreznih rješenja izvršiti zaduženje poreznih obveznika za utvrđenu razliku poreza na dohodak i prireza porezu na dohodak za uplatu ili poreznim obveznicima izvršiti povrat ako porezni obveznik ispunjava uvjete za povrat preplaćenog poreza na dohodak i prireza porezu na dohodak sukladno ovom Zakonu i zakonu kojim je uređen opći porezni postupak.« brišu se. U stavku 9. riječi: »stavkom 8.« zamjenjuju se riječima: »stavkom 2.«. PRIJELAZNE I ZAVRŠNE ODREDBE",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 3,
+          "naslov": null,
+          "tekst": "Odredba članka 2. ovoga Zakona primjenjuje se pri postupanju Porezne uprave u posebnom postupku utvrđivanja godišnjeg poreza na dohodak i prireza porezu na dohodak za 2019. godinu i nadalje.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        },
+        {
+          "broj": 4,
+          "naslov": null,
+          "tekst": "Ovaj Zakon stupa na snagu prvoga dana od dana objave u »Narodnim novinama«. Klasa: 022-03/20-01/27 Zagreb, 19. ožujka 2020. HRVATSKI SABOR Predsjednik Hrvatskoga sabora Gordan Jandroković, v. r. Za pristup ovom sadržaju morate biti prijavljeni te imati aktivnu pretplatu Prijavite se Besplatno se registrirajte Više informacija Svaki zakon ima / aktivni sadržaj / pametno označavanje / pripremu za ispis / eko e-oblik Pogledajte npr. Zakon o radu Zahvaljujemo na odazivu :) Sav prihod ide u održavanje i razvoj.",
+          "struktura": {
+            "stavci": null,
+            "glava_rimski": null
+          }
+        }
+      ],
+      "meta": {
+        "char_len": 2393,
+        "cutoff_marker": null
+      }
+    },
+    {
+      "doc_id": "zakon_o_porezu_na_dohodak_nn_32_2020_amandmani",
+      "tip": "amandmani",
+      "nn": null,
+      "naslov": "Amandmani i promjene — Zakon o izmjeni i dopunama Zakona o porezu na dohodak",
+      "clanci": [],
+      "meta": {
+        "char_len": 0,
+        "cutoff_marker": null
+      }
+    }
+  ],
+  "parsiranje": {
+    "datum_parsiranja": "2026-03-31T16:11:24+02:00",
+    "broj_dokumenata": 2,
+    "procisceni_cutoff_marker": null,
+    "procisceni_char_len": 2393,
+    "amandmani_char_len": 0,
+    "suspected_truncated_headers": []
+  }
+}
