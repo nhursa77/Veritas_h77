@@ -56,6 +56,15 @@ Obavezna pravila:
 - kod blokovi i dokazne naredbe smiju se lomiti u više stavki umjesto u
   jednu predugu liniju
 
+Markdown lint provjera ima dva odvojena moda i oba se moraju jasno razlikovati
+u izlazu:
+
+- scoped provjera (`MDLINT_MODE=SCOPED`) cilja markdown datoteke aktivnog
+  zadatka i ostaje postojeći radni hard-gate
+- puni repo pregled (`MDLINT_MODE=FULL_REPO`) prolazi kroz sve `.md`
+  datoteke u repozitoriju i služi kao dokazni signal stvarnog ukupnog
+  markdown stanja
+
 ---
 
 ## 4) Pravilo dnevnika
@@ -140,7 +149,8 @@ Za svaki dokumentacijski zadatak vrijedi ovaj redoslijed:
 6. `alati/dodaj_dnevnicki_unos_na_kraj.ps1` za append-only dnevnik
 7. `alati/provjeri_markdown_scope.ps1` nad ciljanim `.md` datotekama
 8. `alati/zatvori_dokumentacijski_korak.ps1` kao kanonski wrapper
-9. puni gateovi (`alati/lint_markdown.ps1`, `alati/ci_smoke.ps1`)
+9. puni gateovi (`alati/lint_markdown.ps1`,
+   `alati/lint_markdown.ps1 -FullRepo`, `alati/ci_smoke.ps1`)
 10. commit
 
 ---

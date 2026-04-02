@@ -4,11 +4,11 @@ Datum: 31.03.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `3b9db2f` - docs: servisno uklonjen izvan-scope
-  vscode artefakt (Z135)
-- Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 136
+- Polazni HEAD prije zadatka: `eb7a13f` - docs: inventura obrasca zakoni s
+  amandmanima (Z138)
+- Repo čist pri pre-checku: NE
+- Poravnanje grane pri pre-checku: behind 1
+- Zadnji dovršeni zadatak: ZADATAK 147
 
 ## Pregled dovršenih zadataka
 
@@ -361,7 +361,11 @@ Datum: 31.03.2026.
   Ispravak je dokazno potvrden stvarnim pokretanjem skripte nad statusom
   najprije s testnom vrijednoscu `ZADATAK TEST 136`, a zatim s realnom
   vrijednoscu `ZADATAK 136`, bez naknadnog rucnog patchanja tog retka.
-
+- ZADATAK 137: `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+  redakcijski je preuređen u konačni kanonski raspored za objavu u repou,
+  sa sazetkom na vrhu, zatim core ZPD dijelom, pa amandmanima redom i
+  zavrsnim zakljuckom. Sadržajni navodi, metrike, URL-ovi i postojeći
+  zaključci pritom nisu mijenjani.
 - ZADATAK 138: izrađena je analitička inventura postojećeg obrasca za
   pretvaranje zakona s amandmanima u JSON u dokumentu
   `dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
@@ -377,6 +381,72 @@ Datum: 31.03.2026.
   pravila za `norme/` i `sidra/`, kriterije prolaza, tolerirana odstupanja,
   završni izvještaj i uvjete pod kojima se smije reći da je zakon kanonski
   obrađen.
+- ZADATAK 140: izrađena je dokazna analiza stanja dokumentacije nakon
+  nezatvorenih Z138 i Z139 u dokumentu
+  `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Potvrđeno je da na GitHubu još nema Z138/Z139 dokumentacijskog zatvaranja,
+  da lokalno već postoje inventura i objedinjeni kanonski obrazac, te da je
+  minimalni sljedeći korak strogo scoped commit i push tog već postojećeg
+  lokalnog dokumentacijskog skupa.
+- ZADATAK 141: izrađena je dokazna analiza dovoljnosti postojećeg kanonskog
+  obrasca za zakone s amandmanima u dokumentu
+  `dokumentacija/ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Utvrđeno je da je
+  `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md` već dovoljno
+  jak da ostane glavni opći standard, dok inventura ostaje prijelazni trag,
+  obrazac amandmanske kontrole specijalizirani dodatak, a završni ZPD
+  izvještaj dokazni primjer primjene.
+- ZADATAK 142: izrađen je završni dokazni odgovor na pitanje je li postojeći
+  `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md` već dostatan
+  kao glavni kanonski dokument za zakone s amandmanima, u dokumentu
+  `dokumentacija/ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Zaključak je potvrđen kao `DA`: glavni kanonski obrazac već sadrži obvezni
+  operativni sadržaj, dok inventura, analize, specijalizirani obrazac
+  amandmanske kontrole i završni ZPD izvještaj ostaju pomoćni dokumenti sa
+  zasebnim ulogama.
+- ZADATAK 143: izrađeno je dokazno razdvajanje scopea Z138-Z142 u dokumentu
+  `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`.
+  Potvrđeno je da je svaki od zadataka Z138-Z142 čist na razini svoje glavne
+  nove datoteke, ali da su `MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
+  `STATUS_PROJEKTA_VERITAS_H77.md` i `DNEVNIK_RADA.md` trenutno kumulativno
+  mijesani trag tih zadataka i zato ne smiju nekriticki u isti commit.
+  Istodobno je potvrđeno da `.vscode/` ostaje izvan-scope lokalni editor
+  artefakt, a `ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md` stariji lokalni
+  dokumentacijski diff koji ne pripada buducem commit nizu Z138-Z142.
+- ZADATAK 144: izrađen je dokazni dokument
+  `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`.
+  Potvrđeno je da je stvarni Z138 scope inventurni dokument
+  `INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md` uz samo Z138 hunkove iz mape,
+  statusa i append-only dnevnika, dok svi Z139-Z143 tragovi, `.vscode/` i
+  `ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md` moraju ostati izvan budućeg
+  Z138 commita.
+- ZADATAK 145: izdvojen je stvarni staged skup za Z138.
+  U index su uneseni `dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+  samo Z138 hunk u `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`, samo
+  Z138 hunk u `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i samo append-only
+  Z138 blok u `dokumentacija/DNEVNIK_RADA.md`.
+  Izvan stagea ostali su
+  `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`,
+  `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+  `dokumentacija/ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+  `dokumentacija/ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+  `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`,
+  `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`, `.vscode/`,
+  `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md` i svi kasniji
+  lokalni tragovi Z139-Z144 u mapi, statusu i dnevniku.
+- ZADATAK 146: provedeno je zamrzavanje meta-dokumentacije za Z138-Z145 kroz
+  klasifikaciju u mapi dokumentacije.
+  Analize, odgovori i scope-razdvajanja iz tog niza oznaceni su kao
+  privremeni radni trag i neoperativni pomocni sloj, dok operativni minimum
+  ostaje `zakon -> manifest -> ingest -> JSON -> validacija`.
+  Sljedeci logicki korak je repo stabilizacija baseline bez otvaranja novih
+  meta-dokumenata.
+- ZADATAK 147: uveden je odvojeni full-repo markdown lint signal uz
+  zadržavanje postojećeg scoped moda.
+  `alati/lint_markdown.ps1` sada jasno razlikuje
+  `MDLINT_MODE=SCOPED` i `MDLINT_MODE=FULL_REPO`, dok `alati/ci_smoke.ps1`
+  scoped lint zadržava kao hard-gate, a full-repo lint vodi kao evidencijski
+  signal ukupnog markdown stanja repozitorija.
 
 ## Operativni sazetak
 
@@ -388,16 +458,30 @@ Datum: 31.03.2026.
 - Aktivni dokumentacijski guard: append-only zaštita
   `dokumentacija/DNEVNIK_RADA.md`
 - Rezultat kontrolne usporedbe: STABILNO
-  (Z136 je trajno uklonio potrebu za rucnim patchanjem snapshot retka
-  `Zadnji dovršeni zadatak` nakon poziva
-  `alati/uskladi_status_projekta.ps1`.)
+  (Z140 je dokazno razdvojio lokalno postojeće kanonske dijelove obrasca od
+  onoga što još nije zatvoreno na GitHubu, bez novih izmjena zakona ili
+  alata.)
+- Dovoljnost glavnog obrasca: POTVRDJENA
+  (Z142 je završno potvrdio odgovor `DA`: postojeći objedinjeni kanonski
+  obrazac već je dostatan kao glavni standard, bez dodatnog obveznog
+  sadržajnog proširenja.)
+- Razdvajanje scopea Z138-Z142: POTVRDJENO
+  (Z143 je dokazno razdvojio koji je primarni dokument svakog zadatka,
+  koje su zajednicke datoteke trenutno mijesane i da prvi cisti GitHub
+  commit mora biti Z138 uz parcijalno izdvojene hunkove iz mape, statusa i
+  dnevnika.)
+- Z138 scoped priprema commita: POTVRĐENA
+  (Z144 je dokazno suzio budući prvi commit na inventurni dokument i samo
+  stvarne Z138 tragove u zajedničkim dokumentacijskim datotekama.)
+- Zavrsni ZPD dokument: preuređen u konačni kanonski raspored za repozitorij,
+  bez promjene dokaznih činjenica i metrika.
 - Servisna korekcija traga: Z127 je ispravio dokumentacijski trag Z126 i
   kanonski uskladio statusni snapshot na `ZADATAK 126`.
 - Sljedeci logicki korak: po zasebnom zadatku nastaviti strogo
-  koristiti zavrsni ZPD izvjestaj kao ulazni presjek stanja i tek na tvrdim
-  fail signalima otvarati novi refresh, ingest ili patch parsera/validatora;
-  servisni sloj status-sync skripte sada ima deterministicko ponasanje i za
-  `Zadnji dovršeni zadatak`, bez dodatne rucne korekcije.
+  zatvoriti Z138 kao prvi scoped commit, i to samo nad inventurnom
+  datotekom te parcijalno izdvojenim Z138 hunkovima iz zajednickih
+  dokumentacijskih tragova, pa tek potom redom Z139-Z142.
+  bez novog sadržajnog širenja i bez diranja zakona, sidara, normi i alata.
 
 ## Pravilo sinkronizacije
 
@@ -408,8 +492,8 @@ Datum: 31.03.2026.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `3b9db2f` - docs: servisno uklonjen izvan-scope
-  vscode artefakt (Z135)
+- Polazni HEAD prije zadatka: `eb7a13f` - docs: inventura obrasca zakoni s
+  amandmanima (Z138)
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena

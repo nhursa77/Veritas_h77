@@ -1,4 +1,7 @@
-param()
+param(
+    [Parameter(Mandatory = $false)]
+    [switch] $FullRepo
+)
 
 $ErrorActionPreference = "Stop"
 chcp 65001 | Out-Null
@@ -20,22 +23,39 @@ if (!(Test-Path -LiteralPath $lintScript)) {
 
 Push-Location $root
 try {
-    $stagedChanges = @(git diff --cached --name-only)
-    $candidateChanges = @()
+    $mode = if ($FullRepo) { "FULL_REPO" } else { "SCOPED" }
+    Write-Host "MDLINT_MODE=$mode"
 
-    if ($stagedChanges.Count -gt 0) {
-        $candidateChanges = $stagedChanges
+    $mdTargets = @()
+
+    if ($FullRepo) {
+        $mdTargets = @(
+            Get-ChildItem -LiteralPath $root -Recurse -File -Filter *.md |
+                ForEach-Object {
+                    $relative = Resolve-Path -LiteralPath $_.FullName -Relative
+                    ($relative -replace '^[.][\\/]', '') -replace '\\', '/'
+                } |
+                Sort-Object -Unique
+        )
     }
     else {
-        $candidateChanges = @(git diff --name-only)
-    }
+        $stagedChanges = @(git diff --cached --name-only)
+        $candidateChanges = @()
 
-    $mdTargets = @(
-        $candidateChanges |
-            ForEach-Object { [string]$_ } |
-            Where-Object { $_ -match '\.md$' } |
-            Sort-Object -Unique
-    )
+        if ($stagedChanges.Count -gt 0) {
+            $candidateChanges = $stagedChanges
+        }
+        else {
+            $candidateChanges = @(git diff --name-only)
+        }
+
+        $mdTargets = @(
+            $candidateChanges |
+                ForEach-Object { [string]$_ } |
+                Where-Object { $_ -match '\.md$' } |
+                Sort-Object -Unique
+        )
+    }
 
     if ($mdTargets.Count -eq 0) {
         Write-Host "MDLINT_BEGIN=True"

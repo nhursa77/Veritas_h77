@@ -6,17 +6,6 @@ Unosi idu kronološki: najstariji na vrhu, najnoviji na dnu.
 
 ---
 
-## Datum: 16.02.2026
-
-### Sažetak (17.02.2026.)
-Napravljen je inicijalni setup repozitorija i postavljeni su temeljni kanonski
-artefakti projekta. Uvedeni su tehnički standardi, osnovna struktura i ključni
-kanonski dokumenti za metodologiju, normu, postupak i razvojni plan.
-
-### Commitovi (najstariji -> najnoviji) (17.02.2026.)
-- 39a19c8 -> chore: inicijalizacija repozitorija
-- 275aa3b -> chore: normalizacija završetaka redaka
-- 7b3b1f2 -> chore: dodana osnovna struktura mapa
 - f4033dc -> chore: docker kostur (mount repozitorija)
 - 24e9959 -> chore: markdownlint pravila + editorconfig
 - 0ea5b66 -> chore: eol pravila (LF kanon, CRLF samo ps1)
@@ -26,7 +15,6 @@ kanonski dokumenti za metodologiju, normu, postupak i razvojni plan.
 - 502501c -> docs: standard JSON POSTUPAK (procedura)
 - 0681c60 -> docs: razvojni plan Veritas H.77 (kanonski)
 
-### Napomena (17.02.2026.)
 Standard JSON NORMA je u povijesti uveden kroz dvije uzastopne revizije
 (dva odvojena commita). Obje revizije su kanonske u smislu traga, a važeći
 sadržaj je onaj iz zadnje verzije datoteke u grani `main`.
@@ -41,15 +29,9 @@ Repozitorij čist: da (`git status --short` bez izlaza).
 ### Sažetak (rječnik i tehnički okvir)
 Dopunjena je metodologija s rječnikom i gate pravilima statusa izlaza.
 Dodan je zaseban rječnik pojmova, tehnički okvir i mapa dokumentacije.
-
-### Commitovi (najstariji -> najnoviji) (rječnik i tehnički okvir)
-- 1409d45 -> docs: metodologija (rječnik + gate pravila)
 - 939d29b -> docs: rječnik pojmova Veritas H.77
 - 6d724c2 -> docs: tehnički okvir Veritas H.77
 - 978caee -> docs: mapa dokumentacije Veritas H.77
-
-### Napomena (rječnik i tehnički okvir)
-Za datum 17.02.2026. u povijesti repozitorija postoje ova četiri commita.
 
 ---
 
@@ -553,6 +535,109 @@ Verifikacija (komande):
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
+
+### ZADATAK 139 - kanonski obrazac zakoni s amandmanima u JSON
+
+Izrađen je objedinjeni kanonski dokument za pretvaranje zakona s amandmanima u
+JSON u datoteci dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md,
+isključivo na temelju već postojećih kanonskih dokumenata i stvarnog ponašanja
+repo alata, bez zahvata u zakonima, sidrima, normama, kontrolnim artefaktima,
+skriptama ili završnom ZPD izvještaju.
+
+Dokument na jednom mjestu uređuje kada se koristi model core + amandmani,
+koji je minimalni obvezni skup ulaznih artefakata, kako su razdvojeni NN
+dokazni sloj i kontrolni zakon.hr sloj, koja su pravila za norme i sidra,
+koji su kriteriji prolaza, koja su tolerirana odstupanja i kada se smije reći
+da je zakon kanonski obrađen.
+
+Mijenjane datoteke:
+
+- `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `\.\alati\provjeri_markdown_scope.ps1`
+  `\.\dokumentacija\KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+  `\.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `\.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `\.\dokumentacija\DNEVNIK_RADA.md`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `\.\alati\lint_markdown.ps1`
+- `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 31.03.2026. (ZADATAK 144)
+
+### ZADATAK 144 - dokazno izdvojen stvarni z138 scoped skup
+
+Izrađen je dokazni dokument
+dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md kojim je iz trenutačno
+miješanog lokalnog stanja izdvojen točan budući Z138 commit scope, bez
+commita, bez pusha i bez diranja zakona, sidara, normi, parsera, validatora
+ili dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md.
+
+Dokazno je potvrđeno da stvarni Z138 sadržaj čini inventurni dokument
+dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md te isključivo Z138
+hunkovi u MAPI, STATUSU i append-only bloku DNEVNIKA, dok svi Z139-Z143
+tragovi, `.vscode/` i stariji ZPD završni diff moraju ostati izvan budućeg
+Z138 commita.
+
+Mijenjane datoteke:
+
+- `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff -- dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `git diff -- dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `git diff -- dokumentacija/DNEVNIK_RADA.md`
+- `git ls-remote --heads origin main`
+
+## Datum: 31.03.2026 (ZADATAK 143)
+
+### ZADATAK 143 - dokazno razdvajanje scopea Z138 do Z142
+
+Izradjen je dokument
+dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md koji dokazno razdvaja
+trenutno lokalno stanje na scopeove Z138, Z139, Z140, Z141 i Z142, bez
+commita, bez pusha i bez diranja zakona, sidara, normi ili alata.
+
+Potvrdeno je da svaki od zadataka Z138-Z142 ima vlastitu glavnu novu
+datoteku, ali da su dokumenti MAPA_DOKUMENTACIJE_VERITAS_H77.md,
+STATUS_PROJEKTA_VERITAS_H77.md i DNEVNIK_RADA.md trenutno kumulativno
+mijesani trag tog niza i zato ne smiju nekriticki u isti commit. Takodjer je
+potvrdeno da `.vscode/` ostaje izvan-scope lokalni editor artefakt, a
+ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md stariji lokalni diff koji ne
+pripada buducem commit nizu Z138-Z142.
+
+Predlozen je i tocan prvi scoped commit: najprije zatvoriti Z138 s
+INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md i samo odgovarajucim Z138 hunkovima
+iz mape, statusa i dnevnika.
+
+Mijenjane datoteke:
+
+- `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git ls-remote --heads origin main`
+- `git --no-pager log -5 --oneline`
   `.\alati\ci_smoke.ps1`
 
 ## Datum: 31.03.2026 (ZADATAK 139)
@@ -4438,6 +4523,151 @@ Dokazne naredbe:
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
+## Datum: 31.03.2026 (ZADATAK 145)
+
+### ZADATAK 145 - izdvojen stvarni staged skup za Z138
+
+Iz stvarnog lokalnog diffa izdvojen je cisti staged skup za buduci Z138 commit,
+bez commitanja i bez ukljucivanja kasnijih lokalnih dokumentacijskih tragova.
+
+U stage su usli:
+
+- `dokumentacija/INVENTURA_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- samo Z138 hunk u `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- samo Z138 hunk u `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- samo append-only Z138 blok u `dokumentacija/DNEVNIK_RADA.md`
+
+Izvan stagea su ostali:
+
+- `dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`
+- `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
+- `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
+- `.vscode/`
+- `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+- svi kasniji lokalni tragovi Z139-Z144 u mapi, statusu i dnevniku
+
+Dokazne naredbe:
+
+- `git diff --cached --name-only`
+- `git diff --name-only`
+- `git status --short`
+- `git ls-remote --heads origin main`
+
+## Datum: 31.03.2026 (ZADATAK 142)
+
+### ZADATAK 142 - dokazni odgovor o dovoljnosti obrasca zakoni s amandmanima
+
+Na temelju izravne usporedbe glavnog kanonskog obrasca, inventure, analiza
+stanja i dovoljnosti, specijaliziranog obrasca amandmanske kontrole, ZPD
+rezima konverzije i standarda JSON norme potvrdeno je da dokument
+`dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md` vec sadrzi
+obvezni operativni sadrzaj za glavni standard rada.
+
+U dokumentu
+`dokumentacija/ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+zapisano je sto glavni kanonski obrazac vec pokriva, sto ostaje izvan njega
+kao pomocni skup i zasto nije utvrden novi minimalni obvezni sadrzaj koji bi
+se jos morao dopisati.
+
+Mijenjane datoteke:
+
+- `dokumentacija/ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git diff --name-only`
+- `git status --short`
+- `git ls-remote --heads origin main`
+
+## Datum: 31.03.2026 (ZADATAK 140)
+
+### ZADATAK 140 - analiza stanja kanonskog obrasca zakoni s amandmanima
+
+Izrađena je dokazna analiza trenutačnog lokalnog i GitHub stanja nakon
+nezatvorenih Z138 i Z139 u dokumentu
+`dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+bez commita, bez pusha i bez diranja zakona, sidara, normi i alata.
+
+Analiza je potvrdila da na GitHubu i dalje završava stanje na commitu 8666f89,
+dok lokalno već postoje inventura obrasca i objedinjeni kanonski obrazac,
+pa minimalni sljedeći korak nije novi sadržajni refaktor nego zatvaranje tog
+već izrađenog dokumentacijskog skupa kao stvarnog repozitorijskog standarda.
+
+Mijenjane datoteke:
+
+- `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git diff --name-only`
+
+## Datum: 31.03.2026 (ZADATAK 141)
+
+### ZADATAK 141 - analiza dovoljnosti kanonskog obrasca zakoni s amandmanima
+
+Izradjena je dokazna analiza dovoljnosti postojeceg kanonskog obrasca za
+zakone s amandmanima u dokumentu
+`dokumentacija/ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`,
+bez commita, bez pusha i bez diranja zakona, sidara, normi i alata.
+
+Analiza je utvrdila da je
+`dokumentacija/KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md` vec dovoljno
+jak da ostane glavni opci standard, ali da inventura, amandmanski obrazac i
+zavrsni ZPD izvjestaj trebaju ostati odvojeni kao prijelazni, specijalizirani
+odnosno dokazni dokumenti, umjesto mehanickog spajanja u jedan tekst.
+
+Mijenjane datoteke:
+
+- `dokumentacija/ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git diff --name-only`
+
+## Datum: 31.03.2026 (ZADATAK 137)
+
+### ZADATAK 137 - kanonski uredjen zavrsni zpd dokument za objavu u repou
+
+`dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md` preureden je u
+konacni kanonski raspored za repo: sazetak na vrhu, zatim core ZPD, potom svi
+amandmani redom i na kraju zavrsni zakljucak.
+
+Pri tome nisu mijenjani vec zapisani URL-ovi, metrike, cinjenice ni
+zakljucci; servisno su uskladjeni samo `STATUS_PROJEKTA_VERITAS_H77.md` i ovaj
+append-only dnevnicki trag.
+
+Mijenjane datoteke:
+
+- `dokumentacija/ZAVRSNI_IZVJESTAJ_ZPD_CORE_I_AMANDMANI.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne napomene:
+
+- nije pokrenuta nijedna skripta
+- nije diran nijedan alat
+- nije mijenjan nijedan zakonodavni artefakt ni ZPD metrika
+
 ## Datum: 31.03.2026 (ZADATAK 131)
 
 ### ZADATAK 131 - ujednacen dokazni format z120 i z121 u statusu
@@ -4712,3 +4942,78 @@ Dokazne naredbe:
 - `powershell -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1`
 - `powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+<<<<<<< HEAD
+=======
+
+## Datum: 02.04.2026 (ZADATAK 146)
+
+### ZADATAK 146 - zamrznuta meta-dokumentacija Z138 do Z145
+
+Z138-Z145 meta-dokumenti u mapi dokumentacije oznaceni su kao privremeni
+radni trag i neoperativni pomocni dokumenti.
+
+Ti dokumenti nisu operativni centar projekta, a operativni minimum ostaje
+usmjeren na `zakon -> ingest -> JSON`.
+
+U ovom koraku azurirane su samo datoteke
+`dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
+`dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
+`dokumentacija/DNEVNIK_RADA.md`.
+
+Mijenjane datoteke:
+
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\uskladi_status_projekta.ps1 -StatusPath`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md -ZadnjiZadatak 'ZADATAK`
+  `146' -PolazniHead 'eb7a13f' -PolazniSubject 'docs: inventura obrasca`
+  `zakoni s amandmanima (Z138)' -RepoCistPriPrecheck 'NE'`
+  `-PoravnanjeGranePriPrecheck 'behind 1'`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\dodaj_dnevnicki_unos_na_kraj.ps1 -DiaryPath`
+  `.\dokumentacija\DNEVNIK_RADA.md -EntryPath`
+  `$env:TEMP\veritas_z146_dnevnik.md`
+
+## Datum: 02.04.2026 (ZADATAK 147)
+
+### ZADATAK 147 - full-repo markdown gate uz scoped lint
+
+Potvrdeno je da je postojeci markdown lint prije patcha davao scoped/tracked
+pregled (`MDLINT_TARGET_COUNT=4`), a ne puni markdown signal cijelog repoa.
+
+Uveden je novi full-repo mod u `alati/lint_markdown.ps1` uz zadrzavanje
+postojeceg scoped moda. Izlaz sada ima jasan marker moda:
+`MDLINT_MODE=SCOPED` ili `MDLINT_MODE=FULL_REPO`.
+
+U `alati/ci_smoke.ps1` scoped lint ostaje hard-gate, dok full-repo lint radi
+kao evidencijski signal (`CI_SMOKE_FULL_REPO_MDLINT_*`) bez rusenja cijelog
+smoke prolaza.
+
+Mijenjane datoteke:
+
+- `alati/lint_markdown.ps1`
+- `alati/ci_smoke.ps1`
+- `dokumentacija/STANDARD_PISANJE_MARKDOWN_DOKUMENTACIJE.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1 -FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

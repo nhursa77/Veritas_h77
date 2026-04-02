@@ -42,6 +42,7 @@ function Invoke-SmokeStep {
 
 Push-Location $root
 $finalExitCode = 0
+$fullRepoLintExit = $null
 try {
     $hasGit = $null -ne (Get-Command git -ErrorAction SilentlyContinue)
     $gitAvailableText = if ($hasGit) { "True" } else { "False" }
@@ -72,8 +73,20 @@ try {
 
     $steps = @(
         [pscustomobject]@{
-            Name = "lint_markdown"
+            Name = "lint_markdown_scoped"
             Action = { & $markdownLintScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "lint_markdown_full_repo_signal"
+            Action = {
+                Write-Host "CI_SMOKE_FULL_REPO_MDLINT_BEGIN=True"
+                & $markdownLintScript -FullRepo
+                $script:fullRepoLintExit = $LASTEXITCODE
+                Write-Host "CI_SMOKE_FULL_REPO_MDLINT_EXIT=$script:fullRepoLintExit"
+                Write-Host "CI_SMOKE_FULL_REPO_MDLINT_END=True"
+                $global:LASTEXITCODE = 0
+            }
             Enabled = $true
         },
         [pscustomobject]@{
@@ -268,6 +281,14 @@ try {
 }
 finally {
     Pop-Location
+}
+
+if ($null -eq $fullRepoLintExit) {
+    Write-Host "CI_SMOKE_FULL_REPO_MDLINT_SIGNAL=NOT_RUN"
+}
+else {
+    Write-Host "CI_SMOKE_FULL_REPO_MDLINT_SIGNAL=RUN"
+    Write-Host "CI_SMOKE_FULL_REPO_MDLINT_RESULT_EXIT=$fullRepoLintExit"
 }
 
 Write-Host "CI_SMOKE_END=True"
