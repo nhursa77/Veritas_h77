@@ -137,6 +137,52 @@ sloj, pravila za sidra i norme, validaciju, tolerirana odstupanja,
 završni izvještaj i uvjete kada se zakon smije označiti kao kanonski
 obrađen.
 
+### `ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+Definira dokazni presjek lokalnog i GitHub stanja nakon nezatvorenih Z138 i
+Z139.
+Uređuje razliku između onoga što već postoji kao lokalni kanonski skup,
+onoga što još nije objavljeno na GitHubu i minimalnog sljedećeg koraka za
+zatvaranje obrasca kao stvarnog repozitorijskog standarda.
+Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
+`zakon -> ingest -> JSON`.
+
+### `ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+Definira dokaznu procjenu je li postojeci kanonski obrazac za zakone s
+amandmanima vec dovoljan kao glavni dokument.
+Uređuje razliku između onoga što već imamo kao stvarni kanonski skup,
+onoga što je još raspršeno među specijaliziranim i dokaznim dokumentima,
+te minimalnog urednickog koraka potrebnog da glavni obrazac bude
+dovoljno jasan za operativnu uporabu.
+Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
+`zakon -> ingest -> JSON`.
+
+### `ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+Definira završni dokazni odgovor je li postojeći glavni kanonski obrazac za
+zakone s amandmanima već dostatan.
+Uređuje razliku između sadržaja koji glavni kanon već nosi, onoga što ostaje
+u pomoćnim dokumentima i pitanja postoji li još ikakav stvarni obvezni
+nedostatak glavnog obrasca.
+Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
+`zakon -> ingest -> JSON`.
+
+### `RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
+Definira dokazno razdvajanje trenutnog lokalnog stanja na zasebne scopeove
+Z138, Z139, Z140, Z141 i Z142.
+Uređuje koji je primarni dokument svakog od tih zadataka, koje su datoteke
+trenutno mijesane i ne smiju u isti commit te koji je tocan prvi scoped
+commit potreban za cisto zatvaranje tog niza na GitHubu.
+Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
+`zakon -> ingest -> JSON`.
+
+### `Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
+Definira dokazno izdvajanje stvarnog Z138 scoped skupa iz trenutačno
+miješanog lokalnog stanja.
+Uređuje koji konkretni dijelovi mape, statusa i dnevnika doista pripadaju
+Z138, što iz trenutačnog diffa ne smije ući u taj commit i koji je točan
+staged popis potreban za buduće čisto zatvaranje Z138.
+Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
+`zakon -> ingest -> JSON`.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
