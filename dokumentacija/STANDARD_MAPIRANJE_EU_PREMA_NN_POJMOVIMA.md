@@ -64,7 +64,9 @@ U ovom koraku dopuštene su samo:
 ## 5) Izlazni artefakti
 
 - `baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi.json`
-- `baza_terminologije/mape/eu_prema_nn/curia_prema_nn_potencijalni_pojmovi_manifest.json`
+- `baza_terminologije/mape/eu_prema_nn/`
+	`curia_prema_nn_potencijalni_pojmovi_manifest.json`
 
 Manifest mora sadržavati broj obrađenih termina, broj prijedloga,
-raspodjelu po pouzdanosti i broj zapisa za ručnu provjeru.
+raspodjelu po pouzdanosti i broj zapisa za ručnu
+provjeru.

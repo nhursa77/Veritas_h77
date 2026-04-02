@@ -121,6 +121,9 @@ repo čist
 
 (uvijek na kraju taska)
 
-Set-Location -LiteralPath "C:\Veritas_H77"; powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1; Write-Host "CI_SMOKE_EXIT=$LASTEXITCODE"
+Set-Location -LiteralPath "C:\Veritas_H77";
+powershell -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1;
+Write-Host "CI_SMOKE_EXIT=$LASTEXITCODE"
 
-Set-Location -LiteralPath "C:\Veritas_H77"; git status --short; git --no-pager log -1 --oneline
+Set-Location -LiteralPath "C:\Veritas_H77"; git status --short;
+git --no-pager log -1 --oneline

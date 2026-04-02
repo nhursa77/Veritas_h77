@@ -57,7 +57,9 @@ Ovaj sloj je tehnička priprema za sljedeći korak ručnog NN pregleda.
 ## 5) Izlazni artefakti
 
 - `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi.json`
-- `baza_terminologije/mape/eu_prema_nn/nn_sidrenju_podobni_pojmovi_manifest.json`
+- `baza_terminologije/mape/eu_prema_nn/`
+    `nn_sidrenju_podobni_pojmovi_manifest.json`
 
 Manifest mora sadržavati broj ulaznih, zadržanih i odbačenih zapisa,
-raspodjelu po osnovi podobnosti i top liste zadržanih/odbačenih kandidata.
+raspodjelu po osnovi podobnosti i top liste zadržanih/
+odbačenih kandidata.

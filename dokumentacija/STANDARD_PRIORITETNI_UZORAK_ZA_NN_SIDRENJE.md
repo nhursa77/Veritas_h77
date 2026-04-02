@@ -42,8 +42,9 @@ Prioritetni uzorak je tehnički radni podskup, a ne normativna istina.
 ## 4) Izlazni artefakti
 
 - `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje.json`
-- `baza_terminologije/mape/eu_prema_nn/prioritetni_uzorak_za_nn_sidrenje_manifest.json`
+- `baza_terminologije/mape/eu_prema_nn/`
+	`prioritetni_uzorak_za_nn_sidrenje_manifest.json`
 
 Manifest mora sadržavati broj ulaznih zapisa, broj izdvojenih zapisa,
-raspodjelu po osnovi prioriteta, broj jedinstvenih kandidata i top 20
-najčešćih kandidata.
+raspodjelu po osnovi prioriteta, broj jedinstvenih kandidata i
+top 20 najčešćih kandidata.
