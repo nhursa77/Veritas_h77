@@ -5048,3 +5048,37 @@ Dokazne naredbe:
   `.\dokumentacija\DNEVNIK_RADA.md`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 03.04.2026 (ZADATAK 149)
+
+### ZADATAK 149 - uklanjanje proceduralnih datoteka z138 do z142
+
+Uklonjene su točno dvije proceduralne datoteke:
+
+- `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
+- `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
+
+U ovom koraku dirano je točno 5 datoteka:
+
+- `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
+- `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

@@ -8,7 +8,7 @@ Datum: 31.03.2026.
   amandmanima (Z138)
 - Repo čist pri pre-checku: NE
 - Poravnanje grane pri pre-checku: behind 1
-- Zadnji dovršeni zadatak: ZADATAK 148
+- Zadnji dovršeni zadatak: ZADATAK 149
 
 ## Pregled dovršenih zadataka
 
@@ -454,6 +454,13 @@ Datum: 31.03.2026.
   `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
   `dokumentacija/DNEVNIK_RADA.md`, bez diranja drugih dokumenata iz paketa
   Z138-Z142.
+- ZADATAK 149: uklonjene su samo proceduralne datoteke
+  `dokumentacija/RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md` i
+  `dokumentacija/Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`.
+  Nuzni prateci trag azuriran je samo u
+  `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
+  `dokumentacija/DNEVNIK_RADA.md`.
 
 ## Operativni sazetak
 

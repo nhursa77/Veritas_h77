@@ -166,22 +166,14 @@ Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
 `zakon -> ingest -> JSON`.
 
 ### `RAZDVAJANJE_SCOPEA_Z138_DO_Z142.md`
-Definira dokazno razdvajanje trenutnog lokalnog stanja na zasebne scopeove
-Z138, Z139, Z140, Z141 i Z142.
-Uređuje koji je primarni dokument svakog od tih zadataka, koje su datoteke
-trenutno mijesane i ne smiju u isti commit te koji je tocan prvi scoped
-commit potreban za cisto zatvaranje tog niza na GitHubu.
-Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
-`zakon -> ingest -> JSON`.
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 149.
+Bila je proceduralni, vremenski vezani radni trag i nije aktivni
+operativni standard.
 
 ### `Z138_SCOPE_DOKAZ_I_PRIPREMA_COMMITA.md`
-Definira dokazno izdvajanje stvarnog Z138 scoped skupa iz trenutačno
-miješanog lokalnog stanja.
-Uređuje koji konkretni dijelovi mape, statusa i dnevnika doista pripadaju
-Z138, što iz trenutačnog diffa ne smije ući u taj commit i koji je točan
-staged popis potreban za buduće čisto zatvaranje Z138.
-Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
-`zakon -> ingest -> JSON`.
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 149.
+Bila je proceduralni, vremenski vezani radni trag i nije aktivni
+operativni standard.
 
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
