@@ -45,11 +45,25 @@ Primjeri neispravno:
 
 ---
 
-## 3) Pravilo retka
+## 3) Kanonski markdown lint sloj
 
-Za markdown dokumentaciju vrijedi ograničenje `MD013`.
+Repo markdown lint kanonski pokriva točno ovaj skup pravila:
 
-Obavezna pravila:
+- `MD010` - zabrana hard tabova
+- `MD013` - ograničenje duljine retka na 80 znakova
+- `MD036` - emphasis se ne smije koristiti kao heading
+- `MD040` - fenced code block mora imati jezik
+- `MD047` - datoteka mora završiti jednim trailing newlineom
+- `MD060` - tablice koriste stil s vodećim i završnim znakom `|`
+
+Kanonski izvršni sloj je:
+
+- `alati/lint_markdown.py` - provodi isti skup pravila nad zadanim `.md`
+  datotekama
+- `alati/lint_markdown.ps1` - priprema ciljeve za `SCOPED` i `FULL_REPO`
+  mod i poziva isti engine
+
+Dodatna pravila za `MD013` i dalje vrijede:
 
 - redak ne smije prelaziti 80 znakova kad god je sadržaj moguće razlomiti
 - duge naredbe, putanje i popise treba lomiti u više redaka
@@ -60,10 +74,15 @@ Markdown lint provjera ima dva odvojena moda i oba se moraju jasno razlikovati
 u izlazu:
 
 - scoped provjera (`MDLINT_MODE=SCOPED`) cilja markdown datoteke aktivnog
-  zadatka i ostaje postojeći radni hard-gate
+  zadatka i ostaje hard-gate samo za taj scoped skup
 - puni repo pregled (`MDLINT_MODE=FULL_REPO`) prolazi kroz sve `.md`
   datoteke u repozitoriju i služi kao dokazni signal stvarnog ukupnog
   markdown stanja
+
+Scoped prolaz nije dokaz pune čistoće cijelog repoa.
+
+`alati/provjeri_markdown_scope.ps1` ostaje zaseban ciljani dokumentacijski
+check za `MD013`, `MD024` i `MD026`; nije zamjena za full-repo lint signal.
 
 ---
 

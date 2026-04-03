@@ -1,5 +1,13 @@
 ﻿{
-  "MD022": false,
-  "MD032": false,
-  "MD047": true
+  "default": false,
+  "MD010": true,
+  "MD013": {
+    "line_length": 80
+  },
+  "MD036": true,
+  "MD040": true,
+  "MD047": true,
+  "MD060": {
+    "style": "leading_and_trailing"
+  }
 }
