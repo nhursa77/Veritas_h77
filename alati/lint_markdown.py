@@ -75,19 +75,88 @@ def resolve_engine_command(root: Path) -> tuple[list[str], str]:
     )
 
 
-def emit_stream(text: str) -> int:
+def emit_stream(text: str) -> None:
     if not text:
-        return 0
+        return
 
-    count = 0
     for line in text.splitlines():
         if line.strip() == "":
             continue
         print(line)
-        if ": MD" in line:
-            count += 1
 
-    return count
+
+def estimate_command_length(parts: list[str]) -> int:
+    return len(" ".join(shlex.quote(part) for part in parts))
+
+
+def chunk_targets(base_command: list[str], targets: list[str], max_length: int = 6000) -> list[list[str]]:
+    chunks: list[list[str]] = []
+    current: list[str] = []
+
+    for target in targets:
+        candidate = current + [target]
+        if current and estimate_command_length(base_command + candidate) > max_length:
+            chunks.append(current)
+            current = [target]
+        else:
+            current = candidate
+
+    if current:
+        chunks.append(current)
+
+    return chunks
+
+
+def parse_markdownlint_json_output(text: str, root: Path) -> list[tuple[str, int, str]]:
+    if not text or text.strip() == "":
+        return []
+
+    sanitized = text.strip().lstrip("\ufeff")
+    if not sanitized.startswith("["):
+        start = sanitized.find("[")
+        end = sanitized.rfind("]")
+        if start == -1 or end == -1 or end < start:
+            return []
+        sanitized = sanitized[start : end + 1]
+
+    try:
+        payload = json.loads(sanitized)
+    except json.JSONDecodeError:
+        return []
+
+    if not isinstance(payload, list):
+        return []
+
+    parsed: list[tuple[str, int, str]] = []
+    for item in payload:
+        if not isinstance(item, dict):
+            continue
+
+        file_name = str(item.get("fileName", "")).strip()
+        line_number = int(item.get("lineNumber", 0) or 0)
+        rule_names = item.get("ruleNames", [])
+        rule_code = str(rule_names[0]) if isinstance(rule_names, list) and rule_names else "MDLINT"
+        rule_description = str(item.get("ruleDescription", "")).strip()
+        error_detail = str(item.get("errorDetail", "")).strip()
+
+        try:
+            file_path = Path(file_name)
+            if file_path.is_absolute():
+                relative = file_path.relative_to(root).as_posix()
+            else:
+                relative = file_name.replace("\\", "/")
+        except Exception:
+            relative = file_name.replace("\\", "/")
+
+        detail_parts = [rule_code]
+        if rule_description:
+            detail_parts.append(rule_description)
+        if error_detail:
+            detail_parts.append(error_detail)
+
+        parsed.append((relative, line_number, " | ".join(detail_parts)))
+
+    return parsed
 
 
 def materialize_runtime_config(config: dict) -> str:
@@ -140,35 +209,56 @@ def main() -> int:
         return 2
 
     runtime_config_path = materialize_runtime_config(config)
+    base_command = command + ["--json", "--config", runtime_config_path]
+    chunks = chunk_targets(base_command, existing_targets)
+
     print(f"MDLINT_ENGINE={engine_label}")
     print("MDLINT_RULESET_SOURCE=.markdownlint.json")
     print(f"MDLINT_RUNTIME_CONFIG={runtime_config_path}")
-    full_command = command + ["--config", runtime_config_path] + existing_targets
-    print(f"MDLINT_COMMAND={' '.join(shlex.quote(part) for part in full_command)}")
+    print(f"MDLINT_CHUNKS={len(chunks)}")
+    print(f"MDLINT_COMMAND_BASE={' '.join(shlex.quote(part) for part in base_command)}")
+
+    violation_count = 0
+    final_exit_code = 0
 
     try:
-        result = subprocess.run(
-            full_command,
-            cwd=root,
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-        )
+        for index, chunk in enumerate(chunks, start=1):
+            print(f"MDLINT_CHUNK_BEGIN={index}/{len(chunks)} FILES={len(chunk)}")
+            result = subprocess.run(
+                base_command + chunk,
+                cwd=root,
+                capture_output=True,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+            )
+
+            parsed_stdout = parse_markdownlint_json_output(result.stdout, root)
+            parsed_stderr = parse_markdownlint_json_output(result.stderr, root)
+            parsed_violations = parsed_stdout + parsed_stderr
+
+            if parsed_violations:
+                for rel, line_no, detail in parsed_violations:
+                    print(f"MDLINT_VIOLATION: {rel}:{line_no}: {detail}")
+                violation_count += len(parsed_violations)
+            else:
+                emit_stream(result.stdout)
+                emit_stream(result.stderr)
+
+            print(f"MDLINT_CHUNK_END={index}/{len(chunks)} EXIT={result.returncode}")
+
+            if result.returncode != 0 and final_exit_code == 0:
+                final_exit_code = result.returncode
     finally:
         try:
             Path(runtime_config_path).unlink(missing_ok=True)
         except Exception:
             pass
 
-    violation_count = 0
-    violation_count += emit_stream(result.stdout)
-    violation_count += emit_stream(result.stderr)
-
     print(f"MDLINT_VIOLATIONS={violation_count}")
     print("MDLINT_END=True")
-    print(f"MDLINT_EXIT={result.returncode}")
-    return result.returncode
+    print(f"MDLINT_EXIT={final_exit_code}")
+    return final_exit_code
 
 
 if __name__ == "__main__":
