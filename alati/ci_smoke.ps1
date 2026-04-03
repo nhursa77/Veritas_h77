@@ -61,6 +61,7 @@ try {
     Write-Host "CI_SMOKE_TIMESTAMP=$timestampIso"
     Write-Host "CI_SMOKE_PWSH_VERSION=$psVersionText"
     Write-Host "CI_SMOKE_GIT_AVAILABLE=$gitAvailableText"
+    Write-Host "CI_SMOKE_MDLINT_ENGINE=markdownlint-cli"
     Write-Host "CI_SMOKE_MDLINT_RULESET=MD010,MD013,MD036,MD040,MD047,MD060"
 
     $beforeStatus = @()

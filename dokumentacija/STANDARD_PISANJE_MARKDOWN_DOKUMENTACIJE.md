@@ -56,12 +56,13 @@ Repo markdown lint kanonski pokriva točno ovaj skup pravila:
 - `MD047` - datoteka mora završiti jednim trailing newlineom
 - `MD060` - tablice koriste stil s vodećim i završnim znakom `|`
 
-Kanonski izvršni sloj je:
+Kanonski izvršni sloj je stvarni `markdownlint` engine.
 
-- `alati/lint_markdown.py` - provodi isti skup pravila nad zadanim `.md`
-  datotekama
-- `alati/lint_markdown.ps1` - priprema ciljeve za `SCOPED` i `FULL_REPO`
-  mod i poziva isti engine
+- `.markdownlint.json` je jedini kanonski skup markdown pravila
+- `alati/lint_markdown.py` je tanak adapter koji poziva stvarni
+  `markdownlint-cli`
+- `alati/lint_markdown.ps1` ostaje wrapper koji priprema ciljeve za
+  `SCOPED` i `FULL_REPO` mod i poziva isti engine
 
 Dodatna pravila za `MD013` i dalje vrijede:
 

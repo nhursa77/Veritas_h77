@@ -26,7 +26,8 @@ try {
     $mode = if ($FullRepo) { "FULL_REPO" } else { "SCOPED" }
     $canonicalRules = "MD010,MD013,MD036,MD040,MD047,MD060"
     Write-Host "MDLINT_MODE=$mode"
-    Write-Host "MDLINT_ENGINE=lint_markdown.py"
+    Write-Host "MDLINT_WRAPPER=lint_markdown.ps1"
+    Write-Host "MDLINT_ADAPTER=lint_markdown.py"
     Write-Host "MDLINT_RULESET=$canonicalRules"
 
     $mdTargets = @()
