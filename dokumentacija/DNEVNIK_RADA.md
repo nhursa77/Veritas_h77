@@ -5082,3 +5082,42 @@ Dokazne naredbe:
   `.\dokumentacija\DNEVNIK_RADA.md`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+## Datum: 03.04.2026 (ZADATAK 150)
+
+### ZADATAK 150 - uklanjanje zastarjelih neaktivnih dokumenata
+
+Uklonjena su tocno 3 dokumenta iz kanonskog sloja repozitorija:
+
+- dokumentacija/BASELINE_MARKDOWN_STANJA_REPOA.md
+- dokumentacija/USPOREDBA_PREOSTALE_DVIJE_UNSTAGED_DATOTEKE.md
+- dokumentacija/ANALIZA_ZPD_ZAVRSNOG_IZVJESTAJA_LOKALNI_DIFF.md
+
+Sva 3 dokumenta su prethodno u ZADATAK 149 (eca5596) dokazno
+procijenjena kao KANDIDAT_ZA_UKLANJANJE_IZ_KANONSKOG_SLOJA.
+Svako je opisivalo zatvoreno prolazno stanje repoa bez kanonske
+operativne vrijednosti.
+
+U ovom koraku dirано je tocno 5 datoteka:
+
+- dokumentacija/BASELINE_MARKDOWN_STANJA_REPOA.md
+- dokumentacija/USPOREDBA_PREOSTALE_DVIJE_UNSTAGED_DATOTEKE.md
+- dokumentacija/ANALIZA_ZPD_ZAVRSNOG_IZVJESTAJA_LOKALNI_DIFF.md
+- dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md
+- dokumentacija/DNEVNIK_RADA.md
+
+Dokazne naredbe:
+
+- git status --short
+- git diff --name-only
+- git diff --cached --name-only
+- git --no-pager log -1 --oneline
+- git branch -vv
+- git ls-remote --heads origin main
+- Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120
+- pwsh -NoProfile -ExecutionPolicy Bypass -File
+  .\alati\provjeri_markdown_scope.ps1
+  .\dokumentacija\MAPA_DOKUMENTACIJE_VERITAS_H77.md
+  .\dokumentacija\DNEVNIK_RADA.md
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
+- pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1

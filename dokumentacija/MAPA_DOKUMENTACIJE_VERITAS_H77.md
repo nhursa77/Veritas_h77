@@ -175,6 +175,21 @@ Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 149.
 Bila je proceduralni, vremenski vezani radni trag i nije aktivni
 operativni standard.
 
+### `BASELINE_MARKDOWN_STANJA_REPOA.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 150.
+Bila je dokazni snapshot prolaznog markdown stanja repoa i nije
+aktivni operativni standard.
+
+### `USPOREDBA_PREOSTALE_DVIJE_UNSTAGED_DATOTEKE.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 150.
+Bila je dokazna analiza prolaznih unstaged datoteka i nije aktivni
+operativni standard.
+
+### `ANALIZA_ZPD_ZAVRSNOG_IZVJESTAJA_LOKALNI_DIFF.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 150.
+Bila je dokazna analiza prolaznog unstaged diffa i nije aktivni
+operativni standard.
+
 ### `DNEVNIK_RADA.md`
 Evidentira značajne korake rada kronološki.
 Služi kao dokazni trag promjena i odluka kroz vrijeme.
