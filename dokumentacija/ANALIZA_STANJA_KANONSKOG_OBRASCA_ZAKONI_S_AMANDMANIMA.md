@@ -1,5 +1,12 @@
 # ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA
 
+Arhivska oznaka:
+
+- status: arhivski povijesni trag
+- operativni status: neaktivan
+- razlog: vezan uz tadašnje lokalno/remote stanje i više nije
+  aktivan projektni standard
+
 Datum: 31.03.2026.
 Status: radni analiticki presjek
 Opseg: dokazna inventura lokalnog i GitHub stanja nakon nezatvorenih Z138 i

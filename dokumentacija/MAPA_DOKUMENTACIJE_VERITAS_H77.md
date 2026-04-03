@@ -143,8 +143,8 @@ Z139.
 Uređuje razliku između onoga što već postoji kao lokalni kanonski skup,
 onoga što još nije objavljeno na GitHubu i minimalnog sljedećeg koraka za
 zatvaranje obrasca kao stvarnog repozitorijskog standarda.
-Privremeni je radni trag i neoperativni pomoćni dokument; nije glavni tok
-`zakon -> ingest -> JSON`.
+Arhivski je povijesni trag i neoperativni pomoćni dokument; nije aktivni
+operativni standard ni glavni tok `zakon -> ingest -> JSON`.
 
 ### `ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
 Definira dokaznu procjenu je li postojeci kanonski obrazac za zakone s

@@ -8,7 +8,7 @@ Datum: 31.03.2026.
   amandmanima (Z138)
 - Repo čist pri pre-checku: NE
 - Poravnanje grane pri pre-checku: behind 1
-- Zadnji dovršeni zadatak: ZADATAK 147
+- Zadnji dovršeni zadatak: ZADATAK 148
 
 ## Pregled dovršenih zadataka
 
@@ -447,6 +447,13 @@ Datum: 31.03.2026.
   `MDLINT_MODE=SCOPED` i `MDLINT_MODE=FULL_REPO`, dok `alati/ci_smoke.ps1`
   scoped lint zadržava kao hard-gate, a full-repo lint vodi kao evidencijski
   signal ukupnog markdown stanja repozitorija.
+- ZADATAK 148: arhivski je preoznacena samo datoteka
+  `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Prateci trag je azuriran samo u
+  `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
+  `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
+  `dokumentacija/DNEVNIK_RADA.md`, bez diranja drugih dokumenata iz paketa
+  Z138-Z142.
 
 ## Operativni sazetak
 
