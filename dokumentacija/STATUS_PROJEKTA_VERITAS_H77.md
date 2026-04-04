@@ -4,11 +4,11 @@ Datum: 04.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `61bed0e` - docs: revizija strukture
-  dokumentacije i preporuke ciscenja
+- Polazni HEAD prije zadatka: `c6519e9` - docs: prvi skupinski rez
+  ciscenja suma u dokumentaciji
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 155
+- Zadnji dovršeni zadatak: ZADATAK 156
 
 ## Pregled dovršenih zadataka
 
@@ -463,13 +463,15 @@ Datum: 04.04.2026.
   `dokumentacija/DNEVNIK_RADA.md`.
 - ZADATAK 155: proveden je prvi skupinski rez ciscenja suma u
   dokumentaciji nad homogenom skupinom snapshot / primopredaja /
-  stanje-repozitorija tragova.
-  Uklonjeni su
+  stanje-repozitorija tragova, ali je commit `c6519e9` pogrešno ostavio
+  arhivske stubove istih imena u radnom sloju.
+- ZADATAK 156: korektivnim rezom ti su stubovi stvarno uklonjeni iz
+  kanonskog i radnog sloja za dokumente
   `dokumentacija/PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`,
   `dokumentacija/PROCJENA_STATUSA_PAKETA_Z138_DO_Z142.md`,
   `dokumentacija/PRIJEDLOG_ARHIVIRANJA_I_UKLANJANJA_PAKETA_Z138_DO_Z142.md`
-  i `dokumentacija/PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`,
-  a prateći trag ažuriran je samo u
+  i `dokumentacija/PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`.
+  Prateći trag ostaje samo u
   `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
   `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
   `dokumentacija/DNEVNIK_RADA.md`.

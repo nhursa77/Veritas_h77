@@ -5350,3 +5350,48 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 156)
+
+### ZADATAK 156 - korektivno uklonjeni stubovi iz prve skupine suma
+
+Ispravljen je pogrešno izveden prvi skupinski rez iz commita `c6519e9`.
+U tom su koraku četiri dokumenta iz skupine
+`snapshot / primopredaja / stanje-repozitorija` formalno bila maknuta iz
+aktivnog kanonskog sloja, ali su zatim vraćena kao arhivski stubovi istih
+imena.
+
+U ovom korektivnom rezu ti su stubovi stvarno uklonjeni iz kanonskog i
+radnog sloja. Trag o toj skupini sada ostaje samo u
+`dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
+`dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`,
+`dokumentacija/DNEVNIK_RADA.md` i u git povijesti.
+
+U ovom koraku dirano je točno 7 datoteka:
+
+- `dokumentacija/PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+- `dokumentacija/PROCJENA_STATUSA_PAKETA_Z138_DO_Z142.md`
+- `dokumentacija/PRIJEDLOG_ARHIVIRANJA_I_UKLANJANJA_PAKETA_Z138_DO_Z142.md`
+- `dokumentacija/PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -2 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git stash list`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`

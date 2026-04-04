@@ -216,24 +216,32 @@ U paketnom zatvaranju koristi se kao dokazna podloga da raspon `104-121`
 nije bio dostupan u ulazu tog homogenog niza.
 
 ### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
-Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
-Bila je snapshot stanja repozitorija i primopredajni trag bez trajne
-operativne vrijednosti.
+Dokument je bio obuhvaćen prvim skupinskim rezom u ZADATAK 155, ali je
+commit `c6519e9` pogrešno ostavio arhivski stub istog imena.
+Korektivnim rezom u ZADATAK 156 stub je stvarno uklonjen iz kanonskog i
+radnog sloja; trag ostaje samo u `MAPA`, `STATUS`, `DNEVNIK` i git
+povijesti.
 
 ### `PROCJENA_STATUSA_PAKETA_Z138_DO_Z142.md`
-Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
-Bila je prolazna procjena stanja paketa i zatvorenog servisnog niza
-Z138-Z142.
+Dokument je bio obuhvaćen prvim skupinskim rezom u ZADATAK 155, ali je
+commit `c6519e9` pogrešno ostavio arhivski stub istog imena.
+Korektivnim rezom u ZADATAK 156 stub je stvarno uklonjen iz kanonskog i
+radnog sloja; trag ostaje samo u `MAPA`, `STATUS`, `DNEVNIK` i git
+povijesti.
 
 ### `PRIJEDLOG_ARHIVIRANJA_I_UKLANJANJA_PAKETA_Z138_DO_Z142.md`
-Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
-Bila je meta-prijedlog za kasnije uklanjanje već konzumiranog prijelaznog
-paketa.
+Dokument je bio obuhvaćen prvim skupinskim rezom u ZADATAK 155, ali je
+commit `c6519e9` pogrešno ostavio arhivski stub istog imena.
+Korektivnim rezom u ZADATAK 156 stub je stvarno uklonjen iz kanonskog i
+radnog sloja; trag ostaje samo u `MAPA`, `STATUS`, `DNEVNIK` i git
+povijesti.
 
 ### `PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`
-Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
-Bila je operativna priprema budućeg removal koraka koja više nije aktivni
-operativni standard.
+Dokument je bio obuhvaćen prvim skupinskim rezom u ZADATAK 155, ali je
+commit `c6519e9` pogrešno ostavio arhivski stub istog imena.
+Korektivnim rezom u ZADATAK 156 stub je stvarno uklonjen iz kanonskog i
+radnog sloja; trag ostaje samo u `MAPA`, `STATUS`, `DNEVNIK` i git
+povijesti.
 
 ### `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
 Definira dokazne terminološke izvore za višejezične ekvivalente.
