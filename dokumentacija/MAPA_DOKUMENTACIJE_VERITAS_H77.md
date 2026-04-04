@@ -216,9 +216,24 @@ U paketnom zatvaranju koristi se kao dokazna podloga da raspon `104-121`
 nije bio dostupan u ulazu tog homogenog niza.
 
 ### `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
-Zamrzava trenutno stanje repozitorija za nastavak rada bez
-kopanja po povijesti.
-Sadrži stanje grane, zadnje commitove, čistoću repoa i aktivne gate markere.
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
+Bila je snapshot stanja repozitorija i primopredajni trag bez trajne
+operativne vrijednosti.
+
+### `PROCJENA_STATUSA_PAKETA_Z138_DO_Z142.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
+Bila je prolazna procjena stanja paketa i zatvorenog servisnog niza
+Z138-Z142.
+
+### `PRIJEDLOG_ARHIVIRANJA_I_UKLANJANJA_PAKETA_Z138_DO_Z142.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
+Bila je meta-prijedlog za kasnije uklanjanje već konzumiranog prijelaznog
+paketa.
+
+### `PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`
+Datoteka je uklonjena iz aktivnog kanonskog sloja u ZADATAK 155.
+Bila je operativna priprema budućeg removal koraka koja više nije aktivni
+operativni standard.
 
 ### `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`
 Definira dokazne terminološke izvore za višejezične ekvivalente.
@@ -348,7 +363,6 @@ snapshota od zavrsnog git dokaza.
 27) `PRIORITETI_KONVERZIJE_ZAKONA_U_JSON.md`
 28) `REZIM_KONVERZIJE_ZUP_U_JSON.md`
 29) `REZIM_KONVERZIJE_ZUS_U_JSON.md`
-30) `PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
 
 ### Redoslijed čitanja — prekršajni modul
 

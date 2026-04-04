@@ -5304,3 +5304,49 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1 -FullRepo`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 155)
+
+### ZADATAK 155 - prvi skupinski rez ciscenja suma u dokumentaciji
+
+Proveden je prvi homogeni skupinski cleanup rez nad skupinom
+`snapshot / primopredaja / stanje-repozitorija` tragova u mapi
+`dokumentacija/`, bez širenja scopea izvan odabrane skupine i pratećih
+kanonskih evidencijskih datoteka.
+
+U ovom koraku dirano je točno 7 datoteka:
+
+- `dokumentacija/PRIMOPREDAJNI_PAKET_STANJA_REPOZITORIJA.md`
+- `dokumentacija/PROCJENA_STATUSA_PAKETA_Z138_DO_Z142.md`
+- `dokumentacija/PRIJEDLOG_ARHIVIRANJA_I_UKLANJANJA_PAKETA_Z138_DO_Z142.md`
+- `dokumentacija/PRIPREMA_UKLANJANJA_PROCEDURALNIH_DATOTEKA_Z138_DO_Z142.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Zajednička logika reza:
+
+- svi zahvaćeni dokumenti bili su snapshot, primopredajni ili prijelazni
+  statusni tragovi bez aktivne operativne vrijednosti
+- svi su već bili konzumirani kasnijim commitovima i dokaznim revizijama
+- uklonjeni su iz aktivnog kanonskog sloja kako bi se smanjio šum u vrhu
+  mape `dokumentacija/`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git stash list`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
