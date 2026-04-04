@@ -48,8 +48,9 @@ Napomena:
 Uveden je i `alati/zatvori_validiranu_gransku_natuknicu.py` kao novi
 genericki alat za objedinjenu jezgru zatvaranja validirane granske
 natuknice.
-Postojece 4 skripte skupine za sada ostaju netaknute, a migracija
-wrappera nije dio ovog koraka.
+Postojece 4 skripte skupine sada su kompatibilni wrapperi koji delegiraju
+na taj genericki alat.
+Fizicko uklanjanje wrappera nije dio ovog koraka.
 
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.
