@@ -5121,3 +5121,39 @@ Dokazne naredbe:
   .\dokumentacija\DNEVNIK_RADA.md
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1
 - pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 151)
+
+### ZADATAK 151 - sanacija md010 hard-tab problema
+
+Sanirana su oba aktivna `MD010` hard-tab nalaza iz kanonskog popisa,
+bez drugih markdown zahvata izvan dopuštenog scopea.
+
+U ovom koraku dirane su točno 3 datoteke:
+
+- `dokumentacija/STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+- `izvori/dokazno/narodne_novine/IZVJESTAJ_KONTROLE_ARHIVE.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\STANDARD_PRIORITETNI_UZORAK_ZA_NN_SIDRENJE.md`
+  `.\izvori\dokazno\narodne_novine\IZVJESTAJ_KONTROLE_ARHIVE.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1 -FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
