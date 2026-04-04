@@ -5209,3 +5209,55 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1 -FullRepo`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 153)
+
+### ZADATAK 153 - drugi batch md013 selection report sanacije
+
+Saniran je drugi homogeni batch `MD013` selection report backloga u skupu
+`izvori/dokazno/narodne_novine/`, bez diranja drugih markdown problema i
+bez širenja scopea izvan odabranog pods-kupa.
+
+U ovom koraku dirano je točno 9 datoteka:
+
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_106_2018_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_114_2023_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_121_2019_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_138_2020_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_151_2022_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_152_2024_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_POREZU_NA_DOHODAK_NN_32_2020_SELECTION_REPORT.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Riječ je o drugom batch `MD013` rezu nad dokumentima istog tipa, s istim
+mehaničkim obrascem sanacije kroz prelom dugih redaka bez promjene značenja.
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `<batch2_selection_report_datoteke> .\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1 -FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
