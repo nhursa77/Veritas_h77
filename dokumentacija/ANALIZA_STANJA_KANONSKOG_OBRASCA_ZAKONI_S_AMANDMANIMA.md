@@ -2,8 +2,12 @@
 
 Arhivska oznaka:
 
-- status: arhivski povijesni trag
+- status: povijesni dokazni trag
 - operativni status: neaktivan
+- supersediraju ga:
+  `KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`,
+  `ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+  i kasnije zatvaranje niza Z138-Z142
 - razlog: vezan uz tadašnje lokalno/remote stanje i više nije
   aktivan projektni standard
 

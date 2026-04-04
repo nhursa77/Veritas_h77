@@ -4,11 +4,11 @@ Datum: 04.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `c6519e9` - docs: prvi skupinski rez
-  ciscenja suma u dokumentaciji
+- Polazni HEAD prije zadatka: `b13fb30` - docs: korektivno uklonjeni
+  stubovi iz prve skupine suma
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 156
+- Zadnji dovršeni zadatak: ZADATAK 157
 
 ## Pregled dovršenih zadataka
 
@@ -475,6 +475,14 @@ Datum: 04.04.2026.
   `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`,
   `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md` i
   `dokumentacija/DNEVNIK_RADA.md`.
+- ZADATAK 157: preoznacena je homogena skupina povijesnih dokaznih
+  tragova koju čine
+  `dokumentacija/REVIZIJA_DOKUMENTACIJE_VERITAS_H77.md`,
+  `dokumentacija/POPIS_AKTIVNIH_MARKDOWN_PROBLEMA.md` i
+  `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`.
+  Dokumenti ostaju u repou, ali su u `MAPA`, `STATUS` i vlastitom zaglavlju
+  jasno razdvojeni kao `POVIJESNI_DOKAZNI_TRAGOVI`, izvan aktivnog
+  kanonskog sloja.
 
 ## Operativni sazetak
 

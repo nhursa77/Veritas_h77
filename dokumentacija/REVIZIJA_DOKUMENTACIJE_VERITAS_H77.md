@@ -1,5 +1,13 @@
 # REVIZIJA_DOKUMENTACIJE_VERITAS_H77
 
+Povijesna oznaka:
+
+- status: povijesni dokazni trag
+- operativni status: neaktivan
+- supersedira ga:
+  `dokumentacija/REVIZIJA_STRUKTURE_DOKUMENTACIJE_I_PREPORUKE_CISCENJA.md`
+- napomena: ostaje u repou kao stariji read-only revizijski trag
+
 Datum: 03.04.2026.
 Status: read-only revizijska analiza
 Opseg: klasifikacija svih postojecih `.md` dokumenata unutar

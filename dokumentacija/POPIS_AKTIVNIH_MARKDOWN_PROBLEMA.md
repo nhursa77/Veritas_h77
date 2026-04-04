@@ -1,5 +1,13 @@
 # POPIS_AKTIVNIH_MARKDOWN_PROBLEMA
 
+Povijesna oznaka:
+
+- status: povijesni dokazni trag
+- operativni status: neaktivan
+- supersedirano dokumentom:
+  `dokumentacija/PREOSTALI_MARKDOWN_BACKLOG_NAKON_SELECTION_REPORT_SANACIJE.md`
+- napomena: backlog zabilježen ovdje kasnije je zatvoren na nulu
+
 Datum: 04.04.2026.
 Status: read-only dokazna inventura
 Opseg: zaključavanje stvarnog trenutnog full-repo markdown backloga

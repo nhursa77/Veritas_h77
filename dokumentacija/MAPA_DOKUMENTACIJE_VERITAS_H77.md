@@ -137,14 +137,26 @@ sloj, pravila za sidra i norme, validaciju, tolerirana odstupanja,
 završni izvještaj i uvjete kada se zakon smije označiti kao kanonski
 obrađen.
 
+### `REVIZIJA_DOKUMENTACIJE_VERITAS_H77.md`
+POVIJESNI_DOKAZNI_TRAGOVI. Starija read-only revizija dokumentacije,
+supersedana dokumentom
+`REVIZIJA_STRUKTURE_DOKUMENTACIJE_I_PREPORUKE_CISCENJA.md`.
+Ostaje u repou radi audita, ali nije aktivni operativni sloj.
+
+### `POPIS_AKTIVNIH_MARKDOWN_PROBLEMA.md`
+POVIJESNI_DOKAZNI_TRAGOVI. Bilježi stari markdown backlog koji je kasnije
+zatvoren na nulu.
+Supersediran je dokumentom
+`PREOSTALI_MARKDOWN_BACKLOG_NAKON_SELECTION_REPORT_SANACIJE.md`
+i kasnijim čistim lint rezultatima; ostaje samo kao dokazni trag.
+
 ### `ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
-Definira dokazni presjek lokalnog i GitHub stanja nakon nezatvorenih Z138 i
-Z139.
-Uređuje razliku između onoga što već postoji kao lokalni kanonski skup,
-onoga što još nije objavljeno na GitHubu i minimalnog sljedećeg koraka za
-zatvaranje obrasca kao stvarnog repozitorijskog standarda.
-Arhivski je povijesni trag i neoperativni pomoćni dokument; nije aktivni
-operativni standard ni glavni tok `zakon -> ingest -> JSON`.
+POVIJESNI_DOKAZNI_TRAGOVI. Dokazuje tadašnje lokalno i GitHub stanje nakon
+nezatvorenih Z138 i Z139.
+Supersediraju ga `KANONSKI_OBRAZAC_ZAKONI_S_AMANDMANIMA_JSON.md`,
+`ODGOVOR_DOVOLJNOST_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+i kasnije zatvaranje tog niza; nije aktivni operativni standard ni glavni
+`zakon -> ingest -> JSON` tok.
 
 ### `ANALIZA_DOVOLJNOSTI_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
 Definira dokaznu procjenu je li postojeci kanonski obrazac za zakone s

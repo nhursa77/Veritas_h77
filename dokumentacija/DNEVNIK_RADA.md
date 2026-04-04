@@ -5395,3 +5395,52 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 157)
+
+### ZADATAK 157 - preoznaceni povijesni dokazni tragovi u dokumentaciji
+
+Proveden je drugi skupinski dokumentacijski rez nad homogenom skupinom
+starijih povijesnih dokaznih i revizijskih tragova koji ostaju u repou,
+ali više ne pripadaju aktivnom kanonskom sloju.
+
+Odabrana skupina obuhvaća točno ove dokumente:
+
+- `dokumentacija/REVIZIJA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/POPIS_AKTIVNIH_MARKDOWN_PROBLEMA.md`
+- `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+
+U ovom koraku dirano je točno 6 datoteka:
+
+- `dokumentacija/REVIZIJA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/POPIS_AKTIVNIH_MARKDOWN_PROBLEMA.md`
+- `dokumentacija/ANALIZA_STANJA_KANONSKOG_OBRASCA_ZAKONI_S_AMANDMANIMA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Zajednička logika reza:
+
+- svi dokumenti imaju dokaznu vrijednost, ali nisu dnevni operativni kanon
+- svi su supersedani novijim revizijama ili zatvorenim rezultatima
+- ostaju u repou kao `POVIJESNI_DOKAZNI_TRAGOVI`
+- nijedna datoteka nije fizički uklonjena
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git stash list`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
