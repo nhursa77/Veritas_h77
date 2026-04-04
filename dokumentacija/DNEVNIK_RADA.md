@@ -5261,3 +5261,46 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\lint_markdown.ps1 -FullRepo`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 154)
+
+### ZADATAK 154 - treci i zavrsni batch md013 selection report sanacije
+
+Saniran je treći i završni homogeni batch `MD013` selection report backloga
+u skupu `izvori/dokazno/narodne_novine/`, bez diranja drugih markdown
+problema i bez širenja scopea izvan završnog pods-kupa.
+
+U ovom koraku dirane su točno 4 datoteke:
+
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_OPCEM_UPRAVNOM_POSTUPKU_NN_110_2021_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_OPCEM_UPRAVNOM_POSTUPKU_SELECTION_REPORT.md`
+- `izvori/dokazno/narodne_novine/`
+  `ZAKON_O_UPRAVNIM_SPOROVIMA_SELECTION_REPORT.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Riječ je o trećem i završnom `MD013` rezu nad dokumentima istog tipa, s istim
+mehaničkim obrascem sanacije kroz prelom dugih redaka bez promjene značenja.
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git stash list`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `<batch3_selection_report_datoteke> .\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\lint_markdown.ps1 -FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
