@@ -44,6 +44,13 @@ Postoji u repozitoriju. Namjena je pohrana stvarnih predmeta.
 Postoji u repozitoriju.
 Sadrži skripte za ingest, normiranje, validaciju i CI smoke provjere.
 
+Napomena:
+Uveden je i `alati/zatvori_validiranu_gransku_natuknicu.py` kao novi
+genericki alat za objedinjenu jezgru zatvaranja validirane granske
+natuknice.
+Postojece 4 skripte skupine za sada ostaju netaknute, a migracija
+wrappera nije dio ovog koraka.
+
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.
 

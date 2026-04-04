@@ -5444,3 +5444,46 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1 <sve_dirane_md_datoteke>`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 158)
+
+### ZADATAK 158 - uveden genericki alat za zatvaranje granskih natuknica
+
+Uveden je novi genericki alat
+`alati/zatvori_validiranu_gransku_natuknicu.py` koji objedinjuje
+zajednicku jezgru logike skupine
+`zatvori_*_validiranu_gransku_natuknicu.py`.
+
+U ovom koraku stare 4 skripte nisu dirane, nisu preimenovane i nije
+provedena migracija postojecih poziva na novi alat.
+
+U ovom koraku dirane su točno 3 datoteke:
+
+- `alati/zatvori_validiranu_gransku_natuknicu.py`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git --no-pager log -1 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `git stash list`
+- `Get-Content .\dokumentacija\DNEVNIK_RADA.md -Tail 120`
+- `c:/Veritas_H77/.venv/Scripts/python.exe -m py_compile`
+  `.\alati\zatvori_validiranu_gransku_natuknicu.py`
+- `c:/Veritas_H77/.venv/Scripts/python.exe`
+  `.\alati\zatvori_validiranu_gransku_natuknicu.py --help`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\TEHNIČKI_OKVIR_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
