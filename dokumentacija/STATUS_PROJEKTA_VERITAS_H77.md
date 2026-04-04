@@ -4,11 +4,11 @@ Datum: 04.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `b13fb30` - docs: korektivno uklonjeni
-  stubovi iz prve skupine suma
+- Polazni HEAD prije zadatka: `6f49815` - docs: popis referenci na
+  wrappere granskih natuknica
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 157
+- Zadnji dovršeni zadatak: ZADATAK 160
 
 ## Pregled dovršenih zadataka
 
@@ -483,6 +483,17 @@ Datum: 04.04.2026.
   Dokumenti ostaju u repou, ali su u `MAPA`, `STATUS` i vlastitom zaglavlju
   jasno razdvojeni kao `POVIJESNI_DOKAZNI_TRAGOVI`, izvan aktivnog
   kanonskog sloja.
+- ZADATAK 160: dovrsen je planned removal 4 wrapper skripte skupine
+  `zatvori_*_validiranu_gransku_natuknicu.py`, na temelju dokaznih
+  dokumenata
+  `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_`
+  `WRAPPERA_GRANSKIH_NATUKNICA.md`
+  i
+  `dokumentacija/POPIS_REFERENCI_NA_WRAPPERE_`
+  `GRANSKIH_NATUKNICA.md`.
+  Genericki alat `alati/zatvori_validiranu_gransku_natuknicu.py` nije
+  diran i ostaje jedina aktivna implementacija; konsolidacija skupine je
+  zavrsena.
 
 ## Operativni sazetak
 

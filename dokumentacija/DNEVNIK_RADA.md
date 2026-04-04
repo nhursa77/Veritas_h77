@@ -5542,3 +5542,63 @@ Dokazne naredbe:
   `.\dokumentacija\DNEVNIK_RADA.md`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+---
+
+## Datum: 04.04.2026 (ZADATAK 160)
+
+### ZADATAK 160 - uklonjeni wrapperi granskih natuknica nakon konsolidacije
+
+Uklonjene su 4 stare wrapper skripte skupine
+`zatvori_*_validiranu_gransku_natuknicu.py` nakon dokazne provjere da više
+nemaju aktivne operativne reference u repou.
+
+Removal je proveden na temelju dokumenata:
+
+- `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_`
+  `WRAPPERA_GRANSKIH_NATUKNICA.md`
+- `dokumentacija/POPIS_REFERENCI_NA_WRAPPERE_GRANSKIH_NATUKNICA.md`
+
+Generički alat `alati/zatvori_validiranu_gransku_natuknicu.py` u ovom
+koraku nije diran i ostaje jedina aktivna implementacija skupine.
+
+U ovom koraku dirano je točno 7 datoteka:
+
+- `alati/zatvori_prvu_validiranu_gransku_natuknicu.py`
+- `alati/zatvori_drugu_validiranu_gransku_natuknicu.py`
+- `alati/zatvori_sljedecu_validiranu_gransku_natuknicu.py`
+- `alati/zatvori_jos_jednu_validiranu_gransku_natuknicu.py`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git stash list`
+- `git --no-pager log -3 --oneline`
+- `git branch -vv`
+- `git ls-remote --heads origin main`
+- `Write-Host "DNEVNIK_TAIL_BEFORE_BEGIN"; Get-Content`
+  `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
+  `Write-Host "DNEVNIK_TAIL_BEFORE_END"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\alati\zatvori_prvu_validiranu_gransku_natuknicu.py`
+  `.\alati\zatvori_drugu_validiranu_gransku_natuknicu.py`
+  `.\alati\zatvori_sljedecu_validiranu_gransku_natuknicu.py`
+  `.\alati\zatvori_jos_jednu_validiranu_gransku_natuknicu.py`
+  `.\dokumentacija\TEHNIČKI_OKVIR_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --cached --name-only`
+- `git status --short`
+- `Write-Host "DNEVNIK_TAIL_AFTER_BEGIN"; Get-Content`
+  `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
+  `Write-Host "DNEVNIK_TAIL_AFTER_END"`
