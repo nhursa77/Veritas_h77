@@ -315,3 +315,4 @@ Zaključak:
 Ovaj dokument zaključava stvarni aktivni markdown backlog na dan
 `04.04.2026.` i služi kao forenzička osnova za sljedeći scoped sanacijski
 zadatak.
+
