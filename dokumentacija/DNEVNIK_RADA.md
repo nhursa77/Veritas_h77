@@ -5802,3 +5802,39 @@ Dokazne naredbe:
 - `Write-Host "DNEVNIK_TAIL_AFTER_BEGIN"; Get-Content`
   `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
   `Write-Host "DNEVNIK_TAIL_AFTER_END"`
+---
+
+## Datum: 05.04.2026 (ZADATAK 164)
+
+### ZADATAK 164 - uveden genericki schema-driven validator v1
+
+Uveden je novi alat `alati/validiraj_json_po_shemi_v1.ps1` kao
+zajednicka schema-driven jezgra za kasniju migraciju skupine
+`PREKRSAJNI_JSON_VALIDATORI_V1`.
+
+U ovom koraku postojecih 5 validatora nisu dirani, nisu preusmjereni i
+nisu brisani:
+
+- `alati/validiraj_audit_v1.ps1`
+- `alati/validiraj_intake_prekrsaji_v1.ps1`
+- `alati/validiraj_postupak_v1.ps1`
+- `alati/validiraj_predlozak_v1.ps1`
+- `alati/validiraj_subsumciju_v1.ps1`
+
+Dirane su tocno ove datoteke:
+
+- `alati/validiraj_json_po_shemi_v1.ps1`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Wrapper migracija nije dio ovog zadatka.
+
+Obavljene provjere:
+
+- PowerShell parsiranje i sigurno ucitavanje novog alata
+- help i usage izlaz novog alata
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
