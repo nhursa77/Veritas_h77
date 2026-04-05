@@ -5837,7 +5837,7 @@ Obavljene provjere:
 - `lint_markdown.ps1`
 - `ci_smoke.ps1`
 
-Commit hash: (upisano nakon commita)
+Commit hash: `a20b24d`
 
 ---
 
@@ -5879,7 +5879,7 @@ Obavljene provjere:
 - `lint_markdown.ps1`
 - `ci_smoke.ps1`
 
-Commit hash: (upisano nakon commita)
+Commit hash: `d9965b4`
 
 ---
 
@@ -5916,5 +5916,5 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 
-Commit hash: (upisano nakon commita)
+Commit hash: `967576a`
 
