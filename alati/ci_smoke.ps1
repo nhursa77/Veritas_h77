@@ -13,11 +13,7 @@ $preflightScript = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
 $paketScript = Join-Path $PSScriptRoot "acceptance_paket.ps1"
 $deltaOpsValidatorScript = Join-Path $PSScriptRoot "validiraj_delta_ops.ps1"
 $markdownLintScript = Join-Path $PSScriptRoot "lint_markdown.ps1"
-$auditValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_v1.ps1"
-$intakeValidatorScript = Join-Path $PSScriptRoot "validiraj_intake_prekrsaji_v1.ps1"
-$subsumcijaValidatorScript = Join-Path $PSScriptRoot "validiraj_subsumciju_v1.ps1"
-$predlozakValidatorScript = Join-Path $PSScriptRoot "validiraj_predlozak_v1.ps1"
-$postupakValidatorScript = Join-Path $PSScriptRoot "validiraj_postupak_v1.ps1"
+$genericSchemaValidatorScript = Join-Path $PSScriptRoot "validiraj_json_po_shemi_v1.ps1"
 $auditGeneratorScript = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
 $auditGeneratedValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_generated_v1.ps1"
 $auditFixturesTestScript = Join-Path $PSScriptRoot "test_fixtures_audit_prekrsaji_v1.ps1"
@@ -38,6 +34,108 @@ function Invoke-SmokeStep {
         Write-Host "CI_SMOKE_EXIT=$exitCode"
         exit $exitCode
     }
+}
+
+function Invoke-GenericSchemaValidationSet {
+    param(
+        [Parameter(Mandatory = $true)][string] $TargetRoot,
+        [Parameter(Mandatory = $true)][string] $Filter,
+        [Parameter(Mandatory = $true)][string] $SchemaRelativePath,
+        [Parameter(Mandatory = $true)][string] $Marker,
+        [Parameter(Mandatory = $true)][string] $Description,
+        [string] $PathRegex,
+        [switch] $NormalizeAuditModuleIo
+    )
+
+    if (-not (Test-Path -LiteralPath $genericSchemaValidatorScript)) {
+        Write-Host "ERROR: NEDOSTAJE_VALIDATOR=$genericSchemaValidatorScript"
+        Write-Host "$Marker`_EXIT=4"
+        $global:LASTEXITCODE = 4
+        return
+    }
+
+    $schemaPath = Join-Path $root $SchemaRelativePath
+    if (-not (Test-Path -LiteralPath $schemaPath)) {
+        Write-Host "ERROR: NEDOSTAJE_SHEMA=$schemaPath"
+        Write-Host "$Marker`_EXIT=3"
+        $global:LASTEXITCODE = 3
+        return
+    }
+
+    if (-not (Test-Path -LiteralPath $TargetRoot)) {
+        Write-Host "NEMA_DATOTEKA=1"
+        Write-Host "$Marker`_EXIT=0"
+        $global:LASTEXITCODE = 0
+        return
+    }
+
+    $files = @(Get-ChildItem -Path $TargetRoot -Recurse -File -Filter $Filter)
+    if (-not [string]::IsNullOrWhiteSpace($PathRegex)) {
+        $files = @($files | Where-Object { $_.FullName -match $PathRegex })
+    }
+
+    if ($files.Count -eq 0) {
+        Write-Host "NEMA_DATOTEKA=1"
+        Write-Host "$Marker`_EXIT=0"
+        $global:LASTEXITCODE = 0
+        return
+    }
+
+    $finalExit = 0
+    foreach ($file in $files) {
+        $jsonPathForValidation = $file.FullName
+        $tempJsonPath = $null
+
+        try {
+            if ($NormalizeAuditModuleIo) {
+                $doc = Get-Content -LiteralPath $file.FullName -Raw | ConvertFrom-Json
+                $requiresNormalization = $false
+
+                foreach ($modul in @($doc.moduli)) {
+                    if ($null -eq $modul) {
+                        continue
+                    }
+
+                    if ($null -ne $modul.ulazi -and $modul.ulazi -isnot [System.Array]) {
+                        $modul.ulazi = @($modul.ulazi)
+                        $requiresNormalization = $true
+                    }
+
+                    if ($null -ne $modul.izlazi -and $modul.izlazi -isnot [System.Array]) {
+                        $modul.izlazi = @($modul.izlazi)
+                        $requiresNormalization = $true
+                    }
+                }
+
+                if ($requiresNormalization) {
+                    $tempJsonPath = Join-Path $env:TEMP (
+                        "veritas_ci_smoke_audit_{0}.json" -f [Guid]::NewGuid().ToString("N")
+                    )
+                    $doc | ConvertTo-Json -Depth 100 | Set-Content -LiteralPath $tempJsonPath -Encoding UTF8
+                    $jsonPathForValidation = $tempJsonPath
+                }
+            }
+
+            & pwsh -NoProfile -ExecutionPolicy Bypass -File $genericSchemaValidatorScript `
+                -JsonPutanja $jsonPathForValidation `
+                -ShemaPutanja $schemaPath `
+                -OpisValidatora $Description `
+                -OznakaIzlaza ("{0}_FILE" -f $Marker)
+            $validatorExit = $LASTEXITCODE
+        }
+        finally {
+            if ($null -ne $tempJsonPath -and (Test-Path -LiteralPath $tempJsonPath)) {
+                Remove-Item -LiteralPath $tempJsonPath -Force -ErrorAction SilentlyContinue
+            }
+        }
+
+        if ($validatorExit -ne 0 -and $finalExit -eq 0) {
+            $finalExit = $validatorExit
+        }
+    }
+
+    Write-Host "$Marker`_EXIT=$finalExit"
+    $global:LASTEXITCODE = $finalExit
 }
 
 Push-Location $root
@@ -108,27 +206,66 @@ try {
         },
         [pscustomobject]@{
             Name = "validate_audit_v1"
-            Action = { & $auditValidatorScript }
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "predmeti\sud\prekrsajni") `
+                    -Filter "audit_v*.json" `
+                    -PathRegex "\\audit\\" `
+                    -SchemaRelativePath "dokumentacija\sheme\SCHEMA_AUDIT_V1.json" `
+                    -Marker "VALIDATOR_AUDIT_V1" `
+                    -Description "ci smoke audit v1 izravno preko generickog schema-driven validatora" `
+                    -NormalizeAuditModuleIo
+            }
             Enabled = $true
         },
         [pscustomobject]@{
             Name = "validate_intake_prekrsaji_v1"
-            Action = { & $intakeValidatorScript }
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "predmeti\sud\prekrsajni") `
+                    -Filter "intake_v*.json" `
+                    -PathRegex "\\intake\\" `
+                    -SchemaRelativePath "dokumentacija\sheme\SCHEMA_INTAKE_PREKRSAJI_V1.json" `
+                    -Marker "VALIDATOR_INTAKE_PREKRSAJI_V1" `
+                    -Description "ci smoke intake v1 izravno preko generickog schema-driven validatora"
+            }
             Enabled = $true
         },
         [pscustomobject]@{
             Name = "validate_subsumcija_v1"
-            Action = { & $subsumcijaValidatorScript }
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "predmeti\sud\prekrsajni") `
+                    -Filter "subsumcija_v*.json" `
+                    -PathRegex "\\audit\\" `
+                    -SchemaRelativePath "dokumentacija\sheme\SCHEMA_SUBSUMPCIJA_V1.json" `
+                    -Marker "VALIDATOR_SUBSUMPCIJA_V1" `
+                    -Description "ci smoke subsumcija v1 izravno preko generickog schema-driven validatora"
+            }
             Enabled = $true
         },
         [pscustomobject]@{
             Name = "validate_predlozak_v1"
-            Action = { & $predlozakValidatorScript }
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "predlosci\sud\prekrsajni") `
+                    -Filter "predlozak.json" `
+                    -SchemaRelativePath "dokumentacija\sheme\SCHEMA_PREDLOZAK_V1.json" `
+                    -Marker "VALIDATOR_PREDLOZAK_V1" `
+                    -Description "ci smoke predlozak v1 izravno preko generickog schema-driven validatora"
+            }
             Enabled = $true
         },
         [pscustomobject]@{
             Name = "validate_postupak_v1"
-            Action = { & $postupakValidatorScript }
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "postupci\sud\prekrsajni") `
+                    -Filter "postupak.json" `
+                    -SchemaRelativePath "dokumentacija\sheme\SCHEMA_POSTUPAK_V1.json" `
+                    -Marker "VALIDATOR_POSTUPAK_V1" `
+                    -Description "ci smoke postupak v1 izravno preko generickog schema-driven validatora"
+            }
             Enabled = $true
         },
         [pscustomobject]@{

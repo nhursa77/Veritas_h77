@@ -5880,3 +5880,41 @@ Obavljene provjere:
 - `ci_smoke.ps1`
 
 Commit hash: (upisano nakon commita)
+
+---
+
+## Datum: 05.04.2026 (ZADATAK 166)
+
+### ZADATAK 166 - `ci_smoke.ps1` preusmjeren na genericki validator
+
+U `alati/ci_smoke.ps1` pet schema-driven provjera preusmjereno je s
+izravnih poziva wrappera na izravni poziv alata
+`alati/validiraj_json_po_shemi_v1.ps1`.
+
+U ovom koraku nisu dirani kompatibilni wrapperi ni JSON sheme.
+Time je uklonjena glavna operativna ovisnost smoke lanca o wrapperima,
+a zadrzani su isti `VALIDATOR_*_EXIT` markeri.
+
+Dirane su tocno ove datoteke:
+
+- `alati/ci_smoke.ps1`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrdeno je da nista izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git diff --name-only`
+- `git status --short`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\dokumentacija\TEHNIČKI_OKVIR_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
+

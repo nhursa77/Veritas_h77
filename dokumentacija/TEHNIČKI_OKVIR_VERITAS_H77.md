@@ -75,7 +75,11 @@ Pet validatora skupine (`validiraj_audit_v1.ps1`,
 `validiraj_intake_prekrsaji_v1.ps1`, `validiraj_postupak_v1.ps1`,
 `validiraj_predlozak_v1.ps1`, `validiraj_subsumciju_v1.ps1`) sada su
 kompatibilni wrapperi koji delegiraju na taj genericki alat.
-Fizicko uklanjanje tih wrappera nije dio ovog koraka.
+`alati/ci_smoke.ps1` za jezgru tih 5 schema-driven provjera vise ne
+ovisi operativno o wrapperima, nego izravno poziva
+`alati/validiraj_json_po_shemi_v1.ps1`.
+Wrapperi u ovom koraku ostaju fizicki prisutni radi kompatibilnosti, a
+njihovo uklanjanje nije dio ovog koraka.
 
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.

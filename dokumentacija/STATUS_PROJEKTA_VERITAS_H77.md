@@ -1,14 +1,23 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 04.04.2026.
+Datum: 05.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `ff8f7b4` - docs: popis referenci na
-  wrappere paketa prekrsajnog zakona
+- Polazni HEAD prije zadatka: `3cfde20` - docs: analiza zadrzavanja ili
+  uklanjanja wrappera prekrsajni json validatori v1
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 163
+- Zadnji dovršeni zadatak: ZADATAK 165
+
+## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
+
+- Operativna ovisnost u `alati/ci_smoke.ps1` za 5 schema-driven
+  validatora preusmjerena je na `alati/validiraj_json_po_shemi_v1.ps1`.
+- Time je uklonjen glavni operativni blocker za kasniju removal procjenu
+  wrappera iz dokumenta
+  `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_WRAPPERA_PREKRSAJNI_`
+  `JSON_VALIDATORI_V1.md`.
 
 ## Pregled dovršenih zadataka
 
