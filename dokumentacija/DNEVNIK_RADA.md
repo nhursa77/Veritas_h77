@@ -5918,3 +5918,44 @@ Dokazne naredbe:
 
 Commit hash: `967576a`
 
+---
+
+## Datum: 05.04.2026 (ZADATAK 167)
+
+### ZADATAK 167 - uklonjeni wrapperi validatora prekrsajnog json v1
+
+Nakon dokazne repo-pretrage removal spremnosti fizicki je uklonjeno
+5 kompatibilnih wrapper validatora skupine
+`PREKRSAJNI_JSON_VALIDATORI_V1`:
+
+- `alati/validiraj_audit_v1.ps1`
+- `alati/validiraj_intake_prekrsaji_v1.ps1`
+- `alati/validiraj_postupak_v1.ps1`
+- `alati/validiraj_predlozak_v1.ps1`
+- `alati/validiraj_subsumciju_v1.ps1`
+
+U ovom koraku `alati/validiraj_json_po_shemi_v1.ps1` nije diran.
+U ovom koraku `alati/ci_smoke.ps1` nije diran.
+
+Dirane su tocno ove datoteke:
+
+- `alati/validiraj_audit_v1.ps1` (uklonjeno)
+- `alati/validiraj_intake_prekrsaji_v1.ps1` (uklonjeno)
+- `alati/validiraj_postupak_v1.ps1` (uklonjeno)
+- `alati/validiraj_predlozak_v1.ps1` (uklonjeno)
+- `alati/validiraj_subsumciju_v1.ps1` (uklonjeno)
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrdeno je da vise nema aktivnih operativnih referenci na stara imena.
+
+Obavljene provjere:
+
+- `git status --short -- .\alati`
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
+

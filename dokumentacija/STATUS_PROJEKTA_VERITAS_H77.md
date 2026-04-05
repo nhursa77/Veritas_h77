@@ -4,20 +4,20 @@ Datum: 05.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `967576a` - feat: ci smoke za validatore
-  v1 preusmjeren na genericki schema-driven alat
+- Polazni HEAD prije zadatka: `16628b1` - docs: popis referenci na
+  wrappere prekrsajni json validatori v1 nakon preusmjerenja ci smoke
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s `origin/main`
-- Zadnji dovršeni zadatak: ZADATAK 166
+- Zadnji dovršeni zadatak: ZADATAK 167
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
-- Operativna ovisnost u `alati/ci_smoke.ps1` za 5 schema-driven
-  validatora preusmjerena je na `alati/validiraj_json_po_shemi_v1.ps1`.
-- Time je uklonjen glavni operativni blocker za kasniju removal procjenu
-  wrappera iz dokumenta
-  `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_WRAPPERA_PREKRSAJNI_`
-  `JSON_VALIDATORI_V1.md`.
+- Pet wrapper validatora uklonjeno je nakon dokazne repo-pretrage
+  removal spremnosti.
+- Schema-driven validacija ostaje centralizirana u
+  `alati/validiraj_json_po_shemi_v1.ps1`, a `alati/ci_smoke.ps1`
+  ostaje kompatibilan jer je vec preusmjeren na genericki alat.
+- Aktivnih operativnih referenci na stara imena vise nema.
 
 ## Pregled dovršenih zadataka
 
