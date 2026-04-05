@@ -4,11 +4,11 @@ Datum: 05.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `3cfde20` - docs: analiza zadrzavanja ili
-  uklanjanja wrappera prekrsajni json validatori v1
+- Polazni HEAD prije zadatka: `967576a` - feat: ci smoke za validatore
+  v1 preusmjeren na genericki schema-driven alat
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 165
+- Poravnanje grane pri pre-checku: poravnat s `origin/main`
+- Zadnji dovršeni zadatak: ZADATAK 166
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
