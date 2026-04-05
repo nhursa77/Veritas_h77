@@ -56,6 +56,14 @@ referenci kroz
 `alati/zatvori_validiranu_gransku_natuknicu.py` ostaje jedina aktivna
 implementacija ove skupine.
 
+Uveden je i `alati/zatvori_paket_prekrsajni_zakon.py` kao novi
+genericki alat za objedinjenu jezgru paketnog zatvaranja homogenih
+nizova za `prekrsajni_zakon`.
+Postojecih 8 skripti skupine
+`zatvori_paket_*_prekrsajni_zakon.py` u ovom koraku nisu dirane i
+ostaju netaknute.
+Migracija tih skripti u tanke wrappere nije dio ovog koraka.
+
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.
 
