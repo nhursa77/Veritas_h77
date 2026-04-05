@@ -5838,3 +5838,45 @@ Obavljene provjere:
 - `ci_smoke.ps1`
 
 Commit hash: (upisano nakon commita)
+
+---
+
+## Datum: 05.04.2026 (ZADATAK 165)
+
+### ZADATAK 165 - 5 validatora migrirano u kompatibilne wrappere
+
+Migrirano je tocno 5 schema-driven validatora u tanke kompatibilne
+wrappere koji delegiraju na `alati/validiraj_json_po_shemi_v1.ps1`.
+
+U ovom koraku genericki alat `alati/validiraj_json_po_shemi_v1.ps1`
+nije diran.
+
+Migrirani wrapperi:
+
+- `alati/validiraj_audit_v1.ps1`
+- `alati/validiraj_intake_prekrsaji_v1.ps1`
+- `alati/validiraj_postupak_v1.ps1`
+- `alati/validiraj_predlozak_v1.ps1`
+- `alati/validiraj_subsumciju_v1.ps1`
+
+Dirane su tocno ove datoteke:
+
+- `alati/validiraj_audit_v1.ps1`
+- `alati/validiraj_intake_prekrsaji_v1.ps1`
+- `alati/validiraj_postupak_v1.ps1`
+- `alati/validiraj_predlozak_v1.ps1`
+- `alati/validiraj_subsumciju_v1.ps1`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Fizicko uklanjanje wrappera nije dio ovog koraka.
+
+Obavljene provjere:
+
+- PowerShell parsiranje svih 5 wrappera
+- help i usage provjera za svih 5 imena
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)

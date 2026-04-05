@@ -71,8 +71,11 @@ implementacija ove skupine.
 Uveden je i `alati/validiraj_json_po_shemi_v1.ps1` kao novi genericki
 schema-driven validator za zajednicku jezgru validacije JSON izlaza po
 shemi u skupini `PREKRSAJNI_JSON_VALIDATORI_V1`.
-Postojecih 5 schema-driven validatora u ovom koraku ostaju netaknuti, a
-wrapper migracija nije dio ovog koraka.
+Pet validatora skupine (`validiraj_audit_v1.ps1`,
+`validiraj_intake_prekrsaji_v1.ps1`, `validiraj_postupak_v1.ps1`,
+`validiraj_predlozak_v1.ps1`, `validiraj_subsumciju_v1.ps1`) sada su
+kompatibilni wrapperi koji delegiraju na taj genericki alat.
+Fizicko uklanjanje tih wrappera nije dio ovog koraka.
 
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.
