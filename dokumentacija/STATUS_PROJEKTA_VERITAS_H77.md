@@ -4,11 +4,11 @@ Datum: 04.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `6f49815` - docs: popis referenci na
-  wrappere granskih natuknica
+- Polazni HEAD prije zadatka: `ff8f7b4` - docs: popis referenci na
+  wrappere paketa prekrsajnog zakona
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 160
+- Zadnji dovršeni zadatak: ZADATAK 163
 
 ## Pregled dovršenih zadataka
 
@@ -493,6 +493,16 @@ Datum: 04.04.2026.
   `GRANSKIH_NATUKNICA.md`.
   Genericki alat `alati/zatvori_validiranu_gransku_natuknicu.py` nije
   diran i ostaje jedina aktivna implementacija; konsolidacija skupine je
+  zavrsena.
+- ZADATAK 163: dovrsen je planned removal 8 wrapper skripti skupine
+  `zatvori_paket_*_prekrsajni_zakon.py`, na temelju dokaznih dokumenata
+  `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_`
+  `WRAPPERA_PAKETA_PREKRSAJNOG_ZAKONA.md`
+  i
+  `dokumentacija/POPIS_REFERENCI_NA_WRAPPERE_PAKETA_PREKRSAJNOG_`
+  `ZAKONA.md`.
+  Genericki alat `alati/zatvori_paket_prekrsajni_zakon.py` nije diran i
+  ostaje jedina aktivna implementacija; konsolidacija skupine je
   zavrsena.
 
 ## Operativni sazetak

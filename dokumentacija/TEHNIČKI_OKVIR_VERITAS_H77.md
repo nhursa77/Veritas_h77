@@ -59,10 +59,14 @@ implementacija ove skupine.
 Uveden je i `alati/zatvori_paket_prekrsajni_zakon.py` kao novi
 genericki alat za objedinjenu jezgru paketnog zatvaranja homogenih
 nizova za `prekrsajni_zakon`.
-Postojecih 8 skripti skupine
-`zatvori_paket_*_prekrsajni_zakon.py` sada su kompatibilni wrapperi koji
-delegiraju na taj genericki alat s fiksnim `--vrsta-paketa`.
-Fizicko uklanjanje tih wrappera nije dio ovog koraka.
+Starih 8 wrappera skupine `zatvori_paket_*_prekrsajni_zakon.py`
+uklonjeno je nakon dokazne provjere referenci kroz
+`dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_WRAPPERA_PAKETA_`
+`PREKRSAJNOG_ZAKONA.md` i
+`dokumentacija/POPIS_REFERENCI_NA_WRAPPERE_PAKETA_PREKRSAJNOG_`
+`ZAKONA.md`.
+`alati/zatvori_paket_prekrsajni_zakon.py` ostaje jedina aktivna
+implementacija ove skupine.
 
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.

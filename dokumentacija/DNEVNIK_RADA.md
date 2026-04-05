@@ -5732,3 +5732,73 @@ Dokazne naredbe:
 - `Write-Host "DNEVNIK_TAIL_AFTER_BEGIN"; Get-Content`
   `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
   `Write-Host "DNEVNIK_TAIL_AFTER_END"`
+
+---
+
+## Datum: 05.04.2026 (ZADATAK 163)
+
+### ZADATAK 163 - uklonjeni wrapperi paketa nakon konsolidacije
+
+Uklonjeno je 8 starih wrapper skripti skupine
+`zatvori_paket_*_prekrsajni_zakon.py` nakon dokazne provjere da više
+nemaju aktivne operativne reference u repou.
+
+Removal je proveden na temelju dokumenata:
+
+- `dokumentacija/ANALIZA_ZADRZAVANJA_ILI_UKLANJANJA_`
+  `WRAPPERA_PAKETA_PREKRSAJNOG_ZAKONA.md`
+- `dokumentacija/POPIS_REFERENCI_NA_WRAPPERE_PAKETA_PREKRSAJNOG_`
+  `ZAKONA.md`
+
+Generički alat `alati/zatvori_paket_prekrsajni_zakon.py` u ovom koraku
+nije diran i ostaje jedina aktivna implementacija skupine.
+
+U ovom koraku dirano je točno 11 datoteka:
+
+- `alati/zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`
+- `alati/zatvori_paket_dokaz_prekrsajni_zakon.py`
+- `alati/zatvori_paket_dostava_prekrsajni_zakon.py`
+- `alati/zatvori_paket_izvrsenje_prekrsajni_zakon.py`
+- `alati/zatvori_paket_presuda_prekrsajni_zakon.py`
+- `alati/zatvori_paket_prigovor_prekrsajni_zakon.py`
+- `alati/zatvori_paket_rjesenje_prekrsajni_zakon.py`
+- `alati/zatvori_paket_zalba_prekrsajni_zakon.py`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Potvrđeno je da ništa izvan ovog scopea nije dirano.
+
+Dokazne naredbe:
+
+- `git status --short`
+- `git diff --name-only`
+- `git diff --cached --name-only`
+- `git stash list`
+- `git --no-pager log -3 --oneline`
+- `git branch -vv`
+- `git rev-parse HEAD`
+- `git ls-remote origin refs/heads/main`
+- `Write-Host "DNEVNIK_TAIL_BEFORE_BEGIN"; Get-Content`
+  `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
+  `Write-Host "DNEVNIK_TAIL_BEFORE_END"`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+  `.\alati\zatvori_paket_apsolutna_nenadleznost_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_dokaz_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_dostava_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_izvrsenje_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_presuda_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_prigovor_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_rjesenje_prekrsajni_zakon.py`
+  `.\alati\zatvori_paket_zalba_prekrsajni_zakon.py`
+  `.\dokumentacija\TEHNIČKI_OKVIR_VERITAS_H77.md`
+  `.\dokumentacija\STATUS_PROJEKTA_VERITAS_H77.md`
+  `.\dokumentacija\DNEVNIK_RADA.md`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --cached --name-only`
+- `git status --short`
+- `Write-Host "DNEVNIK_TAIL_AFTER_BEGIN"; Get-Content`
+  `.\dokumentacija\DNEVNIK_RADA.md -Tail 120;`
+  `Write-Host "DNEVNIK_TAIL_AFTER_END"`
