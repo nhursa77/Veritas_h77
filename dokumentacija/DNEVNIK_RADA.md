@@ -682,6 +682,40 @@ Commit hash: (upisano nakon commita)
 
 ---
 
+## Datum: 15.04.2026 (ZADATAK 170)
+
+### ZADATAK 170 - uklonjeni pomocni pokretaci ustav rh nakon konsolidacije
+
+Nakon zatvaranja dokaznog dokumenta i dokazane removal spremnosti,
+fizicki su uklonjene tocno ove datoteke:
+
+- `alati/run_normiratelj_ustav_rh.ps1`
+- `alati/acceptance_ustav_rh_preflight.ps1`
+
+U ovom koraku `alati/ustav_rh_convenience_core.ps1` nije diran.
+U ovom koraku `alati/run_normiratelj.ps1` nije diran.
+U ovom koraku `alati/acceptance_preflight.ps1` nije diran.
+
+Dirane su tocno ove datoteke:
+
+- `alati/run_normiratelj_ustav_rh.ps1` (uklonjeno)
+- `alati/acceptance_ustav_rh_preflight.ps1` (uklonjeno)
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Obavljene provjere:
+
+- `git status --short -- .\alati`
+- provjera da `ustav_rh_convenience_core.ps1` ostaje prisutan
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
+
+---
+
 ## Datum: 20.02.2026
 
 README dopunjen: uvedena kanonska specifikacija prekršajnog modula

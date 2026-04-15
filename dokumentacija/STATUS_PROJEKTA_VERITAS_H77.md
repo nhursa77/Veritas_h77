@@ -4,11 +4,11 @@ Datum: 15.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `b6cc0be` - feat: ustav rh convenience
-  wrapperi preusmjereni na zajednicku jezgru
+- Polazni HEAD prije zadatka: `00f0c7f` - docs: analiza zadrzavanja ili
+  uklanjanja pomocnih pokretaca ustav rh
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s `origin/main`
-- Zadnji dovršeni zadatak: ZADATAK 168
+- Zadnji dovršeni zadatak: ZADATAK 170
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -21,14 +21,12 @@ Datum: 15.04.2026.
 
 ## Operativno stanje skupine POMOCNI_POKRETACI_USTAV_RH
 
-- Uvedena je zajednicka jezgra convenience sloja:
-  `alati/ustav_rh_convenience_core.ps1`.
-- `alati/run_normiratelj_ustav_rh.ps1` i
-  `alati/acceptance_ustav_rh_preflight.ps1` preusmjereni su na tu
-  jezgru i zadrzani kao kompatibilni wrapperi.
-- Wrapperi u ovom koraku nisu uklonjeni.
-- Time je pripremljena osnova za kasniju procjenu removal spremnosti
-  ove skupine.
+- Skupina `POMOCNI_POKRETACI_USTAV_RH` uklonjena je nakon dokazane
+  removal spremnosti.
+- Vise nema aktivnih operativnih referenci na stara wrapper imena.
+- Zavrsni operativni oslonac ostao je na
+  `alati/ustav_rh_convenience_core.ps1` i generickim alatima
+  `alati/run_normiratelj.ps1` i `alati/acceptance_preflight.ps1`.
 
 ## Pregled dovršenih zadataka
 

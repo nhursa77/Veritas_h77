@@ -82,12 +82,11 @@ Nakon konsolidacije i dokazne repo-pretrage removal spremnosti, tih 5
 wrapper validatora uklonjeno je iz repoa, dok genericki alat i
 preusmjereni `ci_smoke.ps1` ostaju operativna jezgra ove skupine.
 
-Uvedena je i zajednicka jezgra skupine
-`POMOCNI_POKRETACI_USTAV_RH` za `ustav_rh` u
-`alati/ustav_rh_convenience_core.ps1`.
-`alati/run_normiratelj_ustav_rh.ps1` i
-`alati/acceptance_ustav_rh_preflight.ps1` zadrzani su kao tanki
-kompatibilni pomocni pokretaci koji delegiraju na tu jezgru.
+Skupina `POMOCNI_POKRETACI_USTAV_RH` uklonjena je nakon konsolidacije i
+dokazane removal spremnosti.
+`alati/ustav_rh_convenience_core.ps1` ostaje zajednicka jezgra ove
+domene, dok `alati/run_normiratelj.ps1` i
+`alati/acceptance_preflight.ps1` ostaju netaknuti genericki pokretaci.
 
 ### `skripte/`
 Nije kanonska mapa; koristi se `alati/`.
