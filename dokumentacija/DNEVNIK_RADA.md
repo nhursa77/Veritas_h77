@@ -712,7 +712,7 @@ Obavljene provjere:
 - `lint_markdown.ps1`
 - `ci_smoke.ps1`
 
-Commit hash: (upisano nakon commita)
+Commit hash: `482f7e1`
 
 ---
 
