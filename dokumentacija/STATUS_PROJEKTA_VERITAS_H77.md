@@ -1,14 +1,14 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 05.04.2026.
+Datum: 15.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `16628b1` - docs: popis referenci na
-  wrappere prekrsajni json validatori v1 nakon preusmjerenja ci smoke
+- Polazni HEAD prije zadatka: `45d655a` - docs: dubinska analiza
+  skupine ustav rh convenience wrappers
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s `origin/main`
-- Zadnji dovršeni zadatak: ZADATAK 167
+- Zadnji dovršeni zadatak: ZADATAK 168
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -18,6 +18,17 @@ Datum: 05.04.2026.
   `alati/validiraj_json_po_shemi_v1.ps1`, a `alati/ci_smoke.ps1`
   ostaje kompatibilan jer je vec preusmjeren na genericki alat.
 - Aktivnih operativnih referenci na stara imena vise nema.
+
+## Operativno stanje skupine USTAV_RH_CONVENIENCE_WRAPPERS
+
+- Uvedena je zajednicka jezgra convenience sloja:
+  `alati/ustav_rh_convenience_core.ps1`.
+- `alati/run_normiratelj_ustav_rh.ps1` i
+  `alati/acceptance_ustav_rh_preflight.ps1` preusmjereni su na tu
+  jezgru i zadrzani kao kompatibilni wrapperi.
+- Wrapperi u ovom koraku nisu uklonjeni.
+- Time je pripremljena osnova za kasniju procjenu removal spremnosti
+  ove skupine.
 
 ## Pregled dovršenih zadataka
 

@@ -5959,3 +5959,39 @@ Obavljene provjere:
 
 Commit hash: (upisano nakon commita)
 
+---
+
+## Datum: 15.04.2026 (ZADATAK 168)
+
+### ZADATAK 168 - zajednicka jezgra za USTAV_RH_CONVENIENCE_WRAPPERS
+
+Uvedena je zajednicka jezgra convenience sloja za `ustav_rh`:
+`alati/ustav_rh_convenience_core.ps1`.
+
+Postojeca dva wrappera preusmjerena su na tu jezgru:
+
+- `alati/run_normiratelj_ustav_rh.ps1`
+- `alati/acceptance_ustav_rh_preflight.ps1`
+
+Wrapperi u ovom koraku nisu uklonjeni; zadrzani su kao tanki
+kompatibilni sloj.
+
+Dirane su tocno ove datoteke:
+
+- `alati/ustav_rh_convenience_core.ps1`
+- `alati/run_normiratelj_ustav_rh.ps1`
+- `alati/acceptance_ustav_rh_preflight.ps1`
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Obavljene provjere:
+
+- PowerShell parsiranje svih diranih `.ps1` datoteka
+- usage/help provjera pod postojecim wrapper imenima
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
+

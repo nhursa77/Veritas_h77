@@ -1,3 +1,4 @@
+[CmdletBinding()]
 param(
     [Parameter(Mandatory = $false)]
     [int] $ExpectedCountOverride
@@ -5,12 +6,12 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$genericPreflight = Join-Path $PSScriptRoot "acceptance_preflight.ps1"
+$convenienceCore = Join-Path $PSScriptRoot "ustav_rh_convenience_core.ps1"
 if ($PSBoundParameters.ContainsKey('ExpectedCountOverride')) {
-    & $genericPreflight -AktSlug "ustav_rh" -ExpectedCountOverride $ExpectedCountOverride
+    & $convenienceCore -Mode "acceptance_preflight" -ExpectedCountOverride $ExpectedCountOverride
 }
 else {
-    & $genericPreflight -AktSlug "ustav_rh"
+    & $convenienceCore -Mode "acceptance_preflight"
 }
 
 exit $LASTEXITCODE

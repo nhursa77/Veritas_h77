@@ -1,7 +1,8 @@
+[CmdletBinding()]
 param()
 
 $ErrorActionPreference = "Stop"
 
-$genericRunner = Join-Path $PSScriptRoot "run_normiratelj.ps1"
-& $genericRunner -AktSlug "ustav_rh"
+$convenienceCore = Join-Path $PSScriptRoot "ustav_rh_convenience_core.ps1"
+& $convenienceCore -Mode "run_normiratelj"
 exit $LASTEXITCODE
