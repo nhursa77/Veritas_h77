@@ -4,8 +4,8 @@ Datum: 15.04.2026.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `45d655a` - docs: dubinska analiza
-  skupine ustav rh convenience wrappers
+- Polazni HEAD prije zadatka: `b6cc0be` - feat: ustav rh convenience
+  wrapperi preusmjereni na zajednicku jezgru
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s `origin/main`
 - Zadnji dovršeni zadatak: ZADATAK 168
@@ -19,7 +19,7 @@ Datum: 15.04.2026.
   ostaje kompatibilan jer je vec preusmjeren na genericki alat.
 - Aktivnih operativnih referenci na stara imena vise nema.
 
-## Operativno stanje skupine USTAV_RH_CONVENIENCE_WRAPPERS
+## Operativno stanje skupine POMOCNI_POKRETACI_USTAV_RH
 
 - Uvedena je zajednicka jezgra convenience sloja:
   `alati/ustav_rh_convenience_core.ps1`.

@@ -1,8 +1,8 @@
-# DUBINSKA ANALIZA SKUPINE USTAV_RH_CONVENIENCE_WRAPPERS
+# DUBINSKA ANALIZA SKUPINE POMOCNI_POKRETACI_USTAV_RH
 
 Datum: 15.04.2026.
 Status: read-only dubinska analiza.
-Opseg: samo skupina `USTAV_RH_CONVENIENCE_WRAPPERS`,
+Opseg: samo skupina `POMOCNI_POKRETACI_USTAV_RH`,
 bez izmjene postojecih skripti, bez commita i bez pusha.
 
 ---
@@ -66,7 +66,7 @@ Procitani kontekst za kontinuitet i status:
 
 #### C1.1 Cemu sluzi
 
-Convenience wrapper za one-command pokretanje normiranja za
+Pomocni pokretac za one-command pokretanje normiranja za
 `ustav_rh`.
 
 #### C1.2 Ulaz
@@ -90,13 +90,13 @@ Convenience wrapper za one-command pokretanje normiranja za
 
 Zakljucak C1:
 
-- skripta je tanki convenience wrapper bez vlastite domenske jezgre
+- skripta je tanki pomocni pokretac bez vlastite domenske jezgre
 
 ### C2) `acceptance_ustav_rh_preflight.ps1`
 
 #### C2.1 Cemu sluzi
 
-Convenience wrapper za one-command acceptance preflight za `ustav_rh`.
+Pomocni pokretac za one-command acceptance preflight za `ustav_rh`.
 
 #### C2.2 Ulaz
 
@@ -121,7 +121,7 @@ Convenience wrapper za one-command acceptance preflight za `ustav_rh`.
 
 Zakljucak C2:
 
-- skripta je tanki convenience wrapper s minimalnim parametarskim
+- skripta je tanki pomocni pokretac s minimalnim parametarskim
   passthroughom
 
 ### C3) Usporedba s generickim jezgrama
@@ -141,8 +141,8 @@ Zakljucak C2:
 
 Sa stajalista koda:
 
-- wrapperi iz ove skupine ne dupliciraju jezgrenu logiku
-- wrapperi samo fiksiraju `AktSlug="ustav_rh"` i zadrzavaju
+- pomocni pokretaci iz ove skupine ne dupliciraju jezgrenu logiku
+- pomocni pokretaci samo fiksiraju `AktSlug="ustav_rh"` i zadrzavaju
   one-command UX
 
 ---
@@ -166,7 +166,7 @@ Sa stajalista koda:
 
 Sažetak matrice:
 
-- oba clana su convenience wrapperi bez vlastite poslovne jezgre
+- oba clana su pomocni pokretaci bez vlastite poslovne jezgre
 - funkcionalna razlika je samo UX razina (fiksni slug i jednostavniji
   poziv)
 
@@ -227,12 +227,12 @@ Procjena razine rizika konsolidacije:
 
 Razlog:
 
-- wrapperi su tanki delegatori bez vlastite jezgre
+- pomocni pokretaci su tanki delegatori bez vlastite jezgre
 - jezgre su vec centralizirane u `run_normiratelj.ps1` i
   `acceptance_preflight.ps1`
 - repo-wide pretraga nije dokazala tvrde ovisnosti izvan dokumentacije
 
-Sto ostaje obvezno prije eventualnog uklanjanja wrappera:
+Sto ostaje obvezno prije eventualnog uklanjanja pomocnih pokretaca:
 
 1. azurirati dokumentacijske reference na genericke naredbe
 2. osigurati da operativni playbook i CI koraci koriste izravne

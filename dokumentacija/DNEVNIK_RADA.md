@@ -5963,7 +5963,7 @@ Commit hash: (upisano nakon commita)
 
 ## Datum: 15.04.2026 (ZADATAK 168)
 
-### ZADATAK 168 - zajednicka jezgra za USTAV_RH_CONVENIENCE_WRAPPERS
+### ZADATAK 168 - zajednicka jezgra za POMOCNI_POKRETACI_USTAV_RH
 
 Uvedena je zajednicka jezgra convenience sloja za `ustav_rh`:
 `alati/ustav_rh_convenience_core.ps1`.
@@ -5989,6 +5989,35 @@ Obavljene provjere:
 
 - PowerShell parsiranje svih diranih `.ps1` datoteka
 - usage/help provjera pod postojecim wrapper imenima
+- scoped markdown provjera
+- `lint_markdown.ps1`
+- `ci_smoke.ps1`
+
+Commit hash: (upisano nakon commita)
+
+---
+
+## Datum: 15.04.2026 (ZADATAK 169)
+
+### ZADATAK 169 - uskladjen hrvatski naziv skupine POMOCNI_POKRETACI_USTAV_RH
+
+Servisno je uklonjen stari engleski naziv skupine iz kanonskog
+dokumentacijskog traga i zamijenjen hrvatskim nazivom
+`POMOCNI_POKRETACI_USTAV_RH`.
+
+Dubinski dokument skupine preimenovan je u hrvatski naziv, bez promjene
+smisla analize i bez diranja skripti ili operativne logike.
+
+Dirane su tocno ove datoteke:
+
+- `dokumentacija/DUBINSKA_ANALIZA_SKUPINE_POMOCNI_POKRETACI_USTAV_RH.md`
+- stari dubinski dokument s engleskim nazivom (uklonjeno nakon rename-a)
+- `dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Obavljene provjere:
+
 - scoped markdown provjera
 - `lint_markdown.ps1`
 - `ci_smoke.ps1`
