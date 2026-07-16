@@ -346,7 +346,21 @@ smije biti prazan u strukturnom kosturu toka, ali takav tok ne smije
 proizvesti P7 nacrt. Za funkcionalni tok sva navedena sidra moraju postojati,
 imati status `puno` i biti prenesena u generirani audit.
 
-## 13) Zaključna norma
+## 13) P8 referentni ugovor prekršajnog modula
+
+Postupak koji ima dokazani P7 prolaz i podržava P8 mora u `izlazi` imati:
+
+- `manifest_ref`;
+- `lanac_skrbnistva_ref`.
+
+Obje reference koriste `{PREDMET_ID}` i vode na korijen mape istog predmeta.
+Strukturu, redoslijed artefakata, SHA-256 pravila i tvrde blokade određuje
+`STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`.
+
+Prisutnost tih referenci ne aktivira P8 za tok bez vlastitog dokazanog P7
+prolaza.
+
+## 14) Zaključna norma
 
 Svi postupci i koraci Veritasa H.77 moraju biti opisani ovim standardom.
 Svako odstupanje je nekanonsko i mora biti ispravljeno prije vanjske uporabe.

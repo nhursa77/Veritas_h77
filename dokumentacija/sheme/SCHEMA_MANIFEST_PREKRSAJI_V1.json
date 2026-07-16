@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_MANIFEST_PREKRSAJI_V1",
+  "type": "object",
+  "required": [
+    "meta",
+    "artefakti",
+    "korijenski_sazetak"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "standard_id",
+        "id_predmeta",
+        "tok",
+        "verzija_toka",
+        "vrsta_predmeta",
+        "datum_vrijeme_izrade",
+        "algoritam_sazetka",
+        "status"
+      ],
+      "properties": {
+        "standard_id": {
+          "type": "string",
+          "enum": ["MANIFEST_PREKRSAJI_V1"]
+        },
+        "id_predmeta": { "type": "string" },
+        "tok": {
+          "type": "string",
+          "enum": ["TOK_PN_PRIGOVOR"]
+        },
+        "verzija_toka": {
+          "type": "string",
+          "enum": ["v1"]
+        },
+        "vrsta_predmeta": {
+          "type": "string",
+          "enum": ["sinteticki"]
+        },
+        "datum_vrijeme_izrade": {
+          "type": "string",
+          "pattern": "^[0-9]{2}[.][0-9]{2}[.][0-9]{4}[.] [0-9]{2}:[0-9]{2}:[0-9]{2} [+-][0-9]{2}:[0-9]{2}$"
+        },
+        "algoritam_sazetka": {
+          "type": "string",
+          "enum": ["SHA-256"]
+        },
+        "status": {
+          "type": "string",
+          "enum": ["P8_PROLAZ"]
+        }
+      }
+    },
+    "artefakti": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "redni_broj",
+          "id",
+          "uloga",
+          "putanja",
+          "sha256",
+          "velicina_bajtova"
+        ],
+        "properties": {
+          "redni_broj": { "type": "integer" },
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_]+$"
+          },
+          "uloga": {
+            "type": "string",
+            "enum": [
+              "PREDMET",
+              "INTAKE",
+              "SUBSUMPCIJA",
+              "AUDIT_GENERATED",
+              "POSTUPAK",
+              "PREDLOZAK",
+              "NORMA",
+              "NACRT"
+            ]
+          },
+          "putanja": {
+            "type": "string",
+            "pattern": "^(predmeti|postupci|predlosci|baza_zakona)/.+"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[A-F0-9]{64}$"
+          },
+          "velicina_bajtova": { "type": "integer" }
+        }
+      }
+    },
+    "korijenski_sazetak": {
+      "type": "object",
+      "required": [
+        "algoritam",
+        "kanonski_format",
+        "sha256"
+      ],
+      "properties": {
+        "algoritam": {
+          "type": "string",
+          "enum": ["SHA-256"]
+        },
+        "kanonski_format": {
+          "type": "string",
+          "enum": ["P8_ARTEFAKTI_TSV_LF_V1"]
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[A-F0-9]{64}$"
+        }
+      }
+    }
+  }
+}

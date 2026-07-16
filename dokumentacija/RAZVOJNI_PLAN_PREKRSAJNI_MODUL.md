@@ -1,14 +1,14 @@
 # RAZVOJNI PLAN PREKRSAJNI MODUL (v1)
 
 Datum izrade: 20.02.2026.
-Datum revizije: 23.02.2026.
+Datum revizije: 16.07.2026.
 Status: kanonski
 
 ---
 
 ## Razvoj prekršajnog modula — FAZE i točni koraci
 
-## Stanje implementacije (23.02.2026.)
+## Stanje implementacije (16.07.2026.)
 
 Implementirano:
 
@@ -42,12 +42,20 @@ Implementirano:
   vrijednosti.
 - P7 negativni testovi dokazuju da blokirani audit, nedostajuće sidro,
   prazno obavezno polje i nepodudaran identitet ne proizvode nacrt.
+- P8 je funkcionalno zatvoren za isti sintetički tok: manifest veže deset
+  artefakata stvarnim SHA-256 sažecima, a lanac skrbništva veže manifest i
+  dva obavezna događaja.
+- P8 validator ponovno računa veličine, pojedinačne hashove, korijenski
+  sažetak, hash manifesta i događajni hash-lanac.
+- P8 negativni testovi dokazuju da izmijenjen ili nestao artefakt i pogrešan
+  identitet uklanjaju i manifest i lanac skrbništva.
 - Ostala tri toka ostaju strukturni kosturi bez P7 nacrta dok ne dobiju
   vlastite sintetičke ulaze i puna sidra.
 
 Sljedeće po redu:
 
-- P8 — manifest i lanac skrbništva za prvi sintetički P7 predmet.
+- priprema P9 — puna shema predmeta i tehnička zaštita privatnosti prije
+  prvog stvarnog predmeta.
 
 Backlog fixtures popune (prioritet nakon kanona):
 
@@ -280,6 +288,8 @@ Gate: ci_smoke.ps1 + provjera da “blocked state” ne proizvodi nacrt.
 
 ## FAZA P8 — Predmet i lanac skrbništva (dokazni paket)
 
+Status: DOVRŠENO ZA PRVI SINTETIČKI TOK (`TOK_PN_PRIGOVOR`).
+
 Cilj: predmet ima sve dokazne artefakte i hash/manifest.
 
 Koraci:
@@ -291,17 +301,31 @@ Koraci:
    - popis svih artefakata (dokazi, audit, nacrt),
    - hashovi,
    - verzije
-3) Gate: bez manifest+hash nema “spremno za potpis”.
+3) Gate: bez valjanog manifesta i hash-lanca nema P8 prolaza.
 
-Ulaz: predmet folder + dokazi.
-Izlaz: chain-of-custody + manifest.
-Gate: verifikator manifesta (skripta) PROLAZ.
+Izvedeno u prvom funkcionalnom toku:
+
+- manifest ima deset artefakata: predmet, intake, subsumpciju, generirani
+  audit, postupak, predložak, tri puna pravna sidra i P7 nacrt
+- svaki zapis sadrži kanonsku relativnu putanju, SHA-256 i veličinu bajtova
+- korijenski sažetak računa se nad propisanim TSV/LF zapisom
+- lanac skrbništva veže hash manifesta i dva događaja u zaseban hash-lanac
+- generator i validator pri blokadi uklanjaju oba P8 izlaza
+- pozitivni i tri negativna scenarija dio su punog `ci_smoke` toka
+
+Ulaz: dokazani P7 lanac prvog sintetičkog predmeta.
+Izlaz: `manifest.json` + `lanac_skrbnistva.json`.
+Gate: strogi P8 validator + `ci_smoke.ps1` PROLAZ.
 
 ---
 
 ## FAZA P9 — End-to-end pilot (jedan stvarni predmet)
 
 Cilj: dokazati tok na jednom predmetu bez ručnog krpanja.
+
+Preduvjet: prije unošenja stvarnih podataka moraju biti uvedene puna shema
+predmeta i tehnička Git zaštita privatnosti. Bez tog zasebnog prolaza P9 se
+ne pokreće.
 
 Koraci:
 
