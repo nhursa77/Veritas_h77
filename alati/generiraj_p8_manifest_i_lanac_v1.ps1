@@ -310,4 +310,3 @@ catch {
     Write-Host "STOP_REASON=$($_.Exception.Message)"
     exit 1
 }
-
