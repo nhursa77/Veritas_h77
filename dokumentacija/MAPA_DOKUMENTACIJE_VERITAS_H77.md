@@ -84,6 +84,11 @@ Uređuje minimalni sadržaj nacrta za validator izlaza.
 Definira P8 manifest, SHA-256 korijenski sažetak i lanac skrbništva.
 Uređuje obaveznih deset artefakata, događajni hash-lanac i tvrde blokade.
 
+### `STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md`
+Definira P9 ugovor predmeta i dva strogo odvojena režima podataka.
+Uređuje javni sintetički primjer, lokalni povjerljivi korijen, Git karantenu,
+provjeru indeksa i tvrde blokade prije prvog stvarnog predmeta.
+
 ### `RAZVOJNI_PLAN_VERITAS_H77.md`
 Definira faze razvoja sustava, redoslijed rada i operativne gate uvjete.
 Služi kao plan izvođenja od MVP-a do prvog živog predmeta.

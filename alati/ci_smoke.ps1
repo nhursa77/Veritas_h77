@@ -23,6 +23,9 @@ $p7RunnerTestScript = Join-Path $PSScriptRoot "test_run_tok_p7_v1.ps1"
 $tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
 $tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $p8TestScript = Join-Path $PSScriptRoot "test_p8_manifest_lanac_v1.ps1"
+$privacyRepoGateScript = Join-Path $PSScriptRoot "provjeri_privatnost_repozitorija_v1.ps1"
+$predmetValidatorScript = Join-Path $PSScriptRoot "validiraj_predmet_prekrsaji_v1.ps1"
+$p9PrivacyTestScript = Join-Path $PSScriptRoot "test_p9_privatnost_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -176,6 +179,52 @@ try {
     }
 
     $steps = @(
+        [pscustomobject]@{
+            Name = "privacy_repository_gate_p9"
+            Action = { & $privacyRepoGateScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_predmet_prekrsaji_v1_schema"
+            Action = {
+                Invoke-GenericSchemaValidationSet `
+                    -TargetRoot (Join-Path $root "predmeti\sud\prekrsajni") `
+                    -Filter "predmet.json" `
+                    -SchemaRelativePath (
+                        "dokumentacija\sheme\SCHEMA_PREDMET_PREKRSAJI_V1.json"
+                    ) `
+                    -Marker "VALIDATE_PREDMET_PREKRSAJI_V1_SCHEMA" `
+                    -Description "P9 predmet prekršaji v1"
+            }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "validate_predmet_prekrsaji_v1_privacy"
+            Action = {
+                $predmetRoot = Join-Path $root "predmeti\sud\prekrsajni"
+                $predmetFiles = @(
+                    Get-ChildItem `
+                        -Path $predmetRoot `
+                        -Recurse `
+                        -File `
+                        -Filter "predmet.json"
+                )
+                foreach ($predmetFile in $predmetFiles) {
+                    & $predmetValidatorScript -PredmetPath $predmetFile.FullName
+                    if ($LASTEXITCODE -ne 0) {
+                        $global:LASTEXITCODE = $LASTEXITCODE
+                        return
+                    }
+                }
+                $global:LASTEXITCODE = 0
+            }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "test_p9_privacy_v1"
+            Action = { & $p9PrivacyTestScript }
+            Enabled = $true
+        },
         [pscustomobject]@{
             Name = "lint_markdown_scoped"
             Action = { & $markdownLintScript }

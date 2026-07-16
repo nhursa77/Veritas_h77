@@ -99,7 +99,8 @@ U repou moraju postojati ove cjeline
 - `baza_normi/` — JSON NORMA (članak) po aktu i “stanje na dan”
 - `baza_postupaka/` — JSON POSTUPAK (koraci)
 - `predlosci/` — predlošci dokumenata (Markdown)
-- `predmeti/` — stvarni predmeti (činjenice, dokazi, izlazi, manifest)
+- `predmeti/` — javni sintetički predmeti i fixturei
+- `VERITAS_LOCAL_DATA_ROOT` — stvarni predmeti izvan repozitorija
 - `alati/` — skripte i pomoćni alati (hash, manifest, validacija)
 - `docker/` — docker compose i minimalni runtime (kada dođe faza)
 

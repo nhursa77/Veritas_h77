@@ -52,10 +52,15 @@ Implementirano:
 - Ostala tri toka ostaju strukturni kosturi bez P7 nacrta dok ne dobiju
   vlastite sintetičke ulaze i puna sidra.
 
-Sljedeće po redu:
+Priprema P9 je funkcionalno zatvorena:
 
-- priprema P9 — puna shema predmeta i tehnička zaštita privatnosti prije
-  prvog stvarnog predmeta.
+- uvedene su puna shema predmeta i stroge privatnosne oznake;
+- stvarni predmeti usmjereni su u lokalni korijen izvan repozitorija;
+- pre-commit i CI provjeravaju stvarni Git indeks;
+- sintetički negativni testovi dokazuju blokadu osobnih identifikatora i
+  prisilno dodane zabranjene putanje.
+
+Sljedeće po redu je zasebna ljudska odluka o početku prvog stvarnog predmeta.
 
 Backlog fixtures popune (prioritet nakon kanona):
 
@@ -329,7 +334,8 @@ ne pokreće.
 
 Koraci:
 
-1) Unijeti predmet (dokazno) u predmeti/... s minimalnim dokazima.
+1) Unijeti predmet s minimalnim dokazima isključivo pod lokalnim korijenom
+   `VERITAS_LOCAL_DATA_ROOT` izvan repozitorija.
 2) Pokrenuti tok (odabir TOK_PN_PRIGOVOR ili drugi).
 3) Generirati audit + nacrt + manifest.
 4) Pregledati rupe i otvoriti “rupa izvještaj” ako nešto fali.
