@@ -6312,3 +6312,78 @@ Dokazne naredbe:
 - `git diff --check`
 - `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`
 - `git status --short`
+
+## Datum: 16.07.2026 (ZADATAK 176)
+
+### ZADATAK 176 - P9 shema predmeta i tehnička zaštita privatnosti
+
+P8 pull request #6 spojen je u main, nakon čega je ZADATAK 176 proveden na
+zasebnoj grani codex/p9-predmet-privatnost.
+
+Uvedeni su puni ugovor i shema predmeta te strogo odvojeni javni sintetički i
+lokalni povjerljivi režim. Stvarni predmeti ostaju izvan repozitorija pod
+VERITAS_LOCAL_DATA_ROOT; u ovom zadatku nisu korišteni stvarni osobni podaci.
+
+Aktivirani su lokalni pre-commit čuvar i CI provjera stvarnog Git indeksa. Gate
+blokira zabranjene putanje, neusklađene privatnosne oznake, popunjena osobna
+polja javnog predmeta, nepouzdan lokalni korijen i visokopouzdane obrasce
+osobnih identifikatora bez ispisa pronađene vrijednosti.
+
+Sintetički testovi dokazali su i blokadu prisilno dodane zabranjene putanje uz
+potpuno vraćanje Git indeksa. Puni ci_smoke i svih 179 Markdown datoteka prošli
+su s izlazom 0.
+
+Mijenjane datoteke:
+
+- `.githooks/pre-commit`
+- `.github/workflows/ci_smoke_windows.yml`
+- `.gitignore`
+- `"dokumentacija/TEHNI\304\214KI_OKVIR_VERITAS_H77.md"`
+- `alati/ci_smoke.ps1`
+- `alati/instaliraj_git_hook_privatnosti_v1.ps1`
+- `alati/privatnost_predmeta_core.ps1`
+- `alati/provjeri_privatnost_repozitorija_v1.ps1`
+- `alati/test_p9_privatnost_v1.ps1`
+- `alati/validiraj_predmet_prekrsaji_v1.ps1`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/RAZVOJNI_PLAN_VERITAS_H77.md`
+- `dokumentacija/sheme/SCHEMA_PREDMET_PREKRSAJI_V1.json`
+- `dokumentacija/STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/predmet.json`
+- `README.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_predmet_prekrsaji_v1.ps1 -PredmetPath`
+  `.\predmeti\sud\prekrsajni\OGLEDNI_PREDMET_0001\predmet.json`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_privatnost_repozitorija_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_privatnost_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check main`
+- `git status --short`
+
+## Datum: 16.07.2026 (ZADATAK 176)
+
+### ZADATAK 176 - dopuna zapisa točne putanje
+
+Dopuna prethodnog unosa: Git je u popisu promjena prikazao hrvatski znak u
+nazivu jedne datoteke kao escape-sekvencu. Točna mijenjana putanja je
+dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md. Prethodni zapis ostaje netaknut
+zbog append-only pravila.
+
+Mijenjane datoteke:
+
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `git -c core.quotepath=false diff --name-only main`
+- `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`

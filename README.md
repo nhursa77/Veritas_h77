@@ -58,7 +58,7 @@ izvorima.
 - `postupci/` – proceduralni sadržaji (trenutna fizička putanja;  
   “baza postupaka” je logički naziv u dokumentaciji)  
 - `baza_postupaka/` – planirani naziv nakon migracije proceduralne mape  
-- `predmeti/` – konkretni slučajevi (lokalno)  
+- `predmeti/` – isključivo javni sintetički predmeti i fixturei
 - `primjeri/` – demonstracijski scenariji  
 
 ---
@@ -73,7 +73,10 @@ NORMA → POSTUPAK → AUDIT → PREDLOŽAK → NACRT → GATE.
 
 - Postupci (trenutna fizička putanja): `postupci/sud/prekrsajni/`
 - Predlošci akata: `predlosci/sud/prekrsajni/`
-- Predmeti (lokalno): `predmeti/sud/prekrsajni/<ID_predmeta>/`
+- Javni sintetički predmeti:
+  `predmeti/sud/prekrsajni/OGLEDNI_<ID>/`
+- Stvarni predmeti: izvan repozitorija, pod lokalnim korijenom određenim
+  varijablom `VERITAS_LOCAL_DATA_ROOT`
 - Norme: `baza_zakona/norme/<akt_slug>/clanak_XXXX.json`
 - Sidra (NN): `baza_zakona/sidra/<akt_slug>/...`
 
@@ -92,14 +95,22 @@ Svaki tok je verzioniran (`v1`, `v2`, ...) i ima proceduralne korake u JSON-u.
 ### Predmet (layout)
 
 Predmet je jedina jedinica rada. Audit se ne prepisuje nego verzionira.
+Putanje niže vrijede unutar korijena odabranog režima podataka:
 
-- `predmeti/sud/prekrsajni/<ID_predmeta>/predmet.json`
-- `predmeti/sud/prekrsajni/<ID_predmeta>/dokazi/` (akti, dostava, prilozi)
-- `predmeti/sud/prekrsajni/<ID_predmeta>/lanac_skrbnistva.json`
-- `predmeti/sud/prekrsajni/<ID_predmeta>/audit/audit_v1.json`
-- `predmeti/sud/prekrsajni/<ID_predmeta>/audit/audit_v2.json` (ako dopuna)
-- `predmeti/sud/prekrsajni/<ID_predmeta>/izlazi/nacrt_v1.md` (ili docx)
-- `predmeti/sud/prekrsajni/<ID_predmeta>/manifest.json` (hash + popis)
+- javni sintetički režim koristi korijen repozitorija;
+- lokalni povjerljivi režim koristi `VERITAS_LOCAL_DATA_ROOT` izvan repoa.
+
+- `predmeti/sud/prekrsajni/<ID>/predmet.json`
+- `predmeti/sud/prekrsajni/<ID>/dokazi/` (akti, dostava, prilozi)
+- `predmeti/sud/prekrsajni/<ID>/lanac_skrbnistva.json`
+- `predmeti/sud/prekrsajni/<ID>/audit/audit_v1.json`
+- `predmeti/sud/prekrsajni/<ID>/audit/audit_v2.json` (ako dopuna)
+- `predmeti/sud/prekrsajni/<ID>/izlazi/nacrt_v1.md` (ili docx)
+- `predmeti/sud/prekrsajni/<ID>/manifest.json` (hash + popis)
+
+Stvarni predmet, dokazi i izlazi ne smiju se kopirati u Git repozitorij.
+Prije prvog stvarnog predmeta mora biti aktivan P9 pre-commit čuvar, a puni
+CI gate privatnosti mora prolaziti.
 
 ### Pipeline modula M0–M9 (bez preskakanja)
 

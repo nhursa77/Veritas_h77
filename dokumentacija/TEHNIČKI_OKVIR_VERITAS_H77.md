@@ -18,6 +18,10 @@ Kanonski model sinkronizacije:
 - `C:\Veritas_H77` je jedina radna kopija,
 - Google Disk je sinkronizirana kopija/backup, nije paralelna radna kopija.
 
+Stvarni predmeti izuzeti su iz tog modela. Njihov lokalni korijen određuje
+`VERITAS_LOCAL_DATA_ROOT` i mora biti izvan repozitorija i izvan mape koja
+se automatski javno sinkronizira.
+
 ---
 
 ## 2) Repozitorij i mape
@@ -38,7 +42,9 @@ putanjom dok se ne napravi zaseban commit.
 Postoji u repozitoriju. Namjena je pohrana predložaka dokumenata.
 
 ### `predmeti/`
-Postoji u repozitoriju. Namjena je pohrana stvarnih predmeta.
+Postoji u repozitoriju. Sadrži samo javne sintetičke predmete i fixturee.
+Stvarni predmeti nalaze se izvan repozitorija pod lokalnim korijenom
+`VERITAS_LOCAL_DATA_ROOT`.
 
 ### `alati/`
 Postoji u repozitoriju.
@@ -116,7 +122,11 @@ U Git se ne commita:
 - privremene datoteke,
 - logovi,
 - lokalni cache,
-- tajne iz `.env` datoteka.
+- tajne iz `.env` datoteka,
+- stvarni predmeti, osobni podaci, dokazi i njihovi izvedeni izlazi.
+
+Repozitorij koristi `.githooks/pre-commit` i CI provjeru stvarnog Git
+indeksa. Git ignoriranje je dodatna karantena, a ne jedina zaštita.
 
 Ako postoji dvojba oko artefakta:
 - označiti `TODO: odluka`,

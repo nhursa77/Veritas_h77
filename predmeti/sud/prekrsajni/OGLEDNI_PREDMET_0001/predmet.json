@@ -2,8 +2,37 @@
   "meta": {
     "id_predmeta": "OGLEDNI_PREDMET_0001",
     "vrsta": "sinteticki",
-    "verzija": "v1"
+    "verzija": "v1",
+    "domena": "prekrsajni",
+    "tok": "TOK_PN_PRIGOVOR",
+    "datum_otvaranja": "20.02.2026.",
+    "status": "aktivan",
+    "rezim_podataka": "javni_sinteticki"
+  },
+  "nositelj": {
+    "oznaka": "SINTETICKI_NOSITELJ_0001",
+    "ime_prezime": null,
+    "oib": null,
+    "adresa": null,
+    "kontakt": null
+  },
+  "akt": {
+    "vrsta": "prekrsajni_nalog",
+    "tijelo": "Ogledni prekršajni sud",
+    "broj": "SINTETICKI_PN_0001",
+    "datum": "20.02.2026.",
+    "datum_dostave": "20.02.2026."
+  },
+  "obrada": {
+    "cilj": "priprema_prigovora",
+    "pravni_lijek": "prigovor",
+    "rok": "8 dana"
+  },
+  "privatnost": {
+    "klasifikacija": "JAVNO_SINTETICKI",
+    "sadrzi_osobne_podatke": false,
+    "dopusteno_git_pracenje": true
   },
   "sud_naziv": "Ogledni prekršajni sud",
-  "napomena_nacrt": "Isključivo sintetički predmet za dokaz P7 toka."
+  "napomena_nacrt": "Isključivo sintetički predmet za dokaz P7-P9 toka."
 }
