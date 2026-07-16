@@ -52,18 +52,32 @@ Bez posebnog odobrenja agent smije:
 Prije sadržajne izmjene agent mora prikazati cilj, opseg, rizik i način
 provjere te dobiti odobrenje vlasnika.
 
-Agent ne smije bez zasebnog odobrenja:
+Odobrenje sadržajnog paketa uključuje ovlast agentu da unutar odobrenog
+opsega:
 
-- napraviti commit ili push;
-- otvoriti pull request;
+- napravi lokalni commit nakon svakog provjerenog podkoraka;
+- napravi sigurnosni push nakon približno pet lokalnih commitova ili prije
+  duljeg prekida rada, bez otvaranja pull requesta;
+- nakon završne provjere napravi završni push i otvori jedan draft pull
+  request za cijeli paket.
+
+Za te radnje ne traži se novo odobrenje dok se ne mijenjaju odobreni cilj,
+opseg, rizik ni kriterij završetka.
+
+Agent ne smije bez zasebnog izričitog odobrenja:
+
+- spojiti pull request u `main`;
 - objaviti ili poslati dokument;
 - potpisati dokument ili oponašati potpis vlasnika;
 - uvesti stvarne osobne podatke u javni repozitorij;
+- proširiti sadržajni paket izvan odobrenog opsega;
 - izvesti destruktivnu ili teško povratnu radnju.
 
 ## 4) Standardni radni ciklus
 
-U jednom trenutku postoji samo jedan aktivni zadatak.
+U jednom trenutku postoji samo jedan aktivni funkcionalni paket. Paket može
+sadržavati približno tri do pet povezanih podkoraka koji zajedno daju jednu
+provjerljivu cjelinu.
 
 Za svaki zadatak agent prvo daje kratki prijedlog koji sadrži:
 
@@ -79,11 +93,16 @@ Nakon odobrenja agent:
 
 1) provjerava početno Git stanje;
 2) radi na zasebnoj grani s prefiksom `codex/`;
-3) provodi samo odobrenu promjenu;
-4) pokreće ciljane provjere;
-5) pokreće puni kontrolni tok kada je primjenjivo;
-6) prikazuje rezultat i sažetak razlika;
-7) čeka zasebno odobrenje za commit i push.
+3) provodi samo odobrene podkorake istog paketa;
+4) nakon svakog podkoraka pokreće ciljanu provjeru i radi lokalni commit;
+5) nakon približno pet commitova ili prije duljeg prekida radi sigurnosni
+   push bez pull requesta;
+6) na kraju paketa pokreće puni kontrolni tok kada je primjenjivo;
+7) prikazuje rezultat, radi završni push i otvara jedan draft pull request;
+8) čeka izričito odobrenje vlasnika prije spajanja u `main`.
+
+Broj podkoraka nije sam sebi cilj. Paket se zatvara ranije ili kasnije ako je
+to potrebno da ostane sadržajno zaokružen, provjerljiv i pregledan.
 
 ## 5) Izvori istine i radna memorija
 
