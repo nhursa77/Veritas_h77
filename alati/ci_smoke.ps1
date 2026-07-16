@@ -22,6 +22,7 @@ $auditFixturesTestScript = Join-Path $PSScriptRoot "test_fixtures_audit_prekrsaj
 $p7RunnerTestScript = Join-Path $PSScriptRoot "test_run_tok_p7_v1.ps1"
 $tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
 $tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
+$p8TestScript = Join-Path $PSScriptRoot "test_p8_manifest_lanac_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -438,6 +439,11 @@ try {
 
                 $global:LASTEXITCODE = 0
             }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "test_p8_manifest_lanac_v1"
+            Action = { & $p8TestScript }
             Enabled = $true
         }
     )
