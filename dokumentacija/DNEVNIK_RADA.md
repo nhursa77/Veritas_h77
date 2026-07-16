@@ -6058,3 +6058,68 @@ Obavljene provjere:
 
 Commit hash: (upisano nakon commita)
 
+---
+
+## Datum: 16.07.2026 (ZADATAK 171)
+
+### ZADATAK 171 - uspostava upravljackog modela rada s AI agentom
+
+Vlasnik projekta odobrio je novi model suradnje u kojem AI agent vodi
+operativni i tehnicki dio projekta, predlaze prioritete i provodi odobrene
+izmjene, dok covjek ostaje vlasnik svrhe i konacni donositelj odluka.
+
+U korijenu repozitorija uveden je `AGENTS.md` kao trajni upravljacki dokument
+za sve AI agente. Dokument definira:
+
+- uloge vlasnika i AI agenta;
+- granice ovlasti i obavezno odobravanje;
+- jedan aktivni zadatak u jednom trenutku;
+- privatnost i zabranu stvarnih osobnih podataka u javnom repozitoriju;
+- aktivni prekršajni pilot-tok;
+- obavezno citanje, provjere i nacin komunikacije.
+
+Na vrh `STATUS_PROJEKTA_VERITAS_H77.md` dodan je aktualni upravljacki
+sazetak s dokazanim stanjem, funkcionalnim prazninama, aktivnim ciljem i
+sljedecim predlozenim tehnickim paketom.
+
+`MAPA_DOKUMENTACIJE_VERITAS_H77.md` dopunjena je korijenskim `AGENTS.md` kao
+prvim dokumentom koji AI agent mora procitati.
+
+Ovaj zadatak ne mijenja zakone, norme, izvore, generatore, predloske,
+postupke ni fixture podatke.
+
+Dirane su tocno ove datoteke:
+
+- `AGENTS.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Planirane provjere:
+
+- scoped Markdown provjera;
+- puni `alati/ci_smoke.ps1`;
+- provjera da nema neocekivanih izmjena;
+- ljudski pregled upravljackog sadrzaja.
+
+Commit hash: nije izraden; ceka zasebno odobrenje vlasnika.
+
+### Dopuna ZADATKA 171 - temeljna definicija Veritasa
+
+Vlasnik projekta pojasnio je i odobrio temeljnu definiciju sustava:
+
+> Veritas H.77 je digitalna ustavna svijest usmjerena zaštiti ustavnih
+> prava čovjeka.
+
+Operativno je Veritas definiran kao dokaziv i provjerljiv digitalni sustav
+ustavne provjere. Ustav Republike Hrvatske koristi kao temeljno mjerilo
+usklađenosti, a zakone i druge pravne izvore koristi za utvrđivanje načina
+ostvarivanja prava, postupka, nadležnosti, rokova i pravnih lijekova.
+
+Veritas ne donosi odluke o ustavnosti i ne zamjenjuje nadležno tijelo.
+Njegova je uloga prepoznati, dokumentirati i obrazložiti moguću
+neusklađenost te čovjeku predložiti zakonit put zaštite prava.
+
+Ovom dopunom ispravljena je preuska početna oznaka Veritasa kao samo
+pravno-proceduralnog sustava. Pravni i proceduralni sloj ostaje sredstvo
+ustavne zaštite, a ne konačna svrha sustava.

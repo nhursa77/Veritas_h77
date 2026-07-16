@@ -1,6 +1,6 @@
 # MAPA_DOKUMENTACIJE_VERITAS_H77
 
-Datum: 31.03.2026.
+Datum: 16.07.2026.
 Status: kanonski
 Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
@@ -23,6 +23,10 @@ Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 ---
 
 ## 2) Kanonski dokumenti
+
+### `AGENTS.md`
+Korijenski upravljački dokument za rad AI agenata na projektu.
+Definira uloge, granice ovlasti, odobravanje, privatnost i provjere.
 
 ### `METODOLOGIJA_RADA_VERITAS_H77.md`
 Definira što je Veritas H.77, kako radi i gdje su granice odgovornosti.
@@ -354,6 +358,7 @@ snapshota od zavrsnog git dokaza.
 
 ## 3) Redoslijed čitanja
 
+0) `AGENTS.md`
 1) `METODOLOGIJA_RADA_VERITAS_H77.md`
 2) `RJEČNIK_POJMOVA_VERITAS_H77.md`
 3) `TEHNIČKI_OKVIR_VERITAS_H77.md`

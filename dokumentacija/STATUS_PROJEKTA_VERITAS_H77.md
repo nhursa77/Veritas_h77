@@ -1,6 +1,83 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 15.04.2026.
+Datum: 16.07.2026.
+
+## Aktualni upravljački sažetak
+
+- Kanonski objavljeni HEAD: `85745e7` na grani `main`.
+- `main` je pri početnoj provjeri bio poravnat s `origin/main`.
+- Aktivna radna grana:
+  `codex/uspostava-upravljanja-projektom`.
+- Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
+  `CI_SMOKE_EXIT=0` izvan ograničenog sigurnosnog okruženja.
+- Projekt vodi AI agent unutar odobrenog opsega, a vlasnik projekta ostaje
+  konačni donositelj odluka.
+- Trajna pravila rada AI agenata nalaze se u korijenskom `AGENTS.md`.
+
+### Temeljna svrha
+
+Veritas H.77 je digitalna ustavna svijest usmjerena zaštiti ustavnih prava
+čovjeka.
+
+Ustav Republike Hrvatske njegovo je temeljno mjerilo usklađenosti. Zakoni i
+drugi pravni izvori služe utvrđivanju načina ostvarivanja ustavnih prava,
+propisanog postupka, nadležnosti, rokova i dopuštenih pravnih lijekova.
+
+Veritas ne donosi odluke o ustavnosti i ne zamjenjuje nadležno tijelo.
+Prepoznaje i dokumentira moguću neusklađenost te čovjeku predlaže zakonit
+put zaštite prava.
+
+### Aktivni cilj
+
+Aktivna pilot-domena je prekršajni modul, a prvi funkcionalni tok je:
+
+`prekršajni nalog -> prigovor -> audit -> nacrt -> manifest`
+
+Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
+
+### Dokazano stanje
+
+- Prolaze izvorni i paketni preflightovi obuhvaćeni `ci_smoke` tokom.
+- Prolaze sheme za intake, audit, subsumpciju, predloške i postupke.
+- Prolaze 24 fixture scenarija audita prekršajnog modula.
+- Četiri ogledna proceduralna toka stvaraju tehničke nacrte.
+- Nakon punog kontrolnog toka Git radno stablo ostaje čisto.
+
+### Otvorene funkcionalne praznine
+
+- P7 nije stvarno zatvoren: runner još ne primjenjuje predložak na sadržaj.
+- Putanje postupaka tvrdo su vezane uz `OGLEDNI_PREDMET_0001`.
+- `predmet.json`, manifest i lanac skrbništva nisu zatvoreni u E2E toku.
+- Generirani audit i nacrti mogu oštetiti hrvatska slova zbog miješanja
+  PowerShell 7 i Windows PowerShell 5.1.
+- Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
+  poljima vlastitog standarda.
+- GitHub Actions ne reagira na sve promjene postupaka, predložaka i fixturea.
+- Za stvarne predmete još nije uvedena potpuna Git zaštita privatnosti.
+
+### Sljedeći predloženi tehnički paket
+
+Nakon odobrenja ovog upravljačkog paketa slijedi zasebna odluka za:
+
+1) standardizaciju izvršavanja na PowerShellu 7;
+2) UTF-8 test za hrvatska slova;
+3) proširenje CI triggera na sve aktivne dijelove prekršajnog toka;
+4) ograničenje full-repo Markdown provjere na Gitom praćene datoteke.
+
+### Pravilo odlučivanja
+
+Za svaki sadržajni zadatak vrijedi slijed:
+
+`prijedlog -> odobrenje -> izmjena -> provjera -> pregled -> commit`
+
+Commit, push i pull request zahtijevaju zasebno odobrenje vlasnika.
+
+### Napomena o povijesnom sadržaju
+
+Detaljni zapisi ispod ovog sažetka ostaju kao povijesni operativni trag.
+Ne smatraju se svi aktualnim upravljačkim stanjem. ZADATAK 170 postoji u
+starijem dijelu dnevnika, dok su zapisi 168 i 169 naknadno završili na kraju
+datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
