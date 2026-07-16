@@ -4,12 +4,12 @@ Datum: 16.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 175: `d62502c` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 175 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 176: `d64c299` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 176 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p8-manifest-lanac-skrbnistva`.
+  `codex/p9-predmet-privatnost`.
 - Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za P8 paket ZADATKA 175.
+  `CI_SMOKE_EXIT=0` za P9 paket ZADATKA 176.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -54,6 +54,15 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
   dva obavezna događaja u provjerljiv događajni hash-lanac.
 - P8 negativni testovi dokazuju da izmijenjen nacrt, nestali artefakt ili
   pogrešan identitet uklanjaju i manifest i lanac skrbništva.
+- P9 uvodi punu shemu predmeta i strogo odvaja javni sintetički od lokalnog
+  povjerljivog režima.
+- Stvarni predmeti dopušteni su samo pod `VERITAS_LOCAL_DATA_ROOT` izvan
+  repozitorija i poznatih mapa automatske javne sinkronizacije.
+- Aktivni lokalni pre-commit čuvar i CI provjeravaju stvarni Git indeks,
+  zabranjene putanje i visokopouzdane obrasce osobnih identifikatora.
+- P9 negativni testovi dokazuju blokadu nedosljednih privatnosnih oznaka,
+  popunjenog osobnog polja javnog predmeta, lokalnog korijena unutar repoa i
+  prisilno dodane zabranjene putanje.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -61,9 +70,9 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 - Svih 24 fixture scenarija provjerava ispravan hrvatski tekst i odsutnost
   tipičnih mojibake znakova u generiranom auditu.
 - Stvarni P7 nacrt za `TOK_PN_PRIGOVOR` ima UTF-8 zaštitu u punom CI toku.
-- Puni Markdown pregled obuhvaća samo 178 Gitom praćenih `.md` datoteka.
+- Puni Markdown pregled obuhvaća samo 179 Gitom praćenih `.md` datoteka.
 - GitHub workflow prati postupke, predloške, predmete i upravljačke
-  konfiguracije te koristi `actions/checkout@v6` i
+  konfiguracije, uključujući `.githooks/`, te koristi `actions/checkout@v6` i
   `actions/setup-python@v6`.
 - Puni kontrolni tok ne ostavlja generirane izlaze ni promjene ulaznog
   sintetičkog predmeta.
@@ -72,20 +81,22 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 
 - P7 je zatvoren samo za prvi sintetički tok `TOK_PN_PRIGOVOR`; preostala tri
   toka još nemaju vlastite ulaze, pravna sidra ni stvarne P7 nacrte.
-- Minimalni sintetički `predmet.json` služi dokazu P7 lanca; potpuna shema
-  predmeta još nije uvedena.
 - Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
   poljima vlastitog standarda.
-- Za stvarne predmete još nije uvedena potpuna Git zaštita privatnosti.
+- Lokalni korijen za prvi stvarni predmet još nije odabran, a početak rada na
+  konkretnom stvarnom predmetu nije ljudski odobren.
+- Automatizirani P9 pregled traži visokopouzdane obrasce, ali nije dokaz da
+  nepoznata vrsta osobnog podatka ne može postojati; ljudski pregled ostaje
+  obavezan.
 
-### Sljedeći predloženi funkcionalni paket
+### Sljedeća potrebna odluka
 
-Nakon zatvaranja P8 slijedi zasebna odluka za pripremu P9:
+P9 tehnička priprema ne daje automatsko odobrenje za unos stvarnih podataka.
+Prije prvog stvarnog predmeta vlasnik mora zasebno:
 
-1) puna shema predmeta;
-2) tehnička Git zaštita privatnosti;
-3) lokalni režim stvarnih dokaza bez javnog praćenja;
-4) sintetički dokaz tih zaštita prije odluke o prvom stvarnom predmetu.
+1) odabrati lokalni korijen izvan repozitorija i javne sinkronizacije;
+2) odobriti početak rada na konkretnom predmetu;
+3) potvrditi ljudski pregled privatnosti i opseg minimalno potrebnih podataka.
 
 ### Pravilo odlučivanja
 
@@ -107,11 +118,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `d62502c` - Merge pull request #5 from
-  nhursa77/codex/paketna-operativa
+- Polazni HEAD prije zadatka: `d64c299` - Merge pull request #6 from
+  nhursa77/codex/p8-manifest-lanac-skrbnistva
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 175
+- Zadnji dovršeni zadatak: ZADATAK 176
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
