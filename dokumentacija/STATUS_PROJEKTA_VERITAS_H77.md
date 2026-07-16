@@ -4,12 +4,15 @@ Datum: 16.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 173: `8c3e1db` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 173 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 174: `8a04c99` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 174 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p7-audit-predlozak-nacrt`.
+  `codex/paketna-operativa`.
 - Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` na aktivnoj grani ZADATKA 173.
+  `CI_SMOKE_EXIT=0` za objavljeni P7 paket ZADATKA 173.
+- Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
+  provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
+  jedan završni push i draft pull request po paketu.
 - Projekt vodi AI agent unutar odobrenog opsega, a vlasnik projekta ostaje
   konačni donositelj odluka.
 - Trajna pravila rada AI agenata nalaze se u korijenskom `AGENTS.md`.
@@ -81,11 +84,14 @@ Nakon zatvaranja ZADATKA 173 slijedi zasebna odluka za P8:
 
 ### Pravilo odlučivanja
 
-Za svaki sadržajni zadatak vrijedi slijed:
+Za svaki sadržajni paket vrijedi slijed:
 
-`prijedlog -> odobrenje -> izmjena -> provjera -> pregled -> commit`
+`prijedlog -> odobrenje -> podkoraci -> lokalni commitovi -> završna provjera`
 
-Commit, push i pull request zahtijevaju zasebno odobrenje vlasnika.
+Nakon završne provjere slijede jedan završni push i jedan draft pull request.
+Odobrenje paketa pokriva lokalne commitove, sigurnosne pusheve te završni push
+i draft pull request dok opseg ostaje nepromijenjen. Spajanje u `main` uvijek
+zahtijeva zasebno izričito odobrenje vlasnika.
 
 ### Napomena o povijesnom sadržaju
 
@@ -96,11 +102,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `8c3e1db` - Merge pull request #3 from
-  nhursa77/codex/stabilizacija-pwsh-utf8-ci
+- Polazni HEAD prije zadatka: `8a04c99` - Merge pull request #4 from
+  nhursa77/codex/p7-audit-predlozak-nacrt
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 173
+- Zadnji dovršeni zadatak: ZADATAK 174
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -659,8 +665,8 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `8c3e1db` - Merge pull request #3 from
-  nhursa77/codex/stabilizacija-pwsh-utf8-ci
+- Polazni HEAD prije zadatka: `8a04c99` - Merge pull request #4 from
+  nhursa77/codex/p7-audit-predlozak-nacrt
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
@@ -946,3 +952,15 @@ Pre-check snapshot sinkronizacije:
   pet P7 negativnih i pozitivnih testova te puni `ci_smoke` s rezultatom
   `CI_SMOKE_EXIT=0`.
 - Commit i push čekaju zasebno odobrenje vlasnika.
+
+### Uvođenje paketne razvojne operative (ZADATAK 174)
+
+- Jedinica rada promijenjena je iz pojedinačnog mikro-zadatka u funkcionalni
+  paket od približno tri do pet povezanih podkoraka.
+- Odobrenje paketa uključuje lokalne commitove nakon provjerenih podkoraka,
+  sigurnosni push nakon približno pet commitova te jedan završni push i draft
+  pull request za cijeli paket.
+- Broj pet ostaje sigurnosna granica, a ne razlog za umjetno razdvajanje ili
+  spajanje sadržajno nepovezanih promjena.
+- Svako proširenje opsega i svako spajanje u `main` i dalje zahtijeva zasebno
+  izričito odobrenje vlasnika.

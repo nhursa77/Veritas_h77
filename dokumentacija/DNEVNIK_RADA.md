@@ -6232,3 +6232,37 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 16.07.2026 (ZADATAK 174)
+
+### ZADATAK 174 - uvođenje paketne razvojne operative
+
+Jedinica rada promijenjena je iz pojedinačnog mikro-zadatka u funkcionalni paket
+od približno tri do pet povezanih podkoraka.
+
+Odobrenje sadržajnog paketa uključuje lokalne commitove nakon provjerenih
+podkoraka, sigurnosni push približno svakih pet commitova te jedan završni push
+i draft pull request.
+
+Broj pet je sigurnosna granica, a sadržajna zaokruženost ostaje glavni kriterij
+zatvaranja paketa.
+
+Proširenje odobrenog opsega i spajanje pull requesta u main i dalje zahtijevaju
+zasebno izričito odobrenje vlasnika.
+
+Promjena je upravljačka i ne mijenja kod, pravne izvore, norme ni funkcionalni
+P7 lanac.
+
+Mijenjane datoteke:
+
+- `AGENTS.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `git diff --check`
+- `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`
+- `git status --short`
