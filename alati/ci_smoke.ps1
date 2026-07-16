@@ -3,6 +3,8 @@ param(
     [switch] $SkipPrekrsajniPreflight
 )
 
+#requires -Version 7.0
+
 $ErrorActionPreference = "Stop"
 chcp 65001 | Out-Null
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
@@ -287,7 +289,7 @@ try {
                     Write-Host "GEN_AUDIT_BEGIN=$tok"
 
                     $generatorOutput = @(
-                        powershell -NoProfile -ExecutionPolicy Bypass -File $auditGeneratorScript -PredmetId "OGLEDNI_PREDMET_0001" -Tok $tok -Verzija "v1" 2>&1
+                        pwsh -NoProfile -ExecutionPolicy Bypass -File $auditGeneratorScript -PredmetId "OGLEDNI_PREDMET_0001" -Tok $tok -Verzija "v1" 2>&1
                     )
                     $generatorExit = $LASTEXITCODE
 
@@ -332,7 +334,7 @@ try {
                     Write-Host "TOK_RUN_BEGIN=$tok"
 
                     $runnerOutput = @(
-                        powershell -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
+                        pwsh -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
                     )
                     $runnerExit = $LASTEXITCODE
 
@@ -363,6 +365,21 @@ try {
                             $global:LASTEXITCODE = $validatorExit
                             return
                         }
+
+                        $outputRaw = Get-Content -LiteralPath $resolvedOutputPath -Raw -Encoding UTF8
+                        if ($outputRaw -match "Ã|Ä|Å|Â|â|�") {
+                            Write-Host "ERROR: UTF8_DRAFT_MOJIBAKE=$resolvedOutputPath"
+                            $global:LASTEXITCODE = 1
+                            return
+                        }
+
+                        if (-not $outputRaw.Contains("traži")) {
+                            Write-Host "ERROR: UTF8_DRAFT_CROATIAN_TEXT_MISSING=$resolvedOutputPath"
+                            $global:LASTEXITCODE = 1
+                            return
+                        }
+
+                        Write-Host "UTF8_DRAFT_RESULT=OK TOK=$tok"
 
                         Write-Host "TOK_RUN_END=$tok RESULT=OK"
                         continue

@@ -7,18 +7,39 @@ on:
       - "paketi/**"
       - "baza_zakona/**"
       - "izvori/**"
+      - "postupci/**"
+      - "predlosci/**"
+      - "predmeti/**"
       - ".github/workflows/**"
       - "dokumentacija/**"
+      - "AGENTS.md"
       - "README.md"
+      - "requirements.txt"
+      - ".editorconfig"
+      - ".gitattributes"
+      - ".gitignore"
+      - ".markdownlint.json"
   pull_request:
     paths:
       - "alati/**"
       - "paketi/**"
       - "baza_zakona/**"
       - "izvori/**"
+      - "postupci/**"
+      - "predlosci/**"
+      - "predmeti/**"
       - ".github/workflows/**"
       - "dokumentacija/**"
+      - "AGENTS.md"
       - "README.md"
+      - "requirements.txt"
+      - ".editorconfig"
+      - ".gitattributes"
+      - ".gitignore"
+      - ".markdownlint.json"
+
+permissions:
+  contents: read
 
 jobs:
   smoke-windows:
@@ -27,10 +48,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Setup Python 3.12
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 

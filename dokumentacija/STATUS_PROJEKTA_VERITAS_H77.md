@@ -4,12 +4,12 @@ Datum: 16.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD: `85745e7` na grani `main`.
-- `main` je pri početnoj provjeri bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 172: `3ae043c` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 172 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/uspostava-upravljanja-projektom`.
+  `codex/stabilizacija-pwsh-utf8-ci`.
 - Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` izvan ograničenog sigurnosnog okruženja.
+  `CI_SMOKE_EXIT=0` na aktivnoj grani ZADATKA 172.
 - Projekt vodi AI agent unutar odobrenog opsega, a vlasnik projekta ostaje
   konačni donositelj odluka.
 - Trajna pravila rada AI agenata nalaze se u korijenskom `AGENTS.md`.
@@ -41,6 +41,15 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 - Prolaze sheme za intake, audit, subsumpciju, predloške i postupke.
 - Prolaze 24 fixture scenarija audita prekršajnog modula.
 - Četiri ogledna proceduralna toka stvaraju tehničke nacrte.
+- Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
+  odbijaju Windows PowerShell 5.1 prije stvaranja izlaza.
+- Svih 24 fixture scenarija provjerava ispravan hrvatski tekst i odsutnost
+  tipičnih mojibake znakova u generiranom auditu.
+- Sva četiri tehnička nacrta imaju istu UTF-8 zaštitu u punom CI toku.
+- Puni Markdown pregled obuhvaća samo 177 Gitom praćenih `.md` datoteka.
+- GitHub workflow prati postupke, predloške, predmete i upravljačke
+  konfiguracije te koristi `actions/checkout@v6` i
+  `actions/setup-python@v6`.
 - Nakon punog kontrolnog toka Git radno stablo ostaje čisto.
 
 ### Otvorene funkcionalne praznine
@@ -48,21 +57,18 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 - P7 nije stvarno zatvoren: runner još ne primjenjuje predložak na sadržaj.
 - Putanje postupaka tvrdo su vezane uz `OGLEDNI_PREDMET_0001`.
 - `predmet.json`, manifest i lanac skrbništva nisu zatvoreni u E2E toku.
-- Generirani audit i nacrti mogu oštetiti hrvatska slova zbog miješanja
-  PowerShell 7 i Windows PowerShell 5.1.
 - Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
   poljima vlastitog standarda.
-- GitHub Actions ne reagira na sve promjene postupaka, predložaka i fixturea.
 - Za stvarne predmete još nije uvedena potpuna Git zaštita privatnosti.
 
-### Sljedeći predloženi tehnički paket
+### Sljedeći predloženi funkcionalni paket
 
-Nakon odobrenja ovog upravljačkog paketa slijedi zasebna odluka za:
+Nakon zatvaranja ZADATKA 172 slijedi zasebna odluka za P7:
 
-1) standardizaciju izvršavanja na PowerShellu 7;
-2) UTF-8 test za hrvatska slova;
-3) proširenje CI triggera na sve aktivne dijelove prekršajnog toka;
-4) ograničenje full-repo Markdown provjere na Gitom praćene datoteke.
+1) stvarnu primjenu predloška na sadržaj audita i predmeta;
+2) uklanjanje tvrdog vezanja runnera uz jedan ogledni predmet;
+3) dokazivu vezu `audit -> nacrt` na sintetičkom predmetu;
+4) pripremu jasnog ulaznog ugovora za kasniji manifest i lanac skrbništva.
 
 ### Pravilo odlučivanja
 

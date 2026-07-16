@@ -1,3 +1,5 @@
+#requires -Version 7.0
+
 param(
     [Parameter(Mandatory = $true)]
     [string] $Tok,
@@ -37,7 +39,7 @@ if (-not (Test-Path -LiteralPath $postupakPath)) {
     exit 1
 }
 
-$postupak = Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json
+$postupak = Get-Content -LiteralPath $postupakPath -Raw -Encoding UTF8 | ConvertFrom-Json
 
 $auditPath = Resolve-RepoPath -PathRef ([string]$postupak.ulazi.audit_ref)
 $intakePath = Resolve-RepoPath -PathRef ([string]$postupak.ulazi.intake_ref)
@@ -45,9 +47,9 @@ $subsumcijaPath = Resolve-RepoPath -PathRef ([string]$postupak.ulazi.subsumcija_
 $predlozakPath = Resolve-RepoPath -PathRef ([string]$postupak.ulazi.predlozak_ref)
 $outputPath = Resolve-RepoPath -PathRef ([string]$postupak.izlazi.nacrt_ref)
 
-$audit = Get-Content -LiteralPath $auditPath -Raw | ConvertFrom-Json
-$intake = Get-Content -LiteralPath $intakePath -Raw | ConvertFrom-Json
-$null = Get-Content -LiteralPath $subsumcijaPath -Raw | ConvertFrom-Json
+$audit = Get-Content -LiteralPath $auditPath -Raw -Encoding UTF8 | ConvertFrom-Json
+$intake = Get-Content -LiteralPath $intakePath -Raw -Encoding UTF8 | ConvertFrom-Json
+$null = Get-Content -LiteralPath $subsumcijaPath -Raw -Encoding UTF8 | ConvertFrom-Json
 if (-not (Test-Path -LiteralPath $predlozakPath)) {
     Write-Host "RUNNER_RESULT=STOP"
     Write-Host "STOP_REASON=missing.predlozak"
@@ -56,7 +58,7 @@ if (-not (Test-Path -LiteralPath $predlozakPath)) {
 }
 
 try {
-    $null = Get-Content -LiteralPath $predlozakPath -Raw | ConvertFrom-Json
+    $null = Get-Content -LiteralPath $predlozakPath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
     Write-Host "RUNNER_RESULT=STOP"
@@ -120,7 +122,7 @@ $content = @(
     "INTAKE_END"
 )
 
-Set-Content -LiteralPath $outputPath -Value $content -Encoding UTF8
+Set-Content -LiteralPath $outputPath -Value $content -Encoding utf8NoBOM
 
 Write-Host "RUNNER_RESULT=OK"
 Write-Host "OUTPUT_PATH=$outputPath"

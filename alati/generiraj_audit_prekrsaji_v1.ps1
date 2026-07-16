@@ -1,3 +1,5 @@
+#requires -Version 7.0
+
 param(
     [Parameter(Mandatory = $true)]
     [string] $PredmetId,
@@ -39,7 +41,7 @@ if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
 }
 
 try {
-    Get-Content -LiteralPath $postupakPath -Raw | ConvertFrom-Json | Out-Null
+    Get-Content -LiteralPath $postupakPath -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null
 }
 catch {
     Write-Host "ERROR: POSTUPAK_JSON_PARSE_FAIL=$postupakPath"
@@ -47,7 +49,7 @@ catch {
 }
 
 try {
-    $intake = Get-Content -LiteralPath $intakePath -Raw | ConvertFrom-Json
+    $intake = Get-Content -LiteralPath $intakePath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
     Write-Host "ERROR: INTAKE_JSON_PARSE_FAIL=$intakePath"
@@ -55,7 +57,7 @@ catch {
 }
 
 try {
-    $subsumcija = Get-Content -LiteralPath $subsumcijaPath -Raw | ConvertFrom-Json
+    $subsumcija = Get-Content -LiteralPath $subsumcijaPath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
     Write-Host "ERROR: SUBSUMCIJA_JSON_PARSE_FAIL=$subsumcijaPath"
@@ -65,7 +67,7 @@ catch {
 $existingAudit = $null
 if (Test-Path -LiteralPath $existingAuditPath) {
     try {
-        $existingAudit = Get-Content -LiteralPath $existingAuditPath -Raw | ConvertFrom-Json
+        $existingAudit = Get-Content -LiteralPath $existingAuditPath -Raw -Encoding UTF8 | ConvertFrom-Json
     }
     catch {
         $existingAudit = $null
@@ -376,7 +378,7 @@ if (-not (Test-Path -LiteralPath $outputDir)) {
 
 try {
     $json = $doc | ConvertTo-Json -Depth 20
-    Set-Content -LiteralPath $outputPath -Value $json -Encoding UTF8
+    Set-Content -LiteralPath $outputPath -Value $json -Encoding utf8NoBOM
 }
 catch {
     Write-Host "ERROR: OUTPUT_WRITE_FAIL=$outputPath"
