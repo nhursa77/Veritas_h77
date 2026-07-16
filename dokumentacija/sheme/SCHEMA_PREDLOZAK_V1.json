@@ -25,6 +25,7 @@
     },
     "sekcije": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "type": "object",
         "required": ["id", "naslov", "polja"],
@@ -33,6 +34,7 @@
           "naslov": { "type": "string" },
           "polja": {
             "type": "array",
+            "minItems": 1,
             "items": {
               "type": "object",
               "required": ["id", "label", "izvor", "obavezno"],
@@ -56,6 +58,8 @@
       "properties": {
         "izvori": {
           "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
           "items": {
             "type": "string",
             "enum": ["audit", "predmet", "intake"]
@@ -63,6 +67,7 @@
         },
         "pravila": {
           "type": "array",
+          "minItems": 1,
           "items": {
             "type": "object",
             "required": ["polje_id", "izvor", "transformacija"],

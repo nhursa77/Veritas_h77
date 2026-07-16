@@ -4,12 +4,12 @@ Datum: 16.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 172: `3ae043c` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 172 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 173: `8c3e1db` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 173 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/stabilizacija-pwsh-utf8-ci`.
+  `codex/p7-audit-predlozak-nacrt`.
 - Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` na aktivnoj grani ZADATKA 172.
+  `CI_SMOKE_EXIT=0` na aktivnoj grani ZADATKA 173.
 - Projekt vodi AI agent unutar odobrenog opsega, a vlasnik projekta ostaje
   konačni donositelj odluka.
 - Trajna pravila rada AI agenata nalaze se u korijenskom `AGENTS.md`.
@@ -40,35 +40,44 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 - Prolaze izvorni i paketni preflightovi obuhvaćeni `ci_smoke` tokom.
 - Prolaze sheme za intake, audit, subsumpciju, predloške i postupke.
 - Prolaze 24 fixture scenarija audita prekršajnog modula.
-- Četiri ogledna proceduralna toka stvaraju tehničke nacrte.
+- Prvi strogi P7 tok `TOK_PN_PRIGOVOR` dokazivo povezuje sintetički predmet,
+  generirani audit, tri puna NN sidra, pet polja predloška i nepotpisani
+  nacrt.
+- P7 negativni testovi dokazuju da blokirani audit, nepotpuno NN sidro,
+  nedostajuće obvezno polje ili nepodudaran identitet ne stvaraju nacrt.
+- Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
+  nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
   odbijaju Windows PowerShell 5.1 prije stvaranja izlaza.
 - Svih 24 fixture scenarija provjerava ispravan hrvatski tekst i odsutnost
   tipičnih mojibake znakova u generiranom auditu.
-- Sva četiri tehnička nacrta imaju istu UTF-8 zaštitu u punom CI toku.
+- Stvarni P7 nacrt za `TOK_PN_PRIGOVOR` ima UTF-8 zaštitu u punom CI toku.
 - Puni Markdown pregled obuhvaća samo 177 Gitom praćenih `.md` datoteka.
 - GitHub workflow prati postupke, predloške, predmete i upravljačke
   konfiguracije te koristi `actions/checkout@v6` i
   `actions/setup-python@v6`.
-- Nakon punog kontrolnog toka Git radno stablo ostaje čisto.
+- Puni kontrolni tok ne ostavlja generirane izlaze ni promjene ulaznog
+  sintetičkog predmeta.
 
 ### Otvorene funkcionalne praznine
 
-- P7 nije stvarno zatvoren: runner još ne primjenjuje predložak na sadržaj.
-- Putanje postupaka tvrdo su vezane uz `OGLEDNI_PREDMET_0001`.
-- `predmet.json`, manifest i lanac skrbništva nisu zatvoreni u E2E toku.
+- P7 je zatvoren samo za prvi sintetički tok `TOK_PN_PRIGOVOR`; preostala tri
+  toka još nemaju vlastite ulaze, pravna sidra ni stvarne P7 nacrte.
+- Minimalni sintetički `predmet.json` služi dokazu P7 lanca; potpuna shema
+  predmeta još nije uvedena.
+- Manifest i lanac skrbništva nisu zatvoreni u E2E toku.
 - Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
   poljima vlastitog standarda.
 - Za stvarne predmete još nije uvedena potpuna Git zaštita privatnosti.
 
 ### Sljedeći predloženi funkcionalni paket
 
-Nakon zatvaranja ZADATKA 172 slijedi zasebna odluka za P7:
+Nakon zatvaranja ZADATKA 173 slijedi zasebna odluka za P8:
 
-1) stvarnu primjenu predloška na sadržaj audita i predmeta;
-2) uklanjanje tvrdog vezanja runnera uz jedan ogledni predmet;
-3) dokazivu vezu `audit -> nacrt` na sintetičkom predmetu;
-4) pripremu jasnog ulaznog ugovora za kasniji manifest i lanac skrbništva.
+1) manifest generiranog nacrta;
+2) dokazivi lanac skrbništva od ulaza do nacrta;
+3) hash i identitet svakog artefakta uključenog u P7 lanac;
+4) negativni testovi koji pri nepodudarnosti zaustavljaju P8 bez manifesta.
 
 ### Pravilo odlučivanja
 
@@ -87,11 +96,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `00f0c7f` - docs: analiza zadrzavanja ili
-  uklanjanja pomocnih pokretaca ustav rh
+- Polazni HEAD prije zadatka: `8c3e1db` - Merge pull request #3 from
+  nhursa77/codex/stabilizacija-pwsh-utf8-ci
 - Repo čist pri pre-checku: DA
-- Poravnanje grane pri pre-checku: poravnat s `origin/main`
-- Zadnji dovršeni zadatak: ZADATAK 170
+- Poravnanje grane pri pre-checku: poravnat s origin/main
+- Zadnji dovršeni zadatak: ZADATAK 173
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -650,8 +659,8 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `eb7a13f` - docs: inventura obrasca zakoni s
-  amandmanima (Z138)
+- Polazni HEAD prije zadatka: `8c3e1db` - Merge pull request #3 from
+  nhursa77/codex/stabilizacija-pwsh-utf8-ci
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
@@ -918,3 +927,22 @@ Pre-check snapshot sinkronizacije:
 - Broj potpuno validiranih natuknica je povecan s `35` na `40`.
 - Osvjezena je rang-lista homogenih nizova i potvrdeno je da vise nema
   preostalih preporucenih nizova za paketno zatvaranje.
+
+### Strogi P7 audit-predložak-nacrt za prvi sintetički tok (ZADATAK 173)
+
+- Za `TOK_PN_PRIGOVOR` uveden je stvarni lanac
+  `predmet -> audit -> puna NN sidra -> predložak -> nepotpisani nacrt`.
+- Postupak koristi dinamičku oznaku `{PREDMET_ID}`, a minimalni sintetički
+  predmet ne sadrži stvarne osobne podatke.
+- Audit se dokazivo veže uz postojeće NORMA JSON zapise za članke 235., 236.
+  i 237. Prekršajnog zakona; sadržaj tih normi nije mijenjan.
+- Runner primjenjuje pet ugovorenih polja predloška i zapisuje dokaz izvora
+  svakog polja u nacrt.
+- Blokirani audit, nepotpuno NN sidro, nedostajuće obvezno polje i nepodudaran
+  identitet završavaju bez nacrta.
+- Preostala tri toka zadržana su kao strukturni kosturi; P8 manifest i lanac
+  skrbništva namjerno su ostali izvan opsega.
+- Prošli su svi shematski validatori, svih 24 audit fixture scenarija, svih
+  pet P7 negativnih i pozitivnih testova te puni `ci_smoke` s rezultatom
+  `CI_SMOKE_EXIT=0`.
+- Commit i push čekaju zasebno odobrenje vlasnika.

@@ -52,7 +52,6 @@ Pravila:
 `mapiranje` je objekt koji definira pravila punjenja.
 Mora sadržavati:
 
-- `izvori` (niz stringova; dopušteno: `audit`, `predmet`)
 - `izvori` (niz stringova; dopušteno: `audit`, `predmet`, `intake`)
 - `pravila` (niz objekata)
 
@@ -65,8 +64,48 @@ Svako pravilo mora imati:
 Pravila:
 - Transformacije su u v1 zabranjene osim `none`. Svaka kompleksnost ide u
   novu verziju standarda.
+- Svako polje iz `sekcije[].polja[]` mora imati točno jedno pravilo.
+- `polje_id` mora biti jedinstven u cijelom predlošku.
+- `izvor` u pravilu mora biti jednak izvoru deklariranom u polju.
+- Korijen svakog izvora mora biti naveden u `mapiranje.izvori`.
+- Ako se obavezni izvor ne može razriješiti ili je prazan, nema nacrta.
 
-## 5. Minimalni primjer (struktura)
+## 5. P7 ulazni ugovor
+
+P7 runner razrješava samo putanje oblika:
+
+- `audit.<polje>` iz `audit_generated_v1.json`
+- `predmet.<polje>` iz `predmet.json`
+- `intake.<polje>` iz `intake_v1.json`
+
+Postupak smije koristiti oznaku `{PREDMET_ID}` samo u referencama na
+predmet. Runner oznaku zamjenjuje odobrenim identifikatorom predmeta i mora
+odbiti putanju koja izlazi iz repozitorija ili ostane nerazriješena.
+
+Minimalni `predmet.json` za sintetički P7 prolaz mora sadržavati:
+
+- `meta.id_predmeta`
+- sva polja koja konkretni predložak označava kao obavezna
+
+Identitet predmeta i toka mora se podudarati u predmetu, intakeu,
+subsumpciji i generiranom auditu. Nepodudarnost blokira nacrt.
+
+## 6. P7 izlazni ugovor
+
+Nacrt mora sadržavati identitet predloška, reference na predmet i generirani
+audit te dokaz za svako mapirano polje:
+
+- `POLJE_BEGIN=<id>`
+- `LABEL=<label>`
+- `IZVOR=<audit.*|predmet.*|intake.*>`
+- razriješenu vrijednost ili strukturirani audit blok
+- `POLJE_END=<id>`
+
+Bez barem jednog u auditu prenesenog NORMA zapisa sa statusom sidra `puno`
+runner ne smije proizvesti nacrt. Ostali uvjeti izlaza uređeni su standardom
+`STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`.
+
+## 7. Minimalni primjer (struktura)
 
 ```json
 {

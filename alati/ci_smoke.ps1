@@ -19,6 +19,7 @@ $genericSchemaValidatorScript = Join-Path $PSScriptRoot "validiraj_json_po_shemi
 $auditGeneratorScript = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
 $auditGeneratedValidatorScript = Join-Path $PSScriptRoot "validiraj_audit_generated_v1.ps1"
 $auditFixturesTestScript = Join-Path $PSScriptRoot "test_fixtures_audit_prekrsaji_v1.ps1"
+$p7RunnerTestScript = Join-Path $PSScriptRoot "test_run_tok_p7_v1.ps1"
 $tokRunnerScript = Join-Path $PSScriptRoot "run_tok_v1.ps1"
 $tokOutputValidatorScript = Join-Path $PSScriptRoot "validiraj_izlaz_tok_pn_prigovor_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
@@ -319,19 +320,39 @@ try {
             Action = { & $auditFixturesTestScript }
             Enabled = $true
         },
+        [pscustomobject]@{
+            Name = "test_run_tok_p7_v1"
+            Action = { & $p7RunnerTestScript }
+            Enabled = $true
+        },
         # KANON: CI koristi isključivo generički runner run_tok_v1.ps1
         [pscustomobject]@{
-            Name = "run_tokovi_v1"
+            Name = "run_tok_p7_v1"
             Action = {
                 $tokovi = @(
-                    "TOK_PN_PRIGOVOR",
-                    "TOK_PRESUDA_ZALBA",
-                    "TOK_RJESENJE_ZALBA",
-                    "TOK_OBUSTAVA"
+                    "TOK_PN_PRIGOVOR"
                 )
 
                 foreach ($tok in $tokovi) {
                     Write-Host "TOK_RUN_BEGIN=$tok"
+
+                    $generatorOutput = @(
+                        pwsh -NoProfile -ExecutionPolicy Bypass -File $auditGeneratorScript -PredmetId "OGLEDNI_PREDMET_0001" -Tok $tok -Verzija "v1" 2>&1
+                    )
+                    $generatorExit = $LASTEXITCODE
+                    foreach ($line in $generatorOutput) {
+                        Write-Host ([string]$line)
+                    }
+                    if ($generatorExit -ne 0) {
+                        $global:LASTEXITCODE = $generatorExit
+                        return
+                    }
+
+                    & $auditGeneratedValidatorScript
+                    if ($LASTEXITCODE -ne 0) {
+                        $global:LASTEXITCODE = $LASTEXITCODE
+                        return
+                    }
 
                     $runnerOutput = @(
                         pwsh -NoProfile -ExecutionPolicy Bypass -File $tokRunnerScript -Tok $tok -PredmetId "OGLEDNI_PREDMET_0001" -Verzija "v1" 2>&1
@@ -379,17 +400,35 @@ try {
                             return
                         }
 
+                        $p7Markers = @(
+                            "PREDLOZAK_ID=prigovor_pn_v1",
+                            "AUDIT_REF=predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/audit_generated_v1.json",
+                            "IZVOR=predmet.sud_naziv",
+                            "IZVOR=audit.nalazi",
+                            "IZVOR=intake.opis_dogadaja",
+                            "clanak_0235.json",
+                            "clanak_0236.json",
+                            "clanak_0237.json"
+                        )
+                        foreach ($p7Marker in $p7Markers) {
+                            if (-not $outputRaw.Contains($p7Marker)) {
+                                Write-Host "ERROR: P7_DRAFT_MARKER_MISSING=$p7Marker"
+                                $global:LASTEXITCODE = 1
+                                return
+                            }
+                        }
+
                         Write-Host "UTF8_DRAFT_RESULT=OK TOK=$tok"
+                        Write-Host "P7_E2E_RESULT=OK TOK=$tok"
 
                         Write-Host "TOK_RUN_END=$tok RESULT=OK"
                         continue
                     }
 
                     if ($runnerText -match "RUNNER_RESULT=STOP") {
-                        Write-Host "RUNNER_OUTPUT_VALIDATION=SKIPPED_STOP"
-
-                        Write-Host "TOK_RUN_END=$tok RESULT=STOP"
-                        continue
+                        Write-Host "ERROR: P7_E2E_UNEXPECTED_STOP TOK=$tok"
+                        $global:LASTEXITCODE = 1
+                        return
                     }
 
                     Write-Host "ERROR: RUNNER_RESULT marker missing"

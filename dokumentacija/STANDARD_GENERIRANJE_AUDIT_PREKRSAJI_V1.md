@@ -23,6 +23,10 @@ Generator čita sljedeće ulaze:
 4) postojeći `audit_v1.json` (ako postoji; služi kao kontekst i provjera
    postojeće kolizije; generator ga ne mijenja)
 
+Za P7 postupak može dodatno deklarirati `ulazi.norma_refs[]`. Generator
+svaku takvu referencu mora razriješiti unutar repozitorija, učitati kao JSON
+i potvrditi `izvori.status_sidra=puno`.
+
 Ako neki obavezni ulaz nedostaje, generator mora STOP-ati (vidi točku 7).
 
 ## 3. Izlaz (obavezno)
@@ -36,6 +40,16 @@ Datoteka sadrži `meta`, `gate_stanje` i `nalazi[]` u formatu kompatibilnom s
 
 `audit_generated_v1.json` je runtime-artefakt, ali mora biti deterministički
 i validabilan.
+
+Svako puno sidro iz `postupak.ulazi.norma_refs[]` prenosi se u zaseban
+`nalazi[]` zapis:
+
+- `kod`: `NORMA-SIDRO`
+- `norma_ref`: kanonska relativna putanja NORMA JSON zapisa
+- `tezina`: `NISKA`
+
+P7 runner smije koristiti samo sidro koje je tako preneseno u generirani
+audit i ponovno provjereno prije stvaranja nacrta.
 
 ## 4. Deterministički datum i identitet
 
@@ -141,6 +155,8 @@ Generator mora STOP-ati (exit != 0 u alatu) u sljedećim slučajevima:
 - `intake_v1.json` nije validan JSON ili ne prolazi `SCHEMA_INTAKE...`
 - `subsumcija_v1.json` nije validan JSON ili ne prolazi `SCHEMA_SUBSUMPCIJA...`
 - izlaz se ne može zapisati na predviđenu putanju
+- deklarirani `norma_ref` ne postoji, nije valjan JSON ili nema status
+  sidra `puno`
 
 ## 8. Neizmjenjivost ulaza i reproducibilnost
 
@@ -155,6 +171,7 @@ Standard je ispunjen kada:
 - dokument je u MAPA_DOKUMENTACIJE (u zasebnom zadatku, ne ovdje)
 - implementacija (kasniji zadatak) može proizvesti `audit_generated_v1.json`
   koji prolazi `SCHEMA_AUDIT_V1.json`
+- generirani audit za stvarni P7 tok prenosi sva puna sidra iz postupka
 
 ## 10. Fixtures acceptance (kanonski)
 

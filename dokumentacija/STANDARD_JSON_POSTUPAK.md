@@ -322,7 +322,31 @@ Ako uvjeti nisu zadovoljeni, izlaz mora biti `popis_za_dopunu` ili
 }
 ```
 
-## 12) Zaključna norma
+## 12) P7 referentni ugovor prekršajnog modula
+
+Prekršajni `postupak.json` u v1 mora sadržavati ove ulazne reference:
+
+- `predmet_ref`
+- `dokazi_dir_ref`
+- `audit_ref`
+- `subsumcija_ref`
+- `intake_ref`
+- `predlozak_ref`
+- `norma_refs`
+
+Reference na podatke konkretnog predmeta koriste oznaku `{PREDMET_ID}`.
+Oznaka se smije pojaviti samo u putanjama pod
+`predmeti/sud/prekrsajni/` i runner je mora razriješiti prije čitanja.
+
+P7 `audit_ref` mora pokazivati na `audit_generated_v1.json`, a
+`nacrt_ref` na tokovno određenu datoteku u izlaznoj mapi istog predmeta.
+
+`norma_refs` je niz kanonskih relativnih putanja NORMA JSON zapisa. Niz
+smije biti prazan u strukturnom kosturu toka, ali takav tok ne smije
+proizvesti P7 nacrt. Za funkcionalni tok sva navedena sidra moraju postojati,
+imati status `puno` i biti prenesena u generirani audit.
+
+## 13) Zaključna norma
 
 Svi postupci i koraci Veritasa H.77 moraju biti opisani ovim standardom.
 Svako odstupanje je nekanonsko i mora biti ispravljeno prije vanjske uporabe.
