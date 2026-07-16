@@ -1,3 +1,5 @@
+#requires -Version 7.0
+
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version Latest
 chcp 65001 | Out-Null
@@ -32,10 +34,57 @@ function Backup-File {
     param([Parameter(Mandatory = $true)][string] $Path)
 
     if (Test-Path -LiteralPath $Path) {
-        return [pscustomobject]@{ Exists = $true; Content = (Get-Content -LiteralPath $Path -Raw -Encoding UTF8) }
+        return [pscustomobject]@{
+            Exists = $true
+            Bytes = [System.IO.File]::ReadAllBytes($Path)
+        }
     }
 
-    return [pscustomobject]@{ Exists = $false; Content = "" }
+    return [pscustomobject]@{ Exists = $false; Bytes = [byte[]]@() }
+}
+
+function Set-Utf8FileWithRetry {
+    param(
+        [Parameter(Mandatory = $true)][string] $Path,
+        [Parameter(Mandatory = $true)][string] $Content
+    )
+
+    $maxAttempts = 5
+    for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
+        try {
+            Set-Content -LiteralPath $Path -Value $Content -Encoding utf8NoBOM -ErrorAction Stop
+            return
+        }
+        catch {
+            if ($attempt -eq $maxAttempts) {
+                throw
+            }
+
+            Start-Sleep -Milliseconds (100 * $attempt)
+        }
+    }
+}
+
+function Set-BytesFileWithRetry {
+    param(
+        [Parameter(Mandatory = $true)][string] $Path,
+        [Parameter(Mandatory = $true)][byte[]] $Bytes
+    )
+
+    $maxAttempts = 5
+    for ($attempt = 1; $attempt -le $maxAttempts; $attempt++) {
+        try {
+            [System.IO.File]::WriteAllBytes($Path, $Bytes)
+            return
+        }
+        catch {
+            if ($attempt -eq $maxAttempts) {
+                throw
+            }
+
+            Start-Sleep -Milliseconds (100 * $attempt)
+        }
+    }
 }
 
 function Restore-File {
@@ -50,7 +99,7 @@ function Restore-File {
     }
 
     if ($Backup.Exists) {
-        Set-Content -LiteralPath $Path -Value ([string]$Backup.Content) -Encoding UTF8
+        Set-BytesFileWithRetry -Path $Path -Bytes ([byte[]]$Backup.Bytes)
     }
     elseif (Test-Path -LiteralPath $Path) {
         Remove-Item -LiteralPath $Path -Force
@@ -98,18 +147,18 @@ try {
             New-Item -ItemType Directory -Path $runtimeAuditDir -Force | Out-Null
         }
 
-        Set-Content -LiteralPath $runtimeIntakePath -Value $intakeJson -Encoding UTF8
-        Set-Content -LiteralPath $runtimeSubsumcijaPath -Value $subsumcijaJson -Encoding UTF8
+        Set-Utf8FileWithRetry -Path $runtimeIntakePath -Content $intakeJson
+        Set-Utf8FileWithRetry -Path $runtimeSubsumcijaPath -Content $subsumcijaJson
 
         if ($null -ne $scenario.PSObject.Properties["audit_v1"] -and $null -ne $scenario.audit_v1) {
             $auditV1Json = $scenario.audit_v1 | ConvertTo-Json -Depth 20
-            Set-Content -LiteralPath $runtimeAuditV1Path -Value $auditV1Json -Encoding UTF8
+            Set-Utf8FileWithRetry -Path $runtimeAuditV1Path -Content $auditV1Json
         }
         elseif (Test-Path -LiteralPath $runtimeAuditV1Path) {
             Remove-Item -LiteralPath $runtimeAuditV1Path -Force
         }
 
-        & powershell -NoProfile -ExecutionPolicy Bypass -File $generatorScript -PredmetId $predmetId -Tok $tok -Verzija "v1"
+        & pwsh -NoProfile -ExecutionPolicy Bypass -File $generatorScript -PredmetId $predmetId -Tok $tok -Verzija "v1"
         $genExit = $LASTEXITCODE
         if ($genExit -ne 0) {
             Write-Host "ERROR: GENERATOR_FAIL scenario=$scenarioId exit=$genExit"
@@ -123,7 +172,22 @@ try {
             exit 1
         }
 
-        $generated = Get-Content -LiteralPath $runtimeGeneratedPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        $generatedRaw = Get-Content -LiteralPath $runtimeGeneratedPath -Raw -Encoding UTF8
+        if ($generatedRaw -match "Ã|Ä|Å|Â|â|�") {
+            Write-Host "ERROR: UTF8_AUDIT_MOJIBAKE scenario=$scenarioId"
+            Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+            exit 1
+        }
+
+        if (-not $generatedRaw.Contains("Činjenični")) {
+            Write-Host "ERROR: UTF8_AUDIT_CROATIAN_TEXT_MISSING scenario=$scenarioId"
+            Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+            exit 1
+        }
+
+        Write-Host "UTF8_AUDIT_RESULT=OK scenario=$scenarioId"
+
+        $generated = $generatedRaw | ConvertFrom-Json
         $generatedCodes = @($generated.nalazi | ForEach-Object { [string]$_.kod })
 
         $expectedG1Status = ""
@@ -220,15 +284,4 @@ finally {
     Restore-File -Path $runtimeIntakePath -Backup $backupIntake
     Restore-File -Path $runtimeSubsumcijaPath -Backup $backupSubsumcija
     Restore-File -Path $runtimeAuditV1Path -Backup $backupAuditV1
-
-    if ($null -ne (Get-Command git -ErrorAction SilentlyContinue)) {
-        Push-Location $repoRoot
-        try {
-            git restore --quiet -- "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/intake/intake_v1.json" "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/subsumcija_v1.json" "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/audit_v1.json" 1>$null 2>$null
-            $global:LASTEXITCODE = 0
-        }
-        finally {
-            Pop-Location
-        }
-    }
 }

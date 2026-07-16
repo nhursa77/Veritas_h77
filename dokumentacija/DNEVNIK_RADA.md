@@ -6123,3 +6123,52 @@ neusklađenost te čovjeku predložiti zakonit put zaštite prava.
 Ovom dopunom ispravljena je preuska početna oznaka Veritasa kao samo
 pravno-proceduralnog sustava. Pravni i proceduralni sloj ostaje sredstvo
 ustavne zaštite, a ne konačna svrha sustava.
+
+## Datum: 16.07.2026 (ZADATAK 172)
+
+### ZADATAK 172 - stabilizacija PowerShella 7, UTF-8 i CI pokrivenosti
+
+Dokazano je da Windows PowerShell 5.1 pri izvođenju aktivnog prekršajnog
+generatora stvara mojibake, dok isti ulaz pod PowerShellom 7.6 zadržava ispravna
+hrvatska slova.
+
+Aktivni generator, fixture runner i generički runner zaključani su na PowerShell
+7. Pozivi starog powershell procesa zamijenjeni su s pwsh, a audit i nacrt sada
+imaju tvrde UTF-8 provjere.
+
+Fixture cleanup vraća kanonske ogledne ulaze iz izvornog bajtnog zapisa i
+ponavlja privremeni upis pri kratkom Windows file-locku. Svih 24 scenarija
+prošlo je uz identične hash vrijednosti ulaza prije i poslije testa.
+
+Puni Markdown pregled ograničen je na 177 Gitom praćenih datoteka. GitHub CI
+okidači prošireni su na aktivni prekršajni tok i upravljačke konfiguracije, a
+službene akcije podignute su na v6.
+
+Zadatak ne mijenja pravne izvore, norme, postupovne odluke ni sadržaj
+sintetičkih fixturea. Commit i push čekaju zasebno odobrenje vlasnika.
+
+Mijenjane datoteke:
+
+- `.github/workflows/ci_smoke_windows.yml`
+- `alati/ci_smoke.ps1`
+- `alati/generiraj_audit_prekrsaji_v1.ps1`
+- `alati/lint_markdown.ps1`
+- `alati/run_tok_v1.ps1`
+- `alati/test_fixtures_audit_prekrsaji_v1.ps1`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `powershell -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\generiraj_audit_prekrsaji_v1.ps1 ...`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\generiraj_audit_prekrsaji_v1.ps1 ...`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\run_tok_v1.ps1 ...`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_fixtures_audit_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`

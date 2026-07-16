@@ -33,14 +33,27 @@ try {
     $mdTargets = @()
 
     if ($FullRepo) {
+        if ($null -eq (Get-Command git -ErrorAction SilentlyContinue)) {
+            Write-Host "MDLINT_BEGIN=True"
+            Write-Host "ERROR: git nije dostupan za FULL_REPO popis pracenih datoteka"
+            Write-Host "MDLINT_END=True"
+            Write-Host "MDLINT_EXIT=2"
+            exit 2
+        }
+
         $mdTargets = @(
-            Get-ChildItem -LiteralPath $root -Recurse -File -Filter *.md |
-                ForEach-Object {
-                    $relative = Resolve-Path -LiteralPath $_.FullName -Relative
-                    ($relative -replace '^[.][\\/]', '') -replace '\\', '/'
-                } |
+            git -c core.quotepath=false ls-files --cached -- "*.md" |
+                ForEach-Object { [string]$_ } |
                 Sort-Object -Unique
         )
+
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "MDLINT_BEGIN=True"
+            Write-Host "ERROR: git ls-files nije uspio za FULL_REPO provjeru"
+            Write-Host "MDLINT_END=True"
+            Write-Host "MDLINT_EXIT=2"
+            exit 2
+        }
     }
     else {
         $stagedChanges = @(git diff --cached --name-only)
