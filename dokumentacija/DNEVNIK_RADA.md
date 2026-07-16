@@ -6172,3 +6172,63 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 16.07.2026 (ZADATAK 173)
+
+### ZADATAK 173 - strogi P7 audit-predložak-nacrt za prvi sintetički tok
+
+Za TOK_PN_PRIGOVOR uveden je stvarni lanac predmet -> audit -> tri puna NN sidra
+-> predložak s pet polja -> nepotpisani nacrt.
+
+Putanje postupka koriste oznaku {PREDMET_ID}, a minimalni sintetički predmet ne
+sadrži stvarne osobne podatke.
+
+Blokirani audit, nepotpuno NN sidro, nedostajuće obvezno polje i nepodudaran
+identitet dokazano završavaju bez nacrta.
+
+Preostala tri toka ostaju strukturni kosturi bez P7 nacrta; P8 manifest i lanac
+skrbništva ostaju izvan opsega.
+
+Prošli su svi shematski validatori, 24 audit fixture scenarija, pet P7 testova i
+puni CI s rezultatom CI_SMOKE_EXIT=0.
+
+Sadržaj NORMA JSON datoteka nije mijenjan. Commit i push čekaju zasebno
+odobrenje vlasnika.
+
+Mijenjane datoteke:
+
+- `alati/ci_smoke.ps1`
+- `alati/generiraj_audit_prekrsaji_v1.ps1`
+- `alati/run_tok_v1.ps1`
+- `alati/test_run_tok_p7_v1.ps1`
+- `alati/validiraj_izlaz_tok_pn_prigovor_v1.ps1`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_JSON_POSTUPAK.md`
+- `dokumentacija/STANDARD_JSON_PREDLOZAK.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/sheme/SCHEMA_POSTUPAK_V1.json`
+- `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
+- `postupci/sud/prekrsajni/TOK_OBUSTAVA/v1/postupak.json`
+- `postupci/sud/prekrsajni/TOK_PN_PRIGOVOR/v1/postupak.json`
+- `postupci/sud/prekrsajni/TOK_PRESUDA_ZALBA/v1/postupak.json`
+- `postupci/sud/prekrsajni/TOK_RJESENJE_ZALBA/v1/postupak.json`
+- `predlosci/sud/prekrsajni/prigovor_pn/v1/predlozak.json`
+- `predlosci/sud/prekrsajni/zalba_presuda_ili_rjesenje/v1/predlozak.json`
+- `predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/predmet.json`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\test_run_tok_p7_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_fixtures_audit_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_json_po_shemi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`

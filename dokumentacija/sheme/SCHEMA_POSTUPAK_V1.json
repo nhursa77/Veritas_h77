@@ -26,7 +26,52 @@
         "verzija": { "type": "string" }
       }
     },
-    "ulazi": { "type": "object" },
+    "ulazi": {
+      "type": "object",
+      "required": [
+        "predmet_ref",
+        "dokazi_dir_ref",
+        "audit_ref",
+        "subsumcija_ref",
+        "intake_ref",
+        "predlozak_ref",
+        "norma_refs"
+      ],
+      "properties": {
+        "predmet_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/predmet[.]json$"
+        },
+        "dokazi_dir_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/dokazi/$"
+        },
+        "audit_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/audit/audit_generated_v1[.]json$"
+        },
+        "subsumcija_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/audit/subsumcija_v1[.]json$"
+        },
+        "intake_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/intake/intake_v1[.]json$"
+        },
+        "predlozak_ref": {
+          "type": "string",
+          "pattern": "^predlosci/sud/prekrsajni/.+/v1/predlozak[.]json$"
+        },
+        "norma_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^baza_zakona/norme/.+[.]json$"
+          }
+        }
+      }
+    },
     "koraci": {
       "type": "array",
       "items": {
@@ -74,6 +119,15 @@
         }
       }
     },
-    "izlazi": { "type": "object" }
+    "izlazi": {
+      "type": "object",
+      "required": ["nacrt_ref"],
+      "properties": {
+        "nacrt_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/izlazi/nacrt_.+_v1[.]txt$"
+        }
+      }
+    }
   }
 }

@@ -21,6 +21,30 @@
       ]
     },
     {
+      "id": "intake",
+      "naslov": "Cilj, osporavanja i opis događaja",
+      "polja": [
+        {
+          "id": "cilj",
+          "label": "Cilj",
+          "izvor": "intake.cilj",
+          "obavezno": true
+        },
+        {
+          "id": "osporavanja",
+          "label": "Osporavanja",
+          "izvor": "intake.osporavanja",
+          "obavezno": true
+        },
+        {
+          "id": "opis_dogadaja",
+          "label": "Opis događaja",
+          "izvor": "intake.opis_dogadaja",
+          "obavezno": true
+        }
+      ]
+    },
+    {
       "id": "nalazi",
       "naslov": "Nalazi iz audita",
       "polja": [
@@ -36,12 +60,28 @@
   "mapiranje": {
     "izvori": [
       "audit",
-      "predmet"
+      "predmet",
+      "intake"
     ],
     "pravila": [
       {
         "polje_id": "sud_naziv",
         "izvor": "predmet.sud_naziv",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "cilj",
+        "izvor": "intake.cilj",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "osporavanja",
+        "izvor": "intake.osporavanja",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "opis_dogadaja",
+        "izvor": "intake.opis_dogadaja",
         "transformacija": "none"
       },
       {

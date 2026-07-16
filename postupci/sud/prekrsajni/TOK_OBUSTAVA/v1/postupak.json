@@ -7,12 +7,13 @@
     "verzija": "v1"
   },
   "ulazi": {
-    "predmet_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/predmet.json",
-    "dokazi_dir_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/",
-    "audit_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/audit_v1.json",
-    "subsumcija_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/subsumcija_v1.json",
-    "intake_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/intake/intake_v1.json",
-    "predlozak_ref": "predlosci/sud/prekrsajni/zalba_presuda_ili_rjesenje/v1/predlozak.json"
+    "predmet_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/predmet.json",
+    "dokazi_dir_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/dokazi/",
+    "audit_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/audit/audit_generated_v1.json",
+    "subsumcija_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/audit/subsumcija_v1.json",
+    "intake_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/intake/intake_v1.json",
+    "predlozak_ref": "predlosci/sud/prekrsajni/zalba_presuda_ili_rjesenje/v1/predlozak.json",
+    "norma_refs": []
   },
   "koraci": [
     {
@@ -124,6 +125,6 @@
     }
   ],
   "izlazi": {
-    "nacrt_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/izlazi/nacrt_obustava_v1.txt"
+    "nacrt_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/izlazi/nacrt_obustava_v1.txt"
   }
 }

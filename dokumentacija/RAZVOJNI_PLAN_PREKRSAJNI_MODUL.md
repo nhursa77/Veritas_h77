@@ -35,12 +35,19 @@ Implementirano:
 - P6 G1 rokovi usklađeni kao strojno pravilo (soft): kanonska formula
    (`start + 8 kalendarskih dana`), statusi
    `OK|MISSING|LATE|INDETERMINATE`, `g1.*` izlazni blok i validator provjera
-   opcionalne G1 strukture.
+  opcionalne G1 strukture.
+- P7 je funkcionalno zatvoren za prvi sintetički tok
+  `TOK_PN_PRIGOVOR`: generirani audit prenosi tri puna NN sidra, runner
+  primjenjuje predložak polje-po-polje, a izlaz dokazuje izvor svake
+  vrijednosti.
+- P7 negativni testovi dokazuju da blokirani audit, nedostajuće sidro,
+  prazno obavezno polje i nepodudaran identitet ne proizvode nacrt.
+- Ostala tri toka ostaju strukturni kosturi bez P7 nacrta dok ne dobiju
+  vlastite sintetičke ulaze i puna sidra.
 
 Sljedeće po redu:
 
-- P7 — proširenje fixture matrice i E2E veze
-   (`audit_generated_v1.json` -> izlazni nacrt -> manifest).
+- P8 — manifest i lanac skrbništva za prvi sintetički P7 predmet.
 
 Backlog fixtures popune (prioritet nakon kanona):
 
@@ -242,7 +249,7 @@ Gate: validiraj_audit.ps1 PROLAZ.
 
 ## FAZA P7 — Generator nacrta v1 (predložak + audit)
 
-Status: U TIJEKU (P6 + fixtures acceptance pripremljen za E2E proširenje).
+Status: DOVRŠENO ZA PRVI SINTETIČKI TOK (`TOK_PN_PRIGOVOR`).
 
 Cilj: iz predlozak.json + audit_v1.json generirati nacrt.
 
@@ -254,6 +261,16 @@ Koraci:
 2) Ugraditi zabrane:
    - bez potpisa → “nacrt” watermark/oznaka
    - bez NN sidra → nema nacrta, samo nalaz
+
+Izvedeno u prvom funkcionalnom toku:
+
+- postupovne reference koriste `{PREDMET_ID}` umjesto tvrdog ID-a
+- `audit_ref` pokazuje na `audit_generated_v1.json`
+- tri puna sidra članaka 235., 236. i 237. prenose se kroz audit
+- predložak razrješava pet polja iz predmeta, intakea i audita
+- nacrt sadrži identitet predloška i dokaz izvora svakog polja
+- validator provjerava strukturu, sidra, UTF-8 i dokazno podrijetlo
+- negativni testovi potvrđuju `STOP_BEZ_IZLAZA`
 
 Ulaz: P5 + P6.
 Izlaz: nacrt.

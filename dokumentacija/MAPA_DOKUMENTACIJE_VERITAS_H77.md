@@ -411,7 +411,8 @@ snapshota od zavrsnog git dokaza.
 18) `alati/generiraj_audit_prekrsaji_v1.ps1`
 19) `alati/validiraj_audit_generated_v1.ps1`
 20) `alati/run_tok_v1.ps1`
-21) `alati/ci_smoke.ps1`
+21) `alati/test_run_tok_p7_v1.ps1`
+22) `alati/ci_smoke.ps1`
 
 ---
 
@@ -445,6 +446,8 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `baza_zakona/norme/zakon_o_upravnim_sporovima_procisceni/
   IZVJESTAJ_VALIDACIJE_KONTROLNO.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
+- Strogi P7 generator nacrta izvodi `alati/run_tok_v1.ps1`, a pozitivne i
+  blokirajuće scenarije provjerava `alati/test_run_tok_p7_v1.ps1`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
 - Pravila headinga, scoped markdown provjere i servisne discipline

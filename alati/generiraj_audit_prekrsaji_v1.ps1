@@ -19,6 +19,41 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
 
+if ($PredmetId -notmatch "^[A-Za-z0-9_-]+$") {
+    Write-Host "ERROR: PREDMET_ID_INVALID=$PredmetId"
+    exit 1
+}
+if ($Tok -notmatch "^TOK_[A-Z0-9_]+$") {
+    Write-Host "ERROR: TOK_INVALID=$Tok"
+    exit 1
+}
+if ($Verzija -notmatch "^v[0-9]+$") {
+    Write-Host "ERROR: VERZIJA_INVALID=$Verzija"
+    exit 1
+}
+
+function Resolve-RepoPath {
+    param(
+        [Parameter(Mandatory = $true)]
+        [string] $PathRef
+    )
+
+    $normalizedPath = $PathRef -replace "/", "\"
+    $resolvedPath = if ([System.IO.Path]::IsPathRooted($normalizedPath)) {
+        [System.IO.Path]::GetFullPath($normalizedPath)
+    }
+    else {
+        [System.IO.Path]::GetFullPath((Join-Path $repoRoot $normalizedPath))
+    }
+
+    $rootPrefix = [System.IO.Path]::GetFullPath($repoRoot).TrimEnd("\") + "\"
+    if (-not $resolvedPath.StartsWith($rootPrefix, [System.StringComparison]::OrdinalIgnoreCase)) {
+        throw "Putanja izlazi iz repozitorija: $PathRef"
+    }
+
+    return $resolvedPath
+}
+
 $postupakPath = Join-Path $repoRoot ("postupci\sud\prekrsajni\{0}\{1}\postupak.json" -f $Tok, $Verzija)
 $intakePath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\intake\intake_v1.json" -f $PredmetId)
 $subsumcijaPath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\audit\subsumcija_v1.json" -f $PredmetId)
@@ -41,11 +76,54 @@ if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
 }
 
 try {
-    Get-Content -LiteralPath $postupakPath -Raw -Encoding UTF8 | ConvertFrom-Json | Out-Null
+    $postupak = Get-Content -LiteralPath $postupakPath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
     Write-Host "ERROR: POSTUPAK_JSON_PARSE_FAIL=$postupakPath"
     exit 1
+}
+
+$normaSidra = @()
+if ($null -ne $postupak.ulazi.PSObject.Properties["norma_refs"] -and $null -ne $postupak.ulazi.norma_refs) {
+    foreach ($normaRefValue in @($postupak.ulazi.norma_refs)) {
+        $normaRef = [string]$normaRefValue
+        if ([string]::IsNullOrWhiteSpace($normaRef)) {
+            continue
+        }
+
+        try {
+            $normaPath = Resolve-RepoPath -PathRef $normaRef
+        }
+        catch {
+            Write-Host "ERROR: NORMA_REF_PATH_INVALID=$normaRef"
+            exit 1
+        }
+
+        if (-not (Test-Path -LiteralPath $normaPath)) {
+            Write-Host "ERROR: NORMA_REF_NOT_FOUND=$normaRef"
+            exit 1
+        }
+
+        try {
+            $norma = Get-Content -LiteralPath $normaPath -Raw -Encoding UTF8 | ConvertFrom-Json
+        }
+        catch {
+            Write-Host "ERROR: NORMA_REF_JSON_PARSE_FAIL=$normaRef"
+            exit 1
+        }
+
+        $sidroStatus = ""
+        if ($null -ne $norma.PSObject.Properties["izvori"] -and $null -ne $norma.izvori -and $null -ne $norma.izvori.PSObject.Properties["status_sidra"]) {
+            $sidroStatus = [string]$norma.izvori.status_sidra
+        }
+
+        if ($sidroStatus -ne "puno") {
+            Write-Host "ERROR: NORMA_REF_SIDRO_NOT_FULL=$normaRef"
+            exit 1
+        }
+
+        $normaSidra += ($normaRef -replace "\\", "/")
+    }
 }
 
 try {
@@ -273,13 +351,14 @@ function New-NalazRaw {
         [Parameter(Mandatory = $true)][string] $Kod,
         [Parameter(Mandatory = $true)][string] $Opis,
         [Parameter(Mandatory = $true)][string] $Tezina,
-        [Parameter(Mandatory = $true)][string] $Posljedica
+        [Parameter(Mandatory = $true)][string] $Posljedica,
+        [Parameter(Mandatory = $false)][string] $NormaRef = ""
     )
 
     return [ordered]@{
         kod = $Kod
         opis = $Opis
-        norma_ref = ""
+        norma_ref = $NormaRef
         tezina = $Tezina
         posljedica = $Posljedica
     }
@@ -331,13 +410,22 @@ if ((-not $hasBlocker) -and (-not $hasWarning)) {
     $nalazi += (New-NalazRaw -Kod "NAP-GRN-OK" -Opis "Nema blocker ni warning nalaza." -Tezina "NISKA" -Posljedica "Semafor je ZELENO.")
 }
 
+foreach ($normaSidro in $normaSidra) {
+    $nalazi += (New-NalazRaw `
+        -Kod "NORMA-SIDRO" `
+        -Opis "Provjereno puno NN sidro za P7 nacrt." `
+        -Tezina "NISKA" `
+        -Posljedica "Sidro je dostupno za strogu provjeru prije nacrta." `
+        -NormaRef $normaSidro)
+}
+
 $datumIzrade = (Get-Date).ToString("dd.MM.yyyy.")
 
 $doc = [ordered]@{
     meta = [ordered]@{
         id_predmeta = $PredmetId
         tok = $Tok
-        verzija_toka = "v1"
+        verzija_toka = $Verzija
         datum_izrade = $datumIzrade
         izvor_audita = "generiraj_audit_prekrsaji_v1"
     }

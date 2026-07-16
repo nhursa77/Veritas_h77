@@ -35,6 +35,12 @@
           "label": "Osporavanja",
           "izvor": "intake.osporavanja",
           "obavezno": true
+        },
+        {
+          "id": "opis_dogadaja",
+          "label": "Opis događaja",
+          "izvor": "intake.opis_dogadaja",
+          "obavezno": true
         }
       ]
     },
@@ -86,8 +92,18 @@
         "transformacija": "none"
       },
       {
+        "polje_id": "opis_dogadaja",
+        "izvor": "intake.opis_dogadaja",
+        "transformacija": "none"
+      },
+      {
         "polje_id": "audit_nalazi",
         "izvor": "audit.nalazi",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "napomena_nacrt",
+        "izvor": "predmet.napomena_nacrt",
         "transformacija": "none"
       }
     ]
