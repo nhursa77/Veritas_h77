@@ -6266,3 +6266,49 @@ Dokazne naredbe:
 - `git diff --check`
 - `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`
 - `git status --short`
+
+## Datum: 16.07.2026 (ZADATAK 175)
+
+### ZADATAK 175 - P8 manifest i lanac skrbništva prvog sintetičkog toka
+
+Uveden je kanonski P8 standard s dvije JSON sheme, generatorom i neovisnim
+validatorom za TOK_PN_PRIGOVOR v1.
+
+Manifest veže deset artefakata P7 lanca stvarnim SHA-256 sažecima i veličinama,
+a lanac skrbništva veže hash manifesta i dva događaja bez kružnog hashiranja.
+
+Jedan pozitivan i tri negativna scenarija dokazuju prolaz te uklanjanje oba P8
+izlaza kod izmijenjenog nacrta, nestalog artefakta ili pogrešnog identiteta.
+
+Puni ci_smoke prošao je s CI_SMOKE_EXIT=0. NORMA JSON sadržaj nije mijenjan i
+nisu korišteni stvarni osobni podaci.
+
+Mijenjane datoteke:
+
+- `.gitignore`
+- `alati/ci_smoke.ps1`
+- `alati/generiraj_p8_manifest_i_lanac_v1.ps1`
+- `alati/p8_dokazni_paket_core.ps1`
+- `alati/test_p8_manifest_lanac_v1.ps1`
+- `alati/validiraj_p8_manifest_i_lanac_v1.ps1`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STANDARD_JSON_POSTUPAK.md`
+- `dokumentacija/STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/sheme/SCHEMA_LANAC_SKRBNISTVA_PREKRSAJI_V1.json`
+- `dokumentacija/sheme/SCHEMA_MANIFEST_PREKRSAJI_V1.json`
+- `dokumentacija/sheme/SCHEMA_POSTUPAK_V1.json`
+- `postupci/sud/prekrsajni/TOK_PN_PRIGOVOR/v1/postupak.json`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p8_manifest_lanac_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `git diff --check`
+- `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`
+- `git status --short`

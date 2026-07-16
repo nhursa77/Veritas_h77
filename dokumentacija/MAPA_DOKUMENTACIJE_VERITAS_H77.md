@@ -80,6 +80,10 @@ Uređuje pravila obračuna i kontrolne uvjete naplate.
 Definira obavezne markere i format izlaznog nacrta v1.
 Uređuje minimalni sadržaj nacrta za validator izlaza.
 
+### `STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`
+Definira P8 manifest, SHA-256 korijenski sažetak i lanac skrbništva.
+Uređuje obaveznih deset artefakata, događajni hash-lanac i tvrde blokade.
+
 ### `RAZVOJNI_PLAN_VERITAS_H77.md`
 Definira faze razvoja sustava, redoslijed rada i operativne gate uvjete.
 Služi kao plan izvođenja od MVP-a do prvog živog predmeta.
@@ -400,19 +404,23 @@ snapshota od zavrsnog git dokaza.
 7) `STANDARD_JSON_HIJERARHIJA.md`
 8) `STANDARD_JSON_PREDLOZAK.md`
 9) `STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
-10) `dokumentacija/sheme/SCHEMA_INTAKE_PREKRSAJI_V1.json`
-11) `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
-12) `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
-13) `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
-14) `alati/validiraj_intake_prekrsaji_v1.ps1`
-15) `alati/validiraj_audit_v1.ps1`
-16) `alati/validiraj_subsumciju_v1.ps1`
-17) `alati/validiraj_predlozak_v1.ps1`
+10) `STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`
+11) `dokumentacija/sheme/SCHEMA_INTAKE_PREKRSAJI_V1.json`
+12) `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
+13) `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
+14) `dokumentacija/sheme/SCHEMA_PREDLOZAK_V1.json`
+15) `dokumentacija/sheme/SCHEMA_MANIFEST_PREKRSAJI_V1.json`
+16) `dokumentacija/sheme/SCHEMA_LANAC_SKRBNISTVA_PREKRSAJI_V1.json`
+17) `alati/validiraj_json_po_shemi_v1.ps1`
 18) `alati/generiraj_audit_prekrsaji_v1.ps1`
 19) `alati/validiraj_audit_generated_v1.ps1`
 20) `alati/run_tok_v1.ps1`
 21) `alati/test_run_tok_p7_v1.ps1`
-22) `alati/ci_smoke.ps1`
+22) `alati/p8_dokazni_paket_core.ps1`
+23) `alati/generiraj_p8_manifest_i_lanac_v1.ps1`
+24) `alati/validiraj_p8_manifest_i_lanac_v1.ps1`
+25) `alati/test_p8_manifest_lanac_v1.ps1`
+26) `alati/ci_smoke.ps1`
 
 ---
 
@@ -448,6 +456,10 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
 - Kronologija stvarnog rada pripada `DNEVNIK_RADA.md`.
 - Strogi P7 generator nacrta izvodi `alati/run_tok_v1.ps1`, a pozitivne i
   blokirajuće scenarije provjerava `alati/test_run_tok_p7_v1.ps1`.
+- P8 dokazni paket stvara `alati/generiraj_p8_manifest_i_lanac_v1.ps1`,
+  strogo ga provjerava `alati/validiraj_p8_manifest_i_lanac_v1.ps1`, a
+  pozitivne i blokirajuće scenarije dokazuje
+  `alati/test_p8_manifest_lanac_v1.ps1`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
 - Pravila headinga, scoped markdown provjere i servisne discipline
