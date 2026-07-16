@@ -129,6 +129,8 @@
     }
   ],
   "izlazi": {
-    "nacrt_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/izlazi/nacrt_prigovor_pn_v1.txt"
+    "nacrt_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/izlazi/nacrt_prigovor_pn_v1.txt",
+    "manifest_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/manifest.json",
+    "lanac_skrbnistva_ref": "predmeti/sud/prekrsajni/{PREDMET_ID}/lanac_skrbnistva.json"
   }
 }

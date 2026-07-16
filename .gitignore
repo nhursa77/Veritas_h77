@@ -29,3 +29,7 @@ predmeti/**/izlazi/*.txt
 
 # Veritas H.77 — runtime audit output (generator)
 predmeti/**/audit/audit_generated_*.json
+
+# Veritas H.77 — runtime P8 dokazni paket
+predmeti/**/manifest.json
+predmeti/**/lanac_skrbnistva.json

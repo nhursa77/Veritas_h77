@@ -126,6 +126,14 @@
         "nacrt_ref": {
           "type": "string",
           "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/izlazi/nacrt_.+_v1[.]txt$"
+        },
+        "manifest_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/manifest[.]json$"
+        },
+        "lanac_skrbnistva_ref": {
+          "type": "string",
+          "pattern": "^predmeti/sud/prekrsajni/\\{PREDMET_ID\\}/lanac_skrbnistva[.]json$"
         }
       }
     }
