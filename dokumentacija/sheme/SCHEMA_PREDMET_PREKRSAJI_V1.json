@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SCHEMA_PREDMET_PREKRSAJI_V1",
+  "type": "object",
+  "required": [
+    "meta",
+    "nositelj",
+    "akt",
+    "obrada",
+    "privatnost",
+    "sud_naziv",
+    "napomena_nacrt"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "id_predmeta",
+        "vrsta",
+        "verzija",
+        "domena",
+        "tok",
+        "datum_otvaranja",
+        "status",
+        "rezim_podataka"
+      ],
+      "properties": {
+        "id_predmeta": {
+          "type": "string",
+          "pattern": "^[A-Z0-9_]+$"
+        },
+        "vrsta": {
+          "type": "string",
+          "enum": ["sinteticki", "stvarni"]
+        },
+        "verzija": {
+          "type": "string",
+          "pattern": "^v[0-9]+$"
+        },
+        "domena": {
+          "type": "string",
+          "enum": ["prekrsajni"]
+        },
+        "tok": {
+          "type": "string",
+          "enum": [
+            "TOK_PN_PRIGOVOR",
+            "TOK_PRESUDA_ZALBA",
+            "TOK_RJESENJE_ZALBA",
+            "TOK_OBUSTAVA"
+          ]
+        },
+        "datum_otvaranja": {
+          "type": "string",
+          "pattern": "^[0-9]{2}[.][0-9]{2}[.][0-9]{4}[.]$"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["nacrt", "aktivan", "zatvoren"]
+        },
+        "rezim_podataka": {
+          "type": "string",
+          "enum": ["javni_sinteticki", "lokalni_povjerljivi"]
+        }
+      }
+    },
+    "nositelj": {
+      "type": "object",
+      "required": [
+        "oznaka",
+        "ime_prezime",
+        "oib",
+        "adresa",
+        "kontakt"
+      ],
+      "properties": {
+        "oznaka": { "type": "string" },
+        "ime_prezime": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        },
+        "oib": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9]{11}$"
+            },
+            { "type": "null" }
+          ]
+        },
+        "adresa": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        },
+        "kontakt": {
+          "anyOf": [
+            {
+              "type": "object",
+              "required": ["email", "telefon"],
+              "properties": {
+                "email": {
+                  "anyOf": [
+                    { "type": "string" },
+                    { "type": "null" }
+                  ]
+                },
+                "telefon": {
+                  "anyOf": [
+                    { "type": "string" },
+                    { "type": "null" }
+                  ]
+                }
+              }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "akt": {
+      "type": "object",
+      "required": [
+        "vrsta",
+        "tijelo",
+        "broj",
+        "datum",
+        "datum_dostave"
+      ],
+      "properties": {
+        "vrsta": { "type": "string" },
+        "tijelo": { "type": "string" },
+        "broj": { "type": "string" },
+        "datum": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9]{2}[.][0-9]{2}[.][0-9]{4}[.]$"
+            },
+            { "type": "null" }
+          ]
+        },
+        "datum_dostave": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9]{2}[.][0-9]{2}[.][0-9]{4}[.]$"
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "obrada": {
+      "type": "object",
+      "required": ["cilj", "pravni_lijek", "rok"],
+      "properties": {
+        "cilj": { "type": "string" },
+        "pravni_lijek": { "type": "string" },
+        "rok": {
+          "anyOf": [
+            { "type": "string" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "privatnost": {
+      "type": "object",
+      "required": [
+        "klasifikacija",
+        "sadrzi_osobne_podatke",
+        "dopusteno_git_pracenje"
+      ],
+      "properties": {
+        "klasifikacija": {
+          "type": "string",
+          "enum": ["JAVNO_SINTETICKI", "LOKALNO_POVJERLJIVO"]
+        },
+        "sadrzi_osobne_podatke": { "type": "boolean" },
+        "dopusteno_git_pracenje": { "type": "boolean" }
+      }
+    },
+    "sud_naziv": { "type": "string" },
+    "napomena_nacrt": { "type": "string" }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "meta": {
+            "properties": {
+              "vrsta": { "const": "sinteticki" }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "meta": {
+            "properties": {
+              "rezim_podataka": { "const": "javni_sinteticki" }
+            }
+          },
+          "privatnost": {
+            "properties": {
+              "klasifikacija": { "const": "JAVNO_SINTETICKI" },
+              "sadrzi_osobne_podatke": { "const": false },
+              "dopusteno_git_pracenje": { "const": true }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "meta": {
+            "properties": {
+              "vrsta": { "const": "stvarni" }
+            }
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "meta": {
+            "properties": {
+              "rezim_podataka": { "const": "lokalni_povjerljivi" }
+            }
+          },
+          "privatnost": {
+            "properties": {
+              "klasifikacija": { "const": "LOKALNO_POVJERLJIVO" },
+              "sadrzi_osobne_podatke": { "const": true },
+              "dopusteno_git_pracenje": { "const": false }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

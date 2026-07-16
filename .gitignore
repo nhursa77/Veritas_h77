@@ -33,3 +33,8 @@ predmeti/**/audit/audit_generated_*.json
 # Veritas H.77 — runtime P8 dokazni paket
 predmeti/**/manifest.json
 predmeti/**/lanac_skrbnistva.json
+
+# Veritas H.77 — privatnosna karantena (stvarni predmeti nisu u repou)
+.veritas_lokalno/
+predmeti/sud/prekrsajni/STVARNI_*/
+predmeti/sud/prekrsajni/PRIVATNI_*/
