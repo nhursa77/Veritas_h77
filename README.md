@@ -139,8 +139,12 @@ pokretanja moraju biti ljudski uneseni i provjereni najmanje:
 
 - `predmet.json` sa statusom `aktivan`;
 - `intake/intake_v1.json`;
-- `audit/subsumcija_v1.json`;
-- `audit/audit_v1.json` kao postojeći dokazani kontekst v1.
+- `audit/subsumcija_v1.json` s kanonskim poljem `status`.
+
+`audit/audit_v1.json` nije obavezan ulaz. Ako postoji, služi samo kao
+provjereni kontekst za `KOL-01` i referentni datum G1. Ako ga nema, valjani
+`status=PROLAZ` može dokazati G3, dok G1 ostaje vidljivo označen kao
+`INDETERMINATE` i samostalno ne blokira obradu.
 
 Tek nakon zasebnog odobrenja konkretnog predmeta cijeli dokazani tok pokreće
 se jednom naredbom:

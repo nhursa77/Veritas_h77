@@ -4,14 +4,15 @@ Datum: 17.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 178: `7e65d7d` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 178 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 179: `4495879` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 179 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p9-lokalna-operativa`.
-- Sigurna inicijalizacija i jednonaredbeni sintetički lokalni E2E potvrđeni
-  su 17.07.2026. bez stvarnih osobnih podataka i bez promjene Git stanja.
+  `codex/p9-ugovor-subsumcije`.
+- Kanonski `status`, 24 shematski usklađena fixturea i lokalni E2E bez
+  obaveznog audit konteksta potvrđeni su 17.07.2026. bez stvarnih osobnih
+  podataka i bez promjene Git stanja.
 - Puni `alati/ci_smoke.ps1` potvrđen je 17.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za paket ZADATKA 178.
+  `CI_SMOKE_EXIT=0` za paket ZADATKA 179.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -76,6 +77,13 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
   runtime izlaze.
 - Obavezni testovi dokazuju nepopunjeni `STOP`, blokadu nesigurnog korijena,
   neotkrivanje lokalne putanje i četiri vanjska artefakta uspješnog toka.
+- ZADATAK 179 usklađuje G3 s kanonskim poljem `status`, a generator prije
+  obrade shematski provjerava intake i subsumpciju te odbija polje
+  `rezultat`.
+- Svih 24 audit fixturea zadržava očekivane semafore i NAP nalaze uz puni
+  subsumpcijski ugovor.
+- Lokalni P9 E2E bez `audit_v1.json` konteksta proizvodi četiri artefakta,
+  dok G1 ostaje vidljivo `INDETERMINATE`, žut i neblokirajući.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -101,9 +109,6 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
 - Automatizirani P9 pregled traži visokopouzdane obrasce, ali nije dokaz da
   nepoznata vrsta osobnog podatka ne može postojati; ljudski pregled ostaje
   obavezan.
-- Shema subsumpcije koristi `status`, a audit-generator u G3 provjeri čita
-  `rezultat`. ZADATAK 178 taj ugovorni nesklad nije tiho mijenjao; trenutačni
-  dokazani P9 pokretač zato zahtijeva postojeći `audit_v1.json` kontekst.
 
 ### Sljedeća potrebna odluka
 
@@ -134,11 +139,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `7e65d7d` - Merge pull request #8 from
-  nhursa77/codex/p9-lokalni-e2e
+- Polazni HEAD prije zadatka: `4495879` - Merge pull request #9 from
+  nhursa77/codex/p9-lokalna-operativa
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 178
+- Zadnji dovršeni zadatak: ZADATAK 179
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -1051,3 +1056,19 @@ Pre-check snapshot sinkronizacije:
 - Puni `alati/ci_smoke.ps1` prošao je s `CI_SMOKE_EXIT=0`, uključujući oba
   P9 operativna testa, 24 audit fixturea, P7, P8 i 179 Markdown datoteka.
 - Stvarni predmet nije otvoren i trajni lokalni korijen nije odabran.
+
+### Usklađenje ugovora subsumpcije i seedless P9 (ZADATAK 179)
+
+- Audit-generator prije obrade validira intake i subsumpciju prema njihovim
+  shemama, G3 izvodi iz kanonskog polja `status` i tvrdo odbija nekanonsko
+  polje `rezultat`.
+- Svih 24 sintetička audit fixturea migrirano je na puni subsumpcijski
+  ugovor bez promjene očekivanih semafora i NAP nalaza.
+- `audit_v1.json` ostaje opcionalni kontekst za `KOL-01` i referentni datum
+  G1, ali više nije obavezan ulaz lokalnog P9 pokretača.
+- Seedless lokalni E2E dokazuje četiri artefakta, skriven fizički korijen,
+  `G1=INDETERMINATE`, žuti neblokirajući signal i obavezan ljudski pregled.
+- Puni `alati/ci_smoke.ps1` prošao je s `CI_SMOKE_EXIT=0`, uključujući P7,
+  P8, oba P9 operativna testa, 24 fixturea i 179 Markdown datoteka.
+- Stvarni predmet nije otvoren, osobni podaci nisu korišteni, a odluka o
+  početku konkretnog predmeta ostaje isključivo ljudska.

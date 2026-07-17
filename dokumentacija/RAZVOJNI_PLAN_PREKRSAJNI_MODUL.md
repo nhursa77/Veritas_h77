@@ -1,14 +1,14 @@
 # RAZVOJNI PLAN PREKRSAJNI MODUL (v1)
 
 Datum izrade: 20.02.2026.
-Datum revizije: 16.07.2026.
+Datum revizije: 17.07.2026.
 Status: kanonski
 
 ---
 
 ## Razvoj prekršajnog modula — FAZE i točni koraci
 
-## Stanje implementacije (16.07.2026.)
+## Stanje implementacije (17.07.2026.)
 
 Implementirano:
 
@@ -66,6 +66,13 @@ Priprema P9 je funkcionalno zatvorena:
   prepisivanje postojećeg predmeta;
 - jednonaredbeni P9 pokretač provodi privatnost, ulazne validatore, audit,
   P7, P8 i završnu provjeru te na blokadi uklanja stare runtime izlaze.
+- audit-generator prije obrade shematski provjerava intake i subsumpciju te
+  G3 izvodi iz kanonskog polja `status`;
+- sva 24 audit fixturea koriste puni subsumpcijski ugovor, a nekanonsko
+  polje `rezultat` tvrdo se odbija;
+- postojeći `audit_v1.json` ostaje opcionalni kontekst, dok sintetički
+  lokalni E2E bez njega proizvodi četiri artefakta uz vidljivi
+  `G1=INDETERMINATE` žuti signal.
 
 Sljedeće po redu je zasebna ljudska odluka o početku prvog stvarnog predmeta.
 
@@ -356,9 +363,11 @@ Koraci:
 4) Provjeriti audit, nepotpisani nacrt, manifest i lanac skrbništva.
 5) Pregledati rupe i otvoriti izvještaj ako nešto nedostaje.
 
-Otvorena tehnička odluka prije širenja ulaza je usklađenje polja `status` iz
-sheme subsumpcije s poljem `rezultat` koje čita audit-generator. Trenutačni
-dokazani v1 postupak zato zahtijeva i postojeći `audit_v1.json` kontekst.
+Ugovor subsumpcije usklađen je na jedino kanonsko polje `status`.
+Audit-generator tvrdo odbija polje `rezultat`, a postojeći `audit_v1.json`
+ostaje opcionalni kontekst za `KOL-01` i referentni datum G1. Bez tog
+konteksta valjani `status=PROLAZ` može dokazati G3, dok G1 ostaje
+`INDETERMINATE` i ne blokira samostalno.
 
 Ulaz: stvarni predmet.
 Izlaz: kompletan paket spreman za ljudski potpis.

@@ -13,15 +13,18 @@ za gateove i naplatu.
 Generator u v1 ne prepisuje postojeći `audit_v1.json`. Umjesto toga generira
 novi artefakt `audit_generated_v1.json`.
 
-## 2. Ulazi (obavezno)
+## 2. Ulazi
 
-Generator čita sljedeće ulaze:
+Generator čita tri obavezna ulaza:
 
 1) `intake_v1.json` (Gate 2 ulaz)
 2) `subsumcija_v1.json` (elementi bića / provjere)
 3) `postupak.json` (tok + meta)
-4) postojeći `audit_v1.json` (ako postoji; služi kao kontekst i provjera
-   postojeće kolizije; generator ga ne mijenja)
+
+Postojeći `audit_v1.json` opcionalni je četvrti ulaz. Ako postoji, služi kao
+kontekst za provjeru postojeće kolizije i referentni datum G1. Generator ga
+ne mijenja i ne smije ga zahtijevati kada kanonska subsumpcija sama dokazuje
+G3.
 
 Za P7 postupak može dodatno deklarirati `ulazi.norma_refs[]`. Generator
 svaku takvu referencu mora razriješiti unutar repozitorija, učitati kao JSON
@@ -91,8 +94,11 @@ Pravila G2 i G3:
   `osporavanja[]` prazno/ne postoji, ili ako je `cilj` prazan/ne postoji;
   inače je `PASS`.
 - `NAP-G3` je `PASS` ako `subsumcija` sadrži barem jedan element s
-  `rezultat="PROLAZ"` ili ako postoji `KOL-01` u postojećem `audit_v1.json`;
+  `status="PROLAZ"` ili ako postoji `KOL-01` u postojećem `audit_v1.json`;
   inače je `FAIL`.
+
+`status` je jedino kanonsko polje ishoda subsumpcijskog elementa. Polje
+`rezultat` nije dopušten legacy alias i generator ga mora odbiti.
 
 Pravila G1 (soft u v1):
 
@@ -163,6 +169,7 @@ Generator mora STOP-ati (exit != 0 u alatu) u sljedećim slučajevima:
 - nedostaje `postupak.json`
 - `intake_v1.json` nije validan JSON ili ne prolazi `SCHEMA_INTAKE...`
 - `subsumcija_v1.json` nije validan JSON ili ne prolazi `SCHEMA_SUBSUMPCIJA...`
+- subsumpcijski element sadrži nekanonsko polje `rezultat`
 - izlaz se ne može zapisati na predviđenu putanju
 - deklarirani `norma_ref` ne postoji, nije valjan JSON ili nema status
   sidra `puno`
@@ -196,6 +203,8 @@ Svaki scenarij mora sadržavati:
 - opcionalni `naziv`
 - `tok`
 - ulaze: `intake`, `subsumcija`, opcionalni `audit_v1`
+- `subsumcija` koja sadrži sva polja iz `SCHEMA_SUBSUMPCIJA_V1.json` i
+  koristi isključivo `status`
 - `expected.preflight` (`CRVENO|ZUTO|ZELENO`)
 - opcionalni `expected.g1.status`
 - preferirano:
