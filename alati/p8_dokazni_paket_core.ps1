@@ -2,6 +2,10 @@
 
 Set-StrictMode -Version Latest
 
+if ($null -eq (Get-Command Resolve-VeritasReference -ErrorAction SilentlyContinue)) {
+    . (Join-Path $PSScriptRoot 'putanje_predmeta_core.ps1')
+}
+
 function Get-P8Sha256Text {
     param(
         [Parameter(Mandatory = $true)][string] $Text
@@ -35,54 +39,34 @@ function Assert-P8SafeText {
     }
 }
 
-function Resolve-P8RepoReference {
+function Resolve-P8Reference {
     param(
-        [Parameter(Mandatory = $true)][string] $RepoRoot,
         [Parameter(Mandatory = $true)][string] $PathRef,
-        [Parameter(Mandatory = $true)][string] $PredmetId
+        [Parameter(Mandatory = $true)] $Context,
+        [Parameter(Mandatory = $true)]
+        [ValidateSet('Repository', 'Subject')]
+        [string] $ExpectedScope
     )
 
     Assert-P8SafeText -Value $PathRef -Name "putanja"
-    if ([System.IO.Path]::IsPathRooted(($PathRef -replace "/", "\"))) {
-        throw "Apsolutna putanja nije dopuštena: $PathRef"
-    }
-
-    $expanded = $PathRef.Replace("{PREDMET_ID}", $PredmetId)
-    if ($expanded -match "\{[^}]+\}") {
-        throw "Nerazriješena oznaka u putanji: $PathRef"
-    }
-
-    $normalizedRef = ($expanded -replace "\\", "/").TrimStart("/")
-    $repoFull = [System.IO.Path]::GetFullPath($RepoRoot).TrimEnd("\")
-    $repoPrefix = $repoFull + "\"
-    $resolved = [System.IO.Path]::GetFullPath(
-        (Join-Path $repoFull ($normalizedRef -replace "/", "\"))
-    )
-
-    if (-not $resolved.StartsWith(
-            $repoPrefix,
-            [System.StringComparison]::OrdinalIgnoreCase
-        )) {
-        throw "Putanja izlazi iz repozitorija: $PathRef"
-    }
-
-    return [pscustomobject]@{
-        Ref = $normalizedRef
-        Path = $resolved
-    }
+    return Resolve-VeritasReference `
+        -PathRef $PathRef `
+        -Context $Context `
+        -ExpectedScope $ExpectedScope
 }
 
 function Read-P8Json {
     param(
         [Parameter(Mandatory = $true)][string] $Path,
-        [Parameter(Mandatory = $true)][string] $Name
+        [Parameter(Mandatory = $true)][string] $Name,
+        [Parameter(Mandatory = $true)][string] $Reference
     )
 
     if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) {
-        throw "Nedostaje ${Name}: $Path"
+        throw "Nedostaje ${Name}: $Reference"
     }
     if ((Get-Item -LiteralPath $Path).Length -le 0) {
-        throw "$Name je prazan: $Path"
+        throw "$Name je prazan: $Reference"
     }
 
     try {
@@ -90,8 +74,36 @@ function Read-P8Json {
             ConvertFrom-Json
     }
     catch {
-        throw "$Name nije valjan JSON: $Path"
+        throw "$Name nije valjan JSON: $Reference"
     }
+}
+
+function Get-P8SafeErrorDetail {
+    param(
+        [Parameter(Mandatory = $true)][string] $Message,
+        [Parameter(Mandatory = $false)] $Context
+    )
+
+    if ($null -eq $Context -or $Context.Mode -ne 'local') {
+        return $Message
+    }
+
+    $safe = $Message
+    foreach ($sensitivePath in @(
+            [string]$Context.SubjectRoot,
+            [string]$Context.DataRoot
+        )) {
+        if (-not [string]::IsNullOrWhiteSpace($sensitivePath)) {
+            $safe = [regex]::Replace(
+                $safe,
+                [regex]::Escape($sensitivePath),
+                '[LOCAL_PATH_REDACTED]',
+                [System.Text.RegularExpressions.RegexOptions]::IgnoreCase
+            )
+        }
+    }
+
+    return $safe
 }
 
 function Write-P8JsonAtomic {
@@ -191,8 +203,7 @@ function Get-P8ExpectedArtifacts {
     param(
         [Parameter(Mandatory = $true)] $Procedure,
         [Parameter(Mandatory = $true)][string] $ProcedureRef,
-        [Parameter(Mandatory = $true)][string] $RepoRoot,
-        [Parameter(Mandatory = $true)][string] $PredmetId
+        [Parameter(Mandatory = $true)] $Context
     )
 
     $requiredInputRefs = @(
@@ -217,31 +228,37 @@ function Get-P8ExpectedArtifacts {
             Id = "predmet"
             Role = "PREDMET"
             Ref = [string]$Procedure.ulazi.predmet_ref
+            Scope = "Subject"
         })
     $specs.Add([pscustomobject]@{
             Id = "intake"
             Role = "INTAKE"
             Ref = [string]$Procedure.ulazi.intake_ref
+            Scope = "Subject"
         })
     $specs.Add([pscustomobject]@{
             Id = "subsumcija"
             Role = "SUBSUMPCIJA"
             Ref = [string]$Procedure.ulazi.subsumcija_ref
+            Scope = "Subject"
         })
     $specs.Add([pscustomobject]@{
             Id = "audit_generated"
             Role = "AUDIT_GENERATED"
             Ref = [string]$Procedure.ulazi.audit_ref
+            Scope = "Subject"
         })
     $specs.Add([pscustomobject]@{
             Id = "postupak"
             Role = "POSTUPAK"
             Ref = $ProcedureRef
+            Scope = "Repository"
         })
     $specs.Add([pscustomobject]@{
             Id = "predlozak"
             Role = "PREDLOZAK"
             Ref = [string]$Procedure.ulazi.predlozak_ref
+            Scope = "Repository"
         })
 
     $normaRefs = @($Procedure.ulazi.norma_refs)
@@ -253,6 +270,7 @@ function Get-P8ExpectedArtifacts {
                 Id = "norma_{0:D3}" -f ($index + 1)
                 Role = "NORMA"
                 Ref = [string]$normaRefs[$index]
+                Scope = "Repository"
             })
     }
 
@@ -260,6 +278,7 @@ function Get-P8ExpectedArtifacts {
             Id = "nacrt"
             Role = "NACRT"
             Ref = [string]$Procedure.izlazi.nacrt_ref
+            Scope = "Subject"
         })
 
     $resolvedSpecs = [System.Collections.Generic.List[object]]::new()
@@ -267,10 +286,10 @@ function Get-P8ExpectedArtifacts {
         [System.StringComparer]::OrdinalIgnoreCase
     )
     foreach ($spec in $specs) {
-        $resolved = Resolve-P8RepoReference `
-            -RepoRoot $RepoRoot `
+        $resolved = Resolve-P8Reference `
             -PathRef $spec.Ref `
-            -PredmetId $PredmetId
+            -Context $Context `
+            -ExpectedScope $spec.Scope
         if (-not $seenRefs.Add($resolved.Ref)) {
             throw "Dvostruka referenca artefakta: $($resolved.Ref)"
         }

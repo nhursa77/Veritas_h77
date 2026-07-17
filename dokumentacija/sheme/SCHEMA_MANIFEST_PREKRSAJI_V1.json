@@ -36,7 +36,7 @@
         },
         "vrsta_predmeta": {
           "type": "string",
-          "enum": ["sinteticki"]
+          "enum": ["sinteticki", "stvarni"]
         },
         "datum_vrijeme_izrade": {
           "type": "string",

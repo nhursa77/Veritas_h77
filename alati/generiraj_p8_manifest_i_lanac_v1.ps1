@@ -8,7 +8,11 @@ param(
     [string] $Tok = "TOK_PN_PRIGOVOR",
 
     [Parameter(Mandatory = $false)]
-    [string] $Verzija = "v1"
+    [string] $Verzija = "v1",
+
+    [Parameter(Mandatory = $false)]
+    [AllowEmptyString()]
+    [string] $DataRoot = ""
 )
 
 Set-StrictMode -Version Latest
@@ -21,6 +25,7 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
 $cleanupPaths = [System.Collections.Generic.List[string]]::new()
+$pathContext = $null
 
 function Add-P8CleanupPath {
     param([string] $Path)
@@ -36,17 +41,21 @@ try {
         throw "PREDMET_ID_FORMAT_INVALID"
     }
 
-    $fallbackManifest = Resolve-P8RepoReference `
+    $pathContext = New-VeritasPathContext `
         -RepoRoot $repoRoot `
+        -PredmetId $PredmetId `
+        -DataRoot $DataRoot
+    $fallbackManifest = Resolve-P8Reference `
         -PathRef "predmeti/sud/prekrsajni/{PREDMET_ID}/manifest.json" `
-        -PredmetId $PredmetId
-    $fallbackChain = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $fallbackChain = Resolve-P8Reference `
         -PathRef (
             "predmeti/sud/prekrsajni/{PREDMET_ID}/" +
             "lanac_skrbnistva.json"
         ) `
-        -PredmetId $PredmetId
+        -Context $pathContext `
+        -ExpectedScope Subject
     Add-P8CleanupPath -Path $fallbackManifest.Path
     Add-P8CleanupPath -Path $fallbackChain.Path
     Add-P8CleanupPath -Path ($fallbackManifest.Path + ".tmp")
@@ -58,13 +67,14 @@ try {
     }
 
     $procedureRef = "postupci/sud/prekrsajni/$Tok/$Verzija/postupak.json"
-    $procedureResolved = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+    $procedureResolved = Resolve-P8Reference `
         -PathRef $procedureRef `
-        -PredmetId $PredmetId
+        -Context $pathContext `
+        -ExpectedScope Repository
     $procedure = Read-P8Json `
         -Path $procedureResolved.Path `
-        -Name "postupak"
+        -Name "postupak" `
+        -Reference $procedureResolved.Ref
 
     if ([string]$procedure.meta.id -ne "${Tok}_${Verzija}" -or
         [string]$procedure.meta.verzija -ne $Verzija) {
@@ -76,14 +86,14 @@ try {
         }
     }
 
-    $manifestResolved = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+    $manifestResolved = Resolve-P8Reference `
         -PathRef ([string]$procedure.izlazi.manifest_ref) `
-        -PredmetId $PredmetId
-    $chainResolved = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $chainResolved = Resolve-P8Reference `
         -PathRef ([string]$procedure.izlazi.lanac_skrbnistva_ref) `
-        -PredmetId $PredmetId
+        -Context $pathContext `
+        -ExpectedScope Subject
     if ($manifestResolved.Ref -ne $fallbackManifest.Ref -or
         $chainResolved.Ref -ne $fallbackChain.Ref) {
         throw "P8_OUTPUT_REF_NOT_CANONICAL"
@@ -92,8 +102,7 @@ try {
     $expected = Get-P8ExpectedArtifacts `
         -Procedure $procedure `
         -ProcedureRef $procedureResolved.Ref `
-        -RepoRoot $repoRoot `
-        -PredmetId $PredmetId
+        -Context $pathContext
     if ($expected.Count -ne 10) {
         throw "P8_ARTIFACT_COUNT_INVALID=$($expected.Count)"
     }
@@ -110,11 +119,21 @@ try {
     foreach ($spec in $expected) {
         $byId[$spec.Id] = $spec
     }
-    $predmet = Read-P8Json -Path $byId.predmet.Path -Name "predmet"
-    $intake = Read-P8Json -Path $byId.intake.Path -Name "intake"
-    $subsumcija = Read-P8Json -Path $byId.subsumcija.Path -Name "subsumcija"
-    $audit = Read-P8Json -Path $byId.audit_generated.Path -Name "audit"
-    $predlozak = Read-P8Json -Path $byId.predlozak.Path -Name "predložak"
+    $predmet = Read-P8Json `
+        -Path $byId.predmet.Path -Name "predmet" `
+        -Reference $byId.predmet.Ref
+    $intake = Read-P8Json `
+        -Path $byId.intake.Path -Name "intake" `
+        -Reference $byId.intake.Ref
+    $subsumcija = Read-P8Json `
+        -Path $byId.subsumcija.Path -Name "subsumcija" `
+        -Reference $byId.subsumcija.Ref
+    $audit = Read-P8Json `
+        -Path $byId.audit_generated.Path -Name "audit" `
+        -Reference $byId.audit_generated.Ref
+    $predlozak = Read-P8Json `
+        -Path $byId.predlozak.Path -Name "predložak" `
+        -Reference $byId.predlozak.Ref
 
     Assert-P8DocumentIdentity `
         -Document $predmet -Name "predmet" -PredmetId $PredmetId `
@@ -129,9 +148,17 @@ try {
         -Document $audit -Name "audit" -PredmetId $PredmetId `
         -Tok $Tok -Verzija $Verzija
 
-    if ([string]$predmet.meta.vrsta -ne "sinteticki" -or
-        [string]$predmet.meta.verzija -ne "v1") {
-        throw "P8_REQUIRES_SYNTHETIC_SUBJECT_V1"
+    $predmetProfile = Test-VeritasSubjectPrivacyEnvelope `
+        -Document $predmet `
+        -Context $pathContext
+    if (-not $predmetProfile.Valid) {
+        throw (
+            "P8_SUBJECT_PRIVACY_PROFILE_INVALID=" +
+            ($predmetProfile.Errors -join ',')
+        )
+    }
+    if ([string]$predmet.meta.verzija -ne "v1") {
+        throw "P8_REQUIRES_SUBJECT_VERSION_V1"
     }
     if ([bool]$audit.gate_stanje.blocked) {
         throw "P8_AUDIT_BLOCKED"
@@ -146,7 +173,10 @@ try {
             ForEach-Object { [string]$_.norma_ref }
     )
     foreach ($normaSpec in @($expected | Where-Object { $_.Role -eq "NORMA" })) {
-        $norma = Read-P8Json -Path $normaSpec.Path -Name "norma"
+        $norma = Read-P8Json `
+            -Path $normaSpec.Path `
+            -Name "norma" `
+            -Reference $normaSpec.Ref
         if ([string]$norma.izvori.status_sidra -ne "puno") {
             throw "P8_NORMA_SIDRO_NOT_FULL=$($normaSpec.Ref)"
         }
@@ -209,7 +239,7 @@ try {
             id_predmeta = $PredmetId
             tok = $Tok
             verzija_toka = $Verzija
-            vrsta_predmeta = "sinteticki"
+            vrsta_predmeta = [string]$predmet.meta.vrsta
             datum_vrijeme_izrade = $timestamp
             algoritam_sazetka = "SHA-256"
             status = "P8_PROLAZ"
@@ -287,9 +317,17 @@ try {
     $validator = Join-Path $PSScriptRoot (
         "validiraj_p8_manifest_i_lanac_v1.ps1"
     )
+    $validatorArgs = @(
+        "-PredmetId", $PredmetId,
+        "-Tok", $Tok,
+        "-Verzija", $Verzija
+    )
+    if ($pathContext.Mode -eq 'local') {
+        $validatorArgs += @("-DataRoot", $DataRoot)
+    }
     $validatorOutput = @(
         pwsh -NoProfile -ExecutionPolicy Bypass -File $validator `
-            -PredmetId $PredmetId -Tok $Tok -Verzija $Verzija 2>&1
+            @validatorArgs 2>&1
     )
     foreach ($line in $validatorOutput) {
         Write-Host ([string]$line)
@@ -299,14 +337,23 @@ try {
     }
 
     Write-Host "P8_GENERATOR_ARTIFACTS=$($artifacts.Count)"
-    Write-Host "P8_MANIFEST_PATH=$($manifestResolved.Path)"
-    Write-Host "P8_CHAIN_PATH=$($chainResolved.Path)"
+    Write-Host "P8_MANIFEST_REF=$($manifestResolved.Ref)"
+    Write-Host "P8_CHAIN_REF=$($chainResolved.Ref)"
+    if ($pathContext.Mode -eq 'public') {
+        Write-Host "P8_MANIFEST_PATH=$($manifestResolved.Path)"
+        Write-Host "P8_CHAIN_PATH=$($chainResolved.Path)"
+    }
+    else {
+        Write-Host "P8_LOCAL_PATHS_REDACTED=True"
+    }
     Write-Host "P8_GENERATOR_RESULT=OK"
     exit 0
 }
 catch {
     Remove-P8PackageFiles -Paths @($cleanupPaths)
     Write-Host "P8_GENERATOR_RESULT=STOP"
-    Write-Host "STOP_REASON=$($_.Exception.Message)"
+    Write-Host "STOP_REASON=$(Get-P8SafeErrorDetail `
+        -Message $_.Exception.Message `
+        -Context $pathContext)"
     exit 1
 }
