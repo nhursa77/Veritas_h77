@@ -73,8 +73,17 @@ Priprema P9 je funkcionalno zatvorena:
 - postojeći `audit_v1.json` ostaje opcionalni kontekst, dok sintetički
   lokalni E2E bez njega proizvodi četiri artefakta uz vidljivi
   `G1=INDETERMINATE` žuti signal.
+- lokalna generalna proba s potpuno izmišljenim nalogom potvrdila je siguran
+  `STOP` bez artefakata za nepopunjen predmet te četiri artefakta za valjane
+  sintetičke ulaze, bez otkrivanja fizičkog korijena i bez promjene Git
+  stanja;
+- ljudski pregled iste probe dokazao je da tehnički prolaz još nije pravna
+  spremnost: referencirani dokaz nije u manifestu, preporučeni pravni lijek
+  nema popunjenih polja, a nacrt ne prenosi broj ni ključne datume akta.
 
-Sljedeće po redu je zasebna ljudska odluka o početku prvog stvarnog predmeta.
+Prije prvog stvarnog predmeta sljedeći paket mora vezati svaki referencirani
+dokaz u manifest, proizvesti i provjeriti preporučeni pravni lijek te proširiti
+nacrt provjerenim identitetom akta i potrebnim datumima.
 
 Backlog fixtures popune (prioritet nakon kanona):
 
