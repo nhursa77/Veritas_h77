@@ -62,6 +62,10 @@ Priprema P9 je funkcionalno zatvorena:
 - audit, P7 i P8 koriste zajedničko sigurno usmjeravanje predmetnih putanja;
 - sintetički lokalni E2E test dokazuje cijeli tok izvan repozitorija bez
   otkrivanja fizičkog korijena i bez promjene Git stanja.
+- sigurni inicijalizator stvara samo nepopunjeni lokalni kostur i odbija
+  prepisivanje postojećeg predmeta;
+- jednonaredbeni P9 pokretač provodi privatnost, ulazne validatore, audit,
+  P7, P8 i završnu provjeru te na blokadi uklanja stare runtime izlaze.
 
 Sljedeće po redu je zasebna ljudska odluka o početku prvog stvarnog predmeta.
 
@@ -338,16 +342,23 @@ predmeta i tehnička Git zaštita privatnosti. Bez tog zasebnog prolaza P9 se
 ne pokreće.
 
 Tehnički preduvjet dodatno je dokazan sintetičkim lokalnim E2E prolazom.
+Inicijalizacija i cijeli dokazani tok sada imaju kanonske jednonaredbene
+pokretače i obavezne testove u `ci_smoke` toku.
 Stvarni predmet još nije otvoren i za njegov početak ostaje potrebna zasebna
 ljudska odluka.
 
 Koraci:
 
-1) Unijeti predmet s minimalnim dokazima isključivo pod lokalnim korijenom
-   `VERITAS_LOCAL_DATA_ROOT` izvan repozitorija.
-2) Pokrenuti tok (odabir TOK_PN_PRIGOVOR ili drugi).
-3) Generirati audit + nacrt + manifest.
-4) Pregledati rupe i otvoriti “rupa izvještaj” ako nešto fali.
+1) Nakon ljudskog odobrenja inicijalizirati lokalni predmet izvan
+   repozitorija bez prepisivanja i bez izmišljenih činjenica.
+2) Ljudski unijeti i provjeriti minimalni skup ulaza prvog toka.
+3) Pokrenuti `TOK_PN_PRIGOVOR` kroz jednonaredbeni P9 pokretač.
+4) Provjeriti audit, nepotpisani nacrt, manifest i lanac skrbništva.
+5) Pregledati rupe i otvoriti izvještaj ako nešto nedostaje.
+
+Otvorena tehnička odluka prije širenja ulaza je usklađenje polja `status` iz
+sheme subsumpcije s poljem `rezultat` koje čita audit-generator. Trenutačni
+dokazani v1 postupak zato zahtijeva i postojeći `audit_v1.json` kontekst.
 
 Ulaz: stvarni predmet.
 Izlaz: kompletan paket spreman za ljudski potpis.

@@ -4,14 +4,14 @@ Datum: 17.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 177: `2fb095c` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 177 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 178: `7e65d7d` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 178 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p9-lokalni-e2e`.
-- Ciljani sintetički lokalni E2E test potvrđen je 17.07.2026. bez stvarnih
-  osobnih podataka i bez promjene Git stanja.
+  `codex/p9-lokalna-operativa`.
+- Sigurna inicijalizacija i jednonaredbeni sintetički lokalni E2E potvrđeni
+  su 17.07.2026. bez stvarnih osobnih podataka i bez promjene Git stanja.
 - Puni `alati/ci_smoke.ps1` potvrđen je 17.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za paket ZADATKA 177.
+  `CI_SMOKE_EXIT=0` za paket ZADATKA 178.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -71,6 +71,11 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
 - Sintetički lokalni E2E dokaz proizvodi četiri izlaza izvan repozitorija,
   skriva fizički korijen, čuva samo kanonske reference i ne mijenja Git
   stanje.
+- ZADATAK 178 uvodi inicijalizator koji ne prepisuje predmet i ne izmišlja
+  činjenice te jednonaredbeni P9 pokretač koji na blokadi uklanja sve stare
+  runtime izlaze.
+- Obavezni testovi dokazuju nepopunjeni `STOP`, blokadu nesigurnog korijena,
+  neotkrivanje lokalne putanje i četiri vanjska artefakta uspješnog toka.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -96,6 +101,9 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
 - Automatizirani P9 pregled traži visokopouzdane obrasce, ali nije dokaz da
   nepoznata vrsta osobnog podatka ne može postojati; ljudski pregled ostaje
   obavezan.
+- Shema subsumpcije koristi `status`, a audit-generator u G3 provjeri čita
+  `rezultat`. ZADATAK 178 taj ugovorni nesklad nije tiho mijenjao; trenutačni
+  dokazani P9 pokretač zato zahtijeva postojeći `audit_v1.json` kontekst.
 
 ### Sljedeća potrebna odluka
 
@@ -126,11 +134,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `2fb095c` - Merge pull request #7 from
-  nhursa77/codex/p9-predmet-privatnost
+- Polazni HEAD prije zadatka: `7e65d7d` - Merge pull request #8 from
+  nhursa77/codex/p9-lokalni-e2e
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 177
+- Zadnji dovršeni zadatak: ZADATAK 178
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -1025,3 +1033,21 @@ Pre-check snapshot sinkronizacije:
   lokalni E2E, svih 24 audit fixturea, P7, P8 i svih 179 Markdown datoteka.
 - Stvarni predmet nije otvoren; za njega ostaje potrebna zasebna ljudska
   odluka i izbor trajnog lokalnog korijena.
+
+### Sigurna lokalna operativa prvog toka (ZADATAK 178)
+
+- Uveden je inicijalizator koji pod izričito zadanim sigurnim lokalnim
+  korijenom stvara nepopunjeni `STVARNI_<ID>` kostur bez stvarnih činjenica.
+- Ponovljena inicijalizacija odbija prepisati postojeći predmet, a nesiguran
+  korijen unutar repozitorija blokira se prije stvaranja sadržaja.
+- Jednonaredbeni pokretač provjerava aktivan privatnosni hook, repo gate,
+  sheme, identitete i spremnost ulaza prije audita, P7 i P8 koraka.
+- Svaka blokada uklanja poznate runtime izlaze aktivnog predmeta; uspješan
+  sintetički prolaz stvara točno četiri artefakta izvan repozitorija.
+- Izvršni ispis čuva samo kanonske reference, zahtijeva ljudski pregled te
+  izričito potvrđuje da rezultat nije potpisan ni poslan.
+- Otkriveni nesklad `status` naspram `rezultat` ostao je vidljivo otvoren za
+  zaseban sadržajni paket i nije prikriven izmjenom auditne semantike.
+- Puni `alati/ci_smoke.ps1` prošao je s `CI_SMOKE_EXIT=0`, uključujući oba
+  P9 operativna testa, 24 audit fixturea, P7, P8 i 179 Markdown datoteka.
+- Stvarni predmet nije otvoren i trajni lokalni korijen nije odabran.

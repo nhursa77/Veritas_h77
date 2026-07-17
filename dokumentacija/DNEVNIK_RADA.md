@@ -6445,3 +6445,52 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 17.07.2026 (ZADATAK 178)
+
+### ZADATAK 178 - Sigurna lokalna P9 operativa jednom naredbom
+
+Uveden je sigurni inicijalizator koji stvara samo nepopunjeni lokalni predmet,
+ne izmišlja činjenice i odbija prepisati postojeći predmet.
+
+Uveden je jednonaredbeni lokalni P9 pokretač koji provjerava privatnosni hook,
+repo gate, sheme, identitete i spremnost ulaza prije audita, P7 i P8 koraka.
+
+Blokirani tok uklanja stare runtime izlaze i završava s nula artefakata.
+Uspješan sintetički prolaz stvara audit, nepotpisani nacrt, manifest i lanac
+skrbništva izvan repozitorija bez otkrivanja fizičke putanje.
+
+Vidljivo je evidentiran ugovorni nesklad: shema subsumpcije koristi status, a
+audit-generator u G3 provjeri čita rezultat. Taj nesklad nije mijenjan u ovom
+paketu.
+
+Puni kontrolni tok prošao je s CI_SMOKE_EXIT=0. Stvarni predmet nije otvoren,
+stvarni osobni podaci nisu korišteni i trajni lokalni korijen nije odabran.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `alati/ci_smoke.ps1`
+- `alati/inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1`
+- `alati/pokreni_lokalni_tok_p9_v1.ps1`
+- `alati/test_p9_inicijalizacija_v1.ps1`
+- `alati/test_p9_lokalni_e2e_v1.ps1`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_inicijalizacija_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_lokalni_e2e_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_privatnost_repozitorija_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+- `git diff --check`
+- `git status --short`
