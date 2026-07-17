@@ -10,7 +10,9 @@
       "izvor_intake": "fixture"
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["dokaz"],
+    "osporavanja": [
+      "dokaz"
+    ],
     "opis_dogadaja": "Fixture yellow late G1.",
     "kontradikcije": {
       "ima_kontradikcija": false,
@@ -19,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PRESUDA_ZALBA",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_ZUT_G1_LATE_06/cinjenica",
+        "dokaz_ref": "fixture/SCN_ZUT_G1_LATE_06/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },
@@ -40,7 +49,14 @@
   },
   "expected": {
     "preflight": "ZUTO",
-    "required_nap": ["NAP-G1-LATE", "NAP-YEL-WARNING", "NAP-SEM"],
-    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+    "required_nap": [
+      "NAP-G1-LATE",
+      "NAP-YEL-WARNING",
+      "NAP-SEM"
+    ],
+    "forbidden_nap": [
+      "NAP-RED-BLOCKER",
+      "NAP-GRN-OK"
+    ]
   }
 }

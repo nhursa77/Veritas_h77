@@ -10,7 +10,9 @@
       "datum_izrade": "10.02.2026."
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["dokaz"],
+    "osporavanja": [
+      "dokaz"
+    ],
     "opis_dogadaja": "Fixture yellow g1 indeterminate without audit reference date.",
     "kontradikcije": {
       "ima_kontradikcija": false,
@@ -19,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_ZUT_G1_INDET_11/cinjenica",
+        "dokaz_ref": "fixture/SCN_ZUT_G1_INDET_11/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },
@@ -35,8 +44,15 @@
       "status": "INDETERMINATE"
     },
     "nap": {
-      "must_include": ["NAP-G1-INDETERMINATE", "NAP-YEL-WARNING", "NAP-SEM"],
-      "must_not_include": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+      "must_include": [
+        "NAP-G1-INDETERMINATE",
+        "NAP-YEL-WARNING",
+        "NAP-SEM"
+      ],
+      "must_not_include": [
+        "NAP-RED-BLOCKER",
+        "NAP-GRN-OK"
+      ]
     }
   }
 }

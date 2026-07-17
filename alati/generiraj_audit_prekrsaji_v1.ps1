@@ -118,6 +118,44 @@ if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
     exit 1
 }
 
+$schemaValidatorPath = Join-Path `
+    $PSScriptRoot `
+    "validiraj_json_po_shemi_v1.ps1"
+$schemaRoot = Join-Path $repoRoot "dokumentacija\sheme"
+$inputSchemaChecks = @(
+    [pscustomobject]@{
+        Name = "INTAKE"
+        Path = $intakePath
+        Ref = $intakeRef
+        Schema = "SCHEMA_INTAKE_PREKRSAJI_V1.json"
+    },
+    [pscustomobject]@{
+        Name = "SUBSUMCIJA"
+        Path = $subsumcijaPath
+        Ref = $subsumcijaRef
+        Schema = "SCHEMA_SUBSUMPCIJA_V1.json"
+    }
+)
+
+foreach ($schemaCheck in $inputSchemaChecks) {
+    $schemaPath = Join-Path $schemaRoot $schemaCheck.Schema
+    $null = @(
+        & pwsh -NoProfile -ExecutionPolicy Bypass `
+            -File $schemaValidatorPath `
+            -JsonPutanja $schemaCheck.Path `
+            -ShemaPutanja $schemaPath `
+            -OznakaIzlaza "AUDIT_INPUT_SCHEMA" 2>&1
+    )
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host (
+            "ERROR: {0}_SCHEMA_INVALID={1}" -f
+            $schemaCheck.Name,
+            $schemaCheck.Ref
+        )
+        exit 1
+    }
+}
+
 $normaSidra = @()
 if ($null -ne $postupak.ulazi.PSObject.Properties["norma_refs"] -and $null -ne $postupak.ulazi.norma_refs) {
     foreach ($normaRefValue in @($postupak.ulazi.norma_refs)) {
@@ -274,12 +312,17 @@ if ($null -ne $subsumcija.PSObject.Properties["elementi_bica"] -and $null -ne $s
 }
 
 foreach ($element in $subsumcijaElementi) {
-    $rezultat = ""
     if ($null -ne $element.PSObject.Properties["rezultat"]) {
-        $rezultat = [string]$element.rezultat
+        Write-Host "ERROR: SUBSUMCIJA_LEGACY_REZULTAT_FIELD=$subsumcijaRef"
+        exit 1
     }
 
-    if ($rezultat -eq "PROLAZ") {
+    $status = ""
+    if ($null -ne $element.PSObject.Properties["status"]) {
+        $status = [string]$element.status
+    }
+
+    if ($status -eq "PROLAZ") {
         $hasSubsumcijaProlaz = $true
         break
     }

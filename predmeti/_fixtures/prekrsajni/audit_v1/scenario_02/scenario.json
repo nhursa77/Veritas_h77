@@ -10,7 +10,10 @@
       "izvor_intake": "fixture"
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["procedura", "dokaz"],
+    "osporavanja": [
+      "procedura",
+      "dokaz"
+    ],
     "opis_dogadaja": "Fixture green via KOL-01.",
     "kontradikcije": {
       "ima_kontradikcija": false,
@@ -19,12 +22,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PRESUDA_ZALBA",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "NEPROLAZ"
+        "cinjenica_ref": "",
+        "dokaz_ref": "",
+        "obrazlozenje": "Sintetički fixture namjerno nema potpunu činjenicu i dokaz.",
+        "status": "NEPROLAZ"
       }
     ]
   },
@@ -44,7 +54,16 @@
   },
   "expected": {
     "preflight": "ZELENO",
-    "required_nap": ["NAP-G3", "NAP-SEM", "NAP-GRN-OK"],
-    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-YEL-WARNING", "NAP-G1-MISSING", "NAP-G1-LATE"]
+    "required_nap": [
+      "NAP-G3",
+      "NAP-SEM",
+      "NAP-GRN-OK"
+    ],
+    "forbidden_nap": [
+      "NAP-RED-BLOCKER",
+      "NAP-YEL-WARNING",
+      "NAP-G1-MISSING",
+      "NAP-G1-LATE"
+    ]
   }
 }

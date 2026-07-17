@@ -216,8 +216,12 @@ Pokretač za v1 zahtijeva ovaj dokazani ulazni skup unutar istog predmeta:
 
 1. `predmet.json`;
 2. `intake/intake_v1.json`;
-3. `audit/subsumcija_v1.json`;
-4. `audit/audit_v1.json` kao postojeći kontekst.
+3. `audit/subsumcija_v1.json` s kanonskim poljem `status`.
+
+`audit/audit_v1.json` opcionalni je kontekst. Ako postoji, mora biti valjan
+JSON usklađenog identiteta i može dati `KOL-01` ili referentni datum G1. Ako
+ne postoji, `status=PROLAZ` iz subsumpcije može dokazati G3, a G1 mora ostati
+`INDETERMINATE` uz žuti signal koji samostalno ne blokira obradu.
 
 Prije obrade mora potvrditi aktivan `.githooks` privatnosni čuvar, zeleni
 repo privatnosni gate, valjane sheme, usklađen identitet i popunjena obavezna
@@ -238,13 +242,13 @@ Uspješan rezultat mora potvrditi:
 - `P9_RUN_HUMAN_REVIEW_REQUIRED=True`;
 - `P9_RUN_SIGNED=False` i `P9_RUN_SENT=False`.
 
-## 15. Otvoreni ugovorni nesklad
+## 15. Ugovor subsumpcije i audit konteksta
 
-`SCHEMA_SUBSUMPCIJA_V1.json` koristi polje `status`, dok auditni standard i
-generator u jednoj G3 provjeri traže polje `rezultat`. Postojeći dokazani v1
-tok prolaz ostvaruje i preko nalaza `KOL-01` iz `audit_v1.json`.
+`SCHEMA_SUBSUMPCIJA_V1.json`, auditni standard i generator koriste samo
+polje `status`. Nekanonsko polje `rezultat` mora biti odbijeno prije izrade
+audita.
 
-Ovaj standard ne razrješava taj nesklad i ne bira tiho jednu varijantu.
-Zato jednonaredbeni pokretač u ovoj verziji zahtijeva postojeći
-`audit_v1.json`. Usklađenje `status` i `rezultat` mora biti zaseban odobreni
-sadržajni paket s vlastitim fixtureima i provjerom auditne semantike.
+Postojeći `audit_v1.json` nije preduvjet za jednonaredbeni tok. Ostaje
+opcijski dokazani kontekst radi kompatibilnosti s postojećim `KOL-01`
+nalazom i datumom G1. Njegova odsutnost ne smije se prikriti izmišljenim
+datumom ni neprovjerenom činjenicom.

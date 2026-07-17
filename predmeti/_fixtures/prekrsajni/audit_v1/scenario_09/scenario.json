@@ -10,7 +10,9 @@
       "izvor_intake": "fixture"
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["dokaz"],
+    "osporavanja": [
+      "dokaz"
+    ],
     "opis_dogadaja": "Fixture red by G3 fail.",
     "kontradikcije": {
       "ima_kontradikcija": false,
@@ -19,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "NEPROLAZ"
+        "cinjenica_ref": "",
+        "dokaz_ref": "",
+        "obrazlozenje": "Sintetički fixture namjerno nema potpunu činjenicu i dokaz.",
+        "status": "NEPROLAZ"
       }
     ]
   },
@@ -40,7 +49,16 @@
   },
   "expected": {
     "preflight": "CRVENO",
-    "required_nap": ["NAP-RED-BLOCKER", "NAP-G3", "NAP-ODL"],
-    "forbidden_nap": ["NAP-YEL-WARNING", "NAP-GRN-OK", "NAP-G1-MISSING", "NAP-G1-LATE"]
+    "required_nap": [
+      "NAP-RED-BLOCKER",
+      "NAP-G3",
+      "NAP-ODL"
+    ],
+    "forbidden_nap": [
+      "NAP-YEL-WARNING",
+      "NAP-GRN-OK",
+      "NAP-G1-MISSING",
+      "NAP-G1-LATE"
+    ]
   }
 }

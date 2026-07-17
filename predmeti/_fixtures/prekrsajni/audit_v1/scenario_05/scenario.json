@@ -6,10 +6,13 @@
       "id_predmeta": "OGLEDNI_PREDMET_0001",
       "tok": "TOK_PN_PRIGOVOR",
       "verzija_toka": "v1",
-      "izvor_intake": "fixture"
+      "izvor_intake": "fixture",
+      "datum_izrade": ""
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["procedura"],
+    "osporavanja": [
+      "procedura"
+    ],
     "opis_dogadaja": "Fixture yellow missing intake date.",
     "kontradikcije": {
       "ima_kontradikcija": false,
@@ -18,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PN_PRIGOVOR",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_ZUT_G1_MISSING_05/cinjenica",
+        "dokaz_ref": "fixture/SCN_ZUT_G1_MISSING_05/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },
@@ -39,7 +49,13 @@
   },
   "expected": {
     "preflight": "ZUTO",
-    "required_nap": ["NAP-G1-MISSING", "NAP-YEL-WARNING"],
-    "forbidden_nap": ["NAP-RED-BLOCKER", "NAP-GRN-OK"]
+    "required_nap": [
+      "NAP-G1-MISSING",
+      "NAP-YEL-WARNING"
+    ],
+    "forbidden_nap": [
+      "NAP-RED-BLOCKER",
+      "NAP-GRN-OK"
+    ]
   }
 }

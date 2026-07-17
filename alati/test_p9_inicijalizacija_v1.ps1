@@ -97,6 +97,7 @@ try {
     foreach ($marker in @(
             'P9_INIT_RESULT=OK',
             'P9_INIT_STATE=NEPOPUNJEN',
+            'P9_INIT_OPTIONAL_AUDIT_CONTEXT_REF=',
             'P9_INIT_PATHS_REDACTED=True',
             'P9_INIT_HUMAN_REVIEW_REQUIRED=True'
         )) {
@@ -104,6 +105,11 @@ try {
             -Condition $positive.Text.Contains($marker) `
             -Reason "Nedostaje marker inicijalizacije: $marker"
     }
+    Assert-P9InitTest `
+        -Condition (-not $positive.Text.Contains(
+            'P9_INIT_REQUIRED_AUDIT_SEED_REF='
+        )) `
+        -Reason 'Inicijalizator pogrešno zahtijeva audit kontekst'
     Assert-NoLocalPathDisclosure `
         -Text $positive.Text `
         -Root $tempRoot `

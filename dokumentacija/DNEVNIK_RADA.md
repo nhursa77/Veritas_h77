@@ -6494,3 +6494,52 @@ Dokazne naredbe:
   `.\alati\provjeri_markdown_scope.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 17.07.2026 (ZADATAK 179)
+
+### ZADATAK 179 - Usklađenje ugovora subsumpcije i seedless P9
+
+Audit-generator prije obrade validira intake i subsumpciju, G3 izvodi iz
+kanonskog polja status i odbija nekanonsko polje rezultat.
+
+Svih 24 sintetička audit fixturea migrirano je na puni subsumpcijski ugovor bez
+promjene očekivanih semafora i NAP nalaza.
+
+Postojeći audit_v1.json ostaje opcionalni kontekst. Seedless lokalni E2E
+proizvodi četiri artefakta uz G1=INDETERMINATE, žuti neblokirajući signal i
+obavezan ljudski pregled.
+
+Puni kontrolni tok prošao je s CI_SMOKE_EXIT=0. Stvarni predmet nije otvoren,
+osobni podaci nisu korišteni, a potpisivanje i slanje nisu izvedeni.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `alati/generiraj_audit_prekrsaji_v1.ps1`
+- `alati/inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1`
+- `alati/pokreni_lokalni_tok_p9_v1.ps1`
+- `alati/test_p9_inicijalizacija_v1.ps1`
+- `alati/test_p9_lokalni_e2e_v1.ps1`
+- `predmeti/_fixtures/prekrsajni/audit_v1/scenario_*/scenario.json`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_fixtures_audit_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_inicijalizacija_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_lokalni_e2e_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`

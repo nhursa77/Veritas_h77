@@ -58,7 +58,8 @@ Uređuje nalaze, gate stanje i mapiranje u izlazne nacrte.
 
 ### `STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
 Definira determinističko generiranje runtime audita za P6.
-Uređuje NAP-MIN klase, semafor i G1 soft pravilo.
+Uređuje NAP-MIN klase, semafor, G1 soft pravilo, shematsku provjeru ulaza i
+kanonsko polje `status` subsumpcije.
 
 ### `STANDARD_JSON_SUBSUMPCIJA.md`
 Definira standard subsumpcije činjenica na norme i pravila.
@@ -87,7 +88,8 @@ Uređuje obaveznih deset artefakata, događajni hash-lanac i tvrde blokade.
 ### `STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md`
 Definira P9 ugovor predmeta i dva strogo odvojena režima podataka.
 Uređuje javni sintetički primjer, lokalni povjerljivi korijen, Git karantenu,
-provjeru indeksa i tvrde blokade prije prvog stvarnog predmeta.
+provjeru indeksa, opcionalni audit kontekst i tvrde blokade prije prvog
+stvarnog predmeta.
 
 ### `RAZVOJNI_PLAN_VERITAS_H77.md`
 Definira faze razvoja sustava, redoslijed rada i operativne gate uvjete.
@@ -471,7 +473,7 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `alati/test_p9_inicijalizacija_v1.ps1`.
 - Cijeli lokalni P9 tok jednom naredbom vodi
   `alati/pokreni_lokalni_tok_p9_v1.ps1`, dok STOP nepopunjenog predmeta i
-  četiri vanjska sintetička izlaza dokazuje
+  četiri vanjska sintetička izlaza bez obaveznog audit konteksta dokazuje
   `alati/test_p9_lokalni_e2e_v1.ps1`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
