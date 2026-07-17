@@ -1,6 +1,6 @@
 # STANDARD — PREDMET I PRIVATNOST PREKRŠAJI (v1)
 
-Datum: 16.07.2026.
+Datum: 17.07.2026.
 Oznaka: STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1
 Status: KANON za pripremu P9
 
@@ -185,3 +185,66 @@ Prvi stvarni predmet ostaje blokiran ako nije ispunjeno bilo što od ovoga:
 Zeleni gate dokazuje da su poznate tehničke zabrane aktivne i da javni
 primjeri zadovoljavaju ugovor. Ne dokazuje da nepoznati osobni podatak ne može
 postojati. Kod sumnje objava se zaustavlja i odluku donosi čovjek.
+
+## 13. Sigurna inicijalizacija lokalnog predmeta
+
+Kanonski inicijalizator je:
+
+`alati/inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1`
+
+Obavezna pravila su:
+
+- lokalni korijen i `STVARNI_<ID>` zadaju se izričito;
+- podržani su samo `TOK_PN_PRIGOVOR` i `v1`;
+- postojeći predmet nikada se ne prepisuje;
+- stvara se predmetni kostur s mapama `dokazi`, `intake`, `audit` i
+  `izlazi`;
+- `predmet.json` nastaje kao nepopunjeni nacrt bez izmišljenih činjenica;
+- rezultat nosi `P9_INIT_STATE=NEPOPUNJEN` i obavezu ljudskog pregleda;
+- fizička putanja lokalnog korijena ne ispisuje se.
+
+Inicijalizirani predmet nije odobren za obradu. Njegov status `nacrt`, prazna
+sadržajna polja i nedostajući ulazi moraju blokirati P9 pokretač.
+
+## 14. Jednonaredbeni lokalni tok
+
+Kanonski lokalni pokretač je:
+
+`alati/pokreni_lokalni_tok_p9_v1.ps1`
+
+Pokretač za v1 zahtijeva ovaj dokazani ulazni skup unutar istog predmeta:
+
+1. `predmet.json`;
+2. `intake/intake_v1.json`;
+3. `audit/subsumcija_v1.json`;
+4. `audit/audit_v1.json` kao postojeći kontekst.
+
+Prije obrade mora potvrditi aktivan `.githooks` privatnosni čuvar, zeleni
+repo privatnosni gate, valjane sheme, usklađen identitet i popunjena obavezna
+polja. Zatim izvodi:
+
+`validator predmeta -> audit -> P7 nacrt -> P8 paket -> P8 validator`
+
+Prije provjera uklanja samo poznate runtime izlaze aktivnog predmeta. Svaki
+`STOP` ili tehnička pogreška završava s nula runtime izlaza, tako da stari
+audit, nacrt, manifest ili lanac ne mogu izgledati kao rezultat trenutačnih
+ulaza.
+
+Uspješan rezultat mora potvrditi:
+
+- točno četiri artefakta unutar lokalnog predmeta;
+- samo kanonske reference u ispisu;
+- `P9_RUN_PATHS_REDACTED=True`;
+- `P9_RUN_HUMAN_REVIEW_REQUIRED=True`;
+- `P9_RUN_SIGNED=False` i `P9_RUN_SENT=False`.
+
+## 15. Otvoreni ugovorni nesklad
+
+`SCHEMA_SUBSUMPCIJA_V1.json` koristi polje `status`, dok auditni standard i
+generator u jednoj G3 provjeri traže polje `rezultat`. Postojeći dokazani v1
+tok prolaz ostvaruje i preko nalaza `KOL-01` iz `audit_v1.json`.
+
+Ovaj standard ne razrješava taj nesklad i ne bira tiho jednu varijantu.
+Zato jednonaredbeni pokretač u ovoj verziji zahtijeva postojeći
+`audit_v1.json`. Usklađenje `status` i `rezultat` mora biti zaseban odobreni
+sadržajni paket s vlastitim fixtureima i provjerom auditne semantike.

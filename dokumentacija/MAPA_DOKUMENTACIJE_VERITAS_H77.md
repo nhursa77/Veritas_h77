@@ -465,6 +465,14 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   strogo ga provjerava `alati/validiraj_p8_manifest_i_lanac_v1.ps1`, a
   pozitivne i blokirajuće scenarije dokazuje
   `alati/test_p8_manifest_lanac_v1.ps1`.
+- Prazni lokalni P9 predmet sigurno otvara
+  `alati/inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1`, a zabranu
+  prepisivanja i nesigurnog korijena dokazuje
+  `alati/test_p9_inicijalizacija_v1.ps1`.
+- Cijeli lokalni P9 tok jednom naredbom vodi
+  `alati/pokreni_lokalni_tok_p9_v1.ps1`, dok STOP nepopunjenog predmeta i
+  četiri vanjska sintetička izlaza dokazuje
+  `alati/test_p9_lokalni_e2e_v1.ps1`.
 - Zaštita dnevnika rada pripada
   `STANDARD_ZASTITA_DNEVNIKA_RADA.md`.
 - Pravila headinga, scoped markdown provjere i servisne discipline

@@ -118,6 +118,46 @@ režima. Lokalna fizička putanja ne zapisuje se u manifest, lanac ni izvršni
 ispis. Test `alati/test_p9_lokalni_e2e_v1.ps1` to dokazuje sintetičkim
 sadržajem izvan repozitorija; ne pokreće stvarni predmet.
 
+### Lokalna P9 operativa
+
+Novi lokalni predmet otvara se samo izričitim lokalnim korijenom i internom
+oznakom koja počinje s `STVARNI_`. Inicijalizator ne prepisuje postojeći
+predmet i ne unosi činjenice umjesto čovjeka:
+
+```powershell
+$root = '<ODOBRENI_LOKALNI_KORIJEN>'
+$predmetId = 'STVARNI_<INTERNA_OZNAKA>'
+
+pwsh -NoProfile -ExecutionPolicy Bypass -File `
+  .\alati\inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1 `
+  -DataRoot $root `
+  -PredmetId $predmetId
+```
+
+Rezultat `P9_INIT_STATE=NEPOPUNJEN` namjerno nije spreman za obradu. Prije
+pokretanja moraju biti ljudski uneseni i provjereni najmanje:
+
+- `predmet.json` sa statusom `aktivan`;
+- `intake/intake_v1.json`;
+- `audit/subsumcija_v1.json`;
+- `audit/audit_v1.json` kao postojeći dokazani kontekst v1.
+
+Tek nakon zasebnog odobrenja konkretnog predmeta cijeli dokazani tok pokreće
+se jednom naredbom:
+
+```powershell
+pwsh -NoProfile -ExecutionPolicy Bypass -File `
+  .\alati\pokreni_lokalni_tok_p9_v1.ps1 `
+  -DataRoot $root `
+  -PredmetId $predmetId
+```
+
+Pokretač najprije provjerava privatnosni Git čuvar, sheme, identitet i
+spremnost ulaza. Na blokadi uklanja stare runtime izlaze i vraća `STOP` bez
+artefakata. Uspjeh proizvodi točno četiri lokalna artefakta: generirani
+audit, nepotpisani nacrt, manifest i lanac skrbništva. Fizičke putanje nisu
+dio ispisa, a potpisivanje i slanje ostaju isključivo ljudska odluka.
+
 ### Pipeline modula M0–M9 (bez preskakanja)
 
 Svaki modul mora završiti sa statusom `PROLAZ`, `NEPROLAZ` ili `N/A`
