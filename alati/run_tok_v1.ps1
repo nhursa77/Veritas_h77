@@ -8,7 +8,11 @@ param(
     [string] $PredmetId,
 
     [Parameter(Mandatory = $false)]
-    [string] $Verzija = "v1"
+    [string] $Verzija = "v1",
+
+    [Parameter(Mandatory = $false)]
+    [AllowEmptyString()]
+    [string] $DataRoot = ""
 )
 
 Set-StrictMode -Version Latest
@@ -18,8 +22,7 @@ chcp 65001 | Out-Null
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
-$repoRootFull = [System.IO.Path]::GetFullPath($repoRoot).TrimEnd("\")
-$repoRootPrefix = $repoRootFull + "\"
+. (Join-Path $PSScriptRoot 'putanje_predmeta_core.ps1')
 
 function Stop-Runner {
     param(
@@ -48,55 +51,11 @@ function Fail-Runner {
     exit 1
 }
 
-function Expand-ProcedureReference {
-    param(
-        [Parameter(Mandatory = $true)][string] $PathRef
-    )
-
-    $expanded = $PathRef.Replace("{PREDMET_ID}", $PredmetId)
-    if ($expanded -match "\{[A-Z0-9_]+\}") {
-        throw "Nerazriješena oznaka u putanji: $PathRef"
-    }
-
-    return ($expanded -replace "\\", "/")
-}
-
-function Resolve-RepoPath {
-    param(
-        [Parameter(Mandatory = $true)][string] $PathRef
-    )
-
-    $normalizedPath = $PathRef -replace "/", "\"
-    $resolvedPath = if ([System.IO.Path]::IsPathRooted($normalizedPath)) {
-        [System.IO.Path]::GetFullPath($normalizedPath)
-    }
-    else {
-        [System.IO.Path]::GetFullPath((Join-Path $repoRoot $normalizedPath))
-    }
-
-    if ($resolvedPath -ne $repoRootFull -and -not $resolvedPath.StartsWith(
-            $repoRootPrefix,
-            [System.StringComparison]::OrdinalIgnoreCase
-        )) {
-        throw "Putanja izlazi iz repozitorija: $PathRef"
-    }
-
-    return $resolvedPath
-}
-
-function Resolve-ProcedurePath {
-    param(
-        [Parameter(Mandatory = $true)][string] $PathRef
-    )
-
-    $expanded = Expand-ProcedureReference -PathRef $PathRef
-    return Resolve-RepoPath -PathRef $expanded
-}
-
 function Read-JsonDocument {
     param(
         [Parameter(Mandatory = $true)][string] $Path,
-        [Parameter(Mandatory = $true)][string] $Name
+        [Parameter(Mandatory = $true)][string] $Name,
+        [Parameter(Mandatory = $true)][string] $Reference
     )
 
     try {
@@ -104,7 +63,7 @@ function Read-JsonDocument {
             ConvertFrom-Json
     }
     catch {
-        Fail-Runner -Reason "$Name JSON nije valjan" -Detail $Path
+        Fail-Runner -Reason "$Name JSON nije valjan" -Detail $Reference
     }
 }
 
@@ -252,45 +211,71 @@ if ($Verzija -notmatch "^v[0-9]+$") {
     Fail-Runner -Reason "VERZIJA_INVALID" -Detail $Verzija
 }
 
-$postupakPath = Join-Path $repoRoot (
-    "postupci\sud\prekrsajni\{0}\{1}\postupak.json" -f $Tok, $Verzija
-)
+$postupakRef = "postupci/sud/prekrsajni/$Tok/$Verzija/postupak.json"
+try {
+    $pathContext = New-VeritasPathContext `
+        -RepoRoot $repoRoot `
+        -PredmetId $PredmetId `
+        -DataRoot $DataRoot
+    $postupakSpec = Resolve-VeritasReference `
+        -PathRef $postupakRef `
+        -Context $pathContext `
+        -ExpectedScope Repository
+    $postupakPath = $postupakSpec.Path
+}
+catch {
+    Fail-Runner -Reason "PATH_CONTEXT_INVALID" -Detail $_.Exception.Message
+}
 if (-not (Test-Path -LiteralPath $postupakPath)) {
-    Fail-Runner -Reason "POSTUPAK_NOT_FOUND" -Detail $postupakPath
+    Fail-Runner -Reason "POSTUPAK_NOT_FOUND" -Detail $postupakRef
 }
 
-$postupak = Read-JsonDocument -Path $postupakPath -Name "postupak"
+$postupak = Read-JsonDocument `
+    -Path $postupakPath `
+    -Name "postupak" `
+    -Reference $postupakRef
 
 try {
-    $predmetRef = Expand-ProcedureReference -PathRef ([string]$postupak.ulazi.predmet_ref)
-    $auditRef = Expand-ProcedureReference -PathRef ([string]$postupak.ulazi.audit_ref)
-    $intakeRef = Expand-ProcedureReference -PathRef ([string]$postupak.ulazi.intake_ref)
-    $subsumcijaRef = Expand-ProcedureReference -PathRef ([string]$postupak.ulazi.subsumcija_ref)
-    $predlozakRef = Expand-ProcedureReference -PathRef ([string]$postupak.ulazi.predlozak_ref)
-    $outputRef = Expand-ProcedureReference -PathRef ([string]$postupak.izlazi.nacrt_ref)
+    $predmetSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.predmet_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $auditSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.audit_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $intakeSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.intake_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $subsumcijaSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.subsumcija_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $predlozakSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.predlozak_ref) `
+        -Context $pathContext `
+        -ExpectedScope Repository
+    $outputSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.izlazi.nacrt_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
 
-    $predmetPath = Resolve-RepoPath -PathRef $predmetRef
-    $auditPath = Resolve-RepoPath -PathRef $auditRef
-    $intakePath = Resolve-RepoPath -PathRef $intakeRef
-    $subsumcijaPath = Resolve-RepoPath -PathRef $subsumcijaRef
-    $predlozakPath = Resolve-RepoPath -PathRef $predlozakRef
-    $outputPath = Resolve-RepoPath -PathRef $outputRef
+    $predmetRef = $predmetSpec.Ref
+    $auditRef = $auditSpec.Ref
+    $intakeRef = $intakeSpec.Ref
+    $subsumcijaRef = $subsumcijaSpec.Ref
+    $predlozakRef = $predlozakSpec.Ref
+    $outputRef = $outputSpec.Ref
+    $predmetPath = $predmetSpec.Path
+    $auditPath = $auditSpec.Path
+    $intakePath = $intakeSpec.Path
+    $subsumcijaPath = $subsumcijaSpec.Path
+    $predlozakPath = $predlozakSpec.Path
+    $outputPath = $outputSpec.Path
 }
 catch {
     Fail-Runner -Reason "PROCEDURE_PATH_INVALID" -Detail $_.Exception.Message
-}
-
-$predmetRoot = Resolve-RepoPath -PathRef (
-    "predmeti/sud/prekrsajni/{0}" -f $PredmetId
-)
-$predmetPrefix = $predmetRoot.TrimEnd("\") + "\"
-foreach ($subjectPath in @($predmetPath, $auditPath, $intakePath, $subsumcijaPath, $outputPath)) {
-    if (-not $subjectPath.StartsWith(
-            $predmetPrefix,
-            [System.StringComparison]::OrdinalIgnoreCase
-        )) {
-        Fail-Runner -Reason "SUBJECT_PATH_OUTSIDE_PREDMET" -Detail $subjectPath
-    }
 }
 
 # Tvrdo pravilo "STOP bez izlaza" uključuje uklanjanje mogućeg zastarjelog
@@ -311,30 +296,45 @@ if (Test-Path -LiteralPath $outputPath) {
         }
     }
     if (-not $outputRemoved) {
-        Fail-Runner -Reason "STALE_OUTPUT_REMOVE_FAIL" -Detail $outputPath
+        Fail-Runner -Reason "STALE_OUTPUT_REMOVE_FAIL" -Detail $outputRef
     }
 }
 
 $requiredFiles = @(
-    [pscustomobject]@{ Name = "predmet"; Path = $predmetPath },
-    [pscustomobject]@{ Name = "audit"; Path = $auditPath },
-    [pscustomobject]@{ Name = "intake"; Path = $intakePath },
-    [pscustomobject]@{ Name = "subsumcija"; Path = $subsumcijaPath },
-    [pscustomobject]@{ Name = "predlozak"; Path = $predlozakPath }
+    [pscustomobject]@{ Name = "predmet"; Path = $predmetPath; Ref = $predmetRef },
+    [pscustomobject]@{ Name = "audit"; Path = $auditPath; Ref = $auditRef },
+    [pscustomobject]@{ Name = "intake"; Path = $intakePath; Ref = $intakeRef },
+    [pscustomobject]@{ Name = "subsumcija"; Path = $subsumcijaPath; Ref = $subsumcijaRef },
+    [pscustomobject]@{ Name = "predlozak"; Path = $predlozakPath; Ref = $predlozakRef }
 )
 foreach ($requiredFile in $requiredFiles) {
     if (-not (Test-Path -LiteralPath $requiredFile.Path)) {
         Stop-Runner `
             -Reason "missing.$($requiredFile.Name)" `
-            -Detail $requiredFile.Path
+            -Detail $requiredFile.Ref
     }
 }
 
-$predmet = Read-JsonDocument -Path $predmetPath -Name "predmet"
-$audit = Read-JsonDocument -Path $auditPath -Name "audit"
-$intake = Read-JsonDocument -Path $intakePath -Name "intake"
-$subsumcija = Read-JsonDocument -Path $subsumcijaPath -Name "subsumcija"
-$predlozak = Read-JsonDocument -Path $predlozakPath -Name "predlozak"
+$predmet = Read-JsonDocument -Path $predmetPath -Name "predmet" -Reference $predmetRef
+$audit = Read-JsonDocument -Path $auditPath -Name "audit" -Reference $auditRef
+$intake = Read-JsonDocument -Path $intakePath -Name "intake" -Reference $intakeRef
+$subsumcija = Read-JsonDocument `
+    -Path $subsumcijaPath `
+    -Name "subsumcija" `
+    -Reference $subsumcijaRef
+$predlozak = Read-JsonDocument `
+    -Path $predlozakPath `
+    -Name "predlozak" `
+    -Reference $predlozakRef
+
+$predmetProfile = Test-VeritasSubjectPrivacyEnvelope `
+    -Document $predmet `
+    -Context $pathContext
+if (-not $predmetProfile.Valid) {
+    Fail-Runner `
+        -Reason "PREDMET_PRIVACY_PROFILE_INVALID" `
+        -Detail ($predmetProfile.Errors -join ',')
+}
 
 Assert-Identity -Document $predmet -Name "predmet"
 Assert-Identity -Document $audit -Name "audit"
@@ -391,7 +391,11 @@ foreach ($requiredNormaRef in $requiredNormaRefs) {
     }
 
     try {
-        $normaPath = Resolve-RepoPath -PathRef $requiredNormaRef
+        $normaSpec = Resolve-VeritasReference `
+            -PathRef $requiredNormaRef `
+            -Context $pathContext `
+            -ExpectedScope Repository
+        $normaPath = $normaSpec.Path
     }
     catch {
         Stop-Runner -Reason "audit.nn_sidro_invalid" -Detail $requiredNormaRef
@@ -400,7 +404,10 @@ foreach ($requiredNormaRef in $requiredNormaRefs) {
         Stop-Runner -Reason "audit.nn_sidro_invalid" -Detail $requiredNormaRef
     }
 
-    $norma = Read-JsonDocument -Path $normaPath -Name "norma"
+    $norma = Read-JsonDocument `
+        -Path $normaPath `
+        -Name "norma" `
+        -Reference $requiredNormaRef
     $sidroStatus = ""
     if ($null -ne $norma.PSObject.Properties["izvori"] -and $null -ne $norma.izvori -and $null -ne $norma.izvori.PSObject.Properties["status_sidra"]) {
         $sidroStatus = [string]$norma.izvori.status_sidra
@@ -574,7 +581,13 @@ Set-Content -LiteralPath $outputPath -Value $content -Encoding utf8NoBOM
 Write-Host "NN_SIDRA_RESULT=OK COUNT=$($requiredNormaRefs.Count)"
 Write-Host "TEMPLATE_MAPPING_RESULT=OK FIELDS=$mappedFieldCount"
 Write-Host "RUNNER_RESULT=OK"
-Write-Host "OUTPUT_PATH=$outputPath"
+Write-Host "OUTPUT_REF=$outputRef"
+if ($pathContext.Mode -eq 'public') {
+    Write-Host "OUTPUT_PATH=$outputPath"
+}
+else {
+    Write-Host "OUTPUT_PATH_REDACTED=True"
+}
 Write-Host "OUTPUT_PREDLOZAK_ID=$([string]$predlozak.meta.id_predloska)"
 Write-Host "OUTPUT_AUDIT_REF=$auditRef"
 exit 0

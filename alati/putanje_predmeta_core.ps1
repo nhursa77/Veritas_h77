@@ -161,3 +161,76 @@ function Resolve-VeritasReference {
         Mode = [string]$Context.Mode
     }
 }
+
+function Test-VeritasSubjectPrivacyEnvelope {
+    param(
+        [Parameter(Mandatory = $true)] $Document,
+        [Parameter(Mandatory = $true)] $Context
+    )
+
+    $errors = [System.Collections.Generic.List[string]]::new()
+    $actualId = [string](
+        Get-VeritasNestedValue $Document @('meta', 'id_predmeta')
+    )
+    if ($actualId -ne [string]$Context.PredmetId) {
+        [void]$errors.Add('SUBJECT_ID_MISMATCH')
+    }
+
+    $actualType = [string](
+        Get-VeritasNestedValue $Document @('meta', 'vrsta')
+    )
+    $actualMode = [string](
+        Get-VeritasNestedValue $Document @('meta', 'rezim_podataka')
+    )
+    $classification = [string](
+        Get-VeritasNestedValue $Document @('privatnost', 'klasifikacija')
+    )
+    $containsPersonal = Get-VeritasNestedValue `
+        $Document `
+        @('privatnost', 'sadrzi_osobne_podatke')
+    $gitAllowed = Get-VeritasNestedValue `
+        $Document `
+        @('privatnost', 'dopusteno_git_pracenje')
+
+    $expected = if ($Context.Mode -eq 'local') {
+        [pscustomobject]@{
+            Type = 'stvarni'
+            DataMode = 'lokalni_povjerljivi'
+            Classification = 'LOKALNO_POVJERLJIVO'
+            ContainsPersonal = $true
+            GitAllowed = $false
+        }
+    }
+    else {
+        [pscustomobject]@{
+            Type = 'sinteticki'
+            DataMode = 'javni_sinteticki'
+            Classification = 'JAVNO_SINTETICKI'
+            ContainsPersonal = $false
+            GitAllowed = $true
+        }
+    }
+
+    if ($actualType -ne $expected.Type) {
+        [void]$errors.Add('SUBJECT_TYPE_MODE_MISMATCH')
+    }
+    if ($actualMode -ne $expected.DataMode) {
+        [void]$errors.Add('SUBJECT_DATA_MODE_MISMATCH')
+    }
+    if ($classification -ne $expected.Classification) {
+        [void]$errors.Add('SUBJECT_CLASSIFICATION_MISMATCH')
+    }
+    if ($containsPersonal -isnot [bool] -or
+        [bool]$containsPersonal -ne $expected.ContainsPersonal) {
+        [void]$errors.Add('SUBJECT_PERSONAL_DATA_FLAG_MISMATCH')
+    }
+    if ($gitAllowed -isnot [bool] -or
+        [bool]$gitAllowed -ne $expected.GitAllowed) {
+        [void]$errors.Add('SUBJECT_GIT_FLAG_MISMATCH')
+    }
+
+    return [pscustomobject]@{
+        Valid = $errors.Count -eq 0
+        Errors = [string[]]$errors.ToArray()
+    }
+}
