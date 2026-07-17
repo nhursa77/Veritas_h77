@@ -312,6 +312,11 @@ if ($null -ne $subsumcija.PSObject.Properties["elementi_bica"] -and $null -ne $s
 }
 
 foreach ($element in $subsumcijaElementi) {
+    if ($null -ne $element.PSObject.Properties["rezultat"]) {
+        Write-Host "ERROR: SUBSUMCIJA_LEGACY_REZULTAT_FIELD=$subsumcijaRef"
+        exit 1
+    }
+
     $status = ""
     if ($null -ne $element.PSObject.Properties["status"]) {
         $status = [string]$element.status

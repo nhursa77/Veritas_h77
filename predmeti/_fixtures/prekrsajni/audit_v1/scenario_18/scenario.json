@@ -21,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PRESUDA_ZALBA",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_ZEL_G1_OK_TOK_PRESUDA_ZALBA_18/cinjenica",
+        "dokaz_ref": "fixture/SCN_ZEL_G1_OK_TOK_PRESUDA_ZALBA_18/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },

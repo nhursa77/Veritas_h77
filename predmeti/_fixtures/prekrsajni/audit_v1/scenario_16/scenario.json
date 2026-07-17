@@ -6,7 +6,8 @@
       "id_predmeta": "OGLEDNI_PREDMET_0001",
       "tok": "TOK_PRESUDA_ZALBA",
       "verzija_toka": "v1",
-      "izvor_intake": "fixture"
+      "izvor_intake": "fixture",
+      "datum_izrade": ""
     },
     "cilj": "izdvajanje_dokaza",
     "osporavanja": [
@@ -20,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_PRESUDA_ZALBA",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_ZUT_G1_MISSING_TOK_PRESUDA_ZALBA_16/cinjenica",
+        "dokaz_ref": "fixture/SCN_ZUT_G1_MISSING_TOK_PRESUDA_ZALBA_16/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },

@@ -10,7 +10,9 @@
       "izvor_intake": "fixture"
     },
     "cilj": "izdvajanje_dokaza",
-    "osporavanja": ["dokaz"],
+    "osporavanja": [
+      "dokaz"
+    ],
     "opis_dogadaja": "Fixture red by contradiction.",
     "kontradikcije": {
       "ima_kontradikcija": true,
@@ -19,12 +21,19 @@
   },
   "subsumcija": {
     "meta": {
-      "id_predmeta": "OGLEDNI_PREDMET_0001"
+      "id_predmeta": "OGLEDNI_PREDMET_0001",
+      "tok": "TOK_RJESENJE_ZALBA",
+      "verzija_toka": "v1",
+      "datum_izrade": "20.02.2026.",
+      "izvor_subsumcije": "fixture"
     },
     "elementi_bica": [
       {
         "naziv_elementa": "Radnja",
-        "rezultat": "PROLAZ"
+        "cinjenica_ref": "fixture/SCN_CRV_G2_CONTRAD_07/cinjenica",
+        "dokaz_ref": "fixture/SCN_CRV_G2_CONTRAD_07/dokaz",
+        "obrazlozenje": "Sintetički fixture s potpunom činjenicom i dokazom.",
+        "status": "PROLAZ"
       }
     ]
   },
@@ -40,7 +49,16 @@
   },
   "expected": {
     "preflight": "CRVENO",
-    "required_nap": ["NAP-RED-BLOCKER", "NAP-SEM", "NAP-ODL"],
-    "forbidden_nap": ["NAP-YEL-WARNING", "NAP-GRN-OK", "NAP-G1-MISSING", "NAP-G1-LATE"]
+    "required_nap": [
+      "NAP-RED-BLOCKER",
+      "NAP-SEM",
+      "NAP-ODL"
+    ],
+    "forbidden_nap": [
+      "NAP-YEL-WARNING",
+      "NAP-GRN-OK",
+      "NAP-G1-MISSING",
+      "NAP-G1-LATE"
+    ]
   }
 }
