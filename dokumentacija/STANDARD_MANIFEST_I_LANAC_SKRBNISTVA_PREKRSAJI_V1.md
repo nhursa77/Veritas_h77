@@ -1,8 +1,8 @@
 # STANDARD — MANIFEST I LANAC SKRBNIŠTVA PREKRŠAJI (v1)
 
-Datum: 16.07.2026.
+Datum: 17.07.2026.
 Oznaka: STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1
-Status: KANON za P8 prvog sintetičkog toka
+Status: KANON za P8 prvog toka u javnom i lokalnom režimu
 
 ## 1. Svrha
 
@@ -23,8 +23,11 @@ V1 je funkcionalan samo za:
 
 - tok `TOK_PN_PRIGOVOR`;
 - verziju toka `v1`;
-- sintetički predmet;
+- javni sintetički ili lokalni povjerljivi predmet;
 - tekstualni P7 nacrt bez potpisa.
+
+Lokalni režim tehnički je dokazan isključivo sintetičkim sadržajem. Ovaj
+standard sam po sebi ne odobrava početak rada na stvarnom predmetu.
 
 Ostali prekršajni tokovi mogu imati strukturne reference, ali ne smiju dobiti
 P8 artefakte dok nemaju vlastiti dokazani P7 prolaz.
@@ -39,7 +42,17 @@ Postupak koji podržava P8 deklarira ove izlaze:
   `predmeti/sud/prekrsajni/{PREDMET_ID}/lanac_skrbnistva.json`.
 
 Oznaka `{PREDMET_ID}` razrješava se istim sigurnosnim pravilima kao P7
-reference. Apsolutna putanja i izlazak iz repozitorija nisu dopušteni.
+reference. Postupak, predložak i pravne norme uvijek se razrješavaju unutar
+repozitorija. Predmetni ulazi i izlazi razrješavaju se:
+
+- unutar repozitorija za javni sintetički režim;
+- pod odobrenim `VERITAS_LOCAL_DATA_ROOT` izvan repozitorija za lokalni
+  povjerljivi režim.
+
+Apsolutne reference, `..`, prelazak u drugi predmet i izlazak iz pripadnog
+korijena nisu dopušteni. Manifest i lanac spremaju samo kanonske relativne
+reference. Fizička lokalna putanja ne smije se spremiti u paket ni ispisati
+u izvršnom rezultatu.
 
 ## 4. Obavezni artefakti manifesta
 
@@ -130,7 +143,10 @@ ni jedan P8 izlaz ako vrijedi bilo što od sljedećeg:
 - identitet predmeta, intakea, subsumpcije ili audita nije usklađen;
 - audit je blokiran ili nema sva puna pravna sidra iz postupka;
 - P7 nacrt ne prolazi svoj validator;
-- putanja je apsolutna, nerazriješena ili izlazi iz repozitorija;
+- putanja je apsolutna, nerazriješena, prelazi u drugi predmet ili izlazi iz
+  pripadnog javnog odnosno lokalnog korijena;
+- identitet i privatnosni režim predmeta nisu usklađeni s odabranim
+  korijenom;
 - manifest ili lanac ne prolaze vlastitu shemu i strogu provjeru.
 
 Validator pri bilo kojoj nepodudarnosti također uklanja oba P8 izlaza. Time
@@ -151,7 +167,9 @@ P8 je `PROLAZ` samo ako:
 - strogi validator ponovno izračuna svaki hash, veličinu, korijenski sažetak
   i događajni hash-lanac;
 - identitet i popis artefakata odgovaraju aktivnom postupku;
-- nema stvarnih osobnih podataka ni potpisa;
+- javni paket nema stvarnih osobnih podataka, a lokalni paket ostaje izvan
+  Git praćenja i ne otkriva fizičku putanju;
+- nema potpisa ni samostalnog vanjskog slanja;
 - negativni testovi potvrde uklanjanje oba izlaza.
 
 Rezultat `P8_PROLAZ` znači samo da je paket spreman za ljudski pregled.

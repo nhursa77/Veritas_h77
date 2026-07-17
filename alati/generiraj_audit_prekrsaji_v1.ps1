@@ -8,7 +8,11 @@ param(
     [string] $Tok,
 
     [Parameter(Mandatory = $false)]
-    [string] $Verzija = "v1"
+    [string] $Verzija = "v1",
+
+    [Parameter(Mandatory = $false)]
+    [AllowEmptyString()]
+    [string] $DataRoot = ""
 )
 
 Set-StrictMode -Version Latest
@@ -18,6 +22,7 @@ chcp 65001 | Out-Null
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
+. (Join-Path $PSScriptRoot 'putanje_predmeta_core.ps1')
 
 if ($PredmetId -notmatch "^[A-Za-z0-9_-]+$") {
     Write-Host "ERROR: PREDMET_ID_INVALID=$PredmetId"
@@ -32,46 +37,25 @@ if ($Verzija -notmatch "^v[0-9]+$") {
     exit 1
 }
 
-function Resolve-RepoPath {
-    param(
-        [Parameter(Mandatory = $true)]
-        [string] $PathRef
-    )
-
-    $normalizedPath = $PathRef -replace "/", "\"
-    $resolvedPath = if ([System.IO.Path]::IsPathRooted($normalizedPath)) {
-        [System.IO.Path]::GetFullPath($normalizedPath)
-    }
-    else {
-        [System.IO.Path]::GetFullPath((Join-Path $repoRoot $normalizedPath))
-    }
-
-    $rootPrefix = [System.IO.Path]::GetFullPath($repoRoot).TrimEnd("\") + "\"
-    if (-not $resolvedPath.StartsWith($rootPrefix, [System.StringComparison]::OrdinalIgnoreCase)) {
-        throw "Putanja izlazi iz repozitorija: $PathRef"
-    }
-
-    return $resolvedPath
+$postupakRef = "postupci/sud/prekrsajni/$Tok/$Verzija/postupak.json"
+try {
+    $pathContext = New-VeritasPathContext `
+        -RepoRoot $repoRoot `
+        -PredmetId $PredmetId `
+        -DataRoot $DataRoot
+    $postupakSpec = Resolve-VeritasReference `
+        -PathRef $postupakRef `
+        -Context $pathContext `
+        -ExpectedScope Repository
+    $postupakPath = $postupakSpec.Path
 }
-
-$postupakPath = Join-Path $repoRoot ("postupci\sud\prekrsajni\{0}\{1}\postupak.json" -f $Tok, $Verzija)
-$intakePath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\intake\intake_v1.json" -f $PredmetId)
-$subsumcijaPath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\audit\subsumcija_v1.json" -f $PredmetId)
-$existingAuditPath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\audit\audit_v1.json" -f $PredmetId)
-$outputPath = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}\audit\audit_generated_v1.json" -f $PredmetId)
+catch {
+    Write-Host "ERROR: PATH_CONTEXT_INVALID=$($_.Exception.Message)"
+    exit 1
+}
 
 if (-not (Test-Path -LiteralPath $postupakPath)) {
-    Write-Host "ERROR: POSTUPAK_NOT_FOUND=$postupakPath"
-    exit 1
-}
-
-if (-not (Test-Path -LiteralPath $intakePath)) {
-    Write-Host "ERROR: INTAKE_NOT_FOUND=$intakePath"
-    exit 1
-}
-
-if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
-    Write-Host "ERROR: SUBSUMCIJA_NOT_FOUND=$subsumcijaPath"
+    Write-Host "ERROR: POSTUPAK_NOT_FOUND=$postupakRef"
     exit 1
 }
 
@@ -79,7 +63,58 @@ try {
     $postupak = Get-Content -LiteralPath $postupakPath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
-    Write-Host "ERROR: POSTUPAK_JSON_PARSE_FAIL=$postupakPath"
+    Write-Host "ERROR: POSTUPAK_JSON_PARSE_FAIL=$postupakRef"
+    exit 1
+}
+
+try {
+    $predmetSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.predmet_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $intakeSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.intake_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $subsumcijaSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.subsumcija_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $existingAuditSpec = Resolve-VeritasReference `
+        -PathRef "predmeti/sud/prekrsajni/{PREDMET_ID}/audit/audit_v1.json" `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $outputSpec = Resolve-VeritasReference `
+        -PathRef ([string]$postupak.ulazi.audit_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+
+    $predmetRef = $predmetSpec.Ref
+    $intakeRef = $intakeSpec.Ref
+    $subsumcijaRef = $subsumcijaSpec.Ref
+    $existingAuditRef = $existingAuditSpec.Ref
+    $outputRef = $outputSpec.Ref
+    $predmetPath = $predmetSpec.Path
+    $intakePath = $intakeSpec.Path
+    $subsumcijaPath = $subsumcijaSpec.Path
+    $existingAuditPath = $existingAuditSpec.Path
+    $outputPath = $outputSpec.Path
+}
+catch {
+    Write-Host "ERROR: PROCEDURE_PATH_INVALID=$($_.Exception.Message)"
+    exit 1
+}
+
+if (-not (Test-Path -LiteralPath $predmetPath)) {
+    Write-Host "ERROR: PREDMET_NOT_FOUND=$predmetRef"
+    exit 1
+}
+if (-not (Test-Path -LiteralPath $intakePath)) {
+    Write-Host "ERROR: INTAKE_NOT_FOUND=$intakeRef"
+    exit 1
+}
+if (-not (Test-Path -LiteralPath $subsumcijaPath)) {
+    Write-Host "ERROR: SUBSUMCIJA_NOT_FOUND=$subsumcijaRef"
     exit 1
 }
 
@@ -92,7 +127,11 @@ if ($null -ne $postupak.ulazi.PSObject.Properties["norma_refs"] -and $null -ne $
         }
 
         try {
-            $normaPath = Resolve-RepoPath -PathRef $normaRef
+            $normaSpec = Resolve-VeritasReference `
+                -PathRef $normaRef `
+                -Context $pathContext `
+                -ExpectedScope Repository
+            $normaPath = $normaSpec.Path
         }
         catch {
             Write-Host "ERROR: NORMA_REF_PATH_INVALID=$normaRef"
@@ -127,10 +166,30 @@ if ($null -ne $postupak.ulazi.PSObject.Properties["norma_refs"] -and $null -ne $
 }
 
 try {
+    $predmet = Get-Content -LiteralPath $predmetPath -Raw -Encoding UTF8 |
+        ConvertFrom-Json
+}
+catch {
+    Write-Host "ERROR: PREDMET_JSON_PARSE_FAIL=$predmetRef"
+    exit 1
+}
+
+$predmetProfile = Test-VeritasSubjectPrivacyEnvelope `
+    -Document $predmet `
+    -Context $pathContext
+if (-not $predmetProfile.Valid) {
+    Write-Host (
+        "ERROR: PREDMET_PRIVACY_PROFILE_INVALID=" +
+        ($predmetProfile.Errors -join ',')
+    )
+    exit 1
+}
+
+try {
     $intake = Get-Content -LiteralPath $intakePath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
-    Write-Host "ERROR: INTAKE_JSON_PARSE_FAIL=$intakePath"
+    Write-Host "ERROR: INTAKE_JSON_PARSE_FAIL=$intakeRef"
     exit 1
 }
 
@@ -138,7 +197,7 @@ try {
     $subsumcija = Get-Content -LiteralPath $subsumcijaPath -Raw -Encoding UTF8 | ConvertFrom-Json
 }
 catch {
-    Write-Host "ERROR: SUBSUMCIJA_JSON_PARSE_FAIL=$subsumcijaPath"
+    Write-Host "ERROR: SUBSUMCIJA_JSON_PARSE_FAIL=$subsumcijaRef"
     exit 1
 }
 
@@ -459,7 +518,7 @@ if (-not (Test-Path -LiteralPath $outputDir)) {
         New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
     }
     catch {
-        Write-Host "ERROR: OUTPUT_DIR_CREATE_FAIL=$outputDir"
+        Write-Host "ERROR: OUTPUT_DIR_CREATE_FAIL=$outputRef"
         exit 1
     }
 }
@@ -469,10 +528,16 @@ try {
     Set-Content -LiteralPath $outputPath -Value $json -Encoding utf8NoBOM
 }
 catch {
-    Write-Host "ERROR: OUTPUT_WRITE_FAIL=$outputPath"
+    Write-Host "ERROR: OUTPUT_WRITE_FAIL=$outputRef"
     exit 1
 }
 
 Write-Host "GEN_AUDIT_EXIT=0"
-Write-Host "AUDIT_GENERATED_PATH=$outputPath"
+Write-Host "AUDIT_GENERATED_REF=$outputRef"
+if ($pathContext.Mode -eq 'public') {
+    Write-Host "AUDIT_GENERATED_PATH=$outputPath"
+}
+else {
+    Write-Host "AUDIT_GENERATED_PATH_REDACTED=True"
+}
 exit 0

@@ -59,6 +59,9 @@ Priprema P9 je funkcionalno zatvorena:
 - pre-commit i CI provjeravaju stvarni Git indeks;
 - sintetički negativni testovi dokazuju blokadu osobnih identifikatora i
   prisilno dodane zabranjene putanje.
+- audit, P7 i P8 koriste zajedničko sigurno usmjeravanje predmetnih putanja;
+- sintetički lokalni E2E test dokazuje cijeli tok izvan repozitorija bez
+  otkrivanja fizičkog korijena i bez promjene Git stanja.
 
 Sljedeće po redu je zasebna ljudska odluka o početku prvog stvarnog predmeta.
 
@@ -317,6 +320,8 @@ Izvedeno u prvom funkcionalnom toku:
 - lanac skrbništva veže hash manifesta i dva događaja u zaseban hash-lanac
 - generator i validator pri blokadi uklanjaju oba P8 izlaza
 - pozitivni i tri negativna scenarija dio su punog `ci_smoke` toka
+- isti P8 ugovor podržava javni sintetički i lokalni povjerljivi korijen;
+  paket u oba režima čuva samo kanonske relativne reference
 
 Ulaz: dokazani P7 lanac prvog sintetičkog predmeta.
 Izlaz: `manifest.json` + `lanac_skrbnistva.json`.
@@ -331,6 +336,10 @@ Cilj: dokazati tok na jednom predmetu bez ručnog krpanja.
 Preduvjet: prije unošenja stvarnih podataka moraju biti uvedene puna shema
 predmeta i tehnička Git zaštita privatnosti. Bez tog zasebnog prolaza P9 se
 ne pokreće.
+
+Tehnički preduvjet dodatno je dokazan sintetičkim lokalnim E2E prolazom.
+Stvarni predmet još nije otvoren i za njegov početak ostaje potrebna zasebna
+ljudska odluka.
 
 Koraci:
 

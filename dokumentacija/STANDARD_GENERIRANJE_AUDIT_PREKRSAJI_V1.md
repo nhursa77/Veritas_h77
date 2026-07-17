@@ -27,6 +27,11 @@ Za P7 postupak može dodatno deklarirati `ulazi.norma_refs[]`. Generator
 svaku takvu referencu mora razriješiti unutar repozitorija, učitati kao JSON
 i potvrditi `izvori.status_sidra=puno`.
 
+Predmet, intake, subsumpcija i postojeći audit razrješavaju se unutar
+aktivnog predmeta. Javni sintetički predmet koristi korijen repozitorija, a
+lokalni povjerljivi predmet koristi izričito zadani podatkovni korijen izvan
+repozitorija. Režim se ne smije zaključivati samo iz varijable okoline.
+
 Ako neki obavezni ulaz nedostaje, generator mora STOP-ati (vidi točku 7).
 
 ## 3. Izlaz (obavezno)
@@ -34,6 +39,10 @@ Ako neki obavezni ulaz nedostaje, generator mora STOP-ati (vidi točku 7).
 Generator zapisuje:
 
 - `predmeti/.../audit/audit_generated_v1.json`
+
+To je kanonska logička referenca. Fizički se zapisuje unutar korijena
+odabranog režima. U lokalnom režimu generator ispisuje samo referencu i
+oznaku da je fizička putanja skrivena.
 
 Datoteka sadrži `meta`, `gate_stanje` i `nalazi[]` u formatu kompatibilnom s
 `SCHEMA_AUDIT_V1.json`.
@@ -157,6 +166,8 @@ Generator mora STOP-ati (exit != 0 u alatu) u sljedećim slučajevima:
 - izlaz se ne može zapisati na predviđenu putanju
 - deklarirani `norma_ref` ne postoji, nije valjan JSON ili nema status
   sidra `puno`
+- predmetni identitet ili privatnosni režim nisu usklađeni s korijenom
+- referenca prelazi u drugi predmet ili izlazi iz pripadnog korijena
 
 ## 8. Neizmjenjivost ulaza i reproducibilnost
 

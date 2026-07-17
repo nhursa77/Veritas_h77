@@ -26,6 +26,7 @@ $p8TestScript = Join-Path $PSScriptRoot "test_p8_manifest_lanac_v1.ps1"
 $privacyRepoGateScript = Join-Path $PSScriptRoot "provjeri_privatnost_repozitorija_v1.ps1"
 $predmetValidatorScript = Join-Path $PSScriptRoot "validiraj_predmet_prekrsaji_v1.ps1"
 $p9PrivacyTestScript = Join-Path $PSScriptRoot "test_p9_privatnost_v1.ps1"
+$p9LocalE2ETestScript = Join-Path $PSScriptRoot "test_p9_lokalni_e2e_v1.ps1"
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -223,6 +224,11 @@ try {
         [pscustomobject]@{
             Name = "test_p9_privacy_v1"
             Action = { & $p9PrivacyTestScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "test_p9_lokalni_e2e_v1"
+            Action = { & $p9LocalE2ETestScript }
             Enabled = $true
         },
         [pscustomobject]@{

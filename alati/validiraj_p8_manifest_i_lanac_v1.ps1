@@ -8,7 +8,11 @@ param(
     [string] $Tok = "TOK_PN_PRIGOVOR",
 
     [Parameter(Mandatory = $false)]
-    [string] $Verzija = "v1"
+    [string] $Verzija = "v1",
+
+    [Parameter(Mandatory = $false)]
+    [AllowEmptyString()]
+    [string] $DataRoot = ""
 )
 
 Set-StrictMode -Version Latest
@@ -21,6 +25,7 @@ $OutputEncoding = [System.Text.Encoding]::UTF8
 
 $repoRoot = Split-Path -Path $PSScriptRoot -Parent
 $cleanupPaths = [System.Collections.Generic.List[string]]::new()
+$pathContext = $null
 
 function Add-P8ValidationCleanupPath {
     param([string] $Path)
@@ -48,17 +53,21 @@ try {
         throw "PREDMET_ID_FORMAT_INVALID"
     }
 
-    $manifestResolved = Resolve-P8RepoReference `
+    $pathContext = New-VeritasPathContext `
         -RepoRoot $repoRoot `
+        -PredmetId $PredmetId `
+        -DataRoot $DataRoot
+    $manifestResolved = Resolve-P8Reference `
         -PathRef "predmeti/sud/prekrsajni/{PREDMET_ID}/manifest.json" `
-        -PredmetId $PredmetId
-    $chainResolved = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $chainResolved = Resolve-P8Reference `
         -PathRef (
             "predmeti/sud/prekrsajni/{PREDMET_ID}/" +
             "lanac_skrbnistva.json"
         ) `
-        -PredmetId $PredmetId
+        -Context $pathContext `
+        -ExpectedScope Subject
     Add-P8ValidationCleanupPath -Path $manifestResolved.Path
     Add-P8ValidationCleanupPath -Path $chainResolved.Path
     Add-P8ValidationCleanupPath -Path ($manifestResolved.Path + ".tmp")
@@ -69,22 +78,30 @@ try {
     }
 
     $procedureRef = "postupci/sud/prekrsajni/$Tok/$Verzija/postupak.json"
-    $procedureResolved = Resolve-P8RepoReference `
-        -RepoRoot $repoRoot `
+    $procedureResolved = Resolve-P8Reference `
         -PathRef $procedureRef `
-        -PredmetId $PredmetId
-    $procedure = Read-P8Json -Path $procedureResolved.Path -Name "postupak"
+        -Context $pathContext `
+        -ExpectedScope Repository
+    $procedure = Read-P8Json `
+        -Path $procedureResolved.Path `
+        -Name "postupak" `
+        -Reference $procedureResolved.Ref
     $expected = Get-P8ExpectedArtifacts `
         -Procedure $procedure `
         -ProcedureRef $procedureResolved.Ref `
-        -RepoRoot $repoRoot `
-        -PredmetId $PredmetId
+        -Context $pathContext
     if ($expected.Count -ne 10) {
         throw "P8_ARTIFACT_COUNT_INVALID"
     }
 
-    $manifest = Read-P8Json -Path $manifestResolved.Path -Name "manifest"
-    $chain = Read-P8Json -Path $chainResolved.Path -Name "lanac skrbništva"
+    $manifest = Read-P8Json `
+        -Path $manifestResolved.Path `
+        -Name "manifest" `
+        -Reference $manifestResolved.Ref
+    $chain = Read-P8Json `
+        -Path $chainResolved.Path `
+        -Name "lanac skrbništva" `
+        -Reference $chainResolved.Ref
 
     $schemaValidator = Join-Path $PSScriptRoot "validiraj_json_po_shemi_v1.ps1"
     $schemaChecks = @(
@@ -130,7 +147,13 @@ try {
     Assert-P8Equal $manifest.meta.verzija_toka $Verzija (
         "P8_MANIFEST_VERSION_MISMATCH"
     )
-    Assert-P8Equal $manifest.meta.vrsta_predmeta "sinteticki" (
+    $expectedSubjectType = if ($pathContext.Mode -eq 'local') {
+        'stvarni'
+    }
+    else {
+        'sinteticki'
+    }
+    Assert-P8Equal $manifest.meta.vrsta_predmeta $expectedSubjectType (
         "P8_MANIFEST_SUBJECT_TYPE_MISMATCH"
     )
     Assert-P8Equal $manifest.meta.algoritam_sazetka "SHA-256" (
@@ -284,6 +307,8 @@ try {
 catch {
     Remove-P8PackageFiles -Paths @($cleanupPaths)
     Write-Host "P8_VALIDATOR_RESULT=STOP"
-    Write-Host "STOP_REASON=$($_.Exception.Message)"
+    Write-Host "STOP_REASON=$(Get-P8SafeErrorDetail `
+        -Message $_.Exception.Message `
+        -Context $pathContext)"
     exit 1
 }

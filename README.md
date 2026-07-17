@@ -112,6 +112,12 @@ Stvarni predmet, dokazi i izlazi ne smiju se kopirati u Git repozitorij.
 Prije prvog stvarnog predmeta mora biti aktivan P9 pre-commit čuvar, a puni
 CI gate privatnosti mora prolaziti.
 
+Audit, P7 runner te P8 generator i validator primaju lokalni korijen samo
+izričitim parametrom `-DataRoot`. Kanonske reference ostaju iste u oba
+režima. Lokalna fizička putanja ne zapisuje se u manifest, lanac ni izvršni
+ispis. Test `alati/test_p9_lokalni_e2e_v1.ps1` to dokazuje sintetičkim
+sadržajem izvan repozitorija; ne pokreće stvarni predmet.
+
 ### Pipeline modula M0–M9 (bez preskakanja)
 
 Svaki modul mora završiti sa statusom `PROLAZ`, `NEPROLAZ` ili `N/A`

@@ -91,3 +91,14 @@ Blokirani rezultat mora vratiti `RUNNER_RESULT=STOP` i dokazni
 `STOP_REASON`, bez stvaranja nacrta. Ako na ciljnoj putanji postoji nacrt iz
 ranijeg prolaza, runner ga mora ukloniti prije provjere trenutačnih ulaza kako
 zastarjeli izlaz ne bi preživio blokadu.
+
+## 6. Režim pohrane i privatnost
+
+Predmetni ulazi i nacrt moraju ostati unutar istog predmetnog korijena.
+Javni sintetički režim koristi repozitorij, a lokalni povjerljivi režim koristi
+izričito zadani podatkovni korijen izvan repozitorija. Postupak, predložak i
+pravne norme ostaju u repozitoriju.
+
+Runner mora blokirati apsolutnu referencu, `..`, prelazak u drugi predmet i
+neusklađen privatnosni režim. U lokalnom režimu ne smije ispisati fizičku
+putanju nacrta, nego samo kanonsku referencu i oznaku da je putanja skrivena.

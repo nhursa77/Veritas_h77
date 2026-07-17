@@ -6387,3 +6387,61 @@ Dokazne naredbe:
 
 - `git -c core.quotepath=false diff --name-only main`
 - `git diff --unified=0 -- dokumentacija/DNEVNIK_RADA.md`
+
+## Datum: 17.07.2026 (ZADATAK 177)
+
+### ZADATAK 177 - Vanjski predmetni runtime sa sintetičkim E2E dokazom
+
+Uvedeno je zajedničko sigurno usmjeravanje predmetnih putanja. Javni sintetički
+predmet ostaje u repozitoriju, lokalni povjerljivi predmet ide pod izričito
+zadani vanjski korijen, a postupak, predložak i pravne norme ostaju u
+repozitoriju.
+
+Audit, P7 nacrt, P8 manifest i lanac skrbništva sada rade u oba režima.
+Apsolutne reference, izlazak s dvije točke i prelazak u drugi predmet tvrdo su
+blokirani. Lokalni ispisi i dokazni paket ne otkrivaju fizičku putanju.
+
+Novi E2E test koristi isključivo sintetički sadržaj u privremenoj mapi izvan
+repozitorija. Dokazuje strogu validaciju, četiri vanjska izlaza, kanonske
+reference, potpuno čišćenje i nepromijenjeno Git stanje. Stvarni predmet nije
+otvoren.
+
+Puni kontrolni tok prošao je s CI_SMOKE_EXIT=0, uključujući privatnosni gate,
+svih 24 audit fixturea, P7, P8, novi lokalni E2E i svih 179 Markdown datoteka.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `alati/ci_smoke.ps1`
+- `alati/generiraj_audit_prekrsaji_v1.ps1`
+- `alati/generiraj_p8_manifest_i_lanac_v1.ps1`
+- `alati/p8_dokazni_paket_core.ps1`
+- `alati/putanje_predmeta_core.ps1`
+- `alati/run_tok_v1.ps1`
+- `alati/test_p9_lokalni_e2e_v1.ps1`
+- `alati/test_putanje_predmeta_v1.ps1`
+- `alati/validiraj_p8_manifest_i_lanac_v1.ps1`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/sheme/SCHEMA_MANIFEST_PREKRSAJI_V1.json`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_putanje_predmeta_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_lokalni_e2e_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_fixtures_audit_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\test_run_tok_p7_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p8_manifest_lanac_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`
