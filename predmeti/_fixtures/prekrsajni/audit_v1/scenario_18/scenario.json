@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZEL_G1_OK_TOK_PRESUDA_ZALBA_18",
   "tok": "TOK_PRESUDA_ZALBA",
+  "predmet_datum_dostave": "10.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

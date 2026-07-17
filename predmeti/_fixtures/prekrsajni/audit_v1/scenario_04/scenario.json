@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZUT_G1_MISSING_04",
   "tok": "TOK_OBUSTAVA",
+  "predmet_datum_dostave": null,
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

@@ -1,6 +1,6 @@
 # STANDARD — GENERIRANJE AUDIT (PREKRŠAJI) v1
 
-Datum: 22.02.2026.  
+Datum: 17.07.2026.
 Oznaka: STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1  
 Status: KANON (obavezno za P6)
 
@@ -15,13 +15,14 @@ novi artefakt `audit_generated_v1.json`.
 
 ## 2. Ulazi
 
-Generator čita tri obavezna ulaza:
+Generator čita četiri obavezna ulaza:
 
-1) `intake_v1.json` (Gate 2 ulaz)
-2) `subsumcija_v1.json` (elementi bića / provjere)
-3) `postupak.json` (tok + meta)
+1) `predmet.json` (identitet akta i datum dostave)
+2) `intake_v1.json` (Gate 2 ulaz)
+3) `subsumcija_v1.json` (elementi bića / provjere)
+4) `postupak.json` (tok + meta)
 
-Postojeći `audit_v1.json` opcionalni je četvrti ulaz. Ako postoji, služi kao
+Postojeći `audit_v1.json` opcionalni je peti ulaz. Ako postoji, služi kao
 kontekst za provjeru postojeće kolizije i referentni datum G1. Generator ga
 ne mijenja i ne smije ga zahtijevati kada kanonska subsumpcija sama dokazuje
 G3.
@@ -106,7 +107,7 @@ Pravila G1 (soft u v1):
 
 Kanonska formula G1 roka (v1):
 
-- trigger datum (`g1.start_date`) je `intake.meta.datum_izrade`
+- trigger datum (`g1.start_date`) je `predmet.akt.datum_dostave`
 - rok je `8` kalendarskih dana
 - `g1.due_date = g1.start_date + 8 dana`
 - referentni datum za usporedbu:
@@ -139,6 +140,16 @@ U izlazu je opcionalan `g1` blok sa strukturom:
 
 G1 warning i dalje postavlja samo ŽUTO kada nema blockera.
 
+Za `TOK_PN_PRIGOVOR` generator mora popuniti preporučeni pravni lijek:
+
+- naziv i tijelo kojem se prigovor podnosi
+- rok od osam dana od dostave prekršajnog naloga
+- uvjetni učinak pravodobnog prigovora ovlaštene osobe
+- puna sidra članaka 235. i 236. Prekršajnog zakona
+
+Generator ne smije preporuku izvesti bez oba puna sidra. Polje `rokovi[]`
+popunjava se samo kada su početak i istek roka izračunljivi.
+
 Svaki nalaz mora imati: `kod`, `opis`, `tezina`, `posljedica`, `norma_ref`
 (ako nije primjenjivo u v1, `norma_ref` je prazan string).
 
@@ -165,9 +176,11 @@ Generator mora postaviti:
 Generator mora STOP-ati (exit != 0 u alatu) u sljedećim slučajevima:
 
 - nedostaje `intake_v1.json`
+- nedostaje `predmet.json`
 - nedostaje `subsumcija_v1.json`
 - nedostaje `postupak.json`
 - `intake_v1.json` nije validan JSON ili ne prolazi `SCHEMA_INTAKE...`
+- `predmet.json` nije validan JSON ili ne prolazi `SCHEMA_PREDMET...`
 - `subsumcija_v1.json` nije validan JSON ili ne prolazi `SCHEMA_SUBSUMPCIJA...`
 - subsumpcijski element sadrži nekanonsko polje `rezultat`
 - izlaz se ne može zapisati na predviđenu putanju
@@ -202,6 +215,7 @@ Svaki scenarij mora sadržavati:
 - `id` (kanonski scenario_id)
 - opcionalni `naziv`
 - `tok`
+- `predmet_datum_dostave` kao datum ili `null`
 - ulaze: `intake`, `subsumcija`, opcionalni `audit_v1`
 - `subsumcija` koja sadrži sva polja iz `SCHEMA_SUBSUMPCIJA_V1.json` i
   koristi isključivo `status`
@@ -226,7 +240,9 @@ Primjeri:
 Fixtures runner mora za svaki scenarij provjeriti:
 
 - podudarnost semafora (`NAP-SEM` → `preflight=`)
+- podudarnost `g1.start_date` s `predmet_datum_dostave`
 - podudarnost `g1.status` kada je definiran u expected
+- potpun pravni lijek i sidra članaka 235. i 236. za prigovor
 - prisutnost svih kodova iz `expected.nap.must_include[]`
 - odsutnost svih kodova iz `expected.nap.must_not_include[]`
 

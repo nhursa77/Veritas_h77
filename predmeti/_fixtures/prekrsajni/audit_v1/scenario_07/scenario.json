@@ -1,6 +1,7 @@
 {
   "id": "SCN_CRV_G2_CONTRAD_07",
   "tok": "TOK_RJESENJE_ZALBA",
+  "predmet_datum_dostave": "21.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

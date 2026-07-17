@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZUT_G1_MISSING_TOK_PRESUDA_ZALBA_16",
   "tok": "TOK_PRESUDA_ZALBA",
+  "predmet_datum_dostave": null,
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

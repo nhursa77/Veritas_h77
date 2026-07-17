@@ -12,6 +12,7 @@ $generatorScript = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
 
 $predmetId = "OGLEDNI_PREDMET_0001"
 $runtimeRoot = Join-Path $repoRoot ("predmeti\sud\prekrsajni\{0}" -f $predmetId)
+$runtimePredmetPath = Join-Path $runtimeRoot "predmet.json"
 $runtimeIntakePath = Join-Path $runtimeRoot "intake\intake_v1.json"
 $runtimeSubsumcijaPath = Join-Path $runtimeRoot "audit\subsumcija_v1.json"
 $runtimeAuditV1Path = Join-Path $runtimeRoot "audit\audit_v1.json"
@@ -106,9 +107,18 @@ function Restore-File {
     }
 }
 
+$backupPredmet = Backup-File -Path $runtimePredmetPath
 $backupIntake = Backup-File -Path $runtimeIntakePath
 $backupSubsumcija = Backup-File -Path $runtimeSubsumcijaPath
 $backupAuditV1 = Backup-File -Path $runtimeAuditV1Path
+
+if (-not $backupPredmet.Exists) {
+    Write-Host "ERROR: RUNTIME_PREDMET_NOT_FOUND=$runtimePredmetPath"
+    Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+    exit 1
+}
+
+$predmetTemplateRaw = Get-Content -LiteralPath $runtimePredmetPath -Raw -Encoding UTF8
 
 try {
     foreach ($scenarioFile in $scenarioFiles) {
@@ -124,7 +134,10 @@ try {
 
         Write-Host "FIXTURE_SCENARIO_BEGIN=$scenarioId"
 
-        if ($null -eq $scenario.intake -or $null -eq $scenario.subsumcija -or $null -eq $scenario.expected) {
+        if ($null -eq $scenario.intake -or
+            $null -eq $scenario.subsumcija -or
+            $null -eq $scenario.expected -or
+            $null -eq $scenario.PSObject.Properties["predmet_datum_dostave"]) {
             Write-Host "ERROR: SCENARIO_STRUCTURE_INVALID id=$scenarioId"
             Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
             exit 1
@@ -137,6 +150,9 @@ try {
 
         $intakeJson = $scenario.intake | ConvertTo-Json -Depth 20
         $subsumcijaJson = $scenario.subsumcija | ConvertTo-Json -Depth 20
+        $predmet = $predmetTemplateRaw | ConvertFrom-Json
+        $predmet.akt.datum_dostave = $scenario.predmet_datum_dostave
+        $predmetJson = $predmet | ConvertTo-Json -Depth 20
 
         $runtimeIntakeDir = Split-Path -Path $runtimeIntakePath -Parent
         $runtimeAuditDir = Split-Path -Path $runtimeSubsumcijaPath -Parent
@@ -147,6 +163,7 @@ try {
             New-Item -ItemType Directory -Path $runtimeAuditDir -Force | Out-Null
         }
 
+        Set-Utf8FileWithRetry -Path $runtimePredmetPath -Content $predmetJson
         Set-Utf8FileWithRetry -Path $runtimeIntakePath -Content $intakeJson
         Set-Utf8FileWithRetry -Path $runtimeSubsumcijaPath -Content $subsumcijaJson
 
@@ -189,6 +206,50 @@ try {
 
         $generated = $generatedRaw | ConvertFrom-Json
         $generatedCodes = @($generated.nalazi | ForEach-Object { [string]$_.kod })
+
+        $expectedG1Start = [string]$scenario.predmet_datum_dostave
+        $actualG1Start = [string]$generated.g1.start_date
+        if ($actualG1Start -ne $expectedG1Start) {
+            Write-Host (
+                "ERROR: G1_START_MISMATCH scenario=$scenarioId " +
+                "expected=$expectedG1Start actual=$actualG1Start"
+            )
+            Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+            exit 1
+        }
+
+        if ($tok -eq "TOK_PN_PRIGOVOR") {
+            $remedy = $generated.preporuceni_pravni_lijek
+            $requiredRemedyValues = @(
+                [string]$remedy.naziv,
+                [string]$remedy.kome,
+                [string]$remedy.rok,
+                [string]$remedy.ucinak
+            )
+            if (@($requiredRemedyValues | Where-Object {
+                        [string]::IsNullOrWhiteSpace($_)
+                    }).Count -gt 0) {
+                Write-Host "ERROR: PRAVNI_LIJEK_INCOMPLETE scenario=$scenarioId"
+                Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+                exit 1
+            }
+
+            $expectedRemedyRefs = @(
+                "baza_zakona/norme/prekrsajni_zakon_procisceni/clanak_0235.json",
+                "baza_zakona/norme/prekrsajni_zakon_procisceni/clanak_0236.json"
+            )
+            $actualRemedyRefs = @($remedy.izvor_norme_refs | Sort-Object)
+            $remedyRefDifference = @(
+                Compare-Object `
+                    -ReferenceObject @($expectedRemedyRefs | Sort-Object) `
+                    -DifferenceObject $actualRemedyRefs
+            )
+            if ($remedyRefDifference.Count -gt 0) {
+                Write-Host "ERROR: PRAVNI_LIJEK_REFS_MISMATCH scenario=$scenarioId"
+                Write-Host "FIXTURES_AUDIT_V1_EXIT=1"
+                exit 1
+            }
+        }
 
         $expectedG1Status = ""
         if ($null -ne $scenario.expected.PSObject.Properties["g1"] -and $null -ne $scenario.expected.g1 -and $null -ne $scenario.expected.g1.PSObject.Properties["status"]) {
@@ -281,6 +342,7 @@ try {
     exit 0
 }
 finally {
+    Restore-File -Path $runtimePredmetPath -Backup $backupPredmet
     Restore-File -Path $runtimeIntakePath -Backup $backupIntake
     Restore-File -Path $runtimeSubsumcijaPath -Backup $backupSubsumcija
     Restore-File -Path $runtimeAuditV1Path -Backup $backupAuditV1

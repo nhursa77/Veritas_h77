@@ -124,6 +124,12 @@ $schemaValidatorPath = Join-Path `
 $schemaRoot = Join-Path $repoRoot "dokumentacija\sheme"
 $inputSchemaChecks = @(
     [pscustomobject]@{
+        Name = "PREDMET"
+        Path = $predmetPath
+        Ref = $predmetRef
+        Schema = "SCHEMA_PREDMET_PREKRSAJI_V1.json"
+    },
+    [pscustomobject]@{
         Name = "INTAKE"
         Path = $intakePath
         Ref = $intakeRef
@@ -330,8 +336,11 @@ foreach ($element in $subsumcijaElementi) {
 
 $g1Days = 8
 $g1StartDate = $null
-if ($null -ne $intake.PSObject.Properties["meta"] -and $null -ne $intake.meta -and $null -ne $intake.meta.PSObject.Properties["datum_izrade"]) {
-    $g1StartDate = ConvertTo-VeritasDate -Raw ([string]$intake.meta.datum_izrade)
+if ($null -ne $predmet.PSObject.Properties["akt"] -and
+    $null -ne $predmet.akt -and
+    $null -ne $predmet.akt.PSObject.Properties["datum_dostave"]) {
+    $g1StartDate = ConvertTo-VeritasDate `
+        -Raw ([string]$predmet.akt.datum_dostave)
 }
 
 $g1ReferenceDate = $null
@@ -356,7 +365,10 @@ $g1Note = ""
 
 if ($null -eq $g1StartDate) {
     $g1Status = "MISSING"
-    $g1Note = "Nedostaje trigger datum intake.meta.datum_izrade; rok nije izračunljiv."
+    $g1Note = (
+        "Nedostaje datum dostave iz predmet.akt.datum_dostave; " +
+        "rok nije izračunljiv."
+    )
 }
 else {
     $g1DueDate = $g1StartDate.AddDays($g1Days)
@@ -522,6 +534,59 @@ foreach ($normaSidro in $normaSidra) {
 }
 
 $datumIzrade = (Get-Date).ToString("dd.MM.yyyy.")
+$clanak235Ref = (
+    "baza_zakona/norme/prekrsajni_zakon_procisceni/" +
+    "clanak_0235.json"
+)
+$clanak236Ref = (
+    "baza_zakona/norme/prekrsajni_zakon_procisceni/" +
+    "clanak_0236.json"
+)
+$rokovi = @()
+$preporuceniPravniLijek = [ordered]@{
+    naziv = ""
+    kome = ""
+    rok = ""
+    ucinak = ""
+    izvor_norme_refs = @()
+}
+
+if ($Tok -eq "TOK_PN_PRIGOVOR") {
+    foreach ($requiredRemedyRef in @($clanak235Ref, $clanak236Ref)) {
+        if ($normaSidra -notcontains $requiredRemedyRef) {
+            Write-Host "ERROR: PRAVNI_LIJEK_NORMA_MISSING=$requiredRemedyRef"
+            exit 1
+        }
+    }
+
+    $izdavatelj = [string]$predmet.akt.tijelo
+    if ([string]::IsNullOrWhiteSpace($izdavatelj)) {
+        Write-Host "ERROR: PRAVNI_LIJEK_IZDAVATELJ_MISSING=$predmetRef"
+        exit 1
+    }
+
+    $preporuceniPravniLijek = [ordered]@{
+        naziv = "Prigovor protiv prekršajnog naloga"
+        kome = "$izdavatelj kao izdavatelju prekršajnog naloga"
+        rok = "8 dana od dostave prekršajnog naloga"
+        ucinak = (
+            "Pravodobno podnesen prigovor ovlaštene osobe odgađa " +
+            "izvršenje prekršajnog naloga."
+        )
+        izvor_norme_refs = @($clanak235Ref, $clanak236Ref)
+    }
+
+    if ($null -ne $g1StartDate -and $null -ne $g1DueDate) {
+        $rokovi = @(
+            [ordered]@{
+                naziv = "Rok za prigovor protiv prekršajnog naloga"
+                pocetak = ConvertTo-VeritasDateString -Value $g1StartDate
+                istek = ConvertTo-VeritasDateString -Value $g1DueDate
+                izvor_norme_ref = $clanak235Ref
+            }
+        )
+    }
+}
 
 $doc = [ordered]@{
     meta = [ordered]@{
@@ -542,13 +607,8 @@ $doc = [ordered]@{
     )
     nalazi = $nalazi
     g1 = $g1
-    rokovi = @()
-    preporuceni_pravni_lijek = [ordered]@{
-        naziv = ""
-        kome = ""
-        rok = ""
-        ucinak = ""
-    }
+    rokovi = $rokovi
+    preporuceni_pravni_lijek = $preporuceniPravniLijek
     gate_stanje = [ordered]@{
         blocked = $blocked
         blocked_razlog = $blockedReason

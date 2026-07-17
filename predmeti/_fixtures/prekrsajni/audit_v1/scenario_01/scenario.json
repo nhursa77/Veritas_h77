@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZEL_CLEAN_01",
   "tok": "TOK_PN_PRIGOVOR",
+  "predmet_datum_dostave": "20.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",
