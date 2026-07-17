@@ -40,18 +40,11 @@ $draftPath = Join-Path $subjectRoot (
 $manifestPath = Join-Path $subjectRoot 'manifest.json'
 $chainPath = Join-Path $subjectRoot 'lanac_skrbnistva.json'
 
-$predmetValidator = Join-Path $PSScriptRoot (
-    'validiraj_predmet_prekrsaji_v1.ps1'
+$initializer = Join-Path $PSScriptRoot (
+    'inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1'
 )
-$auditGenerator = Join-Path $PSScriptRoot (
-    'generiraj_audit_prekrsaji_v1.ps1'
-)
-$p7Runner = Join-Path $PSScriptRoot 'run_tok_v1.ps1'
-$p8Generator = Join-Path $PSScriptRoot (
-    'generiraj_p8_manifest_i_lanac_v1.ps1'
-)
-$p8Validator = Join-Path $PSScriptRoot (
-    'validiraj_p8_manifest_i_lanac_v1.ps1'
+$localRunner = Join-Path $PSScriptRoot (
+    'pokreni_lokalni_tok_p9_v1.ps1'
 )
 
 function Assert-LocalE2E {
@@ -130,6 +123,10 @@ function Remove-LocalE2ETempRoot {
 }
 
 $gitBefore = @(git status --porcelain=v1 --untracked-files=all)
+$hookBeforeOutput = @(git config --local --get core.hooksPath 2>$null)
+$hookBeforeExit = $LASTEXITCODE
+$hookBefore = ($hookBeforeOutput | ForEach-Object { [string]$_ }) -join ''
+$hookChanged = $false
 $testSucceeded = $false
 $failureMessage = ''
 $cleanupSucceeded = $false
@@ -144,14 +141,64 @@ try {
         -Condition (-not (Test-Path -LiteralPath $repoSubjectRoot)) `
         -Reason 'Testni lokalni predmet već postoji u repozitoriju'
 
-    foreach ($directory in @(
-            $subjectRoot,
-            (Join-Path $subjectRoot 'intake'),
-            (Join-Path $subjectRoot 'audit'),
-            (Join-Path $subjectRoot 'dokazi'),
-            (Join-Path $subjectRoot 'izlazi')
+    if ($hookBefore -ne '.githooks') {
+        & git config --local core.hooksPath .githooks
+        Assert-LocalE2E `
+            -Condition ($LASTEXITCODE -eq 0) `
+            -Reason 'Test nije uspio privremeno aktivirati privatnosni hook'
+        $hookChanged = $true
+    }
+
+    $initResult = Invoke-LocalE2EScript `
+        -ScriptPath $initializer `
+        -Arguments @(
+            '-DataRoot', $tempRoot,
+            '-PredmetId', $predmetId,
+            '-Tok', $tok,
+            '-Verzija', $verzija
+        )
+    Assert-LocalE2EResult `
+        -Result $initResult `
+        -Marker 'P9_INIT_STATE=NEPOPUNJEN' `
+        -Name 'Sigurni inicijalizator lokalnog predmeta'
+
+    foreach ($stalePath in @(
+            $auditGeneratedPath,
+            $draftPath,
+            $manifestPath,
+            $chainPath
         )) {
-        [void](New-Item -ItemType Directory -Path $directory -Force)
+        Set-Content `
+            -LiteralPath $stalePath `
+            -Value 'STALE_P9_OUTPUT' `
+            -Encoding utf8NoBOM
+    }
+    $incompleteResult = Invoke-LocalE2EScript `
+        -ScriptPath $localRunner `
+        -Arguments @(
+            '-DataRoot', $tempRoot,
+            '-PredmetId', $predmetId,
+            '-Tok', $tok,
+            '-Verzija', $verzija
+        )
+    Assert-LocalE2EResult `
+        -Result $incompleteResult `
+        -Marker 'P9_RUN_RESULT=STOP' `
+        -Name 'Blokada nepopunjenog lokalnog predmeta'
+    Assert-LocalE2E `
+        -Condition $incompleteResult.Text.Contains(
+            'P9_RUN_ARTIFACT_COUNT=0'
+        ) `
+        -Reason 'Blokirani lokalni tok nema nulti broj artefakata'
+    foreach ($stalePath in @(
+            $auditGeneratedPath,
+            $draftPath,
+            $manifestPath,
+            $chainPath
+        )) {
+        Assert-LocalE2E `
+            -Condition (-not (Test-Path -LiteralPath $stalePath)) `
+            -Reason 'Blokirani tok nije uklonio zastarjeli izlaz'
     }
 
     $copies = @(
@@ -173,7 +220,10 @@ try {
         }
     )
     foreach ($copy in $copies) {
-        Copy-Item -LiteralPath $copy.Source -Destination $copy.Target
+        Copy-Item `
+            -LiteralPath $copy.Source `
+            -Destination $copy.Target `
+            -Force
     }
 
     $predmet = Get-Content -LiteralPath $predmetPath -Raw -Encoding UTF8 |
@@ -184,6 +234,7 @@ try {
     $predmet.privatnost.klasifikacija = 'LOKALNO_POVJERLJIVO'
     $predmet.privatnost.sadrzi_osobne_podatke = $true
     $predmet.privatnost.dopusteno_git_pracenje = $false
+    $predmet.nositelj.oznaka = 'LOKALNI_SINTETICKI_E2E'
     Write-LocalE2EJson -Path $predmetPath -Document $predmet
 
     foreach ($path in @($intakePath, $subsumcijaPath, $auditSeedPath)) {
@@ -193,54 +244,44 @@ try {
         Write-LocalE2EJson -Path $path -Document $document
     }
 
-    $subjectValidation = Invoke-LocalE2EScript `
-        -ScriptPath $predmetValidator `
-        -Arguments @(
-            '-PredmetPath', $predmetPath,
-            '-LocalDataRoot', $tempRoot
-        )
-    Assert-LocalE2EResult `
-        -Result $subjectValidation `
-        -Marker 'P9_PREDMET_VALIDATOR_STATUS=VALIDNO' `
-        -Name 'Strogi validator lokalnog predmeta'
-
     $commonArgs = @(
         '-PredmetId', $predmetId,
         '-Tok', $tok,
         '-Verzija', $verzija,
         '-DataRoot', $tempRoot
     )
-    $auditResult = Invoke-LocalE2EScript `
-        -ScriptPath $auditGenerator `
+    $runResult = Invoke-LocalE2EScript `
+        -ScriptPath $localRunner `
         -Arguments $commonArgs
+    foreach ($line in @($runResult.Text -split "`n")) {
+        if ($line -match '^P9_RUN_') {
+            Write-Host $line
+        }
+    }
+    if ($runResult.ExitCode -ne 0 -and
+        -not $runResult.Text.Contains('P9_RUN_RESULT=')) {
+        $safeTrace = $runResult.Text.Replace($tempRoot, '<LOCAL_ROOT>')
+        $safeTrace = $safeTrace.Replace(
+            $tempRoot.Replace('\', '/'),
+            '<LOCAL_ROOT>'
+        )
+        Write-Host "P9_LOCAL_E2E_SAFE_FAILURE_TRACE=$safeTrace"
+    }
     Assert-LocalE2EResult `
-        -Result $auditResult `
-        -Marker 'AUDIT_GENERATED_PATH_REDACTED=True' `
-        -Name 'Lokalni audit generator'
-
-    $p7Result = Invoke-LocalE2EScript `
-        -ScriptPath $p7Runner `
-        -Arguments $commonArgs
-    Assert-LocalE2EResult `
-        -Result $p7Result `
-        -Marker 'OUTPUT_PATH_REDACTED=True' `
-        -Name 'Lokalni P7 runner'
-
-    $p8Result = Invoke-LocalE2EScript `
-        -ScriptPath $p8Generator `
-        -Arguments $commonArgs
-    Assert-LocalE2EResult `
-        -Result $p8Result `
-        -Marker 'P8_LOCAL_PATHS_REDACTED=True' `
-        -Name 'Lokalni P8 generator'
-
-    $p8Validation = Invoke-LocalE2EScript `
-        -ScriptPath $p8Validator `
-        -Arguments $commonArgs
-    Assert-LocalE2EResult `
-        -Result $p8Validation `
-        -Marker 'P8_VALIDATOR_RESULT=OK' `
-        -Name 'Lokalni P8 validator'
+        -Result $runResult `
+        -Marker 'P9_RUN_RESULT=OK' `
+        -Name 'Jednonaredbeni lokalni P9 tok'
+    foreach ($marker in @(
+            'P9_RUN_ARTIFACT_COUNT=4',
+            'P9_RUN_PATHS_REDACTED=True',
+            'P9_RUN_HUMAN_REVIEW_REQUIRED=True',
+            'P9_RUN_SIGNED=False',
+            'P9_RUN_SENT=False'
+        )) {
+        Assert-LocalE2E `
+            -Condition $runResult.Text.Contains($marker) `
+            -Reason "Jednonaredbeni P9 tok nema marker: $marker"
+    }
 
     foreach ($outputPath in @(
             $auditGeneratedPath,
@@ -290,6 +331,8 @@ try {
     Write-Host 'P9_LOCAL_E2E_OUTPUTS_EXTERNAL=4'
     Write-Host 'P9_LOCAL_E2E_PATH_DISCLOSURE=0'
     Write-Host 'P9_LOCAL_E2E_CANONICAL_REFS=OK'
+    Write-Host 'P9_LOCAL_E2E_INCOMPLETE_STOP=OK'
+    Write-Host 'P9_LOCAL_E2E_ONE_COMMAND=OK'
     $testSucceeded = $true
 }
 catch {
@@ -305,6 +348,29 @@ finally {
             $failureMessage = $_.Exception.Message
         }
         $testSucceeded = $false
+    }
+
+    if ($hookChanged) {
+        try {
+            if ($hookBeforeExit -eq 0) {
+                & git config --local core.hooksPath $hookBefore
+            }
+            else {
+                & git config --local --unset core.hooksPath
+                if ($LASTEXITCODE -eq 5) {
+                    $global:LASTEXITCODE = 0
+                }
+            }
+            if ($LASTEXITCODE -ne 0) {
+                throw 'P9_LOCAL_E2E_HOOK_RESTORE_FAILED'
+            }
+        }
+        catch {
+            if ([string]::IsNullOrWhiteSpace($failureMessage)) {
+                $failureMessage = $_.Exception.Message
+            }
+            $testSucceeded = $false
+        }
     }
 }
 
