@@ -1,15 +1,17 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 16.07.2026.
+Datum: 17.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 176: `d64c299` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 176 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 177: `2fb095c` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 177 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p9-predmet-privatnost`.
-- Puni `alati/ci_smoke.ps1` potvrđen je 16.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za P9 paket ZADATKA 176.
+  `codex/p9-lokalni-e2e`.
+- Ciljani sintetički lokalni E2E test potvrđen je 17.07.2026. bez stvarnih
+  osobnih podataka i bez promjene Git stanja.
+- Puni `alati/ci_smoke.ps1` potvrđen je 17.07.2026. s rezultatom
+  `CI_SMOKE_EXIT=0` za paket ZADATKA 177.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -36,7 +38,8 @@ Aktivna pilot-domena je prekršajni modul, a prvi funkcionalni tok je:
 
 `prekršajni nalog -> prigovor -> audit -> nacrt -> manifest`
 
-Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
+Prvi dokazani prolaz koristi sintetički predmet bez stvarnih osobnih
+podataka. Početak konkretnog stvarnog predmeta još nije odobren.
 
 ### Dokazano stanje
 
@@ -63,6 +66,11 @@ Prvi prolaz mora koristiti sintetički predmet bez stvarnih osobnih podataka.
 - P9 negativni testovi dokazuju blokadu nedosljednih privatnosnih oznaka,
   popunjenog osobnog polja javnog predmeta, lokalnog korijena unutar repoa i
   prisilno dodane zabranjene putanje.
+- ZADATAK 177 usmjerava audit, P7 nacrt, P8 manifest i lanac skrbništva u
+  vanjski predmet, dok postupak, predložak i pravne norme ostaju u repou.
+- Sintetički lokalni E2E dokaz proizvodi četiri izlaza izvan repozitorija,
+  skriva fizički korijen, čuva samo kanonske reference i ne mijenja Git
+  stanje.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -118,11 +126,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `d64c299` - Merge pull request #6 from
-  nhursa77/codex/p8-manifest-lanac-skrbnistva
+- Polazni HEAD prije zadatka: `2fb095c` - Merge pull request #7 from
+  nhursa77/codex/p9-predmet-privatnost
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 176
+- Zadnji dovršeni zadatak: ZADATAK 177
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -1000,3 +1008,20 @@ Pre-check snapshot sinkronizacije:
   24 audit fixturea, P7 testove, P8 testove i puni Markdown pregled.
 - NORMA JSON sadržaj nije mijenjan, stvarni osobni podaci nisu korišteni, a
   P8 izlazi ostaju runtime artefakti izvan Git praćenja.
+
+### Vanjski predmetni runtime bez stvarnih podataka (ZADATAK 177)
+
+- Uveden je zajednički sigurni razrješivač javnih, lokalnih i repozitorijskih
+  referenci s blokadom apsolutnih putanja, `..` i prelaska u drugi predmet.
+- Audit, P7 nacrt, P8 manifest i lanac mogu raditi pod izričito zadanim
+  lokalnim korijenom izvan repozitorija.
+- Postupak, predložak i pravne norme i dalje se čitaju samo iz repozitorija.
+- Lokalni izvršni ispisi i dokazni paket ne otkrivaju fizičku putanju;
+  manifest i lanac sadrže samo kanonske relativne reference.
+- Novi E2E test koristi isključivo sintetički sadržaj, stvara četiri izlaza
+  izvan repozitorija, briše privremeni predmet i potvrđuje nepromijenjeno Git
+  stanje.
+- Puni `alati/ci_smoke.ps1` prošao je s `CI_SMOKE_EXIT=0`, uključujući novi
+  lokalni E2E, svih 24 audit fixturea, P7, P8 i svih 179 Markdown datoteka.
+- Stvarni predmet nije otvoren; za njega ostaje potrebna zasebna ljudska
+  odluka i izbor trajnog lokalnog korijena.
