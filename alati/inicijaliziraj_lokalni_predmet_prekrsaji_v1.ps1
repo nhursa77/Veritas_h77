@@ -87,7 +87,7 @@ $createdSubject = $false
 $predmetRef = "$($pathContext.SubjectRef)/predmet.json"
 $intakeRef = "$($pathContext.SubjectRef)/intake/intake_v1.json"
 $subsumcijaRef = "$($pathContext.SubjectRef)/audit/subsumcija_v1.json"
-$auditSeedRef = "$($pathContext.SubjectRef)/audit/audit_v1.json"
+$auditContextRef = "$($pathContext.SubjectRef)/audit/audit_v1.json"
 
 try {
     [void](New-Item `
@@ -176,7 +176,7 @@ Write-Host "P9_INIT_SUBJECT_REF=$($pathContext.SubjectRef)"
 Write-Host "P9_INIT_PREDMET_REF=$predmetRef"
 Write-Host "P9_INIT_REQUIRED_INTAKE_REF=$intakeRef"
 Write-Host "P9_INIT_REQUIRED_SUBSUMPCIJA_REF=$subsumcijaRef"
-Write-Host "P9_INIT_REQUIRED_AUDIT_SEED_REF=$auditSeedRef"
+Write-Host "P9_INIT_OPTIONAL_AUDIT_CONTEXT_REF=$auditContextRef"
 Write-Host 'P9_INIT_PATHS_REDACTED=True'
 Write-Host 'P9_INIT_HUMAN_REVIEW_REQUIRED=True'
 Write-Host 'P9_INIT_EXIT=0'

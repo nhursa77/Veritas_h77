@@ -30,7 +30,7 @@ $repoSubjectRoot = Join-Path $repoRoot (
 $predmetPath = Join-Path $subjectRoot 'predmet.json'
 $intakePath = Join-Path $subjectRoot 'intake\intake_v1.json'
 $subsumcijaPath = Join-Path $subjectRoot 'audit\subsumcija_v1.json'
-$auditSeedPath = Join-Path $subjectRoot 'audit\audit_v1.json'
+$auditContextPath = Join-Path $subjectRoot 'audit\audit_v1.json'
 $auditGeneratedPath = Join-Path $subjectRoot (
     'audit\audit_generated_v1.json'
 )
@@ -213,10 +213,6 @@ try {
         [pscustomobject]@{
             Source = Join-Path $publicRoot 'audit\subsumcija_v1.json'
             Target = $subsumcijaPath
-        },
-        [pscustomobject]@{
-            Source = Join-Path $publicRoot 'audit\audit_v1.json'
-            Target = $auditSeedPath
         }
     )
     foreach ($copy in $copies) {
@@ -237,12 +233,29 @@ try {
     $predmet.nositelj.oznaka = 'LOKALNI_SINTETICKI_E2E'
     Write-LocalE2EJson -Path $predmetPath -Document $predmet
 
-    foreach ($path in @($intakePath, $subsumcijaPath, $auditSeedPath)) {
+    foreach ($path in @($intakePath, $subsumcijaPath)) {
         $document = Get-Content -LiteralPath $path -Raw -Encoding UTF8 |
             ConvertFrom-Json
         $document.meta.id_predmeta = $predmetId
         Write-LocalE2EJson -Path $path -Document $document
     }
+
+    $subsumcija = Get-Content `
+        -LiteralPath $subsumcijaPath `
+        -Raw `
+        -Encoding UTF8 | ConvertFrom-Json
+    foreach ($element in @($subsumcija.elementi_bica)) {
+        $element.cinjenica_ref = 'fixture/P9_LOCAL_E2E/cinjenica'
+        $element.dokaz_ref = 'fixture/P9_LOCAL_E2E/dokaz'
+        $element.obrazlozenje = (
+            'Sintetički lokalni E2E ima potpunu činjenicu i dokaz.'
+        )
+        $element.status = 'PROLAZ'
+    }
+    Write-LocalE2EJson -Path $subsumcijaPath -Document $subsumcija
+    Assert-LocalE2E `
+        -Condition (-not (Test-Path -LiteralPath $auditContextPath)) `
+        -Reason 'Seedless P9 test neočekivano ima audit kontekst'
 
     $commonArgs = @(
         '-PredmetId', $predmetId,
@@ -300,6 +313,25 @@ try {
             ) `
             -Reason 'Lokalni izlaz nije ostao unutar predmeta'
     }
+    $generatedAudit = Get-Content `
+        -LiteralPath $auditGeneratedPath `
+        -Raw `
+        -Encoding UTF8 | ConvertFrom-Json
+    $generatedCodes = @(
+        $generatedAudit.nalazi | ForEach-Object { [string]$_.kod }
+    )
+    Assert-LocalE2E `
+        -Condition ([string]$generatedAudit.g1.status -eq 'INDETERMINATE') `
+        -Reason 'Seedless P9 tok nema očekivani G1 INDETERMINATE signal'
+    Assert-LocalE2E `
+        -Condition (-not [bool]$generatedAudit.gate_stanje.blocked) `
+        -Reason 'Seedless P9 tok pogrešno je blokiran'
+    Assert-LocalE2E `
+        -Condition ($generatedCodes -contains 'NAP-G1-INDETERMINATE') `
+        -Reason 'Seedless P9 audit nema očekivani G1 warning nalaz'
+    Assert-LocalE2E `
+        -Condition ($generatedCodes -contains 'NAP-YEL-WARNING') `
+        -Reason 'Seedless P9 audit nema očekivani žuti signal'
     Assert-LocalE2E `
         -Condition (-not (Test-Path -LiteralPath $repoSubjectRoot)) `
         -Reason 'Lokalni tok stvorio je predmet unutar repozitorija'
@@ -332,6 +364,8 @@ try {
     Write-Host 'P9_LOCAL_E2E_PATH_DISCLOSURE=0'
     Write-Host 'P9_LOCAL_E2E_CANONICAL_REFS=OK'
     Write-Host 'P9_LOCAL_E2E_INCOMPLETE_STOP=OK'
+    Write-Host 'P9_LOCAL_E2E_AUDIT_CONTEXT=ABSENT'
+    Write-Host 'P9_LOCAL_E2E_G1=INDETERMINATE'
     Write-Host 'P9_LOCAL_E2E_ONE_COMMAND=OK'
     $testSucceeded = $true
 }

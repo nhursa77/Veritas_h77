@@ -257,7 +257,7 @@ try {
         -PathRef ([string]$procedure.ulazi.subsumcija_ref) `
         -Context $pathContext `
         -ExpectedScope Subject
-    $auditSeedSpec = Resolve-VeritasReference `
+    $auditContextSpec = Resolve-VeritasReference `
         -PathRef (
             'predmeti/sud/prekrsajni/{PREDMET_ID}/audit/audit_v1.json'
         ) `
@@ -330,11 +330,6 @@ $requiredInputs = @(
         Name = 'subsumcija'
         Spec = $subsumcijaSpec
         Schema = 'SCHEMA_SUBSUMPCIJA_V1.json'
-    },
-    [pscustomobject]@{
-        Name = 'audit_seed'
-        Spec = $auditSeedSpec
-        Schema = ''
     }
 )
 
@@ -388,14 +383,28 @@ if ($subjectValidation.ExitCode -ne 0 -or
 $predmet = Read-P9Json -Path $predmetSpec.Path
 $intake = Read-P9Json -Path $intakeSpec.Path
 $subsumcija = Read-P9Json -Path $subsumcijaSpec.Path
-$auditSeed = Read-P9Json -Path $auditSeedSpec.Path
+$auditContext = $null
+if (Test-Path -LiteralPath $auditContextSpec.Path -PathType Leaf) {
+    $auditContext = Read-P9Json -Path $auditContextSpec.Path
+    if ($null -eq $auditContext) {
+        Stop-P9Run `
+            -Stage 'ULAZI' `
+            -Reason 'OPCIONALNI_AUDIT_KONTEKST_NIJE_VALJAN_JSON' `
+            -DetailRef $auditContextSpec.Ref
+    }
+}
 if (
     -not (Test-P9Identity -Document $predmet -IsSubject $true) -or
     -not (Test-P9Identity -Document $intake -IsSubject $false) -or
-    -not (Test-P9Identity -Document $subsumcija -IsSubject $false) -or
-    -not (Test-P9Identity -Document $auditSeed -IsSubject $false)
+    -not (Test-P9Identity -Document $subsumcija -IsSubject $false)
 ) {
     Stop-P9Run -Stage 'ULAZI' -Reason 'IDENTITET_ULAZA_NIJE_USKLADEN'
+}
+if ($null -ne $auditContext -and
+    -not (Test-P9Identity -Document $auditContext -IsSubject $false)) {
+    Stop-P9Run `
+        -Stage 'ULAZI' `
+        -Reason 'IDENTITET_AUDIT_KONTEKSTA_NIJE_USKLADEN'
 }
 if (-not (Test-P9SubjectReady -Subject $predmet) -or
     -not (Test-P9IntakeReady -Intake $intake) -or
