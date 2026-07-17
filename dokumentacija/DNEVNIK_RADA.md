@@ -6543,3 +6543,56 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 17.07.2026 (ZADATAK 180)
+
+### ZADATAK 180 - Lokalna sintetička P9 generalna proba
+
+U odobrenom lokalnom korijenu izvan repozitorija inicijaliziran je potpuno
+izmišljeni predmet bez stvarnih osobnih podataka. Nepopunjeni predmet ispravno
+je završio sa STOP bez artefakata.
+
+Nakon unosa sintetičkih podataka prošle su sheme i stroga lokalna provjera
+privatnosti. Jednonaredbeni P9 tok proizveo je četiri artefakta, sakrio fizički
+korijen, nije promijenio Git stanje te ništa nije potpisao ni poslao.
+
+Ljudski pregled dokazao je tehnički prolaz i prolaz privatnosti, ali ne i
+spremnost za stvarni predmet. Referencirani dokaz nije u manifestu, preporučeni
+pravni lijek nema popunjeno polje, a nacrt nema broj ni ključne datume akta.
+
+Stvarni predmet ostaje blokiran. Sljedeći zasebni paket mora zatvoriti dokaznu
+vezu, pravni lijek i sadržajni nacrt na sintetičkim podacima.
+
+Puni kontrolni tok prošao je s CI_SMOKE_EXIT=0, uključujući privatnost, P9, P7,
+P8 i svih 179 Markdown datoteka.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+- `dokumentacija/RAZVOJNI_PLAN_PREKRSAJNI_MODUL.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\inicijaliziraj_lokalni_predmet_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\pokreni_lokalni_tok_p9_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_predmet_prekrsaji_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_json_po_shemi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_izlaz_tok_pn_prigovor_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_p8_manifest_i_lanac_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_privatnost_repozitorija_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+  `-FullRepo`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`

@@ -162,6 +162,13 @@ artefakata. Uspjeh proizvodi točno četiri lokalna artefakta: generirani
 audit, nepotpisani nacrt, manifest i lanac skrbništva. Fizičke putanje nisu
 dio ispisa, a potpisivanje i slanje ostaju isključivo ljudska odluka.
 
+Tehnički uspjeh tog lanca nije dokaz pravne spremnosti izlaza. Lokalna
+sintetička generalna proba ZADATKA 180 potvrdila je privatnost i stvaranje
+četiri artefakta, ali je ujedno dokazala da v1 još ne veže referencirani
+dokaz u manifest, može ostaviti pravni lijek praznim i stvara samo tehnički
+nacrt bez potpunog identiteta akta. Stvarni predmet ostaje blokiran dok se
+te praznine zasebno ne zatvore i ljudski provjere.
+
 ### Pipeline modula M0–M9 (bez preskakanja)
 
 Svaki modul mora završiti sa statusom `PROLAZ`, `NEPROLAZ` ili `N/A`

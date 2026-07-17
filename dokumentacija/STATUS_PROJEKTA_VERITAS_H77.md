@@ -4,15 +4,14 @@ Datum: 17.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 179: `4495879` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 179 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 180: `406d938` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 180 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p9-ugovor-subsumcije`.
-- Kanonski `status`, 24 shematski usklađena fixturea i lokalni E2E bez
-  obaveznog audit konteksta potvrđeni su 17.07.2026. bez stvarnih osobnih
-  podataka i bez promjene Git stanja.
+  `codex/p9-sinteticka-generalna-proba`.
+- Lokalna generalna proba s potpuno izmišljenim nalogom potvrdila je
+  tehnički P9 prolaz i privatnost, ali ne i spremnost za stvarni predmet.
 - Puni `alati/ci_smoke.ps1` potvrđen je 17.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za paket ZADATKA 179.
+  `CI_SMOKE_EXIT=0` za paket ZADATKA 180.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -39,8 +38,9 @@ Aktivna pilot-domena je prekršajni modul, a prvi funkcionalni tok je:
 
 `prekršajni nalog -> prigovor -> audit -> nacrt -> manifest`
 
-Prvi dokazani prolaz koristi sintetički predmet bez stvarnih osobnih
-podataka. Početak konkretnog stvarnog predmeta još nije odobren.
+Prvi dokazani prolaz i lokalna generalna proba koriste sintetičke predmete
+bez stvarnih osobnih podataka. Početak konkretnog stvarnog predmeta još nije
+odobren.
 
 ### Dokazano stanje
 
@@ -84,6 +84,14 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
   subsumpcijski ugovor.
 - Lokalni P9 E2E bez `audit_v1.json` konteksta proizvodi četiri artefakta,
   dok G1 ostaje vidljivo `INDETERMINATE`, žut i neblokirajući.
+- ZADATAK 180 na potpuno izmišljenom lokalnom nalogu dokazuje siguran `STOP`
+  bez artefakata za nepopunjen predmet te završeni P9 tok s četiri artefakta
+  za valjane sintetičke ulaze.
+- Ista proba potvrđuje skriven fizički korijen, nepromijenjeno Git stanje,
+  obavezan ljudski pregled te izričito nepotpisan i neposlan izlaz.
+- Ljudski pregled razlikuje tehnički prolaz od pravne spremnosti: dokaz nije
+  vezan u manifest, pravni lijek je prazan, a nacrt nema broj ni ključne
+  datume akta.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -104,20 +112,30 @@ podataka. Početak konkretnog stvarnog predmeta još nije odobren.
   toka još nemaju vlastite ulaze, pravna sidra ni stvarne P7 nacrte.
 - Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
   poljima vlastitog standarda.
-- Lokalni korijen za prvi stvarni predmet još nije odabran, a početak rada na
-  konkretnom stvarnom predmetu nije ljudski odobren.
+- Referencirani dokaz iz subsumpcije nije među deset artefakata P8 manifesta
+  i zato mu manifest ne dokazuje sadržaj, veličinu ni SHA-256 sažetak.
+- `preporuceni_pravni_lijek` može proći s četiri prazna polja, pa P7 ne
+  dokazuje stvarno odabran pravni put.
+- Tehnički P7 nacrt ne prenosi broj akta, datum akta ni datum dostave i još
+  nije sadržajno spreman za ljudsku pravnu odluku.
+- Trajni korijen i početak rada na konkretnom stvarnom predmetu nisu ljudski
+  odobreni.
 - Automatizirani P9 pregled traži visokopouzdane obrasce, ali nije dokaz da
   nepoznata vrsta osobnog podatka ne može postojati; ljudski pregled ostaje
   obavezan.
 
 ### Sljedeća potrebna odluka
 
-P9 tehnička priprema ne daje automatsko odobrenje za unos stvarnih podataka.
-Prije prvog stvarnog predmeta vlasnik mora zasebno:
+Prije odluke o stvarnom predmetu vlasnik treba odobriti sljedeći tehnički
+paket koji mora:
 
-1) odabrati lokalni korijen izvan repozitorija i javne sinkronizacije;
-2) odobriti početak rada na konkretnom predmetu;
-3) potvrditi ljudski pregled privatnosti i opseg minimalno potrebnih podataka.
+1) uključiti svaki referencirani dokaz u manifest i njegov hash-lanac;
+2) proizvesti i strogo provjeriti popunjen preporučeni pravni lijek;
+3) proširiti nacrt provjerenim identitetom akta i potrebnim datumima;
+4) dokazati pozitivne i negativne sintetičke scenarije bez stvarnih podataka.
+
+Tek nakon zatvaranja tog paketa slijedi zasebna ljudska odluka o lokalnom
+korijenu, minimalnim podacima i početku konkretnog stvarnog predmeta.
 
 ### Pravilo odlučivanja
 
@@ -139,11 +157,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `4495879` - Merge pull request #9 from
-  nhursa77/codex/p9-lokalna-operativa
+- Polazni HEAD prije zadatka: `406d938` - Merge pull request #10 from
+  nhursa77/codex/p9-ugovor-subsumcije
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 179
+- Zadnji dovršeni zadatak: ZADATAK 180
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -1072,3 +1090,22 @@ Pre-check snapshot sinkronizacije:
   P8, oba P9 operativna testa, 24 fixturea i 179 Markdown datoteka.
 - Stvarni predmet nije otvoren, osobni podaci nisu korišteni, a odluka o
   početku konkretnog predmeta ostaje isključivo ljudska.
+
+### Lokalna sintetička P9 generalna proba (ZADATAK 180)
+
+- Sigurni inicijalizator pod odobrenim lokalnim korijenom izvan repozitorija
+  stvorio je nepopunjeni kostur bez stvarnih podataka i bez Git promjene.
+- Prvo pokretanje ispravno je završilo s `STOP` na ulazima i nije proizvelo
+  nijedan artefakt.
+- Nakon ljudskog unosa potpuno izmišljenog naloga, intakea, subsumpcije i
+  tekstualnog dokaza prošle su sheme predmeta i svih ulaza te stroga lokalna
+  provjera privatnosti.
+- Jednonaredbeni P9 tok završio je s četiri artefakta, skrivenim fizičkim
+  korijenom, obaveznim ljudskim pregledom te oznakama da izlaz nije potpisan
+  ni poslan.
+- Strogi P7 i P8 validatori potvrdili su tehničku cjelovitost postojećeg
+  ugovora, a ljudski pregled otkrio je tri granice pravne spremnosti.
+- Referencirani dokaz nije u manifestu, preporučeni pravni lijek nema
+  popunjeno polje, a nacrt ne sadrži broj ni ključne datume akta.
+- Stvarni predmet zato ostaje blokiran. Proba nije koristila stvarne osobne
+  podatke, a njezin lokalni sadržaj nije dodan u repozitorij.
