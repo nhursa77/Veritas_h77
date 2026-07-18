@@ -1,6 +1,6 @@
 # MAPA_DOKUMENTACIJE_VERITAS_H77
 
-Datum: 16.07.2026.
+Datum: 18.07.2026.
 Status: kanonski
 Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
@@ -39,6 +39,10 @@ Osigurava jednoznačno značenje ključnih termina.
 ### `TEHNIČKI_OKVIR_VERITAS_H77.md`
 Definira tehnički okvir rada repozitorija i reprodukcije okruženja.
 Sadrži pravila artefakata, izvora, snapshota i kontrole kvalitete.
+
+### `INVENTURA_NORMATIVNOG_OKVIRA_AI_SUSTAVA_VERITAS_H77.md`
+Uspostavlja radni dokazni popis internih i vanjskih normativnih područja.
+Definira statuse primjenjivosti, razine dokaza i uvjete ocjene sukladnosti.
 
 ### `STANDARD_JSON_NORMA.md`
 Definira standard zapisa norme u JSON formatu s člankom kao jedinicom.
