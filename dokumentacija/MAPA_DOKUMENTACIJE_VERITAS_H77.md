@@ -44,6 +44,10 @@ Sadrži pravila artefakata, izvora, snapshota i kontrole kvalitete.
 Uspostavlja radni dokazni popis internih i vanjskih normativnih područja.
 Definira statuse primjenjivosti, razine dokaza i uvjete ocjene sukladnosti.
 
+### `MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
+Povezuje poprečne norme s dokumentacijom, kodom, testovima i CI provedbom.
+Razdvaja dokazanu sukladnost od djelomične provedbe i nedostatka dokaza.
+
 ### `STANDARD_JSON_NORMA.md`
 Definira standard zapisa norme u JSON formatu s člankom kao jedinicom.
 Uređuje strukturu, izvore, sidra i uvjete valjanosti normativnog zapisa.
