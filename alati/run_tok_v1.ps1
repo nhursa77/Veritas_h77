@@ -462,6 +462,10 @@ foreach ($fieldId in $fieldById.Keys) {
 
 $requiredContractSources = @(
     "predmet.sud_naziv",
+    "predmet.akt.vrsta",
+    "predmet.akt.broj",
+    "predmet.akt.datum",
+    "predmet.akt.datum_dostave",
     "audit.nalazi",
     "intake.cilj",
     "intake.osporavanja",

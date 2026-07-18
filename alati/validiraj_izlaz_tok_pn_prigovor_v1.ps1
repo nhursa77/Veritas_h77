@@ -162,6 +162,10 @@ if (-not [string]::IsNullOrWhiteSpace($activeField)) {
 
 $requiredSources = @(
     "predmet.sud_naziv",
+    "predmet.akt.vrsta",
+    "predmet.akt.broj",
+    "predmet.akt.datum",
+    "predmet.akt.datum_dostave",
     "audit.nalazi",
     "intake.cilj",
     "intake.osporavanja",

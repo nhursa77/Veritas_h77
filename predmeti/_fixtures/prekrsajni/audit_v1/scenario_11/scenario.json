@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZUT_G1_INDET_11",
   "tok": "TOK_PN_PRIGOVOR",
+  "predmet_datum_dostave": "10.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

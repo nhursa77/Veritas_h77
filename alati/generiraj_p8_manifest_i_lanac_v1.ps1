@@ -99,13 +99,24 @@ try {
         throw "P8_OUTPUT_REF_NOT_CANONICAL"
     }
 
+    if ($null -eq $procedure.PSObject.Properties["ulazi"] -or
+        $null -eq $procedure.ulazi.PSObject.Properties["subsumcija_ref"]) {
+        throw "POSTUPAK_INPUT_REF_MISSING=subsumcija_ref"
+    }
+    $subsumcijaResolved = Resolve-P8Reference `
+        -PathRef ([string]$procedure.ulazi.subsumcija_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $subsumcija = Read-P8Json `
+        -Path $subsumcijaResolved.Path `
+        -Name "subsumcija" `
+        -Reference $subsumcijaResolved.Ref
+
     $expected = Get-P8ExpectedArtifacts `
         -Procedure $procedure `
         -ProcedureRef $procedureResolved.Ref `
+        -Subsumcija $subsumcija `
         -Context $pathContext
-    if ($expected.Count -ne 10) {
-        throw "P8_ARTIFACT_COUNT_INVALID=$($expected.Count)"
-    }
     foreach ($spec in $expected) {
         if (-not (Test-Path -LiteralPath $spec.Path -PathType Leaf)) {
             throw "P8_ARTIFACT_MISSING=$($spec.Ref)"
@@ -125,9 +136,6 @@ try {
     $intake = Read-P8Json `
         -Path $byId.intake.Path -Name "intake" `
         -Reference $byId.intake.Ref
-    $subsumcija = Read-P8Json `
-        -Path $byId.subsumcija.Path -Name "subsumcija" `
-        -Reference $byId.subsumcija.Ref
     $audit = Read-P8Json `
         -Path $byId.audit_generated.Path -Name "audit" `
         -Reference $byId.audit_generated.Ref
@@ -267,7 +275,7 @@ try {
         datum_vrijeme = $timestamp
         izvrsitelj = "veritas_h77"
         radnja = "ULAZI_PROVJERENI"
-        detalj = "Provjereno 10 artefakata P7 lanca."
+        detalj = "Provjereno $($artifacts.Count) artefakata dokaznog lanca."
         dokaz_sha256 = $rootHash
         prethodni_dogadaj_sha256 = $zeroHash
         dogadaj_sha256 = ""

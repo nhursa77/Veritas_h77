@@ -82,7 +82,15 @@
         "naziv": { "type": "string" },
         "kome": { "type": "string" },
         "rok": { "type": "string" },
-        "ucinak": { "type": "string" }
+        "ucinak": { "type": "string" },
+        "izvor_norme_refs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^baza_zakona/norme/.+[.]json$"
+          }
+        }
       }
     },
     "gate_stanje": {
@@ -93,5 +101,47 @@
         "blocked_razlog": { "type": "string" }
       }
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "meta": {
+            "properties": {
+              "tok": { "const": "TOK_PN_PRIGOVOR" },
+              "izvor_audita": {
+                "const": "generiraj_audit_prekrsaji_v1"
+              }
+            },
+            "required": ["tok", "izvor_audita"]
+          }
+        },
+        "required": ["meta"]
+      },
+      "then": {
+        "properties": {
+          "preporuceni_pravni_lijek": {
+            "required": [
+              "naziv",
+              "kome",
+              "rok",
+              "ucinak",
+              "izvor_norme_refs"
+            ],
+            "properties": {
+              "naziv": { "type": "string", "minLength": 1 },
+              "kome": { "type": "string", "minLength": 1 },
+              "rok": { "type": "string", "minLength": 1 },
+              "ucinak": { "type": "string", "minLength": 1 },
+              "izvor_norme_refs": {
+                "type": "array",
+                "minItems": 2,
+                "uniqueItems": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
 }

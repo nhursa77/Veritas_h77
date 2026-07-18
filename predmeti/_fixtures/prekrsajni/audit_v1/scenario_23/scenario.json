@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZUT_G1_LATE_TOK_OBUSTAVA_23",
   "tok": "TOK_OBUSTAVA",
+  "predmet_datum_dostave": "10.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

@@ -1,6 +1,7 @@
 {
   "id": "SCN_CRV_TOK_PRESUDA_ZALBA_12",
   "tok": "TOK_PRESUDA_ZALBA",
+  "predmet_datum_dostave": "12.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",

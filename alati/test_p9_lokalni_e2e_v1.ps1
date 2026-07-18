@@ -30,6 +30,13 @@ $repoSubjectRoot = Join-Path $repoRoot (
 $predmetPath = Join-Path $subjectRoot 'predmet.json'
 $intakePath = Join-Path $subjectRoot 'intake\intake_v1.json'
 $subsumcijaPath = Join-Path $subjectRoot 'audit\subsumcija_v1.json'
+$evidencePath = Join-Path $subjectRoot (
+    'dokazi\IZMISLJENI_PREKRSAJNI_NALOG.txt'
+)
+$evidenceRef = (
+    "predmeti/sud/prekrsajni/$predmetId/" +
+    'dokazi/IZMISLJENI_PREKRSAJNI_NALOG.txt'
+)
 $auditContextPath = Join-Path $subjectRoot 'audit\audit_v1.json'
 $auditGeneratedPath = Join-Path $subjectRoot (
     'audit\audit_generated_v1.json'
@@ -213,6 +220,12 @@ try {
         [pscustomobject]@{
             Source = Join-Path $publicRoot 'audit\subsumcija_v1.json'
             Target = $subsumcijaPath
+        },
+        [pscustomobject]@{
+            Source = Join-Path $publicRoot (
+                'dokazi\IZMISLJENI_PREKRSAJNI_NALOG.txt'
+            )
+            Target = $evidencePath
         }
     )
     foreach ($copy in $copies) {
@@ -245,8 +258,8 @@ try {
         -Raw `
         -Encoding UTF8 | ConvertFrom-Json
     foreach ($element in @($subsumcija.elementi_bica)) {
-        $element.cinjenica_ref = 'fixture/P9_LOCAL_E2E/cinjenica'
-        $element.dokaz_ref = 'fixture/P9_LOCAL_E2E/dokaz'
+        $element.cinjenica_ref = $evidenceRef
+        $element.dokaz_ref = $evidenceRef
         $element.obrazlozenje = (
             'Sintetički lokalni E2E ima potpunu činjenicu i dokaz.'
         )
@@ -342,6 +355,16 @@ try {
     Assert-LocalE2E `
         -Condition ([string]$manifest.meta.vrsta_predmeta -eq 'stvarni') `
         -Reason 'Manifest nema lokalnu vrstu predmeta'
+    $evidenceArtifacts = @(
+        $manifest.artefakti | Where-Object { [string]$_.uloga -eq 'DOKAZ' }
+    )
+    Assert-LocalE2E `
+        -Condition (
+            @($manifest.artefakti).Count -eq 11 -and
+            $evidenceArtifacts.Count -eq 1 -and
+            [string]$evidenceArtifacts[0].putanja -eq $evidenceRef
+        ) `
+        -Reason 'Manifest nema kanonski lokalni dokaz'
     foreach ($artifact in @($manifest.artefakti)) {
         $reference = [string]$artifact.putanja
         Assert-LocalE2E `
@@ -363,6 +386,7 @@ try {
     Write-Host 'P9_LOCAL_E2E_OUTPUTS_EXTERNAL=4'
     Write-Host 'P9_LOCAL_E2E_PATH_DISCLOSURE=0'
     Write-Host 'P9_LOCAL_E2E_CANONICAL_REFS=OK'
+    Write-Host 'P9_LOCAL_E2E_EVIDENCE_HASHED=OK'
     Write-Host 'P9_LOCAL_E2E_INCOMPLETE_STOP=OK'
     Write-Host 'P9_LOCAL_E2E_AUDIT_CONTEXT=ABSENT'
     Write-Host 'P9_LOCAL_E2E_G1=INDETERMINATE'

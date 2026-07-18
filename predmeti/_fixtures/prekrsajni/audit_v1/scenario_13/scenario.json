@@ -1,13 +1,14 @@
 {
   "id": "SCN_ZUT_G1_LATE_TOK_PN_PRIGOVOR_13",
   "tok": "TOK_PN_PRIGOVOR",
+  "predmet_datum_dostave": "01.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",
       "tok": "TOK_PN_PRIGOVOR",
       "verzija_toka": "v1",
       "izvor_intake": "fixture",
-      "datum_izrade": "01.02.2026."
+      "datum_izrade": "19.02.2026."
     },
     "cilj": "izdvajanje_dokaza",
     "osporavanja": [

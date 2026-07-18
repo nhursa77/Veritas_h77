@@ -1,0 +1,23 @@
+IZMIŠLJENI PREKRŠAJNI NALOG — ISKLJUČIVO ZA TESTIRANJE
+
+UPOZORENJE: Cijeli sadržaj ovog dokumenta je sintetički i izmišljen.
+Ne odnosi se na stvarnu osobu, događaj, vozilo ni službeni predmet.
+Dokument nema pravni učinak, nije potpisan i ne smije se slati.
+
+Tijelo: Ogledni prekršajni sud
+Broj: SINTETICKI_PN_0001
+Datum izdavanja: 20.02.2026.
+Datum dostave: 20.02.2026.
+Oznaka osobe: SINTETICKI_NOSITELJ_0001
+Oznaka vozila: SINTETICKO_VOZILO_0001
+
+Izmišljeni navod:
+Dana 19.02.2026. u Oglednoj ulici 77 osoba navedene sintetičke oznake
+navodno nije postupila prema prometnom znaku za obavezno zaustavljanje.
+
+Izmišljena posljedica:
+Novčana sankcija u oglednom iznosu od 100,00 EUR.
+
+Ogledna pouka:
+Protiv ovog izmišljenog naloga dopušten je prigovor u roku od osam dana od
+dostave tijelu koje ga je izdalo. Ova pouka služi samo testiranju Veritasa.

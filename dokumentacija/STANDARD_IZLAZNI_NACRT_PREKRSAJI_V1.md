@@ -36,6 +36,7 @@ Minimalni raspored je:
 - meta blok s tokom, predmetom, datumom i predloškom
 - dokazni blok s referencama na predmet, audit i puna NN sidra
 - blok mapiranih polja predloška
+- identitet osporavanog akta s vrstom, brojem, datumom i datumom dostave
 - audit blok:
   - `AUDIT_NALAZI_BEGIN`
   - lista nalaza (npr. `KOD: OPIS`)
@@ -67,6 +68,8 @@ Validator izlaza mora provjeriti:
 - uravnotežen broj početnih i završnih markera sekcija i polja
 - dokaz izvora i vrijednosti za svako polje
 - obavezne izvore predmeta, audita i intakea
+- obavezne izvore `predmet.akt.vrsta`, `predmet.akt.broj`,
+  `predmet.akt.datum` i `predmet.akt.datum_dostave`
 - da `AUDIT_REF` pokazuje na generirani audit
 - da nema nerazriješene oznake `{PREDMET_ID}`
 - da postoji barem jedno navedeno NN sidro

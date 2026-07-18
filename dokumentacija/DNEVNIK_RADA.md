@@ -6596,3 +6596,59 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 18.07.2026 (ZADATAK 181)
+
+### ZADATAK 181 - Dokazna i proceduralna potpunost prvog toka
+
+Audit povezuje popunjen rok i preporučeni pravni lijek s provjerenim izvorima.
+
+P8 manifest uključuje svaki jedinstveni referencirani dokaz te provjerava
+njegovu veličinu i SHA-256 sažetak.
+
+P7 nacrt obavezno prenosi vrstu, broj, datum i datum dostave osporavanog akta iz
+predmet.akt.
+
+Ciljani P7, P8 i P9 testovi te puni ci_smoke prošli su bez stvarnih podataka,
+potpisa ili slanja.
+
+Mijenjane datoteke:
+
+- `alati/generiraj_audit_prekrsaji_v1.ps1`
+- `alati/test_fixtures_audit_prekrsaji_v1.ps1`
+- `alati/generiraj_p8_manifest_i_lanac_v1.ps1`
+- `alati/p8_dokazni_paket_core.ps1`
+- `alati/test_p8_manifest_lanac_v1.ps1`
+- `alati/test_p9_lokalni_e2e_v1.ps1`
+- `alati/validiraj_p8_manifest_i_lanac_v1.ps1`
+- `alati/run_tok_v1.ps1`
+- `alati/test_run_tok_p7_v1.ps1`
+- `alati/validiraj_izlaz_tok_pn_prigovor_v1.ps1`
+- `dokumentacija/STANDARD_GENERIRANJE_AUDIT_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_JSON_SUBSUMPCIJA.md`
+- `dokumentacija/STANDARD_MANIFEST_I_LANAC_SKRBNISTVA_PREKRSAJI_V1.md`
+- `dokumentacija/STANDARD_JSON_PREDLOZAK.md`
+- `dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md`
+- `dokumentacija/sheme/SCHEMA_AUDIT_V1.json`
+- `dokumentacija/sheme/SCHEMA_MANIFEST_PREKRSAJI_V1.json`
+- `dokumentacija/sheme/SCHEMA_SUBSUMPCIJA_V1.json`
+- `predlosci/sud/prekrsajni/prigovor_pn/v1/predlozak.json`
+- `predmeti/_fixtures/prekrsajni/audit_v1/scenario_*/scenario.json`
+- `predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/audit/subsumcija_v1.json`
+- `predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/`
+  `IZMISLJENI_PREKRSAJNI_NALOG.txt`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\test_run_tok_p7_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p8_manifest_lanac_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_p9_lokalni_e2e_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\provjeri_markdown_scope.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`

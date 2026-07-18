@@ -9,10 +9,10 @@
   "elementi_bica": [
     {
       "naziv_elementa": "Radnja",
-      "cinjenica_ref": "",
-      "dokaz_ref": "",
-      "obrazlozenje": "Ogledni element; u realnom predmetu mora imati činjenicu i dokaz.",
-      "status": "NEPROLAZ"
+      "cinjenica_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/IZMISLJENI_PREKRSAJNI_NALOG.txt",
+      "dokaz_ref": "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/dokazi/IZMISLJENI_PREKRSAJNI_NALOG.txt",
+      "obrazlozenje": "Izmišljeni nalog sadrži sintetički navod radnje za provjeru prvog toka.",
+      "status": "PROLAZ"
     }
   ]
 }

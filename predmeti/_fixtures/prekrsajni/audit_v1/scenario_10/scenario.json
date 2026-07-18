@@ -1,6 +1,7 @@
 {
   "id": "SCN_ZUT_G1_LATE_10",
   "tok": "TOK_RJESENJE_ZALBA",
+  "predmet_datum_dostave": "01.02.2026.",
   "intake": {
     "meta": {
       "id_predmeta": "OGLEDNI_PREDMET_0001",
