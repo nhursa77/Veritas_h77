@@ -70,7 +70,32 @@ pravne pomoći stekne i dokaže sva potrebna ovlaštenja. Do tada javni sustav
 smije pružati samo opće pravne informacije i raditi sa sintetičkim
 primjerima. Nedostatak dokaza o ovlaštenju je `TVRDI_GATE`.
 
-### 2.4 Isključeni predmeti i tvrdi gate lišenja slobode
+Početni korisnički opseg čine punoljetne fizičke osobe. Uključivanje
+maloljetnika, pravnih osoba, odvjetnika ili tijela javne vlasti zahtijeva
+zasebnu procjenu i izričitu odluku vlasnika.
+
+Početni teritorijalni i pravni opseg je Republika Hrvatska. Pravo Europske
+unije i međunarodni ugovori uključuju se kada su primjenjivi u hrvatskom
+pravnom poretku ili na konkretni predmet.
+
+### 2.4 Kombinirani model dostupnosti i naplate
+
+Kombinirani model ima dvije odvojene razine:
+
+1. besplatne opće pravne informacije i početnu provjeru dopuštenosti;
+2. moguću naplatnu funkciju samo za uslugu koju udruga prema dokazano
+   primjenjivim propisima smije pružiti i naplatiti.
+
+Status ovlaštenog pružatelja primarne pravne pomoći nije sam po sebi dokaz
+dopuštenosti naplate. Prije aktiviranja naplatne funkcije moraju se zasebno
+utvrditi pravna osnova usluge, dopuštena uloga udruge, izvori financiranja,
+porezne obveze, zaštita potrošača, cijena, povrat i odgovornost.
+
+Dok ti uvjeti nisu dokazani, naplatna funkcija je blokirana. Postojeći
+standard fer naplate uređuje ponašanje tek nakon otvaranja tog gatea i ne
+može ga sam otvoriti.
+
+### 2.5 Isključeni predmeti i tvrdi gate lišenja slobode
 
 Veritas ne obrađuje kazneno pravo ni kaznene postupke.
 
@@ -92,7 +117,7 @@ i predmet se upućuje kvalificiranoj osobi.
 
 Vlasnik projekta potvrdio je ovaj širi opseg zabrane 18.07.2026.
 
-### 2.5 Lokalnost stvarnih predmeta
+### 2.6 Lokalnost stvarnih predmeta
 
 Stvarni predmeti i svi podaci koji se mogu povezati s osobom obrađuju se
 isključivo lokalno. Ne smiju se slati ChatGPT-u, Codexu, drugom vanjskom
@@ -103,7 +128,7 @@ anonimizirane podatke. Pseudonimizacija nije dovoljna. Promjena ove norme
 zahtijeva novu izričitu odluku vlasnika i prethodno zatvaranje svih pravnih,
 ugovornih, tehničkih i sigurnosnih uvjeta.
 
-### 2.6 Granica pravne analize
+### 2.7 Granica pravne analize
 
 Veritas ne daje autoritativno tumačenje prava, ne donosi konačnu pravnu
 odluku i ne proglašava zakon ili drugi propis neustavnim.

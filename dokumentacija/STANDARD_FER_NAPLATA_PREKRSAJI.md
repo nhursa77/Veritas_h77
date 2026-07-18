@@ -11,6 +11,22 @@ korisniku.
 Cilj: Eliminirati “prodaju nade”, osigurati uštedu korisniku i zabraniti
 naplatu dokumenta koji je proceduralno ili sadržajno bez realne šanse.
 
+Nadređeni gate primjene
+
+Ovaj standard ne daje pravnu osnovu za pružanje ili naplatu pravne pomoći.
+Primjenjuje se tek nakon što su prema kanonskoj metodologiji dokazani:
+
+- pravni status i potrebna ovlaštenja pružatelja;
+- dopuštenost pružanja i naplate konkretne vrste usluge;
+- porezni, potrošački, financijski i odgovornostni režim;
+- punoljetnost korisnika i primjenjivost hrvatskog pravnog poretka;
+- odsutnost kaznenog predmeta i svake mogućnosti lišenja slobode;
+- lokalna obrada stvarnog predmeta i osobnih podataka.
+
+Dok bilo koji od tih uvjeta nije dokazan, naplatna funkcija je blokirana.
+Besplatna opća pravna informacija ne smije se pretvoriti u neovlašteni
+individualizirani pravni savjet.
+
 Temeljne postavke i hijerarhija ciljeva
 1.1. Primarni cilj (ne pregovara se)
 Primarni cilj Veritasa u prekršajnom modulu je ušteda ljudi (novac + vrijeme

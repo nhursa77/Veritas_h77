@@ -377,6 +377,12 @@ Ta oznaka nije završna pravna ocjena.
    pomoći steći i dokazati status ovlaštenog pružatelja.
 9. Vlasnik je odluke o ovlaštenom pružatelju, zabrani svakog mogućeg lišenja
    slobode i lokalnosti stvarnih podataka potvrdio 18.07.2026.
+10. Prihvaćen je kombinirani model: besplatne opće informacije i početna
+    provjera te moguća naplatna razina tek nakon dokaza da je konkretna
+    usluga dopuštena i da je udruga smije pružiti i naplatiti.
+11. Početni korisnici su punoljetne fizičke osobe.
+12. Početni pravni prostor je Republika Hrvatska, uz pravo Europske unije i
+    međunarodne ugovore kada su primjenjivi.
 
 ### 9.2 Činjenice koje još treba utvrditi
 
@@ -384,8 +390,8 @@ Prije konačne klasifikacije primjenjivosti moraju se dokumentirati:
 
 1. pravni status udruge, statut, ovlaštene osobe i formalno vlasništvo;
 2. plan stjecanja statusa ovlaštenog pružatelja primarne pravne pomoći;
-3. stavlja li se sustav na tržište i naplaćuje li se;
-4. dopuštene kategorije korisnika, uključujući odvjetnike i javna tijela;
+3. pravna i porezna osnova naplatne razine kombiniranog modela;
+4. uvjeti budućeg uključivanja drugih kategorija korisnika;
 5. lokalni, mrežni i oblačni dijelovi obrade;
 6. svaki prijenos podataka izvan Europskoga gospodarskog prostora;
 7. kategorije osobnih, posebnih i kaznenopravnih podataka;

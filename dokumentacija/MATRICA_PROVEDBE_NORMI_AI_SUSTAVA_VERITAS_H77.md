@@ -76,7 +76,7 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 ### UPR-005 — Dopušteni opseg određuje se po predmetu, ne po grani prava
 
 - Snaga: `TVRDI_GATE`.
-- Kanonski zapis: `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.4.
+- Kanonski zapis: `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.5.
 - Provedba: kazneno pravo je isključeno, kao i svaki predmet s mogućim
   lišenjem slobode.
 - Test: ne postoji klasifikator sankcija i mjera koji blokira nedopušteni
@@ -386,6 +386,31 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
   Do dokaza tog statusa dopuštene su samo opće pravne informacije i
   sintetički primjeri.
 
+### REG-006 — Naplata je odvojena od statusa pružatelja pravne pomoći
+
+- Snaga: `TVRDI_GATE` prije bilo kakve naplate.
+- Kanonski zapis:
+  - `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.4.;
+  - `STANDARD_FER_NAPLATA_PREKRSAJI.md`.
+- Odluka vlasnika: prihvaćen je kombinirani model dostupnosti i naplate.
+- Provedba: postojeći standard uređuje fer naplatu nakon preflighta, ali ne
+  dokazuje da udruga smije pružati i naplatiti konkretnu uslugu.
+- Razina: `D1`.
+- Ocjena: `NEDOVOLJNO_DOKAZA`.
+- Praznina: treba utvrditi pravnu i poreznu osnovu, financiranje, zaštitu
+  potrošača, cijene, povrate i odgovornost prije aktiviranja naplate.
+
+### REG-007 — Početni korisnici i pravni prostor su ograničeni
+
+- Snaga: `OBVEZNO` u prvoj javnoj fazi.
+- Kanonski zapis: `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.3.
+- Odluka vlasnika: punoljetne fizičke osobe; Republika Hrvatska uz
+  primjenjivo pravo Europske unije i međunarodne ugovore.
+- Provedba: odluka je dokumentirana, ali nije provedena ulaznim validatorom.
+- Razina: `D1`.
+- Ocjena: `DJELOMIČNO`.
+- Praznina: potreban je ulazni gate dobi, vrste korisnika i pravnog prostora.
+
 ---
 
 ## 11) Sažeta početna ocjena
@@ -403,6 +428,7 @@ Najvažnije otvorene praznine su:
 - registar svih primjenjivih vanjskih propisa i njihovih izmjena;
 - pravna uloga Veritasa prema Aktu o umjetnoj inteligenciji;
 - pravni status planirane udruge i dopušten opseg javne pravne usluge;
+- pravna i porezna osnova kombiniranog modela naplate;
 - potpuna GDPR dokumentacija i evidencija obrade;
 - tehnički gate koji stvarne podatke zadržava izvan vanjskih modela;
 - blokada svih predmeta s mogućim lišenjem slobode;
