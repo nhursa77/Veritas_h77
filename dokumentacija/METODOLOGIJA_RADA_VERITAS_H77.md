@@ -65,6 +65,11 @@ informacija ili predstavlja individualizirani pravni savjet odnosno drugi
 oblik pravne pomoći za koji su propisani poseban status, stručne osobe,
 osiguranje i nadzor.
 
+Planirani model je da udruga prije pružanja individualizirane primarne
+pravne pomoći stekne i dokaže sva potrebna ovlaštenja. Do tada javni sustav
+smije pružati samo opće pravne informacije i raditi sa sintetičkim
+primjerima. Nedostatak dokaza o ovlaštenju je `TVRDI_GATE`.
+
 ### 2.4 Isključeni predmeti i tvrdi gate lišenja slobode
 
 Veritas ne obrađuje kazneno pravo ni kaznene postupke.
@@ -85,7 +90,20 @@ primjenjivim propisima, a ne samo prema nazivu pravne grane. Zato ni oznaka
 Ako mogućnost lišenja slobode nije pouzdano isključena, obrada se zaustavlja
 i predmet se upućuje kvalificiranoj osobi.
 
-### 2.5 Granica pravne analize
+Vlasnik projekta potvrdio je ovaj širi opseg zabrane 18.07.2026.
+
+### 2.5 Lokalnost stvarnih predmeta
+
+Stvarni predmeti i svi podaci koji se mogu povezati s osobom obrađuju se
+isključivo lokalno. Ne smiju se slati ChatGPT-u, Codexu, drugom vanjskom
+modelu ni vanjskom API-ju.
+
+Vanjski modeli smiju dobiti samo sintetičke ili dokazivo nepovratno
+anonimizirane podatke. Pseudonimizacija nije dovoljna. Promjena ove norme
+zahtijeva novu izričitu odluku vlasnika i prethodno zatvaranje svih pravnih,
+ugovornih, tehničkih i sigurnosnih uvjeta.
+
+### 2.6 Granica pravne analize
 
 Veritas ne daje autoritativno tumačenje prava, ne donosi konačnu pravnu
 odluku i ne proglašava zakon ili drugi propis neustavnim.

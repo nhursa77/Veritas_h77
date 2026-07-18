@@ -373,14 +373,17 @@ Ta oznaka nije završna pravna ocjena.
 7. Stvarni predmeti i osobni podaci zasad ostaju u lokalnom okruženju.
    Vanjskom modelu dopušteni su samo sintetički ili nepovratno anonimizirani
    podaci dok se ne zatvore svi pravni, ugovorni i sigurnosni uvjeti.
+8. Planirana udruga treba prije pružanja individualizirane primarne pravne
+   pomoći steći i dokazati status ovlaštenog pružatelja.
+9. Vlasnik je odluke o ovlaštenom pružatelju, zabrani svakog mogućeg lišenja
+   slobode i lokalnosti stvarnih podataka potvrdio 18.07.2026.
 
 ### 9.2 Činjenice koje još treba utvrditi
 
 Prije konačne klasifikacije primjenjivosti moraju se dokumentirati:
 
-1. hoće li planirana udruga biti samo nositelj sustava ili i pružatelj
-   pravne pomoći;
-2. pravni status udruge, statut, ovlaštene osobe i formalno vlasništvo;
+1. pravni status udruge, statut, ovlaštene osobe i formalno vlasništvo;
+2. plan stjecanja statusa ovlaštenog pružatelja primarne pravne pomoći;
 3. stavlja li se sustav na tržište i naplaćuje li se;
 4. dopuštene kategorije korisnika, uključujući odvjetnike i javna tijela;
 5. lokalni, mrežni i oblačni dijelovi obrade;
@@ -401,7 +404,8 @@ Sirovi stvarni predmet, osobni podaci, posebne kategorije podataka i podaci
 o kažnjivim djelima ne smiju se poslati ChatGPT-u, Codexu, drugom API-ju ili
 drugom vanjskom izvršitelju obrade.
 
-Iznimka se smije razmatrati tek kada su dokumentirani i odobreni najmanje:
+Iznimka se smije razmatrati samo nakon nove izričite odluke vlasnika i tek
+kada su dokumentirani i odobreni najmanje:
 
 1. voditelj i izvršitelj obrade te njihove uloge;
 2. svrha, pravna osnova i nužnost svake kategorije podataka;

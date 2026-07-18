@@ -206,7 +206,7 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 
 ### PRI-002 — Stvarni podaci ne izlaze vanjskom modelu
 
-- Snaga: `TVRDI_GATE` dok se ne odobri dokumentirana iznimka.
+- Snaga: `TVRDI_GATE`, potvrđen odlukom vlasnika 18.07.2026.
 - Kanonski zapis:
   - `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.;
   - `INVENTURA_NORMATIVNOG_OKVIRA_AI_SUSTAVA_VERITAS_H77.md`, odjeljak 9.3.
@@ -376,13 +376,15 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
   - `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.3.;
   - inventura, odjeljak 6.6.
 - Provedba: planirana udruga i javni korisnički opseg su evidentirani.
+- Odluka vlasnika: udruga treba steći status ovlaštenog pružatelja prije
+  individualizirane primarne pravne pomoći.
 - Test: ne postoji funkcionalna granica koja razlikuje opću pravnu
   informaciju od individualiziranog pravnog savjeta ili zastupanja.
 - Razina: `D1`.
 - Ocjena: `NEDOVOLJNO_DOKAZA`.
-- Praznina: treba odlučiti hoće li udruga tražiti status ovlaštenog pružatelja
-  primarne pravne pomoći ili će proizvod strogo ostati na općim pravnim
-  informacijama i korisničkoj samopomoći.
+- Praznina: udruga još nije osnovana ni upisana kao ovlašteni pružatelj.
+  Do dokaza tog statusa dopuštene su samo opće pravne informacije i
+  sintetički primjeri.
 
 ---
 
