@@ -355,6 +355,63 @@ te njihove vremenski važeće izmjene.
 Početna ocjena sustava zato je `DJELOMIČNO SUKLADNO / NEDOVOLJNO DOKAZA`.
 Ta oznaka nije završna pravna ocjena.
 
+### 8.1 Dokazane duplikacije normi
+
+1. Ljudska odluka, status nacrta i zabrana samostalnog slanja ponavljaju se
+   u `AGENTS.md`, metodologiji i standardima izlaza.
+2. NN gate ponavlja se u `AGENTS.md`, metodologiji, tehničkom okviru,
+   razvojnim planovima i alatima P7.
+3. Privatnosna zabrana stvarnih predmeta u Gitu postoji u `AGENTS.md`,
+   privatnosnom standardu, validatorima, Git hooku i CI-u.
+4. Audit, manifest i lanac skrbništva uređeni su u više standarda P6–P9.
+
+Te se duplikacije ne uklanjaju mehanički. AI Standard treba sadržavati jednu
+normu i stabilni identifikator, a ostali dokumenti trebaju upućivati na nju
+te zadržati samo profilno ili provedbeno pravilo.
+
+### 8.2 Proturječja i njihov status
+
+1. `zakon.hr` kao operativni ili kontrolni izvor: `RAZRIJEŠENO` 18.07.2026.
+2. Prirodna prava iznad Ustava u pozitivnopravnoj hijerarhiji:
+   `RAZRIJEŠENO` 18.07.2026. razdvajanjem pravnih izvora i interpretativnih
+   mjerila.
+3. Naplatni individualizirani izlaz prije dokazanog statusa pružatelja:
+   `BLOKIRANO` nadređenim gateom 18.07.2026.
+4. Javna namjena svim osobama i početna faza samo za punoljetne fizičke
+   osobe: `RAZRIJEŠENO` kao fazno ograničenje, a ne trajno isključenje.
+5. Strojna procjena "realne šanse" i obvezna ljudska pravna procjena:
+   `OTVORENO`. Automatizirani semafor ne smije postati konačna pravna odluka
+   ni zamijeniti kvalificirani ljudski pregled kada je on potreban.
+
+### 8.3 Zastarjeli i prijelazni artefakti
+
+1. `alati/run_tok_pn_prigovor_v1.ps1` označen je kao `DEPRECATED`; kanonski
+   izvršitelj je `alati/run_tok_v1.ps1`.
+2. Polja `required_nap` i `forbidden_nap` imaju legacy status u auditnom
+   standardu i ne smiju se prenijeti kao poželjni oblik novog registra.
+3. Dokumenti revizije i procjene čišćenja predstavljaju auditni ili
+   neaktivni povijesni trag. Njihove tvrdnje nisu aktivne norme samo zato što
+   su datoteke još prisutne.
+4. Povijesne tvrdnje u append-only dnevniku ne prepisuju kasniju kanonsku
+   odluku. Moraju se čitati uz datum i tadašnje stanje projekta.
+
+Zastarjeli artefakt ne briše se u ovom paketu. U AI Standard ulazi samo
+nakon izričite klasifikacije životnog ciklusa i provjere aktivnih ovisnosti.
+
+### 8.4 Najvažnije nepokrivene norme
+
+Uz praznine iz matrice posebno nedostaju:
+
+- strojni gate dobi, vrste korisnika, teritorija i lišenja slobode;
+- dokaz pravnog statusa udruge i ovlaštenja pružatelja;
+- pravna i porezna kvalifikacija kombiniranog modela naplate;
+- tehnička zabrana slanja stvarnih podataka vanjskim modelima;
+- potpuna evidencija obrade, rokovi čuvanja i procjena učinka;
+- klasifikacija AI uloge i rizika za svaki profil uporabe;
+- strukturirana potvrda ljudskog pregleda prije vanjskog izlaza;
+- postupak incidenta, pritužbe, ispravka i povlačenja izlaza;
+- periodično praćenje svih izmjena vanjskih propisa.
+
 ---
 
 ## 9) Utvrđene i otvorene činjenice o uporabi
@@ -443,3 +500,123 @@ Na temelju ove inventure izrađuju se:
 
 Potpuna sukladnost smije se proglasiti tek nakon zatvaranja svih tvrdih
 gateova i potvrde vlasnika za norme koje zahtijevaju ljudsku odluku.
+
+---
+
+## 11) Kanonska struktura budućeg AI Standarda
+
+### 11.1 Načelo jednog normativnog vrha
+
+`VERITAS_H77_AI_STANDARD.md` treba postati jedini opći normativni dokument
+AI sustava. Ne zamjenjuje Ustav, zakone ni druge vanjske izvore prava.
+Objedinjuje projektna pravila koja određuju kako Veritas dokazuje i provodi
+usklađenost s tim izvorima.
+
+Postojeći kanonski dokumenti ostaju važeći dok se njihova pravila ne
+inventariziraju, razriješe i kontrolirano upute na AI Standard. Pravilo se ne
+smije prepisati u novi dokument ako mu nije određen izvor, odnos prema
+postojećem pravilu i dokaz provedbe.
+
+### 11.2 Obvezna poglavlja AI Standarda
+
+1. status dokumenta, vlasnik norme, verzija i datum primjene;
+2. svrha, namjena, korisnici i teritorijalni opseg;
+3. definicije, kontrolirani rječnik i dopuštene uloge;
+4. hijerarhija vanjskih izvora i kanon NN dokazivanja;
+5. dopuštene i zabranjene uporabe;
+6. kvalifikacija uloga i rizika prema propisima o umjetnoj inteligenciji;
+7. ljudski nadzor, odobrenje, potpis i zabrana samostalnog slanja;
+8. pravila osobnih podataka, lokalnosti, čuvanja i brisanja;
+9. informacijska i kibernetička sigurnost;
+10. potpuni normativni paket svakog pravnog modula i predmeta;
+11. neovisnost o modelu, dobavljaču i korisničkom sučelju;
+12. kontrola ulaza, izvora, sidara, zaključaka i izlaza;
+13. nediskriminacija, pristupačnost i zaštita ranjivih osoba;
+14. transparentnost prema korisniku i pravo na ljudski pregled;
+15. audit, integritet, manifest, podrijetlo i lanac skrbništva;
+16. pružatelj pravne pomoći, naplata i zaštita potrošača;
+17. testiranje, validacija, promjene i izdavanje verzija;
+18. incidenti, pritužbe, ispravci, povlačenje i pravni lijek korisnika;
+19. praćenje izmjena propisa i obvezna ponovna procjena;
+20. dokazni paket sukladnosti i pravilo dopuštenih tvrdnji o sukladnosti.
+
+### 11.3 Strojno čitljivi registar normi
+
+Svaka pojedinačna norma treba imati stabilni identifikator i najmanje:
+
+- naziv, područje, snagu i status primjenjivosti;
+- vanjski pravni izvor, članak, vremensku verziju i dokazno sidro;
+- interni izvor i odgovornu ljudsku ulogu;
+- uvjete aktiviranja i iznimke;
+- provedbeni gate, validator, test i CI korak;
+- potreban dokaz ljudske odluke;
+- trenutačnu razinu dokaza `D0` do `D5`;
+- datum posljednje i sljedeće provjere;
+- veze na zamijenjenu, proturječnu ili izvedenu normu.
+
+Registar nije dokaz sukladnosti sam po sebi. Njegova je svrha učiniti
+vidljivim koja je norma samo zapisana, a koja je stvarno provedena i
+dokazana.
+
+### 11.4 Profili uporabe i pravnih modula
+
+Opći AI Standard ne smije sadržavati sve članke svih zakona. Za svaki modul
+i način uporabe izrađuje se profil koji aktivira primjenjive norme i potpuni
+paket materijalnih, postupovnih, izvršnih, prijelaznih i provedbenih izvora.
+
+Početni profili su:
+
+- javna opća pravna informacija za punoljetnu fizičku osobu;
+- lokalna obrada dopuštenog stvarnog predmeta;
+- prekršajni predmet bez moguće mjere lišenja slobode;
+- upravni ili upravnosudski predmet bez moguće mjere lišenja slobode;
+- interna uporaba AI agenata za razvoj i provjeru Veritasa.
+
+Svaki profil mora imati vlastite ulazne gateove, zabranjene uporabe, pravne
+izvore, testove i dokaze ljudskog odobrenja.
+
+### 11.5 Provedbeni i dokazni sloj
+
+Normativni dokument opisuje obvezu. Provedbeni sloj čine sheme, validatori,
+alati, Git zaštite i CI. Dokazni sloj čine zapis provjere, audit, manifest,
+odluka čovjeka i rezultat negativnog testa.
+
+Redoslijed je obvezan:
+
+`vanjski izvor → norma → profil → gate → provedba → test → dokaz → odluka`
+
+Ako bilo koja obvezna veza nedostaje, norma nije potpuno dokazana.
+
+### 11.6 Hijerarhija internih artefakata
+
+Predloženi red prvenstva je:
+
+1. AI Standard kao opći normativni okvir sustava;
+2. metodologija rada kao opći operativni postupak;
+3. profil uporabe ili pravnog modula;
+4. specijalizirani standard artefakta ili toka;
+5. JSON shema i strojno čitljivi ugovor;
+6. alat, validator, test i CI konfiguracija;
+7. audit i dokaz konkretnog izvršenja.
+
+`AGENTS.md` treba postati izvedbeni profil AI agenata koji sažima samo norme
+potrebne agentu. Ne smije biti jedino mjesto na kojem postoji materijalna
+norma sustava.
+
+Niži artefakt ne smije mijenjati višu normu. Ako tehnička provedba i tekst
+norme nisu jednaki, stanje je `PROTURJEČJE`, a ne prešutna iznimka.
+
+### 11.7 Migracija bez prekida kanona
+
+AI Standard nastaje tek nakon što svako preuzeto pravilo dobije oznaku:
+
+- `PREUZETO_BEZ_IZMJENE`;
+- `KONSOLIDIRANO`;
+- `IZMIJENJENO_ODLUKOM`;
+- `ZASTARJELO`;
+- `PROTURJEČJE_OTVORENO`;
+- `IZVAN_OPSEGA`.
+
+Dok migracija nije završena, postojeći kanonski dokument zadržava snagu.
+Novi AI Standard ne smije se proglasiti kanonskim ako postoji neriješeno
+proturječje koje utječe na tvrdi gate ili vanjski izlaz.
