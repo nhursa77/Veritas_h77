@@ -1,6 +1,6 @@
 # STANDARD JSON — SUBSUMPCIJA (v1)
 
-Datum: 20.02.2026.
+Datum: 17.07.2026.
 
 Ovaj standard definira jedini dopušteni format subsumcijskog zapisa u predmetu.
 Subsumcija je provjera elemenata bića prekršaja kroz vezu:
@@ -41,6 +41,10 @@ Pravila statusa:
 - `N/A` se koristi samo ako se element ne primjenjuje u tom toku, uz kratko
   obrazloženje u `obrazlozenje`.
 - Nijedan element ne smije ostati bez statusa.
+- U predmetu je `dokaz_ref` kanonska relativna putanja pod mapom
+  `predmeti/sud/prekrsajni/<PREDMET_ID>/dokazi/` istog predmeta.
+- Vrijednosti pod `fixture/` dopuštene su samo u izoliranim testnim
+  scenarijima. P8 ih ne prihvaća kao dokazni artefakt.
 
 ## 4. Minimalni primjer (struktura)
 

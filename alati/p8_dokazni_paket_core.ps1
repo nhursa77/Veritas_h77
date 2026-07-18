@@ -203,6 +203,7 @@ function Get-P8ExpectedArtifacts {
     param(
         [Parameter(Mandatory = $true)] $Procedure,
         [Parameter(Mandatory = $true)][string] $ProcedureRef,
+        [Parameter(Mandatory = $true)] $Subsumcija,
         [Parameter(Mandatory = $true)] $Context
     )
 
@@ -242,6 +243,40 @@ function Get-P8ExpectedArtifacts {
             Ref = [string]$Procedure.ulazi.subsumcija_ref
             Scope = "Subject"
         })
+
+    $seenEvidenceRefs = [System.Collections.Generic.HashSet[string]]::new(
+        [System.StringComparer]::OrdinalIgnoreCase
+    )
+    $evidenceIndex = 0
+    foreach ($element in @($Subsumcija.elementi_bica)) {
+        $evidenceRef = [string]$element.dokaz_ref
+        if ([string]::IsNullOrWhiteSpace($evidenceRef)) {
+            continue
+        }
+
+        $expandedEvidenceRef = Expand-VeritasSubjectReference `
+            -PathRef $evidenceRef `
+            -Context $Context
+        $evidencePrefix = "$($Context.SubjectRef)/dokazi/"
+        if (-not $expandedEvidenceRef.StartsWith(
+                $evidencePrefix,
+                [System.StringComparison]::OrdinalIgnoreCase
+            ) -or $expandedEvidenceRef.Length -le $evidencePrefix.Length) {
+            throw "P8_DOKAZ_REF_NOT_CANONICAL=$expandedEvidenceRef"
+        }
+        if (-not $seenEvidenceRefs.Add($expandedEvidenceRef)) {
+            continue
+        }
+
+        $evidenceIndex++
+        $specs.Add([pscustomobject]@{
+                Id = "dokaz_{0:D3}" -f $evidenceIndex
+                Role = "DOKAZ"
+                Ref = $expandedEvidenceRef
+                Scope = "Subject"
+            })
+    }
+
     $specs.Add([pscustomobject]@{
             Id = "audit_generated"
             Role = "AUDIT_GENERATED"

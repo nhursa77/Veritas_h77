@@ -7,8 +7,8 @@ Status: KANON za P8 prvog toka u javnom i lokalnom režimu
 ## 1. Svrha
 
 Ovaj standard određuje dokazni paket P8 za prekršajni tok. Paket povezuje
-ulaze, pravna sidra, postupak, predložak, generirani audit i P7 nacrt pomoću
-SHA-256 sažetaka.
+ulaze, referencirane dokaze, pravna sidra, postupak, predložak, generirani
+audit i P7 nacrt pomoću SHA-256 sažetaka.
 
 P8 dokazuje identitet i integritet uključenih bajtova. Ne dokazuje pravnu
 točnost, ne zamjenjuje ljudski pregled, ne potpisuje dokument i ne odobrava
@@ -61,14 +61,22 @@ Manifest ih navodi ovim redom:
 1. `predmet` — `predmet_ref`;
 2. `intake` — `intake_ref`;
 3. `subsumcija` — `subsumcija_ref`;
-4. `audit_generated` — `audit_ref`;
-5. `postupak` — aktivni `postupak.json`;
-6. `predlozak` — `predlozak_ref`;
-7. `norma_001`, `norma_002`, ... — svaki član `norma_refs` istim redom;
-8. `nacrt` — `nacrt_ref`.
+4. `dokaz_001`, `dokaz_002`, ... — svaka jedinstvena neprazna referenca iz
+   `elementi_bica[].dokaz_ref`, redom prvog pojavljivanja;
+5. `audit_generated` — `audit_ref`;
+6. `postupak` — aktivni `postupak.json`;
+7. `predlozak` — `predlozak_ref`;
+8. `norma_001`, `norma_002`, ... — svaki član `norma_refs` istim redom;
+9. `nacrt` — `nacrt_ref`.
 
-Za prvi tok to je točno deset artefakata. Direktorij nije artefakt i ne
-hashira se kao zamjena za pojedinačnu datoteku.
+Prvi tok ima deset osnovnih artefakata i po jedan dodatni artefakt za svaku
+jedinstvenu referenciranu dokaznu datoteku. Ogledni predmet zato ima ukupno
+jedanaest artefakata. Direktorij nije artefakt i ne hashira se kao zamjena
+za pojedinačnu datoteku.
+
+Dokazna referenca mora biti kanonska relativna putanja unutar mape
+`predmeti/sud/prekrsajni/<PREDMET_ID>/dokazi/` aktivnog predmeta. Fixture
+referenca dopuštena u testnoj subsumpciji nije dopuštena kao P8 artefakt.
 
 Svaki zapis sadrži:
 
@@ -140,6 +148,7 @@ ni jedan P8 izlaz ako vrijedi bilo što od sljedećeg:
 
 - tok, verzija ili vrsta predmeta nisu dopušteni u v1;
 - nedostaje bilo koji obavezni artefakt;
+- nedostaje ili je izvan predmetne mape bilo koji referencirani dokaz;
 - identitet predmeta, intakea, subsumpcije ili audita nije usklađen;
 - audit je blokiran ili nema sva puna pravna sidra iz postupka;
 - P7 nacrt ne prolazi svoj validator;

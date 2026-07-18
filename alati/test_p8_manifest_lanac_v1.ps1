@@ -13,11 +13,22 @@ $verzija = "v1"
 $subjectRoot = Join-Path $repoRoot (
     "predmeti\sud\prekrsajni\OGLEDNI_PREDMET_0001"
 )
+$subsumcijaPath = Join-Path $subjectRoot "audit\subsumcija_v1.json"
+$evidencePath = Join-Path $subjectRoot (
+    "dokazi\IZMISLJENI_PREKRSAJNI_NALOG.txt"
+)
 $auditPath = Join-Path $subjectRoot "audit\audit_generated_v1.json"
 $draftPath = Join-Path $subjectRoot "izlazi\nacrt_prigovor_pn_v1.txt"
 $manifestPath = Join-Path $subjectRoot "manifest.json"
 $chainPath = Join-Path $subjectRoot "lanac_skrbnistva.json"
-$runtimePaths = @($auditPath, $draftPath, $manifestPath, $chainPath)
+$runtimePaths = @(
+    $subsumcijaPath,
+    $evidencePath,
+    $auditPath,
+    $draftPath,
+    $manifestPath,
+    $chainPath
+)
 
 $auditGenerator = Join-Path $PSScriptRoot "generiraj_audit_prekrsaji_v1.ps1"
 $p7Runner = Join-Path $PSScriptRoot "run_tok_v1.ps1"
@@ -148,17 +159,32 @@ try {
     $chain = Get-Content -LiteralPath $chainPath -Raw -Encoding UTF8 |
         ConvertFrom-Json
     Assert-P8Test `
-        -Condition (@($manifest.artefakti).Count -eq 10) `
-        -Reason "Manifest nema 10 artefakata"
+        -Condition (@($manifest.artefakti).Count -eq 11) `
+        -Reason "Manifest nema 11 artefakata"
+    $evidenceArtifacts = @(
+        $manifest.artefakti | Where-Object { [string]$_.uloga -eq "DOKAZ" }
+    )
+    Assert-P8Test `
+        -Condition (
+            $evidenceArtifacts.Count -eq 1 -and
+            [string]$evidenceArtifacts[0].putanja -eq (
+                "predmeti/sud/prekrsajni/OGLEDNI_PREDMET_0001/" +
+                "dokazi/IZMISLJENI_PREKRSAJNI_NALOG.txt"
+            ) -and
+            [string]$evidenceArtifacts[0].sha256 -eq (
+                (Get-FileHash -LiteralPath $evidencePath -Algorithm SHA256).Hash
+            )
+        ) `
+        -Reason "Manifest nema očekivani hash referenciranog dokaza"
     Assert-P8Test `
         -Condition (@($chain.dogadaji).Count -eq 2) `
         -Reason "Lanac nema dva obavezna događaja"
     Write-Host "P8_TEST_SCENARIO=positive RESULT=OK"
 
-    $draftBytes = [System.IO.File]::ReadAllBytes($draftPath)
+    $evidenceBytes = [System.IO.File]::ReadAllBytes($evidencePath)
     $utf8 = [System.Text.UTF8Encoding]::new($false)
     [System.IO.File]::AppendAllText(
-        $draftPath,
+        $evidencePath,
         "`nNEOVLASTENA_IZMJENA=P8_TEST`n",
         $utf8
     )
@@ -169,12 +195,12 @@ try {
         -Condition (
             $tamperResult.ExitCode -ne 0 -and
             $tamperResult.Text.Contains(
-                "P8_ARTIFACT_SIZE_MISMATCH=nacrt"
+                "P8_ARTIFACT_SIZE_MISMATCH=dokaz_001"
             )
         ) `
-        -Reason "Izmijenjeni nacrt nije srušio P8 validator"
-    Assert-P8OutputsAbsent -Scenario "Izmijenjeni nacrt"
-    [System.IO.File]::WriteAllBytes($draftPath, $draftBytes)
+        -Reason "Izmijenjeni dokaz nije srušio P8 validator"
+    Assert-P8OutputsAbsent -Scenario "Izmijenjeni dokaz"
+    [System.IO.File]::WriteAllBytes($evidencePath, $evidenceBytes)
     Write-Host "P8_TEST_SCENARIO=tampered_artifact RESULT=STOP_OK"
 
     $staleResult = Invoke-P8TestScript `
@@ -183,8 +209,8 @@ try {
     Assert-P8Test `
         -Condition ($staleResult.ExitCode -eq 0) `
         -Reason "P8 se nije obnovio prije testa nestalog artefakta"
-    $draftBytes = [System.IO.File]::ReadAllBytes($draftPath)
-    Remove-Item -LiteralPath $draftPath -Force
+    $evidenceBytes = [System.IO.File]::ReadAllBytes($evidencePath)
+    Remove-Item -LiteralPath $evidencePath -Force
     $missingResult = Invoke-P8TestScript `
         -ScriptPath $p8Generator `
         -Arguments $commonArgs
@@ -193,9 +219,9 @@ try {
             $missingResult.ExitCode -ne 0 -and
             $missingResult.Text.Contains("P8_ARTIFACT_MISSING=")
         ) `
-        -Reason "Nestali artefakt nije zaustavio P8 generator"
-    Assert-P8OutputsAbsent -Scenario "Nestali artefakt"
-    [System.IO.File]::WriteAllBytes($draftPath, $draftBytes)
+        -Reason "Nestali dokaz nije zaustavio P8 generator"
+    Assert-P8OutputsAbsent -Scenario "Nestali dokaz"
+    [System.IO.File]::WriteAllBytes($evidencePath, $evidenceBytes)
     Write-Host "P8_TEST_SCENARIO=missing_artifact RESULT=STOP_OK"
 
     $staleResult = Invoke-P8TestScript `
@@ -229,6 +255,33 @@ try {
     [System.IO.File]::WriteAllBytes($auditPath, $auditBytes)
     Write-Host "P8_TEST_SCENARIO=identity_mismatch RESULT=STOP_OK"
 
+    $subsumcijaBytes = [System.IO.File]::ReadAllBytes($subsumcijaPath)
+    $subsumcija = Get-Content `
+        -LiteralPath $subsumcijaPath `
+        -Raw `
+        -Encoding UTF8 | ConvertFrom-Json
+    $subsumcija.elementi_bica[0].dokaz_ref = (
+        "fixture/P8_NOT_CANONICAL/dokaz"
+    )
+    $subsumcijaJson = $subsumcija | ConvertTo-Json -Depth 100
+    [System.IO.File]::WriteAllText(
+        $subsumcijaPath,
+        $subsumcijaJson + "`n",
+        $utf8
+    )
+    $unsafeResult = Invoke-P8TestScript `
+        -ScriptPath $p8Generator `
+        -Arguments $commonArgs
+    Assert-P8Test `
+        -Condition (
+            $unsafeResult.ExitCode -ne 0 -and
+            $unsafeResult.Text.Contains("P8_DOKAZ_REF_NOT_CANONICAL=")
+        ) `
+        -Reason "Nekanonski dokaz_ref nije zaustavio P8 generator"
+    Assert-P8OutputsAbsent -Scenario "Nekanonski dokaz_ref"
+    [System.IO.File]::WriteAllBytes($subsumcijaPath, $subsumcijaBytes)
+    Write-Host "P8_TEST_SCENARIO=unsafe_evidence_ref RESULT=STOP_OK"
+
     $finalResult = Invoke-P8TestScript `
         -ScriptPath $p8Generator `
         -Arguments $commonArgs
@@ -240,7 +293,7 @@ try {
         -Reason "P8 završni kontrolni prolaz nije uspio"
 
     Write-Host "P8_TEST_POSITIVE=1"
-    Write-Host "P8_TEST_NEGATIVE=3"
+    Write-Host "P8_TEST_NEGATIVE=4"
     Write-Host "P8_TEST_RESULT=OK"
     $finalExit = 0
 }

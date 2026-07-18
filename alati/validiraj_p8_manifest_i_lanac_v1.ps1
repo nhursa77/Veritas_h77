@@ -86,13 +86,24 @@ try {
         -Path $procedureResolved.Path `
         -Name "postupak" `
         -Reference $procedureResolved.Ref
+    if ($null -eq $procedure.PSObject.Properties["ulazi"] -or
+        $null -eq $procedure.ulazi.PSObject.Properties["subsumcija_ref"]) {
+        throw "POSTUPAK_INPUT_REF_MISSING=subsumcija_ref"
+    }
+    $subsumcijaResolved = Resolve-P8Reference `
+        -PathRef ([string]$procedure.ulazi.subsumcija_ref) `
+        -Context $pathContext `
+        -ExpectedScope Subject
+    $subsumcija = Read-P8Json `
+        -Path $subsumcijaResolved.Path `
+        -Name "subsumcija" `
+        -Reference $subsumcijaResolved.Ref
+
     $expected = Get-P8ExpectedArtifacts `
         -Procedure $procedure `
         -ProcedureRef $procedureResolved.Ref `
+        -Subsumcija $subsumcija `
         -Context $pathContext
-    if ($expected.Count -ne 10) {
-        throw "P8_ARTIFACT_COUNT_INVALID"
-    }
 
     $manifest = Read-P8Json `
         -Path $manifestResolved.Path `
@@ -256,7 +267,7 @@ try {
     $expectedActions = @("ULAZI_PROVJERENI", "MANIFEST_ZAPISAN")
     $expectedProofs = @($rootHash, $manifestHash)
     $expectedDetails = @(
-        "Provjereno 10 artefakata P7 lanca.",
+        "Provjereno $($expected.Count) artefakata dokaznog lanca.",
         "Manifest zapisan i vezan uz lanac skrbništva."
     )
     $previousHash = "0" * 64

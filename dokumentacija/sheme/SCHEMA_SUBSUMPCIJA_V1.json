@@ -35,7 +35,10 @@
         "properties": {
           "naziv_elementa": { "type": "string" },
           "cinjenica_ref": { "type": "string" },
-          "dokaz_ref": { "type": "string" },
+          "dokaz_ref": {
+            "type": "string",
+            "pattern": "^(|fixture/[A-Za-z0-9_./-]+|predmeti/sud/prekrsajni/[A-Z0-9_]+/dokazi/[A-Za-z0-9_./-]+)$"
+          },
           "obrazlozenje": { "type": "string" },
           "status": {
             "type": "string",
