@@ -1,17 +1,17 @@
 # STATUS_PROJEKTA_VERITAS_H77
 
-Datum: 17.07.2026.
+Datum: 18.07.2026.
 
 ## Aktualni upravljački sažetak
 
-- Kanonski objavljeni HEAD prije ZADATKA 180: `406d938` na grani `main`.
-- `main` je pri početnoj provjeri ZADATKA 180 bio poravnat s `origin/main`.
+- Kanonski objavljeni HEAD prije ZADATKA 181: `5e0349d` na grani `main`.
+- `main` je pri početnoj provjeri ZADATKA 181 bio poravnat s `origin/main`.
 - Aktivna radna grana:
-  `codex/p9-sinteticka-generalna-proba`.
-- Lokalna generalna proba s potpuno izmišljenim nalogom potvrdila je
-  tehnički P9 prolaz i privatnost, ali ne i spremnost za stvarni predmet.
-- Puni `alati/ci_smoke.ps1` potvrđen je 17.07.2026. s rezultatom
-  `CI_SMOKE_EXIT=0` za paket ZADATKA 180.
+  `codex/p9-dokazna-proceduralna-potpunost`.
+- ZADATAK 181 zatvara tri tehničke praznine generalne probe: pravni lijek,
+  vezu referenciranog dokaza s P8 manifestom i identitet akta u P7 nacrtu.
+- Puni `alati/ci_smoke.ps1` potvrđen je 18.07.2026. s rezultatom
+  `CI_SMOKE_EXIT=0` za paket ZADATKA 181.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
   provjerenom podkoraku, sigurnosni push približno svakih pet commitova te
   jedan završni push i draft pull request po paketu.
@@ -52,12 +52,12 @@ odobren.
   nacrt.
 - P7 negativni testovi dokazuju da blokirani audit, nepotpuno NN sidro,
   nedostajuće obvezno polje ili nepodudaran identitet ne stvaraju nacrt.
-- P8 manifest veže deset artefakata P7 lanca njihovim stvarnim SHA-256
-  sažecima i veličinama bajtova.
+- P8 manifest veže deset osnovnih artefakata P7 lanca i svaki jedinstveni
+  referencirani dokaz njihovim stvarnim SHA-256 sažecima i veličinama.
 - P8 lanac skrbništva veže hash manifesta, korijenski sažetak artefakata i
   dva obavezna događaja u provjerljiv događajni hash-lanac.
-- P8 negativni testovi dokazuju da izmijenjen nacrt, nestali artefakt ili
-  pogrešan identitet uklanjaju i manifest i lanac skrbništva.
+- P8 negativni testovi dokazuju da izmijenjen ili nestao dokaz, nekanonska
+  dokazna referenca ili pogrešan identitet uklanjaju manifest i lanac.
 - P9 uvodi punu shemu predmeta i strogo odvaja javni sintetički od lokalnog
   povjerljivog režima.
 - Stvarni predmeti dopušteni su samo pod `VERITAS_LOCAL_DATA_ROOT` izvan
@@ -89,9 +89,9 @@ odobren.
   za valjane sintetičke ulaze.
 - Ista proba potvrđuje skriven fizički korijen, nepromijenjeno Git stanje,
   obavezan ljudski pregled te izričito nepotpisan i neposlan izlaz.
-- Ljudski pregled razlikuje tehnički prolaz od pravne spremnosti: dokaz nije
-  vezan u manifest, pravni lijek je prazan, a nacrt nema broj ni ključne
-  datume akta.
+- ZADATAK 181 povezuje rok i preporučeni pravni lijek s provjerenim izvorima,
+  uključuje referencirani dokaz u P8 manifest te u nacrt prenosi vrstu, broj,
+  datum i datum dostave osporavanog akta.
 - Preostala tri ogledna proceduralna toka ostaju strukturni kosturi bez P7
   nacrta dok ne dobiju vlastite ulaze i puna pravna sidra.
 - Aktivni prekršajni CI lanac koristi PowerShell 7, a ključne skripte
@@ -112,12 +112,6 @@ odobren.
   toka još nemaju vlastite ulaze, pravna sidra ni stvarne P7 nacrte.
 - Operativni NORMA JSON skupovi nisu potpuno usklađeni sa svim obaveznim
   poljima vlastitog standarda.
-- Referencirani dokaz iz subsumpcije nije među deset artefakata P8 manifesta
-  i zato mu manifest ne dokazuje sadržaj, veličinu ni SHA-256 sažetak.
-- `preporuceni_pravni_lijek` može proći s četiri prazna polja, pa P7 ne
-  dokazuje stvarno odabran pravni put.
-- Tehnički P7 nacrt ne prenosi broj akta, datum akta ni datum dostave i još
-  nije sadržajno spreman za ljudsku pravnu odluku.
 - Trajni korijen i početak rada na konkretnom stvarnom predmetu nisu ljudski
   odobreni.
 - Automatizirani P9 pregled traži visokopouzdane obrasce, ali nije dokaz da
@@ -126,16 +120,12 @@ odobren.
 
 ### Sljedeća potrebna odluka
 
-Prije odluke o stvarnom predmetu vlasnik treba odobriti sljedeći tehnički
-paket koji mora:
+Prije odluke o stvarnom predmetu slijedi zaseban paket normiranja AI sustava
+Veritas H.77. Paket najprije inventarizira postojeće norme, određuje njihovu
+hijerarhiju i razrješava proturječja bez prepisivanja postojećeg kanona.
 
-1) uključiti svaki referencirani dokaz u manifest i njegov hash-lanac;
-2) proizvesti i strogo provjeriti popunjen preporučeni pravni lijek;
-3) proširiti nacrt provjerenim identitetom akta i potrebnim datumima;
-4) dokazati pozitivne i negativne sintetičke scenarije bez stvarnih podataka.
-
-Tek nakon zatvaranja tog paketa slijedi zasebna ljudska odluka o lokalnom
-korijenu, minimalnim podacima i početku konkretnog stvarnog predmeta.
+Početak konkretnog stvarnog predmeta, izbor lokalnog korijena i minimalni
+skup osobnih podataka ostaju zasebna ljudska odluka nakon tog rada.
 
 ### Pravilo odlučivanja
 
@@ -157,11 +147,11 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `406d938` - Merge pull request #10 from
-  nhursa77/codex/p9-ugovor-subsumcije
+- Polazni HEAD prije zadatka: `5e0349d` - Merge pull request #11 from
+  nhursa77/codex/p9-sinteticka-generalna-proba
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat s origin/main
-- Zadnji dovršeni zadatak: ZADATAK 180
+- Zadnji dovršeni zadatak: ZADATAK 181
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -1109,3 +1099,19 @@ Pre-check snapshot sinkronizacije:
   popunjeno polje, a nacrt ne sadrži broj ni ključne datume akta.
 - Stvarni predmet zato ostaje blokiran. Proba nije koristila stvarne osobne
   podatke, a njezin lokalni sadržaj nije dodan u repozitorij.
+
+### Dokazna i proceduralna potpunost prvog toka (ZADATAK 181)
+
+- Audit sada izvodi popunjen rok i preporučeni pravni lijek iz provjerenih
+  činjeničnih i normativnih izvora te odbija nedokazano popunjavanje.
+- P8 manifest uz deset osnovnih artefakata uključuje svaki jedinstveni dokaz
+  referenciran u subsumpciji, s veličinom i stvarnim SHA-256 sažetkom.
+- Nekanonska, nestala ili naknadno izmijenjena dokazna datoteka tvrdo blokira
+  P8 i uklanja manifest i lanac skrbništva.
+- P7 predložak i validator zahtijevaju vrstu, broj, datum i datum dostave
+  osporavanog akta iz `predmet.akt`; prazni broj akta ne proizvodi nacrt.
+- Ciljani P7, P8 i P9 testovi prošli su, a puni `alati/ci_smoke.ps1` završio
+  je s `CI_SMOKE_EXIT=0`, uključujući 24 audit scenarija i 179 Markdown
+  datoteka.
+- Korišteni su samo sintetički podaci. Stvarni predmet nije otvoren, ništa
+  nije potpisano ni poslano, a ljudski pregled ostaje obavezan.
