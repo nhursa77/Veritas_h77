@@ -250,6 +250,13 @@ try {
             "audit/audit_generated_v1.json",
         "IZVOR=predmet.sud_naziv",
         "VRIJEDNOST=Ogledni prekršajni sud",
+        "IZVOR=predmet.akt.vrsta",
+        "VRIJEDNOST=prekrsajni_nalog",
+        "IZVOR=predmet.akt.broj",
+        "VRIJEDNOST=SINTETICKI_PN_0001",
+        "IZVOR=predmet.akt.datum",
+        "IZVOR=predmet.akt.datum_dostave",
+        "VRIJEDNOST=20.02.2026.",
         "IZVOR=intake.opis_dogadaja",
         "traži uvid u dokaz",
         "clanak_0235.json",
@@ -309,6 +316,22 @@ try {
         -Result $missingFieldResult `
         -ExpectedReason "template.required_missing"
     Write-Host "P7_TEST_CASE=required_field_no_output RESULT=OK"
+
+    Set-BytesFileWithRetry -Path $predmetPath -Bytes ([byte[]]$backupPredmet.Bytes)
+    $missingActPredmet = Get-Content `
+        -LiteralPath $predmetPath `
+        -Raw `
+        -Encoding UTF8 | ConvertFrom-Json
+    $missingActPredmet.akt.broj = $null
+    Set-JsonFileWithRetry -Path $predmetPath -Document $missingActPredmet
+    Set-StaleOutput
+    $missingActResult = Invoke-ChildScript `
+        -Script $runnerScript `
+        -Arguments @("-Tok", $tok, "-PredmetId", $predmetId, "-Verzija", "v1")
+    Assert-StopWithoutOutput `
+        -Result $missingActResult `
+        -ExpectedReason "template.required_missing"
+    Write-Host "P7_TEST_CASE=missing_act_identity_no_output RESULT=OK"
 
     Set-BytesFileWithRetry -Path $predmetPath -Bytes ([byte[]]$backupPredmet.Bytes)
     $mismatchAudit = (

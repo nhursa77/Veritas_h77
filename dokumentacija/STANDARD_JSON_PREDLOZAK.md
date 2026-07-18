@@ -46,6 +46,8 @@ Pravila:
 - `izvor` je samo referenca. Predložak ne sadrži vrijednosti.
 - Ako je `obavezno=true` i izvor se ne može razriješiti, generiranje nacrta
   mora biti blokirano (gate) uz razlog.
+- Predložak prvog P7 toka obavezno mapira vrstu, broj, datum i datum dostave
+  osporavanog akta iz `predmet.akt`.
 
 ## 4. Mapiranje
 

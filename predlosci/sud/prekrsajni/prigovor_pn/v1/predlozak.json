@@ -21,6 +21,36 @@
       ]
     },
     {
+      "id": "akt",
+      "naslov": "Identitet osporavanog akta",
+      "polja": [
+        {
+          "id": "akt_vrsta",
+          "label": "Vrsta akta",
+          "izvor": "predmet.akt.vrsta",
+          "obavezno": true
+        },
+        {
+          "id": "akt_broj",
+          "label": "Broj akta",
+          "izvor": "predmet.akt.broj",
+          "obavezno": true
+        },
+        {
+          "id": "akt_datum",
+          "label": "Datum akta",
+          "izvor": "predmet.akt.datum",
+          "obavezno": true
+        },
+        {
+          "id": "akt_datum_dostave",
+          "label": "Datum dostave",
+          "izvor": "predmet.akt.datum_dostave",
+          "obavezno": true
+        }
+      ]
+    },
+    {
       "id": "intake",
       "naslov": "Cilj, osporavanja i opis događaja",
       "polja": [
@@ -67,6 +97,26 @@
       {
         "polje_id": "sud_naziv",
         "izvor": "predmet.sud_naziv",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "akt_vrsta",
+        "izvor": "predmet.akt.vrsta",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "akt_broj",
+        "izvor": "predmet.akt.broj",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "akt_datum",
+        "izvor": "predmet.akt.datum",
+        "transformacija": "none"
+      },
+      {
+        "polje_id": "akt_datum_dostave",
+        "izvor": "predmet.akt.datum_dostave",
         "transformacija": "none"
       },
       {
