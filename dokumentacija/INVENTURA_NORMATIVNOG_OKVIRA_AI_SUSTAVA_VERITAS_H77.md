@@ -278,7 +278,8 @@ je njegov tehnički tok izvršiv.
 1. Ljudska odluka, zabrana samostalnog slanja i potpisna kontrola zapisane
    su u više kanonskih dokumenata.
 2. NN gate postoji u dokumentaciji i dijelu aktivnog prekršajnog toka.
-3. Uloga `zakon.hr` nije jednako opisana u svim kanonskim dokumentima.
+3. Uloga `zakon.hr` usklađena je 18.07.2026.: NN je dokazni izvor, Veritasov
+   izvedeni tekst operativni sloj, a `zakon.hr` kontrolni izvor.
 4. Privatnost ima dokument, validator, negativne testove, Git hook i CI gate.
 5. Osam od devet korijenskih JSON shema nema izričitu zabranu dodatnih polja.
 6. Generički schema-driven validator ne provodi `additionalProperties`.

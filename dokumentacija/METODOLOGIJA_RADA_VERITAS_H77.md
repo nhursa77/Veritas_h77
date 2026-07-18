@@ -101,14 +101,15 @@ i relevantni paktovi)
 
 Veritas razlikuje:
 
-- **primarni izvor teksta** (dokazni i operativni tekst),
+- **primarni dokazni skup** (izvorni akt i sve objavljene izmjene u NN),
+- **izvedeni operativni tekst** (Veritasov konsolidirani radni tekst),
 - **backup/kontrolni izvor** (opcionalni pomoćni izvor).
 
 ### 5.1 Primarni izvor: Narodne novine
 
 Narodne novine su obavezni primarni izvor za:
 
-- operativni tekst,
+- izvorni tekst akta,
 - službenu objavu propisa,
 - izmjene i dopune,
 - datume i brojeve objave,
@@ -126,12 +127,23 @@ Ako NN izvor nije arhiviran i hashiran:
 - `status_sidra = "nema"`,
 - vanjski izlaz je zabranjen.
 
-### 5.2 Backup i kontrola: zakon.hr (opcijski)
+### 5.2 Izvedeni operativni tekst
+
+Veritas izrađuje operativni pročišćeni tekst iz validiranog i potpunog skupa
+NN objava izvornog akta te svih izmjena i dopuna do stanja na dan.
+
+Taj tekst je interni radni proizvod Veritasa. Nema status službenog
+pročišćenog teksta, osim kada nadležno tijelo izričito objavi takav tekst.
+
+Prije normiranja operativni tekst uspoređuje se s kontrolnim pročišćenim
+tekstom kada je on dostupan. Usporedba ne mijenja dokazno prvenstvo NN skupa.
+
+### 5.3 Backup i kontrola: zakon.hr (opcijski)
 
 zakon.hr je opcionalan backup/kontrolni izvor za tehničku usporedbu.
 Nije dio obaveznog primarnog toka i ne može zamijeniti NN arhivu.
 
-### 5.3 Pravilo sukoba
+### 5.4 Pravilo sukoba
 
 Ako postoji razlika između pomoćnog izvora i službene objave:
 
@@ -139,7 +151,10 @@ Ako postoji razlika između pomoćnog izvora i službene objave:
 - zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu
    o odstupanju.
 
-### 5.4 Sinkronizacija repozitorija i kopija
+Nesklad se razrješava ponovnom provjerom izvornog akta i pojedinačnih NN
+izmjena. Veritas ne preuzima automatski ni kontrolni ni izvedeni tekst.
+
+### 5.5 Sinkronizacija repozitorija i kopija
 
 GitHub repozitorij je kanonski izvor istine projekta.
 Lokalna mapa `C:\Veritas_H77` je jedina radna kopija za razvoj.
@@ -294,7 +309,8 @@ dokumentom.
 - norma (NORMA JSON): strukturirani zapis članka propisa s izvorima i sidrima.
 - postupak/procedura (PROCEDURA JSON): strukturirani zapis koraka postupanja.
 - sidro (Narodne novine): službena referenca objave propisa ili izmjene.
-- operativni izvor (pročišćeni tekst, npr. zakon.hr): radni tekst za obradu.
+- operativni tekst: Veritasov radni tekst izveden iz validiranog NN skupa.
+- kontrolni izvor: pomoćni pročišćeni tekst, primjerice na `zakon.hr`.
 - stanje na dan: datum važenja sadržaja koji se koristi u obradi.
 - gate (uvjet prelaska): minimalni uvjeti koje treba ispuniti za sljedeći korak.
 - nacrt: izlazni dokument bez pravnog učinka dok nije potpisan.

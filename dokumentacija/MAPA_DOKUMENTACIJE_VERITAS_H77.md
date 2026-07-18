@@ -15,7 +15,8 @@ Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 5) Veritas generira isključivo na upit.
 6) Veritas ne potpisuje i ne šalje.
 7) Čovjek odlučuje o potpisu i slanju.
-8) zakon.hr je operativni izvor, Narodne novine su dokazna sidra.
+8) NN je dokazni izvor, Veritas izvodi operativni tekst, a `zakon.hr` je
+   kontrolni izvor.
 9) NORMA JSON i POSTUPAK JSON su obavezni standardi.
 10) Svaki značajan korak evidentira se u `DNEVNIK_RADA.md`.
 11) `DNEVNIK_RADA.md` je append-only i ne smije se prepisivati.

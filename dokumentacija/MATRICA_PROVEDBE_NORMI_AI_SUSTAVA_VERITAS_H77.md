@@ -104,15 +104,15 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 - Snaga: `OBVEZNO`
 - Kanonski zapis:
   - metodologija ga određuje kao opcionalni kontrolni izvor;
-  - mapa dokumentacije ga na jednom mjestu određuje kao operativni izvor.
+  - tehnički okvir, rječnik i mapa dokumentacije koriste istu podjelu.
 - Provedba: `alati/validiraj_nn_vs_kontrolno.py` provodi usporedbu.
 - Test: postoje pojedinačni kontrolni paketi, ali nema općeg testa zabrane
   uporabe `zakon.hr` kao jedinog dokaznog izvora.
-- Razina: `D1` uz proturječje kanonskih dokumenata.
-- Ocjena: `NESUKLADNO` na razini dokumentacije.
-- Potrebna odluka: uskladiti sve dokumente s vlasnikovom potvrdom da je NN
-  primarni dokazni izvor, izvedeni tekst operativni sloj, a `zakon.hr`
-  kontrola.
+- Razina: `D1` za kanonski zapis i `D2` za kontrolnu usporedbu.
+- Ocjena: `DJELOMIČNO`.
+- Zatvoreno proturječje: vlasnik je potvrdio, a dokumenti su 18.07.2026.
+  usklađeni tako da je NN dokazni izvor, Veritasov izvedeni tekst operativni
+  sloj, a `zakon.hr` kontrolni izvor.
 
 ---
 
