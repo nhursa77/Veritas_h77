@@ -60,8 +60,31 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 - Test: nema validatora proturječnih kanonskih tvrdnji.
 - Razina: `D1`.
 - Ocjena: `DJELOMIČNO`.
-- Dokazani primjer: uloga `zakon.hr` nije jednako određena u metodologiji i
-  mapi dokumentacije.
+- Dokazani povijesni primjer: proturječje o ulozi `zakon.hr` otkriveno je i
+  usklađeno 18.07.2026.; opći validator kanonskih tvrdnji još ne postoji.
+
+### UPR-004 — Veritas ne preuzima ovlast pravnog odlučivanja
+
+- Snaga: `TVRDI_GATE`.
+- Kanonski zapis: `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljci 2. i 4.
+- Provedba: Veritas označava moguću neusklađenost, navodi izvore i predlaže
+  proceduralni put; ne proglašava propis neustavnim ili neprimjenjivim.
+- Test: nema općeg jezičnog validatora koji bi blokirao autoritativne tvrdnje.
+- Razina: `D1`.
+- Ocjena: `DJELOMIČNO`.
+
+### UPR-005 — Dopušteni opseg određuje se po predmetu, ne po grani prava
+
+- Snaga: `TVRDI_GATE`.
+- Kanonski zapis: `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.4.
+- Provedba: kazneno pravo je isključeno, kao i svaki predmet s mogućim
+  lišenjem slobode.
+- Test: ne postoji klasifikator sankcija i mjera koji blokira nedopušteni
+  predmet prije unosa činjenica.
+- Razina: `D1`.
+- Ocjena: `DJELOMIČNO`.
+- Praznina: potreban je strojno čitljiv registar sankcija i negativni testovi
+  za zatvor, zamjenski zatvor, uhićenje, zadržavanje i pritvor.
 
 ---
 
@@ -180,6 +203,20 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 - Ocjena: `SUKLADNO` u testiranom opsegu.
 - Vanjska praznina: još nema potpune GDPR evidencije svrha, pravnih osnova,
   rokova čuvanja, primatelja, izvršitelja obrade i prijenosa.
+
+### PRI-002 — Stvarni podaci ne izlaze vanjskom modelu
+
+- Snaga: `TVRDI_GATE` dok se ne odobri dokumentirana iznimka.
+- Kanonski zapis:
+  - `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.;
+  - `INVENTURA_NORMATIVNOG_OKVIRA_AI_SUSTAVA_VERITAS_H77.md`, odjeljak 9.3.
+- Provedba: postojeća privatnosna karantena štiti Git, ali nije dokazan
+  tehnički izlazni gate za ChatGPT, Codex, API-je i druge vanjske usluge.
+- Test: ne postoji negativni integracijski test mrežnog prijenosa.
+- Razina: `D1`.
+- Ocjena: `DJELOMIČNO`.
+- Praznina: pseudonimizirani podaci i dalje se tretiraju kao osobni podaci;
+  dopušteni su samo sintetički ili dokazivo anonimizirani ulazi.
 
 ---
 
@@ -318,9 +355,10 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 ### REG-003 — Uloga prema Aktu o umjetnoj inteligenciji je dokumentirana
 
 - Snaga: `TVRDI_GATE` prije stavljanja sustava u uporabu ili na tržište.
-- Provedba: nije utvrđeno djeluje li vlasnik u konkretnoj uporabi kao
-  pružatelj, subjekt koji uvodi sustav ili druga propisana uloga.
-- Razina: `D0`.
+- Provedba: planirani nositelj je udruga `Hrvatski narod`, a sustav je
+  planiran za javnu uporabu. Udruga još nije dokazano osnovana ni pravno
+  kvalificirana kao pružatelj ili subjekt koji uvodi sustav.
+- Razina: `D1` za projektnu namjeru i `D0` za pravno dokazanu ulogu.
 - Ocjena: `NEDOVOLJNO_DOKAZA`.
 
 ### REG-004 — Osobe koje rade sa sustavom imaju dokazivu AI pismenost
@@ -330,6 +368,21 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
   osposobljavanja i provjere u odnosu na kontekst uporabe.
 - Razina: `D0` za formalni dokaz AI pismenosti.
 - Ocjena: `DJELOMIČNO`.
+
+### REG-005 — Javno pružanje pravnih funkcija ima dopuštenog pružatelja
+
+- Snaga: `TVRDI_GATE` prije javne uporabe individualizirane pravne funkcije.
+- Kanonski zapis:
+  - `METODOLOGIJA_RADA_VERITAS_H77.md`, odjeljak 2.3.;
+  - inventura, odjeljak 6.6.
+- Provedba: planirana udruga i javni korisnički opseg su evidentirani.
+- Test: ne postoji funkcionalna granica koja razlikuje opću pravnu
+  informaciju od individualiziranog pravnog savjeta ili zastupanja.
+- Razina: `D1`.
+- Ocjena: `NEDOVOLJNO_DOKAZA`.
+- Praznina: treba odlučiti hoće li udruga tražiti status ovlaštenog pružatelja
+  primarne pravne pomoći ili će proizvod strogo ostati na općim pravnim
+  informacijama i korisničkoj samopomoći.
 
 ---
 
@@ -347,7 +400,10 @@ Najvažnije otvorene praznine su:
 - jedinstvena hijerarhija normativnih artefakata;
 - registar svih primjenjivih vanjskih propisa i njihovih izmjena;
 - pravna uloga Veritasa prema Aktu o umjetnoj inteligenciji;
+- pravni status planirane udruge i dopušten opseg javne pravne usluge;
 - potpuna GDPR dokumentacija i evidencija obrade;
+- tehnički gate koji stvarne podatke zadržava izvan vanjskih modela;
+- blokada svih predmeta s mogućim lišenjem slobode;
 - formalni dokaz ljudske odluke prije vanjskog izlaza;
 - zatvorenost podatkovnih ugovora i puna podrška JSON Schema pravilima;
 - jezična i terminološka kontrola;

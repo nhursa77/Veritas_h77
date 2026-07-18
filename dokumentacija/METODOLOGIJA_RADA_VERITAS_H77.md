@@ -52,6 +52,49 @@ Veritas nije:
 - autonomni pošiljatelj podnesaka,
 - sustav koji stvara nova prava ili propise.
 
+### 2.3 Planirani nositelj i korisnički opseg
+
+Planirani nositelj Veritasa je udruga `Hrvatski narod`. Dok udruga nije
+osnovana, upisana u registar i formalno ne preuzme sustav, ta se oznaka ne
+smije prikazivati kao dokazano pravno vlasništvo ili svojstvo pružatelja.
+
+Veritas je planiran za javnu uporabu svim zainteresiranim osobama. Javni
+opseg ne znači da Veritas smije pružati svaku vrstu pravne usluge. Prije
+puštanja pojedine funkcije mora se utvrditi ostaje li ona opća pravna
+informacija ili predstavlja individualizirani pravni savjet odnosno drugi
+oblik pravne pomoći za koji su propisani poseban status, stručne osobe,
+osiguranje i nadzor.
+
+### 2.4 Isključeni predmeti i tvrdi gate lišenja slobode
+
+Veritas ne obrađuje kazneno pravo ni kaznene postupke.
+
+Veritas također ne obrađuje predmet ako je prema bilo kojem primjenjivom
+propisu ili mogućem ishodu predmeta moguća:
+
+- kazna zatvora ili zamjena novčane kazne zatvorom;
+- uhićenje, zadržavanje, pritvor, istražni zatvor ili druga mjera lišenja
+  slobode;
+- predaja ili izvršenje odluke koje može neposredno dovesti do lišenja
+  slobode.
+
+Ovo je `TVRDI_GATE`. Provjerava se po konkretnom predmetu i svim
+primjenjivim propisima, a ne samo prema nazivu pravne grane. Zato ni oznaka
+`prekršajni` ni oznaka `upravni` sama po sebi ne dopušta obradu.
+
+Ako mogućnost lišenja slobode nije pouzdano isključena, obrada se zaustavlja
+i predmet se upućuje kvalificiranoj osobi.
+
+### 2.5 Granica pravne analize
+
+Veritas ne daje autoritativno tumačenje prava, ne donosi konačnu pravnu
+odluku i ne proglašava zakon ili drugi propis neustavnim.
+
+Veritas provodi strukturiranu i izvorno sidrenu analizu moguće ustavne,
+konvencijske i zakonske usklađenosti. Za to mora utvrditi mjerodavne izvore,
+njihovu vremensku verziju, međusobni odnos i mogući postupovni put. Svaki je
+rezultat nacrt za ljudski pregled i odluku nadležne osobe ili tijela.
+
 ---
 
 ## 3) Ključni princip potpisa (pravni učinak)
@@ -75,25 +118,44 @@ Ovo je temelj fer i transparentnog rada:
 
 ---
 
-## 4) Hijerarhija normi (pravilo odlučivanja)
+## 4) Hijerarhija izvora i pravilo odlučivanja
 
-Veritas primjenjuje hijerarhiju normi prema načelu nadređenosti i
-ustavnosti:
+Veritas odvojeno evidentira:
 
-1) Prirodna prava i načela pravičnosti (kao interpretativno mjerilo)
-2) Međunarodni akti temeljnih prava (npr. Opća deklaracija o ljudskim pravima
-i relevantni paktovi)
-3) Ustav Republike Hrvatske
-4) Zakoni (lex specialis > lex generalis; noviji > stariji kada je primjenjivo)
-5) Podzakonski akti i lokalni propisi
+1. obvezujuće izvore prava i njihov odnos u pravnom poretku;
+2. interpretativna mjerila, pravna načela i vrijednosti.
 
-**Pravilo kolizije:** niži akt ne smije derogirati viši. U slučaju kolizije:
+Prirodna prava i načela pravičnosti nisu zasebna razina pozitivnopravne
+hijerarhije iznad Ustava. Mogu se koristiti samo kao obrazloženo
+interpretativno mjerilo kada za to postoji pravna osnova.
 
-- Veritas predlaže argument ustavne/konvencijske neusklađenosti,
-- provodi test razmjernosti (nužnost, prikladnost, razmjernost u užem
-   smislu),
-- bilježi povredu temeljnih prava i predlaže proceduralno zakonit put
-   osporavanja.
+Za svaki predmet Veritas mora iz službenih izvora utvrditi najmanje:
+
+1. Ustav Republike Hrvatske i ustavne zakone koji su primjenjivi;
+2. pravo Europske unije u području njegove primjene;
+3. objavljene i važeće međunarodne ugovore koji su dio unutarnjeg pravnog
+   poretka;
+4. zakone;
+5. podzakonske i lokalne propise;
+6. pojedinačne akte i odluke relevantne za konkretni postupak.
+
+Redoslijed na ovom popisu nije zamjena za pravnu analizu odnosa Ustava,
+prava Europske unije i međunarodnih ugovora. Taj se odnos za svaki predmet
+mora obrazložiti prema mjerodavnom pravu, području primjene i vremenskoj
+verziji izvora.
+
+Pravila `lex specialis` i `lex posterior` nisu automatski algoritam. Smiju se
+primijeniti tek nakon provjere nadređenosti, područja primjene, prijelaznih
+odredbi i dopuštenosti takvog razrješenja kolizije.
+
+Kada utvrdi pokazatelj moguće kolizije, Veritas:
+
+- ne proglašava propis neustavnim, nezakonitim ili neprimjenjivim;
+- označava moguću neusklađenost i razinu sigurnosti nalaza;
+- navodi suprotstavljene norme i dokazna sidra;
+- provodi test razmjernosti samo kada je on pravno primjenjiv;
+- predlaže proceduralno dopušten put provjere ili osporavanja;
+- zahtijeva ljudski pregled prije uporabe nalaza.
 
 ---
 

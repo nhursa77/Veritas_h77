@@ -123,6 +123,10 @@ Njegova primjenjivost veže se uz konkretni modul, vrstu predmeta i datum.
    `OBVEZNO` kao najviši domaći kontrolni okvir Veritasovih pravnih modula.
    Operativni paket mora sadržavati izvorni tekst i sve relevantne izmjene,
    a dokazna sidra moraju voditi na Narodne novine.
+   Službeni pročišćeni tekst NN 85/2010:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2010_07_85_2422.html>
+   Naknadna promjena potvrđena odlukom NN 5/2014:
+   <https://narodne-novine.nn.hr/eli/sluzbeni/2014/5/93>
 
 5. Zakon o suzbijanju diskriminacije.
    Status: `UVJETNO`, a primjenjuje se kada izlaz, funkcija ili pružanje
@@ -244,10 +248,62 @@ Njegova primjenjivost veže se uz konkretni modul, vrstu predmeta i datum.
    <https://narodne-novine.nn.hr/clanci/sluzbeni/2003_10_173_2504.html>
 
 4. Zakon o odvjetništvu s važećim izmjenama i pravila pružanja pravne pomoći.
-   Status: `NEUTVRĐENO`; ovisi o tome ostaje li Veritas interni alat za
-   pripremu nacrta ili se pravna pomoć pruža trećim osobama kao usluga.
+   Status: `UVJETNO`; planirana javna uporaba zahtijeva razgraničenje opće
+   pravne informacije, individualiziranog pravnog savjeta, zastupanja i
+   drugih rezerviranih ili uređenih oblika pravne pomoći.
    Izvor:
    <https://narodne-novine.nn.hr/clanci/sluzbeni/1994_02_9_157.html>
+
+5. Zakon o besplatnoj pravnoj pomoći s važećim izmjenama.
+   Status: `UVJETNO`; aktivira se ako planirani nositelj kao udruga pruža
+   primarnu pravnu pomoć. Prije takve uporabe moraju se provjeriti status
+   ovlaštene udruge, upis u registar, stručna suradnja, osiguranje od
+   odgovornosti i ostale važeće pretpostavke.
+   Temeljni izvor:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2013_12_143_3064.html>
+   Utvrđena izmjena NN 98/2019:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/full/2019_10_98_1920.html>
+   Službeni pregled Ministarstva:
+   <https://mpudt.gov.hr/besplatna-pravna-pomoc-6184/6184?big=1>
+
+6. Zakon o udrugama s važećim izmjenama.
+   Status: `IZRAVNO` za osnivanje, ustroj i djelovanje planiranog nositelja,
+   nakon što se potvrdi odluka o osnivanju udruge `Hrvatski narod`.
+   Temeljni izvor:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2014_06_74_1390.html>
+   Utvrđena izmjena NN 151/2022:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2022_12_151_2346.html>
+
+### 6.7 Granice pravnih modula i lišenje slobode
+
+1. Prekršajni zakon s važećim izmjenama.
+   Status: `IZRAVNO` za prekršajni modul. Budući da prekršajno pravo može
+   sadržavati kaznu zatvora i druge oblike lišenja slobode, naziv modula nije
+   dovoljan za dopuštanje obrade. Potreban je gate po konkretnom predmetu,
+   sankciji i svim mjerodavnim propisima.
+   Temeljni izvor:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2007_10_107_3125.html>
+
+2. Zakon o izvršavanju kazne zatvora s važećim izmjenama.
+   Status: `UVJETNO` kao kontrolni izvor za prepoznavanje isključenog opsega,
+   uključujući zatvor izrečen u prekršajnom postupku i zamjenu novčane kazne.
+   Veritas ne vodi postupak uređen tim propisom.
+   Temeljni izvor:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2021_02_14_270.html>
+
+3. Ustavni zakon o Ustavnom sudu Republike Hrvatske s važećim izmjenama.
+   Status: `IZRAVNO` za određivanje dopuštenog proceduralnog puta ustavne
+   kontrole. Veritas smije označiti moguću neusklađenost i pripremiti nacrt,
+   ali ne smije preuzeti ovlast Ustavnog suda niti proglasiti propis
+   neustavnim.
+   Službeni pročišćeni tekst NN 49/2002:
+   <https://narodne-novine.nn.hr/clanci/sluzbeni/2002_05_49_967.html>
+
+4. Materijalni i postupovni propisi konkretnog predmeta.
+   Status: `TVRDI_GATE`. Prije obrade mora se utvrditi može li bilo koji
+   primjenjivi propis dovesti do zatvora, zamjenskog zatvora, uhićenja,
+   zadržavanja, pritvora ili druge mjere lišenja slobode. Ako se to ne može
+   pouzdano isključiti, Veritas zaustavlja obradu.
 
 ---
 
@@ -267,9 +323,15 @@ Za prekršajni modul najmanje se provjeravaju propisi koji uređuju:
 - izvršenje i troškove postupka;
 - posebni propis koji određuje konkretni prekršaj.
 
-Isti obrazac mora se ponoviti za upravni, upravnosudski, građanski, kazneni
-i svaki budući modul. Niti jedan modul nije normativno potpun samo zato što
-je njegov tehnički tok izvršiv.
+Isti obrazac mora se ponoviti za upravni, upravnosudski, građanski i svaki
+budući dopušteni modul. Kazneni modul nije u dopuštenom opsegu. Niti jedan
+modul nije normativno potpun samo zato što je njegov tehnički tok izvršiv.
+
+Opseg "svi zakoni i propisi" provodi se kao obveza potpunog registra za
+svaki konkretni modul i predmet. Ne smije se zamijeniti jednim unaprijed
+zatvorenim popisom. Prije vanjskog izlaza registar mora obuhvatiti sve
+mjerodavne materijalne, postupovne, izvršne, prijelazne i provedbene norme
+te njihove vremenski važeće izmjene.
 
 ---
 
@@ -295,14 +357,32 @@ Ta oznaka nije završna pravna ocjena.
 
 ---
 
-## 9) Činjenice koje još treba utvrditi
+## 9) Utvrđene i otvorene činjenice o uporabi
+
+### 9.1 Utvrđene projektne odluke
+
+1. Planirani nositelj je udruga `Hrvatski narod`.
+2. Upis udruge, formalno vlasništvo i svojstvo pružatelja još nisu dokazani.
+3. Sustav je planiran za uporabu svih zainteresiranih osoba.
+4. Kazneno pravo i kazneni postupci isključeni su iz opsega.
+5. Isključen je svaki predmet u kojem je moguća kazna zatvora, zamjenski
+   zatvor ili druga mjera lišenja slobode.
+6. Veritas ne daje autoritativno tumačenje i ne odlučuje o ustavnosti.
+   Provodi izvorno sidrenu analizu moguće neusklađenosti i priprema nacrt za
+   ljudsku odluku ili postupanje nadležnog tijela.
+7. Stvarni predmeti i osobni podaci zasad ostaju u lokalnom okruženju.
+   Vanjskom modelu dopušteni su samo sintetički ili nepovratno anonimizirani
+   podaci dok se ne zatvore svi pravni, ugovorni i sigurnosni uvjeti.
+
+### 9.2 Činjenice koje još treba utvrditi
 
 Prije konačne klasifikacije primjenjivosti moraju se dokumentirati:
 
-1. pravni oblik vlasnika, pružatelja i subjekta koji uvodi sustav;
-2. koristi li se sustav samo interno ili se stavlja na tržište;
-3. pruža li se usluga trećim osobama i naplaćuje li se;
-4. kategorije korisnika, uključujući odvjetnike i javna tijela;
+1. hoće li planirana udruga biti samo nositelj sustava ili i pružatelj
+   pravne pomoći;
+2. pravni status udruge, statut, ovlaštene osobe i formalno vlasništvo;
+3. stavlja li se sustav na tržište i naplaćuje li se;
+4. dopuštene kategorije korisnika, uključujući odvjetnike i javna tijela;
 5. lokalni, mrežni i oblačni dijelovi obrade;
 6. svaki prijenos podataka izvan Europskoga gospodarskog prostora;
 7. kategorije osobnih, posebnih i kaznenopravnih podataka;
@@ -311,6 +391,28 @@ Prije konačne klasifikacije primjenjivosti moraju se dokumentirati:
 10. obučava li se ili prilagođava model na sadržaju trećih osoba;
 11. koje su funkcije javno dostupne i komuniciraju izravno s korisnikom;
 12. može li sustav ikada biti korišten u ime suda ili drugog javnog tijela.
+
+Dok se ne odluči drukčije, odgovor na točku 12. je operativno `NE`: uporaba
+u ime suda ili drugog tijela javne vlasti nije dopuštena.
+
+### 9.3 Tvrdi gate vanjske obrade podataka
+
+Sirovi stvarni predmet, osobni podaci, posebne kategorije podataka i podaci
+o kažnjivim djelima ne smiju se poslati ChatGPT-u, Codexu, drugom API-ju ili
+drugom vanjskom izvršitelju obrade.
+
+Iznimka se smije razmatrati tek kada su dokumentirani i odobreni najmanje:
+
+1. voditelj i izvršitelj obrade te njihove uloge;
+2. svrha, pravna osnova i nužnost svake kategorije podataka;
+3. minimizacija, rok čuvanja i provjerljivo brisanje;
+4. procjena učinka na zaštitu podataka kada je potrebna;
+5. ugovor o obradi i popis podizvršitelja;
+6. lokacije obrade i pravna osnova svakog međunarodnog prijenosa;
+7. sigurnosne postavke, zabrana obuke na sadržaju i upravljanje incidentima;
+8. ljudsko odobrenje i audit zapis konkretnog prijenosa.
+
+Pseudonimizacija sama po sebi nije anonimizacija i ne otvara gate.
 
 Dok te činjenice nisu utvrđene, uvjetni propisi ostaju u registru i ne smiju
 se proglasiti neprimjenjivima.
