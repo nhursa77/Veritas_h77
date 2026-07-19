@@ -22,8 +22,8 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 ## Temeljna načela
 
-1. Hijerarhija normi: prirodno pravo → međunarodni akti → ustav → zakoni
-   → podzakonski akti.  
+1. Obvezujući izvori i interpretativna mjerila vode se odvojeno. Njihov se
+   odnos utvrđuje prema području primjene i kanonskoj metodologiji.
 2. Službeni izvor ima prednost nad agregiranim tekstom.  
 3. Svaka norma mora imati dokazno sidro.  
 4. Svaka obrada mora biti ponovljiva i provjerljiva.  
@@ -33,8 +33,9 @@ Veritas nije alat za prepisivanje zakona, nego sustav za:
 
 ## Pravilo izvora
 
-- Pročišćeni tekst zakona koristi se kao radna osnova.  
+- Operativni tekst izvodi se iz izvornog akta i svih izmjena u NN.
 - Službena objava u Narodnim novinama predstavlja dokazni izvor.  
+- `zakon.hr` služi samo kao opcionalni kontrolni izvor.
 - U slučaju razlike, prednost ima službeni tekst objavljen
   u Narodnim novinama.  
 - Svaki citirani članak mora sadržavati oznaku članka, stavka

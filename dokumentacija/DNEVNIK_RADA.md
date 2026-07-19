@@ -6370,7 +6370,7 @@ Dokazne naredbe:
 - `git diff --check main`
 - `git status --short`
 
-## Datum: 16.07.2026 (ZADATAK 176)
+## Datum: 16.07.2026 (ZADATAK 176 - dopuna zapisa putanje)
 
 ### ZADATAK 176 - dopuna zapisa točne putanje
 
@@ -6652,3 +6652,94 @@ Dokazne naredbe:
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`
+
+## Datum: 19.07.2026 (ZADATAK 182)
+
+### ZADATAK 182 - A1 jezgra AI Standarda i registar normi
+
+Izrađen je radni nacrt budućeg AI Standarda bez promjene postojećeg kanona.
+
+Uveden je zatvoreni registar s 11 početnih normi, specijalizirani validator i
+pozitivni i negativni testovi.
+
+Validator registra i njegovi testovi uključeni su u obvezni ci_smoke.
+
+README hijerarhija i pravilo izvora usklađeni su s kanonskom metodologijom.
+
+Ukupna pravna i regulatorna sukladnost nije proglašena.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `alati/ci_smoke.ps1`
+- `alati/validiraj_registar_ai_normi_v1.ps1`
+- `alati/test_registar_ai_normi_v1.ps1`
+- `dokumentacija/VERITAS_H77_AI_STANDARD.md`
+- `dokumentacija/REGISTAR_AI_NORMI_V1.json`
+- `dokumentacija/sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_registar_ai_normi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_registar_ai_normi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`
+
+## Datum: 19.07.2026 (ZADATAK 183)
+
+### ZADATAK 183 - A2 konsolidacija radnog AI Standarda
+
+Radni AI Standard konsolidiran je u verziju `0.2.0-a2` bez proglašenja
+kanonskog statusa i bez tvrdnje o ukupnoj pravnoj ili regulatornoj
+sukladnosti.
+
+Zaseban zapis promjena vodi svih 15 skupina zahtjeva, njihove izvore,
+zahvaćene norme, gateove, profile, migraciju, provedbu, testove, otvorena
+pitanja i status odluke vlasnika norme.
+
+Nijansiranje gatea lišenja slobode nije prešutno primijenjeno. Razlika
+između A2 prijedloga i šire kanonske blokade evidentirana je kao
+`PRO-001` sa statusom `PROTURJECJE_OTVORENO`. Pogođena vanjska uporaba
+ostaje blokirana, a kanonska metodologija zadržava prednost.
+
+Registar je označen kao kontrolirani izvedeni prikaz. Shema, validator i
+testovi sada blokiraju lažni status usklađenosti, otvoreno proturječje bez
+blokade i proturječje povezano s nepoznatom normom.
+
+Službena ograničena sidra provjerena su za vremensku primjenu Uredbe (EU)
+2024/1689, razlikovanje anonimizacije i pseudonimizacije te pojmove i
+pružatelje pravne pomoći. Ta sidra nisu proglašena potpunim pravnim paketom.
+
+Mijenjane datoteke:
+
+- `dokumentacija/VERITAS_H77_AI_STANDARD.md`
+- `dokumentacija/ZAPIS_PROMJENA_VERITAS_H77_AI_STANDARD_A2.md`
+- `dokumentacija/REGISTAR_AI_NORMI_V1.json`
+- `dokumentacija/sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json`
+- `alati/validiraj_registar_ai_normi_v1.ps1`
+- `alati/test_registar_ai_normi_v1.ps1`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne provjere:
+
+- validator registra: `AI_NORME_VALIDATOR_EXIT=0`, 11 normi;
+- test registra: osam pozitivnih i negativnih scenarija, izlaz `0`;
+- ciljana Markdown provjera: pet datoteka, nula povreda;
+- puni Markdown pregled: 183 datoteke, nula povreda;
+- puni kontrolni tok: `CI_SMOKE_EXIT=0`;
+- `git diff --check`: prolaz.
+
+Početna ocjena ostaje:
+
+`DJELOMIČNO SUKLADNO / NEDOVOLJNO DOKAZA ZA UKUPNU SUKLADNOST`.

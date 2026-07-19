@@ -1,0 +1,371 @@
+{
+  "standard_id": "VERITAS_H77_AI_NORME_V1",
+  "verzija": "0.2.0-a2",
+  "status": "RADNI_NACRT",
+  "datum_provjere": "19.07.2026.",
+  "normativni_autoritet": "IZVEDENI_KONTROLIRANI_PRIKAZ",
+  "autoritet_u_sukobu": "KANONSKI_LJUDSKI_CITLJIVI_IZVOR",
+  "status_uskladenosti": "PROTURJECJE_OTVORENO",
+  "proturjecja": [
+    {
+      "id": "PRO-001",
+      "status": "PROTURJECJE_OTVORENO",
+      "opis": "A2 radni prijedlog razlikuje neposredni rizik lišenja slobode od udaljene mogućnosti zamjenskog zatvora, dok kanonska metodologija zadržava širu blokadu.",
+      "kanonski_izvor": {
+        "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+        "sidro": "odjeljak 2.5."
+      },
+      "radni_izvor": {
+        "putanja": "dokumentacija/VERITAS_H77_AI_STANDARD.md",
+        "sidro": "odjeljak 5.1."
+      },
+      "pogodene_norme": [
+        "UPR-005"
+      ],
+      "pogodeni_profili": [
+        "PREKRSAJNI_PREDMET"
+      ],
+      "pogodeni_gateovi": [
+        "GATE_LISENJE_SLOBODE"
+      ],
+      "blokira_vanjsku_uporabu": true,
+      "vlasnik_odluke": "vlasnik norme",
+      "odluka_status": "ODLUKA_NIJE_DONESENA",
+      "datum_otvaranja": "19.07.2026.",
+      "datum_razrjesenja": null
+    }
+  ],
+  "norme": [
+    {
+      "id": "UPR-001",
+      "naziv": "Čovjek je konačni donositelj odluke",
+      "podrucje": "UPRAVLJANJE",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "KONSOLIDIRANO",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljci 1., 2. i 3."
+        },
+        {
+          "putanja": "AGENTS.md",
+          "sidro": "odjeljci 1., 2. i 6."
+        }
+      ],
+      "uvjet_aktiviranja": "Svaki zaključak i svaki vanjski izlaz.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Nedostaje strukturirani zapis ljudskog pregleda i odluke."
+      ]
+    },
+    {
+      "id": "UPR-005",
+      "naziv": "Dopušteni opseg određuje se po konkretnom predmetu",
+      "podrucje": "UPRAVLJANJE",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 2.5."
+        }
+      ],
+      "uvjet_aktiviranja": "Prije obrade svakog predmeta.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Nedostaje strojni gate svih mogućih oblika lišenja slobode.",
+        "A2 nijansiranje udaljene mogućnosti zamjenskog zatvora nije kanonski odobreno i vodi se kao PRO-001."
+      ]
+    },
+    {
+      "id": "IZV-001",
+      "naziv": "Narodne novine su primarni dokazni izvor",
+      "podrucje": "IZVORI",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "KONSOLIDIRANO",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 5."
+        },
+        {
+          "putanja": "dokumentacija/TEHNIČKI_OKVIR_VERITAS_H77.md",
+          "sidro": "odjeljak 6."
+        }
+      ],
+      "uvjet_aktiviranja": "Normiranje i svaki vanjski pravni izlaz.",
+      "zahtijeva_ljudsku_odluku": false,
+      "provedba": [
+        "alati/run_tok_v1.ps1",
+        "alati/acceptance_preflight.ps1"
+      ],
+      "testovi": [
+        "alati/test_run_tok_p7_v1.ps1"
+      ],
+      "ci_koraci": [
+        "preflight_ustav_rh",
+        "preflight_prekrsajni_zakon",
+        "test_run_tok_p7_v1"
+      ],
+      "razina_dokaza": "D4",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Dokaz D4 ograničen je na testirane tokove i pakete."
+      ]
+    },
+    {
+      "id": "IZL-001",
+      "naziv": "Svaki Veritasov dokument nastaje kao nacrt",
+      "podrucje": "IZLAZ",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "KONSOLIDIRANO",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 3."
+        },
+        {
+          "putanja": "dokumentacija/STANDARD_IZLAZNI_NACRT_PREKRSAJI_V1.md",
+          "sidro": "cijeli dokument"
+        }
+      ],
+      "uvjet_aktiviranja": "Svako generiranje dokumenta.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [
+        "alati/run_tok_v1.ps1",
+        "alati/validiraj_izlaz_tok_pn_prigovor_v1.ps1"
+      ],
+      "testovi": [
+        "alati/test_run_tok_p7_v1.ps1",
+        "alati/test_p8_manifest_lanac_v1.ps1"
+      ],
+      "ci_koraci": [
+        "test_run_tok_p7_v1",
+        "test_p8_manifest_lanac_v1"
+      ],
+      "razina_dokaza": "D4",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Dokaz D4 ograničen je na prvi prekršajni tok."
+      ]
+    },
+    {
+      "id": "IZL-002",
+      "naziv": "Bez sidra i ljudske odluke nema vanjskog izlaza",
+      "podrucje": "IZLAZ",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "AGENTS.md",
+          "sidro": "odjeljak 6."
+        }
+      ],
+      "uvjet_aktiviranja": "Prije prikaza ili uporabe vanjskog izlaza.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [
+        "alati/run_tok_v1.ps1"
+      ],
+      "testovi": [
+        "alati/test_run_tok_p7_v1.ps1"
+      ],
+      "ci_koraci": [
+        "test_run_tok_p7_v1"
+      ],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Ljudska odluka nije strukturirani ni strojno provjerljiv artefakt."
+      ]
+    },
+    {
+      "id": "IZL-003",
+      "naziv": "Veritas ne potpisuje i ne šalje samostalno",
+      "podrucje": "IZLAZ",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "KONSOLIDIRANO",
+      "kanonski_izvori": [
+        {
+          "putanja": "AGENTS.md",
+          "sidro": "odjeljci 3. i 6."
+        },
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 3."
+        }
+      ],
+      "uvjet_aktiviranja": "Svaki dovršeni nacrt.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Nedostaje opći negativni test autonomnog potpisa ili slanja."
+      ]
+    },
+    {
+      "id": "PRI-001",
+      "naziv": "Stvarni predmeti ostaju lokalni i izvan Gita",
+      "podrucje": "PRIVATNOST",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "KONSOLIDIRANO",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/STANDARD_JSON_PREDMET_I_PRIVATNOST_PREKRSAJI_V1.md",
+          "sidro": "cijeli dokument"
+        },
+        {
+          "putanja": "AGENTS.md",
+          "sidro": "odjeljak 7."
+        }
+      ],
+      "uvjet_aktiviranja": "Svaki stvarni predmet i njegov izvedeni izlaz.",
+      "zahtijeva_ljudsku_odluku": false,
+      "provedba": [
+        "alati/privatnost_predmeta_core.ps1",
+        "alati/provjeri_privatnost_repozitorija_v1.ps1",
+        ".githooks/pre-commit"
+      ],
+      "testovi": [
+        "alati/test_p9_privatnost_v1.ps1",
+        "alati/test_p9_lokalni_e2e_v1.ps1"
+      ],
+      "ci_koraci": [
+        "privacy_repository_gate_p9",
+        "test_p9_privacy_v1",
+        "test_p9_lokalni_e2e_v1"
+      ],
+      "razina_dokaza": "D4",
+      "ocjena": "SUKLADNO",
+      "otvorene_praznine": [
+        "Ocjena vrijedi samo za testirani prekršajni model predmeta."
+      ]
+    },
+    {
+      "id": "PRI-002",
+      "naziv": "Stvarni podaci ne izlaze vanjskom modelu",
+      "podrucje": "PRIVATNOST",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 2.6."
+        }
+      ],
+      "uvjet_aktiviranja": "Svaki poziv vanjskom modelu ili API-ju.",
+      "zahtijeva_ljudsku_odluku": false,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Nedostaje tehnički izlazni gate i negativni integracijski test."
+      ]
+    },
+    {
+      "id": "REG-005",
+      "naziv": "Javna pravna funkcija zahtijeva dopuštenog pružatelja",
+      "podrucje": "REGULATORNO",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "UVJETNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 2.3."
+        }
+      ],
+      "uvjet_aktiviranja": "Individualizirana javna pravna funkcija.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "NEDOVOLJNO_DOKAZA",
+      "otvorene_praznine": [
+        "Planirana udruga nije dokazano osnovana ni ovlaštena."
+      ]
+    },
+    {
+      "id": "REG-006",
+      "naziv": "Naplata zahtijeva zasebnu pravnu i poreznu osnovu",
+      "podrucje": "REGULATORNO",
+      "snaga": "TVRDI_GATE",
+      "primjenjivost": "UVJETNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 2.4."
+        }
+      ],
+      "uvjet_aktiviranja": "Prije aktiviranja bilo koje naplatne funkcije.",
+      "zahtijeva_ljudsku_odluku": true,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "NEDOVOLJNO_DOKAZA",
+      "otvorene_praznine": [
+        "Nisu dokazane pravna i porezna osnova ni zaštita potrošača."
+      ]
+    },
+    {
+      "id": "REG-007",
+      "naziv": "Početni korisnici i pravni prostor su ograničeni",
+      "podrucje": "REGULATORNO",
+      "snaga": "OBVEZNO",
+      "primjenjivost": "IZRAVNO",
+      "zivotni_ciklus": "AKTIVNO",
+      "migracija": "PREUZETO_BEZ_IZMJENE",
+      "kanonski_izvori": [
+        {
+          "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+          "sidro": "odjeljak 2.3."
+        }
+      ],
+      "uvjet_aktiviranja": "Prije prihvata korisnika i predmeta.",
+      "zahtijeva_ljudsku_odluku": false,
+      "provedba": [],
+      "testovi": [],
+      "ci_koraci": [],
+      "razina_dokaza": "D1",
+      "ocjena": "DJELOMICNO",
+      "otvorene_praznine": [
+        "Nedostaje ulazni gate dobi, vrste korisnika i pravnog prostora."
+      ]
+    }
+  ]
+}

@@ -28,6 +28,12 @@ $predmetValidatorScript = Join-Path $PSScriptRoot "validiraj_predmet_prekrsaji_v
 $p9PrivacyTestScript = Join-Path $PSScriptRoot "test_p9_privatnost_v1.ps1"
 $p9InitTestScript = Join-Path $PSScriptRoot "test_p9_inicijalizacija_v1.ps1"
 $p9LocalE2ETestScript = Join-Path $PSScriptRoot "test_p9_lokalni_e2e_v1.ps1"
+$aiNormRegistryValidatorScript = Join-Path $PSScriptRoot (
+    "validiraj_registar_ai_normi_v1.ps1"
+)
+$aiNormRegistryTestScript = Join-Path $PSScriptRoot (
+    "test_registar_ai_normi_v1.ps1"
+)
 $paketPath = "paketi\PAKET_PREKRSAJNI_V1.json"
 
 function Invoke-SmokeStep {
@@ -181,6 +187,16 @@ try {
     }
 
     $steps = @(
+        [pscustomobject]@{
+            Name = "validate_ai_norm_registry_v1"
+            Action = { & $aiNormRegistryValidatorScript }
+            Enabled = $true
+        },
+        [pscustomobject]@{
+            Name = "test_ai_norm_registry_v1"
+            Action = { & $aiNormRegistryTestScript }
+            Enabled = $true
+        },
         [pscustomobject]@{
             Name = "privacy_repository_gate_p9"
             Action = { & $privacyRepoGateScript }

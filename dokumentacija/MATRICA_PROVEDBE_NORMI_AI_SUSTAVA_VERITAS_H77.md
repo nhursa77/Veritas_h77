@@ -1,6 +1,6 @@
 # MATRICA PROVEDBE NORMI AI SUSTAVA VERITAS H.77
 
-Datum provjere: 18.07.2026.
+Datum provjere: 19.07.2026.
 Status: radna dokazna matrica
 Opseg: poprečne interne norme sustava i njihova stvarna provedba u repou.
 
@@ -85,6 +85,12 @@ prolaz drugih pravnih modula niti ukupnu pravnu sukladnost Veritasa.
 - Ocjena: `DJELOMIČNO`.
 - Praznina: potreban je strojno čitljiv registar sankcija i negativni testovi
   za zatvor, zamjenski zatvor, uhićenje, zadržavanje i pritvor.
+- A2 radni prijedlog razlikuje pravno neposredan rizik lišenja slobode od
+  udaljene mogućnosti budućeg zamjenskog zatvora.
+- Status razlike: `PROTURJEČJE_OTVORENO`, zapis `PRO-001`.
+- Učinak: postojeći širi kanonski gate ostaje na snazi, a pogođena vanjska
+  uporaba blokirana je do pravnog sidra, odluke vlasnika norme, procjene
+  utjecaja te usklađenja registra, provedbe i testova.
 
 ---
 
@@ -431,7 +437,8 @@ Najvažnije otvorene praznine su:
 - pravna i porezna osnova kombiniranog modela naplate;
 - potpuna GDPR dokumentacija i evidencija obrade;
 - tehnički gate koji stvarne podatke zadržava izvan vanjskih modela;
-- blokada svih predmeta s mogućim lišenjem slobode;
+- razrješenje proturječja između kanonske šire blokade svih predmeta s
+  mogućim lišenjem slobode i A2 radnog prijedloga neposrednog rizika;
 - formalni dokaz ljudske odluke prije vanjskog izlaza;
 - zatvorenost podatkovnih ugovora i puna podrška JSON Schema pravilima;
 - jezična i terminološka kontrola;
@@ -445,3 +452,32 @@ Ukupna početna ocjena ostaje:
 
 Ta ocjena ne dopušta predstavljanje Veritasa kao potpuno pravno ili
 regulatorno usklađenog sustava.
+
+---
+
+## 12) A1–A2 registar i radni normativni vrh
+
+### POD-003 — Početni registar AI normi ima zatvoreni ugovor
+
+- Snaga: `OBVEZNO` za A1–A2 radni registar.
+- Radni normativni zapis:
+  - `VERITAS_H77_AI_STANDARD.md`, status `RADNI_NACRT`;
+  - `REGISTAR_AI_NORMI_V1.json`.
+- Provedba:
+  - `sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json` zatvara svaki objekt;
+  - `alati/validiraj_registar_ai_normi_v1.ps1` provjerava shemu,
+    jedinstvene identifikatore, navedene repo veze i semantička pravila
+    otvorenih proturječja.
+- Pozitivni i negativni test:
+  `alati/test_registar_ai_normi_v1.ps1`.
+- CI: koraci `validate_ai_norm_registry_v1` i
+  `test_ai_norm_registry_v1`.
+- Razina: `D4` za format, referencijalnu cjelovitost i ugovor proturječja.
+- Ocjena: `SUKLADNO` samo za tehnički ugovor A1–A2 registra.
+- Granica: rezultat ne dokazuje sadržajnu ili pravnu točnost normi i ne
+  proglašava radni AI Standard kanonskim.
+
+Početni registar sadrži 11 potvrđenih poprečnih normi i jedno otvoreno
+proturječje `PRO-001`. Registar je izvedeni prikaz, a ne samostalni
+normativni autoritet. Ostale norme iz ove matrice i vanjskog regulatornog
+okvira migriraju se u zasebnim paketima.

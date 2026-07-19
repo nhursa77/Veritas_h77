@@ -1,0 +1,311 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://veritas-h77.local/sheme/registar_ai_normi_v1.schema.json",
+  "title": "Registar AI normi Veritas H.77 v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "standard_id",
+    "verzija",
+    "status",
+    "datum_provjere",
+    "normativni_autoritet",
+    "autoritet_u_sukobu",
+    "status_uskladenosti",
+    "proturjecja",
+    "norme"
+  ],
+  "properties": {
+    "standard_id": {
+      "const": "VERITAS_H77_AI_NORME_V1"
+    },
+    "verzija": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+-a[0-9]+$"
+    },
+    "status": {
+      "const": "RADNI_NACRT"
+    },
+    "datum_provjere": {
+      "type": "string",
+      "pattern": "^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.[0-9]{4}\\.$"
+    },
+    "normativni_autoritet": {
+      "const": "IZVEDENI_KONTROLIRANI_PRIKAZ"
+    },
+    "autoritet_u_sukobu": {
+      "const": "KANONSKI_LJUDSKI_CITLJIVI_IZVOR"
+    },
+    "status_uskladenosti": {
+      "enum": [
+        "USKLADENO",
+        "PROTURJECJE_OTVORENO"
+      ]
+    },
+    "proturjecja": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/proturjecje"
+      }
+    },
+    "norme": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/norma"
+      }
+    }
+  },
+  "$defs": {
+    "referenca": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "putanja",
+        "sidro"
+      ],
+      "properties": {
+        "putanja": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sidro": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "proturjecje": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "status",
+        "opis",
+        "kanonski_izvor",
+        "radni_izvor",
+        "pogodene_norme",
+        "pogodeni_profili",
+        "pogodeni_gateovi",
+        "blokira_vanjsku_uporabu",
+        "vlasnik_odluke",
+        "odluka_status",
+        "datum_otvaranja",
+        "datum_razrjesenja"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^PRO-[0-9]{3}$"
+        },
+        "status": {
+          "enum": [
+            "PROTURJECJE_OTVORENO",
+            "RAZRIJESENO"
+          ]
+        },
+        "opis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kanonski_izvor": {
+          "$ref": "#/$defs/referenca"
+        },
+        "radni_izvor": {
+          "$ref": "#/$defs/referenca"
+        },
+        "pogodene_norme": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z]{3}-[0-9]{3}$"
+          }
+        },
+        "pogodeni_profili": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "pogodeni_gateovi": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "blokira_vanjsku_uporabu": {
+          "type": "boolean"
+        },
+        "vlasnik_odluke": {
+          "type": "string",
+          "minLength": 1
+        },
+        "odluka_status": {
+          "enum": [
+            "ODLUKA_NIJE_DONESENA",
+            "ODLUKA_DONESENA"
+          ]
+        },
+        "datum_otvaranja": {
+          "type": "string",
+          "pattern": "^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.[0-9]{4}\\.$"
+        },
+        "datum_razrjesenja": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string",
+              "pattern": "^(0[1-9]|[12][0-9]|3[01])\\.(0[1-9]|1[0-2])\\.[0-9]{4}\\.$"
+            }
+          ]
+        }
+      }
+    },
+    "norma": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "naziv",
+        "podrucje",
+        "snaga",
+        "primjenjivost",
+        "zivotni_ciklus",
+        "migracija",
+        "kanonski_izvori",
+        "uvjet_aktiviranja",
+        "zahtijeva_ljudsku_odluku",
+        "provedba",
+        "testovi",
+        "ci_koraci",
+        "razina_dokaza",
+        "ocjena",
+        "otvorene_praznine"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Z]{3}-[0-9]{3}$"
+        },
+        "naziv": {
+          "type": "string",
+          "minLength": 1
+        },
+        "podrucje": {
+          "enum": [
+            "UPRAVLJANJE",
+            "IZVORI",
+            "IZLAZ",
+            "PRIVATNOST",
+            "REGULATORNO"
+          ]
+        },
+        "snaga": {
+          "enum": [
+            "TVRDI_GATE",
+            "OBVEZNO",
+            "PREPORUKA",
+            "INFORMATIVNO"
+          ]
+        },
+        "primjenjivost": {
+          "enum": [
+            "IZRAVNO",
+            "UVJETNO",
+            "BUDUCE",
+            "NEPRIMJENJIVO",
+            "NEUTVRDENO"
+          ]
+        },
+        "zivotni_ciklus": {
+          "enum": [
+            "AKTIVNO",
+            "RADNI_NACRT",
+            "ZASTARJELO"
+          ]
+        },
+        "migracija": {
+          "enum": [
+            "PREUZETO_BEZ_IZMJENE",
+            "KONSOLIDIRANO",
+            "IZMIJENJENO_ODLUKOM",
+            "ZASTARJELO",
+            "PROTURJECJE_OTVORENO",
+            "IZVAN_OPSEGA"
+          ]
+        },
+        "kanonski_izvori": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/referenca"
+          }
+        },
+        "uvjet_aktiviranja": {
+          "type": "string",
+          "minLength": 1
+        },
+        "zahtijeva_ljudsku_odluku": {
+          "type": "boolean"
+        },
+        "provedba": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "testovi": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "ci_koraci": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "razina_dokaza": {
+          "enum": [
+            "D0",
+            "D1",
+            "D2",
+            "D3",
+            "D4",
+            "D5"
+          ]
+        },
+        "ocjena": {
+          "enum": [
+            "SUKLADNO",
+            "DJELOMICNO",
+            "NESUKLADNO",
+            "NEDOVOLJNO_DOKAZA",
+            "NIJE_PRIMJENJIVO"
+          ]
+        },
+        "otvorene_praznine": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}
