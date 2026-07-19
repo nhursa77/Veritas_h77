@@ -1,6 +1,6 @@
 # MATRICA PROVEDBE NORMI AI SUSTAVA VERITAS H.77
 
-Datum provjere: 18.07.2026.
+Datum provjere: 19.07.2026.
 Status: radna dokazna matrica
 Opseg: poprečne interne norme sustava i njihova stvarna provedba u repou.
 
@@ -445,3 +445,29 @@ Ukupna početna ocjena ostaje:
 
 Ta ocjena ne dopušta predstavljanje Veritasa kao potpuno pravno ili
 regulatorno usklađenog sustava.
+
+---
+
+## 12) A1 registar i radni normativni vrh
+
+### POD-003 — Početni registar AI normi ima zatvoreni ugovor
+
+- Snaga: `OBVEZNO` za A1 radni registar.
+- Radni normativni zapis:
+  - `VERITAS_H77_AI_STANDARD.md`, status `RADNI_NACRT`;
+  - `REGISTAR_AI_NORMI_V1.json`.
+- Provedba:
+  - `sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json` zatvara svaki objekt;
+  - `alati/validiraj_registar_ai_normi_v1.ps1` provjerava shemu,
+    jedinstvene identifikatore i sve navedene repo veze.
+- Pozitivni i negativni test:
+  `alati/test_registar_ai_normi_v1.ps1`.
+- CI: koraci `validate_ai_norm_registry_v1` i
+  `test_ai_norm_registry_v1`.
+- Razina: `D4` za format i referencijalnu cjelovitost A1 registra.
+- Ocjena: `SUKLADNO` samo za ugovor A1 registra.
+- Granica: rezultat ne dokazuje sadržajnu ili pravnu točnost normi i ne
+  proglašava radni AI Standard kanonskim.
+
+Početni registar sadrži 11 potvrđenih poprečnih normi. Ostale norme iz ove
+matrice i vanjskog regulatornog okvira migriraju se u zasebnim paketima.

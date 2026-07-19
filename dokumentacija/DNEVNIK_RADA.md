@@ -6370,7 +6370,7 @@ Dokazne naredbe:
 - `git diff --check main`
 - `git status --short`
 
-## Datum: 16.07.2026 (ZADATAK 176)
+## Datum: 16.07.2026 (ZADATAK 176 - dopuna zapisa putanje)
 
 ### ZADATAK 176 - dopuna zapisa točne putanje
 
@@ -6649,6 +6649,46 @@ Dokazne naredbe:
   `.\alati\test_p9_lokalni_e2e_v1.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File`
   `.\alati\provjeri_markdown_scope.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
+- `git diff --check`
+- `git status --short`
+
+## Datum: 19.07.2026 (ZADATAK 182)
+
+### ZADATAK 182 - A1 jezgra AI Standarda i registar normi
+
+Izrađen je radni nacrt budućeg AI Standarda bez promjene postojećeg kanona.
+
+Uveden je zatvoreni registar s 11 početnih normi, specijalizirani validator i
+pozitivni i negativni testovi.
+
+Validator registra i njegovi testovi uključeni su u obvezni ci_smoke.
+
+README hijerarhija i pravilo izvora usklađeni su s kanonskom metodologijom.
+
+Ukupna pravna i regulatorna sukladnost nije proglašena.
+
+Mijenjane datoteke:
+
+- `README.md`
+- `alati/ci_smoke.ps1`
+- `alati/validiraj_registar_ai_normi_v1.ps1`
+- `alati/test_registar_ai_normi_v1.ps1`
+- `dokumentacija/VERITAS_H77_AI_STANDARD.md`
+- `dokumentacija/REGISTAR_AI_NORMI_V1.json`
+- `dokumentacija/sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json`
+- `dokumentacija/MAPA_DOKUMENTACIJE_VERITAS_H77.md`
+- `dokumentacija/MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
+- `dokumentacija/STATUS_PROJEKTA_VERITAS_H77.md`
+- `dokumentacija/DNEVNIK_RADA.md`
+
+Dokazne naredbe:
+
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\validiraj_registar_ai_normi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File`
+  `.\alati\test_registar_ai_normi_v1.ps1`
+- `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\lint_markdown.ps1`
 - `pwsh -NoProfile -ExecutionPolicy Bypass -File .\alati\ci_smoke.ps1`
 - `git diff --check`
 - `git status --short`

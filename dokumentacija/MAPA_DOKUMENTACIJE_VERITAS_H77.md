@@ -1,6 +1,6 @@
 # MAPA_DOKUMENTACIJE_VERITAS_H77
 
-Datum: 18.07.2026.
+Datum: 19.07.2026.
 Status: kanonski
 Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
@@ -48,6 +48,20 @@ Definira statuse primjenjivosti, razine dokaza i uvjete ocjene sukladnosti.
 ### `MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
 Povezuje poprečne norme s dokumentacijom, kodom, testovima i CI provedbom.
 Razdvaja dokazanu sukladnost od djelomične provedbe i nedostatka dokaza.
+
+### Radni artefakti A1 (nisu kanonski)
+
+`VERITAS_H77_AI_STANDARD.md` radni je nacrt budućeg normativnog vrha.
+Ne mijenja postojeći kanon dok migracija i zasebno odobrenje nisu dovršeni.
+
+`REGISTAR_AI_NORMI_V1.json` strojno je čitljiv početni registar potvrđenih
+normi i njihovih provedbenih, testnih, CI i ljudskih dokaznih veza.
+
+`sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json` zatvorena je shema registra.
+`alati/validiraj_registar_ai_normi_v1.ps1` provodi shemu, jedinstvenost
+identifikatora i postojanje navedenih repo veza.
+`alati/test_registar_ai_normi_v1.ps1` dokazuje pozitivan prolaz i blokade
+nedeklariranih polja, dupliciranih identifikatora i neutemeljenog `D4`.
 
 ### `STANDARD_JSON_NORMA.md`
 Definira standard zapisa norme u JSON formatu s člankom kao jedinicom.
@@ -378,6 +392,16 @@ snapshota od zavrsnog git dokaza.
 
 ## 3) Redoslijed čitanja
 
+Za rad na normiranju AI sustava nakon tehničkog okvira dodatno se čitaju:
+
+1. `INVENTURA_NORMATIVNOG_OKVIRA_AI_SUSTAVA_VERITAS_H77.md`;
+2. `MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`;
+3. `VERITAS_H77_AI_STANDARD.md`, uz status `RADNI_NACRT`;
+4. `REGISTAR_AI_NORMI_V1.json` i njegova zatvorena shema;
+5. validator i test registra u mapi `alati/`.
+
+Opći kanonski redoslijed ostaje:
+
 0) `AGENTS.md`
 1) `METODOLOGIJA_RADA_VERITAS_H77.md`
 2) `RJEČNIK_POJMOVA_VERITAS_H77.md`
@@ -493,6 +517,11 @@ Svako ažuriranje indexa evidentira se u `DNEVNIK_RADA.md`.
   `alati/dodaj_dnevnicki_unos_na_kraj.ps1`, kanonsko zatvaranje koraka
   izvodi `alati/zatvori_dokumentacijski_korak.ps1`, a scoped markdown
   preflight izvodi `alati/provjeri_markdown_scope.ps1`.
+- Radni registar AI normi pripada
+  `REGISTAR_AI_NORMI_V1.json`, a njegov zatvoreni ugovor, validator i test
+  pripadaju `sheme/SCHEMA_REGISTAR_AI_NORMI_V1.json`,
+  `alati/validiraj_registar_ai_normi_v1.ps1` i
+  `alati/test_registar_ai_normi_v1.ps1`.
 - Terminološki dokazni i operativni izvori pripadaju
   `IZVORI_TERMINOLOGIJE_VERITAS_H77.md`, a tehnički izvoz iz CURIA XLSX
   izvodi `alati/pretvori_curia_xlsx_u_json.py`; normalizacija u kanonski
