@@ -6,9 +6,16 @@ Datum: 19.07.2026.
 
 - Kanonski objavljeni HEAD prije paketa A1: `d3c1cd9` na grani `main`.
 - `main` je pri početnoj provjeri paketa A1 bio poravnat s `origin/main`.
-- Aktivna radna grana: `codex/ai-standard-a1-jezgra-registar`.
+- Aktivna radna grana: `codex/ai-standard-a1-jezgra-registar` i nacrt
+  pull requesta `#14`.
 - Paket A1 uvodi radni nacrt AI Standarda, zatvoreni strojno čitljivi
   registar početnih normi, validator, negativne testove i obvezni CI korak.
+- A2 radna dorada konsolidira 15 skupina zahtjeva u verziju `0.2.0-a2`,
+  dodaje zaseban zapis promjena te strojno evidentira otvoreno proturječje
+  `PRO-001` o dosegu gatea lišenja slobode.
+- Registar je kontrolirani izvedeni prikaz. Postojeći kanonski ljudski
+  čitljivi izvor ima prednost, a otvoreno proturječje blokira pogođenu
+  vanjsku uporabu do dokumentiranog razrješenja.
 - Radni nacrt nije kanonski i ne dokazuje ukupnu pravnu ili regulatornu
   sukladnost sustava.
 - Rad se od ZADATKA 174 vodi u funkcionalnim paketima: lokalni commitovi po
@@ -33,8 +40,9 @@ put zaštite prava.
 
 ### Aktivni cilj
 
-Aktivni paket je A1 jezgra normiranja AI sustava. Cilj je objediniti
-postojeće potvrđene norme i dokazne veze bez prekida postojećeg kanona.
+Aktivni paket je A2 konsolidacija radnog AI Standarda. Cilj je ugraditi
+rezultate pregleda bez prekida postojećeg kanona, bez prešutnog slabljenja
+gateova i bez tvrdnje o ukupnoj sukladnosti.
 
 Aktivna pilot-domena je prekršajni modul, a prvi funkcionalni tok je:
 
@@ -149,11 +157,10 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 ## Snapshot repozitorija
 
-- Polazni HEAD prije zadatka: `d3c1cd9` - Normativni okvir i struktura AI
-  Standarda Veritas H.77 (#13)
+- Polazni HEAD prije zadatka: `1ef375d` - Dokumentiraj A1 normativni paket
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
-- Zadnji dovršeni zadatak: ZADATAK 182
+- Zadnji dovršeni zadatak: ZADATAK 183
 
 ## Operativno stanje skupine PREKRSAJNI_JSON_VALIDATORI_V1
 
@@ -712,8 +719,7 @@ datoteke. Ta se povijesna nepravilnost ne ispravlja u ovom zadatku.
 
 Pre-check snapshot sinkronizacije:
 
-- Polazni HEAD prije zadatka: `d3c1cd9` - Normativni okvir i struktura AI
-  Standarda Veritas H.77 (#13)
+- Polazni HEAD prije zadatka: `1ef375d` - Dokumentiraj A1 normativni paket
 - Repo čist pri pre-checku: DA
 - Poravnanje grane pri pre-checku: poravnat
 - lokalna detekcija tipičnih Drive putanja: nije potvrđena
