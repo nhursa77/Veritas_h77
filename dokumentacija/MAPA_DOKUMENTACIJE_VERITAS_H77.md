@@ -1,6 +1,6 @@
 # MAPA_DOKUMENTACIJE_VERITAS_H77
 
-Datum: 16.07.2026.
+Datum: 18.07.2026.
 Status: kanonski
 Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 
@@ -15,7 +15,8 @@ Opseg: navigacija kroz postojeću dokumentaciju Veritas H.77.
 5) Veritas generira isključivo na upit.
 6) Veritas ne potpisuje i ne šalje.
 7) Čovjek odlučuje o potpisu i slanju.
-8) zakon.hr je operativni izvor, Narodne novine su dokazna sidra.
+8) NN je dokazni izvor, Veritas izvodi operativni tekst, a `zakon.hr` je
+   kontrolni izvor.
 9) NORMA JSON i POSTUPAK JSON su obavezni standardi.
 10) Svaki značajan korak evidentira se u `DNEVNIK_RADA.md`.
 11) `DNEVNIK_RADA.md` je append-only i ne smije se prepisivati.
@@ -39,6 +40,14 @@ Osigurava jednoznačno značenje ključnih termina.
 ### `TEHNIČKI_OKVIR_VERITAS_H77.md`
 Definira tehnički okvir rada repozitorija i reprodukcije okruženja.
 Sadrži pravila artefakata, izvora, snapshota i kontrole kvalitete.
+
+### `INVENTURA_NORMATIVNOG_OKVIRA_AI_SUSTAVA_VERITAS_H77.md`
+Uspostavlja radni dokazni popis internih i vanjskih normativnih područja.
+Definira statuse primjenjivosti, razine dokaza i uvjete ocjene sukladnosti.
+
+### `MATRICA_PROVEDBE_NORMI_AI_SUSTAVA_VERITAS_H77.md`
+Povezuje poprečne norme s dokumentacijom, kodom, testovima i CI provedbom.
+Razdvaja dokazanu sukladnost od djelomične provedbe i nedostatka dokaza.
 
 ### `STANDARD_JSON_NORMA.md`
 Definira standard zapisa norme u JSON formatu s člankom kao jedinicom.

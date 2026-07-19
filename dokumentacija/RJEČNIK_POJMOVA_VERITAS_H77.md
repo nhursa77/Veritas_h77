@@ -1,6 +1,6 @@
 # RJEČNIK_POJMOVA_VERITAS_H77
 
-Datum: 17.02.2026.
+Datum: 18.07.2026.
 Status: kanonski
 
 ---
@@ -41,16 +41,22 @@ Izvor je mjesto iz kojeg potječe tekst norme ili dokaz. Izvor mora biti
 naveden radi provjerljivosti.
 
 ### Operativni izvor
-Operativni izvor je radni tekst za strukturiranje i obradu. Primjer je
-pročišćeni tekst na zakon.hr.
+Operativni izvor je Veritasov radni tekst izveden iz validiranog skupa
+izvornog akta i svih relevantnih izmjena objavljenih u Narodnim novinama.
+Kontrolni pročišćeni tekst, primjerice na `zakon.hr`, nije operativni izvor.
 
 ### Pročišćeni tekst
-Pročišćeni tekst je konsolidirana verzija zakona/akta koja uključuje važeće
-izmjene i dopune do „stanja na dan”.
-U Veritasu je to operativni set i njegova mapa se obavezno imenuje
-`<akt_slug>_procisceni`.
+Pročišćeni tekst je konsolidirana verzija zakona ili drugog akta koja
+uključuje važeće izmjene i dopune do „stanja na dan”.
+U Veritasu je operativni pročišćeni tekst interni izvedeni set i njegova mapa
+se obavezno imenuje `<akt_slug>_procisceni`.
 NN objave (uključivo amandmane) čine dokazni sloj (`sidra`), a stariji
 snapshotovi se spremaju u `arhiva/<akt_slug>/<source_set_slug>/`.
+
+### Kontrolni izvor
+Kontrolni izvor je pomoćni tekst za usporedbu s Veritasovim izvedenim
+operativnim tekstom. `zakon.hr` može služiti kao kontrolni izvor, ali ne
+zamjenjuje NN dokazni skup i ne preuzima se automatski kao konačan tekst.
 
 ### Dokazni izvor
 Dokazni izvor je službena objava koja potvrđuje valjanost norme. U RH su to
@@ -148,9 +154,10 @@ izlazom. Služi očuvanju autentičnosti traga.
 Revizija je izmjena sadržaja kroz vrijeme. Verzija označava konkretno stanje
 zapisa u određenom trenutku.
 
-### Nesklad (razlika zakon.hr vs NN)
-Nesklad je razlika između operativnog i dokaznog izvora. U slučaju nesklada,
-prednost ima službena objava i zapis se označava.
+### Nesklad izvora
+Nesklad je razlika između izvedenog operativnog teksta, kontrolnog izvora ili
+NN dokaznog skupa. Nesklad se označava i razrješava ponovnom provjerom
+izvornog akta i pojedinačnih NN izmjena. Prednost ima NN dokazni skup.
 
 ### Rizik (kad sidro nije puno)
 Rizik je jasno označena pravna ili dokazna nesigurnost. Označava se kada sidro

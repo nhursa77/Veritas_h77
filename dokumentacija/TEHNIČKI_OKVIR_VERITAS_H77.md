@@ -1,6 +1,6 @@
 # TEHNIČKI_OKVIR_VERITAS_H77
 
-Datum: 25.03.2026.
+Datum: 18.07.2026.
 Status: kanonski
 Opseg: lokalni rad Veritas H.77 na Windows okruženju uz kanonski GitHub.
 
@@ -153,17 +153,23 @@ Odluke o slanju i potpisu ostaju na čovjeku.
 
 ## 6) Ingest i izvori
 
-Primarni izvor je Narodne novine (dokazni i operativni tekst).
+Primarni dokazni izvor su Narodne novine. Dokazni skup obuhvaća izvorni akt
+i sve objavljene izmjene potrebne za utvrđeno stanje na dan.
 Primarna arhiva izvora je:
 
 - `izvori/dokazno/narodne_novine/<akt_slug>/`
+
+Operativni pročišćeni tekst interni je proizvod izveden iz validiranog i
+potpunog NN skupa. Nije službeni pročišćeni tekst, osim kada ga je nadležno
+tijelo objavilo u tom svojstvu.
 
 Opcionalni kontrolni izvor je zakon.hr:
 
 - `izvori/kontrolno/zakon_hr/<akt_slug>/`
 
-Ako postoji nesklad između pomoćnog izvora i NN izvora, nesklad se mora
-označiti i evidentirati. U slučaju nesklada prednost ima NN izvor.
+Ako postoji nesklad između izvedenog, kontrolnog i NN dokaznog sloja, nesklad
+se mora označiti i evidentirati. Razrješava se ponovnom provjerom izvornog
+akta i pojedinačnih NN izmjena; NN dokazni skup ima prvenstvo.
 
 ### Logički naziv vs fizička putanja
 Logički naziv “baza normi” označava koncept sloja normi.

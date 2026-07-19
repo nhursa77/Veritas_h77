@@ -52,6 +52,92 @@ Veritas nije:
 - autonomni pošiljatelj podnesaka,
 - sustav koji stvara nova prava ili propise.
 
+### 2.3 Planirani nositelj i korisnički opseg
+
+Planirani nositelj Veritasa je udruga `Hrvatski narod`. Dok udruga nije
+osnovana, upisana u registar i formalno ne preuzme sustav, ta se oznaka ne
+smije prikazivati kao dokazano pravno vlasništvo ili svojstvo pružatelja.
+
+Veritas je planiran za javnu uporabu svim zainteresiranim osobama. Javni
+opseg ne znači da Veritas smije pružati svaku vrstu pravne usluge. Prije
+puštanja pojedine funkcije mora se utvrditi ostaje li ona opća pravna
+informacija ili predstavlja individualizirani pravni savjet odnosno drugi
+oblik pravne pomoći za koji su propisani poseban status, stručne osobe,
+osiguranje i nadzor.
+
+Planirani model je da udruga prije pružanja individualizirane primarne
+pravne pomoći stekne i dokaže sva potrebna ovlaštenja. Do tada javni sustav
+smije pružati samo opće pravne informacije i raditi sa sintetičkim
+primjerima. Nedostatak dokaza o ovlaštenju je `TVRDI_GATE`.
+
+Početni korisnički opseg čine punoljetne fizičke osobe. Uključivanje
+maloljetnika, pravnih osoba, odvjetnika ili tijela javne vlasti zahtijeva
+zasebnu procjenu i izričitu odluku vlasnika.
+
+Početni teritorijalni i pravni opseg je Republika Hrvatska. Pravo Europske
+unije i međunarodni ugovori uključuju se kada su primjenjivi u hrvatskom
+pravnom poretku ili na konkretni predmet.
+
+### 2.4 Kombinirani model dostupnosti i naplate
+
+Kombinirani model ima dvije odvojene razine:
+
+1. besplatne opće pravne informacije i početnu provjeru dopuštenosti;
+2. moguću naplatnu funkciju samo za uslugu koju udruga prema dokazano
+   primjenjivim propisima smije pružiti i naplatiti.
+
+Status ovlaštenog pružatelja primarne pravne pomoći nije sam po sebi dokaz
+dopuštenosti naplate. Prije aktiviranja naplatne funkcije moraju se zasebno
+utvrditi pravna osnova usluge, dopuštena uloga udruge, izvori financiranja,
+porezne obveze, zaštita potrošača, cijena, povrat i odgovornost.
+
+Dok ti uvjeti nisu dokazani, naplatna funkcija je blokirana. Postojeći
+standard fer naplate uređuje ponašanje tek nakon otvaranja tog gatea i ne
+može ga sam otvoriti.
+
+### 2.5 Isključeni predmeti i tvrdi gate lišenja slobode
+
+Veritas ne obrađuje kazneno pravo ni kaznene postupke.
+
+Veritas također ne obrađuje predmet ako je prema bilo kojem primjenjivom
+propisu ili mogućem ishodu predmeta moguća:
+
+- kazna zatvora ili zamjena novčane kazne zatvorom;
+- uhićenje, zadržavanje, pritvor, istražni zatvor ili druga mjera lišenja
+  slobode;
+- predaja ili izvršenje odluke koje može neposredno dovesti do lišenja
+  slobode.
+
+Ovo je `TVRDI_GATE`. Provjerava se po konkretnom predmetu i svim
+primjenjivim propisima, a ne samo prema nazivu pravne grane. Zato ni oznaka
+`prekršajni` ni oznaka `upravni` sama po sebi ne dopušta obradu.
+
+Ako mogućnost lišenja slobode nije pouzdano isključena, obrada se zaustavlja
+i predmet se upućuje kvalificiranoj osobi.
+
+Vlasnik projekta potvrdio je ovaj širi opseg zabrane 18.07.2026.
+
+### 2.6 Lokalnost stvarnih predmeta
+
+Stvarni predmeti i svi podaci koji se mogu povezati s osobom obrađuju se
+isključivo lokalno. Ne smiju se slati ChatGPT-u, Codexu, drugom vanjskom
+modelu ni vanjskom API-ju.
+
+Vanjski modeli smiju dobiti samo sintetičke ili dokazivo nepovratno
+anonimizirane podatke. Pseudonimizacija nije dovoljna. Promjena ove norme
+zahtijeva novu izričitu odluku vlasnika i prethodno zatvaranje svih pravnih,
+ugovornih, tehničkih i sigurnosnih uvjeta.
+
+### 2.7 Granica pravne analize
+
+Veritas ne daje autoritativno tumačenje prava, ne donosi konačnu pravnu
+odluku i ne proglašava zakon ili drugi propis neustavnim.
+
+Veritas provodi strukturiranu i izvorno sidrenu analizu moguće ustavne,
+konvencijske i zakonske usklađenosti. Za to mora utvrditi mjerodavne izvore,
+njihovu vremensku verziju, međusobni odnos i mogući postupovni put. Svaki je
+rezultat nacrt za ljudski pregled i odluku nadležne osobe ili tijela.
+
 ---
 
 ## 3) Ključni princip potpisa (pravni učinak)
@@ -75,25 +161,44 @@ Ovo je temelj fer i transparentnog rada:
 
 ---
 
-## 4) Hijerarhija normi (pravilo odlučivanja)
+## 4) Hijerarhija izvora i pravilo odlučivanja
 
-Veritas primjenjuje hijerarhiju normi prema načelu nadređenosti i
-ustavnosti:
+Veritas odvojeno evidentira:
 
-1) Prirodna prava i načela pravičnosti (kao interpretativno mjerilo)
-2) Međunarodni akti temeljnih prava (npr. Opća deklaracija o ljudskim pravima
-i relevantni paktovi)
-3) Ustav Republike Hrvatske
-4) Zakoni (lex specialis > lex generalis; noviji > stariji kada je primjenjivo)
-5) Podzakonski akti i lokalni propisi
+1. obvezujuće izvore prava i njihov odnos u pravnom poretku;
+2. interpretativna mjerila, pravna načela i vrijednosti.
 
-**Pravilo kolizije:** niži akt ne smije derogirati viši. U slučaju kolizije:
+Prirodna prava i načela pravičnosti nisu zasebna razina pozitivnopravne
+hijerarhije iznad Ustava. Mogu se koristiti samo kao obrazloženo
+interpretativno mjerilo kada za to postoji pravna osnova.
 
-- Veritas predlaže argument ustavne/konvencijske neusklađenosti,
-- provodi test razmjernosti (nužnost, prikladnost, razmjernost u užem
-   smislu),
-- bilježi povredu temeljnih prava i predlaže proceduralno zakonit put
-   osporavanja.
+Za svaki predmet Veritas mora iz službenih izvora utvrditi najmanje:
+
+1. Ustav Republike Hrvatske i ustavne zakone koji su primjenjivi;
+2. pravo Europske unije u području njegove primjene;
+3. objavljene i važeće međunarodne ugovore koji su dio unutarnjeg pravnog
+   poretka;
+4. zakone;
+5. podzakonske i lokalne propise;
+6. pojedinačne akte i odluke relevantne za konkretni postupak.
+
+Redoslijed na ovom popisu nije zamjena za pravnu analizu odnosa Ustava,
+prava Europske unije i međunarodnih ugovora. Taj se odnos za svaki predmet
+mora obrazložiti prema mjerodavnom pravu, području primjene i vremenskoj
+verziji izvora.
+
+Pravila `lex specialis` i `lex posterior` nisu automatski algoritam. Smiju se
+primijeniti tek nakon provjere nadređenosti, područja primjene, prijelaznih
+odredbi i dopuštenosti takvog razrješenja kolizije.
+
+Kada utvrdi pokazatelj moguće kolizije, Veritas:
+
+- ne proglašava propis neustavnim, nezakonitim ili neprimjenjivim;
+- označava moguću neusklađenost i razinu sigurnosti nalaza;
+- navodi suprotstavljene norme i dokazna sidra;
+- provodi test razmjernosti samo kada je on pravno primjenjiv;
+- predlaže proceduralno dopušten put provjere ili osporavanja;
+- zahtijeva ljudski pregled prije uporabe nalaza.
 
 ---
 
@@ -101,14 +206,15 @@ i relevantni paktovi)
 
 Veritas razlikuje:
 
-- **primarni izvor teksta** (dokazni i operativni tekst),
+- **primarni dokazni skup** (izvorni akt i sve objavljene izmjene u NN),
+- **izvedeni operativni tekst** (Veritasov konsolidirani radni tekst),
 - **backup/kontrolni izvor** (opcionalni pomoćni izvor).
 
 ### 5.1 Primarni izvor: Narodne novine
 
 Narodne novine su obavezni primarni izvor za:
 
-- operativni tekst,
+- izvorni tekst akta,
 - službenu objavu propisa,
 - izmjene i dopune,
 - datume i brojeve objave,
@@ -126,12 +232,23 @@ Ako NN izvor nije arhiviran i hashiran:
 - `status_sidra = "nema"`,
 - vanjski izlaz je zabranjen.
 
-### 5.2 Backup i kontrola: zakon.hr (opcijski)
+### 5.2 Izvedeni operativni tekst
+
+Veritas izrađuje operativni pročišćeni tekst iz validiranog i potpunog skupa
+NN objava izvornog akta te svih izmjena i dopuna do stanja na dan.
+
+Taj tekst je interni radni proizvod Veritasa. Nema status službenog
+pročišćenog teksta, osim kada nadležno tijelo izričito objavi takav tekst.
+
+Prije normiranja operativni tekst uspoređuje se s kontrolnim pročišćenim
+tekstom kada je on dostupan. Usporedba ne mijenja dokazno prvenstvo NN skupa.
+
+### 5.3 Backup i kontrola: zakon.hr (opcijski)
 
 zakon.hr je opcionalan backup/kontrolni izvor za tehničku usporedbu.
 Nije dio obaveznog primarnog toka i ne može zamijeniti NN arhivu.
 
-### 5.3 Pravilo sukoba
+### 5.4 Pravilo sukoba
 
 Ako postoji razlika između pomoćnog izvora i službene objave:
 
@@ -139,7 +256,10 @@ Ako postoji razlika između pomoćnog izvora i službene objave:
 - zapis se označava kao “nesklad” i mora sadržavati NN sidro i napomenu
    o odstupanju.
 
-### 5.4 Sinkronizacija repozitorija i kopija
+Nesklad se razrješava ponovnom provjerom izvornog akta i pojedinačnih NN
+izmjena. Veritas ne preuzima automatski ni kontrolni ni izvedeni tekst.
+
+### 5.5 Sinkronizacija repozitorija i kopija
 
 GitHub repozitorij je kanonski izvor istine projekta.
 Lokalna mapa `C:\Veritas_H77` je jedina radna kopija za razvoj.
@@ -294,7 +414,8 @@ dokumentom.
 - norma (NORMA JSON): strukturirani zapis članka propisa s izvorima i sidrima.
 - postupak/procedura (PROCEDURA JSON): strukturirani zapis koraka postupanja.
 - sidro (Narodne novine): službena referenca objave propisa ili izmjene.
-- operativni izvor (pročišćeni tekst, npr. zakon.hr): radni tekst za obradu.
+- operativni tekst: Veritasov radni tekst izveden iz validiranog NN skupa.
+- kontrolni izvor: pomoćni pročišćeni tekst, primjerice na `zakon.hr`.
 - stanje na dan: datum važenja sadržaja koji se koristi u obradi.
 - gate (uvjet prelaska): minimalni uvjeti koje treba ispuniti za sljedeći korak.
 - nacrt: izlazni dokument bez pravnog učinka dok nije potpisan.
