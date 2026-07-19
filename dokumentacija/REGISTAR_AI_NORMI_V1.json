@@ -1,8 +1,40 @@
 {
   "standard_id": "VERITAS_H77_AI_NORME_V1",
-  "verzija": "0.1.0-a1",
+  "verzija": "0.2.0-a2",
   "status": "RADNI_NACRT",
   "datum_provjere": "19.07.2026.",
+  "normativni_autoritet": "IZVEDENI_KONTROLIRANI_PRIKAZ",
+  "autoritet_u_sukobu": "KANONSKI_LJUDSKI_CITLJIVI_IZVOR",
+  "status_uskladenosti": "PROTURJECJE_OTVORENO",
+  "proturjecja": [
+    {
+      "id": "PRO-001",
+      "status": "PROTURJECJE_OTVORENO",
+      "opis": "A2 radni prijedlog razlikuje neposredni rizik lišenja slobode od udaljene mogućnosti zamjenskog zatvora, dok kanonska metodologija zadržava širu blokadu.",
+      "kanonski_izvor": {
+        "putanja": "dokumentacija/METODOLOGIJA_RADA_VERITAS_H77.md",
+        "sidro": "odjeljak 2.5."
+      },
+      "radni_izvor": {
+        "putanja": "dokumentacija/VERITAS_H77_AI_STANDARD.md",
+        "sidro": "odjeljak 5.1."
+      },
+      "pogodene_norme": [
+        "UPR-005"
+      ],
+      "pogodeni_profili": [
+        "PREKRSAJNI_PREDMET"
+      ],
+      "pogodeni_gateovi": [
+        "GATE_LISENJE_SLOBODE"
+      ],
+      "blokira_vanjsku_uporabu": true,
+      "vlasnik_odluke": "vlasnik norme",
+      "odluka_status": "ODLUKA_NIJE_DONESENA",
+      "datum_otvaranja": "19.07.2026.",
+      "datum_razrjesenja": null
+    }
+  ],
   "norme": [
     {
       "id": "UPR-001",
@@ -55,7 +87,8 @@
       "razina_dokaza": "D1",
       "ocjena": "DJELOMICNO",
       "otvorene_praznine": [
-        "Nedostaje strojni gate svih mogućih oblika lišenja slobode."
+        "Nedostaje strojni gate svih mogućih oblika lišenja slobode.",
+        "A2 nijansiranje udaljene mogućnosti zamjenskog zatvora nije kanonski odobreno i vodi se kao PRO-001."
       ]
     },
     {

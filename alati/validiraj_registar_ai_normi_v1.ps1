@@ -86,6 +86,9 @@ if (-not $schemaValid) {
 $ids = [System.Collections.Generic.HashSet[string]]::new(
     [System.StringComparer]::Ordinal
 )
+$conflictIds = [System.Collections.Generic.HashSet[string]]::new(
+    [System.StringComparer]::Ordinal
+)
 $ciSmokePath = Join-Path $repoRoot 'alati\ci_smoke.ps1'
 $ciSmokeText = Get-Content -LiteralPath $ciSmokePath -Raw -Encoding UTF8
 
@@ -165,6 +168,94 @@ foreach ($norma in @($registry.norme)) {
             -Errors $errors `
             -Code 'D5_BEZ_LJUDSKE_ODLUKE' `
             -Detail $id
+    }
+}
+
+$openConflicts = @(
+    $registry.proturjecja | Where-Object {
+        [string]$_.status -eq 'PROTURJECJE_OTVORENO'
+    }
+)
+
+if (
+    [string]$registry.status_uskladenosti -eq 'PROTURJECJE_OTVORENO' -and
+    $openConflicts.Count -eq 0
+) {
+    Add-RegistryError `
+        -Errors $errors `
+        -Code 'STATUS_BEZ_OTVORENOG_PROTURJECJA' `
+        -Detail 'Registar nema zapis otvorenog proturječja.'
+}
+if (
+    [string]$registry.status_uskladenosti -eq 'USKLADENO' -and
+    $openConflicts.Count -gt 0
+) {
+    Add-RegistryError `
+        -Errors $errors `
+        -Code 'LAZNO_USKLADEN_REGISTAR' `
+        -Detail 'Otvoreno proturječje postoji uz status USKLADENO.'
+}
+
+foreach ($conflict in @($registry.proturjecja)) {
+    $conflictId = [string]$conflict.id
+    if (-not $conflictIds.Add($conflictId)) {
+        Add-RegistryError `
+            -Errors $errors `
+            -Code 'DUPLIKAT_PROTURJECJA' `
+            -Detail $conflictId
+    }
+
+    foreach ($sourceName in @('kanonski_izvor', 'radni_izvor')) {
+        $source = $conflict.$sourceName
+        $sourcePath = Resolve-VeritasPath -PathValue ([string]$source.putanja)
+        if (-not (Test-Path -LiteralPath $sourcePath -PathType Leaf)) {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'NEDOSTAJE_IZVOR_PROTURJECJA' `
+                -Detail "$conflictId -> $($source.putanja)"
+        }
+    }
+
+    foreach ($affectedNorm in @($conflict.pogodene_norme)) {
+        if (-not $ids.Contains([string]$affectedNorm)) {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'PROTURJECJE_NEPOZNATA_NORMA' `
+                -Detail "$conflictId -> $affectedNorm"
+        }
+    }
+
+    if ([string]$conflict.status -eq 'PROTURJECJE_OTVORENO') {
+        if (-not [bool]$conflict.blokira_vanjsku_uporabu) {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'OTVORENO_PROTURJECJE_BEZ_BLOKADE' `
+                -Detail $conflictId
+        }
+        if ([string]$conflict.odluka_status -ne 'ODLUKA_NIJE_DONESENA') {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'OTVORENO_PROTURJECJE_S_ODLUKOM' `
+                -Detail $conflictId
+        }
+        if ($null -ne $conflict.datum_razrjesenja) {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'OTVORENO_PROTURJECJE_S_DATUMOM_RAZRJESENJA' `
+                -Detail $conflictId
+        }
+    }
+
+    if ([string]$conflict.status -eq 'RAZRIJESENO') {
+        if (
+            [string]$conflict.odluka_status -ne 'ODLUKA_DONESENA' -or
+            $null -eq $conflict.datum_razrjesenja
+        ) {
+            Add-RegistryError `
+                -Errors $errors `
+                -Code 'RAZRIJESENO_BEZ_ODLUKE_ILI_DATUMA' `
+                -Detail $conflictId
+        }
     }
 }
 

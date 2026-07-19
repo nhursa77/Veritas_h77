@@ -136,6 +136,51 @@ try {
         -Reason 'Neutemeljena razina D4 nije blokirana.'
     Write-Host 'AI_NORM_TEST_CASE=false_d4_blocked RESULT=OK'
 
+    $falseAligned = Copy-AiNormRegistry
+    $falseAligned.status_uskladenosti = 'USKLADENO'
+    $falseAlignedPath = Write-AiNormFixture `
+        -Document $falseAligned `
+        -Name 'false_aligned.json'
+    $falseAlignedResult = Invoke-AiNormValidator -Path $falseAlignedPath
+    Assert-AiNormTest `
+        -Condition (
+            $falseAlignedResult.ExitCode -ne 0 -and
+            $falseAlignedResult.Text -match 'LAZNO_USKLADEN_REGISTAR'
+        ) `
+        -Reason 'Otvoreno proturječje nije blokiralo status USKLADENO.'
+    Write-Host 'AI_NORM_TEST_CASE=false_aligned_blocked RESULT=OK'
+
+    $unblockedConflict = Copy-AiNormRegistry
+    $unblockedConflict.proturjecja[0].blokira_vanjsku_uporabu = $false
+    $unblockedConflictPath = Write-AiNormFixture `
+        -Document $unblockedConflict `
+        -Name 'unblocked_conflict.json'
+    $unblockedConflictResult = Invoke-AiNormValidator `
+        -Path $unblockedConflictPath
+    Assert-AiNormTest `
+        -Condition (
+            $unblockedConflictResult.ExitCode -ne 0 -and
+            $unblockedConflictResult.Text -match (
+                'OTVORENO_PROTURJECJE_BEZ_BLOKADE'
+            )
+        ) `
+        -Reason 'Otvoreno proturječje bez blokade nije zaustavljeno.'
+    Write-Host 'AI_NORM_TEST_CASE=unblocked_conflict_blocked RESULT=OK'
+
+    $unknownNorm = Copy-AiNormRegistry
+    $unknownNorm.proturjecja[0].pogodene_norme = @('ZZZ-999')
+    $unknownNormPath = Write-AiNormFixture `
+        -Document $unknownNorm `
+        -Name 'unknown_norm.json'
+    $unknownNormResult = Invoke-AiNormValidator -Path $unknownNormPath
+    Assert-AiNormTest `
+        -Condition (
+            $unknownNormResult.ExitCode -ne 0 -and
+            $unknownNormResult.Text -match 'PROTURJECJE_NEPOZNATA_NORMA'
+        ) `
+        -Reason 'Proturječje s nepoznatom normom nije zaustavljeno.'
+    Write-Host 'AI_NORM_TEST_CASE=unknown_norm_blocked RESULT=OK'
+
     $testSucceeded = $true
 }
 catch {
